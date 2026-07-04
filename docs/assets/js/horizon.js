@@ -64,7 +64,7 @@
     // Read saved preference, default to zh
     var saved = null;
     try { saved = localStorage.getItem('horizon-lang'); } catch (e) { /* noop */ }
-    var currentLang = saved === 'en' ? 'en' : 'zh';
+    var currentLang = saved === 'zh' ? 'zh' : 'en';  // default English
 
     function updateButtons(lang) {
       if (lang === 'en') {
