@@ -1,10 +1,10 @@
-name: Daily Horizon Summary
+name: Weekly Horizon Summary
 
 on:
   schedule:
     # GitHub scheduled workflows use UTC and can be heavily delayed at the top
     # of the hour. 00:17 UTC is 08:17 Asia/Shanghai.
-    - cron: '17 0 * * *'
+    - cron: '17 0 * * 1'   # weekly, Mondays 00:17 UTC (02:17 Paris)
   workflow_dispatch:      # Allow manual trigger
 
 jobs:
@@ -37,7 +37,7 @@ jobs:
           # Modify these based on your data/config.github.json provider settings
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           APIFY_TOKEN: ${{ secrets.APIFY_TOKEN }}
-        run: uv run horizon --hours 24
+        run: uv run horizon --hours 168
 
       - name: Set current date as environment variable
         run: echo "DATE=$(date +'%Y-%m-%d')" >> $GITHUB_ENV
