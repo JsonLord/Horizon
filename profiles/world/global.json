@@ -88,12 +88,5 @@
     "json": true,
     "changes": true
   },
-  "feeds": [
-    {
-      "name": "Simon Willison (existing Horizon public feed)",
-      "url": "https://simonwillison.net/atom/everything/",
-      "topic": "technology",
-      "region": "unknown"
-    }
-  ]
+  "feeds": []
 }

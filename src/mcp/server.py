@@ -497,7 +497,7 @@ def r_effective_config() -> dict[str, Any]:
 
 
 
-# High-level research facades share the HTTP/Actions implementation.
+# High-level research facades share the local/Actions implementation.
 from src.research.service import ResearchService
 research = ResearchService()
 from src.research.remote import RemoteArchive

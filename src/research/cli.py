@@ -12,7 +12,8 @@ async def run(args):
     from .history import restore
     from .profiles import load_profiles
 
-    if args.profile_id and args.profile_id not in load_profiles():
+    profiles = load_profiles()
+    if args.profile_id and args.profile_id not in profiles:
         raise ValueError("Only repository-reviewed profiles are allowed")
     if args.lookback_hours is not None and not 1 <= args.lookback_hours <= 168:
         raise ValueError("Lookback must be 1–168 hours")
@@ -35,7 +36,11 @@ async def run(args):
     failed = False
     for pid in ids:
         job = await service.submit(
-            {"profile_id": pid, "lookback_hours": args.lookback_hours},
+            {
+                "profile_id": pid,
+                "lookback_hours": args.lookback_hours,
+                "depth": profiles[pid].max_items,
+            },
             requested_by="github_actions"
             if os.getenv("GITHUB_ACTIONS") == "true"
             else "local_cli",
