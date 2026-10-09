@@ -62,3 +62,5 @@ logs/*.log
 todo.txt
 .ruff_cache
 .pytest_cache
+# Ephemeral research jobs; durable outputs publish on intel branch
+data/research/

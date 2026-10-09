@@ -1,0 +1,486 @@
+{
+  "$defs": {
+    "Evidence": {
+      "properties": {
+        "source_id": {
+          "title": "Source Id",
+          "type": "string"
+        },
+        "location": {
+          "title": "Location",
+          "type": "string"
+        },
+        "snippet": {
+          "maxLength": 500,
+          "title": "Snippet",
+          "type": "string"
+        }
+      },
+      "required": [
+        "source_id",
+        "location",
+        "snippet"
+      ],
+      "title": "Evidence",
+      "type": "object"
+    },
+    "Finding": {
+      "additionalProperties": false,
+      "properties": {
+        "finding_id": {
+          "pattern": "^[a-f0-9]{24}$",
+          "title": "Finding Id",
+          "type": "string"
+        },
+        "event_id": {
+          "title": "Event Id",
+          "type": "string"
+        },
+        "summary": {
+          "maxLength": 500,
+          "title": "Summary",
+          "type": "string"
+        },
+        "classification": {
+          "title": "Classification",
+          "type": "string"
+        },
+        "institutions": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Institutions",
+          "type": "array"
+        },
+        "regions": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Regions",
+          "type": "array"
+        },
+        "topics": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Topics",
+          "type": "array"
+        },
+        "source_ids": {
+          "items": {
+            "type": "string"
+          },
+          "maxItems": 200,
+          "minItems": 1,
+          "title": "Source Ids",
+          "type": "array"
+        },
+        "importance": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Importance"
+        },
+        "profile_relevance": {
+          "title": "Profile Relevance",
+          "type": "number"
+        },
+        "ranking_explanation": {
+          "title": "Ranking Explanation",
+          "type": "string"
+        },
+        "verification": {
+          "enum": [
+            "unverified",
+            "single_primary_source",
+            "multiple_secondary_sources",
+            "single_secondary_source"
+          ],
+          "title": "Verification",
+          "type": "string"
+        },
+        "corroboration": {
+          "title": "Corroboration",
+          "type": "integer"
+        },
+        "published_at": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Published At"
+        },
+        "observed_at": {
+          "title": "Observed At",
+          "type": "string"
+        },
+        "evidence": {
+          "items": {
+            "$ref": "#/$defs/Evidence"
+          },
+          "title": "Evidence",
+          "type": "array"
+        },
+        "limitations": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Limitations",
+          "type": "array"
+        },
+        "provenance": {
+          "title": "Provenance",
+          "type": "string"
+        },
+        "geography": {
+          "$ref": "#/$defs/Geography"
+        },
+        "change_type": {
+          "enum": [
+            "new",
+            "updated",
+            "contradicted",
+            "resolved",
+            "unchanged"
+          ],
+          "title": "Change Type",
+          "type": "string"
+        },
+        "model_selected": {
+          "anyOf": [
+            {
+              "type": "boolean"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Model Selected"
+        }
+      },
+      "required": [
+        "finding_id",
+        "event_id",
+        "summary",
+        "classification",
+        "institutions",
+        "regions",
+        "topics",
+        "source_ids",
+        "profile_relevance",
+        "ranking_explanation",
+        "verification",
+        "corroboration",
+        "published_at",
+        "observed_at",
+        "evidence",
+        "limitations",
+        "provenance",
+        "geography",
+        "change_type"
+      ],
+      "title": "Finding",
+      "type": "object"
+    },
+    "Geography": {
+      "properties": {
+        "event_region": {
+          "default": "unknown",
+          "title": "Event Region",
+          "type": "string"
+        },
+        "confidence": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Confidence"
+        },
+        "evidence": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Evidence",
+          "type": "array"
+        }
+      },
+      "title": "Geography",
+      "type": "object"
+    },
+    "Source": {
+      "additionalProperties": false,
+      "properties": {
+        "source_id": {
+          "pattern": "^[a-f0-9]{24}$",
+          "title": "Source Id",
+          "type": "string"
+        },
+        "original_url": {
+          "maxLength": 2048,
+          "title": "Original Url",
+          "type": "string"
+        },
+        "canonical_url": {
+          "maxLength": 2048,
+          "title": "Canonical Url",
+          "type": "string"
+        },
+        "publisher": {
+          "maxLength": 300,
+          "title": "Publisher",
+          "type": "string"
+        },
+        "source_kind": {
+          "enum": [
+            "primary",
+            "secondary",
+            "social",
+            "unknown"
+          ],
+          "title": "Source Kind",
+          "type": "string"
+        },
+        "published_at": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Published At"
+        },
+        "source_seen_at": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Source Seen At"
+        },
+        "fetched_at": {
+          "title": "Fetched At",
+          "type": "string"
+        },
+        "origin_collector": {
+          "title": "Origin Collector",
+          "type": "string"
+        },
+        "source_country": {
+          "default": "unknown",
+          "title": "Source Country",
+          "type": "string"
+        },
+        "language": {
+          "default": "unknown",
+          "title": "Language",
+          "type": "string"
+        },
+        "search_query": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Search Query"
+        },
+        "profile_id": {
+          "title": "Profile Id",
+          "type": "string"
+        },
+        "institution_id": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Institution Id"
+        },
+        "content_fingerprint": {
+          "title": "Content Fingerprint",
+          "type": "string"
+        }
+      },
+      "required": [
+        "source_id",
+        "original_url",
+        "canonical_url",
+        "publisher",
+        "source_kind",
+        "published_at",
+        "fetched_at",
+        "origin_collector",
+        "profile_id",
+        "content_fingerprint"
+      ],
+      "title": "Source",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "schema_version": {
+      "const": "1.0",
+      "default": "1.0",
+      "title": "Schema Version",
+      "type": "string"
+    },
+    "report_id": {
+      "pattern": "^[a-f0-9]{32}$",
+      "title": "Report Id",
+      "type": "string"
+    },
+    "run_id": {
+      "title": "Run Id",
+      "type": "string"
+    },
+    "profile_id": {
+      "pattern": "^(world|institutions|examples)/[a-z0-9-]{1,64}$",
+      "title": "Profile Id",
+      "type": "string"
+    },
+    "question": {
+      "maxLength": 1000,
+      "title": "Question",
+      "type": "string"
+    },
+    "created_at": {
+      "title": "Created At",
+      "type": "string"
+    },
+    "time_window": {
+      "additionalProperties": true,
+      "title": "Time Window",
+      "type": "object"
+    },
+    "status": {
+      "enum": [
+        "complete",
+        "partial",
+        "failed",
+        "no_new_items"
+      ],
+      "title": "Status",
+      "type": "string"
+    },
+    "model_used": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "title": "Model Used"
+    },
+    "analysis_mode": {
+      "title": "Analysis Mode",
+      "type": "string"
+    },
+    "coverage": {
+      "additionalProperties": true,
+      "title": "Coverage",
+      "type": "object"
+    },
+    "statistics": {
+      "additionalProperties": true,
+      "title": "Statistics",
+      "type": "object"
+    },
+    "findings": {
+      "items": {
+        "$ref": "#/$defs/Finding"
+      },
+      "maxItems": 200,
+      "title": "Findings",
+      "type": "array"
+    },
+    "sources": {
+      "items": {
+        "$ref": "#/$defs/Source"
+      },
+      "maxItems": 3200,
+      "title": "Sources",
+      "type": "array"
+    },
+    "limitations": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Limitations",
+      "type": "array"
+    },
+    "changes": {
+      "items": {
+        "additionalProperties": true,
+        "type": "object"
+      },
+      "title": "Changes",
+      "type": "array"
+    },
+    "errors": {
+      "items": {
+        "additionalProperties": true,
+        "type": "object"
+      },
+      "title": "Errors",
+      "type": "array"
+    },
+    "links": {
+      "additionalProperties": true,
+      "title": "Links",
+      "type": "object"
+    }
+  },
+  "required": [
+    "report_id",
+    "run_id",
+    "profile_id",
+    "question",
+    "created_at",
+    "time_window",
+    "status",
+    "model_used",
+    "analysis_mode",
+    "coverage",
+    "statistics",
+    "findings",
+    "sources",
+    "limitations",
+    "changes",
+    "errors",
+    "links"
+  ],
+  "title": "Report",
+  "type": "object"
+}

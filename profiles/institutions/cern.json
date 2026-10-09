@@ -1,0 +1,68 @@
+{
+  "schema_version": "1.0",
+  "profile_id": "institutions/cern",
+  "mode": "institution_watch",
+  "name": "CERN",
+  "enabled": true,
+  "topics": [
+    "CERN"
+  ],
+  "regions": [
+    "Europe"
+  ],
+  "languages": [
+    "en"
+  ],
+  "queries": [
+    {
+      "source": "google_news",
+      "text": "\"CERN\"",
+      "language": "en",
+      "country": "DE",
+      "topic": "CERN",
+      "region": "Europe"
+    },
+    {
+      "source": "gdelt",
+      "text": "\"CERN\"",
+      "language": "english",
+      "topic": "CERN",
+      "region": "Europe"
+    }
+  ],
+  "sources": [
+    "gdelt",
+    "google_news",
+    "rss"
+  ],
+  "schedule_hint": "daily",
+  "lookback_hours": 48,
+  "max_items": 60,
+  "max_queries": 8,
+  "ranking": {
+    "mode": "institution_relevance",
+    "minimum_score": 0
+  },
+  "output": {
+    "languages": [
+      "en"
+    ],
+    "markdown": true,
+    "json": true,
+    "changes": true
+  },
+  "institution": {
+    "id": "cern",
+    "names": [
+      "CERN",
+      "European Organization for Nuclear Research"
+    ],
+    "aliases": [
+      "CERN"
+    ],
+    "official_domains": [
+      "home.cern"
+    ],
+    "official_feeds": []
+  }
+}

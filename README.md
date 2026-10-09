@@ -402,3 +402,11 @@ Want to share valuable source discoveries with the Horizon community? Please sub
 ## License
 
 [MIT](LICENSE)
+
+## Credential-free agent research
+
+Horizon also provides a bounded worldwide news and institutional research service with an extractive fallback, approved profiles, a single-port FastAPI dashboard and additive MCP research tools. Start it with `uv run python -m uvicorn src.api.app:app --host 0.0.0.0 --port 7860`, or run `uv run python -m src.research.cli --profile-id world/global`.
+
+Remote job submission is **disabled** unless `HORIZON_AGENT_TOKEN` is configured. Space-originated jobs are ephemeral and `local_only`; scheduled GitHub Actions publish the durable `intel` branch with the automatic job token. Public consumers can read `https://raw.githubusercontent.com/JsonLord/Horizon/intel/intel/manifest.json` and `intel/latest/world.json` without a news or model API key. Reports show actual source failures and coverage limitations.
+
+See [implementation, validation and deployment instructions](docs/agent-research.md) for profiles, HTTP/MCP interfaces, authentication boundaries, optional models, archive layout and deployment status. The existing CLI, wizard and MCP stage tools remain available; native scoring now supports explicit `ai.mode=auto|local|off` and deterministic fallback when a model key is absent.
