@@ -41,6 +41,7 @@ class Source(BaseModel):
     profile_id: str
     institution_id: str | None = None
     content_fingerprint: str
+    observations: list[dict] = Field(default_factory=list, max_length=32)
 
 
 class Finding(BaseModel):

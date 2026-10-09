@@ -328,6 +328,15 @@
         "content_fingerprint": {
           "title": "Content Fingerprint",
           "type": "string"
+        },
+        "observations": {
+          "items": {
+            "additionalProperties": true,
+            "type": "object"
+          },
+          "maxItems": 32,
+          "title": "Observations",
+          "type": "array"
         }
       },
       "required": [

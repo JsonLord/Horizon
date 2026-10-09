@@ -224,3 +224,26 @@ def test_agent_question_sources_and_institutions(tmp_path):
         ]
 
     asyncio.run(run())
+
+
+def test_cross_language_same_url_retains_query_provenance():
+    from src.research.analyzers import analyze
+
+    profile = load_profiles()["world/global"]
+    first = fixture_item(
+        title="FICTIONAL multilingual test announcement",
+        url="https://example.org/fixture",
+    )
+    first.metadata.update(
+        search_query="fixture english", language="English", query_region="Europe"
+    )
+    second = fixture_item(
+        title="FIKTIVE mehrsprachige Testankündigung", url="https://example.org/fixture"
+    )
+    second.metadata.update(
+        search_query="fixture german", language="German", query_region="Europe"
+    )
+    findings, sources = analyze(profile, [first, second])
+    assert len(findings) == 1 and len(sources) == 1
+    assert {o["language"] for o in sources[0]["observations"]} == {"English", "German"}
+    assert len(findings[0]["source_ids"]) == 1

@@ -62,6 +62,7 @@ def mentions(institution, title):
 def analyze(profile, items, previous=None):
     sources = {}
     groups = {}
+    source_groups = {}
     moment = datetime.now(UTC)
     now = moment.isoformat()
     terms = [x.lower() for x in profile.topics]
@@ -110,6 +111,7 @@ def analyze(profile, items, previous=None):
             continue
         sid = ident(url)
         meta = item.metadata
+        prior_source = sources.get(sid)
         sources[sid] = {
             "source_id": sid,
             "original_url": public_original(item.url),
@@ -137,17 +139,45 @@ def analyze(profile, items, previous=None):
             "institution_id": institution.id if institution else None,
             "content_fingerprint": ident(title),
         }
+        observation = {
+            "collector": item.source_type.value,
+            "search_query": meta.get("search_query"),
+            "language": meta.get("language", meta.get("query_language", "unknown")),
+            "search_region": meta.get("query_region", "unknown"),
+            "title": title,
+        }
+        if prior_source:
+            for field in (
+                "published_at",
+                "source_seen_at",
+                "publisher",
+                "source_country",
+                "language",
+            ):
+                if prior_source.get(field) not in (None, "unknown"):
+                    sources[sid][field] = prior_source[field]
+            sources[sid]["observations"] = prior_source.get("observations", [])
+        else:
+            sources[sid]["observations"] = []
+        if (
+            observation not in sources[sid]["observations"]
+            and len(sources[sid]["observations"]) < 32
+        ):
+            sources[sid]["observations"].append(observation)
         # Exact normalized title grouping retains independent publisher evidence.
-        key = ident(re.sub(r"\W+", " ", text).strip())
+        key = source_groups.get(sid) or ident(re.sub(r"\W+", " ", text).strip())
         # Conservative lexical semantic grouping avoids collapsing distinct dates/numbers.
         tokens = set(re.findall(r"\w+", text))
         numbers = set(re.findall(r"\d+", text))
-        for existing_key, existing in groups.items():
+        for existing_key, existing in (
+            groups.items() if sid not in source_groups else []
+        ):
             et = set(re.findall(r"\w+", existing["summary"].lower()))
             en = set(re.findall(r"\d+", existing["summary"]))
             if numbers == en and tokens and len(tokens & et) / len(tokens | et) >= 0.85:
                 key = existing_key
                 break
+        source_groups[sid] = key
         group = groups.setdefault(
             key,
             {
