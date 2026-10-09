@@ -284,6 +284,7 @@ def test_merged_assignment_limit_preserves_existing_file(tmp_path):
 
 
 def test_scheduled_cli_honors_profile_item_limit(tmp_path, monkeypatch):
+    monkeypatch.setenv("GITHUB_ACTIONS", "false")
     from argparse import Namespace
     from src.research import cli, history, profiles as profile_module
 

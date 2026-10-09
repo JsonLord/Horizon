@@ -45,6 +45,16 @@
       },
       "title": "Artifacts",
       "type": "array"
+    },
+    "schedule": {
+      "additionalProperties": true,
+      "title": "Schedule",
+      "type": "object"
+    },
+    "workflow": {
+      "additionalProperties": true,
+      "title": "Workflow",
+      "type": "object"
     }
   },
   "required": [

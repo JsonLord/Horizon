@@ -1,6 +1,23 @@
 # GitHub-native agent research
 
-The corrected root `spec.md` is the acceptance contract. This update continues PR #1 on `feat/agent-research`; scheduled and remote execution uses GitHub-hosted runners exclusively. Existing CLI, wizard, scrapers, deterministic fallback and local stdio MCP remain available for development.
+The corrected root `spec.md` and its appended controller/scheduling task are the acceptance contract. PR #1 is merged; this implementation uses `feat/actions-mcp-schedules` and preserves PR #2's source registry. Scheduled and remote execution uses GitHub-hosted runners exclusively. Existing CLI, wizard, scrapers, deterministic fallback and local stdio MCP remain available for development.
+
+## Controller and scheduling implementation — 2026-10-10 Europe/Berlin
+
+- [x] Add 15 production MCP tools (39 total), approved remote profile discovery, bounded GitHub REST access through existing identity, explicit revision allowlists and safe error responses.
+- [x] Dispatch with `return_run_details=true`; correlate 204 acknowledgements using opaque request IDs. Persist exclusive recovery reservations before POST; reconcile uncertain writes instead of blindly retrying. Bounded cross-client lookup and stable runner report IDs prevent duplicate archival findings.
+- [x] Distinguish collection, runner and publication outcomes. Retrieve exact run/profile JSON, Markdown or evidence-preserving summary using commit-pinned identity, lengths and SHA-256 checks; never substitute latest.
+- [x] Add schedule registry/schema/generator, strict profile/cron/time-zone/lookback/limit validation, native per-entry workflows, shared reusable collection/publication and CI drift checks. Migrate exactly five existing daily profiles; remove the old batch cron from the manual workflow.
+- [x] Implement schedule creation/update/pause/resume/delete and source/profile proposals through reviewable PRs, with deterministic branch reuse, conflict checks, no force updates and no merge operation. Separate default-branch activation from pending proposals.
+- [x] Preserve actual workflow/source/schedule/comparison provenance, immutable evidence and last-good behavior. Replay manual request IDs/native reruns without collecting or publishing duplicates. Unavailable nominal schedule timestamps remain null.
+- [x] Document all controls, source editing and production boundaries in AGENTS.md, README, controller/schedule references, client example and exported tool schemas.
+- [x] Local validation: **381 passed**, zero failures/skips (4.93 seconds); original configuration smoke passes; real stdio smoke passes with 39 tools/nine profiles; schedule/schema/generator checks pass with five entries; Ruff E9/F and Git whitespace checks pass.
+- [x] All workflows pass actionlint through the documented narrow compatibility wrapper: v1.7.12 predates GitHub's documented `concurrency.queue=max`; the wrapper independently validates this field while retaining every other lint check. Native maximum queue prevents replacement of older pending daily jobs; up to 100 pending jobs remains a GitHub limit.
+- [x] Live read of the previously published run `37995170028`: exact report `b1c39a7a56e644ed8e551659d97abec7`, publication `cffb24d93e0b13602e782cfd12f10b8965a5e227`, successful collection/publication and source revision `3de83ea8b819436ab9be078aed3e18ede6033c33` verified through the new controller.
+- [ ] Push integration branch, dispatch a new real Actions job through MCP, verify automatic-token publication and independent retrieval, and record actual IDs/results below.
+- [ ] Open a new PR against main, preserving PR #2. Default-branch activation remains pending approval/merge; no future scheduled run has been claimed.
+
+The new implementation deploys no Space, server or additional port. Until merge, main still executes the previously activated daily batch and lacks the new shared workflow/registry; default-branch schedule mutations correctly return `CONTROLLER_NOT_ACTIVATED`. The Berlin weekday example is a documented proposal, not an activated schedule. Exact control contracts and known idempotency/DST/delivery limits are in [mcp-controller.md](mcp-controller.md).
 
 ```mermaid
 flowchart LR
