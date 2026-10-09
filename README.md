@@ -407,4 +407,16 @@ Want to share valuable source discoveries with the Horizon community? Please sub
 
 GitHub-hosted Actions runners collect approved world and institution profiles, compare with the verified `intel` archive, and publish source-attributed JSON and Markdown using the automatic job token. No news or model API key is required. Authorized agents dispatch `horizon-intel.yml`; public consumers read the archive anonymously. The existing CLI, wizard and local stdio MCP tools remain available.
 
+For source registration, profile settings and agent steering, read [AGENTS.md](AGENTS.md). Register a public feed with `uv run horizon-source add --url URL --name NAME --profile-id world/global`, then review its changes to `sources/registry.json` in a PR.
+
 See [the agent playbook and verification record](docs/agent-research.md) for dispatch, run status, report provenance, public archive paths and limitations. Native scoring supports `ai.mode=auto|local|off` with deterministic fallback.
+
+### GitHub Actions MCP controller and schedules
+
+Start `uv run horizon-mcp` with your existing GitHub login or secure `GH_TOKEN`/`GITHUB_TOKEN` binding. Production tools discover approved GitHub profiles, dispatch `horizon-intel.yml`, inspect actual runner/publication status, and retrieve checksum-verified reports for an exact run. Public archive reads require no authentication. The original local CLI and MCP tools remain available.
+
+Use `hz_list_github_profiles`, then `hz_dispatch_research(profile_id="institutions/ecb", lookback_hours=48, request_id="ecb-review-20261010")`. Poll the returned ID with `hz_get_workflow_run` and read `hz_get_workflow_report`. Remote dispatch accepts approved profiles and explicitly allowed Git revisions; a successful workflow alone does not prove publication.
+
+Schedules are reviewed configuration in [`schedules/registry.json`](schedules/registry.json). `hz_create_schedule`, update, pause, resume and delete tools propose PRs; they never merge or silently activate changes. Each enabled schedule generates a native GitHub workflow calling the shared research workflow. For example, ECB monitoring can use `cron="30 8 * * 1-5"`, `timezone="Europe/Berlin"`, and `lookback_hours=24`. Source/profile changes also have validated PR tools, preserving the [URL registry](sources/registry.json) and `horizon-source` CLI.
+
+See the [controller reference](docs/mcp-controller.md), [MCP client example](examples/mcp-client.json), [exact tool schemas](schemas/mcp-controller-tools.json), [schedule instructions](schedules/README.md), and [agent editing guide](AGENTS.md). Activation requires this implementation on the default branch; branch smoke tests do not activate native schedules.

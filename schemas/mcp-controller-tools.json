@@ -1,0 +1,529 @@
+{
+  "schema_version": "1.0",
+  "tools": {
+    "hz_create_schedule": {
+      "description": "Propose a validated native cron schedule through a PR; it remains pending_review until merged.",
+      "inputSchema": {
+        "properties": {
+          "cron": {
+            "title": "Cron",
+            "type": "string"
+          },
+          "description": {
+            "default": "",
+            "maxLength": 1000,
+            "title": "Description",
+            "type": "string"
+          },
+          "lookback_hours": {
+            "default": 48,
+            "maximum": 168,
+            "minimum": 1,
+            "title": "Lookback Hours",
+            "type": "integer"
+          },
+          "name": {
+            "maxLength": 120,
+            "minLength": 1,
+            "title": "Name",
+            "type": "string"
+          },
+          "profile_id": {
+            "pattern": "^(world|institutions|examples)/[a-z0-9-]{1,64}$",
+            "title": "Profile Id",
+            "type": "string"
+          },
+          "timezone": {
+            "default": "UTC",
+            "title": "Timezone",
+            "type": "string"
+          }
+        },
+        "required": [
+          "name",
+          "profile_id",
+          "cron"
+        ],
+        "title": "hz_create_scheduleArguments",
+        "type": "object"
+      },
+      "outputSchema": null
+    },
+    "hz_delete_schedule": {
+      "description": "Propose removing schedule/workflow configuration without deleting intel history.",
+      "inputSchema": {
+        "properties": {
+          "schedule_id": {
+            "pattern": "^[a-z0-9][a-z0-9-]{0,63}$",
+            "title": "Schedule Id",
+            "type": "string"
+          }
+        },
+        "required": [
+          "schedule_id"
+        ],
+        "title": "hz_delete_scheduleArguments",
+        "type": "object"
+      },
+      "outputSchema": null
+    },
+    "hz_dispatch_research": {
+      "description": "Dispatch production research through the caller's GitHub identity; return a real run ID or an explicitly pending acknowledgement.",
+      "inputSchema": {
+        "properties": {
+          "lookback_hours": {
+            "default": 48,
+            "maximum": 168,
+            "minimum": 1,
+            "title": "Lookback Hours",
+            "type": "integer"
+          },
+          "profile_id": {
+            "pattern": "^(world|institutions|examples)/[a-z0-9-]{1,64}$",
+            "title": "Profile Id",
+            "type": "string"
+          },
+          "ref": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "title": "Ref"
+          },
+          "request_id": {
+            "anyOf": [
+              {
+                "pattern": "^[a-zA-Z0-9_-]{1,64}$",
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "title": "Request Id"
+          }
+        },
+        "required": [
+          "profile_id"
+        ],
+        "title": "hz_dispatch_researchArguments",
+        "type": "object"
+      },
+      "outputSchema": null
+    },
+    "hz_get_schedule": {
+      "description": "Inspect a schedule's configuration, actual activation, proposals and history.",
+      "inputSchema": {
+        "properties": {
+          "schedule_id": {
+            "pattern": "^[a-z0-9][a-z0-9-]{0,63}$",
+            "title": "Schedule Id",
+            "type": "string"
+          }
+        },
+        "required": [
+          "schedule_id"
+        ],
+        "title": "hz_get_scheduleArguments",
+        "type": "object"
+      },
+      "outputSchema": null
+    },
+    "hz_get_schedule_runs": {
+      "description": "Return observed schedule runs/reports; absent history never fabricates a missed-run verdict.",
+      "inputSchema": {
+        "properties": {
+          "limit": {
+            "default": 20,
+            "maximum": 50,
+            "minimum": 1,
+            "title": "Limit",
+            "type": "integer"
+          },
+          "schedule_id": {
+            "pattern": "^[a-z0-9][a-z0-9-]{0,63}$",
+            "title": "Schedule Id",
+            "type": "string"
+          }
+        },
+        "required": [
+          "schedule_id"
+        ],
+        "title": "hz_get_schedule_runsArguments",
+        "type": "object"
+      },
+      "outputSchema": null
+    },
+    "hz_get_workflow_report": {
+      "description": "Retrieve only this run's report, verifying checksums and providing pinned links; never substitute latest.",
+      "inputSchema": {
+        "properties": {
+          "format": {
+            "default": "json",
+            "enum": [
+              "json",
+              "markdown",
+              "summary"
+            ],
+            "title": "Format",
+            "type": "string"
+          },
+          "profile_id": {
+            "anyOf": [
+              {
+                "pattern": "^(world|institutions|examples)/[a-z0-9-]{1,64}$",
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "title": "Profile Id"
+          },
+          "run_id": {
+            "exclusiveMinimum": 0,
+            "title": "Run Id",
+            "type": "integer"
+          }
+        },
+        "required": [
+          "run_id"
+        ],
+        "title": "hz_get_workflow_reportArguments",
+        "type": "object"
+      },
+      "outputSchema": null
+    },
+    "hz_get_workflow_run": {
+      "description": "Distinguish runner, collection, publisher job and verified archive completion.",
+      "inputSchema": {
+        "properties": {
+          "run_id": {
+            "exclusiveMinimum": 0,
+            "title": "Run Id",
+            "type": "integer"
+          }
+        },
+        "required": [
+          "run_id"
+        ],
+        "title": "hz_get_workflow_runArguments",
+        "type": "object"
+      },
+      "outputSchema": null
+    },
+    "hz_list_github_profiles": {
+      "description": "Discover approved remote profiles/institutions at an authorized GitHub ref.",
+      "inputSchema": {
+        "properties": {
+          "ref": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "title": "Ref"
+          }
+        },
+        "title": "hz_list_github_profilesArguments",
+        "type": "object"
+      },
+      "outputSchema": null
+    },
+    "hz_list_schedules": {
+      "description": "List default-branch activation state, upcoming estimates and pending schedule PRs.",
+      "inputSchema": {
+        "properties": {},
+        "title": "hz_list_schedulesArguments",
+        "type": "object"
+      },
+      "outputSchema": null
+    },
+    "hz_list_workflow_runs": {
+      "description": "List bounded Horizon executions; indexed publication is separately verified by report/run tools.",
+      "inputSchema": {
+        "properties": {
+          "limit": {
+            "default": 20,
+            "maximum": 50,
+            "minimum": 1,
+            "title": "Limit",
+            "type": "integer"
+          },
+          "profile_id": {
+            "anyOf": [
+              {
+                "pattern": "^(world|institutions|examples)/[a-z0-9-]{1,64}$",
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "title": "Profile Id"
+          },
+          "status": {
+            "anyOf": [
+              {
+                "enum": [
+                  "queued",
+                  "in_progress",
+                  "completed",
+                  "requested",
+                  "waiting",
+                  "pending",
+                  "success",
+                  "failure",
+                  "cancelled",
+                  "timed_out",
+                  "action_required",
+                  "neutral",
+                  "skipped",
+                  "stale"
+                ],
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "title": "Status"
+          }
+        },
+        "title": "hz_list_workflow_runsArguments",
+        "type": "object"
+      },
+      "outputSchema": null
+    },
+    "hz_pause_schedule": {
+      "description": "Propose disabling future executions, preserving all research history.",
+      "inputSchema": {
+        "properties": {
+          "schedule_id": {
+            "pattern": "^[a-z0-9][a-z0-9-]{0,63}$",
+            "title": "Schedule Id",
+            "type": "string"
+          }
+        },
+        "required": [
+          "schedule_id"
+        ],
+        "title": "hz_pause_scheduleArguments",
+        "type": "object"
+      },
+      "outputSchema": null
+    },
+    "hz_propose_research_profile": {
+      "description": "Validate a profile/feed proposal and open/reuse a reviewable GitHub PR.",
+      "inputSchema": {
+        "properties": {
+          "profile": {
+            "additionalProperties": true,
+            "title": "Profile",
+            "type": "object"
+          }
+        },
+        "required": [
+          "profile"
+        ],
+        "title": "hz_propose_research_profileArguments",
+        "type": "object"
+      },
+      "outputSchema": null
+    },
+    "hz_propose_source": {
+      "description": "Validate public RSS/Atom and propose reviewed source assignments, never arbitrary remote collection.",
+      "inputSchema": {
+        "properties": {
+          "feed_url": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "title": "Feed Url"
+          },
+          "name": {
+            "title": "Name",
+            "type": "string"
+          },
+          "profile_ids": {
+            "items": {
+              "pattern": "^(world|institutions|examples)/[a-z0-9-]{1,64}$",
+              "type": "string"
+            },
+            "maxItems": 20,
+            "minItems": 1,
+            "title": "Profile Ids",
+            "type": "array"
+          },
+          "region": {
+            "default": "unknown",
+            "title": "Region",
+            "type": "string"
+          },
+          "topic": {
+            "default": "general",
+            "title": "Topic",
+            "type": "string"
+          },
+          "url": {
+            "title": "Url",
+            "type": "string"
+          }
+        },
+        "required": [
+          "url",
+          "name",
+          "profile_ids"
+        ],
+        "title": "hz_propose_sourceArguments",
+        "type": "object"
+      },
+      "outputSchema": null
+    },
+    "hz_resume_schedule": {
+      "description": "Propose re-enabling a schedule; requires merge before activation.",
+      "inputSchema": {
+        "properties": {
+          "schedule_id": {
+            "pattern": "^[a-z0-9][a-z0-9-]{0,63}$",
+            "title": "Schedule Id",
+            "type": "string"
+          }
+        },
+        "required": [
+          "schedule_id"
+        ],
+        "title": "hz_resume_scheduleArguments",
+        "type": "object"
+      },
+      "outputSchema": null
+    },
+    "hz_update_schedule": {
+      "description": "Propose changed schedule fields in a PR; existing execution continues until approval/merge.",
+      "inputSchema": {
+        "properties": {
+          "cron": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "title": "Cron"
+          },
+          "description": {
+            "anyOf": [
+              {
+                "maxLength": 1000,
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "title": "Description"
+          },
+          "enabled": {
+            "anyOf": [
+              {
+                "type": "boolean"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "title": "Enabled"
+          },
+          "lookback_hours": {
+            "anyOf": [
+              {
+                "maximum": 168,
+                "minimum": 1,
+                "type": "integer"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "title": "Lookback Hours"
+          },
+          "name": {
+            "anyOf": [
+              {
+                "maxLength": 120,
+                "minLength": 1,
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "title": "Name"
+          },
+          "profile_id": {
+            "anyOf": [
+              {
+                "pattern": "^(world|institutions|examples)/[a-z0-9-]{1,64}$",
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "title": "Profile Id"
+          },
+          "schedule_id": {
+            "pattern": "^[a-z0-9][a-z0-9-]{0,63}$",
+            "title": "Schedule Id",
+            "type": "string"
+          },
+          "timezone": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "title": "Timezone"
+          }
+        },
+        "required": [
+          "schedule_id"
+        ],
+        "title": "hz_update_scheduleArguments",
+        "type": "object"
+      },
+      "outputSchema": null
+    }
+  }
+}

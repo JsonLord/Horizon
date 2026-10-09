@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "horizon": {
+      "command": "uv",
+      "args": ["--directory", "/absolute/path/to/Horizon", "run", "horizon-mcp"],
+      "env": {
+        "HORIZON_GITHUB_REPO": "JsonLord/Horizon",
+        "HORIZON_GITHUB_DEFAULT_REF": "main",
+        "HORIZON_GITHUB_ALLOWED_REFS": "main"
+      }
+    }
+  }
+}

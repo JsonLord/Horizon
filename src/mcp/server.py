@@ -497,15 +497,121 @@ def r_effective_config() -> dict[str, Any]:
 
 
 
-# High-level research facades share the HTTP/Actions implementation.
+# High-level research facades share the local/Actions implementation.
 from src.research.service import ResearchService
 research = ResearchService()
 from src.research.remote import RemoteArchive
 research_remote = RemoteArchive()
 
+# Production control uses GitHub only. Existing local research facades below
+# remain development helpers, with publication_status=local_only.
+from typing import Annotated, Literal
+from pydantic import Field, ValidationError
+from src.control.controller import Controller
+from src.control.github import ControlError
+import asyncio
+github_control = Controller()
+ProfileId = Annotated[str, Field(pattern=r"^(world|institutions|examples)/[a-z0-9-]{1,64}$")]
+ScheduleId = Annotated[str, Field(pattern=r"^[a-z0-9][a-z0-9-]{0,63}$")]
+RunId = Annotated[int, Field(gt=0)]
+Hours = Annotated[int, Field(ge=1, le=168)]
+Limit = Annotated[int, Field(ge=1, le=50)]
+RequestId = Annotated[str, Field(pattern=r"^[a-zA-Z0-9_-]{1,64}$")]
+
+async def _control_call(operation, **kwargs):
+    try:
+        async with asyncio.timeout(180):
+            return {"ok": True, **(await operation(**kwargs))}
+    except ControlError as exc:
+        return {"ok": False, "error": {"code": exc.code, "message": exc.message, "details": exc.details}}
+    except ValidationError:
+        return {"ok": False, "error": {"code": "INVALID_CONFIGURATION", "message": "Configuration violates its schema; inspect the documented bounds and fields."}}
+    except ValueError as exc:
+        return {"ok": False, "error": {"code": "INVALID_INPUT", "message": str(exc)[:400]}}
+    except TimeoutError:
+        return {"ok": False, "error": {"code": "CONTROL_TIMEOUT", "message": "Operation timed out; reconcile GitHub run/branch/PR state before retrying a write."}}
+    except Exception:
+        return {"ok": False, "error": {"code": "CONTROL_FAILED", "message": "Controller operation failed; inspect operator logs without exposing credentials."}}
+
+@mcp.tool()
+async def hz_list_github_profiles(ref: str | None = None) -> dict:
+    """Discover approved remote profiles/institutions at an authorized GitHub ref."""
+    return await _control_call(github_control.profiles, ref=ref)
+
+@mcp.tool()
+async def hz_dispatch_research(profile_id: ProfileId, lookback_hours: Hours = 48, request_id: RequestId | None = None, ref: str | None = None) -> dict:
+    """Dispatch production research through the caller's GitHub identity; return a real run ID or an explicitly pending acknowledgement."""
+    return await _control_call(github_control.dispatch, profile_id=profile_id, lookback_hours=lookback_hours, request_id=request_id, ref=ref)
+
+@mcp.tool()
+async def hz_get_workflow_run(run_id: RunId) -> dict:
+    """Distinguish runner, collection, publisher job and verified archive completion."""
+    return await _control_call(github_control.workflow_run, run_id=run_id)
+
+@mcp.tool()
+async def hz_get_workflow_report(run_id: RunId, profile_id: ProfileId | None = None, format: Literal["json", "markdown", "summary"] = "json") -> dict:
+    """Retrieve only this run's report, verifying checksums and providing pinned links; never substitute latest."""
+    return await _control_call(github_control.workflow_report, run_id=run_id, profile_id=profile_id, format=format)
+
+@mcp.tool()
+async def hz_list_workflow_runs(profile_id: ProfileId | None = None, status: Literal["queued", "in_progress", "completed", "requested", "waiting", "pending", "success", "failure", "cancelled", "timed_out", "action_required", "neutral", "skipped", "stale"] | None = None, limit: Limit = 20) -> dict:
+    """List bounded Horizon executions; indexed publication is separately verified by report/run tools."""
+    return await _control_call(github_control.list_runs, profile_id=profile_id, status=status, limit=limit)
+
+@mcp.tool()
+async def hz_list_schedules() -> dict:
+    """List default-branch activation state, upcoming estimates and pending schedule PRs."""
+    return await _control_call(github_control.list_schedules)
+
+@mcp.tool()
+async def hz_get_schedule(schedule_id: ScheduleId) -> dict:
+    """Inspect a schedule's configuration, actual activation, proposals and history."""
+    return await _control_call(github_control.get_schedule, schedule_id=schedule_id)
+
+@mcp.tool()
+async def hz_create_schedule(name: Annotated[str, Field(min_length=1, max_length=120)], profile_id: ProfileId, cron: str, timezone: str = "UTC", lookback_hours: Hours = 48, description: Annotated[str, Field(max_length=1000)] = "") -> dict:
+    """Propose a validated native cron schedule through a PR; it remains pending_review until merged."""
+    return await _control_call(github_control.change_schedule, operation="create", name=name, profile_id=profile_id, cron=cron, timezone=timezone, lookback_hours=lookback_hours, description=description)
+
+@mcp.tool()
+async def hz_update_schedule(schedule_id: ScheduleId, cron: str | None = None, timezone: str | None = None, lookback_hours: Hours | None = None, profile_id: ProfileId | None = None, description: Annotated[str, Field(max_length=1000)] | None = None, enabled: bool | None = None, name: Annotated[str, Field(min_length=1, max_length=120)] | None = None) -> dict:
+    """Propose changed schedule fields in a PR; existing execution continues until approval/merge."""
+    fields = {k:v for k,v in dict(cron=cron, timezone=timezone, lookback_hours=lookback_hours, profile_id=profile_id, description=description, enabled=enabled, name=name).items() if v is not None}
+    return await _control_call(github_control.change_schedule, operation="update", schedule_id=schedule_id, **fields)
+
+@mcp.tool()
+async def hz_pause_schedule(schedule_id: ScheduleId) -> dict:
+    """Propose disabling future executions, preserving all research history."""
+    return await _control_call(github_control.change_schedule, operation="pause", schedule_id=schedule_id)
+
+@mcp.tool()
+async def hz_resume_schedule(schedule_id: ScheduleId) -> dict:
+    """Propose re-enabling a schedule; requires merge before activation."""
+    return await _control_call(github_control.change_schedule, operation="resume", schedule_id=schedule_id)
+
+@mcp.tool()
+async def hz_delete_schedule(schedule_id: ScheduleId) -> dict:
+    """Propose removing schedule/workflow configuration without deleting intel history."""
+    return await _control_call(github_control.change_schedule, operation="delete", schedule_id=schedule_id)
+
+@mcp.tool()
+async def hz_get_schedule_runs(schedule_id: ScheduleId, limit: Limit = 20) -> dict:
+    """Return observed schedule runs/reports; absent history never fabricates a missed-run verdict."""
+    return await _control_call(github_control.schedule_runs, schedule_id=schedule_id, limit=limit)
+
+@mcp.tool()
+async def hz_propose_research_profile(profile: dict) -> dict:
+    """Validate a profile/feed proposal and open/reuse a reviewable GitHub PR."""
+    return await _control_call(github_control.propose_profile, profile=profile)
+
+@mcp.tool()
+async def hz_propose_source(url: str, name: str, profile_ids: Annotated[list[ProfileId], Field(min_length=1, max_length=20)], topic: str = "general", region: str = "unknown", feed_url: str | None = None) -> dict:
+    """Validate public RSS/Atom and propose reviewed source assignments, never arbitrary remote collection."""
+    return await _control_call(github_control.propose_source, url=url, name=name, profile_ids=profile_ids, topic=topic, region=region, feed_url=feed_url)
+
 @mcp.tool()
 def hz_list_profiles() -> dict:
-    return {"profiles": [p.model_dump(by_alias=True) for p in research.profiles.values()]}
+    return {"profiles": [p.model_dump(by_alias=True) for p in research.profiles.values()], "scope": "local_checkout", "production_discovery_tool": "hz_list_github_profiles"}
 
 @mcp.tool()
 def hz_get_profile(profile_id: str) -> dict:
@@ -513,6 +619,7 @@ def hz_get_profile(profile_id: str) -> dict:
 
 @mcp.tool()
 async def hz_submit_research(profile_id: str, question: str = "", lookback_hours: int | None = None, depth: int = 60, idempotency_key: str | None = None, sources: list[str] | None = None, institution_ids: list[str] | None = None) -> dict:
+    """Development-only local job, always local_only; production agents use hz_dispatch_research."""
     return await research.submit(dict(profile_id=profile_id,question=question,lookback_hours=lookback_hours,depth=depth,idempotency_key=idempotency_key,sources=sources,institution_ids=institution_ids or []))
 
 @mcp.tool()

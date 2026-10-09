@@ -310,3 +310,487 @@ Deliverables: approved profile files, credential-free research CLI, durable `int
 - GitHub Actions workflow dispatch: https://docs.github.com/en/rest/actions/workflows#create-a-workflow-dispatch-event
 - GitHub Actions permissions: https://docs.github.com/en/actions/security-for-github-actions/security-guides/automatic-token-authentication
 - GitHub Actions scheduled events: https://docs.github.com/en/actions/reference/workflows-and-actions/events-that-trigger-workflows#schedule
+
+
+# GitHub MCP controller and recurring schedule extension
+
+The following approved task extends this acceptance contract. Its production controller and schedule requirements supersede earlier limits that described MCP only as a local research facade. Existing source/evidence/archive requirements remain in force.
+
+# Codex Task — Horizon GitHub Actions MCP Controller & Scheduled Research
+
+**Repository:** https://github.com/JsonLord/Horizon
+
+**Existing work:**
+- PR #1: GitHub Actions-based research engine, merged.
+- PR #2: Agent instructions and source registry, commit `fcfc71c`, awaiting merge.
+- Existing MCP server: `src/mcp/server.py`
+- Existing workflow: `.github/workflows/horizon-intel.yml`
+- Persistent research archive: GitHub branch `intel`
+
+## Objective
+
+Extend Horizon so external agents can fully manage **on-demand and recurring research through MCP**, while all production research execution happens exclusively on GitHub-hosted Actions runners.
+
+An agent must be able to:
+
+1. Discover available research profiles and institutions.
+2. Trigger an approved research profile immediately.
+3. Retrieve the resulting GitHub Actions run ID.
+4. Monitor execution and publication status.
+5. Retrieve the corresponding published research report.
+6. Register a recurring cron schedule for a research profile.
+7. Inspect, update, pause, resume and delete schedules.
+8. Propose new research profiles and public source assignments through reviewable GitHub pull requests.
+
+Implement real functionality, not documentation-only placeholders.
+
+## 1. Architecture constraints
+
+Horizon must remain GitHub-native and serverless.
+
+**Allowed:**
+- GitHub Actions runners for all production research.
+- GitHub REST API and existing GitHub authentication for orchestration.
+- GitHub branches, pull requests and workflow files for persistent configuration.
+- The existing stdio MCP server running as a lightweight local interface within an external agent environment.
+- The existing `intel` branch for research history.
+- Existing news collectors and deterministic fallback.
+
+**Not allowed:**
+- Hugging Face Spaces.
+- Always-on Horizon servers.
+- Hosted HTTP/MCP endpoints.
+- Background processes outside GitHub Actions for scheduled research.
+- Additional paid APIs or mandatory external provider credentials.
+- Arbitrary public workflow inputs that bypass source/profile approval.
+- Committing credentials or secrets.
+
+The MCP process must function primarily as a GitHub controller and research reader. It must not need to perform production scraping or analysis locally.
+
+Keep existing local MCP research tools available for development and backward compatibility, but clearly label their jobs `local_only`.
+
+## 2. Add GitHub Actions control tools to MCP
+
+Implement the following tools, with explicit schemas, actionable error responses and appropriate authentication.
+
+### `hz_dispatch_research`
+
+Inputs:
+- `profile_id` — approved profile
+- `lookback_hours` — 1–168
+- `request_id` — optional unique correlation identifier
+- `ref` — default `main`, restricted to explicitly authorized branches
+
+Actions:
+- Verify the profile exists and is enabled in the chosen GitHub revision.
+- Dispatch `.github/workflows/horizon-intel.yml`.
+- Use GitHub's workflow-dispatch API with `return_run_details=true` when available.
+- Return the actual GitHub run ID, run URL, submitted inputs and status.
+- Fall back safely when the API returns only a 204 acknowledgement; never invent a run ID.
+- Include bounded retries, timeouts and useful API error handling.
+- Avoid duplicate dispatches when a valid idempotency key is supplied.
+
+### `hz_get_workflow_run`
+
+Inputs:
+- `run_id`
+
+Return:
+- Workflow run ID and URL
+- Requested profile
+- Current status and conclusion
+- Source commit
+- Start and completion timestamps
+- Collect and publish job states
+- Failure reason when retrievable
+- Archive publication status, if known
+
+Distinguish:
+- Runner completed
+- Collection succeeded
+- Publication succeeded
+- Report appeared in `intel`
+
+A successful Actions run must not automatically be treated as proof that the requested report was published.
+
+### `hz_get_workflow_report`
+
+Inputs:
+- `run_id`
+- Optional `profile_id`
+- Optional response format (`json`, `markdown`, `summary`)
+
+Actions:
+- Locate the matching entry in `intel/manifest.json`.
+- Match the recorded `workflow.run_id` and profile.
+- Validate report identity and artifact checksums.
+- Return findings, sources, historical changes, coverage and limitations.
+- Provide versioned GitHub/raw links.
+
+Never substitute a stale `latest` report when the requested run has no corresponding publication.
+
+### `hz_list_workflow_runs`
+
+Inputs:
+- Optional profile
+- Optional status
+- Limit
+
+Return recent relevant workflow executions and publication status.
+
+Preserve the existing read-only research tools and resources.
+
+## 3. Add recurring research schedules
+
+This is a first-class requirement, not an optional future feature.
+
+Agents must be able to create and manage cron schedules through MCP.
+
+Examples:
+
+- Monitor the ECB every weekday at 08:30 Europe/Berlin.
+- Monitor CERN every Monday at 07:15 UTC.
+- Research worldwide AI policy developments every six hours.
+- Disable an institution watch temporarily.
+- Increase a schedule's lookback from 24 to 72 hours.
+- List upcoming research schedules and their most recent reports.
+
+### Persistent schedule registry
+
+Create:
+
+`schedules/registry.json`
+
+And a corresponding JSON Schema.
+
+Example:
+
+```json
+{
+  "schema_version": "1.0",
+  "schedules": [
+    {
+      "schedule_id": "ecb-weekday-monitor",
+      "name": "ECB weekday intelligence",
+      "profile_id": "institutions/ecb",
+      "cron": "30 8 * * 1-5",
+      "timezone": "Europe/Berlin",
+      "lookback_hours": 24,
+      "enabled": true,
+      "description": "Monitor ECB institutional developments each weekday"
+    },
+    {
+      "schedule_id": "cern-weekly",
+      "name": "CERN weekly research",
+      "profile_id": "institutions/cern",
+      "cron": "15 7 * * 1",
+      "timezone": "UTC",
+      "lookback_hours": 168,
+      "enabled": true
+    }
+  ]
+}
+```
+
+Validate:
+- Unique, stable schedule IDs.
+- Existing enabled profile IDs.
+- Standard five-field cron expressions.
+- Valid IANA time zones.
+- Supported scheduling frequency.
+- Lookback limits.
+- Bounded number of active schedules.
+- No arbitrary URLs, commands, scripts or additional workflow permissions.
+
+### Native GitHub scheduling
+
+**Prefer native GitHub Actions `on.schedule`, rather than a continuously polling scheduler.**
+
+Implement a deterministic workflow-generation or synchronization mechanism that transforms the approved schedule registry into GitHub Actions schedules.
+
+A robust approach is to generate a small workflow file per active schedule, with its native `cron` and `timezone`, calling a shared reusable Horizon research workflow.
+
+For example:
+
+`.github/workflows/horizon-sched-ecb-weekday-monitor.yml`
+
+The generated workflow should invoke the existing shared research implementation with:
+- Schedule ID
+- Profile ID
+- Lookback hours
+- GitHub run provenance
+
+Ensure that two schedules sharing the same cron expression but using different time zones remain distinguishable.
+
+Avoid duplicating the entire research implementation across generated workflow files.
+
+Migrate the existing default daily scheduled run into the new registry without accidentally creating duplicate runs.
+
+### Schedule lifecycle
+
+Adding a schedule should produce a proposed configuration change.
+
+Updating a schedule should modify its registry entry and generated workflow.
+
+Pausing should disable future scheduled execution without deleting historical reports.
+
+Resuming should reactivate scheduling.
+
+Deleting should remove the active workflow configuration while preserving research history.
+
+Generated workflows must be reproducible from the registry.
+
+Use CI to verify that the generated workflow files and schedule registry remain synchronized.
+
+## 4. Schedule-management MCP tools
+
+Implement:
+
+### `hz_list_schedules`
+
+Return registered schedules, including:
+- ID
+- Name
+- Profile
+- Cron expression
+- Time zone
+- Enabled/paused state
+- Activation state
+- Next expected execution
+- Last known execution
+- Latest report link
+
+Clearly identify whether a schedule is active on `main` or pending PR approval.
+
+### `hz_get_schedule`
+
+Return the full schedule configuration, current activation state and available run history.
+
+### `hz_create_schedule`
+
+Inputs:
+- `name`
+- `profile_id`
+- `cron`
+- `timezone`
+- `lookback_hours`
+- Optional description
+
+Validate the schedule, then create a Git branch and pull request containing the schedule registry and generated workflow changes.
+
+Return:
+- Schedule ID
+- Proposed cron and time zone
+- Pull request URL
+- Activation state: `pending_review`
+
+**Do not claim a schedule is active until its PR has been merged and the workflow is present on the default branch.**
+
+### `hz_update_schedule`
+
+Modify an existing schedule through a reviewable PR.
+
+Support changing:
+- Cron expression
+- Time zone
+- Lookback period
+- Profile
+- Description
+- Enabled state
+
+### `hz_pause_schedule`
+
+Submit the configuration change needed to prevent future scheduled executions.
+
+### `hz_resume_schedule`
+
+Submit the configuration change needed to restore recurring execution.
+
+### `hz_delete_schedule`
+
+Submit a PR removing the schedule from active configuration.
+
+Do not delete historical intelligence.
+
+### `hz_get_schedule_runs`
+
+Return runs and reports associated with a particular schedule ID, including missed, failed, partial and successful observations where that status can be established.
+
+## 5. GitHub authentication and PR safety
+
+Reuse the GitHub authentication already available to the agent, for example an authenticated GitHub CLI or appropriately scoped GitHub API credentials.
+
+Do not introduce a separate Horizon API-key system.
+
+Read-only MCP operations should continue working against public GitHub research artifacts without authentication whenever possible.
+
+Writing operations require authorized GitHub access.
+
+Schedule creation and updates should use reviewable pull requests by default.
+
+Implement:
+- Branch creation
+- File updates
+- PR creation
+- Existing-PR reuse when appropriate
+- Conflict detection
+- Safe retry behavior
+- Clear missing-permission errors
+- No force pushes
+- No automated merge without explicit authorization
+
+Validate all changes before opening a PR.
+
+Avoid allowing untrusted scraped content to influence GitHub repository operations.
+
+## 6. Integrate schedules with the research archive
+
+Every scheduled report must retain provenance including:
+
+- `schedule_id`
+- GitHub Actions `run_id`
+- Workflow name
+- Source commit
+- Research profile
+- Effective lookback window
+- Scheduled execution time when available
+- Actual collection timestamp
+- Publication commit
+- Previous comparison snapshot
+- Research completion status
+- Coverage limitations
+
+Preserve existing JSON/Markdown schemas through backward-compatible additions and schema-version handling where necessary.
+
+Scheduled runs must restore validated prior intelligence from `intel` before determining what changed.
+
+Different schedules for the same profile should not corrupt one another's historical comparisons.
+
+Prevent duplicate archival findings caused by retries or repeated executions of the same logical schedule occurrence.
+
+Preserve last-good report pointers when collection fails.
+
+## 7. Agent-facing workflow
+
+The target experience is:
+
+**User:** "Monitor the European Central Bank every weekday at 8:30 AM Berlin time."
+
+Agent:
+1. Calls `hz_list_profiles`.
+2. Selects `institutions/ecb`.
+3. Calls `hz_create_schedule`.
+4. Receives the generated schedule proposal and PR link.
+5. Presents the PR for approval.
+6. After merge, verifies that the schedule is active.
+
+Later, without manual intervention, GitHub Actions executes the scheduled research and publishes the results.
+
+**User:** "What did Horizon learn from the ECB this week?"
+
+Agent:
+1. Calls `hz_list_schedules` or `hz_get_schedule_runs`.
+2. Retrieves relevant published reports.
+3. Calls `hz_get_changes` or `hz_get_workflow_report`.
+4. Summarizes genuinely new findings with source references.
+
+**User:** "Research CERN now."
+
+Agent:
+1. Calls `hz_dispatch_research`.
+2. Obtains the GitHub run ID.
+3. Polls `hz_get_workflow_run`.
+4. Calls `hz_get_workflow_report` after publication.
+5. Returns the findings.
+
+No Horizon-hosted service is involved.
+
+## 8. Maintain existing source and profile workflows
+
+Preserve PR #2's functionality:
+- `horizon-source add`
+- `horizon-source list`
+- `horizon-source validate`
+- `sources/registry.json`
+- `AGENTS.md`
+- Institution and world research profiles
+
+Ensure the scheduler uses exactly the same approved profiles and source registry as manual research.
+
+The agent may propose additional institutional targets or public feeds, but new source configurations become active only after appropriate review and merge.
+
+If PR #2 remains unmerged, base the implementation on the correct integration branch without losing its changes.
+
+## 9. Testing requirements
+
+Write automated tests for:
+
+- Successful GitHub workflow dispatch.
+- GitHub dispatch response containing a real run ID.
+- 204-only dispatch fallback.
+- Workflow-run polling.
+- Failed, cancelled and timed-out workflows.
+- Successful collection followed by failed publication.
+- Retrieving reports by exact workflow run ID.
+- Rejecting stale/unrelated report pointers.
+- Valid and invalid cron expressions.
+- Unsupported scheduling frequencies.
+- Time-zone validation and daylight-saving transitions.
+- Multiple schedules with the same cron time.
+- Schedule creation, update, pause, resume and deletion.
+- Generated workflow consistency.
+- Duplicate schedule IDs.
+- Invalid or disabled research profiles.
+- Unauthorized GitHub operations.
+- PR creation conflicts.
+- Historical state restoration.
+- Duplicate-run and retry handling.
+- No mandatory external AI/news credentials.
+- Compatibility with existing MCP tools and research archive schemas.
+
+Run the complete existing test suite, both MCP smoke checks, workflow validation with `actionlint`, and repository/schema checks.
+
+Where permissions allow, validate:
+1. A real manual GitHub Actions dispatch.
+2. Run status retrieval.
+3. Actual `intel` publication.
+4. Independent retrieval of the published report.
+
+For recurring schedules, verify generated workflows and activation state. Do not claim that a future scheduled occurrence has happened until GitHub actually executes it.
+
+## 10. Documentation and handoff
+
+Update:
+- `AGENTS.md`
+- `spec.md`
+- `docs/agent-research.md`
+- README MCP usage
+- Example MCP client configuration
+- Schedule registry/schema documentation
+
+Document actual arguments, return structures, authentication requirements and how schedule activation works.
+
+Include example instructions for an external agent to register a schedule and trigger an immediate run.
+
+## Deliverables
+
+1. Working GitHub Actions MCP controller.
+2. Working schedule-management MCP tools.
+3. Persistent schedule registry.
+4. Generated or synchronized native GitHub Actions cron workflows.
+5. Source-attributed reports linked to workflow and schedule IDs.
+6. Backward-compatible research and source management.
+7. Passing regression and integration tests.
+8. Updated documentation.
+9. New PR against `main`, preserving PR #2's work and repository history.
+
+Report:
+- Changed files.
+- New MCP tools and their schemas.
+- Test results.
+- Actual GitHub Actions runs verified.
+- Example schedule registration.
+- Current active versus pending schedules.
+- Any remaining permissions or deployment blockers.
+
+**Implement the complete integration. Do not stop after creating a plan or documentation. Keep Horizon production execution exclusively on GitHub Actions runners.**

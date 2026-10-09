@@ -220,19 +220,37 @@ async def collect(profile, question="", client=None):
                             query_topic=topic,
                             search_query=None,
                         )
-                    batches.append(batch)
+                    batches.insert(0, batch)
                     metrics.append(
                         {
                             "source": "rss",
+                            "feed_url": url,
+                            "name": name,
                             "status": "ok" if recorder.valid("rss") else "failed",
                             "items": len(batch),
+                            "error_code": recorder.error_code,
                         }
                     )
                 except Exception:
-                    metrics.append({"source": "rss", "status": "failed", "items": 0})
-        return [i for batch in batches for i in batch][
-            : profile.max_items * profile.max_queries
-        ], metrics
+                    metrics.append(
+                        {
+                            "source": "rss",
+                            "feed_url": url,
+                            "name": name,
+                            "status": "failed",
+                            "items": 0,
+                        }
+                    )
+        # Share the item ceiling across queries and registered feeds rather than
+        # dropping every appended RSS batch when search queries fill the budget.
+        items = []
+        for row in range(max((len(batch) for batch in batches), default=0)):
+            for batch in batches:
+                if row < len(batch):
+                    items.append(batch[row])
+                    if len(items) == profile.max_items * profile.max_queries:
+                        return items, metrics
+        return items, metrics
     finally:
         if own:
             await client.aclose()
