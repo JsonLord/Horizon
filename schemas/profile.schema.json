@@ -203,7 +203,6 @@
   "properties": {
     "schema_version": {
       "const": "1.0",
-      "default": "1.0",
       "title": "Schema Version",
       "type": "string"
     },
@@ -228,7 +227,6 @@
       "type": "string"
     },
     "enabled": {
-      "default": true,
       "title": "Enabled",
       "type": "boolean"
     },
@@ -284,7 +282,6 @@
       "type": "array"
     },
     "schedule_hint": {
-      "default": "daily",
       "enum": [
         "daily",
         "weekly",
@@ -294,21 +291,18 @@
       "type": "string"
     },
     "lookback_hours": {
-      "default": 48,
       "maximum": 168,
       "minimum": 1,
       "title": "Lookback Hours",
       "type": "integer"
     },
     "max_items": {
-      "default": 60,
       "maximum": 200,
       "minimum": 1,
       "title": "Max Items",
       "type": "integer"
     },
     "max_queries": {
-      "default": 8,
       "maximum": 16,
       "minimum": 1,
       "title": "Max Queries",
@@ -341,14 +335,22 @@
     }
   },
   "required": [
+    "schema_version",
     "profile_id",
     "mode",
     "name",
+    "enabled",
     "topics",
     "regions",
     "languages",
     "queries",
-    "sources"
+    "sources",
+    "schedule_hint",
+    "lookback_hours",
+    "max_items",
+    "max_queries",
+    "ranking",
+    "output"
   ],
   "title": "Profile",
   "type": "object"
