@@ -488,7 +488,13 @@ class Controller:
             verified.append(
                 {
                     k: result[k]
-                    for k in ("report_id", "profile_id", "publication_commit", "links")
+                    for k in (
+                        "report_id",
+                        "profile_id",
+                        "research_status",
+                        "publication_commit",
+                        "links",
+                    )
                 }
             )
         requested = identity["profile_id"]

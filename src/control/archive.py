@@ -151,6 +151,7 @@ class PublishedArchive:
                 for k in (
                     "report_id",
                     "profile_id",
+                    "created_at",
                     "status",
                     "statistics",
                     "coverage",
@@ -158,6 +159,7 @@ class PublishedArchive:
                     "changes",
                     "history",
                     "workflow",
+                    "schedule",
                 )
             }
             value.update(
