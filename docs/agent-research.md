@@ -91,9 +91,9 @@ Verified public paths:
 
 ### Remaining external checks and limits
 
-No actual Hugging Face Space ID was found in the original remotes, tracked deployment files or available environment binding names. The HF discovery API returned a proxy **403**. No Space was invented, created or deployed. Supply the actual Space binding and an authorized deployment mechanism; then copy the tested image inputs and `deploy/huggingface/README.md` into that Space and verify its real endpoint.
+No actual Hugging Face Space ID was found in the original remotes, tracked deployment files or available environment binding names. Initial HF discovery was blocked with **403**; later API access succeeded, found no Spaces under the matching GitHub author, and a similarly named public candidate had no repository binding. GitHub deployment records list only GitHub Pages. No Space was invented, created or deployed. Supply the actual Space binding and an authorized deployment mechanism; then copy the tested image inputs and `deploy/huggingface/README.md` into that Space and verify its real endpoint.
 
-GitHub API access returned **Forbidden** despite successful Git reads/writes. Workflow dispatch and automatic PR creation therefore require working API authorization/network access. The live archive push does not prove the scheduled job's `GITHUB_TOKEN` path ran. Enable/review the workflow after merging and dispatch it using an authorized GitHub identity to validate that path.
+Initial GitHub REST requests returned **Forbidden**; later authenticated access succeeded and PR **https://github.com/JsonLord/Horizon/pull/1** was created on `feat/agent-research`. An actual workflow dispatch attempt returned **404** because the new workflow is not yet present on the default branch. Merge/review the PR, then dispatch `horizon-intel.yml` to validate a real Actions `GITHUB_TOKEN` publication. The live cloud Git push does not prove that scheduled path ran.
 
 Profiles initially leave official institution feed lists empty; no feed was fabricated. The world profiles reuse Simon Willison's public feed already present in Horizon's example config. Unreviewed submitted feeds are rejected. Query-country metadata never masquerades as event geography. Deterministic dedup handles normalized/near-identical titles and public URL IDs; it cannot reliably recognize every translation or syndication. Contradiction/resolution labels use explicit source wording on a previously observed event and require review. Model enrichment validates evidence selections and preserves extractive summaries; it never invents free-form model facts. Optional subscriptions remain a second-phase non-goal.
 
@@ -150,3 +150,11 @@ Space-originated questions remain private to authenticated local-report/job acce
 - Created: `tests/test_research_model.py`
 - Created: `tests/test_research_publisher.py`
 - Modified: `uv.lock`
+
+### Final environment handoff
+
+The HTTP service was left running on port 7860. Its `/ready` reports `archive_connectivity: connected`, deterministic fallback available, no configured model and nine profiles. Real MCP archive reads returned two reports, 15 ECB findings, five matches for a Central Bank search and 15 ECB change events.
+
+After network access changed, the existing public RSS feed was retried: **7 items, valid Atom feed, no error**. The initial published reports correctly retain their historical source-failure observations. A final world refresh/publish is recorded below when completed.
+
+Saved environment draft fields: `install_script`, `start_skill`, `UV_CACHE_DIR` runtime variable and additive custom network domains (existing package-manager presets preserved). This persists instructions and requirements; it does not itself publish a snapshot. Review/save the draft in environment settings and publish the environment for future tasks. No new secret requirement was added for the baseline.
