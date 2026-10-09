@@ -1,4 +1,4 @@
-"""Shared bounded research jobs for trusted MCP, Actions and authenticated HTTP."""
+"""Shared bounded research jobs for trusted local MCP and GitHub Actions."""
 
 import asyncio
 import json
