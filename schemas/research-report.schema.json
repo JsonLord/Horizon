@@ -328,6 +328,15 @@
         "content_fingerprint": {
           "title": "Content Fingerprint",
           "type": "string"
+        },
+        "observations": {
+          "items": {
+            "additionalProperties": true,
+            "type": "object"
+          },
+          "maxItems": 32,
+          "title": "Observations",
+          "type": "array"
         }
       },
       "required": [
@@ -459,6 +468,16 @@
     "links": {
       "additionalProperties": true,
       "title": "Links",
+      "type": "object"
+    },
+    "history": {
+      "additionalProperties": true,
+      "title": "History",
+      "type": "object"
+    },
+    "workflow": {
+      "additionalProperties": true,
+      "title": "Workflow",
       "type": "object"
     }
   },

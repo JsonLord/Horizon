@@ -1,6 +1,28 @@
 {
   "reports": [
     {
+      "created_at": "2026-10-09T21:44:29.166704+00:00",
+      "history": {
+        "comparison": "last_good",
+        "previous_created_at": "2026-10-09T13:29:52.739289+00:00",
+        "previous_report_id": "65452eb59f454da3884b3e3583d57207",
+        "previous_report_sha256": "5450c4f49413e147d8d06f65414192c1d225262f3076c6ae1ceb62842dc90121",
+        "previous_snapshot_commit": "6f82103fabc30fae344d58fe18991882621727fb",
+        "stale_last_good": false,
+        "state": "restored"
+      },
+      "path": "intel/reports/institutions/ecb/2026/10/09/b1c39a7a56e644ed8e551659d97abec7/report.json",
+      "profile_id": "institutions/ecb",
+      "report_id": "b1c39a7a56e644ed8e551659d97abec7",
+      "status": "partial",
+      "workflow": {
+        "repository": "JsonLord/Horizon",
+        "run_attempt": "1",
+        "run_id": "37995170028",
+        "source_commit": "3de83ea8b819436ab9be078aed3e18ede6033c33"
+      }
+    },
+    {
       "created_at": "2026-10-09T13:47:19.020005+00:00",
       "path": "intel/reports/world/2026/10/09/d468fe2b7b514b09ae3de325efbf06c9/report.json",
       "profile_id": "world/global",
