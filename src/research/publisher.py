@@ -25,17 +25,68 @@ def git(root, *args, check=True):
 def validate(root):
     root = Path(root)
     archive = Archive(root)
+    index_path = root / "intel/manifest.json"
+    if index_path.exists() and index_path.stat().st_size > 1_000_000:
+        raise ValueError("Oversized archive manifest")
+    index = archive.index()
+    if (
+        index.get("schema_version") != "1.0"
+        or not isinstance(index.get("reports"), list)
+        or len(index["reports"]) > 100
+    ):
+        raise ValueError("Malformed archive manifest")
+    seen = set()
     for row in archive.list(limit=100):
+        if row["report_id"] in seen:
+            raise ValueError("Duplicate report ID")
+        seen.add(row["report_id"])
+        if (
+            not row["path"].startswith("intel/reports/")
+            or ".." in Path(row["path"]).parts
+        ):
+            raise ValueError("Unsafe report path")
+        if (root / row["path"]).stat().st_size > 1_000_000:
+            raise ValueError("Oversized report")
         report = archive.get(row["report_id"])
+        if (
+            any(
+                row[k] != report[k]
+                for k in ("report_id", "profile_id", "status", "created_at")
+            )
+            or row["path"] != report["links"]["json"]
+        ):
+            raise ValueError("Manifest/report identity mismatch")
         if report["question"]:
             raise ValueError(
                 "Private/ad hoc questions are export-only; publish approved scheduled profiles"
             )
+        from .analyzers import canonical
+
+        for source in report["sources"]:
+            if canonical(source["canonical_url"]) != source["canonical_url"]:
+                raise ValueError("Unsafe evidence URL")
         ids = {s["source_id"] for s in report["sources"]}
         if any(not set(f["source_ids"]) <= ids for f in report["findings"]):
             raise ValueError("Dangling evidence")
         manifest_path = (root / row["path"]).parent / "manifest.json"
         manifest = Manifest.model_validate_json(manifest_path.read_text())
+        if (
+            manifest.report_id != report["report_id"]
+            or manifest.profile_id != report["profile_id"]
+        ):
+            raise ValueError("Snapshot identity mismatch")
+        from .reporting import dumps
+
+        if (
+            manifest.snapshot_id
+            != hashlib.sha256(dumps(manifest.artifacts).encode()).hexdigest()
+        ):
+            raise ValueError("Snapshot checksum mismatch")
+        expected = {row["path"], str(Path(row["path"]).with_name("report.md"))}
+        if {a["path"] for a in manifest.artifacts} != expected or len(
+            manifest.artifacts
+        ) != 2:
+            raise ValueError("Missing snapshot artifacts")
         for a in manifest.artifacts:
             path = (root / a["path"]).resolve()
             if (
@@ -68,6 +119,7 @@ def publish(root, remote, branch="intel", dry_run=False):
                 git(work, "checkout", "-B", branch, "FETCH_HEAD")
             else:
                 git(work, "checkout", "--orphan", branch)
+            validate(work)
             existing = Archive(work).index()
             incoming = Archive(root).index()
             # Copy only schema/known report trees; never .env, jobs or prompts in logs.
@@ -100,8 +152,10 @@ def publish(root, remote, branch="intel", dry_run=False):
                     "partial",
                 ):
                     continue
-                seen.add(row["profile_id"])
                 report = Archive(work).get(row["report_id"])
+                if not report["findings"]:
+                    continue
+                seen.add(row["profile_id"])
                 latest = (
                     "world"
                     if row["profile_id"] == "world/global"

@@ -16,6 +16,14 @@
   "queries": [
     {
       "source": "google_news",
+      "text": "site:ecb.europa.eu",
+      "language": "en",
+      "country": "US",
+      "topic": "European Central Bank",
+      "region": "Europe"
+    },
+    {
+      "source": "google_news",
       "text": "\"European Central Bank\"",
       "language": "en",
       "country": "DE",
@@ -62,6 +70,8 @@
     "official_domains": [
       "ecb.europa.eu"
     ],
-    "official_feeds": []
+    "official_feeds": [
+      "https://www.ecb.europa.eu/rss/press.html"
+    ]
   }
 }

@@ -85,6 +85,20 @@ def analyze(profile, items, previous=None):
                 for d in institution.official_domains
             )
         )
+        if (
+            institution
+            and not primary
+            and any(
+                x in text
+                for x in (
+                    "file photo",
+                    "stock photo",
+                    "stock image",
+                    "image of the day",
+                )
+            )
+        ):
+            continue
         mention = bool(institution and mentions(institution, title))
         if institution and not (primary or mention):
             continue
@@ -220,7 +234,12 @@ def analyze(profile, items, previous=None):
         if region not in group["regions"]:
             group["regions"].append(region)
     findings = sorted(
-        groups.values(), key=lambda x: (-x["profile_relevance"], x["finding_id"])
+        groups.values(),
+        key=lambda x: (
+            not any(sources[s]["source_kind"] == "primary" for s in x["source_ids"]),
+            -x["profile_relevance"],
+            x["finding_id"],
+        ),
     )
     # Round-robin search-region balancing; coverage is explicitly query coverage.
     balanced = []

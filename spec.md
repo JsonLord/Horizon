@@ -1,23 +1,23 @@
 # SPEC — Horizon Global News & Institutional Intelligence
 
-**Repository:** https://github.com/JsonLord/Horizon  
-**Target:** Existing Horizon codebase plus its Hugging Face Docker Space deployment, if a Space is already configured  
-**Status:** Implementation specification (not a claim that these features are already implemented)  
-**Date:** 2026-10-09  
+**Repository:** https://github.com/JsonLord/Horizon
+**Target:** GitHub repository + GitHub-hosted Actions runners ONLY; no other deployment
+**Status:** Implementation specification (not a claim that these features are already implemented)
+**Date:** 2026-10-09
 **Primary objective:** Turn Horizon into a credential-free-by-default world-news and institutional-research service that external agents can control and whose published results other agents can read directly from GitHub.
 
-## 0. Non-negotiable constraints
+## 0. Non-negotiable constraints (GitHub-only deployment)
 
-1. **Work on the existing repo, not a rewrite.** Preserve the native fetch → cross-source dedup → AI score → filter → enrich → summarize pipeline, existing CLI, MCP tools, setup wizard, and legacy config compatibility.
-2. **No new external news or commercial LLM credentials are required for baseline functionality.** Default source set: public RSS/Atom, GDELT DOC, Google News RSS, official institution feeds/pages where legitimately accessible, and public GitHub metadata subject to limits. External-key-dependent sources are optional and OFF by default.
-3. **No LLM must be available for successful baseline execution.** In `ai.mode=auto`, use a configured reachable existing OpenAI-compatible endpoint if available; otherwise use deterministic extraction, transparent keyword/rule ranking, and extractive summaries. Never fabricate facts, sources, model judgments, or confidence.
-4. **GitHub publication must really work without a manually provisioned GitHub token when the job runs inside GitHub Actions** using its job-scoped `GITHUB_TOKEN` and `permissions: contents: write`, subject to repository rules. **A Hugging Face Space does not receive that token** and MUST NOT pretend it can push to GitHub without configured write authorization.
-5. **Remote mutation must never be anonymous.** A Space without `HORIZON_AGENT_TOKEN` can serve public read endpoints and local/demo functionality but MUST reject remote job-submission/configuration mutations (`403`, feature-disabled) rather than expose an abuse-prone public research worker. Authorized GitHub users can trigger workflows using their existing GitHub authorization; this does not require a new third-party API account.
-6. **No new public ports** beyond the normal Hugging Face Space container interface (HTTP port 7860). Do not expose Debian gateways or Tailscale services publicly. Do not embed private hostnames or credentials in public client responses.
-7. **Do not assume a Hugging Face Space ID.** Discover the real target from the existing git remotes, deployment files, and environment. If it cannot be positively established, make the repository Space-ready, test locally, and report the exact missing deployment binding; do not create or push to an invented Space.
-8. **Keep operations compatible with resource-constrained HF CPU Basic deployments.** Bound workers, fetches, requests, file sizes, and concurrency; no heavyweight local inference dependency. The Space filesystem is ephemeral; GitHub-published artifacts are the durable system of record.
-9. **Keep previous Horizon behavior.** Existing `uv run horizon --hours 24`, `uv run horizon-mcp`, `horizon-wizard`, relevant tests, and current manually configured data sources must continue to work.
-10. **Do not claim the Space or external systems were tested unless an actual end-to-end deployed check was performed.** Always distinguish local, mocked, integration, and live deployment results.
+1. **GitHub-hosted Actions runners are the ONLY execution environment for scheduled or remotely triggered research.** No Hugging Face Space, Debian runtime, VM, hosted API, web server, self-hosted runner, public port, database server, or background daemon. Local CLI/test execution for development is permitted, but is NOT deployment.
+2. **Preserve the existing Horizon application** (legacy CLI, setup wizard, scrapers, local stdio MCP, existing user configurations, and tests). Existing local Docker CLI use may remain for backward compatibility, but is NOT a deployment target. Revert PR #1 Docker/web-server-specific changes where unnecessary.
+3. **Credential-free sources and deterministic offline scoring are the default.** Use public Google News RSS, GDELT, official RSS/Atom and permitted public feeds; do not require news, commercial LLM, Hugging Face, or private network API credentials.
+4. **GitHub permissions are different from external service credentials.** GitHub Actions uses its built-in short-lived `GITHUB_TOKEN` to publish. An external agent must already have GitHub authorization to dispatch workflows or open a PR; anonymous agents may only read the public `intel` branch. Do not imply unauthenticated workflow dispatch is supported.
+5. **Agent control is GitHub-native.** External agents use `workflow_dispatch` (or optionally approved PRs changing versioned profiles); job state and logs live in Actions workflow runs, durable public results live on the `intel` branch. Do not require any custom FastAPI/HTTP server or API bearer token.
+6. **Only approved, bounded targets and inputs can run.** Validate profile IDs, time windows, sources, query bounds, and publication policy. Ad hoc/private questions must never be silently committed to the public intelligence branch; route to authorized Actions artifacts or require profile review.
+7. **Load prior published state BEFORE analysis**, even on a newly provisioned runner, so change detection is correct across independent runs. Failed/no-new-item executions must not erase the last successful snapshot.
+8. **Actions permission boundary:** collection job receives `contents: read`; only publication job gets `contents: write`, with concurrency controls and safe retries, no force pushes or long-lived PAT. Respect branch rules and explicit authorization failures.
+9. **No sensitive artifacts:** avoid private prompts, IPs, credentials, internal URLs, paywalled bodies, copied copyrighted content, and unreviewed raw scraped HTML in commits/logs. Publisher must validate schemas and provenance before pushing.
+10. **Actual live acceptance is a GitHub Actions run.** Never claim a scheduled/dispatch workflow or publication is verified solely because local tests or a developer-authorized Git push succeeded.
 
 ## 1. Verified existing foundation / observed gaps
 
@@ -30,7 +30,7 @@ Inspect and reuse these files before editing:
 - `src/mcp/horizon_adapter.py`: `VALID_SOURCES` currently omits `gdelt`, `google_news`, and `ossinsight`, even though the orchestrator knows them. Extend the allowlist, filtering logic, and diagnostics consistently.
 - `data/mcp-runs/` is ignored by `.gitignore`; a run artifact there is NOT a GitHub-published research report.
 - `src/ai/client.py` requires a configured model/API key in common paths; introduce an explicit optional/offline analyzer pathway rather than fabricating a token or silently treating an unreachable model as successful.
-- `Dockerfile` currently runs the CLI, not an HTTP app. Space deployment requires a web entrypoint while retaining the existing CLI through explicit invocation.
+- Keep any legacy `Dockerfile` / `docker-compose.yml` oriented to the existing CLI only; no container or HTTP application is needed for GitHub-hosted Actions execution.
 - `.github/workflows/daily-summary.yml` currently runs weekly. Add new workflows rather than breaking that legacy one before replacement is validated.
 
 ## 2. Architecture and execution contracts
@@ -40,10 +40,10 @@ Inspect and reuse these files before editing:
 - **Profiles:** versioned JSON configs defining *what* to monitor; they never hold secrets.
 - **Collector:** adapt existing scrapers with bounded multi-query collection and provenance normalization.
 - **Research pipeline:** fetch → normalize → dedup → profile relevance → optional model enrichment → verify/attribute → report → change detection.
-- **Job service:** asynchronous job IDs, status, progress, cancellation/timeouts, quotas, idempotency, structured errors.
+- **Job execution:** one approved Actions workflow run per request; use GitHub run IDs, job conclusions and logs as the authoritative status interface, not an always-on in-process job queue.
 - **Archive publisher:** local, validated, versioned Markdown+JSON artifacts; GitHub Actions commits successful outputs to an `intel` branch (or documented equivalent read-only artifact branch).
-- **HF Space HTTP app:** lightweight FastAPI UI/API on port 7860; public read-only data discovery and authenticated optional ephemeral job execution. It can read published reports from public GitHub without secrets.
-- **MCP interface:** retain existing stdio MCP and add high-level profile/job/report tools without duplicating the business logic.
+- **Agent interface:** GitHub workflow dispatch, Actions status/artifacts and public `intel` branch files; GitHub is already the remote API and publication host. No custom hosted HTTP app.
+- **MCP interface:** retain existing local stdio MCP for developer/agent clients, with optional GitHub-backed workflow dispatch/read wrappers; no hosted MCP daemon.
 
 ### 2.2 Modes
 
@@ -53,13 +53,15 @@ Inspect and reuse these files before editing:
 
 **`research_job`:** constrained agent-specified question, permitted sources, time range, target institutions, depth; produces a self-contained report and can optionally become a saved profile through an authorized operation.
 
-### 2.3 Deployment split and credential boundary
+### 2.3 GitHub-only runtime and credential boundary
 
-**Credential-free default:** GitHub Actions is the scheduler/executor/publisher and uses the automatic short-lived `GITHUB_TOKEN`. HF Space provides HTTP dashboard, public read access, and non-persistent local/demo analysis. No third-party news key, GitHub PAT, paid LLM key, or HF token is required for this basic mode **assuming normal repository Actions write permissions and an existing authorized Space deployment mechanism**.
+**Scheduled route:** `.github/workflows/horizon-intel.yml` checks out the source, installs dependencies using `uv sync --frozen`, restores verified prior `intel` state for comparisons, gathers bounded public information, generates grounded reports, validates output, and publishes to `intel` using its job-scoped `GITHUB_TOKEN`.
 
-**Optional enhanced mode:** A Space with a user-generated `HORIZON_AGENT_TOKEN` can accept authenticated remote job submissions and return ephemeral results. Durable publication of Space-originated jobs requires a *separately configured* write-capable GitHub identity or a pre-existing authenticated GitHub Actions dispatch path. Do NOT imply an HF Space process can obtain GitHub Actions' job token. If not configured, return `publication_status: "local_only"` and provide export/download endpoints.
+**Agent-triggered route:** an authenticated agent dispatches `horizon-intel.yml` with an approved `profile_id` and bounded `lookback_hours` using GitHub's REST Actions API, `gh workflow run`, or an installed GitHub integration. The agent tracks the workflow run via GitHub, then retrieves its published report through `intel/manifest.json` and profile-specific latest pointer. No separate HTTP endpoint or bearer token is required beyond GitHub's own authorization.
 
-**Optional model inference:** `HORIZON_LLM_BASE_URL`, `HORIZON_LLM_MODEL`, and optional `HORIZON_LLM_API_KEY` are runtime secrets/variables. If absent or unreachable, fall back locally. The initial release should not depend on a private Debian/Tailscale endpoint being reachable from GitHub-hosted runners.
+**Ad hoc investigations:** use approved profile definitions or a separate bounded `workflow_dispatch` mode that produces access-controlled Actions artifacts without exposing private questions on the public archive. Do not enable arbitrary untrusted crawls or publish free-form private prompts. For persistent research, agent proposes a validated profile as a PR for review.
+
+**Optional models:** no private gateway required; deterministic/no-LLM baseline works in GitHub-hosted runner. Optional OpenAI-compatible endpoints must be externally reachable from Actions and expressly configured; errors fall back to deterministic extraction, never block the baseline.
 
 ## 3. Research profile contract
 
@@ -194,68 +196,52 @@ Report schema (at minimum):
 - GitHub publication job must serialize writes or safely rebase with bounded retries. Report branch-rule permission errors clearly rather than falsely declaring success.
 - Provide stable filenames and `README` examples for consumers using GitHub raw URLs and `git show intel:intel/latest/world.json`.
 
-## 7. HTTP API (Hugging Face Space, FastAPI)
+## 7. GitHub-native remote control (NO hosted HTTP API)
 
-Implement a minimal web UI plus JSON API in `src/api/app.py` (or another clearly named module), with OpenAPI `/api-docs` or `/openapi.json`; build a single container serving on `0.0.0.0:7860`.
+GitHub provides the only remote interface. Do NOT deploy FastAPI or a dashboard. For the PR #1 adaptation, remove `deploy/huggingface/`, deployment-only `src/api/` and `fastapi`/`uvicorn` dependencies unless other pre-existing behavior demonstrably requires them. Keep the pre-existing Horizon CLI and local stdio MCP. Preserve any useful pure Python research service functionality and rewire it to the workflow.
 
-**Read-only public endpoints** (no new secrets):
+**Workflow dispatch interface** via `.github/workflows/horizon-intel.yml`:
 
-- `GET /health` — liveness; never network-blocking.
-- `GET /ready` — readiness, dependency mode, archive connectivity separately reported; don't fail readiness solely because GitHub is temporarily unavailable.
-- `GET /v1/info` — current version, supported modes/sources, analysis mode, publication mode, capabilities with no credentials or private endpoints exposed.
-- `GET /v1/profiles` and `GET /v1/profiles/{profile_id}` — approved, sanitized profiles.
-- `GET /v1/reports` — paged/filterable list from published manifest, with local fallback if no remote archive.
-- `GET /v1/reports/{report_id}` — bounded structured JSON and alternate Markdown rendering.
-- `GET /v1/changes?profile_id=...&since=...` — bounded change summaries and links.
-- `GET /v1/jobs/{job_id}` — only statuses/results authorized to the caller; avoid leaking submitted private prompts, tokens, or logs.
-- `GET /` — simple functional dashboard: world latest, profiles, selected institution latest, source coverage, report links, job status, and an explicit read-only/authorized mode indicator.
+- `profile_id`: string, must match an approved enabled versioned profile; empty uses bounded scheduled defaults.
+- `lookback_hours`: integer, 1–168; schema-validated after parsing.
+- Optional `output_mode`: `public_profile` (publish approved profile results) or `private_artifact` (only if implemented with authorization and privacy protections). Do not log private question text.
+- Optional ad hoc question or additional query scope only if tightly validated and kept OUT of public archive and public logs; otherwise omit support and use PR-based profile registration.
 
-**Write endpoints** (disabled without `HORIZON_AGENT_TOKEN`):
+**Authenticated agent control:** caller uses existing GitHub authorization to dispatch, list runs, poll conclusion, retrieve artifacts as permitted, or open a profile PR. The workflow must exist on the default branch for `workflow_dispatch` to be recognized. GitHub controls roles and audit trail; do not mint or store new app-level bearer tokens.
 
-- `POST /v1/jobs` — validated profile + question + bounded lookback/depth, `202 Accepted`, job ID, idempotency key, status URL; bounded queue.
-- `POST /v1/profiles` or `PUT /v1/profiles/{profile_id}` — optional authorized profile mutation, with strict validation and safe persistence rules; no arbitrary feed URL crawling from untrusted requests.
-- Do not expose generic shell commands, unrestricted remote URL fetch, arbitrary local config file paths, private local network requests, or unrestricted GitHub write operations.
+**Unauthenticated agent reads:** read public `intel/manifest.json`, `intel/latest/world.json`, and `intel/latest/institutions/<id>.json` from the public `intel` branch. Provide stable paths, raw URLs, checksums and committed snapshot IDs.
 
-Error responses use a stable `{ "ok": false, "error": { "code": ..., "message": ... } }` schema, proper HTTP status, no stack traces/secrets.
+**Job status:** GitHub workflow run ID and run URL; report metadata may include `workflow_run_id` and `source_commit` where available. Avoid claiming a local in-process job ID is independently pollable after runner exit.
 
-Without authenticated remote writes, allow UI search/browsing and published-result reading. **Do not advertise fully authenticated remote triggering when it is disabled.**
+## 8. MCP tools: preserve local integration without hosting it
 
-## 8. MCP tools: reuse existing server
+Keep the existing `horizon-mcp` stdio command and existing stage-based `hz_*` tools working for developers and local agents. Research-specific profile/report tools may wrap the on-disk or GitHub-published archive. Where possible add thin optional GitHub-backed helpers for listing profiles, reading latest reports, dispatching approved workflows and polling GitHub run status, using **the calling agent's existing GitHub authentication**, never a server-side shared secret.
 
-Preserve all existing `hz_*` calls. Add thin service facades sharing the same pipeline/profile/report implementation:
+Do not expose stdio MCP as a network service. Do not build a new hosted MCP endpoint, persistent job queue, FastAPI wrapper, or app-level token system. Remote control works via GitHub Actions' existing API; agents without GitHub write access can read public published results but cannot trigger jobs.
 
-- `hz_list_profiles`, `hz_get_profile`
-- `hz_submit_research`, `hz_get_job`, `hz_list_jobs`
-- `hz_list_reports`, `hz_get_report`, `hz_search_archive`, `hz_get_changes`
-- `hz_register_institution` (local/trusted-authorized only, validates and persists safe profile)
-- `hz_subscribe` optional in second phase (persist approved subscriptions; no secrets or unbounded callbacks)
+## 9. Scheduled workflows, history and publication
 
-Expose useful MCP resources such as `horizon://profiles`, `horizon://reports`, and `horizon://reports/{report_id}`. Maintain current stage-based tools for backwards compatibility. Stdio MCP is local/trusted, not a public unauthenticated internet endpoint. The model should discover profiles/reports using listing/search tools before loading entire archives.
+- Keep or extend `.github/workflows/horizon-intel.yml`: `schedule` for world/institution profiles and `workflow_dispatch` for authenticated external agent requests. Scheduled jobs can be late, can be disabled for inactivity, and have timeout/resource limits; do not promise always-on monitoring.
+- Prefer **GitHub-hosted** `ubuntu-latest`; no self-hosted runner or third-party compute. Use bounded `timeout-minutes`, source concurrency, retries, size limits, and workflow `concurrency` groups.
+- **Restore historical state before collection:** fetch `intel` branch or inspect public raw archive; validate manifests/checksums and hydrate the prior successful per-profile report. Then calculate new/updated/unchanged evidence against that snapshot. Store previous snapshot commit ID in run metadata for reproducibility.
+- Use collector `contents: read`, publisher `contents: write` only and the default Actions token. Publisher must safely merge concurrent updates without force-push and keep correct `latest` pointers.
+- Expose precise workflow conclusions and report statuses. An Actions run finishing successfully is not equivalent to full source coverage; report `partial` when collectors fail. Failed/empty runs must preserve last successful latest report.
+- Keep bounded debugging artifacts and clear logs with no unreviewed source bodies, token echoes or private prompts. Validate workflow input by Pydantic/schema, pass via environment rather than unquoted shell interpolation.
+- Publish branch paths that public agents can read anonymously; external workflow dispatch requires a GitHub identity with appropriate permissions.
 
-## 9. Jobs, scheduling, and agent consumption
+## 10. GitHub-hosted runner packaging
 
-- Job fields: `job_id`, `idempotency_key`, `requested_by`, `profile_id`, `question`, `mode`, `status`, `submitted_at`, `started_at`, `completed_at`, `stage`, `counts`, `warnings`, `error`, `report_id`, `artifact_manifest`, `publication_status`.
-- States: `queued`, `running`, `completed`, `partial`, `failed`, `cancelled`. Enforce state transitions. An empty but valid collection is `completed` with `no_new_items` result or `partial` if source coverage failed; not an invented success summary.
-- Constrain concurrency and queue sizes in HF CPU Basic; timeouts per stage and total job. On restart, detect persisted/local interrupted jobs and mark them explicitly rather than leaving them `running` forever.
-- For scheduled durable reports, create `.github/workflows/horizon-intel.yml` with scheduled global/institution collection and validated `workflow_dispatch` inputs (`profile_id`, optional safe lookback). Avoid arbitrary shell interpolation from user-supplied inputs.
-- GitHub Actions should run `uv sync --frozen`, execute the same research service, validate output, and publish to `intel` branch using the workflow-scoped token. Keep run logs/artifacts for debugging. `permissions: contents: write` on the publishing job only.
-- Document that GitHub scheduled jobs may be delayed or disabled through inactivity; an HF free Space may sleep/restart. Don't promise guaranteed always-on operation.
-- Remote agents may read published public GitHub files without a token; invoking `workflow_dispatch` still requires an identity authorized by GitHub. If no authorization is available, that control path must be shown as unavailable, not silently bypassed.
-
-## 10. HF Space packaging
-
-- Adapt the existing Dockerfile or provide an unambiguous build artifact copied to the actual Space repository. For a Docker Space, actual Space README YAML frontmatter should contain `sdk: docker` and `app_port: 7860`; do not blindly prepend HF-only metadata to the GitHub source repository README.
-- Install `fastapi`, `uvicorn` and other **lightweight** required dependencies, pin through existing `uv.lock` (with reproducible build). Preserve `uv run horizon`, `uv run horizon-mcp` and their CLI tests.
-- Run as unprivileged UID 1000; bind server `0.0.0.0:7860`; reasonable startup without external network dependencies; deterministic health checks.
-- Configure default `HORIZON_CREDENTIAL_FREE=true`, `HORIZON_AI_MODE=auto`, `HORIZON_ARCHIVE_REPO=JsonLord/Horizon`, `HORIZON_ARCHIVE_REF=intel`, `HORIZON_MAX_JOBS=2`, etc. All private values via runtime environment, never tracked `.env` or in public API.
-- No persistent filesystem assumptions: ephemeral Space jobs/reports may disappear. Source of truth for cross-session research is Git-published archive. Make the UI reflect this distinction.
-- Do not expose additional ports, and do not install a heavyweight DB or unrelated agent framework. No requirement for paid HF hardware.
-- Preserve or repair local Docker Compose CLI behavior if replacing the Dockerfile entrypoint.
+- GitHub Actions checks out the source, installs Python and `uv`, uses `uv sync --frozen` / locked dependencies, runs the research CLI and publishes outputs. It requires no separate server or container build.
+- Keep the repo's historical `Dockerfile` and Compose **only if needed for pre-existing local CLI compatibility**; revert Space-specific `EXPOSE 7860`, `uvicorn` entrypoint and Space build metadata.
+- Remove Hugging Face deployment-only files, startup instructions, environment variables and tests. Do not install `fastapi`/`uvicorn` solely for an unused hosted interface.
+- No `HORIZON_AGENT_TOKEN`, no Space deployment target, no HTTP listen socket, no external service requiring uptime.
+- Defaults: `HORIZON_AI_MODE=off` or deterministic `auto` fallback, `HORIZON_ARCHIVE_REPO=JsonLord/Horizon`, `HORIZON_ARCHIVE_REF=intel`. Protect optional secrets using Actions environment; no new external API secret required for the baseline.
+- Every runner has a fresh ephemeral checkout: restore prior branch state before classification, and publish durable results before termination. Keep data volume, minutes and token use bounded.
 
 ## 11. Safety, provenance, correctness
 
 - **SSRF/network:** only allow HTTPS (or explicitly approved safe HTTP public feeds), DNS/IP safeguards against localhost, link-local, RFC1918, cloud metadata and internal tailnet endpoints for *untrusted submitted URLs*, redirect re-validation, hostname allow/deny rules, strict timeouts and response sizes.
-- **Authorization:** constant-time bearer comparison, authorization on writes, and rate limiting and job quotas. No public job-spawning without configured authentication.
+- **Authorization:** GitHub identity/permissions protect workflow dispatch and repository updates. Never introduce unauthenticated public job triggers or a custom bearer-token-controlled service; use runner timeouts, job concurrency and strict validated inputs.
 - **Prompt injection:** scraped pages, RSS descriptions, institutional PDFs/text are untrusted evidence and cannot modify system prompts, file paths, GitHub operations, auth, or tool permissions.
 - **Privacy:** do not publish private source URLs containing secrets, IPs, tokens, arbitrary prompts from other users, unredacted error payloads, or proprietary article bodies.
 - **Evidence:** keep original source URL, publisher, publication/observation dates, source kind and normalized evidence IDs; never synthesize fake publication dates or misleading corroboration.
@@ -274,61 +260,53 @@ Expose useful MCP resources such as `horizon://profiles`, `horizon://reports`, a
 6. Institution official source vs secondary media vs mere mentions are classified correctly in fixtures.
 7. Versioned report, JSON Schema, Markdown, manifest/checksum and changed-event outputs are valid, including empty and failed runs.
 8. Git publication dry-run, branch bootstrap, concurrency-safe publishing, denied permissions, failed push/retry, and no secret in logs/artifacts.
-9. HTTP: `/health`, `/ready`, `/v1/info`, profiles, reports, pagination, errors; unauthorized POST rejected; authorized POST creates bounded job; no accidental side effects in GET.
+9. Workflow control: input validation, approved profiles, denied/unauthorized dispatch handling, workflow-run status mapping, no public ad hoc prompt publication, and no custom HTTP server dependency.
 10. MCP: old tools still work; high-level profile/job/report tools work and do not expose secret-bearing effective config.
-11. Restart and crash-recovery conditions; protect against path traversal and SSRF/redirect to private targets.
+11. Fresh-runner history restoration, cancellation/timeout behavior and retriable publication; protect against path traversal and SSRF/redirect to private targets.
 12. Regression: all preexisting `tests/` pass; smoke check `scripts/check_mcp.py` passes.
 
-### Local integration / Docker acceptance
+### Local integration / workflow acceptance
 
-- `uv sync --frozen --extra dev && uv run pytest` is green (or explicitly report unavailable offline dependencies).
-- `uv run python scripts/check_mcp.py` passes.
-- `docker build ...` works in Docker-capable environments; container on port 7860 serves `/health`, `/ready`, `/v1/info`, `/api-docs`, and read-only archive view without any new secret.
-- `uv run horizon --hours 24` and `uv run horizon-mcp` remain invokable.
-- Credential-free end-to-end fixture job: create/load profile → fetch stubbed sources → grounded report JSON/Markdown → update latest manifest → second agent/read client resolves a report.
-- GitHub Actions workflow passes syntax/static validation; actual publish success is asserted only after a genuine workflow run with authorized repository permissions.
+- `uv sync --frozen --extra dev && uv run pytest` is green; retain baseline Horizon CLI and existing MCP smoke checks.
+- Research CLI completes bounded fixture runs with no model/news API key. Archive artifacts and manifest checksums validate.
+- Test a **two-day scenario with separate fresh checkout directories**, restoring the first day's `intel` archive before the second day's analysis, proving unchanged stories are not all mislabeled new.
+- `actionlint` (or equivalent) passes; the workflow itself uses only the automatic job token for publication and does not interpolate untrusted workflow inputs into shell source.
+- The `intel` branch is consumable by a separate clone and unauthenticated raw-file reader; fresh latest reports preserve previous history and never expose private job questions.
+- Explicitly test denied write permissions, concurrent publication collisions, collector 503/429, duplicate item handling and partial coverage.
 
-### Live acceptance where access is available
+### Live acceptance where authorized
 
-- Actual HF Space build succeeds; endpoint health/ready/info returns accurate modes.
-- GitHub Actions dispatch or schedule produces committed report and manifest on configured archive ref using the automatically generated job token, and the Space can read it.
-- A separate read-only client retrieves published `intel/latest/world.json` or institution report without needing a GitHub API key (public repo).
-- If HF Space ID, repository authorization, Docker daemon, or remote runner access is missing, complete local code/tests and explicitly document the blocked live check and exact action needed—never invent success.
+- The approved workflow exists on the default branch and a genuine `workflow_dispatch` succeeds on a **GitHub-hosted Actions runner**, using its automatic token for publication.
+- A committed `intel` update is verified by branch SHA and actual raw URLs; repeat a second run and inspect change classification and persisted historical state.
+- Separately verify institutional results and global report access with no credentials for public reading.
+- If no authorized merge/dispatch access is available, complete code/tests and state precisely what was not exercised. No Hugging Face or other deployment is part of acceptance.
 
-## 13. Implementation order and deliverables
 
-Work in implementation-ready increments, with tests after each:
+## 13. Implementation order and deliverables (adapt PR #1)
 
-1. **Audit & plan:** inspect current branch/status, remotes, Space target if present, config/tests, current HF packaging, and source filter. Update `spec.md` only if a proven technical correction is required; preserve product goals.
-2. **Profiles and source fixes:** implement Pydantic profile definitions, initial examples, multi-query GDELT/Google collection, source allowlist fixes, and offline fixtures.
-3. **Research analysis:** transparent deterministic fallback; institution attribution; evidence-preserving report schema; comparisons and change events.
-4. **Artifact archive:** write/report/manifest validator, `intel/latest` pointer, archive consumption API, GitHub Actions publishing (test with local git sandbox and mock auth).
-5. **Agent APIs:** higher-level MCP facade and FastAPI read/write endpoints, auth/quotas/idempotency and simple dashboard.
-6. **Deployment:** Space Docker image, runtime config, CLI preservation, GitHub Actions workflows and docs.
-7. **Validation:** full tests, local smoke, Docker where available, real GitHub/Space smoke only when access is available; repair defects until green or clearly blocked.
+Work on existing `feat/agent-research` PR #1. Do not recreate existing implemented features merely to match original design; adjust them to the runner-only architecture:
 
-Deliver/update these artifacts:
+1. **Audit:** inspect the current diff/PR branch, workflows, archive and previous deployed status. Mark all hosted Space/FastAPI requirements as explicitly superseded by this GitHub-only revision.
+2. **Prune deployment:** delete `deploy/huggingface/` and Space-specific `src/api/` server code/dependencies if no longer used. Restore pre-existing local CLI Docker/Compose behavior. Keep shared research pipeline, local MCP, profiles and schemas.
+3. **Remote control:** standardize `workflow_dispatch` inputs, profile allowlisting, GitHub-based job monitoring, and agent quick-start documentation for `gh workflow run`, Actions REST API and public `intel` reads.
+4. **Restore history:** hydrate prior successful `intel` snapshots before analysis on every fresh runner; compare changes and retain correct stable IDs.
+5. **Improve sources:** validate official institutional feeds and reduce irrelevant generic headlines without adding third-party credentials.
+6. **Validate:** run unit/fixture tests and two-run fresh-checkout integration, static Actions validation, and real workflow dispatch after merge if authorized; verify commit and public archive reads.
+7. **Document:** update repo-root `spec.md`, `docs/agent-research.md`, README, workflows and tests. Push fixes to the current PR branch without a force push; never imply deployment is required.
 
-- Root `spec.md` (this specification), implementation notes/checklist in `docs/agent-research.md`.
-- `profiles/`, `src/research/`, `schemas/`, `src/api/` as appropriate; minimal necessary edits to existing `src/mcp/`, `src/orchestrator.py`, `src/models.py`, `Dockerfile`, `pyproject.toml`, `uv.lock`.
-- `.github/workflows/horizon-intel.yml` and documented manual dispatch/profile setup.
-- Tests for new and regression functionality and documented local build/health check commands.
-- Human- and machine-readable sample report fixtures under `tests/fixtures/`; no fabricated real-time news passed off as observed news.
-- Final handoff: files changed, architectural choices, test results with exact commands, working endpoints, real published artifact links if any, commits/PRs, remaining limitations, and any credentials/permissions needed for optional features.
+Deliverables: approved profile files, credential-free research CLI, durable `intel` archive, working Actions workflows, developer-friendly local MCP, comprehensive tests, and exact agent instructions. **No Space, FastAPI service, external VM, or self-hosted deployment.**
 
-## 14. Explicit non-goals for the initial release
+## 14. Explicit non-goals
 
-- No fine-tuning, no training a new LLM, no mandatory vector database or knowledge graph.
-- No paid news service integration or bypass of restricted services.
-- No public anonymous arbitrary crawl/agent execution endpoint.
-- No promises of complete worldwide event coverage or 24/7 uptime from a free HF Space.
-- No independent authoritative truth-qualification engine; Horizon records evidence, while downstream systems such as Nodepad may decide qualification.
-- No separate redesigned multi-agent orchestration system inside Horizon; external agents retain responsibility for planning and use Horizon as their news/research worker.
+- No Hugging Face deployment, HTTP server, FastAPI, hosted dashboard, VM, Debian daemon, self-hosted runner, or public port.
+- No new standalone scheduler, hosted agent framework, app-level authentication, mandatory model API, fine-tuning or vector database.
+- No bypass of restricted/premium news sources; no free-form unauthenticated research execution.
+- No guarantee of uninterrupted coverage or 24/7 uptime from scheduled GitHub Actions.
+- No independent authoritative truth qualification; downstream evidence systems may assess reliability.
 
 ## 15. Reference implementation links
 
-- Source repo: https://github.com/JsonLord/Horizon
-- Hugging Face Docker Spaces: https://huggingface.co/docs/hub/spaces-sdks-docker
-- HF Space configuration: https://huggingface.co/docs/hub/spaces-config-reference
-- GitHub Actions `GITHUB_TOKEN`: https://docs.github.com/en/actions/concepts/security/github_token
-- Workflow permissions: https://docs.github.com/en/actions/tutorials/authenticate-with-github_token
+- Source / PR: https://github.com/JsonLord/Horizon/pull/1
+- GitHub Actions workflow dispatch: https://docs.github.com/en/rest/actions/workflows#create-a-workflow-dispatch-event
+- GitHub Actions permissions: https://docs.github.com/en/actions/security-for-github-actions/security-guides/automatic-token-authentication
+- GitHub Actions scheduled events: https://docs.github.com/en/actions/reference/workflows-and-actions/events-that-trigger-workflows#schedule

@@ -16,6 +16,14 @@
   "queries": [
     {
       "source": "google_news",
+      "text": "site:home.cern",
+      "language": "en",
+      "country": "US",
+      "topic": "CERN",
+      "region": "Europe"
+    },
+    {
+      "source": "google_news",
       "text": "\"CERN\"",
       "language": "en",
       "country": "DE",
@@ -63,6 +71,8 @@
     "official_domains": [
       "home.cern"
     ],
-    "official_feeds": []
+    "official_feeds": [
+      "https://home.cern/feed/"
+    ]
   }
 }

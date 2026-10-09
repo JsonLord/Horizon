@@ -1,162 +1,90 @@
-# Agent research implementation and operator guide
+# GitHub-native agent research
 
-Acceptance contract: repository-root `spec.md`. Existing CLI, native AI pipeline and MCP stage tools remain in place; the credential-free research service is additive.
+The corrected root `spec.md` is the acceptance contract. This update continues PR #1 on `feat/agent-research`; scheduled and remote execution uses GitHub-hosted runners exclusively. Existing CLI, wizard, scrapers, deterministic fallback and local stdio MCP remain available for development.
 
-## Progress
-
-- [x] Clean checkout inspected on `work`; implementation branch `feat/agent-research`.
-- [x] Existing Docker, source adapters, MCP stage service, providers, manifests and workflows inspected.
-- [x] Nine validated JSON profiles; canonical serialization; bounded multi-query collection and MCP source allowlist correction.
-- [x] Deterministic title extraction, independent source references, official-domain classification, transparent relevance and query-region coverage.
-- [x] Versioned reports, checksummed manifests, latest pointers, bounded events, atomic writes and separate archive consumer.
-- [x] Shared asynchronous job service; HTTP auth, quotas, idempotency and restart recovery; additive MCP research tools/resources.
-- [x] Single-port CPU Docker packaging and CLI Compose override.
-- [x] Scheduled/dispatch Actions collection and separate publishing job using automatic job token.
-- [x] Final regression, source fixtures, live Google collection, Docker/API, workflow static validation and real Git archive publication (results below).
-- [ ] Actual Space deployment: no Space ID identified in remote/deployment configuration so far.
-
-## Run
-
-Use the existing checkout; tasks already have isolated environments. Do not create a Git worktree unless explicitly requested.
-
-```
-uv sync --frozen --extra dev
-uv run python -m uvicorn src.api.app:app --host 0.0.0.0 --port 7860
-uv run python -m src.research.cli --profile-id world/global
-uv run horizon --hours 24
-uv run horizon-mcp
+```mermaid
+flowchart LR
+  A[Authorized agent] -->|workflow_dispatch| W[GitHub Actions]
+  P[Reviewed profiles] --> W
+  H[intel branch history] -->|validate and restore| W
+  W --> C[Public source collectors]
+  C --> R[Evidence-grounded reports]
+  R -->|automatic job token| H
+  H --> U[Anonymous agent readers]
 ```
 
-The legacy CLI still uses its existing `data/config.json`. Native `ai.mode=auto` falls back to transparent deterministic title/recency scoring when the model key is absent; `local`/`off` never call a model. Configured model behavior remains available. Research execution does not require a model or news API key. Empty/unavailable collectors are explicitly distinguished from observed findings.
+## Implementation checklist
 
-HTTP read interfaces: `/health`, `/ready`, `/v1/info`, `/v1/profiles`, `/v1/profiles/world/global`, `/v1/reports`, `/v1/reports/{report_id}?format=markdown`, `/v1/changes`, `/api-docs`, `/openapi.json`, `/`. Job submission and job status require `Authorization: Bearer <HORIZON_AGENT_TOKEN>`; absence of the token disables remote execution with 403. No token belongs in a profile or artifact. Profile registration is authenticated; feed additions require operator-reviewed repository profiles.
+- [x] Remove deployment API/dashboard, hosted token and direct FastAPI dependencies; restore legacy CLI Docker files.
+- [x] Preserve native tools and nine reviewed profiles; remote inputs contain only approved profile ID and bounded lookback.
+- [x] Restore prior archive from `intel` before collection, validate checksums, record previous commit/report/hash and workflow provenance.
+- [x] Test independent fresh runners, stable IDs and unchanged/updated/new classifications.
+- [x] Discover and validate ECB and CERN feeds, reject stock-photo noise, prioritize primary institutional sources.
+- [x] Validate WHO feed and document stale entries; document absent Helmholtz RSS discovery and add reviewed official-domain searches.
+- [x] Complete regression, MCP, actionlint and public archive validation; Docker build outcomes recorded below.
+- [ ] Push updated branch and PR; genuine Actions execution remains subject to default-branch workflow availability.
 
-MCP adds `hz_list_profiles`, `hz_get_profile`, `hz_submit_research`, `hz_get_job`, `hz_list_jobs`, `hz_list_reports`, `hz_get_report`, `hz_search_archive`, `hz_get_changes`, `hz_register_institution` to the existing trusted stdio server. Resources: `horizon://profiles`, `horizon://reports`, `horizon://reports/{report_id}`.
+## Agent playbook
 
-## Archive and publication
+Use existing GitHub authorization to submit a reviewed profile. No application-specific credential exists. A new target requires a reviewed profile PR; remote dispatch does not accept prompts, URLs, headers or commands.
 
-Actions schedule runs daily at 06:23 UTC (schedules may be delayed or disabled after inactivity). Dispatch `horizon-intel.yml` with an approved profile ID and lookback 1–168. Inputs pass through environment variables and schema validation, never shell interpolation. Collection has read permission; publication alone has `contents: write`. Branch rules can still deny writes. Space authentication is unrelated to Actions authentication.
-
-The `intel` branch contains `intel/manifest.json`, `intel/latest/world.json` and `.md`, `intel/latest/institutions/ecb.json`, versioned `intel/reports/.../<run_id>/report.json`, `.md`, `manifest.json`, and `intel/events/YYYY/MM/DD/events.jsonl`. Schemas live at `schemas/`. An initially absent branch bootstraps automatically; publication retries boundedly without force pushes. Reports max 1 MB each; index retains 100 reports. Local stage storage remains separate.
-
-Once publication is verified, consumers can use:
-
+```sh
+gh workflow run horizon-intel.yml --repo JsonLord/Horizon \
+  -f profile_id=institutions/ecb -f lookback_hours=48
+gh run list --repo JsonLord/Horizon --workflow horizon-intel.yml \
+  --event workflow_dispatch --json databaseId,status,conclusion,headSha,url,createdAt
+gh run watch RUN_ID --repo JsonLord/Horizon --exit-status
+gh run view RUN_ID --repo JsonLord/Horizon --json status,conclusion,jobs,headSha,url
+gh run download RUN_ID --repo JsonLord/Horizon --name research-archive
 ```
-git fetch origin intel
-git show origin/intel:intel/latest/world.json
-curl -f https://raw.githubusercontent.com/JsonLord/Horizon/intel/intel/manifest.json
-```
 
-These paths were verified on the actual `intel` branch, including anonymous raw HTTP retrieval.
+Dispatch does not return a run ID synchronously. Capture the dispatch time, select the matching event/branch/head SHA from the run list, and verify the archived report's `workflow.run_id` equals the selected GitHub run ID. A local research job ID is not a durable remote job handle. The report's `workflow.source_commit` identifies the code; `history.previous_snapshot_commit` identifies the baseline. A Git commit cannot contain its own commit SHA; obtain the publication commit from the branch history and workflow publisher output.
 
-Space-originated research is `local_only` and ephemeral. Public GitHub archive reading uses no API key. Dispatching Actions requires existing authorized GitHub access. This release does not automatically dispatch from the Space or pretend it has Actions' token.
-
-Optional model configuration: `HORIZON_AI_MODE=auto|local|off`, `HORIZON_LLM_BASE_URL`, `HORIZON_LLM_MODEL`, optional `HORIZON_LLM_API_KEY`. `off` makes no model call. Unavailable/invalid model output falls back to extractive analysis. Model enrichment selects evidence IDs only; summaries remain source-grounded titles.
-
-## Space deployment
-
-Build this Dockerfile in the **actual** Docker Space repository; its README frontmatter must contain `sdk: docker` and `app_port: 7860`. GitHub README is unchanged. UID 1000, one port, two bounded workers, no database or local inference runtime. A free Space may sleep/restart; live tasks do not persist. No private endpoints are returned by the info interface.
-
-No official institution feed URL is invented. Seed institutions use news searches and reviewed official-domain attribution with empty feed lists. Operators can add verified public HTTPS feeds to repository profiles. Query region is explicitly not event geography. Headline-only extraction cannot infer contradictions/resolutions or verify truth; these remain surfaced limitations rather than fabricated classifications.
-
-## Verified acceptance results
-
-- `UV_CACHE_DIR=/tmp/horizon-uv uv sync --frozen --extra dev`: passed. The custom cache is required because this cloud machine's default home cache is read-only.
-- `UV_CACHE_DIR=/tmp/horizon-uv uv run pytest`: **315 passed**, no skipped/expected-failure tests (final run 3.66 seconds; subsequent runs recorded in the handoff if changed).
-- `uv run python scripts/check_mcp.py`: passed after seeding the existing ignored `data/config.json` from the repository example without overwriting a user config.
-- `uv run python scripts/check_research_mcp.py`: passed over the real stdio transport; **24 tools, 9 profiles**; original stage tools and new research resources discovered.
-- `uv run horizon --hours 24`: initial missing-key failure diagnosed and fixed by the native deterministic fallback; rerun exited **0**, saved its summary and completed. The repository-supported optional sources still report their own unavailable endpoints.
-- `actionlint 1.7.7 .github/workflows/horizon-intel.yml`: passed. The downloaded binary was checked against the upstream release checksum. No actual Actions run is claimed.
-- Docker: build succeeded with frozen lockfile and TLS verification. This cloud's proxy required a DNS host binding and an optional build-only CA secret. No proxy endpoint or CA is baked into the image. Runtime smoke returned **200** for health, ready, info, docs, OpenAPI, profiles, reports and dashboard. With the existing cloud proxy and CA trust supplied to the test container, its archive API returned **published**, two reports, and 15 ECB findings. Standard HF networking does not require this cloud-specific proxy configuration.
-- Fixture E2E: shared job request → multi-source collection fixtures → grounded report → atomic archive → Git branch bootstrap/push → separate clone reader. Tests include zero items followed by findings, checksums, denied pushes with three bounded retries/no force, safe URL/DNS checks, gzip responses, auth/privacy, request/queue bounds, cancellation, restart recovery, model fallback and strict schemas.
-
-### Real archive publication
-
-Published from this cloud machine using its existing HTTPS Git proxy authorization, **not** a manually provisioned token or a claimed Actions token:
-
-- Archive commit: `5bb6a2bba62641c62ebaf5d2b777fa58c2929e82` on `intel`.
-- World report: `7b63820cbc8d4083b2c13ccb150d3f89`, **60 findings / 60 sources**.
-- ECB report: `65452eb59f454da3884b3e3583d57207`, **15 findings / 15 sources**.
-- Both reports are **partial**: live Google News succeeded; GDELT returned **503**, and the existing public Simon Willison feed returned **403** in this cloud environment.
-- All five requested world search regions produced selected sources. These are **search locales**, not verified event locations or a claim of worldwide completeness.
-- A separate clone and a separate raw-HTTP client with no Authorization header retrieved the real manifest and both reports successfully.
-
-Verified public paths:
+Unauthenticated consumers read:
 
 - https://raw.githubusercontent.com/JsonLord/Horizon/intel/intel/manifest.json
 - https://raw.githubusercontent.com/JsonLord/Horizon/intel/intel/latest/world.json
 - https://raw.githubusercontent.com/JsonLord/Horizon/intel/intel/latest/world.md
 - https://raw.githubusercontent.com/JsonLord/Horizon/intel/intel/latest/institutions/ecb.json
-- https://github.com/JsonLord/Horizon/tree/intel/intel/reports
 
-### Remaining external checks and limits
+Find the entry with matching `workflow.run_id` in the index; fetch its `path`, adjacent `manifest.json` and Markdown. Verify artifact byte counts and SHA-256. For consistent reads, replace `intel` in the URL with the publication commit SHA. Historical reports are under `intel/reports/<profile>/YYYY/MM/DD/<report-id>/`; institutional changes are in `intel/events/YYYY/MM/DD/events.jsonl`. Schemas are under `schemas/` on the archive branch.
 
-No actual Hugging Face Space ID was found in the original remotes, tracked deployment files or available environment binding names. Initial HF discovery was blocked with **403**; later API access succeeded, found no Spaces under the matching GitHub author, and a similarly named public candidate had no repository binding. GitHub deployment records list only GitHub Pages. No Space was invented, created or deployed. Supply the actual Space binding and an authorized deployment mechanism; then copy the tested image inputs and `deploy/huggingface/README.md` into that Space and verify its real endpoint.
+## Runtime and safeguards
 
-Initial GitHub REST requests returned **Forbidden**; later authenticated access succeeded and PR **https://github.com/JsonLord/Horizon/pull/1** was created on `feat/agent-research`. An actual workflow dispatch attempt returned **404** because the new workflow is not yet present on the default branch. Merge/review the PR, then dispatch `horizon-intel.yml` to validate a real Actions `GITHUB_TOKEN` publication. The live cloud Git push does not prove that scheduled path ran.
+The workflow runs daily at 06:23 UTC or by authorized dispatch; GitHub schedules may be delayed and only run from the default branch. Collector permission is `contents: read`; only the publisher has `contents: write`, using automatic `GITHUB_TOKEN`. Both jobs use `ubuntu-latest`, Python 3.11 and frozen uv installation. Concurrency serializes publication, timeouts bound execution, artifacts expire after seven days, and the archive retains 100 reports and 30 event dates. Publication retries three non-force pushes and merges freshly fetched history to preserve concurrent reports.
 
-Profiles initially leave official institution feed lists empty; no feed was fabricated. The world profiles reuse Simon Willison's public feed already present in Horizon's example config. Unreviewed submitted feeds are rejected. Query-country metadata never masquerades as event geography. Deterministic dedup handles normalized/near-identical titles, public URL IDs and cross-language titles sharing a canonical URL, while retaining bounded query/language observations. It cannot reliably recognize every unrelated-URL translation or syndication. Contradiction/resolution labels use explicit source wording on a previously observed event and require review. Model enrichment validates evidence selections and preserves extractive summaries; it never invents free-form model facts. Optional subscriptions remain a second-phase non-goal.
+A missing archive branch is explicit bootstrap. Existing corrupt/missing manifests or unavailable remote history stop collection rather than falsely reporting all prior stories as new. Restoration uses the newest nonempty successful/partial profile report, skips failed/empty snapshots, and records the baseline timestamp so stale last-good history remains visible. Partial source failure (including GDELT 503) remains a report limitation. Latest pointers are reconstructed from validated versioned reports, never trusted as the comparison source. Optional compatible-model inference accepts only evidence-linked selections; deterministic mode needs no keys.
 
-Space-originated questions remain private to authenticated local-report/job access and are export-only. The publisher rejects ad hoc/private question reports; approved scheduled profiles are the durable public path. Public profile registration is an authorized operation. Jobs retain at most 100 local records; archive retains at most 100 indexed reports and 30 dated event files, with a 1 MB artifact ceiling. Failed/no-new-items runs do not overwrite successful latest pointers.
+Local stdio tools run with `uv run horizon-mcp`. They retain profile discovery, local research submission/status, public archive search and report retrieval plus all legacy stage tools. Local job state is for that process, not a GitHub runner queue. Remote control uses GitHub's own API/CLI; no HTTP endpoints or listening ports are part of this architecture.
 
-## Files created and modified
+## Verification record
 
-- Created: `.github/workflows/horizon-intel.yml`
-- Modified: `.gitignore`
-- Modified: `Dockerfile`
-- Modified: `README.md`
-- Created: `deploy/huggingface/README.md`
-- Modified: `docker-compose.yml`
-- Created: `docs/agent-research.md`
-- Created: `profiles/examples/custom-research.json`
-- Created: `profiles/institutions/cern.json`
-- Created: `profiles/institutions/ecb.json`
-- Created: `profiles/institutions/helmholtz.json`
-- Created: `profiles/institutions/who.json`
-- Created: `profiles/world/economy.json`
-- Created: `profiles/world/geopolitics.json`
-- Created: `profiles/world/global.json`
-- Created: `profiles/world/science-technology.json`
-- Modified: `pyproject.toml`
-- Created: `schemas/manifest.schema.json`
-- Created: `schemas/profile.schema.json`
-- Created: `schemas/research-report.schema.json`
-- Created: `scripts/check_research_mcp.py`
-- Created: `src/ai/local.py`
-- Created: `src/api/__init__.py`
-- Created: `src/api/app.py`
-- Modified: `src/mcp/horizon_adapter.py`
-- Modified: `src/mcp/server.py`
-- Modified: `src/mcp/service.py`
-- Modified: `src/models.py`
-- Modified: `src/orchestrator.py`
-- Created: `src/research/__init__.py`
-- Created: `src/research/analyzers.py`
-- Created: `src/research/cli.py`
-- Created: `src/research/collector.py`
-- Created: `src/research/profiles.py`
-- Created: `src/research/publisher.py`
-- Created: `src/research/remote.py`
-- Created: `src/research/reporting.py`
-- Created: `src/research/service.py`
-- Created: `tests/fixtures/research/manifest.json`
-- Created: `tests/fixtures/research/report.json`
-- Created: `tests/fixtures/research/report.md`
-- Created: `tests/test_local_analyzer.py`
-- Modified: `tests/test_mcp_adapter.py`
-- Created: `tests/test_research.py`
-- Created: `tests/test_research_collection.py`
-- Created: `tests/test_research_http.py`
-- Created: `tests/test_research_model.py`
-- Created: `tests/test_research_publisher.py`
-- Modified: `uv.lock`
+In progress. Prior public archive commits were published using cloud Git authorization, not an Actions job token. They are useful readable evidence, but do not verify automatic-token publishing. The new workflow must be recognized on the default branch before dispatch can be genuinely validated; this task does not authorize merging PR #1.
 
-### Final environment handoff
+### Source validation (2026-10-09)
 
-The HTTP service was left running on port 7860. Its `/ready` reports `archive_connectivity: connected`, deterministic fallback available, no configured model and nine profiles. Real MCP archive reads returned two reports, 15 ECB findings, five matches for a Central Bank search and 15 ECB change events.
+ECB's official RSS directory `https://www.ecb.europa.eu/home/html/rss.en.html` links `https://www.ecb.europa.eu/rss/press.html`: HTTP 200, valid RSS, 15 entries. CERN's homepage advertises `https://home.cern/feed/`: HTTP 200, valid RSS, 10 entries with institutional news titles. WHO's `https://www.who.int/rss-feeds/news-english.xml` returns HTTP 200, self-identifies its official feed URL and parses 25 entries; observed 2024 entries are stale and excluded by the bounded lookback. Its publishing page exposes no feed link; the attempted generic RSS directory returns 404. These three validated URLs are in reviewed profiles, with official-domain search queries as complementary sources.
 
-After network access changed, the existing public RSS feed was retried: **7 items, valid Atom feed, no error**. The initial published reports correctly retain their historical source-failure observations. A final world refresh/publish is recorded below when completed.
+Helmholtz English and German newsrooms return HTTP 200, but neither exposes an RSS/Atom link. The site's robots file points to sitemaps, not feeds. `/en/rss/` and `/en/newsroom/rss/` return 404. No unverified feed is configured. Its reviewed `site:helmholtz.de` query and institutional-name queries remain functional public-source collection; primary sources rank before secondary mentions. This is a source availability limitation, not a credential requirement.
 
-Saved environment draft fields: `install_script`, `start_skill`, `UV_CACHE_DIR` runtime variable and additive custom network domains (existing package-manager presets preserved). This persists instructions and requirements; it does not itself publish a snapshot. Review/save the draft in environment settings and publish the environment for future tasks. No new secret requirement was added for the baseline.
+### Current validation
 
-Final world refresh after RSS recovery: report `d468fe2b7b514b09ae3de325efbf06c9`, published on `intel` at `6f82103fabc30fae344d58fe18991882621727fb`. Google News and the existing RSS feed succeeded; GDELT remained 503, so the report remains honestly **partial**. The stable latest/world paths now resolve this newer snapshot; the earlier versioned reports remain readable.
+- Frozen installation succeeds with `uv sync --frozen --extra dev`.
+- Final full regression suite: **318 passed**, zero failed/skipped (see `/tmp/horizon-regression-new.log` for the current-instance log). This includes six new history/provenance/quality tests, independent day-1/day-2/day-3 directories, a separate archive consumer, checksum rejection and an actual competing Git push.
+- Both MCP smoke checks pass; real stdio transport lists 24 tools and nine profiles.
+- `actionlint` passes for `horizon-intel.yml`; Docker Compose configuration validates.
+- Real archive restore verifies three historical reports at commit `6f82103fabc30fae344d58fe18991882621727fb`. Anonymous manifest, world JSON/Markdown and ECB JSON reads return HTTP 200. These historical reports predate workflow provenance fields; new reports/index entries include them.
+- Dispatch attempt returns HTTP 404 for `horizon-intel.yml`, which is not on the default branch. No genuine Actions run ID or automatic-token publication is claimed. No merge is performed.
+- Docker normal build and host-network retry both fail DNS while fetching locked dependencies from `files.pythonhosted.org`; neither image build is claimed successful. Native frozen installation and CLI/MCP verification remain valid. Legacy `horizon --help` succeeds. The interactive wizard has no `--help` parser and reaches its existing prompt before EOF in this noninteractive check; its regression tests pass, and no wizard source was changed.
+
+The cloud environment draft now contains frozen development installation and CLI/MCP/Actions instructions without a persistent service. Deployment-only domains were removed. Saving the draft does not publish the environment; review and publish it through environment settings when desired.
+
+### Live fresh-output collection
+
+A credential-free local development check restored the verified public archive and collected `institutions/ecb` with a 48-hour window. Report `6826e2dd61e4402bbd2aeca7f1fa8831` is partial with 23 findings/27 sources: 10 unchanged, two updated, 11 new. Google News official-domain and institutional queries plus RSS succeeded; GDELT returned HTTP 503. The report records prior report `65452eb59f454da3884b3e3583d57207`, SHA-256 `5450c4f49413e147d8d06f65414192c1d225262f3076c6ae1ceb62842dc90121`, baseline archive commit and stale-last-good=false. This local check is **not** an Actions run or newly published public result.
+
+### Changed files
+
+Removed `src/api/__init__.py`, `src/api/app.py`, `deploy/huggingface/README.md` and the HTTP-only `tests/test_research_http.py`. Added `src/research/history.py` and `tests/test_research_history.py`. Updated workflow, root spec, README, this record, legacy Dockerfile/Compose, dependency declaration/lockfile, four institution profiles, report schema, research analyzer/CLI/publisher/reporting/service and the registration fixture. Existing scrapers, model fallback, CLI/wizard, all 24 stdio MCP tools and public archive reader are retained.
+
+Remaining acceptance blockers: genuine workflow dispatch/publication requires the workflow to exist on the default branch and Actions write permissions/branch policy to allow `intel` publication. Dispatch currently returns 404, so no real run IDs or conclusions exist for this new workflow. The updated PR stays unmerged. Helmholtz has no validated discoverable feed; public search coverage is explicitly limited. Legacy Docker image build is blocked by this environment's Docker DNS. No hosted deployment is planned.

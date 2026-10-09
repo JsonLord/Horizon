@@ -16,6 +16,14 @@
   "queries": [
     {
       "source": "google_news",
+      "text": "site:who.int",
+      "language": "en",
+      "country": "US",
+      "topic": "World Health Organization",
+      "region": "world"
+    },
+    {
+      "source": "google_news",
       "text": "\"World Health Organization\"",
       "language": "en",
       "country": "DE",
@@ -62,6 +70,8 @@
     "official_domains": [
       "who.int"
     ],
-    "official_feeds": []
+    "official_feeds": [
+      "https://www.who.int/rss-feeds/news-english.xml"
+    ]
   }
 }

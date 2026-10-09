@@ -107,6 +107,9 @@ def test_safe_registration_persists(tmp_path):
 
     s = ResearchService(tmp_path)
     profile = load_profiles()["institutions/ecb"].model_dump(by_alias=True)
+    profile["institution"][
+        "official_feeds"
+    ] = []  # runtime registration cannot add feeds
     s.register(profile)
     assert (
         ResearchService(tmp_path).profile("institutions/ecb").canonical()

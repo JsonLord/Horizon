@@ -37,6 +37,7 @@ class ResearchService:
     def __init__(self, root=None, profiles_dir=None, collector=collect):
         self.root = Path(root or os.getenv("HORIZON_RESEARCH_DIR", "data/research"))
         self.archive = Archive(self.root)
+        self.history = {"state": "local", "previous_snapshot_commit": None}
         self.profiles = load_profiles(profiles_dir)
         for f in (self.root / "profiles").glob("*.json"):
             p = Profile.model_validate_json(f.read_text())
@@ -240,6 +241,33 @@ class ResearchService:
                         mode,
                         warnings,
                     )
+                    report["history"] = dict(self.history)
+                    previous = self.archive.latest(profile.profile_id)
+                    report["history"]["previous_report_id"] = (
+                        previous["report_id"] if previous else None
+                    )
+                    if previous:
+                        import hashlib
+
+                        report["history"]["previous_report_sha256"] = hashlib.sha256(
+                            (self.root / previous["links"]["json"]).read_bytes()
+                        ).hexdigest()
+                        report["history"]["previous_created_at"] = previous[
+                            "created_at"
+                        ]
+                        report["history"]["stale_last_good"] = (
+                            datetime.now(UTC)
+                            - datetime.fromisoformat(previous["created_at"])
+                        ).total_seconds() > profile.lookback_hours * 3600
+                    report["history"]["comparison"] = (
+                        "last_good" if previous else "first_profile_snapshot"
+                    )
+                    report["workflow"] = {
+                        "run_id": os.getenv("GITHUB_RUN_ID"),
+                        "run_attempt": os.getenv("GITHUB_RUN_ATTEMPT"),
+                        "source_commit": os.getenv("GITHUB_SHA"),
+                        "repository": os.getenv("GITHUB_REPOSITORY"),
+                    }
                     job["stage"] = "archiving"
                     self.persist(job)
                     manifest = self.archive.write(report)

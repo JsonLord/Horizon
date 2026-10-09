@@ -469,6 +469,16 @@
       "additionalProperties": true,
       "title": "Links",
       "type": "object"
+    },
+    "history": {
+      "additionalProperties": true,
+      "title": "History",
+      "type": "object"
+    },
+    "workflow": {
+      "additionalProperties": true,
+      "title": "Workflow",
+      "type": "object"
     }
   },
   "required": [

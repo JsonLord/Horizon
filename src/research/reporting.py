@@ -94,6 +94,8 @@ class Report(BaseModel):
     changes: list[dict]
     errors: list[dict]
     links: dict
+    history: dict = Field(default_factory=dict)
+    workflow: dict = Field(default_factory=dict)
 
 
 class Manifest(BaseModel):
@@ -251,7 +253,9 @@ class Archive:
         rows = self.list(profile_id, limit=100)
         for row in rows:
             if row["status"] in ("complete", "partial"):
-                return self.get(row["report_id"])
+                report = self.get(row["report_id"])
+                if report["findings"]:
+                    return report
         return None
 
     def write(self, report):
@@ -329,12 +333,14 @@ class Archive:
                 "status": report["status"],
                 "created_at": report["created_at"],
                 "path": base + "/report.json",
+                "workflow": report["workflow"],
+                "history": report["history"],
             },
         )
         removed = index["reports"][100:]
         index["reports"] = index["reports"][:100]
         atomic(self.root / "intel/manifest.json", dumps(index))
-        if report["status"] in ("complete", "partial"):
+        if report["status"] in ("complete", "partial") and report["findings"]:
             latest = (
                 "world"
                 if report["profile_id"] == "world/global"

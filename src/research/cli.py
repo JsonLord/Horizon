@@ -9,7 +9,18 @@ from .service import ResearchService
 
 
 async def run(args):
+    from .history import restore
+    from .profiles import load_profiles
+
+    if args.profile_id and args.profile_id not in load_profiles():
+        raise ValueError("Only repository-reviewed profiles are allowed")
+    if args.lookback_hours is not None and not 1 <= args.lookback_hours <= 168:
+        raise ValueError("Lookback must be 1–168 hours")
+    history = restore(
+        args.output, getattr(args, "remote", "https://github.com/JsonLord/Horizon.git")
+    )
     service = ResearchService(args.output)
+    service.history = history
     ids = (
         [args.profile_id]
         if args.profile_id

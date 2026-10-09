@@ -10,5 +10,4 @@ services:
     restart: unless-stopped
     # Run daily at 8:00 AM UTC (adjust as needed)
     # For one-time run, use: docker compose run --rm horizon
-    entrypoint: ["/app/.venv/bin/horizon"]
     command: ["--hours", "24"]

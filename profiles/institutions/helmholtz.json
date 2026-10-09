@@ -16,6 +16,14 @@
   "queries": [
     {
       "source": "google_news",
+      "text": "site:helmholtz.de",
+      "language": "en",
+      "country": "US",
+      "topic": "Helmholtz Association",
+      "region": "Europe"
+    },
+    {
+      "source": "google_news",
       "text": "\"Helmholtz Association\"",
       "language": "en",
       "country": "DE",
