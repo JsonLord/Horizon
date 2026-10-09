@@ -1,0 +1,36 @@
+{
+  "artifacts": [
+    {
+      "bytes": 76560,
+      "content_type": "application/json",
+      "path": "intel/reports/institutions/ecb/2026/10/09/bd4595eddc2b1079e0b64429d8d450fa/report.json",
+      "sha256": "eeb28d6b1b5c5bd793c42500b3cf29ff0a94c3c945dc3128e71450c8d8edcc9c"
+    },
+    {
+      "bytes": 10944,
+      "content_type": "text/markdown",
+      "path": "intel/reports/institutions/ecb/2026/10/09/bd4595eddc2b1079e0b64429d8d450fa/report.md",
+      "sha256": "2939c527c1eaa35e1873c24af743896f14669a3fa644cd21f3c92595ec930d89"
+    }
+  ],
+  "commit": null,
+  "generated_at": "2026-10-09T22:38:09.992879+00:00",
+  "profile_id": "institutions/ecb",
+  "report_id": "bd4595eddc2b1079e0b64429d8d450fa",
+  "schedule": {},
+  "schema_version": "1.0",
+  "snapshot_id": "2bf4e074209d63e5ba9881aca3e51653ee6b2130e83773e1e1b05616b38e2fcc",
+  "status": "partial",
+  "workflow": {
+    "effective_lookback_hours": 48,
+    "name": "Horizon intelligence archive",
+    "ref": "feat/actions-mcp-schedules",
+    "repository": "JsonLord/Horizon",
+    "request_id": "controller-smoke-c70792da9059443b9110",
+    "run_attempt": "1",
+    "run_id": "38000215123",
+    "schedule_id": null,
+    "source_commit": "bbec220aba8854bfacac50b3c0fd27189f103f42",
+    "workflow_ref": "JsonLord/Horizon/.github/workflows/horizon-intel.yml@refs/heads/feat/actions-mcp-schedules"
+  }
+}
