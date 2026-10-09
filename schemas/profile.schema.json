@@ -1,0 +1,355 @@
+{
+  "$defs": {
+    "Feed": {
+      "additionalProperties": false,
+      "properties": {
+        "name": {
+          "maxLength": 120,
+          "minLength": 1,
+          "title": "Name",
+          "type": "string"
+        },
+        "url": {
+          "maxLength": 2048,
+          "title": "Url",
+          "type": "string"
+        },
+        "topic": {
+          "default": "general",
+          "maxLength": 120,
+          "minLength": 1,
+          "title": "Topic",
+          "type": "string"
+        },
+        "region": {
+          "default": "unknown",
+          "maxLength": 120,
+          "minLength": 1,
+          "title": "Region",
+          "type": "string"
+        }
+      },
+      "required": [
+        "name",
+        "url"
+      ],
+      "title": "Feed",
+      "type": "object"
+    },
+    "Institution": {
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "pattern": "^[a-z0-9-]{1,64}$",
+          "title": "Id",
+          "type": "string"
+        },
+        "names": {
+          "items": {
+            "maxLength": 120,
+            "minLength": 1,
+            "type": "string"
+          },
+          "maxItems": 10,
+          "minItems": 1,
+          "title": "Names",
+          "type": "array"
+        },
+        "aliases": {
+          "items": {
+            "maxLength": 120,
+            "minLength": 1,
+            "type": "string"
+          },
+          "maxItems": 20,
+          "title": "Aliases",
+          "type": "array"
+        },
+        "official_domains": {
+          "items": {
+            "type": "string"
+          },
+          "maxItems": 10,
+          "title": "Official Domains",
+          "type": "array"
+        },
+        "official_feeds": {
+          "items": {
+            "type": "string"
+          },
+          "maxItems": 10,
+          "title": "Official Feeds",
+          "type": "array"
+        }
+      },
+      "required": [
+        "id",
+        "names"
+      ],
+      "title": "Institution",
+      "type": "object"
+    },
+    "Output": {
+      "additionalProperties": false,
+      "properties": {
+        "languages": {
+          "default": [
+            "en"
+          ],
+          "items": {
+            "maxLength": 120,
+            "minLength": 1,
+            "type": "string"
+          },
+          "title": "Languages",
+          "type": "array"
+        },
+        "markdown": {
+          "default": true,
+          "title": "Markdown",
+          "type": "boolean"
+        },
+        "json": {
+          "default": true,
+          "title": "Json",
+          "type": "boolean"
+        },
+        "changes": {
+          "default": true,
+          "title": "Changes",
+          "type": "boolean"
+        }
+      },
+      "title": "Output",
+      "type": "object"
+    },
+    "Query": {
+      "additionalProperties": false,
+      "properties": {
+        "source": {
+          "enum": [
+            "gdelt",
+            "google_news"
+          ],
+          "title": "Source",
+          "type": "string"
+        },
+        "text": {
+          "maxLength": 240,
+          "minLength": 3,
+          "pattern": "^[^\\r\\n{}$`]+$",
+          "title": "Text",
+          "type": "string"
+        },
+        "language": {
+          "default": "en",
+          "pattern": "^[a-zA-Z-]{2,24}$",
+          "title": "Language",
+          "type": "string"
+        },
+        "country": {
+          "default": "US",
+          "pattern": "^[A-Z]{2}$",
+          "title": "Country",
+          "type": "string"
+        },
+        "topic": {
+          "default": "general",
+          "maxLength": 120,
+          "minLength": 1,
+          "title": "Topic",
+          "type": "string"
+        },
+        "region": {
+          "default": "unknown",
+          "maxLength": 120,
+          "minLength": 1,
+          "title": "Region",
+          "type": "string"
+        }
+      },
+      "required": [
+        "source",
+        "text"
+      ],
+      "title": "Query",
+      "type": "object"
+    },
+    "Ranking": {
+      "additionalProperties": false,
+      "properties": {
+        "mode": {
+          "default": "keyword",
+          "enum": [
+            "keyword",
+            "institution_relevance"
+          ],
+          "title": "Mode",
+          "type": "string"
+        },
+        "minimum_score": {
+          "default": 0,
+          "maximum": 20,
+          "minimum": 0,
+          "title": "Minimum Score",
+          "type": "number"
+        }
+      },
+      "title": "Ranking",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "schema_version": {
+      "const": "1.0",
+      "default": "1.0",
+      "title": "Schema Version",
+      "type": "string"
+    },
+    "profile_id": {
+      "pattern": "^(world|institutions|examples)/[a-z0-9-]{1,64}$",
+      "title": "Profile Id",
+      "type": "string"
+    },
+    "mode": {
+      "enum": [
+        "world_radar",
+        "institution_watch",
+        "research_job"
+      ],
+      "title": "Mode",
+      "type": "string"
+    },
+    "name": {
+      "maxLength": 120,
+      "minLength": 1,
+      "title": "Name",
+      "type": "string"
+    },
+    "enabled": {
+      "default": true,
+      "title": "Enabled",
+      "type": "boolean"
+    },
+    "topics": {
+      "items": {
+        "maxLength": 120,
+        "minLength": 1,
+        "type": "string"
+      },
+      "maxItems": 20,
+      "title": "Topics",
+      "type": "array"
+    },
+    "regions": {
+      "items": {
+        "maxLength": 120,
+        "minLength": 1,
+        "type": "string"
+      },
+      "maxItems": 20,
+      "title": "Regions",
+      "type": "array"
+    },
+    "languages": {
+      "items": {
+        "maxLength": 120,
+        "minLength": 1,
+        "type": "string"
+      },
+      "maxItems": 10,
+      "title": "Languages",
+      "type": "array"
+    },
+    "queries": {
+      "items": {
+        "$ref": "#/$defs/Query"
+      },
+      "maxItems": 16,
+      "minItems": 1,
+      "title": "Queries",
+      "type": "array"
+    },
+    "sources": {
+      "items": {
+        "enum": [
+          "gdelt",
+          "google_news",
+          "rss"
+        ],
+        "type": "string"
+      },
+      "title": "Sources",
+      "type": "array"
+    },
+    "schedule_hint": {
+      "default": "daily",
+      "enum": [
+        "daily",
+        "weekly",
+        "manual"
+      ],
+      "title": "Schedule Hint",
+      "type": "string"
+    },
+    "lookback_hours": {
+      "default": 48,
+      "maximum": 168,
+      "minimum": 1,
+      "title": "Lookback Hours",
+      "type": "integer"
+    },
+    "max_items": {
+      "default": 60,
+      "maximum": 200,
+      "minimum": 1,
+      "title": "Max Items",
+      "type": "integer"
+    },
+    "max_queries": {
+      "default": 8,
+      "maximum": 16,
+      "minimum": 1,
+      "title": "Max Queries",
+      "type": "integer"
+    },
+    "ranking": {
+      "$ref": "#/$defs/Ranking"
+    },
+    "output": {
+      "$ref": "#/$defs/Output"
+    },
+    "institution": {
+      "anyOf": [
+        {
+          "$ref": "#/$defs/Institution"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null
+    },
+    "feeds": {
+      "items": {
+        "$ref": "#/$defs/Feed"
+      },
+      "maxItems": 10,
+      "title": "Feeds",
+      "type": "array"
+    }
+  },
+  "required": [
+    "profile_id",
+    "mode",
+    "name",
+    "topics",
+    "regions",
+    "languages",
+    "queries",
+    "sources"
+  ],
+  "title": "Profile",
+  "type": "object"
+}

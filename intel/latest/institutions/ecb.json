@@ -1,0 +1,1083 @@
+{
+  "analysis_mode": "deterministic",
+  "changes": [
+    {
+      "finding_id": "e98861d942eaed52acf3d0fc",
+      "institution_ids": [
+        "ecb"
+      ],
+      "observed_at": "2026-10-09T13:29:52.739289+00:00",
+      "type": "new"
+    },
+    {
+      "finding_id": "815028332127cff7bbbce576",
+      "institution_ids": [
+        "ecb"
+      ],
+      "observed_at": "2026-10-09T13:29:52.739289+00:00",
+      "type": "new"
+    },
+    {
+      "finding_id": "14b80d5b5050b420e36592db",
+      "institution_ids": [
+        "ecb"
+      ],
+      "observed_at": "2026-10-09T13:29:52.739289+00:00",
+      "type": "new"
+    },
+    {
+      "finding_id": "22cd711256e1e84d0511fcaa",
+      "institution_ids": [
+        "ecb"
+      ],
+      "observed_at": "2026-10-09T13:29:52.739289+00:00",
+      "type": "new"
+    },
+    {
+      "finding_id": "d4609f132be869ec8a9fa35c",
+      "institution_ids": [
+        "ecb"
+      ],
+      "observed_at": "2026-10-09T13:29:52.739289+00:00",
+      "type": "new"
+    },
+    {
+      "finding_id": "334ac74a4a95ff5dc636c65c",
+      "institution_ids": [
+        "ecb"
+      ],
+      "observed_at": "2026-10-09T13:29:52.739289+00:00",
+      "type": "new"
+    },
+    {
+      "finding_id": "a44cd5c97b5aa6f965f51e9f",
+      "institution_ids": [
+        "ecb"
+      ],
+      "observed_at": "2026-10-09T13:29:52.739289+00:00",
+      "type": "new"
+    },
+    {
+      "finding_id": "98785e036ef579a1f3446a4f",
+      "institution_ids": [
+        "ecb"
+      ],
+      "observed_at": "2026-10-09T13:29:52.739289+00:00",
+      "type": "new"
+    },
+    {
+      "finding_id": "f54b10d47353ffa62eec60ef",
+      "institution_ids": [
+        "ecb"
+      ],
+      "observed_at": "2026-10-09T13:29:52.739289+00:00",
+      "type": "new"
+    },
+    {
+      "finding_id": "889e5844bf93535e090509e5",
+      "institution_ids": [
+        "ecb"
+      ],
+      "observed_at": "2026-10-09T13:29:52.739289+00:00",
+      "type": "new"
+    },
+    {
+      "finding_id": "9adcdf55dc4310aa99d27e98",
+      "institution_ids": [
+        "ecb"
+      ],
+      "observed_at": "2026-10-09T13:29:52.739289+00:00",
+      "type": "new"
+    },
+    {
+      "finding_id": "4e51cf1c0b98dedda5499538",
+      "institution_ids": [
+        "ecb"
+      ],
+      "observed_at": "2026-10-09T13:29:52.739289+00:00",
+      "type": "new"
+    },
+    {
+      "finding_id": "bcea9d14f4eaf8f44b356465",
+      "institution_ids": [
+        "ecb"
+      ],
+      "observed_at": "2026-10-09T13:29:52.739289+00:00",
+      "type": "new"
+    },
+    {
+      "finding_id": "499d3cfcef4613a4b42fb5b2",
+      "institution_ids": [
+        "ecb"
+      ],
+      "observed_at": "2026-10-09T13:29:52.739289+00:00",
+      "type": "new"
+    },
+    {
+      "finding_id": "9368df8a93dc67fb1d4225f4",
+      "institution_ids": [
+        "ecb"
+      ],
+      "observed_at": "2026-10-09T13:29:52.739289+00:00",
+      "type": "new"
+    }
+  ],
+  "coverage": {
+    "basis": "search query region; event geography unknown",
+    "missing_regions": [],
+    "regions": [
+      "Europe"
+    ]
+  },
+  "created_at": "2026-10-09T13:29:52.739289+00:00",
+  "errors": [
+    {
+      "code": "SOURCE_INCOMPLETE",
+      "source": "gdelt"
+    }
+  ],
+  "findings": [
+    {
+      "change_type": "new",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "e98861d942eaed52acf3d0fc",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "European Central Bank: Conditional support and French risks – Rabobank - FXStreet",
+          "source_id": "ae5ba61e57de5a1ded1933f9"
+        }
+      ],
+      "finding_id": "e98861d942eaed52acf3d0fc",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [
+        "ecb"
+      ],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-09T13:29:52.734111+00:00",
+      "profile_relevance": 8.991148910752315,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-09T13:17:08+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "Europe"
+      ],
+      "source_ids": [
+        "ae5ba61e57de5a1ded1933f9"
+      ],
+      "summary": "European Central Bank: Conditional support and French risks – Rabobank - FXStreet",
+      "topics": [
+        "European Central Bank"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "new",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "815028332127cff7bbbce576",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "FILE PHOTO: The logo of the European Central Bank (ECB) is pictured outside its headquarters in Frankfurt - The Daily News | Texas' Oldest Newspaper",
+          "source_id": "9ce549238e1f70884d7a6fd1"
+        }
+      ],
+      "finding_id": "815028332127cff7bbbce576",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [
+        "ecb"
+      ],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-09T13:29:52.734111+00:00",
+      "profile_relevance": 8.003498447789351,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-08T13:34:55+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "Europe"
+      ],
+      "source_ids": [
+        "9ce549238e1f70884d7a6fd1"
+      ],
+      "summary": "FILE PHOTO: The logo of the European Central Bank (ECB) is pictured outside its headquarters in Frankfurt - The Daily News | Texas' Oldest Newspaper",
+      "topics": [
+        "European Central Bank"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "new",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "14b80d5b5050b420e36592db",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "European Central Bank: Neutral communication with upside inflation risks – Nordea - FXStreet",
+          "source_id": "c8cda7036b691ae7e93c6764"
+        }
+      ],
+      "finding_id": "14b80d5b5050b420e36592db",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [
+        "ecb"
+      ],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-09T13:29:52.734111+00:00",
+      "profile_relevance": 7.997688262604167,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-08T13:26:33+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "Europe"
+      ],
+      "source_ids": [
+        "c8cda7036b691ae7e93c6764"
+      ],
+      "summary": "European Central Bank: Neutral communication with upside inflation risks – Nordea - FXStreet",
+      "topics": [
+        "European Central Bank"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "new",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "22cd711256e1e84d0511fcaa",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "Account of the monetary policy meeting of the Governing Council of the European Central Bank held in Berlin on 9-10 September 2026 - Forex Factory",
+          "source_id": "03fef8935fb744183960b234"
+        }
+      ],
+      "finding_id": "22cd711256e1e84d0511fcaa",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [
+        "ecb"
+      ],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-09T13:29:52.734111+00:00",
+      "profile_relevance": 7.917942892233796,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-08T11:31:43+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "Europe"
+      ],
+      "source_ids": [
+        "03fef8935fb744183960b234"
+      ],
+      "summary": "Account of the monetary policy meeting of the Governing Council of the European Central Bank held in Berlin on 9-10 September 2026 - Forex Factory",
+      "topics": [
+        "European Central Bank"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "new",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "d4609f132be869ec8a9fa35c",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "Crisis-racked France may be heading for a showdown with the European Central Bank - Irish Independent",
+          "source_id": "036436394ee393935a9d6a7c"
+        }
+      ],
+      "finding_id": "d4609f132be869ec8a9fa35c",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [
+        "ecb"
+      ],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-09T13:29:52.734111+00:00",
+      "profile_relevance": 7.666750762604167,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-08T05:30:00+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "Europe"
+      ],
+      "source_ids": [
+        "036436394ee393935a9d6a7c"
+      ],
+      "summary": "Crisis-racked France may be heading for a showdown with the European Central Bank - Irish Independent",
+      "topics": [
+        "European Central Bank"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "new",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "334ac74a4a95ff5dc636c65c",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "Euro zone finance ministers start steps to replace ECB's Schnabel - Reuters",
+          "source_id": "143e3c2c6203d1be919cca25"
+        }
+      ],
+      "finding_id": "334ac74a4a95ff5dc636c65c",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [
+        "ecb"
+      ],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-09T13:29:52.734111+00:00",
+      "profile_relevance": 6.158139651493055,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-08T17:17:36+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "Europe"
+      ],
+      "source_ids": [
+        "143e3c2c6203d1be919cca25"
+      ],
+      "summary": "Euro zone finance ministers start steps to replace ECB's Schnabel - Reuters",
+      "topics": [
+        "European Central Bank"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "new",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "a44cd5c97b5aa6f965f51e9f",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "Eurogroup sets deadline to submit candidates to replace ECB's Schnabel on Oct 28 - Yahoo",
+          "source_id": "f763229489f3cefc9103a208"
+        }
+      ],
+      "finding_id": "a44cd5c97b5aa6f965f51e9f",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [
+        "ecb"
+      ],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-09T13:29:52.734111+00:00",
+      "profile_relevance": 6.152711410752315,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-08T17:09:47+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "Europe"
+      ],
+      "source_ids": [
+        "f763229489f3cefc9103a208"
+      ],
+      "summary": "Eurogroup sets deadline to submit candidates to replace ECB's Schnabel on Oct 28 - Yahoo",
+      "topics": [
+        "European Central Bank"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "new",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "98785e036ef579a1f3446a4f",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "Why the ECB Is Wary of Stepping Into France’s Bond Turmoil - Bloomberg.com",
+          "source_id": "df3a6986db9e90c2081f1682"
+        }
+      ],
+      "finding_id": "98785e036ef579a1f3446a4f",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [
+        "ecb"
+      ],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-09T13:29:52.734111+00:00",
+      "profile_relevance": 5.9961604848263885,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-08T13:24:21+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "Europe"
+      ],
+      "source_ids": [
+        "df3a6986db9e90c2081f1682"
+      ],
+      "summary": "Why the ECB Is Wary of Stepping Into France’s Bond Turmoil - Bloomberg.com",
+      "topics": [
+        "European Central Bank"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "new",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "f54b10d47353ffa62eec60ef",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "POLL ECB to hike rates again in December as inflation almost doubles 2% target - Reuters",
+          "source_id": "bb512f283ff67767bd89f793"
+        }
+      ],
+      "finding_id": "f54b10d47353ffa62eec60ef",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [
+        "ecb"
+      ],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-09T13:29:52.734111+00:00",
+      "profile_relevance": 5.991010021863426,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-08T13:16:56+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "Europe"
+      ],
+      "source_ids": [
+        "bb512f283ff67767bd89f793"
+      ],
+      "summary": "POLL ECB to hike rates again in December as inflation almost doubles 2% target - Reuters",
+      "topics": [
+        "European Central Bank"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "new",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "889e5844bf93535e090509e5",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "ECB policymakers, accounts dampen near-term rate hike bets - Reuters",
+          "source_id": "2ee0fb9df258f426ee888bd4"
+        }
+      ],
+      "finding_id": "889e5844bf93535e090509e5",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [
+        "ecb"
+      ],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-09T13:29:52.734111+00:00",
+      "profile_relevance": 5.984540114456019,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-08T13:07:37+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "Europe"
+      ],
+      "source_ids": [
+        "2ee0fb9df258f426ee888bd4"
+      ],
+      "summary": "ECB policymakers, accounts dampen near-term rate hike bets - Reuters",
+      "topics": [
+        "European Central Bank"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "new",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "9adcdf55dc4310aa99d27e98",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "ECB to hike rates again in December as inflation almost doubles 2% target: Reuters poll - Tacoma News Tribune",
+          "source_id": "926f3fdb86f5bf3930199586"
+        }
+      ],
+      "finding_id": "9adcdf55dc4310aa99d27e98",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [
+        "ecb"
+      ],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-09T13:29:52.734111+00:00",
+      "profile_relevance": 5.861287799641204,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-08T10:10:08+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "Europe"
+      ],
+      "source_ids": [
+        "926f3fdb86f5bf3930199586"
+      ],
+      "summary": "ECB to hike rates again in December as inflation almost doubles 2% target: Reuters poll - Tacoma News Tribune",
+      "topics": [
+        "European Central Bank"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "new",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "4e51cf1c0b98dedda5499538",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "ECB's Wunsch pushes back on proposal to increase bank charges - Columbus Ledger-Enquirer",
+          "source_id": "7c35b50a45a103c9ef01282b"
+        }
+      ],
+      "finding_id": "4e51cf1c0b98dedda5499538",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [
+        "ecb"
+      ],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-09T13:29:52.734111+00:00",
+      "profile_relevance": 5.807109558900463,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-08T08:52:07+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "Europe"
+      ],
+      "source_ids": [
+        "7c35b50a45a103c9ef01282b"
+      ],
+      "summary": "ECB's Wunsch pushes back on proposal to increase bank charges - Columbus Ledger-Enquirer",
+      "topics": [
+        "European Central Bank"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "new",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "bcea9d14f4eaf8f44b356465",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "With inflation risks to upside, ECB may need to hike more, Dolenc says - Fresno Bee",
+          "source_id": "0d80625638bf51e71afe4063"
+        }
+      ],
+      "finding_id": "bcea9d14f4eaf8f44b356465",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [
+        "ecb"
+      ],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-09T13:29:52.734111+00:00",
+      "profile_relevance": 5.78420446630787,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-08T08:19:08+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "Europe"
+      ],
+      "source_ids": [
+        "0d80625638bf51e71afe4063"
+      ],
+      "summary": "With inflation risks to upside, ECB may need to hike more, Dolenc says - Fresno Bee",
+      "topics": [
+        "European Central Bank"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "new",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "499d3cfcef4613a4b42fb5b2",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "Replacing Lagarde at the ECB Will Require Filling Two Other Top Jobs - Bloomberg.com",
+          "source_id": "144641bf4005ad0ce5797d93"
+        }
+      ],
+      "finding_id": "499d3cfcef4613a4b42fb5b2",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [
+        "ecb"
+      ],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-09T13:29:52.734111+00:00",
+      "profile_relevance": 5.649054003344908,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-08T05:04:31+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "Europe"
+      ],
+      "source_ids": [
+        "144641bf4005ad0ce5797d93"
+      ],
+      "summary": "Replacing Lagarde at the ECB Will Require Filling Two Other Top Jobs - Bloomberg.com",
+      "topics": [
+        "European Central Bank"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "new",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "9368df8a93dc67fb1d4225f4",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "France Central Bank Chief Emmanuel Moulin: No ECB aid needed yet - IDNFinancials",
+          "source_id": "e01e91a26b6185b15a6feeff"
+        }
+      ],
+      "finding_id": "9368df8a93dc67fb1d4225f4",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [
+        "ecb"
+      ],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-09T13:29:52.734111+00:00",
+      "profile_relevance": 5.4236952070486115,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-07T23:40:00+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "Europe"
+      ],
+      "source_ids": [
+        "e01e91a26b6185b15a6feeff"
+      ],
+      "summary": "France Central Bank Chief Emmanuel Moulin: No ECB aid needed yet - IDNFinancials",
+      "topics": [
+        "European Central Bank"
+      ],
+      "verification": "single_secondary_source"
+    }
+  ],
+  "limitations": [
+    "Bounded queries do not provide exhaustive global coverage.",
+    "GDELT seen time is an observation timestamp, not verified publication time.",
+    "Contradiction/resolution labels require explicit source wording and review; no automatic truth adjudication."
+  ],
+  "links": {
+    "json": "intel/reports/institutions/ecb/2026/10/09/65452eb59f454da3884b3e3583d57207/report.json",
+    "markdown": "intel/reports/institutions/ecb/2026/10/09/65452eb59f454da3884b3e3583d57207/report.md"
+  },
+  "model_used": null,
+  "profile_id": "institutions/ecb",
+  "question": "",
+  "report_id": "65452eb59f454da3884b3e3583d57207",
+  "run_id": "65452eb59f454da3884b3e3583d57207",
+  "schema_version": "1.0",
+  "sources": [
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPNUFCeWYza1RqZnJUNFRGMFY4blV2akJvUlFwcXFGakU3QVNEeEVPbmQxUFhKT0F0WlF6dGNqLTdQYmltZTY0eG5MdW9Db1Btb2p5cjZwd3YwWlJudjFoZkdyS2N2QUt2VTFMY2hWX1VNRkVsb2VuTHJUUFA4VkkxdkpXQ05LNC1HSGRiamI3dE1BS0h2OTZnOTRXUDJaOWg2X2tlZE1ONVpYRkdZNlU0SExvTHJkMF94YmdzYzlla3l1SnBXbW1YWXFpMGd3ay1yWEowZ0NaQQ?oc=5",
+      "content_fingerprint": "e511fa363a64070cbf5500ef",
+      "fetched_at": "2026-10-09T13:29:52.734111+00:00",
+      "institution_id": "ecb",
+      "language": "en",
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPNUFCeWYza1RqZnJUNFRGMFY4blV2akJvUlFwcXFGakU3QVNEeEVPbmQxUFhKT0F0WlF6dGNqLTdQYmltZTY0eG5MdW9Db1Btb2p5cjZwd3YwWlJudjFoZkdyS2N2QUt2VTFMY2hWX1VNRkVsb2VuTHJUUFA4VkkxdkpXQ05LNC1HSGRiamI3dE1BS0h2OTZnOTRXUDJaOWg2X2tlZE1ONVpYRkdZNlU0SExvTHJkMF94YmdzYzlla3l1SnBXbW1YWXFpMGd3ay1yWEowZ0NaQQ?oc=5",
+      "profile_id": "institutions/ecb",
+      "published_at": "2026-10-08T05:30:00+00:00",
+      "publisher": "Irish Independent",
+      "search_query": "\"European Central Bank\"",
+      "source_country": "unknown",
+      "source_id": "036436394ee393935a9d6a7c",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPRHVnNHdfc2tyMEJhWEpHeTJKS3dCQUNvREZJNEl0cncwUkRQQzJNTGxvc3FlRzRyMWV5TTh5V1hzZzlzbmhrUWtQVlNkejAxR2JhX2tmNGk1Z3JpMEZMTlN2RWlSWldtM0hyeFkxZXVUaUl2M0czYjZRNHkydy1rMkNOSkIzMmRkdThaS2UxVlTSAZYBQVVfeXFMT1dwd3N5eTFlUmF4Ymp2UEduRmdEZWFubXh6VmR6cHE2ZmU2dFVZNW9IRTRqcU5NZzVONmRpNzlPcnB5S2l5bENKMjVzRDRuRFlHdVZJTzNhTVBuNzFMX29KUW01cWlWa0xLYld2dWtuOXJPSUZQRWFxM0RJZTd5aDJ3Qkx1TWJ5cU1DNHdaZmJmb2hpSnZR?oc=5",
+      "content_fingerprint": "3acdd1ac721ecda1b24a97e4",
+      "fetched_at": "2026-10-09T13:29:52.734111+00:00",
+      "institution_id": "ecb",
+      "language": "en",
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPRHVnNHdfc2tyMEJhWEpHeTJKS3dCQUNvREZJNEl0cncwUkRQQzJNTGxvc3FlRzRyMWV5TTh5V1hzZzlzbmhrUWtQVlNkejAxR2JhX2tmNGk1Z3JpMEZMTlN2RWlSWldtM0hyeFkxZXVUaUl2M0czYjZRNHkydy1rMkNOSkIzMmRkdThaS2UxVlTSAZYBQVVfeXFMT1dwd3N5eTFlUmF4Ymp2UEduRmdEZWFubXh6VmR6cHE2ZmU2dFVZNW9IRTRqcU5NZzVONmRpNzlPcnB5S2l5bENKMjVzRDRuRFlHdVZJTzNhTVBuNzFMX29KUW01cWlWa0xLYld2dWtuOXJPSUZQRWFxM0RJZTd5aDJ3Qkx1TWJ5cU1DNHdaZmJmb2hpSnZR?oc=5",
+      "profile_id": "institutions/ecb",
+      "published_at": "2026-10-08T11:31:43+00:00",
+      "publisher": "Forex Factory",
+      "search_query": "\"European Central Bank\"",
+      "source_country": "unknown",
+      "source_id": "03fef8935fb744183960b234",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1kVUQ5MXNTdDAzOTlWSmNtaXBvTHA5RGlGRW01bVJoaE9TZENFSUFBb2ZDZ0tMSHhIVXdSVXdoeUtwMVVtRW5KNlBrYnlEa2REdFBOcWZwb2JfUmRBX3NBOXYyZ3pzeF83ejJ3ekRfLTd6OU5SN2FFSXUxX0ZJMVU?oc=5",
+      "content_fingerprint": "e9f37882ff8c1332c3ff65b5",
+      "fetched_at": "2026-10-09T13:29:52.734111+00:00",
+      "institution_id": "ecb",
+      "language": "en",
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1kVUQ5MXNTdDAzOTlWSmNtaXBvTHA5RGlGRW01bVJoaE9TZENFSUFBb2ZDZ0tMSHhIVXdSVXdoeUtwMVVtRW5KNlBrYnlEa2REdFBOcWZwb2JfUmRBX3NBOXYyZ3pzeF83ejJ3ekRfLTd6OU5SN2FFSXUxX0ZJMVU?oc=5",
+      "profile_id": "institutions/ecb",
+      "published_at": "2026-10-08T08:19:08+00:00",
+      "publisher": "Fresno Bee",
+      "search_query": "\"European Central Bank\"",
+      "source_country": "unknown",
+      "source_id": "0d80625638bf51e71afe4063",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPekJZN1lhLW9ocnpXM09pa0FxeVd4X05yQXdoQmJYallwN1FDbmRaT01NN1ByOEYtNFpkbkY0ODlzXzBTQjV2SlZ5Zi1NdlA5R0dFWTlrWnY3Wk4wV0lBV0toOFRTR3NMZlZqQmV0LU9hNWJkRi02U0lsdHpoWENIN2NPaGxzZmE2WnJ4SnRhM01COWY1STFCUFhzSy02TG5neXJEdTR3d3QtZDFDT19sYkpFMng5QQ?oc=5",
+      "content_fingerprint": "0a650b389879170cbfabf908",
+      "fetched_at": "2026-10-09T13:29:52.734111+00:00",
+      "institution_id": "ecb",
+      "language": "en",
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPekJZN1lhLW9ocnpXM09pa0FxeVd4X05yQXdoQmJYallwN1FDbmRaT01NN1ByOEYtNFpkbkY0ODlzXzBTQjV2SlZ5Zi1NdlA5R0dFWTlrWnY3Wk4wV0lBV0toOFRTR3NMZlZqQmV0LU9hNWJkRi02U0lsdHpoWENIN2NPaGxzZmE2WnJ4SnRhM01COWY1STFCUFhzSy02TG5neXJEdTR3d3QtZDFDT19sYkpFMng5QQ?oc=5",
+      "profile_id": "institutions/ecb",
+      "published_at": "2026-10-08T17:17:36+00:00",
+      "publisher": "Reuters",
+      "search_query": "\"European Central Bank\"",
+      "source_country": "unknown",
+      "source_id": "143e3c2c6203d1be919cca25",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOa2VwQ1p3aG1XbGR0SGIxZlRzeGh5N1U2SVVyTk9EQUV5OVIzZ1RNM3FhSkV0ZS1pdXZqR2pOMk9zODJDWi1ndDBrZmhuTktjcWVhczZ5eTRTRzdCaGIyZVpqRl9oWFNGWGdyLUlrSDVtWV9veGFTR2J1Q0NiaWdrOC1vcXFxOXhJUk81cDFjaXAtUmd6Ny1UeDdIOHVlSURqRHhjNU9BdWh4TkU?oc=5",
+      "content_fingerprint": "8ac84e457ddb0d47132d1b2f",
+      "fetched_at": "2026-10-09T13:29:52.734111+00:00",
+      "institution_id": "ecb",
+      "language": "en",
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOa2VwQ1p3aG1XbGR0SGIxZlRzeGh5N1U2SVVyTk9EQUV5OVIzZ1RNM3FhSkV0ZS1pdXZqR2pOMk9zODJDWi1ndDBrZmhuTktjcWVhczZ5eTRTRzdCaGIyZVpqRl9oWFNGWGdyLUlrSDVtWV9veGFTR2J1Q0NiaWdrOC1vcXFxOXhJUk81cDFjaXAtUmd6Ny1UeDdIOHVlSURqRHhjNU9BdWh4TkU?oc=5",
+      "profile_id": "institutions/ecb",
+      "published_at": "2026-10-08T05:04:31+00:00",
+      "publisher": "Bloomberg.com",
+      "search_query": "\"European Central Bank\"",
+      "source_country": "unknown",
+      "source_id": "144641bf4005ad0ce5797d93",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNY0lSVTF5NmlCRnNxLXFhU29BeFZYdnVCUGU4cU1PWnVRV1VjUU40NEZDZFhYNEVULWJCbVFTaTJ1UEJPRlhKZk8tc2NQVE1Pa0ZXblpUSzkyYUx6M0VTS1BQUDFhNlBOSnNWN3dZYy1SejZ3Snl4dnZPeTVoS1lWa1pjMk9DZUlzSlkyb0x6Qms1VkdSWEIyZ2hIU2FrQ04zQzJELTB6MEM3dw?oc=5",
+      "content_fingerprint": "520bbc87a674c819ce2e9c38",
+      "fetched_at": "2026-10-09T13:29:52.734111+00:00",
+      "institution_id": "ecb",
+      "language": "en",
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNY0lSVTF5NmlCRnNxLXFhU29BeFZYdnVCUGU4cU1PWnVRV1VjUU40NEZDZFhYNEVULWJCbVFTaTJ1UEJPRlhKZk8tc2NQVE1Pa0ZXblpUSzkyYUx6M0VTS1BQUDFhNlBOSnNWN3dZYy1SejZ3Snl4dnZPeTVoS1lWa1pjMk9DZUlzSlkyb0x6Qms1VkdSWEIyZ2hIU2FrQ04zQzJELTB6MEM3dw?oc=5",
+      "profile_id": "institutions/ecb",
+      "published_at": "2026-10-08T13:07:37+00:00",
+      "publisher": "Reuters",
+      "search_query": "\"European Central Bank\"",
+      "source_country": "unknown",
+      "source_id": "2ee0fb9df258f426ee888bd4",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxONHkxOGpTMml0WFpnT2VycHRZY2JHRVlQRVN2ODVPSzZieUQ4M2tkeEhadmsxeGNGVDBfNzdmOWdPUmpkU1dyWjFUdnJ3SVNha2tGN3MzNFBCMTlyRGI3Ui1DajdXbUFRaDJ3U2pNenNUODUtVGczeHU2a25SRGVvRlRBXzlCUHM?oc=5",
+      "content_fingerprint": "774876d68e6f8de6bdef7af4",
+      "fetched_at": "2026-10-09T13:29:52.734111+00:00",
+      "institution_id": "ecb",
+      "language": "en",
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxONHkxOGpTMml0WFpnT2VycHRZY2JHRVlQRVN2ODVPSzZieUQ4M2tkeEhadmsxeGNGVDBfNzdmOWdPUmpkU1dyWjFUdnJ3SVNha2tGN3MzNFBCMTlyRGI3Ui1DajdXbUFRaDJ3U2pNenNUODUtVGczeHU2a25SRGVvRlRBXzlCUHM?oc=5",
+      "profile_id": "institutions/ecb",
+      "published_at": "2026-10-08T08:52:07+00:00",
+      "publisher": "Columbus Ledger-Enquirer",
+      "search_query": "\"European Central Bank\"",
+      "source_country": "unknown",
+      "source_id": "7c35b50a45a103c9ef01282b",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOMXl2aXJoeDFsdEppODZlMThkUE0tOTdoVkdsbjBHODlsa1plZFN1X0VGU2RSQ3d5RGZBX0FYQU9DRE5rTVFaLVM5ck1CYnM3ejlxR0JCRXE3UkItMkEtOG4wZjdhWTlCOFo2T1AyQXpYY000MDBkcDE0S3BSUVNEU21mREM1UQ?oc=5",
+      "content_fingerprint": "6203d9e8573b309d2992ba32",
+      "fetched_at": "2026-10-09T13:29:52.734111+00:00",
+      "institution_id": "ecb",
+      "language": "en",
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOMXl2aXJoeDFsdEppODZlMThkUE0tOTdoVkdsbjBHODlsa1plZFN1X0VGU2RSQ3d5RGZBX0FYQU9DRE5rTVFaLVM5ck1CYnM3ejlxR0JCRXE3UkItMkEtOG4wZjdhWTlCOFo2T1AyQXpYY000MDBkcDE0S3BSUVNEU21mREM1UQ?oc=5",
+      "profile_id": "institutions/ecb",
+      "published_at": "2026-10-08T10:10:08+00:00",
+      "publisher": "Tacoma News Tribune",
+      "search_query": "\"European Central Bank\"",
+      "source_country": "unknown",
+      "source_id": "926f3fdb86f5bf3930199586",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMikgJBVV95cUxQR3gxaGJ3MkhlNmU0VFZsc1RvRlB4dkxoT0tBQ0RZSWJWS1dQbkNRcDF5VEQwQkxlM2J5VDB1bEhJb1BNQkhrazVxS29pR1JWSTlaWlVmejdDaHhoZ1pzMk0wMXl0MVNkMXBVMVp0djFVN0N6bGZKbk9HSlYzTkZvMXN2Y29jNDhNbGpLNkNOaEU0YmpQRU9YNTM4WUZKajI5bTgyRndsbmF6RHM3bC02bm96akd1TVNvY3gtVmJsaVVoR0tmSWFiVUQxZ2hZd3hNRTI4UExsbC1SMVI5Q0FfZTlDb19RRHlJWFo2MXhfbXBhX1VvSkNnNThhOWFEbV9OM3pQZmRaUHJxV1JlSjZDb3N3?oc=5",
+      "content_fingerprint": "b46c6b146d856edeb71bf4e3",
+      "fetched_at": "2026-10-09T13:29:52.734111+00:00",
+      "institution_id": "ecb",
+      "language": "en",
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMikgJBVV95cUxQR3gxaGJ3MkhlNmU0VFZsc1RvRlB4dkxoT0tBQ0RZSWJWS1dQbkNRcDF5VEQwQkxlM2J5VDB1bEhJb1BNQkhrazVxS29pR1JWSTlaWlVmejdDaHhoZ1pzMk0wMXl0MVNkMXBVMVp0djFVN0N6bGZKbk9HSlYzTkZvMXN2Y29jNDhNbGpLNkNOaEU0YmpQRU9YNTM4WUZKajI5bTgyRndsbmF6RHM3bC02bm96akd1TVNvY3gtVmJsaVVoR0tmSWFiVUQxZ2hZd3hNRTI4UExsbC1SMVI5Q0FfZTlDb19RRHlJWFo2MXhfbXBhX1VvSkNnNThhOWFEbV9OM3pQZmRaUHJxV1JlSjZDb3N3?oc=5",
+      "profile_id": "institutions/ecb",
+      "published_at": "2026-10-08T13:34:55+00:00",
+      "publisher": "The Daily News | Texas' Oldest Newspaper",
+      "search_query": "\"European Central Bank\"",
+      "source_country": "unknown",
+      "source_id": "9ce549238e1f70884d7a6fd1",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNUHA5eEpPMVlpU2ZwWERheHF3cjJrV1otYlNYM3A5eFMwQXR0ZUxSVXVTSk1MMlFmNHV3M1FPVVpkUGZUcW9kZk56RnJXS1hxbnh0ZzY4emVoT1BlWDljRkpLWktZY0RKYktGSFFBTUxUdkZ3MDRyS2kzSkZuLW1pRUVscTBUUi02TG9UZGRrSjFHcmwtMWhDZ1N4WFBJS090YUNIbEFVNDluTXN4bTdJ?oc=5",
+      "content_fingerprint": "ee22a71166bc99454f1365ff",
+      "fetched_at": "2026-10-09T13:29:52.734111+00:00",
+      "institution_id": "ecb",
+      "language": "en",
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNUHA5eEpPMVlpU2ZwWERheHF3cjJrV1otYlNYM3A5eFMwQXR0ZUxSVXVTSk1MMlFmNHV3M1FPVVpkUGZUcW9kZk56RnJXS1hxbnh0ZzY4emVoT1BlWDljRkpLWktZY0RKYktGSFFBTUxUdkZ3MDRyS2kzSkZuLW1pRUVscTBUUi02TG9UZGRrSjFHcmwtMWhDZ1N4WFBJS090YUNIbEFVNDluTXN4bTdJ?oc=5",
+      "profile_id": "institutions/ecb",
+      "published_at": "2026-10-09T13:17:08+00:00",
+      "publisher": "FXStreet",
+      "search_query": "\"European Central Bank\"",
+      "source_country": "unknown",
+      "source_id": "ae5ba61e57de5a1ded1933f9",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPNVlkaVBmN0lBelRFMEktcDh1aG5GZElENVRtWngwa1VzQ0pRaFU5bU9mQnE0ZDVna3JFRVV3ZW1qZHgxYlNvRUJLWmV4WnVxbWhwWVRKLVdfVzBNbFhLSlU4NmhSMmxSQi1hYTF4U1ZJQ3dGNjRNUklHMHY5ZjJEamZ4ZXVkT3J0X3VaVGNQSkJzNWtVNVZuTlVURFZWYnRJdmdtS3hpQ0kzVl9W?oc=5",
+      "content_fingerprint": "01529b49e407ecd83a237735",
+      "fetched_at": "2026-10-09T13:29:52.734111+00:00",
+      "institution_id": "ecb",
+      "language": "en",
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPNVlkaVBmN0lBelRFMEktcDh1aG5GZElENVRtWngwa1VzQ0pRaFU5bU9mQnE0ZDVna3JFRVV3ZW1qZHgxYlNvRUJLWmV4WnVxbWhwWVRKLVdfVzBNbFhLSlU4NmhSMmxSQi1hYTF4U1ZJQ3dGNjRNUklHMHY5ZjJEamZ4ZXVkT3J0X3VaVGNQSkJzNWtVNVZuTlVURFZWYnRJdmdtS3hpQ0kzVl9W?oc=5",
+      "profile_id": "institutions/ecb",
+      "published_at": "2026-10-08T13:16:56+00:00",
+      "publisher": "Reuters",
+      "search_query": "\"European Central Bank\"",
+      "source_country": "unknown",
+      "source_id": "bb512f283ff67767bd89f793",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNajFFaWhfRm9LVngtVGxzMnQ2eFo4MnJPX1ZwbzAtcWhSdzZrZHEtUGgwVWJIZUUwQ2had1EyQnVPUHZXRHNzaFN6bkFJSWVCdnRtd0U4bFZWRDJ0TElWRUlEZlVxZVk3bXk5Y2FJdHRpZXd6Uk1wT0VEd0FXSVI4RFhfWjhDeGtZaVdPSDB6LVJGVzNuZ1RCZ3ZEVk5JMGhaYjh3TnJQdFpsNG12ZC1EUjVqQkRWemV3UW9menZR?oc=5",
+      "content_fingerprint": "3671e3f61c8865a35984a382",
+      "fetched_at": "2026-10-09T13:29:52.734111+00:00",
+      "institution_id": "ecb",
+      "language": "en",
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNajFFaWhfRm9LVngtVGxzMnQ2eFo4MnJPX1ZwbzAtcWhSdzZrZHEtUGgwVWJIZUUwQ2had1EyQnVPUHZXRHNzaFN6bkFJSWVCdnRtd0U4bFZWRDJ0TElWRUlEZlVxZVk3bXk5Y2FJdHRpZXd6Uk1wT0VEd0FXSVI4RFhfWjhDeGtZaVdPSDB6LVJGVzNuZ1RCZ3ZEVk5JMGhaYjh3TnJQdFpsNG12ZC1EUjVqQkRWemV3UW9menZR?oc=5",
+      "profile_id": "institutions/ecb",
+      "published_at": "2026-10-08T13:26:33+00:00",
+      "publisher": "FXStreet",
+      "search_query": "\"European Central Bank\"",
+      "source_country": "unknown",
+      "source_id": "c8cda7036b691ae7e93c6764",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNTE5QY3pqYnU0RVVtVlIybXBmVms0SGg2LVBpVEV4TDJkLVd3SWJXY2FFMWJ1QWhrOWY2MFZfS244cFVCODRQZDVNUnY2clY2SmVPTzZJU004OU1uVkgzSlY3RlduVEJCNXZlMjFwMjQxSWtXNXVGZHZ2eFlXMVRBbHRrSldLSm1EZGFOcngtRmp1SXJEZHZBQ0JWUGU4VnVXZXFpam9lV0lVOURC?oc=5",
+      "content_fingerprint": "6e72c31d871e5305c5eb311c",
+      "fetched_at": "2026-10-09T13:29:52.734111+00:00",
+      "institution_id": "ecb",
+      "language": "en",
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNTE5QY3pqYnU0RVVtVlIybXBmVms0SGg2LVBpVEV4TDJkLVd3SWJXY2FFMWJ1QWhrOWY2MFZfS244cFVCODRQZDVNUnY2clY2SmVPTzZJU004OU1uVkgzSlY3RlduVEJCNXZlMjFwMjQxSWtXNXVGZHZ2eFlXMVRBbHRrSldLSm1EZGFOcngtRmp1SXJEZHZBQ0JWUGU4VnVXZXFpam9lV0lVOURC?oc=5",
+      "profile_id": "institutions/ecb",
+      "published_at": "2026-10-08T13:24:21+00:00",
+      "publisher": "Bloomberg.com",
+      "search_query": "\"European Central Bank\"",
+      "source_country": "unknown",
+      "source_id": "df3a6986db9e90c2081f1682",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQTzNNUlE4cFVkOUllZHdoOHdTVk85c1JTcFQxSzkxZDM0cUxLZV9JZzRMQk04azRvUEM2SmFMYkJqcW52clhISzZpQ0xqSFhtLU4wdFB6aGdfcmNncXdKNXZUT2JsMFpUcTRUd1hsUTBqSms2TjNRS3lSMXA1V3hYTjJvX0VHVngtNVRFMWhmLTZDNDhEQ1ZQV05sejJ3cHlKU1NJZmhiTQ?oc=5",
+      "content_fingerprint": "09eb5dbbffe3b412f3e39e3a",
+      "fetched_at": "2026-10-09T13:29:52.734111+00:00",
+      "institution_id": "ecb",
+      "language": "en",
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQTzNNUlE4cFVkOUllZHdoOHdTVk85c1JTcFQxSzkxZDM0cUxLZV9JZzRMQk04azRvUEM2SmFMYkJqcW52clhISzZpQ0xqSFhtLU4wdFB6aGdfcmNncXdKNXZUT2JsMFpUcTRUd1hsUTBqSms2TjNRS3lSMXA1V3hYTjJvX0VHVngtNVRFMWhmLTZDNDhEQ1ZQV05sejJ3cHlKU1NJZmhiTQ?oc=5",
+      "profile_id": "institutions/ecb",
+      "published_at": "2026-10-07T23:40:00+00:00",
+      "publisher": "IDNFinancials",
+      "search_query": "\"European Central Bank\"",
+      "source_country": "unknown",
+      "source_id": "e01e91a26b6185b15a6feeff",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQaGI3cldxMlIwWWZZWnNLSW5RdENWNTZKeXlpV2ZMSmxSam5qSDNmY0NseUFpOEwxLUNMSmpSVXBMRkpuSkM0TUVMT0JmdkdxODlUZlhCWWJiTDRMVTAweVh1SC1WNGs1SzdCYkdMR3cyM0M1MlBpV1ozc0NUUmZPdVZQUkxJZkJRc2doZEtPQ3Z4QQ?oc=5",
+      "content_fingerprint": "ca4f5aa25b68bb54ca653420",
+      "fetched_at": "2026-10-09T13:29:52.734111+00:00",
+      "institution_id": "ecb",
+      "language": "en",
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQaGI3cldxMlIwWWZZWnNLSW5RdENWNTZKeXlpV2ZMSmxSam5qSDNmY0NseUFpOEwxLUNMSmpSVXBMRkpuSkM0TUVMT0JmdkdxODlUZlhCWWJiTDRMVTAweVh1SC1WNGs1SzdCYkdMR3cyM0M1MlBpV1ozc0NUUmZPdVZQUkxJZkJRc2doZEtPQ3Z4QQ?oc=5",
+      "profile_id": "institutions/ecb",
+      "published_at": "2026-10-08T17:09:47+00:00",
+      "publisher": "Yahoo",
+      "search_query": "\"European Central Bank\"",
+      "source_country": "unknown",
+      "source_id": "f763229489f3cefc9103a208",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    }
+  ],
+  "statistics": {
+    "collectors": [
+      {
+        "error_code": null,
+        "items": 24,
+        "query": "\"European Central Bank\"",
+        "source": "google_news",
+        "status": "ok"
+      },
+      {
+        "error_code": "HTTP_503",
+        "items": 0,
+        "query": "\"European Central Bank\"",
+        "source": "gdelt",
+        "status": "failed"
+      }
+    ],
+    "items": 15,
+    "sources": 15
+  },
+  "status": "partial",
+  "time_window": {
+    "since": "2026-10-07T13:29:52.739289+00:00",
+    "until": "2026-10-09T13:29:52.739289+00:00"
+  }
+}

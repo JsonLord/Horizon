@@ -1,0 +1,4004 @@
+{
+  "analysis_mode": "deterministic",
+  "changes": [
+    {
+      "finding_id": "413adecce790ee08f01521fc",
+      "institution_ids": [],
+      "observed_at": "2026-10-09T13:29:35.280236+00:00",
+      "type": "new"
+    },
+    {
+      "finding_id": "e21f607d11985e913f4f79e9",
+      "institution_ids": [],
+      "observed_at": "2026-10-09T13:29:35.280236+00:00",
+      "type": "new"
+    },
+    {
+      "finding_id": "221f2fb0bc4db1587d1cff7f",
+      "institution_ids": [],
+      "observed_at": "2026-10-09T13:29:35.280236+00:00",
+      "type": "new"
+    },
+    {
+      "finding_id": "4942dd1fa1c9f47bbe3fae12",
+      "institution_ids": [],
+      "observed_at": "2026-10-09T13:29:35.280236+00:00",
+      "type": "new"
+    },
+    {
+      "finding_id": "b401d80ce45f9be468d1cc20",
+      "institution_ids": [],
+      "observed_at": "2026-10-09T13:29:35.280236+00:00",
+      "type": "new"
+    },
+    {
+      "finding_id": "7f384d476068f5af561840c0",
+      "institution_ids": [],
+      "observed_at": "2026-10-09T13:29:35.280236+00:00",
+      "type": "new"
+    },
+    {
+      "finding_id": "9a188e308d0fcc3f769938c3",
+      "institution_ids": [],
+      "observed_at": "2026-10-09T13:29:35.280236+00:00",
+      "type": "new"
+    },
+    {
+      "finding_id": "343ff8561ca690a83b92d2af",
+      "institution_ids": [],
+      "observed_at": "2026-10-09T13:29:35.280236+00:00",
+      "type": "new"
+    },
+    {
+      "finding_id": "3c581f674dc7a54f552de43f",
+      "institution_ids": [],
+      "observed_at": "2026-10-09T13:29:35.280236+00:00",
+      "type": "new"
+    },
+    {
+      "finding_id": "9e38b7d7a316383405e41399",
+      "institution_ids": [],
+      "observed_at": "2026-10-09T13:29:35.280236+00:00",
+      "type": "new"
+    },
+    {
+      "finding_id": "b3e28bcf441236734320c425",
+      "institution_ids": [],
+      "observed_at": "2026-10-09T13:29:35.280236+00:00",
+      "type": "new"
+    },
+    {
+      "finding_id": "7c681c72979b437822f99020",
+      "institution_ids": [],
+      "observed_at": "2026-10-09T13:29:35.280236+00:00",
+      "type": "new"
+    },
+    {
+      "finding_id": "50242a2137ee8870cc1b7bc8",
+      "institution_ids": [],
+      "observed_at": "2026-10-09T13:29:35.280236+00:00",
+      "type": "new"
+    },
+    {
+      "finding_id": "2dbb099da887fef06708670c",
+      "institution_ids": [],
+      "observed_at": "2026-10-09T13:29:35.280236+00:00",
+      "type": "new"
+    },
+    {
+      "finding_id": "24264fac6f8ccdb3d295e9cf",
+      "institution_ids": [],
+      "observed_at": "2026-10-09T13:29:35.280236+00:00",
+      "type": "new"
+    },
+    {
+      "finding_id": "604b622ccd8c34eb623b2fe7",
+      "institution_ids": [],
+      "observed_at": "2026-10-09T13:29:35.280236+00:00",
+      "type": "new"
+    },
+    {
+      "finding_id": "86eb07a3fe6fb590dc254972",
+      "institution_ids": [],
+      "observed_at": "2026-10-09T13:29:35.280236+00:00",
+      "type": "new"
+    },
+    {
+      "finding_id": "8bfaa1d64f3bb4ceefdd6985",
+      "institution_ids": [],
+      "observed_at": "2026-10-09T13:29:35.280236+00:00",
+      "type": "new"
+    },
+    {
+      "finding_id": "6f44154c12489d9e9a75590e",
+      "institution_ids": [],
+      "observed_at": "2026-10-09T13:29:35.280236+00:00",
+      "type": "new"
+    },
+    {
+      "finding_id": "b50307721f2e4be4a149629b",
+      "institution_ids": [],
+      "observed_at": "2026-10-09T13:29:35.280236+00:00",
+      "type": "new"
+    },
+    {
+      "finding_id": "f2a2fb2a19a87defee6d0107",
+      "institution_ids": [],
+      "observed_at": "2026-10-09T13:29:35.280236+00:00",
+      "type": "new"
+    },
+    {
+      "finding_id": "2833d2131ba73dccaad8d17e",
+      "institution_ids": [],
+      "observed_at": "2026-10-09T13:29:35.280236+00:00",
+      "type": "new"
+    },
+    {
+      "finding_id": "3744d6303217b187460d1cb5",
+      "institution_ids": [],
+      "observed_at": "2026-10-09T13:29:35.280236+00:00",
+      "type": "new"
+    },
+    {
+      "finding_id": "181a813176913608cadf77b3",
+      "institution_ids": [],
+      "observed_at": "2026-10-09T13:29:35.280236+00:00",
+      "type": "new"
+    },
+    {
+      "finding_id": "f15d2eba40f9ce4eadb132bc",
+      "institution_ids": [],
+      "observed_at": "2026-10-09T13:29:35.280236+00:00",
+      "type": "new"
+    },
+    {
+      "finding_id": "413f3e73dc1a724acca2f003",
+      "institution_ids": [],
+      "observed_at": "2026-10-09T13:29:35.280236+00:00",
+      "type": "new"
+    },
+    {
+      "finding_id": "dbea28063856d045cc9eb185",
+      "institution_ids": [],
+      "observed_at": "2026-10-09T13:29:35.280236+00:00",
+      "type": "new"
+    },
+    {
+      "finding_id": "63b6e6df5e52aa72c945745f",
+      "institution_ids": [],
+      "observed_at": "2026-10-09T13:29:35.280236+00:00",
+      "type": "new"
+    },
+    {
+      "finding_id": "2294725c5f80dbea2e9b4cc1",
+      "institution_ids": [],
+      "observed_at": "2026-10-09T13:29:35.280236+00:00",
+      "type": "new"
+    },
+    {
+      "finding_id": "8290368b5711f29ead0a8a99",
+      "institution_ids": [],
+      "observed_at": "2026-10-09T13:29:35.280236+00:00",
+      "type": "new"
+    },
+    {
+      "finding_id": "625c7b2ee5d988e0c4ef855b",
+      "institution_ids": [],
+      "observed_at": "2026-10-09T13:29:35.280236+00:00",
+      "type": "new"
+    },
+    {
+      "finding_id": "0a8e699bdf7c90dc859cc4fa",
+      "institution_ids": [],
+      "observed_at": "2026-10-09T13:29:35.280236+00:00",
+      "type": "new"
+    },
+    {
+      "finding_id": "a580fe46658a031295285b6b",
+      "institution_ids": [],
+      "observed_at": "2026-10-09T13:29:35.280236+00:00",
+      "type": "new"
+    },
+    {
+      "finding_id": "999e1331419bc931bd98d87f",
+      "institution_ids": [],
+      "observed_at": "2026-10-09T13:29:35.280236+00:00",
+      "type": "new"
+    },
+    {
+      "finding_id": "fdc7db7b7ea1e4a63c6fcd63",
+      "institution_ids": [],
+      "observed_at": "2026-10-09T13:29:35.280236+00:00",
+      "type": "new"
+    },
+    {
+      "finding_id": "6edc8f18f4d6ff134bceeb34",
+      "institution_ids": [],
+      "observed_at": "2026-10-09T13:29:35.280236+00:00",
+      "type": "new"
+    },
+    {
+      "finding_id": "2da31d6614e3dbae49b84e86",
+      "institution_ids": [],
+      "observed_at": "2026-10-09T13:29:35.280236+00:00",
+      "type": "new"
+    },
+    {
+      "finding_id": "3a20b771ec13c24e899bca3d",
+      "institution_ids": [],
+      "observed_at": "2026-10-09T13:29:35.280236+00:00",
+      "type": "new"
+    },
+    {
+      "finding_id": "c4c13533e3c0ce9794f86ddb",
+      "institution_ids": [],
+      "observed_at": "2026-10-09T13:29:35.280236+00:00",
+      "type": "new"
+    },
+    {
+      "finding_id": "1a62e7fe00fb1fe1016c0857",
+      "institution_ids": [],
+      "observed_at": "2026-10-09T13:29:35.280236+00:00",
+      "type": "new"
+    },
+    {
+      "finding_id": "60985e3659ea4eb1d28ae1f3",
+      "institution_ids": [],
+      "observed_at": "2026-10-09T13:29:35.280236+00:00",
+      "type": "new"
+    },
+    {
+      "finding_id": "7b309a80696ac3ffe6b568e2",
+      "institution_ids": [],
+      "observed_at": "2026-10-09T13:29:35.280236+00:00",
+      "type": "new"
+    },
+    {
+      "finding_id": "fd3e7c463bb282e63c5b2fed",
+      "institution_ids": [],
+      "observed_at": "2026-10-09T13:29:35.280236+00:00",
+      "type": "new"
+    },
+    {
+      "finding_id": "255829b08a60a9391e45f2bf",
+      "institution_ids": [],
+      "observed_at": "2026-10-09T13:29:35.280236+00:00",
+      "type": "new"
+    },
+    {
+      "finding_id": "c5d6df5787f4bc41b54f96c1",
+      "institution_ids": [],
+      "observed_at": "2026-10-09T13:29:35.280236+00:00",
+      "type": "new"
+    },
+    {
+      "finding_id": "7fdfdc0ca358296679ef2457",
+      "institution_ids": [],
+      "observed_at": "2026-10-09T13:29:35.280236+00:00",
+      "type": "new"
+    },
+    {
+      "finding_id": "2600b9a980a4e2e430313889",
+      "institution_ids": [],
+      "observed_at": "2026-10-09T13:29:35.280236+00:00",
+      "type": "new"
+    },
+    {
+      "finding_id": "056e288383ffb2f1a7d2c8b2",
+      "institution_ids": [],
+      "observed_at": "2026-10-09T13:29:35.280236+00:00",
+      "type": "new"
+    },
+    {
+      "finding_id": "86fb3abacb569bfecf25fccd",
+      "institution_ids": [],
+      "observed_at": "2026-10-09T13:29:35.280236+00:00",
+      "type": "new"
+    },
+    {
+      "finding_id": "dea8635c5db1082915cbf997",
+      "institution_ids": [],
+      "observed_at": "2026-10-09T13:29:35.280236+00:00",
+      "type": "new"
+    },
+    {
+      "finding_id": "cc053d44e1acae6e7999e79f",
+      "institution_ids": [],
+      "observed_at": "2026-10-09T13:29:35.280236+00:00",
+      "type": "new"
+    },
+    {
+      "finding_id": "5e4fc82b6fdc4c94b562ee62",
+      "institution_ids": [],
+      "observed_at": "2026-10-09T13:29:35.280236+00:00",
+      "type": "new"
+    },
+    {
+      "finding_id": "eb7675536c05f046a653da20",
+      "institution_ids": [],
+      "observed_at": "2026-10-09T13:29:35.280236+00:00",
+      "type": "new"
+    },
+    {
+      "finding_id": "e4a5d015e113dac7d83a3e0c",
+      "institution_ids": [],
+      "observed_at": "2026-10-09T13:29:35.280236+00:00",
+      "type": "new"
+    },
+    {
+      "finding_id": "9e89ccff99d9e6a72bad66f8",
+      "institution_ids": [],
+      "observed_at": "2026-10-09T13:29:35.280236+00:00",
+      "type": "new"
+    },
+    {
+      "finding_id": "b3ce2d0f68bdf1ef853f06d7",
+      "institution_ids": [],
+      "observed_at": "2026-10-09T13:29:35.280236+00:00",
+      "type": "new"
+    },
+    {
+      "finding_id": "8f70e25cd838a7c5f017a994",
+      "institution_ids": [],
+      "observed_at": "2026-10-09T13:29:35.280236+00:00",
+      "type": "new"
+    },
+    {
+      "finding_id": "ed6a2a9546e251c2df2ab045",
+      "institution_ids": [],
+      "observed_at": "2026-10-09T13:29:35.280236+00:00",
+      "type": "new"
+    },
+    {
+      "finding_id": "d8ad81aa99b2d7c7de207fbe",
+      "institution_ids": [],
+      "observed_at": "2026-10-09T13:29:35.280236+00:00",
+      "type": "new"
+    },
+    {
+      "finding_id": "baa3cd75ec1c47f2bcc86e97",
+      "institution_ids": [],
+      "observed_at": "2026-10-09T13:29:35.280236+00:00",
+      "type": "new"
+    }
+  ],
+  "coverage": {
+    "basis": "search query region; event geography unknown",
+    "missing_regions": [],
+    "regions": [
+      "Africa",
+      "Americas",
+      "Asia",
+      "Europe",
+      "Oceania"
+    ]
+  },
+  "created_at": "2026-10-09T13:29:35.280236+00:00",
+  "errors": [
+    {
+      "code": "SOURCE_INCOMPLETE",
+      "source": "gdelt"
+    },
+    {
+      "code": "SOURCE_INCOMPLETE",
+      "source": "rss"
+    }
+  ],
+  "findings": [
+    {
+      "change_type": "new",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "413adecce790ee08f01521fc",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "World News in Brief: Russian attacks continue in Ukraine, Gazans shelter in flood-prone areas, keeping sight of eye health - The European Sting",
+          "source_id": "8285144cf235eaee42a91525"
+        }
+      ],
+      "finding_id": "413adecce790ee08f01521fc",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-09T13:29:35.049999+00:00",
+      "profile_relevance": 7.6909716435300925,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-09T06:04:35+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "Europe"
+      ],
+      "source_ids": [
+        "8285144cf235eaee42a91525"
+      ],
+      "summary": "World News in Brief: Russian attacks continue in Ukraine, Gazans shelter in flood-prone areas, keeping sight of eye health - The European Sting",
+      "topics": [
+        "world",
+        "news"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "new",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "e21f607d11985e913f4f79e9",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "Indian IT firms among 8 hit by US green card curbs as America widens visa crackdown | World News - Hindustan Times",
+          "source_id": "231455a213fd16b61c1d3846"
+        }
+      ],
+      "finding_id": "e21f607d11985e913f4f79e9",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-09T13:29:35.049999+00:00",
+      "profile_relevance": 7.480543402789352,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-09T01:01:34+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "Americas"
+      ],
+      "source_ids": [
+        "231455a213fd16b61c1d3846"
+      ],
+      "summary": "Indian IT firms among 8 hit by US green card curbs as America widens visa crackdown | World News - Hindustan Times",
+      "topics": [
+        "world",
+        "news"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "new",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "221f2fb0bc4db1587d1cff7f",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "Eleven Asia-Pacific nations to discuss energy security | NHK WORLD-JAPAN News - NHKニュース",
+          "source_id": "a2df2294732d429804b868c4"
+        }
+      ],
+      "finding_id": "221f2fb0bc4db1587d1cff7f",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-09T13:29:35.049999+00:00",
+      "profile_relevance": 6.698274884270833,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-08T06:15:06+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "Asia"
+      ],
+      "source_ids": [
+        "a2df2294732d429804b868c4"
+      ],
+      "summary": "Eleven Asia-Pacific nations to discuss energy security | NHK WORLD-JAPAN News - NHKニュース",
+      "topics": [
+        "world",
+        "news"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "new",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "4942dd1fa1c9f47bbe3fae12",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "Sub-Saharan Africa Outlook Improves, But Risks Tilt Downwards; World Bank Taps AI For Future Growth - Forbes Africa",
+          "source_id": "a3ab45bd5096db74414ca3b3"
+        }
+      ],
+      "finding_id": "4942dd1fa1c9f47bbe3fae12",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-09T13:29:35.049999+00:00",
+      "profile_relevance": 5.920450810196759,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-09T11:35:02+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "Africa"
+      ],
+      "source_ids": [
+        "a3ab45bd5096db74414ca3b3"
+      ],
+      "summary": "Sub-Saharan Africa Outlook Improves, But Risks Tilt Downwards; World Bank Taps AI For Future Growth - Forbes Africa",
+      "topics": [
+        "world",
+        "news"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "new",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "b401d80ce45f9be468d1cc20",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "Lisbon: I moved to the world’s happiest city. Here’s why it’s so special - The Telegraph",
+          "source_id": "055c16d0b04946bee1f82b06"
+        }
+      ],
+      "finding_id": "b401d80ce45f9be468d1cc20",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-09T13:29:35.049999+00:00",
+      "profile_relevance": 5.687788773159722,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-09T06:00:00+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "Oceania"
+      ],
+      "source_ids": [
+        "055c16d0b04946bee1f82b06"
+      ],
+      "summary": "Lisbon: I moved to the world’s happiest city. Here’s why it’s so special - The Telegraph",
+      "topics": [
+        "world",
+        "news"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "new",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "7f384d476068f5af561840c0",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "Gov. Newsom to world leaders: 'Donald Trump is temporary' - ABC7 Los Angeles",
+          "source_id": "4b925d1ca6736e1fdf50c27f"
+        }
+      ],
+      "finding_id": "7f384d476068f5af561840c0",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-09T13:29:35.049999+00:00",
+      "profile_relevance": 7.385925347233796,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-08T22:45:19+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "Europe"
+      ],
+      "source_ids": [
+        "4b925d1ca6736e1fdf50c27f"
+      ],
+      "summary": "Gov. Newsom to world leaders: 'Donald Trump is temporary' - ABC7 Los Angeles",
+      "topics": [
+        "world",
+        "news"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "new",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "9a188e308d0fcc3f769938c3",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "99-year-old American sets world record as oldest crowd surfer - Latest news from Azerbaijan",
+          "source_id": "edeca890587f5d4ef5445310"
+        }
+      ],
+      "finding_id": "9a188e308d0fcc3f769938c3",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-09T13:29:35.049999+00:00",
+      "profile_relevance": 5.9188767361226855,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-09T11:32:46+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "Americas"
+      ],
+      "source_ids": [
+        "edeca890587f5d4ef5445310"
+      ],
+      "summary": "99-year-old American sets world record as oldest crowd surfer - Latest news from Azerbaijan",
+      "topics": [
+        "world",
+        "news"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "new",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "343ff8561ca690a83b92d2af",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "Women’s U20 World Cup: 16 goals scored, none conceded, North Korea in the final - Bénin Web TV",
+          "source_id": "55754c2173d5ef5f24822fa5"
+        }
+      ],
+      "finding_id": "343ff8561ca690a83b92d2af",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-09T13:29:35.049999+00:00",
+      "profile_relevance": 5.943656828715278,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-09T12:08:27+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "Asia"
+      ],
+      "source_ids": [
+        "55754c2173d5ef5f24822fa5"
+      ],
+      "summary": "Women’s U20 World Cup: 16 goals scored, none conceded, North Korea in the final - Bénin Web TV",
+      "topics": [
+        "world",
+        "news"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "new",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "3c581f674dc7a54f552de43f",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "Sub-Saharan Africa growth projected at 4.3% in 2026: World Bank - Fibre2Fashion",
+          "source_id": "d7fbc3ea320241729b3536a4"
+        }
+      ],
+      "finding_id": "3c581f674dc7a54f552de43f",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-09T13:29:35.049999+00:00",
+      "profile_relevance": 5.884721643530092,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-09T10:43:35+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "Africa"
+      ],
+      "source_ids": [
+        "d7fbc3ea320241729b3536a4"
+      ],
+      "summary": "Sub-Saharan Africa growth projected at 4.3% in 2026: World Bank - Fibre2Fashion",
+      "topics": [
+        "world",
+        "news"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "new",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "9e38b7d7a316383405e41399",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "Nigerian appointed head of World Oil Palm Body - The Guardian Nigeria News",
+          "source_id": "44408d943f85c4747866d602"
+        }
+      ],
+      "finding_id": "9e38b7d7a316383405e41399",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-09T13:29:35.049999+00:00",
+      "profile_relevance": 5.295427662048612,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-08T20:35:00+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "Oceania"
+      ],
+      "source_ids": [
+        "44408d943f85c4747866d602"
+      ],
+      "summary": "Nigerian appointed head of World Oil Palm Body - The Guardian Nigeria News",
+      "topics": [
+        "world",
+        "news"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "new",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "b3e28bcf441236734320c425",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "World News in Brief: Child migrants in Europe, Greenland forced contraception scandal, FAO hunger updates - UN News",
+          "source_id": "971e1d0803968a49c6507b6c"
+        }
+      ],
+      "finding_id": "b3e28bcf441236734320c425",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-09T13:29:35.049999+00:00",
+      "profile_relevance": 6.151342013900463,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-07T17:07:31+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "Europe"
+      ],
+      "source_ids": [
+        "971e1d0803968a49c6507b6c"
+      ],
+      "summary": "World News in Brief: Child migrants in Europe, Greenland forced contraception scandal, FAO hunger updates - UN News",
+      "topics": [
+        "world",
+        "news"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "new",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "7c681c72979b437822f99020",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "US defeats Australia 2-0 in 2nd World Cup win, securing spot in knockout round - ABC News - Breaking News, Latest News and Videos",
+          "source_id": "4c19650b74cef4925a96da91"
+        }
+      ],
+      "finding_id": "7c681c72979b437822f99020",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-09T13:29:35.049999+00:00",
+      "profile_relevance": 5.869281828715278,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-09T10:21:21+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "Americas"
+      ],
+      "source_ids": [
+        "4c19650b74cef4925a96da91"
+      ],
+      "summary": "US defeats Australia 2-0 in 2nd World Cup win, securing spot in knockout round - ABC News - Breaking News, Latest News and Videos",
+      "topics": [
+        "world",
+        "news"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "new",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "50242a2137ee8870cc1b7bc8",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "India aims to put on 'best-ever' world championships as Olympic ambitions take shape - CNA",
+          "source_id": "0dd36a65e6cf2f6cba496c99"
+        }
+      ],
+      "finding_id": "50242a2137ee8870cc1b7bc8",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-09T13:29:35.049999+00:00",
+      "profile_relevance": 5.7836221064930555,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-09T08:18:00+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "Asia"
+      ],
+      "source_ids": [
+        "0dd36a65e6cf2f6cba496c99"
+      ],
+      "summary": "India aims to put on 'best-ever' world championships as Olympic ambitions take shape - CNA",
+      "topics": [
+        "world",
+        "news"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "new",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "2dbb099da887fef06708670c",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "Inzalo Is Creating A New World Of Agave Spirits In The Karoo - 2oceansvibe News",
+          "source_id": "696bc531ac126011aa588505"
+        }
+      ],
+      "finding_id": "2dbb099da887fef06708670c",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-09T13:29:35.049999+00:00",
+      "profile_relevance": 5.855126736122685,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-09T10:00:58+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "Africa"
+      ],
+      "source_ids": [
+        "696bc531ac126011aa588505"
+      ],
+      "summary": "Inzalo Is Creating A New World Of Agave Spirits In The Karoo - 2oceansvibe News",
+      "topics": [
+        "world",
+        "news"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "new",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "24264fac6f8ccdb3d295e9cf",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "Full list: 22 countries in the world with no personal income tax - Pulse Ghana",
+          "source_id": "6962e8f1ddd5735bcdd11d2d"
+        }
+      ],
+      "finding_id": "24264fac6f8ccdb3d295e9cf",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-09T13:29:35.049999+00:00",
+      "profile_relevance": 5.0625109953819445,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-08T14:59:36+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "Oceania"
+      ],
+      "source_ids": [
+        "6962e8f1ddd5735bcdd11d2d"
+      ],
+      "summary": "Full list: 22 countries in the world with no personal income tax - Pulse Ghana",
+      "topics": [
+        "world",
+        "news"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "new",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "604b622ccd8c34eb623b2fe7",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "Europe, Council of Europe Mark World Day Against Death Penalty - Mirage News",
+          "source_id": "b3f9b52e04a40f7b69a39307"
+        }
+      ],
+      "finding_id": "604b622ccd8c34eb623b2fe7",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-09T13:29:35.049999+00:00",
+      "profile_relevance": 5.9530665509375,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-09T12:22:00+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "Europe"
+      ],
+      "source_ids": [
+        "b3f9b52e04a40f7b69a39307"
+      ],
+      "summary": "Europe, Council of Europe Mark World Day Against Death Penalty - Mirage News",
+      "topics": [
+        "world",
+        "news"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "new",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "86eb07a3fe6fb590dc254972",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "World's second most visited country records sharpest increase from American tourists in August - VnExpress International",
+          "source_id": "97f7a9f94482c06c5601fdf6"
+        }
+      ],
+      "finding_id": "86eb07a3fe6fb590dc254972",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-09T13:29:35.049999+00:00",
+      "profile_relevance": 5.8270364583449075,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-09T09:20:31+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "Americas"
+      ],
+      "source_ids": [
+        "97f7a9f94482c06c5601fdf6"
+      ],
+      "summary": "World's second most visited country records sharpest increase from American tourists in August - VnExpress International",
+      "topics": [
+        "world",
+        "news"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "new",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "8bfaa1d64f3bb4ceefdd6985",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "Nine banks in South Korea investigate cyberattacks with possible AI involvement — Channel NewsAsia - UA.NEWS",
+          "source_id": "8ba1f145b401ad78b9b955da"
+        }
+      ],
+      "finding_id": "8bfaa1d64f3bb4ceefdd6985",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-09T13:29:35.049999+00:00",
+      "profile_relevance": 5.734964699085648,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-09T07:07:56+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "Asia"
+      ],
+      "source_ids": [
+        "8ba1f145b401ad78b9b955da"
+      ],
+      "summary": "Nine banks in South Korea investigate cyberattacks with possible AI involvement — Channel NewsAsia - UA.NEWS",
+      "topics": [
+        "world",
+        "news"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "new",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "6f44154c12489d9e9a75590e",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "World's best employers: These South African companies made their mark on Forbes' 2026 list - IOL",
+          "source_id": "9d66ebb331958c2e65518554"
+        }
+      ],
+      "finding_id": "6f44154c12489d9e9a75590e",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-09T13:29:35.049999+00:00",
+      "profile_relevance": 5.846897569456019,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-09T09:49:07+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "Africa"
+      ],
+      "source_ids": [
+        "9d66ebb331958c2e65518554"
+      ],
+      "summary": "World's best employers: These South African companies made their mark on Forbes' 2026 list - IOL",
+      "topics": [
+        "world",
+        "news"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "new",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "b50307721f2e4be4a149629b",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "Pacific women’s teams ready to make World Cup history - Pacific Media Network",
+          "source_id": "cf4d751eff62bbbac948f9e5"
+        }
+      ],
+      "finding_id": "b50307721f2e4be4a149629b",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-09T13:29:35.049999+00:00",
+      "profile_relevance": 4.852233217604167,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-08T09:56:48+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "Oceania"
+      ],
+      "source_ids": [
+        "cf4d751eff62bbbac948f9e5"
+      ],
+      "summary": "Pacific women’s teams ready to make World Cup history - Pacific Media Network",
+      "topics": [
+        "world",
+        "news"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "new",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "f2a2fb2a19a87defee6d0107",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "The Mario Kart World European September Slipstream results are in! - Nintendo",
+          "source_id": "129f27dd1f7705c392174152"
+        }
+      ],
+      "finding_id": "f2a2fb2a19a87defee6d0107",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-09T13:29:35.049999+00:00",
+      "profile_relevance": 5.865635995381944,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-09T10:16:06+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "Europe"
+      ],
+      "source_ids": [
+        "129f27dd1f7705c392174152"
+      ],
+      "summary": "The Mario Kart World European September Slipstream results are in! - Nintendo",
+      "topics": [
+        "world",
+        "news"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "new",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "2833d2131ba73dccaad8d17e",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "World Bank projects 2.2% growth for Latin America and Caribbean in 2026 - Caribbean National Weekly",
+          "source_id": "51b6c70848c6891750dffb21"
+        }
+      ],
+      "finding_id": "2833d2131ba73dccaad8d17e",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-09T13:29:35.049999+00:00",
+      "profile_relevance": 5.690277199085648,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-09T06:03:35+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "Americas"
+      ],
+      "source_ids": [
+        "51b6c70848c6891750dffb21"
+      ],
+      "summary": "World Bank projects 2.2% growth for Latin America and Caribbean in 2026 - Caribbean National Weekly",
+      "topics": [
+        "world",
+        "news"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "new",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "3744d6303217b187460d1cb5",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "T20 World Cup 2028 Asia Qualifier: Bahrain go top of standings after chasing 189 against Kuwait - Livemint",
+          "source_id": "67a78727f3502e84517c2bf4"
+        }
+      ],
+      "finding_id": "3744d6303217b187460d1cb5",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-09T13:29:35.049999+00:00",
+      "profile_relevance": 5.692730902789352,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-09T06:07:07+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "Asia"
+      ],
+      "source_ids": [
+        "67a78727f3502e84517c2bf4"
+      ],
+      "summary": "T20 World Cup 2028 Asia Qualifier: Bahrain go top of standings after chasing 189 against Kuwait - Livemint",
+      "topics": [
+        "world",
+        "news"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "new",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "181a813176913608cadf77b3",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "RS South Africa highlights global Better World Fund to support future engineers and stronger communities - Africa.com",
+          "source_id": "c7c03452a508a981229d87c8"
+        }
+      ],
+      "finding_id": "181a813176913608cadf77b3",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-09T13:29:35.049999+00:00",
+      "profile_relevance": 5.773714699085648,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-09T08:03:44+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "Africa"
+      ],
+      "source_ids": [
+        "c7c03452a508a981229d87c8"
+      ],
+      "summary": "RS South Africa highlights global Better World Fund to support future engineers and stronger communities - Africa.com",
+      "topics": [
+        "world",
+        "news"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "new",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "f15d2eba40f9ce4eadb132bc",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "AI-Assisted Animated K-Drama ‘The Painted Soul’ From ‘Mouse’ Director Sets Rakuten Viki Launch (EXCLUSIVE) - Yahoo News UK",
+          "source_id": "b7febc1de1a9d018a35d1c66"
+        }
+      ],
+      "finding_id": "f15d2eba40f9ce4eadb132bc",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-09T13:29:35.049999+00:00",
+      "profile_relevance": 3.979455439826389,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-09T13:00:00+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "Oceania"
+      ],
+      "source_ids": [
+        "b7febc1de1a9d018a35d1c66"
+      ],
+      "summary": "AI-Assisted Animated K-Drama ‘The Painted Soul’ From ‘Mouse’ Director Sets Rakuten Viki Launch (EXCLUSIVE) - Yahoo News UK",
+      "topics": [
+        "world",
+        "news"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "new",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "413f3e73dc1a724acca2f003",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "Fi Europe 2026: Discover a world of health and functional ingredients – all in one place - Cosmetics Business",
+          "source_id": "3e1d13dc06f41efac6b18a88"
+        }
+      ],
+      "finding_id": "413f3e73dc1a724acca2f003",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-09T13:29:35.049999+00:00",
+      "profile_relevance": 5.859443865752315,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-09T10:07:11+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "Europe"
+      ],
+      "source_ids": [
+        "3e1d13dc06f41efac6b18a88"
+      ],
+      "summary": "Fi Europe 2026: Discover a world of health and functional ingredients – all in one place - Cosmetics Business",
+      "topics": [
+        "world",
+        "news"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "new",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "dbea28063856d045cc9eb185",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "In Service to America: James E. Coffey, first soldier from Nashua to die in battle in World War I - Nashua Ink Link",
+          "source_id": "ea6f6efa954765c4be3b2e03"
+        }
+      ],
+      "finding_id": "dbea28063856d045cc9eb185",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-09T13:29:35.049999+00:00",
+      "profile_relevance": 5.6434832176041665,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-09T04:56:12+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "Americas"
+      ],
+      "source_ids": [
+        "ea6f6efa954765c4be3b2e03"
+      ],
+      "summary": "In Service to America: James E. Coffey, first soldier from Nashua to die in battle in World War I - Nashua Ink Link",
+      "topics": [
+        "world",
+        "news"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "new",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "63b6e6df5e52aa72c945745f",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "BBC World Service East Asia - Schedules, Saturday 24 October 2026 - BBC",
+          "source_id": "1efaece01865617daae5f374"
+        }
+      ],
+      "finding_id": "63b6e6df5e52aa72c945745f",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-09T13:29:35.049999+00:00",
+      "profile_relevance": 5.637545717604167,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-09T04:47:39+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "Asia"
+      ],
+      "source_ids": [
+        "1efaece01865617daae5f374"
+      ],
+      "summary": "BBC World Service East Asia - Schedules, Saturday 24 October 2026 - BBC",
+      "topics": [
+        "world",
+        "news"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "new",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "2294725c5f80dbea2e9b4cc1",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "Imran Tahir backs South Africa’s young core to shine at 2027 World Cup - Times of Oman",
+          "source_id": "f792834671f70819263e7a6f"
+        }
+      ],
+      "finding_id": "2294725c5f80dbea2e9b4cc1",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-09T13:29:35.049999+00:00",
+      "profile_relevance": 5.737788773159722,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-09T07:12:00+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "Africa"
+      ],
+      "source_ids": [
+        "f792834671f70819263e7a6f"
+      ],
+      "summary": "Imran Tahir backs South Africa’s young core to shine at 2027 World Cup - Times of Oman",
+      "topics": [
+        "world",
+        "news"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "new",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "8290368b5711f29ead0a8a99",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "Nissan to launch China-developed Frontier Pro pickup in Mexico and global markets, report says - CarNewsChina.com",
+          "source_id": "59a2fedf1fa337382a384b48"
+        }
+      ],
+      "finding_id": "8290368b5711f29ead0a8a99",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-09T13:29:35.049999+00:00",
+      "profile_relevance": 3.826677662048611,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-09T09:20:00+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "Oceania"
+      ],
+      "source_ids": [
+        "59a2fedf1fa337382a384b48"
+      ],
+      "summary": "Nissan to launch China-developed Frontier Pro pickup in Mexico and global markets, report says - CarNewsChina.com",
+      "topics": [
+        "world",
+        "news"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "new",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "625c7b2ee5d988e0c4ef855b",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "Europe's Energy Sector Must Close the Gap Between Cyber Regulation and Real-World Resilience - energynews.pro",
+          "source_id": "0b8dc316e3fba66c387acbc5"
+        }
+      ],
+      "finding_id": "625c7b2ee5d988e0c4ef855b",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-09T13:29:35.049999+00:00",
+      "profile_relevance": 5.187302662048611,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-08T17:59:18+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "Europe"
+      ],
+      "source_ids": [
+        "0b8dc316e3fba66c387acbc5"
+      ],
+      "summary": "Europe's Energy Sector Must Close the Gap Between Cyber Regulation and Real-World Resilience - energynews.pro",
+      "topics": [
+        "world",
+        "news"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "new",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "0a8e699bdf7c90dc859cc4fa",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "Indian-American Boy Becomes World's Youngest Male Author At Just 3 - NDTV",
+          "source_id": "7bd10ea6a779f9dff2d9b33c"
+        }
+      ],
+      "finding_id": "0a8e699bdf7c90dc859cc4fa",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-09T13:29:35.049999+00:00",
+      "profile_relevance": 5.543240162048611,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-09T02:31:51+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "Americas"
+      ],
+      "source_ids": [
+        "7bd10ea6a779f9dff2d9b33c"
+      ],
+      "summary": "Indian-American Boy Becomes World's Youngest Male Author At Just 3 - NDTV",
+      "topics": [
+        "world",
+        "news"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "new",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "a580fe46658a031295285b6b",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "BBC World Service South Asia - Schedules, Friday 16 October 2026 - BBC",
+          "source_id": "abd0f016e052cb1a06423b18"
+        }
+      ],
+      "finding_id": "a580fe46658a031295285b6b",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-09T13:29:35.049999+00:00",
+      "profile_relevance": 5.578448495381944,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-09T03:22:33+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "Asia"
+      ],
+      "source_ids": [
+        "abd0f016e052cb1a06423b18"
+      ],
+      "summary": "BBC World Service South Asia - Schedules, Friday 16 October 2026 - BBC",
+      "topics": [
+        "world",
+        "news"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "new",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "999e1331419bc931bd98d87f",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "WATCH LIVE: Arsène Wenger joins leading African coaches for FIFA World Cup 2026 discussion; CAF President Dr Patrice Motsepe to host press conference - CAFOnline.com",
+          "source_id": "29826c12fa7247af5fa4cf33"
+        }
+      ],
+      "finding_id": "999e1331419bc931bd98d87f",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-09T13:29:35.049999+00:00",
+      "profile_relevance": 5.727453125011574,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-09T06:57:07+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "Africa"
+      ],
+      "source_ids": [
+        "29826c12fa7247af5fa4cf33"
+      ],
+      "summary": "WATCH LIVE: Arsène Wenger joins leading African coaches for FIFA World Cup 2026 discussion; CAF President Dr Patrice Motsepe to host press conference - CAFOnline.com",
+      "topics": [
+        "world",
+        "news"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "new",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "fdc7db7b7ea1e4a63c6fcd63",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "17th Multidisciplinary International Student Workshop 2026 held at Science Tokyo - Science Tokyo",
+          "source_id": "118868542834f0e1bc7505f0"
+        }
+      ],
+      "finding_id": "fdc7db7b7ea1e4a63c6fcd63",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-09T13:29:35.049999+00:00",
+      "profile_relevance": 3.7788072916782407,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-09T08:11:04+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "Oceania"
+      ],
+      "source_ids": [
+        "118868542834f0e1bc7505f0"
+      ],
+      "summary": "17th Multidisciplinary International Student Workshop 2026 held at Science Tokyo - Science Tokyo",
+      "topics": [
+        "world",
+        "news"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "new",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "6edc8f18f4d6ff134bceeb34",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "Best 50 bars in the world have been revealed – and 18 are in Europe - Euronews.com",
+          "source_id": "57ebba9f634a22f68a75f9c3"
+        }
+      ],
+      "finding_id": "6edc8f18f4d6ff134bceeb34",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-09T13:29:35.049999+00:00",
+      "profile_relevance": 5.0880665509375,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-08T15:36:24+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "Europe"
+      ],
+      "source_ids": [
+        "57ebba9f634a22f68a75f9c3"
+      ],
+      "summary": "Best 50 bars in the world have been revealed – and 18 are in Europe - Euronews.com",
+      "topics": [
+        "world",
+        "news"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "new",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "2da31d6614e3dbae49b84e86",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "\"You don’t make America stronger by shutting door on talent\": California Governor Newsom criticises Trump’s immigration policy - ANI News",
+          "source_id": "dbf6c9683f08b8c2e03ab4c4"
+        }
+      ],
+      "finding_id": "2da31d6614e3dbae49b84e86",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-09T13:29:35.049999+00:00",
+      "profile_relevance": 5.539177662048611,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-09T02:26:00+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "Americas"
+      ],
+      "source_ids": [
+        "dbf6c9683f08b8c2e03ab4c4"
+      ],
+      "summary": "\"You don’t make America stronger by shutting door on talent\": California Governor Newsom criticises Trump’s immigration policy - ANI News",
+      "topics": [
+        "world",
+        "news"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "new",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "3a20b771ec13c24e899bca3d",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "Asia News Network releases e-book on continent's heritage treasures - China Daily Global Edition",
+          "source_id": "8da31c07fd6370da28eaa8ed"
+        }
+      ],
+      "finding_id": "3a20b771ec13c24e899bca3d",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-09T13:29:35.049999+00:00",
+      "profile_relevance": 5.541527199085648,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-09T02:29:23+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "Asia"
+      ],
+      "source_ids": [
+        "8da31c07fd6370da28eaa8ed"
+      ],
+      "summary": "Asia News Network releases e-book on continent's heritage treasures - China Daily Global Edition",
+      "topics": [
+        "world",
+        "news"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "new",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "c4c13533e3c0ce9794f86ddb",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "Minister Mackenzie welcomes R65 million National Lotteries Commission investment in South Africa’s Cricket World Cup 2027 - Western Cape Government",
+          "source_id": "cf173bb7ac588c80570c65d6"
+        }
+      ],
+      "finding_id": "c4c13533e3c0ce9794f86ddb",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-09T13:29:35.049999+00:00",
+      "profile_relevance": 5.698876736122685,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-09T06:15:58+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "Africa"
+      ],
+      "source_ids": [
+        "cf173bb7ac588c80570c65d6"
+      ],
+      "summary": "Minister Mackenzie welcomes R65 million National Lotteries Commission investment in South Africa’s Cricket World Cup 2027 - Western Cape Government",
+      "topics": [
+        "world",
+        "news"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "new",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "1a62e7fe00fb1fe1016c0857",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "Singapore Logistics Webinar to Be Hosted by Nippon Express (South Asia & Oceania) - The Manila Times",
+          "source_id": "40e8e9dc7d91b927ff649748"
+        }
+      ],
+      "finding_id": "1a62e7fe00fb1fe1016c0857",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-09T13:29:35.049999+00:00",
+      "profile_relevance": 3.7528697916782408,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-09T07:33:43+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "Oceania"
+      ],
+      "source_ids": [
+        "40e8e9dc7d91b927ff649748"
+      ],
+      "summary": "Singapore Logistics Webinar to Be Hosted by Nippon Express (South Asia & Oceania) - The Manila Times",
+      "topics": [
+        "world",
+        "news"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "new",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "60985e3659ea4eb1d28ae1f3",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "EVERY MEDALLIST AT THE WORLD CLIMBING EUROPE YOUTH SERIES LEIPZIG 2026 - World Climbing",
+          "source_id": "ebf257cb01373d0314880427"
+        }
+      ],
+      "finding_id": "60985e3659ea4eb1d28ae1f3",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-09T13:29:35.049999+00:00",
+      "profile_relevance": 4.562788773159722,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-08T03:00:00+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "Europe"
+      ],
+      "source_ids": [
+        "ebf257cb01373d0314880427"
+      ],
+      "summary": "EVERY MEDALLIST AT THE WORLD CLIMBING EUROPE YOUTH SERIES LEIPZIG 2026 - World Climbing",
+      "topics": [
+        "world",
+        "news"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "new",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "7b309a80696ac3ffe6b568e2",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "World Cup fans came for soccer. They left talking about an America they never expected. - Yahoo Creators",
+          "source_id": "8912004a5c6ffcea83392cb5"
+        }
+      ],
+      "finding_id": "7b309a80696ac3ffe6b568e2",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-09T13:29:35.049999+00:00",
+      "profile_relevance": 5.535184606493056,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-09T02:20:15+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "Americas"
+      ],
+      "source_ids": [
+        "8912004a5c6ffcea83392cb5"
+      ],
+      "summary": "World Cup fans came for soccer. They left talking about an America they never expected. - Yahoo Creators",
+      "topics": [
+        "world",
+        "news"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "new",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "fd3e7c463bb282e63c5b2fed",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "Thailand plans Bangkok Declaration for IMF-World Bank meetings - Asia News Network",
+          "source_id": "2bb4ae1b354afb5659981a95"
+        }
+      ],
+      "finding_id": "fd3e7c463bb282e63c5b2fed",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-09T13:29:35.049999+00:00",
+      "profile_relevance": 5.481041087974537,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-09T01:02:17+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "Asia"
+      ],
+      "source_ids": [
+        "2bb4ae1b354afb5659981a95"
+      ],
+      "summary": "Thailand plans Bangkok Declaration for IMF-World Bank meetings - Asia News Network",
+      "topics": [
+        "world",
+        "news"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "new",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "255829b08a60a9391e45f2bf",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "World Sight Day: Millions in Africa still lack access to basic eye care - The Citizen",
+          "source_id": "2563d25531b11d4385ef48a0"
+        }
+      ],
+      "finding_id": "255829b08a60a9391e45f2bf",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-09T13:29:35.049999+00:00",
+      "profile_relevance": 5.6605665509375,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-09T05:20:48+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "Africa"
+      ],
+      "source_ids": [
+        "2563d25531b11d4385ef48a0"
+      ],
+      "summary": "World Sight Day: Millions in Africa still lack access to basic eye care - The Citizen",
+      "topics": [
+        "world",
+        "news"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "new",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "c5d6df5787f4bc41b54f96c1",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "Inside the shock decision to bench a landmark four-decade endurance staple - The Advocate | Burnie, TAS",
+          "source_id": "8f13bea86c978fd04948bc2d"
+        }
+      ],
+      "finding_id": "c5d6df5787f4bc41b54f96c1",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-09T13:29:35.049999+00:00",
+      "profile_relevance": 3.690392939826389,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-09T06:03:45+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "Oceania"
+      ],
+      "source_ids": [
+        "8f13bea86c978fd04948bc2d"
+      ],
+      "summary": "Inside the shock decision to bench a landmark four-decade endurance staple - The Advocate | Burnie, TAS",
+      "topics": [
+        "world",
+        "news"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "new",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "7fdfdc0ca358296679ef2457",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "Most children migrating to Europe in 2025 were alone, UN says | WORLD - WORLD News Group",
+          "source_id": "654973e3998ea5fbd85616df"
+        }
+      ],
+      "finding_id": "7fdfdc0ca358296679ef2457",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-09T13:29:35.049999+00:00",
+      "profile_relevance": 4.305149884270833,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-07T20:49:00+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "Europe"
+      ],
+      "source_ids": [
+        "654973e3998ea5fbd85616df"
+      ],
+      "summary": "Most children migrating to Europe in 2025 were alone, UN says | WORLD - WORLD News Group",
+      "topics": [
+        "world",
+        "news"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "new",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "2600b9a980a4e2e430313889",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "The American who saw the power of Hangeul before the world did - The Korea Herald",
+          "source_id": "50f4410109253ed472fc0cdd"
+        }
+      ],
+      "finding_id": "2600b9a980a4e2e430313889",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-09T13:29:35.049999+00:00",
+      "profile_relevance": 5.437788773159722,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-09T00:00:00+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "Americas"
+      ],
+      "source_ids": [
+        "50f4410109253ed472fc0cdd"
+      ],
+      "summary": "The American who saw the power of Hangeul before the world did - The Korea Herald",
+      "topics": [
+        "world",
+        "news"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "new",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "056e288383ffb2f1a7d2c8b2",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "BBC World Service South Asia - Schedules, Saturday 10 October 2026 - BBC",
+          "source_id": "d4c9082f3ef294034c641d86"
+        }
+      ],
+      "finding_id": "056e288383ffb2f1a7d2c8b2",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-09T13:29:35.049999+00:00",
+      "profile_relevance": 5.312233217604167,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-08T20:59:12+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "Asia"
+      ],
+      "source_ids": [
+        "d4c9082f3ef294034c641d86"
+      ],
+      "summary": "BBC World Service South Asia - Schedules, Saturday 10 October 2026 - BBC",
+      "topics": [
+        "world",
+        "news"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "new",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "86fb3abacb569bfecf25fccd",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "One South African province mines 50% of the world’s platinum, yet 7 out of 10 residents cannot find a job - Daily Investor",
+          "source_id": "73795a36275bae13d082e409"
+        }
+      ],
+      "finding_id": "86fb3abacb569bfecf25fccd",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-09T13:29:35.049999+00:00",
+      "profile_relevance": 5.607534143530092,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-09T04:04:26+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "Africa"
+      ],
+      "source_ids": [
+        "73795a36275bae13d082e409"
+      ],
+      "summary": "One South African province mines 50% of the world’s platinum, yet 7 out of 10 residents cannot find a job - Daily Investor",
+      "topics": [
+        "world",
+        "news"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "new",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "dea8635c5db1082915cbf997",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "Pacific Voices Shape Priorities Ahead Of COP31 - Mirage News",
+          "source_id": "6af3d977b867180a1946f123"
+        }
+      ],
+      "finding_id": "dea8635c5db1082915cbf997",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-09T13:29:35.049999+00:00",
+      "profile_relevance": 3.5516776620486112,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-09T02:44:00+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "Oceania"
+      ],
+      "source_ids": [
+        "6af3d977b867180a1946f123"
+      ],
+      "summary": "Pacific Voices Shape Priorities Ahead Of COP31 - Mirage News",
+      "topics": [
+        "world",
+        "news"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "new",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "cc053d44e1acae6e7999e79f",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "Women's European Qualifiers for 2027 FIFA Women's World Cup: Play-off ties start on Friday | Women's European Qualifiers - UEFA.com",
+          "source_id": "40ad9afe6002847a7c84280f"
+        }
+      ],
+      "finding_id": "cc053d44e1acae6e7999e79f",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-09T13:29:35.049999+00:00",
+      "profile_relevance": 4.1627309027893515,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-07T17:23:55+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "Europe"
+      ],
+      "source_ids": [
+        "40ad9afe6002847a7c84280f"
+      ],
+      "summary": "Women's European Qualifiers for 2027 FIFA Women's World Cup: Play-off ties start on Friday | Women's European Qualifiers - UEFA.com",
+      "topics": [
+        "world",
+        "news"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "new",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "5e4fc82b6fdc4c94b562ee62",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "Is the world, Israel, the U.S. and American Jews better or worse off than 3 years ago? - The Hugh Hewitt Show",
+          "source_id": "844ff50bc0875bfbf4d84121"
+        }
+      ],
+      "finding_id": "5e4fc82b6fdc4c94b562ee62",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-09T13:29:35.049999+00:00",
+      "profile_relevance": 5.327001736122686,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-08T21:20:28+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "Americas"
+      ],
+      "source_ids": [
+        "844ff50bc0875bfbf4d84121"
+      ],
+      "summary": "Is the world, Israel, the U.S. and American Jews better or worse off than 3 years ago? - The Hugh Hewitt Show",
+      "topics": [
+        "world",
+        "news"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "new",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "eb7675536c05f046a653da20",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "Rallying-US back on world championship calendar for first time since 1988 - CNA",
+          "source_id": "9e2fe5cb0a06a042b5cb89fb"
+        }
+      ],
+      "finding_id": "eb7675536c05f046a653da20",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-09T13:29:35.049999+00:00",
+      "profile_relevance": 5.0393975694560185,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-08T14:26:19+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "Asia"
+      ],
+      "source_ids": [
+        "9e2fe5cb0a06a042b5cb89fb"
+      ],
+      "summary": "Rallying-US back on world championship calendar for first time since 1988 - CNA",
+      "topics": [
+        "world",
+        "news"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "new",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "e4a5d015e113dac7d83a3e0c",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "Ongoing story: African guests at the World Health Summit + EUMETSAT’s MTG data now available across Africa - Table.Briefings",
+          "source_id": "aac7c3fa1fa256e04318f181"
+        }
+      ],
+      "finding_id": "e4a5d015e113dac7d83a3e0c",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-09T13:29:35.049999+00:00",
+      "profile_relevance": 5.599710069456019,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-09T03:53:10+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "Africa"
+      ],
+      "source_ids": [
+        "aac7c3fa1fa256e04318f181"
+      ],
+      "summary": "Ongoing story: African guests at the World Health Summit + EUMETSAT’s MTG data now available across Africa - Table.Briefings",
+      "topics": [
+        "world",
+        "news"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "new",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "9e89ccff99d9e6a72bad66f8",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "Melanesian Champions Crowned and History Made in Busy International Window - Oceania Football Confederation",
+          "source_id": "150744076ed5518effab4a75"
+        }
+      ],
+      "finding_id": "9e89ccff99d9e6a72bad66f8",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-09T13:29:35.049999+00:00",
+      "profile_relevance": 3.450381365752315,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-09T00:18:08+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "Oceania"
+      ],
+      "source_ids": [
+        "150744076ed5518effab4a75"
+      ],
+      "summary": "Melanesian Champions Crowned and History Made in Busy International Window - Oceania Football Confederation",
+      "topics": [
+        "world",
+        "news"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "new",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "b3ce2d0f68bdf1ef853f06d7",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "The EU and the Council of Europe demand the global abolition of the death penalty and criticize that the US and China maintain it. - Demócrata",
+          "source_id": "d65e41759f96f4d776f10860"
+        }
+      ],
+      "finding_id": "b3ce2d0f68bdf1ef853f06d7",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-09T13:29:35.049999+00:00",
+      "profile_relevance": 3.994085069456019,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-09T13:21:04+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "Europe"
+      ],
+      "source_ids": [
+        "d65e41759f96f4d776f10860"
+      ],
+      "summary": "The EU and the Council of Europe demand the global abolition of the death penalty and criticize that the US and China maintain it. - Demócrata",
+      "topics": [
+        "world",
+        "news"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "new",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "8f70e25cd838a7c5f017a994",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "XG Announces 2026 North American Dates for ‘The Core’ World Tour - TicketNews",
+          "source_id": "c986c0e93135aceb367c44ce"
+        }
+      ],
+      "finding_id": "8f70e25cd838a7c5f017a994",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-09T13:29:35.049999+00:00",
+      "profile_relevance": 5.290045717604166,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-08T20:27:15+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "Americas"
+      ],
+      "source_ids": [
+        "c986c0e93135aceb367c44ce"
+      ],
+      "summary": "XG Announces 2026 North American Dates for ‘The Core’ World Tour - TicketNews",
+      "topics": [
+        "world",
+        "news"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "new",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "ed6a2a9546e251c2df2ab045",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "October 8, 2026: Kuala Lumpur among top 10 most polluted cities in the world - IQAir",
+          "source_id": "50b4e62b3d4065b0e2b9126c"
+        }
+      ],
+      "finding_id": "ed6a2a9546e251c2df2ab045",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-09T13:29:35.049999+00:00",
+      "profile_relevance": 5.029594328715278,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-08T14:12:12+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "Asia"
+      ],
+      "source_ids": [
+        "50b4e62b3d4065b0e2b9126c"
+      ],
+      "summary": "October 8, 2026: Kuala Lumpur among top 10 most polluted cities in the world - IQAir",
+      "topics": [
+        "world",
+        "news"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "new",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "d8ad81aa99b2d7c7de207fbe",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "ICC Cricket World Cup, 2023/24 - South Africa Cricket Team Records & Stats - Cricinfo",
+          "source_id": "405cdaafc8a1aa8e58207080"
+        }
+      ],
+      "finding_id": "d8ad81aa99b2d7c7de207fbe",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-09T13:29:35.049999+00:00",
+      "profile_relevance": 5.289953125011574,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-08T20:27:07+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "Africa"
+      ],
+      "source_ids": [
+        "405cdaafc8a1aa8e58207080"
+      ],
+      "summary": "ICC Cricket World Cup, 2023/24 - South Africa Cricket Team Records & Stats - Cricinfo",
+      "topics": [
+        "world",
+        "news"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "new",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "baa3cd75ec1c47f2bcc86e97",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "The long-deployed USS Lincoln returns home to San Diego Bay - The Manila Times",
+          "source_id": "5a3dc5309ebc2355f60884e9"
+        }
+      ],
+      "finding_id": "baa3cd75ec1c47f2bcc86e97",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-09T13:29:35.049999+00:00",
+      "profile_relevance": 3.354455439826389,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-08T22:00:00+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "Oceania"
+      ],
+      "source_ids": [
+        "5a3dc5309ebc2355f60884e9"
+      ],
+      "summary": "The long-deployed USS Lincoln returns home to San Diego Bay - The Manila Times",
+      "topics": [
+        "world",
+        "news"
+      ],
+      "verification": "single_secondary_source"
+    }
+  ],
+  "limitations": [
+    "Bounded queries do not provide exhaustive global coverage.",
+    "GDELT seen time is an observation timestamp, not verified publication time.",
+    "Contradiction/resolution labels require explicit source wording and review; no automatic truth adjudication."
+  ],
+  "links": {
+    "json": "intel/reports/world/2026/10/09/7b63820cbc8d4083b2c13ccb150d3f89/report.json",
+    "markdown": "intel/reports/world/2026/10/09/7b63820cbc8d4083b2c13ccb150d3f89/report.md"
+  },
+  "model_used": null,
+  "profile_id": "world/global",
+  "question": "",
+  "report_id": "7b63820cbc8d4083b2c13ccb150d3f89",
+  "run_id": "7b63820cbc8d4083b2c13ccb150d3f89",
+  "schema_version": "1.0",
+  "sources": [
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNY2cxTlFHNmRNV0NMdHdwY3NacUpLbmM4aVhoY1FFT0NWV3VpelJ3d3g3VVhmSG82dVFBdDd3X1ZKVnVVVmlZb2lmeV9NSzUwWnlUWHdqYWNFWWljalA1ZGp2cDhnSlR6cTJWZ2J1MkRYQTBoTXRpaUhhanJNSUdmYTItYXFja01mVHkwX1h5OFdIaTdRRllVbTY2Tm5pMjdoREtHY3BsTUpxa2RUZ2FwbFd0NzU?oc=5",
+      "content_fingerprint": "50c37d51129a0c0337b92e3f",
+      "fetched_at": "2026-10-09T13:29:35.049999+00:00",
+      "institution_id": null,
+      "language": "en",
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNY2cxTlFHNmRNV0NMdHdwY3NacUpLbmM4aVhoY1FFT0NWV3VpelJ3d3g3VVhmSG82dVFBdDd3X1ZKVnVVVmlZb2lmeV9NSzUwWnlUWHdqYWNFWWljalA1ZGp2cDhnSlR6cTJWZ2J1MkRYQTBoTXRpaUhhanJNSUdmYTItYXFja01mVHkwX1h5OFdIaTdRRllVbTY2Tm5pMjdoREtHY3BsTUpxa2RUZ2FwbFd0NzU?oc=5",
+      "profile_id": "world/global",
+      "published_at": "2026-10-09T06:00:00+00:00",
+      "publisher": "The Telegraph",
+      "search_query": "world news Oceania",
+      "source_country": "unknown",
+      "source_id": "055c16d0b04946bee1f82b06",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOMTZKRzl0Si05ZVY0TWJkQWZlUDdzT210V0xrenNGZEExTUhjdHJLMzVuOHJQQ3dBMmZxWlRYLWR5eXIwQVMzWk9qQ1d1Nkp4MU9KNW9sbWxqSWFRMm5FVTA3LXg2WVRPQlZ6UElwRHFuSWdXdDdxN2cwQ1FxS1NQVGxzZ0g4NDZ2TmR6Zk95bmVONFBnZHBPbzJBMF8xTGJ2SGNjc2NmZ2MxeXdkYnZFcEhXd1ZpRG5Y?oc=5",
+      "content_fingerprint": "25e474347d611c2a8226914b",
+      "fetched_at": "2026-10-09T13:29:35.049999+00:00",
+      "institution_id": null,
+      "language": "en",
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOMTZKRzl0Si05ZVY0TWJkQWZlUDdzT210V0xrenNGZEExTUhjdHJLMzVuOHJQQ3dBMmZxWlRYLWR5eXIwQVMzWk9qQ1d1Nkp4MU9KNW9sbWxqSWFRMm5FVTA3LXg2WVRPQlZ6UElwRHFuSWdXdDdxN2cwQ1FxS1NQVGxzZ0g4NDZ2TmR6Zk95bmVONFBnZHBPbzJBMF8xTGJ2SGNjc2NmZ2MxeXdkYnZFcEhXd1ZpRG5Y?oc=5",
+      "profile_id": "world/global",
+      "published_at": "2026-10-08T17:59:18+00:00",
+      "publisher": "energynews.pro",
+      "search_query": "world news Europe",
+      "source_country": "unknown",
+      "source_id": "0b8dc316e3fba66c387acbc5",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPN1RucFRETWVlUmttN09tb1dybEpmMzM2YzlCTWdGRFplQWxicnJrQTFXUWNvUnVqQk1iek9Id3pReWxXV0tRWUFjMDhYMmQ5YTAyVTlaQU5nTVlMWG1HdFM0Q2hyZmV2bi1FQXpxdHFKNEVMaE8yQmU2YmVYTVprTk1veXJ6N051N2RtWEJBSHhyMlgxWWJyeERha2UyeHpBZk9ZOFNQbGpIMDVmWjZ4Mlcwb0ttSjhZOW1v?oc=5",
+      "content_fingerprint": "c400d208644e37a8f8d604e1",
+      "fetched_at": "2026-10-09T13:29:35.049999+00:00",
+      "institution_id": null,
+      "language": "en",
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPN1RucFRETWVlUmttN09tb1dybEpmMzM2YzlCTWdGRFplQWxicnJrQTFXUWNvUnVqQk1iek9Id3pReWxXV0tRWUFjMDhYMmQ5YTAyVTlaQU5nTVlMWG1HdFM0Q2hyZmV2bi1FQXpxdHFKNEVMaE8yQmU2YmVYTVprTk1veXJ6N051N2RtWEJBSHhyMlgxWWJyeERha2UyeHpBZk9ZOFNQbGpIMDVmWjZ4Mlcwb0ttSjhZOW1v?oc=5",
+      "profile_id": "world/global",
+      "published_at": "2026-10-09T08:18:00+00:00",
+      "publisher": "CNA",
+      "search_query": "world news Asia",
+      "source_country": "unknown",
+      "source_id": "0dd36a65e6cf2f6cba496c99",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5FeV92S0RqcWNyTFN0R2JyZUZkUFBUTWNkcEhXb3J1Z1VzS1NSTXQ2dlZ6UkFyR2ltYU5LZ05YeG9zdWlwN1dFME9lRXl3WjFXdkJzTjFB?oc=5",
+      "content_fingerprint": "b5296b61836e46e1ec1ff731",
+      "fetched_at": "2026-10-09T13:29:35.049999+00:00",
+      "institution_id": null,
+      "language": "en",
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5FeV92S0RqcWNyTFN0R2JyZUZkUFBUTWNkcEhXb3J1Z1VzS1NSTXQ2dlZ6UkFyR2ltYU5LZ05YeG9zdWlwN1dFME9lRXl3WjFXdkJzTjFB?oc=5",
+      "profile_id": "world/global",
+      "published_at": "2026-10-09T08:11:04+00:00",
+      "publisher": "Science Tokyo",
+      "search_query": "world news Oceania",
+      "source_country": "unknown",
+      "source_id": "118868542834f0e1bc7505f0",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOMkFZLVgxYWZRYkdQYmI0VDE0Q3EwOEtZMFdTUjBsRGRyMTVpeE9hN3N3Slp4c1FFclZLTmYyWmNhQUNzOHFKQWxCcEVCN2JGTXVBcHRWN052al9kb0QxYlJHdmZBc2lpN3dEWUlud1lzbGNFazV0b0pLcjJCSC00VGYwcms3RlZwc241RHUzNkV4SnVvdml2bWdPRVJDaDM3TUxvckpzbVc0ZHZ1Y2FWMjV0M28yNW5jNWE2ZDJ3a19RRkVJaHZv?oc=5",
+      "content_fingerprint": "1296b4f7e0b368ba63a8fa57",
+      "fetched_at": "2026-10-09T13:29:35.049999+00:00",
+      "institution_id": null,
+      "language": "en",
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOMkFZLVgxYWZRYkdQYmI0VDE0Q3EwOEtZMFdTUjBsRGRyMTVpeE9hN3N3Slp4c1FFclZLTmYyWmNhQUNzOHFKQWxCcEVCN2JGTXVBcHRWN052al9kb0QxYlJHdmZBc2lpN3dEWUlud1lzbGNFazV0b0pLcjJCSC00VGYwcms3RlZwc241RHUzNkV4SnVvdml2bWdPRVJDaDM3TUxvckpzbVc0ZHZ1Y2FWMjV0M28yNW5jNWE2ZDJ3a19RRkVJaHZv?oc=5",
+      "profile_id": "world/global",
+      "published_at": "2026-10-09T10:16:06+00:00",
+      "publisher": "Nintendo",
+      "search_query": "world news Europe",
+      "source_country": "unknown",
+      "source_id": "129f27dd1f7705c392174152",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOajlPcXdYeHBfTF8zbEZoX3B4SWVXZWpDWERQVnpkRTQ5aURxekY2R1kzTElLSzczZEVCOGZwRldVTG5hR0t1alRfNWZYVG0xbm5NRVo0M2Z0M3RDVVhIamhKOTQ3OTYxSUI5d0hqdlZzYW5uZmpwQld6N2pkUTg1VTR3VEQtaU1UeWJOc0lHaXk0Z0dnUVgycm8wU1Z0ekc0djJCSGdWQjdkdUU?oc=5",
+      "content_fingerprint": "d2f00f64b361b96f7bf9c46e",
+      "fetched_at": "2026-10-09T13:29:35.049999+00:00",
+      "institution_id": null,
+      "language": "en",
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOajlPcXdYeHBfTF8zbEZoX3B4SWVXZWpDWERQVnpkRTQ5aURxekY2R1kzTElLSzczZEVCOGZwRldVTG5hR0t1alRfNWZYVG0xbm5NRVo0M2Z0M3RDVVhIamhKOTQ3OTYxSUI5d0hqdlZzYW5uZmpwQld6N2pkUTg1VTR3VEQtaU1UeWJOc0lHaXk0Z0dnUVgycm8wU1Z0ekc0djJCSGdWQjdkdUU?oc=5",
+      "profile_id": "world/global",
+      "published_at": "2026-10-09T00:18:08+00:00",
+      "publisher": "Oceania Football Confederation",
+      "search_query": "world news Oceania",
+      "source_country": "unknown",
+      "source_id": "150744076ed5518effab4a75",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFByd3JzWEEyV3NXS2tSdkw1TVE2RnYxdFN5eEZLOWh5ci1wbmJYSG9HMUoxaGlObVlwMkpVN2pXVms1TENrdDBkODc3VThJc014M2dRSmVrVFZIT3BSTTdGZA?oc=5",
+      "content_fingerprint": "8ee65267e1880776a9ae26c7",
+      "fetched_at": "2026-10-09T13:29:35.049999+00:00",
+      "institution_id": null,
+      "language": "en",
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFByd3JzWEEyV3NXS2tSdkw1TVE2RnYxdFN5eEZLOWh5ci1wbmJYSG9HMUoxaGlObVlwMkpVN2pXVms1TENrdDBkODc3VThJc014M2dRSmVrVFZIT3BSTTdGZA?oc=5",
+      "profile_id": "world/global",
+      "published_at": "2026-10-09T04:47:39+00:00",
+      "publisher": "BBC",
+      "search_query": "world news Asia",
+      "source_country": "unknown",
+      "source_id": "1efaece01865617daae5f374",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOMFFDckxndVZjYjlzSmpzanpJMUFDem5FVnJIOGZSelNYYkxMMWp1RWt3N1FDaDl5NUExel9vZklBSmtfSXh4UzFHamhaelFOV3p5dGJSMmViMk9ETTFuYlF6TEx4al9acXNxb2JvUWs3R04xRDB1ck5pWkE3Vmx0RDNUNnhJallmOXNmN08wWE1lVy1wR096dVhlSVJnRDJmbjZHaEU5TlNCOVotSDQyV2t6LS1DZ3NNT3FfOEZqWkFSd0tJRjBTQm4zQ09DUkdUWnA0WlBBLVZ6QWlRLWRj0gHkAUFVX3lxTE9DQnJlMFowd1R4RDFZSXlKaXBRa2dkOUdMTk0zbjVKMUh6T2ljQnE1R2JJRm1JMzdCLWNYZnlENGZHbFBldGZOR01sampTNkE2MXlWdl9pcU1EQ0dYNkRzS0NhbzBoc2x3cWo3YWw5aENLa2Z4SFJBWlpST0gyNnZuZEpOMTE4TnlUcjZnZk1MVUh3cmxWeWxva0hRelVwZ3pWWFAzek9WaTZBeXBhc3JSVkpwRHdKRWluOUVTMHMwcHVNbExKeWtZRXF5MHZILXNUY1N1ZXE5WlB0UW42eHhiNkQ5RA?oc=5",
+      "content_fingerprint": "e7f9830afffe21c5d386d794",
+      "fetched_at": "2026-10-09T13:29:35.049999+00:00",
+      "institution_id": null,
+      "language": "en",
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOMFFDckxndVZjYjlzSmpzanpJMUFDem5FVnJIOGZSelNYYkxMMWp1RWt3N1FDaDl5NUExel9vZklBSmtfSXh4UzFHamhaelFOV3p5dGJSMmViMk9ETTFuYlF6TEx4al9acXNxb2JvUWs3R04xRDB1ck5pWkE3Vmx0RDNUNnhJallmOXNmN08wWE1lVy1wR096dVhlSVJnRDJmbjZHaEU5TlNCOVotSDQyV2t6LS1DZ3NNT3FfOEZqWkFSd0tJRjBTQm4zQ09DUkdUWnA0WlBBLVZ6QWlRLWRj0gHkAUFVX3lxTE9DQnJlMFowd1R4RDFZSXlKaXBRa2dkOUdMTk0zbjVKMUh6T2ljQnE1R2JJRm1JMzdCLWNYZnlENGZHbFBldGZOR01sampTNkE2MXlWdl9pcU1EQ0dYNkRzS0NhbzBoc2x3cWo3YWw5aENLa2Z4SFJBWlpST0gyNnZuZEpOMTE4TnlUcjZnZk1MVUh3cmxWeWxva0hRelVwZ3pWWFAzek9WaTZBeXBhc3JSVkpwRHdKRWluOUVTMHMwcHVNbExKeWtZRXF5MHZILXNUY1N1ZXE5WlB0UW42eHhiNkQ5RA?oc=5",
+      "profile_id": "world/global",
+      "published_at": "2026-10-09T01:01:34+00:00",
+      "publisher": "Hindustan Times",
+      "search_query": "world news Americas",
+      "source_country": "unknown",
+      "source_id": "231455a213fd16b61c1d3846",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxQRUpIYjI4UGpqVjhqS2RMS3U3THdSQWhEcEM2WGVxcG9lajZ6RjVsNURsS1ZKZWRBenZlZXg2bVlzQXRVck5WdFc0TDd5OGN3UURWMFNmSkJ2YzBBaGtsVWxuY1JEQndXRUYxOE1tOFl3aE54aUtRazQ4UWF1MG5lNVVzYUZ1SWJrRVZLVFdSanMxMXZoZ2c2cGkyYUFBbW1kdWJzbF94QTFmR0hyVjdiNkJXRFBnMFFCSUFlN3lPSzZZbTJORU92enRoOHFkUHRwa1F6cHFkbEF5R3hfbGhZdXZ1UWZoRHBIVnVaVEJzUkdoLUUtRFRBd3FacGhmb3M?oc=5",
+      "content_fingerprint": "93ff6dc7e1a146dc817aef98",
+      "fetched_at": "2026-10-09T13:29:35.049999+00:00",
+      "institution_id": null,
+      "language": "en",
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxQRUpIYjI4UGpqVjhqS2RMS3U3THdSQWhEcEM2WGVxcG9lajZ6RjVsNURsS1ZKZWRBenZlZXg2bVlzQXRVck5WdFc0TDd5OGN3UURWMFNmSkJ2YzBBaGtsVWxuY1JEQndXRUYxOE1tOFl3aE54aUtRazQ4UWF1MG5lNVVzYUZ1SWJrRVZLVFdSanMxMXZoZ2c2cGkyYUFBbW1kdWJzbF94QTFmR0hyVjdiNkJXRFBnMFFCSUFlN3lPSzZZbTJORU92enRoOHFkUHRwa1F6cHFkbEF5R3hfbGhZdXZ1UWZoRHBIVnVaVEJzUkdoLUUtRFRBd3FacGhmb3M?oc=5",
+      "profile_id": "world/global",
+      "published_at": "2026-10-09T05:20:48+00:00",
+      "publisher": "The Citizen",
+      "search_query": "world news Africa",
+      "source_country": "unknown",
+      "source_id": "2563d25531b11d4385ef48a0",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMiqwJBVV95cUxPOThncjctMDBnUlZDeExsWEUtSjlRMGFfRXJFT0d0dklRSUJjMHNiZXlkMklxeUIxbVNYZ0U4Wm9Ia3FJWUV2Z3p0elRHMVRCSkFfSGgyUm10QjFQeWtpS2RMMWNfT1BJMHkzbldFZzRRZFBWSWlDb1diWGZJejNUc1FiUTNHbUpWemJrWDB1ZDZiQWtfbjF2VWl4b2dqV28yclIyTEFCSlBHYUVYOWtUR3RMeFBRdEpoZXZ2WnhmR3ljV0wzd0NMclBlN3hJU3I0d3czSU8ycEtrN0ZUZW9malU2RDEtNGliSjVwQkN4eWlNSmRrT1F3TE1WeEZRb2FVZkgtOTMxS29ENk1aOHNiVk1iRVkzVWsyQzIxUHdjYU9TYzF2bEJta1pSWQ?oc=5",
+      "content_fingerprint": "18822592be3a6713ff176de2",
+      "fetched_at": "2026-10-09T13:29:35.049999+00:00",
+      "institution_id": null,
+      "language": "en",
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMiqwJBVV95cUxPOThncjctMDBnUlZDeExsWEUtSjlRMGFfRXJFT0d0dklRSUJjMHNiZXlkMklxeUIxbVNYZ0U4Wm9Ia3FJWUV2Z3p0elRHMVRCSkFfSGgyUm10QjFQeWtpS2RMMWNfT1BJMHkzbldFZzRRZFBWSWlDb1diWGZJejNUc1FiUTNHbUpWemJrWDB1ZDZiQWtfbjF2VWl4b2dqV28yclIyTEFCSlBHYUVYOWtUR3RMeFBRdEpoZXZ2WnhmR3ljV0wzd0NMclBlN3hJU3I0d3czSU8ycEtrN0ZUZW9malU2RDEtNGliSjVwQkN4eWlNSmRrT1F3TE1WeEZRb2FVZkgtOTMxS29ENk1aOHNiVk1iRVkzVWsyQzIxUHdjYU9TYzF2bEJta1pSWQ?oc=5",
+      "profile_id": "world/global",
+      "published_at": "2026-10-09T06:57:07+00:00",
+      "publisher": "CAFOnline.com",
+      "search_query": "world news Africa",
+      "source_country": "unknown",
+      "source_id": "29826c12fa7247af5fa4cf33",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxORUVkSkJLYVpOU28xOHVlZWNGLUpOZFJxRVlHUGJDQ1UwOUFJZTk0QzNVTDU2dGVENTJhVk9QanUtUTNUMmJEUng0cHgwZmJjZHJYNWdHTGNXZUFvT0pCeUNEMTdIUkJPUFRjNnpjekE0WFBoUUxCeGl4alJVSXczMjIzMFdrWmpGSlN3RGdEbFZEQQ?oc=5",
+      "content_fingerprint": "7bc560291d0d7b9284b0bdd1",
+      "fetched_at": "2026-10-09T13:29:35.049999+00:00",
+      "institution_id": null,
+      "language": "en",
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxORUVkSkJLYVpOU28xOHVlZWNGLUpOZFJxRVlHUGJDQ1UwOUFJZTk0QzNVTDU2dGVENTJhVk9QanUtUTNUMmJEUng0cHgwZmJjZHJYNWdHTGNXZUFvT0pCeUNEMTdIUkJPUFRjNnpjekE0WFBoUUxCeGl4alJVSXczMjIzMFdrWmpGSlN3RGdEbFZEQQ?oc=5",
+      "profile_id": "world/global",
+      "published_at": "2026-10-09T01:02:17+00:00",
+      "publisher": "Asia News Network",
+      "search_query": "world news Asia",
+      "source_country": "unknown",
+      "source_id": "2bb4ae1b354afb5659981a95",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE43VlgyeHVqZ0c4WERXVzdUM2hYUzNqVmEzMjFzX3N4MGladkZIcVFxU1h0Q2hIVXgzdk5CaG9PUHh6TUdTRjlZUm5COXFpRlk3OXVCTkNNZ1l4cl9JcjdMQTB6dWRVSWNUdy1uSUdzSGMwUkdlbVRkc2tyQQ?oc=5",
+      "content_fingerprint": "e84d8a26f1c534dc2fb110bb",
+      "fetched_at": "2026-10-09T13:29:35.049999+00:00",
+      "institution_id": null,
+      "language": "en",
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE43VlgyeHVqZ0c4WERXVzdUM2hYUzNqVmEzMjFzX3N4MGladkZIcVFxU1h0Q2hIVXgzdk5CaG9PUHh6TUdTRjlZUm5COXFpRlk3OXVCTkNNZ1l4cl9JcjdMQTB6dWRVSWNUdy1uSUdzSGMwUkdlbVRkc2tyQQ?oc=5",
+      "profile_id": "world/global",
+      "published_at": "2026-10-09T10:07:11+00:00",
+      "publisher": "Cosmetics Business",
+      "search_query": "world news Europe",
+      "source_country": "unknown",
+      "source_id": "3e1d13dc06f41efac6b18a88",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNSGVScUJ1Wm1JOTBmTmhpRnFmMjZCa2RqaktjZWlfNm16VVpnWUppSUxVeFBIRzVibnZ6TW83TlVicEZwWk96ZFhIM0dUaUNQTlFxaTlqVGVnUG14Vjdpek5QendGRFVkSzU5bUNRa2NlczBYQVpkdXhZTDFDV2p2cHNfcHB4dDhOcE0waFZZU1QyOWtLUmpBM2pHTXJ6a1dzU00taGFDXzVhNXZpdWxmQjZn?oc=5",
+      "content_fingerprint": "8df050e18c6068b0f61e4767",
+      "fetched_at": "2026-10-09T13:29:35.049999+00:00",
+      "institution_id": null,
+      "language": "en",
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNSGVScUJ1Wm1JOTBmTmhpRnFmMjZCa2RqaktjZWlfNm16VVpnWUppSUxVeFBIRzVibnZ6TW83TlVicEZwWk96ZFhIM0dUaUNQTlFxaTlqVGVnUG14Vjdpek5QendGRFVkSzU5bUNRa2NlczBYQVpkdXhZTDFDV2p2cHNfcHB4dDhOcE0waFZZU1QyOWtLUmpBM2pHTXJ6a1dzU00taGFDXzVhNXZpdWxmQjZn?oc=5",
+      "profile_id": "world/global",
+      "published_at": "2026-10-08T20:27:07+00:00",
+      "publisher": "Cricinfo",
+      "search_query": "world news Africa",
+      "source_country": "unknown",
+      "source_id": "405cdaafc8a1aa8e58207080",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQakZzSDdKb2FmMGxZbTBaYkZxRjFGM3BxdWpEaXJLSl9JSGVUT1pXNUVpVVZVR0cyMmQ0bldWOGpBNXpJVm5NOUNUVnI3bi1BSlUyM2ZXdVdjSGdtcEVNRTc4cTNRcC0tODRSZ3pyX0dRQ3E1bjFuVFJteEtjS1ZwZU8tZjdTdm5ObXV6TUhSbTRKNTJmbG8tcGxmTFdTWEpBRU1tZmxwXzNvVVlQazdKWWZIRVI4VWRRWHJnVGtlYmdrSWtkSmRac3diWmNOYWNkYXpGNkk4dHJYZUgwSFQzd2xR?oc=5",
+      "content_fingerprint": "1181449a2bd6ead721205405",
+      "fetched_at": "2026-10-09T13:29:35.049999+00:00",
+      "institution_id": null,
+      "language": "en",
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQakZzSDdKb2FmMGxZbTBaYkZxRjFGM3BxdWpEaXJLSl9JSGVUT1pXNUVpVVZVR0cyMmQ0bldWOGpBNXpJVm5NOUNUVnI3bi1BSlUyM2ZXdVdjSGdtcEVNRTc4cTNRcC0tODRSZ3pyX0dRQ3E1bjFuVFJteEtjS1ZwZU8tZjdTdm5ObXV6TUhSbTRKNTJmbG8tcGxmTFdTWEpBRU1tZmxwXzNvVVlQazdKWWZIRVI4VWRRWHJnVGtlYmdrSWtkSmRac3diWmNOYWNkYXpGNkk4dHJYZUgwSFQzd2xR?oc=5",
+      "profile_id": "world/global",
+      "published_at": "2026-10-07T17:23:55+00:00",
+      "publisher": "UEFA.com",
+      "search_query": "world news Europe",
+      "source_country": "unknown",
+      "source_id": "40ad9afe6002847a7c84280f",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQUUl4TFNFNDZQVnRVWDdkNE5tcmZCWV9IdlBCZ1JtWnoxUnNNS0lNQ1pXRFRJUkNnVFZGUmctMzJHR3Y3Y2hUeGkzcTVtdTdDMHBNVkVoUHQxRHZoR3A1bmFHaXZmOEdYV0dmUXpNdkZGLTFxaExvY015ZzJNcXhFUVpjSmcwS2pFcFNQbDNZRXp6LWNFSThKeFMzelVYQThpRW9nem5RVXVrRUxtdE5hd2VDaWxES2w4Vi1jUzBPTHZTRDFPTmZ1RXl0OTRsNE83SG5QS2d6NUNXSk5xMXJNVG5Vc9IB6AFBVV95cUxPbEtBelJ0WWh2clQ0Q1FzMHV0c3QzVW5sVTQzVUJhTUhFZm96TVNYT2thN3V0WDVfVE9MNUtrTWRPYTltTElFNmtfV3RzRWVsZnljdFJXNWFiS3BjTWhuaS1HY1NqVDZDeldleFc1U1VheEloR1JuVkZQMHJUSFg1LWllLTRDM2cxRTdrQ1JoR3RUbWd6Ui12Uk15eDc1QXZpUnhBQTRqbTNILV9PTXVwZU9NekJoaUMxQndHbzFrNmItNGZMeGxtb0prd01RaFRLODF5WjFFNUxhQXRIWlVYaEJLaU1BQWFO?oc=5",
+      "content_fingerprint": "968a50af274d7124e9fd9c78",
+      "fetched_at": "2026-10-09T13:29:35.049999+00:00",
+      "institution_id": null,
+      "language": "en",
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQUUl4TFNFNDZQVnRVWDdkNE5tcmZCWV9IdlBCZ1JtWnoxUnNNS0lNQ1pXRFRJUkNnVFZGUmctMzJHR3Y3Y2hUeGkzcTVtdTdDMHBNVkVoUHQxRHZoR3A1bmFHaXZmOEdYV0dmUXpNdkZGLTFxaExvY015ZzJNcXhFUVpjSmcwS2pFcFNQbDNZRXp6LWNFSThKeFMzelVYQThpRW9nem5RVXVrRUxtdE5hd2VDaWxES2w4Vi1jUzBPTHZTRDFPTmZ1RXl0OTRsNE83SG5QS2d6NUNXSk5xMXJNVG5Vc9IB6AFBVV95cUxPbEtBelJ0WWh2clQ0Q1FzMHV0c3QzVW5sVTQzVUJhTUhFZm96TVNYT2thN3V0WDVfVE9MNUtrTWRPYTltTElFNmtfV3RzRWVsZnljdFJXNWFiS3BjTWhuaS1HY1NqVDZDeldleFc1U1VheEloR1JuVkZQMHJUSFg1LWllLTRDM2cxRTdrQ1JoR3RUbWd6Ui12Uk15eDc1QXZpUnhBQTRqbTNILV9PTXVwZU9NekJoaUMxQndHbzFrNmItNGZMeGxtb0prd01RaFRLODF5WjFFNUxhQXRIWlVYaEJLaU1BQWFO?oc=5",
+      "profile_id": "world/global",
+      "published_at": "2026-10-09T07:33:43+00:00",
+      "publisher": "The Manila Times",
+      "search_query": "world news Oceania",
+      "source_country": "unknown",
+      "source_id": "40e8e9dc7d91b927ff649748",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1JWGotWU1LY2dQMmFkT3FBdHZtbFFrVkRQcVNuN0J0UXZ5NTBTenRFR2FyN3RPd1luSHJ1bTkxR0wxWERfbFZWZVNPeVhuV0tsaHBfNGlEWm1EQ2ZwN24wZVJaRmRLMXJVajI0ZVBIQmFWTkVNOFVNU0dLRHQ?oc=5",
+      "content_fingerprint": "aae3c8cb9d66c3e86db1c384",
+      "fetched_at": "2026-10-09T13:29:35.049999+00:00",
+      "institution_id": null,
+      "language": "en",
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1JWGotWU1LY2dQMmFkT3FBdHZtbFFrVkRQcVNuN0J0UXZ5NTBTenRFR2FyN3RPd1luSHJ1bTkxR0wxWERfbFZWZVNPeVhuV0tsaHBfNGlEWm1EQ2ZwN24wZVJaRmRLMXJVajI0ZVBIQmFWTkVNOFVNU0dLRHQ?oc=5",
+      "profile_id": "world/global",
+      "published_at": "2026-10-08T20:35:00+00:00",
+      "publisher": "The Guardian Nigeria News",
+      "search_query": "world news Oceania",
+      "source_country": "unknown",
+      "source_id": "44408d943f85c4747866d602",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMi6wlBVV95cUxOZFdNLXJJN3JYUHhqNUZCNXFqX3VqdDZySDcxbmlwUndCOHFUSmNNU1RhT0ZEbmZKT2FjcVZoaDZLSWlkLUlqTXZDQ1AxZkIxUldTY3o2WmJ4M254RmFTSU9CYWl4WklOTkR1ZTV1R3hOLUhqSVZKemxXN2lncEU3QXlaTUJVT2dYaThFWlpTcEdBUXVyTDhsdFpxcDRONVdaMEV4MHhtUnhpWlNUdE9QTFRfOTlXeU5qMXdQR3JFMWhwMEg2R0lXUmdyQ1VyZjBMWklNTzQxbklWaUtXeVVwNklqWVZoZnpKLW04S05VSUVCeVFmRWtGVll0Y1JwbW5RNTYzZE5uQkI4Tkt2U3ZxcUljWUg4WVd4UGNfMGNScmhvWVZONGM5TGs2U2xVVG1IUmpnQ0RlT3U2Y0RDbVhydU5wcjExcTBzQ1Z2Uk1kTHFCekhPdXRycm9HQmRKSXY4TWhDNVRUYm5LUXRKZW95ZkNsSkdRWTBrZV96QkVnWUJuVXFDQjIzUXR5aEh4T0dUc1ZsM2VEaTNGYWgyclR0OWg5T1dkN2NsTGo5MzU5V0NqYUFnOUZuM3hKLWk5VmE3X0lqcVdZalVEdEs4OWJBM01ETE9NenNEOG5qSVJMZmRqQ3ZCOUN5cmF5QWtPc0pWVUlzbkg1UFFkYWhkd1o0eVJndzd3dXFCTlRXNkRfaGZlajNCTjI2WFpFNUN4a2MyVHdsYThkZGlQYmNXRWhybFZDcDZSUENlWmI5bUQtcUJBODhxRVZwdkpTT18wUEJUeUNCZ3RhVnlySTJKZjBjZlIxczM3aHN3MjAzTUpZRjY2dWVmSFZVV1JzN0tMVWt1bUJtVHVHUzJLYks3U0tKTVF2VXBmLUhoYmltQ2d4U05oQ2lOSUxfRXVFckFUeUwwVl96cFRqaFRERnpKak1mdF9jazNDR2hHLW9iZXN2MEJ4bTFUdFRZbWxXNnl1a3Z4bzdCTThTTlZsMV9XSXNaWGJmcjRGeV9xQUxocjU3N2prQmNQelVZdjRycExxRzZacEtWTDhGaFlmdnBlSkdMaUhQeDZXNEhnZmpMNnh3REJnWXN1bjlBYUQ2d0d1WHBBMTVsanVHZjVIZ2VwQzJiUGxSc251RGt5V3FYbndSWVdSNUFGa3lyaERVaUFvRG5BX211cW1BZVZncm5MN3A4YklJb1lUSlFLR3ZTSDhqMHUwcVpvUHNidUt1SW04VjNzVHFoT2gzRi11MXVzY0NnQW5XVmlVLVYzTGZoaXpIUWtVTV9JczlTOGI4eHY5dDJuRjZ6THJwd3NvVlI0Si0yeHVyM2lSZTQ5YVU3RG5FUDJFZFA2QVhfb3NHc216LXlZUEthcUNYRGF6RWhSWW1TeHNaVEdDU0VHeTN2Z3c5WmszdjYtakpKM3E0ODdCZzBOWWR1cWZONGNPNVlGS01FSDFVM2dia1dOZnpnV1gzMmVoaHdaOFBzMFlkbWMxZ1RCU2Z5RjhKUzJaWU81OHI3N1k4Qjg1d0tWc2FWcHJfTkZNN3J3bnhHNEN1M3BxWkR5ZWRzbW0zWTFvS3RLZ1BROWotUm1pS1V5WGxuV3R2Z0I1OUJYaHcwcFFOdTJQZHlwZW1JTmdSOW0wb3RuaGZ6OFdYS3FnZjNHWDYtVVZXY0tza2NsaXAzUFVZUQ?oc=5",
+      "content_fingerprint": "242ff9e6da1b789e84d88d60",
+      "fetched_at": "2026-10-09T13:29:35.049999+00:00",
+      "institution_id": null,
+      "language": "en",
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMi6wlBVV95cUxOZFdNLXJJN3JYUHhqNUZCNXFqX3VqdDZySDcxbmlwUndCOHFUSmNNU1RhT0ZEbmZKT2FjcVZoaDZLSWlkLUlqTXZDQ1AxZkIxUldTY3o2WmJ4M254RmFTSU9CYWl4WklOTkR1ZTV1R3hOLUhqSVZKemxXN2lncEU3QXlaTUJVT2dYaThFWlpTcEdBUXVyTDhsdFpxcDRONVdaMEV4MHhtUnhpWlNUdE9QTFRfOTlXeU5qMXdQR3JFMWhwMEg2R0lXUmdyQ1VyZjBMWklNTzQxbklWaUtXeVVwNklqWVZoZnpKLW04S05VSUVCeVFmRWtGVll0Y1JwbW5RNTYzZE5uQkI4Tkt2U3ZxcUljWUg4WVd4UGNfMGNScmhvWVZONGM5TGs2U2xVVG1IUmpnQ0RlT3U2Y0RDbVhydU5wcjExcTBzQ1Z2Uk1kTHFCekhPdXRycm9HQmRKSXY4TWhDNVRUYm5LUXRKZW95ZkNsSkdRWTBrZV96QkVnWUJuVXFDQjIzUXR5aEh4T0dUc1ZsM2VEaTNGYWgyclR0OWg5T1dkN2NsTGo5MzU5V0NqYUFnOUZuM3hKLWk5VmE3X0lqcVdZalVEdEs4OWJBM01ETE9NenNEOG5qSVJMZmRqQ3ZCOUN5cmF5QWtPc0pWVUlzbkg1UFFkYWhkd1o0eVJndzd3dXFCTlRXNkRfaGZlajNCTjI2WFpFNUN4a2MyVHdsYThkZGlQYmNXRWhybFZDcDZSUENlWmI5bUQtcUJBODhxRVZwdkpTT18wUEJUeUNCZ3RhVnlySTJKZjBjZlIxczM3aHN3MjAzTUpZRjY2dWVmSFZVV1JzN0tMVWt1bUJtVHVHUzJLYks3U0tKTVF2VXBmLUhoYmltQ2d4U05oQ2lOSUxfRXVFckFUeUwwVl96cFRqaFRERnpKak1mdF9jazNDR2hHLW9iZXN2MEJ4bTFUdFRZbWxXNnl1a3Z4bzdCTThTTlZsMV9XSXNaWGJmcjRGeV9xQUxocjU3N2prQmNQelVZdjRycExxRzZacEtWTDhGaFlmdnBlSkdMaUhQeDZXNEhnZmpMNnh3REJnWXN1bjlBYUQ2d0d1WHBBMTVsanVHZjVIZ2VwQzJiUGxSc251RGt5V3FYbndSWVdSNUFGa3lyaERVaUFvRG5BX211cW1BZVZncm5MN3A4YklJb1lUSlFLR3ZTSDhqMHUwcVpvUHNidUt1SW04VjNzVHFoT2gzRi11MXVzY0NnQW5XVmlVLVYzTGZoaXpIUWtVTV9JczlTOGI4eHY5dDJuRjZ6THJwd3NvVlI0Si0yeHVyM2lSZTQ5YVU3RG5FUDJFZFA2QVhfb3NHc216LXlZUEthcUNYRGF6RWhSWW1TeHNaVEdDU0VHeTN2Z3c5WmszdjYtakpKM3E0ODdCZzBOWWR1cWZONGNPNVlGS01FSDFVM2dia1dOZnpnV1gzMmVoaHdaOFBzMFlkbWMxZ1RCU2Z5RjhKUzJaWU81OHI3N1k4Qjg1d0tWc2FWcHJfTkZNN3J3bnhHNEN1M3BxWkR5ZWRzbW0zWTFvS3RLZ1BROWotUm1pS1V5WGxuV3R2Z0I1OUJYaHcwcFFOdTJQZHlwZW1JTmdSOW0wb3RuaGZ6OFdYS3FnZjNHWDYtVVZXY0tza2NsaXAzUFVZUQ?oc=5",
+      "profile_id": "world/global",
+      "published_at": "2026-10-08T22:45:19+00:00",
+      "publisher": "ABC7 Los Angeles",
+      "search_query": "world news Europe",
+      "source_country": "unknown",
+      "source_id": "4b925d1ca6736e1fdf50c27f",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPSXBTR1FFbWpiY0NHdTVrbUJWMThud1VCeUdjdUxxMkNya3FSWFR3eVZ5VzhxQzh3dENoclVqRGZBRVgwU01OcS1CNEJPeF95cXhocWN4c25VX2Vya3RvemNxWUh3cE1Fay1tMDdJS3ZtYzhOa0Q2d202b1ZhaFZnOGJkdkUxWXFsM1FidnVVTHBMNzjSAZgBQVVfeXFMT3owMXU3ejVNb3AxWkItVllZMkZJNDZUdGhMT1YtcGt1WlVrcDJnQkZ0bzN1T3N5WkppLXdPVXpvazN1NUE1ZnoyenRka0lZT0szQ00za1FsZ1FJWDdZS1owU2JuVkR1SnRrWjFmNlV6SHJSeXFDcV9GcmMtUVlaLVlTdXU4NVotdThxNzd1UGV3bG4xYjBpYXk?oc=5",
+      "content_fingerprint": "4bc4b6b3a7ff43c116367fb2",
+      "fetched_at": "2026-10-09T13:29:35.049999+00:00",
+      "institution_id": null,
+      "language": "en",
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPSXBTR1FFbWpiY0NHdTVrbUJWMThud1VCeUdjdUxxMkNya3FSWFR3eVZ5VzhxQzh3dENoclVqRGZBRVgwU01OcS1CNEJPeF95cXhocWN4c25VX2Vya3RvemNxWUh3cE1Fay1tMDdJS3ZtYzhOa0Q2d202b1ZhaFZnOGJkdkUxWXFsM1FidnVVTHBMNzjSAZgBQVVfeXFMT3owMXU3ejVNb3AxWkItVllZMkZJNDZUdGhMT1YtcGt1WlVrcDJnQkZ0bzN1T3N5WkppLXdPVXpvazN1NUE1ZnoyenRka0lZT0szQ00za1FsZ1FJWDdZS1owU2JuVkR1SnRrWjFmNlV6SHJSeXFDcV9GcmMtUVlaLVlTdXU4NVotdThxNzd1UGV3bG4xYjBpYXk?oc=5",
+      "profile_id": "world/global",
+      "published_at": "2026-10-09T10:21:21+00:00",
+      "publisher": "ABC News - Breaking News, Latest News and Videos",
+      "search_query": "world news Americas",
+      "source_country": "unknown",
+      "source_id": "4c19650b74cef4925a96da91",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQa085QWs3LXY3czMxaXRGN08zSmd6MU1pNEJvMGMxYVQ0bG9OOTNZbldYWkhNRmgwelVIVEp3MXFjQ3VOQWxncmdZWjRwUTJtbXhLQ25jT1c5WEl4U3FfS2lIcGN5czFpOEJOeURuRjBtUVFid1dUS042UkZDTnpxbmh3S0w2VFZmekxXYmxBcEV5SFVIa2l2d0tlRmtlMy0tU2RmOVhrN3lmTHF6?oc=5",
+      "content_fingerprint": "f5eacfe0bb0a526fbaeb4576",
+      "fetched_at": "2026-10-09T13:29:35.049999+00:00",
+      "institution_id": null,
+      "language": "en",
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQa085QWs3LXY3czMxaXRGN08zSmd6MU1pNEJvMGMxYVQ0bG9OOTNZbldYWkhNRmgwelVIVEp3MXFjQ3VOQWxncmdZWjRwUTJtbXhLQ25jT1c5WEl4U3FfS2lIcGN5czFpOEJOeURuRjBtUVFid1dUS042UkZDTnpxbmh3S0w2VFZmekxXYmxBcEV5SFVIa2l2d0tlRmtlMy0tU2RmOVhrN3lmTHF6?oc=5",
+      "profile_id": "world/global",
+      "published_at": "2026-10-08T14:12:12+00:00",
+      "publisher": "IQAir",
+      "search_query": "world news Asia",
+      "source_country": "unknown",
+      "source_id": "50b4e62b3d4065b0e2b9126c",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE11Q3pXTEpaZWkyUHl2Q1pUVmplMHNnLW1GZUF2ZEtzUVNRVmFYLUswOG1VWUpDQ055TXZ0aER5cmZXNjY3UDdveUxuNUl1Z1Vqc0ZWdHM2OA?oc=5",
+      "content_fingerprint": "4247e272afc385a6894ff578",
+      "fetched_at": "2026-10-09T13:29:35.049999+00:00",
+      "institution_id": null,
+      "language": "en",
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE11Q3pXTEpaZWkyUHl2Q1pUVmplMHNnLW1GZUF2ZEtzUVNRVmFYLUswOG1VWUpDQ055TXZ0aER5cmZXNjY3UDdveUxuNUl1Z1Vqc0ZWdHM2OA?oc=5",
+      "profile_id": "world/global",
+      "published_at": "2026-10-09T00:00:00+00:00",
+      "publisher": "The Korea Herald",
+      "search_query": "world news Americas",
+      "source_country": "unknown",
+      "source_id": "50f4410109253ed472fc0cdd",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQY1V6dXptSHA1WElId19iam15WExWNC01X3JfMTVPNkZGLU04NU9ycVgyTTNPamhqTDN5ejNzX2RXdEk1U1FsSHpuSjlHRHF2eTRBaWpIMWowNGZKUGpOVTFZeWl2c19hdHBqMWpQZkpkUk9rOTV5MTdKOGZCdk80U0VSUF9fS2g5QUFvT1ZiM0dTamFQQ1JLRHlEYlNLcmFzTWxmNHQyNlFwNHBIVFJxYUNPMVZNdw?oc=5",
+      "content_fingerprint": "c327c0e48087f3a76a264ad1",
+      "fetched_at": "2026-10-09T13:29:35.049999+00:00",
+      "institution_id": null,
+      "language": "en",
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQY1V6dXptSHA1WElId19iam15WExWNC01X3JfMTVPNkZGLU04NU9ycVgyTTNPamhqTDN5ejNzX2RXdEk1U1FsSHpuSjlHRHF2eTRBaWpIMWowNGZKUGpOVTFZeWl2c19hdHBqMWpQZkpkUk9rOTV5MTdKOGZCdk80U0VSUF9fS2g5QUFvT1ZiM0dTamFQQ1JLRHlEYlNLcmFzTWxmNHQyNlFwNHBIVFJxYUNPMVZNdw?oc=5",
+      "profile_id": "world/global",
+      "published_at": "2026-10-09T06:03:35+00:00",
+      "publisher": "Caribbean National Weekly",
+      "search_query": "world news Americas",
+      "source_country": "unknown",
+      "source_id": "51b6c70848c6891750dffb21",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOTjhXTURXMTNzak5mbFRISjlZYk5BemkwTUtmcnlyUG83UlNjdEdtWWE4d0lUUTRHOTNvWXhvZ1oxamR5bXc4WGpXUG1WYUZFWl8yWXNUM0lVLXQ5ekVOZmVEcUZXcGFLb0VRMnR0TUlrRnhlOXlWOWt6dmJGU1FGQVlLSHFxVi00V18ydXpqbVZ0eTU2d0xoWERLYTZTRGs3MVkw?oc=5",
+      "content_fingerprint": "c305e025b0534d69c3610250",
+      "fetched_at": "2026-10-09T13:29:35.049999+00:00",
+      "institution_id": null,
+      "language": "en",
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOTjhXTURXMTNzak5mbFRISjlZYk5BemkwTUtmcnlyUG83UlNjdEdtWWE4d0lUUTRHOTNvWXhvZ1oxamR5bXc4WGpXUG1WYUZFWl8yWXNUM0lVLXQ5ekVOZmVEcUZXcGFLb0VRMnR0TUlrRnhlOXlWOWt6dmJGU1FGQVlLSHFxVi00V18ydXpqbVZ0eTU2d0xoWERLYTZTRGs3MVkw?oc=5",
+      "profile_id": "world/global",
+      "published_at": "2026-10-09T12:08:27+00:00",
+      "publisher": "Bénin Web TV",
+      "search_query": "world news Asia",
+      "source_country": "unknown",
+      "source_id": "55754c2173d5ef5f24822fa5",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQcktCbEFWeWV2bnJaelp1SFc1dDdsQXJfWnRHLW5KTTZhTDc4WElueVhPa2RITFNZaVFyb2s2LWFYenQ1U09pVGg2V3kwMzZjLWlFYklFeHdXcWhleWpxMzR1WFFGMWhuMnVkdl82aXVvNEJLaTE3b2RPeUp4MUFrU0tMaHNMeTFFMV9uM25qa3JJWVRUdGtYclZ3VEJzeDQ3OVBteXQxLWpJWXpnMGQ2bFZVUU8?oc=5",
+      "content_fingerprint": "304cdd09f2873aecaf287436",
+      "fetched_at": "2026-10-09T13:29:35.049999+00:00",
+      "institution_id": null,
+      "language": "en",
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQcktCbEFWeWV2bnJaelp1SFc1dDdsQXJfWnRHLW5KTTZhTDc4WElueVhPa2RITFNZaVFyb2s2LWFYenQ1U09pVGg2V3kwMzZjLWlFYklFeHdXcWhleWpxMzR1WFFGMWhuMnVkdl82aXVvNEJLaTE3b2RPeUp4MUFrU0tMaHNMeTFFMV9uM25qa3JJWVRUdGtYclZ3VEJzeDQ3OVBteXQxLWpJWXpnMGQ2bFZVUU8?oc=5",
+      "profile_id": "world/global",
+      "published_at": "2026-10-08T15:36:24+00:00",
+      "publisher": "Euronews.com",
+      "search_query": "world news Europe",
+      "source_country": "unknown",
+      "source_id": "57ebba9f634a22f68a75f9c3",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOOFpVc3otYWpOSkU2X21uWUkzWWdJVmpWNjVDb2FESnlGdDJqMWlLVlp1dHVTWGNtNzVLSTZTekd1YmFYTThuRnd0T2t2OWd2d3Nibk5fWVVxdDJja1poU2ZCZE1vWU1QM1ZHYmN5SEx0a2FiOWdEUzhfWnVRSVBlZ3NnWTRwUk1NNWRfa3k2NzlnUlRKTGJLMlVKTC1KbGJySy0wNXhzZTRtWUNmNjU4YzdMZjNuRGp5OXI2cm9NXzlnSU1mOGQtRGxkLVQ?oc=5",
+      "content_fingerprint": "ac52e21b899534bf46f69e8f",
+      "fetched_at": "2026-10-09T13:29:35.049999+00:00",
+      "institution_id": null,
+      "language": "en",
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOOFpVc3otYWpOSkU2X21uWUkzWWdJVmpWNjVDb2FESnlGdDJqMWlLVlp1dHVTWGNtNzVLSTZTekd1YmFYTThuRnd0T2t2OWd2d3Nibk5fWVVxdDJja1poU2ZCZE1vWU1QM1ZHYmN5SEx0a2FiOWdEUzhfWnVRSVBlZ3NnWTRwUk1NNWRfa3k2NzlnUlRKTGJLMlVKTC1KbGJySy0wNXhzZTRtWUNmNjU4YzdMZjNuRGp5OXI2cm9NXzlnSU1mOGQtRGxkLVQ?oc=5",
+      "profile_id": "world/global",
+      "published_at": "2026-10-09T09:20:00+00:00",
+      "publisher": "CarNewsChina.com",
+      "search_query": "world news Oceania",
+      "source_country": "unknown",
+      "source_id": "59a2fedf1fa337382a384b48",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPTnlfXzB3d1ZrdXNGX2NmM3NKUUI0cVNVbXdVQmIyNG5DYk5CR21pVERubkE0bi1rUXZfSmxfMG9QQ1NXM0lHdFlZdDlFNE1UODYyaC01TUUwODV0OERZdEJlbkRnWUF4ZHJWUllPMERJOXlVQ3VBUmp6Vk9FdWlacnkzYmlIcnE0ZklhTm5OYkxNbFV3dy1BQlpwTjB4elM5SDBSbi1xUzNTNmQ3bm5iWl90clowOWxuSlZBdWJFMGFMck02ZXp5NtIByAFBVV95cUxPTnlfXzB3d1ZrdXNGX2NmM3NKUUI0cVNVbXdVQmIyNG5DYk5CR21pVERubkE0bi1rUXZfSmxfMG9QQ1NXM0lHdFlZdDlFNE1UODYyaC01TUUwODV0OERZdEJlbkRnWUF4ZHJWUllPMERJOXlVQ3VBUmp6Vk9FdWlacnkzYmlIcnE0ZklhTm5OYkxNbFV3dy1BQlpwTjB4elM5SDBSbi1xUzNTNmQ3bm5iWl90clowOWxuSlZBdWJFMGFMck02ZXp5Ng?oc=5",
+      "content_fingerprint": "478fddeb8b06f9262eeedd64",
+      "fetched_at": "2026-10-09T13:29:35.049999+00:00",
+      "institution_id": null,
+      "language": "en",
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPTnlfXzB3d1ZrdXNGX2NmM3NKUUI0cVNVbXdVQmIyNG5DYk5CR21pVERubkE0bi1rUXZfSmxfMG9QQ1NXM0lHdFlZdDlFNE1UODYyaC01TUUwODV0OERZdEJlbkRnWUF4ZHJWUllPMERJOXlVQ3VBUmp6Vk9FdWlacnkzYmlIcnE0ZklhTm5OYkxNbFV3dy1BQlpwTjB4elM5SDBSbi1xUzNTNmQ3bm5iWl90clowOWxuSlZBdWJFMGFMck02ZXp5NtIByAFBVV95cUxPTnlfXzB3d1ZrdXNGX2NmM3NKUUI0cVNVbXdVQmIyNG5DYk5CR21pVERubkE0bi1rUXZfSmxfMG9QQ1NXM0lHdFlZdDlFNE1UODYyaC01TUUwODV0OERZdEJlbkRnWUF4ZHJWUllPMERJOXlVQ3VBUmp6Vk9FdWlacnkzYmlIcnE0ZklhTm5OYkxNbFV3dy1BQlpwTjB4elM5SDBSbi1xUzNTNmQ3bm5iWl90clowOWxuSlZBdWJFMGFMck02ZXp5Ng?oc=5",
+      "profile_id": "world/global",
+      "published_at": "2026-10-08T22:00:00+00:00",
+      "publisher": "The Manila Times",
+      "search_query": "world news Oceania",
+      "source_country": "unknown",
+      "source_id": "5a3dc5309ebc2355f60884e9",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNSE40MGJ6WWNTelpneE5kaFVtbDQxVGJuemo2RVpKdlRSVXNZVVNQaWJmcVdGeFlLTGp2R2V5MWtzU0ZYaFp5TndmUjlpaFYyWVBhMVZzeE5VWWx3VFZNSjQxQ2xKYmNwMldQU0E5NkJ6ZFAteEFPNDZ4aGItcGNNdFVOSUZreEFLNWRnd1VQYnZCLTRMdkF3?oc=5",
+      "content_fingerprint": "aee0bf8bb5aa7f88fb76d24e",
+      "fetched_at": "2026-10-09T13:29:35.049999+00:00",
+      "institution_id": null,
+      "language": "en",
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNSE40MGJ6WWNTelpneE5kaFVtbDQxVGJuemo2RVpKdlRSVXNZVVNQaWJmcVdGeFlLTGp2R2V5MWtzU0ZYaFp5TndmUjlpaFYyWVBhMVZzeE5VWWx3VFZNSjQxQ2xKYmNwMldQU0E5NkJ6ZFAteEFPNDZ4aGItcGNNdFVOSUZreEFLNWRnd1VQYnZCLTRMdkF3?oc=5",
+      "profile_id": "world/global",
+      "published_at": "2026-10-07T20:49:00+00:00",
+      "publisher": "WORLD News Group",
+      "search_query": "world news Europe",
+      "source_country": "unknown",
+      "source_id": "654973e3998ea5fbd85616df",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPcFN5Z1N4eVdpb1VzQ0ZzRHVXa1ZDZTRiVUlnNmdYNmF3ZHktc09SRm9DZFZocTdfbHNQWVZTUE53QnpDQ0RMZkMwWGZuT2poM1hIbVBmN0EzVWwyYk96cUozdFVMVC1wLWozZ0c2Yy15dUJxdm1rR0F4WmxPNzdSaXpWQjNBVXFTQXlBdThKbXV5Zl8xdnZuMm9jX1lwcHM5Z1lTZ05EUnFjaFRONmtqbFZ2bC1QMTdZWkdGdmFzeEhKYzhQR1dxMk9HZVpFTWRCcjhtLUltWjgzR0J3QVFoa3FNTzNVcFNKVllPNXRyOFDSAfYBQVVfeXFMTVF3bjBiQWp6TjFpZ0txWHlxQWV5TUtQakpRR29fQXd3RXV1eGVVME5VRmdNM252S1pjRVdSbjFVbUhKRDNaNGRfMHktaWNHZ2dmQXJnVUY1Y0VLM29PZnF2c3NTMDgyMzlGS3Fha2VlMG5FWVhRRHlYNHdxcHlnMjlGNjY0MVpCR01UTF95dUFNeUYydEhZVEg5TUYzbDRNQlNHRnlnaDVaZE95SjZGelR1Y1lRM1c3VnpPb1dWeDVhMVF2ZEREc0Nfc0RMRU5xS3FWc2tpaDVtcm5KUkZFT3FHd2NUTGVhcldiT1BKMmlfUVZFSUpR?oc=5",
+      "content_fingerprint": "4f77f8878ccfe2f931cc310e",
+      "fetched_at": "2026-10-09T13:29:35.049999+00:00",
+      "institution_id": null,
+      "language": "en",
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPcFN5Z1N4eVdpb1VzQ0ZzRHVXa1ZDZTRiVUlnNmdYNmF3ZHktc09SRm9DZFZocTdfbHNQWVZTUE53QnpDQ0RMZkMwWGZuT2poM1hIbVBmN0EzVWwyYk96cUozdFVMVC1wLWozZ0c2Yy15dUJxdm1rR0F4WmxPNzdSaXpWQjNBVXFTQXlBdThKbXV5Zl8xdnZuMm9jX1lwcHM5Z1lTZ05EUnFjaFRONmtqbFZ2bC1QMTdZWkdGdmFzeEhKYzhQR1dxMk9HZVpFTWRCcjhtLUltWjgzR0J3QVFoa3FNTzNVcFNKVllPNXRyOFDSAfYBQVVfeXFMTVF3bjBiQWp6TjFpZ0txWHlxQWV5TUtQakpRR29fQXd3RXV1eGVVME5VRmdNM252S1pjRVdSbjFVbUhKRDNaNGRfMHktaWNHZ2dmQXJnVUY1Y0VLM29PZnF2c3NTMDgyMzlGS3Fha2VlMG5FWVhRRHlYNHdxcHlnMjlGNjY0MVpCR01UTF95dUFNeUYydEhZVEg5TUYzbDRNQlNHRnlnaDVaZE95SjZGelR1Y1lRM1c3VnpPb1dWeDVhMVF2ZEREc0Nfc0RMRU5xS3FWc2tpaDVtcm5KUkZFT3FHd2NUTGVhcldiT1BKMmlfUVZFSUpR?oc=5",
+      "profile_id": "world/global",
+      "published_at": "2026-10-09T06:07:07+00:00",
+      "publisher": "Livemint",
+      "search_query": "world news Asia",
+      "source_country": "unknown",
+      "source_id": "67a78727f3502e84517c2bf4",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQUkxyLW9sUWlFZUNSdmh1emdJX18teWprX1EyZldmRDJ4eGRNY2xmaXNGb2hrMkV1bE9PUXNweENMSDg3TE5qWVoyeldvb0x1aFcxWTlBYjlOY09qeUdGTWtPYUg3TmFiOE1SaTJMNTZFY2VxdXFmcXd5amVOd0lWNUc1b2ZnbVFNaVdhdmRqOXViM0dBMmc?oc=5",
+      "content_fingerprint": "02889f324841380877b63397",
+      "fetched_at": "2026-10-09T13:29:35.049999+00:00",
+      "institution_id": null,
+      "language": "en",
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQUkxyLW9sUWlFZUNSdmh1emdJX18teWprX1EyZldmRDJ4eGRNY2xmaXNGb2hrMkV1bE9PUXNweENMSDg3TE5qWVoyeldvb0x1aFcxWTlBYjlOY09qeUdGTWtPYUg3TmFiOE1SaTJMNTZFY2VxdXFmcXd5amVOd0lWNUc1b2ZnbVFNaVdhdmRqOXViM0dBMmc?oc=5",
+      "profile_id": "world/global",
+      "published_at": "2026-10-08T14:59:36+00:00",
+      "publisher": "Pulse Ghana",
+      "search_query": "world news Oceania",
+      "source_country": "unknown",
+      "source_id": "6962e8f1ddd5735bcdd11d2d",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNX0RCcUpSeDFwUVB3Q3BqUElmRDllajQ3ZDZmTEVnT2hFWUFFLXpKWW9meDBKSG1oeDY2V1p5RmdST3VmOHF1LURKQ1hxRlNmLUxCUzFYUXAzTm1LbVIwWHd6bXcwazhCMFBmNGpsSjNiQzN3Snh4bm5pVzl1c2JONHpR?oc=5",
+      "content_fingerprint": "bb6f20e1c6e8be7bdf62bffd",
+      "fetched_at": "2026-10-09T13:29:35.049999+00:00",
+      "institution_id": null,
+      "language": "en",
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNX0RCcUpSeDFwUVB3Q3BqUElmRDllajQ3ZDZmTEVnT2hFWUFFLXpKWW9meDBKSG1oeDY2V1p5RmdST3VmOHF1LURKQ1hxRlNmLUxCUzFYUXAzTm1LbVIwWHd6bXcwazhCMFBmNGpsSjNiQzN3Snh4bm5pVzl1c2JONHpR?oc=5",
+      "profile_id": "world/global",
+      "published_at": "2026-10-09T10:00:58+00:00",
+      "publisher": "2oceansvibe News",
+      "search_query": "world news Africa",
+      "source_country": "unknown",
+      "source_id": "696bc531ac126011aa588505",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQcDNZYmVMSUkyM2ZFUTB6WnJCRTBVOGJmNUVrSTJQVGJ4MkluNXRlOS00NUFKUlAwQnVxZzlHeU9WeEEtZk45UXU1VkY5dGlNdjU2WjBDR1hpcHVOUWNkTEJ6NUhXYzBCaFdZZ3FNX3RrNWtwX0taVDhGOWl5dENoSmpjanNGU29yRVE?oc=5",
+      "content_fingerprint": "f6686e295b4e99f358277750",
+      "fetched_at": "2026-10-09T13:29:35.049999+00:00",
+      "institution_id": null,
+      "language": "en",
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQcDNZYmVMSUkyM2ZFUTB6WnJCRTBVOGJmNUVrSTJQVGJ4MkluNXRlOS00NUFKUlAwQnVxZzlHeU9WeEEtZk45UXU1VkY5dGlNdjU2WjBDR1hpcHVOUWNkTEJ6NUhXYzBCaFdZZ3FNX3RrNWtwX0taVDhGOWl5dENoSmpjanNGU29yRVE?oc=5",
+      "profile_id": "world/global",
+      "published_at": "2026-10-09T02:44:00+00:00",
+      "publisher": "Mirage News",
+      "search_query": "world news Oceania",
+      "source_country": "unknown",
+      "source_id": "6af3d977b867180a1946f123",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPb0RmT2VFUVkxOWxTaEk3SFRvOTVLaXNYd2x5QzI4Y196VU5sb010cm1zb2ZCczFRcjRxTDdMZEhHclZUdERQRTZJcHdGOTVVS2RkYk5EOHNFaU9fT2FfNUlLSk1qdmJrdFQzLXVGY19PNzFkWkhHSTdNN2FVaG1jb0h2TldScWhpTFBSczF1Z29ObHhLaS0xX05JbmxhWFNNYjRJZzJ0RnczS0VVTlUyellzZFVTUWVXd0RDbVlXTmpqVExBb2k5UGZaQzhjVzlIXzQyQTZLSnpCMDRyLTNaLS1fRQ?oc=5",
+      "content_fingerprint": "61df7e9e76ea0b4757242048",
+      "fetched_at": "2026-10-09T13:29:35.049999+00:00",
+      "institution_id": null,
+      "language": "en",
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPb0RmT2VFUVkxOWxTaEk3SFRvOTVLaXNYd2x5QzI4Y196VU5sb010cm1zb2ZCczFRcjRxTDdMZEhHclZUdERQRTZJcHdGOTVVS2RkYk5EOHNFaU9fT2FfNUlLSk1qdmJrdFQzLXVGY19PNzFkWkhHSTdNN2FVaG1jb0h2TldScWhpTFBSczF1Z29ObHhLaS0xX05JbmxhWFNNYjRJZzJ0RnczS0VVTlUyellzZFVTUWVXd0RDbVlXTmpqVExBb2k5UGZaQzhjVzlIXzQyQTZLSnpCMDRyLTNaLS1fRQ?oc=5",
+      "profile_id": "world/global",
+      "published_at": "2026-10-09T04:04:26+00:00",
+      "publisher": "Daily Investor",
+      "search_query": "world news Africa",
+      "source_country": "unknown",
+      "source_id": "73795a36275bae13d082e409",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPYjJRWUVqbWVzQ2dqeXlMN1I0bHJHNnJGTVl0bGM2Vnk4UXktRlpGNGkxcFZhcmk4RHYzRklZV2x0UVkwbHRsQjVvbGhoVkhxQ0RPZFp5b2xoaUhQbEx5RnM4Z2Y1cDZFVE03WlFQeWFDMXdxQlc5Qlpza3hfX1RYN0JyN2hRUzg1bXFtbEJQUFBjOWJ0Rl9VU3Y3dF95OVNuZTNmSTBLQi1lbEd0UHJLWWt4NGhFa1HSAb8BQVVfeXFMTUc3WldlZERzQ1R5X3NEaVpaZFlIcWVrNmtxbG10VDV0OElmZXlJSk0tTEFYNDBjcnVsSXhVcmo2cS1zcVlNV2hQbkdFSDhDT19XRDd3b2NoQldDblpJNy1zVHVfV2hvNFhHZFpPOGJFUGpZb0hUbTdyV1dmdzdQR2F4RXBZOFNDVXp6T2Y3Mi1RQkhXOXI2czJ0TzFfZEFnVGo0dHlEczRPZ3VqTkpiWTRjTkpHaFRfUW43bFNldmc?oc=5",
+      "content_fingerprint": "402ea2f1eeff4aeaf52c2d30",
+      "fetched_at": "2026-10-09T13:29:35.049999+00:00",
+      "institution_id": null,
+      "language": "en",
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPYjJRWUVqbWVzQ2dqeXlMN1I0bHJHNnJGTVl0bGM2Vnk4UXktRlpGNGkxcFZhcmk4RHYzRklZV2x0UVkwbHRsQjVvbGhoVkhxQ0RPZFp5b2xoaUhQbEx5RnM4Z2Y1cDZFVE03WlFQeWFDMXdxQlc5Qlpza3hfX1RYN0JyN2hRUzg1bXFtbEJQUFBjOWJ0Rl9VU3Y3dF95OVNuZTNmSTBLQi1lbEd0UHJLWWt4NGhFa1HSAb8BQVVfeXFMTUc3WldlZERzQ1R5X3NEaVpaZFlIcWVrNmtxbG10VDV0OElmZXlJSk0tTEFYNDBjcnVsSXhVcmo2cS1zcVlNV2hQbkdFSDhDT19XRDd3b2NoQldDblpJNy1zVHVfV2hvNFhHZFpPOGJFUGpZb0hUbTdyV1dmdzdQR2F4RXBZOFNDVXp6T2Y3Mi1RQkhXOXI2czJ0TzFfZEFnVGo0dHlEczRPZ3VqTkpiWTRjTkpHaFRfUW43bFNldmc?oc=5",
+      "profile_id": "world/global",
+      "published_at": "2026-10-09T02:31:51+00:00",
+      "publisher": "NDTV",
+      "search_query": "world news Americas",
+      "source_country": "unknown",
+      "source_id": "7bd10ea6a779f9dff2d9b33c",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQVGZyZU5CbnIycTItemhTUDRIZldjMjEzSmdXNTQ5TWZ2RlFKdXVwUTdSWEVBc051a1B0YnJaU2RVY3pNTmRCQi1KWm1aS0xXcDdQcFFpOVNuWjc2WTJUbHJ5MDRxQk0wam5sdDZZYlczXy1nZVZPcVFhc3h2Skx3MGItVkR6akt4T1BNbGN5NGUtTTVlUGtWVXZubVJZMFhnQnhDd1hTVWtSVC1TY0lOemNMUUJnX3pmcXpOaVZNdmJPMGtFWE5Tem1mSHh0MDhBT1Nyc0ZqMGZpNlpOdW15VUN1X0RKcWlnZURxLUx3?oc=5",
+      "content_fingerprint": "fb318d88d34162eeb2ff1864",
+      "fetched_at": "2026-10-09T13:29:35.049999+00:00",
+      "institution_id": null,
+      "language": "en",
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQVGZyZU5CbnIycTItemhTUDRIZldjMjEzSmdXNTQ5TWZ2RlFKdXVwUTdSWEVBc051a1B0YnJaU2RVY3pNTmRCQi1KWm1aS0xXcDdQcFFpOVNuWjc2WTJUbHJ5MDRxQk0wam5sdDZZYlczXy1nZVZPcVFhc3h2Skx3MGItVkR6akt4T1BNbGN5NGUtTTVlUGtWVXZubVJZMFhnQnhDd1hTVWtSVC1TY0lOemNMUUJnX3pmcXpOaVZNdmJPMGtFWE5Tem1mSHh0MDhBT1Nyc0ZqMGZpNlpOdW15VUN1X0RKcWlnZURxLUx3?oc=5",
+      "profile_id": "world/global",
+      "published_at": "2026-10-09T06:04:35+00:00",
+      "publisher": "The European Sting",
+      "search_query": "world news Europe",
+      "source_country": "unknown",
+      "source_id": "8285144cf235eaee42a91525",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOcUUxUE1EMXBpamdwMnphVGJqdEpBamthMnFsRUVLT2lrQXgtVGhPZHM1WVptZ01HWkR5Q2lMUk1jeG9MNXM5SlJQTTFRcWxRYkt6Si1ZaGp0RGlQZW1uM1BxT1IyOHVTMEVQMW8tV2Q2N1duYUZWNURrdkVfV3lzLUhtbnFDMkhhVGtud3pVa0trRDBreHNNUTd6eUY5ZTBId25ISU1LZmpjemp6QTlXZA?oc=5",
+      "content_fingerprint": "3767407f5fe3e29bd8e257f8",
+      "fetched_at": "2026-10-09T13:29:35.049999+00:00",
+      "institution_id": null,
+      "language": "en",
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOcUUxUE1EMXBpamdwMnphVGJqdEpBamthMnFsRUVLT2lrQXgtVGhPZHM1WVptZ01HWkR5Q2lMUk1jeG9MNXM5SlJQTTFRcWxRYkt6Si1ZaGp0RGlQZW1uM1BxT1IyOHVTMEVQMW8tV2Q2N1duYUZWNURrdkVfV3lzLUhtbnFDMkhhVGtud3pVa0trRDBreHNNUTd6eUY5ZTBId25ISU1LZmpjemp6QTlXZA?oc=5",
+      "profile_id": "world/global",
+      "published_at": "2026-10-08T21:20:28+00:00",
+      "publisher": "The Hugh Hewitt Show",
+      "search_query": "world news Americas",
+      "source_country": "unknown",
+      "source_id": "844ff50bc0875bfbf4d84121",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNNC0xcmp3T3MxTHJGMjBVXzJlNGc1Ump2dHRYNjdKS2o5RlItNmRldUNPTTZ0VHZhckJMaXlDejUwUGpNc1hQaFVtU2toeVdENkxuR05kZy00QkNISEViS19GY0EzVERBUGpkNDhHRjNiSEx5MjJ4Vi1YUk5SOGpsSzlKN0Zkb21mMjFVZHE2eW1lUjdpUG5GMTBQQWstZVEtOXVIZURmR0FRTDZMZG1fUDFoY21yMHVkbkdqejZJZlZkUWN4ZUptNGktamNPc1kxVENBRDl0UTQxSkk?oc=5",
+      "content_fingerprint": "2deb80ebaffd81c8d3fc3283",
+      "fetched_at": "2026-10-09T13:29:35.049999+00:00",
+      "institution_id": null,
+      "language": "en",
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNNC0xcmp3T3MxTHJGMjBVXzJlNGc1Ump2dHRYNjdKS2o5RlItNmRldUNPTTZ0VHZhckJMaXlDejUwUGpNc1hQaFVtU2toeVdENkxuR05kZy00QkNISEViS19GY0EzVERBUGpkNDhHRjNiSEx5MjJ4Vi1YUk5SOGpsSzlKN0Zkb21mMjFVZHE2eW1lUjdpUG5GMTBQQWstZVEtOXVIZURmR0FRTDZMZG1fUDFoY21yMHVkbkdqejZJZlZkUWN4ZUptNGktamNPc1kxVENBRDl0UTQxSkk?oc=5",
+      "profile_id": "world/global",
+      "published_at": "2026-10-09T02:20:15+00:00",
+      "publisher": "Yahoo Creators",
+      "search_query": "world news Americas",
+      "source_country": "unknown",
+      "source_id": "8912004a5c6ffcea83392cb5",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNTGxtWThmeE9KZzF2cUZyM24xN19KNzNMWHhYUHRVc2x4QU5DZm00S2wtQ0RZVEVVOUhDRFJ0eTR2SlNlNkczbUR0dWs0SExtaXNBdTd4dDNvbm5zNEFEbWk3SGVaMkI4WkRxdDlaMXpEN0lGSUE3UTNWOEJRSEZsdDhHQUphcl84OTZUdWE5TW5qMDduWGYwXzlfYUUtdUFqcWJZMEtGWTlUYUpHSDlRY1BoRm5vWjhlNElTa0xCaWk?oc=5",
+      "content_fingerprint": "edd3bd7c74faad15c965e72d",
+      "fetched_at": "2026-10-09T13:29:35.049999+00:00",
+      "institution_id": null,
+      "language": "en",
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNTGxtWThmeE9KZzF2cUZyM24xN19KNzNMWHhYUHRVc2x4QU5DZm00S2wtQ0RZVEVVOUhDRFJ0eTR2SlNlNkczbUR0dWs0SExtaXNBdTd4dDNvbm5zNEFEbWk3SGVaMkI4WkRxdDlaMXpEN0lGSUE3UTNWOEJRSEZsdDhHQUphcl84OTZUdWE5TW5qMDduWGYwXzlfYUUtdUFqcWJZMEtGWTlUYUpHSDlRY1BoRm5vWjhlNElTa0xCaWk?oc=5",
+      "profile_id": "world/global",
+      "published_at": "2026-10-09T07:07:56+00:00",
+      "publisher": "UA.NEWS",
+      "search_query": "world news Asia",
+      "source_country": "unknown",
+      "source_id": "8ba1f145b401ad78b9b955da",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNaTN5ZUMyaFNUQm56R21MT2NLV1VyRlNWQTg3T3RpV2dwTjV3MjgtV3NvcV9nT2owa1Y1ME1vTVQzV3dERFVJaGdRcHVIM3NjMF91dF9VRnprYUgzblJEcEtFYWJ3QnI2Rzhvb0RuNTlqZFp6Q2VOVm56R3A4Q2ZhNFFR?oc=5",
+      "content_fingerprint": "d2b2bd288ff9dbd43e5f68cd",
+      "fetched_at": "2026-10-09T13:29:35.049999+00:00",
+      "institution_id": null,
+      "language": "en",
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNaTN5ZUMyaFNUQm56R21MT2NLV1VyRlNWQTg3T3RpV2dwTjV3MjgtV3NvcV9nT2owa1Y1ME1vTVQzV3dERFVJaGdRcHVIM3NjMF91dF9VRnprYUgzblJEcEtFYWJ3QnI2Rzhvb0RuNTlqZFp6Q2VOVm56R3A4Q2ZhNFFR?oc=5",
+      "profile_id": "world/global",
+      "published_at": "2026-10-09T02:29:23+00:00",
+      "publisher": "China Daily Global Edition",
+      "search_query": "world news Asia",
+      "source_country": "unknown",
+      "source_id": "8da31c07fd6370da28eaa8ed",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOSFh6Q09Fb1NSTi1McnZKRGRkNmoyb3J5NFY3TUZib3NhYTVGakZGclZMeFdrNGRCZU50Z2NoNml1WGxaY0dia3VTRjEyNHFxQ0ZKQVlFM2JlMUpRQ0dmd0VPd0xJT2VJN3VDcUZ0MFNTcEVuQ2FEMjhrdFJVWHZneFhiX3RPNmdkdDUwVkNieHNSRzBQSnBQWjNfR0QwRVI5ZDBjUTNEYmRpUQ?oc=5",
+      "content_fingerprint": "541084eff1b9d5adf10502cf",
+      "fetched_at": "2026-10-09T13:29:35.049999+00:00",
+      "institution_id": null,
+      "language": "en",
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOSFh6Q09Fb1NSTi1McnZKRGRkNmoyb3J5NFY3TUZib3NhYTVGakZGclZMeFdrNGRCZU50Z2NoNml1WGxaY0dia3VTRjEyNHFxQ0ZKQVlFM2JlMUpRQ0dmd0VPd0xJT2VJN3VDcUZ0MFNTcEVuQ2FEMjhrdFJVWHZneFhiX3RPNmdkdDUwVkNieHNSRzBQSnBQWjNfR0QwRVI5ZDBjUTNEYmRpUQ?oc=5",
+      "profile_id": "world/global",
+      "published_at": "2026-10-09T06:03:45+00:00",
+      "publisher": "The Advocate | Burnie, TAS",
+      "search_query": "world news Oceania",
+      "source_country": "unknown",
+      "source_id": "8f13bea86c978fd04948bc2d",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1yOWNndFIxVGRhLWYxaHhWcDZRNHVLMzVUN1kyeTAwYlJ4UDBLMll3RUpCcWV2bzdFMWczNkpMQnl3dWZTbXNibXJvM2ROSTJVeUIyOVQwUQ?oc=5",
+      "content_fingerprint": "f09a5d555b0da7d6e9cd1974",
+      "fetched_at": "2026-10-09T13:29:35.049999+00:00",
+      "institution_id": null,
+      "language": "en",
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1yOWNndFIxVGRhLWYxaHhWcDZRNHVLMzVUN1kyeTAwYlJ4UDBLMll3RUpCcWV2bzdFMWczNkpMQnl3dWZTbXNibXJvM2ROSTJVeUIyOVQwUQ?oc=5",
+      "profile_id": "world/global",
+      "published_at": "2026-10-07T17:07:31+00:00",
+      "publisher": "UN News",
+      "search_query": "world news Europe",
+      "source_country": "unknown",
+      "source_id": "971e1d0803968a49c6507b6c",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQbHhNem9KYUtnanJXendwSlk3bFNWdTl4U3RKZnlnWjEtVThGX3RvQjZRQzZHRkpVVnRKN1ZGQjJRMXRFTkpyNEVRdFRBQUtfZnY3dUNwVmgyenJkaWN6enBIdnhBZmJna3NINVk1TmRsTkRvNnFLN2xzbm5hVnJHWWU5QkRaZmUxUnlHMHhxXzUwa05vekR0YVNBUGxNSk1wRDA2SXR4WHVZeUlyTUw2Q1QwUnNhVHVHd29JT1duN3NVMW1wVXdJT2t1Mk1FRFdmWl9zT0NFanIzc2dwTWQ4TVN1VWg?oc=5",
+      "content_fingerprint": "2b22e581ca489319273d8a34",
+      "fetched_at": "2026-10-09T13:29:35.049999+00:00",
+      "institution_id": null,
+      "language": "en",
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQbHhNem9KYUtnanJXendwSlk3bFNWdTl4U3RKZnlnWjEtVThGX3RvQjZRQzZHRkpVVnRKN1ZGQjJRMXRFTkpyNEVRdFRBQUtfZnY3dUNwVmgyenJkaWN6enBIdnhBZmJna3NINVk1TmRsTkRvNnFLN2xzbm5hVnJHWWU5QkRaZmUxUnlHMHhxXzUwa05vekR0YVNBUGxNSk1wRDA2SXR4WHVZeUlyTUw2Q1QwUnNhVHVHd29JT1duN3NVMW1wVXdJT2t1Mk1FRFdmWl9zT0NFanIzc2dwTWQ4TVN1VWg?oc=5",
+      "profile_id": "world/global",
+      "published_at": "2026-10-09T09:20:31+00:00",
+      "publisher": "VnExpress International",
+      "search_query": "world news Americas",
+      "source_country": "unknown",
+      "source_id": "97f7a9f94482c06c5601fdf6",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5XVjNSM200Q3lEVXpfMEVTOUNEYzI3b3RvR01OWEVjRHA5Y1hCX0F2Z0REdXN5dHZ2cllTQ0d2OFgyZkZSdmNwLXlsSmVDUENHaDc2RHk3TQ?oc=5",
+      "content_fingerprint": "52128f2dc43b0973b6f867b4",
+      "fetched_at": "2026-10-09T13:29:35.049999+00:00",
+      "institution_id": null,
+      "language": "en",
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5XVjNSM200Q3lEVXpfMEVTOUNEYzI3b3RvR01OWEVjRHA5Y1hCX0F2Z0REdXN5dHZ2cllTQ0d2OFgyZkZSdmNwLXlsSmVDUENHaDc2RHk3TQ?oc=5",
+      "profile_id": "world/global",
+      "published_at": "2026-10-09T09:49:07+00:00",
+      "publisher": "IOL",
+      "search_query": "world news Africa",
+      "source_country": "unknown",
+      "source_id": "9d66ebb331958c2e65518554",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOOGV2eHRwUnhZemRHdzE2S2tWcEtCWDNWbnBuZTdGemhpUVgzeWs0TUp6ekowSVdxN2JnVlpmYmo0VTYzMGpKTkJSdzdwOEdvUWRHUzJ3RUlJNEthcS1kLWRheElYeEd1ZmNwV3YwWDZpN0lRcmdqM0tKWkE3T3RGWkZLM29obDVGU0JRSVRkeWJrUHdVUU0xR2RGYXlWbjd5b1l4VXJjTWxZQQ?oc=5",
+      "content_fingerprint": "270de08bef76c6fadcc52c6d",
+      "fetched_at": "2026-10-09T13:29:35.049999+00:00",
+      "institution_id": null,
+      "language": "en",
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOOGV2eHRwUnhZemRHdzE2S2tWcEtCWDNWbnBuZTdGemhpUVgzeWs0TUp6ekowSVdxN2JnVlpmYmo0VTYzMGpKTkJSdzdwOEdvUWRHUzJ3RUlJNEthcS1kLWRheElYeEd1ZmNwV3YwWDZpN0lRcmdqM0tKWkE3T3RGWkZLM29obDVGU0JRSVRkeWJrUHdVUU0xR2RGYXlWbjd5b1l4VXJjTWxZQQ?oc=5",
+      "profile_id": "world/global",
+      "published_at": "2026-10-08T14:26:19+00:00",
+      "publisher": "CNA",
+      "search_query": "world news Asia",
+      "source_country": "unknown",
+      "source_id": "9e2fe5cb0a06a042b5cb89fb",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE01Sy1SQjVEendTZmsxajMzZkdyTU02WTBSQm1PdURVZzNBUzV0d1JEdHRjWllSeWV6dEdpRzBnSUk1WGh2b1M2di1sNmFhNDljSXkteUN1TnpQV2VIT2NKemhINA?oc=5",
+      "content_fingerprint": "682d81c2da877faf6afa3976",
+      "fetched_at": "2026-10-09T13:29:35.049999+00:00",
+      "institution_id": null,
+      "language": "en",
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE01Sy1SQjVEendTZmsxajMzZkdyTU02WTBSQm1PdURVZzNBUzV0d1JEdHRjWllSeWV6dEdpRzBnSUk1WGh2b1M2di1sNmFhNDljSXkteUN1TnpQV2VIT2NKemhINA?oc=5",
+      "profile_id": "world/global",
+      "published_at": "2026-10-08T06:15:06+00:00",
+      "publisher": "NHKニュース",
+      "search_query": "world news Asia",
+      "source_country": "unknown",
+      "source_id": "a2df2294732d429804b868c4",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPWUU4SnY5X1FmajNZZ0E4d2s2Z3g2RkxacEVsVnBPMzZCMXJ6UjJscUF5N0Z0TVFocXU4SWp2Z19ZS2ZZQVA1cXd5MmVocWlNTkttT2NRUGVPUHQ3QmlYd2ZyU0tNcjdfVVRqZDAxdjhjZVRMVnFwZU9lYWhmWFYySUFsLUhxWkZjOFZXQTlobTRxZlZ6U1VPNkhEbFBuRnBTVU9xcURQSHJDckJkZlU3ek1ieDRTYjJ3d2hnS3liRktjMUlnZVR2LWJudVV1YXVYZndGcnU1cHV3MFdUdTlUVnZDbndXcVFLRVE?oc=5",
+      "content_fingerprint": "58ecd3107c06a528106f4fa8",
+      "fetched_at": "2026-10-09T13:29:35.049999+00:00",
+      "institution_id": null,
+      "language": "en",
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPWUU4SnY5X1FmajNZZ0E4d2s2Z3g2RkxacEVsVnBPMzZCMXJ6UjJscUF5N0Z0TVFocXU4SWp2Z19ZS2ZZQVA1cXd5MmVocWlNTkttT2NRUGVPUHQ3QmlYd2ZyU0tNcjdfVVRqZDAxdjhjZVRMVnFwZU9lYWhmWFYySUFsLUhxWkZjOFZXQTlobTRxZlZ6U1VPNkhEbFBuRnBTVU9xcURQSHJDckJkZlU3ek1ieDRTYjJ3d2hnS3liRktjMUlnZVR2LWJudVV1YXVYZndGcnU1cHV3MFdUdTlUVnZDbndXcVFLRVE?oc=5",
+      "profile_id": "world/global",
+      "published_at": "2026-10-09T11:35:02+00:00",
+      "publisher": "Forbes Africa",
+      "search_query": "world news Africa",
+      "source_country": "unknown",
+      "source_id": "a3ab45bd5096db74414ca3b3",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQTUJQc0NJLWkzUFVQa0tzaTVfYWN1aWVPR0x1OHk3a2J4RzBPQlFVNzM4QWphWU82UXJQRlJUQnBsU2w2aWFoV2RLdmhsNkFsa1lSWWdQaUhyblB2X1IzSFlzYTdiczRYVHptZ1pxVDNjR2RnTUFpeXV0dEhWZmFiOGxCeVVWR2RqdVp1MlY5OHJJZ21FdmlPY3BCdDZER0Y4YjVPWUhtR1F0b3M5RWFjS0JkSklMY0ljWnA2bENLemVXR2VoNExxYXA4SFFnbHdMaHlj?oc=5",
+      "content_fingerprint": "607fb8014a56e2432a5227ee",
+      "fetched_at": "2026-10-09T13:29:35.049999+00:00",
+      "institution_id": null,
+      "language": "en",
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQTUJQc0NJLWkzUFVQa0tzaTVfYWN1aWVPR0x1OHk3a2J4RzBPQlFVNzM4QWphWU82UXJQRlJUQnBsU2w2aWFoV2RLdmhsNkFsa1lSWWdQaUhyblB2X1IzSFlzYTdiczRYVHptZ1pxVDNjR2RnTUFpeXV0dEhWZmFiOGxCeVVWR2RqdVp1MlY5OHJJZ21FdmlPY3BCdDZER0Y4YjVPWUhtR1F0b3M5RWFjS0JkSklMY0ljWnA2bENLemVXR2VoNExxYXA4SFFnbHdMaHlj?oc=5",
+      "profile_id": "world/global",
+      "published_at": "2026-10-09T03:53:10+00:00",
+      "publisher": "Table.Briefings",
+      "search_query": "world news Africa",
+      "source_country": "unknown",
+      "source_id": "aac7c3fa1fa256e04318f181",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE00dDJva3c1a2tIQktCV0JLNklVOE5JSjlINmVlMk00YnJhd1owdU5EcUFBdzJZLU9JMF85TG9IMjZRSGFKM2hsd3ZUTWhMLVdTemx2THJ5dEwySnAtR1czcg?oc=5",
+      "content_fingerprint": "5b620997938839ff70ae424b",
+      "fetched_at": "2026-10-09T13:29:35.049999+00:00",
+      "institution_id": null,
+      "language": "en",
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE00dDJva3c1a2tIQktCV0JLNklVOE5JSjlINmVlMk00YnJhd1owdU5EcUFBdzJZLU9JMF85TG9IMjZRSGFKM2hsd3ZUTWhMLVdTemx2THJ5dEwySnAtR1czcg?oc=5",
+      "profile_id": "world/global",
+      "published_at": "2026-10-09T03:22:33+00:00",
+      "publisher": "BBC",
+      "search_query": "world news Asia",
+      "source_country": "unknown",
+      "source_id": "abd0f016e052cb1a06423b18",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNOTZIQTZWZ3ozaW5rMFozVjhJNG4zV20xcXBUcVlqd19FN0NoSHVDbnZDYWdzOWY4b1hYOVNYRXdDMW4yUnNQWE9wV1EyeVlGODR5UV9tY25sZmlkdEtMazN5V2M0RTdubmV0RWhXNUFRVzVtaGdrd1dwcWsyV0p3UFNudU5TRG45LXQ4?oc=5",
+      "content_fingerprint": "1c512ceb9c4cf6c364cbc96b",
+      "fetched_at": "2026-10-09T13:29:35.049999+00:00",
+      "institution_id": null,
+      "language": "en",
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNOTZIQTZWZ3ozaW5rMFozVjhJNG4zV20xcXBUcVlqd19FN0NoSHVDbnZDYWdzOWY4b1hYOVNYRXdDMW4yUnNQWE9wV1EyeVlGODR5UV9tY25sZmlkdEtMazN5V2M0RTdubmV0RWhXNUFRVzVtaGdrd1dwcWsyV0p3UFNudU5TRG45LXQ4?oc=5",
+      "profile_id": "world/global",
+      "published_at": "2026-10-09T12:22:00+00:00",
+      "publisher": "Mirage News",
+      "search_query": "world news Europe",
+      "source_country": "unknown",
+      "source_id": "b3f9b52e04a40f7b69a39307",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1nalJDUHJBLWxKOHlDdnFqZkhDOXZsdXlySGRxUVVlcGVwUjZyQ3htSVMtejVxVWdsdEJjaGFjNXhnUTJPa2FrU1ZfMW5CWU43SVFBb20zQ2VSZFV2VldhVXcxR2RGTU9RbXFCRzF1QVg3VC0zRFQ5Xw?oc=5",
+      "content_fingerprint": "eeeb1ef5b66ed3812a7197b5",
+      "fetched_at": "2026-10-09T13:29:35.049999+00:00",
+      "institution_id": null,
+      "language": "en",
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1nalJDUHJBLWxKOHlDdnFqZkhDOXZsdXlySGRxUVVlcGVwUjZyQ3htSVMtejVxVWdsdEJjaGFjNXhnUTJPa2FrU1ZfMW5CWU43SVFBb20zQ2VSZFV2VldhVXcxR2RGTU9RbXFCRzF1QVg3VC0zRFQ5Xw?oc=5",
+      "profile_id": "world/global",
+      "published_at": "2026-10-09T13:00:00+00:00",
+      "publisher": "Yahoo News UK",
+      "search_query": "world news Oceania",
+      "source_country": "unknown",
+      "source_id": "b7febc1de1a9d018a35d1c66",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNV2Q1dk5OeHZZV1A5eUZRZ0tZeHFUR2JJTEVnTjJldWozMXRYdjJHdVN2bWpUTTVGb1VWMmZNelAydElRa2xKUHJnV3ZFQmRwTDVhSml3MHZZa1BVTnJXb21FN2JHQ2Uyelc4cnNXMk4xZ050b2FMQnRWdXlUYTVBYURlUm5DdUozeUlwZncxREp3R3dLWUczU2xTazlWQTRUaFNya3lGcERyUHhCc2l3c0tTVlJNaVhsRWticG9sRmdjYkNhaUJiTUlZYw?oc=5",
+      "content_fingerprint": "3c7f3cc9db866516b21354f7",
+      "fetched_at": "2026-10-09T13:29:35.049999+00:00",
+      "institution_id": null,
+      "language": "en",
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNV2Q1dk5OeHZZV1A5eUZRZ0tZeHFUR2JJTEVnTjJldWozMXRYdjJHdVN2bWpUTTVGb1VWMmZNelAydElRa2xKUHJnV3ZFQmRwTDVhSml3MHZZa1BVTnJXb21FN2JHQ2Uyelc4cnNXMk4xZ050b2FMQnRWdXlUYTVBYURlUm5DdUozeUlwZncxREp3R3dLWUczU2xTazlWQTRUaFNya3lGcERyUHhCc2l3c0tTVlJNaVhsRWticG9sRmdjYkNhaUJiTUlZYw?oc=5",
+      "profile_id": "world/global",
+      "published_at": "2026-10-09T08:03:44+00:00",
+      "publisher": "Africa.com",
+      "search_query": "world news Africa",
+      "source_country": "unknown",
+      "source_id": "c7c03452a508a981229d87c8",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPOXdZRmE1b25LazJJSUg1blRWa3RXV0xMazZzUkJ4cm9IOW1IOTFGSkt3dkZNaGFad2xEZ1ZWR2ZXTFhfcDg2ZnR3WVlZUGtVZG5BQmllMmNkaHB6YU4xYjl5ajJYNGZVQlNMSWlZWjM0THBLY0dadl9fZFlFamFxWEU5dmhfd1FyZExoTHdxbE5mbDBkMkVPU1JNbUg2UEk?oc=5",
+      "content_fingerprint": "44ab98ecd8c069ac91410432",
+      "fetched_at": "2026-10-09T13:29:35.049999+00:00",
+      "institution_id": null,
+      "language": "en",
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPOXdZRmE1b25LazJJSUg1blRWa3RXV0xMazZzUkJ4cm9IOW1IOTFGSkt3dkZNaGFad2xEZ1ZWR2ZXTFhfcDg2ZnR3WVlZUGtVZG5BQmllMmNkaHB6YU4xYjl5ajJYNGZVQlNMSWlZWjM0THBLY0dadl9fZFlFamFxWEU5dmhfd1FyZExoTHdxbE5mbDBkMkVPU1JNbUg2UEk?oc=5",
+      "profile_id": "world/global",
+      "published_at": "2026-10-08T20:27:15+00:00",
+      "publisher": "TicketNews",
+      "search_query": "world news Americas",
+      "source_country": "unknown",
+      "source_id": "c986c0e93135aceb367c44ce",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNWjR3WmJFZUVfM3hhdVY1NUJXNlhqNER0Y1ZHbGV1M1lna1puTTM4Mmt2NE5kRHBwOFBKN3VPSXp2aFBiSWMtVjgyX0oyVGQzbnBfNUF4Q29HcnQ0a0tyYVpsZGEwTk96WjZ5alV3Q0J1cUFiU21mckZkQjR3aFVmS3FuU1Zfam53QVVSbmhlRzlOMV9lWU1qU2lsVWszWUxNZUxfem9Gc2NHbGxrNlVidXFyNWZwbGR5YXNTZGNldVVlTk5lUVY4Qg?oc=5",
+      "content_fingerprint": "28f7d2a078c46dfcb1232e0a",
+      "fetched_at": "2026-10-09T13:29:35.049999+00:00",
+      "institution_id": null,
+      "language": "en",
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNWjR3WmJFZUVfM3hhdVY1NUJXNlhqNER0Y1ZHbGV1M1lna1puTTM4Mmt2NE5kRHBwOFBKN3VPSXp2aFBiSWMtVjgyX0oyVGQzbnBfNUF4Q29HcnQ0a0tyYVpsZGEwTk96WjZ5alV3Q0J1cUFiU21mckZkQjR3aFVmS3FuU1Zfam53QVVSbmhlRzlOMV9lWU1qU2lsVWszWUxNZUxfem9Gc2NHbGxrNlVidXFyNWZwbGR5YXNTZGNldVVlTk5lUVY4Qg?oc=5",
+      "profile_id": "world/global",
+      "published_at": "2026-10-09T06:15:58+00:00",
+      "publisher": "Western Cape Government",
+      "search_query": "world news Africa",
+      "source_country": "unknown",
+      "source_id": "cf173bb7ac588c80570c65d6",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1QVDkyUkJuLWpQNEdXbDd1c3RWSEg0YXd4c29fbWlmejFMVHVRNVMzTTJMS1FkM1ZXbDRaQ0RpSWRDT2dORVZlSDVLcnhWN0FnQTdRWU5OVzBOcnk0M29qZTdKa3dDYTE5eTAwOG1ucFFZN1NEcEhjTg?oc=5",
+      "content_fingerprint": "cca43370befbd0c4dfc99232",
+      "fetched_at": "2026-10-09T13:29:35.049999+00:00",
+      "institution_id": null,
+      "language": "en",
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1QVDkyUkJuLWpQNEdXbDd1c3RWSEg0YXd4c29fbWlmejFMVHVRNVMzTTJMS1FkM1ZXbDRaQ0RpSWRDT2dORVZlSDVLcnhWN0FnQTdRWU5OVzBOcnk0M29qZTdKa3dDYTE5eTAwOG1ucFFZN1NEcEhjTg?oc=5",
+      "profile_id": "world/global",
+      "published_at": "2026-10-08T09:56:48+00:00",
+      "publisher": "Pacific Media Network",
+      "search_query": "world news Oceania",
+      "source_country": "unknown",
+      "source_id": "cf4d751eff62bbbac948f9e5",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9zWmVpQmlJeFp2NDA4aVpxT2pkLVFCQVZaRm11dUNXZ0t3d2NydklXVnBTdVUzN0Y0dTVuUlRyR3JoM3BYRDBKM3pGbDFNakZ3QzJ4VHFvSmtKNlZwRllIaQ?oc=5",
+      "content_fingerprint": "64fdd9b820276599c8654d9e",
+      "fetched_at": "2026-10-09T13:29:35.049999+00:00",
+      "institution_id": null,
+      "language": "en",
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9zWmVpQmlJeFp2NDA4aVpxT2pkLVFCQVZaRm11dUNXZ0t3d2NydklXVnBTdVUzN0Y0dTVuUlRyR3JoM3BYRDBKM3pGbDFNakZ3QzJ4VHFvSmtKNlZwRllIaQ?oc=5",
+      "profile_id": "world/global",
+      "published_at": "2026-10-08T20:59:12+00:00",
+      "publisher": "BBC",
+      "search_query": "world news Asia",
+      "source_country": "unknown",
+      "source_id": "d4c9082f3ef294034c641d86",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxQYTJfY1F6Y0l5bXBFQVItMEZNbXRVajVxX3BfWVFGODRxRzRucWN0V2p3c1I4bDJKUjczc2JVSy1Id0xwRFdfWURYT1IzYVlCaEN5VGFPdFF1RFN2QjZaNlhCV3F2V1RFZENRYjZZajlPOU45Sm5jM1QzOW04dkMwMDc2bWYtejl6Tk1XWFlzX3NsNWNVR1lzcElkWmFZc2NBQ1lFVTVnOUxsV0l2R1RRYlAzMXlGTHVzVkd6SmQ1YjBjOVEwdVhTNVVaS0FRTTVYZDd6LXZvYWRwel80YjF1THgzblg4bmZDbll3dVRJRXJscDJEMkw0UnRQQnpSaEtPa2fSAYcCQVVfeXFMTThWM3U2NkVVUnhJX0lLWng1eFY2N2ptZjJZSGVHdGR2cnNzUEd3ZWF3ekFSSy1JeUl1MDlacWp4TVQ2QkFzY282NUNTNVRCNEtOMW5WODg0eWgtcjlSNEtUUl9Hbnl2NW80ekhLR3dqUDR3UngzbkVGOFpYeC16S214dEMtc1o3NU1yQTBZSW1rS2hGbDNCS21pQ01sRHl5MnU1amVXLVd2UjlsSV9NSVhqMktCejBPRnZYQ1NiN09scWhvdjkyUl8wOGFCTnNyTjdKQXp1N3FydGZLcVBDT2VEanQzQ1oyYmowVS1FZ2I2Umx4RnF6OTJvcnowaUpTbHZDOWtoWUE?oc=5",
+      "content_fingerprint": "359dcd63ec02fff01a17423e",
+      "fetched_at": "2026-10-09T13:29:35.049999+00:00",
+      "institution_id": null,
+      "language": "en",
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxQYTJfY1F6Y0l5bXBFQVItMEZNbXRVajVxX3BfWVFGODRxRzRucWN0V2p3c1I4bDJKUjczc2JVSy1Id0xwRFdfWURYT1IzYVlCaEN5VGFPdFF1RFN2QjZaNlhCV3F2V1RFZENRYjZZajlPOU45Sm5jM1QzOW04dkMwMDc2bWYtejl6Tk1XWFlzX3NsNWNVR1lzcElkWmFZc2NBQ1lFVTVnOUxsV0l2R1RRYlAzMXlGTHVzVkd6SmQ1YjBjOVEwdVhTNVVaS0FRTTVYZDd6LXZvYWRwel80YjF1THgzblg4bmZDbll3dVRJRXJscDJEMkw0UnRQQnpSaEtPa2fSAYcCQVVfeXFMTThWM3U2NkVVUnhJX0lLWng1eFY2N2ptZjJZSGVHdGR2cnNzUEd3ZWF3ekFSSy1JeUl1MDlacWp4TVQ2QkFzY282NUNTNVRCNEtOMW5WODg0eWgtcjlSNEtUUl9Hbnl2NW80ekhLR3dqUDR3UngzbkVGOFpYeC16S214dEMtc1o3NU1yQTBZSW1rS2hGbDNCS21pQ01sRHl5MnU1amVXLVd2UjlsSV9NSVhqMktCejBPRnZYQ1NiN09scWhvdjkyUl8wOGFCTnNyTjdKQXp1N3FydGZLcVBDT2VEanQzQ1oyYmowVS1FZ2I2Umx4RnF6OTJvcnowaUpTbHZDOWtoWUE?oc=5",
+      "profile_id": "world/global",
+      "published_at": "2026-10-09T13:21:04+00:00",
+      "publisher": "Demócrata",
+      "search_query": "world news Europe",
+      "source_country": "unknown",
+      "source_id": "d65e41759f96f4d776f10860",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQRUY3SzNWMjZZYUpobE5DWVhoeTg2Uk9tOTZBWU9ZNjZiallsRW0taldnZVFiRk1hVnFtTHpVSUprNEJONGVraTZ6YnJ4dGwyUkttOHdmUkoyUTRqcWtSWTlMem4xemNpODZCcjE4MjVGeGJLR3dkcWMxaldTVzM3Zms3Ym9nQ2Jta0dKN0ItcXh3WEVaaEw4TDJtei1ZLVVIRlNqMHVRclFOSGJUY093aEdnMTJuVVp2T2Z2eTJ5cjF1eXVNcU5jd041U2J1dEM4R3pRNA?oc=5",
+      "content_fingerprint": "554081df2d97a55b6ae90e93",
+      "fetched_at": "2026-10-09T13:29:35.049999+00:00",
+      "institution_id": null,
+      "language": "en",
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQRUY3SzNWMjZZYUpobE5DWVhoeTg2Uk9tOTZBWU9ZNjZiallsRW0taldnZVFiRk1hVnFtTHpVSUprNEJONGVraTZ6YnJ4dGwyUkttOHdmUkoyUTRqcWtSWTlMem4xemNpODZCcjE4MjVGeGJLR3dkcWMxaldTVzM3Zms3Ym9nQ2Jta0dKN0ItcXh3WEVaaEw4TDJtei1ZLVVIRlNqMHVRclFOSGJUY093aEdnMTJuVVp2T2Z2eTJ5cjF1eXVNcU5jd041U2J1dEM4R3pRNA?oc=5",
+      "profile_id": "world/global",
+      "published_at": "2026-10-09T10:43:35+00:00",
+      "publisher": "Fibre2Fashion",
+      "search_query": "world news Africa",
+      "source_country": "unknown",
+      "source_id": "d7fbc3ea320241729b3536a4",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxPMEJMVnc0cUxKa1FIMF9OVndGSTJMLU1kYVRmMUZNbnhNblFVaWVLRmhtZ2VrRnFMWXJJbjMwTzlnWGNFVW1mSmNhckFWcEc0VENON3ZhYVZLdUwweU5qZkRfTVJKMm1uckJnYVpZM2k3QndjOTdBajVlM3JOaUFEcTNvbHdLbmp4SUZvMjFDemxKQ3pmQXBzZEUzTUpYLUdHQkR1TXBsX0dsb1AyNlE5SDNEMWNySWpqdVBhN0hCN2t0ZjlNUGNSMUxNcXNqQWJ3WU4xWjlJZFFVLXBrY0hPNm1XMnU0QzludUh1cnBORDVyTEFBa0k5OTlTYUhCcF90ZmJweDdzaUlQdzBt?oc=5",
+      "content_fingerprint": "c8efd2c6439ffd6a4b653c36",
+      "fetched_at": "2026-10-09T13:29:35.049999+00:00",
+      "institution_id": null,
+      "language": "en",
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxPMEJMVnc0cUxKa1FIMF9OVndGSTJMLU1kYVRmMUZNbnhNblFVaWVLRmhtZ2VrRnFMWXJJbjMwTzlnWGNFVW1mSmNhckFWcEc0VENON3ZhYVZLdUwweU5qZkRfTVJKMm1uckJnYVpZM2k3QndjOTdBajVlM3JOaUFEcTNvbHdLbmp4SUZvMjFDemxKQ3pmQXBzZEUzTUpYLUdHQkR1TXBsX0dsb1AyNlE5SDNEMWNySWpqdVBhN0hCN2t0ZjlNUGNSMUxNcXNqQWJ3WU4xWjlJZFFVLXBrY0hPNm1XMnU0QzludUh1cnBORDVyTEFBa0k5OTlTYUhCcF90ZmJweDdzaUlQdzBt?oc=5",
+      "profile_id": "world/global",
+      "published_at": "2026-10-09T02:26:00+00:00",
+      "publisher": "ANI News",
+      "search_query": "world news Americas",
+      "source_country": "unknown",
+      "source_id": "dbf6c9683f08b8c2e03ab4c4",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOMkVEaXNqZzI0eFk3bGJ3T2hLWGM3MS1wMFRPODk2UDBOQUVqdjNpVHNfR3hJT2YwSWRiVlQ1ZWlsX2p3eEJ5ZURTLTRTU08zZnN5LXI4WUYzX1lheF9fVUloTElTUXhab0lpbnBMOENWb2RjdllkSGdPandKWHdwTEZIMDcyRlBENl93TlR5WVRJUEpPRXl0ZEw3Q1gxbmljeEI2VWxKSnpvTnNrWHlUV0tFQlQ4YkFJclZHU3JoT2Q?oc=5",
+      "content_fingerprint": "9909dfd04316866f3e3d5c49",
+      "fetched_at": "2026-10-09T13:29:35.049999+00:00",
+      "institution_id": null,
+      "language": "en",
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOMkVEaXNqZzI0eFk3bGJ3T2hLWGM3MS1wMFRPODk2UDBOQUVqdjNpVHNfR3hJT2YwSWRiVlQ1ZWlsX2p3eEJ5ZURTLTRTU08zZnN5LXI4WUYzX1lheF9fVUloTElTUXhab0lpbnBMOENWb2RjdllkSGdPandKWHdwTEZIMDcyRlBENl93TlR5WVRJUEpPRXl0ZEw3Q1gxbmljeEI2VWxKSnpvTnNrWHlUV0tFQlQ4YkFJclZHU3JoT2Q?oc=5",
+      "profile_id": "world/global",
+      "published_at": "2026-10-09T04:56:12+00:00",
+      "publisher": "Nashua Ink Link",
+      "search_query": "world news Americas",
+      "source_country": "unknown",
+      "source_id": "ea6f6efa954765c4be3b2e03",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPM1lSNEtKOVhVNzh1Ni1NTFVya09oYzVkNTJMR3BZclVNSnBRVU1IV2lieFZQRDIyamVSS3drRE9qT2N1Y29Ed2l2bFlHOHdscTM4RTllVC1UODRIbUFhemZBRGdKM2NzRmlLNEpXalRLczNMbGZxa1EyNkVScWxVMzI3WEtjZUtHc21hR3JMMUdaZ0dXMDd6d0hfMGZYVWhOd3lOVGt1b24?oc=5",
+      "content_fingerprint": "19583241e6bafa3354707969",
+      "fetched_at": "2026-10-09T13:29:35.049999+00:00",
+      "institution_id": null,
+      "language": "en",
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPM1lSNEtKOVhVNzh1Ni1NTFVya09oYzVkNTJMR3BZclVNSnBRVU1IV2lieFZQRDIyamVSS3drRE9qT2N1Y29Ed2l2bFlHOHdscTM4RTllVC1UODRIbUFhemZBRGdKM2NzRmlLNEpXalRLczNMbGZxa1EyNkVScWxVMzI3WEtjZUtHc21hR3JMMUdaZ0dXMDd6d0hfMGZYVWhOd3lOVGt1b24?oc=5",
+      "profile_id": "world/global",
+      "published_at": "2026-10-08T03:00:00+00:00",
+      "publisher": "World Climbing",
+      "search_query": "world news Europe",
+      "source_country": "unknown",
+      "source_id": "ebf257cb01373d0314880427",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOa19xWmliWjhCSHdQTk9SSnFab2s4eDdUOG1MZTlEX0RUSmdFYURLUEFnRldYaTNIMDRiUVFEQUk0ODlVWDJ4ZUFvcDNZaFJTNjdVTjR3MlZDVVY0dm5uZVI2QlNmNWR0c2ROYl8tVXc5eG9fdDVqM2tka0xEWW5NZlpIay1OeFp5OGc?oc=5",
+      "content_fingerprint": "7c33465a3e49318e1515d3dc",
+      "fetched_at": "2026-10-09T13:29:35.049999+00:00",
+      "institution_id": null,
+      "language": "en",
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOa19xWmliWjhCSHdQTk9SSnFab2s4eDdUOG1MZTlEX0RUSmdFYURLUEFnRldYaTNIMDRiUVFEQUk0ODlVWDJ4ZUFvcDNZaFJTNjdVTjR3MlZDVVY0dm5uZVI2QlNmNWR0c2ROYl8tVXc5eG9fdDVqM2tka0xEWW5NZlpIay1OeFp5OGc?oc=5",
+      "profile_id": "world/global",
+      "published_at": "2026-10-09T11:32:46+00:00",
+      "publisher": "Latest news from Azerbaijan",
+      "search_query": "world news Americas",
+      "source_country": "unknown",
+      "source_id": "edeca890587f5d4ef5445310",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQRjFhSVRLd3MtY1FaZkNTVjVBY3VncTltaUZQWk5NTlpUNFFnNzNkV0xMeTJxcmVieHJ6UzYxYm9aYTd3UEpiNTl6ZnRRWDhOMjRibWg2YVFVRGJ3c2FhLV95OEtTQzQ2OWdLNWdyQnpPdDhSamozSG03dE9vcGhYdjM0dVd5NjRia2FxWUxXdjRLOTBUN21fNDNTcjVzNTg1MHZtUVU3YWVkdHRI?oc=5",
+      "content_fingerprint": "b853c42919e025be2c38ad50",
+      "fetched_at": "2026-10-09T13:29:35.049999+00:00",
+      "institution_id": null,
+      "language": "en",
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQRjFhSVRLd3MtY1FaZkNTVjVBY3VncTltaUZQWk5NTlpUNFFnNzNkV0xMeTJxcmVieHJ6UzYxYm9aYTd3UEpiNTl6ZnRRWDhOMjRibWg2YVFVRGJ3c2FhLV95OEtTQzQ2OWdLNWdyQnpPdDhSamozSG03dE9vcGhYdjM0dVd5NjRia2FxWUxXdjRLOTBUN21fNDNTcjVzNTg1MHZtUVU3YWVkdHRI?oc=5",
+      "profile_id": "world/global",
+      "published_at": "2026-10-09T07:12:00+00:00",
+      "publisher": "Times of Oman",
+      "search_query": "world news Africa",
+      "source_country": "unknown",
+      "source_id": "f792834671f70819263e7a6f",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    }
+  ],
+  "statistics": {
+    "collectors": [
+      {
+        "error_code": null,
+        "items": 59,
+        "query": "world news Americas",
+        "source": "google_news",
+        "status": "ok"
+      },
+      {
+        "error_code": null,
+        "items": 60,
+        "query": "world news Europe",
+        "source": "google_news",
+        "status": "ok"
+      },
+      {
+        "error_code": null,
+        "items": 58,
+        "query": "world news Asia",
+        "source": "google_news",
+        "status": "ok"
+      },
+      {
+        "error_code": null,
+        "items": 60,
+        "query": "world news Africa",
+        "source": "google_news",
+        "status": "ok"
+      },
+      {
+        "error_code": null,
+        "items": 35,
+        "query": "world news Oceania",
+        "source": "google_news",
+        "status": "ok"
+      },
+      {
+        "error_code": "HTTP_503",
+        "items": 0,
+        "query": "world news",
+        "source": "gdelt",
+        "status": "failed"
+      },
+      {
+        "items": 0,
+        "source": "rss",
+        "status": "failed"
+      }
+    ],
+    "items": 60,
+    "sources": 60
+  },
+  "status": "partial",
+  "time_window": {
+    "since": "2026-10-07T13:29:35.280236+00:00",
+    "until": "2026-10-09T13:29:35.280236+00:00"
+  }
+}
