@@ -17,6 +17,7 @@ from .errors import HorizonMcpError
 
 
 VALID_SOURCES = {
+    "gdelt", "google_news", "ossinsight",
     "github",
     "hackernews",
     "rss",
@@ -216,6 +217,11 @@ def apply_source_filter(
         clone.sources.openbb.enabled = False
         clone.sources.openbb.watchlists = []
 
+    for name in ("gdelt", "google_news", "ossinsight"):
+        source = getattr(clone.sources, name, None)
+        if source is not None and name not in wanted:
+            source.enabled = False
+
     return clone, chosen, unknown
 
 
@@ -223,11 +229,11 @@ def get_enabled_sources(config: Any) -> list[str]:
     """List enabled top-level source types in effective config."""
 
     enabled: list[str] = []
-    if getattr(config.sources, "github", None):
+    if any(s.enabled for s in getattr(config.sources, "github", [])):
         enabled.append("github")
     if getattr(config.sources.hackernews, "enabled", False):
         enabled.append("hackernews")
-    if getattr(config.sources, "rss", None):
+    if any(s.enabled for s in getattr(config.sources, "rss", [])):
         enabled.append("rss")
     if getattr(config.sources.reddit, "enabled", False):
         enabled.append("reddit")
@@ -237,6 +243,9 @@ def get_enabled_sources(config: Any) -> list[str]:
         enabled.append("twitter")
     if getattr(getattr(config.sources, "openbb", None), "enabled", False):
         enabled.append("openbb")
+    for name in ("gdelt", "google_news", "ossinsight"):
+        if getattr(getattr(config.sources, name, None), "enabled", False):
+            enabled.append(name)
     return enabled
 
 

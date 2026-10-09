@@ -25,6 +25,7 @@ from .scrapers.ossinsight import OSSInsightScraper
 from .scrapers.gdelt import GDELTScraper
 from .scrapers.google_news import GoogleNewsScraper
 from .ai.client import create_ai_client
+from .ai.local import LocalContentAnalyzer, use_local
 from .ai.analyzer import ContentAnalyzer
 from .ai.summarizer import DailySummarizer
 from .ai.enricher import ContentEnricher
@@ -103,7 +104,7 @@ class HorizonOrchestrator:
 
             # 4. Analyze with AI
             analyzed_items = await self._analyze_content(merged_items)
-            self.console.print(f"🤖 Analyzed {len(analyzed_items)} items with AI\n")
+            self.console.print(f"Analyzed {len(analyzed_items)} items; mode: {'deterministic' if use_local(self.config.ai) else 'configured model with fallback'}\n")
 
             # 5. Filter by score threshold
             threshold = self.config.filtering.ai_score_threshold
@@ -442,7 +443,7 @@ class HorizonOrchestrator:
 
         Falls back to returning items unchanged if the AI call fails.
         """
-        if len(items) <= 1:
+        if len(items) <= 1 or use_local(self.config.ai):
             return items
 
         from .ai.prompts import TOPIC_DEDUP_SYSTEM, TOPIC_DEDUP_USER
@@ -664,6 +665,9 @@ class HorizonOrchestrator:
         self.console.print(
             f"   Re-analyzing {len(expanded)} Twitter items with reply context...\n"
         )
+        if use_local(self.config.ai):
+            await LocalContentAnalyzer().analyze_batch(expanded)
+            return
         ai_client = create_ai_client(self.config.ai)
         analyzer = ContentAnalyzer(ai_client)
         await analyzer.analyze_batch(expanded)
@@ -677,13 +681,19 @@ class HorizonOrchestrator:
         Args:
             items: Important items to enrich (modified in-place)
         """
-        if not items:
+        if not items or use_local(self.config.ai):
             return
 
+        model_items=[i for i in items if i.metadata.get('analysis_mode')!='deterministic']
+        if not model_items: return
         self.console.print("📚 Enriching with background knowledge...")
-        ai_client = create_ai_client(self.config.ai)
-        enricher = ContentEnricher(ai_client)
-        await enricher.enrich_batch(items)
+        try:
+            ai_client = create_ai_client(self.config.ai)
+            enricher = ContentEnricher(ai_client)
+            await enricher.enrich_batch(model_items)
+        except Exception:
+            if self.config.ai.mode!='auto': raise
+            self.console.print('Optional model enrichment unavailable; preserving extracted evidence.')
         self.console.print(f"   Enriched {len(items)} items\n")
 
     async def _analyze_content(self, items: List[ContentItem]) -> List[ContentItem]:
@@ -695,12 +705,19 @@ class HorizonOrchestrator:
         Returns:
             List[ContentItem]: Analyzed items
         """
+        if use_local(self.config.ai):
+            self.console.print("Analyzing with deterministic title/recency rules; no model used.")
+            return await LocalContentAnalyzer().analyze_batch(items)
         self.console.print("🤖 Analyzing content with AI...")
-
-        ai_client = create_ai_client(self.config.ai)
-        analyzer = ContentAnalyzer(ai_client)
-
-        return await analyzer.analyze_batch(items)
+        try:
+            ai_client=create_ai_client(self.config.ai)
+            result=await ContentAnalyzer(ai_client).analyze_batch(items)
+            failed=[i for i in result if i.ai_reason=="Analysis failed"]
+            if failed and self.config.ai.mode=='auto': await LocalContentAnalyzer().analyze_batch(failed)
+            return result
+        except Exception:
+            if self.config.ai.mode!='auto': raise
+            return await LocalContentAnalyzer().analyze_batch(items)
 
     async def _generate_summary(
         self,

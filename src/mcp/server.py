@@ -46,10 +46,12 @@ def _err(tool: str, error: Exception, duration_ms: float | None = None) -> dict[
     if isinstance(error, HorizonMcpError):
         code = error.code
         message = error.message
-        details = error.details
+        details = {k:v for k,v in (error.details or {}).items() if k != "error"}
+        from .service import _redact_config
+        details = _redact_config(details)
     else:
         code = "HZ_INTERNAL_ERROR"
-        message = str(error)
+        message = "Internal operation failed; inspect local operator logs."
         details = None
 
     payload = {
@@ -492,6 +494,87 @@ def r_effective_config() -> dict[str, Any]:
     """Effective default config resolved from local Horizon path."""
 
     return _resource_result("horizon://config/effective", service.get_effective_config)
+
+
+
+# High-level research facades share the HTTP/Actions implementation.
+from src.research.service import ResearchService
+research = ResearchService()
+from src.research.remote import RemoteArchive
+research_remote = RemoteArchive()
+
+@mcp.tool()
+def hz_list_profiles() -> dict:
+    return {"profiles": [p.model_dump(by_alias=True) for p in research.profiles.values()]}
+
+@mcp.tool()
+def hz_get_profile(profile_id: str) -> dict:
+    return research.profile(profile_id).model_dump(by_alias=True)
+
+@mcp.tool()
+async def hz_submit_research(profile_id: str, question: str = "", lookback_hours: int | None = None, depth: int = 60, idempotency_key: str | None = None, sources: list[str] | None = None, institution_ids: list[str] | None = None) -> dict:
+    return await research.submit(dict(profile_id=profile_id,question=question,lookback_hours=lookback_hours,depth=depth,idempotency_key=idempotency_key,sources=sources,institution_ids=institution_ids or []))
+
+@mcp.tool()
+def hz_get_job(job_id: str) -> dict:
+    return research.get_job(job_id)
+
+@mcp.tool()
+def hz_list_jobs(limit: int = 20) -> dict:
+    return {"jobs": list(research.jobs.values())[-min(100,max(1,limit)):]}
+
+@mcp.tool()
+async def hz_list_reports(profile_id: str | None = None, limit: int = 20, offset: int = 0) -> dict:
+    rows=await research_remote.list(profile_id,min(100,max(1,limit)),max(0,offset))
+    return {"reports": rows if rows is not None else research.archive.list(profile_id,limit,offset)}
+
+@mcp.tool()
+async def hz_get_report(report_id: str) -> dict:
+    try: return research.archive.get(report_id)
+    except KeyError: return await research_remote.get(report_id)
+
+@mcp.tool()
+async def hz_search_archive(query: str, limit: int = 20) -> dict:
+    rows=await research_remote.list(limit=100)
+    if rows is None: return {"findings": research.search(query,limit)}
+    results=[]
+    for row in rows[:20]:
+        report=await research_remote.get(row['report_id'])
+        results.extend(dict(f,report_id=row['report_id']) for f in report['findings'] if query[:200].lower() in f['summary'].lower())
+    return {"findings":results[:min(100,max(1,limit))]}
+
+@mcp.tool()
+async def hz_get_changes(profile_id: str | None = None, since: str | None = None) -> dict:
+    rows=await research_remote.list(profile_id,limit=100)
+    if rows is None: return {"changes":research.changes(profile_id,since)}
+    results=[]
+    for row in rows[:20]:
+        if since and row['created_at']<since: continue
+        report=await research_remote.get(row['report_id'])
+        results.extend(dict(c,report_id=row['report_id']) for c in report['changes'])
+    return {"changes":results[:200]}
+
+@mcp.tool()
+def hz_register_institution(profile: dict) -> dict:
+    """Trusted local registration; feed additions require operator review."""
+    if profile.get("mode") != "institution_watch": raise ValueError("Institution profile required")
+    return research.register(profile)
+
+@mcp.tool()
+def hz_cancel_job(job_id: str) -> dict:
+    return research.cancel(job_id)
+
+@mcp.resource("horizon://profiles")
+def r_profiles() -> dict:
+    return hz_list_profiles()
+
+@mcp.resource("horizon://reports")
+async def r_reports() -> dict:
+    return await hz_list_reports()
+
+@mcp.resource("horizon://reports/{report_id}")
+async def r_report(report_id: str) -> dict:
+    return await hz_get_report(report_id)
 
 
 def main() -> None:

@@ -1,0 +1,99 @@
+{
+  "schema_version": "1.0",
+  "profile_id": "world/global",
+  "mode": "world_radar",
+  "name": "global",
+  "enabled": true,
+  "topics": [
+    "world",
+    "news"
+  ],
+  "regions": [
+    "Americas",
+    "Europe",
+    "Africa",
+    "Asia",
+    "Oceania"
+  ],
+  "languages": [
+    "en"
+  ],
+  "queries": [
+    {
+      "source": "google_news",
+      "text": "world news Americas",
+      "language": "en",
+      "country": "US",
+      "topic": "world news",
+      "region": "Americas"
+    },
+    {
+      "source": "google_news",
+      "text": "world news Europe",
+      "language": "en",
+      "country": "GB",
+      "topic": "world news",
+      "region": "Europe"
+    },
+    {
+      "source": "google_news",
+      "text": "world news Africa",
+      "language": "en",
+      "country": "ZA",
+      "topic": "world news",
+      "region": "Africa"
+    },
+    {
+      "source": "google_news",
+      "text": "world news Asia",
+      "language": "en",
+      "country": "IN",
+      "topic": "world news",
+      "region": "Asia"
+    },
+    {
+      "source": "google_news",
+      "text": "world news Oceania",
+      "language": "en",
+      "country": "AU",
+      "topic": "world news",
+      "region": "Oceania"
+    },
+    {
+      "source": "gdelt",
+      "text": "world news",
+      "language": "english",
+      "topic": "world news",
+      "region": "unknown"
+    }
+  ],
+  "sources": [
+    "gdelt",
+    "google_news",
+    "rss"
+  ],
+  "schedule_hint": "daily",
+  "lookback_hours": 48,
+  "max_items": 60,
+  "max_queries": 8,
+  "ranking": {
+    "mode": "keyword",
+    "minimum_score": 0
+  },
+  "output": {
+    "languages": [
+      "en"
+    ],
+    "markdown": true,
+    "json": true,
+    "changes": true
+  },
+  "feeds": [
+    {
+      "name": "Simon Willison (existing Horizon public feed)",
+      "url": "https://simonwillison.net/atom/everything/",
+      "topic": "technology",
+      "region": "unknown"
+    }
+  ]
+}

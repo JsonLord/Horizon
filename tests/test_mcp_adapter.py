@@ -108,3 +108,12 @@ def test_apply_source_filter_handles_twitter_and_openbb() -> None:
     assert filtered.sources.twitter.enabled is True
     assert filtered.sources.openbb.enabled is False
     assert filtered.sources.openbb.watchlists == []
+
+def test_all_new_source_filters_are_isolated():
+    from src.mcp.horizon_adapter import get_enabled_sources
+    config=Config.model_validate({'ai':{'provider':'openai','model':'fixture','api_key_env':'FIXTURE_KEY'},'sources':{'gdelt':{'enabled':True},'google_news':{'enabled':True},'ossinsight':{'enabled':True},'hackernews':{'enabled':True}},'filtering':{}})
+    for source in ['gdelt','google_news','ossinsight']:
+        clone,chosen,unknown=apply_source_filter(config,[source])
+        assert chosen==[source] and unknown==[]
+        assert get_enabled_sources(clone)==[source]
+    assert config.sources.gdelt.enabled and config.sources.google_news.enabled and config.sources.ossinsight.enabled

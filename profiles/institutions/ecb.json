@@ -1,0 +1,77 @@
+{
+  "schema_version": "1.0",
+  "profile_id": "institutions/ecb",
+  "mode": "institution_watch",
+  "name": "European Central Bank",
+  "enabled": true,
+  "topics": [
+    "European Central Bank"
+  ],
+  "regions": [
+    "Europe"
+  ],
+  "languages": [
+    "en"
+  ],
+  "queries": [
+    {
+      "source": "google_news",
+      "text": "site:ecb.europa.eu",
+      "language": "en",
+      "country": "US",
+      "topic": "European Central Bank",
+      "region": "Europe"
+    },
+    {
+      "source": "google_news",
+      "text": "\"European Central Bank\"",
+      "language": "en",
+      "country": "DE",
+      "topic": "European Central Bank",
+      "region": "Europe"
+    },
+    {
+      "source": "gdelt",
+      "text": "\"European Central Bank\"",
+      "language": "english",
+      "topic": "European Central Bank",
+      "region": "Europe"
+    }
+  ],
+  "sources": [
+    "gdelt",
+    "google_news",
+    "rss"
+  ],
+  "schedule_hint": "daily",
+  "lookback_hours": 48,
+  "max_items": 60,
+  "max_queries": 8,
+  "ranking": {
+    "mode": "institution_relevance",
+    "minimum_score": 0
+  },
+  "output": {
+    "languages": [
+      "en"
+    ],
+    "markdown": true,
+    "json": true,
+    "changes": true
+  },
+  "institution": {
+    "id": "ecb",
+    "names": [
+      "European Central Bank"
+    ],
+    "aliases": [
+      "ECB"
+    ],
+    "official_domains": [
+      "ecb.europa.eu"
+    ],
+    "official_feeds": [
+      "https://www.ecb.europa.eu/rss/press.html"
+    ]
+  }
+}

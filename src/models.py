@@ -2,7 +2,7 @@
 
 from datetime import datetime, timezone
 from enum import Enum
-from typing import Optional, List, Dict, Any, Union
+from typing import Optional, List, Dict, Any, Union, Literal
 from pydantic import BaseModel, HttpUrl, Field, field_validator
 
 
@@ -99,6 +99,7 @@ AI_PROVIDER_DEFAULTS = {
 class AIConfig(BaseModel):
     """AI client configuration."""
 
+    mode: Literal["auto", "local", "off"] = "auto"
     provider: AIProvider
     provider_chain: Optional[str] = None
     model: str

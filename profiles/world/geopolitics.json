@@ -1,0 +1,91 @@
+{
+  "schema_version": "1.0",
+  "profile_id": "world/geopolitics",
+  "mode": "world_radar",
+  "name": "geopolitics",
+  "enabled": true,
+  "topics": [
+    "diplomacy",
+    "conflict"
+  ],
+  "regions": [
+    "Americas",
+    "Europe",
+    "Africa",
+    "Asia",
+    "Oceania"
+  ],
+  "languages": [
+    "en"
+  ],
+  "queries": [
+    {
+      "source": "google_news",
+      "text": "diplomacy conflict Americas",
+      "language": "en",
+      "country": "US",
+      "topic": "diplomacy conflict",
+      "region": "Americas"
+    },
+    {
+      "source": "google_news",
+      "text": "diplomacy conflict Europe",
+      "language": "en",
+      "country": "GB",
+      "topic": "diplomacy conflict",
+      "region": "Europe"
+    },
+    {
+      "source": "google_news",
+      "text": "diplomacy conflict Africa",
+      "language": "en",
+      "country": "ZA",
+      "topic": "diplomacy conflict",
+      "region": "Africa"
+    },
+    {
+      "source": "google_news",
+      "text": "diplomacy conflict Asia",
+      "language": "en",
+      "country": "IN",
+      "topic": "diplomacy conflict",
+      "region": "Asia"
+    },
+    {
+      "source": "google_news",
+      "text": "diplomacy conflict Oceania",
+      "language": "en",
+      "country": "AU",
+      "topic": "diplomacy conflict",
+      "region": "Oceania"
+    },
+    {
+      "source": "gdelt",
+      "text": "diplomacy conflict",
+      "language": "english",
+      "topic": "diplomacy conflict",
+      "region": "unknown"
+    }
+  ],
+  "sources": [
+    "gdelt",
+    "google_news",
+    "rss"
+  ],
+  "schedule_hint": "daily",
+  "lookback_hours": 48,
+  "max_items": 60,
+  "max_queries": 8,
+  "ranking": {
+    "mode": "keyword",
+    "minimum_score": 0
+  },
+  "output": {
+    "languages": [
+      "en"
+    ],
+    "markdown": true,
+    "json": true,
+    "changes": true
+  }
+}

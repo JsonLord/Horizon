@@ -1,0 +1,77 @@
+{
+  "schema_version": "1.0",
+  "profile_id": "institutions/who",
+  "mode": "institution_watch",
+  "name": "World Health Organization",
+  "enabled": true,
+  "topics": [
+    "World Health Organization"
+  ],
+  "regions": [
+    "world"
+  ],
+  "languages": [
+    "en"
+  ],
+  "queries": [
+    {
+      "source": "google_news",
+      "text": "site:who.int",
+      "language": "en",
+      "country": "US",
+      "topic": "World Health Organization",
+      "region": "world"
+    },
+    {
+      "source": "google_news",
+      "text": "\"World Health Organization\"",
+      "language": "en",
+      "country": "DE",
+      "topic": "World Health Organization",
+      "region": "world"
+    },
+    {
+      "source": "gdelt",
+      "text": "\"World Health Organization\"",
+      "language": "english",
+      "topic": "World Health Organization",
+      "region": "world"
+    }
+  ],
+  "sources": [
+    "gdelt",
+    "google_news",
+    "rss"
+  ],
+  "schedule_hint": "daily",
+  "lookback_hours": 48,
+  "max_items": 60,
+  "max_queries": 8,
+  "ranking": {
+    "mode": "institution_relevance",
+    "minimum_score": 0
+  },
+  "output": {
+    "languages": [
+      "en"
+    ],
+    "markdown": true,
+    "json": true,
+    "changes": true
+  },
+  "institution": {
+    "id": "who",
+    "names": [
+      "World Health Organization"
+    ],
+    "aliases": [
+      "WHO"
+    ],
+    "official_domains": [
+      "who.int"
+    ],
+    "official_feeds": [
+      "https://www.who.int/rss-feeds/news-english.xml"
+    ]
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "analysis_mode": "deterministic",
+  "changes": [
+    {
+      "finding_id": "914ea8c95eed1d1eaf6bcc22",
+      "institution_ids": [],
+      "observed_at": "2026-10-09T13:20:54.365980+00:00",
+      "type": "new"
+    }
+  ],
+  "coverage": {
+    "basis": "search query region; event geography unknown",
+    "missing_regions": [
+      "Africa",
+      "Americas",
+      "Asia",
+      "Oceania"
+    ],
+    "regions": [
+      "Europe"
+    ]
+  },
+  "created_at": "2026-10-09T13:20:54.365980+00:00",
+  "errors": [],
+  "findings": [
+    {
+      "change_type": "new",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "914ea8c95eed1d1eaf6bcc22",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "FICTIONAL TEST FIXTURE: science research announcement",
+          "source_id": "63f57e8abf5c59b4537f5cb2"
+        }
+      ],
+      "finding_id": "914ea8c95eed1d1eaf6bcc22",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-09T13:20:54.365689+00:00",
+      "profile_relevance": 1.0,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-01-01T00:00:00+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention",
+      "regions": [
+        "Europe"
+      ],
+      "source_ids": [
+        "63f57e8abf5c59b4537f5cb2"
+      ],
+      "summary": "FICTIONAL TEST FIXTURE: science research announcement",
+      "topics": [
+        "world",
+        "news"
+      ],
+      "verification": "single_secondary_source"
+    }
+  ],
+  "limitations": [
+    "Bounded queries do not provide exhaustive global coverage.",
+    "GDELT seen time is an observation timestamp, not verified publication time.",
+    "Contradiction/resolution labels require explicit source wording and review; no automatic truth adjudication.",
+    "OFFLINE FICTIONAL FIXTURE ONLY: not an observed news report."
+  ],
+  "links": {
+    "json": "intel/reports/world/2026/10/09/00000000000000000000000000000000/report.json",
+    "markdown": "intel/reports/world/2026/10/09/00000000000000000000000000000000/report.md"
+  },
+  "model_used": null,
+  "profile_id": "world/global",
+  "question": "",
+  "report_id": "00000000000000000000000000000000",
+  "run_id": "00000000000000000000000000000000",
+  "schema_version": "1.0",
+  "sources": [
+    {
+      "canonical_url": "https://example.org/fictional-test-fixture",
+      "content_fingerprint": "ae5c9dea1ac60404d46a3dd4",
+      "fetched_at": "2026-10-09T13:20:54.365689+00:00",
+      "institution_id": null,
+      "language": "unknown",
+      "origin_collector": "rss",
+      "original_url": "https://example.org/fictional-test-fixture",
+      "profile_id": "world/global",
+      "published_at": "2026-01-01T00:00:00+00:00",
+      "publisher": "Fictional fixture publisher",
+      "search_query": null,
+      "source_country": "unknown",
+      "source_id": "63f57e8abf5c59b4537f5cb2",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    }
+  ],
+  "statistics": {
+    "collectors": [
+      {
+        "items": 1,
+        "source": "rss",
+        "status": "ok"
+      }
+    ],
+    "items": 1,
+    "sources": 1
+  },
+  "status": "complete",
+  "time_window": {
+    "since": "2026-10-07T13:20:54.365980+00:00",
+    "until": "2026-10-09T13:20:54.365980+00:00"
+  }
+}

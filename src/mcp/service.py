@@ -26,6 +26,16 @@ from .run_store import RunStore
 from ..services.webhook import WebhookNotifier
 
 
+def _redact_config(value, key=""):
+    sensitive=("password","secret","token","header","authorization","cookie","base_url","endpoint")
+    if any(x in key.lower() for x in sensitive) and not key.lower().endswith("_env"):
+        return "[redacted]"
+    if isinstance(value, dict): return {k:_redact_config(v,k) for k,v in value.items()}
+    if isinstance(value, list): return [_redact_config(v,key) for v in value]
+    if isinstance(value,str) and "://" in value: return "[redacted]"
+    return value
+
+
 def _default_runs_root() -> Path:
     return Path(__file__).resolve().parents[2] / "data" / "mcp-runs"
 
@@ -155,7 +165,7 @@ class HorizonPipelineService:
             "config_path": str(ctx.config_path),
             "selected_sources": selected_sources,
             "unknown_sources": unknown_sources,
-            "config": ctx.config.model_dump(mode="json"),
+            "config": _redact_config(ctx.config.model_dump(mode="json")),
         }
 
     async def validate_config(
@@ -175,7 +185,11 @@ class HorizonPipelineService:
         missing_env: list[str] = []
 
         if check_env:
-            required = [ctx.config.ai.api_key_env]
+            from ..models import AIConfig
+            from ..ai.local import use_local
+            local_mode=isinstance(ctx.config.ai,AIConfig) and use_local(ctx.config.ai)
+            required = [] if local_mode else [ctx.config.ai.api_key_env]
+            if local_mode: warnings.append("Deterministic analysis active; no model credential required.")
             for key in required:
                 if not os.getenv(key):
                     missing_env.append(key)
@@ -286,9 +300,14 @@ class HorizonPipelineService:
         if not items:
             raise HorizonMcpError(code="HZ_EMPTY_INPUT", message="No items available for scoring.")
 
-        ai_client = ctx.runtime.create_ai_client(ctx.config.ai)
-        analyzer = ctx.runtime.ContentAnalyzer(ai_client)
-        scored_items = await analyzer.analyze_batch(items)
+        from ..models import AIConfig
+        from ..ai.local import use_local,LocalContentAnalyzer
+        if isinstance(ctx.config.ai,AIConfig) and use_local(ctx.config.ai):
+            scored_items=await LocalContentAnalyzer().analyze_batch(items)
+        else:
+            ai_client = ctx.runtime.create_ai_client(ctx.config.ai)
+            analyzer = ctx.runtime.ContentAnalyzer(ai_client)
+            scored_items = await analyzer.analyze_batch(items)
 
         self.run_store.save_items(run_id, "scored", items_to_dicts(scored_items))
         score_threshold = ctx.config.filtering.ai_score_threshold
@@ -402,9 +421,14 @@ class HorizonPipelineService:
         if not items:
             raise HorizonMcpError(code="HZ_EMPTY_INPUT", message="No items available for enrichment.")
 
-        ai_client = ctx.runtime.create_ai_client(ctx.config.ai)
-        enricher = ctx.runtime.ContentEnricher(ai_client)
-        await enricher.enrich_batch(items)
+        from ..models import AIConfig
+        from ..ai.local import use_local
+        if not (isinstance(ctx.config.ai,AIConfig) and use_local(ctx.config.ai)):
+            model_items=[i for i in items if i.metadata.get('analysis_mode')!='deterministic']
+            if model_items:
+                ai_client = ctx.runtime.create_ai_client(ctx.config.ai)
+                enricher = ctx.runtime.ContentEnricher(ai_client)
+                await enricher.enrich_batch(model_items)
 
         self.run_store.save_items(run_id, "enriched", items_to_dicts(items))
 

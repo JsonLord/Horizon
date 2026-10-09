@@ -402,3 +402,9 @@ Want to share valuable source discoveries with the Horizon community? Please sub
 ## License
 
 [MIT](LICENSE)
+
+## Credential-free agent research
+
+GitHub-hosted Actions runners collect approved world and institution profiles, compare with the verified `intel` archive, and publish source-attributed JSON and Markdown using the automatic job token. No news or model API key is required. Authorized agents dispatch `horizon-intel.yml`; public consumers read the archive anonymously. The existing CLI, wizard and local stdio MCP tools remain available.
+
+See [the agent playbook and verification record](docs/agent-research.md) for dispatch, run status, report provenance, public archive paths and limitations. Native scoring supports `ai.mode=auto|local|off` with deterministic fallback.

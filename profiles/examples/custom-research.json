@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0",
+  "profile_id": "examples/custom-research",
+  "mode": "research_job",
+  "name": "Custom research",
+  "enabled": true,
+  "topics": [
+    "science"
+  ],
+  "regions": [
+    "Europe"
+  ],
+  "languages": [
+    "en"
+  ],
+  "queries": [
+    {
+      "source": "google_news",
+      "text": "science research",
+      "language": "en",
+      "country": "US",
+      "topic": "science",
+      "region": "unknown"
+    }
+  ],
+  "sources": [
+    "gdelt",
+    "google_news",
+    "rss"
+  ],
+  "schedule_hint": "manual",
+  "lookback_hours": 48,
+  "max_items": 60,
+  "max_queries": 8,
+  "ranking": {
+    "mode": "keyword",
+    "minimum_score": 0
+  },
+  "output": {
+    "languages": [
+      "en"
+    ],
+    "markdown": true,
+    "json": true,
+    "changes": true
+  }
+}

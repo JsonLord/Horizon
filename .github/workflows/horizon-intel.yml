@@ -1,0 +1,90 @@
+name: Horizon intelligence archive
+on:
+  schedule:
+    - cron: '23 6 * * *'
+  workflow_dispatch:
+    inputs:
+      profile_id:
+        description: Approved profile ID (empty runs standard set)
+        required: false
+        type: string
+      lookback_hours:
+        description: Lookback hours (1–168)
+        required: false
+        default: '48'
+        type: string
+permissions:
+  contents: read
+concurrency:
+  group: horizon-intel-publication
+  cancel-in-progress: false
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - uses: astral-sh/setup-uv@v6
+      - run: uv sync --frozen
+      - name: Validate inputs and run shared service
+        env:
+          PROFILE_ID: ${{ inputs.profile_id }}
+          LOOKBACK_HOURS: ${{ inputs.lookback_hours || '48' }}
+          HORIZON_AI_MODE: 'off'
+          ARCHIVE_REPO: ${{ github.repository }}
+        run: |
+          uv run python - <<'PY'
+          import asyncio, os
+          from argparse import Namespace
+          from src.research.cli import run
+          profile = os.environ.get('PROFILE_ID') or None
+          hours = int(os.environ['LOOKBACK_HOURS'])
+          if not 1 <= hours <= 168: raise ValueError('Invalid lookback')
+          raise SystemExit(asyncio.run(run(Namespace(profile_id=profile, lookback_hours=hours, output='data/research', publish=False, remote='https://github.com/'+os.environ['ARCHIVE_REPO']+'.git'))))
+          PY
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: research-archive
+          path: data/research/intel
+          retention-days: 7
+          if-no-files-found: error
+  publish:
+    needs: collect
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - uses: astral-sh/setup-uv@v6
+      - run: uv sync --frozen
+      - uses: actions/download-artifact@v4
+        with:
+          name: research-archive
+          path: data/research/intel
+      - name: Publish using automatic job token
+        env:
+          ARCHIVE_REPO: ${{ github.repository }}
+          GITHUB_TOKEN: ${{ github.token }}
+        run: |
+          uv run python - <<'PY'
+          import os
+          from src.research.publisher import publish
+          # checkout's scoped extraheader supplies authentication, including to temporary Git repositories.
+          import subprocess
+          key = 'http.https://github.com/.extraheader'
+          header = subprocess.check_output(['git','config','--get',key],text=True).strip()
+          os.environ['GIT_CONFIG_COUNT']='1'
+          os.environ['GIT_CONFIG_KEY_0']=key
+          os.environ['GIT_CONFIG_VALUE_0']=header
+          print(publish('data/research','https://github.com/'+os.environ['ARCHIVE_REPO']+'.git'))
+          PY
