@@ -22,16 +22,16 @@ concurrency:
   queue: max
 jobs:
   collect:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     timeout-minutes: 20
     outputs:
       new_reports: ${{ steps.research.outputs.new_reports }}
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
         with:
           python-version: '3.11'
-      - uses: astral-sh/setup-uv@v6
+      - uses: astral-sh/setup-uv@v7
       - run: uv sync --frozen
       - name: Validate inputs and run shared service
         id: research
@@ -43,8 +43,8 @@ jobs:
           HORIZON_AI_MODE: 'off'
           ARCHIVE_REPO: ${{ github.repository }}
         run: uv run python -m src.control.runner
-      - uses: actions/upload-artifact@v4
-        if: always()
+      - uses: actions/upload-artifact@v6
+        if: always() && hashFiles('data/research/intel/manifest.json') != ''
         with:
           name: research-archive
           path: data/research/intel
@@ -53,20 +53,20 @@ jobs:
   publish:
     needs: collect
     if: needs.collect.outputs.new_reports != '0'
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     timeout-minutes: 10
     permissions:
       contents: write
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
         with:
           fetch-depth: 1
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@v6
         with:
           python-version: '3.11'
-      - uses: astral-sh/setup-uv@v6
+      - uses: astral-sh/setup-uv@v7
       - run: uv sync --frozen
-      - uses: actions/download-artifact@v4
+      - uses: actions/download-artifact@v7
         with:
           name: research-archive
           path: data/research/intel

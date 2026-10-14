@@ -1,5 +1,13 @@
 # GitHub-native agent research
 
+## Production archive compatibility incident — 2026-10-14
+
+Main's scheduled run [38412787116](https://github.com/JsonLord/Horizon/actions/runs/38412787116) failed before collection because its strict Report model rejected the optional `schedule` field introduced by this branch's earlier archive publication. Reproduction against the actual public archive raises `extra_forbidden` in history restore. Accepting the known field on main, while keeping unknown fields forbidden and retaining raw artifact checksum validation, fixes restore without rewriting evidence.
+
+[PR #4](https://github.com/JsonLord/Horizon/pull/4) contains the isolated main-based compatibility hotfix, four regression cases, artifact-existence upload guard, verified Node 24 research actions and pinned Ubuntu 24.04. Its hosted smoke [38503133662](https://github.com/JsonLord/Horizon/actions/runs/38503133662) successfully collected and published using the automatic token. Independent anonymous reads verified report `4737b8c5720c499e9e95371b5a95eff5` at publication `ca38d37a08c0eab9a79b1ac3c3350a326e869df9`, with prior validated snapshot `93c38440da44f1ccdd3d0c2a7d1151a8266a9328`. The report has 17 findings/18 sources and partial coverage; prior history is preserved.
+
+This integration branch already accepts the metadata. It now carries the same regression tests, upload guard, Node 24 actions and Ubuntu 24.04 pin in the reusable research/validation workflows. Full integration suite: **385 passed in 5.40s**, zero failures/skips; all workflows pass the documented actionlint compatibility wrapper with ShellCheck. Production main still needs an authorized merge of PR #4 or this compatible integration before its schedules recover. Main-based CI passes 322 tests and both existing MCP smoke checks. Branch smoke publication alone does not deploy source changes to main.
+
 The corrected root `spec.md` and its appended controller/scheduling task are the acceptance contract. PR #1 is merged; this implementation uses `feat/actions-mcp-schedules` and preserves PR #2's source registry. Scheduled and remote execution uses GitHub-hosted runners exclusively. Existing CLI, wizard, scrapers, deterministic fallback and local stdio MCP remain available for development.
 
 ## Controller and scheduling implementation — 2026-10-10 Europe/Berlin
