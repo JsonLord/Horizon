@@ -1,0 +1,30 @@
+name: Research archive regression
+on:
+  pull_request:
+    paths:
+      - 'src/research/**'
+      - 'schemas/**'
+      - 'tests/**'
+      - '.github/workflows/horizon-intel.yml'
+      - '.github/workflows/research-validation.yml'
+  push:
+    branches: [fix/archive-provenance-compat]
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.11'
+      - uses: astral-sh/setup-uv@v7
+      - run: uv sync --frozen --extra dev
+      - run: uv run --extra dev pytest
+      - name: Credential-free legacy and stdio smoke checks
+        run: |
+          cp data/config.example.json data/config.json
+          uv run python scripts/check_mcp.py
+          uv run python scripts/check_research_mcp.py

@@ -96,6 +96,7 @@ class Report(BaseModel):
     links: dict
     history: dict = Field(default_factory=dict)
     workflow: dict = Field(default_factory=dict)
+    schedule: dict = Field(default_factory=dict)
 
 
 class Manifest(BaseModel):
