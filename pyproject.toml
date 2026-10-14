@@ -21,6 +21,7 @@ dependencies = [
     "markdown>=3.10.2",
     "mcp>=1.0.0",
     "jsonschema>=4.26.0",
+    "croniter>=6.0.0",
 ]
 
 [project.optional-dependencies]
@@ -41,6 +42,7 @@ twitter = [
 horizon = "src.main:main"
 horizon-mcp = "src.mcp.server:main"
 horizon-wizard = "src.setup.wizard:main"
+horizon-source = "src.research.registry:main"
 horizon-webhook = "src.services.webhook_cli:main"
 
 [build-system]

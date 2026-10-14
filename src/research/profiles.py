@@ -137,9 +137,14 @@ class Profile(Strict):
         )
 
 
-def load_profiles(directory=None):
-    return {
+def load_profiles(directory=None, registry_path=None, include_registry=True):
+    profiles = {
         p.profile_id: p
         for f in sorted(Path(directory or ROOT / "profiles").rglob("*.json"))
         if (p := Profile.model_validate_json(f.read_text())).enabled
     }
+    if include_registry and (directory is None or registry_path is not None):
+        from .registry import REGISTRY, apply_registry, load_registry
+
+        apply_registry(profiles, load_registry(registry_path or REGISTRY))
+    return profiles

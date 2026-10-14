@@ -16,6 +16,9 @@ async def _main() -> None:
     service = HorizonPipelineService()
     validation = await service.validate_config(
         horizon_path=str(horizon_path),
+        config_path=str(horizon_path / "data/config.json")
+        if (horizon_path / "data/config.json").is_file()
+        else str(horizon_path / "data/config.example.json"),
         check_env=False,
     )
     metrics = hz_get_metrics()

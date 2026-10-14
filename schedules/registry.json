@@ -1,0 +1,55 @@
+{
+  "schema_version": "1.0",
+  "schedules": [
+    {
+      "schedule_id": "daily-global",
+      "name": "Daily world/global",
+      "profile_id": "world/global",
+      "cron": "23 6 * * *",
+      "timezone": "UTC",
+      "lookback_hours": 48,
+      "enabled": true,
+      "description": "Migrated from the original daily batch; exactly one daily run per profile."
+    },
+    {
+      "schedule_id": "daily-ecb",
+      "name": "Daily institutions/ecb",
+      "profile_id": "institutions/ecb",
+      "cron": "23 6 * * *",
+      "timezone": "UTC",
+      "lookback_hours": 48,
+      "enabled": true,
+      "description": "Migrated from the original daily batch; exactly one daily run per profile."
+    },
+    {
+      "schedule_id": "daily-who",
+      "name": "Daily institutions/who",
+      "profile_id": "institutions/who",
+      "cron": "23 6 * * *",
+      "timezone": "UTC",
+      "lookback_hours": 48,
+      "enabled": true,
+      "description": "Migrated from the original daily batch; exactly one daily run per profile."
+    },
+    {
+      "schedule_id": "daily-cern",
+      "name": "Daily institutions/cern",
+      "profile_id": "institutions/cern",
+      "cron": "23 6 * * *",
+      "timezone": "UTC",
+      "lookback_hours": 48,
+      "enabled": true,
+      "description": "Migrated from the original daily batch; exactly one daily run per profile."
+    },
+    {
+      "schedule_id": "daily-helmholtz",
+      "name": "Daily institutions/helmholtz",
+      "profile_id": "institutions/helmholtz",
+      "cron": "23 6 * * *",
+      "timezone": "UTC",
+      "lookback_hours": 48,
+      "enabled": true,
+      "description": "Migrated from the original daily batch; exactly one daily run per profile."
+    }
+  ]
+}

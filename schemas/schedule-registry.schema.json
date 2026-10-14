@@ -1,0 +1,81 @@
+{
+  "$defs": {
+    "Schedule": {
+      "additionalProperties": false,
+      "properties": {
+        "cron": {
+          "maxLength": 120,
+          "title": "Cron",
+          "type": "string"
+        },
+        "description": {
+          "default": "",
+          "maxLength": 1000,
+          "title": "Description",
+          "type": "string"
+        },
+        "enabled": {
+          "default": true,
+          "title": "Enabled",
+          "type": "boolean"
+        },
+        "lookback_hours": {
+          "default": 48,
+          "maximum": 168,
+          "minimum": 1,
+          "title": "Lookback Hours",
+          "type": "integer"
+        },
+        "name": {
+          "maxLength": 120,
+          "minLength": 1,
+          "title": "Name",
+          "type": "string"
+        },
+        "profile_id": {
+          "pattern": "^(world|institutions|examples)/[a-z0-9-]{1,64}$",
+          "title": "Profile Id",
+          "type": "string"
+        },
+        "schedule_id": {
+          "pattern": "^[a-z0-9][a-z0-9-]{0,63}$",
+          "title": "Schedule Id",
+          "type": "string"
+        },
+        "timezone": {
+          "default": "UTC",
+          "maxLength": 80,
+          "title": "Timezone",
+          "type": "string"
+        }
+      },
+      "required": [
+        "schedule_id",
+        "name",
+        "profile_id",
+        "cron"
+      ],
+      "title": "Schedule",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "schedules": {
+      "items": {
+        "$ref": "#/$defs/Schedule"
+      },
+      "maxItems": 64,
+      "title": "Schedules",
+      "type": "array"
+    },
+    "schema_version": {
+      "const": "1.0",
+      "default": "1.0",
+      "title": "Schema Version",
+      "type": "string"
+    }
+  },
+  "title": "ScheduleRegistry",
+  "type": "object"
+}

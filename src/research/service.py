@@ -1,4 +1,4 @@
-"""Shared bounded research jobs for trusted MCP, Actions and authenticated HTTP."""
+"""Shared bounded research jobs for trusted local MCP and GitHub Actions."""
 
 import asyncio
 import json
@@ -230,9 +230,28 @@ class ResearchService:
                     model, mode, warnings = await enrich(
                         findings, os.getenv("HORIZON_AI_MODE", "auto")
                     )
+                    report_id = jid
+                    if job["requested_by"] == "github_actions" and os.getenv(
+                        "GITHUB_RUN_ID"
+                    ):
+                        import hashlib
+
+                        logical = (
+                            os.getenv("HORIZON_REQUEST_ID")
+                            or os.environ["GITHUB_RUN_ID"]
+                        )
+                        identity = "|".join(
+                            (
+                                os.getenv("GITHUB_REPOSITORY", ""),
+                                os.getenv("HORIZON_SCHEDULE_ID", ""),
+                                logical,
+                                profile.profile_id,
+                            )
+                        )
+                        report_id = hashlib.sha256(identity.encode()).hexdigest()[:32]
                     report = make_report(
                         profile,
-                        jid,
+                        report_id,
                         req.question,
                         findings,
                         sources,
@@ -267,7 +286,30 @@ class ResearchService:
                         "run_attempt": os.getenv("GITHUB_RUN_ATTEMPT"),
                         "source_commit": os.getenv("GITHUB_SHA"),
                         "repository": os.getenv("GITHUB_REPOSITORY"),
+                        "name": os.getenv("GITHUB_WORKFLOW"),
+                        "workflow_ref": os.getenv("GITHUB_WORKFLOW_REF"),
+                        "ref": os.getenv("GITHUB_REF_NAME"),
+                        "request_id": os.getenv("HORIZON_REQUEST_ID") or None,
+                        "schedule_id": os.getenv("HORIZON_SCHEDULE_ID") or None,
+                        "effective_lookback_hours": profile.lookback_hours,
                     }
+                    if os.getenv("HORIZON_SCHEDULE_ID"):
+                        report["schedule"] = {
+                            "schedule_id": os.environ["HORIZON_SCHEDULE_ID"],
+                            "occurrence_key": os.environ["HORIZON_SCHEDULE_ID"]
+                            + ":"
+                            + os.environ.get("GITHUB_RUN_ID", jid),
+                            "scheduled_execution_time": os.getenv(
+                                "HORIZON_SCHEDULED_AT"
+                            )
+                            or None,
+                            "scheduled_time_basis": "event_timestamp"
+                            if os.getenv("HORIZON_SCHEDULED_AT")
+                            else "not_provided_by_github",
+                            "collection_started_at": job["started_at"],
+                            "actual_collection_timestamp": report["created_at"],
+                            "lookback_hours": profile.lookback_hours,
+                        }
                     job["stage"] = "archiving"
                     self.persist(job)
                     manifest = self.archive.write(report)
@@ -278,7 +320,7 @@ class ResearchService:
                         if manifest["status"] == "partial"
                         else "completed",
                         stage="done",
-                        report_id=jid,
+                        report_id=report_id,
                         artifact_manifest=manifest,
                         counts=report["statistics"],
                         warnings=warnings,

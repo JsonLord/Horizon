@@ -1,0 +1,99 @@
+{
+  "$defs": {
+    "RegisteredSource": {
+      "additionalProperties": false,
+      "properties": {
+        "enabled": {
+          "default": true,
+          "title": "Enabled",
+          "type": "boolean"
+        },
+        "feed_url": {
+          "maxLength": 2048,
+          "title": "Feed Url",
+          "type": "string"
+        },
+        "name": {
+          "maxLength": 120,
+          "minLength": 1,
+          "title": "Name",
+          "type": "string"
+        },
+        "profile_ids": {
+          "items": {
+            "pattern": "^(world|institutions|examples)/[a-z0-9-]{1,64}$",
+            "type": "string"
+          },
+          "maxItems": 20,
+          "minItems": 1,
+          "title": "Profile Ids",
+          "type": "array"
+        },
+        "region": {
+          "default": "unknown",
+          "maxLength": 120,
+          "minLength": 1,
+          "title": "Region",
+          "type": "string"
+        },
+        "site_url": {
+          "maxLength": 2048,
+          "title": "Site Url",
+          "type": "string"
+        },
+        "source_id": {
+          "pattern": "^[a-f0-9]{24}$",
+          "title": "Source Id",
+          "type": "string"
+        },
+        "topic": {
+          "default": "general",
+          "maxLength": 120,
+          "minLength": 1,
+          "title": "Topic",
+          "type": "string"
+        },
+        "verification": {
+          "additionalProperties": true,
+          "title": "Verification",
+          "type": "object"
+        },
+        "verified_at": {
+          "format": "date-time",
+          "title": "Verified At",
+          "type": "string"
+        }
+      },
+      "required": [
+        "source_id",
+        "name",
+        "site_url",
+        "feed_url",
+        "profile_ids",
+        "verified_at",
+        "verification"
+      ],
+      "title": "RegisteredSource",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "schema_version": {
+      "const": "1.0",
+      "default": "1.0",
+      "title": "Schema Version",
+      "type": "string"
+    },
+    "sources": {
+      "items": {
+        "$ref": "#/$defs/RegisteredSource"
+      },
+      "maxItems": 64,
+      "title": "Sources",
+      "type": "array"
+    }
+  },
+  "title": "Registry",
+  "type": "object"
+}

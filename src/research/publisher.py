@@ -127,6 +127,18 @@ def publish(root, remote, branch="intel", dry_run=False):
                 src = Path(root) / row["path"]
                 dst = work / row["path"]
                 dst.parent.mkdir(parents=True, exist_ok=True)
+                prior = next(
+                    (
+                        r
+                        for r in existing["reports"]
+                        if r["report_id"] == row["report_id"]
+                    ),
+                    None,
+                )
+                if prior and (work / prior["path"]).read_bytes() != src.read_bytes():
+                    raise ValueError(
+                        "Published report IDs are immutable; duplicate execution must reuse its original report"
+                    )
                 for filename in ("report.json", "report.md", "manifest.json"):
                     shutil.copy2(src.parent / filename, dst.parent / filename)
             merged = {r["report_id"]: r for r in existing["reports"]}

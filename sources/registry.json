@@ -1,0 +1,23 @@
+{
+  "schema_version": "1.0",
+  "sources": [
+    {
+      "enabled": true,
+      "feed_url": "https://simonwillison.net/atom/everything/",
+      "name": "Simon Willison (existing Horizon public feed)",
+      "profile_ids": [
+        "world/global"
+      ],
+      "region": "unknown",
+      "site_url": "https://simonwillison.net/atom/everything/",
+      "source_id": "052434531db837d632ebc483",
+      "topic": "technology",
+      "verification": {
+        "entries": 30,
+        "feed_title": "Simon Willison's Weblog",
+        "latest_published_at": "2026-10-09T15:02:29+00:00"
+      },
+      "verified_at": "2026-10-09T21:51:19.454416Z"
+    }
+  ]
+}

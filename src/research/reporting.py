@@ -96,6 +96,7 @@ class Report(BaseModel):
     links: dict
     history: dict = Field(default_factory=dict)
     workflow: dict = Field(default_factory=dict)
+    schedule: dict = Field(default_factory=dict)
 
 
 class Manifest(BaseModel):
@@ -107,6 +108,8 @@ class Manifest(BaseModel):
     snapshot_id: str
     commit: str | None = None
     artifacts: list[dict]
+    workflow: dict = Field(default_factory=dict)
+    schedule: dict = Field(default_factory=dict)
 
 
 def atomic(path, data):
@@ -319,6 +322,8 @@ class Archive:
             status=report["status"],
             snapshot_id=hashlib.sha256(dumps(artifacts).encode()).hexdigest(),
             artifacts=artifacts,
+            workflow=report["workflow"],
+            schedule=report["schedule"],
         ).model_dump()
         atomic(self.root / base / "manifest.json", dumps(manifest))
         index = self.index()
@@ -334,6 +339,7 @@ class Archive:
                 "created_at": report["created_at"],
                 "path": base + "/report.json",
                 "workflow": report["workflow"],
+                "schedule": report["schedule"],
                 "history": report["history"],
             },
         )

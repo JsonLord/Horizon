@@ -40,7 +40,7 @@ jobs:
         run: uv run horizon --hours 168
 
       - name: Set current date as environment variable
-        run: echo "DATE=$(date +'%Y-%m-%d')" >> $GITHUB_ENV
+        run: echo "DATE=$(date +'%Y-%m-%d')" >> "$GITHUB_ENV"
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
