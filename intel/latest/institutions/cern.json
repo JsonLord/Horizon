@@ -1,0 +1,1216 @@
+{
+  "analysis_mode": "deterministic",
+  "changes": [
+    {
+      "finding_id": "f81d8d9268113b1c8799fa3b",
+      "institution_ids": [
+        "cern"
+      ],
+      "observed_at": "2026-10-15T11:44:26.042075+00:00",
+      "type": "new"
+    },
+    {
+      "finding_id": "3fdbfe1b6c555d2bbca6400e",
+      "institution_ids": [
+        "cern"
+      ],
+      "observed_at": "2026-10-15T11:44:26.042075+00:00",
+      "type": "new"
+    },
+    {
+      "finding_id": "e72811783bc23deb255a9abe",
+      "institution_ids": [
+        "cern"
+      ],
+      "observed_at": "2026-10-15T11:44:26.042075+00:00",
+      "type": "new"
+    },
+    {
+      "finding_id": "274c0e4f6c24aa4a36c75b18",
+      "institution_ids": [
+        "cern"
+      ],
+      "observed_at": "2026-10-15T11:44:26.042075+00:00",
+      "type": "new"
+    },
+    {
+      "finding_id": "dbbf369a7d1739e72e7ae725",
+      "institution_ids": [
+        "cern"
+      ],
+      "observed_at": "2026-10-15T11:44:26.042075+00:00",
+      "type": "new"
+    },
+    {
+      "finding_id": "0632c662c615c92e75c78ff9",
+      "institution_ids": [
+        "cern"
+      ],
+      "observed_at": "2026-10-15T11:44:26.042075+00:00",
+      "type": "new"
+    },
+    {
+      "finding_id": "fcb9123913377e677e5f6bb4",
+      "institution_ids": [
+        "cern"
+      ],
+      "observed_at": "2026-10-15T11:44:26.042075+00:00",
+      "type": "new"
+    },
+    {
+      "finding_id": "c24a96e44053b8068228c48f",
+      "institution_ids": [
+        "cern"
+      ],
+      "observed_at": "2026-10-15T11:44:26.042075+00:00",
+      "type": "new"
+    },
+    {
+      "finding_id": "963b79606c9b532df3e05d9d",
+      "institution_ids": [
+        "cern"
+      ],
+      "observed_at": "2026-10-15T11:44:26.042075+00:00",
+      "type": "new"
+    },
+    {
+      "finding_id": "2e3f06593862d0a79a71646a",
+      "institution_ids": [
+        "cern"
+      ],
+      "observed_at": "2026-10-15T11:44:26.042075+00:00",
+      "type": "new"
+    },
+    {
+      "finding_id": "81f6ad18467504b7c8d36ff5",
+      "institution_ids": [
+        "cern"
+      ],
+      "observed_at": "2026-10-15T11:44:26.042075+00:00",
+      "type": "new"
+    },
+    {
+      "finding_id": "99dd6f312621faf2a63b8fde",
+      "institution_ids": [
+        "cern"
+      ],
+      "observed_at": "2026-10-15T11:44:26.042075+00:00",
+      "type": "new"
+    },
+    {
+      "finding_id": "ebf961e2c59751461c70c48b",
+      "institution_ids": [
+        "cern"
+      ],
+      "observed_at": "2026-10-15T11:44:26.042075+00:00",
+      "type": "new"
+    }
+  ],
+  "coverage": {
+    "basis": "search query region; event geography unknown",
+    "missing_regions": [],
+    "regions": [
+      "Europe"
+    ]
+  },
+  "created_at": "2026-10-15T11:44:26.042075+00:00",
+  "errors": [
+    {
+      "code": "SOURCE_INCOMPLETE",
+      "source": "gdelt"
+    }
+  ],
+  "findings": [
+    {
+      "change_type": "new",
+      "classification": "reported_news",
+      "corroboration": 2,
+      "event_id": "f81d8d9268113b1c8799fa3b",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "Continuous Improvement gains momentum at CERN – Home - Home | CERN",
+          "source_id": "6587a579e02d48ecf408172d"
+        },
+        {
+          "location": "feed title",
+          "snippet": "Continuous Improvement gains momentum at CERN",
+          "source_id": "46a5936d893588e6a88017b5"
+        }
+      ],
+      "finding_id": "f81d8d9268113b1c8799fa3b",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [
+        "cern"
+      ],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-15T11:44:26.037649+00:00",
+      "profile_relevance": 8.048205582766204,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-14T12:53:51+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "Europe",
+        "unknown"
+      ],
+      "source_ids": [
+        "6587a579e02d48ecf408172d",
+        "46a5936d893588e6a88017b5"
+      ],
+      "summary": "Continuous Improvement gains momentum at CERN – Home - Home | CERN",
+      "topics": [
+        "CERN"
+      ],
+      "verification": "single_primary_source"
+    },
+    {
+      "change_type": "new",
+      "classification": "announcement",
+      "corroboration": 1,
+      "event_id": "3fdbfe1b6c555d2bbca6400e",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "Studying beautiful flavour transitions",
+          "source_id": "3fadf313321b695baea65991"
+        }
+      ],
+      "finding_id": "3fdbfe1b6c555d2bbca6400e",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [
+        "cern"
+      ],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-15T11:44:26.037649+00:00",
+      "profile_relevance": 7.08123799017361,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-14T13:41:25+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "unknown"
+      ],
+      "source_ids": [
+        "3fadf313321b695baea65991"
+      ],
+      "summary": "Studying beautiful flavour transitions",
+      "topics": [
+        "CERN"
+      ],
+      "verification": "single_primary_source"
+    },
+    {
+      "change_type": "new",
+      "classification": "reported_news",
+      "corroboration": 2,
+      "event_id": "e72811783bc23deb255a9abe",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "CERN Service Desk: Let’s improve the quality of our calls together – Home - Home | CERN",
+          "source_id": "2574f050a69e55651da062e8"
+        },
+        {
+          "location": "feed title",
+          "snippet": "CERN Service Desk: Let’s improve the quality of our calls together",
+          "source_id": "9da1369fdd834fcf0061ba02"
+        }
+      ],
+      "finding_id": "e72811783bc23deb255a9abe",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [
+        "cern"
+      ],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-15T11:44:26.037649+00:00",
+      "profile_relevance": 7.887927804988426,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-14T09:03:03+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "Europe",
+        "unknown"
+      ],
+      "source_ids": [
+        "2574f050a69e55651da062e8",
+        "9da1369fdd834fcf0061ba02"
+      ],
+      "summary": "CERN Service Desk: Let’s improve the quality of our calls together – Home - Home | CERN",
+      "topics": [
+        "CERN"
+      ],
+      "verification": "single_primary_source"
+    },
+    {
+      "change_type": "new",
+      "classification": "announcement",
+      "corroboration": 1,
+      "event_id": "274c0e4f6c24aa4a36c75b18",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "Exhibition | Imagining the future of physics",
+          "source_id": "630e9ced08af5f42bf2c3d6e"
+        }
+      ],
+      "finding_id": "274c0e4f6c24aa4a36c75b18",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [
+        "cern"
+      ],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-15T11:44:26.037649+00:00",
+      "profile_relevance": 6.922152342025463,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-14T09:52:20+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "unknown"
+      ],
+      "source_ids": [
+        "630e9ced08af5f42bf2c3d6e"
+      ],
+      "summary": "Exhibition | Imagining the future of physics",
+      "topics": [
+        "CERN"
+      ],
+      "verification": "single_primary_source"
+    },
+    {
+      "change_type": "new",
+      "classification": "reported_news",
+      "corroboration": 2,
+      "event_id": "dbbf369a7d1739e72e7ae725",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "The public consultation for the Future Circular Collider (FCC) project generates extensive dialogue with the local communities – Home - Home | CERN",
+          "source_id": "fe2d525b10fac7cedc6a8384"
+        },
+        {
+          "location": "feed title",
+          "snippet": "The public consultation for the Future Circular Collider (FCC) project generates extensive dialogue with the local communities",
+          "source_id": "239b9406f432df93654a5440"
+        }
+      ],
+      "finding_id": "dbbf369a7d1739e72e7ae725",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [
+        "cern"
+      ],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-15T11:44:26.037649+00:00",
+      "profile_relevance": 5.986712527210648,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-14T11:25:18+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "Europe",
+        "unknown"
+      ],
+      "source_ids": [
+        "fe2d525b10fac7cedc6a8384",
+        "239b9406f432df93654a5440"
+      ],
+      "summary": "The public consultation for the Future Circular Collider (FCC) project generates extensive dialogue with the local communities – Home - Home | CERN",
+      "topics": [
+        "CERN"
+      ],
+      "verification": "single_primary_source"
+    },
+    {
+      "change_type": "new",
+      "classification": "announcement",
+      "corroboration": 1,
+      "event_id": "0632c662c615c92e75c78ff9",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "Computer Security: 2FA to the TechNet",
+          "source_id": "afbd9f3fe1d90b7d95ecaadd"
+        }
+      ],
+      "finding_id": "0632c662c615c92e75c78ff9",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [
+        "cern"
+      ],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-15T11:44:26.037649+00:00",
+      "profile_relevance": 6.915786601284722,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-14T09:43:10+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "unknown"
+      ],
+      "source_ids": [
+        "afbd9f3fe1d90b7d95ecaadd"
+      ],
+      "summary": "Computer Security: 2FA to the TechNet",
+      "topics": [
+        "CERN"
+      ],
+      "verification": "single_primary_source"
+    },
+    {
+      "change_type": "new",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "fcb9123913377e677e5f6bb4",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "CERN partners with Mistral to build a Large Physics Model - Crypto Briefing",
+          "source_id": "9bbd93a10967a1f6142fb632"
+        }
+      ],
+      "finding_id": "fcb9123913377e677e5f6bb4",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [
+        "cern"
+      ],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-15T11:44:26.037649+00:00",
+      "profile_relevance": 8.971041230914352,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-15T11:02:44+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "Europe"
+      ],
+      "source_ids": [
+        "9bbd93a10967a1f6142fb632"
+      ],
+      "summary": "CERN partners with Mistral to build a Large Physics Model - Crypto Briefing",
+      "topics": [
+        "CERN"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "new",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "c24a96e44053b8068228c48f",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "CERN, Mistral Team Up to Accelerate AI for Science - Mirage News",
+          "source_id": "d19ef6b0bac1812954ef0d2e"
+        }
+      ],
+      "finding_id": "c24a96e44053b8068228c48f",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [
+        "cern"
+      ],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-15T11:44:26.037649+00:00",
+      "profile_relevance": 8.928865304988426,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-15T10:02:00+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "Europe"
+      ],
+      "source_ids": [
+        "d19ef6b0bac1812954ef0d2e"
+      ],
+      "summary": "CERN, Mistral Team Up to Accelerate AI for Science - Mirage News",
+      "topics": [
+        "CERN"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "new",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "963b79606c9b532df3e05d9d",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "CERN Hosts C++ Creator for Discussion on Evolving Scientific Computing - HPCwire",
+          "source_id": "813e9d702f89dd3e9ec06f59"
+        }
+      ],
+      "finding_id": "963b79606c9b532df3e05d9d",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [
+        "cern"
+      ],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-15T11:44:26.037649+00:00",
+      "profile_relevance": 8.378900027210648,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-14T20:50:03+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "Europe"
+      ],
+      "source_ids": [
+        "813e9d702f89dd3e9ec06f59"
+      ],
+      "summary": "CERN Hosts C++ Creator for Discussion on Evolving Scientific Computing - HPCwire",
+      "topics": [
+        "CERN"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "new",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "2e3f06593862d0a79a71646a",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "CERN community – Page 200 – Home - Home | CERN",
+          "source_id": "16d17ac675e89468eca69c55"
+        }
+      ],
+      "finding_id": "2e3f06593862d0a79a71646a",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [
+        "cern"
+      ],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-15T11:44:26.037649+00:00",
+      "profile_relevance": 7.642499564247685,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-14T03:09:38+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "Europe"
+      ],
+      "source_ids": [
+        "16d17ac675e89468eca69c55"
+      ],
+      "summary": "CERN community – Page 200 – Home - Home | CERN",
+      "topics": [
+        "CERN"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "new",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "81f6ad18467504b7c8d36ff5",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "Studying beautiful flavour transitions – Home - Home | CERN",
+          "source_id": "97b26e21564e286f61ab92b7"
+        }
+      ],
+      "finding_id": "81f6ad18467504b7c8d36ff5",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [
+        "cern"
+      ],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-15T11:44:26.037649+00:00",
+      "profile_relevance": 6.186052804988426,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-14T16:12:21+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "Europe"
+      ],
+      "source_ids": [
+        "97b26e21564e286f61ab92b7"
+      ],
+      "summary": "Studying beautiful flavour transitions – Home - Home | CERN",
+      "topics": [
+        "CERN"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "new",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "99dd6f312621faf2a63b8fde",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "Computer Security: 2FA to the TechNet – Home - Home | CERN",
+          "source_id": "40406c2b6196eb4c55464037"
+        }
+      ],
+      "finding_id": "99dd6f312621faf2a63b8fde",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [
+        "cern"
+      ],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-15T11:44:26.037649+00:00",
+      "profile_relevance": 5.915786601284722,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-14T09:43:10+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "Europe"
+      ],
+      "source_ids": [
+        "40406c2b6196eb4c55464037"
+      ],
+      "summary": "Computer Security: 2FA to the TechNet – Home - Home | CERN",
+      "topics": [
+        "CERN"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "new",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "ebf961e2c59751461c70c48b",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "A ringing success for the ITk Pixel Detector - ATLAS Experiment at CERN",
+          "source_id": "14c277c7648af020f39817c1"
+        }
+      ],
+      "finding_id": "ebf961e2c59751461c70c48b",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [
+        "cern"
+      ],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-15T11:44:26.037649+00:00",
+      "profile_relevance": 5.281365304988426,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-13T18:29:36+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "Europe"
+      ],
+      "source_ids": [
+        "14c277c7648af020f39817c1"
+      ],
+      "summary": "A ringing success for the ITk Pixel Detector - ATLAS Experiment at CERN",
+      "topics": [
+        "CERN"
+      ],
+      "verification": "single_secondary_source"
+    }
+  ],
+  "history": {
+    "comparison": "first_profile_snapshot",
+    "previous_report_id": null,
+    "previous_snapshot_commit": "ca38d37a08c0eab9a79b1ac3c3350a326e869df9",
+    "state": "restored"
+  },
+  "limitations": [
+    "Bounded queries do not provide exhaustive global coverage.",
+    "GDELT seen time is an observation timestamp, not verified publication time.",
+    "Contradiction/resolution labels require explicit source wording and review; no automatic truth adjudication."
+  ],
+  "links": {
+    "json": "intel/reports/institutions/cern/2026/10/15/89dc44fd1a944d32a2f4361685c553fc/report.json",
+    "markdown": "intel/reports/institutions/cern/2026/10/15/89dc44fd1a944d32a2f4361685c553fc/report.md"
+  },
+  "model_used": null,
+  "profile_id": "institutions/cern",
+  "question": "",
+  "report_id": "89dc44fd1a944d32a2f4361685c553fc",
+  "run_id": "89dc44fd1a944d32a2f4361685c553fc",
+  "schedule": {},
+  "schema_version": "1.0",
+  "sources": [
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE43M3NHeF8tc3Y2NDRqQV9JdDBGSFJ0UnRkeHlzSWF5ZGJFU2tpSjktb08yejhmMnY0U005LWczU2RMLXhfVXdSUGxwdjhiOHZHRUUtd2RfWjRGc1Jnck9jLWRYb2dqQU1C?oc=5",
+      "content_fingerprint": "39ba699b42961d9d17b3e66c",
+      "fetched_at": "2026-10-15T11:44:26.037649+00:00",
+      "institution_id": "cern",
+      "language": "en",
+      "observations": [
+        {
+          "collector": "google_news",
+          "language": "en",
+          "search_query": "\"CERN\"",
+          "search_region": "Europe",
+          "title": "A ringing success for the ITk Pixel Detector - ATLAS Experiment at CERN"
+        }
+      ],
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE43M3NHeF8tc3Y2NDRqQV9JdDBGSFJ0UnRkeHlzSWF5ZGJFU2tpSjktb08yejhmMnY0U005LWczU2RMLXhfVXdSUGxwdjhiOHZHRUUtd2RfWjRGc1Jnck9jLWRYb2dqQU1C?oc=5",
+      "profile_id": "institutions/cern",
+      "published_at": "2026-10-13T18:29:36+00:00",
+      "publisher": "ATLAS Experiment at CERN",
+      "search_query": "\"CERN\"",
+      "source_country": "unknown",
+      "source_id": "14c277c7648af020f39817c1",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOdXlYeTVTZTZEa2JmVTRqdHNpVUNIaTI2cXVQQWlHb01MSFlYX2o1a3I1YjBpVndudFlLX0NCeUY0ZjFxUjhBT0lfUS1OLWpXVmJNV3JUWkVyS0xhNUxWcXF0SnZDUUt5VjF5TW5kaklkZE5GR2kwZXFYTEE1eHEtWjZCYVdBbGQ5MWdOZDBR?oc=5",
+      "content_fingerprint": "d1e1ed40bc83b2fa8dd0cc7c",
+      "fetched_at": "2026-10-15T11:44:26.037649+00:00",
+      "institution_id": "cern",
+      "language": "en",
+      "observations": [
+        {
+          "collector": "google_news",
+          "language": "en",
+          "search_query": "site:home.cern",
+          "search_region": "Europe",
+          "title": "CERN community – Page 200 – Home - Home | CERN"
+        }
+      ],
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOdXlYeTVTZTZEa2JmVTRqdHNpVUNIaTI2cXVQQWlHb01MSFlYX2o1a3I1YjBpVndudFlLX0NCeUY0ZjFxUjhBT0lfUS1OLWpXVmJNV3JUWkVyS0xhNUxWcXF0SnZDUUt5VjF5TW5kaklkZE5GR2kwZXFYTEE1eHEtWjZCYVdBbGQ5MWdOZDBR?oc=5",
+      "profile_id": "institutions/cern",
+      "published_at": "2026-10-14T03:09:38+00:00",
+      "publisher": "Home | CERN",
+      "search_query": "site:home.cern",
+      "source_country": "unknown",
+      "source_id": "16d17ac675e89468eca69c55",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://home.cern/une-periode-de-participation-citoyenne-sur-le-projet-de-futur-collisionneur-circulaire-fcc-riche-en-echanges-avec-les-territoires",
+      "content_fingerprint": "3916f0da2a903beb75c9190d",
+      "fetched_at": "2026-10-15T11:44:26.037649+00:00",
+      "institution_id": "cern",
+      "language": "unknown",
+      "observations": [
+        {
+          "collector": "rss",
+          "language": "unknown",
+          "search_query": null,
+          "search_region": "unknown",
+          "title": "The public consultation for the Future Circular Collider (FCC) project generates extensive dialogue with the local communities"
+        }
+      ],
+      "origin_collector": "rss",
+      "original_url": "https://home.cern/une-periode-de-participation-citoyenne-sur-le-projet-de-futur-collisionneur-circulaire-fcc-riche-en-echanges-avec-les-territoires/",
+      "profile_id": "institutions/cern",
+      "published_at": "2026-10-14T11:25:18+00:00",
+      "publisher": "Anais Schaeffer",
+      "search_query": null,
+      "source_country": "unknown",
+      "source_id": "239b9406f432df93654a5440",
+      "source_kind": "primary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQM1JJbGp5V2FRdE9qMXQxQVRTcXFlNkFJNmxJVDg4X1V4Y2pVWkYzVFBxZ1hJMlZvUzV0QXE2RUVUOGdqcFNOa2IxajNrT01ScUZpZHZhOWM3eVpWb3FHTHl4a1lSYV9DZUJTaS1MVkJqclBFR0JNUllmX09nd09sMnpvcXJDdnZDVk9Z?oc=5",
+      "content_fingerprint": "442c7d251994629a11fbee68",
+      "fetched_at": "2026-10-15T11:44:26.037649+00:00",
+      "institution_id": "cern",
+      "language": "en",
+      "observations": [
+        {
+          "collector": "google_news",
+          "language": "en",
+          "search_query": "site:home.cern",
+          "search_region": "Europe",
+          "title": "CERN Service Desk: Let’s improve the quality of our calls together – Home - Home | CERN"
+        }
+      ],
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQM1JJbGp5V2FRdE9qMXQxQVRTcXFlNkFJNmxJVDg4X1V4Y2pVWkYzVFBxZ1hJMlZvUzV0QXE2RUVUOGdqcFNOa2IxajNrT01ScUZpZHZhOWM3eVpWb3FHTHl4a1lSYV9DZUJTaS1MVkJqclBFR0JNUllmX09nd09sMnpvcXJDdnZDVk9Z?oc=5",
+      "profile_id": "institutions/cern",
+      "published_at": "2026-10-14T09:03:03+00:00",
+      "publisher": "Home | CERN",
+      "search_query": "site:home.cern",
+      "source_country": "unknown",
+      "source_id": "2574f050a69e55651da062e8",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://home.cern/studying-beautiful-flavour-transitions",
+      "content_fingerprint": "3474f9df8adb8226dadfd9ae",
+      "fetched_at": "2026-10-15T11:44:26.037649+00:00",
+      "institution_id": "cern",
+      "language": "unknown",
+      "observations": [
+        {
+          "collector": "rss",
+          "language": "unknown",
+          "search_query": null,
+          "search_region": "unknown",
+          "title": "Studying beautiful flavour transitions"
+        }
+      ],
+      "origin_collector": "rss",
+      "original_url": "https://home.cern/studying-beautiful-flavour-transitions/",
+      "profile_id": "institutions/cern",
+      "published_at": "2026-10-14T13:41:25+00:00",
+      "publisher": "Emma Hattersley",
+      "search_query": null,
+      "source_country": "unknown",
+      "source_id": "3fadf313321b695baea65991",
+      "source_kind": "primary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1aa0tJMjNoUTdJUGFpZHJ6WnZudUd6SlkwYy1hRUhOMzdnSUkwNWRuWXpid0NYS1lPVS1HOVVqeTd5dGtha2JfY1NsWmNDT1l1MlZNa291UHZ0MExIa0lPZHlkOHFyQQ?oc=5",
+      "content_fingerprint": "1a8cecc7fb015df3f4668e97",
+      "fetched_at": "2026-10-15T11:44:26.037649+00:00",
+      "institution_id": "cern",
+      "language": "en",
+      "observations": [
+        {
+          "collector": "google_news",
+          "language": "en",
+          "search_query": "site:home.cern",
+          "search_region": "Europe",
+          "title": "Computer Security: 2FA to the TechNet – Home - Home | CERN"
+        },
+        {
+          "collector": "google_news",
+          "language": "en",
+          "search_query": "\"CERN\"",
+          "search_region": "Europe",
+          "title": "Computer Security: 2FA to the TechNet – Home - Home | CERN"
+        }
+      ],
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1aa0tJMjNoUTdJUGFpZHJ6WnZudUd6SlkwYy1hRUhOMzdnSUkwNWRuWXpid0NYS1lPVS1HOVVqeTd5dGtha2JfY1NsWmNDT1l1MlZNa291UHZ0MExIa0lPZHlkOHFyQQ?oc=5",
+      "profile_id": "institutions/cern",
+      "published_at": "2026-10-14T09:43:10+00:00",
+      "publisher": "Home | CERN",
+      "search_query": "\"CERN\"",
+      "source_country": "unknown",
+      "source_id": "40406c2b6196eb4c55464037",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://home.cern/continuous-improvement-gains-momentum-at-cern",
+      "content_fingerprint": "8992e381992d6b2d90539e48",
+      "fetched_at": "2026-10-15T11:44:26.037649+00:00",
+      "institution_id": "cern",
+      "language": "unknown",
+      "observations": [
+        {
+          "collector": "rss",
+          "language": "unknown",
+          "search_query": null,
+          "search_region": "unknown",
+          "title": "Continuous Improvement gains momentum at CERN"
+        }
+      ],
+      "origin_collector": "rss",
+      "original_url": "https://home.cern/continuous-improvement-gains-momentum-at-cern/",
+      "profile_id": "institutions/cern",
+      "published_at": "2026-10-14T12:53:51+00:00",
+      "publisher": "Emma Hattersley",
+      "search_query": null,
+      "source_country": "unknown",
+      "source_id": "46a5936d893588e6a88017b5",
+      "source_kind": "primary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://home.cern/exhibition-imagining-the-future-of-physics",
+      "content_fingerprint": "2e7e90472d01311c7b0e9be6",
+      "fetched_at": "2026-10-15T11:44:26.037649+00:00",
+      "institution_id": "cern",
+      "language": "unknown",
+      "observations": [
+        {
+          "collector": "rss",
+          "language": "unknown",
+          "search_query": null,
+          "search_region": "unknown",
+          "title": "Exhibition | Imagining the future of physics"
+        }
+      ],
+      "origin_collector": "rss",
+      "original_url": "https://home.cern/exhibition-imagining-the-future-of-physics/",
+      "profile_id": "institutions/cern",
+      "published_at": "2026-10-14T09:52:20+00:00",
+      "publisher": "Anais Schaeffer",
+      "search_query": null,
+      "source_country": "unknown",
+      "source_id": "630e9ced08af5f42bf2c3d6e",
+      "source_kind": "primary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBjVks3VVFCMEpGckFBOVhYUDBUMkVHcm1TbWRZd0lyUVRobHRPbjl3OUdxZDZaZzhTV1ZhRkJEdDFmOWJqQzB3STNhMHBiUVVxeDd5V0dRd2dVb2x5d1BwSU1CQUY0OVNxcTZYNU4xbExnZw?oc=5",
+      "content_fingerprint": "518dd793f89e82e7f75b654b",
+      "fetched_at": "2026-10-15T11:44:26.037649+00:00",
+      "institution_id": "cern",
+      "language": "en",
+      "observations": [
+        {
+          "collector": "google_news",
+          "language": "en",
+          "search_query": "site:home.cern",
+          "search_region": "Europe",
+          "title": "Continuous Improvement gains momentum at CERN – Home - Home | CERN"
+        },
+        {
+          "collector": "google_news",
+          "language": "en",
+          "search_query": "\"CERN\"",
+          "search_region": "Europe",
+          "title": "Continuous Improvement gains momentum at CERN – Home - Home | CERN"
+        }
+      ],
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBjVks3VVFCMEpGckFBOVhYUDBUMkVHcm1TbWRZd0lyUVRobHRPbjl3OUdxZDZaZzhTV1ZhRkJEdDFmOWJqQzB3STNhMHBiUVVxeDd5V0dRd2dVb2x5d1BwSU1CQUY0OVNxcTZYNU4xbExnZw?oc=5",
+      "profile_id": "institutions/cern",
+      "published_at": "2026-10-14T12:53:51+00:00",
+      "publisher": "Home | CERN",
+      "search_query": "\"CERN\"",
+      "source_country": "unknown",
+      "source_id": "6587a579e02d48ecf408172d",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPUm5lRllYa1JWYkpXZWQ5VUtZRFVuR1RWanVKRzkxNVVTcW82STExYVdpdWlvM1ROYlBkMEtBMGNFNlQzM0ZMX1ZxRUxtYWh3NjdvQ1JiWTlsYVVkRkFZR3B4cTluN3NxRFJ2TWFmNmYyRXpNTTFubzRVWUo3cDRYVzJYV21QcE5GVVhRR2E2S0tDUnJCVTgzenBuUTcxY1otcXZ0RVZULVFQdER4TDMyUA?oc=5",
+      "content_fingerprint": "74c6bd30b5c9e6080496958f",
+      "fetched_at": "2026-10-15T11:44:26.037649+00:00",
+      "institution_id": "cern",
+      "language": "en",
+      "observations": [
+        {
+          "collector": "google_news",
+          "language": "en",
+          "search_query": "\"CERN\"",
+          "search_region": "Europe",
+          "title": "CERN Hosts C++ Creator for Discussion on Evolving Scientific Computing - HPCwire"
+        }
+      ],
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPUm5lRllYa1JWYkpXZWQ5VUtZRFVuR1RWanVKRzkxNVVTcW82STExYVdpdWlvM1ROYlBkMEtBMGNFNlQzM0ZMX1ZxRUxtYWh3NjdvQ1JiWTlsYVVkRkFZR3B4cTluN3NxRFJ2TWFmNmYyRXpNTTFubzRVWUo3cDRYVzJYV21QcE5GVVhRR2E2S0tDUnJCVTgzenBuUTcxY1otcXZ0RVZULVFQdER4TDMyUA?oc=5",
+      "profile_id": "institutions/cern",
+      "published_at": "2026-10-14T20:50:03+00:00",
+      "publisher": "HPCwire",
+      "search_query": "\"CERN\"",
+      "source_country": "unknown",
+      "source_id": "813e9d702f89dd3e9ec06f59",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBoSWF3Y3NOQmw2dVlTNWIyMGY4dTlVYzN2em5keDloUmpMSkJaSnB1d1pLWEtzS0ZlS3RtaTI2eFVvMDlNMkVSSmNXd2xxaEZOWTRtc0RDMTYxcklqb0tkbTRySVVrMF9Y?oc=5",
+      "content_fingerprint": "1b7e04cbc3bf113b3ce10ca4",
+      "fetched_at": "2026-10-15T11:44:26.037649+00:00",
+      "institution_id": "cern",
+      "language": "en",
+      "observations": [
+        {
+          "collector": "google_news",
+          "language": "en",
+          "search_query": "site:home.cern",
+          "search_region": "Europe",
+          "title": "Studying beautiful flavour transitions – Home - Home | CERN"
+        },
+        {
+          "collector": "google_news",
+          "language": "en",
+          "search_query": "\"CERN\"",
+          "search_region": "Europe",
+          "title": "Studying beautiful flavour transitions – Home - Home | CERN"
+        }
+      ],
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBoSWF3Y3NOQmw2dVlTNWIyMGY4dTlVYzN2em5keDloUmpMSkJaSnB1d1pLWEtzS0ZlS3RtaTI2eFVvMDlNMkVSSmNXd2xxaEZOWTRtc0RDMTYxcklqb0tkbTRySVVrMF9Y?oc=5",
+      "profile_id": "institutions/cern",
+      "published_at": "2026-10-14T16:12:21+00:00",
+      "publisher": "Home | CERN",
+      "search_query": "\"CERN\"",
+      "source_country": "unknown",
+      "source_id": "97b26e21564e286f61ab92b7",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBrNUdROW5aLVlPSllhS2Y0aFVDeXNpNndIdXVJNzk1Tk5CZ2ZkZmNnRHE0aUpWUUpRT0R5UWtoVU1UTEQxMkRtOGFxS0Vuc2lDSjJmX19xNGYwUGNNajRiVTdXWEtLWU5qOUVKbA?oc=5",
+      "content_fingerprint": "41f7d40fcc25115178d097b0",
+      "fetched_at": "2026-10-15T11:44:26.037649+00:00",
+      "institution_id": "cern",
+      "language": "en",
+      "observations": [
+        {
+          "collector": "google_news",
+          "language": "en",
+          "search_query": "\"CERN\"",
+          "search_region": "Europe",
+          "title": "CERN partners with Mistral to build a Large Physics Model - Crypto Briefing"
+        }
+      ],
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBrNUdROW5aLVlPSllhS2Y0aFVDeXNpNndIdXVJNzk1Tk5CZ2ZkZmNnRHE0aUpWUUpRT0R5UWtoVU1UTEQxMkRtOGFxS0Vuc2lDSjJmX19xNGYwUGNNajRiVTdXWEtLWU5qOUVKbA?oc=5",
+      "profile_id": "institutions/cern",
+      "published_at": "2026-10-15T11:02:44+00:00",
+      "publisher": "Crypto Briefing",
+      "search_query": "\"CERN\"",
+      "source_country": "unknown",
+      "source_id": "9bbd93a10967a1f6142fb632",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://home.cern/cern-service-desk-lets-improve-the-quality-of-our-calls-together",
+      "content_fingerprint": "44b21515dc2a0ac0e9a7959c",
+      "fetched_at": "2026-10-15T11:44:26.037649+00:00",
+      "institution_id": "cern",
+      "language": "unknown",
+      "observations": [
+        {
+          "collector": "rss",
+          "language": "unknown",
+          "search_query": null,
+          "search_region": "unknown",
+          "title": "CERN Service Desk: Let’s improve the quality of our calls together"
+        }
+      ],
+      "origin_collector": "rss",
+      "original_url": "https://home.cern/cern-service-desk-lets-improve-the-quality-of-our-calls-together/",
+      "profile_id": "institutions/cern",
+      "published_at": "2026-10-14T09:03:03+00:00",
+      "publisher": "Anais Schaeffer",
+      "search_query": null,
+      "source_country": "unknown",
+      "source_id": "9da1369fdd834fcf0061ba02",
+      "source_kind": "primary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://home.cern/computer-security-2fa-to-the-technet",
+      "content_fingerprint": "7285f13dcb1cf0fffc0511dd",
+      "fetched_at": "2026-10-15T11:44:26.037649+00:00",
+      "institution_id": "cern",
+      "language": "unknown",
+      "observations": [
+        {
+          "collector": "rss",
+          "language": "unknown",
+          "search_query": null,
+          "search_region": "unknown",
+          "title": "Computer Security: 2FA to the TechNet"
+        }
+      ],
+      "origin_collector": "rss",
+      "original_url": "https://home.cern/computer-security-2fa-to-the-technet/",
+      "profile_id": "institutions/cern",
+      "published_at": "2026-10-14T09:43:10+00:00",
+      "publisher": "Anais Schaeffer",
+      "search_query": null,
+      "source_country": "unknown",
+      "source_id": "afbd9f3fe1d90b7d95ecaadd",
+      "source_kind": "primary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNVWpRdnNCWDVQSGlfVGY0clNtWHNnUi1CLWp2dlVCWG4xT1dTOWlJUi1hZDY2cE5GZHJWU1l2QlJ5UEUwX2RlYzE2TngxbzBHSzlwV1YwZXRqY2FGd3pPWU5hbE5vbjNEWXRNTVpqaHdwdmF2LUpJN252T2x1ZTFNdXd3Yw?oc=5",
+      "content_fingerprint": "420d45c30d8307476479b041",
+      "fetched_at": "2026-10-15T11:44:26.037649+00:00",
+      "institution_id": "cern",
+      "language": "en",
+      "observations": [
+        {
+          "collector": "google_news",
+          "language": "en",
+          "search_query": "\"CERN\"",
+          "search_region": "Europe",
+          "title": "CERN, Mistral Team Up to Accelerate AI for Science - Mirage News"
+        }
+      ],
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNVWpRdnNCWDVQSGlfVGY0clNtWHNnUi1CLWp2dlVCWG4xT1dTOWlJUi1hZDY2cE5GZHJWU1l2QlJ5UEUwX2RlYzE2TngxbzBHSzlwV1YwZXRqY2FGd3pPWU5hbE5vbjNEWXRNTVpqaHdwdmF2LUpJN252T2x1ZTFNdXd3Yw?oc=5",
+      "profile_id": "institutions/cern",
+      "published_at": "2026-10-15T10:02:00+00:00",
+      "publisher": "Mirage News",
+      "search_query": "\"CERN\"",
+      "source_country": "unknown",
+      "source_id": "d19ef6b0bac1812954ef0d2e",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPVVByQzJjRG1SZ0NVRjhVQTRlWWhFenFJWEF1djZsMGNRcElRM1ROMVZzeHlmeUozbUYydUFCRkJyMUFLX2xlSlprSEdPQjJTTjJlVU44UVRDYUszSFhqUnQyUVN1eWEyR3FvRU1zQUZUdUhrSWFSVmxZNHUtMVV5Vk93ZjBLSDA3dHFCTkFyTVI3NFJVTGxQbXg4VjgybWw3SU8zTmpJOHhVaUs5LXhiSjBQcENSYnpzb1NaM2ZvVGlxa3FIc3dZM1VTSUFSZFJqbmtRNkF1a2N5Sktja2Y3UF93?oc=5",
+      "content_fingerprint": "ef49f2320f4083d9b5158a6b",
+      "fetched_at": "2026-10-15T11:44:26.037649+00:00",
+      "institution_id": "cern",
+      "language": "en",
+      "observations": [
+        {
+          "collector": "google_news",
+          "language": "en",
+          "search_query": "site:home.cern",
+          "search_region": "Europe",
+          "title": "The public consultation for the Future Circular Collider (FCC) project generates extensive dialogue with the local communities – Home - Home | CERN"
+        },
+        {
+          "collector": "google_news",
+          "language": "en",
+          "search_query": "\"CERN\"",
+          "search_region": "Europe",
+          "title": "The public consultation for the Future Circular Collider (FCC) project generates extensive dialogue with the local communities – Home - Home | CERN"
+        }
+      ],
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPVVByQzJjRG1SZ0NVRjhVQTRlWWhFenFJWEF1djZsMGNRcElRM1ROMVZzeHlmeUozbUYydUFCRkJyMUFLX2xlSlprSEdPQjJTTjJlVU44UVRDYUszSFhqUnQyUVN1eWEyR3FvRU1zQUZUdUhrSWFSVmxZNHUtMVV5Vk93ZjBLSDA3dHFCTkFyTVI3NFJVTGxQbXg4VjgybWw3SU8zTmpJOHhVaUs5LXhiSjBQcENSYnpzb1NaM2ZvVGlxa3FIc3dZM1VTSUFSZFJqbmtRNkF1a2N5Sktja2Y3UF93?oc=5",
+      "profile_id": "institutions/cern",
+      "published_at": "2026-10-14T11:25:18+00:00",
+      "publisher": "Home | CERN",
+      "search_query": "\"CERN\"",
+      "source_country": "unknown",
+      "source_id": "fe2d525b10fac7cedc6a8384",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    }
+  ],
+  "statistics": {
+    "collectors": [
+      {
+        "error_code": null,
+        "items": 6,
+        "query": "site:home.cern",
+        "source": "google_news",
+        "status": "ok"
+      },
+      {
+        "error_code": null,
+        "items": 9,
+        "query": "\"CERN\"",
+        "source": "google_news",
+        "status": "ok"
+      },
+      {
+        "error_code": null,
+        "items": 0,
+        "query": "\"CERN\"",
+        "source": "gdelt",
+        "status": "failed"
+      },
+      {
+        "items": 6,
+        "source": "rss",
+        "status": "ok"
+      }
+    ],
+    "items": 13,
+    "sources": 16
+  },
+  "status": "partial",
+  "time_window": {
+    "since": "2026-10-13T11:44:26.042075+00:00",
+    "until": "2026-10-15T11:44:26.042075+00:00"
+  },
+  "workflow": {
+    "repository": "JsonLord/Horizon",
+    "run_attempt": "1",
+    "run_id": "38729167499",
+    "source_commit": "c9dcef30a10ffe67b8e399baea5c2a6787c7dfd2"
+  }
+}

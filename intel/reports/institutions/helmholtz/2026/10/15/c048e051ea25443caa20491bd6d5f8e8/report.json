@@ -1,0 +1,80 @@
+{
+  "analysis_mode": "deterministic",
+  "changes": [],
+  "coverage": {
+    "basis": "search query region; event geography unknown",
+    "missing_regions": [
+      "Europe"
+    ],
+    "regions": []
+  },
+  "created_at": "2026-10-15T11:44:37.846690+00:00",
+  "errors": [
+    {
+      "code": "SOURCE_INCOMPLETE",
+      "source": "gdelt"
+    }
+  ],
+  "findings": [],
+  "history": {
+    "comparison": "first_profile_snapshot",
+    "previous_report_id": null,
+    "previous_snapshot_commit": "ca38d37a08c0eab9a79b1ac3c3350a326e869df9",
+    "state": "restored"
+  },
+  "limitations": [
+    "Bounded queries do not provide exhaustive global coverage.",
+    "GDELT seen time is an observation timestamp, not verified publication time.",
+    "Contradiction/resolution labels require explicit source wording and review; no automatic truth adjudication."
+  ],
+  "links": {
+    "json": "intel/reports/institutions/helmholtz/2026/10/15/c048e051ea25443caa20491bd6d5f8e8/report.json",
+    "markdown": "intel/reports/institutions/helmholtz/2026/10/15/c048e051ea25443caa20491bd6d5f8e8/report.md"
+  },
+  "model_used": null,
+  "profile_id": "institutions/helmholtz",
+  "question": "",
+  "report_id": "c048e051ea25443caa20491bd6d5f8e8",
+  "run_id": "c048e051ea25443caa20491bd6d5f8e8",
+  "schedule": {},
+  "schema_version": "1.0",
+  "sources": [],
+  "statistics": {
+    "collectors": [
+      {
+        "error_code": null,
+        "items": 2,
+        "query": "\"Helmholtz Association\"",
+        "source": "google_news",
+        "status": "ok"
+      },
+      {
+        "error_code": null,
+        "items": 0,
+        "query": "site:helmholtz.de",
+        "source": "google_news",
+        "status": "ok"
+      },
+      {
+        "error_code": null,
+        "items": 0,
+        "query": "\"Helmholtz Association\"",
+        "source": "gdelt",
+        "status": "failed"
+      }
+    ],
+    "items": 0,
+    "sources": 0
+  },
+  "status": "partial",
+  "time_window": {
+    "since": "2026-10-13T11:44:37.846690+00:00",
+    "until": "2026-10-15T11:44:37.846690+00:00"
+  },
+  "workflow": {
+    "repository": "JsonLord/Horizon",
+    "run_attempt": "1",
+    "run_id": "38729167499",
+    "source_commit": "c9dcef30a10ffe67b8e399baea5c2a6787c7dfd2"
+  }
+}
