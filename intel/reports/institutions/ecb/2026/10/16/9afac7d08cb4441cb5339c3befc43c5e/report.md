@@ -1,0 +1,83 @@
+# Horizon: institutions/ecb
+Status: complete | Analysis: deterministic
+Observed: 2026-10-16T11:36:15.766730+00:00
+
+Search-region coverage (not event geography): Europe
+
+- European Central Bank clears UniCredit to raise Commerzbank stake above 30% - Anadolu Ajansı (single_secondary_source; new)
+  - <https://news.google.com/rss/articles/CBMitwFBVV95cUxON0FhY0tXTlhmTGRMUXkyUVJaMWJpMURzN1EwOXNxOEFybEF2ZUoyVFE0encwRzJGMWoxMWx3eExHakI0NExHcktFb1hxbENoZ05vT0xQc3Jpd25naGhrMmFXSC1EYlZ1aU4xUWV4cHJqVVVMSm5ETzlyMUJWX1RIeF94ME0xSVlCdWtQR0Y4UFdtR0o1X2lpbF8tWmRLb2E4cW02aWNfdlhLQXJYaXRrajBwbVBfLTA?oc=5> — Anadolu Ajansı
+- UniCredit Obtains European Central Bank Approval to Increase Commerzbank Stake Beyond 30% - marketscreener.com (single_secondary_source; new)
+  - <https://news.google.com/rss/articles/CBMi2AFBVV95cUxNajJmWGk4eFFSYlE1TDJKWHZTbkw3OU9UR0pNelVLbWkzamdYQkxqYUVteXhNWHlnY1JheWlhMHdiSDlsdGhVU1RvaTZVODFUNWxNeXUwX1VWMW43ZEgxRWVJWUdUN2ZOVmJjbHAtS1BkZ3BZaFdtSE5xaEkwalRkb0ctZDZnbXl0aXF1NGRxNjc0QmZGbWRBSnVXa2hibXhKUEIxc2xaSEdQc0VPLUxHSjU3TEcwaXUwZ2RrWDFiUlZJMnJpVmhiMk1DWENpd0J3N3BOa1p5OGY?oc=5> — marketscreener.com
+- Lagarde may leave her post as President of the European Central Bank early — what she will do - Українські Національні Новини (УНН) (single_secondary_source; new)
+  - <https://news.google.com/rss/articles/CBMirgFBVV95cUxNQWRhakU5QmJFYlhoemlIbDlSaVV1MzFqaVF2VWpZa3l5TmFPM1FYNHVjR2lyR1daZGNjcG02b2J4OExPaTBSczNfNk9xSmFGQ0s1Y1hEal9Lc1NDMENwTElxRWNNZVd1dFhvbTRwWVlITEVwQzlYNnRTXy1NZGFhMFVFYUpSQnZqa3BsckVPbF9ZQWZqdmFqdWhkdVFQdEoxeEJycHNta0g5SVFHVnfSAawBQVVfeXFMTUt6bl9YcTFnMFJoWkxmWlVGR0FEdHRodDk1dFduRXJmdjVvVzE5SVpRZzVPT3lFOGVxdW9NWVM2TExfVWllVGt6TU0wMlBmNWdMQXBZQXZTTXgzUy02UkRsMUhVT3pBMmdqb0NrMUZDWmZhXzliNzFlcTA0a0sydG1HRXlTa1hIOVBETDV6OV9BZTZIWWs1d19MTGVDc3lUUEdXWkRmVEhqUGpEcw?oc=5> — Українські Національні Новини (УНН)
+- Will France need European Central Bank bail-out? - EJ Insight (single_secondary_source; unchanged)
+  - <https://news.google.com/rss/articles/CBMiqwFBVV95cUxPb2VORDdmSDlra3FaX2RQcmQzaGZSMFBjSmRWa05YZEM0ZGp0SUxfeFhaVC03REZGa1JLejlkS3AzVTl2a1RUZV90N1VrQlltN0ZheGNYN253SlhvUW5OQ056WkVpWEgyWlB4eUdBQ2dXUnJQSmdoRVNqWHhXTEFlWm5hSGk1cU5CNDNqWThBZUlGMFNLWVNkVVBPWk9fcXpDdFVZUHNISmVhU3M?oc=5> — EJ Insight
+- European Central Bank: October skip and limited hikes – BNY - FXStreet (single_secondary_source; unchanged)
+  - <https://news.google.com/rss/articles/CBMioAFBVV95cUxNbGU2MXB2X0ExY3QwTDNEYk5qcV92Ui1kSUNFX3FaZEdpdXVseHk5a0RXTU9FU0VpdG9TeU4zWmV1U1UtU3ZVRHBsdHhyLUhkSE1YYkloeVR6LXRNdnRDTDJ2ZE9vamJhQmNQRjhVcnQ2c1dkVDRjTm5LX212YVVJSF9uT1N4RG5udDRlM0RMOUdnaWpyYjZsalpjMWF1TmI3?oc=5> — FXStreet
+- MoU on information sharing in support of non-bank payment service providers access to centra - European Central Bank (single_secondary_source; new)
+  - <https://news.google.com/rss/articles/CBMinwFBVV95cUxQQ0QxQkhydEtjV1VYWk9mYXltTmxxa09ZVnM1VmduT0ZaeEEyWVpZelEweVdULWstZktZQzV3aWY4UmZiT3gzc3RhdVllQmctYTdYY0hGQzlUMGJzRXJWVEZDSnZURERjV1RXTVR1Ym9FZ0xLVldyV2ZiajFoTC1QQ0J5QUxvWU9PbHFDYmhVay00elhUOWhUQ3JldFpDMzQ?oc=5> — European Central Bank
+- UniCredit Wins ECB Approval to Take Control of Commerzbank (single_secondary_source; new)
+  - <https://econotimes.com/UniCredit-Wins-ECB-Approval-to-Take-Control-of-Commerzbank-1755415> — econotimes.com
+- UniCredit wins ECB approval to control Commerzbank (single_secondary_source; new)
+  - <https://www.rte.ie/news/business/2026/1016/1595595-unicredit-wins-ecb-approval-to-control-commerzbank> — rte.ie
+- UniCredit cleared by ECB to take control of Commerzbank - Yahoo Finance Singapore (single_secondary_source; new)
+  - <https://news.google.com/rss/articles/CBMilAFBVV95cUxPbnZyQ2hJVFlaanJVUTgzT1QzVXRVMnJGaHM1WmxzY1ZLOGZlNjRqazQwd19vTDJFRmRodzVmWTZBRlVHa2JNN1Y3anNnV0xDN0JudGVLbTNrMmhqMlhLMV9SenFMWDZ6YW00LTY5Y0hoX2dUWExIaE8wY0QzTHplbmdlNzg3TjdsVnFVNXJqbzZabGxB?oc=5> — Yahoo Finance Singapore
+- UniCredit gets ECB green light for Commerzbank ᐉ News from Fakti.bg - Business - Fakti.bg (single_secondary_source; new)
+  - <https://news.google.com/rss/articles/CBMiiAFBVV95cUxQc01LRld4UHRYRUpSZXZ0S1Q1b3FUSDU1RFg2VldnVS01YzRzMlJVVlQwNTJzZVFjUHNmWnFOS1lUYlplSnFCYzdicWkxNDRlUXhhX2xROWhKZFZUVGMyV1A3MGZEeGh6Tm4yOEI4bFZiWDFJNzkwSl9yaFhkY252T0N3aElJZ1dD?oc=5> — Fakti.bg
+- Testing and releases - ECMS-R2027.JUN - ECMS-0125-UDFS - Segregrated counterparty U2A access to fee information - European Central Bank (single_secondary_source; new)
+  - <https://news.google.com/rss/articles/CBMi-AJBVV95cUxQd1FZM0hoVFlvTWh6Zy1NaUx2YlEweUVMa3NpdUQwY1hvQ1UzNEstRkFWaDVlVzBGUDhXRWV4SFhjQUZjdXNtVFdZMFVJZnYxcGU4X0QwS2txUnFCN1pxQTNLZ1RxRWwyTHBCQjY2YTRxaWVwMnNJc0UxNWJQVHVIb1lkYTRZQ0JBelRmcGVGOFMxdmVaSVIzcFdsSEQ3SnJDak5EcDdBS0pqWUd2ZXRfa0h3M1VUejQ4eXpzNU0wSElnSTEwRHBwaG9yQzdSY1I4RERwTjlZdENBX19xR0F2Tk1jSXM1RmNoT3Z2NTRLOE4wa3VacmlzM1drcFhoREFVdjRua0d1N0lFSUxhR0czMnVKajhuNlJubDdaaWs5eDlFY1IwV0N0VDRSNW0waWVOSktKZGJxaXJfa09HVWtQelhMRU94OTFjZFlLOGQ3V1ZQT0tmb01aTlRoeTdIQ0FHckExVTlHZ3h6d281UXBnS0JtdTR2ZUo2?oc=5> — European Central Bank
+- UniCredit Commerzbank Takeover Wins ECB Approval (single_secondary_source; new)
+  - <https://en.shafaqna.com/485341/unicredit-ecb-approval-commerzbank-takeover> — en.shafaqna.com
+- Preview : Nagel and Klingbeil in Bangkok : three themes as the ECB weighs a December hike (single_secondary_source; new)
+  - <https://investinglive.com/central-banks/preview-nagel-and-klingbeil-in-bangkok-three-themes-as-the-ecb-weighs-a-december-hike> — investinglive.com
+- UniCredit gets ECB green light for Commerzbank takeover (single_secondary_source; new)
+  - <https://www.dailysabah.com/business/economy/unicredit-gets-ecb-green-light-for-commerzbank-takeover> — dailysabah.com
+- Central Bank of Rwanda and ECB Discuss Digital Asset - Cryptonews.net (single_secondary_source; new)
+  - <https://news.google.com/rss/articles/CBMiWEFVX3lxTE5MREJzMkxZSWloWFY3ZGVkUU5jSUk4ZG5OS3F0cVFXREtBeTdxeHpmVGRmcDZSb1RmaHMtTjRUZTJHQndvNmZwSm1mMGtUVFFockxlLUxQUjc?oc=5> — Cryptonews.net
+- ECB faces tough decision in October as equities begin to wilt under high interest rates - EUbusiness.com (single_secondary_source; new)
+  - <https://news.google.com/rss/articles/CBMiwAFBVV95cUxPbWRsek5wNUdPallxMlo4UXNCZTRsU3ZjN0lpbDJQUGh2elpkMXhWYS1hcHVXYXlMUXdhaWtud3N0LTRxcnhSN0phOEE1TVZqdFFvaGwycUFLRGxleDNqYUk2RTFsTnFlb3AwYk1aZ1FCV2xUd1VkaDZacHVUNFZKU25DQXY1ZzMyc1hlcHZiMnBFNGpoOFJNSkNjUXl1QmszdnlabVBEOW90LV9mZUQ0NHpYekRDRU5weHR0Y1F0MzA?oc=5> — EUbusiness.com
+- Testing and releases - R2027.JUN - Cross-service impact of T2S-0865-URD - Gating event for T+1 - new ECMS messages - European Central Bank (single_secondary_source; new)
+  - <https://news.google.com/rss/articles/CBMi8wJBVV95cUxOQ0N1cnozRkRGa2Q2R0hWLXllck82OXhEaE5VMTlIZTBESTVuNVZUYzBucGhCRFFnbENKTUhLYk53Mi1TZzk0bHc1Mm1OckxfV0xYcTloWHY3ZWtzLS1TaFc0cG9TWnJ4bWljVTRPWlYwY2tmVWp2cXZPU2RQRFlZZnVMWGJSNjVwSXhfLXdGSEVGbmZhYU1GVUFCM3RXcnRyN2pBelg0dnhNVXliVE1ndEtpdWVkNHR1U3ZObU51VEdqMFNmVENEU3Z4NkdxLXl1b203WDk5WDZRVHhBY21xWE84Zll2XzI3cjJ0M2FxNV9sTUlUdjdMNUhRNk91Q2UxaEotNkRfV2FpUURqYzQ0amZhVzZFeVpEOGF1Smt1RDVYd3NURnIwejZMQy1CTEdpOHluanYwbUtReUNTX2FjVzZrdXRmU2VYRVhybGotTmJSRjFuTDE5S1JlVGdyQnFTbXFCRXFRbjlnQjN1bjA5aTVCMA?oc=5> — European Central Bank
+- Testing and releases - R2027.JUN - ECMS-0051-UDFS – Broadcasting functionality for the ECMS - European Central Bank (single_secondary_source; new)
+  - <https://news.google.com/rss/articles/CBMi5AJBVV95cUxOYXhqcUt4UnZoc25QQ3J5bWY2YnRnSjBhQno1R3VGZnF1NlhNM3g4WVpfY3NseHI0bmhxbTdEa2h6c1Zkd050Z3g3c0c4NlFZX2dtNDZkVHVfaUxTcnZvelBjU3Y5SDlHTGdLaTFJOTY4RV95QlEwRXJzaGJlWGZVYzRiS2k3c3dIY21YejZ5bU85aWRpREFPTEliV0lyX1ZESzhYZWpFMlRreVZacDlTWU0zUmVjSnhkclQ3SGtCNW1FNE9OOUlIM0puR0RCNVBpNTFzbUxRWEtvRnVXNUlYSzJSWEREV05PYUtHdmdyamo3WkdBQzZSOUJXLTFOa1pCTlBnV1pMem50WGNPUG5QcTFNS095eGxEeVpINTkwS19IUHRJb2hva0p5WlB0TkVBQm1LRDZER2w3ejNPUE9KWTBiUlZOemlUY1UwQ0k5dDM4dlZHcXJIRTNyMnNNWDRka1F3dw?oc=5> — European Central Bank
+- Testing and releases - R2027.JUN - ECMS-0130-UDFS – Adjustment of the credit claim maturity process - European Central Bank (single_secondary_source; new)
+  - <https://news.google.com/rss/articles/CBMiwwJBVV95cUxPUmNJLXRmdXA2YVRQcmV2elN2bW96aDFyM0doUWVCY1FGSFhLWk5vSXZjWm1PM1dxbUxjZEs3a0Vrc05SV3l3SlF2elJjRGpNV2VZYzdPUUQtQXphdzRlU2pIVi1ETDI5VDVUYUVCMTdPczJKRWx2d1cyTHEyNENEWGZsWlZ2M0k5UW5IWkFpUlVaa3gwZWs4WWtCbW9VUUtrdjh1RFZTd241cUUzVHhYcV9WT1B2RkhlU2o4a0QwbnNFdVl5aEtRUDFvd1hnNGxndTlVeXdISDBNallhdXZVNG5rWnJWTWlSOE1LQVpneVFVZWtTLXJUUTlkQ1BycXBkOVhQNzFVc195VVdDOXA0UVg0UnhqckZOeEs5QUcxb0FJanVQUEtHOU52Qm9TU1VmaDBsamM2S2tncnhNbk91SzJtMA?oc=5> — European Central Bank
+- UniCredit says receives ECB green light for Commerzbank takeover - France 24 (single_secondary_source; new)
+  - <https://news.google.com/rss/articles/CBMisAFBVV95cUxNWXQ2M1JUcTJXX1ZuMkcyc2Z1Q2Vmd0h1VzI1alhxVm80SDBOR1hvMWpBT3hWTFpOa0dFZC1lcUpTSjFHY2lWLUtoREdqb3Rta2tPZDJ0OFJ2ZTlRdTVpc2JmY3pPWEs2RjlWX1lSdEpYMWtpSHhEdXZqaFZ4N2pPeGZ2MXVXa3FQSUJkUkY5UmhQYzRPanBBSDR2T1pNSUY2WEM5eGc1bHYzdklZRndzQw?oc=5> — France 24
+- Sweden revisits digital krona as ECB advances digital euro plans - TradingView (single_secondary_source; new)
+  - <https://news.google.com/rss/articles/CBMixwFBVV95cUxQUzNSNWYyYzB5MzJyOUFZM2FCeFF2TXdzWXBLTS1NNWp0cFQxODBYOVR2c05VWHBKV2tXWlhfdGZrZVozOC0yU0lWT0dla2Z4U2ljdEY3eDNOdnpCcElLb2Ribmk4S1AxVERUU2hGRHRPeFlxSnVZcVhMVnVPdHlzbmtXd3N4WGF2NWhqV0NidWRYQko1V3BPNlhaX2Q3SEQ1YTlMd1VEWW1TQkdWTFIzQ0ZtVXZhbmhUeVRNcF9kTlo2cDZNcjI0?oc=5> — TradingView
+- Draghi warns France not to expect ECB rescue intervention - Bankingnews (single_secondary_source; new)
+  - <https://news.google.com/rss/articles/CBMiywFBVV95cUxPTGlhcENNNGI1XzhsbnJXVGpJRzlxN3BTZ0xoazdyQXFlMFo0NmpmdEtnSlBJenl2anRzamdZeGJ4VkJuVjRwX3d4MkViV0tJYndXYTZ5cFg1ZHZDcVZibXBRR3BMYWhubDhoZm80ZnpkanY4RXVXRzQwT1hCdkE3Wk15V1JrVHhoSFV3Mk1CQ1M1UWxJemVkUnNZU1V2cGlJdThId0cyQl92OWhSMG5RZklzNVdpUVB6U0ZwY2lRSFhhSFQ3NHU5QVVqZw?oc=5> — Bankingnews
+- Stop believing in haircuts - at least the way you think about them - European Central Bank (single_secondary_source; updated)
+  - <https://news.google.com/rss/articles/CBMieEFVX3lxTFBzbFFzVWtWRmVJd0VEdWlMSmdMb1dRZ2JJT2pIVUZaMjZHX0NHcVVqNTJfMDIyX0NTSzFNOGtfeElobE50RFQ3UllfODN2dmpuZXU0cXo0bGd4N0FrcDUxanNOTnZUNjhjblhSZnlRTWo1ZTdsclBITg?oc=5> — European Central Bank
+- When less is more: behavioral effects of CBDC holding limits - European Central Bank (single_secondary_source; updated)
+  - <https://news.google.com/rss/articles/CBMieEFVX3lxTE5zTEZzalAtMklMVzZvbnBUc1AzRjcyTGE1MkNKM0tyZDdEQi01WXNkbG1ObDcxWXlaUW9MUDBCS2pnRmZfZnFpYURNZDc4U1hrcEtuWGVaT1ZfNjB0UURzck5KS1RHOUkxaERheTU5NDVKYzJiNGFYMA?oc=5> — European Central Bank
+- Papers by Claudia Lambert - European Central Bank (single_secondary_source; new)
+  - <https://news.google.com/rss/articles/CBMihgFBVV95cUxNeHhGcTNXdVlhOGQxM0xnY3dDOTFmX3dPci02b01CbFl1TzNUVFFHa0JWSHFQNUJyY0pKVlN0LWVwaDFnMjVZTGtKcHFGTzZQUlpVWEp4RTRWVTNHcGR5TDZjWDJleGdqRTZYOXpKUE9pQVV3S3BDUVpWeUxkbzJnTExhemtaQQ?oc=5> — European Central Bank
+- 714312-2026 - Result - European Central Bank (single_secondary_source; new)
+  - <https://news.google.com/rss/articles/CBMiqAFBVV95cUxOWTIzZUZIYnlsLXlMdHhNUHNNQlpXbzA1dHBjdGl2N0dDcmJ3OWF4NVo4Q3IyX0xVYldYa0lJNEV6MWwxRVNTUFpKaUlRajlTd2NQdTkzMmFFUXVvQkJqVG5ZN2JMY0dtV1dNXzVBakVqekRyOFNDcG9tek1IVEREdXVlcDlrWnlSZmp4T0FEbHcxM2lBejV4VlUzbGEwLUdyN0liU0I0VXM?oc=5> — European Central Bank
+- Will the ECB Raise Interest Rates Again? What to Expect in 2026 and 2027 - Morningstar (single_secondary_source; new)
+  - <https://news.google.com/rss/articles/CBMipAFBVV95cUxQZFBxRzU5QmJYbEdONHgzRmlpWmVXVHU4bl81a1dkZzN1Zl8wOFRuQllWbEh6YmV1dDV3X1RLZnhBNFhZUVlScDVwUHhwOENBa2NWTnNzTmFWdmlPYUp1ZG1fYzR6NmgwQzBEVmtnRTZPQnRHM0VjeTJUWmFXaVA3MGRKNXl6NEJhcWgzWi1GMW90NDFJRTlPdTg3YUNxOEl3UDZiRg?oc=5> — Morningstar
+- Papers by Claire Rimbaud - European Central Bank (single_secondary_source; unchanged)
+  - <https://news.google.com/rss/articles/CBMihAFBVV95cUxQXzU4VFl0ZFBJS1JTbzF6WmEzclNfQXA2bG9PaVQ1YXhLVU1ycmRoTU10TnlndlREbjBqeFRKakYzOEg5R0Vfanh2Qk9wRGIyU09GNjFZaUE1WVhBanNoR05LajRrUjhYU3BzdG53cmNlOE1CaWdnbXZrNThIRGdueHAyb04?oc=5> — European Central Bank
+- Papers by Benedikt Ballensiefen - European Central Bank (single_secondary_source; unchanged)
+  - <https://news.google.com/rss/articles/CBMijgFBVV95cUxNZzRkaUhEdXhTZWxDSWU3MUwzbFpoMWxDZWFjS3h5QWsyVzFza3JSaUI2eUVONVpmdVJyNVdEVExyNm5yYXpPZ3Zsd0k5cUFMcEtqdE1JWXV2bGRIRHlWZkt1dVRoeGxPb2JORXJwSjRva0UxWVZyc0hZRC1fZGxad1FuMkMzeU1WNlc5NlZn?oc=5> — European Central Bank
+- ECB in no rush to act amid opposing economic forces, Kazaks says - The Edge Singapore (single_secondary_source; new)
+  - <https://news.google.com/rss/articles/CBMirwFBVV95cUxOR1VSck9MQUNnMUprNjA5WUJ3TGQ1anBXeTI0OUtQRkN3ZE5JSXotNTM5TkNjWHFGTzJ2YVhaOE1IWWtRZ0ZfTDRxVjJVMW1FS2xITUsyVWFiVGw3ZGsxM19reTJjUV9kazBrUlg0czd0c3g0ZThrRWNwLW5ubkJlNU1CTHdLRGl3c25HZ0NWWXJKS2U1a0lBTmliblE4NDBOTWR5ZnBMOWZnbUpBcC04?oc=5> — The Edge Singapore
+- ECB’s Dolenc says central bank may not have to do as much if markets tighten - www.tmgm.com (single_secondary_source; updated)
+  - <https://news.google.com/rss/articles/CBMi2AFBVV95cUxPVDhHQngzTkhCMlFmd25ZU3N0MlhJR18xdmZzM1lUc25sc1Nmb0gtYlZjUGRxSmNWYTFnXzJLTTlJUGs2N3J3Qll5cGtoeTRfNmxxVDlwdVQ1a21wcFZrd2NUVDFqbDFTRDRmR01IRThEMzFHZXdfclV1SDBXcFhNcENyOFRRUHA3Q25NTWNieXR0UVFMQzZUZ0VTR3d4REt0UmpiU3hINGRuQTBnM2VHdG5pbVQ0MTFNUC1kMDM5U2JDUTZGeEhmUE1EUXBaMDZDVUp6aUxSckU?oc=5> — www.tmgm.com
+- ECB May Not Have to Do as Much If Markets Tighten, Dolenc Says - Bloomberg.com (single_secondary_source; unchanged)
+  - <https://news.google.com/rss/articles/CBMisgFBVV95cUxNTFFyUkJxSGRvTnBWUmp0bElJNEZNczRJcjhNY3lPUE9RNldkQnk0NDR4RU16Q2NzOVVqbUJtNUpjUXVlZkgzaVFzMU1TSlN5cDc4UWVFMXlRR3RnT25Kd3kxaDRLbnc5RVVKQkVhR1Y5RV96WFEtM3lJbG9mTXNoc2p3ZjFBUE9rQUkzWEVCTUJDX3Q4SGFEWm8yU1lnMFVkbGJYNl9KdTBsODBIa3doQVFB?oc=5> — Bloomberg.com
+- Initial public consultation on the Eurosystem Single Interface - European Central Bank (single_secondary_source; unchanged)
+  - <https://news.google.com/rss/articles/CBMiiwFBVV95cUxQdS1xX3dOUnFvQmkzYjQ3MHllWUozZGtzS0YtT2RuYjdZYm51Mm5fSkFCblNxNU45dk90b3VoNC1UdXEtbHVCMWZuTTR6MWttYjJyNjRiX2Q4bGVqeDBzN1hoOVA1MmQ4WVJJR0tTTl9Zdk5ZaUxTSmIwWGM0T2luTURuZk80VVRtN2RB?oc=5> — European Central Bank
+- Euro Foreign Exchange Reference Rates - European Central Bank (single_secondary_source; unchanged)
+  - <https://news.google.com/rss/articles/CBMikwFBVV95cUxNb0pQOWpucWFaVUhXTE1tLUNXTFMySzhPZ0lWc3Fob2dnX2dFdGwwV1ZRczBGM2duamdCdU5Qa3JOTXlzXzhoNXRvSXIyUEZLSUFodmFjNW5KTkFsM1NKNTZ5cWJVTWp6ZjhySTFaamhfUWpYLVpqTDJzblB6Sm1wbTNxMFR1bjBxNVFZVjgwQVJLMDg?oc=5> — European Central Bank
+- Digital euro pilot - Frontend specifications - Acquiring PSP - European Central Bank (single_secondary_source; unchanged)
+  - <https://news.google.com/rss/articles/CBMi9gFBVV95cUxNdXRCU25OX0JrbDhDOFZsbGJGR0t5cmhOTlpwS1ROdnl2djV5WHVnUUduaVZlSE1kNHpqN0V5Nk5RSjFEdGUwWjlxT3hXMUt0c1NXV285bkFDem9fc0g1TmNVWGZPc0J0M0puWXFZLWc2TEhwZHlQQ1VUaXk1dkZaSnNtVDVlOHUxRjNrdmdmMWRSZDRacnRJUjMyS2drUDN3OVJQT1NfMW1pZmdkdkxjVmNtVU5SUUcxVnlhekVoczQ5NjlTODV6VUhXeGp2eUdFSFNCQVNMQUVxcUM0MjdpMlU2OWdRd3ZiTElEdnNVanh5MWYzUFE?oc=5> — European Central Bank
+- 710182-2026 - Competition - European Central Bank (single_secondary_source; new)
+  - <https://news.google.com/rss/articles/CBMiqgFBVV95cUxNVDlwVjQxSzJIeUo5aUxvc2hCcFZxSTBUR0NQOFR0bVpYYWdpQVI1VFIzNUtac1c1MFpScmY3d3F6aElKWFNZcmZyMm9VSl9xWGx5VWxKTGhGVWc3VGxBM29qZTZ3SURtcnRTdXJNd2phcVI0dUdUTTNHQkFocUp5dWZHdXVGUUk2QndhRmszN09qOGxBMlh5S1NHd0RHT05tRkdUMElhRVJCdw?oc=5> — European Central Bank
+
+## Limitations
+- Bounded queries do not provide exhaustive global coverage.
+- GDELT seen time is an observation timestamp, not verified publication time.
+- Contradiction/resolution labels require explicit source wording and review; no automatic truth adjudication.

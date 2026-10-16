@@ -1,0 +1,23 @@
+{
+  "artifacts": [
+    {
+      "bytes": 8495,
+      "content_type": "application/json",
+      "path": "intel/reports/institutions/helmholtz/2026/10/16/152d4a0585be4877ba111548ad5a3c5e/report.json",
+      "sha256": "93be347a1d9465c1f006bc6756b9487a2e524a7267ab0187d71672543efa574f"
+    },
+    {
+      "bytes": 1262,
+      "content_type": "text/markdown",
+      "path": "intel/reports/institutions/helmholtz/2026/10/16/152d4a0585be4877ba111548ad5a3c5e/report.md",
+      "sha256": "d2e1c327270f581617834f7506859b0f8699bed12fcb7311388bb77d568cf0ea"
+    }
+  ],
+  "commit": null,
+  "generated_at": "2026-10-16T11:37:20.438010+00:00",
+  "profile_id": "institutions/helmholtz",
+  "report_id": "152d4a0585be4877ba111548ad5a3c5e",
+  "schema_version": "1.0",
+  "snapshot_id": "70752f44ca03362bb6f26fbf063112b0335323ea005fcfb6cf0a0a227cc908b0",
+  "status": "partial"
+}

@@ -2,107 +2,107 @@
   "analysis_mode": "deterministic",
   "changes": [
     {
-      "finding_id": "f81d8d9268113b1c8799fa3b",
+      "finding_id": "600794e48e403f328d14f66c",
       "institution_ids": [
         "cern"
       ],
-      "observed_at": "2026-10-15T11:44:26.042075+00:00",
+      "observed_at": "2026-10-16T11:36:43.118927+00:00",
       "type": "new"
     },
     {
-      "finding_id": "3fdbfe1b6c555d2bbca6400e",
+      "finding_id": "afc06526ef388fb4c8c4318c",
       "institution_ids": [
         "cern"
       ],
-      "observed_at": "2026-10-15T11:44:26.042075+00:00",
+      "observed_at": "2026-10-16T11:36:43.118927+00:00",
       "type": "new"
     },
     {
-      "finding_id": "e72811783bc23deb255a9abe",
+      "finding_id": "0976cba70a2e7f70e02b52aa",
       "institution_ids": [
         "cern"
       ],
-      "observed_at": "2026-10-15T11:44:26.042075+00:00",
+      "observed_at": "2026-10-16T11:36:43.118927+00:00",
       "type": "new"
     },
     {
-      "finding_id": "274c0e4f6c24aa4a36c75b18",
+      "finding_id": "4b4ed27ddd48441a450f82eb",
       "institution_ids": [
         "cern"
       ],
-      "observed_at": "2026-10-15T11:44:26.042075+00:00",
+      "observed_at": "2026-10-16T11:36:43.118927+00:00",
       "type": "new"
     },
     {
-      "finding_id": "dbbf369a7d1739e72e7ae725",
+      "finding_id": "800a65505eea7c3cb06b9cae",
       "institution_ids": [
         "cern"
       ],
-      "observed_at": "2026-10-15T11:44:26.042075+00:00",
+      "observed_at": "2026-10-16T11:36:43.118927+00:00",
       "type": "new"
     },
     {
-      "finding_id": "0632c662c615c92e75c78ff9",
+      "finding_id": "46881b27c5c4e22042da27fd",
       "institution_ids": [
         "cern"
       ],
-      "observed_at": "2026-10-15T11:44:26.042075+00:00",
+      "observed_at": "2026-10-16T11:36:43.118927+00:00",
       "type": "new"
     },
     {
-      "finding_id": "fcb9123913377e677e5f6bb4",
+      "finding_id": "b64177f4b56aeab98d6c6868",
       "institution_ids": [
         "cern"
       ],
-      "observed_at": "2026-10-15T11:44:26.042075+00:00",
+      "observed_at": "2026-10-16T11:36:43.118927+00:00",
       "type": "new"
     },
     {
-      "finding_id": "c24a96e44053b8068228c48f",
+      "finding_id": "76bf5a27d525c7671354fc1d",
       "institution_ids": [
         "cern"
       ],
-      "observed_at": "2026-10-15T11:44:26.042075+00:00",
+      "observed_at": "2026-10-16T11:36:43.118927+00:00",
       "type": "new"
     },
     {
-      "finding_id": "963b79606c9b532df3e05d9d",
+      "finding_id": "0dc9546c9b1bafe65c7c6ff1",
       "institution_ids": [
         "cern"
       ],
-      "observed_at": "2026-10-15T11:44:26.042075+00:00",
+      "observed_at": "2026-10-16T11:36:43.118927+00:00",
       "type": "new"
     },
     {
-      "finding_id": "2e3f06593862d0a79a71646a",
+      "finding_id": "d984231da1ee14823b87a596",
       "institution_ids": [
         "cern"
       ],
-      "observed_at": "2026-10-15T11:44:26.042075+00:00",
+      "observed_at": "2026-10-16T11:36:43.118927+00:00",
       "type": "new"
     },
     {
-      "finding_id": "81f6ad18467504b7c8d36ff5",
+      "finding_id": "1e72173f7d1288b9bdd004c4",
       "institution_ids": [
         "cern"
       ],
-      "observed_at": "2026-10-15T11:44:26.042075+00:00",
+      "observed_at": "2026-10-16T11:36:43.118927+00:00",
       "type": "new"
     },
     {
-      "finding_id": "99dd6f312621faf2a63b8fde",
+      "finding_id": "d904c17c42e1c836bd9b2515",
       "institution_ids": [
         "cern"
       ],
-      "observed_at": "2026-10-15T11:44:26.042075+00:00",
+      "observed_at": "2026-10-16T11:36:43.118927+00:00",
       "type": "new"
     },
     {
-      "finding_id": "ebf961e2c59751461c70c48b",
+      "finding_id": "90cc32ee31488629c49b7990",
       "institution_ids": [
         "cern"
       ],
-      "observed_at": "2026-10-15T11:44:26.042075+00:00",
+      "observed_at": "2026-10-16T11:36:43.118927+00:00",
       "type": "new"
     }
   ],
@@ -113,7 +113,7 @@
       "Europe"
     ]
   },
-  "created_at": "2026-10-15T11:44:26.042075+00:00",
+  "created_at": "2026-10-16T11:36:43.118927+00:00",
   "errors": [
     {
       "code": "SOURCE_INCOMPLETE",
@@ -123,6 +123,99 @@
   "findings": [
     {
       "change_type": "new",
+      "classification": "reported_news",
+      "corroboration": 2,
+      "event_id": "600794e48e403f328d14f66c",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "CERN and Mistral join forces to accelerate AI for science – Home - Home | CERN",
+          "source_id": "2339583bfa18fffe35aa46ea"
+        },
+        {
+          "location": "feed title",
+          "snippet": "CERN and Mistral join forces to accelerate AI for science",
+          "source_id": "43eff78530d691a5b42b9545"
+        }
+      ],
+      "finding_id": "600794e48e403f328d14f66c",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [
+        "cern"
+      ],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-16T11:36:43.112949+00:00",
+      "profile_relevance": 8.030426933460648,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-15T12:20:32+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "Europe",
+        "unknown"
+      ],
+      "source_ids": [
+        "2339583bfa18fffe35aa46ea",
+        "43eff78530d691a5b42b9545"
+      ],
+      "summary": "CERN and Mistral join forces to accelerate AI for science – Home - Home | CERN",
+      "topics": [
+        "CERN"
+      ],
+      "verification": "single_primary_source"
+    },
+    {
+      "change_type": "unchanged",
+      "classification": "announcement",
+      "corroboration": 1,
+      "event_id": "3fdbfe1b6c555d2bbca6400e",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "Studying beautiful flavour transitions",
+          "source_id": "3fadf313321b695baea65991"
+        }
+      ],
+      "finding_id": "3fdbfe1b6c555d2bbca6400e",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [
+        "cern"
+      ],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-16T11:36:43.112949+00:00",
+      "profile_relevance": 6.08659591494213,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-14T13:41:25+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "unknown"
+      ],
+      "source_ids": [
+        "3fadf313321b695baea65991"
+      ],
+      "summary": "Studying beautiful flavour transitions",
+      "topics": [
+        "CERN"
+      ],
+      "verification": "single_primary_source"
+    },
+    {
+      "change_type": "unchanged",
       "classification": "reported_news",
       "corroboration": 2,
       "event_id": "f81d8d9268113b1c8799fa3b",
@@ -152,8 +245,8 @@
         "Title-level extraction; linked source should be reviewed."
       ],
       "model_selected": null,
-      "observed_at": "2026-10-15T11:44:26.037649+00:00",
-      "profile_relevance": 8.048205582766204,
+      "observed_at": "2026-10-16T11:36:43.112949+00:00",
+      "profile_relevance": 7.053563507534722,
       "provenance": "deterministic title extraction",
       "published_at": "2026-10-14T12:53:51+00:00",
       "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
@@ -173,17 +266,17 @@
     },
     {
       "change_type": "new",
-      "classification": "announcement",
+      "classification": "reported_news",
       "corroboration": 1,
-      "event_id": "3fdbfe1b6c555d2bbca6400e",
+      "event_id": "afc06526ef388fb4c8c4318c",
       "evidence": [
         {
           "location": "feed title",
-          "snippet": "Studying beautiful flavour transitions",
-          "source_id": "3fadf313321b695baea65991"
+          "snippet": "CERN and Mistral collaborate on AI models for physics - NewsBytes",
+          "source_id": "2319eba5814ad8dc46234292"
         }
       ],
-      "finding_id": "3fdbfe1b6c555d2bbca6400e",
+      "finding_id": "afc06526ef388fb4c8c4318c",
       "geography": {
         "confidence": null,
         "event_region": "unknown",
@@ -197,41 +290,354 @@
         "Title-level extraction; linked source should be reviewed."
       ],
       "model_selected": null,
-      "observed_at": "2026-10-15T11:44:26.037649+00:00",
-      "profile_relevance": 7.08123799017361,
+      "observed_at": "2026-10-16T11:36:43.112949+00:00",
+      "profile_relevance": 8.881352859386574,
       "provenance": "deterministic title extraction",
-      "published_at": "2026-10-14T13:41:25+00:00",
+      "published_at": "2026-10-16T08:45:52+00:00",
       "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
       "regions": [
-        "unknown"
+        "Europe"
       ],
       "source_ids": [
-        "3fadf313321b695baea65991"
+        "2319eba5814ad8dc46234292"
       ],
-      "summary": "Studying beautiful flavour transitions",
+      "summary": "CERN and Mistral collaborate on AI models for physics - NewsBytes",
       "topics": [
         "CERN"
       ],
-      "verification": "single_primary_source"
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "new",
+      "classification": "reported_news",
+      "corroboration": 3,
+      "event_id": "0976cba70a2e7f70e02b52aa",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "CERN and Mistral partner to build AI foundation models for physics - The Hindu",
+          "source_id": "d29f1bf4b6b03f37452e22b5"
+        },
+        {
+          "location": "feed title",
+          "snippet": "CERN and Mistral partner to build AI foundation models for physics - Devdiscourse",
+          "source_id": "20449f6aa00129a355bdb413"
+        },
+        {
+          "location": "feed title",
+          "snippet": "CERN and Mistral partner to build AI foundation models for physics - CNA",
+          "source_id": "c225141221584cecd1a706eb"
+        }
+      ],
+      "finding_id": "0976cba70a2e7f70e02b52aa",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [
+        "cern"
+      ],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-16T11:36:43.112949+00:00",
+      "profile_relevance": 8.737695451979167,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-16T05:19:00+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "Europe"
+      ],
+      "source_ids": [
+        "d29f1bf4b6b03f37452e22b5",
+        "20449f6aa00129a355bdb413",
+        "c225141221584cecd1a706eb"
+      ],
+      "summary": "CERN and Mistral partner to build AI foundation models for physics - The Hindu",
+      "topics": [
+        "CERN"
+      ],
+      "verification": "multiple_secondary_sources"
+    },
+    {
+      "change_type": "new",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "4b4ed27ddd48441a450f82eb",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "CERN and Mistral AI Want to Teach a Foundation Model the Language of Particle Physics - Kingy AI",
+          "source_id": "55a4410913762bf1a79fdc0d"
+        }
+      ],
+      "finding_id": "4b4ed27ddd48441a450f82eb",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [
+        "cern"
+      ],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-16T11:36:43.112949+00:00",
+      "profile_relevance": 8.609801933460648,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-16T02:14:50+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "Europe"
+      ],
+      "source_ids": [
+        "55a4410913762bf1a79fdc0d"
+      ],
+      "summary": "CERN and Mistral AI Want to Teach a Foundation Model the Language of Particle Physics - Kingy AI",
+      "topics": [
+        "CERN"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "new",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "800a65505eea7c3cb06b9cae",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "CERN expands OpenSearch across 139 clusters for data - IT Brief Australia",
+          "source_id": "3866a1fc4e09d1089c76f26c"
+        }
+      ],
+      "finding_id": "800a65505eea7c3cb06b9cae",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [
+        "cern"
+      ],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-16T11:36:43.112949+00:00",
+      "profile_relevance": 8.462001007534722,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-15T22:42:00+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "Europe"
+      ],
+      "source_ids": [
+        "3866a1fc4e09d1089c76f26c"
+      ],
+      "summary": "CERN expands OpenSearch across 139 clusters for data - IT Brief Australia",
+      "topics": [
+        "CERN"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "new",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "46881b27c5c4e22042da27fd",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "CERN Advisor presents Quantum Technology Initiative to KNUST researchers - Tech Review Africa",
+          "source_id": "5b0f1ea109f150f0093e704f"
+        }
+      ],
+      "finding_id": "46881b27c5c4e22042da27fd",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [
+        "cern"
+      ],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-16T11:36:43.112949+00:00",
+      "profile_relevance": 8.342788044571758,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-15T19:50:20+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "Europe"
+      ],
+      "source_ids": [
+        "5b0f1ea109f150f0093e704f"
+      ],
+      "summary": "CERN Advisor presents Quantum Technology Initiative to KNUST researchers - Tech Review Africa",
+      "topics": [
+        "CERN"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "new",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "b64177f4b56aeab98d6c6868",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "Mistral gets the keys to CERN's exabyte: Europe's AI champion teams up on Flare, the first foundation model for collider physics - Dealroom",
+          "source_id": "1e88f61a1e9d797d74f99d56"
+        }
+      ],
+      "finding_id": "b64177f4b56aeab98d6c6868",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [
+        "cern"
+      ],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-16T11:36:43.112949+00:00",
+      "profile_relevance": 8.213123692719908,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-15T16:43:37+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "Europe"
+      ],
+      "source_ids": [
+        "1e88f61a1e9d797d74f99d56"
+      ],
+      "summary": "Mistral gets the keys to CERN's exabyte: Europe's AI champion teams up on Flare, the first foundation model for collider physics - Dealroom",
+      "topics": [
+        "CERN"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "new",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "76bf5a27d525c7671354fc1d",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "CERN has enlisted the French company Mistral to develop a new AI model for physics - LIGA.net",
+          "source_id": "072e2f0bb2296ad3d9984bf6"
+        }
+      ],
+      "finding_id": "76bf5a27d525c7671354fc1d",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [
+        "cern"
+      ],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-16T11:36:43.112949+00:00",
+      "profile_relevance": 8.155531100127314,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-15T15:20:41+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "Europe"
+      ],
+      "source_ids": [
+        "072e2f0bb2296ad3d9984bf6"
+      ],
+      "summary": "CERN has enlisted the French company Mistral to develop a new AI model for physics - LIGA.net",
+      "topics": [
+        "CERN"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "new",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "0dc9546c9b1bafe65c7c6ff1",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "CERN and Mistral AI to develop Flare for collision physics — TimesLIVE - UA.NEWS",
+          "source_id": "b09e849fe357878971b4872b"
+        }
+      ],
+      "finding_id": "0dc9546c9b1bafe65c7c6ff1",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [
+        "cern"
+      ],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-16T11:36:43.112949+00:00",
+      "profile_relevance": 8.124963970497685,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-15T14:36:40+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "Europe"
+      ],
+      "source_ids": [
+        "b09e849fe357878971b4872b"
+      ],
+      "summary": "CERN and Mistral AI to develop Flare for collision physics — TimesLIVE - UA.NEWS",
+      "topics": [
+        "CERN"
+      ],
+      "verification": "single_secondary_source"
     },
     {
       "change_type": "new",
       "classification": "reported_news",
       "corroboration": 2,
-      "event_id": "e72811783bc23deb255a9abe",
+      "event_id": "d984231da1ee14823b87a596",
       "evidence": [
         {
           "location": "feed title",
-          "snippet": "CERN Service Desk: Let’s improve the quality of our calls together – Home - Home | CERN",
-          "source_id": "2574f050a69e55651da062e8"
+          "snippet": "CERN and Mistral partner to build Flare, a new AI model for physics - Reuters",
+          "source_id": "327352f108224d84d8ccbce6"
         },
         {
           "location": "feed title",
-          "snippet": "CERN Service Desk: Let’s improve the quality of our calls together",
-          "source_id": "9da1369fdd834fcf0061ba02"
+          "snippet": "CERN and Mistral partner to build Flare, a new AI model for physics - TradingView",
+          "source_id": "8a25c8f5496af997b92f468a"
         }
       ],
-      "finding_id": "e72811783bc23deb255a9abe",
+      "finding_id": "d984231da1ee14823b87a596",
       "geography": {
         "confidence": null,
         "event_region": "unknown",
@@ -245,131 +651,37 @@
         "Title-level extraction; linked source should be reviewed."
       ],
       "model_selected": null,
-      "observed_at": "2026-10-15T11:44:26.037649+00:00",
-      "profile_relevance": 7.887927804988426,
+      "observed_at": "2026-10-16T11:36:43.112949+00:00",
+      "profile_relevance": 8.059373692719907,
       "provenance": "deterministic title extraction",
-      "published_at": "2026-10-14T09:03:03+00:00",
+      "published_at": "2026-10-15T13:02:13+00:00",
       "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
       "regions": [
-        "Europe",
-        "unknown"
+        "Europe"
       ],
       "source_ids": [
-        "2574f050a69e55651da062e8",
-        "9da1369fdd834fcf0061ba02"
+        "327352f108224d84d8ccbce6",
+        "8a25c8f5496af997b92f468a"
       ],
-      "summary": "CERN Service Desk: Let’s improve the quality of our calls together – Home - Home | CERN",
+      "summary": "CERN and Mistral partner to build Flare, a new AI model for physics - Reuters",
       "topics": [
         "CERN"
       ],
-      "verification": "single_primary_source"
-    },
-    {
-      "change_type": "new",
-      "classification": "announcement",
-      "corroboration": 1,
-      "event_id": "274c0e4f6c24aa4a36c75b18",
-      "evidence": [
-        {
-          "location": "feed title",
-          "snippet": "Exhibition | Imagining the future of physics",
-          "source_id": "630e9ced08af5f42bf2c3d6e"
-        }
-      ],
-      "finding_id": "274c0e4f6c24aa4a36c75b18",
-      "geography": {
-        "confidence": null,
-        "event_region": "unknown",
-        "evidence": []
-      },
-      "importance": null,
-      "institutions": [
-        "cern"
-      ],
-      "limitations": [
-        "Title-level extraction; linked source should be reviewed."
-      ],
-      "model_selected": null,
-      "observed_at": "2026-10-15T11:44:26.037649+00:00",
-      "profile_relevance": 6.922152342025463,
-      "provenance": "deterministic title extraction",
-      "published_at": "2026-10-14T09:52:20+00:00",
-      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
-      "regions": [
-        "unknown"
-      ],
-      "source_ids": [
-        "630e9ced08af5f42bf2c3d6e"
-      ],
-      "summary": "Exhibition | Imagining the future of physics",
-      "topics": [
-        "CERN"
-      ],
-      "verification": "single_primary_source"
+      "verification": "multiple_secondary_sources"
     },
     {
       "change_type": "new",
       "classification": "reported_news",
-      "corroboration": 2,
-      "event_id": "dbbf369a7d1739e72e7ae725",
-      "evidence": [
-        {
-          "location": "feed title",
-          "snippet": "The public consultation for the Future Circular Collider (FCC) project generates extensive dialogue with the local communities – Home - Home | CERN",
-          "source_id": "fe2d525b10fac7cedc6a8384"
-        },
-        {
-          "location": "feed title",
-          "snippet": "The public consultation for the Future Circular Collider (FCC) project generates extensive dialogue with the local communities",
-          "source_id": "239b9406f432df93654a5440"
-        }
-      ],
-      "finding_id": "dbbf369a7d1739e72e7ae725",
-      "geography": {
-        "confidence": null,
-        "event_region": "unknown",
-        "evidence": []
-      },
-      "importance": null,
-      "institutions": [
-        "cern"
-      ],
-      "limitations": [
-        "Title-level extraction; linked source should be reviewed."
-      ],
-      "model_selected": null,
-      "observed_at": "2026-10-15T11:44:26.037649+00:00",
-      "profile_relevance": 5.986712527210648,
-      "provenance": "deterministic title extraction",
-      "published_at": "2026-10-14T11:25:18+00:00",
-      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
-      "regions": [
-        "Europe",
-        "unknown"
-      ],
-      "source_ids": [
-        "fe2d525b10fac7cedc6a8384",
-        "239b9406f432df93654a5440"
-      ],
-      "summary": "The public consultation for the Future Circular Collider (FCC) project generates extensive dialogue with the local communities – Home - Home | CERN",
-      "topics": [
-        "CERN"
-      ],
-      "verification": "single_primary_source"
-    },
-    {
-      "change_type": "new",
-      "classification": "announcement",
       "corroboration": 1,
-      "event_id": "0632c662c615c92e75c78ff9",
+      "event_id": "1e72173f7d1288b9bdd004c4",
       "evidence": [
         {
           "location": "feed title",
-          "snippet": "Computer Security: 2FA to the TechNet",
-          "source_id": "afbd9f3fe1d90b7d95ecaadd"
+          "snippet": "CERN and Mistral Plan AI Model for Particle Physics Research - TOKENPOST",
+          "source_id": "daa4f09a34e3631713a1946a"
         }
       ],
-      "finding_id": "0632c662c615c92e75c78ff9",
+      "finding_id": "1e72173f7d1288b9bdd004c4",
       "geography": {
         "confidence": null,
         "event_region": "unknown",
@@ -383,25 +695,25 @@
         "Title-level extraction; linked source should be reviewed."
       ],
       "model_selected": null,
-      "observed_at": "2026-10-15T11:44:26.037649+00:00",
-      "profile_relevance": 6.915786601284722,
+      "observed_at": "2026-10-16T11:36:43.112949+00:00",
+      "profile_relevance": 8.048169989016204,
       "provenance": "deterministic title extraction",
-      "published_at": "2026-10-14T09:43:10+00:00",
+      "published_at": "2026-10-15T12:46:05+00:00",
       "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
       "regions": [
-        "unknown"
+        "Europe"
       ],
       "source_ids": [
-        "afbd9f3fe1d90b7d95ecaadd"
+        "daa4f09a34e3631713a1946a"
       ],
-      "summary": "Computer Security: 2FA to the TechNet",
+      "summary": "CERN and Mistral Plan AI Model for Particle Physics Research - TOKENPOST",
       "topics": [
         "CERN"
       ],
-      "verification": "single_primary_source"
+      "verification": "single_secondary_source"
     },
     {
-      "change_type": "new",
+      "change_type": "unchanged",
       "classification": "reported_news",
       "corroboration": 1,
       "event_id": "fcb9123913377e677e5f6bb4",
@@ -426,8 +738,8 @@
         "Title-level extraction; linked source should be reviewed."
       ],
       "model_selected": null,
-      "observed_at": "2026-10-15T11:44:26.037649+00:00",
-      "profile_relevance": 8.971041230914352,
+      "observed_at": "2026-10-16T11:36:43.112949+00:00",
+      "profile_relevance": 7.97639915568287,
       "provenance": "deterministic title extraction",
       "published_at": "2026-10-15T11:02:44+00:00",
       "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
@@ -447,15 +759,15 @@
       "change_type": "new",
       "classification": "reported_news",
       "corroboration": 1,
-      "event_id": "c24a96e44053b8068228c48f",
+      "event_id": "d904c17c42e1c836bd9b2515",
       "evidence": [
         {
           "location": "feed title",
-          "snippet": "CERN, Mistral Team Up to Accelerate AI for Science - Mirage News",
-          "source_id": "d19ef6b0bac1812954ef0d2e"
+          "snippet": "CERN and Mistral Plan Foundation Model for Physics - Konsulteer",
+          "source_id": "f658e14f9a0c118e879a4985"
         }
       ],
-      "finding_id": "c24a96e44053b8068228c48f",
+      "finding_id": "d904c17c42e1c836bd9b2515",
       "geography": {
         "confidence": null,
         "event_region": "unknown",
@@ -469,18 +781,18 @@
         "Title-level extraction; linked source should be reviewed."
       ],
       "model_selected": null,
-      "observed_at": "2026-10-15T11:44:26.037649+00:00",
-      "profile_relevance": 8.928865304988426,
+      "observed_at": "2026-10-16T11:36:43.112949+00:00",
+      "profile_relevance": 7.946630637164352,
       "provenance": "deterministic title extraction",
-      "published_at": "2026-10-15T10:02:00+00:00",
+      "published_at": "2026-10-15T10:19:52+00:00",
       "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
       "regions": [
         "Europe"
       ],
       "source_ids": [
-        "d19ef6b0bac1812954ef0d2e"
+        "f658e14f9a0c118e879a4985"
       ],
-      "summary": "CERN, Mistral Team Up to Accelerate AI for Science - Mirage News",
+      "summary": "CERN and Mistral Plan Foundation Model for Physics - Konsulteer",
       "topics": [
         "CERN"
       ],
@@ -490,15 +802,15 @@
       "change_type": "new",
       "classification": "reported_news",
       "corroboration": 1,
-      "event_id": "963b79606c9b532df3e05d9d",
+      "event_id": "90cc32ee31488629c49b7990",
       "evidence": [
         {
           "location": "feed title",
-          "snippet": "CERN Hosts C++ Creator for Discussion on Evolving Scientific Computing - HPCwire",
-          "source_id": "813e9d702f89dd3e9ec06f59"
+          "snippet": "International Business: CERN in pact with Mistral - Gulf Daily News (Bahrain)",
+          "source_id": "f3eed2cd5f95d3b0bc87c858"
         }
       ],
-      "finding_id": "963b79606c9b532df3e05d9d",
+      "finding_id": "90cc32ee31488629c49b7990",
       "geography": {
         "confidence": null,
         "event_region": "unknown",
@@ -512,68 +824,25 @@
         "Title-level extraction; linked source should be reviewed."
       ],
       "model_selected": null,
-      "observed_at": "2026-10-15T11:44:26.037649+00:00",
-      "profile_relevance": 8.378900027210648,
+      "observed_at": "2026-10-16T11:36:43.112949+00:00",
+      "profile_relevance": 7.394582026053241,
       "provenance": "deterministic title extraction",
-      "published_at": "2026-10-14T20:50:03+00:00",
+      "published_at": "2026-10-14T21:04:55+00:00",
       "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
       "regions": [
         "Europe"
       ],
       "source_ids": [
-        "813e9d702f89dd3e9ec06f59"
+        "f3eed2cd5f95d3b0bc87c858"
       ],
-      "summary": "CERN Hosts C++ Creator for Discussion on Evolving Scientific Computing - HPCwire",
+      "summary": "International Business: CERN in pact with Mistral - Gulf Daily News (Bahrain)",
       "topics": [
         "CERN"
       ],
       "verification": "single_secondary_source"
     },
     {
-      "change_type": "new",
-      "classification": "reported_news",
-      "corroboration": 1,
-      "event_id": "2e3f06593862d0a79a71646a",
-      "evidence": [
-        {
-          "location": "feed title",
-          "snippet": "CERN community – Page 200 – Home - Home | CERN",
-          "source_id": "16d17ac675e89468eca69c55"
-        }
-      ],
-      "finding_id": "2e3f06593862d0a79a71646a",
-      "geography": {
-        "confidence": null,
-        "event_region": "unknown",
-        "evidence": []
-      },
-      "importance": null,
-      "institutions": [
-        "cern"
-      ],
-      "limitations": [
-        "Title-level extraction; linked source should be reviewed."
-      ],
-      "model_selected": null,
-      "observed_at": "2026-10-15T11:44:26.037649+00:00",
-      "profile_relevance": 7.642499564247685,
-      "provenance": "deterministic title extraction",
-      "published_at": "2026-10-14T03:09:38+00:00",
-      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
-      "regions": [
-        "Europe"
-      ],
-      "source_ids": [
-        "16d17ac675e89468eca69c55"
-      ],
-      "summary": "CERN community – Page 200 – Home - Home | CERN",
-      "topics": [
-        "CERN"
-      ],
-      "verification": "single_secondary_source"
-    },
-    {
-      "change_type": "new",
+      "change_type": "unchanged",
       "classification": "reported_news",
       "corroboration": 1,
       "event_id": "81f6ad18467504b7c8d36ff5",
@@ -598,8 +867,8 @@
         "Title-level extraction; linked source should be reviewed."
       ],
       "model_selected": null,
-      "observed_at": "2026-10-15T11:44:26.037649+00:00",
-      "profile_relevance": 6.186052804988426,
+      "observed_at": "2026-10-16T11:36:43.112949+00:00",
+      "profile_relevance": 5.191410729756944,
       "provenance": "deterministic title extraction",
       "published_at": "2026-10-14T16:12:21+00:00",
       "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
@@ -614,98 +883,15 @@
         "CERN"
       ],
       "verification": "single_secondary_source"
-    },
-    {
-      "change_type": "new",
-      "classification": "reported_news",
-      "corroboration": 1,
-      "event_id": "99dd6f312621faf2a63b8fde",
-      "evidence": [
-        {
-          "location": "feed title",
-          "snippet": "Computer Security: 2FA to the TechNet – Home - Home | CERN",
-          "source_id": "40406c2b6196eb4c55464037"
-        }
-      ],
-      "finding_id": "99dd6f312621faf2a63b8fde",
-      "geography": {
-        "confidence": null,
-        "event_region": "unknown",
-        "evidence": []
-      },
-      "importance": null,
-      "institutions": [
-        "cern"
-      ],
-      "limitations": [
-        "Title-level extraction; linked source should be reviewed."
-      ],
-      "model_selected": null,
-      "observed_at": "2026-10-15T11:44:26.037649+00:00",
-      "profile_relevance": 5.915786601284722,
-      "provenance": "deterministic title extraction",
-      "published_at": "2026-10-14T09:43:10+00:00",
-      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
-      "regions": [
-        "Europe"
-      ],
-      "source_ids": [
-        "40406c2b6196eb4c55464037"
-      ],
-      "summary": "Computer Security: 2FA to the TechNet – Home - Home | CERN",
-      "topics": [
-        "CERN"
-      ],
-      "verification": "single_secondary_source"
-    },
-    {
-      "change_type": "new",
-      "classification": "reported_news",
-      "corroboration": 1,
-      "event_id": "ebf961e2c59751461c70c48b",
-      "evidence": [
-        {
-          "location": "feed title",
-          "snippet": "A ringing success for the ITk Pixel Detector - ATLAS Experiment at CERN",
-          "source_id": "14c277c7648af020f39817c1"
-        }
-      ],
-      "finding_id": "ebf961e2c59751461c70c48b",
-      "geography": {
-        "confidence": null,
-        "event_region": "unknown",
-        "evidence": []
-      },
-      "importance": null,
-      "institutions": [
-        "cern"
-      ],
-      "limitations": [
-        "Title-level extraction; linked source should be reviewed."
-      ],
-      "model_selected": null,
-      "observed_at": "2026-10-15T11:44:26.037649+00:00",
-      "profile_relevance": 5.281365304988426,
-      "provenance": "deterministic title extraction",
-      "published_at": "2026-10-13T18:29:36+00:00",
-      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
-      "regions": [
-        "Europe"
-      ],
-      "source_ids": [
-        "14c277c7648af020f39817c1"
-      ],
-      "summary": "A ringing success for the ITk Pixel Detector - ATLAS Experiment at CERN",
-      "topics": [
-        "CERN"
-      ],
-      "verification": "single_secondary_source"
     }
   ],
   "history": {
-    "comparison": "first_profile_snapshot",
-    "previous_report_id": null,
-    "previous_snapshot_commit": "ca38d37a08c0eab9a79b1ac3c3350a326e869df9",
+    "comparison": "last_good",
+    "previous_created_at": "2026-10-15T11:44:26.042075+00:00",
+    "previous_report_id": "89dc44fd1a944d32a2f4361685c553fc",
+    "previous_report_sha256": "bfc60a452c2d07fa6b827a08b3e53698bc195a04fc9b2f409618dc487698d04a",
+    "previous_snapshot_commit": "4d823b45786d6bbb69b8d1b16b567a33f3622335",
+    "stale_last_good": false,
     "state": "restored"
   },
   "limitations": [
@@ -714,21 +900,21 @@
     "Contradiction/resolution labels require explicit source wording and review; no automatic truth adjudication."
   ],
   "links": {
-    "json": "intel/reports/institutions/cern/2026/10/15/89dc44fd1a944d32a2f4361685c553fc/report.json",
-    "markdown": "intel/reports/institutions/cern/2026/10/15/89dc44fd1a944d32a2f4361685c553fc/report.md"
+    "json": "intel/reports/institutions/cern/2026/10/16/bc359b59096643cca03aa42dbd35e7c9/report.json",
+    "markdown": "intel/reports/institutions/cern/2026/10/16/bc359b59096643cca03aa42dbd35e7c9/report.md"
   },
   "model_used": null,
   "profile_id": "institutions/cern",
   "question": "",
-  "report_id": "89dc44fd1a944d32a2f4361685c553fc",
-  "run_id": "89dc44fd1a944d32a2f4361685c553fc",
+  "report_id": "bc359b59096643cca03aa42dbd35e7c9",
+  "run_id": "bc359b59096643cca03aa42dbd35e7c9",
   "schedule": {},
   "schema_version": "1.0",
   "sources": [
     {
-      "canonical_url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE43M3NHeF8tc3Y2NDRqQV9JdDBGSFJ0UnRkeHlzSWF5ZGJFU2tpSjktb08yejhmMnY0U005LWczU2RMLXhfVXdSUGxwdjhiOHZHRUUtd2RfWjRGc1Jnck9jLWRYb2dqQU1C?oc=5",
-      "content_fingerprint": "39ba699b42961d9d17b3e66c",
-      "fetched_at": "2026-10-15T11:44:26.037649+00:00",
+      "canonical_url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQVkxBTjVBUS1yd0lfVGc5WmMxbkVxTEUxb0N0cVU1aHBCa0RNbFNRWlEyLUNsd2dySzVrNC1xM2xUUGRMWFlCOHN6MnhrZHREckp2b05qMHRrSTZHckNMa0ZnR2RpUDVwLTZoc2QtbUdfeGFnVnA3SjZPWWszSnhkeURRZHJzWnJsNmtpTkE3VUJ0dEFMY3NUZEhWbWFka1RLT2F1ZjRuUWNqQzlvdU1LaXc0ZWjSAboBQVVfeXFMTlFzTng3M2Q4T2dBbFYwa3JBdXd6bWVPNDgtQV9WejYwY1o4Y2hxSkhkc2RyZl9OR01vaUdkbkw0Zll3Q1ZZaER1OUN2X0F6Tmp5cUtOUUZfcFJWaTktSTZXeFZ6aVFUck82TVk2bEtZSG16TXJvenhfY3FuTDJRY08wRnpVQ3ZkalNTdlhDNzFTVkJwcHdabU8tVGZwZFVxc3FORlJ1aGRqVTI4ZlVORXRPZnhfMjUtRTFB?oc=5",
+      "content_fingerprint": "f3e24565de2e8f6ccc44f5b1",
+      "fetched_at": "2026-10-16T11:36:43.112949+00:00",
       "institution_id": "cern",
       "language": "en",
       "observations": [
@@ -737,24 +923,102 @@
           "language": "en",
           "search_query": "\"CERN\"",
           "search_region": "Europe",
-          "title": "A ringing success for the ITk Pixel Detector - ATLAS Experiment at CERN"
+          "title": "CERN has enlisted the French company Mistral to develop a new AI model for physics - LIGA.net"
         }
       ],
       "origin_collector": "google_news",
-      "original_url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE43M3NHeF8tc3Y2NDRqQV9JdDBGSFJ0UnRkeHlzSWF5ZGJFU2tpSjktb08yejhmMnY0U005LWczU2RMLXhfVXdSUGxwdjhiOHZHRUUtd2RfWjRGc1Jnck9jLWRYb2dqQU1C?oc=5",
+      "original_url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQVkxBTjVBUS1yd0lfVGc5WmMxbkVxTEUxb0N0cVU1aHBCa0RNbFNRWlEyLUNsd2dySzVrNC1xM2xUUGRMWFlCOHN6MnhrZHREckp2b05qMHRrSTZHckNMa0ZnR2RpUDVwLTZoc2QtbUdfeGFnVnA3SjZPWWszSnhkeURRZHJzWnJsNmtpTkE3VUJ0dEFMY3NUZEhWbWFka1RLT2F1ZjRuUWNqQzlvdU1LaXc0ZWjSAboBQVVfeXFMTlFzTng3M2Q4T2dBbFYwa3JBdXd6bWVPNDgtQV9WejYwY1o4Y2hxSkhkc2RyZl9OR01vaUdkbkw0Zll3Q1ZZaER1OUN2X0F6Tmp5cUtOUUZfcFJWaTktSTZXeFZ6aVFUck82TVk2bEtZSG16TXJvenhfY3FuTDJRY08wRnpVQ3ZkalNTdlhDNzFTVkJwcHdabU8tVGZwZFVxc3FORlJ1aGRqVTI4ZlVORXRPZnhfMjUtRTFB?oc=5",
       "profile_id": "institutions/cern",
-      "published_at": "2026-10-13T18:29:36+00:00",
-      "publisher": "ATLAS Experiment at CERN",
+      "published_at": "2026-10-15T15:20:41+00:00",
+      "publisher": "LIGA.net",
       "search_query": "\"CERN\"",
       "source_country": "unknown",
-      "source_id": "14c277c7648af020f39817c1",
+      "source_id": "072e2f0bb2296ad3d9984bf6",
       "source_kind": "secondary",
       "source_seen_at": null
     },
     {
-      "canonical_url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOdXlYeTVTZTZEa2JmVTRqdHNpVUNIaTI2cXVQQWlHb01MSFlYX2o1a3I1YjBpVndudFlLX0NCeUY0ZjFxUjhBT0lfUS1OLWpXVmJNV3JUWkVyS0xhNUxWcXF0SnZDUUt5VjF5TW5kaklkZE5GR2kwZXFYTEE1eHEtWjZCYVdBbGQ5MWdOZDBR?oc=5",
-      "content_fingerprint": "d1e1ed40bc83b2fa8dd0cc7c",
-      "fetched_at": "2026-10-15T11:44:26.037649+00:00",
+      "canonical_url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPMnhkRHBUUTJvYmJQbTZuSEhTemtibGVHMlhpNkZlZjhwUWxpaXFVYlBTb1NXekFlYUVlNFFqdUNPWFlOS3lKUnpTX1BFNG9MM1lMUTBrdWNvMUF4OGhKQnlBQmhkREJOT3JNMG9EOHgzUnVzNjNWeUNZNmtNRS04NWMtRFR4ZnpkOUw1LWNhTHdJMHdBei1sXy1Vc3U3NHFSZXppOTh5M1hnZGNRWHdJbElUSWdyUGtjZWlISk9VQks2cjkwdGl3M3BldG0tcHNDRkdJa0dQUl8zVXlHemtqVkloQjg5SEppSlFHemdfLV83UQ?oc=5",
+      "content_fingerprint": "5467c1e0343f25dc5ac2e9b6",
+      "fetched_at": "2026-10-16T11:36:43.112949+00:00",
+      "institution_id": "cern",
+      "language": "en",
+      "observations": [
+        {
+          "collector": "google_news",
+          "language": "en",
+          "search_query": "\"CERN\"",
+          "search_region": "Europe",
+          "title": "Mistral gets the keys to CERN's exabyte: Europe's AI champion teams up on Flare, the first foundation model for collider physics - Dealroom"
+        }
+      ],
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPMnhkRHBUUTJvYmJQbTZuSEhTemtibGVHMlhpNkZlZjhwUWxpaXFVYlBTb1NXekFlYUVlNFFqdUNPWFlOS3lKUnpTX1BFNG9MM1lMUTBrdWNvMUF4OGhKQnlBQmhkREJOT3JNMG9EOHgzUnVzNjNWeUNZNmtNRS04NWMtRFR4ZnpkOUw1LWNhTHdJMHdBei1sXy1Vc3U3NHFSZXppOTh5M1hnZGNRWHdJbElUSWdyUGtjZWlISk9VQks2cjkwdGl3M3BldG0tcHNDRkdJa0dQUl8zVXlHemtqVkloQjg5SEppSlFHemdfLV83UQ?oc=5",
+      "profile_id": "institutions/cern",
+      "published_at": "2026-10-15T16:43:37+00:00",
+      "publisher": "Dealroom",
+      "search_query": "\"CERN\"",
+      "source_country": "unknown",
+      "source_id": "1e88f61a1e9d797d74f99d56",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQM0dsaWJxWnQ4OFhjODlmd1M2Z2Uyd2VnZkpMSURWelJOMERNNExjTWNPcWxYbGZpaUZuU1g0QnNoZElXTDUwVUpPVkZYVFVlcnNRc0doMkxiV0ZOZmQxeFVka08xSkF2OWxaMnJBSldHQzFPcnpXZ2p2RDdOOWRyV0htdXNNcGtCUG91SlNmR29BMGVkYXZ4WG8xM0FnZ29VYlBSdmthWkEzbHVWdFZNZXM5eDJzcG9IbFZIUktUMHp5djN0bFhUYtIByAFBVV95cUxQM0dsaWJxWnQ4OFhjODlmd1M2Z2Uyd2VnZkpMSURWelJOMERNNExjTWNPcWxYbGZpaUZuU1g0QnNoZElXTDUwVUpPVkZYVFVlcnNRc0doMkxiV0ZOZmQxeFVka08xSkF2OWxaMnJBSldHQzFPcnpXZ2p2RDdOOWRyV0htdXNNcGtCUG91SlNmR29BMGVkYXZ4WG8xM0FnZ29VYlBSdmthWkEzbHVWdFZNZXM5eDJzcG9IbFZIUktUMHp5djN0bFhUYg?oc=5",
+      "content_fingerprint": "918a101bf5b04d25cf7637ed",
+      "fetched_at": "2026-10-16T11:36:43.112949+00:00",
+      "institution_id": "cern",
+      "language": "en",
+      "observations": [
+        {
+          "collector": "google_news",
+          "language": "en",
+          "search_query": "\"CERN\"",
+          "search_region": "Europe",
+          "title": "CERN and Mistral partner to build AI foundation models for physics - Devdiscourse"
+        }
+      ],
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQM0dsaWJxWnQ4OFhjODlmd1M2Z2Uyd2VnZkpMSURWelJOMERNNExjTWNPcWxYbGZpaUZuU1g0QnNoZElXTDUwVUpPVkZYVFVlcnNRc0doMkxiV0ZOZmQxeFVka08xSkF2OWxaMnJBSldHQzFPcnpXZ2p2RDdOOWRyV0htdXNNcGtCUG91SlNmR29BMGVkYXZ4WG8xM0FnZ29VYlBSdmthWkEzbHVWdFZNZXM5eDJzcG9IbFZIUktUMHp5djN0bFhUYtIByAFBVV95cUxQM0dsaWJxWnQ4OFhjODlmd1M2Z2Uyd2VnZkpMSURWelJOMERNNExjTWNPcWxYbGZpaUZuU1g0QnNoZElXTDUwVUpPVkZYVFVlcnNRc0doMkxiV0ZOZmQxeFVka08xSkF2OWxaMnJBSldHQzFPcnpXZ2p2RDdOOWRyV0htdXNNcGtCUG91SlNmR29BMGVkYXZ4WG8xM0FnZ29VYlBSdmthWkEzbHVWdFZNZXM5eDJzcG9IbFZIUktUMHp5djN0bFhUYg?oc=5",
+      "profile_id": "institutions/cern",
+      "published_at": "2026-10-15T12:11:37+00:00",
+      "publisher": "Devdiscourse",
+      "search_query": "\"CERN\"",
+      "source_country": "unknown",
+      "source_id": "20449f6aa00129a355bdb413",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOcmJpa2lXRGtyMXhnNWl0S1Vzc1lVdkFfZXlsdjhuMV9ZN01MemxtMWRfWm1TWWs2VEpYR01BZVhpdEZINXFDV3pzTFRCTm50bWdxQTRlTVM1WXgwaGNmRTdxT2Ziak1BTUNvUmozbDlkLVdld3hHQmg0eWJ3WldBUmZjRGtuTUhIdS1Yczd3X1FHVHlRREEwUmE5M29qLUJqV0xmMzlwSQ?oc=5",
+      "content_fingerprint": "f04a8841bac2386bcd7763a6",
+      "fetched_at": "2026-10-16T11:36:43.112949+00:00",
+      "institution_id": "cern",
+      "language": "en",
+      "observations": [
+        {
+          "collector": "google_news",
+          "language": "en",
+          "search_query": "\"CERN\"",
+          "search_region": "Europe",
+          "title": "CERN and Mistral collaborate on AI models for physics - NewsBytes"
+        }
+      ],
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOcmJpa2lXRGtyMXhnNWl0S1Vzc1lVdkFfZXlsdjhuMV9ZN01MemxtMWRfWm1TWWs2VEpYR01BZVhpdEZINXFDV3pzTFRCTm50bWdxQTRlTVM1WXgwaGNmRTdxT2Ziak1BTUNvUmozbDlkLVdld3hHQmg0eWJ3WldBUmZjRGtuTUhIdS1Yczd3X1FHVHlRREEwUmE5M29qLUJqV0xmMzlwSQ?oc=5",
+      "profile_id": "institutions/cern",
+      "published_at": "2026-10-16T08:45:52+00:00",
+      "publisher": "NewsBytes",
+      "search_query": "\"CERN\"",
+      "source_country": "unknown",
+      "source_id": "2319eba5814ad8dc46234292",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPQllxbHdUcnp1V0NUay1vZUlyNnJTNjJmZXNsbWN6Q1JCM2ZRRUNHWjVQRjYydHBlLU82UWJlUUhzX2JCc3h4TVFCUEZkT2RNLUpZMm9WLUdLNlB2ZG1ScXBJZ1hVM1ctd0JLUU9LWEluaTR5eG5HMHg4UGZGQnBYWkRB?oc=5",
+      "content_fingerprint": "37f88b1b01256586292abd1d",
+      "fetched_at": "2026-10-16T11:36:43.112949+00:00",
       "institution_id": "cern",
       "language": "en",
       "observations": [
@@ -763,76 +1027,83 @@
           "language": "en",
           "search_query": "site:home.cern",
           "search_region": "Europe",
-          "title": "CERN community – Page 200 – Home - Home | CERN"
+          "title": "CERN and Mistral join forces to accelerate AI for science – Home - Home | CERN"
+        },
+        {
+          "collector": "google_news",
+          "language": "en",
+          "search_query": "\"CERN\"",
+          "search_region": "Europe",
+          "title": "CERN and Mistral join forces to accelerate AI for science – Home - Home | CERN"
         }
       ],
       "origin_collector": "google_news",
-      "original_url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOdXlYeTVTZTZEa2JmVTRqdHNpVUNIaTI2cXVQQWlHb01MSFlYX2o1a3I1YjBpVndudFlLX0NCeUY0ZjFxUjhBT0lfUS1OLWpXVmJNV3JUWkVyS0xhNUxWcXF0SnZDUUt5VjF5TW5kaklkZE5GR2kwZXFYTEE1eHEtWjZCYVdBbGQ5MWdOZDBR?oc=5",
+      "original_url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPQllxbHdUcnp1V0NUay1vZUlyNnJTNjJmZXNsbWN6Q1JCM2ZRRUNHWjVQRjYydHBlLU82UWJlUUhzX2JCc3h4TVFCUEZkT2RNLUpZMm9WLUdLNlB2ZG1ScXBJZ1hVM1ctd0JLUU9LWEluaTR5eG5HMHg4UGZGQnBYWkRB?oc=5",
       "profile_id": "institutions/cern",
-      "published_at": "2026-10-14T03:09:38+00:00",
+      "published_at": "2026-10-15T12:20:32+00:00",
       "publisher": "Home | CERN",
-      "search_query": "site:home.cern",
+      "search_query": "\"CERN\"",
       "source_country": "unknown",
-      "source_id": "16d17ac675e89468eca69c55",
+      "source_id": "2339583bfa18fffe35aa46ea",
       "source_kind": "secondary",
       "source_seen_at": null
     },
     {
-      "canonical_url": "https://home.cern/une-periode-de-participation-citoyenne-sur-le-projet-de-futur-collisionneur-circulaire-fcc-riche-en-echanges-avec-les-territoires",
-      "content_fingerprint": "3916f0da2a903beb75c9190d",
-      "fetched_at": "2026-10-15T11:44:26.037649+00:00",
-      "institution_id": "cern",
-      "language": "unknown",
-      "observations": [
-        {
-          "collector": "rss",
-          "language": "unknown",
-          "search_query": null,
-          "search_region": "unknown",
-          "title": "The public consultation for the Future Circular Collider (FCC) project generates extensive dialogue with the local communities"
-        }
-      ],
-      "origin_collector": "rss",
-      "original_url": "https://home.cern/une-periode-de-participation-citoyenne-sur-le-projet-de-futur-collisionneur-circulaire-fcc-riche-en-echanges-avec-les-territoires/",
-      "profile_id": "institutions/cern",
-      "published_at": "2026-10-14T11:25:18+00:00",
-      "publisher": "Anais Schaeffer",
-      "search_query": null,
-      "source_country": "unknown",
-      "source_id": "239b9406f432df93654a5440",
-      "source_kind": "primary",
-      "source_seen_at": null
-    },
-    {
-      "canonical_url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQM1JJbGp5V2FRdE9qMXQxQVRTcXFlNkFJNmxJVDg4X1V4Y2pVWkYzVFBxZ1hJMlZvUzV0QXE2RUVUOGdqcFNOa2IxajNrT01ScUZpZHZhOWM3eVpWb3FHTHl4a1lSYV9DZUJTaS1MVkJqclBFR0JNUllmX09nd09sMnpvcXJDdnZDVk9Z?oc=5",
-      "content_fingerprint": "442c7d251994629a11fbee68",
-      "fetched_at": "2026-10-15T11:44:26.037649+00:00",
+      "canonical_url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOejlwRzRlN1BnaFhFZ1VYb0ZKSVFmN1NRcFppbWFLdXV3ZzEtdUFpc0RRcFNtTmRVeGhjX0pLVmV1bElvQmpFeVlsYkcwX0h2WDFQaksyZ2JYSng5c3MwbVJ2V20zN0hQYU1vNXc3bWZlWjlSX1ZwTHE2NnRmNzRjX3VodU5ZemRfU2NqaXdPWGVyNzJXWTYyU0I5dFFLSmZq?oc=5",
+      "content_fingerprint": "a5feeaa02ea60bf18f86808e",
+      "fetched_at": "2026-10-16T11:36:43.112949+00:00",
       "institution_id": "cern",
       "language": "en",
       "observations": [
         {
           "collector": "google_news",
           "language": "en",
-          "search_query": "site:home.cern",
+          "search_query": "\"CERN\"",
           "search_region": "Europe",
-          "title": "CERN Service Desk: Let’s improve the quality of our calls together – Home - Home | CERN"
+          "title": "CERN and Mistral partner to build Flare, a new AI model for physics - Reuters"
         }
       ],
       "origin_collector": "google_news",
-      "original_url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQM1JJbGp5V2FRdE9qMXQxQVRTcXFlNkFJNmxJVDg4X1V4Y2pVWkYzVFBxZ1hJMlZvUzV0QXE2RUVUOGdqcFNOa2IxajNrT01ScUZpZHZhOWM3eVpWb3FHTHl4a1lSYV9DZUJTaS1MVkJqclBFR0JNUllmX09nd09sMnpvcXJDdnZDVk9Z?oc=5",
+      "original_url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOejlwRzRlN1BnaFhFZ1VYb0ZKSVFmN1NRcFppbWFLdXV3ZzEtdUFpc0RRcFNtTmRVeGhjX0pLVmV1bElvQmpFeVlsYkcwX0h2WDFQaksyZ2JYSng5c3MwbVJ2V20zN0hQYU1vNXc3bWZlWjlSX1ZwTHE2NnRmNzRjX3VodU5ZemRfU2NqaXdPWGVyNzJXWTYyU0I5dFFLSmZq?oc=5",
       "profile_id": "institutions/cern",
-      "published_at": "2026-10-14T09:03:03+00:00",
-      "publisher": "Home | CERN",
-      "search_query": "site:home.cern",
+      "published_at": "2026-10-15T13:02:13+00:00",
+      "publisher": "Reuters",
+      "search_query": "\"CERN\"",
       "source_country": "unknown",
-      "source_id": "2574f050a69e55651da062e8",
+      "source_id": "327352f108224d84d8ccbce6",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOVi1qc3hoQlprVXB4bXNITjI3TVdJLWtGVkxhSVFmUnVfU0N1WDJFa3NCSEpGVk9VbWRhdFd1ZnNvYkgya2otY0tBZFplLU5kV3FvVGgtV2RmZWRPelllTGc2S1FoYTV2ODdjNTRpTjJQRF83bHVnaS1CRlVMdXN1VnZKX0traXo2?oc=5",
+      "content_fingerprint": "f9d9371b32a4ac7d90bb4d53",
+      "fetched_at": "2026-10-16T11:36:43.112949+00:00",
+      "institution_id": "cern",
+      "language": "en",
+      "observations": [
+        {
+          "collector": "google_news",
+          "language": "en",
+          "search_query": "\"CERN\"",
+          "search_region": "Europe",
+          "title": "CERN expands OpenSearch across 139 clusters for data - IT Brief Australia"
+        }
+      ],
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOVi1qc3hoQlprVXB4bXNITjI3TVdJLWtGVkxhSVFmUnVfU0N1WDJFa3NCSEpGVk9VbWRhdFd1ZnNvYkgya2otY0tBZFplLU5kV3FvVGgtV2RmZWRPelllTGc2S1FoYTV2ODdjNTRpTjJQRF83bHVnaS1CRlVMdXN1VnZKX0traXo2?oc=5",
+      "profile_id": "institutions/cern",
+      "published_at": "2026-10-15T22:42:00+00:00",
+      "publisher": "IT Brief Australia",
+      "search_query": "\"CERN\"",
+      "source_country": "unknown",
+      "source_id": "3866a1fc4e09d1089c76f26c",
       "source_kind": "secondary",
       "source_seen_at": null
     },
     {
       "canonical_url": "https://home.cern/studying-beautiful-flavour-transitions",
       "content_fingerprint": "3474f9df8adb8226dadfd9ae",
-      "fetched_at": "2026-10-15T11:44:26.037649+00:00",
+      "fetched_at": "2026-10-16T11:36:43.112949+00:00",
       "institution_id": "cern",
       "language": "unknown",
       "observations": [
@@ -856,42 +1127,35 @@
       "source_seen_at": null
     },
     {
-      "canonical_url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1aa0tJMjNoUTdJUGFpZHJ6WnZudUd6SlkwYy1hRUhOMzdnSUkwNWRuWXpid0NYS1lPVS1HOVVqeTd5dGtha2JfY1NsWmNDT1l1MlZNa291UHZ0MExIa0lPZHlkOHFyQQ?oc=5",
-      "content_fingerprint": "1a8cecc7fb015df3f4668e97",
-      "fetched_at": "2026-10-15T11:44:26.037649+00:00",
+      "canonical_url": "https://home.cern/cern-and-mistral-join-forces-to-accelerate-ai-for-science",
+      "content_fingerprint": "c7cb9a2cff9513ce93e839e1",
+      "fetched_at": "2026-10-16T11:36:43.112949+00:00",
       "institution_id": "cern",
-      "language": "en",
+      "language": "unknown",
       "observations": [
         {
-          "collector": "google_news",
-          "language": "en",
-          "search_query": "site:home.cern",
-          "search_region": "Europe",
-          "title": "Computer Security: 2FA to the TechNet – Home - Home | CERN"
-        },
-        {
-          "collector": "google_news",
-          "language": "en",
-          "search_query": "\"CERN\"",
-          "search_region": "Europe",
-          "title": "Computer Security: 2FA to the TechNet – Home - Home | CERN"
+          "collector": "rss",
+          "language": "unknown",
+          "search_query": null,
+          "search_region": "unknown",
+          "title": "CERN and Mistral join forces to accelerate AI for science"
         }
       ],
-      "origin_collector": "google_news",
-      "original_url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1aa0tJMjNoUTdJUGFpZHJ6WnZudUd6SlkwYy1hRUhOMzdnSUkwNWRuWXpid0NYS1lPVS1HOVVqeTd5dGtha2JfY1NsWmNDT1l1MlZNa291UHZ0MExIa0lPZHlkOHFyQQ?oc=5",
+      "origin_collector": "rss",
+      "original_url": "https://home.cern/cern-and-mistral-join-forces-to-accelerate-ai-for-science/",
       "profile_id": "institutions/cern",
-      "published_at": "2026-10-14T09:43:10+00:00",
-      "publisher": "Home | CERN",
-      "search_query": "\"CERN\"",
+      "published_at": "2026-10-15T10:00:00+00:00",
+      "publisher": "Gustavo Miguel Rodriguez Hidalgo",
+      "search_query": null,
       "source_country": "unknown",
-      "source_id": "40406c2b6196eb4c55464037",
-      "source_kind": "secondary",
+      "source_id": "43eff78530d691a5b42b9545",
+      "source_kind": "primary",
       "source_seen_at": null
     },
     {
       "canonical_url": "https://home.cern/continuous-improvement-gains-momentum-at-cern",
       "content_fingerprint": "8992e381992d6b2d90539e48",
-      "fetched_at": "2026-10-15T11:44:26.037649+00:00",
+      "fetched_at": "2026-10-16T11:36:43.112949+00:00",
       "institution_id": "cern",
       "language": "unknown",
       "observations": [
@@ -915,35 +1179,61 @@
       "source_seen_at": null
     },
     {
-      "canonical_url": "https://home.cern/exhibition-imagining-the-future-of-physics",
-      "content_fingerprint": "2e7e90472d01311c7b0e9be6",
-      "fetched_at": "2026-10-15T11:44:26.037649+00:00",
+      "canonical_url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1kY3l0eG5KR2duOWJiUFJjQnBoc0tXU2pMeDBrUlAtd19PVk1CSEVVWFJZVnhTY2p4QzgtQlAzb3lkeXdDaXFrZEVTUldBNEMxREhSOUlNU0w1dTI5OExPOVdIRlhXTXNDQ0Jka1R5ZWhacFZVY2JfQkNB?oc=5",
+      "content_fingerprint": "3afc82f5353199cd403d93ea",
+      "fetched_at": "2026-10-16T11:36:43.112949+00:00",
       "institution_id": "cern",
-      "language": "unknown",
+      "language": "en",
       "observations": [
         {
-          "collector": "rss",
-          "language": "unknown",
-          "search_query": null,
-          "search_region": "unknown",
-          "title": "Exhibition | Imagining the future of physics"
+          "collector": "google_news",
+          "language": "en",
+          "search_query": "\"CERN\"",
+          "search_region": "Europe",
+          "title": "CERN and Mistral AI Want to Teach a Foundation Model the Language of Particle Physics - Kingy AI"
         }
       ],
-      "origin_collector": "rss",
-      "original_url": "https://home.cern/exhibition-imagining-the-future-of-physics/",
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1kY3l0eG5KR2duOWJiUFJjQnBoc0tXU2pMeDBrUlAtd19PVk1CSEVVWFJZVnhTY2p4QzgtQlAzb3lkeXdDaXFrZEVTUldBNEMxREhSOUlNU0w1dTI5OExPOVdIRlhXTXNDQ0Jka1R5ZWhacFZVY2JfQkNB?oc=5",
       "profile_id": "institutions/cern",
-      "published_at": "2026-10-14T09:52:20+00:00",
-      "publisher": "Anais Schaeffer",
-      "search_query": null,
+      "published_at": "2026-10-16T02:14:50+00:00",
+      "publisher": "Kingy AI",
+      "search_query": "\"CERN\"",
       "source_country": "unknown",
-      "source_id": "630e9ced08af5f42bf2c3d6e",
-      "source_kind": "primary",
+      "source_id": "55a4410913762bf1a79fdc0d",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNQllQVmM2eFh5ZmYtak03ZGhVMEFCaXA0N0RZVjdkNDJackU1aDluejNDR3Z4UG5YbWdWTHBVWHVtS09ra2VWYUw1Qnp1V3VjdERpS2tBamp3Ui1XUUZUMzRVaVFYc1ZhUWhtWmRmZm9Tc25SWi1SNGR2UHIyLUxKSWdXVkxxNDUyN2czbUNFbzQzRVhzT2NlcEhzSl9aWmxNY3M1RHU1MFdWM1UwamdEZw?oc=5",
+      "content_fingerprint": "255bd722f47c1dfb8bf16c38",
+      "fetched_at": "2026-10-16T11:36:43.112949+00:00",
+      "institution_id": "cern",
+      "language": "en",
+      "observations": [
+        {
+          "collector": "google_news",
+          "language": "en",
+          "search_query": "\"CERN\"",
+          "search_region": "Europe",
+          "title": "CERN Advisor presents Quantum Technology Initiative to KNUST researchers - Tech Review Africa"
+        }
+      ],
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNQllQVmM2eFh5ZmYtak03ZGhVMEFCaXA0N0RZVjdkNDJackU1aDluejNDR3Z4UG5YbWdWTHBVWHVtS09ra2VWYUw1Qnp1V3VjdERpS2tBamp3Ui1XUUZUMzRVaVFYc1ZhUWhtWmRmZm9Tc25SWi1SNGR2UHIyLUxKSWdXVkxxNDUyN2czbUNFbzQzRVhzT2NlcEhzSl9aWmxNY3M1RHU1MFdWM1UwamdEZw?oc=5",
+      "profile_id": "institutions/cern",
+      "published_at": "2026-10-15T19:50:20+00:00",
+      "publisher": "Tech Review Africa",
+      "search_query": "\"CERN\"",
+      "source_country": "unknown",
+      "source_id": "5b0f1ea109f150f0093e704f",
+      "source_kind": "secondary",
       "source_seen_at": null
     },
     {
       "canonical_url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBjVks3VVFCMEpGckFBOVhYUDBUMkVHcm1TbWRZd0lyUVRobHRPbjl3OUdxZDZaZzhTV1ZhRkJEdDFmOWJqQzB3STNhMHBiUVVxeDd5V0dRd2dVb2x5d1BwSU1CQUY0OVNxcTZYNU4xbExnZw?oc=5",
       "content_fingerprint": "518dd793f89e82e7f75b654b",
-      "fetched_at": "2026-10-15T11:44:26.037649+00:00",
+      "fetched_at": "2026-10-16T11:36:43.112949+00:00",
       "institution_id": "cern",
       "language": "en",
       "observations": [
@@ -974,9 +1264,9 @@
       "source_seen_at": null
     },
     {
-      "canonical_url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPUm5lRllYa1JWYkpXZWQ5VUtZRFVuR1RWanVKRzkxNVVTcW82STExYVdpdWlvM1ROYlBkMEtBMGNFNlQzM0ZMX1ZxRUxtYWh3NjdvQ1JiWTlsYVVkRkFZR3B4cTluN3NxRFJ2TWFmNmYyRXpNTTFubzRVWUo3cDRYVzJYV21QcE5GVVhRR2E2S0tDUnJCVTgzenBuUTcxY1otcXZ0RVZULVFQdER4TDMyUA?oc=5",
-      "content_fingerprint": "74c6bd30b5c9e6080496958f",
-      "fetched_at": "2026-10-15T11:44:26.037649+00:00",
+      "canonical_url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOcTYtNTIxQmRfOVA4M1dXYWhscmsxZV9OMV85OFY4UFR1emJrd0IzOV9pVWxPWlVrYkxhbGN4SnhFZ1VnbmlnRzZqOFFOcDRXa2V6UmJDcmk3QVhTR2hHVHVKRVpidWJBTHJSVHBra095VkR6eDhENHhGYmRRaV80S2xybzA1ZWlVRXRVYW9MY19DMjlobjdTazNOaGthWkdtUkhZMkJVOFMzMWd5Rnk4VE4ybDhsXzN5ZDNnQlM5elZYVXRxbVZaTW16VC1hSk5OR1E?oc=5",
+      "content_fingerprint": "5754d24492c9130c11a7145f",
+      "fetched_at": "2026-10-16T11:36:43.112949+00:00",
       "institution_id": "cern",
       "language": "en",
       "observations": [
@@ -985,24 +1275,24 @@
           "language": "en",
           "search_query": "\"CERN\"",
           "search_region": "Europe",
-          "title": "CERN Hosts C++ Creator for Discussion on Evolving Scientific Computing - HPCwire"
+          "title": "CERN and Mistral partner to build Flare, a new AI model for physics - TradingView"
         }
       ],
       "origin_collector": "google_news",
-      "original_url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPUm5lRllYa1JWYkpXZWQ5VUtZRFVuR1RWanVKRzkxNVVTcW82STExYVdpdWlvM1ROYlBkMEtBMGNFNlQzM0ZMX1ZxRUxtYWh3NjdvQ1JiWTlsYVVkRkFZR3B4cTluN3NxRFJ2TWFmNmYyRXpNTTFubzRVWUo3cDRYVzJYV21QcE5GVVhRR2E2S0tDUnJCVTgzenBuUTcxY1otcXZ0RVZULVFQdER4TDMyUA?oc=5",
+      "original_url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOcTYtNTIxQmRfOVA4M1dXYWhscmsxZV9OMV85OFY4UFR1emJrd0IzOV9pVWxPWlVrYkxhbGN4SnhFZ1VnbmlnRzZqOFFOcDRXa2V6UmJDcmk3QVhTR2hHVHVKRVpidWJBTHJSVHBra095VkR6eDhENHhGYmRRaV80S2xybzA1ZWlVRXRVYW9MY19DMjlobjdTazNOaGthWkdtUkhZMkJVOFMzMWd5Rnk4VE4ybDhsXzN5ZDNnQlM5elZYVXRxbVZaTW16VC1hSk5OR1E?oc=5",
       "profile_id": "institutions/cern",
-      "published_at": "2026-10-14T20:50:03+00:00",
-      "publisher": "HPCwire",
+      "published_at": "2026-10-15T12:11:03+00:00",
+      "publisher": "TradingView",
       "search_query": "\"CERN\"",
       "source_country": "unknown",
-      "source_id": "813e9d702f89dd3e9ec06f59",
+      "source_id": "8a25c8f5496af997b92f468a",
       "source_kind": "secondary",
       "source_seen_at": null
     },
     {
       "canonical_url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBoSWF3Y3NOQmw2dVlTNWIyMGY4dTlVYzN2em5keDloUmpMSkJaSnB1d1pLWEtzS0ZlS3RtaTI2eFVvMDlNMkVSSmNXd2xxaEZOWTRtc0RDMTYxcklqb0tkbTRySVVrMF9Y?oc=5",
       "content_fingerprint": "1b7e04cbc3bf113b3ce10ca4",
-      "fetched_at": "2026-10-15T11:44:26.037649+00:00",
+      "fetched_at": "2026-10-16T11:36:43.112949+00:00",
       "institution_id": "cern",
       "language": "en",
       "observations": [
@@ -1035,7 +1325,7 @@
     {
       "canonical_url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBrNUdROW5aLVlPSllhS2Y0aFVDeXNpNndIdXVJNzk1Tk5CZ2ZkZmNnRHE0aUpWUUpRT0R5UWtoVU1UTEQxMkRtOGFxS0Vuc2lDSjJmX19xNGYwUGNNajRiVTdXWEtLWU5qOUVKbA?oc=5",
       "content_fingerprint": "41f7d40fcc25115178d097b0",
-      "fetched_at": "2026-10-15T11:44:26.037649+00:00",
+      "fetched_at": "2026-10-16T11:36:43.112949+00:00",
       "institution_id": "cern",
       "language": "en",
       "observations": [
@@ -1059,61 +1349,9 @@
       "source_seen_at": null
     },
     {
-      "canonical_url": "https://home.cern/cern-service-desk-lets-improve-the-quality-of-our-calls-together",
-      "content_fingerprint": "44b21515dc2a0ac0e9a7959c",
-      "fetched_at": "2026-10-15T11:44:26.037649+00:00",
-      "institution_id": "cern",
-      "language": "unknown",
-      "observations": [
-        {
-          "collector": "rss",
-          "language": "unknown",
-          "search_query": null,
-          "search_region": "unknown",
-          "title": "CERN Service Desk: Let’s improve the quality of our calls together"
-        }
-      ],
-      "origin_collector": "rss",
-      "original_url": "https://home.cern/cern-service-desk-lets-improve-the-quality-of-our-calls-together/",
-      "profile_id": "institutions/cern",
-      "published_at": "2026-10-14T09:03:03+00:00",
-      "publisher": "Anais Schaeffer",
-      "search_query": null,
-      "source_country": "unknown",
-      "source_id": "9da1369fdd834fcf0061ba02",
-      "source_kind": "primary",
-      "source_seen_at": null
-    },
-    {
-      "canonical_url": "https://home.cern/computer-security-2fa-to-the-technet",
-      "content_fingerprint": "7285f13dcb1cf0fffc0511dd",
-      "fetched_at": "2026-10-15T11:44:26.037649+00:00",
-      "institution_id": "cern",
-      "language": "unknown",
-      "observations": [
-        {
-          "collector": "rss",
-          "language": "unknown",
-          "search_query": null,
-          "search_region": "unknown",
-          "title": "Computer Security: 2FA to the TechNet"
-        }
-      ],
-      "origin_collector": "rss",
-      "original_url": "https://home.cern/computer-security-2fa-to-the-technet/",
-      "profile_id": "institutions/cern",
-      "published_at": "2026-10-14T09:43:10+00:00",
-      "publisher": "Anais Schaeffer",
-      "search_query": null,
-      "source_country": "unknown",
-      "source_id": "afbd9f3fe1d90b7d95ecaadd",
-      "source_kind": "primary",
-      "source_seen_at": null
-    },
-    {
-      "canonical_url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNVWpRdnNCWDVQSGlfVGY0clNtWHNnUi1CLWp2dlVCWG4xT1dTOWlJUi1hZDY2cE5GZHJWU1l2QlJ5UEUwX2RlYzE2TngxbzBHSzlwV1YwZXRqY2FGd3pPWU5hbE5vbjNEWXRNTVpqaHdwdmF2LUpJN252T2x1ZTFNdXd3Yw?oc=5",
-      "content_fingerprint": "420d45c30d8307476479b041",
-      "fetched_at": "2026-10-15T11:44:26.037649+00:00",
+      "canonical_url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQRmpORXVjc0g5VVZ0cXpsOGFYR081eHJTT05qX01vQ2tlNktaV25aWmhKQVdjcmMwMllUczNnRERvbkFKTWFqemZlMFRURzhNaXN6TFVycy1KSVhuQUZFakJXQUpPVFN6ZWo5Q2VuZ2tfc3k2X080RmRoMjZNRUF4VnpaSVg0RUo4M185TFFobFdWcGxYamNydktMSHJLVm9mRWc?oc=5",
+      "content_fingerprint": "a25178ddf027361273f35ead",
+      "fetched_at": "2026-10-16T11:36:43.112949+00:00",
       "institution_id": "cern",
       "language": "en",
       "observations": [
@@ -1122,50 +1360,147 @@
           "language": "en",
           "search_query": "\"CERN\"",
           "search_region": "Europe",
-          "title": "CERN, Mistral Team Up to Accelerate AI for Science - Mirage News"
+          "title": "CERN and Mistral AI to develop Flare for collision physics — TimesLIVE - UA.NEWS"
         }
       ],
       "origin_collector": "google_news",
-      "original_url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNVWpRdnNCWDVQSGlfVGY0clNtWHNnUi1CLWp2dlVCWG4xT1dTOWlJUi1hZDY2cE5GZHJWU1l2QlJ5UEUwX2RlYzE2TngxbzBHSzlwV1YwZXRqY2FGd3pPWU5hbE5vbjNEWXRNTVpqaHdwdmF2LUpJN252T2x1ZTFNdXd3Yw?oc=5",
+      "original_url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQRmpORXVjc0g5VVZ0cXpsOGFYR081eHJTT05qX01vQ2tlNktaV25aWmhKQVdjcmMwMllUczNnRERvbkFKTWFqemZlMFRURzhNaXN6TFVycy1KSVhuQUZFakJXQUpPVFN6ZWo5Q2VuZ2tfc3k2X080RmRoMjZNRUF4VnpaSVg0RUo4M185TFFobFdWcGxYamNydktMSHJLVm9mRWc?oc=5",
       "profile_id": "institutions/cern",
-      "published_at": "2026-10-15T10:02:00+00:00",
-      "publisher": "Mirage News",
+      "published_at": "2026-10-15T14:36:40+00:00",
+      "publisher": "UA.NEWS",
       "search_query": "\"CERN\"",
       "source_country": "unknown",
-      "source_id": "d19ef6b0bac1812954ef0d2e",
+      "source_id": "b09e849fe357878971b4872b",
       "source_kind": "secondary",
       "source_seen_at": null
     },
     {
-      "canonical_url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPVVByQzJjRG1SZ0NVRjhVQTRlWWhFenFJWEF1djZsMGNRcElRM1ROMVZzeHlmeUozbUYydUFCRkJyMUFLX2xlSlprSEdPQjJTTjJlVU44UVRDYUszSFhqUnQyUVN1eWEyR3FvRU1zQUZUdUhrSWFSVmxZNHUtMVV5Vk93ZjBLSDA3dHFCTkFyTVI3NFJVTGxQbXg4VjgybWw3SU8zTmpJOHhVaUs5LXhiSjBQcENSYnpzb1NaM2ZvVGlxa3FIc3dZM1VTSUFSZFJqbmtRNkF1a2N5Sktja2Y3UF93?oc=5",
-      "content_fingerprint": "ef49f2320f4083d9b5158a6b",
-      "fetched_at": "2026-10-15T11:44:26.037649+00:00",
+      "canonical_url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQRzRpQXQ1UHc5eG1JdHl4MHFXVHZsM0ZtQzhqQk80cUtnMmV2THZfWmVUTUlaVGk5SFlkdzFxS2ZoVmVxSWtsa0NhLW1xWWhWcER2VHNlUmw2OW04Q3pBSm5PNjBMS2R1eDBwU2UwMkV5Y21NX3Vfb1JrbVhabzVWdl9jSzVyVGZCQzJWeEhrWlk2a1hLVHIyV3pUY0NuaWt5c19sQnVmMEdKN1FP?oc=5",
+      "content_fingerprint": "151adc4168da1d713ccd2a6f",
+      "fetched_at": "2026-10-16T11:36:43.112949+00:00",
       "institution_id": "cern",
       "language": "en",
       "observations": [
         {
           "collector": "google_news",
           "language": "en",
-          "search_query": "site:home.cern",
+          "search_query": "\"CERN\"",
           "search_region": "Europe",
-          "title": "The public consultation for the Future Circular Collider (FCC) project generates extensive dialogue with the local communities – Home - Home | CERN"
-        },
+          "title": "CERN and Mistral partner to build AI foundation models for physics - CNA"
+        }
+      ],
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQRzRpQXQ1UHc5eG1JdHl4MHFXVHZsM0ZtQzhqQk80cUtnMmV2THZfWmVUTUlaVGk5SFlkdzFxS2ZoVmVxSWtsa0NhLW1xWWhWcER2VHNlUmw2OW04Q3pBSm5PNjBMS2R1eDBwU2UwMkV5Y21NX3Vfb1JrbVhabzVWdl9jSzVyVGZCQzJWeEhrWlk2a1hLVHIyV3pUY0NuaWt5c19sQnVmMEdKN1FP?oc=5",
+      "profile_id": "institutions/cern",
+      "published_at": "2026-10-15T12:02:02+00:00",
+      "publisher": "CNA",
+      "search_query": "\"CERN\"",
+      "source_country": "unknown",
+      "source_id": "c225141221584cecd1a706eb",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQYXlVb1ZoQjJZLTR5TGdGajdMYmZqSVJ2MTF3bmJrc2MxYks5VG5SZHg2bnpJRmFPNFNYNDh4RlAwbWZsX2hlWm1nUXd2MS0xRVZRcFp4MDBGWURHX0Q0NnR6bTdYUER4WktnM2puNFJZZmZ6ZXZwbElaeVVHaFZsSFhmZ1JCSDl0aEdxRHhKNTFnYXo2eG0ydlE4SEJjeHMxV3pCbnRzZVJQb0R3M0ZsbXJ0LVZzRnRMdTEtVVFuVjBpRnVKU2p30gHOAUFVX3lxTFBhNUhtSDhILVlhandIWTBYbkxnMnlpNzJIaHFMUDhXZzNzSEJLVDdqeTNjeVFveVJaSlJMdUd3NXV5Z2hnMkY3SkJhWHh2WXZpYXpqS3QyTHZDWXlpTGJNTzBlTHhRWWt2TFpxd1ZUblQtSWF6VjRLZnpqMDlDYjdVOFZPOFY1WDVyaXBNRzVMTWpqRVNJVzBPRGtvcmVYMEhFZ0JQNkt5azdIeXN3WTZsQnA0YTNmQ3k4dXR1c3hJNTg4czI0R1otei1SWWRR?oc=5",
+      "content_fingerprint": "0bb66932f86ab9e9c9bef24f",
+      "fetched_at": "2026-10-16T11:36:43.112949+00:00",
+      "institution_id": "cern",
+      "language": "en",
+      "observations": [
         {
           "collector": "google_news",
           "language": "en",
           "search_query": "\"CERN\"",
           "search_region": "Europe",
-          "title": "The public consultation for the Future Circular Collider (FCC) project generates extensive dialogue with the local communities – Home - Home | CERN"
+          "title": "CERN and Mistral partner to build AI foundation models for physics - The Hindu"
         }
       ],
       "origin_collector": "google_news",
-      "original_url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPVVByQzJjRG1SZ0NVRjhVQTRlWWhFenFJWEF1djZsMGNRcElRM1ROMVZzeHlmeUozbUYydUFCRkJyMUFLX2xlSlprSEdPQjJTTjJlVU44UVRDYUszSFhqUnQyUVN1eWEyR3FvRU1zQUZUdUhrSWFSVmxZNHUtMVV5Vk93ZjBLSDA3dHFCTkFyTVI3NFJVTGxQbXg4VjgybWw3SU8zTmpJOHhVaUs5LXhiSjBQcENSYnpzb1NaM2ZvVGlxa3FIc3dZM1VTSUFSZFJqbmtRNkF1a2N5Sktja2Y3UF93?oc=5",
+      "original_url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQYXlVb1ZoQjJZLTR5TGdGajdMYmZqSVJ2MTF3bmJrc2MxYks5VG5SZHg2bnpJRmFPNFNYNDh4RlAwbWZsX2hlWm1nUXd2MS0xRVZRcFp4MDBGWURHX0Q0NnR6bTdYUER4WktnM2puNFJZZmZ6ZXZwbElaeVVHaFZsSFhmZ1JCSDl0aEdxRHhKNTFnYXo2eG0ydlE4SEJjeHMxV3pCbnRzZVJQb0R3M0ZsbXJ0LVZzRnRMdTEtVVFuVjBpRnVKU2p30gHOAUFVX3lxTFBhNUhtSDhILVlhandIWTBYbkxnMnlpNzJIaHFMUDhXZzNzSEJLVDdqeTNjeVFveVJaSlJMdUd3NXV5Z2hnMkY3SkJhWHh2WXZpYXpqS3QyTHZDWXlpTGJNTzBlTHhRWWt2TFpxd1ZUblQtSWF6VjRLZnpqMDlDYjdVOFZPOFY1WDVyaXBNRzVMTWpqRVNJVzBPRGtvcmVYMEhFZ0JQNkt5azdIeXN3WTZsQnA0YTNmQ3k4dXR1c3hJNTg4czI0R1otei1SWWRR?oc=5",
       "profile_id": "institutions/cern",
-      "published_at": "2026-10-14T11:25:18+00:00",
-      "publisher": "Home | CERN",
+      "published_at": "2026-10-16T05:19:00+00:00",
+      "publisher": "The Hindu",
       "search_query": "\"CERN\"",
       "source_country": "unknown",
-      "source_id": "fe2d525b10fac7cedc6a8384",
+      "source_id": "d29f1bf4b6b03f37452e22b5",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBPTDdYVV9kWTVTbWtJNXQ3Rk9xS214V0tEQXUtalNGSEU5djg5cEJDNnVLdUN4QXlNZ09jblM1SlpBYm9takV1YVExZi1fTmNCY3QxMkhNRW9wdVk?oc=5",
+      "content_fingerprint": "b2fda4e23d529f2f36d98458",
+      "fetched_at": "2026-10-16T11:36:43.112949+00:00",
+      "institution_id": "cern",
+      "language": "en",
+      "observations": [
+        {
+          "collector": "google_news",
+          "language": "en",
+          "search_query": "\"CERN\"",
+          "search_region": "Europe",
+          "title": "CERN and Mistral Plan AI Model for Particle Physics Research - TOKENPOST"
+        }
+      ],
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBPTDdYVV9kWTVTbWtJNXQ3Rk9xS214V0tEQXUtalNGSEU5djg5cEJDNnVLdUN4QXlNZ09jblM1SlpBYm9takV1YVExZi1fTmNCY3QxMkhNRW9wdVk?oc=5",
+      "profile_id": "institutions/cern",
+      "published_at": "2026-10-15T12:46:05+00:00",
+      "publisher": "TOKENPOST",
+      "search_query": "\"CERN\"",
+      "source_country": "unknown",
+      "source_id": "daa4f09a34e3631713a1946a",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE92X29mUzJ0eGp4ekl1NzRUU0lkY0ZfdnZNdXpPT184eFRtcVlvaFNsOWs4YVRUTEFsWndIaW90MXdKZHpLR3JjY3hWSHl5bVhpa3dZ?oc=5",
+      "content_fingerprint": "a1404f5b0cf3f2e91908b063",
+      "fetched_at": "2026-10-16T11:36:43.112949+00:00",
+      "institution_id": "cern",
+      "language": "en",
+      "observations": [
+        {
+          "collector": "google_news",
+          "language": "en",
+          "search_query": "\"CERN\"",
+          "search_region": "Europe",
+          "title": "International Business: CERN in pact with Mistral - Gulf Daily News (Bahrain)"
+        }
+      ],
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE92X29mUzJ0eGp4ekl1NzRUU0lkY0ZfdnZNdXpPT184eFRtcVlvaFNsOWs4YVRUTEFsWndIaW90MXdKZHpLR3JjY3hWSHl5bVhpa3dZ?oc=5",
+      "profile_id": "institutions/cern",
+      "published_at": "2026-10-14T21:04:55+00:00",
+      "publisher": "Gulf Daily News (Bahrain)",
+      "search_query": "\"CERN\"",
+      "source_country": "unknown",
+      "source_id": "f3eed2cd5f95d3b0bc87c858",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOTGU5TTFfdFJkZ0JiWDNoNWVvRmxqdE8yNWlkOEVycjBlX21NdDJ4SG4tWHRDUGFBaHNibVpiQTVDR1E4UU1yNmJ1MVhycnJDVEI5U2RtMnA4bWYzY3RKeEFBRlFPbnUtM3JELXR0U3VoVFJlTVBfWk0yblpjNEMzT1c1ajlZeDlfTHp4cXJZLV9xeE5oUFdPODZMZC1RLVNUbzYzM1RwNkxEQXdIR2xTeGs4Ukg5aUFlbDdjWFdBeGU?oc=5",
+      "content_fingerprint": "fe841f89e23518ab6024045e",
+      "fetched_at": "2026-10-16T11:36:43.112949+00:00",
+      "institution_id": "cern",
+      "language": "en",
+      "observations": [
+        {
+          "collector": "google_news",
+          "language": "en",
+          "search_query": "\"CERN\"",
+          "search_region": "Europe",
+          "title": "CERN and Mistral Plan Foundation Model for Physics - Konsulteer"
+        }
+      ],
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOTGU5TTFfdFJkZ0JiWDNoNWVvRmxqdE8yNWlkOEVycjBlX21NdDJ4SG4tWHRDUGFBaHNibVpiQTVDR1E4UU1yNmJ1MVhycnJDVEI5U2RtMnA4bWYzY3RKeEFBRlFPbnUtM3JELXR0U3VoVFJlTVBfWk0yblpjNEMzT1c1ajlZeDlfTHp4cXJZLV9xeE5oUFdPODZMZC1RLVNUbzYzM1RwNkxEQXdIR2xTeGs4Ukg5aUFlbDdjWFdBeGU?oc=5",
+      "profile_id": "institutions/cern",
+      "published_at": "2026-10-15T10:19:52+00:00",
+      "publisher": "Konsulteer",
+      "search_query": "\"CERN\"",
+      "source_country": "unknown",
+      "source_id": "f658e14f9a0c118e879a4985",
       "source_kind": "secondary",
       "source_seen_at": null
     }
@@ -1174,14 +1509,14 @@
     "collectors": [
       {
         "error_code": null,
-        "items": 6,
+        "items": 3,
         "query": "site:home.cern",
         "source": "google_news",
         "status": "ok"
       },
       {
         "error_code": null,
-        "items": 9,
+        "items": 19,
         "query": "\"CERN\"",
         "source": "google_news",
         "status": "ok"
@@ -1194,23 +1529,23 @@
         "status": "failed"
       },
       {
-        "items": 6,
+        "items": 3,
         "source": "rss",
         "status": "ok"
       }
     ],
-    "items": 13,
-    "sources": 16
+    "items": 17,
+    "sources": 22
   },
   "status": "partial",
   "time_window": {
-    "since": "2026-10-13T11:44:26.042075+00:00",
-    "until": "2026-10-15T11:44:26.042075+00:00"
+    "since": "2026-10-14T11:36:43.118927+00:00",
+    "until": "2026-10-16T11:36:43.118927+00:00"
   },
   "workflow": {
     "repository": "JsonLord/Horizon",
     "run_attempt": "1",
-    "run_id": "38729167499",
+    "run_id": "38894756266",
     "source_commit": "c9dcef30a10ffe67b8e399baea5c2a6787c7dfd2"
   }
 }
