@@ -1,0 +1,154 @@
+{
+  "analysis_mode": "deterministic",
+  "changes": [],
+  "coverage": {
+    "basis": "search query region; event geography unknown",
+    "missing_regions": [],
+    "regions": [
+      "Europe"
+    ]
+  },
+  "created_at": "2026-10-17T10:57:14.298606+00:00",
+  "errors": [
+    {
+      "code": "SOURCE_INCOMPLETE",
+      "source": "gdelt"
+    }
+  ],
+  "findings": [
+    {
+      "change_type": "unchanged",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "4f058ee0b2684800f530839e",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "Three Questions for Bernhard Mittermaier - Helmholtz - Association of German Research Centres - Helmholtz-Gemeinschaft Deutscher Forschungszentren",
+          "source_id": "0d7926286444bedf9ba4884a"
+        }
+      ],
+      "finding_id": "4f058ee0b2684800f530839e",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [
+        "helmholtz"
+      ],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-17T10:57:14.298094+00:00",
+      "profile_relevance": 5.18853821650463,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-15T15:28:44+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "Europe"
+      ],
+      "source_ids": [
+        "0d7926286444bedf9ba4884a"
+      ],
+      "summary": "Three Questions for Bernhard Mittermaier - Helmholtz - Association of German Research Centres - Helmholtz-Gemeinschaft Deutscher Forschungszentren",
+      "topics": [
+        "Helmholtz Association"
+      ],
+      "verification": "single_secondary_source"
+    }
+  ],
+  "history": {
+    "comparison": "last_good",
+    "previous_created_at": "2026-10-16T11:37:20.438010+00:00",
+    "previous_report_id": "152d4a0585be4877ba111548ad5a3c5e",
+    "previous_report_sha256": "93be347a1d9465c1f006bc6756b9487a2e524a7267ab0187d71672543efa574f",
+    "previous_snapshot_commit": "e751d4b20aef2e5019c90cd53b2e37bc6f675226",
+    "stale_last_good": false,
+    "state": "restored"
+  },
+  "limitations": [
+    "Bounded queries do not provide exhaustive global coverage.",
+    "GDELT seen time is an observation timestamp, not verified publication time.",
+    "Contradiction/resolution labels require explicit source wording and review; no automatic truth adjudication."
+  ],
+  "links": {
+    "json": "intel/reports/institutions/helmholtz/2026/10/17/3058e60dc41849ecb5a12b9547946c60/report.json",
+    "markdown": "intel/reports/institutions/helmholtz/2026/10/17/3058e60dc41849ecb5a12b9547946c60/report.md"
+  },
+  "model_used": null,
+  "profile_id": "institutions/helmholtz",
+  "question": "",
+  "report_id": "3058e60dc41849ecb5a12b9547946c60",
+  "run_id": "3058e60dc41849ecb5a12b9547946c60",
+  "schedule": {},
+  "schema_version": "1.0",
+  "sources": [
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOU0U2dDBOOFJGRVRLZFg3Q2otS3pVRG5RSUlXMVRNWFFjUzJtZ240Vkc1V3oyYlUzYVNPb2dILVZ2RHZnYzBHOXlKSUFDdEZvOTdYWXdpSHNDM0VNT2hPU1RKT1lxOGlPOW11VEwwdjdRaWd2eVNNejdNd2NGcE92bDdnTXNHdWJkR2dIa3ZwRQ?oc=5",
+      "content_fingerprint": "e2e873d72b1a28e5ca2b4150",
+      "fetched_at": "2026-10-17T10:57:14.298094+00:00",
+      "institution_id": "helmholtz",
+      "language": "en",
+      "observations": [
+        {
+          "collector": "google_news",
+          "language": "en",
+          "search_query": "site:helmholtz.de",
+          "search_region": "Europe",
+          "title": "Three Questions for Bernhard Mittermaier - Helmholtz - Association of German Research Centres - Helmholtz-Gemeinschaft Deutscher Forschungszentren"
+        }
+      ],
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOU0U2dDBOOFJGRVRLZFg3Q2otS3pVRG5RSUlXMVRNWFFjUzJtZ240Vkc1V3oyYlUzYVNPb2dILVZ2RHZnYzBHOXlKSUFDdEZvOTdYWXdpSHNDM0VNT2hPU1RKT1lxOGlPOW11VEwwdjdRaWd2eVNNejdNd2NGcE92bDdnTXNHdWJkR2dIa3ZwRQ?oc=5",
+      "profile_id": "institutions/helmholtz",
+      "published_at": "2026-10-15T15:28:44+00:00",
+      "publisher": "Helmholtz-Gemeinschaft Deutscher Forschungszentren",
+      "search_query": "site:helmholtz.de",
+      "source_country": "unknown",
+      "source_id": "0d7926286444bedf9ba4884a",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    }
+  ],
+  "statistics": {
+    "collectors": [
+      {
+        "error_code": null,
+        "items": 0,
+        "query": "\"Helmholtz Association\"",
+        "source": "google_news",
+        "status": "ok"
+      },
+      {
+        "error_code": null,
+        "items": 1,
+        "query": "site:helmholtz.de",
+        "source": "google_news",
+        "status": "ok"
+      },
+      {
+        "error_code": "HTTP_429",
+        "items": 0,
+        "query": "\"Helmholtz Association\"",
+        "source": "gdelt",
+        "status": "failed"
+      }
+    ],
+    "items": 1,
+    "sources": 1
+  },
+  "status": "partial",
+  "time_window": {
+    "since": "2026-10-15T10:57:14.298606+00:00",
+    "until": "2026-10-17T10:57:14.298606+00:00"
+  },
+  "workflow": {
+    "repository": "JsonLord/Horizon",
+    "run_attempt": "1",
+    "run_id": "39026704987",
+    "source_commit": "c9dcef30a10ffe67b8e399baea5c2a6787c7dfd2"
+  }
+}
