@@ -1,0 +1,23 @@
+{
+  "artifacts": [
+    {
+      "bytes": 193652,
+      "content_type": "application/json",
+      "path": "intel/reports/world/2026/10/18/c668ce52bae941e5b9bcb1fcc784b59e/report.json",
+      "sha256": "8b1f4ffe5616cb34c46d0ba5a7ca01eaf7a62b149533820870906addb5c5a29c"
+    },
+    {
+      "bytes": 30063,
+      "content_type": "text/markdown",
+      "path": "intel/reports/world/2026/10/18/c668ce52bae941e5b9bcb1fcc784b59e/report.md",
+      "sha256": "2af39cd51bd09f9106c767d0ed8735254189b4a7eae9a8bcb50af9293eed9944"
+    }
+  ],
+  "commit": null,
+  "generated_at": "2026-10-18T11:21:44.243965+00:00",
+  "profile_id": "world/global",
+  "report_id": "c668ce52bae941e5b9bcb1fcc784b59e",
+  "schema_version": "1.0",
+  "snapshot_id": "a183d33cc8d46af00f3f9c8f0fd2f4b1fdbd27fe587a74de2a71ac81b42c1f6c",
+  "status": "partial"
+}

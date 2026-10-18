@@ -1,0 +1,537 @@
+{
+  "analysis_mode": "deterministic",
+  "changes": [
+    {
+      "finding_id": "228664a361d8d2e95d47c209",
+      "institution_ids": [
+        "cern"
+      ],
+      "observed_at": "2026-10-18T11:23:09.431162+00:00",
+      "type": "new"
+    },
+    {
+      "finding_id": "6180760abc8d0e662571bf98",
+      "institution_ids": [
+        "cern"
+      ],
+      "observed_at": "2026-10-18T11:23:09.431162+00:00",
+      "type": "new"
+    },
+    {
+      "finding_id": "ca5766b4cec254c80a1e3d0a",
+      "institution_ids": [
+        "cern"
+      ],
+      "observed_at": "2026-10-18T11:23:09.431162+00:00",
+      "type": "new"
+    },
+    {
+      "finding_id": "9ea800bd57809ceecee806b4",
+      "institution_ids": [
+        "cern"
+      ],
+      "observed_at": "2026-10-18T11:23:09.431162+00:00",
+      "type": "new"
+    }
+  ],
+  "coverage": {
+    "basis": "search query region; event geography unknown",
+    "missing_regions": [],
+    "regions": [
+      "Europe"
+    ]
+  },
+  "created_at": "2026-10-18T11:23:09.431162+00:00",
+  "errors": [
+    {
+      "code": "SOURCE_INCOMPLETE",
+      "source": "gdelt"
+    }
+  ],
+  "findings": [
+    {
+      "change_type": "new",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "228664a361d8d2e95d47c209",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "Robotic airship for measurement and validation of a CERN detector stray magnetic field - Bioengineer.org",
+          "source_id": "ae1a90773c3ba582d9b83942"
+        }
+      ],
+      "finding_id": "228664a361d8d2e95d47c209",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [
+        "cern"
+      ],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-18T11:23:09.429595+00:00",
+      "profile_relevance": 8.220932527835648,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-17T16:41:18+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "Europe"
+      ],
+      "source_ids": [
+        "ae1a90773c3ba582d9b83942"
+      ],
+      "summary": "Robotic airship for measurement and validation of a CERN detector stray magnetic field - Bioengineer.org",
+      "topics": [
+        "CERN"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "new",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "6180760abc8d0e662571bf98",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "Latvian CERN team zooms in on new device / Article - Latvian Public Media",
+          "source_id": "3d2caf67ad69abce6dcd4cb2"
+        }
+      ],
+      "finding_id": "6180760abc8d0e662571bf98",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [
+        "cern"
+      ],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-18T11:23:09.429595+00:00",
+      "profile_relevance": 7.765353824131944,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-17T05:45:16+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "Europe"
+      ],
+      "source_ids": [
+        "3d2caf67ad69abce6dcd4cb2"
+      ],
+      "summary": "Latvian CERN team zooms in on new device / Article - Latvian Public Media",
+      "topics": [
+        "CERN"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "unchanged",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "51c5ade3ad0ebef0fd78432c",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "Unlocking universe secrets: CERN, Mistral partner on Large Physics Model. What it means? - Business Today",
+          "source_id": "e16d87ebf10f3bb75d4d78b3"
+        }
+      ],
+      "finding_id": "51c5ade3ad0ebef0fd78432c",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [
+        "cern"
+      ],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-18T11:23:09.429595+00:00",
+      "profile_relevance": 7.379867713020833,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-16T20:30:10+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "Europe"
+      ],
+      "source_ids": [
+        "e16d87ebf10f3bb75d4d78b3"
+      ],
+      "summary": "Unlocking universe secrets: CERN, Mistral partner on Large Physics Model. What it means? - Business Today",
+      "topics": [
+        "CERN"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "new",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "ca5766b4cec254c80a1e3d0a",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "CERN and Mistral Plan Foundation Models for Scientific Discovery - HPCwire",
+          "source_id": "fbbcc827971af0e4907d0328"
+        }
+      ],
+      "finding_id": "ca5766b4cec254c80a1e3d0a",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [
+        "cern"
+      ],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-18T11:23:09.429595+00:00",
+      "profile_relevance": 7.241106138946759,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-16T17:10:21+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "Europe"
+      ],
+      "source_ids": [
+        "fbbcc827971af0e4907d0328"
+      ],
+      "summary": "CERN and Mistral Plan Foundation Models for Scientific Discovery - HPCwire",
+      "topics": [
+        "CERN"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "new",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "9ea800bd57809ceecee806b4",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "The REAL Location of Satan's Throne and Its Disturbing Connection to CERN - YouTube",
+          "source_id": "b1bb00b80c3966be942ba2b1"
+        }
+      ],
+      "finding_id": "9ea800bd57809ceecee806b4",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [
+        "cern"
+      ],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-18T11:23:09.429595+00:00",
+      "profile_relevance": 7.190400120428241,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-16T15:57:20+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "Europe"
+      ],
+      "source_ids": [
+        "b1bb00b80c3966be942ba2b1"
+      ],
+      "summary": "The REAL Location of Satan's Throne and Its Disturbing Connection to CERN - YouTube",
+      "topics": [
+        "CERN"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "unchanged",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "7dedfdf347d15df08531de44",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "CERN and Mistral plan an AI foundation model for particle physics - The Next Web",
+          "source_id": "181e3a5b0a4216c8c7bb6c00"
+        }
+      ],
+      "finding_id": "7dedfdf347d15df08531de44",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [
+        "cern"
+      ],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-18T11:23:09.429595+00:00",
+      "profile_relevance": 7.083988083391204,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-16T13:24:06+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "Europe"
+      ],
+      "source_ids": [
+        "181e3a5b0a4216c8c7bb6c00"
+      ],
+      "summary": "CERN and Mistral plan an AI foundation model for particle physics - The Next Web",
+      "topics": [
+        "CERN"
+      ],
+      "verification": "single_secondary_source"
+    }
+  ],
+  "history": {
+    "comparison": "last_good",
+    "previous_created_at": "2026-10-17T10:56:52.723107+00:00",
+    "previous_report_id": "cac04fa1f2d2460a851a963dd59853c5",
+    "previous_report_sha256": "316fe913cb55d0f74df051526f2e3c4073cfd8449085f5e25ac1c2a77607d222",
+    "previous_snapshot_commit": "1a24b2b9bcbd8f986e03282d656c5d57f28adc99",
+    "stale_last_good": false,
+    "state": "restored"
+  },
+  "limitations": [
+    "Bounded queries do not provide exhaustive global coverage.",
+    "GDELT seen time is an observation timestamp, not verified publication time.",
+    "Contradiction/resolution labels require explicit source wording and review; no automatic truth adjudication."
+  ],
+  "links": {
+    "json": "intel/reports/institutions/cern/2026/10/18/1b6a50a67bb24a4797af73e3a7060ba1/report.json",
+    "markdown": "intel/reports/institutions/cern/2026/10/18/1b6a50a67bb24a4797af73e3a7060ba1/report.md"
+  },
+  "model_used": null,
+  "profile_id": "institutions/cern",
+  "question": "",
+  "report_id": "1b6a50a67bb24a4797af73e3a7060ba1",
+  "run_id": "1b6a50a67bb24a4797af73e3a7060ba1",
+  "schedule": {},
+  "schema_version": "1.0",
+  "sources": [
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFA3WHFld20zYmJxRXNDQmhLbTBWUmdlUUE1TC03WGl3dk5KMFpXdUpjaW1wei1qRS0ydVdjRVBKN1pWU3RBZ1YyWERJZ1lGVXYwSHlqSHo4VEpBd0g4WWRFQXZ6dzhIZzlqdzY0Tw?oc=5",
+      "content_fingerprint": "53307c162e0d1eeb2075c312",
+      "fetched_at": "2026-10-18T11:23:09.429595+00:00",
+      "institution_id": "cern",
+      "language": "en",
+      "observations": [
+        {
+          "collector": "google_news",
+          "language": "en",
+          "search_query": "\"CERN\"",
+          "search_region": "Europe",
+          "title": "CERN and Mistral plan an AI foundation model for particle physics - The Next Web"
+        }
+      ],
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFA3WHFld20zYmJxRXNDQmhLbTBWUmdlUUE1TC03WGl3dk5KMFpXdUpjaW1wei1qRS0ydVdjRVBKN1pWU3RBZ1YyWERJZ1lGVXYwSHlqSHo4VEpBd0g4WWRFQXZ6dzhIZzlqdzY0Tw?oc=5",
+      "profile_id": "institutions/cern",
+      "published_at": "2026-10-16T13:24:06+00:00",
+      "publisher": "The Next Web",
+      "search_query": "\"CERN\"",
+      "source_country": "unknown",
+      "source_id": "181e3a5b0a4216c8c7bb6c00",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNUTBQWTJST0VYRXpLNUVUeVUxOWg4Qzc3MmF6TlZkVkg4TXM1emU2ckkwcVk1bXVtaTRPVTcwMTZVR1hiME5DRmpTTS1nc3VFRXhqeFZaaXF2ZnpxS1ZyYm9EcjFzRHlMMWN6UmZ2Z0pIRU90a3pJS2VxNWVXcFdpYTdjS0dBdUtVUHhLUXR5dFRaR05KOHl2X0RoQ1NMMHhOMnd5ejNTZ0s?oc=5",
+      "content_fingerprint": "d5531455bc8d4205c1bf7d49",
+      "fetched_at": "2026-10-18T11:23:09.429595+00:00",
+      "institution_id": "cern",
+      "language": "en",
+      "observations": [
+        {
+          "collector": "google_news",
+          "language": "en",
+          "search_query": "\"CERN\"",
+          "search_region": "Europe",
+          "title": "Latvian CERN team zooms in on new device / Article - Latvian Public Media"
+        }
+      ],
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNUTBQWTJST0VYRXpLNUVUeVUxOWg4Qzc3MmF6TlZkVkg4TXM1emU2ckkwcVk1bXVtaTRPVTcwMTZVR1hiME5DRmpTTS1nc3VFRXhqeFZaaXF2ZnpxS1ZyYm9EcjFzRHlMMWN6UmZ2Z0pIRU90a3pJS2VxNWVXcFdpYTdjS0dBdUtVUHhLUXR5dFRaR05KOHl2X0RoQ1NMMHhOMnd5ejNTZ0s?oc=5",
+      "profile_id": "institutions/cern",
+      "published_at": "2026-10-17T05:45:16+00:00",
+      "publisher": "Latvian Public Media",
+      "search_query": "\"CERN\"",
+      "source_country": "unknown",
+      "source_id": "3d2caf67ad69abce6dcd4cb2",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQcEY2d2RuTmlGS3RmbzhmT2Y4Ul9Tbzg4QmlCSUZMM2FVdTlaUEh4VFFJcUFWanZweG51VE4tTWlEZlNoU090eEdINTVfVDhmVW5PZkpYMTFaTFpfeDdPLXRPSTBRcHVDcE9obVZON3l3QVN6WEQ3VElzWFF5c1RhdU83emREdGZ0ZjFWYlYySGtRWEM5b0ZCZXdDSXNyRkhJSVJUWEpqZU5kaXhDeU5ncA?oc=5",
+      "content_fingerprint": "4a470943ba8682d20ba5d61b",
+      "fetched_at": "2026-10-18T11:23:09.429595+00:00",
+      "institution_id": "cern",
+      "language": "en",
+      "observations": [
+        {
+          "collector": "google_news",
+          "language": "en",
+          "search_query": "\"CERN\"",
+          "search_region": "Europe",
+          "title": "Robotic airship for measurement and validation of a CERN detector stray magnetic field - Bioengineer.org"
+        }
+      ],
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQcEY2d2RuTmlGS3RmbzhmT2Y4Ul9Tbzg4QmlCSUZMM2FVdTlaUEh4VFFJcUFWanZweG51VE4tTWlEZlNoU090eEdINTVfVDhmVW5PZkpYMTFaTFpfeDdPLXRPSTBRcHVDcE9obVZON3l3QVN6WEQ3VElzWFF5c1RhdU83emREdGZ0ZjFWYlYySGtRWEM5b0ZCZXdDSXNyRkhJSVJUWEpqZU5kaXhDeU5ncA?oc=5",
+      "profile_id": "institutions/cern",
+      "published_at": "2026-10-17T16:41:18+00:00",
+      "publisher": "Bioengineer.org",
+      "search_query": "\"CERN\"",
+      "source_country": "unknown",
+      "source_id": "ae1a90773c3ba582d9b83942",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFByRGdGQ01nbUlTT21JanY5UG13Q1Z6cDI3VVZVa0ZZVVEwSjRXV3RNb1p3WU9JZWJ6dndzSGoxbk9rdTk4UnJfS0JUY0x4MnFrc1BkdEdpRWIzMHIy?oc=5",
+      "content_fingerprint": "fb9e384187ec1a67bb778720",
+      "fetched_at": "2026-10-18T11:23:09.429595+00:00",
+      "institution_id": "cern",
+      "language": "en",
+      "observations": [
+        {
+          "collector": "google_news",
+          "language": "en",
+          "search_query": "\"CERN\"",
+          "search_region": "Europe",
+          "title": "The REAL Location of Satan's Throne and Its Disturbing Connection to CERN - YouTube"
+        }
+      ],
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFByRGdGQ01nbUlTT21JanY5UG13Q1Z6cDI3VVZVa0ZZVVEwSjRXV3RNb1p3WU9JZWJ6dndzSGoxbk9rdTk4UnJfS0JUY0x4MnFrc1BkdEdpRWIzMHIy?oc=5",
+      "profile_id": "institutions/cern",
+      "published_at": "2026-10-16T15:57:20+00:00",
+      "publisher": "YouTube",
+      "search_query": "\"CERN\"",
+      "source_country": "unknown",
+      "source_id": "b1bb00b80c3966be942ba2b1",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxPY2FBd1d0cHR1RThTNkp4bFl2XzhUVERNeTg2ZWpjcGhkd0pWaUt1QmFEYkpqZXhGeWdjQ1ludUNBeDI4TjkxdFdsdE5ydEZMMTFDX21hdkNjWEx3SGdMS25QMW9NbVpaX3llQzRnZm5MMVhjNS13cmpENlhWRHdmUGQ3YUpka0RMVGJlcnMtM3k1Xy01UVJBLXkyWjhhQ2lYWXN4Tkh6SGtYMUxfVDZjemJqV04xVkdnNzhkUFQwRGRSOFJlQlpjNkN6YlhZZ01GSXVWZjAxY0htQWYxNDhibGpISURoVmg0RW1KVnRDMUJsWFZhaUE5OWdMbG1sS3o2enfSAYcCQVVfeXFMT2c0NXZWREtLQkhmWmU1c0RWWDhUT2pjVjg5Z0hiTVU4TWRvVkpTN25ab211NzhQaUxxQlFnZ1doaVdGVFhTajBmcmZuS2lRUy1adENMRTNfSVdhcEN2YXFaWFUwSTVvSGNtZjE1MUNIb1VQY1VjZHkzTmx6U2t5T1ktSUFyQmZ4RlBzUFpaamhCTE1la3NBMnREdGRtX05nbUx2YzdSU0JkVUNHRXZSS0tlNTlKczVlWFNBaHNxZlBXQ0ozRllVdmZ3MU1mV3A1MExiR1pUUFZtcnU3TWZ2TmFOVngza3NkVHdaSTU3V1gwaW9xQWQxTmVlM0NjQXJLbEhhR2VhRG8?oc=5",
+      "content_fingerprint": "384c71d33fe1414a2221aaa4",
+      "fetched_at": "2026-10-18T11:23:09.429595+00:00",
+      "institution_id": "cern",
+      "language": "en",
+      "observations": [
+        {
+          "collector": "google_news",
+          "language": "en",
+          "search_query": "\"CERN\"",
+          "search_region": "Europe",
+          "title": "Unlocking universe secrets: CERN, Mistral partner on Large Physics Model. What it means? - Business Today"
+        }
+      ],
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxPY2FBd1d0cHR1RThTNkp4bFl2XzhUVERNeTg2ZWpjcGhkd0pWaUt1QmFEYkpqZXhGeWdjQ1ludUNBeDI4TjkxdFdsdE5ydEZMMTFDX21hdkNjWEx3SGdMS25QMW9NbVpaX3llQzRnZm5MMVhjNS13cmpENlhWRHdmUGQ3YUpka0RMVGJlcnMtM3k1Xy01UVJBLXkyWjhhQ2lYWXN4Tkh6SGtYMUxfVDZjemJqV04xVkdnNzhkUFQwRGRSOFJlQlpjNkN6YlhZZ01GSXVWZjAxY0htQWYxNDhibGpISURoVmg0RW1KVnRDMUJsWFZhaUE5OWdMbG1sS3o2enfSAYcCQVVfeXFMT2c0NXZWREtLQkhmWmU1c0RWWDhUT2pjVjg5Z0hiTVU4TWRvVkpTN25ab211NzhQaUxxQlFnZ1doaVdGVFhTajBmcmZuS2lRUy1adENMRTNfSVdhcEN2YXFaWFUwSTVvSGNtZjE1MUNIb1VQY1VjZHkzTmx6U2t5T1ktSUFyQmZ4RlBzUFpaamhCTE1la3NBMnREdGRtX05nbUx2YzdSU0JkVUNHRXZSS0tlNTlKczVlWFNBaHNxZlBXQ0ozRllVdmZ3MU1mV3A1MExiR1pUUFZtcnU3TWZ2TmFOVngza3NkVHdaSTU3V1gwaW9xQWQxTmVlM0NjQXJLbEhhR2VhRG8?oc=5",
+      "profile_id": "institutions/cern",
+      "published_at": "2026-10-16T20:30:10+00:00",
+      "publisher": "Business Today",
+      "search_query": "\"CERN\"",
+      "source_country": "unknown",
+      "source_id": "e16d87ebf10f3bb75d4d78b3",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPdVYwbjVheGJ5Tl9xVUNmZEFCTlVJakt0aDBicG1PVmdaTlFGMU1EM0VKY2szUUxiUU1SUVBPT19LWFVWamlNRUJhaGpMaUdNdXRXVzlHUzExbHJPcGliN0RaSXBRc2pXNEpvenMxNTVmeEJoTjJCZENhenhoX296bUhhZ25wQlV1NmRPakR1RXQyNUNzWFQxTGxnVThBMjdrSGdrM2RoWTZTbm83QVFSVDNaYTU?oc=5",
+      "content_fingerprint": "eec903ca26515643b2924f8d",
+      "fetched_at": "2026-10-18T11:23:09.429595+00:00",
+      "institution_id": "cern",
+      "language": "en",
+      "observations": [
+        {
+          "collector": "google_news",
+          "language": "en",
+          "search_query": "\"CERN\"",
+          "search_region": "Europe",
+          "title": "CERN and Mistral Plan Foundation Models for Scientific Discovery - HPCwire"
+        }
+      ],
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPdVYwbjVheGJ5Tl9xVUNmZEFCTlVJakt0aDBicG1PVmdaTlFGMU1EM0VKY2szUUxiUU1SUVBPT19LWFVWamlNRUJhaGpMaUdNdXRXVzlHUzExbHJPcGliN0RaSXBRc2pXNEpvenMxNTVmeEJoTjJCZENhenhoX296bUhhZ25wQlV1NmRPakR1RXQyNUNzWFQxTGxnVThBMjdrSGdrM2RoWTZTbm83QVFSVDNaYTU?oc=5",
+      "profile_id": "institutions/cern",
+      "published_at": "2026-10-16T17:10:21+00:00",
+      "publisher": "HPCwire",
+      "search_query": "\"CERN\"",
+      "source_country": "unknown",
+      "source_id": "fbbcc827971af0e4907d0328",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    }
+  ],
+  "statistics": {
+    "collectors": [
+      {
+        "error_code": null,
+        "items": 0,
+        "query": "site:home.cern",
+        "source": "google_news",
+        "status": "ok"
+      },
+      {
+        "error_code": null,
+        "items": 9,
+        "query": "\"CERN\"",
+        "source": "google_news",
+        "status": "ok"
+      },
+      {
+        "error_code": null,
+        "items": 0,
+        "query": "\"CERN\"",
+        "source": "gdelt",
+        "status": "failed"
+      },
+      {
+        "items": 0,
+        "source": "rss",
+        "status": "ok"
+      }
+    ],
+    "items": 6,
+    "sources": 6
+  },
+  "status": "partial",
+  "time_window": {
+    "since": "2026-10-16T11:23:09.431162+00:00",
+    "until": "2026-10-18T11:23:09.431162+00:00"
+  },
+  "workflow": {
+    "repository": "JsonLord/Horizon",
+    "run_attempt": "1",
+    "run_id": "39122876179",
+    "source_commit": "c9dcef30a10ffe67b8e399baea5c2a6787c7dfd2"
+  }
+}
