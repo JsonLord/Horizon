@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.0",
+  "profile_id": "programs/incubators",
+  "mode": "program_watch",
+  "name": "Incubators and founder programs",
+  "enabled": true,
+  "topics": ["software", "AI", "innovation", "entrepreneurship", "inclusive UX", "mentoring"],
+  "regions": ["Europe", "global"],
+  "languages": ["en"],
+  "queries": [
+    {"source": "google_news", "text": "startup accelerator founder fellowship grant applications", "region": "global", "topic": "entrepreneurship"},
+    {"source": "google_news", "text": "software AI innovation incubator application deadline", "region": "Europe", "topic": "innovation"}
+  ],
+  "sources": ["google_news"],
+  "schedule_hint": "weekly",
+  "lookback_hours": 168,
+  "max_items": 20,
+  "max_queries": 2,
+  "ranking": {"mode": "keyword", "minimum_score": 0},
+  "output": {"languages": ["en"], "markdown": true, "json": true, "changes": true}
+}

@@ -132,6 +132,11 @@ def refresh(record, page: Page, domains, now=None):
         block = next((b for b in blocks if re.search(pattern, b, re.I)), None)
         if block:
             fact(key, block[:500], block)
+    for kind, pattern in (("education", r"\b(degree|curriculum|tuition|school)\b"), ("fellowship", r"\bfellowship\b"), ("grant", r"\bgrant program\b"), ("accelerator", r"\baccelerator\b"), ("incubator", r"\bincubator\b"), ("venture_studio", r"\bventure studio\b"), ("collaboration", r"\bproject collaboration\b")):
+        block = next((b for b in blocks if re.search(pattern, b, re.I)), None)
+        if block:
+            fact("program_type", kind, block)
+            break
     result.stale_fields = sorted(set(previous) - fresh - {"application_status"})
     if result.deadline and "deadline" in result.stale_fields:
         # Preserve the last known value but flag it; scoring ignores stale facts.
@@ -150,9 +155,16 @@ def deduplicate(records):
     """Reviewed program identity first, canonical program page second."""
     merged = {}
     aliases = {}
+    semantic = {}
     for record in records:
         key = record.program_id
         canonical_url = record.canonical_url
+        title = record.facts.get("page_title")
+        semantic_key = None
+        if title and isinstance(title.value, str) and len(title.value) > 8 and canonical_url:
+            semantic_key = (".".join(urlsplit(canonical_url).hostname.split(".")[-2:]), re.sub(r"\W+", " ", title.value.lower()).strip())
+            if semantic_key in semantic:
+                key = semantic[semantic_key]
         if canonical_url and canonical_url in aliases:
             key = aliases[canonical_url]
         if key in merged:
@@ -164,4 +176,6 @@ def deduplicate(records):
         merged[key] = record
         if canonical_url:
             aliases[canonical_url] = key
+        if semantic_key:
+            semantic[semantic_key] = key
     return list(merged.values())

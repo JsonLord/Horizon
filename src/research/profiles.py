@@ -99,8 +99,8 @@ class Feed(Strict):
 
 class Profile(Strict):
     schema_version: Literal["1.0"]
-    profile_id: str = Field(pattern=r"^(world|institutions|examples)/[a-z0-9-]{1,64}$")
-    mode: Literal["world_radar", "institution_watch", "research_job"]
+    profile_id: str = Field(pattern=r"^(world|institutions|examples|programs)/[a-z0-9-]{1,64}$")
+    mode: Literal["world_radar", "institution_watch", "research_job", "program_watch"]
     name: str = Field(min_length=1, max_length=120)
     enabled: bool
     topics: list[Short] = Field(max_length=20)

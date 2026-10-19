@@ -1,0 +1,14 @@
+{
+  "schema_version": "1.0",
+  "max_candidates": 8,
+  "max_pages": 12,
+  "max_links_per_site": 1,
+  "concurrency": 2,
+  "freshness_days": 14,
+  "deadline_soon_days": 21,
+  "discovery_sites": [
+    {"key": "antler-founder-program", "name": "Antler", "url": "https://www.antler.co/apply", "official_domains": ["antler.co"], "related_urls": []},
+    {"key": "entrepreneur-first", "name": "Entrepreneur First", "url": "https://www.joinef.com/", "official_domains": ["joinef.com"], "related_urls": []},
+    {"key": "y-combinator-apply", "name": "Y Combinator", "url": "https://www.ycombinator.com/apply", "official_domains": ["ycombinator.com"], "related_urls": []}
+  ]
+}

@@ -33,7 +33,7 @@ async def main():
             result = await session.call_tool("hz_list_profiles", {})
             assert not result.isError
             profiles = json.loads(result.content[0].text)["profiles"]
-            assert len(profiles) == 9
+            assert len(profiles) == 10
             profile = await session.call_tool(
                 "hz_get_profile", {"profile_id": "world/global"}
             )

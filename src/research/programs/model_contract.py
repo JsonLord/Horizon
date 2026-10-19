@@ -2,6 +2,8 @@
 
 from datetime import UTC, datetime
 import hashlib
+import ast
+import re
 
 import httpx
 
@@ -35,6 +37,37 @@ async def inspect_contract(client=None):
                 else:
                     result["space_sha"] = data.get("sha")
                     result["runtime_stage"] = data.get("runtime", {}).get("stage")
+                    result["reported_host"] = data.get("host")
+                    files = [f.get("rfilename", "") for f in data.get("siblings", [])]
+                    result["repository_files"] = files[:80]
+                    result["source_interfaces"] = []
+                    selected = [f for f in files if f.endswith(".py") and re.fullmatch(r"[A-Za-z0-9_./-]+", f) and ".." not in f.split("/")][:8]
+                    for name in selected:
+                        try:
+                            source = await client.get(f"{SPACE}/raw/{data['sha']}/{name}")
+                            source.raise_for_status()
+                            if len(source.content) > 250000:
+                                continue
+                            tree = ast.parse(source.text)
+                            routes, models, keys = [], {}, set()
+                            generative = False
+                            for node in ast.walk(tree):
+                                if isinstance(node, (ast.FunctionDef, ast.AsyncFunctionDef)):
+                                    for decorator in node.decorator_list:
+                                        if isinstance(decorator, ast.Call) and isinstance(decorator.func, ast.Attribute) and decorator.func.attr in ("get", "post", "route") and decorator.args and isinstance(decorator.args[0], ast.Constant) and isinstance(decorator.args[0].value, str) and decorator.args[0].value.startswith("/"):
+                                            routes.append({"path": decorator.args[0].value, "method": decorator.func.attr, "function": node.name})
+                                if isinstance(node, ast.ClassDef):
+                                    fields = [n.target.id for n in node.body if isinstance(n, ast.AnnAssign) and isinstance(n.target, ast.Name)]
+                                    if fields:
+                                        models[node.name] = fields
+                                if isinstance(node, ast.Call) and isinstance(node.func, ast.Attribute):
+                                    if node.func.attr == "get" and node.args and isinstance(node.args[0], ast.Constant) and isinstance(node.args[0].value, str) and re.fullmatch(r"[a-zA-Z_]{1,64}", node.args[0].value):
+                                        keys.add(node.args[0].value)
+                                    if "completions.create" in ast.unparse(node.func) or "generate_content" in ast.unparse(node.func):
+                                        generative = True
+                            result["source_interfaces"].append({"file": name, "sha256": hashlib.sha256(source.content).hexdigest(), "routes": routes, "models": models, "request_keys": sorted(keys), "contains_generative_client_call": generative})
+                        except Exception:
+                            continue
             except Exception as exc:
                 result["observations"].append({"url": url, "error": "HTTP_" + str(exc.response.status_code) if isinstance(exc, httpx.HTTPStatusError) else "network_or_contract_unavailable"})
         return result
