@@ -2,6 +2,7 @@
 
 import asyncio
 import base64
+import zlib
 from datetime import UTC, datetime
 import json
 import os
@@ -57,12 +58,14 @@ async def main():
             continue
         program = observation["program"]
         public["observations"].append({"program": {k: program[k] for k in ("program_id", "name", "canonical_url", "application_status", "deadline", "extraction_status", "check_error", "facts", "source_evidence")}})
-    encoded = base64.b64encode(json.dumps(public, separators=(",", ":")).encode()).decode()
+    encoded = base64.b64encode(zlib.compress(json.dumps(public, separators=(",", ":")).encode())).decode()
     # Check annotations truncate individual messages at ~4 KB. Bounded parts
     # retain complete public proof, rather than a silently truncated JSON blob.
     chunks = [encoded[i:i+2800] for i in range(0, len(encoded), 2800)]
+    if len(chunks) > 10:
+        raise ValueError("Public qualification proof exceeds the ten-notice budget; full artifacts are retained")
     for index, chunk in enumerate(chunks):
-        print(f"::notice title=program-evidence-{index+1}-of-{len(chunks)}::{chunk}")
+        print(f"::notice title=program-evidence-zlib-{index+1}-of-{len(chunks)}::{chunk}")
 
 
 asyncio.run(main())
