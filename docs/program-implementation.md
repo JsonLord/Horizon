@@ -14,7 +14,7 @@ Authoritative contract: root spec.md, Sections 0–23. Started 2026-10-19 on a c
 
 ## Gates
 
-- G1: branch validation and genuine push/PR checks — pending.
+- G1 complete: eight ref/security tests pass; genuine read-only push [39188214612](https://github.com/JsonLord/Horizon/actions/runs/39188214612) and PR [39188229440](https://github.com/JsonLord/Horizon/actions/runs/39188229440) validation pass. No branch-push publisher or Pages job is triggered. PR #5 remains draft; production automation remains disabled.
 - G2: seed migration, primary verification and live observations — pending.
 - G3: bounded discovery, candidate qualification — pending.
 - G4: inspect Needle Router contract; optional inference and transparent fallback — pending.
