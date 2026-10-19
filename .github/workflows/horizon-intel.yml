@@ -53,6 +53,7 @@ jobs:
           retention-days: 7
           if-no-files-found: error
   publish:
+    if: github.ref == 'refs/heads/main' && github.workflow_ref == format('{0}/.github/workflows/horizon-intel.yml@refs/heads/main', github.repository)
     needs: collect
     runs-on: ubuntu-24.04
     timeout-minutes: 10

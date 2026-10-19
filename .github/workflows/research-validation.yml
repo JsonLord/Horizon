@@ -3,12 +3,17 @@ on:
   pull_request:
     paths:
       - 'src/research/**'
+      - 'src/mcp/**'
+      - 'scripts/**'
+      - 'config/**'
+      - 'profiles/**'
       - 'schemas/**'
       - 'tests/**'
-      - '.github/workflows/horizon-intel.yml'
-      - '.github/workflows/research-validation.yml'
+      - '.github/workflows/**'
+      - 'pyproject.toml'
+      - 'uv.lock'
   push:
-    branches: [fix/archive-provenance-compat]
+    branches: [main, 'feature/**', 'research/**', 'automation/**', fix/archive-provenance-compat]
 permissions:
   contents: read
 jobs:
