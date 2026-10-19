@@ -27,6 +27,13 @@ class BoundedClient(httpx.AsyncClient):
         kwargs.pop("follow_redirects", None)
         for attempt in range(4):
             safe_url(str(url).split("?")[0])
+            hook = getattr(self, "before_request", None)
+            if hook and not getattr(self, "robots_in_progress", False):
+                self.robots_in_progress = True
+                try:
+                    await hook(str(url))
+                finally:
+                    self.robots_in_progress = False
             host = urlsplit(str(url)).hostname
             if host not in self.trusted_hosts:
                 addresses = await asyncio.to_thread(

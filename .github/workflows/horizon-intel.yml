@@ -4,6 +4,18 @@ on:
     - cron: '23 6 * * *'
   workflow_dispatch:
     inputs:
+      program_qualification:
+        description: Read-only program qualification; never publishes
+        type: boolean
+        default: false
+      research_ref:
+        description: Approved same-repository head; must match selected workflow ref
+        type: string
+        default: ''
+      previous_run_id:
+        description: Optional prior qualification run for fresh-runner comparison
+        type: string
+        default: ''
       profile_id:
         description: Approved profile ID (empty runs standard set)
         required: false
@@ -20,6 +32,7 @@ concurrency:
   cancel-in-progress: false
 jobs:
   collect:
+    if: inputs.program_qualification != true
     runs-on: ubuntu-24.04
     timeout-minutes: 20
     steps:
@@ -89,3 +102,34 @@ jobs:
           os.environ['GIT_CONFIG_VALUE_0']=header
           print(publish('data/research','https://github.com/'+os.environ['ARCHIVE_REPO']+'.git'))
           PY
+  program-qualify:
+    if: inputs.program_qualification == true
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    permissions:
+      contents: read
+      actions: read
+    concurrency:
+      group: program-qualification-${{ github.ref }}
+      cancel-in-progress: false
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.11'
+      - uses: astral-sh/setup-uv@v7
+      - run: uv sync --frozen
+      - name: Qualify programs without publishing
+        env:
+          RESEARCH_REF: ${{ inputs.research_ref || github.ref_name }}
+          PREVIOUS_RUN_ID: ${{ inputs.previous_run_id }}
+          GITHUB_TOKEN: ${{ github.token }}
+        run: uv run python scripts/qualify_programs.py
+      - uses: actions/upload-artifact@v6
+        with:
+          name: program-qualification
+          path: data/program-qualification
+          if-no-files-found: error
+          retention-days: 14
