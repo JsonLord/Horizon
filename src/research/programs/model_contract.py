@@ -41,6 +41,24 @@ async def inspect_contract(client=None):
                     files = [f.get("rfilename", "") for f in data.get("siblings", [])]
                     result["repository_files"] = files[:80]
                     result["source_interfaces"] = []
+                    result["documented_interfaces"] = []
+                    for name in ("README.md", "src/server.ts", "src/routes/systemOne.ts", "src/layaService.ts", "src/middleware/validation.ts", "src/utils/router.ts"):
+                        if name not in files:
+                            continue
+                        try:
+                            source = await client.get(f"{SPACE}/raw/{data['sha']}/{name}")
+                            source.raise_for_status()
+                            if len(source.content) > 250000:
+                                continue
+                            lines = []
+                            for line in source.text.splitlines():
+                                if re.search(r"process\.env|authorization|api[_-]?key|password|cookie|Bearer|https?://", line, re.I):
+                                    continue
+                                lines.append(line)
+                            excerpt = "\n".join(lines)[:9000]
+                            result["documented_interfaces"].append({"file": name, "sha256": hashlib.sha256(source.content).hexdigest(), "public_contract_excerpt": excerpt})
+                        except Exception:
+                            continue
                     selected = [f for f in files if f.endswith(".py") and re.fullmatch(r"[A-Za-z0-9_./-]+", f) and ".." not in f.split("/")][:8]
                     for name in selected:
                         try:

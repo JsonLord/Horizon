@@ -1,0 +1,13 @@
+{
+  "schema_version": "1.0",
+  "policy_version": "1.0-provisional",
+  "provisional": true,
+  "public_interests": ["software", "AI", "innovation", "inclusive UX", "entrepreneurship", "mentoring", "founder networking"],
+  "weights": {"strategic_fit": 0.25, "software_ai": 0.25, "inclusive_innovation": 0.10, "mentoring_network": 0.15, "benefits": 0.15, "terms_effort": 0.10},
+  "prioritize_threshold": 0.75,
+  "review_threshold": 0.45,
+  "semantic_weight": 0.35,
+  "calibration": {"status": "uncalibrated", "method": null, "holdout_sample_size": 0, "metrics": null},
+  "laya": {"enabled": true, "inference_endpoint": null, "model": null, "timeout_seconds": 15},
+  "human_overrides": []
+}
