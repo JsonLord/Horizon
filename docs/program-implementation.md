@@ -15,7 +15,7 @@ Authoritative contract: root spec.md, Sections 0–23. Started 2026-10-19 on a c
 ## Gates
 
 - G1 complete: eight ref/security tests pass; genuine read-only push [39188214612](https://github.com/JsonLord/Horizon/actions/runs/39188214612) and PR [39188229440](https://github.com/JsonLord/Horizon/actions/runs/39188229440) validation pass. No branch-push publisher or Pages job is triggered. PR #5 remains draft; production automation remains disabled.
-- G2: seed migration, primary verification and live observations — pending.
+- G2 complete: 16 focused ref/verification tests pass. Read-only hosted [39188573134](https://github.com/JsonLord/Horizon/actions/runs/39188573134) succeeded with collect/publish jobs skipped. At `2026-10-19T02:08:55.993873Z`, both `https://incubator.kilo.health/` and `https://ventures.kilo.health/` redirected to `https://kilo.co/`; the new domain is not silently promoted to an approved primary domain. Kilo's current availability/deadline remain unknown, the literal 2025 date remains historical, and Kaospilots retains no invented source URL. Job annotations and the program-qualification artifact contain bounded observations. The public Needle Space API returns 200/RUNNING at source `0f47458c51d416772cfcddcb7dc8abfa28291aa6`; its presumed host `/openapi.json` returns 404. No inference is claimed.
 - G3: bounded discovery, candidate qualification — pending.
 - G4: inspect Needle Router contract; optional inference and transparent fallback — pending.
 - G5: common archive, generated-data restrictions, fresh-runner history — pending.
