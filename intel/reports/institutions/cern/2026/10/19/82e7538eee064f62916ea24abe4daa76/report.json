@@ -1,0 +1,237 @@
+{
+  "analysis_mode": "deterministic",
+  "changes": [
+    {
+      "finding_id": "ccd04c917dc54d17d398488a",
+      "institution_ids": [
+        "cern"
+      ],
+      "observed_at": "2026-10-19T13:36:34.679138+00:00",
+      "type": "new"
+    }
+  ],
+  "coverage": {
+    "basis": "search query region; event geography unknown",
+    "missing_regions": [],
+    "regions": [
+      "Europe"
+    ]
+  },
+  "created_at": "2026-10-19T13:36:34.679138+00:00",
+  "errors": [
+    {
+      "code": "SOURCE_INCOMPLETE",
+      "source": "gdelt"
+    }
+  ],
+  "findings": [
+    {
+      "change_type": "new",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "ccd04c917dc54d17d398488a",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "CERN and Mistral AI team up on AI for physics - Greater Geneva Bern area (GGBa)",
+          "source_id": "1f3bc1050c455601ee7ff76e"
+        }
+      ],
+      "finding_id": "ccd04c917dc54d17d398488a",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [
+        "cern"
+      ],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-19T13:36:34.677826+00:00",
+      "profile_relevance": 8.761913451087963,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-19T07:53:44+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "Europe"
+      ],
+      "source_ids": [
+        "1f3bc1050c455601ee7ff76e"
+      ],
+      "summary": "CERN and Mistral AI team up on AI for physics - Greater Geneva Bern area (GGBa)",
+      "topics": [
+        "CERN"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "unchanged",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "228664a361d8d2e95d47c209",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "Robotic airship for measurement and validation of a CERN detector stray magnetic field - Bioengineer.org",
+          "source_id": "ae1a90773c3ba582d9b83942"
+        }
+      ],
+      "finding_id": "228664a361d8d2e95d47c209",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [
+        "cern"
+      ],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-19T13:36:34.677826+00:00",
+      "profile_relevance": 7.128279191828703,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-17T16:41:18+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "Europe"
+      ],
+      "source_ids": [
+        "ae1a90773c3ba582d9b83942"
+      ],
+      "summary": "Robotic airship for measurement and validation of a CERN detector stray magnetic field - Bioengineer.org",
+      "topics": [
+        "CERN"
+      ],
+      "verification": "single_secondary_source"
+    }
+  ],
+  "history": {
+    "comparison": "last_good",
+    "previous_created_at": "2026-10-18T11:23:09.431162+00:00",
+    "previous_report_id": "1b6a50a67bb24a4797af73e3a7060ba1",
+    "previous_report_sha256": "b1afc7de6ee3f36a8faf31d406b9e50e7929a85b94bef26d1b1e9ff53be74292",
+    "previous_snapshot_commit": "8125ee4505ff42802bfbdb548855744430c98caf",
+    "stale_last_good": false,
+    "state": "restored"
+  },
+  "limitations": [
+    "Bounded queries do not provide exhaustive global coverage.",
+    "GDELT seen time is an observation timestamp, not verified publication time.",
+    "Contradiction/resolution labels require explicit source wording and review; no automatic truth adjudication."
+  ],
+  "links": {
+    "json": "intel/reports/institutions/cern/2026/10/19/82e7538eee064f62916ea24abe4daa76/report.json",
+    "markdown": "intel/reports/institutions/cern/2026/10/19/82e7538eee064f62916ea24abe4daa76/report.md"
+  },
+  "model_used": null,
+  "profile_id": "institutions/cern",
+  "question": "",
+  "report_id": "82e7538eee064f62916ea24abe4daa76",
+  "run_id": "82e7538eee064f62916ea24abe4daa76",
+  "schedule": {},
+  "schema_version": "1.0",
+  "sources": [
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNNG83b29Xd0s0RFh4c09iRG5TTTBoMXJBVVZscXJ4RVA5UWNMNlFBeEFxaFRVa0NBWlVJZU1jY1FnNndNMXFXclBsNzhnQ0xBbmdjNjVnOW9kTUhYXzY1cVpraDljRE95U29QbjhNVDRCNTRlbmlCa0JsbWUzV1F6U1VTeHg2enNaWjFOaC1xMXZ0ZFNUaUp6ckFpUmo1aDg?oc=5",
+      "content_fingerprint": "478ebe06d93d9741649d2b40",
+      "fetched_at": "2026-10-19T13:36:34.677826+00:00",
+      "institution_id": "cern",
+      "language": "en",
+      "observations": [
+        {
+          "collector": "google_news",
+          "language": "en",
+          "search_query": "\"CERN\"",
+          "search_region": "Europe",
+          "title": "CERN and Mistral AI team up on AI for physics - Greater Geneva Bern area (GGBa)"
+        }
+      ],
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNNG83b29Xd0s0RFh4c09iRG5TTTBoMXJBVVZscXJ4RVA5UWNMNlFBeEFxaFRVa0NBWlVJZU1jY1FnNndNMXFXclBsNzhnQ0xBbmdjNjVnOW9kTUhYXzY1cVpraDljRE95U29QbjhNVDRCNTRlbmlCa0JsbWUzV1F6U1VTeHg2enNaWjFOaC1xMXZ0ZFNUaUp6ckFpUmo1aDg?oc=5",
+      "profile_id": "institutions/cern",
+      "published_at": "2026-10-19T07:53:44+00:00",
+      "publisher": "Greater Geneva Bern area (GGBa)",
+      "search_query": "\"CERN\"",
+      "source_country": "unknown",
+      "source_id": "1f3bc1050c455601ee7ff76e",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQcEY2d2RuTmlGS3RmbzhmT2Y4Ul9Tbzg4QmlCSUZMM2FVdTlaUEh4VFFJcUFWanZweG51VE4tTWlEZlNoU090eEdINTVfVDhmVW5PZkpYMTFaTFpfeDdPLXRPSTBRcHVDcE9obVZON3l3QVN6WEQ3VElzWFF5c1RhdU83emREdGZ0ZjFWYlYySGtRWEM5b0ZCZXdDSXNyRkhJSVJUWEpqZU5kaXhDeU5ncA?oc=5",
+      "content_fingerprint": "4a470943ba8682d20ba5d61b",
+      "fetched_at": "2026-10-19T13:36:34.677826+00:00",
+      "institution_id": "cern",
+      "language": "en",
+      "observations": [
+        {
+          "collector": "google_news",
+          "language": "en",
+          "search_query": "\"CERN\"",
+          "search_region": "Europe",
+          "title": "Robotic airship for measurement and validation of a CERN detector stray magnetic field - Bioengineer.org"
+        }
+      ],
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQcEY2d2RuTmlGS3RmbzhmT2Y4Ul9Tbzg4QmlCSUZMM2FVdTlaUEh4VFFJcUFWanZweG51VE4tTWlEZlNoU090eEdINTVfVDhmVW5PZkpYMTFaTFpfeDdPLXRPSTBRcHVDcE9obVZON3l3QVN6WEQ3VElzWFF5c1RhdU83emREdGZ0ZjFWYlYySGtRWEM5b0ZCZXdDSXNyRkhJSVJUWEpqZU5kaXhDeU5ncA?oc=5",
+      "profile_id": "institutions/cern",
+      "published_at": "2026-10-17T16:41:18+00:00",
+      "publisher": "Bioengineer.org",
+      "search_query": "\"CERN\"",
+      "source_country": "unknown",
+      "source_id": "ae1a90773c3ba582d9b83942",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    }
+  ],
+  "statistics": {
+    "collectors": [
+      {
+        "error_code": null,
+        "items": 0,
+        "query": "site:home.cern",
+        "source": "google_news",
+        "status": "ok"
+      },
+      {
+        "error_code": null,
+        "items": 7,
+        "query": "\"CERN\"",
+        "source": "google_news",
+        "status": "ok"
+      },
+      {
+        "error_code": null,
+        "items": 0,
+        "query": "\"CERN\"",
+        "source": "gdelt",
+        "status": "failed"
+      },
+      {
+        "items": 0,
+        "source": "rss",
+        "status": "ok"
+      }
+    ],
+    "items": 2,
+    "sources": 2
+  },
+  "status": "partial",
+  "time_window": {
+    "since": "2026-10-17T13:36:34.679138+00:00",
+    "until": "2026-10-19T13:36:34.679138+00:00"
+  },
+  "workflow": {
+    "repository": "JsonLord/Horizon",
+    "run_attempt": "1",
+    "run_id": "39261382130",
+    "source_commit": "c9dcef30a10ffe67b8e399baea5c2a6787c7dfd2"
+  }
+}

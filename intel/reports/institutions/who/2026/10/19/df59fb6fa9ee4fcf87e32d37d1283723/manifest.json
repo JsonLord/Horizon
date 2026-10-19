@@ -1,0 +1,23 @@
+{
+  "artifacts": [
+    {
+      "bytes": 197143,
+      "content_type": "application/json",
+      "path": "intel/reports/institutions/who/2026/10/19/df59fb6fa9ee4fcf87e32d37d1283723/report.json",
+      "sha256": "a4e204416a558fa5e9f0cce09be59e1ce6fb3ef6c346c0d899187c792ca62d65"
+    },
+    {
+      "bytes": 29115,
+      "content_type": "text/markdown",
+      "path": "intel/reports/institutions/who/2026/10/19/df59fb6fa9ee4fcf87e32d37d1283723/report.md",
+      "sha256": "08e58e4b017171972d90e2ed892c6b2d086d5043ed58eea5f93425006c1c342a"
+    }
+  ],
+  "commit": null,
+  "generated_at": "2026-10-19T13:36:22.790364+00:00",
+  "profile_id": "institutions/who",
+  "report_id": "df59fb6fa9ee4fcf87e32d37d1283723",
+  "schema_version": "1.0",
+  "snapshot_id": "09c3db201248c2fbd0c059ae4e12fe4a3e11e834b430450e38238f65a99be90c",
+  "status": "complete"
+}
