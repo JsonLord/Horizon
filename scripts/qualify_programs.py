@@ -12,6 +12,9 @@ from src.research.branches import resolve
 from src.research.profiles import ROOT
 from src.research.programs.fetch import ProgramFetcher
 from src.research.programs.model_contract import inspect_contract
+from src.research.programs.laya import classify
+from src.research.programs.relevance import load_policy, score
+from src.research.programs.models import Program
 from src.research.programs.verify import refresh, seed_record
 from src.research.programs.config import load_config
 from src.research.programs.discovery import nominate, official_links
@@ -46,6 +49,13 @@ async def main():
             page = await fetcher.fetch(url, now)
             observations.append({"requested_url": url, "final_url": page.final_url, "observed_at": now, "error": page.error, "redirects": page.redirects})
     contract = await inspect_contract()
+    policy = load_policy()
+    for observation in observations:
+        if "program" in observation:
+            record = Program.model_validate(observation["program"])
+            semantic, metadata = await classify(record, policy, contract)
+            record.fit = score(record, policy, semantic, metadata)
+            observation["program"] = record.model_dump(mode="json")
     result = {"read_only": True, "source": selected, "observations": observations, "discovery_metrics": metrics, "model_contract": contract}
     atomic(Path("data/program-qualification/observations.json"), dumps(result))
     # GitHub annotations provide independently retrievable, bounded public proof.
@@ -57,7 +67,7 @@ async def main():
             public["observations"].append(observation)
             continue
         program = observation["program"]
-        public["observations"].append({"program": {k: program[k] for k in ("program_id", "name", "canonical_url", "application_status", "deadline", "extraction_status", "check_error", "facts", "source_evidence")}})
+        public["observations"].append({"program": {k: program[k] for k in ("program_id", "name", "canonical_url", "application_status", "deadline", "extraction_status", "check_error", "facts", "source_evidence", "fit")}})
     encoded = base64.b64encode(zlib.compress(json.dumps(public, separators=(",", ":")).encode())).decode()
     # Check annotations truncate individual messages at ~4 KB. Bounded parts
     # retain complete public proof, rather than a silently truncated JSON blob.

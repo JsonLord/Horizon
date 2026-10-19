@@ -88,6 +88,23 @@ async def inspect_contract(client=None):
                             continue
             except Exception as exc:
                 result["observations"].append({"url": url, "error": "HTTP_" + str(exc.response.status_code) if isinstance(exc, httpx.HTTPStatusError) else "network_or_contract_unavailable"})
+        native = {}
+        for path in ("/health", "/ready", "/v1/info", "/v1/gates/route"):
+            try:
+                response = await client.get(HOST + path)
+                result["observations"].append({"url": HOST + path, "http_status": response.status_code})
+                if response.status_code == 200 and len(response.content) < 50000:
+                    data = response.json()
+                    if path == "/v1/info":
+                        native.update(service=data.get("service"), inference_endpoint=data.get("inference_endpoint"), model=data.get("backends", {}).get("laya", {}).get("model"), capabilities=data.get("capabilities"), generative=data.get("backends", {}).get("laya", {}).get("generative"))
+                    if path == "/ready":
+                        native["ready"] = data.get("backends", {}).get("laya", {}).get("ready") is True
+            except Exception:
+                result["observations"].append({"url": HOST + path, "error": "network_or_contract_unavailable"})
+        result["native_contract"] = native
+        if native.get("service") == "system-one" and native.get("inference_endpoint") == "/v1/system-one" and native.get("model") == "receptron/laya-onnx" and "score" in (native.get("capabilities") or []):
+            result["native_contract_verified"] = True
+            result["status"] = "native_structured_classifier_discovered_not_yet_inferred"
         return result
     finally:
         if own:

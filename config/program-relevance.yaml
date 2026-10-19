@@ -8,6 +8,6 @@
   "review_threshold": 0.45,
   "semantic_weight": 0.35,
   "calibration": {"status": "uncalibrated", "method": null, "holdout_sample_size": 0, "metrics": null},
-  "laya": {"enabled": true, "inference_endpoint": null, "model": null, "timeout_seconds": 15},
+  "laya": {"enabled": true, "inference_endpoint": "https://leon4gr45-needle-router.hf.space/v1/system-one", "model": "receptron/laya-onnx", "timeout_seconds": 15},
   "human_overrides": []
 }

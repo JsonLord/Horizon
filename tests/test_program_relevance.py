@@ -44,7 +44,6 @@ def test_policy_rejects_fake_calibration_and_bad_weights():
 @pytest.mark.parametrize("kind", ["valid", "bad_citation", "bad_range", "wrong_hash", "timeout", "routing_only"])
 def test_optional_inference_contract_and_safe_fallback(kind):
     p = load_policy()
-    p.laya.inference_endpoint, p.laya.model = HOST + "/v1/chat/completions", "verified-model"
     r = record()
     r.legacy = {"private_profile": "MUST_NOT_LEAVE_PROCESS"}
     dto = public_input(r, p)
@@ -52,14 +51,21 @@ def test_optional_inference_contract_and_safe_fallback(kind):
     assert "MUST_NOT_LEAVE_PROCESS" not in dumps(dto)
     def respond(request):
         assert "MUST_NOT_LEAVE_PROCESS" not in request.content.decode()
+        assert request.url.path == "/v1/system-one"
         if kind == "timeout":
             raise httpx.ReadTimeout("bounded")
-        value = {"policy_version": p.policy_version, "input_hash": digest, "model_identity": "verified-model", "dimensions": {k: .8 for k in DIMENSIONS}, "reason_codes": ["software_fit"], "unknowns": [], "cited_evidence_ids": [r.source_evidence[0].evidence_id]}
-        if kind == "bad_citation": value["cited_evidence_ids"] = ["invented"]
-        if kind == "bad_range": value["dimensions"]["benefits"] = 2
-        if kind == "wrong_hash": value["input_hash"] = "0" * 64
-        return httpx.Response(200, json={"model": "verified-model", "choices": [{"message": {"content": json.dumps(value)}}]})
-    contract = {"paths": {"/v1/chat/completions": {"post": {}}}} if kind != "routing_only" else {"paths": {"/v1/gates/route": {"post": {}}}}
+        sent = json.loads(request.content)
+        assert sent["state"]["input_hash"] == digest
+        answers = {}
+        for key, question in sent["questions"].items():
+            if question["type"] == "score":
+                answers[key] = {"type": "score", "score": 2.4, "legend": {str(i): name for i, name in enumerate(question["criteria"])}, "confidence": .8}
+            else:
+                answers[key] = {"type": "choice", "choice": next(iter(question["criteria"]))}
+        if kind == "bad_citation": answers["citation"]["choice"] = "invented"
+        if kind == "bad_range": answers["benefits"]["score"] = 4
+        return httpx.Response(200, json={"request_id": digest if kind != "wrong_hash" else "0" * 64, "model": "receptron/laya-onnx", "backend": "laya", "results": answers})
+    contract = {"native_contract_verified": kind != "routing_only", "native_contract": {"ready": True, "model": "receptron/laya-onnx"}}
     async def run():
         async with httpx.AsyncClient(transport=httpx.MockTransport(respond)) as client:
             return await classify(r, p, contract, client)
@@ -67,6 +73,8 @@ def test_optional_inference_contract_and_safe_fallback(kind):
     assert bool(semantic) == (kind == "valid")
     assert metadata["inference_succeeded"] == (kind == "valid")
     assert metadata["fallback"] == (None if kind == "valid" else "deterministic")
+    if semantic:
+        assert all(abs(v - .8) < 1e-8 for v in semantic.dimensions.values())
 
 
 def test_no_key_or_unavailable_endpoint_never_fabricates_inference():
