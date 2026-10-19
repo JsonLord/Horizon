@@ -1,6 +1,7 @@
 """Read-only hosted qualification; writes only local artifacts and job notices."""
 
 import asyncio
+import base64
 from datetime import UTC, datetime
 import json
 import os
@@ -48,10 +49,20 @@ async def main():
     atomic(Path("data/program-qualification/observations.json"), dumps(result))
     # GitHub annotations provide independently retrievable, bounded public proof.
     # Escape workflow-command characters; never echo scraped text as commands.
-    notice = json.dumps(result, separators=(",", ":"))
-    if len(notice) > 50000:
-        notice = json.dumps({"source": selected, "read_only": True, "details": "see artifact", "model_status": contract["status"]})
-    print("::notice title=program-qualification::" + notice.replace("%", "%25").replace("\r", "%0D").replace("\n", "%0A"))
+    public = dict(result)
+    public["observations"] = []
+    for observation in observations:
+        if "program" not in observation:
+            public["observations"].append(observation)
+            continue
+        program = observation["program"]
+        public["observations"].append({"program": {k: program[k] for k in ("program_id", "name", "canonical_url", "application_status", "deadline", "extraction_status", "check_error", "facts", "source_evidence")}})
+    encoded = base64.b64encode(json.dumps(public, separators=(",", ":")).encode()).decode()
+    # Check annotations truncate individual messages at ~4 KB. Bounded parts
+    # retain complete public proof, rather than a silently truncated JSON blob.
+    chunks = [encoded[i:i+2800] for i in range(0, len(encoded), 2800)]
+    for index, chunk in enumerate(chunks):
+        print(f"::notice title=program-evidence-{index+1}-of-{len(chunks)}::{chunk}")
 
 
 asyncio.run(main())
