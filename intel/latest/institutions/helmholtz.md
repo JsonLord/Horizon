@@ -1,11 +1,11 @@
 # Horizon: institutions/helmholtz
-Status: partial | Analysis: deterministic
-Observed: 2026-10-17T10:57:14.298606+00:00
+Status: complete | Analysis: deterministic
+Observed: 2026-10-20T11:52:35.566715+00:00
 
 Search-region coverage (not event geography): Europe
 
-- Three Questions for Bernhard Mittermaier - Helmholtz - Association of German Research Centres - Helmholtz-Gemeinschaft Deutscher Forschungszentren (single_secondary_source; unchanged)
-  - <https://news.google.com/rss/articles/CBMijwFBVV95cUxOU0U2dDBOOFJGRVRLZFg3Q2otS3pVRG5RSUlXMVRNWFFjUzJtZ240Vkc1V3oyYlUzYVNPb2dILVZ2RHZnYzBHOXlKSUFDdEZvOTdYWXdpSHNDM0VNT2hPU1RKT1lxOGlPOW11VEwwdjdRaWd2eVNNejdNd2NGcE92bDdnTXNHdWJkR2dIa3ZwRQ?oc=5> — Helmholtz-Gemeinschaft Deutscher Forschungszentren
+- Jülich Trainees Win 2026 Helmholtz Training Award (single_secondary_source; new)
+  - <https://www.miragenews.com/julich-trainees-win-2026-helmholtz-training-1763368> — miragenews.com
 
 ## Limitations
 - Bounded queries do not provide exhaustive global coverage.

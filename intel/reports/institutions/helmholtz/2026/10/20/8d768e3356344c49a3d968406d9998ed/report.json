@@ -1,0 +1,158 @@
+{
+  "analysis_mode": "deterministic",
+  "changes": [
+    {
+      "finding_id": "5fd44219590dad9db4e9b2e6",
+      "institution_ids": [
+        "helmholtz"
+      ],
+      "observed_at": "2026-10-20T11:52:35.566715+00:00",
+      "type": "new"
+    }
+  ],
+  "coverage": {
+    "basis": "search query region; event geography unknown",
+    "missing_regions": [],
+    "regions": [
+      "Europe"
+    ]
+  },
+  "created_at": "2026-10-20T11:52:35.566715+00:00",
+  "errors": [],
+  "findings": [
+    {
+      "change_type": "new",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "5fd44219590dad9db4e9b2e6",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "Jülich Trainees Win 2026 Helmholtz Training Award",
+          "source_id": "2be326e04ff21b2f4035c528"
+        }
+      ],
+      "finding_id": "5fd44219590dad9db4e9b2e6",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [
+        "helmholtz"
+      ],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-20T11:52:35.566177+00:00",
+      "profile_relevance": 6.828060576655092,
+      "provenance": "deterministic title extraction",
+      "published_at": null,
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "Europe"
+      ],
+      "source_ids": [
+        "2be326e04ff21b2f4035c528"
+      ],
+      "summary": "Jülich Trainees Win 2026 Helmholtz Training Award",
+      "topics": [
+        "Helmholtz Association"
+      ],
+      "verification": "single_secondary_source"
+    }
+  ],
+  "history": {
+    "comparison": "last_good",
+    "previous_created_at": "2026-10-17T10:57:14.298606+00:00",
+    "previous_report_id": "3058e60dc41849ecb5a12b9547946c60",
+    "previous_report_sha256": "0bc443f16e930a15d488d4765262b7f140b883af7f31d98f6c514eebce4bd0b6",
+    "previous_snapshot_commit": "fd8d0ad1e1e2f5927ad1c9f4c824240046f0dbdd",
+    "stale_last_good": true,
+    "state": "restored"
+  },
+  "limitations": [
+    "Bounded queries do not provide exhaustive global coverage.",
+    "GDELT seen time is an observation timestamp, not verified publication time.",
+    "Contradiction/resolution labels require explicit source wording and review; no automatic truth adjudication."
+  ],
+  "links": {
+    "json": "intel/reports/institutions/helmholtz/2026/10/20/8d768e3356344c49a3d968406d9998ed/report.json",
+    "markdown": "intel/reports/institutions/helmholtz/2026/10/20/8d768e3356344c49a3d968406d9998ed/report.md"
+  },
+  "model_used": null,
+  "profile_id": "institutions/helmholtz",
+  "question": "",
+  "report_id": "8d768e3356344c49a3d968406d9998ed",
+  "run_id": "8d768e3356344c49a3d968406d9998ed",
+  "schedule": {},
+  "schema_version": "1.0",
+  "sources": [
+    {
+      "canonical_url": "https://www.miragenews.com/julich-trainees-win-2026-helmholtz-training-1763368",
+      "content_fingerprint": "c8cd18e79599e7925a85af9b",
+      "fetched_at": "2026-10-20T11:52:35.566177+00:00",
+      "institution_id": "helmholtz",
+      "language": "English",
+      "observations": [
+        {
+          "collector": "gdelt",
+          "language": "English",
+          "search_query": "\"Helmholtz Association\"",
+          "search_region": "Europe",
+          "title": "Jülich Trainees Win 2026 Helmholtz Training Award"
+        }
+      ],
+      "origin_collector": "gdelt",
+      "original_url": "https://www.miragenews.com/julich-trainees-win-2026-helmholtz-training-1763368/",
+      "profile_id": "institutions/helmholtz",
+      "published_at": null,
+      "publisher": "miragenews.com",
+      "search_query": "\"Helmholtz Association\"",
+      "source_country": "United States",
+      "source_id": "2be326e04ff21b2f4035c528",
+      "source_kind": "secondary",
+      "source_seen_at": "2026-10-20T07:45:00+00:00"
+    }
+  ],
+  "statistics": {
+    "collectors": [
+      {
+        "error_code": null,
+        "items": 0,
+        "query": "site:helmholtz.de",
+        "source": "google_news",
+        "status": "ok"
+      },
+      {
+        "error_code": null,
+        "items": 1,
+        "query": "\"Helmholtz Association\"",
+        "source": "google_news",
+        "status": "ok"
+      },
+      {
+        "error_code": null,
+        "items": 1,
+        "query": "\"Helmholtz Association\"",
+        "source": "gdelt",
+        "status": "ok"
+      }
+    ],
+    "items": 1,
+    "sources": 1
+  },
+  "status": "complete",
+  "time_window": {
+    "since": "2026-10-18T11:52:35.566715+00:00",
+    "until": "2026-10-20T11:52:35.566715+00:00"
+  },
+  "workflow": {
+    "repository": "JsonLord/Horizon",
+    "run_attempt": "1",
+    "run_id": "39417712464",
+    "source_commit": "c9dcef30a10ffe67b8e399baea5c2a6787c7dfd2"
+  }
+}

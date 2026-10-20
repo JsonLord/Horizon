@@ -2,11 +2,11 @@
   "analysis_mode": "deterministic",
   "changes": [
     {
-      "finding_id": "ccd04c917dc54d17d398488a",
+      "finding_id": "488ca4519d54826bffc04149",
       "institution_ids": [
         "cern"
       ],
-      "observed_at": "2026-10-19T13:36:34.679138+00:00",
+      "observed_at": "2026-10-20T11:52:21.894975+00:00",
       "type": "new"
     }
   ],
@@ -17,7 +17,7 @@
       "Europe"
     ]
   },
-  "created_at": "2026-10-19T13:36:34.679138+00:00",
+  "created_at": "2026-10-20T11:52:21.894975+00:00",
   "errors": [
     {
       "code": "SOURCE_INCOMPLETE",
@@ -27,6 +27,49 @@
   "findings": [
     {
       "change_type": "new",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "488ca4519d54826bffc04149",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "Kazakhstan expands scientific cooperation with CERN - Kazakhstan Today",
+          "source_id": "d83493a659185eed7abb9d9a"
+        }
+      ],
+      "finding_id": "488ca4519d54826bffc04149",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [
+        "cern"
+      ],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-20T11:52:21.893785+00:00",
+      "profile_relevance": 8.854816044155093,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-20T08:23:18+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "Europe"
+      ],
+      "source_ids": [
+        "d83493a659185eed7abb9d9a"
+      ],
+      "summary": "Kazakhstan expands scientific cooperation with CERN - Kazakhstan Today",
+      "topics": [
+        "CERN"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "unchanged",
       "classification": "reported_news",
       "corroboration": 1,
       "event_id": "ccd04c917dc54d17d398488a",
@@ -51,10 +94,10 @@
         "Title-level extraction; linked source should be reviewed."
       ],
       "model_selected": null,
-      "observed_at": "2026-10-19T13:36:34.677826+00:00",
-      "profile_relevance": 8.761913451087963,
+      "observed_at": "2026-10-20T11:52:21.893785+00:00",
+      "profile_relevance": 7.834167896006944,
       "provenance": "deterministic title extraction",
-      "published_at": "2026-10-19T07:53:44+00:00",
+      "published_at": "2026-10-19T07:53:34+00:00",
       "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
       "regions": [
         "Europe"
@@ -67,57 +110,14 @@
         "CERN"
       ],
       "verification": "single_secondary_source"
-    },
-    {
-      "change_type": "unchanged",
-      "classification": "reported_news",
-      "corroboration": 1,
-      "event_id": "228664a361d8d2e95d47c209",
-      "evidence": [
-        {
-          "location": "feed title",
-          "snippet": "Robotic airship for measurement and validation of a CERN detector stray magnetic field - Bioengineer.org",
-          "source_id": "ae1a90773c3ba582d9b83942"
-        }
-      ],
-      "finding_id": "228664a361d8d2e95d47c209",
-      "geography": {
-        "confidence": null,
-        "event_region": "unknown",
-        "evidence": []
-      },
-      "importance": null,
-      "institutions": [
-        "cern"
-      ],
-      "limitations": [
-        "Title-level extraction; linked source should be reviewed."
-      ],
-      "model_selected": null,
-      "observed_at": "2026-10-19T13:36:34.677826+00:00",
-      "profile_relevance": 7.128279191828703,
-      "provenance": "deterministic title extraction",
-      "published_at": "2026-10-17T16:41:18+00:00",
-      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
-      "regions": [
-        "Europe"
-      ],
-      "source_ids": [
-        "ae1a90773c3ba582d9b83942"
-      ],
-      "summary": "Robotic airship for measurement and validation of a CERN detector stray magnetic field - Bioengineer.org",
-      "topics": [
-        "CERN"
-      ],
-      "verification": "single_secondary_source"
     }
   ],
   "history": {
     "comparison": "last_good",
-    "previous_created_at": "2026-10-18T11:23:09.431162+00:00",
-    "previous_report_id": "1b6a50a67bb24a4797af73e3a7060ba1",
-    "previous_report_sha256": "b1afc7de6ee3f36a8faf31d406b9e50e7929a85b94bef26d1b1e9ff53be74292",
-    "previous_snapshot_commit": "8125ee4505ff42802bfbdb548855744430c98caf",
+    "previous_created_at": "2026-10-19T13:36:34.679138+00:00",
+    "previous_report_id": "82e7538eee064f62916ea24abe4daa76",
+    "previous_report_sha256": "945e799e89287f80c676394a105930843d43ffdb838923c4a50be2a215d62b1b",
+    "previous_snapshot_commit": "fd8d0ad1e1e2f5927ad1c9f4c824240046f0dbdd",
     "stale_last_good": false,
     "state": "restored"
   },
@@ -127,21 +127,21 @@
     "Contradiction/resolution labels require explicit source wording and review; no automatic truth adjudication."
   ],
   "links": {
-    "json": "intel/reports/institutions/cern/2026/10/19/82e7538eee064f62916ea24abe4daa76/report.json",
-    "markdown": "intel/reports/institutions/cern/2026/10/19/82e7538eee064f62916ea24abe4daa76/report.md"
+    "json": "intel/reports/institutions/cern/2026/10/20/0e84296f4b6e4fe28191df92a728409a/report.json",
+    "markdown": "intel/reports/institutions/cern/2026/10/20/0e84296f4b6e4fe28191df92a728409a/report.md"
   },
   "model_used": null,
   "profile_id": "institutions/cern",
   "question": "",
-  "report_id": "82e7538eee064f62916ea24abe4daa76",
-  "run_id": "82e7538eee064f62916ea24abe4daa76",
+  "report_id": "0e84296f4b6e4fe28191df92a728409a",
+  "run_id": "0e84296f4b6e4fe28191df92a728409a",
   "schedule": {},
   "schema_version": "1.0",
   "sources": [
     {
       "canonical_url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNNG83b29Xd0s0RFh4c09iRG5TTTBoMXJBVVZscXJ4RVA5UWNMNlFBeEFxaFRVa0NBWlVJZU1jY1FnNndNMXFXclBsNzhnQ0xBbmdjNjVnOW9kTUhYXzY1cVpraDljRE95U29QbjhNVDRCNTRlbmlCa0JsbWUzV1F6U1VTeHg2enNaWjFOaC1xMXZ0ZFNUaUp6ckFpUmo1aDg?oc=5",
       "content_fingerprint": "478ebe06d93d9741649d2b40",
-      "fetched_at": "2026-10-19T13:36:34.677826+00:00",
+      "fetched_at": "2026-10-20T11:52:21.893785+00:00",
       "institution_id": "cern",
       "language": "en",
       "observations": [
@@ -156,7 +156,7 @@
       "origin_collector": "google_news",
       "original_url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNNG83b29Xd0s0RFh4c09iRG5TTTBoMXJBVVZscXJ4RVA5UWNMNlFBeEFxaFRVa0NBWlVJZU1jY1FnNndNMXFXclBsNzhnQ0xBbmdjNjVnOW9kTUhYXzY1cVpraDljRE95U29QbjhNVDRCNTRlbmlCa0JsbWUzV1F6U1VTeHg2enNaWjFOaC1xMXZ0ZFNUaUp6ckFpUmo1aDg?oc=5",
       "profile_id": "institutions/cern",
-      "published_at": "2026-10-19T07:53:44+00:00",
+      "published_at": "2026-10-19T07:53:34+00:00",
       "publisher": "Greater Geneva Bern area (GGBa)",
       "search_query": "\"CERN\"",
       "source_country": "unknown",
@@ -165,9 +165,9 @@
       "source_seen_at": null
     },
     {
-      "canonical_url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQcEY2d2RuTmlGS3RmbzhmT2Y4Ul9Tbzg4QmlCSUZMM2FVdTlaUEh4VFFJcUFWanZweG51VE4tTWlEZlNoU090eEdINTVfVDhmVW5PZkpYMTFaTFpfeDdPLXRPSTBRcHVDcE9obVZON3l3QVN6WEQ3VElzWFF5c1RhdU83emREdGZ0ZjFWYlYySGtRWEM5b0ZCZXdDSXNyRkhJSVJUWEpqZU5kaXhDeU5ncA?oc=5",
-      "content_fingerprint": "4a470943ba8682d20ba5d61b",
-      "fetched_at": "2026-10-19T13:36:34.677826+00:00",
+      "canonical_url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNd1JIdjlMLVA1dXBhRUVMVmVEQnMwV01BSGVFaTVKa0ZhQWpocldYMHpkbE9DRXVVcDctVnhDdTBxQkRDamliUjJqcjhFWVFhQXJjVVZrWnFXZ05CQVhKN0ptVFhvMzBMYUwwT3BJME9qcjhFbnpPLV9TbjJHcUxUNjZwdldkNkdOZFN3eUd0Q0dXaEtEcFhMSGd5cTUyMmlheHc?oc=5",
+      "content_fingerprint": "d64c50cb677f502ee39d89c6",
+      "fetched_at": "2026-10-20T11:52:21.893785+00:00",
       "institution_id": "cern",
       "language": "en",
       "observations": [
@@ -176,17 +176,17 @@
           "language": "en",
           "search_query": "\"CERN\"",
           "search_region": "Europe",
-          "title": "Robotic airship for measurement and validation of a CERN detector stray magnetic field - Bioengineer.org"
+          "title": "Kazakhstan expands scientific cooperation with CERN - Kazakhstan Today"
         }
       ],
       "origin_collector": "google_news",
-      "original_url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQcEY2d2RuTmlGS3RmbzhmT2Y4Ul9Tbzg4QmlCSUZMM2FVdTlaUEh4VFFJcUFWanZweG51VE4tTWlEZlNoU090eEdINTVfVDhmVW5PZkpYMTFaTFpfeDdPLXRPSTBRcHVDcE9obVZON3l3QVN6WEQ3VElzWFF5c1RhdU83emREdGZ0ZjFWYlYySGtRWEM5b0ZCZXdDSXNyRkhJSVJUWEpqZU5kaXhDeU5ncA?oc=5",
+      "original_url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNd1JIdjlMLVA1dXBhRUVMVmVEQnMwV01BSGVFaTVKa0ZhQWpocldYMHpkbE9DRXVVcDctVnhDdTBxQkRDamliUjJqcjhFWVFhQXJjVVZrWnFXZ05CQVhKN0ptVFhvMzBMYUwwT3BJME9qcjhFbnpPLV9TbjJHcUxUNjZwdldkNkdOZFN3eUd0Q0dXaEtEcFhMSGd5cTUyMmlheHc?oc=5",
       "profile_id": "institutions/cern",
-      "published_at": "2026-10-17T16:41:18+00:00",
-      "publisher": "Bioengineer.org",
+      "published_at": "2026-10-20T08:23:18+00:00",
+      "publisher": "Kazakhstan Today",
       "search_query": "\"CERN\"",
       "source_country": "unknown",
-      "source_id": "ae1a90773c3ba582d9b83942",
+      "source_id": "d83493a659185eed7abb9d9a",
       "source_kind": "secondary",
       "source_seen_at": null
     }
@@ -202,7 +202,7 @@
       },
       {
         "error_code": null,
-        "items": 7,
+        "items": 9,
         "query": "\"CERN\"",
         "source": "google_news",
         "status": "ok"
@@ -225,13 +225,13 @@
   },
   "status": "partial",
   "time_window": {
-    "since": "2026-10-17T13:36:34.679138+00:00",
-    "until": "2026-10-19T13:36:34.679138+00:00"
+    "since": "2026-10-18T11:52:21.894975+00:00",
+    "until": "2026-10-20T11:52:21.894975+00:00"
   },
   "workflow": {
     "repository": "JsonLord/Horizon",
     "run_attempt": "1",
-    "run_id": "39261382130",
+    "run_id": "39417712464",
     "source_commit": "c9dcef30a10ffe67b8e399baea5c2a6787c7dfd2"
   }
 }
