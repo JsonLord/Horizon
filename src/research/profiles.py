@@ -79,6 +79,7 @@ class Ranking(Strict):
 
 
 class Output(Strict):
+    storage: Literal["report", "opportunity_folders"] = "report"
     languages: list[Short] = ["en"]
     markdown: bool = True
     json_output: bool = Field(default=True, alias="json")
@@ -99,8 +100,8 @@ class Feed(Strict):
 
 class Profile(Strict):
     schema_version: Literal["1.0"]
-    profile_id: str = Field(pattern=r"^(world|institutions|examples|programs)/[a-z0-9-]{1,64}$")
-    mode: Literal["world_radar", "institution_watch", "research_job", "program_watch"]
+    profile_id: str = Field(pattern=r"^(world|institutions|examples|programs|funding)/[a-z0-9-]{1,64}$")
+    mode: Literal["world_radar", "institution_watch", "research_job", "program_watch", "funding_watch"]
     name: str = Field(min_length=1, max_length=120)
     enabled: bool
     topics: list[Short] = Field(max_length=20)

@@ -48,6 +48,9 @@ def validate(root):
         if (root / row["path"]).stat().st_size > 1_000_000:
             raise ValueError("Oversized report")
         report = archive.get(row["report_id"])
+        if report["profile_id"].startswith("funding/"):
+            from .funding.models import FundingDataset
+            FundingDataset.model_validate(report["statistics"]["funding"])
         if report["profile_id"].startswith("programs/"):
             from .programs.models import Dataset
             Dataset.model_validate(report["statistics"]["programs"])

@@ -373,7 +373,7 @@
       "type": "string"
     },
     "profile_id": {
-      "pattern": "^(world|institutions|examples)/[a-z0-9-]{1,64}$",
+      "pattern": "^(world|institutions|examples|programs|funding)/[a-z0-9-]{1,64}$",
       "title": "Profile Id",
       "type": "string"
     },

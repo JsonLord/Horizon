@@ -1,0 +1,36 @@
+{
+  "additionalProperties": false,
+  "properties": {
+    "schema_version": {
+      "const": "1.0",
+      "default": "1.0",
+      "title": "Schema Version",
+      "type": "string"
+    },
+    "facts": {
+      "additionalProperties": {
+        "type": "string"
+      },
+      "maxProperties": 40,
+      "title": "Facts",
+      "type": "object"
+    },
+    "interests": {
+      "items": {
+        "type": "string"
+      },
+      "maxItems": 30,
+      "title": "Interests",
+      "type": "array"
+    },
+    "evidence_max_age_days": {
+      "default": 30,
+      "maximum": 365,
+      "minimum": 1,
+      "title": "Evidence Max Age Days",
+      "type": "integer"
+    }
+  },
+  "title": "Applicant",
+  "type": "object"
+}

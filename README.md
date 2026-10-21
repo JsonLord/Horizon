@@ -408,3 +408,12 @@ Want to share valuable source discoveries with the Horizon community? Please sub
 GitHub-hosted Actions runners collect approved world and institution profiles, compare with the verified `intel` archive, and publish source-attributed JSON and Markdown using the automatic job token. No news or model API key is required. Authorized agents dispatch `horizon-intel.yml`; public consumers read the archive anonymously. The existing CLI, wizard and local stdio MCP tools remain available.
 
 See [the agent playbook and verification record](docs/agent-research.md) for dispatch, run status, report provenance, public archive paths and limitations. Native scoring supports `ai.mode=auto|local|off` with deterministic fallback.
+
+## Funding knowledge base
+
+Germany/EU funding research is available through the manually selected
+`funding/de-eu` profile and the [funding dashboard](Funding%20DK%20%28DE%20missing%29.md).
+Each opportunity has its own [structured folder](research/funding-de-eu/README.md).
+See [AGENTS.md](AGENTS.md) for source registration, evidence review, applicant
+facts, agent parameters and deterministic regeneration. Candidate records are
+explicitly unverified until official terms can be checked; no new schedule is enabled.

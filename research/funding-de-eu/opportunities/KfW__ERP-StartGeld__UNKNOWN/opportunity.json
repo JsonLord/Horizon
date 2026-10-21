@@ -1,0 +1,34 @@
+{
+  "application_status": "UNKNOWN",
+  "archived": false,
+  "checked_at": "2026-10-21T21:59:54.184367Z",
+  "claims": {},
+  "collection_error": "network_unavailable",
+  "conditions": [],
+  "deadline": null,
+  "deadline_kind": "unknown",
+  "deadline_timezone": null,
+  "eligibility_complete": false,
+  "financing_suitability": "unknown",
+  "official_domains": [
+    "kfw.de"
+  ],
+  "opportunity_id": "kfw-erp-startgeld",
+  "program": "ERP-StartGeld",
+  "provider": "KfW",
+  "relevance_explanation": null,
+  "relevance_score": null,
+  "resources": [
+    {
+      "content_sha256": null,
+      "kind": "program",
+      "quotation": null,
+      "resource_id": "program",
+      "retrieved_at": null,
+      "title": "ERP-StartGeld",
+      "url": "https://www.kfw.de/inlandsfoerderung/Unternehmen/Gr%C3%BCnden-Nachfolgen/F%C3%B6rderprodukte/ERP-Gr%C3%BCnderkredit-Startgeld-(067)/",
+      "verified": false
+    }
+  ],
+  "schema_version": "1.0"
+}

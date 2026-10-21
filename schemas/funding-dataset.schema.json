@@ -1,0 +1,378 @@
+{
+  "$defs": {
+    "Claim": {
+      "additionalProperties": false,
+      "properties": {
+        "value": {
+          "maxLength": 2000,
+          "minLength": 1,
+          "title": "Value",
+          "type": "string"
+        },
+        "evidence_ids": {
+          "items": {
+            "type": "string"
+          },
+          "maxItems": 20,
+          "minItems": 1,
+          "title": "Evidence Ids",
+          "type": "array"
+        }
+      },
+      "required": [
+        "value",
+        "evidence_ids"
+      ],
+      "title": "Claim",
+      "type": "object"
+    },
+    "Condition": {
+      "additionalProperties": false,
+      "properties": {
+        "key": {
+          "pattern": "^[a-z][a-z0-9_]{0,79}$",
+          "title": "Key",
+          "type": "string"
+        },
+        "description": {
+          "maxLength": 1000,
+          "minLength": 1,
+          "title": "Description",
+          "type": "string"
+        },
+        "accepted_values": {
+          "items": {
+            "type": "string"
+          },
+          "maxItems": 30,
+          "minItems": 1,
+          "title": "Accepted Values",
+          "type": "array"
+        },
+        "evidence_ids": {
+          "items": {
+            "type": "string"
+          },
+          "maxItems": 20,
+          "minItems": 1,
+          "title": "Evidence Ids",
+          "type": "array"
+        },
+        "milestone": {
+          "anyOf": [
+            {
+              "maxLength": 1000,
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Milestone"
+        }
+      },
+      "required": [
+        "key",
+        "description",
+        "accepted_values",
+        "evidence_ids"
+      ],
+      "title": "Condition",
+      "type": "object"
+    },
+    "Opportunity": {
+      "additionalProperties": false,
+      "properties": {
+        "schema_version": {
+          "const": "1.0",
+          "default": "1.0",
+          "title": "Schema Version",
+          "type": "string"
+        },
+        "opportunity_id": {
+          "pattern": "^[a-z0-9][a-z0-9-]{0,95}$",
+          "title": "Opportunity Id",
+          "type": "string"
+        },
+        "provider": {
+          "maxLength": 160,
+          "minLength": 1,
+          "title": "Provider",
+          "type": "string"
+        },
+        "program": {
+          "maxLength": 200,
+          "minLength": 1,
+          "title": "Program",
+          "type": "string"
+        },
+        "official_domains": {
+          "items": {
+            "type": "string"
+          },
+          "maxItems": 10,
+          "minItems": 1,
+          "title": "Official Domains",
+          "type": "array"
+        },
+        "application_status": {
+          "default": "UNKNOWN",
+          "enum": [
+            "OPEN",
+            "UPCOMING",
+            "CLOSED",
+            "UNKNOWN"
+          ],
+          "title": "Application Status",
+          "type": "string"
+        },
+        "deadline_kind": {
+          "default": "unknown",
+          "enum": [
+            "date",
+            "rolling",
+            "unknown",
+            "discontinued",
+            "next_round_unknown"
+          ],
+          "title": "Deadline Kind",
+          "type": "string"
+        },
+        "deadline": {
+          "anyOf": [
+            {
+              "format": "date",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Deadline"
+        },
+        "deadline_timezone": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Deadline Timezone"
+        },
+        "claims": {
+          "additionalProperties": {
+            "$ref": "#/$defs/Claim"
+          },
+          "maxProperties": 60,
+          "title": "Claims",
+          "type": "object"
+        },
+        "conditions": {
+          "items": {
+            "$ref": "#/$defs/Condition"
+          },
+          "maxItems": 40,
+          "title": "Conditions",
+          "type": "array"
+        },
+        "eligibility_complete": {
+          "default": false,
+          "title": "Eligibility Complete",
+          "type": "boolean"
+        },
+        "resources": {
+          "items": {
+            "$ref": "#/$defs/Resource"
+          },
+          "maxItems": 100,
+          "title": "Resources",
+          "type": "array"
+        },
+        "checked_at": {
+          "format": "date-time",
+          "title": "Checked At",
+          "type": "string"
+        },
+        "collection_error": {
+          "anyOf": [
+            {
+              "maxLength": 200,
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Collection Error"
+        },
+        "relevance_score": {
+          "anyOf": [
+            {
+              "maximum": 1,
+              "minimum": 0,
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Relevance Score"
+        },
+        "relevance_explanation": {
+          "anyOf": [
+            {
+              "maxLength": 1000,
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Relevance Explanation"
+        },
+        "financing_suitability": {
+          "default": "unknown",
+          "enum": [
+            "suitable",
+            "unsuitable",
+            "unknown"
+          ],
+          "title": "Financing Suitability",
+          "type": "string"
+        },
+        "archived": {
+          "default": false,
+          "title": "Archived",
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "opportunity_id",
+        "provider",
+        "program",
+        "official_domains",
+        "checked_at"
+      ],
+      "title": "Opportunity",
+      "type": "object"
+    },
+    "Resource": {
+      "additionalProperties": false,
+      "properties": {
+        "resource_id": {
+          "pattern": "^[a-z0-9-]{1,80}$",
+          "title": "Resource Id",
+          "type": "string"
+        },
+        "url": {
+          "title": "Url",
+          "type": "string"
+        },
+        "title": {
+          "maxLength": 300,
+          "minLength": 1,
+          "title": "Title",
+          "type": "string"
+        },
+        "kind": {
+          "default": "other",
+          "enum": [
+            "program",
+            "application",
+            "eligibility",
+            "form",
+            "template",
+            "checklist",
+            "guideline",
+            "faq",
+            "contact",
+            "other"
+          ],
+          "title": "Kind",
+          "type": "string"
+        },
+        "retrieved_at": {
+          "anyOf": [
+            {
+              "format": "date-time",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Retrieved At"
+        },
+        "verified": {
+          "default": false,
+          "title": "Verified",
+          "type": "boolean"
+        },
+        "content_sha256": {
+          "anyOf": [
+            {
+              "pattern": "^[a-f0-9]{64}$",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Content Sha256"
+        },
+        "quotation": {
+          "anyOf": [
+            {
+              "maxLength": 500,
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Quotation"
+        }
+      },
+      "required": [
+        "resource_id",
+        "url",
+        "title"
+      ],
+      "title": "Resource",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "schema_version": {
+      "const": "1.0",
+      "default": "1.0",
+      "title": "Schema Version",
+      "type": "string"
+    },
+    "opportunities": {
+      "items": {
+        "$ref": "#/$defs/Opportunity"
+      },
+      "maxItems": 40,
+      "title": "Opportunities",
+      "type": "array"
+    }
+  },
+  "required": [
+    "opportunities"
+  ],
+  "title": "FundingDataset",
+  "type": "object"
+}

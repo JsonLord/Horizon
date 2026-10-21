@@ -1,0 +1,35 @@
+{
+  "application_status": "UNKNOWN",
+  "archived": false,
+  "checked_at": "2026-10-21T21:59:54.184367Z",
+  "claims": {},
+  "collection_error": "network_unavailable",
+  "conditions": [],
+  "deadline": null,
+  "deadline_kind": "unknown",
+  "deadline_timezone": null,
+  "eligibility_complete": false,
+  "financing_suitability": "unknown",
+  "official_domains": [
+    "ibb.de",
+    "ibb-business-team.de"
+  ],
+  "opportunity_id": "ibb-gruendungsbonus-plus",
+  "program": "GruendungsBONUS Plus",
+  "provider": "IBB",
+  "relevance_explanation": null,
+  "relevance_score": null,
+  "resources": [
+    {
+      "content_sha256": null,
+      "kind": "program",
+      "quotation": null,
+      "resource_id": "program",
+      "retrieved_at": null,
+      "title": "GruendungsBONUS Plus",
+      "url": "https://www.ibb.de/de/foerderprogramme/gruendungsbonus-plus.html",
+      "verified": false
+    }
+  ],
+  "schema_version": "1.0"
+}

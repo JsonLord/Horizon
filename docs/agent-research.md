@@ -102,3 +102,131 @@ A credential-free local development check restored the verified public archive a
 Removed `src/api/__init__.py`, `src/api/app.py`, `deploy/huggingface/README.md` and the HTTP-only `tests/test_research_http.py`. Added `src/research/history.py` and `tests/test_research_history.py`. Updated workflow, root spec, README, this record, legacy Dockerfile/Compose, dependency declaration/lockfile, four institution profiles, report schema, research analyzer/CLI/publisher/reporting/service and the registration fixture. Existing scrapers, model fallback, CLI/wizard, all 24 stdio MCP tools and public archive reader are retained.
 
 Remaining acceptance blockers: genuine workflow dispatch/publication requires the workflow to exist on the default branch and Actions write permissions/branch policy to allow `intel` publication. Dispatch currently returns 404, so no real run IDs or conclusions exist for this new workflow. The updated PR stays unmerged. Helmholtz has no validated discoverable feed; public search coverage is explicitly limited. Legacy Docker image build is blocked by this environment's Docker DNS. No hosted deployment is planned.
+
+## Funding Gate 1 — 2026-10-21
+
+Target: `feature/program-intelligence-implementation` (the attached Gate 1 names
+no alternative branch). Existing unfinished program work was preserved in a
+separate checkpoint commit before funding integration.
+
+Implemented:
+
+- Funding-specific profile and public URL register; applicant facts default to
+  unknown. Deterministic hard restrictions are separate from relevance scores.
+- Validated official resources, quotation/hash/date provenance, typed claims,
+  application status, eligibility status, explicit deadline tokens and freshness.
+- Stable-ID opportunity folders, exactly one current overview, deterministic
+  supporting documents/indexes, archived/review/active separation and append-only
+  history with old source references. Deadline changes rename the existing folder.
+- Common storage adapter keeps the existing intel/MCP report contract and adds
+  optional entity-folder projections. CLI supports collection, reviewed imports,
+  regeneration and drift checking. AGENTS.md documents sites and agent controls.
+
+Evidence limitation: normal HTTPS requests to the candidate IBB, KfW and European
+Commission URLs returned proxy `403 Forbidden` on 2026-10-21. They are candidate
+URLs, not verified program facts. No example deadline, funding amount, application
+status or eligibility decision is asserted. All three remain review-required.
+No full pages, documents, secrets or private inputs have been committed.
+
+Validation completed on 2026-10-21:
+
+- `uv sync --frozen --extra dev`: successful, no dependency/lockfile changes.
+- Full regression: **378 passed in 3.06s**, including **25 funding tests**.
+- Stdio MCP smoke: **24 tools, 11 profiles, success**.
+- Legacy MCP smoke: **success** using the existing ignored example config.
+- Funding generation drift check: **passed**; 3 review-required candidates,
+  0 verified active and 0 archived records. All generated navigation links exist.
+- Existing publisher -> temporary bare `intel` Git remote -> separate clone and
+  archive validation: **passed** (synthetic evidence only inside temporary tests).
+- `actionlint` 1.7.7: **passed** for all repository workflows; downloaded official
+  release SHA-256 verified. The system `go` executable was not the Go toolchain,
+  so the verified release binary was used instead.
+- Staged whitespace check: **passed**.
+
+A network draft was saved adding `www.ibb.de`, `www.ibb-business-team.de`,
+`www.kfw.de`, `eic.ec.europa.eu`, `ec.europa.eu`, preserving existing allowed
+hosts. The tool reports `requires_publish: true`; saving the draft does not apply
+runtime access. Live official-term verification remains blocked until that
+configuration is reviewed, saved and published in environment settings.
+
+No production merge, schedule activation, Hugging Face deployment, secrets change
+or external intel publication was performed. The existing public `intel` branch
+was observed at `9eea5d06695c05f2c63738967ef31539974ba239`; no funding publication
+to that branch is claimed. HTTP serving is outside this GitHub-only Gate 1.
+The available agent interface remains stdio MCP. The local publication acceptance
+path is `intel/reports/funding/de-eu/YYYY/MM/DD/<report_id>/report.json` with a
+useful-report pointer at `intel/latest/funding/de-eu.json` (and Markdown).
+
+Gate 1 storage and compatibility acceptance tests are complete. The definition
+of done's live evidence-backed opportunity content is **not complete**: all
+candidate deadlines, financial terms and eligibility remain explicitly unknown.
+Do not activate or advertise these candidates as verified funding offers.
+
+Files created or modified for this gate:
+
+
+- `.github/workflows/research-validation.yml`
+- `.gitignore`
+- `AGENTS.md`
+- `Funding DK (DE missing).md`
+- `README.md`
+- `config/funding-applicant.json`
+- `config/funding-sources.json`
+- `docs/agent-research.md`
+- `profiles/funding/de-eu.json`
+- `research/funding-de-eu/ACTIVE_OPPORTUNITIES.md`
+- `research/funding-de-eu/ARCHIVED_OPPORTUNITIES.md`
+- `research/funding-de-eu/README.md`
+- `research/funding-de-eu/REVIEW_REQUIRED.md`
+- `research/funding-de-eu/index.json`
+- `research/funding-de-eu/opportunities/EU__EIC-Accelerator__UNKNOWN/00_OVERVIEW__ELIGIBILITY_UNKNOWN__UNKNOWN.md`
+- `research/funding-de-eu/opportunities/EU__EIC-Accelerator__UNKNOWN/application-guide.md`
+- `research/funding-de-eu/opportunities/EU__EIC-Accelerator__UNKNOWN/benefits-and-costs.md`
+- `research/funding-de-eu/opportunities/EU__EIC-Accelerator__UNKNOWN/change-history.jsonl`
+- `research/funding-de-eu/opportunities/EU__EIC-Accelerator__UNKNOWN/eligibility.md`
+- `research/funding-de-eu/opportunities/EU__EIC-Accelerator__UNKNOWN/evidence.md`
+- `research/funding-de-eu/opportunities/EU__EIC-Accelerator__UNKNOWN/opportunity.json`
+- `research/funding-de-eu/opportunities/EU__EIC-Accelerator__UNKNOWN/required-documents.md`
+- `research/funding-de-eu/opportunities/EU__EIC-Accelerator__UNKNOWN/resources/README.md`
+- `research/funding-de-eu/opportunities/EU__EIC-Accelerator__UNKNOWN/resources/links.json`
+- `research/funding-de-eu/opportunities/EU__EIC-Accelerator__UNKNOWN/sources.json`
+- `research/funding-de-eu/opportunities/IBB__GruendungsBONUS-Plus__UNKNOWN/00_OVERVIEW__ELIGIBILITY_UNKNOWN__UNKNOWN.md`
+- `research/funding-de-eu/opportunities/IBB__GruendungsBONUS-Plus__UNKNOWN/application-guide.md`
+- `research/funding-de-eu/opportunities/IBB__GruendungsBONUS-Plus__UNKNOWN/benefits-and-costs.md`
+- `research/funding-de-eu/opportunities/IBB__GruendungsBONUS-Plus__UNKNOWN/change-history.jsonl`
+- `research/funding-de-eu/opportunities/IBB__GruendungsBONUS-Plus__UNKNOWN/eligibility.md`
+- `research/funding-de-eu/opportunities/IBB__GruendungsBONUS-Plus__UNKNOWN/evidence.md`
+- `research/funding-de-eu/opportunities/IBB__GruendungsBONUS-Plus__UNKNOWN/opportunity.json`
+- `research/funding-de-eu/opportunities/IBB__GruendungsBONUS-Plus__UNKNOWN/required-documents.md`
+- `research/funding-de-eu/opportunities/IBB__GruendungsBONUS-Plus__UNKNOWN/resources/README.md`
+- `research/funding-de-eu/opportunities/IBB__GruendungsBONUS-Plus__UNKNOWN/resources/links.json`
+- `research/funding-de-eu/opportunities/IBB__GruendungsBONUS-Plus__UNKNOWN/sources.json`
+- `research/funding-de-eu/opportunities/KfW__ERP-StartGeld__UNKNOWN/00_OVERVIEW__ELIGIBILITY_UNKNOWN__UNKNOWN.md`
+- `research/funding-de-eu/opportunities/KfW__ERP-StartGeld__UNKNOWN/application-guide.md`
+- `research/funding-de-eu/opportunities/KfW__ERP-StartGeld__UNKNOWN/benefits-and-costs.md`
+- `research/funding-de-eu/opportunities/KfW__ERP-StartGeld__UNKNOWN/change-history.jsonl`
+- `research/funding-de-eu/opportunities/KfW__ERP-StartGeld__UNKNOWN/eligibility.md`
+- `research/funding-de-eu/opportunities/KfW__ERP-StartGeld__UNKNOWN/evidence.md`
+- `research/funding-de-eu/opportunities/KfW__ERP-StartGeld__UNKNOWN/opportunity.json`
+- `research/funding-de-eu/opportunities/KfW__ERP-StartGeld__UNKNOWN/required-documents.md`
+- `research/funding-de-eu/opportunities/KfW__ERP-StartGeld__UNKNOWN/resources/README.md`
+- `research/funding-de-eu/opportunities/KfW__ERP-StartGeld__UNKNOWN/resources/links.json`
+- `research/funding-de-eu/opportunities/KfW__ERP-StartGeld__UNKNOWN/sources.json`
+- `schemas/funding-applicant.schema.json`
+- `schemas/funding-dataset.schema.json`
+- `schemas/funding-opportunity.schema.json`
+- `schemas/profile.schema.json`
+- `schemas/research-report.schema.json`
+- `scripts/check_research_mcp.py`
+- `scripts/research_funding.py`
+- `src/research/funding/__init__.py`
+- `src/research/funding/models.py`
+- `src/research/funding/pipeline.py`
+- `src/research/funding/storage.py`
+- `src/research/output_storage.py`
+- `src/research/profiles.py`
+- `src/research/publisher.py`
+- `src/research/reporting.py`
+- `src/research/service.py`
+- `tests/test_funding.py`
+- `tests/test_research.py`

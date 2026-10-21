@@ -1,0 +1,55 @@
+{
+  "active_count": 0,
+  "applicant": {
+    "evidence_max_age_days": 30,
+    "facts": {},
+    "interests": [
+      "Berlin",
+      "Germany",
+      "EU",
+      "AI",
+      "software",
+      "research",
+      "unincorporated founder"
+    ],
+    "schema_version": "1.0"
+  },
+  "archived_count": 0,
+  "opportunities": [
+    {
+      "application_status": "UNKNOWN",
+      "archived": false,
+      "deadline": "UNKNOWN",
+      "eligibility_status": "ELIGIBILITY_UNKNOWN",
+      "opportunity_id": "eu-eic-accelerator",
+      "overview": "opportunities/EU__EIC-Accelerator__UNKNOWN/00_OVERVIEW__ELIGIBILITY_UNKNOWN__UNKNOWN.md",
+      "program": "EIC-Accelerator",
+      "provider": "EU",
+      "record": "opportunities/EU__EIC-Accelerator__UNKNOWN/opportunity.json"
+    },
+    {
+      "application_status": "UNKNOWN",
+      "archived": false,
+      "deadline": "UNKNOWN",
+      "eligibility_status": "ELIGIBILITY_UNKNOWN",
+      "opportunity_id": "ibb-gruendungsbonus-plus",
+      "overview": "opportunities/IBB__GruendungsBONUS-Plus__UNKNOWN/00_OVERVIEW__ELIGIBILITY_UNKNOWN__UNKNOWN.md",
+      "program": "GruendungsBONUS Plus",
+      "provider": "IBB",
+      "record": "opportunities/IBB__GruendungsBONUS-Plus__UNKNOWN/opportunity.json"
+    },
+    {
+      "application_status": "UNKNOWN",
+      "archived": false,
+      "deadline": "UNKNOWN",
+      "eligibility_status": "ELIGIBILITY_UNKNOWN",
+      "opportunity_id": "kfw-erp-startgeld",
+      "overview": "opportunities/KfW__ERP-StartGeld__UNKNOWN/00_OVERVIEW__ELIGIBILITY_UNKNOWN__UNKNOWN.md",
+      "program": "ERP-StartGeld",
+      "provider": "KfW",
+      "record": "opportunities/KfW__ERP-StartGeld__UNKNOWN/opportunity.json"
+    }
+  ],
+  "review_count": 3,
+  "schema_version": "1.0"
+}

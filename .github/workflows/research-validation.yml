@@ -28,6 +28,8 @@ jobs:
       - uses: astral-sh/setup-uv@v7
       - run: uv sync --frozen --extra dev
       - run: uv run --extra dev pytest
+      - name: Verify deterministic funding projections without network
+        run: uv run python -m scripts.research_funding check
       - name: Credential-free legacy and stdio smoke checks
         run: |
           cp data/config.example.json data/config.json
