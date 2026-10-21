@@ -1,0 +1,237 @@
+{
+  "analysis_mode": "deterministic",
+  "changes": [
+    {
+      "finding_id": "03dfc626271af546d0469a6e",
+      "institution_ids": [
+        "cern"
+      ],
+      "observed_at": "2026-10-21T12:04:09.457779+00:00",
+      "type": "new"
+    }
+  ],
+  "coverage": {
+    "basis": "search query region; event geography unknown",
+    "missing_regions": [],
+    "regions": [
+      "Europe"
+    ]
+  },
+  "created_at": "2026-10-21T12:04:09.457779+00:00",
+  "errors": [
+    {
+      "code": "SOURCE_INCOMPLETE",
+      "source": "gdelt"
+    }
+  ],
+  "findings": [
+    {
+      "change_type": "unchanged",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "488ca4519d54826bffc04149",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "Kazakhstan expands scientific cooperation with CERN - Kazakhstan Today",
+          "source_id": "d83493a659185eed7abb9d9a"
+        }
+      ],
+      "finding_id": "488ca4519d54826bffc04149",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [
+        "cern"
+      ],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-21T12:04:09.456183+00:00",
+      "profile_relevance": 7.846626664548611,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-20T08:23:18+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "Europe"
+      ],
+      "source_ids": [
+        "d83493a659185eed7abb9d9a"
+      ],
+      "summary": "Kazakhstan expands scientific cooperation with CERN - Kazakhstan Today",
+      "topics": [
+        "CERN"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "new",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "03dfc626271af546d0469a6e",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "ATLAS takes the top–Z partnership to the next differential - ATLAS Experiment at CERN",
+          "source_id": "590212428f03d7f2289c6184"
+        }
+      ],
+      "finding_id": "03dfc626271af546d0469a6e",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [
+        "cern"
+      ],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-21T12:04:09.456183+00:00",
+      "profile_relevance": 6.077679905289352,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-20T13:56:01+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "Europe"
+      ],
+      "source_ids": [
+        "590212428f03d7f2289c6184"
+      ],
+      "summary": "ATLAS takes the top–Z partnership to the next differential - ATLAS Experiment at CERN",
+      "topics": [
+        "CERN"
+      ],
+      "verification": "single_secondary_source"
+    }
+  ],
+  "history": {
+    "comparison": "last_good",
+    "previous_created_at": "2026-10-20T11:52:21.894975+00:00",
+    "previous_report_id": "0e84296f4b6e4fe28191df92a728409a",
+    "previous_report_sha256": "75f68dcc16552ae60301f9e05d83b0e75d2cb3f48e06fac1184d45ad3efee3a4",
+    "previous_snapshot_commit": "977c1a598abd0d546ab0c38482b45a83b12100a1",
+    "stale_last_good": false,
+    "state": "restored"
+  },
+  "limitations": [
+    "Bounded queries do not provide exhaustive global coverage.",
+    "GDELT seen time is an observation timestamp, not verified publication time.",
+    "Contradiction/resolution labels require explicit source wording and review; no automatic truth adjudication."
+  ],
+  "links": {
+    "json": "intel/reports/institutions/cern/2026/10/21/c5ce82132fdf4d36bf7eb4c2d27c2b33/report.json",
+    "markdown": "intel/reports/institutions/cern/2026/10/21/c5ce82132fdf4d36bf7eb4c2d27c2b33/report.md"
+  },
+  "model_used": null,
+  "profile_id": "institutions/cern",
+  "question": "",
+  "report_id": "c5ce82132fdf4d36bf7eb4c2d27c2b33",
+  "run_id": "c5ce82132fdf4d36bf7eb4c2d27c2b33",
+  "schedule": {},
+  "schema_version": "1.0",
+  "sources": [
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5kUE9ERWEwWlp2c1M5U2w4elNkT200djV4UzNCUm1kbEJLcTF3YW9zYXVSbE9Da0ptTmFBRV9CR19TSnBKQmp2clp1OHBtQkx3dVRoLS1VNA?oc=5",
+      "content_fingerprint": "621156400498c80a465e6b13",
+      "fetched_at": "2026-10-21T12:04:09.456183+00:00",
+      "institution_id": "cern",
+      "language": "en",
+      "observations": [
+        {
+          "collector": "google_news",
+          "language": "en",
+          "search_query": "\"CERN\"",
+          "search_region": "Europe",
+          "title": "ATLAS takes the top–Z partnership to the next differential - ATLAS Experiment at CERN"
+        }
+      ],
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5kUE9ERWEwWlp2c1M5U2w4elNkT200djV4UzNCUm1kbEJLcTF3YW9zYXVSbE9Da0ptTmFBRV9CR19TSnBKQmp2clp1OHBtQkx3dVRoLS1VNA?oc=5",
+      "profile_id": "institutions/cern",
+      "published_at": "2026-10-20T13:56:01+00:00",
+      "publisher": "ATLAS Experiment at CERN",
+      "search_query": "\"CERN\"",
+      "source_country": "unknown",
+      "source_id": "590212428f03d7f2289c6184",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNd1JIdjlMLVA1dXBhRUVMVmVEQnMwV01BSGVFaTVKa0ZhQWpocldYMHpkbE9DRXVVcDctVnhDdTBxQkRDamliUjJqcjhFWVFhQXJjVVZrWnFXZ05CQVhKN0ptVFhvMzBMYUwwT3BJME9qcjhFbnpPLV9TbjJHcUxUNjZwdldkNkdOZFN3eUd0Q0dXaEtEcFhMSGd5cTUyMmlheHc?oc=5",
+      "content_fingerprint": "d64c50cb677f502ee39d89c6",
+      "fetched_at": "2026-10-21T12:04:09.456183+00:00",
+      "institution_id": "cern",
+      "language": "en",
+      "observations": [
+        {
+          "collector": "google_news",
+          "language": "en",
+          "search_query": "\"CERN\"",
+          "search_region": "Europe",
+          "title": "Kazakhstan expands scientific cooperation with CERN - Kazakhstan Today"
+        }
+      ],
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNd1JIdjlMLVA1dXBhRUVMVmVEQnMwV01BSGVFaTVKa0ZhQWpocldYMHpkbE9DRXVVcDctVnhDdTBxQkRDamliUjJqcjhFWVFhQXJjVVZrWnFXZ05CQVhKN0ptVFhvMzBMYUwwT3BJME9qcjhFbnpPLV9TbjJHcUxUNjZwdldkNkdOZFN3eUd0Q0dXaEtEcFhMSGd5cTUyMmlheHc?oc=5",
+      "profile_id": "institutions/cern",
+      "published_at": "2026-10-20T08:23:18+00:00",
+      "publisher": "Kazakhstan Today",
+      "search_query": "\"CERN\"",
+      "source_country": "unknown",
+      "source_id": "d83493a659185eed7abb9d9a",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    }
+  ],
+  "statistics": {
+    "collectors": [
+      {
+        "error_code": null,
+        "items": 0,
+        "query": "site:home.cern",
+        "source": "google_news",
+        "status": "ok"
+      },
+      {
+        "error_code": null,
+        "items": 9,
+        "query": "\"CERN\"",
+        "source": "google_news",
+        "status": "ok"
+      },
+      {
+        "error_code": "HTTP_429",
+        "items": 0,
+        "query": "\"CERN\"",
+        "source": "gdelt",
+        "status": "failed"
+      },
+      {
+        "items": 0,
+        "source": "rss",
+        "status": "ok"
+      }
+    ],
+    "items": 2,
+    "sources": 2
+  },
+  "status": "partial",
+  "time_window": {
+    "since": "2026-10-19T12:04:09.457779+00:00",
+    "until": "2026-10-21T12:04:09.457779+00:00"
+  },
+  "workflow": {
+    "repository": "JsonLord/Horizon",
+    "run_attempt": "1",
+    "run_id": "39596308546",
+    "source_commit": "c9dcef30a10ffe67b8e399baea5c2a6787c7dfd2"
+  }
+}
