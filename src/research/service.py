@@ -18,7 +18,7 @@ from .reporting import Archive, atomic, dumps, make_report
 
 class Request(BaseModel):
     model_config = ConfigDict(extra="forbid")
-    profile_id: str = Field(pattern=r"^(world|institutions|examples)/[a-z0-9-]{1,64}$")
+    profile_id: str = Field(pattern=r"^(world|institutions|examples|programs)/[a-z0-9-]{1,64}$")
     question: str = Field(default="", max_length=1000, pattern=r"^[^\x00-\x08]*$")
     lookback_hours: int | None = Field(default=None, ge=1, le=168)
     depth: int = Field(default=60, ge=1, le=200)
@@ -92,7 +92,9 @@ class ResearchService:
 
     async def submit(self, request, requested_by="trusted_stdio"):
         req = Request.model_validate(request)
-        self.profile(req.profile_id)
+        selected_profile = self.profile(req.profile_id)
+        if selected_profile.mode == "program_watch" and (req.question or req.institution_ids or req.sources):
+            raise ValueError("Program watch accepts only approved public configuration, never private questions or source overrides")
         for iid in req.institution_ids:
             p = self.profile("institutions/" + iid)
             if not p.institution:
@@ -208,39 +210,48 @@ class ResearchService:
                             for source in profile.sources
                             if source != "rss"
                         ][: profile.max_queries]
-                    items, metrics = await self.collector(profile, req.question)
-                    job["stage"] = "analyzing"
-                    self.persist(job)
-                    findings, sources = analyze(
-                        profile, items, self.archive.latest(profile.profile_id)
-                    )
-                    if req.institution_ids:
-                        from .analyzers import mentions
+                    if profile.mode == "program_watch":
+                        from .programs.pipeline import build_report
+                        report_id = jid
+                        if requested_by := (job["requested_by"] == "github_actions" and os.getenv("GITHUB_RUN_ID")):
+                            import hashlib
+                            report_id = hashlib.sha256((os.getenv("GITHUB_REPOSITORY", "") + "|" + profile.profile_id + "|" + os.environ["GITHUB_RUN_ID"]).encode()).hexdigest()[:32]
+                        report = await build_report(profile, report_id, self.archive.latest(profile.profile_id), collector=self.collector)
+                        warnings = report["limitations"]
+                    else:
+                        items, metrics = await self.collector(profile, req.question)
+                        job["stage"] = "analyzing"
+                        self.persist(job)
+                        findings, sources = analyze(
+                            profile, items, self.archive.latest(profile.profile_id)
+                        )
+                        if req.institution_ids:
+                            from .analyzers import mentions
 
-                        for finding in findings:
-                            for iid in req.institution_ids:
-                                institution = self.profile(
-                                    "institutions/" + iid
-                                ).institution
-                                if (
-                                    mentions(institution, finding["summary"])
-                                    and iid not in finding["institutions"]
-                                ):
-                                    finding["institutions"].append(iid)
-                    model, mode, warnings = await enrich(
-                        findings, os.getenv("HORIZON_AI_MODE", "auto")
-                    )
-                    report = make_report(
-                        profile,
-                        jid,
-                        req.question,
-                        findings,
-                        sources,
-                        metrics,
-                        model,
-                        mode,
-                        warnings,
-                    )
+                            for finding in findings:
+                                for iid in req.institution_ids:
+                                    institution = self.profile(
+                                        "institutions/" + iid
+                                    ).institution
+                                    if (
+                                        mentions(institution, finding["summary"])
+                                        and iid not in finding["institutions"]
+                                    ):
+                                        finding["institutions"].append(iid)
+                        model, mode, warnings = await enrich(
+                            findings, os.getenv("HORIZON_AI_MODE", "auto")
+                        )
+                        report = make_report(
+                            profile,
+                            jid,
+                            req.question,
+                            findings,
+                            sources,
+                            metrics,
+                            model,
+                            mode,
+                            warnings,
+                        )
                     report["history"] = dict(self.history)
                     previous = self.archive.latest(profile.profile_id)
                     report["history"]["previous_report_id"] = (
@@ -265,7 +276,7 @@ class ResearchService:
                     report["workflow"] = {
                         "run_id": os.getenv("GITHUB_RUN_ID"),
                         "run_attempt": os.getenv("GITHUB_RUN_ATTEMPT"),
-                        "source_commit": os.getenv("GITHUB_SHA"),
+                        "source_commit": os.getenv("HORIZON_SOURCE_SHA") or os.getenv("GITHUB_SHA"),
                         "repository": os.getenv("GITHUB_REPOSITORY"),
                     }
                     job["stage"] = "archiving"
@@ -278,7 +289,7 @@ class ResearchService:
                         if manifest["status"] == "partial"
                         else "completed",
                         stage="done",
-                        report_id=jid,
+                        report_id=report["report_id"],
                         artifact_manifest=manifest,
                         counts=report["statistics"],
                         warnings=warnings,

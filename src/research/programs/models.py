@@ -106,6 +106,9 @@ class Program(Strict):
                     raise ValueError("Structured assertion lacks fact provenance: " + key)
         if self.application_status != "unknown" and "application_status" not in self.facts:
             raise ValueError("Application status needs direct primary evidence")
+        for key in ("program_type", "target_domains", "eligible_countries", "remote_policy", "stage"):
+            if getattr(self, key) not in (None, "unknown", []) and key not in self.facts:
+                raise ValueError("Structured assertion lacks fact provenance: " + key)
         if self.fit.decision == "prioritize" and (self.extraction_status != "verified_page" or self.fit.hard_eligibility != "eligible"):
             raise ValueError("Unverified/uncertain candidates cannot be prioritized")
         return self

@@ -79,7 +79,7 @@ class Report(BaseModel):
     schema_version: Literal["1.0"] = "1.0"
     report_id: str = Field(pattern=r"^[a-f0-9]{32}$")
     run_id: str
-    profile_id: str = Field(pattern=r"^(world|institutions|examples)/[a-z0-9-]{1,64}$")
+    profile_id: str = Field(pattern=r"^(world|institutions|examples|programs)/[a-z0-9-]{1,64}$")
     question: str = Field(max_length=1000)
     created_at: str
     time_window: dict
@@ -133,6 +133,9 @@ def dumps(value):
 
 
 def markdown(report):
+    if "programs" in report.get("statistics", {}):
+        from .programs.render import render_report
+        return render_report(report)
     lines = [
         f"# Horizon: {report['profile_id']}",
         f"Status: {report['status']} | Analysis: {report['analysis_mode']}",
@@ -261,6 +264,9 @@ class Archive:
 
     def write(self, report):
         report = Report.model_validate(report).model_dump()
+        if report["profile_id"].startswith("programs/"):
+            from .programs.models import Dataset
+            Dataset.model_validate(report["statistics"]["programs"])
         ids = {s["source_id"] for s in report["sources"]}
         if any(not set(f["source_ids"]) <= ids for f in report["findings"]):
             raise ValueError("Dangling evidence")

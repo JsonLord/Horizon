@@ -28,6 +28,8 @@ def refresh(record, page: Page, domains, now=None):
     now = now or datetime.now(UTC)
     result = record.model_copy(deep=True)
     result.last_checked = page.observed_at
+    result.fit.decision = "review"
+    result.fit.hard_eligibility = "review_required"
     if page.error or not official(page.final_url, domains):
         result.extraction_status = "blocked" if page.error and ("403" in page.error or "robots" in page.error or "challenge" in page.error) else "failed"
         result.check_error = page.error or "redirect_outside_verified_primary_domain"
@@ -35,6 +37,8 @@ def refresh(record, page: Page, domains, now=None):
         # Retain prior verified facts, but never claim currently open after failure.
         result.application_status = "unknown"
         if "application_status" in result.facts:
+            result.facts["last_known_application_status"] = result.facts["application_status"]
+            result.stale_fields.append("last_known_application_status")
             del result.facts["application_status"]
         result.fit.hard_eligibility = "review_required"
         result.fit.decision = "review"
