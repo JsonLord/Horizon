@@ -1,0 +1,86 @@
+{
+  "workflow_run_id": "39715311269",
+  "source_sha": "68ef93b5649cdc9822133530622fecd43bd0ebc5",
+  "read_only": true,
+  "execution_environment": "one GitHub-hosted job, two fresh service instances with explicit state restoration",
+  "executions": [
+    {
+      "execution": 1,
+      "report_id": "e16375deda9141ab92ff3f0daf624ace",
+      "report_status": "complete",
+      "fresh_official_pages": 3,
+      "comparison_report_id": null,
+      "collection_errors": {
+        "ibb-gruendungsbonus-plus": null,
+        "kfw-erp-startgeld": null,
+        "eu-eic-accelerator": null
+      },
+      "active_count": 0,
+      "review_count": 3,
+      "rows": [
+        {
+          "opportunity_id": "eu-eic-accelerator",
+          "folder": "EU__EIC-Accelerator__2026-11-04",
+          "deadline": "2026-11-04",
+          "eligibility_status": "ELIGIBILITY_UNKNOWN",
+          "history_events": 4
+        },
+        {
+          "opportunity_id": "ibb-gruendungsbonus-plus",
+          "folder": "IBB__GruendungsBONUS-Plus__UNKNOWN",
+          "deadline": "UNKNOWN",
+          "eligibility_status": "ELIGIBILITY_UNKNOWN",
+          "history_events": 3
+        },
+        {
+          "opportunity_id": "kfw-erp-startgeld",
+          "folder": "KfW__ERP-StartGeld__UNKNOWN",
+          "deadline": "UNKNOWN",
+          "eligibility_status": "ELIGIBILITY_UNKNOWN",
+          "history_events": 4
+        }
+      ],
+      "tree_sha256": "2ad3445747380abb7544eea7891bd3f0f3ad564ba400a01861a4c8c5044c57c4"
+    },
+    {
+      "execution": 2,
+      "report_id": "d751f73b77124aa588bcc178cdb9285b",
+      "report_status": "complete",
+      "fresh_official_pages": 3,
+      "comparison_report_id": "e16375deda9141ab92ff3f0daf624ace",
+      "collection_errors": {
+        "ibb-gruendungsbonus-plus": null,
+        "kfw-erp-startgeld": null,
+        "eu-eic-accelerator": null
+      },
+      "active_count": 0,
+      "review_count": 3,
+      "rows": [
+        {
+          "opportunity_id": "eu-eic-accelerator",
+          "folder": "EU__EIC-Accelerator__2026-11-04",
+          "deadline": "2026-11-04",
+          "eligibility_status": "ELIGIBILITY_UNKNOWN",
+          "history_events": 5
+        },
+        {
+          "opportunity_id": "ibb-gruendungsbonus-plus",
+          "folder": "IBB__GruendungsBONUS-Plus__UNKNOWN",
+          "deadline": "UNKNOWN",
+          "eligibility_status": "ELIGIBILITY_UNKNOWN",
+          "history_events": 4
+        },
+        {
+          "opportunity_id": "kfw-erp-startgeld",
+          "folder": "KfW__ERP-StartGeld__UNKNOWN",
+          "deadline": "UNKNOWN",
+          "eligibility_status": "ELIGIBILITY_UNKNOWN",
+          "history_events": 5
+        }
+      ],
+      "tree_sha256": "ecca5d22c6b5caa8c41ad2092964e2b9eafc6c7c0d974e8f6aad5f338463b76f"
+    }
+  ],
+  "workflow_url": "https://github.com/JsonLord/Horizon/actions/runs/39715311269",
+  "check_run_id": 119615893569
+}

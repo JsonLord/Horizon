@@ -274,3 +274,99 @@ tests**; both MCP smoke checks passed (24 tools/11 profiles), deterministic fund
 regeneration passed, actionlint 1.7.7 passed, whitespace checks passed. Production
 intel remains `9eea5d06695c05f2c63738967ef31539974ba239`. Hosted qualification results
 will be recorded after execution. PR #5 remains in draft.
+
+
+### Hosted funding milestone completed
+
+The first qualification (run 39714929750) failed; logs were inaccessible through
+this environment's proxy. Added bounded public failure annotations rather than
+changing network settings. Run 39715118888 then identified KfW's exact collector
+error: `Public HTTPS URL required`; IBB and EIC collected successfully. The
+collector had stripped the trailing slash from the official KfW request URL,
+which caused the server to issue an HTTP redirect. Preserving the reviewed HTTPS
+request path and exact returned evidence URL fixed that routing error. HTTP
+downgrades remain rejected, with explicit regression tests.
+
+[Run 39715311269](https://github.com/JsonLord/Horizon/actions/runs/39715311269)
+**succeeded** against code commit `68ef93b5649cdc9822133530622fecd43bd0ebc5`.
+The public check-run annotation contains the complete bounded proof, preserved
+in [funding-qualification-2026-10-22.json](funding-qualification-2026-10-22.json):
+
+- Two complete executions, each freshly collected all three official pages with
+  no collection errors under the existing DNS/HTTPS/robots/size guards.
+- Report `e16375deda9141ab92ff3f0daf624ace` was restored as the comparison source
+  for `d751f73b77124aa588bcc178cdb9285b`.
+- EIC/IBB/KfW histories increased respectively 4->5, 3->4, 4->5 events; stable IDs,
+  folder names, scoped deadlines and eligibility statuses remained consistent.
+- Both projections regenerated deterministically, retained one overview per
+  opportunity and showed 0 active / 3 review-required entries.
+- `collect`, `publish` and `program-qualify` jobs were skipped. The artifact upload
+  succeeded. This proves consecutive executions within one hosted job, not
+  separate workflow runs or distinct fresh runners.
+
+Final code validation: **386 tests passed in 3.02s**, including **33 funding tests**;
+program verification tests, both MCP smoke checks, deterministic output validation
+and actionlint passed. Local DNS remains unavailable; the default collector keeps
+failing closed there. No website refusal is established by historical proxy
+CONNECT errors. No network settings changed, no eligibility promotion occurred,
+and the historical exact denying component remains unknown. PR #5 stays draft.
+
+Affected tracked paths for this verification milestone (including the EIC folder rename):
+
+- `.github/workflows/horizon-intel.yml`
+- `AGENTS.md`
+- `README.md`
+- `docs/agent-research.md`
+- `docs/funding-source-verification.md`
+- `research/funding-de-eu/REVIEW_REQUIRED.md`
+- `research/funding-de-eu/index.json`
+- `research/funding-de-eu/opportunities/EU__EIC-Accelerator__2026-11-04/00_OVERVIEW__ELIGIBILITY_UNKNOWN__2026-11-04.md`
+- `research/funding-de-eu/opportunities/EU__EIC-Accelerator__2026-11-04/application-guide.md`
+- `research/funding-de-eu/opportunities/EU__EIC-Accelerator__2026-11-04/benefits-and-costs.md`
+- `research/funding-de-eu/opportunities/EU__EIC-Accelerator__2026-11-04/change-history.jsonl`
+- `research/funding-de-eu/opportunities/EU__EIC-Accelerator__2026-11-04/eligibility.md`
+- `research/funding-de-eu/opportunities/EU__EIC-Accelerator__2026-11-04/evidence.md`
+- `research/funding-de-eu/opportunities/EU__EIC-Accelerator__2026-11-04/opportunity.json`
+- `research/funding-de-eu/opportunities/EU__EIC-Accelerator__2026-11-04/required-documents.md`
+- `research/funding-de-eu/opportunities/EU__EIC-Accelerator__2026-11-04/resources/README.md`
+- `research/funding-de-eu/opportunities/EU__EIC-Accelerator__2026-11-04/resources/links.json`
+- `research/funding-de-eu/opportunities/EU__EIC-Accelerator__2026-11-04/sources.json`
+- `research/funding-de-eu/opportunities/EU__EIC-Accelerator__UNKNOWN/00_OVERVIEW__ELIGIBILITY_UNKNOWN__UNKNOWN.md`
+- `research/funding-de-eu/opportunities/EU__EIC-Accelerator__UNKNOWN/application-guide.md`
+- `research/funding-de-eu/opportunities/EU__EIC-Accelerator__UNKNOWN/benefits-and-costs.md`
+- `research/funding-de-eu/opportunities/EU__EIC-Accelerator__UNKNOWN/change-history.jsonl`
+- `research/funding-de-eu/opportunities/EU__EIC-Accelerator__UNKNOWN/eligibility.md`
+- `research/funding-de-eu/opportunities/EU__EIC-Accelerator__UNKNOWN/evidence.md`
+- `research/funding-de-eu/opportunities/EU__EIC-Accelerator__UNKNOWN/opportunity.json`
+- `research/funding-de-eu/opportunities/EU__EIC-Accelerator__UNKNOWN/resources/links.json`
+- `research/funding-de-eu/opportunities/EU__EIC-Accelerator__UNKNOWN/sources.json`
+- `research/funding-de-eu/opportunities/IBB__GruendungsBONUS-Plus__UNKNOWN/00_OVERVIEW__ELIGIBILITY_UNKNOWN__UNKNOWN.md`
+- `research/funding-de-eu/opportunities/IBB__GruendungsBONUS-Plus__UNKNOWN/application-guide.md`
+- `research/funding-de-eu/opportunities/IBB__GruendungsBONUS-Plus__UNKNOWN/benefits-and-costs.md`
+- `research/funding-de-eu/opportunities/IBB__GruendungsBONUS-Plus__UNKNOWN/change-history.jsonl`
+- `research/funding-de-eu/opportunities/IBB__GruendungsBONUS-Plus__UNKNOWN/eligibility.md`
+- `research/funding-de-eu/opportunities/IBB__GruendungsBONUS-Plus__UNKNOWN/evidence.md`
+- `research/funding-de-eu/opportunities/IBB__GruendungsBONUS-Plus__UNKNOWN/opportunity.json`
+- `research/funding-de-eu/opportunities/IBB__GruendungsBONUS-Plus__UNKNOWN/resources/links.json`
+- `research/funding-de-eu/opportunities/IBB__GruendungsBONUS-Plus__UNKNOWN/sources.json`
+- `research/funding-de-eu/opportunities/KfW__ERP-StartGeld__UNKNOWN/00_OVERVIEW__ELIGIBILITY_UNKNOWN__UNKNOWN.md`
+- `research/funding-de-eu/opportunities/KfW__ERP-StartGeld__UNKNOWN/application-guide.md`
+- `research/funding-de-eu/opportunities/KfW__ERP-StartGeld__UNKNOWN/benefits-and-costs.md`
+- `research/funding-de-eu/opportunities/KfW__ERP-StartGeld__UNKNOWN/change-history.jsonl`
+- `research/funding-de-eu/opportunities/KfW__ERP-StartGeld__UNKNOWN/eligibility.md`
+- `research/funding-de-eu/opportunities/KfW__ERP-StartGeld__UNKNOWN/evidence.md`
+- `research/funding-de-eu/opportunities/KfW__ERP-StartGeld__UNKNOWN/opportunity.json`
+- `research/funding-de-eu/opportunities/KfW__ERP-StartGeld__UNKNOWN/required-documents.md`
+- `research/funding-de-eu/opportunities/KfW__ERP-StartGeld__UNKNOWN/resources/links.json`
+- `research/funding-de-eu/opportunities/KfW__ERP-StartGeld__UNKNOWN/sources.json`
+- `schemas/funding-dataset.schema.json`
+- `schemas/funding-opportunity.schema.json`
+- `scripts/qualify_funding.py`
+- `scripts/research_funding.py`
+- `src/research/funding/diagnostics.py`
+- `src/research/funding/models.py`
+- `src/research/funding/pipeline.py`
+- `src/research/funding/storage.py`
+- `src/research/programs/fetch.py`
+- `tests/test_funding.py`
+- `docs/funding-qualification-2026-10-22.json` (new public hosted proof)

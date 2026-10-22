@@ -120,3 +120,15 @@ inside one hosted job, not two separate workflow runs or runners.
 
 Live run IDs, exact test outcomes and remaining limitations are recorded in
 `docs/agent-research.md` after execution. PR #5 must remain in draft.
+
+
+Hosted outcome: [run 39715311269](https://github.com/JsonLord/Horizon/actions/runs/39715311269)
+succeeded on `68ef93b`. Both consecutive executions collected all three official
+pages with no errors, preserved folder/ID/deadline consistency and appended each
+history. See [the public proof](funding-qualification-2026-10-22.json). The initial
+hosted failure exposed an additional KfW request-path normalization bug: removing
+the registered trailing slash triggered an HTTP redirect, correctly refused by
+the HTTPS guard. The request path is now preserved; the guard remains intact.
+Local validation: 386 tests passed, including 33 funding tests. The original
+proxy-policy cause remains unknown; local DNS is still unavailable. No network
+change or eligibility promotion was made.

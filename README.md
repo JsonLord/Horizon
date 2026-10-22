@@ -415,5 +415,7 @@ Germany/EU funding research is available through the manually selected
 `funding/de-eu` profile and the [funding dashboard](Funding%20DK%20%28DE%20missing%29.md).
 Each opportunity has its own [structured folder](research/funding-de-eu/README.md).
 See [AGENTS.md](AGENTS.md) for source registration, evidence review, applicant
-facts, agent parameters and deterministic regeneration. Candidate records are
-explicitly unverified until official terms can be checked; no new schedule is enabled.
+facts, agent parameters and deterministic regeneration. Verified source terms do
+not establish applicant eligibility; unknown eligibility stays under review.
+See the [source verification record](docs/funding-source-verification.md).
+No new schedule is enabled.
