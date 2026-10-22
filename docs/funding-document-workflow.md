@@ -110,3 +110,8 @@ three search queries successful. KfW refreshed; IBB/EIC require review, so the
 report is partial and all applicant eligibility stays unknown. The proposal job
 was skipped and committed opportunity records were not overwritten. See
 [public machine proof](funding-document-hosted-proof-2026-10-22.json).
+
+The final bounded-proof code also passed hosted funding run
+[39792869602](https://github.com/JsonLord/Horizon/actions/runs/39792869602)
+and push/PR regression runs 39792869592 / 39792875704. The public content proof
+above is explicitly from 39792501009; the newer run's artifact was not downloaded.

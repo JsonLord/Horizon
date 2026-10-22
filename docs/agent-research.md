@@ -481,3 +481,12 @@ funding KB README/queue/update Markdown, funding policy/queue JSON schemas,
 `src/research/funding/research.py`, `src/research/funding/storage.py`,
 `tests/test_funding_research.py`, this log, workflow guide and public proof JSON.
 The user's nested authored source file is preserved unchanged.
+
+Final confirmation: GitHub API reports the bounded-proof follow-up
+[39792869602](https://github.com/JsonLord/Horizon/actions/runs/39792869602)
+**completed / success** on `b66ffd43f495d967aaa3b315e4cebd25a3931834`.
+That resolves the queued state above. Its per-job/annotation endpoints still
+returned earlier snapshots at final inspection; the independently retrieved
+content proof remains the explicitly identified run 39792501009, not a claim
+that the latest artifact contents were downloaded. Final code regressions passed,
+working tree was clean before documentation, and PR #5 remains draft.
