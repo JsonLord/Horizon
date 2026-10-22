@@ -194,3 +194,16 @@ def test_pipeline_collects_and_discovers_without_exporting_source_prose(tmp_path
     assert 'during our internship' not in public
     assert 'Market validation data' not in public
     assert (tmp_path/'proposal/proposal.json').is_file()
+
+
+def test_public_run_proof_exports_only_bounded_review_metadata():
+    from scripts.funding_research import public_proof
+    data = payload()
+    data['workflow_run_id'] = '123'
+    data['funding']['opportunities'][0]['collection_error'] = 'PRIVATE TRANSPORT DETAILS'
+    proof = public_proof(data)
+    assert proof['read_only'] is True
+    assert proof['opportunities'][0]['refresh_ok'] is False
+    assert proof['nomination_counts']['authored_seed'] == len(data['queue']['candidates'])
+    assert 'PRIVATE' not in json.dumps(proof)
+    assert len(json.dumps(proof).encode()) < 3900

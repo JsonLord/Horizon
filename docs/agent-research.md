@@ -404,7 +404,7 @@ and Markdown, and creates a new data-only draft PR with GITHUB_TOKEN. No existin
 ref is overwritten, force-pushed or auto-merged; the production archive is not a
 publication target. An existing funding proposal remains pending human review.
 
-Validation: **406 tests passed in 3.63s**, including **20 new document-workflow
+Validation: **407 tests passed in 3.76s**, including **21 new document-workflow
 tests** covering privacy, historical-date handling, deduplication, discovery
 outages, stale provenance, unauthorized sources, data-only writes, disabled/branch
 write guards, draft PR creation and URL markup escaping. Both MCP smoke checks
@@ -431,3 +431,11 @@ or added to the approved source register. No network settings changed. The earli
 successful qualification does not validate this new workflow; record its new live
 run separately. No merge, production schedule activation or archive publication
 was performed in this milestone.
+
+Read-only hosted workflow `39792085703` created the funding-update artifact and
+skipped the privileged proposal job. Artifact content retrieval is blocked by the
+execution environment's artifact-host policy (403); network policy was not
+changed. Added a bounded public Actions annotation (IDs, source/seed hashes,
+refresh statuses, nomination counts and public deadline metadata only) to permit
+independent verification over GitHub API without copying source prose, search
+headlines or transport errors. A regression test covers that output contract.

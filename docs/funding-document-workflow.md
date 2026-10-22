@@ -92,3 +92,14 @@ seed's Innobooster operator returned proxy CONNECT 403, so it remains a nominati
 not an approved/verified funding opportunity. No network settings were changed.
 The earlier source-verification milestone and its live qualification proof remain
 in `docs/funding-source-verification.md`; they do not validate this new workflow.
+
+## Hosted verification without artifact-host access
+
+Each hosted `run` emits a bounded `funding-maintenance-proof` notice: workflow ID,
+source/seed hashes, report status, nomination counts, sanitized search statuses
+and approved program refresh/deadline metadata. Read it through the collect job's
+check-run annotations API. It contains no authored narrative, search headlines,
+transport errors or credentials. The full proposal remains a same-run artifact;
+the current execution environment denies its external download host (403).
+A successful job with a failed refresh is explicitly incomplete evidence, not a
+verified-current funding report.

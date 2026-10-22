@@ -12,6 +12,7 @@ import json
 import os
 import shutil
 import tempfile
+from collections import Counter
 from pathlib import Path
 
 from src.research.funding.models import Applicant, FundingDataset, Opportunity
@@ -143,6 +144,20 @@ def apply(payload, *, source_sha, destination=None):
     return changed
 
 
+def public_proof(payload):
+    """Bounded public run evidence; never export seed prose or transport errors."""
+    records = payload["funding"]["opportunities"]
+    return {"workflow_run_id": payload["workflow_run_id"], "source_sha": payload["source_sha"],
+            "seed_sha256": payload["seed_sha256"], "read_only": True,
+            "report_status": payload["report_status"],
+            "nomination_counts": dict(Counter(c["origin"] for c in payload["queue"]["candidates"])),
+            "search_metrics": payload["queue"]["search_metrics"],
+            "opportunities": [{"opportunity_id": r["opportunity_id"],
+                               "refresh_ok": not bool(r.get("collection_error")),
+                               "eligibility_complete": r["eligibility_complete"],
+                               "deadline": r["deadline"]} for r in records]}
+
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("command", choices=["run", "apply", "propose", "index"])
@@ -154,6 +169,11 @@ def main():
         if result["report_status"] == "failed":
             print("::warning title=Funding refresh incomplete::Official-source refresh failed; retained evidence and discovery nominations need review. This is not a verified-current funding report.")
         print(json.dumps({"report_status": result["report_status"], "candidates": len(result["queue"]["candidates"])}))
+        if os.getenv("GITHUB_ACTIONS") == "true":
+            proof = json.dumps(public_proof(result), separators=(",", ":"))
+            if len(proof.encode()) > 3900:
+                raise ValueError("Public funding proof exceeds annotation ceiling")
+            print("::notice title=funding-maintenance-proof::" + proof.replace("%", "%25").replace("\n", "%0A").replace("\r", "%0D"))
     elif args.command in ("apply", "propose"):
         if not policy().review_pr_enabled or os.getenv("GITHUB_REF") != "refs/heads/main" or not os.getenv("GITHUB_WORKFLOW_REF", "").endswith("/.github/workflows/funding-research.yml@refs/heads/main"):
             raise PermissionError("Review proposals require enabled, reviewed default-branch workflow code")
