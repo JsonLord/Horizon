@@ -490,3 +490,25 @@ returned earlier snapshots at final inspection; the independently retrieved
 content proof remains the explicitly identified run 39792501009, not a claim
 that the latest artifact contents were downloaded. Final code regressions passed,
 working tree was clean before documentation, and PR #5 remains draft.
+
+## Funding acceptance gates — 22 October 2026
+
+User supplied the Funding Research Acceptance & Hosted Qualification task.
+Independently reconfirmed a549be1 / draft PR #5, previous hosted success
+39792869602 and its skipped proposal job. Baseline: 407 passed in 3.98s;
+legacy/stdio MCP (24 tools / 11 profiles), funding consistency and actionlint pass.
+Local HEAD diagnostics at 14:20 UTC returned 200 for all three official pages;
+public DNS is unavailable locally, so the existing collector remains fail-closed.
+No network settings or credentials changed.
+
+Added opt-in, read-only `funding_acceptance` qualification to existing
+horizon-intel workflow. It seals a public-data snapshot without authored notes or
+job bookkeeping, restores a same-revision prior hosted artifact, validates all
+checksums/paths/history, rechecks every source, verifies deterministic projection,
+and simulates/rejects a partial working-tree write before restoring the sealed
+checkpoint. This tests checkpoint recovery, not SIGKILL atomicity. Public notices
+provide bounded independently retrievable evidence. Added optional native-model
+429/500/502/503 and transport retries (three attempts, bound input hash, bounded
+backoff); schema/identity failures do not retry and retain deterministic fallback.
+Initial focused checks: 21 passed (funding acceptance + model tests). Hosted
+qualification and remaining acceptance gates are in progress, not yet PASS.

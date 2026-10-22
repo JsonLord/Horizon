@@ -80,3 +80,23 @@ def test_optional_inference_contract_and_safe_fallback(kind):
 def test_no_key_or_unavailable_endpoint_never_fabricates_inference():
     semantic, metadata = asyncio.run(classify(record(), load_policy(), {}))
     assert semantic is None and metadata["status"] == "model_unavailable"
+
+
+@pytest.mark.parametrize("status", [429, 500, 502, 503])
+def test_transient_model_failures_are_bounded_and_keep_hard_filters(status, monkeypatch):
+    calls = []
+    async def no_wait(seconds):pass
+    monkeypatch.setattr('src.research.programs.laya.asyncio.sleep', no_wait)
+    def respond(request):
+        calls.append(request.headers['X-Request-ID'])
+        return httpx.Response(status, text='PRIVATE UPSTREAM BODY')
+    async def run():
+        async with httpx.AsyncClient(transport=httpx.MockTransport(respond)) as client:
+            return await classify(record(), load_policy(), {'native_contract_verified':True,'native_contract':{'ready':True,'model':'receptron/laya-onnx'}},client)
+    semantic, metadata = asyncio.run(run())
+    assert semantic is None and metadata['fallback']=='deterministic'
+    assert metadata['attempts']==3 and len(set(calls))==1
+    assert 'PRIVATE' not in json.dumps(metadata)
+    r=record();r.application_status='closed'
+    boosted=SemanticFit(policy_version=load_policy().policy_version,input_hash='a'*64,model_identity='receptron/laya-onnx',dimensions={k:1 for k in DIMENSIONS},reason_codes=[],unknowns=[],cited_evidence_ids=[r.source_evidence[0].evidence_id])
+    assert score(r,load_policy(),boosted,now=NOW).hard_eligibility=='ineligible'

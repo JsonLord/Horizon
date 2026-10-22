@@ -1,6 +1,7 @@
 """Optional verified inference contract; a routing decision is never fit analysis."""
 
 import hashlib
+import asyncio
 import json
 from typing import Annotated
 
@@ -48,7 +49,7 @@ async def classify(record, policy, contract, client=None):
     digest = hashlib.sha256(dumps(payload).encode()).hexdigest()
     metadata = {"status": "model_unavailable", "fallback": "deterministic", "input_hash": digest,
                 "policy_version": policy.policy_version, "model_identity": None, "inference_succeeded": False,
-                "contract": "laya_native_system_one_v1", "horizon_calibration": "uncalibrated"}
+                "contract": "laya_native_system_one_v1", "horizon_calibration": "uncalibrated", "attempts": 0}
     native = contract.get("native_contract", {})
     if not policy.laya.enabled or policy.laya.inference_endpoint != HOST + "/v1/system-one" or policy.laya.model != "receptron/laya-onnx" or not contract.get("native_contract_verified") or native.get("ready") is not True or native.get("model") != policy.laya.model:
         return None, metadata
@@ -66,8 +67,18 @@ async def classify(record, policy, contract, client=None):
     own = client is None
     client = client or httpx.AsyncClient(timeout=policy.laya.timeout_seconds)
     try:
-        response = await client.post(policy.laya.inference_endpoint, json=request, headers={"X-Request-ID": digest})
-        response.raise_for_status()
+        # Same bound input hash on every attempt. Never retry schema/identity errors.
+        for attempt in range(3):
+            metadata["attempts"] = attempt + 1
+            try:
+                response = await client.post(policy.laya.inference_endpoint, json=request, headers={"X-Request-ID": digest})
+                response.raise_for_status()
+                break
+            except (httpx.TransportError, httpx.HTTPStatusError) as exc:
+                retryable = isinstance(exc, httpx.TransportError) or exc.response.status_code in {429, 500, 502, 503}
+                if not retryable or attempt == 2:
+                    raise
+                await asyncio.sleep(0.25 * (2 ** attempt))
         if len(response.content) > 50000:
             raise ValueError("Oversized native inference response")
         envelope = response.json()
