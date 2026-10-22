@@ -419,3 +419,10 @@ facts, agent parameters and deterministic regeneration. Verified source terms do
 not establish applicant eligibility; unknown eligibility stays under review.
 See the [source verification record](docs/funding-source-verification.md).
 No new schedule is enabled.
+
+The [authored funding starting document](research/funding-de-eu/Funding%20DK%20%28DE%20missing%29.md)
+now drives a [research queue](research/funding-de-eu/RESEARCH_UPDATES.md) covering
+Denmark, Germany/Berlin and EU opportunities. The `funding-research.yml` workflow
+refreshes approved sources and searches reviewed public queries for new
+nominations; its optional data-only draft PR requires explicit policy activation.
+Historical notes and search results do not establish current eligibility.

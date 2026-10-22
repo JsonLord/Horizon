@@ -1,0 +1,20 @@
+{
+  "schema_version": "1.0",
+  "seed_document": "research/funding-de-eu/Funding DK (DE missing).md",
+  "schedule_enabled": false,
+  "review_pr_enabled": false,
+  "max_candidates": 160,
+  "max_search_results": 24,
+  "regions": ["Denmark", "Berlin", "Germany", "EU"],
+  "queries": [
+    {"source": "google_news", "text": "Denmark startup innovation grant funding applications", "country": "DK", "language": "en", "region": "Denmark", "topic": "funding"},
+    {"source": "google_news", "text": "Berlin Deutschland Gruendungsfoerderung Software KI Antrag", "country": "DE", "language": "de", "region": "Germany", "topic": "funding"},
+    {"source": "google_news", "text": "EU research innovation startup funding fellowship accelerator applications", "country": "DE", "language": "en", "region": "EU", "topic": "funding"}
+  ],
+  "generated_branch": "automation/funding-research",
+  "seed_aliases": {
+    "eic accelerator": "eu-eic-accelerator",
+    "erp-gruenderkredit startgeld": "kfw-erp-startgeld",
+    "gruendungsbonus": "ibb-gruendungsbonus-plus"
+  }
+}

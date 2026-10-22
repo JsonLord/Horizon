@@ -370,3 +370,64 @@ Affected tracked paths for this verification milestone (including the EIC folder
 - `src/research/programs/fetch.py`
 - `tests/test_funding.py`
 - `docs/funding-qualification-2026-10-22.json` (new public hosted proof)
+
+## Authored funding document as workflow starting point — 22 October 2026
+
+The user-added `research/funding-de-eu/Funding DK (DE missing).md` was absent from
+this local checkout but available on the public implementation branch. Imported
+that exact public file, preserving its bytes and SHA-256
+`5a509f585d1e05eb996ab13bdff83064ea708f08db03ea4bfd79c22fe0d5ee65`.
+It remains an authored/historical research input, not a generated dashboard or
+verified current terms. Full design and commands are documented in
+[funding-document-workflow.md](funding-document-workflow.md).
+
+Implemented a seed-driven queue and maintenance workflow with reviewed public
+DK/Berlin/DE/EU search queries and existing official-source refresh. The final
+initial deduplicated queue has **100 research references**: 36 requiring official
+source review, 57 requiring source discovery, 7 referring to tracked programs.
+The first pass had seven malformed duplicate URL references; parsing was corrected
+and tested before the final queue was generated. Historical deadlines and source
+prose are never converted to current claims, applicant facts or outbound prompts.
+
+Added `.github/workflows/funding-research.yml`, `config/funding-research.json`,
+`scripts/funding_research.py`, `src/research/funding/research.py`, queue/policy
+schemas, generated queue/navigation and agent instructions. Official source/domain
+approval is separate from nomination; approving a source enables the next refresh
+to create its folder through existing storage. The source document is never
+rewritten by automation. Root and funding dashboards regenerate consistently.
+
+The workflow supports manual research and read-only development runs on relevant
+pushes to the implementation branch. Scheduled research and automated review PRs
+remain disabled in policy. The optional default-branch writer validates source
+SHA, seed fingerprint, typed data and approved identities, ignores artifact code
+and Markdown, and creates a new data-only draft PR with GITHUB_TOKEN. No existing
+ref is overwritten, force-pushed or auto-merged; the production archive is not a
+publication target. An existing funding proposal remains pending human review.
+
+Validation: **406 tests passed in 3.63s**, including **20 new document-workflow
+tests** covering privacy, historical-date handling, deduplication, discovery
+outages, stale provenance, unauthorized sources, data-only writes, disabled/branch
+write guards, draft PR creation and URL markup escaping. Both MCP smoke checks
+passed (24 tools / 11 profiles), funding checks and source-index validation passed,
+and actionlint passed. No dependencies, credentials, public ports or network
+settings were added or changed.
+
+A real local discovery run returned four new funding-related public-search
+nominations, bringing the stored queue to 104 references. All three reviewed
+Google News queries succeeded. Search headlines remain explicitly unverified;
+no source was auto-approved and no eligibility decision changed. Real collection
+exposed and fixed HttpUrl normalization and the harmless numeric Google News RSS
+`oc` parameter; credentials/other query parameters remain rejected. General
+innovation news without a funding signal is filtered. The official-source refresh
+failed locally with public-DNS unavailable; historical evidence was retained and
+the failed refresh was not applied to the committed opportunity records.
+
+GitHub authentication was initially unavailable (401), but recovered on resume.
+Fetched remote commit `4176ea47617bda64a789da31e77f8da78452da87`: its only change
+is the authored source file, whose SHA matches the preserved local copy exactly.
+Reconcile that commit before a regular push. A robots-file request to the candidate
+Innobooster operator returned proxy CONNECT 403; that nomination was not promoted
+or added to the approved source register. No network settings changed. The earlier
+successful qualification does not validate this new workflow; record its new live
+run separately. No merge, production schedule activation or archive publication
+was performed in this milestone.

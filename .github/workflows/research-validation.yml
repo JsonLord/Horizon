@@ -7,6 +7,7 @@ on:
       - 'scripts/**'
       - 'config/**'
       - 'profiles/**'
+      - 'research/funding-de-eu/**'
       - 'schemas/**'
       - 'tests/**'
       - '.github/workflows/**'
@@ -30,6 +31,8 @@ jobs:
       - run: uv run --extra dev pytest
       - name: Verify deterministic funding projections without network
         run: uv run python -m scripts.research_funding check
+      - name: Validate the authored funding starting point and research policy
+        run: uv run python -m scripts.funding_research index --check
       - name: Credential-free legacy and stdio smoke checks
         run: |
           cp data/config.example.json data/config.json

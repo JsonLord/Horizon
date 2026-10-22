@@ -29,6 +29,10 @@ def folder_name(record):
     return f"{slug(record.provider)}__{slug(record.program)}__{record.deadline_token}"
 
 
+def funding_dashboard(index):
+    return "# Funding — Denmark / Germany / EU\n\n[Authored starting document](research/funding-de-eu/Funding%20DK%20%28DE%20missing%29.md) · [Research queue](research/funding-de-eu/RESEARCH_UPDATES.md)\n\n[Funding knowledge base](research/funding-de-eu/README.md) · [Active](research/funding-de-eu/ACTIVE_OPPORTUNITIES.md) · [Review required](research/funding-de-eu/REVIEW_REQUIRED.md) · [Archived](research/funding-de-eu/ARCHIVED_OPPORTUNITIES.md)\n\n" + f"Verified eligible now: {index['active_count']}; review required: {index['review_count']}; archived / future rounds: {index['archived_count']}.\n"
+
+
 def claim(record, key):
     item = record.claims.get(key)
     return text(item.value) + " (" + ", ".join(text(i) for i in item.evidence_ids) + ")" if item else "UNKNOWN — not verified"
@@ -155,5 +159,10 @@ class OpportunityFolderStorage:
         atomic(self.root / "index.json", dumps(index))
         for filename, links in groups.items():
             atomic(self.root / filename, "# " + filename.removesuffix(".md").replace("_", " ").title() + "\n\n" + ("\n".join(links) or "No verified opportunities in this category.") + "\n")
-        atomic(self.root / "README.md", "# Germany / EU funding knowledge base\n\nGenerated from each folder's `opportunity.json` and the applicant policy. Unknown facts remain unknown. Application status and founder eligibility are separate. Relevance scores never override hard conditions.\n\n[Active opportunities](ACTIVE_OPPORTUNITIES.md) · [Review required](REVIEW_REQUIRED.md) · [Archived / future rounds](ARCHIVED_OPPORTUNITIES.md) · [Machine index](index.json)\n\nFolders change with verified deadlines; stable IDs and append-only events preserve history. External documents are linked, not copied. See the repository AGENTS.md for updating sources and steering research.\n")
+        starting_links = []
+        if (self.root / "Funding DK (DE missing).md").is_file():
+            starting_links.append("[Authored starting document](Funding%20DK%20%28DE%20missing%29.md)")
+        if (self.root / "RESEARCH_UPDATES.md").is_file():
+            starting_links.append("[Research queue and new nominations](RESEARCH_UPDATES.md)")
+        atomic(self.root / "README.md", "# Denmark / Germany / EU funding knowledge base\n\n" + (" · ".join(starting_links) + "\n\n" if starting_links else "") + "Generated from each folder's `opportunity.json` and the applicant policy. Unknown facts remain unknown. Application status and founder eligibility are separate. Relevance scores never override hard conditions.\n\n[Active opportunities](ACTIVE_OPPORTUNITIES.md) · [Review required](REVIEW_REQUIRED.md) · [Archived / future rounds](ARCHIVED_OPPORTUNITIES.md) · [Machine index](index.json)\n\nFolders change with verified deadlines; stable IDs and append-only events preserve history. External documents are linked, not copied. See the repository AGENTS.md for updating sources and steering research.\n")
         return index

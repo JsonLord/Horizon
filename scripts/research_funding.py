@@ -8,7 +8,7 @@ from pathlib import Path
 
 from src.research.funding.models import Applicant, Opportunity, merge_refresh
 from src.research.funding.pipeline import collect_opportunities
-from src.research.funding.storage import OpportunityFolderStorage
+from src.research.funding.storage import OpportunityFolderStorage, funding_dashboard
 from src.research.profiles import ROOT
 from src.research.reporting import atomic
 
@@ -52,7 +52,7 @@ def main():
         return
     index = storage.sync(records)
     if args.root.resolve() == (ROOT / "research/funding-de-eu").resolve():
-        atomic(ROOT / "Funding DK (DE missing).md", "# Funding — Germany / EU\n\n[Funding knowledge base](research/funding-de-eu/README.md) · [Active](research/funding-de-eu/ACTIVE_OPPORTUNITIES.md) · [Review required](research/funding-de-eu/REVIEW_REQUIRED.md) · [Archived](research/funding-de-eu/ARCHIVED_OPPORTUNITIES.md)\n\n" + f"Verified eligible now: {index['active_count']}; review required: {index['review_count']}; archived / future rounds: {index['archived_count']}.\n")
+        atomic(ROOT / "Funding DK (DE missing).md", funding_dashboard(index))
     print(json.dumps({k: index[k] for k in ("active_count", "review_count", "archived_count")}))
 
 

@@ -1,0 +1,171 @@
+{
+  "$defs": {
+    "Nomination": {
+      "additionalProperties": false,
+      "properties": {
+        "candidate_id": {
+          "pattern": "^[a-f0-9]{24}$",
+          "title": "Candidate Id",
+          "type": "string"
+        },
+        "origin": {
+          "enum": [
+            "authored_seed",
+            "public_search"
+          ],
+          "title": "Origin",
+          "type": "string"
+        },
+        "label": {
+          "maxLength": 240,
+          "title": "Label",
+          "type": "string"
+        },
+        "headline": {
+          "anyOf": [
+            {
+              "maxLength": 300,
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Headline"
+        },
+        "url": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Url"
+        },
+        "status": {
+          "enum": [
+            "tracked",
+            "official_source_review_required",
+            "source_discovery_required"
+          ],
+          "title": "Status",
+          "type": "string"
+        },
+        "approved_opportunity_id": {
+          "anyOf": [
+            {
+              "pattern": "^[a-z0-9-]{1,96}$",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Approved Opportunity Id"
+        },
+        "seed_line": {
+          "anyOf": [
+            {
+              "maximum": 10000,
+              "minimum": 1,
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Seed Line"
+        },
+        "seed_document": {
+          "anyOf": [
+            {
+              "const": "research/funding-de-eu/Funding DK (DE missing).md",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Seed Document"
+        }
+      },
+      "required": [
+        "candidate_id",
+        "origin",
+        "label",
+        "url",
+        "status"
+      ],
+      "title": "Nomination",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "schema_version": {
+      "const": "1.0",
+      "default": "1.0",
+      "title": "Schema Version",
+      "type": "string"
+    },
+    "seed_document": {
+      "const": "research/funding-de-eu/Funding DK (DE missing).md",
+      "title": "Seed Document",
+      "type": "string"
+    },
+    "seed_sha256": {
+      "pattern": "^[a-f0-9]{64}$",
+      "title": "Seed Sha256",
+      "type": "string"
+    },
+    "candidates": {
+      "items": {
+        "$ref": "#/$defs/Nomination"
+      },
+      "maxItems": 200,
+      "title": "Candidates",
+      "type": "array"
+    },
+    "search_metrics": {
+      "items": {
+        "additionalProperties": true,
+        "type": "object"
+      },
+      "maxItems": 50,
+      "title": "Search Metrics",
+      "type": "array"
+    },
+    "coverage": {
+      "items": {
+        "type": "string"
+      },
+      "maxItems": 10,
+      "title": "Coverage",
+      "type": "array"
+    },
+    "limitations": {
+      "items": {
+        "type": "string"
+      },
+      "maxItems": 10,
+      "title": "Limitations",
+      "type": "array"
+    }
+  },
+  "required": [
+    "seed_document",
+    "seed_sha256",
+    "candidates",
+    "search_metrics",
+    "coverage",
+    "limitations"
+  ],
+  "title": "Queue",
+  "type": "object"
+}

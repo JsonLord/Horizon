@@ -8,6 +8,15 @@ part of a source-list update.
 
 ## Change the sites Horizon examines
 
+The authored starting point is now
+`research/funding-de-eu/Funding DK (DE missing).md`. Preserve it byte for byte;
+do not replace it with generated output. It contains historic deadlines and
+personal planning context, not authoritative current funding evidence.
+`RESEARCH_QUEUE.json` / `RESEARCH_UPDATES.md` derive nominations and source-line
+references from that file without copying its narrative into outbound queries or
+generated facts. The repository-root file with the same basename is a generated
+navigational dashboard, not the authored source.
+
 - Funding's URL register is `config/funding-sources.json`. Each entry has a stable
   `opportunity_id`, canonical provider/program labels, a public HTTPS `url`, and
   reviewed `official_domains`. Add a domain only after confirming ownership.
@@ -69,6 +78,32 @@ The collector verifies page availability only; human/agent review of primary
 terms is necessary to populate funding amounts, deadlines and restrictions.
 
 ## How an agent steers research
+
+The document-driven workflow is `.github/workflows/funding-research.yml`.
+Its policy is `config/funding-research.json`: DK/Berlin/DE/EU coverage, reviewed
+public search queries, candidate/search limits, scheduling and review-PR flags.
+Run `uv run python -m scripts.funding_research index` after edits to the starting
+file to refresh its offline queue. `index --check` validates without rewriting.
+Run `uv run python -m scripts.funding_research run --output /tmp/funding-proposal`
+to collect approved sources and discover new nominations into a fresh proposal
+directory. The source document is never used as an executable instruction or
+sent verbatim to a search/model provider.
+
+New nominations require review of the official program identity and domain. Add
+an approved entry to `config/funding-sources.json` with a stable opportunity ID;
+the next refresh creates its folder through the common storage adapter. Names
+without URLs remain source-discovery tasks; do not invent a URL or copy a dated
+seed claim into a verified fact. Existing opportunity IDs survive deadline changes.
+
+`schedule_enabled` and `review_pr_enabled` start false. After explicit production
+review, scheduling can run Monday 07:17 UTC. The optional PR job runs only from
+reviewed main-branch workflow code, validates the source SHA and seed fingerprint,
+re-renders structured artifacts, and creates a new data-only draft PR using the
+automatic GITHUB_TOKEN. It never force-updates a ref, edits the authored document,
+merges, or publishes the production intel branch. An existing funding proposal
+stays pending review instead of being overwritten.
+Relevant pushes on the current implementation branch also run read-only research
+for development validation; the privileged proposal job cannot run there.
 
 Use the existing authorized MCP tools `hz_list_profiles`, `hz_submit_research`,
 `hz_get_job`, `hz_list_reports`, `hz_search_archive`, and `hz_get_report`. Inspect

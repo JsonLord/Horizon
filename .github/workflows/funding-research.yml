@@ -1,0 +1,91 @@
+name: Funding document research and enhancement
+on:
+  workflow_dispatch:
+  push:
+    branches: [feature/program-intelligence-implementation]
+    paths:
+      - 'research/funding-de-eu/Funding DK (DE missing).md'
+      - 'config/funding-research.json'
+      - 'config/funding-sources.json'
+      - 'src/research/funding/**'
+      - 'scripts/funding_research.py'
+      - '.github/workflows/funding-research.yml'
+  schedule:
+    - cron: '17 7 * * 1'
+permissions:
+  contents: read
+concurrency:
+  group: funding-document-research-${{ github.ref }}
+  cancel-in-progress: false
+jobs:
+  gate:
+    runs-on: ubuntu-24.04
+    outputs:
+      run: ${{ steps.policy.outputs.run }}
+      propose: ${{ steps.policy.outputs.propose }}
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          persist-credentials: false
+      - id: policy
+        env:
+          EVENT_NAME: ${{ github.event_name }}
+        run: |
+          python - <<'PY'
+          import json, os
+          p = json.load(open('config/funding-research.json'))
+          enabled = os.environ['EVENT_NAME'] in {'workflow_dispatch', 'push'} or p['schedule_enabled'] is True
+          with open(os.environ['GITHUB_OUTPUT'], 'a') as out:
+              out.write('run=' + str(enabled).lower() + '\n')
+              out.write('propose=' + str(p['review_pr_enabled'] is True).lower() + '\n')
+          PY
+  collect:
+    needs: gate
+    if: needs.gate.outputs.run == 'true'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.11'
+      - uses: astral-sh/setup-uv@v7
+      - run: uv sync --frozen
+      - name: Refresh approved funding sources and discover nominations from reviewed queries
+        run: uv run python -m scripts.funding_research run
+      - uses: actions/upload-artifact@v6
+        with:
+          name: funding-update
+          path: |
+            data/funding-update/proposal.json
+            data/funding-update/SUMMARY.md
+          if-no-files-found: error
+          retention-days: 14
+  propose:
+    needs: [gate, collect]
+    if: needs.gate.outputs.propose == 'true' && github.ref == 'refs/heads/main' && github.workflow_ref == format('{0}/.github/workflows/funding-research.yml@refs/heads/main', github.repository)
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    permissions:
+      contents: write
+      pull-requests: write
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          ref: ${{ github.sha }}
+          persist-credentials: false
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.11'
+      - uses: astral-sh/setup-uv@v7
+      - run: uv sync --frozen
+      - uses: actions/download-artifact@v7
+        with:
+          name: funding-update
+          path: data/funding-update
+      - name: Validate and re-render a data-only draft PR with the automatic job token
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: uv run python -m scripts.funding_research propose
