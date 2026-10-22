@@ -103,3 +103,10 @@ transport errors or credentials. The full proposal remains a same-run artifact;
 the current execution environment denies its external download host (403).
 A successful job with a failed refresh is explicitly incomplete evidence, not a
 verified-current funding report.
+
+Verified hosted example: [run 39792501009](https://github.com/JsonLord/Horizon/actions/runs/39792501009)
+produced 100 authored references plus four unverified search nominations, with all
+three search queries successful. KfW refreshed; IBB/EIC require review, so the
+report is partial and all applicant eligibility stays unknown. The proposal job
+was skipped and committed opportunity records were not overwritten. See
+[public machine proof](funding-document-hosted-proof-2026-10-22.json).

@@ -443,3 +443,41 @@ headlines or transport errors. A regression test covers that output contract.
 The proof remains within the annotation ceiling for the full supported 40-program
 registry: aggregate counts cover all records, per-program details are limited to
 eight with an explicit truncation flag, and search metrics are re-sanitized.
+
+### Hosted outcome
+
+Regular pushes preserved upload commit `4176ea4`; the implementation and bounded
+proof changes are on the existing draft PR #5. The initial new-workflow run
+[39792085703](https://github.com/JsonLord/Horizon/actions/runs/39792085703) passed,
+as did push/PR regressions 39792085647 / 39792096346. Follow-up run
+[39792501009](https://github.com/JsonLord/Horizon/actions/runs/39792501009) produced
+an independently retrieved Actions proof notice: 100 authored references plus
+4 public-search nominations, all 3 Google News queries OK; KfW refresh OK, IBB
+and EIC refresh incomplete/review-required, report partial. False refresh flags
+do not establish whether transport or changed terms caused the incomplete refresh;
+the full artifact is inaccessible from this environment. All three eligibility
+checks remain incomplete, deadlines remain null / null / 2026-11-04 respectively.
+The collect check completed successfully and privileged proposal was skipped.
+Push/PR regressions 39792500969 / 39792507648 passed. Public machine proof is
+`docs/funding-document-hosted-proof-2026-10-22.json`.
+
+The committed opportunity store was not replaced with the partial proposal.
+No production archive writes, schedule activation, PR merge or network changes
+occurred. The latest bounded-proof-only refinement is `b66ffd4`; its hosted
+follow-up is recorded separately once complete.
+
+A separate consumer read `research/funding-de-eu/RESEARCH_QUEUE.json` through the
+GitHub contents API at `b66ffd43f495d967aaa3b315e4cebd25a3931834`, verifying all
+104 references, four search nominations and the original seed hash. Both hosted
+regressions on that revision passed (39792869592 / 39792875704). The bounded-proof
+collection follow-up `39792869602` was still queued at this documentation update;
+that pending state is not recorded as success.
+
+Files for this milestone: `.github/workflows/funding-research.yml`,
+`.github/workflows/research-validation.yml`, `AGENTS.md`, repository-root funding
+dashboard, `README.md`, `config/funding-research.json`, `profiles/funding/de-eu.json`,
+funding KB README/queue/update Markdown, funding policy/queue JSON schemas,
+`scripts/funding_research.py`, `scripts/research_funding.py`,
+`src/research/funding/research.py`, `src/research/funding/storage.py`,
+`tests/test_funding_research.py`, this log, workflow guide and public proof JSON.
+The user's nested authored source file is preserved unchanged.

@@ -1,0 +1,52 @@
+{
+  "workflow_url": "https://github.com/JsonLord/Horizon/actions/runs/39792501009",
+  "collect_check_run_id": 119871847929,
+  "workflow_conclusion": "success",
+  "propose_job_conclusion": "skipped",
+  "artifact_download_limitation": "Execution environment denied external artifact host (HTTP 403); no network changes made.",
+  "proof": {
+    "workflow_run_id": "39792501009",
+    "source_sha": "4e263ba11a61597acb1dd9cca75d72cf60472254",
+    "seed_sha256": "5a509f585d1e05eb996ab13bdff83064ea708f08db03ea4bfd79c22fe0d5ee65",
+    "read_only": true,
+    "report_status": "partial",
+    "nomination_counts": {
+      "authored_seed": 100,
+      "public_search": 4
+    },
+    "search_metrics": [
+      {
+        "source": "google_news",
+        "status": "ok"
+      },
+      {
+        "source": "google_news",
+        "status": "ok"
+      },
+      {
+        "source": "google_news",
+        "status": "ok"
+      }
+    ],
+    "opportunities": [
+      {
+        "opportunity_id": "ibb-gruendungsbonus-plus",
+        "refresh_ok": false,
+        "eligibility_complete": false,
+        "deadline": null
+      },
+      {
+        "opportunity_id": "kfw-erp-startgeld",
+        "refresh_ok": true,
+        "eligibility_complete": false,
+        "deadline": null
+      },
+      {
+        "opportunity_id": "eu-eic-accelerator",
+        "refresh_ok": false,
+        "eligibility_complete": false,
+        "deadline": "2026-11-04"
+      }
+    ]
+  }
+}
