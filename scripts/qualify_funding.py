@@ -82,7 +82,20 @@ async def main():
     if selected["sha"] != os.environ["GITHUB_SHA"]:
         raise ValueError("Qualification must execute the same approved source revision")
     root = ROOT / "data/funding-qualification"
-    proof = {"workflow_run_id": os.environ["GITHUB_RUN_ID"], "source_sha": selected["sha"], "read_only": True, "execution_environment": "one GitHub-hosted job, two fresh service instances with explicit state restoration", "executions": await qualify(root)}
+    try:
+        executions = await qualify(root)
+    except Exception as exc:
+        summaries = []
+        for directory in sorted(root.glob("execution-*")):
+            for row in Archive(directory).list("funding/de-eu"):
+                report = Archive(directory).get(row["report_id"])
+                summaries.append({"execution": directory.name, "report_status": report["status"], "collection_errors": {r["opportunity_id"]: r["collection_error"] for r in report["statistics"]["funding"]["opportunities"]}, "findings": len(report["findings"]), "fresh_pages": sum(any(r["verified"] and r["retrieved_at"] == item["checked_at"] for r in item["resources"]) for item in report["statistics"]["funding"]["opportunities"])})
+        failure = {"workflow_run_id": os.environ["GITHUB_RUN_ID"], "source_sha": selected["sha"], "read_only": True, "error_class": type(exc).__name__, "executions": summaries}
+        atomic(root / "failure.json", dumps(failure))
+        public = json.dumps(failure, separators=(",", ":"))[:3800]
+        print("::notice title=funding-qualification-failure::" + public.replace("%", "%25").replace("\n", "%0A").replace("\r", "%0D"))
+        raise
+    proof = {"workflow_run_id": os.environ["GITHUB_RUN_ID"], "source_sha": selected["sha"], "read_only": True, "execution_environment": "one GitHub-hosted job, two fresh service instances with explicit state restoration", "executions": executions}
     atomic(root / "proof.json", dumps(proof))
     compact = json.dumps(proof, separators=(",", ":"))
     if len(compact.encode()) > 3900:
