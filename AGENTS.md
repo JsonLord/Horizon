@@ -65,7 +65,7 @@ terms is necessary to populate funding amounts, deadlines and restrictions.
 ## How an agent steers research
 
 Use the existing authorized MCP tools `hz_list_profiles`, `hz_submit_research`,
-`hz_get_job`, `hz_list_reports`, `hz_search_reports`, and `hz_get_report`. Inspect
+`hz_get_job`, `hz_list_reports`, `hz_search_archive`, and `hz_get_report`. Inspect
 their live input schemas rather than inventing tool arguments. A funding request
 uses `profile_id: "funding/de-eu"`, a bounded `depth`, optional `lookback_hours`
 and `idempotency_key`. Funding/program requests reject free-text questions,
@@ -76,6 +76,8 @@ controls. Anonymous public execution must stay disabled.
 The funding adapter uses the bounded official URL register, not the profile's
 news-discovery query. Search text alone cannot verify an opportunity. Its current
 maximum is 40 registered opportunities/pages; change limits only with tests.
+For funding, `depth` bounds the selected registered sources; `lookback_hours`
+describes the common report window and does not filter official program pages.
 `max_items`, `max_queries` and `lookback_hours` control normal news profiles.
 Program fit weights, thresholds and optional model endpoint are in
 `config/program-relevance.yaml`; model unavailability must retain deterministic
