@@ -351,3 +351,29 @@ def test_consecutive_qualification_uses_restored_history(tmp_path, monkeypatch):
     assert proofs[1]["comparison_report_id"] == proofs[0]["report_id"]
     assert all(p["fresh_official_pages"] == 3 for p in proofs)
     assert all(p["active_count"] == 0 and p["review_count"] == 3 for p in proofs)
+
+
+@pytest.mark.parametrize("downgrade", [False, True])
+def test_fetcher_preserves_official_path_and_still_rejects_http_redirect(monkeypatch, downgrade):
+    import socket
+    import httpx
+    from src.research.collector import BoundedClient
+    from src.research.programs.fetch import ProgramFetcher
+    monkeypatch.setattr(socket, "getaddrinfo", lambda *a, **k: [(socket.AF_INET, socket.SOCK_STREAM, 6, "", ("8.8.8.8", 443))])
+    seen = []
+    def respond(request):
+        seen.append(str(request.url))
+        if request.url.path == "/robots.txt":
+            return httpx.Response(200, text="User-agent: *\nAllow: /\n")
+        assert request.url.path == "/program/", "The original slash must survive"
+        if downgrade:
+            return httpx.Response(301, headers={"Location": "http://example.org/program/"})
+        return httpx.Response(200, headers={"Content-Type": "text/html"}, text="<h1>Official program</h1>")
+    async def run():
+        async with BoundedClient(transport=httpx.MockTransport(respond)) as client:
+            return await ProgramFetcher(client=client).fetch("https://example.org/program/", "2026-10-22T00:00:00Z")
+    page = asyncio.run(run())
+    assert all(url.startswith("https://") for url in seen)
+    assert page.error == "Public HTTPS URL required" if downgrade else page.error is None
+    if not downgrade:
+        assert page.final_url == "https://example.org/program/"

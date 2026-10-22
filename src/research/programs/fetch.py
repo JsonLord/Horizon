@@ -9,7 +9,6 @@ from urllib.robotparser import RobotFileParser
 
 import httpx
 
-from ..analyzers import canonical
 from ..collector import BoundedClient
 from ..profiles import safe_url
 
@@ -36,8 +35,10 @@ class ProgramFetcher:
         self.robots = {}
 
     async def fetch(self, url, observed_at):
-        url = canonical(url)
-        safe_url(url)
+        # A trailing slash can change server routing. Validate the reviewed
+        # request URL verbatim; archive identity is canonicalized downstream.
+        # Never repair an HTTP downgrade by silently following it.
+        url = safe_url(url)
         if self.requests >= self.max_pages:
             return Page(url, url, observed_at, error="page_budget_exhausted")
         self.requests += 1
@@ -69,7 +70,7 @@ class ProgramFetcher:
             else:
                 await allow(url)
             response = await client.get(url)
-            current = canonical(str(response.url))
+            current = safe_url(str(response.url))
             if not response.headers.get("content-type", "").lower().startswith(("text/html", "application/xhtml+xml")):
                 raise ValueError("unsupported_mime")
             if any(marker in response.text.lower() for marker in ("cf-chl-", "verify you are human", "checking your browser", "enable javascript and cookies")):
