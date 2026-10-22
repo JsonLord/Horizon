@@ -13,7 +13,7 @@ from .models import Applicant, Opportunity, assess
 
 
 def text(value):
-    return html.escape(str(value)).replace("|", "&#124;").replace("\n", " ").replace("[", "&#91;").replace("]", "&#93;")
+    return html.escape(str(value).strip()).replace("|", "&#124;").replace("\n", " ").replace("[", "&#91;").replace("]", "&#93;")
 
 
 def slug(value):
@@ -39,8 +39,11 @@ def render(record, applicant):
     verified = [r.retrieved_at.isoformat() for r in record.resources if r.verified]
     overview = f"# {text(record.provider)} — {text(record.program)}\n\n"
     overview += f"Stable ID: `{record.opportunity_id}`\n\nFounder eligibility: **{result['status']}**\n\nApplication status: **{record.application_status}**\n\nDeadline: **{record.deadline_token}**; timezone: {text(record.deadline_timezone or 'UNKNOWN')}\n\nLast official verification: {max(verified) if verified else 'UNKNOWN'}\n\nLast collection attempt: {record.checked_at.isoformat()}\n\n"
+    if record.deadline_scope:
+        overview += "Deadline scope: **" + claim(record, "deadline_scope") + "**\n\nDeadline time: " + claim(record, "deadline_time") + "\n\n"
     fields = {"Funding amount and type": "funding", "Equity, repayment and co-financing": "obligations", "Berlin / Germany / EU eligibility": "geography", "Unincorporated founder eligibility": "unincorporated", "AI / software suitability": "software_ai", "Research project suitability": "research", "Financing assessment": "financing"}
     overview += "\n".join(f"- {label}: {claim(record, key)}" for label, key in fields.items())
+    overview += "\n- Collection limitation: " + text(record.collection_error or "None reported")
     overview += f"\n- Relevance score: {record.relevance_score if record.relevance_score is not None else 'UNKNOWN'} (heuristic, not a probability)\n- Financing suitability: {record.financing_suitability}\n- Score explanation: {text(record.relevance_explanation or 'Not scored')}\n\n"
     overview += "## Hard conditions\n\n" + ("\n".join("- " + text(c.description) + " (" + ", ".join(c.evidence_ids) + ")" for c in record.conditions) or "UNKNOWN — official conditions not fully verified")
     for title, key in [("Missing prerequisites", "missing_prerequisites"), ("Achievable eligibility milestones", "achievable_milestones"), ("Hard exclusions", "hard_rejections")]:
@@ -49,6 +52,7 @@ def render(record, applicant):
     overview += "\n".join(f"- [{text(r.title)}]({quote(r.url, safe=':/%.-_~')}) — {r.kind}; {'verified' if r.verified else 'UNVERIFIED candidate URL'}" for r in record.resources)
     overview += "\n\n[Eligibility](eligibility.md) · [Benefits and costs](benefits-and-costs.md) · [Application guide](application-guide.md) · [Required documents](required-documents.md) · [Evidence](evidence.md) · [Resource register](resources/links.json)\n"
     evidence = "# Official evidence\n\n" + "\n\n".join(f"## {r.resource_id}\n\n[{text(r.title)}]({quote(r.url, safe=':/%.-_~')})\n\nVerified: {r.verified}; retrieved: {r.retrieved_at.isoformat() if r.retrieved_at else 'UNKNOWN'}; SHA-256: {r.content_sha256 or 'UNKNOWN'}\n\n{text(r.quotation or 'No official evidence retrieved.')}" for r in record.resources)
+    evidence += "\n\n## Access diagnostics (not funding evidence)\n\n" + "\n\n".join("```json\n" + json.dumps(c.model_dump(mode="json"), sort_keys=True, indent=2) + "\n```" for c in record.access_checks)
     return {f"00_OVERVIEW__{result['status']}__{record.deadline_token}.md": overview,
             "eligibility.md": "# Eligibility\n\n" + "\n\n".join(claim(record, k) for k in ("geography", "unincorporated", "eligibility_complete")) + "\n\n" + "\n".join(text(c.description) for c in record.conditions),
             "benefits-and-costs.md": "# Benefits and costs\n\n" + "\n\n".join(claim(record, k) for k in ("funding", "obligations", "financing")),
@@ -122,14 +126,14 @@ class OpportunityFolderStorage:
             events = [json.loads(line) for line in history_path.read_text().splitlines()] if history_path.exists() else []
             for event in events:
                 historical = Opportunity.model_validate(event["record"])
-                if event["opportunity_id"] != record.opportunity_id or historical.opportunity_id != record.opportunity_id or hashlib.sha256(dumps(historical.model_dump(mode="json")).encode()).hexdigest() != event["record_sha256"]:
+                if event["opportunity_id"] != record.opportunity_id or historical.opportunity_id != record.opportunity_id or hashlib.sha256(dumps(event["record"]).encode()).hexdigest() != event["record_sha256"]:
                     raise ValueError("Invalid historical opportunity identity or checksum")
             if not events or events[-1]["record_sha256"] != digest:
                 events.append({"opportunity_id": record.opportunity_id, "observed_at": record.checked_at.isoformat(), "record_sha256": digest, "folder": target.name, "record": serialized})
             atomic(history_path, "".join(json.dumps(e, sort_keys=True, ensure_ascii=False) + "\n" for e in events))
             atomic(target / "opportunity.json", dumps(serialized))
             resources = {json.dumps(r, sort_keys=True): r for event in events for r in event["record"]["resources"]}
-            atomic(target / "sources.json", dumps({"schema_version": "1.0", "resources": list(resources.values())}))
+            atomic(target / "sources.json", dumps({"schema_version": "1.0", "resources": list(resources.values()), "access_checks": [c.model_dump(mode="json") for c in record.access_checks]}))
             atomic(target / "resources/links.json", dumps({"schema_version": "1.0", "resources": serialized["resources"]}))
             rendered = render(record, self.applicant)
             current_overview = next(iter(rendered))
@@ -145,8 +149,8 @@ class OpportunityFolderStorage:
             archived = record.archived or record.deadline_kind == "discontinued" or result["status"] in ("WATCH_FUTURE_ROUND", "VERIFIED_INELIGIBLE")
             group = "ARCHIVED_OPPORTUNITIES.md" if archived else "ACTIVE_OPPORTUNITIES.md" if result["status"] == "ELIGIBLE_NOW" else "REVIEW_REQUIRED.md"
             path = f"opportunities/{folder_name(record)}/00_OVERVIEW__{result['status']}__{record.deadline_token}.md"
-            rows.append({"opportunity_id": record.opportunity_id, "provider": record.provider, "program": record.program, "deadline": record.deadline_token, "application_status": record.application_status, "eligibility_status": result["status"], "archived": archived, "overview": path, "record": f"opportunities/{folder_name(record)}/opportunity.json"})
-            groups[group].append(f"- [{text(record.provider)} — {text(record.program)}]({quote(path, safe='/._-')}) — {result['status']}; {record.deadline_token}")
+            rows.append({"opportunity_id": record.opportunity_id, "provider": record.provider, "program": record.program, "deadline": record.deadline_token, "deadline_scope": record.deadline_scope, "deadline_timezone": record.deadline_timezone, "application_status": record.application_status, "eligibility_status": result["status"], "archived": archived, "overview": path, "record": f"opportunities/{folder_name(record)}/opportunity.json"})
+            groups[group].append(f"- [{text(record.provider)} — {text(record.program)}]({quote(path, safe='/._-')}) — {result['status']}; {record.deadline_token}{(' — ' + text(record.deadline_scope)) if record.deadline_scope else ''}")
         index = {"schema_version": "1.0", "active_count": len(groups["ACTIVE_OPPORTUNITIES.md"]), "review_count": len(groups["REVIEW_REQUIRED.md"]), "archived_count": len(groups["ARCHIVED_OPPORTUNITIES.md"]), "applicant": self.applicant.model_dump(mode="json"), "opportunities": rows}
         atomic(self.root / "index.json", dumps(index))
         for filename, links in groups.items():

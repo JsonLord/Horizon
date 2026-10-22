@@ -3,6 +3,7 @@
 import asyncio
 from dataclasses import dataclass, field
 import hashlib
+import socket
 from urllib.parse import urljoin, urlsplit
 from urllib.robotparser import RobotFileParser
 
@@ -75,7 +76,7 @@ class ProgramFetcher:
                 raise ValueError("challenge_page")
             return Page(url, current, observed_at, response.text, redirects=redirects[:4])
         except Exception as exc:
-            code = "HTTP_" + str(exc.response.status_code) if isinstance(exc, httpx.HTTPStatusError) else str(exc) if isinstance(exc, ValueError) else "network_unavailable"
+            code = "local_dns_unavailable" if isinstance(exc, socket.gaierror) else "proxy_connect_failed" if isinstance(exc, httpx.ProxyError) else "HTTP_" + str(exc.response.status_code) if isinstance(exc, httpx.HTTPStatusError) else str(exc) if isinstance(exc, ValueError) else "network_unavailable"
             return Page(url, current, observed_at, error=code[:100], redirects=redirects[:4])
         finally:
             if own:

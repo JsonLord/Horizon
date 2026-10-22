@@ -1,7 +1,7 @@
 # Benefits and costs
 
-UNKNOWN — not verified
+Grant covering 50% of eligible expenditure, capped at EUR 50,000; costs must satisfy the guideline. (funding)
 
-UNKNOWN — not verified
+Conditionally repayable, purpose-bound project grant, paid as partial financing. This is not an unconditional non-repayable award. (obligations, funding)
 
 UNKNOWN — not verified

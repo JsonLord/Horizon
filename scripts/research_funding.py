@@ -15,11 +15,16 @@ from src.research.reporting import atomic
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("command", choices=["collect", "sync", "check"])
+    parser.add_argument("command", choices=["collect", "sync", "check", "diagnose"])
     parser.add_argument("--root", type=Path, default=ROOT / "research/funding-de-eu")
     parser.add_argument("--records", type=Path, help="Reviewed JSON array; sync otherwise reads existing opportunity.json files")
     parser.add_argument("--applicant", type=Path, default=ROOT / "config/funding-applicant.json")
     args = parser.parse_args()
+    if args.command == "diagnose":
+        from src.research.funding.diagnostics import diagnose
+        sources = json.loads((ROOT / "config/funding-sources.json").read_text())["sources"]
+        print(json.dumps({"schema_version": "1.0", "checks": [diagnose(s).model_dump(mode="json") for s in sources]}, indent=2))
+        return
     applicant = Applicant.model_validate_json(args.applicant.read_text())
     if args.command == "collect":
         records = asyncio.run(collect_opportunities())

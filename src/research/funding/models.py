@@ -47,6 +47,35 @@ class Condition(Strict):
     milestone: str | None = Field(default=None, max_length=1000)
 
 
+class AccessCheck(Strict):
+    observed_at: datetime
+    method: Literal["HEAD", "GET"]
+    url: str
+    http_status: int | None = Field(default=None, ge=100, le=599)
+    proxy_connect_status: int | None = Field(default=None, ge=100, le=599)
+    proxy_configured: bool
+    local_dns_resolves: bool
+    redirect_chain: list[str] = Field(default_factory=list, max_length=4)
+    redirect_chain_complete: bool = True
+    response_headers: dict[str, str] = Field(default_factory=dict, max_length=12)
+    failure_origin: Literal["proxy_path", "unknown", "none"] = "none"
+    collector_limitation: Literal["local_dns_unavailable"] | None = None
+
+    @model_validator(mode="after")
+    def safe(self):
+        safe_url(self.url)
+        for url in self.redirect_chain:
+            safe_url(url)
+        allowed = {"content-type", "date", "server", "via", "location", "retry-after", "x-cache", "x-envoy-upstream-service-time"}
+        if not set(self.response_headers) <= allowed or any(len(v) > 500 or "\n" in v or "\r" in v for v in self.response_headers.values()):
+            raise ValueError("Only bounded non-sensitive diagnostic headers are allowed")
+        if "location" in self.response_headers:
+            safe_url(self.response_headers["location"])
+        if self.observed_at.tzinfo is None:
+            raise ValueError("Access observation requires timezone")
+        return self
+
+
 class Opportunity(Strict):
     schema_version: Literal["1.0"] = "1.0"
     opportunity_id: str = Field(pattern=r"^[a-z0-9][a-z0-9-]{0,95}$")
@@ -57,6 +86,8 @@ class Opportunity(Strict):
     deadline_kind: Literal["date", "rolling", "unknown", "discontinued", "next_round_unknown"] = "unknown"
     deadline: date | None = None
     deadline_timezone: str | None = None
+    deadline_scope: str | None = Field(default=None, max_length=500)
+    access_checks: list[AccessCheck] = Field(default_factory=list, max_length=20)
     claims: dict[str, Claim] = Field(default_factory=dict, max_length=60)
     conditions: list[Condition] = Field(default_factory=list, max_length=40)
     eligibility_complete: bool = False
@@ -100,6 +131,8 @@ class Opportunity(Strict):
             from zoneinfo import ZoneInfo
             ZoneInfo(self.deadline_timezone)
             required.append("deadline_timezone")
+        if self.deadline_scope:
+            required.append("deadline_scope")
         if self.eligibility_complete:
             required.append("eligibility_complete")
         if any(k not in self.claims for k in required):

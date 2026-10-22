@@ -1,5 +1,116 @@
 {
   "$defs": {
+    "AccessCheck": {
+      "additionalProperties": false,
+      "properties": {
+        "observed_at": {
+          "format": "date-time",
+          "title": "Observed At",
+          "type": "string"
+        },
+        "method": {
+          "enum": [
+            "HEAD",
+            "GET"
+          ],
+          "title": "Method",
+          "type": "string"
+        },
+        "url": {
+          "title": "Url",
+          "type": "string"
+        },
+        "http_status": {
+          "anyOf": [
+            {
+              "maximum": 599,
+              "minimum": 100,
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Http Status"
+        },
+        "proxy_connect_status": {
+          "anyOf": [
+            {
+              "maximum": 599,
+              "minimum": 100,
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Proxy Connect Status"
+        },
+        "proxy_configured": {
+          "title": "Proxy Configured",
+          "type": "boolean"
+        },
+        "local_dns_resolves": {
+          "title": "Local Dns Resolves",
+          "type": "boolean"
+        },
+        "redirect_chain": {
+          "items": {
+            "type": "string"
+          },
+          "maxItems": 4,
+          "title": "Redirect Chain",
+          "type": "array"
+        },
+        "redirect_chain_complete": {
+          "default": true,
+          "title": "Redirect Chain Complete",
+          "type": "boolean"
+        },
+        "response_headers": {
+          "additionalProperties": {
+            "type": "string"
+          },
+          "maxProperties": 12,
+          "title": "Response Headers",
+          "type": "object"
+        },
+        "failure_origin": {
+          "default": "none",
+          "enum": [
+            "proxy_path",
+            "unknown",
+            "none"
+          ],
+          "title": "Failure Origin",
+          "type": "string"
+        },
+        "collector_limitation": {
+          "anyOf": [
+            {
+              "const": "local_dns_unavailable",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Collector Limitation"
+        }
+      },
+      "required": [
+        "observed_at",
+        "method",
+        "url",
+        "proxy_configured",
+        "local_dns_resolves"
+      ],
+      "title": "AccessCheck",
+      "type": "object"
+    },
     "Claim": {
       "additionalProperties": false,
       "properties": {
@@ -163,6 +274,27 @@
           ],
           "default": null,
           "title": "Deadline Timezone"
+        },
+        "deadline_scope": {
+          "anyOf": [
+            {
+              "maxLength": 500,
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Deadline Scope"
+        },
+        "access_checks": {
+          "items": {
+            "$ref": "#/$defs/AccessCheck"
+          },
+          "maxItems": 20,
+          "title": "Access Checks",
+          "type": "array"
         },
         "claims": {
           "additionalProperties": {

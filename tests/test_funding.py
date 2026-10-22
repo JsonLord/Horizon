@@ -274,3 +274,80 @@ def test_funding_report_uses_existing_publisher_and_separate_git_consumer(tmp_pa
     validate(consumer)
     assert Archive(consumer).get("a" * 32)["profile_id"] == "funding/de-eu"
     assert (consumer / "intel/latest/funding/de-eu.json").is_file()
+
+
+def test_diagnostic_attribution_never_guesses_destination_origin():
+    from src.research.funding.diagnostics import classify
+    assert classify(None, 403) == "proxy_path"
+    assert classify(403, 200) == "unknown"
+    assert classify(None, None) == "unknown"
+    assert classify(200, 200) == "none"
+
+
+def test_diagnostics_reject_sensitive_headers_and_locations():
+    from src.research.funding.models import AccessCheck
+    data = dict(observed_at="2026-10-22T00:00:00Z", method="HEAD", url="https://example.org/", http_status=200, proxy_configured=True, local_dns_resolves=False)
+    with pytest.raises(ValueError, match="non-sensitive"):
+        AccessCheck(**data, response_headers={"set-cookie": "private"})
+    with pytest.raises(ValueError, match="Query credentials"):
+        AccessCheck(**data, response_headers={"location": "https://example.org/?token=private"})
+
+
+def test_additive_record_fields_preserve_old_history_hashes(tmp_path):
+    import hashlib
+    from src.research.reporting import dumps
+    store = OpportunityFolderStorage(tmp_path / "funding", Applicant())
+    r = record()
+    store.sync([r])
+    history = next(store.root.glob("opportunities/*/change-history.jsonl"))
+    event = json.loads(history.read_text())
+    event["record"].pop("deadline_scope")
+    event["record"].pop("access_checks")
+    event["record_sha256"] = hashlib.sha256(dumps(event["record"]).encode()).hexdigest()
+    history.write_text(json.dumps(event) + "\n")
+    store.sync([r])
+    events = [json.loads(line) for line in history.read_text().splitlines()]
+    assert events[0] == event and len(events) == 2
+
+
+def test_failed_refresh_does_not_republish_old_evidence_as_fresh(monkeypatch):
+    from src.research.funding import pipeline
+    from src.research.programs.fetch import Page
+    class Fetcher:
+        async def fetch(self, url, at):
+            return Page(url, url, at, error="local_dns_unavailable")
+    report = asyncio.run(pipeline.build_report(load_profiles()["funding/de-eu"], "b" * 32, fetcher=Fetcher()))
+    assert not report["findings"] and not report["sources"]
+    assert report["status"] == "failed"
+    assert any(r["resources"] for r in report["statistics"]["funding"]["opportunities"])
+
+
+def test_real_reviewed_records_remain_unknown_for_applicant():
+    from jsonschema import validate
+    root = Path("research/funding-de-eu")
+    applicant = Applicant.model_validate_json(Path("config/funding-applicant.json").read_text())
+    for path in root.glob("opportunities/*/opportunity.json"):
+        r = Opportunity.model_validate_json(path.read_text())
+        assert assess(r, applicant)["status"] == "ELIGIBILITY_UNKNOWN"
+        if r.deadline:
+            assert r.deadline_scope and r.deadline_timezone
+        for c in r.claims.values():
+            assert c.evidence_ids
+
+
+def test_consecutive_qualification_uses_restored_history(tmp_path, monkeypatch):
+    from scripts.qualify_funding import qualify
+    from src.research.funding import pipeline
+    from src.research.programs.fetch import Page
+    original = pipeline.collect_opportunities
+    class Fetcher:
+        async def fetch(self, url, at):
+            return Page(url, url, at, html="<h1>Synthetic qualification fixture</h1>")
+    async def collect(**kwargs):
+        kwargs["fetcher"] = Fetcher()
+        return await original(**kwargs)
+    monkeypatch.setattr(pipeline, "collect_opportunities", collect)
+    proofs = asyncio.run(qualify(tmp_path / "qualification"))
+    assert proofs[1]["comparison_report_id"] == proofs[0]["report_id"]
+    assert all(p["fresh_official_pages"] == 3 for p in proofs)
+    assert all(p["active_count"] == 0 and p["review_count"] == 3 for p in proofs)

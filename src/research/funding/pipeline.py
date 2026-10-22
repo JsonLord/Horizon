@@ -61,14 +61,14 @@ async def build_report(profile, report_id, previous=None, *, fetcher=None):
     records = [merge_refresh(prior[r.opportunity_id], r) if r.opportunity_id in prior else r for r in records]
     sources, findings, metrics = [], [], []
     for record in records:
-        metrics.append({"source": record.opportunity_id, "status": "failed" if record.collection_error else "ok"})
+        metrics.append({"source": record.opportunity_id, "status": "review_required" if record.collection_error == "official_terms_need_reverification" else "failed" if record.collection_error else "ok"})
         for resource in record.resources:
-            if not resource.verified:
+            if not resource.verified or resource.retrieved_at != record.checked_at:
                 continue
             canonical_url = canonical(resource.url)
             sid = hashlib.sha256(canonical_url.encode()).hexdigest()[:24]
-            sources.append({"source_id": sid, "original_url": resource.url, "canonical_url": canonical_url, "publisher": record.provider, "source_kind": "primary", "published_at": None, "fetched_at": record.checked_at.isoformat(), "origin_collector": "funding_official", "profile_id": profile.profile_id, "content_fingerprint": resource.content_sha256})
-            findings.append({"finding_id": hashlib.sha256(record.opportunity_id.encode()).hexdigest()[:24], "event_id": record.opportunity_id, "summary": resource.quotation[:380] + "; application status, eligibility and deadline remain unverified.", "classification": "official_program_page", "institutions": [], "regions": [], "topics": ["funding"], "source_ids": [sid], "profile_relevance": 0, "ranking_explanation": "Official-page verification only; no eligibility inference", "verification": "single_primary_source", "corroboration": 1, "published_at": None, "observed_at": record.checked_at.isoformat(), "evidence": [{"source_id": sid, "location": "official page heading", "snippet": resource.quotation}], "limitations": ["Official terms require structured review"], "provenance": "deterministic", "geography": {}, "change_type": "new"})
+            sources.append({"source_id": sid, "original_url": resource.url, "canonical_url": canonical_url, "publisher": record.provider, "source_kind": "primary", "published_at": None, "fetched_at": resource.retrieved_at.isoformat(), "origin_collector": "funding_official", "profile_id": profile.profile_id, "content_fingerprint": resource.content_sha256})
+            findings.append({"finding_id": hashlib.sha256(record.opportunity_id.encode()).hexdigest()[:24], "event_id": record.opportunity_id, "summary": resource.quotation[:380] + "; current official page observed; applicant eligibility requires separate review.", "classification": "official_program_page", "institutions": [], "regions": [], "topics": ["funding"], "source_ids": [sid], "profile_relevance": 0, "ranking_explanation": "Official-page verification only; no eligibility inference", "verification": "single_primary_source", "corroboration": 1, "published_at": None, "observed_at": record.checked_at.isoformat(), "evidence": [{"source_id": sid, "location": "official page heading", "snippet": resource.quotation}], "limitations": ["Official terms require structured review"], "provenance": "deterministic", "geography": {}, "change_type": "new"})
     report = make_report(profile, report_id, "", findings, sources, metrics, None, "deterministic", ["Funding-specific claims require reviewed official quotations; candidate URLs are not verified facts. Applicant facts default to unknown."])
     report["statistics"]["funding"] = FundingDataset(opportunities=records).model_dump(mode="json")
     return report

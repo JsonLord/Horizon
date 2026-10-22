@@ -34,6 +34,12 @@ Do not edit generated Markdown, indexes or folder names. `Opportunity` in
    `uv run python -m scripts.research_funding collect`. This obeys robots, public
    DNS, redirect, MIME and response-size restrictions. It does not infer terms
    from snippets or turn an available page into an open application.
+   `uv run python -m scripts.research_funding diagnose` makes read-only HEAD
+   checks and distinguishes proxy CONNECT failures, unknown-origin HTTP failures
+   and local DNS limitations. It logs only a header allowlist and no credentials;
+   it does not replace Horizon's public-DNS, robots or SSRF checks. A successful
+   HEAD request alone proves no funding terms. Do not change network settings
+   without explicit operator authorization.
 2. Review official terms and import a JSON **array** of complete records with
    `uv run python -m scripts.research_funding sync --records /path/to/reviewed.json`.
    Claims cite verified official resource IDs. Quotes must actually support the

@@ -241,3 +241,36 @@ by the proxy at `results-receiver.actions.githubusercontent.com`, so hosted test
 counts were not independently read. The public intel tip remains
 `9eea5d06695c05f2c63738967ef31539974ba239`. Runtime configuration still lacks the
 saved funding-domain additions. PR #5 remains a draft; no activation is claimed.
+
+## Funding source verification — 22 October 2026 (Europe/Berlin)
+
+See [the complete diagnosis and source review](funding-source-verification.md).
+All three original official URLs now return proxy CONNECT 200 / HEAD 200, and
+robots-permitted operator GET requests retrieved their content. The earlier
+CONNECT 403 identifies a proxy-path failure but not the original denying rule or
+component. Current local DNS failure is a separate, confirmed collector blocker;
+Horizon now reports `local_dns_unavailable` and retains its DNS/SSRF protections.
+No network draft or runtime setting was changed. Read-only draft inspection found
+five effective destination additions, 148 redundant custom copies, no removals,
+and unchanged restricted mode/preset; current proxy behavior cannot be inferred
+from the policy snapshot, whose state remains unknown.
+
+Updated all three structured opportunities and their generated evidence, source
+registers, supporting Markdown, histories and dashboards. IBB and KfW guideline
+PDFs were verified in temporary storage with short quoted evidence and SHA-256
+fingerprints retained. EIC's full-proposal-only cutoff is 2026-11-04, 17:00
+Europe/Brussels, requiring a short-proposal GO; its folder was renamed while
+preserving ID/history. Other deadlines remain unknown. All three applicant
+classifications remain ELIGIBILITY_UNKNOWN and the active shortlist remains zero.
+
+Added read-only diagnostics, strict header filtering, additive-schema history
+checksum compatibility and stale-evidence protections. A manual Actions
+qualification mode runs two fresh service instances with explicit restoration of
+the first execution's folder/intel trees, no publisher and read-only permissions.
+This is two executions inside one GitHub-hosted job, not two separate runners.
+
+Pre-hosted validation: **384 tests passed in 2.96s**, including **31 funding
+tests**; both MCP smoke checks passed (24 tools/11 profiles), deterministic funding
+regeneration passed, actionlint 1.7.7 passed, whitespace checks passed. Production
+intel remains `9eea5d06695c05f2c63738967ef31539974ba239`. Hosted qualification results
+will be recorded after execution. PR #5 remains in draft.

@@ -1,3 +1,3 @@
 # Application guide
 
-UNKNOWN — not verified
+Apply through a financing partner of your choice before starting the project; not directly with KfW. (application)
