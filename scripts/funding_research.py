@@ -16,7 +16,7 @@ from collections import Counter
 from pathlib import Path
 
 from src.research.funding.models import Applicant, FundingDataset, Opportunity
-from src.research.funding.research import ROOT, SEED, Queue, discover, policy, render_queue, seed_queue
+from src.research.funding.research import ROOT, SEED, Queue, discover, policy, render_queue, safe_metrics, seed_queue
 from src.research.funding.storage import OpportunityFolderStorage, funding_dashboard
 from src.research.reporting import Archive, atomic, dumps
 from src.research.publisher import validate
@@ -151,11 +151,14 @@ def public_proof(payload):
             "seed_sha256": payload["seed_sha256"], "read_only": True,
             "report_status": payload["report_status"],
             "nomination_counts": dict(Counter(c["origin"] for c in payload["queue"]["candidates"])),
-            "search_metrics": payload["queue"]["search_metrics"],
+            "search_metrics": safe_metrics(payload["queue"]["search_metrics"])[:8],
+            "opportunity_count": len(records),
+            "successful_refresh_count": sum(not bool(r.get("collection_error")) for r in records),
+            "opportunity_details_truncated": len(records) > 8,
             "opportunities": [{"opportunity_id": r["opportunity_id"],
                                "refresh_ok": not bool(r.get("collection_error")),
                                "eligibility_complete": r["eligibility_complete"],
-                               "deadline": r["deadline"]} for r in records]}
+                               "deadline": r["deadline"]} for r in records[:8]]}
 
 
 def main():

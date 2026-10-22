@@ -207,3 +207,11 @@ def test_public_run_proof_exports_only_bounded_review_metadata():
     assert proof['nomination_counts']['authored_seed'] == len(data['queue']['candidates'])
     assert 'PRIVATE' not in json.dumps(proof)
     assert len(json.dumps(proof).encode()) < 3900
+    data['funding']['opportunities'] = [dict(data['funding']['opportunities'][0], opportunity_id='x'*96) for _ in range(40)]
+    data['queue']['search_metrics'] = [{'source':'google_news','status':'ok','error':'PRIVATE'} for _ in range(50)]
+    expanded = public_proof(data)
+    assert expanded['opportunity_count'] == 40
+    assert expanded['opportunity_details_truncated'] is True
+    assert len(expanded['opportunities']) == 8
+    assert 'PRIVATE' not in json.dumps(expanded)
+    assert len(json.dumps(expanded).encode()) < 3900

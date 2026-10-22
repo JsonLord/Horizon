@@ -404,7 +404,7 @@ and Markdown, and creates a new data-only draft PR with GITHUB_TOKEN. No existin
 ref is overwritten, force-pushed or auto-merged; the production archive is not a
 publication target. An existing funding proposal remains pending human review.
 
-Validation: **407 tests passed in 3.76s**, including **21 new document-workflow
+Validation: **407 tests passed in 4.00s**, including **21 new document-workflow
 tests** covering privacy, historical-date handling, deduplication, discovery
 outages, stale provenance, unauthorized sources, data-only writes, disabled/branch
 write guards, draft PR creation and URL markup escaping. Both MCP smoke checks
@@ -439,3 +439,7 @@ changed. Added a bounded public Actions annotation (IDs, source/seed hashes,
 refresh statuses, nomination counts and public deadline metadata only) to permit
 independent verification over GitHub API without copying source prose, search
 headlines or transport errors. A regression test covers that output contract.
+
+The proof remains within the annotation ceiling for the full supported 40-program
+registry: aggregate counts cover all records, per-program details are limited to
+eight with an explicit truncation flag, and search metrics are re-sanitized.
