@@ -1,0 +1,23 @@
+{
+  "artifacts": [
+    {
+      "bytes": 18919,
+      "content_type": "application/json",
+      "path": "intel/reports/institutions/cern/2026/10/22/411c43af08274664b848117367865b56/report.json",
+      "sha256": "abff939ca75ad1f51e27615766471a67c98dacdb9767e14623fd159a488cb330"
+    },
+    {
+      "bytes": 3064,
+      "content_type": "text/markdown",
+      "path": "intel/reports/institutions/cern/2026/10/22/411c43af08274664b848117367865b56/report.md",
+      "sha256": "ee729eaef0d758081297aecfc407cf74e17627027c82416004bda98e55da97c8"
+    }
+  ],
+  "commit": null,
+  "generated_at": "2026-10-22T12:07:13.514877+00:00",
+  "profile_id": "institutions/cern",
+  "report_id": "411c43af08274664b848117367865b56",
+  "schema_version": "1.0",
+  "snapshot_id": "a34bc1f4f03e05502bde852fb3993b6c9d41f0e649276071ea023b5c4f183b30",
+  "status": "partial"
+}

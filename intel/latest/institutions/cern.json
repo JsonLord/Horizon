@@ -2,11 +2,35 @@
   "analysis_mode": "deterministic",
   "changes": [
     {
-      "finding_id": "03dfc626271af546d0469a6e",
+      "finding_id": "db84cc11b82a7b07d6cc9772",
       "institution_ids": [
         "cern"
       ],
-      "observed_at": "2026-10-21T12:04:09.457779+00:00",
+      "observed_at": "2026-10-22T12:07:13.514877+00:00",
+      "type": "new"
+    },
+    {
+      "finding_id": "8b7d4fa830a7afb748bddc6b",
+      "institution_ids": [
+        "cern"
+      ],
+      "observed_at": "2026-10-22T12:07:13.514877+00:00",
+      "type": "new"
+    },
+    {
+      "finding_id": "db38f1c91a8b68db0ada1666",
+      "institution_ids": [
+        "cern"
+      ],
+      "observed_at": "2026-10-22T12:07:13.514877+00:00",
+      "type": "new"
+    },
+    {
+      "finding_id": "6515c98677fd97d0eab04cbf",
+      "institution_ids": [
+        "cern"
+      ],
+      "observed_at": "2026-10-22T12:07:13.514877+00:00",
       "type": "new"
     }
   ],
@@ -17,27 +41,31 @@
       "Europe"
     ]
   },
-  "created_at": "2026-10-21T12:04:09.457779+00:00",
+  "created_at": "2026-10-22T12:07:13.514877+00:00",
   "errors": [
     {
       "code": "SOURCE_INCOMPLETE",
       "source": "gdelt"
+    },
+    {
+      "code": "SOURCE_INCOMPLETE",
+      "source": "rss"
     }
   ],
   "findings": [
     {
-      "change_type": "unchanged",
+      "change_type": "new",
       "classification": "reported_news",
       "corroboration": 1,
-      "event_id": "488ca4519d54826bffc04149",
+      "event_id": "db84cc11b82a7b07d6cc9772",
       "evidence": [
         {
           "location": "feed title",
-          "snippet": "Kazakhstan expands scientific cooperation with CERN - Kazakhstan Today",
-          "source_id": "d83493a659185eed7abb9d9a"
+          "snippet": "Mercury to gold: Marathon Fusion claims 10x CERN record, but can ‘modern alchemy’ work? - Business Today",
+          "source_id": "97849747e068a91c309837b1"
         }
       ],
-      "finding_id": "488ca4519d54826bffc04149",
+      "finding_id": "db84cc11b82a7b07d6cc9772",
       "geography": {
         "confidence": null,
         "event_region": "unknown",
@@ -51,18 +79,18 @@
         "Title-level extraction; linked source should be reviewed."
       ],
       "model_selected": null,
-      "observed_at": "2026-10-21T12:04:09.456183+00:00",
-      "profile_relevance": 7.846626664548611,
+      "observed_at": "2026-10-22T12:07:13.513816+00:00",
+      "profile_relevance": 8.805711645648149,
       "provenance": "deterministic title extraction",
-      "published_at": "2026-10-20T08:23:18+00:00",
+      "published_at": "2026-10-22T07:27:27+00:00",
       "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
       "regions": [
         "Europe"
       ],
       "source_ids": [
-        "d83493a659185eed7abb9d9a"
+        "97849747e068a91c309837b1"
       ],
-      "summary": "Kazakhstan expands scientific cooperation with CERN - Kazakhstan Today",
+      "summary": "Mercury to gold: Marathon Fusion claims 10x CERN record, but can ‘modern alchemy’ work? - Business Today",
       "topics": [
         "CERN"
       ],
@@ -70,6 +98,135 @@
     },
     {
       "change_type": "new",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "8b7d4fa830a7afb748bddc6b",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "CERN Partners With Mistral to Build a New Kind of AI for Physics - HPCwire",
+          "source_id": "1f91b41a7a1feb10dbdeaf60"
+        }
+      ],
+      "finding_id": "8b7d4fa830a7afb748bddc6b",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [
+        "cern"
+      ],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-22T12:07:13.513816+00:00",
+      "profile_relevance": 8.155977849351853,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-21T15:51:50+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "Europe"
+      ],
+      "source_ids": [
+        "1f91b41a7a1feb10dbdeaf60"
+      ],
+      "summary": "CERN Partners With Mistral to Build a New Kind of AI for Physics - HPCwire",
+      "topics": [
+        "CERN"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "new",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "db38f1c91a8b68db0ada1666",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "Budrys: Lithuania's full CERN membership would create more opportunities for technological development and strengthen the country’s economic security - Užsienio reikalų ministerija",
+          "source_id": "3d34d2d240343bc244b03573"
+        }
+      ],
+      "finding_id": "db38f1c91a8b68db0ada1666",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [
+        "cern"
+      ],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-22T12:07:13.513816+00:00",
+      "profile_relevance": 8.063419978981482,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-21T13:38:33+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "Europe"
+      ],
+      "source_ids": [
+        "3d34d2d240343bc244b03573"
+      ],
+      "summary": "Budrys: Lithuania's full CERN membership would create more opportunities for technological development and strengthen the country’s economic security - Užsienio reikalų ministerija",
+      "topics": [
+        "CERN"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "new",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "6515c98677fd97d0eab04cbf",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "CERN Mistral Partnership Targets a Shared Model for Collider Physics - remio",
+          "source_id": "ddc480ea6397c7a405480c87"
+        }
+      ],
+      "finding_id": "6515c98677fd97d0eab04cbf",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [
+        "cern"
+      ],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-22T12:07:13.513816+00:00",
+      "profile_relevance": 8.046336645648148,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-21T13:13:57+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "Europe"
+      ],
+      "source_ids": [
+        "ddc480ea6397c7a405480c87"
+      ],
+      "summary": "CERN Mistral Partnership Targets a Shared Model for Collider Physics - remio",
+      "topics": [
+        "CERN"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "unchanged",
       "classification": "reported_news",
       "corroboration": 1,
       "event_id": "03dfc626271af546d0469a6e",
@@ -94,8 +251,8 @@
         "Title-level extraction; linked source should be reviewed."
       ],
       "model_selected": null,
-      "observed_at": "2026-10-21T12:04:09.456183+00:00",
-      "profile_relevance": 6.077679905289352,
+      "observed_at": "2026-10-22T12:07:13.513816+00:00",
+      "profile_relevance": 5.075549608611111,
       "provenance": "deterministic title extraction",
       "published_at": "2026-10-20T13:56:01+00:00",
       "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
@@ -114,10 +271,10 @@
   ],
   "history": {
     "comparison": "last_good",
-    "previous_created_at": "2026-10-20T11:52:21.894975+00:00",
-    "previous_report_id": "0e84296f4b6e4fe28191df92a728409a",
-    "previous_report_sha256": "75f68dcc16552ae60301f9e05d83b0e75d2cb3f48e06fac1184d45ad3efee3a4",
-    "previous_snapshot_commit": "977c1a598abd0d546ab0c38482b45a83b12100a1",
+    "previous_created_at": "2026-10-21T12:04:09.457779+00:00",
+    "previous_report_id": "c5ce82132fdf4d36bf7eb4c2d27c2b33",
+    "previous_report_sha256": "670983d5222d783b72c0de8fc931e9c77a1a7ef094afc0e9239d96c8833dd572",
+    "previous_snapshot_commit": "9eea5d06695c05f2c63738967ef31539974ba239",
     "stale_last_good": false,
     "state": "restored"
   },
@@ -127,21 +284,73 @@
     "Contradiction/resolution labels require explicit source wording and review; no automatic truth adjudication."
   ],
   "links": {
-    "json": "intel/reports/institutions/cern/2026/10/21/c5ce82132fdf4d36bf7eb4c2d27c2b33/report.json",
-    "markdown": "intel/reports/institutions/cern/2026/10/21/c5ce82132fdf4d36bf7eb4c2d27c2b33/report.md"
+    "json": "intel/reports/institutions/cern/2026/10/22/411c43af08274664b848117367865b56/report.json",
+    "markdown": "intel/reports/institutions/cern/2026/10/22/411c43af08274664b848117367865b56/report.md"
   },
   "model_used": null,
   "profile_id": "institutions/cern",
   "question": "",
-  "report_id": "c5ce82132fdf4d36bf7eb4c2d27c2b33",
-  "run_id": "c5ce82132fdf4d36bf7eb4c2d27c2b33",
+  "report_id": "411c43af08274664b848117367865b56",
+  "run_id": "411c43af08274664b848117367865b56",
   "schedule": {},
   "schema_version": "1.0",
   "sources": [
     {
+      "canonical_url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOdHZ1VVQtOG93eTNYNHJTUzdUYkNRWFpCX19Qcks5SHlFdS11bkdrOXRnMlRVOUxaS3pYWnVycEZWclFFRUFrRExsbGZ4alJtaVBPeUNLakVmSG9GVEQwYnhNb1c0cksxa1hXdF9QRFM2M3NfNHNVZ1gxc0RUcmdkQ0FLVkRwVl9kc3hhbU16bDhteUpWV1didEh3bWk4cjUwZi05QnZqb25ZeU5BWFVkN1lR?oc=5",
+      "content_fingerprint": "03fb1393e6b645ef1975c1cd",
+      "fetched_at": "2026-10-22T12:07:13.513816+00:00",
+      "institution_id": "cern",
+      "language": "en",
+      "observations": [
+        {
+          "collector": "google_news",
+          "language": "en",
+          "search_query": "\"CERN\"",
+          "search_region": "Europe",
+          "title": "CERN Partners With Mistral to Build a New Kind of AI for Physics - HPCwire"
+        }
+      ],
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOdHZ1VVQtOG93eTNYNHJTUzdUYkNRWFpCX19Qcks5SHlFdS11bkdrOXRnMlRVOUxaS3pYWnVycEZWclFFRUFrRExsbGZ4alJtaVBPeUNLakVmSG9GVEQwYnhNb1c0cksxa1hXdF9QRFM2M3NfNHNVZ1gxc0RUcmdkQ0FLVkRwVl9kc3hhbU16bDhteUpWV1didEh3bWk4cjUwZi05QnZqb25ZeU5BWFVkN1lR?oc=5",
+      "profile_id": "institutions/cern",
+      "published_at": "2026-10-21T15:51:50+00:00",
+      "publisher": "HPCwire",
+      "search_query": "\"CERN\"",
+      "source_country": "unknown",
+      "source_id": "1f91b41a7a1feb10dbdeaf60",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMikAJBVV95cUxONzlFcmVreUF4NEYyZFZOQnV6WUhVMXo3LTgwYlVUVk0wMFNTempQMTRPV0Z6aV9FNi0zbTY1RWI3akczLW1wZWFBUEdaS04tc3JKYWE0Zmk5T2U0WVNFcy0xLTAxYlRUVEUwV0x1aEpBdEU5eDdvVGhtZkNnQ1lDcDlUaGluWVJ4ZktZbG5mQXNabF9ydUhsLThOZ0hsUVhUQjNpTGxOVEllRi1mYXBkSW1xQV9xWWVUMUwwNWpaWmJSWHlSVUdseXZvN2c4cE9mdVRsb05TUE9ScTJSQTdVbGhGNC05TGdPZHVubDh4eDdCZjV3cHlhQWNzU0tlb3djVm13RDZIeEdlSUk1UE96TQ?oc=5",
+      "content_fingerprint": "1c74f7aacb2fae5a3116b53b",
+      "fetched_at": "2026-10-22T12:07:13.513816+00:00",
+      "institution_id": "cern",
+      "language": "en",
+      "observations": [
+        {
+          "collector": "google_news",
+          "language": "en",
+          "search_query": "\"CERN\"",
+          "search_region": "Europe",
+          "title": "Budrys: Lithuania's full CERN membership would create more opportunities for technological development and strengthen the country’s economic security - Užsienio reikalų ministerija"
+        }
+      ],
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMikAJBVV95cUxONzlFcmVreUF4NEYyZFZOQnV6WUhVMXo3LTgwYlVUVk0wMFNTempQMTRPV0Z6aV9FNi0zbTY1RWI3akczLW1wZWFBUEdaS04tc3JKYWE0Zmk5T2U0WVNFcy0xLTAxYlRUVEUwV0x1aEpBdEU5eDdvVGhtZkNnQ1lDcDlUaGluWVJ4ZktZbG5mQXNabF9ydUhsLThOZ0hsUVhUQjNpTGxOVEllRi1mYXBkSW1xQV9xWWVUMUwwNWpaWmJSWHlSVUdseXZvN2c4cE9mdVRsb05TUE9ScTJSQTdVbGhGNC05TGdPZHVubDh4eDdCZjV3cHlhQWNzU0tlb3djVm13RDZIeEdlSUk1UE96TQ?oc=5",
+      "profile_id": "institutions/cern",
+      "published_at": "2026-10-21T13:38:33+00:00",
+      "publisher": "Užsienio reikalų ministerija",
+      "search_query": "\"CERN\"",
+      "source_country": "unknown",
+      "source_id": "3d34d2d240343bc244b03573",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
       "canonical_url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5kUE9ERWEwWlp2c1M5U2w4elNkT200djV4UzNCUm1kbEJLcTF3YW9zYXVSbE9Da0ptTmFBRV9CR19TSnBKQmp2clp1OHBtQkx3dVRoLS1VNA?oc=5",
       "content_fingerprint": "621156400498c80a465e6b13",
-      "fetched_at": "2026-10-21T12:04:09.456183+00:00",
+      "fetched_at": "2026-10-22T12:07:13.513816+00:00",
       "institution_id": "cern",
       "language": "en",
       "observations": [
@@ -165,9 +374,9 @@
       "source_seen_at": null
     },
     {
-      "canonical_url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNd1JIdjlMLVA1dXBhRUVMVmVEQnMwV01BSGVFaTVKa0ZhQWpocldYMHpkbE9DRXVVcDctVnhDdTBxQkRDamliUjJqcjhFWVFhQXJjVVZrWnFXZ05CQVhKN0ptVFhvMzBMYUwwT3BJME9qcjhFbnpPLV9TbjJHcUxUNjZwdldkNkdOZFN3eUd0Q0dXaEtEcFhMSGd5cTUyMmlheHc?oc=5",
-      "content_fingerprint": "d64c50cb677f502ee39d89c6",
-      "fetched_at": "2026-10-21T12:04:09.456183+00:00",
+      "canonical_url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQbGFnVU1SODIzMjdLUDVIVVZJakZsOS15ZnpwOFlRcDVsa2tpb1ptQUFYQnpkTWxsMzlTTXJMaHpGQko5UE50Umd6aFk2QWRLa0VVZjZvUXc4d3ZuZFFBcGZQeXl3ckdUeTlIekxXWXp0Q013ZG5GOHRYMzNnQUNvWkVQQnNrSXlfVmNGTmpRWURvWUJISzVoUUpCOTVzaXJId3oyWjhMdHhweXBRM0N4MWF1YnRxb0ZEYVIyQURBRnZHMlRoekZnemFqUXd1dVlKdGVaUDZORUVWS1MwbGx6aENxclTSAeQBQVVfeXFMUGxhZ1VNUjgyMzI3S1A1SFVWSWpGbDkteWZ6cDhZUXA1bGtraW9abUFBWEJ6ZE1sbDM5U01yTGh6RkJKOVBOdFJnemhZNkFkS2tFVWY2b1F3OHd2bmRRQXBmUHl5d3JHVHk5SHpMV1l6dENNd2RuRjh0WDMzZ0FDb1pFUEJza0l5X1ZjRk5qUVlEb1lCSEs1aFFKQjk1c2lySHd6Mlo4THR4cHlwUTNDeDFhdWJ0cW9GRGFSMkFEQUZ2RzJUaHpGZ3phalF3dXVZSnRlWlA2TkVFVktTMGxsemhDcXJU?oc=5",
+      "content_fingerprint": "36ddf0b1c99914dc1bfbf2e7",
+      "fetched_at": "2026-10-22T12:07:13.513816+00:00",
       "institution_id": "cern",
       "language": "en",
       "observations": [
@@ -176,17 +385,43 @@
           "language": "en",
           "search_query": "\"CERN\"",
           "search_region": "Europe",
-          "title": "Kazakhstan expands scientific cooperation with CERN - Kazakhstan Today"
+          "title": "Mercury to gold: Marathon Fusion claims 10x CERN record, but can ‘modern alchemy’ work? - Business Today"
         }
       ],
       "origin_collector": "google_news",
-      "original_url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNd1JIdjlMLVA1dXBhRUVMVmVEQnMwV01BSGVFaTVKa0ZhQWpocldYMHpkbE9DRXVVcDctVnhDdTBxQkRDamliUjJqcjhFWVFhQXJjVVZrWnFXZ05CQVhKN0ptVFhvMzBMYUwwT3BJME9qcjhFbnpPLV9TbjJHcUxUNjZwdldkNkdOZFN3eUd0Q0dXaEtEcFhMSGd5cTUyMmlheHc?oc=5",
+      "original_url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQbGFnVU1SODIzMjdLUDVIVVZJakZsOS15ZnpwOFlRcDVsa2tpb1ptQUFYQnpkTWxsMzlTTXJMaHpGQko5UE50Umd6aFk2QWRLa0VVZjZvUXc4d3ZuZFFBcGZQeXl3ckdUeTlIekxXWXp0Q013ZG5GOHRYMzNnQUNvWkVQQnNrSXlfVmNGTmpRWURvWUJISzVoUUpCOTVzaXJId3oyWjhMdHhweXBRM0N4MWF1YnRxb0ZEYVIyQURBRnZHMlRoekZnemFqUXd1dVlKdGVaUDZORUVWS1MwbGx6aENxclTSAeQBQVVfeXFMUGxhZ1VNUjgyMzI3S1A1SFVWSWpGbDkteWZ6cDhZUXA1bGtraW9abUFBWEJ6ZE1sbDM5U01yTGh6RkJKOVBOdFJnemhZNkFkS2tFVWY2b1F3OHd2bmRRQXBmUHl5d3JHVHk5SHpMV1l6dENNd2RuRjh0WDMzZ0FDb1pFUEJza0l5X1ZjRk5qUVlEb1lCSEs1aFFKQjk1c2lySHd6Mlo4THR4cHlwUTNDeDFhdWJ0cW9GRGFSMkFEQUZ2RzJUaHpGZ3phalF3dXVZSnRlWlA2TkVFVktTMGxsemhDcXJU?oc=5",
       "profile_id": "institutions/cern",
-      "published_at": "2026-10-20T08:23:18+00:00",
-      "publisher": "Kazakhstan Today",
+      "published_at": "2026-10-22T07:27:27+00:00",
+      "publisher": "Business Today",
       "search_query": "\"CERN\"",
       "source_country": "unknown",
-      "source_id": "d83493a659185eed7abb9d9a",
+      "source_id": "97849747e068a91c309837b1",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOeEdaX1FJYkM1eC1yMlcwQUk4ZkZ3NU1KSFpkRkdzc0pBMEw1el9xQmxuQlNkeklLaWw3bmtGVEJfOXlFVzNZeWFVYTliRzQ0UTZ3alZrN1F0MHpfZmloSVNfRERMdng0a1VSZF90SkRrLV91NGQ3T2ZEaVg5OVV3TGdOLVQwWjlUYVEzTV8tdlhtMkhFdWoxTzBR?oc=5",
+      "content_fingerprint": "1d29e4043d00af144f8a0d60",
+      "fetched_at": "2026-10-22T12:07:13.513816+00:00",
+      "institution_id": "cern",
+      "language": "en",
+      "observations": [
+        {
+          "collector": "google_news",
+          "language": "en",
+          "search_query": "\"CERN\"",
+          "search_region": "Europe",
+          "title": "CERN Mistral Partnership Targets a Shared Model for Collider Physics - remio"
+        }
+      ],
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOeEdaX1FJYkM1eC1yMlcwQUk4ZkZ3NU1KSFpkRkdzc0pBMEw1el9xQmxuQlNkeklLaWw3bmtGVEJfOXlFVzNZeWFVYTliRzQ0UTZ3alZrN1F0MHpfZmloSVNfRERMdng0a1VSZF90SkRrLV91NGQ3T2ZEaVg5OVV3TGdOLVQwWjlUYVEzTV8tdlhtMkhFdWoxTzBR?oc=5",
+      "profile_id": "institutions/cern",
+      "published_at": "2026-10-21T13:13:57+00:00",
+      "publisher": "remio",
+      "search_query": "\"CERN\"",
+      "source_country": "unknown",
+      "source_id": "ddc480ea6397c7a405480c87",
       "source_kind": "secondary",
       "source_seen_at": null
     }
@@ -202,13 +437,13 @@
       },
       {
         "error_code": null,
-        "items": 9,
+        "items": 8,
         "query": "\"CERN\"",
         "source": "google_news",
         "status": "ok"
       },
       {
-        "error_code": "HTTP_429",
+        "error_code": null,
         "items": 0,
         "query": "\"CERN\"",
         "source": "gdelt",
@@ -217,21 +452,21 @@
       {
         "items": 0,
         "source": "rss",
-        "status": "ok"
+        "status": "failed"
       }
     ],
-    "items": 2,
-    "sources": 2
+    "items": 5,
+    "sources": 5
   },
   "status": "partial",
   "time_window": {
-    "since": "2026-10-19T12:04:09.457779+00:00",
-    "until": "2026-10-21T12:04:09.457779+00:00"
+    "since": "2026-10-20T12:07:13.514877+00:00",
+    "until": "2026-10-22T12:07:13.514877+00:00"
   },
   "workflow": {
     "repository": "JsonLord/Horizon",
     "run_attempt": "1",
-    "run_id": "39596308546",
+    "run_id": "39775401954",
     "source_commit": "c9dcef30a10ffe67b8e399baea5c2a6787c7dfd2"
   }
 }
