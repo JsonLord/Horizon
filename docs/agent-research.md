@@ -230,3 +230,14 @@ Files created or modified for this gate:
 - `src/research/service.py`
 - `tests/test_funding.py`
 - `tests/test_research.py`
+
+
+Hosted verification observed on 2026-10-22 (Europe/Berlin): code commit
+`c8797d90a884294a9938579afe7df57883ec45ed` passed both push regression
+[39684017852](https://github.com/JsonLord/Horizon/actions/runs/39684017852) and PR
+regression [39684023925](https://github.com/JsonLord/Horizon/actions/runs/39684023925).
+The GitHub API reports both completed/success. Hosted log downloads are denied
+by the proxy at `results-receiver.actions.githubusercontent.com`, so hosted test
+counts were not independently read. The public intel tip remains
+`9eea5d06695c05f2c63738967ef31539974ba239`. Runtime configuration still lacks the
+saved funding-domain additions. PR #5 remains a draft; no activation is claimed.
