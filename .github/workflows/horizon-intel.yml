@@ -4,6 +4,10 @@ on:
     - cron: '23 6 * * *'
   workflow_dispatch:
     inputs:
+      funding_review_qualification:
+        description: Explicit isolated data-PR test with the automatic job token; never targets main
+        type: boolean
+        default: false
       funding_acceptance:
         description: Independent-run funding acceptance (also select funding_qualification)
         type: boolean
@@ -40,7 +44,7 @@ concurrency:
   cancel-in-progress: false
 jobs:
   collect:
-    if: inputs.program_qualification != true && inputs.funding_qualification != true && inputs.funding_acceptance != true
+    if: inputs.program_qualification != true && inputs.funding_qualification != true && inputs.funding_acceptance != true && inputs.funding_review_qualification != true
     runs-on: ubuntu-24.04
     timeout-minutes: 20
     steps:
@@ -188,5 +192,32 @@ jobs:
         with:
           name: funding-acceptance-proof
           path: data/funding-acceptance/proof.json
+          if-no-files-found: warn
+          retention-days: 14
+  funding-review-qualify:
+    if: inputs.funding_review_qualification == true && inputs.funding_qualification != true && inputs.program_qualification != true && github.event_name == 'workflow_dispatch' && github.ref == 'refs/heads/feature/program-intelligence-implementation'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    permissions:
+      contents: write
+      pull-requests: write
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.11'
+      - uses: astral-sh/setup-uv@v7
+      - run: uv sync --frozen
+      - name: Test an isolated draft data PR; production policy remains disabled
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: uv run python -m scripts.qualify_funding_review --live
+      - uses: actions/upload-artifact@v6
+        if: always()
+        with:
+          name: funding-review-token-proof
+          path: data/funding-review-qualification/proof.json
           if-no-files-found: warn
           retention-days: 14

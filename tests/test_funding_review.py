@@ -105,3 +105,19 @@ def test_complete_generated_tree_removes_obsolete_deadline_folder():
     publish(api,'second',complete_data_tree=True)
     assert old not in api.files
     assert any(e['path']==old and e['sha'] is None for e in api.pending['tree'])
+
+
+def test_automatic_token_qualification_rejects_main_before_network(monkeypatch):
+    from scripts.qualify_funding_review import qualify
+    monkeypatch.setenv('GITHUB_ACTIONS','true')
+    monkeypatch.setenv('GITHUB_REF','refs/heads/main')
+    with pytest.raises(PermissionError,match='restricted'):asyncio.run(qualify())
+
+
+def test_job_token_pr_policy_error_is_reported_without_raw_body(monkeypatch):
+    monkeypatch.setenv('GITHUB_TOKEN','test-placeholder')
+    async def run():
+        async with httpx.AsyncClient(transport=httpx.MockTransport(lambda r:httpx.Response(403,json={'message':'GitHub Actions is not permitted to create or approve pull requests.','extra':'PRIVATE'}))) as client:
+            return await ReviewAPI('JsonLord/Horizon',client).call('POST','pulls',{})
+    with pytest.raises(RuntimeError,match='actions_pr_creation_disabled') as exc:asyncio.run(run())
+    assert 'PRIVATE' not in str(exc.value)

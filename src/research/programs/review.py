@@ -64,7 +64,15 @@ class ReviewAPI:
                 return None
             if response.status_code >= 400:
                 # Do not expose raw GitHub bodies, request headers or token values.
-                raise RuntimeError(f"GitHub {method} failed with HTTP {response.status_code}; reconcile PR/ref state before retrying writes")
+                reason = ""
+                if len(response.content) < 10000:
+                    try:
+                        message = response.json().get("message")
+                    except (ValueError, AttributeError):
+                        message = None
+                    reason = {"GitHub Actions is not permitted to create or approve pull requests.": "actions_pr_creation_disabled",
+                              "Resource not accessible by integration": "integration_permission_denied"}.get(message, "")
+                raise RuntimeError(f"GitHub {method} failed with HTTP {response.status_code}; {reason or 'permission_or_api_rejection'}; reconcile PR/ref state before retrying writes")
             if len(response.content) > 2_000_000:
                 raise ValueError("Oversized GitHub response")
             return response.json() if response.content else {}
