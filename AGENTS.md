@@ -150,10 +150,11 @@ artifacts exclude the authored narrative; public notices contain bounded officia
 quotations and checksum proof. Recovery simulates a partial working-tree write,
 not process-kill atomicity. See scripts/qualify_funding_acceptance.py.
 
-`scripts/qualify_funding_review.py --live` is an explicit operator-only sandbox
+`scripts/qualify_funding_review.py --live` is an explicit authorized sandbox
 PR qualification: isolated automation/funding-acceptance-base-* target, never
-main/intel, data-only rendered queues and a draft PR marked DO NOT MERGE. It uses
-the existing operator identity, not an automatic Actions job token. Production
+main/intel, data-only rendered queues and a draft PR marked DO NOT MERGE. When run locally it uses
+the existing operator identity. Explicit hosted qualification uses the automatic
+job token as described below. Production
 PR creation remains disabled and default-branch guarded.
 
 `research/funding-de-eu/NOMINATION_REVIEWS.json` records manual nomination
@@ -162,3 +163,11 @@ nominations never authorize crawling or eligibility. Resolve official ownership
 and primary conditions before approving a source in the normal URL register.
 `uv run python -m scripts.check_funding_acceptance` checks local navigation,
 required folder contents, immutable IDs, checksummed history and classifications.
+
+An explicit `funding_review_qualification=true` dispatch of horizon-intel on the
+implementation branch tests a new isolated sandbox using the automatic job token.
+It is disabled by default, rejects main/fork/scheduled execution, suppresses normal
+collection/publication, and changes only generated queue JSON/Markdown through
+the same guarded writer. The proof notice reports success or the exact bounded
+GitHub permission failure; a completed qualification job with `status: blocked`
+is not successful PR publication. No token or repository setting is changed.

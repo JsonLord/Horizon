@@ -512,3 +512,122 @@ provide bounded independently retrievable evidence. Added optional native-model
 backoff); schema/identity failures do not retry and retain deterministic fallback.
 Initial focused checks: 21 passed (funding acceptance + model tests). Hosted
 qualification and remaining acceptance gates are in progress, not yet PASS.
+
+### Funding acceptance outcome — 23 October 2026
+
+Two **independent workflow dispatches** succeeded on immutable source b30b6b6:
+39795621057 (22 October) and 39934478478 (23 October), with different GitHub-hosted
+runner instance names. Run 2 restored real snapshot artifact 12433950391; the
+ZIP digest matches GitHub artifact metadata and the manifest hash matches run 1.
+It used run 1's report for comparison; histories EIC 4→5, IBB 3→4, KfW 4→5,
+without lost reviewed claims/deadlines or duplicate events. The simulated partial
+working-manifest write was rejected and the sealed checkpoint restored exactly;
+this is not a SIGKILL atomicity claim. Production collect/publish jobs skipped.
+Public proofs were retrieved via check-run annotations and saved in
+`funding-acceptance-run-1.json`, `funding-acceptance-run-2.json` and
+`funding-durability-qualification.json`. Full artifacts were not downloaded locally.
+
+IBB/EIC original partial status was **official_terms_need_reverification**:
+full-page hashes changed while every previously cited page quotation remained
+present. Both pages were actually accessible. On run 2 KfW also changed its raw
+page hash and conservatively required review. Rechecked quote resources with the
+actual 23 October observations were added to all three folders; historical
+resources/events remain. Founder-scenario explanations distinguish IBB's required
+completed establishment from EIC's natural-person short-proposal path / full GO
+gate. Uncited conditions and complete applicant eligibility remain unresolved;
+all three stay ELIGIBILITY_UNKNOWN and active count stays zero. EIC full cutoff
+remains 4 November 2026 17:00 Europe/Brussels; IBB/KfW deadlines remain UNKNOWN.
+Original authored source SHA remains 5a509f585d1e05eb996ab13bdff83064ea708f08db03ea4bfd79c22fe0d5ee65.
+
+All four public nominations were rechecked; article paths refused robots access.
+Four independent public RSS alternatives returned 200 but only news/aggregator
+references. No official canonical program URL, eligibility, condition or deadline
+was guessed. NOMINATION_REVIEWS records all four as pending, with reason codes;
+zero accepted/rejected/promoted. Shared storage now displays scenario/source
+review claims and nomination-review navigation. The new read-only audit validates
+required files, immutable checksummed history and 43 internal links; future new
+nominations default to pending rather than breaking the workflow.
+
+Controlled generated-data PR transport was factored into a common, guarded
+writer: stable owned marker, data-only paths, base/head SHA checks, non-force
+updates, no-change zero writes, no adoption of unowned or legacy branches, and
+full-tree removal of obsolete deadline folders. A real operator-authorized live
+qualification created **draft PR #6** against isolated
+`automation/funding-acceptance-base-b30b6b66ac18`, updated only queue JSON/Markdown,
+reused the same PR without duplicate/force and repeated with zero writes. The
+harness itself was repeated successfully. Its original empty baseline created no
+PR. Proof: `funding-review-qualification.json`. It used the existing operator
+identity, **not** automatic Actions GITHUB_TOKEN. Main-branch API reports
+`protected: false`; no branch protection was changed. HTTP 403/422 protections
+and racing heads are tested, not falsely reported as live production failures.
+The production proposal job remains disabled by both policy and main-ref guards.
+
+Both hosted model probes discovered the real native Laya contract but structured
+inference did not succeed after three attempts; deterministic fallback remained
+review-only and uncalibrated, with null probability. No private narrative or
+applicant facts were sent. No successful inference or exact upstream cause is
+invented. Funding rules do not consume/override eligibility with semantic scores.
+
+Final implementation tests: **432 passed in 5.11s** (0 failing), including funding,
+review, recovery and model regression checks. Both MCP smokes passed (24 tools /
+11 profiles); funding consistency, 43-link folder audit and source-index checks
+passed. actionlint 1.7.7 passed after re-downloading the official tool and checking
+its release SHA-256 (the resumed temporary binary was absent). Acceptance table,
+source timestamps, actual run URLs and exact remaining limits are in
+`FUNDING_RESEARCH_ACCEPTANCE.md`. Final hosted regressions are being checked on
+1f91795 before calling that gate complete. No merge, schedule activation,
+production intel write, credential/network change or force-push occurred.
+
+
+Final log-safety hardening: artifact restore failures discard signed redirect URLs,
+upstream response bodies and chained transport details. A negative test covers
+secret-bearing error context. Local full suite advanced to 433 passed; the explicit
+automatic-token sandbox mode and its main-ref/policy-error tests bring the final
+suite to **435 passed in 4.74s**. No failing tests remain; actionlint passes.
+
+Code 1f91795 passed hosted push/PR regressions 39937114243 / 39937120258 and normal
+read-only funding maintenance 39937114312. The signed-URL fix is a690a26.
+Additional opt-in job-token sandbox qualification is bdf7d83: explicit authorized
+workflow_dispatch on this implementation branch only, dedicated contents/PR-write
+job, data-only isolated acceptance base/head names; rejects main and mismatched
+source revision. Normal production collect/publish is skipped for that flag.
+The workflow requests no new external credential and changes no repository or
+network policy. The writer records known GitHub permission-policy errors using
+static reason codes, never raw API bodies. Its real job-token outcome is pending
+and must not be inferred from successful operator PR #6.
+
+
+Final automatic-token result: run **39990565222**, check 120540936023, completed
+its isolated test and emitted a **BLOCKED** PR-publication proof. The actual
+failure is POST /pulls HTTP 403, specifically actions_pr_creation_disabled
+(GitHub Actions cannot create/approve pull requests). This is not inferred from
+a skipped job or successful operator authentication. It did create isolated
+sandbox refs before the PR request; no PR exists for that head, only queue
+JSON/Markdown differ, and no production branch was touched. Those refs remain
+for manual reconciliation rather than automatic adoption/overwrite. A read of
+Actions workflow permission settings by the existing operator integration also
+returned HTTP 403 Resource not accessible by integration; enforcement location
+(repository/organization) cannot be established. No permission was changed.
+Evidence: funding-review-token-qualification.json. Gate E is PARTIAL, not PASS.
+
+Final code bdf7d83 passed hosted push regression 39990560292 and PR regression
+39990570621. Signed-URL patch regressions 39989900641 / 39989909381 passed.
+Final gate results: A PARTIAL, B PARTIAL, C PASS, D PASS, E PARTIAL, F PARTIAL,
+G PASS (checks/report completed, not production/research approval). PR #5 remains
+draft, ready for funding technical review with explicit external blockers.
+Local final suite: 435 passed in 4.74s; all MCP, consistency, navigation, index
+and lint checks passed. No merge, force push, schedule activation, intel
+publication or network/secrets/repository permission change was performed.
+
+
+Final generic-model inspection found the separate OpenAI-compatible selector had
+safe fallback but no transient retries. Added three bounded attempts for
+429/500/502/503/transport failures, without mutating findings until response
+validation. Four new tests verify identical retries, evidence preservation and
+sanitized fallback. No generic endpoint/model/key is configured; direct enrich([])
+returns deterministic fallback with no inference. Final suite is **439 passed in
+5.06s**; both MCP smoke checks, funding consistency, navigation/index checks and
+workflow lint were rerun and passed after that code change. Final code 805028e
+passed push regression **39991873667** and PR regression **39991878771**. The
+native-model live failure and GitHub-token PR policy block remain explicitly
+partial; no success is inferred from those completed qualification jobs.
