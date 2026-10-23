@@ -81,3 +81,17 @@ def test_navigation_audit_rejects_missing_local_targets(tmp_path):
     shutil.copytree(ROOT/'config',tmp_path/'config')
     (tmp_path/'Funding DK (DE missing).md').write_text('[Broken](does-not-exist.md)')
     with pytest.raises(ValueError,match='Broken'):audit(tmp_path)
+
+
+def test_snapshot_download_errors_never_expose_signed_urls(tmp_path,monkeypatch):
+    monkeypatch.setenv('GITHUB_REPOSITORY','JsonLord/Horizon')
+    def respond(request):
+        if request.url.path.endswith('/zip'):raise httpx.ReadTimeout('SIGNED URL SECRET')
+        if request.url.path.endswith('/artifacts'):
+            return httpx.Response(200,json={'artifacts':[{'id':7,'name':qa.NAME,'expired':False}]})
+        return httpx.Response(200,json={'head_sha':'a'*40,'head_branch':qa.BRANCH,'event':'workflow_dispatch','path':'.github/workflows/horizon-intel.yml','status':'completed','conclusion':'success'})
+    async def run():
+        async with httpx.AsyncClient(transport=httpx.MockTransport(respond)) as client:
+            return await qa.restore_previous(tmp_path,'1','a'*40,client)
+    with pytest.raises(RuntimeError,match='artifact transport') as exc:asyncio.run(run())
+    assert 'SECRET' not in str(exc.value) and exc.value.__suppress_context__

@@ -79,8 +79,10 @@ async def restore_previous(root, previous, source_sha, client):
     if not re.fullmatch(r'[0-9]{1,20}',previous):raise ValueError('Invalid previous run ID')
     repo=os.environ['GITHUB_REPOSITORY']
     async def get(path):
-        response=await client.get(f'https://api.github.com/repos/{repo}/{path}')
-        response.raise_for_status();return response.json()
+        try:response=await client.get(f'https://api.github.com/repos/{repo}/{path}')
+        except httpx.HTTPError:raise RuntimeError('Snapshot metadata transport unavailable') from None
+        if response.status_code>=400:raise RuntimeError('Snapshot metadata retrieval failed HTTP '+str(response.status_code))
+        return response.json()
     run=await get('actions/runs/'+previous)
     if run['head_sha']!=source_sha or run['head_branch']!=BRANCH or run['event']!='workflow_dispatch' or run['path']!='.github/workflows/horizon-intel.yml' or run['status']!='completed' or run['conclusion']!='success':
         raise ValueError('Prior run is not a successful same-revision qualification')
@@ -88,8 +90,9 @@ async def restore_previous(root, previous, source_sha, client):
     choices=[a for a in artifacts if a['name']==NAME and not a['expired']]
     if len(choices)!=1:raise ValueError('Need exactly one live funding snapshot artifact')
     artifact=choices[0]
-    response=await client.get(f'https://api.github.com/repos/{repo}/actions/artifacts/{artifact["id"]}/zip',follow_redirects=True)
-    response.raise_for_status()
+    try:response=await client.get(f'https://api.github.com/repos/{repo}/actions/artifacts/{artifact["id"]}/zip',follow_redirects=True)
+    except httpx.HTTPError:raise RuntimeError('Snapshot artifact transport unavailable; URL and response omitted') from None
+    if response.status_code>=400:raise RuntimeError('Snapshot artifact download failed HTTP '+str(response.status_code)+'; URL and response omitted')
     if len(response.content)>8_000_000:raise ValueError('Oversized snapshot ZIP')
     digest=hashlib.sha256(response.content).hexdigest()
     if artifact.get('digest') and artifact['digest']!='sha256:'+digest:raise ValueError('Artifact ZIP digest mismatch')
