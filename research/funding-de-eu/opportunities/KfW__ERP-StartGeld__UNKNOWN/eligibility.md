@@ -1,6 +1,6 @@
 # Eligibility
 
-Both company location and investment location must be in Germany. (geography)
+Both company location and investment location must be in Germany. (rechecked-geography)
 
 Natural persons planning an eligible establishment are listed; qualification, management, SME and bank credit requirements also apply. (applicants)
 

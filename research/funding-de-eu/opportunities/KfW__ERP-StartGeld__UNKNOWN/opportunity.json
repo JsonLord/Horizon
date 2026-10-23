@@ -22,7 +22,7 @@
   ],
   "application_status": "UNKNOWN",
   "archived": false,
-  "checked_at": "2026-10-22T02:57:10.719477Z",
+  "checked_at": "2026-10-23T09:48:16.575391Z",
   "claims": {
     "application_steps": {
       "evidence_ids": [
@@ -38,7 +38,7 @@
     },
     "geography": {
       "evidence_ids": [
-        "geography"
+        "rechecked-geography"
       ],
       "value": "Both company location and investment location must be in Germany."
     },
@@ -50,9 +50,15 @@
     },
     "required_documents": {
       "evidence_ids": [
-        "businessplan"
+        "rechecked-businessplan"
       ],
       "value": "Business plan for the financing-partner meeting; the page also links SME declarations, de-minimis declaration and credit-check consent. Listed planning templates are optional."
+    },
+    "source_review": {
+      "evidence_ids": [
+        "rechecked-program"
+      ],
+      "value": "Official page accessible; every previously cited page quotation was still present at 2026-10-23T09:48:16.575391+00:00. Full-page hash changed. Full eligibility and possible uncited term changes still require review."
     },
     "unincorporated": {
       "evidence_ids": [
@@ -61,7 +67,7 @@
       "value": "Natural persons planning an eligible establishment are listed; qualification, management, SME and bank credit requirements also apply."
     }
   },
-  "collection_error": "local_dns_unavailable",
+  "collection_error": "official_terms_need_reverification",
   "conditions": [
     {
       "accepted_values": [
@@ -210,6 +216,36 @@
       "title": "Datenliste subventionserhebliche Tatsachen (PDF, 34 KB, barrierefrei)",
       "url": "https://www.kfw.de/PDF/Download-Center/Förderprogramme-(Inlandsförderung)/PDF-Dokumente/6000004933_Infoblatt_Datenliste_067.pdf",
       "verified": false
+    },
+    {
+      "content_sha256": "16ff6adaf62d0677c47e922307e69bd24411a38b43e7708c46bc80d0fe61585d",
+      "kind": "program",
+      "quotation": "Kredit Nr. 067 ERP-Gründerkredit – StartGeld",
+      "resource_id": "rechecked-program",
+      "retrieved_at": "2026-10-23T09:48:16.575391Z",
+      "title": "ERP-StartGeld — program",
+      "url": "https://www.kfw.de/inlandsfoerderung/Unternehmen/Gr%C3%BCnden-Nachfolgen/F%C3%B6rderprodukte/ERP-Gr%C3%BCnderkredit-Startgeld-(067)/",
+      "verified": true
+    },
+    {
+      "content_sha256": "16ff6adaf62d0677c47e922307e69bd24411a38b43e7708c46bc80d0fe61585d",
+      "kind": "program",
+      "quotation": "Sowohl der Sitz des Unter­nehmens als auch der Ort der Investition muss sich in Deutsch­land befinden. Das Förderprodukt kommt nicht in Frage für: mittlere und große Unternehmen ‍ ‌ Unternehmen, die vor mehr als fünf Jahren ihre Geschäftstätigkeit aufgenommen haben. Diese fördern wir mit anderen Förderprodukten wie dem ERP-Förderkredit KMU (365, 366) . Konditionen Zinssätze und Laufzeiten Mindest­laufzeit zwei Jahre Zinsbindung über die gesamte K",
+      "resource_id": "rechecked-geography",
+      "retrieved_at": "2026-10-23T09:48:16.575391Z",
+      "title": "ERP-StartGeld — geography",
+      "url": "https://www.kfw.de/inlandsfoerderung/Unternehmen/Gr%C3%BCnden-Nachfolgen/F%C3%B6rderprodukte/ERP-Gr%C3%BCnderkredit-Startgeld-(067)/",
+      "verified": true
+    },
+    {
+      "content_sha256": "16ff6adaf62d0677c47e922307e69bd24411a38b43e7708c46bc80d0fe61585d",
+      "kind": "program",
+      "quotation": "Benötige ich einen Businessplan um den Antrag zu stellen? Ja, bitte bringen Sie diesen zu Ihrem Gespräch mit dem entsprechenden Finanzierungs­partner mit. Der Business­plan sollte eine Beschreibung Ihrer Geschäfts­idee, also die Idee, mit der Sie sich selbst­ständig machen, umfassen. Sie stellen dar, wie Sie Ihre Geschäfts­idee verwirklichen wollen und dass Ihr Projekt Erfolg verspricht und es sinnvoll ist, in Ihre Idee zu investieren. Sie nennen",
+      "resource_id": "rechecked-businessplan",
+      "retrieved_at": "2026-10-23T09:48:16.575391Z",
+      "title": "ERP-StartGeld — businessplan",
+      "url": "https://www.kfw.de/inlandsfoerderung/Unternehmen/Gr%C3%BCnden-Nachfolgen/F%C3%B6rderprodukte/ERP-Gr%C3%BCnderkredit-Startgeld-(067)/",
+      "verified": true
     }
   ],
   "schema_version": "1.0"

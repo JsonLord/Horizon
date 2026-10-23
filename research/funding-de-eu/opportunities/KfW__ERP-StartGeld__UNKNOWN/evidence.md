@@ -88,6 +88,30 @@ Verified: False; retrieved: UNKNOWN; SHA-256: UNKNOWN
 
 No official evidence retrieved.
 
+## rechecked-program
+
+[ERP-StartGeld — program](https://www.kfw.de/inlandsfoerderung/Unternehmen/Gr%C3%BCnden-Nachfolgen/F%C3%B6rderprodukte/ERP-Gr%C3%BCnderkredit-Startgeld-%28067%29/)
+
+Verified: True; retrieved: 2026-10-23T09:48:16.575391+00:00; SHA-256: 16ff6adaf62d0677c47e922307e69bd24411a38b43e7708c46bc80d0fe61585d
+
+Kredit Nr. 067 ERP-Gründerkredit – StartGeld
+
+## rechecked-geography
+
+[ERP-StartGeld — geography](https://www.kfw.de/inlandsfoerderung/Unternehmen/Gr%C3%BCnden-Nachfolgen/F%C3%B6rderprodukte/ERP-Gr%C3%BCnderkredit-Startgeld-%28067%29/)
+
+Verified: True; retrieved: 2026-10-23T09:48:16.575391+00:00; SHA-256: 16ff6adaf62d0677c47e922307e69bd24411a38b43e7708c46bc80d0fe61585d
+
+Sowohl der Sitz des Unter­nehmens als auch der Ort der Investition muss sich in Deutsch­land befinden. Das Förderprodukt kommt nicht in Frage für: mittlere und große Unternehmen ‍ ‌ Unternehmen, die vor mehr als fünf Jahren ihre Geschäftstätigkeit aufgenommen haben. Diese fördern wir mit anderen Förderprodukten wie dem ERP-Förderkredit KMU (365, 366) . Konditionen Zinssätze und Laufzeiten Mindest­laufzeit zwei Jahre Zinsbindung über die gesamte K
+
+## rechecked-businessplan
+
+[ERP-StartGeld — businessplan](https://www.kfw.de/inlandsfoerderung/Unternehmen/Gr%C3%BCnden-Nachfolgen/F%C3%B6rderprodukte/ERP-Gr%C3%BCnderkredit-Startgeld-%28067%29/)
+
+Verified: True; retrieved: 2026-10-23T09:48:16.575391+00:00; SHA-256: 16ff6adaf62d0677c47e922307e69bd24411a38b43e7708c46bc80d0fe61585d
+
+Benötige ich einen Businessplan um den Antrag zu stellen? Ja, bitte bringen Sie diesen zu Ihrem Gespräch mit dem entsprechenden Finanzierungs­partner mit. Der Business­plan sollte eine Beschreibung Ihrer Geschäfts­idee, also die Idee, mit der Sie sich selbst­ständig machen, umfassen. Sie stellen dar, wie Sie Ihre Geschäfts­idee verwirklichen wollen und dass Ihr Projekt Erfolg verspricht und es sinnvoll ist, in Ihre Idee zu investieren. Sie nennen
+
 ## Access diagnostics (not funding evidence)
 
 ```json

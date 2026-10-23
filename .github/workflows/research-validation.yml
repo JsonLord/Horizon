@@ -31,6 +31,8 @@ jobs:
       - run: uv run --extra dev pytest
       - name: Verify deterministic funding projections without network
         run: uv run python -m scripts.research_funding check
+      - name: Audit funding folders, history and local navigation
+        run: uv run python -m scripts.check_funding_acceptance
       - name: Validate the authored funding starting point and research policy
         run: uv run python -m scripts.funding_research index --check
       - name: Credential-free legacy and stdio smoke checks

@@ -47,6 +47,9 @@ def render(record, applicant):
         overview += "Deadline scope: **" + claim(record, "deadline_scope") + "**\n\nDeadline time: " + claim(record, "deadline_time") + "\n\n"
     fields = {"Funding amount and type": "funding", "Equity, repayment and co-financing": "obligations", "Berlin / Germany / EU eligibility": "geography", "Unincorporated founder eligibility": "unincorporated", "AI / software suitability": "software_ai", "Research project suitability": "research", "Financing assessment": "financing"}
     overview += "\n".join(f"- {label}: {claim(record, key)}" for label, key in fields.items())
+    for key, label in (("founder_scenario", "Unincorporated founder scenario"), ("short_proposal_status", "Short proposal status"), ("source_review", "Latest source review")):
+        if key in record.claims:
+            overview += "\n- " + label + ": " + claim(record, key)
     overview += "\n- Collection limitation: " + text(record.collection_error or "None reported")
     overview += f"\n- Relevance score: {record.relevance_score if record.relevance_score is not None else 'UNKNOWN'} (heuristic, not a probability)\n- Financing suitability: {record.financing_suitability}\n- Score explanation: {text(record.relevance_explanation or 'Not scored')}\n\n"
     overview += "## Hard conditions\n\n" + ("\n".join("- " + text(c.description) + " (" + ", ".join(c.evidence_ids) + ")" for c in record.conditions) or "UNKNOWN — official conditions not fully verified")
@@ -162,6 +165,8 @@ class OpportunityFolderStorage:
         starting_links = []
         if (self.root / "Funding DK (DE missing).md").is_file():
             starting_links.append("[Authored starting document](Funding%20DK%20%28DE%20missing%29.md)")
+        if (self.root / "NOMINATION_REVIEWS.md").is_file():
+            starting_links.append("[Nomination qualification](NOMINATION_REVIEWS.md)")
         if (self.root / "RESEARCH_UPDATES.md").is_file():
             starting_links.append("[Research queue and new nominations](RESEARCH_UPDATES.md)")
         atomic(self.root / "README.md", "# Denmark / Germany / EU funding knowledge base\n\n" + (" · ".join(starting_links) + "\n\n" if starting_links else "") + "Generated from each folder's `opportunity.json` and the applicant policy. Unknown facts remain unknown. Application status and founder eligibility are separate. Relevance scores never override hard conditions.\n\n[Active opportunities](ACTIVE_OPPORTUNITIES.md) · [Review required](REVIEW_REQUIRED.md) · [Archived / future rounds](ARCHIVED_OPPORTUNITIES.md) · [Machine index](index.json)\n\nFolders change with verified deadlines; stable IDs and append-only events preserve history. External documents are linked, not copied. See the repository AGENTS.md for updating sources and steering research.\n")

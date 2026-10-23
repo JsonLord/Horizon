@@ -47,7 +47,7 @@ def notice(title, value):
 
 def snapshot_path(name):
     p = PurePosixPath(name)
-    return not p.is_absolute() and '..' not in p.parts and '\\' not in name and (name.startswith('intel/') and p.suffix in {'.json', '.md', '.jsonl'} or allowed_path(name) and name.startswith('research/'))
+    return not p.is_absolute() and '..' not in p.parts and '\\' not in name and (name.startswith('intel/') and p.suffix in {'.json', '.md', '.jsonl'} or allowed_path(name) and name.startswith('research/') or name in {'research/funding-de-eu/NOMINATION_REVIEWS.json','research/funding-de-eu/NOMINATION_REVIEWS.md'})
 
 
 def seal(root, source_sha, run_id):

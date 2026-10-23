@@ -100,8 +100,7 @@ review, scheduling can run Monday 07:17 UTC. The optional PR job runs only from
 reviewed main-branch workflow code, validates the source SHA and seed fingerprint,
 re-renders structured artifacts, and creates a new data-only draft PR using the
 automatic GITHUB_TOKEN. It never force-updates a ref, edits the authored document,
-merges, or publishes the production intel branch. An existing funding proposal
-stays pending review instead of being overwritten.
+merges, or publishes the production intel branch. An owned, marked funding draft PR is updated through a non-force fast-forward after checking its head SHA and data-only diff. Identical content causes zero writes. Unmarked/legacy proposals remain pending manual reconciliation; they are never adopted or duplicated.
 Relevant pushes on the current implementation branch also run read-only research
 for development validation; the privileged proposal job cannot run there.
 
@@ -140,3 +139,26 @@ Run `uv sync --frozen --extra dev`, `uv run --extra dev pytest`,
 also needs its existing example/local config. Regenerate affected JSON schemas
 from their Pydantic models after changing contracts. Record progress, actual
 verification dates, test results and access blockers in `docs/agent-research.md`.
+
+## Funding acceptance qualification
+
+Use `funding_qualification=true` plus `funding_acceptance=true` when dispatching
+horizon-intel on the implementation branch. Dispatch again at the same source
+revision with `previous_run_id` to restore its validated snapshot on a fresh
+hosted runner. Both production collect/publish jobs stay skipped. Snapshot
+artifacts exclude the authored narrative; public notices contain bounded official
+quotations and checksum proof. Recovery simulates a partial working-tree write,
+not process-kill atomicity. See scripts/qualify_funding_acceptance.py.
+
+`scripts/qualify_funding_review.py --live` is an explicit operator-only sandbox
+PR qualification: isolated automation/funding-acceptance-base-* target, never
+main/intel, data-only rendered queues and a draft PR marked DO NOT MERGE. It uses
+the existing operator identity, not an automatic Actions job token. Production
+PR creation remains disabled and default-branch guarded.
+
+`research/funding-de-eu/NOMINATION_REVIEWS.json` records manual nomination
+qualification, reason codes and unknown official sources. Unverified/rejected
+nominations never authorize crawling or eligibility. Resolve official ownership
+and primary conditions before approving a source in the normal URL register.
+`uv run python -m scripts.check_funding_acceptance` checks local navigation,
+required folder contents, immutable IDs, checksummed history and classifications.

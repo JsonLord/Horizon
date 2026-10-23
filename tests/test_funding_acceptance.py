@@ -63,3 +63,21 @@ def test_model_check_uses_real_public_contract_dto_and_fallback(monkeypatch):
     assert result['inference']['fallback']=='deterministic'
     assert not result['inference']['inference_succeeded']
     assert result['fallback_score']['hard_eligibility']=='review_required'
+
+
+def test_committed_funding_folder_navigation_and_nomination_contract():
+    from scripts.check_funding_acceptance import audit
+    result=audit()
+    assert result['opportunities']>=1
+    assert sum(result['eligibility_counts'].values())==result['opportunities']
+    assert result['nomination_counts']['pending']>=0
+    assert result['local_links_checked']>30
+
+
+def test_navigation_audit_rejects_missing_local_targets(tmp_path):
+    from scripts.check_funding_acceptance import audit
+    from src.research.profiles import ROOT
+    shutil.copytree(ROOT/'research',tmp_path/'research')
+    shutil.copytree(ROOT/'config',tmp_path/'config')
+    (tmp_path/'Funding DK (DE missing).md').write_text('[Broken](does-not-exist.md)')
+    with pytest.raises(ValueError,match='Broken'):audit(tmp_path)

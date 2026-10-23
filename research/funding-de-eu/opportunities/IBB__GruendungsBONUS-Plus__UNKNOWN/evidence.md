@@ -64,6 +64,38 @@ Verified: False; retrieved: UNKNOWN; SHA-256: UNKNOWN
 
 No official evidence retrieved.
 
+## rechecked-program
+
+[GruendungsBONUS Plus — program](https://www.ibb.de/de/foerderprogramme/gruendungsbonus-plus.html)
+
+Verified: True; retrieved: 2026-10-23T09:48:15.012153+00:00; SHA-256: 52919ae32dfd3feae06714d39327e692ed81e83cfe918f9eb51dc649b365a595
+
+GründungsBONUS Plus
+
+## rechecked-applications
+
+[GruendungsBONUS Plus — applications](https://www.ibb.de/de/foerderprogramme/gruendungsbonus-plus.html)
+
+Verified: True; retrieved: 2026-10-23T09:48:15.012153+00:00; SHA-256: 52919ae32dfd3feae06714d39327e692ed81e83cfe918f9eb51dc649b365a595
+
+Ab sofort können wieder Anträge für das Förderprogramm GründungsBONUS Plus eingereicht werden. &quot;GründungsBONUS Plus&quot; auf einen Blick Existenzgründungszuschuss Unternehmensalter maximal 18 Monate 50% Förderung der Gründungskosten bis maximal 50.000 EUR Finanzierung nahezu sämtlicher Kosten der Startphase mit dem Mikrokredit kombinierbar &quot;GründungsBONUS Plus&quot; im Detail Wer wird gefördert? Rechtlich selbstständige, auf Gewinnerzielung ausgerichtete
+
+## rechecked-application
+
+[GruendungsBONUS Plus — application](https://www.ibb.de/de/foerderprogramme/gruendungsbonus-plus.html)
+
+Verified: True; retrieved: 2026-10-23T09:48:15.012153+00:00; SHA-256: 52919ae32dfd3feae06714d39327e692ed81e83cfe918f9eb51dc649b365a595
+
+Eine Förderung für Ihren Geschäftsaufbau kann bei der IBB Business Team GmbH elektronisch beantragt werden. Das elektronische Antragssystem sowie weitere Hinweise zur Beantragung finden Sie unter ibb-business-team.de/gruendungsbonus-plus . Bitte beachten Sie, dass nur Ausgaben für Investitionen gefördert werden, für die zum Zeitpunkt des Antragseingangs noch keine Lieferungs- bzw. Leistungsverträge geschlossen wurden. Sprechen Sie uns bitte so fr
+
+## rechecked-software
+
+[GruendungsBONUS Plus — software](https://www.ibb.de/de/foerderprogramme/gruendungsbonus-plus.html)
+
+Verified: True; retrieved: 2026-10-23T09:48:15.012153+00:00; SHA-256: 52919ae32dfd3feae06714d39327e692ed81e83cfe918f9eb51dc649b365a595
+
+Es muss sich um ein technologisches, digitales, kreatives oder soziales Geschäftsmodell handeln. Ein erkennbares positives Markt- und Wachstumspotenzial für den Standort soll erkennbar sein. Hauptsitz und ggf. die geförderte Betriebsstätte müssen für mindestens 3 Jahre nach Abschlusszahlung in Berlin verbleiben und betrieben werden. Was wird gefördert? Material- und Investitionskosten laufende Betriebsausgaben Personalkosten (Arbeitnehmerbrutto),
+
 ## Access diagnostics (not funding evidence)
 
 ```json

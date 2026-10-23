@@ -8,18 +8,20 @@ Application status: **OPEN**
 
 Deadline: **UNKNOWN**; timezone: UNKNOWN
 
-Last official verification: 2026-10-22T02:55:17.614019+00:00
+Last official verification: 2026-10-23T09:48:15.012153+00:00
 
-Last collection attempt: 2026-10-22T02:57:09.894073+00:00
+Last collection attempt: 2026-10-23T09:48:15.012153+00:00
 
 - Funding amount and type: Grant covering 50% of eligible expenditure, capped at EUR 50,000; costs must satisfy the guideline. (funding)
 - Equity, repayment and co-financing: Conditionally repayable, purpose-bound project grant, paid as partial financing. This is not an unconditional non-repayable award. (obligations, funding)
 - Berlin / Germany / EU eligibility: Headquarters in Berlin and completed establishment required at application; age no more than 18 months. (geography)
 - Unincorporated founder eligibility: Establishment must already be completed at application; not eligible merely on intent to form. (geography)
-- AI / software suitability: Digital/technological business models are listed; AI relevance does not itself establish eligibility. (software)
+- AI / software suitability: Digital/technological business models are listed; AI relevance does not itself establish eligibility. (rechecked-software)
 - Research project suitability: UNKNOWN — not verified
 - Financing assessment: UNKNOWN — not verified
-- Collection limitation: local_dns_unavailable
+- Unincorporated founder scenario: An unincorporated Berlin-based AI software founder cannot treat intent to form as completed establishment. Complete eligible establishment before application, meet the Berlin/18-month conditions and verify remaining requirements. Overall eligibility remains UNKNOWN. No fixed deadline is verified. (geography, rechecked-applications, rechecked-software)
+- Latest source review: Official page accessible; every previously cited page quotation was still present at 2026-10-23T09:48:15.012153+00:00. Full-page hash changed. Full eligibility and possible uncited term changes still require review. (rechecked-program)
+- Collection limitation: official_terms_need_reverification
 - Relevance score: UNKNOWN (heuristic, not a probability)
 - Financing suitability: unknown
 - Score explanation: Not scored
@@ -59,5 +61,9 @@ Review official eligibility and resolve missing facts
 - [GruendungsBONUS Plus — application](https://www.ibb.de/de/foerderprogramme/gruendungsbonus-plus.html) — program; verified
 - [GruendungsBONUS Plus — software](https://www.ibb.de/de/foerderprogramme/gruendungsbonus-plus.html) — program; verified
 - [Application information linked by IBB](https://www.ibb-business-team.de/gruendungsbonus-plus) — application; UNVERIFIED candidate URL
+- [GruendungsBONUS Plus — program](https://www.ibb.de/de/foerderprogramme/gruendungsbonus-plus.html) — program; verified
+- [GruendungsBONUS Plus — applications](https://www.ibb.de/de/foerderprogramme/gruendungsbonus-plus.html) — program; verified
+- [GruendungsBONUS Plus — application](https://www.ibb.de/de/foerderprogramme/gruendungsbonus-plus.html) — program; verified
+- [GruendungsBONUS Plus — software](https://www.ibb.de/de/foerderprogramme/gruendungsbonus-plus.html) — program; verified
 
 [Eligibility](eligibility.md) · [Benefits and costs](benefits-and-costs.md) · [Application guide](application-guide.md) · [Required documents](required-documents.md) · [Evidence](evidence.md) · [Resource register](resources/links.json)

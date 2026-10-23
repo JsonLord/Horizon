@@ -24,65 +24,85 @@
   ],
   "application_status": "UNKNOWN",
   "archived": false,
-  "checked_at": "2026-10-22T02:57:17.225058Z",
+  "checked_at": "2026-10-23T09:48:17.679157Z",
   "claims": {
     "application_steps": {
       "evidence_ids": [
-        "short-proposal"
+        "rechecked-short-proposal"
       ],
       "value": "Short proposal first (form, pitch deck and video); full proposal requires a GO decision, followed by assessment/interview and financing-specific steps."
     },
     "deadline": {
       "evidence_ids": [
-        "full-proposal-dates"
+        "rechecked-full-proposal-dates"
       ],
       "value": "2026-11-04"
     },
     "deadline_scope": {
       "evidence_ids": [
-        "full-proposal-gate",
-        "short-proposal"
+        "rechecked-full-proposal-gate",
+        "rechecked-short-proposal"
       ],
       "value": "2026 full proposal (Step 2), requiring GO on the short proposal; short proposals are submitted separately on a rolling basis."
     },
     "deadline_time": {
       "evidence_ids": [
-        "full-proposal-dates"
+        "rechecked-full-proposal-dates"
       ],
       "value": "17:00 Brussels time"
     },
     "deadline_timezone": {
       "evidence_ids": [
-        "full-proposal-dates"
+        "rechecked-full-proposal-dates"
       ],
       "value": "Europe/Brussels"
     },
+    "founder_scenario": {
+      "evidence_ids": [
+        "rechecked-natural-persons",
+        "rechecked-funding",
+        "rechecked-full-proposal-gate"
+      ],
+      "value": "Natural persons willing to establish an SME are listed. A Berlin AI software idea alone proves neither TRL 6–8 innovation nor full eligibility. Short proposal comes first; a GO is needed for the full proposal. Overall eligibility remains UNKNOWN."
+    },
     "funding": {
       "evidence_ids": [
-        "funding"
+        "rechecked-funding"
       ],
       "value": "Grant component below EUR 2.5 million for TRL 6–8 innovation activities; investment component EUR 1–10 million is a separate financing component."
     },
     "geography": {
       "evidence_ids": [
-        "geography"
+        "rechecked-geography"
       ],
       "value": "Applicants from EU Member States and Horizon Europe associated countries, subject to applicant-type and scheme conditions; third-country relocation rules apply."
     },
     "obligations": {
       "evidence_ids": [
-        "equity"
+        "rechecked-equity"
       ],
       "value": "Blended finance may include direct equity or quasi-equity such as convertible loans; grant-only and investment-only pathways differ."
     },
+    "short_proposal_status": {
+      "evidence_ids": [
+        "rechecked-short-proposal"
+      ],
+      "value": "Short proposals may be submitted at any time, with monthly batching. This is distinct from the full-proposal cutoff and is not a verified complete applicant eligibility decision."
+    },
+    "source_review": {
+      "evidence_ids": [
+        "rechecked-program"
+      ],
+      "value": "Official page accessible; every previously cited page quotation was still present at 2026-10-23T09:48:17.679157+00:00. Full-page hash changed. Full eligibility and possible uncited term changes still require review."
+    },
     "unincorporated": {
       "evidence_ids": [
-        "natural-persons"
+        "rechecked-natural-persons"
       ],
       "value": "Natural persons willing to establish an SME are listed; third-country relocation must precede the full application where applicable. Full eligibility is not established."
     }
   },
-  "collection_error": "local_dns_unavailable",
+  "collection_error": "official_terms_need_reverification",
   "conditions": [],
   "deadline": "2026-11-04",
   "deadline_kind": "date",
@@ -199,6 +219,86 @@
       "title": "Funding and Tenders portal linked by EIC (navigation query omitted; HEAD 200)",
       "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-EIC-2026-ACCELERATOR-01",
       "verified": false
+    },
+    {
+      "content_sha256": "3d43c7e8269fa4fa2dd8c36db78ef86ea7816709d8e65f05a324df2bba18118c",
+      "kind": "program",
+      "quotation": "EIC Accelerator",
+      "resource_id": "rechecked-program",
+      "retrieved_at": "2026-10-23T09:48:17.679157Z",
+      "title": "EIC-Accelerator — program",
+      "url": "https://eic.ec.europa.eu/eic-funding-opportunities/eic-accelerator_en",
+      "verified": true
+    },
+    {
+      "content_sha256": "3d43c7e8269fa4fa2dd8c36db78ef86ea7816709d8e65f05a324df2bba18118c",
+      "kind": "program",
+      "quotation": "Grant funding Lump sum contribution below € 2.5 million , for innovation activities (TRL 6-8), to be completed within 24 months. Grant only - for start-ups and SMEs with capacity to scale-up. To be provided only once during the implementation period of the Horizon Europe programme (2021-2027) Investment component To fill the gap for high - risk innovation to a stage where they can be fully financed by other investments. €1 - €10 million . Higher ",
+      "resource_id": "rechecked-funding",
+      "retrieved_at": "2026-10-23T09:48:17.679157Z",
+      "title": "EIC-Accelerator — funding",
+      "url": "https://eic.ec.europa.eu/eic-funding-opportunities/eic-accelerator_en",
+      "verified": true
+    },
+    {
+      "content_sha256": "3d43c7e8269fa4fa2dd8c36db78ef86ea7816709d8e65f05a324df2bba18118c",
+      "kind": "program",
+      "quotation": "Blended finance: a grant component & direct equity or quasi-equity such as convertible loans. Investment only: for companies looking to scale-up rapidly and don’t need a grant EIC Accelerator Challenges For projects that match any of the pre-defined topics of the EIC Accelerator Challenges. The overall budget in 2026 is €220 million. Accelerator Challenges EIC Accelerator Open For projects that don't match the EIC Accelerator topics, the EIC Acce",
+      "resource_id": "rechecked-equity",
+      "retrieved_at": "2026-10-23T09:48:17.679157Z",
+      "title": "EIC-Accelerator — equity",
+      "url": "https://eic.ec.europa.eu/eic-funding-opportunities/eic-accelerator_en",
+      "verified": true
+    },
+    {
+      "content_sha256": "3d43c7e8269fa4fa2dd8c36db78ef86ea7816709d8e65f05a324df2bba18118c",
+      "kind": "program",
+      "quotation": "Applicants from EU Member States and countries associated to the Horizon Europe programme: Single start-up or SME (including spin-outs) Small mid-caps (up to 499 employees) in need of rapid scale up of the TRL 9 activity. Mid-caps can apply for investment only. Natural persons or legal entities willing to set up an SMEs or a mid-cap. Applicants from third countries: Applicants from third countries may relocate their company in order to become eli",
+      "resource_id": "rechecked-geography",
+      "retrieved_at": "2026-10-23T09:48:17.679157Z",
+      "title": "EIC-Accelerator — geography",
+      "url": "https://eic.ec.europa.eu/eic-funding-opportunities/eic-accelerator_en",
+      "verified": true
+    },
+    {
+      "content_sha256": "3d43c7e8269fa4fa2dd8c36db78ef86ea7816709d8e65f05a324df2bba18118c",
+      "kind": "program",
+      "quotation": "Natural persons or legal entities willing to set up an SMEs or a mid-cap. Applicants from third countries: Applicants from third countries may relocate their company in order to become eligible. This must be done before submitting the full application (Step 2). Applicants from the United Kingdom can only apply for the \"grant only\" scheme Concurrent applications: Applicants may submit only one application to the EIC Accelerator. Additional applica",
+      "resource_id": "rechecked-natural-persons",
+      "retrieved_at": "2026-10-23T09:48:17.679157Z",
+      "title": "EIC-Accelerator — natural-persons",
+      "url": "https://eic.ec.europa.eu/eic-funding-opportunities/eic-accelerator_en",
+      "verified": true
+    },
+    {
+      "content_sha256": "3d43c7e8269fa4fa2dd8c36db78ef86ea7816709d8e65f05a324df2bba18118c",
+      "kind": "program",
+      "quotation": "Short proposals may be submitted at any time and will be batched for evaluation every first Tuesday of the month at 5pm Brussels time. The proposal will be evaluated remotely by 4 EIC expert evaluators ; A short 12-page form where you must summarise your proposal and respond to a set of questions on your innovation, your potential market and your team; A pitch-deck of up to ten slides in PDF format; A video pitch of up to three minutes where the ",
+      "resource_id": "rechecked-short-proposal",
+      "retrieved_at": "2026-10-23T09:48:17.679157Z",
+      "title": "EIC-Accelerator — short-proposal",
+      "url": "https://eic.ec.europa.eu/eic-funding-opportunities/eic-accelerator_en",
+      "verified": true
+    },
+    {
+      "content_sha256": "3d43c7e8269fa4fa2dd8c36db78ef86ea7816709d8e65f05a324df2bba18118c",
+      "kind": "program",
+      "quotation": "If your short proposal receives a GO, you can submit your full proposal to any of the 2026 batching dates. Prepare your full proposal on Funding and Tenders portal. The full proposal consists of a 20 page form expanding on the short proposal template , pitch deck in PDF, implementation plan, financial information, Letters of Intent, FTO analysis & a 3 minutes video pitch. Proposals will be assessed in parallel by a technology expert and an evalua",
+      "resource_id": "rechecked-full-proposal-gate",
+      "retrieved_at": "2026-10-23T09:48:17.679157Z",
+      "title": "EIC-Accelerator — full-proposal-gate",
+      "url": "https://eic.ec.europa.eu/eic-funding-opportunities/eic-accelerator_en",
+      "verified": true
+    },
+    {
+      "content_sha256": "3d43c7e8269fa4fa2dd8c36db78ef86ea7816709d8e65f05a324df2bba18118c",
+      "kind": "program",
+      "quotation": "Proposals will be batched for evaluation at 5pm Brussels time on the following dates: 7/01/2026 04/03/2026 06/05/2026 08/07/2026 02/09/2026 04/11/2026 Step 3 Pitch your innovation After each second batch, an interview session will be organised. If you are invited to an interview with an EIC jury, you will receive more detailed information on the timing and format of the interview. You will receive the interview results within 2–3 weeks of the end",
+      "resource_id": "rechecked-full-proposal-dates",
+      "retrieved_at": "2026-10-23T09:48:17.679157Z",
+      "title": "EIC-Accelerator — full-proposal-dates",
+      "url": "https://eic.ec.europa.eu/eic-funding-opportunities/eic-accelerator_en",
+      "verified": true
     }
   ],
   "schema_version": "1.0"

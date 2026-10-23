@@ -1,0 +1,132 @@
+{
+  "schema_version": "1.0",
+  "accepted": 0,
+  "rejected": 0,
+  "pending": 4,
+  "reviews": [
+    {
+      "candidate_id": "89c041a01a7d79146cc55e3a",
+      "headline": "Bang & Olufsen Backs SoundInvest Fund II as Soundtech Startup Fund Secures \u20ac2.9 Million - audioXpress",
+      "review_status": "pending",
+      "reason_codes": [
+        "ROBOTS_DISALLOWED",
+        "OFFICIAL_SOURCE_UNRESOLVED",
+        "FUND_FUNDRAISING_HEADLINE"
+      ],
+      "observed_at": "2026-10-23T09:48:17.876653+00:00",
+      "attempted_url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNMXExMWtCMV94V29YMENzUmo4dlZsTXlWV2E3bXFqY2hzdTlISHZ4Ry1neWtQazExQlFaLUhpcmFYa1pIMmV5OVFQZXZoVGFWVTdhX1NiSUk4OWVFbFBqbU9lU3dsM2lCcXdwV1g1MnVwenA1WUlubGZxd2x0bDhnWHg3V1B0ODN4QkR5NHB3UFEyeC1salc0RmpFczZkQ2hORFg1TmxjV0wyb3hhVmc",
+      "official_provider": null,
+      "canonical_official_url": null,
+      "verified_distinct_opportunity": false,
+      "instrument": "UNKNOWN",
+      "geographical_eligibility": "UNKNOWN",
+      "application_conditions": "UNKNOWN",
+      "eligibility_status": "ELIGIBILITY_UNKNOWN",
+      "hard_filter_result": "review_required_missing_primary_evidence",
+      "semantic_relevance": null,
+      "rationale": "Headline concerns SoundInvest Fund II fundraising; no distinct open founder application has been established. The article path was denied by robots; no bypass was attempted. This triage is based on the unverified search headline, not authoritative funding evidence.",
+      "duplicate_of": null,
+      "hosted_run_id": "39934478478",
+      "alternative_public_feed_check": {
+        "observed_at": "2026-10-23T10:04:25.390787+00:00",
+        "http_status": 200,
+        "returned_results": 2,
+        "official_program_identity_resolved": false,
+        "evidence_path": "docs/funding-nomination-alternatives.json"
+      }
+    },
+    {
+      "candidate_id": "6d3770e0c55e6e4d1e27c2ad",
+      "headline": "IDA Startup Grant 2026-2027 (DKK 25,000 prize) - Opportunity Desk",
+      "review_status": "pending",
+      "reason_codes": [
+        "ROBOTS_DISALLOWED",
+        "OFFICIAL_SOURCE_UNRESOLVED",
+        "OFFICIAL_PRIZE_PROVIDER_UNRESOLVED"
+      ],
+      "observed_at": "2026-10-23T09:48:18.005390+00:00",
+      "attempted_url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBBdi1vLWpMeE80blFoVFNlRzBTUUZUQ0R0WklqMEpRRTBTZUhldXVrRTREMEN2RUd6eDlCbmF5NW1UV1pBelVxR3dWaUZhdk9uY2hCRjVmMTRCdnAyZGx3SjZva282VUxvdi02ZnluQQ",
+      "official_provider": null,
+      "canonical_official_url": null,
+      "verified_distinct_opportunity": false,
+      "instrument": "UNKNOWN",
+      "geographical_eligibility": "UNKNOWN",
+      "application_conditions": "UNKNOWN",
+      "eligibility_status": "ELIGIBILITY_UNKNOWN",
+      "hard_filter_result": "review_required_missing_primary_evidence",
+      "semantic_relevance": null,
+      "rationale": "IDA Startup Grant prize may be distinct; official provider, geographical rules, current application conditions and deadline remain unverified. The article path was denied by robots; no bypass was attempted. This triage is based on the unverified search headline, not authoritative funding evidence.",
+      "duplicate_of": null,
+      "hosted_run_id": "39934478478",
+      "alternative_public_feed_check": {
+        "observed_at": "2026-10-23T10:04:26.519267+00:00",
+        "http_status": 200,
+        "returned_results": 2,
+        "official_program_identity_resolved": false,
+        "evidence_path": "docs/funding-nomination-alternatives.json"
+      }
+    },
+    {
+      "candidate_id": "71c89b61310666c94f86a0fb",
+      "headline": "EU-Startups identifies 20 startups among 77 projects selected for \u20ac3.4 billion net-zero funding - EU-Startups",
+      "review_status": "pending",
+      "reason_codes": [
+        "ROBOTS_DISALLOWED",
+        "OFFICIAL_SOURCE_UNRESOLVED",
+        "AWARD_ANNOUNCEMENT_NOT_VERIFIED_CALL"
+      ],
+      "observed_at": "2026-10-23T09:48:18.018563+00:00",
+      "attempted_url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNa2NEeVEtMmx0Z2JuTVhBdktxSjhCUmg2Q2NyQnJSNVllenIxeUxpb0NEeHhSMlgtTjFEYkFaY3VtcWwxZmdKbnNDSlkzM2k4b2V3dzBlOW9fcG1ZUjREVWlsUVdYYVdNQXFkenZYeU0tT1FoaXdNbTBSUDF4RFlLVUdOelVmazRuQThhRE1QQ3Q5TnYtd2F3NEtMXzVjeWZYQ0NPakMxd3lldHYxTVVIdENoNkhCcXptT2pPMUZ5b3VWRGdsNlVEVXk5anA",
+      "official_provider": null,
+      "canonical_official_url": null,
+      "verified_distinct_opportunity": false,
+      "instrument": "UNKNOWN",
+      "geographical_eligibility": "UNKNOWN",
+      "application_conditions": "UNKNOWN",
+      "eligibility_status": "ELIGIBILITY_UNKNOWN",
+      "hard_filter_result": "review_required_missing_primary_evidence",
+      "semantic_relevance": null,
+      "rationale": "Headline reports previously selected projects; an official distinct current call and founder eligibility have not been established. The article path was denied by robots; no bypass was attempted. This triage is based on the unverified search headline, not authoritative funding evidence.",
+      "duplicate_of": null,
+      "hosted_run_id": "39934478478",
+      "alternative_public_feed_check": {
+        "observed_at": "2026-10-23T10:04:28.173758+00:00",
+        "http_status": 200,
+        "returned_results": 5,
+        "official_program_identity_resolved": false,
+        "evidence_path": "docs/funding-nomination-alternatives.json"
+      }
+    },
+    {
+      "candidate_id": "e253ec53ce9112ce37174bfb",
+      "headline": "Turning Business Potential into Progress: Funding and Growth Opportunities - fundsforNGOs - Grants and Resources for Sustainability",
+      "review_status": "pending",
+      "reason_codes": [
+        "ROBOTS_DISALLOWED",
+        "OFFICIAL_SOURCE_UNRESOLVED",
+        "ROUNDUP_NO_DISTINCT_PROGRAM"
+      ],
+      "observed_at": "2026-10-23T09:48:18.031524+00:00",
+      "attempted_url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNNTNwSHkxZG81c2ZFRDJXLWtva012VW1BSXNKbnB0blQxa1hZZEF6dER1Z0NxOHZUb2c5VXh5am40X0pNVjFrTmpLVU1fSTB3dXhWeVdlOGRjMGdPRW1KZldLMEM0TXRVNWxOdTExeWpMeUpkOU9jbjdoaGxmVktvZjlMNDJfVy1oaE5rLWdockdwN0M0NjM2TGM0eGFUdjdlSkRxVm1rS1FqUDk5OXVHQ1JrSXI4THPSAbcBQVVfeXFMTTUzcEh5MWRvNXNmRUQyVy1rb2tNdlVtQUlzSm5wdG5UMWtYWWRBenREdWdDcTh2VG9nOVV4eWpuNF9KTVYxa05qS1VNX0kwd3V4VnlXZThkYzBnT0VtSmZXSzBDNE10VTVsTnUxMXlqTHlKZDlPY243aGhsZlZLb2Y5TDQyX1ctaGhOay1naHJHcDdDNDYzNkxjNHhhVHY3ZUpEcVZta0tRalA5OTl1R0NSa0lyOExz",
+      "official_provider": null,
+      "canonical_official_url": null,
+      "verified_distinct_opportunity": false,
+      "instrument": "UNKNOWN",
+      "geographical_eligibility": "UNKNOWN",
+      "application_conditions": "UNKNOWN",
+      "eligibility_status": "ELIGIBILITY_UNKNOWN",
+      "hard_filter_result": "review_required_missing_primary_evidence",
+      "semantic_relevance": null,
+      "rationale": "Headline describes a funding roundup; a distinct official program and current conditions have not been established. The article path was denied by robots; no bypass was attempted. This triage is based on the unverified search headline, not authoritative funding evidence.",
+      "duplicate_of": null,
+      "hosted_run_id": "39934478478",
+      "alternative_public_feed_check": {
+        "observed_at": "2026-10-23T10:04:29.630720+00:00",
+        "http_status": 200,
+        "returned_results": 5,
+        "official_program_identity_resolved": false,
+        "evidence_path": "docs/funding-nomination-alternatives.json"
+      }
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 # Denmark / Germany / EU funding knowledge base
 
-[Authored starting document](Funding%20DK%20%28DE%20missing%29.md) · [Research queue and new nominations](RESEARCH_UPDATES.md)
+[Authored starting document](Funding%20DK%20%28DE%20missing%29.md) · [Nomination qualification](NOMINATION_REVIEWS.md) · [Research queue and new nominations](RESEARCH_UPDATES.md)
 
 Generated from each folder's `opportunity.json` and the applicant policy. Unknown facts remain unknown. Application status and founder eligibility are separate. Relevance scores never override hard conditions.
 
