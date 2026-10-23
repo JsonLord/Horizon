@@ -38,8 +38,8 @@ match the preserved copy. Preserve that parent when integrating these changes.
    can change only generated dashboards, the queue and opportunity data. It
    cannot edit the authored source, configuration, workflow or application code.
 7. Optionally create a **draft data PR** with the automatic job GITHUB_TOKEN.
-   Never update existing refs, force-push, auto-merge or publish the intel archive.
-   If a funding data PR is already open, preserve it for review. If main advances,
+   Never force-push, auto-merge or publish the intel archive. Owned, marked draft PRs can receive non-force fast-forwards after head-SHA and generated-path checks.
+   An identical draft is reused without writes; unmarked/legacy branches require manual reconciliation. If main advances,
    collect again rather than propose stale data.
 
 Source nomination entries use host labels or opaque line references; personal
@@ -62,8 +62,7 @@ research store or publish. Its summary reports collection failures explicitly,
 even if a useful discovery proposal could still be produced. `apply` / `propose`
 are reserved for enabled default-branch workflow execution. The writer validates
 typed records, approved entity/domain bindings and source provenance before any
-GitHub writes. Git objects and new refs are created through the API; refs are
-never PATCHed or force-updated. API authorization errors stop the job.
+GitHub writes. Git objects and new refs are created through the API; owned review refs are PATCHed only with `force: false` and a checked parent; other refs are never adopted. API authorization errors stop the job.
 
 Configure `max_candidates` (1–200), `max_search_results` (1–40), `regions` and
 `queries` in `config/funding-research.json`. The official refresh remains limited

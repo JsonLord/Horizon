@@ -153,12 +153,15 @@ def test_proposal_creates_only_new_data_ref_and_draft_pr(tmp_path, monkeypatch):
     monkeypatch.setenv('GITHUB_WORKFLOW_REF','JsonLord/Horizon/.github/workflows/funding-research.yml@refs/heads/main')
     monkeypatch.setenv('GITHUB_SHA','a'*40)
     class API:
+        repository="JsonLord/Horizon"
         calls=[]
         async def call(self,method,path,payload=None,**kwargs):
             self.calls.append((method,path,payload))
             if path.startswith('pulls?'):return []
             if path=='commits/main':return {'sha':'a'*40,'commit':{'tree':{'sha':'base-tree'}}}
             if path.startswith('git/ref/heads/'):return None
+            if method=='GET' and path.startswith('git/trees/'):
+                return {'tree':[], 'truncated':False}
             if path=='git/trees':
                 assert all(allowed_path(e['path']) and e['path']!=SEED for e in payload['tree'])
             if path=='pulls':

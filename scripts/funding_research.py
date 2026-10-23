@@ -92,33 +92,14 @@ async def propose(payload, source_sha, *, api, destination=None):
     if not changed:
         return {"status": "no_change", "writes": 0}
     destination = Path(destination or ROOT)
-    values = {p: (destination / p).read_text() if (destination / p).exists() else None for p in changed}
-    digest = hashlib.sha256(dumps(values).encode()).hexdigest()
-    branch = policy().generated_branch + "-" + digest[:16]
-    opened = await api.call("GET", "pulls?state=open&base=main&per_page=100")
-    for pr in opened:
-        if pr.get("head", {}).get("ref", "").startswith(policy().generated_branch + "-"):
-            return {"status": "pending_review", "writes": 0, "url": pr["html_url"]}
-    base = await api.call("GET", "commits/main")
-    if base["sha"] != source_sha:
-        raise ValueError("Default branch advanced; collect again")
-    if await api.call("GET", "git/ref/heads/" + branch, missing=True):
-        raise ValueError("Proposal branch already exists; reconcile rather than overwrite")
-    entries = []
-    for path, content in values.items():
-        if content is None:
-            entries.append({"path": path, "mode": "100644", "type": "blob", "sha": None})
-        else:
-            blob = await api.call("POST", "git/blobs", {"content": content, "encoding": "utf-8"})
-            entries.append({"path": path, "mode": "100644", "type": "blob", "sha": blob["sha"]})
-    tree = await api.call("POST", "git/trees", {"base_tree": base["commit"]["tree"]["sha"], "tree": entries})
-    commit = await api.call("POST", "git/commits", {"message": "Review funding research " + digest, "parents": [source_sha], "tree": tree["sha"]})
-    if (await api.call("GET", "commits/main"))["sha"] != source_sha:
-        raise ValueError("Concurrent base update; no branch created")
-    await api.call("POST", "git/refs", {"ref": "refs/heads/" + branch, "sha": commit["sha"]})
-    pr = await api.call("POST", "pulls", {"title": "Review funding research updates and new nominations", "head": branch, "base": "main", "draft": True,
-                                          "body": "Updates the research queue derived from the authored funding starting document. Official-source refresh status: " + payload["report_status"] + ". Review source failures, evidence, unknowns and new-source approval before merging. No automatic eligibility promotion or merge.\n\nSource revision: " + source_sha})
-    return {"status": "pending_review", "url": pr["html_url"], "paths": changed}
+    values = {str(p.relative_to(destination)):p.read_text() for p in (destination/'research/funding-de-eu').rglob('*') if p.is_file() and allowed_path(str(p.relative_to(destination)))}
+    values['Funding DK (DE missing).md']=(destination/'Funding DK (DE missing).md').read_text()
+    values.update({p:None for p in changed if not (destination/p).exists()})
+    from src.research.funding.review import publish_review
+    return await publish_review(api, files=values, base_ref='main', base_sha=source_sha,
+                                branch=policy().generated_branch, complete_data_tree=True,
+                                title='Review funding research updates and new nominations',
+                                body='Official-source refresh status: '+payload['report_status']+'. Review incomplete evidence and nominations; no eligibility promotion or automatic merge.\n\nSource revision: '+source_sha)
 
 
 def apply(payload, *, source_sha, destination=None):
