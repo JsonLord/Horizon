@@ -1,0 +1,23 @@
+{
+  "artifacts": [
+    {
+      "bytes": 102019,
+      "content_type": "application/json",
+      "path": "intel/reports/institutions/ecb/2026/10/23/4c1dc928239a43f8952f296d6dfdd211/report.json",
+      "sha256": "fdbefe914e65afbdc2f77359ed6427acfb16ecbfa1a16d1d6993dbdc42faa03c"
+    },
+    {
+      "bytes": 13243,
+      "content_type": "text/markdown",
+      "path": "intel/reports/institutions/ecb/2026/10/23/4c1dc928239a43f8952f296d6dfdd211/report.md",
+      "sha256": "189c691c65bc48574b5e873b66bb37eb853c14f34475e977bd282024bc089136"
+    }
+  ],
+  "commit": null,
+  "generated_at": "2026-10-23T11:50:48.212125+00:00",
+  "profile_id": "institutions/ecb",
+  "report_id": "4c1dc928239a43f8952f296d6dfdd211",
+  "schema_version": "1.0",
+  "snapshot_id": "f0ea831a8479f1b53e156ea6d5b3e3c3dcbeb8dbeb32aa98364689874e649cef",
+  "status": "complete"
+}

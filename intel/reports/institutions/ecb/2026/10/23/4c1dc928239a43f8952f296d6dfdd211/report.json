@@ -1,0 +1,2541 @@
+{
+  "analysis_mode": "deterministic",
+  "changes": [
+    {
+      "finding_id": "c153016c934c41eac49d1a53",
+      "institution_ids": [
+        "ecb"
+      ],
+      "observed_at": "2026-10-23T11:50:48.212125+00:00",
+      "type": "new"
+    },
+    {
+      "finding_id": "8c3babbf0b15bef8e76e676b",
+      "institution_ids": [
+        "ecb"
+      ],
+      "observed_at": "2026-10-23T11:50:48.212125+00:00",
+      "type": "new"
+    },
+    {
+      "finding_id": "b4f6c4000e24dd558076a162",
+      "institution_ids": [
+        "ecb"
+      ],
+      "observed_at": "2026-10-23T11:50:48.212125+00:00",
+      "type": "new"
+    },
+    {
+      "finding_id": "b966b36e7820d77f751d942e",
+      "institution_ids": [
+        "ecb"
+      ],
+      "observed_at": "2026-10-23T11:50:48.212125+00:00",
+      "type": "new"
+    },
+    {
+      "finding_id": "2f143d64e6d483aae6939646",
+      "institution_ids": [
+        "ecb"
+      ],
+      "observed_at": "2026-10-23T11:50:48.212125+00:00",
+      "type": "new"
+    },
+    {
+      "finding_id": "0ba42fafb101978552a4bdd3",
+      "institution_ids": [
+        "ecb"
+      ],
+      "observed_at": "2026-10-23T11:50:48.212125+00:00",
+      "type": "new"
+    },
+    {
+      "finding_id": "88127eb2ff2915dbce56d840",
+      "institution_ids": [
+        "ecb"
+      ],
+      "observed_at": "2026-10-23T11:50:48.212125+00:00",
+      "type": "new"
+    },
+    {
+      "finding_id": "9e40e5c6f09eea90ea636c93",
+      "institution_ids": [
+        "ecb"
+      ],
+      "observed_at": "2026-10-23T11:50:48.212125+00:00",
+      "type": "new"
+    },
+    {
+      "finding_id": "2bfbfe97420377c087ae4145",
+      "institution_ids": [
+        "ecb"
+      ],
+      "observed_at": "2026-10-23T11:50:48.212125+00:00",
+      "type": "new"
+    },
+    {
+      "finding_id": "95c8b75531ad972a24351faa",
+      "institution_ids": [
+        "ecb"
+      ],
+      "observed_at": "2026-10-23T11:50:48.212125+00:00",
+      "type": "new"
+    },
+    {
+      "finding_id": "6d15f3c15567272bc8d18344",
+      "institution_ids": [
+        "ecb"
+      ],
+      "observed_at": "2026-10-23T11:50:48.212125+00:00",
+      "type": "new"
+    },
+    {
+      "finding_id": "ddaf95561158cd00cd266887",
+      "institution_ids": [
+        "ecb"
+      ],
+      "observed_at": "2026-10-23T11:50:48.212125+00:00",
+      "type": "new"
+    },
+    {
+      "finding_id": "3455b973bd29b9e408de481a",
+      "institution_ids": [
+        "ecb"
+      ],
+      "observed_at": "2026-10-23T11:50:48.212125+00:00",
+      "type": "new"
+    },
+    {
+      "finding_id": "72574b556b8f3573cd1ce4dd",
+      "institution_ids": [
+        "ecb"
+      ],
+      "observed_at": "2026-10-23T11:50:48.212125+00:00",
+      "type": "new"
+    },
+    {
+      "finding_id": "df7c5ea9e44721d24e2a3f7b",
+      "institution_ids": [
+        "ecb"
+      ],
+      "observed_at": "2026-10-23T11:50:48.212125+00:00",
+      "type": "new"
+    },
+    {
+      "finding_id": "a015e3274d09a86db0ac0090",
+      "institution_ids": [
+        "ecb"
+      ],
+      "observed_at": "2026-10-23T11:50:48.212125+00:00",
+      "type": "new"
+    },
+    {
+      "finding_id": "49198786af98903ac4678b88",
+      "institution_ids": [
+        "ecb"
+      ],
+      "observed_at": "2026-10-23T11:50:48.212125+00:00",
+      "type": "new"
+    },
+    {
+      "finding_id": "8561befc70a1dbfee26b25ab",
+      "institution_ids": [
+        "ecb"
+      ],
+      "observed_at": "2026-10-23T11:50:48.212125+00:00",
+      "type": "new"
+    },
+    {
+      "finding_id": "5e4b26b39af555b8f07c3e4d",
+      "institution_ids": [
+        "ecb"
+      ],
+      "observed_at": "2026-10-23T11:50:48.212125+00:00",
+      "type": "new"
+    },
+    {
+      "finding_id": "9c6cf2c4afe27503078e63fc",
+      "institution_ids": [
+        "ecb"
+      ],
+      "observed_at": "2026-10-23T11:50:48.212125+00:00",
+      "type": "new"
+    },
+    {
+      "finding_id": "6e3260ff62f62c52986eb6d5",
+      "institution_ids": [
+        "ecb"
+      ],
+      "observed_at": "2026-10-23T11:50:48.212125+00:00",
+      "type": "updated"
+    },
+    {
+      "finding_id": "f13bcdf6f95d0dcadea1c42b",
+      "institution_ids": [
+        "ecb"
+      ],
+      "observed_at": "2026-10-23T11:50:48.212125+00:00",
+      "type": "new"
+    },
+    {
+      "finding_id": "40e0d94be485cb651db40434",
+      "institution_ids": [
+        "ecb"
+      ],
+      "observed_at": "2026-10-23T11:50:48.212125+00:00",
+      "type": "updated"
+    },
+    {
+      "finding_id": "cc0702cf6253671f8634c2de",
+      "institution_ids": [
+        "ecb"
+      ],
+      "observed_at": "2026-10-23T11:50:48.212125+00:00",
+      "type": "updated"
+    }
+  ],
+  "coverage": {
+    "basis": "search query region; event geography unknown",
+    "missing_regions": [],
+    "regions": [
+      "Europe"
+    ]
+  },
+  "created_at": "2026-10-23T11:50:48.212125+00:00",
+  "errors": [],
+  "findings": [
+    {
+      "change_type": "new",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "c153016c934c41eac49d1a53",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "ECB Consumer Expectations Survey results – September 2026 - European Central Bank",
+          "source_id": "1dae90a6f4972fb354b7538a"
+        },
+        {
+          "location": "feed title",
+          "snippet": "ECB Consumer Expectations Survey results – September 2026 - European Central Bank",
+          "source_id": "7eca50c721fc713529080d98"
+        },
+        {
+          "location": "feed title",
+          "snippet": "ECB Consumer Expectations Survey results – September 2026 - European Central Bank",
+          "source_id": "ac9a95c4cae11aeb4b8fc4a1"
+        },
+        {
+          "location": "feed title",
+          "snippet": "ECB Consumer Expectations Survey results – September 2026",
+          "source_id": "98e7b12542dbe24cb1205a42"
+        }
+      ],
+      "finding_id": "c153016c934c41eac49d1a53",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [
+        "ecb"
+      ],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-23T11:50:48.196124+00:00",
+      "profile_relevance": 6.841236155972222,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-23T08:02:11+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "Europe",
+        "unknown"
+      ],
+      "source_ids": [
+        "1dae90a6f4972fb354b7538a",
+        "7eca50c721fc713529080d98",
+        "ac9a95c4cae11aeb4b8fc4a1",
+        "98e7b12542dbe24cb1205a42"
+      ],
+      "summary": "ECB Consumer Expectations Survey results – September 2026 - European Central Bank",
+      "topics": [
+        "European Central Bank"
+      ],
+      "verification": "single_primary_source"
+    },
+    {
+      "change_type": "new",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "8c3babbf0b15bef8e76e676b",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "European Central Bank: Are markets pricing in too steep a path as a December hike is signalled? – Nomura - www.tmgm.com",
+          "source_id": "3e74292c00e337dc8847b52f"
+        }
+      ],
+      "finding_id": "8c3babbf0b15bef8e76e676b",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [
+        "ecb"
+      ],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-23T11:50:48.196124+00:00",
+      "profile_relevance": 8.690703748564815,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-23T04:25:25+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "Europe"
+      ],
+      "source_ids": [
+        "3e74292c00e337dc8847b52f"
+      ],
+      "summary": "European Central Bank: Are markets pricing in too steep a path as a December hike is signalled? – Nomura - www.tmgm.com",
+      "topics": [
+        "European Central Bank"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "new",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "b4f6c4000e24dd558076a162",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "European Central Bank: Gradual tightening points to December hike – Rabobank - FXStreet",
+          "source_id": "dbca7ed42ee7807d4585f05e"
+        }
+      ],
+      "finding_id": "b4f6c4000e24dd558076a162",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [
+        "ecb"
+      ],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-23T11:50:48.196124+00:00",
+      "profile_relevance": 8.267497730046296,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-22T18:16:00+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "Europe"
+      ],
+      "source_ids": [
+        "dbca7ed42ee7807d4585f05e"
+      ],
+      "summary": "European Central Bank: Gradual tightening points to December hike – Rabobank - FXStreet",
+      "topics": [
+        "European Central Bank"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "new",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "b966b36e7820d77f751d942e",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "Nicolas Dufrêne, the man who suggests canceling France's European Central Bank debt - Le Monde.fr",
+          "source_id": "387c3b43e16caf9adc5ec4dc"
+        }
+      ],
+      "finding_id": "b966b36e7820d77f751d942e",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [
+        "ecb"
+      ],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-23T11:50:48.196124+00:00",
+      "profile_relevance": 8.21477782263889,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-22T17:00:05+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "Europe"
+      ],
+      "source_ids": [
+        "387c3b43e16caf9adc5ec4dc"
+      ],
+      "summary": "Nicolas Dufrêne, the man who suggests canceling France's European Central Bank debt - Le Monde.fr",
+      "topics": [
+        "European Central Bank"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "new",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "2f143d64e6d483aae6939646",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "European Central Bank: December hike signalled as markets overprice path – Nomura | FXStreet - شبكة تواصل الإخبارية",
+          "source_id": "831aead3bed5ac6d7e13b337"
+        }
+      ],
+      "finding_id": "2f143d64e6d483aae6939646",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [
+        "ecb"
+      ],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-23T11:50:48.196124+00:00",
+      "profile_relevance": 8.203631989305556,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-22T16:44:02+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "Europe"
+      ],
+      "source_ids": [
+        "831aead3bed5ac6d7e13b337"
+      ],
+      "summary": "European Central Bank: December hike signalled as markets overprice path – Nomura | FXStreet - شبكة تواصل الإخبارية",
+      "topics": [
+        "European Central Bank"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "new",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "0ba42fafb101978552a4bdd3",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "European Central Bank: Higher bond yields support an October hold – ING - www.tmgm.com",
+          "source_id": "c52bdccefee22b8bd6b8ad49"
+        }
+      ],
+      "finding_id": "0ba42fafb101978552a4bdd3",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [
+        "ecb"
+      ],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-23T11:50:48.196124+00:00",
+      "profile_relevance": 8.132046341157407,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-22T15:00:57+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "Europe"
+      ],
+      "source_ids": [
+        "c52bdccefee22b8bd6b8ad49"
+      ],
+      "summary": "European Central Bank: Higher bond yields support an October hold – ING - www.tmgm.com",
+      "topics": [
+        "European Central Bank"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "new",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "88127eb2ff2915dbce56d840",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "European Central Bank: Rising bond yields favor an October hold – ING - FXStreet",
+          "source_id": "419eec00cced8801a98fba0c"
+        }
+      ],
+      "finding_id": "88127eb2ff2915dbce56d840",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [
+        "ecb"
+      ],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-23T11:50:48.196124+00:00",
+      "profile_relevance": 8.112428285601851,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-22T14:32:42+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "Europe"
+      ],
+      "source_ids": [
+        "419eec00cced8801a98fba0c"
+      ],
+      "summary": "European Central Bank: Rising bond yields favor an October hold – ING - FXStreet",
+      "topics": [
+        "European Central Bank"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "new",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "9e40e5c6f09eea90ea636c93",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "French Spreads Widen: European Central Bank Communication in Focus – Nordea - www.tmgm.com",
+          "source_id": "ae50e54279f509cb0af3f005"
+        }
+      ],
+      "finding_id": "9e40e5c6f09eea90ea636c93",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [
+        "ecb"
+      ],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-23T11:50:48.196124+00:00",
+      "profile_relevance": 8.067150507824074,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-22T13:27:30+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "Europe"
+      ],
+      "source_ids": [
+        "ae50e54279f509cb0af3f005"
+      ],
+      "summary": "French Spreads Widen: European Central Bank Communication in Focus – Nordea - www.tmgm.com",
+      "topics": [
+        "European Central Bank"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "new",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "2bfbfe97420377c087ae4145",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "European Central Bank: Communication focus as French spreads widen – Nordea - FXStreet",
+          "source_id": "cb1b67212f0d19a17a95c3ce"
+        }
+      ],
+      "finding_id": "2bfbfe97420377c087ae4145",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [
+        "ecb"
+      ],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-23T11:50:48.196124+00:00",
+      "profile_relevance": 8.043608841157408,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-22T12:53:36+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "Europe"
+      ],
+      "source_ids": [
+        "cb1b67212f0d19a17a95c3ce"
+      ],
+      "summary": "European Central Bank: Communication focus as French spreads widen – Nordea - FXStreet",
+      "topics": [
+        "European Central Bank"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "unchanged",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "80605355e28db6c4d7f1f918",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "European Central Bank Cites Coinbase as DeFi Lending Example - Coinfomania",
+          "source_id": "342d76466c394f2e5ec366cf"
+        }
+      ],
+      "finding_id": "80605355e28db6c4d7f1f918",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [
+        "ecb"
+      ],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-23T11:50:48.196124+00:00",
+      "profile_relevance": 7.354199118935185,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-21T20:20:51+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "Europe"
+      ],
+      "source_ids": [
+        "342d76466c394f2e5ec366cf"
+      ],
+      "summary": "European Central Bank Cites Coinbase as DeFi Lending Example - Coinfomania",
+      "topics": [
+        "European Central Bank"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "new",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "95c8b75531ad972a24351faa",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "ECB survey shows consumers lift inflation expectations in September",
+          "source_id": "32e489a45996e4f88518174d"
+        }
+      ],
+      "finding_id": "95c8b75531ad972a24351faa",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [
+        "ecb"
+      ],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-23T11:50:48.196124+00:00",
+      "profile_relevance": 6.964719952268519,
+      "provenance": "deterministic title extraction",
+      "published_at": null,
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "Europe"
+      ],
+      "source_ids": [
+        "32e489a45996e4f88518174d"
+      ],
+      "summary": "ECB survey shows consumers lift inflation expectations in September",
+      "topics": [
+        "European Central Bank"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "new",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "6d15f3c15567272bc8d18344",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "De Cos Is Narrow Favorite to Follow Lagarde at ECB, Survey Shows - Bloomberg.com",
+          "source_id": "91b570363703023733c70a9e"
+        }
+      ],
+      "finding_id": "6d15f3c15567272bc8d18344",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [
+        "ecb"
+      ],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-23T11:50:48.196124+00:00",
+      "profile_relevance": 6.88495143375,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-23T09:05:08+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "Europe"
+      ],
+      "source_ids": [
+        "91b570363703023733c70a9e"
+      ],
+      "summary": "De Cos Is Narrow Favorite to Follow Lagarde at ECB, Survey Shows - Bloomberg.com",
+      "topics": [
+        "European Central Bank"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "new",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "ddaf95561158cd00cd266887",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "ECB Set to Raise Rates in December After Pause, Economists Say - Bloomberg.com",
+          "source_id": "ce058b81859b074a77f47e9a"
+        }
+      ],
+      "finding_id": "ddaf95561158cd00cd266887",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [
+        "ecb"
+      ],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-23T11:50:48.196124+00:00",
+      "profile_relevance": 6.683469952268519,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-23T04:15:00+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "Europe"
+      ],
+      "source_ids": [
+        "ce058b81859b074a77f47e9a"
+      ],
+      "summary": "ECB Set to Raise Rates in December After Pause, Economists Say - Bloomberg.com",
+      "topics": [
+        "European Central Bank"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "new",
+      "classification": "reported_news",
+      "corroboration": 2,
+      "event_id": "3455b973bd29b9e408de481a",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "Ready for a French test?: Five questions for the ECB - Reuters",
+          "source_id": "336f28bb0d00df341661312b"
+        },
+        {
+          "location": "feed title",
+          "snippet": "Ready for a French test ?: Five questions for the ECB",
+          "source_id": "b2597ce0eb27e6e0a98fe29a"
+        }
+      ],
+      "finding_id": "3455b973bd29b9e408de481a",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [
+        "ecb"
+      ],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-23T11:50:48.196124+00:00",
+      "profile_relevance": 6.677219952268518,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-23T04:06:00+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "Europe"
+      ],
+      "source_ids": [
+        "336f28bb0d00df341661312b",
+        "b2597ce0eb27e6e0a98fe29a"
+      ],
+      "summary": "Ready for a French test?: Five questions for the ECB - Reuters",
+      "topics": [
+        "European Central Bank"
+      ],
+      "verification": "multiple_secondary_sources"
+    },
+    {
+      "change_type": "new",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "72574b556b8f3573cd1ce4dd",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "ECB Panetta says rising yields a drag on growth , not a crisis , ahead of rate meeting",
+          "source_id": "6dcae5dacca4da92f7bd258e"
+        }
+      ],
+      "finding_id": "72574b556b8f3573cd1ce4dd",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [
+        "ecb"
+      ],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-23T11:50:48.196124+00:00",
+      "profile_relevance": 6.475136618935185,
+      "provenance": "deterministic title extraction",
+      "published_at": null,
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "Europe"
+      ],
+      "source_ids": [
+        "6dcae5dacca4da92f7bd258e"
+      ],
+      "summary": "ECB Panetta says rising yields a drag on growth , not a crisis , ahead of rate meeting",
+      "topics": [
+        "European Central Bank"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "new",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "df7c5ea9e44721d24e2a3f7b",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "ECB preview : MUFG sees October hold , two hikes ahead . See EUR / USD year end at 1 . 12",
+          "source_id": "e06b69c9266c58510ad787ed"
+        }
+      ],
+      "finding_id": "df7c5ea9e44721d24e2a3f7b",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [
+        "ecb"
+      ],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-23T11:50:48.196124+00:00",
+      "profile_relevance": 6.475136618935185,
+      "provenance": "deterministic title extraction",
+      "published_at": null,
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "Europe"
+      ],
+      "source_ids": [
+        "e06b69c9266c58510ad787ed"
+      ],
+      "summary": "ECB preview : MUFG sees October hold , two hikes ahead . See EUR / USD year end at 1 . 12",
+      "topics": [
+        "European Central Bank"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "new",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "a015e3274d09a86db0ac0090",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "Lane Says Wider Euro Use Could Extend ECB Policy Reach",
+          "source_id": "58f868548e08c6e69e520dfb"
+        }
+      ],
+      "finding_id": "a015e3274d09a86db0ac0090",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [
+        "ecb"
+      ],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-23T11:50:48.196124+00:00",
+      "profile_relevance": 6.391803285601852,
+      "provenance": "deterministic title extraction",
+      "published_at": null,
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "Europe"
+      ],
+      "source_ids": [
+        "58f868548e08c6e69e520dfb"
+      ],
+      "summary": "Lane Says Wider Euro Use Could Extend ECB Policy Reach",
+      "topics": [
+        "European Central Bank"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "new",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "49198786af98903ac4678b88",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "Traineeship in the Monetary Analysis Division in the Directorate General Monetary Policy - Job Search | European Central Bank",
+          "source_id": "a7509ffc6107fb626a631781"
+        }
+      ],
+      "finding_id": "49198786af98903ac4678b88",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [
+        "ecb"
+      ],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-23T11:50:48.196124+00:00",
+      "profile_relevance": 6.058180600416667,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-22T13:14:35+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "Europe"
+      ],
+      "source_ids": [
+        "a7509ffc6107fb626a631781"
+      ],
+      "summary": "Traineeship in the Monetary Analysis Division in the Directorate General Monetary Policy - Job Search | European Central Bank",
+      "topics": [
+        "European Central Bank"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "new",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "8561befc70a1dbfee26b25ab",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "Traineeship in the Monetary Analysis Division in the Directorate General Monetary Policy - Careers - Job Search | European Central Bank",
+          "source_id": "2f9c6fba90cd5e6577c48390"
+        }
+      ],
+      "finding_id": "8561befc70a1dbfee26b25ab",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [
+        "ecb"
+      ],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-23T11:50:48.196124+00:00",
+      "profile_relevance": 6.0581690263425925,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-22T13:14:34+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "Europe"
+      ],
+      "source_ids": [
+        "2f9c6fba90cd5e6577c48390"
+      ],
+      "summary": "Traineeship in the Monetary Analysis Division in the Directorate General Monetary Policy - Careers - Job Search | European Central Bank",
+      "topics": [
+        "European Central Bank"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "new",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "5e4b26b39af555b8f07c3e4d",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "ECB Fixing Shows Euro Down 0 . 24 % Against Pound on Oct . 21",
+          "source_id": "66dd5718189ee061e511b526"
+        }
+      ],
+      "finding_id": "5e4b26b39af555b8f07c3e4d",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [
+        "ecb"
+      ],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-23T11:50:48.196124+00:00",
+      "profile_relevance": 5.579303285601852,
+      "provenance": "deterministic title extraction",
+      "published_at": null,
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "Europe"
+      ],
+      "source_ids": [
+        "66dd5718189ee061e511b526"
+      ],
+      "summary": "ECB Fixing Shows Euro Down 0 . 24 % Against Pound on Oct . 21",
+      "topics": [
+        "European Central Bank"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "new",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "9c6cf2c4afe27503078e63fc",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "T2S-0858-URD Adjustment of the Night-Time Settlement for accommodating the shortening of the settlement cycle to T+1 - European Central Bank",
+          "source_id": "8e62dd424e852fed936927b1"
+        }
+      ],
+      "finding_id": "9c6cf2c4afe27503078e63fc",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [
+        "ecb"
+      ],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-23T11:50:48.196124+00:00",
+      "profile_relevance": 5.570194489305556,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-22T01:31:53+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "Europe"
+      ],
+      "source_ids": [
+        "8e62dd424e852fed936927b1"
+      ],
+      "summary": "T2S-0858-URD Adjustment of the Night-Time Settlement for accommodating the shortening of the settlement cycle to T+1 - European Central Bank",
+      "topics": [
+        "European Central Bank"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "updated",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "6e3260ff62f62c52986eb6d5",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "Public quasi-corporations as AnaCredit debtors - European Central Bank",
+          "source_id": "68a00bf1fdbb3009ec6d7cf9"
+        }
+      ],
+      "finding_id": "6e3260ff62f62c52986eb6d5",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [
+        "ecb"
+      ],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-23T11:50:48.196124+00:00",
+      "profile_relevance": 5.408562544861111,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-21T21:39:08+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "Europe"
+      ],
+      "source_ids": [
+        "68a00bf1fdbb3009ec6d7cf9"
+      ],
+      "summary": "Public quasi-corporations as AnaCredit debtors - European Central Bank",
+      "topics": [
+        "European Central Bank"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "unchanged",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "61e1a333b725d78eba50fd8c",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "ECB Says Artificial Intelligence and Reduced Dependence on Fossil Fuels Are Shielding Europe's Economy - EU Today",
+          "source_id": "21f240099fb83f208d563f00"
+        }
+      ],
+      "finding_id": "61e1a333b725d78eba50fd8c",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [
+        "ecb"
+      ],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-23T11:50:48.196124+00:00",
+      "profile_relevance": 5.381340322638889,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-21T20:59:56+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "Europe"
+      ],
+      "source_ids": [
+        "21f240099fb83f208d563f00"
+      ],
+      "summary": "ECB Says Artificial Intelligence and Reduced Dependence on Fossil Fuels Are Shielding Europe's Economy - EU Today",
+      "topics": [
+        "European Central Bank"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "unchanged",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "9cb3318c54c39c16b22f2fdf",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "ECB Euro Backstop Draws Interest From More Than 30 Central Banks - TOKENPOST",
+          "source_id": "5f9a331ae4b0bca08103a38e"
+        }
+      ],
+      "finding_id": "9cb3318c54c39c16b22f2fdf",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [
+        "ecb"
+      ],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-23T11:50:48.196124+00:00",
+      "profile_relevance": 5.327370415231481,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-21T19:42:13+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "Europe"
+      ],
+      "source_ids": [
+        "5f9a331ae4b0bca08103a38e"
+      ],
+      "summary": "ECB Euro Backstop Draws Interest From More Than 30 Central Banks - TOKENPOST",
+      "topics": [
+        "European Central Bank"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "unchanged",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "d45785a931845d42038e65e4",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "Announcement: Update of the annexes to the AnaCredit Manual - European Central Bank",
+          "source_id": "88a4d0887778c927d6d8e524"
+        }
+      ],
+      "finding_id": "d45785a931845d42038e65e4",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [
+        "ecb"
+      ],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-23T11:50:48.196124+00:00",
+      "profile_relevance": 5.293284767083334,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-21T18:53:08+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "Europe"
+      ],
+      "source_ids": [
+        "88a4d0887778c927d6d8e524"
+      ],
+      "summary": "Announcement: Update of the annexes to the AnaCredit Manual - European Central Bank",
+      "topics": [
+        "European Central Bank"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "new",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "f13bcdf6f95d0dcadea1c42b",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "ECB's Lane in Shanghai: Expanding Euro Liquidity Network to Broaden Currency Area's Influence - finance.biggo.com",
+          "source_id": "c246e2cdb971f4a51c93d5ba"
+        }
+      ],
+      "finding_id": "f13bcdf6f95d0dcadea1c42b",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [
+        "ecb"
+      ],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-23T11:50:48.196124+00:00",
+      "profile_relevance": 5.268886618935185,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-21T18:18:00+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "Europe"
+      ],
+      "source_ids": [
+        "c246e2cdb971f4a51c93d5ba"
+      ],
+      "summary": "ECB's Lane in Shanghai: Expanding Euro Liquidity Network to Broaden Currency Area's Influence - finance.biggo.com",
+      "topics": [
+        "European Central Bank"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "updated",
+      "classification": "reported_news",
+      "corroboration": 2,
+      "event_id": "40e0d94be485cb651db40434",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "Regular central bank dialogue underpins win-win China-EU economic and financial ties: ECB official - Xinhua",
+          "source_id": "6bac8c2d46ab1357b1d8ce7d"
+        },
+        {
+          "location": "feed title",
+          "snippet": "Interview : Regular central bank dialogue underpins win - win China - EU economic and financial ties : ECB official - Xinhua",
+          "source_id": "cd3e5abb65e04888cabee4d0"
+        }
+      ],
+      "finding_id": "40e0d94be485cb651db40434",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [
+        "ecb"
+      ],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-23T11:50:48.196124+00:00",
+      "profile_relevance": 5.180182915231481,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-21T16:10:16+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "Europe"
+      ],
+      "source_ids": [
+        "6bac8c2d46ab1357b1d8ce7d",
+        "cd3e5abb65e04888cabee4d0"
+      ],
+      "summary": "Regular central bank dialogue underpins win-win China-EU economic and financial ties: ECB official - Xinhua",
+      "topics": [
+        "European Central Bank"
+      ],
+      "verification": "multiple_secondary_sources"
+    },
+    {
+      "change_type": "unchanged",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "6a997b65f49f51ab249a5f92",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "Euro Foreign Exchange Reference Rates - European Central Bank",
+          "source_id": "031869533ee2d2f52762cbab"
+        },
+        {
+          "location": "feed title",
+          "snippet": "Euro Foreign Exchange Reference Rates - European Central Bank",
+          "source_id": "d36f4211821d950164834d92"
+        }
+      ],
+      "finding_id": "6a997b65f49f51ab249a5f92",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [
+        "ecb"
+      ],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-23T11:50:48.196124+00:00",
+      "profile_relevance": 5.099731526342593,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-21T14:14:25+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "Europe"
+      ],
+      "source_ids": [
+        "031869533ee2d2f52762cbab",
+        "d36f4211821d950164834d92"
+      ],
+      "summary": "Euro Foreign Exchange Reference Rates - European Central Bank",
+      "topics": [
+        "European Central Bank"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "unchanged",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "b3d0f3651effc5260b6c1439",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "The ECB explains how to mitigate the energy crisis using AI - Inspenet",
+          "source_id": "071b3d13c2966a1ec66ac1c4"
+        }
+      ],
+      "finding_id": "b3d0f3651effc5260b6c1439",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [
+        "ecb"
+      ],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-23T11:50:48.196124+00:00",
+      "profile_relevance": 5.0878333781944445,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-21T13:57:17+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "Europe"
+      ],
+      "source_ids": [
+        "071b3d13c2966a1ec66ac1c4"
+      ],
+      "summary": "The ECB explains how to mitigate the energy crisis using AI - Inspenet",
+      "topics": [
+        "European Central Bank"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "updated",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "cc0702cf6253671f8634c2de",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "Pontes and Appia: unlocking opportunities for banks - European Central Bank",
+          "source_id": "c4e274fc541827920cecca2d"
+        }
+      ],
+      "finding_id": "cc0702cf6253671f8634c2de",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [
+        "ecb"
+      ],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-23T11:50:48.196124+00:00",
+      "profile_relevance": 5.046814859675926,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-21T12:58:13+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "Europe"
+      ],
+      "source_ids": [
+        "c4e274fc541827920cecca2d"
+      ],
+      "summary": "Pontes and Appia: unlocking opportunities for banks - European Central Bank",
+      "topics": [
+        "European Central Bank"
+      ],
+      "verification": "single_secondary_source"
+    }
+  ],
+  "history": {
+    "comparison": "last_good",
+    "previous_created_at": "2026-10-22T12:06:05.959591+00:00",
+    "previous_report_id": "a529b28537f446b88a6996cfba831a34",
+    "previous_report_sha256": "938b49ef332e928b2b2768ea7b48d65cb11d7eb893b2d1076700d95385023258",
+    "previous_snapshot_commit": "c687f3f13a037d85d204f60e543ba05c5486cd95",
+    "stale_last_good": false,
+    "state": "restored"
+  },
+  "limitations": [
+    "Bounded queries do not provide exhaustive global coverage.",
+    "GDELT seen time is an observation timestamp, not verified publication time.",
+    "Contradiction/resolution labels require explicit source wording and review; no automatic truth adjudication."
+  ],
+  "links": {
+    "json": "intel/reports/institutions/ecb/2026/10/23/4c1dc928239a43f8952f296d6dfdd211/report.json",
+    "markdown": "intel/reports/institutions/ecb/2026/10/23/4c1dc928239a43f8952f296d6dfdd211/report.md"
+  },
+  "model_used": null,
+  "profile_id": "institutions/ecb",
+  "question": "",
+  "report_id": "4c1dc928239a43f8952f296d6dfdd211",
+  "run_id": "4c1dc928239a43f8952f296d6dfdd211",
+  "schedule": {},
+  "schema_version": "1.0",
+  "sources": [
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQRFRzM0RKdTdFRFFYR1VmYW9VOHRqUUJ1LVJZMzREMFh0RUFYYW5rbzJrdkVIZ0pINTkxdVZQRXN1b096TF8tVkJmTTc0V0FOUVVDUk4wSERjY1l2SVUyeXpjNEk4Tnpnd1VZRl84cVc1bnNhUm80b2RWNTlnMGV3RW9hU1dqS1FUN0FqSEllUWRqZlE?oc=5",
+      "content_fingerprint": "540992fea93f9767419ca03d",
+      "fetched_at": "2026-10-23T11:50:48.196124+00:00",
+      "institution_id": "ecb",
+      "language": "en",
+      "observations": [
+        {
+          "collector": "google_news",
+          "language": "en",
+          "search_query": "site:ecb.europa.eu",
+          "search_region": "Europe",
+          "title": "Euro Foreign Exchange Reference Rates - European Central Bank"
+        }
+      ],
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQRFRzM0RKdTdFRFFYR1VmYW9VOHRqUUJ1LVJZMzREMFh0RUFYYW5rbzJrdkVIZ0pINTkxdVZQRXN1b096TF8tVkJmTTc0V0FOUVVDUk4wSERjY1l2SVUyeXpjNEk4Tnpnd1VZRl84cVc1bnNhUm80b2RWNTlnMGV3RW9hU1dqS1FUN0FqSEllUWRqZlE?oc=5",
+      "profile_id": "institutions/ecb",
+      "published_at": "2026-10-21T14:14:25+00:00",
+      "publisher": "European Central Bank",
+      "search_query": "site:ecb.europa.eu",
+      "source_country": "unknown",
+      "source_id": "031869533ee2d2f52762cbab",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE82UFBQc1hPb0l2MFJ6Uk5mVXE5RzBURnpVNHNWV29ISmZMek96Q1ppSFdPLXhqUV9mYW51cEhmMmVGUjU4T0tpWjFHRnRjWTNzYjQtQ3FrSWtEUDhGY1BYUi00b19ra3BDeVZVdTY4dzNtU2t4THlOVw?oc=5",
+      "content_fingerprint": "e9b359dd0d6bee09c5dcbbc6",
+      "fetched_at": "2026-10-23T11:50:48.196124+00:00",
+      "institution_id": "ecb",
+      "language": "en",
+      "observations": [
+        {
+          "collector": "google_news",
+          "language": "en",
+          "search_query": "\"European Central Bank\"",
+          "search_region": "Europe",
+          "title": "The ECB explains how to mitigate the energy crisis using AI - Inspenet"
+        }
+      ],
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE82UFBQc1hPb0l2MFJ6Uk5mVXE5RzBURnpVNHNWV29ISmZMek96Q1ppSFdPLXhqUV9mYW51cEhmMmVGUjU4T0tpWjFHRnRjWTNzYjQtQ3FrSWtEUDhGY1BYUi00b19ra3BDeVZVdTY4dzNtU2t4THlOVw?oc=5",
+      "profile_id": "institutions/ecb",
+      "published_at": "2026-10-21T13:57:17+00:00",
+      "publisher": "Inspenet",
+      "search_query": "\"European Central Bank\"",
+      "source_country": "unknown",
+      "source_id": "071b3d13c2966a1ec66ac1c4",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPNUhSYjloV0FSNmpUdVNvRGVEajlnRHhpSDZ2Z3ZfWWdETUpiZkxKdGpVaWdaemhFRzdvUTVyaHBGQ19Ma1pIQzlxM3NlZmotXzBhVHdFeGlBcVd4QnJnQm9NQ0hoY09jZWJSNjQ3UWRJMUM1Mlc2RUY2QU0wQjRJWWg4cTBLRmdT?oc=5",
+      "content_fingerprint": "f0a493f84bd4fa6928a0b127",
+      "fetched_at": "2026-10-23T11:50:48.196124+00:00",
+      "institution_id": "ecb",
+      "language": "en",
+      "observations": [
+        {
+          "collector": "google_news",
+          "language": "en",
+          "search_query": "site:ecb.europa.eu",
+          "search_region": "Europe",
+          "title": "ECB Consumer Expectations Survey results – September 2026 - European Central Bank"
+        }
+      ],
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPNUhSYjloV0FSNmpUdVNvRGVEajlnRHhpSDZ2Z3ZfWWdETUpiZkxKdGpVaWdaemhFRzdvUTVyaHBGQ19Ma1pIQzlxM3NlZmotXzBhVHdFeGlBcVd4QnJnQm9NQ0hoY09jZWJSNjQ3UWRJMUM1Mlc2RUY2QU0wQjRJWWg4cTBLRmdT?oc=5",
+      "profile_id": "institutions/ecb",
+      "published_at": "2026-10-23T08:02:11+00:00",
+      "publisher": "European Central Bank",
+      "search_query": "site:ecb.europa.eu",
+      "source_country": "unknown",
+      "source_id": "1dae90a6f4972fb354b7538a",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9GLWZBdlZqVnFUY21OTm0zYk14cHlDdDFqQTc5TVFpMm5NU0xpdGNFVTZpWm40LUI2eGNfel9QY2JLcThiVmxibEhmYkpEOWx1SkllTF9EM3o0dEhIaHZiSWV1MlRvRmpSdUlVRU9fa1lsY2NaTFFvNg?oc=5",
+      "content_fingerprint": "9a50c3a400fb80e580a21c70",
+      "fetched_at": "2026-10-23T11:50:48.196124+00:00",
+      "institution_id": "ecb",
+      "language": "en",
+      "observations": [
+        {
+          "collector": "google_news",
+          "language": "en",
+          "search_query": "\"European Central Bank\"",
+          "search_region": "Europe",
+          "title": "ECB Says Artificial Intelligence and Reduced Dependence on Fossil Fuels Are Shielding Europe's Economy - EU Today"
+        }
+      ],
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9GLWZBdlZqVnFUY21OTm0zYk14cHlDdDFqQTc5TVFpMm5NU0xpdGNFVTZpWm40LUI2eGNfel9QY2JLcThiVmxibEhmYkpEOWx1SkllTF9EM3o0dEhIaHZiSWV1MlRvRmpSdUlVRU9fa1lsY2NaTFFvNg?oc=5",
+      "profile_id": "institutions/ecb",
+      "published_at": "2026-10-21T20:59:56+00:00",
+      "publisher": "EU Today",
+      "search_query": "\"European Central Bank\"",
+      "source_country": "unknown",
+      "source_id": "21f240099fb83f208d563f00",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5DZ3VELTZOTy1kcElyV2w0UV9tdUV3bThlOGRFNHFYMUE2RG95cTBXVDlKMk1rVS1vaUV6dmc5aGR1TW9BZk1TakQwcDQxRndrTnA2NXFHb1dyV19vMmFqVkY0QmVMZGJTckw2c0hTSGZ3R2VndXc?oc=5",
+      "content_fingerprint": "11319c83f05418e786ee21d5",
+      "fetched_at": "2026-10-23T11:50:48.196124+00:00",
+      "institution_id": "ecb",
+      "language": "en",
+      "observations": [
+        {
+          "collector": "google_news",
+          "language": "en",
+          "search_query": "site:ecb.europa.eu",
+          "search_region": "Europe",
+          "title": "Traineeship in the Monetary Analysis Division in the Directorate General Monetary Policy - Careers - Job Search | European Central Bank"
+        }
+      ],
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5DZ3VELTZOTy1kcElyV2w0UV9tdUV3bThlOGRFNHFYMUE2RG95cTBXVDlKMk1rVS1vaUV6dmc5aGR1TW9BZk1TakQwcDQxRndrTnA2NXFHb1dyV19vMmFqVkY0QmVMZGJTckw2c0hTSGZ3R2VndXc?oc=5",
+      "profile_id": "institutions/ecb",
+      "published_at": "2026-10-22T13:14:34+00:00",
+      "publisher": "Job Search | European Central Bank",
+      "search_query": "site:ecb.europa.eu",
+      "source_country": "unknown",
+      "source_id": "2f9c6fba90cd5e6577c48390",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://econotimes.com/ECB-survey-shows-consumers-lift-inflation-expectations-in-September-1761178",
+      "content_fingerprint": "6d34d40f8dbf18e6f487c804",
+      "fetched_at": "2026-10-23T11:50:48.196124+00:00",
+      "institution_id": "ecb",
+      "language": "English",
+      "observations": [
+        {
+          "collector": "gdelt",
+          "language": "English",
+          "search_query": "\"European Central Bank\"",
+          "search_region": "Europe",
+          "title": "ECB survey shows consumers lift inflation expectations in September"
+        }
+      ],
+      "origin_collector": "gdelt",
+      "original_url": "https://econotimes.com/ECB-survey-shows-consumers-lift-inflation-expectations-in-September-1761178",
+      "profile_id": "institutions/ecb",
+      "published_at": null,
+      "publisher": "econotimes.com",
+      "search_query": "\"European Central Bank\"",
+      "source_country": "United States",
+      "source_id": "32e489a45996e4f88518174d",
+      "source_kind": "secondary",
+      "source_seen_at": "2026-10-23T11:00:00+00:00"
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPYzdOb3ZsTEpLWVVjaDN3M3kteFA1STBOWXhoVl9zRnZSc0wyZ3FqdktabVdwdDliNE9wQzB5cWtLMFhVeHF6Vy16Z1duRF9pUmRyLUZjcnRtRTFJSDg1a0pkb1ZVX2pUVm1ZQXZjRzJZR1cyejhYMG9lTzRmZW1MMDA5WVlTQ3FqUDJEOUhvN2F4SVU?oc=5",
+      "content_fingerprint": "4f5aea836ea28910643ef614",
+      "fetched_at": "2026-10-23T11:50:48.196124+00:00",
+      "institution_id": "ecb",
+      "language": "en",
+      "observations": [
+        {
+          "collector": "google_news",
+          "language": "en",
+          "search_query": "\"European Central Bank\"",
+          "search_region": "Europe",
+          "title": "Ready for a French test?: Five questions for the ECB - Reuters"
+        }
+      ],
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPYzdOb3ZsTEpLWVVjaDN3M3kteFA1STBOWXhoVl9zRnZSc0wyZ3FqdktabVdwdDliNE9wQzB5cWtLMFhVeHF6Vy16Z1duRF9pUmRyLUZjcnRtRTFJSDg1a0pkb1ZVX2pUVm1ZQXZjRzJZR1cyejhYMG9lTzRmZW1MMDA5WVlTQ3FqUDJEOUhvN2F4SVU?oc=5",
+      "profile_id": "institutions/ecb",
+      "published_at": "2026-10-23T04:06:00+00:00",
+      "publisher": "Reuters",
+      "search_query": "\"European Central Bank\"",
+      "source_country": "unknown",
+      "source_id": "336f28bb0d00df341661312b",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNUGJ1UmxUM3NPSlRuRWJXQ1Rva3dCejZ4OU9DazJrZUZiMkJyeHBuSVpFZk5IcW0ySDFmQ21PdzY2dkVjZ2VHZ2VjNHlJMV81YnBiSVZMV0lFaE5LRnFHUEpyc2ExQk9HeGdoa3hBOFBMQmZLU1ZMVTNrZ1YxN3U3SDFCRlluYmR4c0JrSm1B?oc=5",
+      "content_fingerprint": "f61a2128e2ae0481ee0567c4",
+      "fetched_at": "2026-10-23T11:50:48.196124+00:00",
+      "institution_id": "ecb",
+      "language": "en",
+      "observations": [
+        {
+          "collector": "google_news",
+          "language": "en",
+          "search_query": "\"European Central Bank\"",
+          "search_region": "Europe",
+          "title": "European Central Bank Cites Coinbase as DeFi Lending Example - Coinfomania"
+        }
+      ],
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNUGJ1UmxUM3NPSlRuRWJXQ1Rva3dCejZ4OU9DazJrZUZiMkJyeHBuSVpFZk5IcW0ySDFmQ21PdzY2dkVjZ2VHZ2VjNHlJMV81YnBiSVZMV0lFaE5LRnFHUEpyc2ExQk9HeGdoa3hBOFBMQmZLU1ZMVTNrZ1YxN3U3SDFCRlluYmR4c0JrSm1B?oc=5",
+      "profile_id": "institutions/ecb",
+      "published_at": "2026-10-21T20:20:51+00:00",
+      "publisher": "Coinfomania",
+      "search_query": "\"European Central Bank\"",
+      "source_country": "unknown",
+      "source_id": "342d76466c394f2e5ec366cf",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOR2hoVmpfRDk4ejVIVkpCUjV0ekF2WjdBeF9HMDdIRWVkM1BpZXlhekVodXBubUdiMGRhdGtaVXROWXhqakpsMXg4ZHNFREZfTWtHWXVXc1ZadDg1bm0tV1JhU0NBWllPakhzTm9UTlZUVWdLdHJHS2QzTzVLaG5HVWR0N3dnRHM5MFZRNTA1cWFGYWZCOXNLTTFpUDlSUl9xbHFKSHNoT3NQeW01a0ZaLURnMlFOZWJUZDk5SUJvRGlHMXVDV0NoMnBqTFpMa3V5cWI4NmgyNE9nYjdZSmNxWkVDUFNNdw?oc=5",
+      "content_fingerprint": "c65c53e63aee1cf5c491555c",
+      "fetched_at": "2026-10-23T11:50:48.196124+00:00",
+      "institution_id": "ecb",
+      "language": "en",
+      "observations": [
+        {
+          "collector": "google_news",
+          "language": "en",
+          "search_query": "\"European Central Bank\"",
+          "search_region": "Europe",
+          "title": "Nicolas Dufrêne, the man who suggests canceling France's European Central Bank debt - Le Monde.fr"
+        }
+      ],
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOR2hoVmpfRDk4ejVIVkpCUjV0ekF2WjdBeF9HMDdIRWVkM1BpZXlhekVodXBubUdiMGRhdGtaVXROWXhqakpsMXg4ZHNFREZfTWtHWXVXc1ZadDg1bm0tV1JhU0NBWllPakhzTm9UTlZUVWdLdHJHS2QzTzVLaG5HVWR0N3dnRHM5MFZRNTA1cWFGYWZCOXNLTTFpUDlSUl9xbHFKSHNoT3NQeW01a0ZaLURnMlFOZWJUZDk5SUJvRGlHMXVDV0NoMnBqTFpMa3V5cWI4NmgyNE9nYjdZSmNxWkVDUFNNdw?oc=5",
+      "profile_id": "institutions/ecb",
+      "published_at": "2026-10-22T17:00:05+00:00",
+      "publisher": "Le Monde.fr",
+      "search_query": "\"European Central Bank\"",
+      "source_country": "unknown",
+      "source_id": "387c3b43e16caf9adc5ec4dc",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNMmlkS2Njc1lGdFB2TEhmREYyaVFDUUJJYXhLeVVPaFJVYzY5UkRLSEtiRjBnRkNLaXZONmdmVG4tQzRxZ0NiS0U3U1NwYktudmo3TVZOVFBpckdUWmpMd21aZzVDOEZmNGg0ZG43LV9zM1FyZjc5aUxnVXZlRHM1NTY3MWFKRzVvX0RJTjVlcnpkQUxNaFVvaUpyeGZoclhiaWZWd2czSEx6dFNVc3h1bzF4QVRtVjk4MFpWM0prRTk2M3RWanZ3QkYwMkw5d2ZlNmpyanJRb3ZMNFBIcWc5SQ?oc=5",
+      "content_fingerprint": "b9c83f616fff94af412bde97",
+      "fetched_at": "2026-10-23T11:50:48.196124+00:00",
+      "institution_id": "ecb",
+      "language": "en",
+      "observations": [
+        {
+          "collector": "google_news",
+          "language": "en",
+          "search_query": "\"European Central Bank\"",
+          "search_region": "Europe",
+          "title": "European Central Bank: Are markets pricing in too steep a path as a December hike is signalled? – Nomura - www.tmgm.com"
+        }
+      ],
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNMmlkS2Njc1lGdFB2TEhmREYyaVFDUUJJYXhLeVVPaFJVYzY5UkRLSEtiRjBnRkNLaXZONmdmVG4tQzRxZ0NiS0U3U1NwYktudmo3TVZOVFBpckdUWmpMd21aZzVDOEZmNGg0ZG43LV9zM1FyZjc5aUxnVXZlRHM1NTY3MWFKRzVvX0RJTjVlcnpkQUxNaFVvaUpyeGZoclhiaWZWd2czSEx6dFNVc3h1bzF4QVRtVjk4MFpWM0prRTk2M3RWanZ3QkYwMkw5d2ZlNmpyanJRb3ZMNFBIcWc5SQ?oc=5",
+      "profile_id": "institutions/ecb",
+      "published_at": "2026-10-23T04:25:25+00:00",
+      "publisher": "www.tmgm.com",
+      "search_query": "\"European Central Bank\"",
+      "source_country": "unknown",
+      "source_id": "3e74292c00e337dc8847b52f",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPRVFZNWwzUUpSUDJPODM0UDFDSUdQNWU1NWV3cm5KMkppS1FkNEVoZHI5TW9lTUlKVlhfY2ZlU0hWN3JjYkoyTTNKYy1PMEJJOTNaY0RJSlltSmR2RlJsMGItZ2E3SXR6NUJTdUZmM2QwbTQxRVpZWVJmRXo1bDFsVnhPbXhLNDFPUUEtazRYQjUxZkR2WWNtYlZVdjhGZHd0MWVlYW5WTWNNY0RPMnc?oc=5",
+      "content_fingerprint": "133160ebe611ced921a10c2a",
+      "fetched_at": "2026-10-23T11:50:48.196124+00:00",
+      "institution_id": "ecb",
+      "language": "en",
+      "observations": [
+        {
+          "collector": "google_news",
+          "language": "en",
+          "search_query": "\"European Central Bank\"",
+          "search_region": "Europe",
+          "title": "European Central Bank: Rising bond yields favor an October hold – ING - FXStreet"
+        }
+      ],
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPRVFZNWwzUUpSUDJPODM0UDFDSUdQNWU1NWV3cm5KMkppS1FkNEVoZHI5TW9lTUlKVlhfY2ZlU0hWN3JjYkoyTTNKYy1PMEJJOTNaY0RJSlltSmR2RlJsMGItZ2E3SXR6NUJTdUZmM2QwbTQxRVpZWVJmRXo1bDFsVnhPbXhLNDFPUUEtazRYQjUxZkR2WWNtYlZVdjhGZHd0MWVlYW5WTWNNY0RPMnc?oc=5",
+      "profile_id": "institutions/ecb",
+      "published_at": "2026-10-22T14:32:42+00:00",
+      "publisher": "FXStreet",
+      "search_query": "\"European Central Bank\"",
+      "source_country": "unknown",
+      "source_id": "419eec00cced8801a98fba0c",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://econotimes.com/Lane-Says-Wider-Euro-Use-Could-Extend-ECB-Policy-s-Reach-1760590",
+      "content_fingerprint": "35ef44ac4c9cf049f9858af5",
+      "fetched_at": "2026-10-23T11:50:48.196124+00:00",
+      "institution_id": "ecb",
+      "language": "English",
+      "observations": [
+        {
+          "collector": "gdelt",
+          "language": "English",
+          "search_query": "\"European Central Bank\"",
+          "search_region": "Europe",
+          "title": "Lane Says Wider Euro Use Could Extend ECB Policy Reach"
+        }
+      ],
+      "origin_collector": "gdelt",
+      "original_url": "https://econotimes.com/Lane-Says-Wider-Euro-Use-Could-Extend-ECB-Policy-s-Reach-1760590",
+      "profile_id": "institutions/ecb",
+      "published_at": null,
+      "publisher": "econotimes.com",
+      "search_query": "\"European Central Bank\"",
+      "source_country": "United States",
+      "source_id": "58f868548e08c6e69e520dfb",
+      "source_kind": "secondary",
+      "source_seen_at": "2026-10-22T21:15:00+00:00"
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9Hb0Q4UEdRZlNFV2RnVnNEcUg5ZzVvQlVMbzgwYjdIeENfcGlwckl3ME1uek9fUHNLZENmRDVoSUg5UWVDd1NxaDZKZ0Nzd1VocmZBY1NnWHZwN0k?oc=5",
+      "content_fingerprint": "9cd951c6f75b9c1343c519aa",
+      "fetched_at": "2026-10-23T11:50:48.196124+00:00",
+      "institution_id": "ecb",
+      "language": "en",
+      "observations": [
+        {
+          "collector": "google_news",
+          "language": "en",
+          "search_query": "\"European Central Bank\"",
+          "search_region": "Europe",
+          "title": "ECB Euro Backstop Draws Interest From More Than 30 Central Banks - TOKENPOST"
+        }
+      ],
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9Hb0Q4UEdRZlNFV2RnVnNEcUg5ZzVvQlVMbzgwYjdIeENfcGlwckl3ME1uek9fUHNLZENmRDVoSUg5UWVDd1NxaDZKZ0Nzd1VocmZBY1NnWHZwN0k?oc=5",
+      "profile_id": "institutions/ecb",
+      "published_at": "2026-10-21T19:42:13+00:00",
+      "publisher": "TOKENPOST",
+      "search_query": "\"European Central Bank\"",
+      "source_country": "unknown",
+      "source_id": "5f9a331ae4b0bca08103a38e",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://econotimes.com/ECB-Fixing-Shows-Euro-Down-0-24-Against-Pound-on-Oct-21-1759657",
+      "content_fingerprint": "13df4caaae39086d1b00cab7",
+      "fetched_at": "2026-10-23T11:50:48.196124+00:00",
+      "institution_id": "ecb",
+      "language": "English",
+      "observations": [
+        {
+          "collector": "gdelt",
+          "language": "English",
+          "search_query": "\"European Central Bank\"",
+          "search_region": "Europe",
+          "title": "ECB Fixing Shows Euro Down 0 . 24 % Against Pound on Oct . 21"
+        }
+      ],
+      "origin_collector": "gdelt",
+      "original_url": "https://econotimes.com/ECB-Fixing-Shows-Euro-Down-0-24-Against-Pound-on-Oct-21-1759657",
+      "profile_id": "institutions/ecb",
+      "published_at": null,
+      "publisher": "econotimes.com",
+      "search_query": "\"European Central Bank\"",
+      "source_country": "United States",
+      "source_id": "66dd5718189ee061e511b526",
+      "source_kind": "secondary",
+      "source_seen_at": "2026-10-22T01:45:00+00:00"
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQSGdDQi1GSVFLZWw1ZVFMRzVTR2Y1RWNiRDgtdEd5MXZXRHI2em1RYWFScEpsSE05SXJ1RExiNGpLd3VCak9sZS1RUnpwVE9jX09CSGxZczVObmdoUWxNQVJXLWZmRVp5V0kzVU1FOEpZQ0pKVkNOWTZTd296QmFQZGZ1VXg3X09ySmtIWjJTUnVKdWpXSGsyZGZTVUZtZ2s1Zmc?oc=5",
+      "content_fingerprint": "918a2c3a59cbbef8162720ab",
+      "fetched_at": "2026-10-23T11:50:48.196124+00:00",
+      "institution_id": "ecb",
+      "language": "en",
+      "observations": [
+        {
+          "collector": "google_news",
+          "language": "en",
+          "search_query": "site:ecb.europa.eu",
+          "search_region": "Europe",
+          "title": "Public quasi-corporations as AnaCredit debtors - European Central Bank"
+        }
+      ],
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQSGdDQi1GSVFLZWw1ZVFMRzVTR2Y1RWNiRDgtdEd5MXZXRHI2em1RYWFScEpsSE05SXJ1RExiNGpLd3VCak9sZS1RUnpwVE9jX09CSGxZczVObmdoUWxNQVJXLWZmRVp5V0kzVU1FOEpZQ0pKVkNOWTZTd296QmFQZGZ1VXg3X09ySmtIWjJTUnVKdWpXSGsyZGZTVUZtZ2s1Zmc?oc=5",
+      "profile_id": "institutions/ecb",
+      "published_at": "2026-10-21T21:39:08+00:00",
+      "publisher": "European Central Bank",
+      "search_query": "site:ecb.europa.eu",
+      "source_country": "unknown",
+      "source_id": "68a00bf1fdbb3009ec6d7cf9",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBZeHNfcHgyZUE5aEFrNF9ic3lBNWwyT0d6aExNWVJrWVhBWDM4Z21QVzRNRVBTcUJTYm9DQWVkbWdSMWFDLWx2MkRqRDFhODVQZUhRNFZqVzhDZU42eExhOVVWUWViU001ZGxraXpUVi1EblVVZUpma1NGUEU?oc=5",
+      "content_fingerprint": "0ee6cf9b2c518100039d50d6",
+      "fetched_at": "2026-10-23T11:50:48.196124+00:00",
+      "institution_id": "ecb",
+      "language": "en",
+      "observations": [
+        {
+          "collector": "google_news",
+          "language": "en",
+          "search_query": "\"European Central Bank\"",
+          "search_region": "Europe",
+          "title": "Regular central bank dialogue underpins win-win China-EU economic and financial ties: ECB official - Xinhua"
+        }
+      ],
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBZeHNfcHgyZUE5aEFrNF9ic3lBNWwyT0d6aExNWVJrWVhBWDM4Z21QVzRNRVBTcUJTYm9DQWVkbWdSMWFDLWx2MkRqRDFhODVQZUhRNFZqVzhDZU42eExhOVVWUWViU001ZGxraXpUVi1EblVVZUpma1NGUEU?oc=5",
+      "profile_id": "institutions/ecb",
+      "published_at": "2026-10-21T16:10:16+00:00",
+      "publisher": "Xinhua",
+      "search_query": "\"European Central Bank\"",
+      "source_country": "unknown",
+      "source_id": "6bac8c2d46ab1357b1d8ce7d",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://investinglive.com/central-banks/ecb-s-panetta-says-rising-yields-a-drag-on-growth-not-a-crisis-ahead-of-rate-meeting",
+      "content_fingerprint": "da98bb6fd235be769cf31adc",
+      "fetched_at": "2026-10-23T11:50:48.196124+00:00",
+      "institution_id": "ecb",
+      "language": "English",
+      "observations": [
+        {
+          "collector": "gdelt",
+          "language": "English",
+          "search_query": "\"European Central Bank\"",
+          "search_region": "Europe",
+          "title": "ECB Panetta says rising yields a drag on growth , not a crisis , ahead of rate meeting"
+        }
+      ],
+      "origin_collector": "gdelt",
+      "original_url": "https://investinglive.com/central-banks/ecb-s-panetta-says-rising-yields-a-drag-on-growth-not-a-crisis-ahead-of-rate-meeting/",
+      "profile_id": "institutions/ecb",
+      "published_at": null,
+      "publisher": "investinglive.com",
+      "search_query": "\"European Central Bank\"",
+      "source_country": "",
+      "source_id": "6dcae5dacca4da92f7bd258e",
+      "source_kind": "secondary",
+      "source_seen_at": "2026-10-22T23:15:00+00:00"
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPQ2NrWXNiazBfVF9vdXVZTVhUWFFuQVVaZVdacTY0eDJGbGc4S1hKQnBITmwxa1hsaDZUR0xYTVNkOGw4NHVNYWEzcDlXT3BiWWZfbTZPNHN0LUpiRGNQX2pJeXloQnY4d2Z6TkUtUWlvYm5qeTFFQTk5MTNzcUlCQ2s2MnoyaEZT?oc=5",
+      "content_fingerprint": "f0a493f84bd4fa6928a0b127",
+      "fetched_at": "2026-10-23T11:50:48.196124+00:00",
+      "institution_id": "ecb",
+      "language": "en",
+      "observations": [
+        {
+          "collector": "google_news",
+          "language": "en",
+          "search_query": "site:ecb.europa.eu",
+          "search_region": "Europe",
+          "title": "ECB Consumer Expectations Survey results – September 2026 - European Central Bank"
+        }
+      ],
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPQ2NrWXNiazBfVF9vdXVZTVhUWFFuQVVaZVdacTY0eDJGbGc4S1hKQnBITmwxa1hsaDZUR0xYTVNkOGw4NHVNYWEzcDlXT3BiWWZfbTZPNHN0LUpiRGNQX2pJeXloQnY4d2Z6TkUtUWlvYm5qeTFFQTk5MTNzcUlCQ2s2MnoyaEZT?oc=5",
+      "profile_id": "institutions/ecb",
+      "published_at": "2026-10-23T08:37:31+00:00",
+      "publisher": "European Central Bank",
+      "search_query": "site:ecb.europa.eu",
+      "source_country": "unknown",
+      "source_id": "7eca50c721fc713529080d98",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5xUEZMbFQ3Ny1vRFNIUGZ5VlVWaXlTSTV3bno3T1NLOXJEbml4bmpRUzhMMlRzYXNldzZkNDlsVzZjVWdkdHVwR1ZMcjhKNF9oYXBr?oc=5",
+      "content_fingerprint": "e2087bcbc6362b459b651de9",
+      "fetched_at": "2026-10-23T11:50:48.196124+00:00",
+      "institution_id": "ecb",
+      "language": "en",
+      "observations": [
+        {
+          "collector": "google_news",
+          "language": "en",
+          "search_query": "\"European Central Bank\"",
+          "search_region": "Europe",
+          "title": "European Central Bank: December hike signalled as markets overprice path – Nomura | FXStreet - شبكة تواصل الإخبارية"
+        }
+      ],
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5xUEZMbFQ3Ny1vRFNIUGZ5VlVWaXlTSTV3bno3T1NLOXJEbml4bmpRUzhMMlRzYXNldzZkNDlsVzZjVWdkdHVwR1ZMcjhKNF9oYXBr?oc=5",
+      "profile_id": "institutions/ecb",
+      "published_at": "2026-10-22T16:44:02+00:00",
+      "publisher": "شبكة تواصل الإخبارية",
+      "search_query": "\"European Central Bank\"",
+      "source_country": "unknown",
+      "source_id": "831aead3bed5ac6d7e13b337",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxON0lUTzFSTGU2X2Z5UWVob2NmMTc3TFJxdkRzQzFmeFVIWmtrTDZ2aVhqWmV5UE1OZzZ1cUQ4MWtPclhIeFY1dkNJdVd5VWV3M2lXT05ZVWxWQVhKRzJqMDF4bXNnVnkyeURJdzNQd2VQVGFuUUUwRGZwd3hTZDNZNUF4dm9pMEhyUFFvazBmdVF2NExJLTlydnRncjhXQjdsLVE?oc=5",
+      "content_fingerprint": "dffbd55d2aad78770df00ea4",
+      "fetched_at": "2026-10-23T11:50:48.196124+00:00",
+      "institution_id": "ecb",
+      "language": "en",
+      "observations": [
+        {
+          "collector": "google_news",
+          "language": "en",
+          "search_query": "site:ecb.europa.eu",
+          "search_region": "Europe",
+          "title": "Announcement: Update of the annexes to the AnaCredit Manual - European Central Bank"
+        }
+      ],
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxON0lUTzFSTGU2X2Z5UWVob2NmMTc3TFJxdkRzQzFmeFVIWmtrTDZ2aVhqWmV5UE1OZzZ1cUQ4MWtPclhIeFY1dkNJdVd5VWV3M2lXT05ZVWxWQVhKRzJqMDF4bXNnVnkyeURJdzNQd2VQVGFuUUUwRGZwd3hTZDNZNUF4dm9pMEhyUFFvazBmdVF2NExJLTlydnRncjhXQjdsLVE?oc=5",
+      "profile_id": "institutions/ecb",
+      "published_at": "2026-10-21T18:53:08+00:00",
+      "publisher": "European Central Bank",
+      "search_query": "site:ecb.europa.eu",
+      "source_country": "unknown",
+      "source_id": "88a4d0887778c927d6d8e524",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNTWlnaGU4LXhZM25aVm5Oc0JsN3I4Mi1XaHlTMm9Sck5MSUNoZzJTWTIyS2JrSTFXODd0aTFEaW94ekZ5UDhlcnJZU2RpMFgxd3k3ZWVFQkg5cjFJa1J1NFRQZmhEZXN5V1pQVUVmTGhSbVV3ek13MXpOZl9uY25hSmVDZjJUd05XQkhuTEREVEZyYmpvWExLZHZKTGRYaE43cmpoc0F0bGVsNTh2SVlPakVUejFUamt2RW9raFl0UEdZZjJaMDhkWGU0b09CSVpWNXc?oc=5",
+      "content_fingerprint": "1ad55cc410e084b4f333e98f",
+      "fetched_at": "2026-10-23T11:50:48.196124+00:00",
+      "institution_id": "ecb",
+      "language": "en",
+      "observations": [
+        {
+          "collector": "google_news",
+          "language": "en",
+          "search_query": "site:ecb.europa.eu",
+          "search_region": "Europe",
+          "title": "T2S-0858-URD Adjustment of the Night-Time Settlement for accommodating the shortening of the settlement cycle to T+1 - European Central Bank"
+        }
+      ],
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNTWlnaGU4LXhZM25aVm5Oc0JsN3I4Mi1XaHlTMm9Sck5MSUNoZzJTWTIyS2JrSTFXODd0aTFEaW94ekZ5UDhlcnJZU2RpMFgxd3k3ZWVFQkg5cjFJa1J1NFRQZmhEZXN5V1pQVUVmTGhSbVV3ek13MXpOZl9uY25hSmVDZjJUd05XQkhuTEREVEZyYmpvWExLZHZKTGRYaE43cmpoc0F0bGVsNTh2SVlPakVUejFUamt2RW9raFl0UEdZZjJaMDhkWGU0b09CSVpWNXc?oc=5",
+      "profile_id": "institutions/ecb",
+      "published_at": "2026-10-22T01:31:53+00:00",
+      "publisher": "European Central Bank",
+      "search_query": "site:ecb.europa.eu",
+      "source_country": "unknown",
+      "source_id": "8e62dd424e852fed936927b1",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQdDFQblgzY3FFYVBhOEduem9aMDBPaGtUaXJoT3J1VS1jWjA3a3BjWGJTdmc0aUx4NDBOcndkN3JydzFmUDVJRWdnV3kxRUVoSFRwbm5TbFl0eV9qelV4QjJkZmNncVVmdHF4clRGOFo2MWdxTzJiaVkxRFZuU0J1U0duUk11dU01Qll3TlNyNlVsd3pITFMyZXdGblN6eEtlcFRWQmNGcXBIcndJemhLT0JUYnc?oc=5",
+      "content_fingerprint": "bf673a0bca9b3e25654701d8",
+      "fetched_at": "2026-10-23T11:50:48.196124+00:00",
+      "institution_id": "ecb",
+      "language": "en",
+      "observations": [
+        {
+          "collector": "google_news",
+          "language": "en",
+          "search_query": "\"European Central Bank\"",
+          "search_region": "Europe",
+          "title": "De Cos Is Narrow Favorite to Follow Lagarde at ECB, Survey Shows - Bloomberg.com"
+        }
+      ],
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQdDFQblgzY3FFYVBhOEduem9aMDBPaGtUaXJoT3J1VS1jWjA3a3BjWGJTdmc0aUx4NDBOcndkN3JydzFmUDVJRWdnV3kxRUVoSFRwbm5TbFl0eV9qelV4QjJkZmNncVVmdHF4clRGOFo2MWdxTzJiaVkxRFZuU0J1U0duUk11dU01Qll3TlNyNlVsd3pITFMyZXdGblN6eEtlcFRWQmNGcXBIcndJemhLT0JUYnc?oc=5",
+      "profile_id": "institutions/ecb",
+      "published_at": "2026-10-23T09:05:08+00:00",
+      "publisher": "Bloomberg.com",
+      "search_query": "\"European Central Bank\"",
+      "source_country": "unknown",
+      "source_id": "91b570363703023733c70a9e",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261023~a3d201c97c.en.html",
+      "content_fingerprint": "7b8313f6713b3703d9ffc7da",
+      "fetched_at": "2026-10-23T11:50:48.196124+00:00",
+      "institution_id": "ecb",
+      "language": "unknown",
+      "observations": [
+        {
+          "collector": "rss",
+          "language": "unknown",
+          "search_query": null,
+          "search_region": "unknown",
+          "title": "ECB Consumer Expectations Survey results – September 2026"
+        }
+      ],
+      "origin_collector": "rss",
+      "original_url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261023~a3d201c97c.en.html",
+      "profile_id": "institutions/ecb",
+      "published_at": "2026-10-23T08:00:00+00:00",
+      "publisher": "European Central Bank",
+      "search_query": null,
+      "source_country": "unknown",
+      "source_id": "98e7b12542dbe24cb1205a42",
+      "source_kind": "primary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxORW0xTHpEYlo2cWRiUV9rNHpLYkhtWVVlbXZ0djRONV9HYk9PWXRZZEdGYzRkN3lGVDN4UDc2UUNEeHY4eW1fSlBlNzU2ekxaeE51U0MwMUJWbVBVYUtWTnM3Mm5KWXotT2Qyb2M3b1pUVmpkaGp4Y0ZvR3VGNDRacHNZbVBSRXV3RTFSaDM4OGhvWjZ3cHFhVFo4RVFNNk1VemV0aFRWQWdQandJSzBtWi1UWDJVd1FJbmloZjJNTU5jMVBPYmZ0VF9yeEhuVUZRcEVkUk5oMnQ?oc=5",
+      "content_fingerprint": "16bc3631a6da13692dded2d9",
+      "fetched_at": "2026-10-23T11:50:48.196124+00:00",
+      "institution_id": "ecb",
+      "language": "en",
+      "observations": [
+        {
+          "collector": "google_news",
+          "language": "en",
+          "search_query": "site:ecb.europa.eu",
+          "search_region": "Europe",
+          "title": "Traineeship in the Monetary Analysis Division in the Directorate General Monetary Policy - Job Search | European Central Bank"
+        }
+      ],
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxORW0xTHpEYlo2cWRiUV9rNHpLYkhtWVVlbXZ0djRONV9HYk9PWXRZZEdGYzRkN3lGVDN4UDc2UUNEeHY4eW1fSlBlNzU2ekxaeE51U0MwMUJWbVBVYUtWTnM3Mm5KWXotT2Qyb2M3b1pUVmpkaGp4Y0ZvR3VGNDRacHNZbVBSRXV3RTFSaDM4OGhvWjZ3cHFhVFo4RVFNNk1VemV0aFRWQWdQandJSzBtWi1UWDJVd1FJbmloZjJNTU5jMVBPYmZ0VF9yeEhuVUZRcEVkUk5oMnQ?oc=5",
+      "profile_id": "institutions/ecb",
+      "published_at": "2026-10-22T13:14:35+00:00",
+      "publisher": "Job Search | European Central Bank",
+      "search_query": "site:ecb.europa.eu",
+      "source_country": "unknown",
+      "source_id": "a7509ffc6107fb626a631781",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPbmRtZy0yT2NCMm5CMHRBY3JMODNOZWV1c3dJb2pCQlZZRkg4YV9aNXhjMzRNLWZfZXVDNFI3bWhoVVlmX3ZnaUczTzhRaXFpWURuYzNVY21rUjExQzN3eXY1TWdweWFTRnQxUEEySmYxbFpMRzBUZm5XMXk1WjRjZFByNm1VZnFp?oc=5",
+      "content_fingerprint": "f0a493f84bd4fa6928a0b127",
+      "fetched_at": "2026-10-23T11:50:48.196124+00:00",
+      "institution_id": "ecb",
+      "language": "en",
+      "observations": [
+        {
+          "collector": "google_news",
+          "language": "en",
+          "search_query": "site:ecb.europa.eu",
+          "search_region": "Europe",
+          "title": "ECB Consumer Expectations Survey results – September 2026 - European Central Bank"
+        }
+      ],
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPbmRtZy0yT2NCMm5CMHRBY3JMODNOZWV1c3dJb2pCQlZZRkg4YV9aNXhjMzRNLWZfZXVDNFI3bWhoVVlmX3ZnaUczTzhRaXFpWURuYzNVY21rUjExQzN3eXY1TWdweWFTRnQxUEEySmYxbFpMRzBUZm5XMXk1WjRjZFByNm1VZnFp?oc=5",
+      "profile_id": "institutions/ecb",
+      "published_at": "2026-10-23T08:03:45+00:00",
+      "publisher": "European Central Bank",
+      "search_query": "site:ecb.europa.eu",
+      "source_country": "unknown",
+      "source_id": "ac9a95c4cae11aeb4b8fc4a1",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPOXhqSEV3Uk9iNXNwT1lkUXlxWHNXVkdHMlZPR0hXZGFqa1RFZVptLU9GSTRSdWtBMkd1MUZISEFKSnBaN3I4anRSQmFvREVtZ2VwTnB2SW5IY2hVUTkxaDlQeVFGV2pwZk1EMTJVblI1Rmo4T21URno1bjhFN0kta3h5X0VnRnFPSmh1eWNnQjBNdTQ2bnNaZU5uZmxTN0VTay0xYjRkTkRHdlMwRzZLU1liZkJlbGJ0V2JubndZam9nUlVrVTZVWFhlbHV1WTdkR1BxNkhn?oc=5",
+      "content_fingerprint": "3a4cbe996dd665325efe0b52",
+      "fetched_at": "2026-10-23T11:50:48.196124+00:00",
+      "institution_id": "ecb",
+      "language": "en",
+      "observations": [
+        {
+          "collector": "google_news",
+          "language": "en",
+          "search_query": "\"European Central Bank\"",
+          "search_region": "Europe",
+          "title": "French Spreads Widen: European Central Bank Communication in Focus – Nordea - www.tmgm.com"
+        }
+      ],
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPOXhqSEV3Uk9iNXNwT1lkUXlxWHNXVkdHMlZPR0hXZGFqa1RFZVptLU9GSTRSdWtBMkd1MUZISEFKSnBaN3I4anRSQmFvREVtZ2VwTnB2SW5IY2hVUTkxaDlQeVFGV2pwZk1EMTJVblI1Rmo4T21URno1bjhFN0kta3h5X0VnRnFPSmh1eWNnQjBNdTQ2bnNaZU5uZmxTN0VTay0xYjRkTkRHdlMwRzZLU1liZkJlbGJ0V2JubndZam9nUlVrVTZVWFhlbHV1WTdkR1BxNkhn?oc=5",
+      "profile_id": "institutions/ecb",
+      "published_at": "2026-10-22T13:27:30+00:00",
+      "publisher": "www.tmgm.com",
+      "search_query": "\"European Central Bank\"",
+      "source_country": "unknown",
+      "source_id": "ae50e54279f509cb0af3f005",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://www.aol.com/articles/ready-french-test-five-questions-040637000.html",
+      "content_fingerprint": "e31fb6bbae6ecb6e0f16ed7a",
+      "fetched_at": "2026-10-23T11:50:48.196124+00:00",
+      "institution_id": "ecb",
+      "language": "English",
+      "observations": [
+        {
+          "collector": "gdelt",
+          "language": "English",
+          "search_query": "\"European Central Bank\"",
+          "search_region": "Europe",
+          "title": "Ready for a French test ?: Five questions for the ECB"
+        }
+      ],
+      "origin_collector": "gdelt",
+      "original_url": "https://www.aol.com/articles/ready-french-test-five-questions-040637000.html",
+      "profile_id": "institutions/ecb",
+      "published_at": null,
+      "publisher": "aol.com",
+      "search_query": "\"European Central Bank\"",
+      "source_country": "United States",
+      "source_id": "b2597ce0eb27e6e0a98fe29a",
+      "source_kind": "secondary",
+      "source_seen_at": "2026-10-23T05:30:00+00:00"
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9JSmd3SWNHRnc5Q09FZ2NDWkZGZDd1NHJWWWRGdDEwVlBqMDVvOE44WWlqQnhPNmJvaEtaX1lSRkRLeWJ0eDI0TGRKVXJqMkRVcWMxRXF3RFFTbF9VVjBfcm11bHhuemltczNRTjdINmkzMk9wdmc?oc=5",
+      "content_fingerprint": "1f37634b7ed7e3c047a12cf3",
+      "fetched_at": "2026-10-23T11:50:48.196124+00:00",
+      "institution_id": "ecb",
+      "language": "en",
+      "observations": [
+        {
+          "collector": "google_news",
+          "language": "en",
+          "search_query": "\"European Central Bank\"",
+          "search_region": "Europe",
+          "title": "ECB's Lane in Shanghai: Expanding Euro Liquidity Network to Broaden Currency Area's Influence - finance.biggo.com"
+        }
+      ],
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9JSmd3SWNHRnc5Q09FZ2NDWkZGZDd1NHJWWWRGdDEwVlBqMDVvOE44WWlqQnhPNmJvaEtaX1lSRkRLeWJ0eDI0TGRKVXJqMkRVcWMxRXF3RFFTbF9VVjBfcm11bHhuemltczNRTjdINmkzMk9wdmc?oc=5",
+      "profile_id": "institutions/ecb",
+      "published_at": "2026-10-21T18:18:00+00:00",
+      "publisher": "finance.biggo.com",
+      "search_query": "\"European Central Bank\"",
+      "source_country": "unknown",
+      "source_id": "c246e2cdb971f4a51c93d5ba",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPQ2NlXzlMaE1uMVJ2b1l6MWNBbjJENU1aaVVDY0ZJbFhWc1BTTEVkdmRQendsUHFxSUtqNkVZal8yb2xKNm1DS1BrV1RWWUtmQ3ZmNUY4RnQzQU44LVEzcEtHZklsVTB4Z1Qtemlta3NkMkllUF9BeFFOVk5YRWtVSU96eUpJcE11N0xN?oc=5",
+      "content_fingerprint": "394cab4849383d5cb3a8cb81",
+      "fetched_at": "2026-10-23T11:50:48.196124+00:00",
+      "institution_id": "ecb",
+      "language": "en",
+      "observations": [
+        {
+          "collector": "google_news",
+          "language": "en",
+          "search_query": "site:ecb.europa.eu",
+          "search_region": "Europe",
+          "title": "Pontes and Appia: unlocking opportunities for banks - European Central Bank"
+        }
+      ],
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPQ2NlXzlMaE1uMVJ2b1l6MWNBbjJENU1aaVVDY0ZJbFhWc1BTTEVkdmRQendsUHFxSUtqNkVZal8yb2xKNm1DS1BrV1RWWUtmQ3ZmNUY4RnQzQU44LVEzcEtHZklsVTB4Z1Qtemlta3NkMkllUF9BeFFOVk5YRWtVSU96eUpJcE11N0xN?oc=5",
+      "profile_id": "institutions/ecb",
+      "published_at": "2026-10-21T12:58:13+00:00",
+      "publisher": "European Central Bank",
+      "search_query": "site:ecb.europa.eu",
+      "source_country": "unknown",
+      "source_id": "c4e274fc541827920cecca2d",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPc3NXU05TNEVoN05GYjE5Q0l3UHY0SW9icnhjWjNsOE9vWW44RlBLM2k0ZGxRM3E4RC1tTE5CV2Rfa2ZndHA2YmpPaG1FNFBaTWVDOVg2RkVpNmRNLVpyeks3Z2Y2THR1MGlTaE5TUURpak5XM29uMVVFSkxycmU5aUo1QWFJVkpHWGw2bmlfZUVSUjdPOFFkckdBUDI2V0xjNS1JX29fSGhLWU1yc2JrcGFoWTVta3NkV2s5THpfeXA0TzdKVWtQTmN2Q0diaFNi?oc=5",
+      "content_fingerprint": "b43fd477505cc74c2bebab81",
+      "fetched_at": "2026-10-23T11:50:48.196124+00:00",
+      "institution_id": "ecb",
+      "language": "en",
+      "observations": [
+        {
+          "collector": "google_news",
+          "language": "en",
+          "search_query": "\"European Central Bank\"",
+          "search_region": "Europe",
+          "title": "European Central Bank: Higher bond yields support an October hold – ING - www.tmgm.com"
+        }
+      ],
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPc3NXU05TNEVoN05GYjE5Q0l3UHY0SW9icnhjWjNsOE9vWW44RlBLM2k0ZGxRM3E4RC1tTE5CV2Rfa2ZndHA2YmpPaG1FNFBaTWVDOVg2RkVpNmRNLVpyeks3Z2Y2THR1MGlTaE5TUURpak5XM29uMVVFSkxycmU5aUo1QWFJVkpHWGw2bmlfZUVSUjdPOFFkckdBUDI2V0xjNS1JX29fSGhLWU1yc2JrcGFoWTVta3NkV2s5THpfeXA0TzdKVWtQTmN2Q0diaFNi?oc=5",
+      "profile_id": "institutions/ecb",
+      "published_at": "2026-10-22T15:00:57+00:00",
+      "publisher": "www.tmgm.com",
+      "search_query": "\"European Central Bank\"",
+      "source_country": "unknown",
+      "source_id": "c52bdccefee22b8bd6b8ad49",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQbTY5bzZ3N2ZzQU9XSWtROFNpWVQyV29fOHJ4RFNxQnQ3Zk5jVUlPSVdIR3FHcjVoVFZlQlV2VHFXUXdGWEZpRFFLd1NYb1VQcjVZRTRIR0ZDLW1qVXBoekhsZ3FkMkU4alltVDFwTzB0cEdEUkFDcUdLcm1PaUJ2ajk3LVcxUFBvMzR5Q00zNjVhdXF3bXJFRVIwMHNWY3ZlVG1GdHl2YUdqN040UEZBZnFVZ3dRUQ?oc=5",
+      "content_fingerprint": "cf28fe194a1a6eda9a784743",
+      "fetched_at": "2026-10-23T11:50:48.196124+00:00",
+      "institution_id": "ecb",
+      "language": "en",
+      "observations": [
+        {
+          "collector": "google_news",
+          "language": "en",
+          "search_query": "\"European Central Bank\"",
+          "search_region": "Europe",
+          "title": "European Central Bank: Communication focus as French spreads widen – Nordea - FXStreet"
+        }
+      ],
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQbTY5bzZ3N2ZzQU9XSWtROFNpWVQyV29fOHJ4RFNxQnQ3Zk5jVUlPSVdIR3FHcjVoVFZlQlV2VHFXUXdGWEZpRFFLd1NYb1VQcjVZRTRIR0ZDLW1qVXBoekhsZ3FkMkU4alltVDFwTzB0cEdEUkFDcUdLcm1PaUJ2ajk3LVcxUFBvMzR5Q00zNjVhdXF3bXJFRVIwMHNWY3ZlVG1GdHl2YUdqN040UEZBZnFVZ3dRUQ?oc=5",
+      "profile_id": "institutions/ecb",
+      "published_at": "2026-10-22T12:53:36+00:00",
+      "publisher": "FXStreet",
+      "search_query": "\"European Central Bank\"",
+      "source_country": "unknown",
+      "source_id": "cb1b67212f0d19a17a95c3ce",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://english.news.cn/20261022/ea2b149e147e4ac598dc028e363d2b09/c.html",
+      "content_fingerprint": "e1d11645fbb132af5972e5cc",
+      "fetched_at": "2026-10-23T11:50:48.196124+00:00",
+      "institution_id": "ecb",
+      "language": "English",
+      "observations": [
+        {
+          "collector": "gdelt",
+          "language": "English",
+          "search_query": "\"European Central Bank\"",
+          "search_region": "Europe",
+          "title": "Interview : Regular central bank dialogue underpins win - win China - EU economic and financial ties : ECB official - Xinhua"
+        }
+      ],
+      "origin_collector": "gdelt",
+      "original_url": "https://english.news.cn/20261022/ea2b149e147e4ac598dc028e363d2b09/c.html",
+      "profile_id": "institutions/ecb",
+      "published_at": null,
+      "publisher": "english.news.cn",
+      "search_query": "\"European Central Bank\"",
+      "source_country": "",
+      "source_id": "cd3e5abb65e04888cabee4d0",
+      "source_kind": "secondary",
+      "source_seen_at": "2026-10-22T00:45:00+00:00"
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOcEhTajNPZ3RPUmVuRTFxYjRmT08zWVZURDNQRHV0WF9xTXF4bHpqSXVhdjRiWkFJZFd1V2Q3djlLMndaWWZMaDZHWWJHalI5VS1Ka1Z4cUxkMTF3akRrZWVvY3NsdzEyU2xpYjhrYXpLSVY3Qm5mTGlMZDRzZnFWX3ctWEdDSDhJUG9LbUozMGVGREI1a1ZKcDJCRVg1WDNkXzhQeGpzeDdBWFZQNG5yWElB?oc=5",
+      "content_fingerprint": "cc5f3cb1bf03946562d4f103",
+      "fetched_at": "2026-10-23T11:50:48.196124+00:00",
+      "institution_id": "ecb",
+      "language": "en",
+      "observations": [
+        {
+          "collector": "google_news",
+          "language": "en",
+          "search_query": "\"European Central Bank\"",
+          "search_region": "Europe",
+          "title": "ECB Set to Raise Rates in December After Pause, Economists Say - Bloomberg.com"
+        }
+      ],
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOcEhTajNPZ3RPUmVuRTFxYjRmT08zWVZURDNQRHV0WF9xTXF4bHpqSXVhdjRiWkFJZFd1V2Q3djlLMndaWWZMaDZHWWJHalI5VS1Ka1Z4cUxkMTF3akRrZWVvY3NsdzEyU2xpYjhrYXpLSVY3Qm5mTGlMZDRzZnFWX3ctWEdDSDhJUG9LbUozMGVGREI1a1ZKcDJCRVg1WDNkXzhQeGpzeDdBWFZQNG5yWElB?oc=5",
+      "profile_id": "institutions/ecb",
+      "published_at": "2026-10-23T04:15:00+00:00",
+      "publisher": "Bloomberg.com",
+      "search_query": "\"European Central Bank\"",
+      "source_country": "unknown",
+      "source_id": "ce058b81859b074a77f47e9a",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOY2w3NU9XOVJhWWFjTGhfRnBPZWFuSDV0RHpXbFNjNHFnSDVGY2JHb21VcFZMU0w3eVNBeXgyLV9oTlZFa0dfMnhlb05VSjVXSWtvTThVTFdrVHJDZXVnRDRmNUlIeFBrNjdDZmo5OVNJZTZ1MEIwVUNSVHFOV3NQVUhNd3lRT3Y1NWU2d3JiRTMtUUU?oc=5",
+      "content_fingerprint": "540992fea93f9767419ca03d",
+      "fetched_at": "2026-10-23T11:50:48.196124+00:00",
+      "institution_id": "ecb",
+      "language": "en",
+      "observations": [
+        {
+          "collector": "google_news",
+          "language": "en",
+          "search_query": "site:ecb.europa.eu",
+          "search_region": "Europe",
+          "title": "Euro Foreign Exchange Reference Rates - European Central Bank"
+        }
+      ],
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOY2w3NU9XOVJhWWFjTGhfRnBPZWFuSDV0RHpXbFNjNHFnSDVGY2JHb21VcFZMU0w3eVNBeXgyLV9oTlZFa0dfMnhlb05VSjVXSWtvTThVTFdrVHJDZXVnRDRmNUlIeFBrNjdDZmo5OVNJZTZ1MEIwVUNSVHFOV3NQVUhNd3lRT3Y1NWU2d3JiRTMtUUU?oc=5",
+      "profile_id": "institutions/ecb",
+      "published_at": "2026-10-22T14:42:55+00:00",
+      "publisher": "European Central Bank",
+      "search_query": "site:ecb.europa.eu",
+      "source_country": "unknown",
+      "source_id": "d36f4211821d950164834d92",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQaHhzbnBzRzJSVl9vbEhnb0x6SDB3cUFzR1dlX21xRlR3WFhIWmdvdDJFV3FaQzlBR1BIalV3cnJZSy1RUFlNTDlRNWl6ZDM0ajBIcEpvQzJrbXFzSHpPYWVuVWpEV2VjUXlHNzZFSXZPajkybzlLRFc1NDhIN3NESFVZWVJFOU1feEVPOG1KeEc0NkZLUXhQdTdNeS1PNVBwN3h1V1M4X2NmM2lMTGtBcmNSVEZHZUk?oc=5",
+      "content_fingerprint": "2ec25f2a76f4c647db2ecab9",
+      "fetched_at": "2026-10-23T11:50:48.196124+00:00",
+      "institution_id": "ecb",
+      "language": "en",
+      "observations": [
+        {
+          "collector": "google_news",
+          "language": "en",
+          "search_query": "\"European Central Bank\"",
+          "search_region": "Europe",
+          "title": "European Central Bank: Gradual tightening points to December hike – Rabobank - FXStreet"
+        }
+      ],
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQaHhzbnBzRzJSVl9vbEhnb0x6SDB3cUFzR1dlX21xRlR3WFhIWmdvdDJFV3FaQzlBR1BIalV3cnJZSy1RUFlNTDlRNWl6ZDM0ajBIcEpvQzJrbXFzSHpPYWVuVWpEV2VjUXlHNzZFSXZPajkybzlLRFc1NDhIN3NESFVZWVJFOU1feEVPOG1KeEc0NkZLUXhQdTdNeS1PNVBwN3h1V1M4X2NmM2lMTGtBcmNSVEZHZUk?oc=5",
+      "profile_id": "institutions/ecb",
+      "published_at": "2026-10-22T18:16:00+00:00",
+      "publisher": "FXStreet",
+      "search_query": "\"European Central Bank\"",
+      "source_country": "unknown",
+      "source_id": "dbca7ed42ee7807d4585f05e",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://investinglive.com/central-banks/ecb-preview-mufg-sees-october-hold-two-hikes-ahead-see-eur-usd-year-end-at-1-12",
+      "content_fingerprint": "0be0539febb210144c70acd9",
+      "fetched_at": "2026-10-23T11:50:48.196124+00:00",
+      "institution_id": "ecb",
+      "language": "English",
+      "observations": [
+        {
+          "collector": "gdelt",
+          "language": "English",
+          "search_query": "\"European Central Bank\"",
+          "search_region": "Europe",
+          "title": "ECB preview : MUFG sees October hold , two hikes ahead . See EUR / USD year end at 1 . 12"
+        }
+      ],
+      "origin_collector": "gdelt",
+      "original_url": "https://investinglive.com/central-banks/ecb-preview-mufg-sees-october-hold-two-hikes-ahead-see-eur-usd-year-end-at-1-12/",
+      "profile_id": "institutions/ecb",
+      "published_at": null,
+      "publisher": "investinglive.com",
+      "search_query": "\"European Central Bank\"",
+      "source_country": "",
+      "source_id": "e06b69c9266c58510ad787ed",
+      "source_kind": "secondary",
+      "source_seen_at": "2026-10-22T23:15:00+00:00"
+    }
+  ],
+  "statistics": {
+    "collectors": [
+      {
+        "error_code": null,
+        "items": 11,
+        "query": "site:ecb.europa.eu",
+        "source": "google_news",
+        "status": "ok"
+      },
+      {
+        "error_code": null,
+        "items": 41,
+        "query": "\"European Central Bank\"",
+        "source": "google_news",
+        "status": "ok"
+      },
+      {
+        "error_code": null,
+        "items": 60,
+        "query": "\"European Central Bank\"",
+        "source": "gdelt",
+        "status": "ok"
+      },
+      {
+        "items": 1,
+        "source": "rss",
+        "status": "ok"
+      }
+    ],
+    "items": 30,
+    "sources": 36
+  },
+  "status": "complete",
+  "time_window": {
+    "since": "2026-10-21T11:50:48.212125+00:00",
+    "until": "2026-10-23T11:50:48.212125+00:00"
+  },
+  "workflow": {
+    "repository": "JsonLord/Horizon",
+    "run_attempt": "1",
+    "run_id": "39948776644",
+    "source_commit": "c9dcef30a10ffe67b8e399baea5c2a6787c7dfd2"
+  }
+}
