@@ -1,0 +1,272 @@
+{
+  "workflow_url": "https://github.com/JsonLord/Horizon/actions/runs/39795621057",
+  "conclusion": "success",
+  "retrieval_method": "GitHub check-run annotations; zlib/base64 public notices; full artifacts were not downloaded in the local execution environment.",
+  "check_run_id": 119882119837,
+  "proof": {
+    "comparison_report_id": null,
+    "model": {
+      "configured_endpoint_matches_reviewed_native_contract": true,
+      "configured_model": "receptron/laya-onnx",
+      "contract_status": "native_structured_classifier_discovered_not_yet_inferred",
+      "fallback_score": {
+        "calibration_status": "uncalibrated",
+        "decision": "review",
+        "dimensions": {
+          "benefits": 0.3333,
+          "inclusive_innovation": 0.0,
+          "mentoring_network": 0.0,
+          "software_ai": 0.3333,
+          "strategic_fit": 0.3333,
+          "terms_effort": 0.0
+        },
+        "evidence_confidence": 0.125,
+        "fit_score": 0.2167,
+        "hard_eligibility": "review_required",
+        "human_override": null,
+        "model": {
+          "attempts": 3,
+          "contract": "laya_native_system_one_v1",
+          "error": "invalid_or_unavailable_inference",
+          "fallback": "deterministic",
+          "horizon_calibration": "uncalibrated",
+          "inference_succeeded": false,
+          "input_hash": "8d848dd0e56ded87e2b0a3841d7de99a71aa5ccbc8bef28584d740c4292b232e",
+          "model_identity": null,
+          "policy_version": "1.0-provisional",
+          "status": "model_unavailable"
+        },
+        "model_self_reported_confidence": null,
+        "policy_version": "1.0-provisional",
+        "probability_relevant": null,
+        "reason_codes": [
+          "critical_eligibility_or_primary_evidence_unknown"
+        ]
+      },
+      "inference": {
+        "attempts": 3,
+        "contract": "laya_native_system_one_v1",
+        "error": "invalid_or_unavailable_inference",
+        "fallback": "deterministic",
+        "horizon_calibration": "uncalibrated",
+        "inference_succeeded": false,
+        "input_hash": "8d848dd0e56ded87e2b0a3841d7de99a71aa5ccbc8bef28584d740c4292b232e",
+        "model_identity": null,
+        "policy_version": "1.0-provisional",
+        "status": "model_unavailable"
+      }
+    },
+    "nominations": [
+      {
+        "candidate_id": "89c041a01a7d79146cc55e3a",
+        "error": "robots_disallowed",
+        "observed_at": "2026-10-22T14:26:20.006973+00:00",
+        "outbound_links": [],
+        "quotation": null,
+        "sha256": null,
+        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNMXExMWtCMV94V29YMENzUmo4dlZsTXlWV2E3bXFqY2hzdTlISHZ4Ry1neWtQazExQlFaLUhpcmFYa1pIMmV5OVFQZXZoVGFWVTdhX1NiSUk4OWVFbFBqbU9lU3dsM2lCcXdwV1g1MnVwenA1WUlubGZxd2x0bDhnWHg3V1B0ODN4QkR5NHB3UFEyeC1salc0RmpFczZkQ2hORFg1TmxjV0wyb3hhVmc"
+      },
+      {
+        "candidate_id": "6d3770e0c55e6e4d1e27c2ad",
+        "error": "robots_disallowed",
+        "observed_at": "2026-10-22T14:26:20.126197+00:00",
+        "outbound_links": [],
+        "quotation": null,
+        "sha256": null,
+        "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBBdi1vLWpMeE80blFoVFNlRzBTUUZUQ0R0WklqMEpRRTBTZUhldXVrRTREMEN2RUd6eDlCbmF5NW1UV1pBelVxR3dWaUZhdk9uY2hCRjVmMTRCdnAyZGx3SjZva282VUxvdi02ZnluQQ"
+      },
+      {
+        "candidate_id": "71c89b61310666c94f86a0fb",
+        "error": "robots_disallowed",
+        "observed_at": "2026-10-22T14:26:20.138820+00:00",
+        "outbound_links": [],
+        "quotation": null,
+        "sha256": null,
+        "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNa2NEeVEtMmx0Z2JuTVhBdktxSjhCUmg2Q2NyQnJSNVllenIxeUxpb0NEeHhSMlgtTjFEYkFaY3VtcWwxZmdKbnNDSlkzM2k4b2V3dzBlOW9fcG1ZUjREVWlsUVdYYVdNQXFkenZYeU0tT1FoaXdNbTBSUDF4RFlLVUdOelVmazRuQThhRE1QQ3Q5TnYtd2F3NEtMXzVjeWZYQ0NPakMxd3lldHYxTVVIdENoNkhCcXptT2pPMUZ5b3VWRGdsNlVEVXk5anA"
+      },
+      {
+        "candidate_id": "e253ec53ce9112ce37174bfb",
+        "error": "robots_disallowed",
+        "observed_at": "2026-10-22T14:26:20.151363+00:00",
+        "outbound_links": [],
+        "quotation": null,
+        "sha256": null,
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNNTNwSHkxZG81c2ZFRDJXLWtva012VW1BSXNKbnB0blQxa1hZZEF6dER1Z0NxOHZUb2c5VXh5am40X0pNVjFrTmpLVU1fSTB3dXhWeVdlOGRjMGdPRW1KZldLMEM0TXRVNWxOdTExeWpMeUpkOU9jbjdoaGxmVktvZjlMNDJfVy1oaE5rLWdockdwN0M0NjM2TGM0eGFUdjdlSkRxVm1rS1FqUDk5OXVHQ1JrSXI4THPSAbcBQVVfeXFMTTUzcEh5MWRvNXNmRUQyVy1rb2tNdlVtQUlzSm5wdG5UMWtYWWRBenREdWdDcTh2VG9nOVV4eWpuNF9KTVYxa05qS1VNX0kwd3V4VnlXZThkYzBnT0VtSmZXSzBDNE10VTVsTnUxMXlqTHlKZDlPY243aGhsZlZLb2Y5TDQyX1ctaGhOay1naHJHcDdDNDYzNkxjNHhhVHY3ZUpEcVZta0tRalA5OTl1R0NSa0lyOExz"
+      }
+    ],
+    "observations": [
+      {
+        "error": null,
+        "excerpts": [
+          {
+            "anchor": "Ab sofort",
+            "quotation": "Ab sofort k\u00f6nnen wieder Antr\u00e4ge f\u00fcr das F\u00f6rderprogramm Gr\u00fcndungsBONUS Plus eingereicht werden. \"Gr\u00fcndungsBONUS Plus\" auf einen Blick Existenzgr\u00fcndungszuschuss Unternehmensalter maximal 18 Monate 50% F\u00f6rderung der Gr\u00fcndungskosten bis maximal 50.000 EUR Finanzierung nahezu s\u00e4mtlicher Kosten der Startphase mit dem Mikrokredit kombinierbar \"Gr\u00fcndungsBONUS Plus\" im Detail Wer wird gef\u00f6rdert? Rechtlich selbstst\u00e4ndige, auf Gewinnerzielung ausgerichtete Gr\u00fcndungen, Start-ups bzw. Kleinstunternehmen und "
+          },
+          {
+            "anchor": "Wer wird",
+            "quotation": "Wer wird gef\u00f6rdert? Rechtlich selbstst\u00e4ndige, auf Gewinnerzielung ausgerichtete Gr\u00fcndungen, Start-ups bzw. Kleinstunternehmen und Freiberufler mit Sitz in Berlin sowie wirtschaftlich t\u00e4tige Sozialunternehmen. Voraussetzung f\u00fcr die Antragsberechtigung von wirtschaftlich t\u00e4tigen Sozialunternehmen ist, das Gesch\u00e4ftsmodell \u00fcberwiegend auf die Erzielung von Markteinkommen im Wettbewerb mit anderen Anbietern ausgerichtet ist bzw. sie ihre Einnahmen \u00fcberwiegend, das hei\u00dft zu mehr als 50 %, nicht aus st"
+          },
+          {
+            "anchor": "Gr\u00fcndung",
+            "quotation": "Gr\u00fcndungsBONUS Plus \u2013 Bis zu 50.000 EUR Gr\u00fcndungsf\u00f6rderung - Investitionsbank Berlin Zum Haupinhalt springen Men\u00fc \u00f6ffnen Men\u00fc schlie\u00dfen Gr\u00fcndungsBONUS Plus F\u00f6rderung des Unternehmensaufbaus Sie wollen ein Unternehmen gr\u00fcnden, sind Jungunternehmer:in oder Freiberufler:in und wollen Ihr Wachstum sicherstellen? Sie ben\u00f6tigen Kapital f\u00fcr eine erfolgreiche Startphase? Der \"Gr\u00fcndungsBONUS Plus\" gew\u00e4hrt einen Existenzgr\u00fcndungszuschuss f\u00fcr Ausgaben, die innerhalb von bis zu zwei Jahren anfallen. In Komb"
+          },
+          {
+            "anchor": "Antrag",
+            "quotation": "Antragsberechtigung von wirtschaftlich t\u00e4tigen Sozialunternehmen ist, das Gesch\u00e4ftsmodell \u00fcberwiegend auf die Erzielung von Markteinkommen im Wettbewerb mit anderen Anbietern ausgerichtet ist bzw. sie ihre Einnahmen \u00fcberwiegend, das hei\u00dft zu mehr als 50 %, nicht aus staatlichen Zusch\u00fcssen oder Zahlungen von Sozialversicherungstr\u00e4gern beziehen. Das Hauptaugenmerk liegt auf der F\u00f6rderung von innovativen Start-ups. Sollte die Innovationskraft eines Unternehmens nicht ausreichen, kann dies durch bes"
+          }
+        ],
+        "observed_at": "2026-10-22T14:26:17.311708+00:00",
+        "old_quote_checks": {
+          "application": true,
+          "applications": true,
+          "program": true,
+          "software": true
+        },
+        "opportunity_id": "ibb-gruendungsbonus-plus",
+        "prior_program_sha256": "98f8176a597c5b77599b02e06103f1cb26f8dbd40ca273ca73e6c9ff796cf251",
+        "raw_page_changed": true,
+        "sha256": "4c7acfd8958568e81148107cc9b3a1551a9d91bcdbf44d6d8467b6ffcffe8524",
+        "url": "https://www.ibb.de/de/foerderprogramme/gruendungsbonus-plus.html"
+      },
+      {
+        "error": null,
+        "excerpts": [
+          {
+            "anchor": "Gr\u00fcndung",
+            "quotation": "gr\u00fcndung und -festigung im Neben- oder Vollerwerb Das Wichtigste in K\u00fcrze Zinssatz: ab -,-- % p.a. effektiver Jahreszins Wir f\u00f6rdern: Investitionen und laufende Kosten f\u00fcr Existenz\u00adgr\u00fcndungen, Unternehmens\u00adnachfolgen sowie den Ausbau junger Unternehmen Ihr Vorteil: kein Eigenkapital erforderlich und leichterer Kredit\u00adzugang durch die \u00dcber\u00adnahme von 80 % des Kreditrisikos \u200d \u200c Laufzeit: bis zu 10 Jahre und zwei tilgungsfreie Jahre \u200d \u200c Erhalten Sie den Kredit? Mit wenigen Klicks finden Sie heraus, "
+          },
+          {
+            "anchor": "Antrag",
+            "quotation": "antragung bis zur Erreichung des H\u00f6chst\u00adbetrages m\u00f6glich Auszahlung 100 % des Kreditbetrages werden ausgezahlt Abruf innerhalb von zw\u00f6lf Monaten nach Zusage Bereitstellungsprovision von 0,15 % pro Monat, beginnend sechs Monate und zwei Bank\u00adarbeitstage nach Zusage R\u00fcckzahlung Zinszahlungen w\u00e4hrend tilgungs\u00adfreier Zeit anschlie\u00dfend gleich hohe monatliche Raten zuz\u00fcglich Zinsen auf den noch zu tilgenden Kreditbetrag au\u00dferplanm\u00e4\u00dfige Tilgungen gegen Zahlung einer Vorf\u00e4lligkeitsentsch\u00e4digung \u200d \u200c m\u00f6gl"
+          }
+        ],
+        "observed_at": "2026-10-22T14:26:19.195224+00:00",
+        "old_quote_checks": {
+          "businessplan": true,
+          "geography": true,
+          "program": true
+        },
+        "opportunity_id": "kfw-erp-startgeld",
+        "prior_program_sha256": "3d939002f5507d8816413eebf19c998e6105d89f7965f38b0c7ff04ccf0a83ab",
+        "raw_page_changed": false,
+        "sha256": "3d939002f5507d8816413eebf19c998e6105d89f7965f38b0c7ff04ccf0a83ab",
+        "url": "https://www.kfw.de/inlandsfoerderung/Unternehmen/Gr%C3%BCnden-Nachfolgen/F%C3%B6rderprodukte/ERP-Gr%C3%BCnderkredit-Startgeld-(067)/"
+      },
+      {
+        "error": null,
+        "excerpts": [
+          {
+            "anchor": "Natural persons",
+            "quotation": "Natural persons or legal entities willing to set up an SMEs or a mid-cap. Applicants from third countries: Applicants from third countries may relocate their company in order to become eligible. This must be done before submitting the full application (Step 2). Applicants from the United Kingdom can only apply for the \"grant only\" scheme Concurrent applications: Applicants may submit only one application to the EIC Accelerator. Additional applications can be submitted after receiving the results"
+          },
+          {
+            "anchor": "Short proposals",
+            "quotation": "Short proposals may be submitted at any time and will be batched for evaluation every first Tuesday of the month at 5pm Brussels time. The proposal will be evaluated remotely by 4 EIC expert evaluators ; A short 12-page form where you must summarise your proposal and respond to a set of questions on your innovation, your potential market and your team; A pitch-deck of up to ten slides in PDF format; A video pitch of up to three minutes where the core members of your team (up to three people) sho"
+          },
+          {
+            "anchor": "If your short proposal",
+            "quotation": "If your short proposal receives a GO, you can submit your full proposal to any of the 2026 batching dates. Prepare your full proposal on Funding and Tenders portal. The full proposal consists of a 20 page form expanding on the short proposal template , pitch deck in PDF, implementation plan, financial information, Letters of Intent, FTO analysis & a 3 minutes video pitch. Proposals will be assessed in parallel by a technology expert and an evaluation panel of at least three experts. \u200b Approximat"
+          },
+          {
+            "anchor": "Proposals will be batched",
+            "quotation": "Proposals will be batched for evaluation at 5pm Brussels time on the following dates: 7/01/2026 04/03/2026 06/05/2026 08/07/2026 02/09/2026 04/11/2026 Step 3 Pitch your innovation After each second batch, an interview session will be organised. If you are invited to an interview with an EIC jury, you will receive more detailed information on the timing and format of the interview. You will receive the interview results within 2\u20133 weeks of the end of the interview week. The tentative dates of the"
+          },
+          {
+            "anchor": "Applicants from EU",
+            "quotation": "Applicants from EU Member States and countries associated to the Horizon Europe programme: Single start-up or SME (including spin-outs) Small mid-caps (up to 499 employees) in need of rapid scale up of the TRL 9 activity. Mid-caps can apply for investment only. Natural persons or legal entities willing to set up an SMEs or a mid-cap. Applicants from third countries: Applicants from third countries may relocate their company in order to become eligible. This must be done before submitting the ful"
+          },
+          {
+            "anchor": "Grant funding",
+            "quotation": "Grant funding Lump sum contribution below \u20ac 2.5 million , for innovation activities (TRL 6-8), to be completed within 24 months. Grant only - for start-ups and SMEs with capacity to scale-up. To be provided only once during the implementation period of the Horizon Europe programme (2021-2027) Investment component To fill the gap for high - risk innovation to a stage where they can be fully financed by other investments. \u20ac1 - \u20ac10 million . Higher amounts available in STEP ScaleUP . Blended financ"
+          },
+          {
+            "anchor": "TRL",
+            "quotation": "TRL 6-8). Patient capital principle. Who can apply Startups and SMEs Single start-ups and SMEs, individuals intending to launch a SME and small mid-caps (can apply for equity only). What you get Grants and investments Grant component below EUR 2.5 million. Up to \u20ac 10 million of equity investments, coaching & mentoring, networking. What is the EIC Accelerator ? The EIC Accelerator is a funding programme under Horizon Europe that offers support to start-ups and SMEs that: have a innovative, game c"
+          }
+        ],
+        "observed_at": "2026-10-22T14:26:19.829457+00:00",
+        "old_quote_checks": {
+          "equity": true,
+          "full-proposal-dates": true,
+          "full-proposal-gate": true,
+          "funding": true,
+          "geography": true,
+          "natural-persons": true,
+          "program": true,
+          "short-proposal": true
+        },
+        "opportunity_id": "eu-eic-accelerator",
+        "prior_program_sha256": "8e038a36589fafe3a2d4838e84b6562c1ec1fcf9dcf32117cace192c55300d60",
+        "raw_page_changed": true,
+        "sha256": "0a6d349e0c755dd3a48f00ed5d2bde170239d457a1b4c93331176c307fbad64b",
+        "url": "https://eic.ec.europa.eu/eic-funding-opportunities/eic-accelerator_en"
+      }
+    ],
+    "observed_at": "2026-10-22T14:27:07.525130+00:00",
+    "read_only": true,
+    "records": {
+      "eu-eic-accelerator": {
+        "claims_preserved": true,
+        "collection_error": "official_terms_need_reverification",
+        "deadline_preserved": true,
+        "history_count": 4
+      },
+      "ibb-gruendungsbonus-plus": {
+        "claims_preserved": true,
+        "collection_error": "official_terms_need_reverification",
+        "deadline_preserved": true,
+        "history_count": 3
+      },
+      "kfw-erp-startgeld": {
+        "claims_preserved": true,
+        "collection_error": null,
+        "deadline_preserved": true,
+        "history_count": 4
+      }
+    },
+    "recovery": {
+      "exact_tree_restored": true,
+      "scope": "partial working-tree write; not process-kill atomicity",
+      "sealed_checkpoint_restored": true,
+      "simulated_partial_write_rejected": true
+    },
+    "report_id": "e092135242614182aedfad48fa97497c",
+    "report_status": "partial",
+    "restored": null,
+    "reuse_policy": "Recheck every official source; reuse reviewed terms only with original provenance. Exact re-render is idempotent.",
+    "run_id": "39795621057",
+    "runner_instance": "GitHub Actions 1000002783",
+    "schema_version": "1.0",
+    "snapshot_artifact_name": "funding-acceptance-snapshot",
+    "snapshot_manifest_sha256": "63c11c297ddd7390bc09d265a28e64bcec4b10053dfd05d5d8b2ec54b1109a75",
+    "source_sha": "b30b6b66ac182e0ac30f10df9ca5bb9778b11518",
+    "state": {
+      "active_count": 0,
+      "review_count": 3,
+      "rows": [
+        {
+          "deadline": "2026-11-04",
+          "eligibility_status": "ELIGIBILITY_UNKNOWN",
+          "folder": "EU__EIC-Accelerator__2026-11-04",
+          "history_events": 4,
+          "opportunity_id": "eu-eic-accelerator"
+        },
+        {
+          "deadline": "UNKNOWN",
+          "eligibility_status": "ELIGIBILITY_UNKNOWN",
+          "folder": "IBB__GruendungsBONUS-Plus__UNKNOWN",
+          "history_events": 3,
+          "opportunity_id": "ibb-gruendungsbonus-plus"
+        },
+        {
+          "deadline": "UNKNOWN",
+          "eligibility_status": "ELIGIBILITY_UNKNOWN",
+          "folder": "KfW__ERP-StartGeld__UNKNOWN",
+          "history_events": 4,
+          "opportunity_id": "kfw-erp-startgeld"
+        }
+      ],
+      "tree_sha256": "5ce79989e0f38ad64806100028b7ca7c43c12ebc23accb6edeb95fc640392f07"
+    }
+  }
+}

@@ -3,6 +3,7 @@
 import asyncio
 import ipaddress
 import socket
+from contextvars import ContextVar
 from datetime import UTC, datetime, timedelta
 
 import httpx
@@ -27,6 +28,15 @@ class BoundedClient(httpx.AsyncClient):
         kwargs.pop("follow_redirects", None)
         for attempt in range(4):
             safe_url(str(url).split("?")[0])
+            hook = getattr(self, "before_request", None)
+            if not hasattr(self, "_hook_guard"):
+                self._hook_guard = ContextVar("horizon_fetch_hook", default=False)
+            if hook and not self._hook_guard.get():
+                guard = self._hook_guard.set(True)
+                try:
+                    await hook(str(url))
+                finally:
+                    self._hook_guard.reset(guard)
             host = urlsplit(str(url)).hostname
             if host not in self.trusted_hosts:
                 addresses = await asyncio.to_thread(

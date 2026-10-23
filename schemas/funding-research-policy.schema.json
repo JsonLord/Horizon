@@ -1,0 +1,133 @@
+{
+  "$defs": {
+    "Query": {
+      "additionalProperties": false,
+      "properties": {
+        "source": {
+          "enum": [
+            "gdelt",
+            "google_news"
+          ],
+          "title": "Source",
+          "type": "string"
+        },
+        "text": {
+          "maxLength": 240,
+          "minLength": 3,
+          "pattern": "^[^\\r\\n{}$`]+$",
+          "title": "Text",
+          "type": "string"
+        },
+        "language": {
+          "default": "en",
+          "pattern": "^[a-zA-Z-]{2,24}$",
+          "title": "Language",
+          "type": "string"
+        },
+        "country": {
+          "default": "US",
+          "pattern": "^[A-Z]{2}$",
+          "title": "Country",
+          "type": "string"
+        },
+        "topic": {
+          "default": "general",
+          "maxLength": 120,
+          "minLength": 1,
+          "title": "Topic",
+          "type": "string"
+        },
+        "region": {
+          "default": "unknown",
+          "maxLength": 120,
+          "minLength": 1,
+          "title": "Region",
+          "type": "string"
+        }
+      },
+      "required": [
+        "source",
+        "text"
+      ],
+      "title": "Query",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "schema_version": {
+      "pattern": "^1\\.0$",
+      "title": "Schema Version",
+      "type": "string"
+    },
+    "seed_document": {
+      "pattern": "^research/funding-de-eu/Funding DK \\(DE missing\\)\\.md$",
+      "title": "Seed Document",
+      "type": "string"
+    },
+    "schedule_enabled": {
+      "default": false,
+      "title": "Schedule Enabled",
+      "type": "boolean"
+    },
+    "review_pr_enabled": {
+      "default": false,
+      "title": "Review Pr Enabled",
+      "type": "boolean"
+    },
+    "max_candidates": {
+      "maximum": 200,
+      "minimum": 1,
+      "title": "Max Candidates",
+      "type": "integer"
+    },
+    "max_search_results": {
+      "maximum": 40,
+      "minimum": 1,
+      "title": "Max Search Results",
+      "type": "integer"
+    },
+    "regions": {
+      "items": {
+        "type": "string"
+      },
+      "maxItems": 10,
+      "title": "Regions",
+      "type": "array"
+    },
+    "queries": {
+      "items": {
+        "$ref": "#/$defs/Query"
+      },
+      "maxItems": 8,
+      "minItems": 1,
+      "title": "Queries",
+      "type": "array"
+    },
+    "generated_branch": {
+      "pattern": "^automation/funding-research$",
+      "title": "Generated Branch",
+      "type": "string"
+    },
+    "seed_aliases": {
+      "additionalProperties": {
+        "type": "string"
+      },
+      "maxProperties": 30,
+      "title": "Seed Aliases",
+      "type": "object"
+    }
+  },
+  "required": [
+    "schema_version",
+    "seed_document",
+    "max_candidates",
+    "max_search_results",
+    "regions",
+    "queries",
+    "generated_branch",
+    "seed_aliases"
+  ],
+  "title": "ResearchPolicy",
+  "type": "object"
+}

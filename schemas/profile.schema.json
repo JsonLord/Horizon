@@ -92,6 +92,15 @@
     "Output": {
       "additionalProperties": false,
       "properties": {
+        "storage": {
+          "default": "report",
+          "enum": [
+            "report",
+            "opportunity_folders"
+          ],
+          "title": "Storage",
+          "type": "string"
+        },
         "languages": {
           "default": [
             "en"
@@ -207,7 +216,7 @@
       "type": "string"
     },
     "profile_id": {
-      "pattern": "^(world|institutions|examples)/[a-z0-9-]{1,64}$",
+      "pattern": "^(world|institutions|examples|programs|funding)/[a-z0-9-]{1,64}$",
       "title": "Profile Id",
       "type": "string"
     },
@@ -215,7 +224,9 @@
       "enum": [
         "world_radar",
         "institution_watch",
-        "research_job"
+        "research_job",
+        "program_watch",
+        "funding_watch"
       ],
       "title": "Mode",
       "type": "string"

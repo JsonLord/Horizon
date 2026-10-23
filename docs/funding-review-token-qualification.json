@@ -1,0 +1,35 @@
+{
+  "workflow_url": "https://github.com/JsonLord/Horizon/actions/runs/39990565222",
+  "check_run_id": 120540936023,
+  "retrieval_method": "GitHub check-run public annotations; full artifact not downloaded locally",
+  "proof": {
+    "failed_operation": {
+      "method": "POST",
+      "path": "pulls"
+    },
+    "http_status": 403,
+    "identity": "automatic Actions GITHUB_TOKEN",
+    "production_review_enabled": false,
+    "qualification_only": true,
+    "reason": "GitHub refused a sandbox API operation; no policy or permission settings changed.",
+    "reason_code": "actions_pr_creation_disabled",
+    "source_sha": "bdf7d832f2b86051017e05805088e2042811fbe2",
+    "status": "blocked",
+    "workflow_run_id": "39990565222"
+  },
+  "post_run_inspection": {
+    "sandbox_base_ref": "automation/funding-acceptance-base-bdf7d832f2b8",
+    "sandbox_base_sha": "bdf7d832f2b86051017e05805088e2042811fbe2",
+    "sandbox_head_ref": "automation/funding-acceptance-review-bdf7d832f2b8",
+    "sandbox_head_sha": "e9928f80b4ad4221f004df7facc22eabb985546a",
+    "changed_paths": [
+      "research/funding-de-eu/RESEARCH_QUEUE.json",
+      "research/funding-de-eu/RESEARCH_UPDATES.md"
+    ],
+    "open_pr_count": 0,
+    "workflow_permission_policy_read_http_status": 403,
+    "workflow_permission_policy_read_reason": "integration_permission_denied",
+    "policy_changed": false,
+    "reconciliation_required": "Sandbox refs are retained; writer refuses to adopt an unassociated existing ref. Owner must resolve permission policy and reconcile the isolated fixture before retrying."
+  }
+}

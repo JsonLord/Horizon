@@ -9,6 +9,7 @@ on:
 
 jobs:
   daily-summary:
+    if: github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
     permissions:
       contents: write  # Needed to commit changes

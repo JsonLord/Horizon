@@ -1,0 +1,82 @@
+{
+  "baseline_no_change": {
+    "reused": true,
+    "status": "pending_review",
+    "url": "https://github.com/JsonLord/Horizon/pull/6",
+    "writes": 0
+  },
+  "created": {
+    "head_sha": "aea1ce6358c569625f7f4b41fc36da687ccdc0d4",
+    "paths": [
+      "research/funding-de-eu/RESEARCH_QUEUE.json",
+      "research/funding-de-eu/RESEARCH_UPDATES.md"
+    ],
+    "reused": true,
+    "status": "pending_review",
+    "url": "https://github.com/JsonLord/Horizon/pull/6"
+  },
+  "identity": "existing operator GitHub identity; not automatic Actions GITHUB_TOKEN",
+  "initial_execution": {
+    "baseline_no_change": {
+      "reused": false,
+      "status": "no_change",
+      "url": null,
+      "writes": 0
+    },
+    "created": {
+      "head_sha": "b45471f7e32c9363f396cba7162a4fca284b63e4",
+      "paths": [
+        "research/funding-de-eu/RESEARCH_QUEUE.json",
+        "research/funding-de-eu/RESEARCH_UPDATES.md"
+      ],
+      "reused": false,
+      "status": "pending_review",
+      "url": "https://github.com/JsonLord/Horizon/pull/6"
+    },
+    "identity": "existing operator GitHub identity; not automatic Actions GITHUB_TOKEN",
+    "merged": false,
+    "production_review_enabled": false,
+    "qualification_only": true,
+    "repeated": {
+      "reused": true,
+      "status": "pending_review",
+      "url": "https://github.com/JsonLord/Horizon/pull/6",
+      "writes": 0
+    },
+    "sandbox_base": "automation/funding-acceptance-base-b30b6b66ac18",
+    "sandbox_head": "automation/funding-acceptance-review-b30b6b66ac18",
+    "source_sha": "b30b6b66ac182e0ac30f10df9ca5bb9778b11518",
+    "updated": {
+      "head_sha": "bea3bb6e9ad7dd05792a74fba4866ab2b258b158",
+      "paths": [
+        "research/funding-de-eu/RESEARCH_QUEUE.json",
+        "research/funding-de-eu/RESEARCH_UPDATES.md"
+      ],
+      "reused": true,
+      "status": "pending_review",
+      "url": "https://github.com/JsonLord/Horizon/pull/6"
+    }
+  },
+  "merged": false,
+  "production_review_enabled": false,
+  "qualification_only": true,
+  "repeated": {
+    "reused": true,
+    "status": "pending_review",
+    "url": "https://github.com/JsonLord/Horizon/pull/6",
+    "writes": 0
+  },
+  "sandbox_base": "automation/funding-acceptance-base-b30b6b66ac18",
+  "sandbox_head": "automation/funding-acceptance-review-b30b6b66ac18",
+  "source_sha": "b30b6b66ac182e0ac30f10df9ca5bb9778b11518",
+  "updated": {
+    "head_sha": "07bee64c4274135d6b4a5b21e40e1c86c916228b",
+    "paths": [
+      "research/funding-de-eu/RESEARCH_QUEUE.json",
+      "research/funding-de-eu/RESEARCH_UPDATES.md"
+    ],
+    "reused": true,
+    "status": "pending_review",
+    "url": "https://github.com/JsonLord/Horizon/pull/6"
+  }
+}

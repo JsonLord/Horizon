@@ -1,0 +1,8 @@
+{
+  "schema_version": "1.0",
+  "sources": [
+    {"opportunity_id": "ibb-gruendungsbonus-plus", "provider": "IBB", "program": "GruendungsBONUS Plus", "official_domains": ["ibb.de", "ibb-business-team.de"], "url": "https://www.ibb.de/de/foerderprogramme/gruendungsbonus-plus.html"},
+    {"opportunity_id": "kfw-erp-startgeld", "provider": "KfW", "program": "ERP-StartGeld", "official_domains": ["kfw.de"], "url": "https://www.kfw.de/inlandsfoerderung/Unternehmen/Gr%C3%BCnden-Nachfolgen/F%C3%B6rderprodukte/ERP-Gr%C3%BCnderkredit-Startgeld-(067)/"},
+    {"opportunity_id": "eu-eic-accelerator", "provider": "EU", "program": "EIC-Accelerator", "official_domains": ["eic.ec.europa.eu", "ec.europa.eu"], "url": "https://eic.ec.europa.eu/eic-funding-opportunities/eic-accelerator_en"}
+  ]
+}

@@ -48,6 +48,12 @@ def validate(root):
         if (root / row["path"]).stat().st_size > 1_000_000:
             raise ValueError("Oversized report")
         report = archive.get(row["report_id"])
+        if report["profile_id"].startswith("funding/"):
+            from .funding.models import FundingDataset
+            FundingDataset.model_validate(report["statistics"]["funding"])
+        if report["profile_id"].startswith("programs/"):
+            from .programs.models import Dataset
+            Dataset.model_validate(report["statistics"]["programs"])
         if (
             any(
                 row[k] != report[k]
@@ -127,6 +133,14 @@ def publish(root, remote, branch="intel", dry_run=False):
                 src = Path(root) / row["path"]
                 dst = work / row["path"]
                 dst.parent.mkdir(parents=True, exist_ok=True)
+                prior = next((r for r in existing["reports"] if r["report_id"] == row["report_id"]), None)
+                if prior and (work / prior["path"]).read_bytes() != src.read_bytes():
+                    raise ValueError("Published report IDs are immutable")
+                if row["profile_id"].startswith("programs/") and prior is None and not dry_run:
+                    import os
+                    from .branches import policy
+                    if not (policy()["intel_publication_enabled"] and os.getenv("HORIZON_ALLOW_PROGRAM_PUBLICATION") == "true" and os.getenv("GITHUB_REF") == "refs/heads/main" and os.getenv("GITHUB_WORKFLOW_REF", "").endswith("@refs/heads/main")):
+                        raise ValueError("Program publication requires reviewed default-branch execution and explicit authorization")
                 for filename in ("report.json", "report.md", "manifest.json"):
                     shutil.copy2(src.parent / filename, dst.parent / filename)
             merged = {r["report_id"]: r for r in existing["reports"]}

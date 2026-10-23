@@ -1,0 +1,17 @@
+{
+  "same_source_sha": "b30b6b66ac182e0ac30f10df9ca5bb9778b11518",
+  "run_ids": [
+    "39795621057",
+    "39934478478"
+  ],
+  "distinct_hosted_runner_instances": true,
+  "snapshot_manifest_sha256": "63c11c297ddd7390bc09d265a28e64bcec4b10053dfd05d5d8b2ec54b1109a75",
+  "restored_artifact_id": 12433950391,
+  "restored_artifact_zip_sha256": "22391859a8ffcc5c0e386ffe846d05cd1b48a6051f408cc332c15a2110ae3dac",
+  "run2_snapshot_artifact_id": 12493187180,
+  "run2_snapshot_zip_sha256": "29236f85f25167ef83217d380f828d873358038e131a19331eaa2e5c9d9bc114",
+  "report_comparison_restored": true,
+  "each_history_appended_once": true,
+  "partial_write_recovery_scope": "partial working-tree write; not process-kill atomicity",
+  "read_only": true
+}

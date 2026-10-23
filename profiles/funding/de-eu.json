@@ -1,0 +1,18 @@
+{
+  "schema_version": "1.0",
+  "profile_id": "funding/de-eu",
+  "mode": "funding_watch",
+  "name": "Denmark / Germany / EU funding — official evidence and founder eligibility",
+  "enabled": true,
+  "topics": ["funding", "AI", "software", "research", "unincorporated founder"],
+  "regions": ["Denmark", "Berlin", "Germany", "EU"],
+  "languages": ["de", "en"],
+  "queries": [{"source": "google_news", "text": "Berlin Deutschland EU Gruendungsfoerderung KI Software Antrag", "country": "DE", "language": "de", "topic": "funding", "region": "Germany"}],
+  "sources": ["google_news"],
+  "schedule_hint": "manual",
+  "lookback_hours": 168,
+  "max_items": 40,
+  "max_queries": 1,
+  "ranking": {"mode": "keyword", "minimum_score": 0},
+  "output": {"storage": "opportunity_folders", "languages": ["en"], "markdown": true, "json": true, "changes": true}
+}

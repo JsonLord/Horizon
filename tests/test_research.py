@@ -28,7 +28,7 @@ def test_unsafe_urls(url):
 
 def test_profiles():
     profiles = load_profiles()
-    assert len(profiles) == 9
+    assert len(profiles) == 11
     for p in profiles.values():
         assert Profile.model_validate_json(p.canonical()).canonical() == p.canonical()
     d = profiles["world/global"].model_dump()
