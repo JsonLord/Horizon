@@ -1,0 +1,83 @@
+{
+  "analysis_mode": "deterministic",
+  "changes": [],
+  "coverage": {
+    "basis": "search query region; event geography unknown",
+    "missing_regions": [
+      "Europe"
+    ],
+    "regions": []
+  },
+  "created_at": "2026-10-24T11:18:03.341346+00:00",
+  "errors": [
+    {
+      "code": "SOURCE_INCOMPLETE",
+      "source": "gdelt"
+    }
+  ],
+  "findings": [],
+  "history": {
+    "comparison": "last_good",
+    "previous_created_at": "2026-10-22T12:07:41.558691+00:00",
+    "previous_report_id": "6d0564451fc544f69bb1bd954600679a",
+    "previous_report_sha256": "4d3c8bcdd7832bc0f50fdac0b7dcd3aa67e117f3647f02a41ee07fb56c251a43",
+    "previous_snapshot_commit": "9f35013ab83ba3504927b79112641de37584d4bd",
+    "stale_last_good": false,
+    "state": "restored"
+  },
+  "limitations": [
+    "Bounded queries do not provide exhaustive global coverage.",
+    "GDELT seen time is an observation timestamp, not verified publication time.",
+    "Contradiction/resolution labels require explicit source wording and review; no automatic truth adjudication."
+  ],
+  "links": {
+    "json": "intel/reports/institutions/helmholtz/2026/10/24/25e1dc075a7d4db5b2212b8d5975a7ff/report.json",
+    "markdown": "intel/reports/institutions/helmholtz/2026/10/24/25e1dc075a7d4db5b2212b8d5975a7ff/report.md"
+  },
+  "model_used": null,
+  "profile_id": "institutions/helmholtz",
+  "question": "",
+  "report_id": "25e1dc075a7d4db5b2212b8d5975a7ff",
+  "run_id": "25e1dc075a7d4db5b2212b8d5975a7ff",
+  "schedule": {},
+  "schema_version": "1.0",
+  "sources": [],
+  "statistics": {
+    "collectors": [
+      {
+        "error_code": null,
+        "items": 0,
+        "query": "site:helmholtz.de",
+        "source": "google_news",
+        "status": "ok"
+      },
+      {
+        "error_code": null,
+        "items": 2,
+        "query": "\"Helmholtz Association\"",
+        "source": "google_news",
+        "status": "ok"
+      },
+      {
+        "error_code": null,
+        "items": 0,
+        "query": "\"Helmholtz Association\"",
+        "source": "gdelt",
+        "status": "failed"
+      }
+    ],
+    "items": 0,
+    "sources": 0
+  },
+  "status": "partial",
+  "time_window": {
+    "since": "2026-10-22T11:18:03.341346+00:00",
+    "until": "2026-10-24T11:18:03.341346+00:00"
+  },
+  "workflow": {
+    "repository": "JsonLord/Horizon",
+    "run_attempt": "1",
+    "run_id": "40089132468",
+    "source_commit": "c9dcef30a10ffe67b8e399baea5c2a6787c7dfd2"
+  }
+}
