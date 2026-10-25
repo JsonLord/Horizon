@@ -1,0 +1,301 @@
+{
+  "analysis_mode": "deterministic",
+  "changes": [],
+  "coverage": {
+    "basis": "search query region; event geography unknown",
+    "missing_regions": [],
+    "regions": [
+      "Europe"
+    ]
+  },
+  "created_at": "2026-10-25T11:47:01.580290+00:00",
+  "errors": [
+    {
+      "code": "SOURCE_INCOMPLETE",
+      "source": "gdelt"
+    },
+    {
+      "code": "SOURCE_INCOMPLETE",
+      "source": "rss"
+    }
+  ],
+  "findings": [
+    {
+      "change_type": "unchanged",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "7dd872cd5a1484f8bf132785",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "US Startup Claims It Turned Mercury Into Gold, Says It Beat CERN's 2025 Record 10-Fold - NDTV",
+          "source_id": "ed4b6613726acf12b7165a73"
+        }
+      ],
+      "finding_id": "7dd872cd5a1484f8bf132785",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [
+        "cern"
+      ],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-25T11:47:01.579102+00:00",
+      "profile_relevance": 7.777516445578703,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-24T06:26:39+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "Europe"
+      ],
+      "source_ids": [
+        "ed4b6613726acf12b7165a73"
+      ],
+      "summary": "US Startup Claims It Turned Mercury Into Gold, Says It Beat CERN's 2025 Record 10-Fold - NDTV",
+      "topics": [
+        "CERN"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "unchanged",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "5b7085171999676ff4ff85d2",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "US Startup Claims To Have Turned Mercury Into Gold, Says It Beat CERN’s Record By 10 Times | VIDEO - Free Press Journal",
+          "source_id": "3727dcec8c1c94fc336602ce"
+        }
+      ],
+      "finding_id": "5b7085171999676ff4ff85d2",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [
+        "cern"
+      ],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-25T11:47:01.579102+00:00",
+      "profile_relevance": 7.138072001134259,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-23T15:05:51+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "Europe"
+      ],
+      "source_ids": [
+        "3727dcec8c1c94fc336602ce"
+      ],
+      "summary": "US Startup Claims To Have Turned Mercury Into Gold, Says It Beat CERN’s Record By 10 Times | VIDEO - Free Press Journal",
+      "topics": [
+        "CERN"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "unchanged",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "a3fd6f5352ea04c67f997eb1",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "US start-up claims it turned Mercury into Gold, beats CERN’s 2025 record - WION",
+          "source_id": "e85d39d21958d43de6f6c6f8"
+        }
+      ],
+      "finding_id": "a3fd6f5352ea04c67f997eb1",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [
+        "cern"
+      ],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-25T11:47:01.579102+00:00",
+      "profile_relevance": 7.03400950113426,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-23T12:36:00+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "Europe"
+      ],
+      "source_ids": [
+        "e85d39d21958d43de6f6c6f8"
+      ],
+      "summary": "US start-up claims it turned Mercury into Gold, beats CERN’s 2025 record - WION",
+      "topics": [
+        "CERN"
+      ],
+      "verification": "single_secondary_source"
+    }
+  ],
+  "history": {
+    "comparison": "last_good",
+    "previous_created_at": "2026-10-24T11:17:39.394449+00:00",
+    "previous_report_id": "d5e98a691f5a4f10a44d1d4d6b0a8bd7",
+    "previous_report_sha256": "0bb658668b0cd2cfeef1d7ef3190ef4a924e96a53ec7bf0291d548a998ae5193",
+    "previous_snapshot_commit": "70d12764bee6168ca77bc981b213e76f06de2f61",
+    "stale_last_good": false,
+    "state": "restored"
+  },
+  "limitations": [
+    "Bounded queries do not provide exhaustive global coverage.",
+    "GDELT seen time is an observation timestamp, not verified publication time.",
+    "Contradiction/resolution labels require explicit source wording and review; no automatic truth adjudication."
+  ],
+  "links": {
+    "json": "intel/reports/institutions/cern/2026/10/25/e15c0d4d1e954349ba9c1c663fc18432/report.json",
+    "markdown": "intel/reports/institutions/cern/2026/10/25/e15c0d4d1e954349ba9c1c663fc18432/report.md"
+  },
+  "model_used": null,
+  "profile_id": "institutions/cern",
+  "question": "",
+  "report_id": "e15c0d4d1e954349ba9c1c663fc18432",
+  "run_id": "e15c0d4d1e954349ba9c1c663fc18432",
+  "schedule": {},
+  "schema_version": "1.0",
+  "sources": [
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNS0JuQUZWa1lrZlVKR3lRb0w1QUhCMzE2Zy1jR2JDNmZFbk95ZXRNa1JtQ2F5Q2JUVUdONG9kVE9YNC03SF92VkNnVFV0X21QUXNVMG9uMlV5OGk4Y3dUSEVpSTZNVVdTekJrOURxMlB2R2tPdDc4T1d3SnF5djhSUXZVTkl2UmpsV2NtUjVQMUd2RDdLNjYya08tOGtNYUFvZEVvQnNjV0F3SzZzWGRtb1JjVjlCN3VrclU0SktxSzN2UXhrOWNfc3NwV2bSAdIBQVVfeXFMTmlkLUVpbVpjNkNIZFBrTFM3OVQ5cmprcW04S0NGVnNuTmllLS05aGlsWnRzcERKNHhjMEQxUkt6eWJWaFJlOVZCLWpBUnBmeUZDblhHbU9kSTd2a1puRU9wZHp6M3FsUFlNSTlJNGw1QjBDYmhxUGw1UEE3MnBmbjFqaXZtNGFMM1kzVzZqdHFCVklPOXVkOV9sUmxmM0t3RHlJczZ1N3o0Y0NwNktFODNCRmlfMUR2WjREdTh0RW1XYXBoRkxTZ1dyZVFqQzl3YjBR?oc=5",
+      "content_fingerprint": "e005fe8c1fcd07409b9194b0",
+      "fetched_at": "2026-10-25T11:47:01.579102+00:00",
+      "institution_id": "cern",
+      "language": "en",
+      "observations": [
+        {
+          "collector": "google_news",
+          "language": "en",
+          "search_query": "\"CERN\"",
+          "search_region": "Europe",
+          "title": "US Startup Claims To Have Turned Mercury Into Gold, Says It Beat CERN’s Record By 10 Times | VIDEO - Free Press Journal"
+        }
+      ],
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNS0JuQUZWa1lrZlVKR3lRb0w1QUhCMzE2Zy1jR2JDNmZFbk95ZXRNa1JtQ2F5Q2JUVUdONG9kVE9YNC03SF92VkNnVFV0X21QUXNVMG9uMlV5OGk4Y3dUSEVpSTZNVVdTekJrOURxMlB2R2tPdDc4T1d3SnF5djhSUXZVTkl2UmpsV2NtUjVQMUd2RDdLNjYya08tOGtNYUFvZEVvQnNjV0F3SzZzWGRtb1JjVjlCN3VrclU0SktxSzN2UXhrOWNfc3NwV2bSAdIBQVVfeXFMTmlkLUVpbVpjNkNIZFBrTFM3OVQ5cmprcW04S0NGVnNuTmllLS05aGlsWnRzcERKNHhjMEQxUkt6eWJWaFJlOVZCLWpBUnBmeUZDblhHbU9kSTd2a1puRU9wZHp6M3FsUFlNSTlJNGw1QjBDYmhxUGw1UEE3MnBmbjFqaXZtNGFMM1kzVzZqdHFCVklPOXVkOV9sUmxmM0t3RHlJczZ1N3o0Y0NwNktFODNCRmlfMUR2WjREdTh0RW1XYXBoRkxTZ1dyZVFqQzl3YjBR?oc=5",
+      "profile_id": "institutions/cern",
+      "published_at": "2026-10-23T15:05:51+00:00",
+      "publisher": "Free Press Journal",
+      "search_query": "\"CERN\"",
+      "source_country": "unknown",
+      "source_id": "3727dcec8c1c94fc336602ce",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPUmhyX3hSRVF2WnhnMVIzNVNjTEw4Y2RFNXlvdEIyYjBhcF85T1RUb1pldmw4WGdwaTJqNG1BcWhTZzRHUk4xRVRWOXBCNGRHT1ZMaVNGNG80NjFUeUpPVWgxUUp0QWFGUTFOeWdLUDlLYmtCRHBQM3d1UHJPUDF5SFd1SzZLRG5CazRoM0M5N2dpMFZCanl5aTJhZ2pYOTRYUEJzcGJXY1o1NGhGTkdEZ09Tc1Y5ZUl5Z3fSAb8BQVVfeXFMTjRSZjdEWEZtN2tkaDlRUkZWcnEzc0NlNmVPcVZaSERLTW1SOXV4MGQzSndMaHpCYWEzdUtUS3ZOMFZYNHZ3TVVkT2JlckJUaVE5aFFCbkNnSTRSTmJJVUNuT2xYenFjUWxRaGdkaER0bG9UZ0VGSzAtZEFEa0FGWUQxLW5wU0x0S2sxVnVBX0NOVHV5Z1VwZTIyVUF1VnRoRXg2YjEyTG82RktlZ2haTzJOTGRlX2JTOEU1V3FkdWc?oc=5",
+      "content_fingerprint": "6cb41494840a938f3669e31f",
+      "fetched_at": "2026-10-25T11:47:01.579102+00:00",
+      "institution_id": "cern",
+      "language": "en",
+      "observations": [
+        {
+          "collector": "google_news",
+          "language": "en",
+          "search_query": "\"CERN\"",
+          "search_region": "Europe",
+          "title": "US start-up claims it turned Mercury into Gold, beats CERN’s 2025 record - WION"
+        }
+      ],
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPUmhyX3hSRVF2WnhnMVIzNVNjTEw4Y2RFNXlvdEIyYjBhcF85T1RUb1pldmw4WGdwaTJqNG1BcWhTZzRHUk4xRVRWOXBCNGRHT1ZMaVNGNG80NjFUeUpPVWgxUUp0QWFGUTFOeWdLUDlLYmtCRHBQM3d1UHJPUDF5SFd1SzZLRG5CazRoM0M5N2dpMFZCanl5aTJhZ2pYOTRYUEJzcGJXY1o1NGhGTkdEZ09Tc1Y5ZUl5Z3fSAb8BQVVfeXFMTjRSZjdEWEZtN2tkaDlRUkZWcnEzc0NlNmVPcVZaSERLTW1SOXV4MGQzSndMaHpCYWEzdUtUS3ZOMFZYNHZ3TVVkT2JlckJUaVE5aFFCbkNnSTRSTmJJVUNuT2xYenFjUWxRaGdkaER0bG9UZ0VGSzAtZEFEa0FGWUQxLW5wU0x0S2sxVnVBX0NOVHV5Z1VwZTIyVUF1VnRoRXg2YjEyTG82RktlZ2haTzJOTGRlX2JTOEU1V3FkdWc?oc=5",
+      "profile_id": "institutions/cern",
+      "published_at": "2026-10-23T12:36:00+00:00",
+      "publisher": "WION",
+      "search_query": "\"CERN\"",
+      "source_country": "unknown",
+      "source_id": "e85d39d21958d43de6f6c6f8",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQYjRoUGp5TmhoRGRvZktqWHFUdUxDOHZqMmVVQWFldXJuN01CbUtYcWN0SUFRWFpoLWpOYWF6QldSMWdsN2ZUQnVVSDlLbVpVSWtxU2diWjhMMjYwN2JMQmYzWVpFSTIybXEyam1QdVpNcXpoMklFTWVoOFdzeDNSc2NzYllkdVZ0MWNDUlN2OWlscFhXM05hWFNIRmx3NXFMZHpneVJPdUQ3VGs2VHRwWUpSTFIzQUZvTDBRM0k1QdIBxwFBVV95cUxQSUpKem14Nzc3aElaUFZEVGNkamVyX3FSOXVMc1hZSDV2a3M0ZkY1RHlXUXJ6Q2xBR25qS3lUc016TUJ1UTIweHZOV1NuR3dwQ0pkS3YxdjNOM1ZRbVhoMjFLcnN2Z1pKNWtNQ1lCTUlNU0l4UGJwS2c0ektJSUppcHRvdXVpQUVzdW9oc1Iweml5bWV1cXdCS1p5NU1SLUg1Sk80ZU9OZmdQTXZVOWIxX1labVRJWmZ4SHl6N3hVdjNlYm9JVEE0?oc=5",
+      "content_fingerprint": "bf502c20cfc9fecd9a957a88",
+      "fetched_at": "2026-10-25T11:47:01.579102+00:00",
+      "institution_id": "cern",
+      "language": "en",
+      "observations": [
+        {
+          "collector": "google_news",
+          "language": "en",
+          "search_query": "\"CERN\"",
+          "search_region": "Europe",
+          "title": "US Startup Claims It Turned Mercury Into Gold, Says It Beat CERN's 2025 Record 10-Fold - NDTV"
+        }
+      ],
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQYjRoUGp5TmhoRGRvZktqWHFUdUxDOHZqMmVVQWFldXJuN01CbUtYcWN0SUFRWFpoLWpOYWF6QldSMWdsN2ZUQnVVSDlLbVpVSWtxU2diWjhMMjYwN2JMQmYzWVpFSTIybXEyam1QdVpNcXpoMklFTWVoOFdzeDNSc2NzYllkdVZ0MWNDUlN2OWlscFhXM05hWFNIRmx3NXFMZHpneVJPdUQ3VGs2VHRwWUpSTFIzQUZvTDBRM0k1QdIBxwFBVV95cUxQSUpKem14Nzc3aElaUFZEVGNkamVyX3FSOXVMc1hZSDV2a3M0ZkY1RHlXUXJ6Q2xBR25qS3lUc016TUJ1UTIweHZOV1NuR3dwQ0pkS3YxdjNOM1ZRbVhoMjFLcnN2Z1pKNWtNQ1lCTUlNU0l4UGJwS2c0ektJSUppcHRvdXVpQUVzdW9oc1Iweml5bWV1cXdCS1p5NU1SLUg1Sk80ZU9OZmdQTXZVOWIxX1labVRJWmZ4SHl6N3hVdjNlYm9JVEE0?oc=5",
+      "profile_id": "institutions/cern",
+      "published_at": "2026-10-24T06:26:39+00:00",
+      "publisher": "NDTV",
+      "search_query": "\"CERN\"",
+      "source_country": "unknown",
+      "source_id": "ed4b6613726acf12b7165a73",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    }
+  ],
+  "statistics": {
+    "collectors": [
+      {
+        "error_code": null,
+        "items": 0,
+        "query": "site:home.cern",
+        "source": "google_news",
+        "status": "ok"
+      },
+      {
+        "error_code": null,
+        "items": 5,
+        "query": "\"CERN\"",
+        "source": "google_news",
+        "status": "ok"
+      },
+      {
+        "error_code": null,
+        "items": 0,
+        "query": "\"CERN\"",
+        "source": "gdelt",
+        "status": "failed"
+      },
+      {
+        "items": 0,
+        "source": "rss",
+        "status": "failed"
+      }
+    ],
+    "items": 3,
+    "sources": 3
+  },
+  "status": "partial",
+  "time_window": {
+    "since": "2026-10-23T11:47:01.580290+00:00",
+    "until": "2026-10-25T11:47:01.580290+00:00"
+  },
+  "workflow": {
+    "repository": "JsonLord/Horizon",
+    "run_attempt": "1",
+    "run_id": "40190122800",
+    "source_commit": "c9dcef30a10ffe67b8e399baea5c2a6787c7dfd2"
+  }
+}

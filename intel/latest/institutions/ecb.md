@@ -1,80 +1,47 @@
 # Horizon: institutions/ecb
 Status: partial | Analysis: deterministic
-Observed: 2026-10-24T11:16:34.841386+00:00
+Observed: 2026-10-25T11:45:35.371251+00:00
 
 Search-region coverage (not event geography): Europe
 
-- Piero Cipollone: Interview with Milano Finanza (single_primary_source; new)
+- Piero Cipollone: Interview with Milano Finanza (single_primary_source; unchanged)
   - <https://www.ecb.europa.eu//press/inter/date/2026/html/ecb.in261024~ee2ba73cf3.en.html> — European Central Bank
-- ECB Consumer Expectations Survey results – September 2026 - European Central Bank (single_primary_source; unchanged)
-  - <https://news.google.com/rss/articles/CBMiiAFBVV95cUxPbmRtZy0yT2NCMm5CMHRBY3JMODNOZWV1c3dJb2pCQlZZRkg4YV9aNXhjMzRNLWZfZXVDNFI3bWhoVVlmX3ZnaUczTzhRaXFpWURuYzNVY21rUjExQzN3eXY1TWdweWFTRnQxUEEySmYxbFpMRzBUZm5XMXk1WjRjZFByNm1VZnFp?oc=5> — European Central Bank
-  - <https://news.google.com/rss/articles/CBMiiAFBVV95cUxPNUhSYjloV0FSNmpUdVNvRGVEajlnRHhpSDZ2Z3ZfWWdETUpiZkxKdGpVaWdaemhFRzdvUTVyaHBGQ19Ma1pIQzlxM3NlZmotXzBhVHdFeGlBcVd4QnJnQm9NQ0hoY09jZWJSNjQ3UWRJMUM1Mlc2RUY2QU0wQjRJWWg4cTBLRmdT?oc=5> — European Central Bank
-  - <https://news.google.com/rss/articles/CBMiiAFBVV95cUxPQ2NrWXNiazBfVF9vdXVZTVhUWFFuQVVaZVdacTY0eDJGbGc4S1hKQnBITmwxa1hsaDZUR0xYTVNkOGw4NHVNYWEzcDlXT3BiWWZfbTZPNHN0LUpiRGNQX2pJeXloQnY4d2Z6TkUtUWlvYm5qeTFFQTk5MTNzcUlCQ2s2MnoyaEZT?oc=5> — European Central Bank
-  - <https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261023~a3d201c97c.en.html> — European Central Bank
-- One more hike: European Central Bank to enter prolonged rate plateau, says Commerzbank - www.tmgm.com (single_secondary_source; new)
-  - <https://news.google.com/rss/articles/CBMi0gFBVV95cUxORlQtakxUWEFENlRnNUxoa2NyVXpMWldIQmhxeUNMVlFwenNoalZzV09IZC1ELXZxVmJJdXlicUVUb1VGVmgyQUQ3R0k2bUNJU1ZNTnh5VUN6WEJMcDVuNURKc1h2eEJqQ0tlNnpGNmRjdlN0U3lCb2twdFdSaU40cWpnNFBKbDZmU2Y3Q3JZUXl5a254V3Q3SkVJQ19qNFEzNkNTR1NCdW9oaU5ZSHRvalNPbjYyV0M2NEZpOU9PUFZ0bm1kT05hdDJIR3Q3WUd1R2c?oc=5> — www.tmgm.com
-- European Central Bank: One more hike then extended plateau – Commerzbank - FXStreet (single_secondary_source; new)
+- European Central Bank: Will one further hike be followed by a prolonged rate hold? – Commerzbank - www.tmgm.com (single_secondary_source; new)
+  - <https://news.google.com/rss/articles/CBMi1AFBVV95cUxOM2Z1ZG1hcHBHUHdlRlQ3dEkyUHN5NTZIRFJUYWJTUXNkSktGQUZQT2dSdzFqdGdjeVBleGVVZUFLXzJrWFdBV0h6Z0VHY00yekZydjRBR2VlWHlfVk56NnU0WVo1YVR4cmpKSEVvVzBJQ25qNFBXUkhQU2M2LWhTRE4tTlFwTEVlTDdCeGhaZDAyeFFoVFYzbzBSUmVqYnRQVU4tYlZCQUVvTHJSNHZjWEFHNDFLaXlScEZuaV9Ta2FQOXVQSTk2R3hneEl3Y0k4VDlKVA?oc=5> — www.tmgm.com
+- European Central Bank: One more hike then extended plateau – Commerzbank - FXStreet (single_secondary_source; unchanged)
   - <https://news.google.com/rss/articles/CBMisgFBVV95cUxPbHFDVVgySjY1cDAxaFdOODJheGtENTBBa1UtbVZMYy1KV0xBQVRQWlhPSWZaMTVDbDNJaDUtVnY0UVFkU3hrakt2VWVjRUNhcjdxZnUzVmRSYk9iTlpqd004QV9QVW1TWjBTcE93dnFMOHpNcUk3SVA2Tkx5S0Vablh4UF9yMkEzdEZXOWlIUHZRWUNsajctbDNNZ1M1eXBSbDVwRk5xRk1yS2hkMWxSWG1B?oc=5> — FXStreet
-- European Central Bank’s Piero Cipollone to Talk Digital - Coinfomania (single_secondary_source; new)
+- European Central Bank’s Piero Cipollone to Talk Digital - Coinfomania (single_secondary_source; unchanged)
   - <https://news.google.com/rss/articles/CBMihgFBVV95cUxNdkd3MFVnZkZQNW5KSm9xZFBxclF2Rmcxak5EVlpzc0ExOHVxT1E4Q1hQR0F3bUVmR2J6Y2I5Q2RnQ2w1TExaMG5aQjhJTE5jdF85X05wdXdfSEFYQUdtbmNRcEJnZ2RHOEpJb2JEVmg4bEVQNFE3Z3JqVFJPQ1UtYkhjVEx0dw?oc=5> — Coinfomania
-- December hike indicated by gradual European Central Bank tightening – Rabobank - www.tmgm.com (single_secondary_source; new)
-  - <https://news.google.com/rss/articles/CBMi1wFBVV95cUxNMWV1TmtpN2Y2VlFHTHZoQUZpRWRfQlpheVdiWmNsWlBVSDZqWmVqd1luTHhWenBROUswbXNOYzFPbmNBQk1SRmJYQTR1R2syc0RWOWJaZlJQU0FCNUZOSUwtQ2ZqbTFRbkxjc3lvWUFkenZGWXVkOTRUbVdUcXlSU1NyTmR1cWlmX2VhQjFON2ItUC1XcWYwVEJTQXFJLUYtRjhaXy1hRE03RzM3SWhFREJQYjJCQmt1Y3pYWklab1RTZ2hkYVREa3dsMXdTbDA0N1Y0UGpFVQ?oc=5> — www.tmgm.com
-- European Central Bank: Are markets pricing in too steep a path as a December hike is signalled? – Nomura - www.tmgm.com (single_secondary_source; unchanged)
-  - <https://news.google.com/rss/articles/CBMi4AFBVV95cUxNMmlkS2Njc1lGdFB2TEhmREYyaVFDUUJJYXhLeVVPaFJVYzY5UkRLSEtiRjBnRkNLaXZONmdmVG4tQzRxZ0NiS0U3U1NwYktudmo3TVZOVFBpckdUWmpMd21aZzVDOEZmNGg0ZG43LV9zM1FyZjc5aUxnVXZlRHM1NTY3MWFKRzVvX0RJTjVlcnpkQUxNaFVvaUpyeGZoclhiaWZWd2czSEx6dFNVc3h1bzF4QVRtVjk4MFpWM0prRTk2M3RWanZ3QkYwMkw5d2ZlNmpyanJRb3ZMNFBIcWc5SQ?oc=5> — www.tmgm.com
-- European Central Bank signals December hike as markets price in too much tightening – Nomura - www.tmgm.com (single_secondary_source; new)
-  - <https://news.google.com/rss/articles/CBMi4AFBVV95cUxPZDZMc05UaHlPWTZHc204ak5hU2UteE8zcGQ0SUFNSjZGMV80OGNrQVdLMzZUTlA1anhFUUxsOFBkMEkwMUV3RFZmYjdwczBBeDItOXpHR3lDZDRGSGppTGs0U2l3ZEZPVDA1NERTRXRDM0hLWHFBUVRTLWJ5YjFSbWxDN0pPdXFSLXdLcnJoZmQzZTU3SHBCQ3hkVG5ldVY5eWh6THVTcDdya2x3UEs5Zi1DVk83X2xPRWVKLUUzVDl5d1UwUzg2eWo4U2pKYk5KSEhPSkttZXhBdTRPUkJFRg?oc=5> — www.tmgm.com
-- European Central Bank: Gradual tightening points to December hike – Rabobank - FXStreet (single_secondary_source; unchanged)
-  - <https://news.google.com/rss/articles/CBMitwFBVV95cUxQaHhzbnBzRzJSVl9vbEhnb0x6SDB3cUFzR1dlX21xRlR3WFhIWmdvdDJFV3FaQzlBR1BIalV3cnJZSy1RUFlNTDlRNWl6ZDM0ajBIcEpvQzJrbXFzSHpPYWVuVWpEV2VjUXlHNzZFSXZPajkybzlLRFc1NDhIN3NESFVZWVJFOU1feEVPOG1KeEc0NkZLUXhQdTdNeS1PNVBwN3h1V1M4X2NmM2lMTGtBcmNSVEZHZUk?oc=5> — FXStreet
-- European Central Bank: Widening French spreads bring communication into focus – Nordea - www.tmgm.com (single_secondary_source; new)
-  - <https://news.google.com/rss/articles/CBMi2AFBVV95cUxQNUx1ekJSRmZWZXRRMnhTcnFxcWZKMExvRHNrdzA1Zi1YeUJicVlzcE8yZXItZE5xUWcwTlM3UFcwaE5kQVd0aElfTW9RRFU1NFUwUWdGRDlRbExGcjhGOG54a3RsWWdDV2V4SjROWXo3QUw1clBzWXlJdXRvMHl4c1d5ZnFNOXhfNk9ScThxb3hnWG1mZlgxS1liQVNvUVFSRjliczJEMExKZ0tlRDYyX01GaWswZlFQSXhaVEtBZWl4TUxwOG8xRVNFWHA5Y2gxd0tiSkpjTF8?oc=5> — www.tmgm.com
-- European Central Bank: Communication focus as French spreads widen – Nordea - www.tmgm.com (multiple_secondary_sources; updated)
-  - <https://news.google.com/rss/articles/CBMi1AFBVV95cUxNNUxDY0VGTmFSTmZ1N1AtcmJDekhhTDBtWTFyZXRhZF9oUTluelBaalg0MWdxYVJpQUdqRmwxZzZoRjdBLUNNQ3Z1T0ZkRXNISjNwQzJUTnl6OXktWVVrNmFrMmFBNDZDTGhVRWFNQTdaaDdaUlY1WXlaOER0aDFnNzJjTXdHaldWbkJSTkFyQklkc1l1dXROZVlNQi1nU1doZkdYRmZkazZhZHY5dzdnWm1aSlVoZVQ0SjZXRjlKS0I3VGpYLXpyS010SmYxR3pDNFE0WQ?oc=5> — www.tmgm.com
-  - <https://news.google.com/rss/articles/CBMitgFBVV95cUxQbTY5bzZ3N2ZzQU9XSWtROFNpWVQyV29fOHJ4RFNxQnQ3Zk5jVUlPSVdIR3FHcjVoVFZlQlV2VHFXUXdGWEZpRFFLd1NYb1VQcjVZRTRIR0ZDLW1qVXBoekhsZ3FkMkU4alltVDFwTzB0cEdEUkFDcUdLcm1PaUJ2ajk3LVcxUFBvMzR5Q00zNjVhdXF3bXJFRVIwMHNWY3ZlVG1GdHl2YUdqN040UEZBZnFVZ3dRUQ?oc=5> — FXStreet
-- European Central Bank: Do rising bond yields strengthen the case for an October hold? – ING - www.tmgm.com (single_secondary_source; new)
-  - <https://news.google.com/rss/articles/CBMi0AFBVV95cUxPRWJHaGs2LW9xM1pzUXJrUGtXMGx2UjZDVzNWbE5say1qVGtWRlc2eGoxR1Zhejh0N3Y3VER0bkQ5aEhMRjFwYjZvVUJYVGdZYy1OSkxHYjI3cnBIM1ZadWlzeW92cXg1UjlFYzM5YWlpdEhLeVFNT1JFRWpoelVPZF9OMi00cWFOZV8tX094bGYtVlhabEZGZFY4Y1NTSTE4bVo4RlZQeW9CMFZmb0dReUVFcXUtaTk3OEF6ZkZNYXVrWWdlN0NPRnZkYm50bGlE?oc=5> — www.tmgm.com
-- Nicolas Dufrêne, the man who suggests canceling France&\#x27;s European Central Bank debt - Le Monde.fr (single_secondary_source; unchanged)
-  - <https://news.google.com/rss/articles/CBMi5gFBVV95cUxOR2hoVmpfRDk4ejVIVkpCUjV0ekF2WjdBeF9HMDdIRWVkM1BpZXlhekVodXBubUdiMGRhdGtaVXROWXhqakpsMXg4ZHNFREZfTWtHWXVXc1ZadDg1bm0tV1JhU0NBWllPakhzTm9UTlZUVWdLdHJHS2QzTzVLaG5HVWR0N3dnRHM5MFZRNTA1cWFGYWZCOXNLTTFpUDlSUl9xbHFKSHNoT3NQeW01a0ZaLURnMlFOZWJUZDk5SUJvRGlHMXVDV0NoMnBqTFpMa3V5cWI4NmgyNE9nYjdZSmNxWkVDUFNNdw?oc=5> — Le Monde.fr
-- European Central Bank: December hike signalled as markets overprice path – Nomura - FXStreet (single_secondary_source; new)
-  - <https://news.google.com/rss/articles/CBMivgFBVV95cUxPaGs4UE02dllGd2ctRTlIWUZaUExVNEVYaGxVUllBSnNVQktydzViam5tOGk1Sk5hR0VaZVdVcUktbnRQbWRNWVBtbTRhb1BNMHlvQzNQRlpsclA1dy1HWW1WVGxZeEZlWTJnazRDNnp0eHFWbG1CeGV3a1NTRjd1dURXbkdmZU9RZWpGVEtla3k5c050TFotbHA1YnRNMTRIaDhib0R3TjZ5VElEOW5sTXJnNTI1a0xvM1pLSUhB?oc=5> — FXStreet
-- European Central Bank: Higher bond yields support an October hold – ING - www.tmgm.com (single_secondary_source; unchanged)
-  - <https://news.google.com/rss/articles/CBMi0AFBVV95cUxPc3NXU05TNEVoN05GYjE5Q0l3UHY0SW9icnhjWjNsOE9vWW44RlBLM2k0ZGxRM3E4RC1tTE5CV2Rfa2ZndHA2YmpPaG1FNFBaTWVDOVg2RkVpNmRNLVpyeks3Z2Y2THR1MGlTaE5TUURpak5XM29uMVVFSkxycmU5aUo1QWFJVkpHWGw2bmlfZUVSUjdPOFFkckdBUDI2V0xjNS1JX29fSGhLWU1yc2JrcGFoWTVta3NkV2s5THpfeXA0TzdKVWtQTmN2Q0diaFNi?oc=5> — www.tmgm.com
-- European Central Bank: Widening French spreads put communication in focus – Nordea - www.tmgm.com (single_secondary_source; new)
-  - <https://news.google.com/rss/articles/CBMi2AFBVV95cUxQdHlvVW91TGVyYXk2eHZGZmg1aU9SNjZqamJwcDRyN3c5Mzk2OXQtMFNBdlZyV3dzVDAwRmNhdkY1YlZFMnVkQ01Wa2E4Z0VmVlJTYXlxTkV1eHdpRXVUbDZRT3NQcE5ENmMzTTJTU2F4NG5XTnpWazF3cGt3SXc2ZXRwZkxwcG9qMktUSTQ4UzVEOGZBd240d082MTdMejViNmFyYWVGSXNUT2hQMzMtdmNjalEwbEtISnA2c3dsTlJRUTNWdXRoZDFURGQtTnFZMFU2QzJnQlo?oc=5> — www.tmgm.com
-- European Central Bank: Rising bond yields favor an October hold – ING - FXStreet (single_secondary_source; unchanged)
-  - <https://news.google.com/rss/articles/CBMirgFBVV95cUxPRVFZNWwzUUpSUDJPODM0UDFDSUdQNWU1NWV3cm5KMkppS1FkNEVoZHI5TW9lTUlKVlhfY2ZlU0hWN3JjYkoyTTNKYy1PMEJJOTNaY0RJSlltSmR2RlJsMGItZ2E3SXR6NUJTdUZmM2QwbTQxRVpZWVJmRXo1bDFsVnhPbXhLNDFPUUEtazRYQjUxZkR2WWNtYlZVdjhGZHd0MWVlYW5WTWNNY0RPMnc?oc=5> — FXStreet
-- French Spreads Widen: European Central Bank Communication in Focus – Nordea - www.tmgm.com (single_secondary_source; unchanged)
-  - <https://news.google.com/rss/articles/CBMi1gFBVV95cUxPOXhqSEV3Uk9iNXNwT1lkUXlxWHNXVkdHMlZPR0hXZGFqa1RFZVptLU9GSTRSdWtBMkd1MUZISEFKSnBaN3I4anRSQmFvREVtZ2VwTnB2SW5IY2hVUTkxaDlQeVFGV2pwZk1EMTJVblI1Rmo4T21URno1bjhFN0kta3h5X0VnRnFPSmh1eWNnQjBNdTQ2bnNaZU5uZmxTN0VTay0xYjRkTkRHdlMwRzZLU1liZkJlbGJ0V2JubndZam9nUlVrVTZVWFhlbHV1WTdkR1BxNkhn?oc=5> — www.tmgm.com
-- Digital Euro Aims to Bring Cash into Digital Age, Says ECB - Coinfomania (single_secondary_source; new)
+- French Bond Rout Puts Crisis at Heart of ECB Succession Endgame - Bloomberg.com (single_secondary_source; new)
+  - <https://news.google.com/rss/articles/CBMitAFBVV95cUxPWmVHbVJTd296aDRKbXN0YVFxX0xJaEVFczdER3g3bzc5YlF6cUhMVmFhVkF0dGVaZTJMcC1renMtNWk1WjdpaU5KTjNjb3NaVmx3Q3l6MzhGSjN2alhHSWFjbVM3V09iV0J2UjZfV3NBSy1MMmZOMzJ1V3k2ZllJam1CQXd2bThIYmFrdGEtNjMzcE1LcHNTOVZQZVY2RWpIbFk1c0taeHJyOTNkU1ctWHdRbzU?oc=5> — Bloomberg.com
+- Five key factors shaping the ECB’s rate decision - IDNFinancials (single_secondary_source; new)
+  - <https://news.google.com/rss/articles/CBMikgFBVV95cUxNaXUxaDlGWVBHRGZaWGRmYTkzWjdBZi1kWEpYZ1JYMkN5Qk1sTDBWRi1udGZESFYzN3c0TzF3Sk5VZ3dHQU1YMmU2X28xX1RsTGh1TXJrZFpnanljZlpRTElfTUZxZVVVbU16VTluOFRrVjMwbjdRZU1BMENYYWFtdV92a2JTVzJqUlFpaUl2aDQyUQ?oc=5> — IDNFinancials
+- Digital Euro Aims to Bring Cash into Digital Age, Says ECB - Coinfomania (single_secondary_source; unchanged)
   - <https://news.google.com/rss/articles/CBMiigFBVV95cUxPdEdMc0I5ODRyOEJ5SnB3QXVKLUhCRXVib0VQaGRmRFVMd1hfREFaWXk3ajZJNm1WVnZXM1hzcFZqa2xTS09xNi1DNVBNUDdWVU5VTllXS1NxM2o1QUVoY2dISHBBX1ZTbXloc2hzRmdrZ2Fqdkw2Q2ZnRnR4WWkwLWduTW9kREpqZWc?oc=5> — Coinfomania
-- Interview with Milano Finanza - European Central Bank (single_secondary_source; new)
+- ECB Rate Decision: What to Expect on Thursday - Morningstar (single_secondary_source; updated)
+  - <https://news.google.com/rss/articles/CBMijgFBVV95cUxPZHhPNzhScGNTVTVVcXVZQkY2QTktdzhUaHI2RGRnc1BNaE1TUE5JZEhzMDlhWm5GV0NVejhsdlZhMHFvbGIyY1NvWVptbkYxbDFDMzYyVkIxUFoza21vell0NzVNUEJsZnRsWVQ0MDJnVTFycDdCTy1na1JsRFRGaV9CcjFvOVYxWWttalJB?oc=5> — Morningstar
+- Interview with Milano Finanza - European Central Bank (single_secondary_source; unchanged)
   - <https://news.google.com/rss/articles/CBMijAFBVV95cUxPLWFYelU5MmlvN0FRTjhFamR4aHR2YUhjMlF6YUwycnNwOF9pSUdfVDkwTWRzMzJoSlk5WFhHY3cyZUtxTGJwRzdIZmg3dnR0WWdpc1VEMnBRTU9rY2J6WjZVdVlUaUZUbl8wNjBqR2JNZUdub2dfbFNLalZsZ2p6VkVqQm1NNXd4b1dKcg?oc=5> — European Central Bank
-- ECB Rate Decision: What to Expect on Thursday - Morningstar (single_secondary_source; new)
-  - <https://news.google.com/rss/articles/CBMijgFBVV95cUxQclBBSTNoaHJwUHBPdC10Wm93YkNUenhzZ1FROHNJYUhEWEtNUGswdG1jUG1IckQybjk0YUFTcXZvY21Va0llWHZOdTk0eUNVQnB5UmR3cG5NWW1WWGg3YXUwSFk2cUxNOHZacUpZTkdXZGwwb2tWd1h5T1N3dEpGVkNJZzdFMVBfR2l2cFd3?oc=5> — Morningstar
-- Eurocommerce digital euro market rollout plan discussion - Agenda item 2 - European Central Bank (single_secondary_source; new)
+- Eurocommerce digital euro market rollout plan discussion - Agenda item 2 - European Central Bank (single_secondary_source; unchanged)
   - <https://news.google.com/rss/articles/CBMi7AFBVV95cUxQSHpTbnlqamtmODQ4eUkxT0RDVjVQZHUtS3hJeTNhaTNGX21jMjFreDFudVZzN2Q5RDRSaEpyVXlBUWhjcm9iQ1MwbzJLNkNZaVFTVzcyUXFqakZSWUV1ZEJ4b0ZRVWZSdzJjMkRZV3R1UTl1YWVSY1RFQXZoVF9QNjZ1ZjNJX0lFb0hDcGR4Zm5MVkdRWHRWTkw0aW53cnhQMnNvaEktMVlKeUNlbTVlZDVrTUdJWnlFUF9wUDJHdVltcGJFbUtDSkNWQnJYdzJDU3JiYjJaSDhOUzdJTG5kYTQ0NG5KRTZYWHZiNQ?oc=5> — European Central Bank
-- EDPIA digital euro market rollout plan discussion - Agenda item 2 - European Central Bank (single_secondary_source; new)
+- EDPIA digital euro market rollout plan discussion - Agenda item 2 - European Central Bank (single_secondary_source; unchanged)
   - <https://news.google.com/rss/articles/CBMi4wFBVV95cUxQenlYc1lUOFdyMzVvWW1UWVUxcDZISHV3NTE0YksyVXpoSFhhaVBjcDFtbS1tVzRfbWtnSDJOYk5XXzBxdmZpWU9iZ0NnWldPLU1ZWWV4TjYzdWgtU1ZrMmVmNjQyREZwZVBCUUxVbUlRc29FbWNKWGgtUkRJay1fZFhwSnUxaklRcFNTOHp0aXZZcERkRXNOS1JVYnZHUmRoRGRlNWZHb2ZubGQtcWdfVkFjc0FjM1dDaGVoRUtjcWV1R1F3TGZlblRGeGc1RklHRVY2RW9NWkV1dFA2bWFYZGxDYw?oc=5> — European Central Bank
-- Eurogroup Extends ECB Board-Application Deadline by a Month - Bloomberg (single_secondary_source; new)
-  - <https://news.google.com/rss/articles/CBMitgFBVV95cUxOLWxMU0ZGbHFKZWxTNml0UEdSUU5iTTBDN3BCZWNaZkRJOGxtcUhMZ2xmQ3o0elNCR3NZSnYyN3k2UlFNWnV3UjJwUHFLcVZZY3RVM2RDR3J1OVRYc2RYeHNxV3RaM1VIbnRaUUV5NDA3NU16VEkwZ0Fpckg1dzVPNzFzT0N6SlI1M195TmduVHFvUTJmWjZqZk5zbFdicVhaNXlXUEFRYmN0UHMycU5ON3NQank1UQ?oc=5> — Bloomberg
-- De Cos Is Narrow Favorite to Follow Lagarde at ECB, Survey Shows - Bloomberg (single_secondary_source; updated)
-  - <https://news.google.com/rss/articles/CBMitAFBVV95cUxQdDFQblgzY3FFYVBhOEduem9aMDBPaGtUaXJoT3J1VS1jWjA3a3BjWGJTdmc0aUx4NDBOcndkN3JydzFmUDVJRWdnV3kxRUVoSFRwbm5TbFl0eV9qelV4QjJkZmNncVVmdHF4clRGOFo2MWdxTzJiaVkxRFZuU0J1U0duUk11dU01Qll3TlNyNlVsd3pITFMyZXdGblN6eEtlcFRWQmNGcXBIcndJemhLT0JUYnc?oc=5> — Bloomberg
-- ECB Set to Raise Rates in December After Pause, Economists Say - Bloomberg (single_secondary_source; updated)
-  - <https://news.google.com/rss/articles/CBMisgFBVV95cUxOcEhTajNPZ3RPUmVuRTFxYjRmT08zWVZURDNQRHV0WF9xTXF4bHpqSXVhdjRiWkFJZFd1V2Q3djlLMndaWWZMaDZHWWJHalI5VS1Ka1Z4cUxkMTF3akRrZWVvY3NsdzEyU2xpYjhrYXpLSVY3Qm5mTGlMZDRzZnFWX3ctWEdDSDhJUG9LbUozMGVGREI1a1ZKcDJCRVg1WDNkXzhQeGpzeDdBWFZQNG5yWElB?oc=5> — Bloomberg
-- Ready for a French test?: Five questions for the ECB - Yahoo Finance (single_secondary_source; updated)
-  - <https://news.google.com/rss/articles/CBMingFBVV95cUxOQ3Azbmh1cTJlMGhPOFMyRjk2SmlQcmpDcElIVmt1dlNFejBrSWN0RVJ5d3RWZ1F6VHNFRklBOUZCdlNaTDUxVFFlQWdCakxBRFh1THdITnpVdGJiekRYSjYzV1hYcEJqbzllRkJIMllfWUlDWDE5YWV3QmZZT1lpQ3pFTVpSVnQwdjVXdmFnN05VYVVvd1ItRFItYkN1QQ?oc=5> — Yahoo Finance
-- ECB’s Panetta Says Rising Bond Yields Will Restrain Economy - Bloomberg.com (single_secondary_source; new)
-  - <https://news.google.com/rss/articles/CBMirwFBVV95cUxOQkpvQUx6Nm1yVG1hNVJhY25ZU0RYeUxYSFVxV1dVVWZZc0VTQnI4SzJkdjcxQXVEbDBrUmctUXRudEwwQzBqS0VvcWd6ZDlxaUZMbTIxSzlkdW1QRUE1TTZaemRabVpXNEdReDgyUjJYYW9WREx4ajBUeFd1anBXbzB3ZjZMRUdYbGZlaFA0Z2lnWWRBdVRScDJCOWt1dllZbDF0SmE4dEpPQUtuejFJ?oc=5> — Bloomberg.com
+- Successfully tested types of banknote handling machine - Staff-operated machines - European Central Bank (single_secondary_source; new)
+  - <https://news.google.com/rss/articles/CBMi0wFBVV95cUxNQ0FzZlR3SzlMQ1JHVXZrWHJfVW5nREN1cnVyRWk3aVg0T3ZCMVRDWnVHbk5ZNGNISmdmMnQwU2pjcDJya09IQ3lVNzIxajlrZ0hmQjBTZzkzR1R3SnBfZWwtaWFudzZsZ01vM0Q5QzJ4TXZJdDdNdzhJVUlVVERRcUt1ZFJpRlZqOEpkaC15b3FmX3dBRWtsMXlFeGtycjRwYzhNMWxQWUlFTVVaZWZPdEdpOElLTkpDTVVOMUotWkcwVW9halY4ZEhvdjFJdkJJNkpr?oc=5> — European Central Bank
+- GFS.A.N.DE.W0.S13.S1._Z.B.B9._Z._Z._Z.XDC_R_B1GQ._Z.S.V.N._T - ECB Data Portal (single_secondary_source; new)
+  - <https://news.google.com/rss/articles/CBMiqAFBVV95cUxOQU94YlJEZnBiSEdXOW03WkVxeWJ5aTVMMEZXV1Q1akY5ZmJOc1dwaWhRUFYyb09hekJKNzY1T1UtMS1NRVhKS2JXZTNYQXprMkpDY0V0dnZMb2VVTjhDdVplTl81blpwNmJIdWlpWk9wRUpYbzdDR2wxdF8xREhVMDIxYW5RV0F5R1dyTWZxMldtNldlcDlTc2RGRXFDTG80MWRJc1dCakw?oc=5> — ECB Data Portal
 - Euro Foreign Exchange Reference Rates - European Central Bank (single_secondary_source; updated)
-  - <https://news.google.com/rss/articles/CBMikwFBVV95cUxOY2w3NU9XOVJhWWFjTGhfRnBPZWFuSDV0RHpXbFNjNHFnSDVGY2JHb21VcFZMU0w3eVNBeXgyLV9oTlZFa0dfMnhlb05VSjVXSWtvTThVTFdrVHJDZXVnRDRmNUlIeFBrNjdDZmo5OVNJZTZ1MEIwVUNSVHFOV3NQVUhNd3lRT3Y1NWU2d3JiRTMtUUU?oc=5> — European Central Bank
   - <https://news.google.com/rss/articles/CBMikwFBVV95cUxPeGlqb09kUUpNMzZaUHpoaUNmZWNPdDN2dHVtTVd5SHIyT1hTV0w4N3ppaEUyRmFvSjFPXzZ6QXNHMzZfZ2VNdEVEVkw5YzM4d0Q4WEZvTk42VWtYR1d4cUE3c0lxMXU3aW92N2ZzX0dyQnU4UXBVLXU3YWFOT195amRYdEFhakU1T3Ezd2ZXQ1FlclU?oc=5> — European Central Bank
-- ECB on course for another rate rise in 2026 - Financial Times (single_secondary_source; new)
-  - <https://news.google.com/rss/articles/CBMicEFVX3lxTE1NZGlXYVA2anNNdy03NTRIX2FPOG56T29UaDNua3dycmhKdnhzUXN3b29Nc294Y1ZSOFVscVRTMG9MOV9pRkVvTlljNGpjYTZlWFltS0VEQXRrY0VCNW43blpGM3FXUnFaLWxTdHFhZHQ?oc=5> — Financial Times
-- Traineeship in the Monetary Analysis Division in the Directorate General Monetary Policy - Job Search | European Central Bank (single_secondary_source; unchanged)
-  - <https://news.google.com/rss/articles/CBMi2AFBVV95cUxORW0xTHpEYlo2cWRiUV9rNHpLYkhtWVVlbXZ0djRONV9HYk9PWXRZZEdGYzRkN3lGVDN4UDc2UUNEeHY4eW1fSlBlNzU2ekxaeE51U0MwMUJWbVBVYUtWTnM3Mm5KWXotT2Qyb2M3b1pUVmpkaGp4Y0ZvR3VGNDRacHNZbVBSRXV3RTFSaDM4OGhvWjZ3cHFhVFo4RVFNNk1VemV0aFRWQWdQandJSzBtWi1UWDJVd1FJbmloZjJNTU5jMVBPYmZ0VF9yeEhuVUZRcEVkUk5oMnQ?oc=5> — Job Search | European Central Bank
-- Traineeship in the Monetary Analysis Division in the Directorate General Monetary Policy - Careers - Job Search | European Central Bank (single_secondary_source; unchanged)
-  - <https://news.google.com/rss/articles/CBMidkFVX3lxTE5DZ3VELTZOTy1kcElyV2w0UV9tdUV3bThlOGRFNHFYMUE2RG95cTBXVDlKMk1rVS1vaUV6dmc5aGR1TW9BZk1TakQwcDQxRndrTnA2NXFHb1dyV19vMmFqVkY0QmVMZGJTckw2c0hTSGZ3R2VndXc?oc=5> — Job Search | European Central Bank
-- ECB caught in the French drama - ing think (single_secondary_source; new)
-  - <https://news.google.com/rss/articles/CBMib0FVX3lxTFB4R1hfVjU2SjRlZVZCVFE0V0F3VHFucWFIRG93RFhwTEtxdGlwMGRVbXdrVkZ0YmVzWkpNMEVCa0h2d2RIbUNmZ2NvTUxmY1ZmMDV0LWhPelByb3kwa0w3RndNS1B0bTU3LUJ3SWhBNA?oc=5> — ing think
+- ECB Consumer Expectations Survey results – September 2026 - European Central Bank (single_secondary_source; updated)
+  - <https://news.google.com/rss/articles/CBMiiAFBVV95cUxOWUFWN3dJZ3VXMUpoNV94bDV3WVhEVy1DcGJoSGN5OHJld3R6V015YmV4eGpsNjhNa0kxeE5VdmhHMVhsTUdrSW1XWXdEUDNqdE1vaUlSbW5kd0pEZTRQbVBNS0cySUk0Zy0tdEJQWmpZakw3Q0hrN0VrNC16dkJvWV9XVVA1Q0Fi?oc=5> — European Central Bank
+- ECB set to raise rates in December, economists say - Luxembourg Times (single_secondary_source; new)
+  - <https://news.google.com/rss/articles/CBMipAFBVV95cUxQWnNVbU5kTGluWEhicThWb0wtbUN1Q0ZrM1dGT2hwaFQ5LTQzSHRVcXFmY1U2VGpDT0hrQTBmUHF0Rld1Nm9QcUt0ZzlQUGRpYk82Q05TZFBMRGVwNkl1Y1NaZWI2V2tSOEd1TWhvNzJLbUhIZlI1Qkk4RnZwaHNKeTJoaUl6dVNFSWhleDFUZV92RVJzR3RKWGJpZVdiN0lKaG5nZw?oc=5> — Luxembourg Times
+- ECB Becomes First Major Central Bank to Raise Rates Since Inflation Resurgence - tovima.com (single_secondary_source; new)
+  - <https://news.google.com/rss/articles/CBMiqgFBVV95cUxQMWZXWGpuWUdEYmIwbkVKOG9xellBa1NZZ2IzV2hITDN6SlpUVHBwX0RWd1U3dTBob1Y1V3VzVzd1QklfWV9CamxtQkhOMm5VRFFSM3BaQVJia2JkNVczWEpfcTFERWM4OU1tLXlHckRDeHAxa3owNERXdWVRdUtkd3lVeFZlNnhUaG5RdnBzU2p5aGg2NFFSMXJmZTNLVDFuX1VvYjdkenp6d9IBrwFBVV95cUxPOF9FUXJTMXZtT1ktbUtFU01nU2lpU0QwWHByNmVyYjZWa2VnZGJOT1E3Z3Z4TldnckN2MHU0NXFJOWFQZGRmcUc1SEhxVm5lbWZMaklmT2hEcDR6LVhiMUh1NzY1WjdKbnVWeEdNdUxYTEFBc0RQWFY3dlpfRHExMGR2UlY4Z0ZYMUhmOVRhM3Jyd2tLalBlaVFoVFViWjJXZlQxeG1FTWtEdXFFMTBF?oc=5> — tovima.com
+- Could France&\#x27;s bond turmoil force the ECB&\#x27;s hand? - Euronews.com (single_secondary_source; new)
+  - <https://news.google.com/rss/articles/CBMiogFBVV95cUxPR1JMSXlmaWFKSGxIZFdTODdyQjhrTGRQTHFFa0xUdjEtOFpPeGVsSlJScVJKemRjNExUT3FDcFhDRDMtazJfRzF0QjV2d2NjQnZOMi0zR2g4WnJJd3lZdnlNRlRKTEE2aEh4LUMxRm0wRmJuXzkyanhFdWJUOVNCM19OWU5MbklDQnU3TFhGbkpZT1dYTkNWcXA4NTJ0QncyMWc?oc=5> — Euronews.com
+- Ready for a French test?: Five questions for the ECB - Idaho Statesman (single_secondary_source; updated)
+  - <https://news.google.com/rss/articles/CBMihgFBVV95cUxOUF9NbXBpcFNiVFVRT1dMMFBkSDF5LWNUa1VLUzZBTUpUcTVlamhLOUZ0R3Iya3BYeEN6cHo1eDczTTF6aXkzTmFzMWw1aHA0WFRiZFdhNUdnSGdpUUM1SWFBQXpDUW51Z2xvTGN1MmJXMVdJYXR0b3JEaWRLbFBjYnlyb0d5Zw?oc=5> — Idaho Statesman
 
 ## Limitations
 - Bounded queries do not provide exhaustive global coverage.

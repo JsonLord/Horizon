@@ -1,31 +1,6 @@
 {
   "analysis_mode": "deterministic",
-  "changes": [
-    {
-      "finding_id": "7dd872cd5a1484f8bf132785",
-      "institution_ids": [
-        "cern"
-      ],
-      "observed_at": "2026-10-24T11:17:39.394449+00:00",
-      "type": "new"
-    },
-    {
-      "finding_id": "5b7085171999676ff4ff85d2",
-      "institution_ids": [
-        "cern"
-      ],
-      "observed_at": "2026-10-24T11:17:39.394449+00:00",
-      "type": "new"
-    },
-    {
-      "finding_id": "a3fd6f5352ea04c67f997eb1",
-      "institution_ids": [
-        "cern"
-      ],
-      "observed_at": "2026-10-24T11:17:39.394449+00:00",
-      "type": "new"
-    }
-  ],
+  "changes": [],
   "coverage": {
     "basis": "search query region; event geography unknown",
     "missing_regions": [],
@@ -33,7 +8,7 @@
       "Europe"
     ]
   },
-  "created_at": "2026-10-24T11:17:39.394449+00:00",
+  "created_at": "2026-10-25T11:47:01.580290+00:00",
   "errors": [
     {
       "code": "SOURCE_INCOMPLETE",
@@ -47,49 +22,6 @@
   "findings": [
     {
       "change_type": "unchanged",
-      "classification": "reported_news",
-      "corroboration": 1,
-      "event_id": "c2eab86e0de52651ce614a8b",
-      "evidence": [
-        {
-          "location": "feed title",
-          "snippet": "Marathon Fusion says it has turned mercury into gold with fusion neutrons, 10x CERN's record - Dealroom",
-          "source_id": "ebfca8d60f95a42f31926528"
-        }
-      ],
-      "finding_id": "c2eab86e0de52651ce614a8b",
-      "geography": {
-        "confidence": null,
-        "event_region": "unknown",
-        "evidence": []
-      },
-      "importance": null,
-      "institutions": [
-        "cern"
-      ],
-      "limitations": [
-        "Title-level extraction; linked source should be reviewed."
-      ],
-      "model_selected": null,
-      "observed_at": "2026-10-24T11:17:39.391606+00:00",
-      "profile_relevance": 8.936638986041666,
-      "provenance": "deterministic title extraction",
-      "published_at": "2026-10-24T09:46:25+00:00",
-      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
-      "regions": [
-        "Europe"
-      ],
-      "source_ids": [
-        "ebfca8d60f95a42f31926528"
-      ],
-      "summary": "Marathon Fusion says it has turned mercury into gold with fusion neutrons, 10x CERN's record - Dealroom",
-      "topics": [
-        "CERN"
-      ],
-      "verification": "single_secondary_source"
-    },
-    {
-      "change_type": "new",
       "classification": "reported_news",
       "corroboration": 1,
       "event_id": "7dd872cd5a1484f8bf132785",
@@ -114,8 +46,8 @@
         "Title-level extraction; linked source should be reviewed."
       ],
       "model_selected": null,
-      "observed_at": "2026-10-24T11:17:39.391606+00:00",
-      "profile_relevance": 8.797912134189815,
+      "observed_at": "2026-10-25T11:47:01.579102+00:00",
+      "profile_relevance": 7.777516445578703,
       "provenance": "deterministic title extraction",
       "published_at": "2026-10-24T06:26:39+00:00",
       "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
@@ -132,7 +64,7 @@
       "verification": "single_secondary_source"
     },
     {
-      "change_type": "new",
+      "change_type": "unchanged",
       "classification": "reported_news",
       "corroboration": 1,
       "event_id": "5b7085171999676ff4ff85d2",
@@ -157,8 +89,8 @@
         "Title-level extraction; linked source should be reviewed."
       ],
       "model_selected": null,
-      "observed_at": "2026-10-24T11:17:39.391606+00:00",
-      "profile_relevance": 8.15846768974537,
+      "observed_at": "2026-10-25T11:47:01.579102+00:00",
+      "profile_relevance": 7.138072001134259,
       "provenance": "deterministic title extraction",
       "published_at": "2026-10-23T15:05:51+00:00",
       "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
@@ -175,7 +107,7 @@
       "verification": "single_secondary_source"
     },
     {
-      "change_type": "new",
+      "change_type": "unchanged",
       "classification": "reported_news",
       "corroboration": 1,
       "event_id": "a3fd6f5352ea04c67f997eb1",
@@ -200,8 +132,8 @@
         "Title-level extraction; linked source should be reviewed."
       ],
       "model_selected": null,
-      "observed_at": "2026-10-24T11:17:39.391606+00:00",
-      "profile_relevance": 8.05440518974537,
+      "observed_at": "2026-10-25T11:47:01.579102+00:00",
+      "profile_relevance": 7.03400950113426,
       "provenance": "deterministic title extraction",
       "published_at": "2026-10-23T12:36:00+00:00",
       "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
@@ -216,186 +148,14 @@
         "CERN"
       ],
       "verification": "single_secondary_source"
-    },
-    {
-      "change_type": "unchanged",
-      "classification": "reported_news",
-      "corroboration": 1,
-      "event_id": "f36280978497f9b2a99d508e",
-      "evidence": [
-        {
-          "location": "feed title",
-          "snippet": "Outstanding achievements of ATLAS members celebrated at CERN - ATLAS Experiment at CERN",
-          "source_id": "f8765351a6022e9874b8077d"
-        }
-      ],
-      "finding_id": "f36280978497f9b2a99d508e",
-      "geography": {
-        "confidence": null,
-        "event_region": "unknown",
-        "evidence": []
-      },
-      "importance": null,
-      "institutions": [
-        "cern"
-      ],
-      "limitations": [
-        "Title-level extraction; linked source should be reviewed."
-      ],
-      "model_selected": null,
-      "observed_at": "2026-10-24T11:17:39.391606+00:00",
-      "profile_relevance": 8.015157504560186,
-      "provenance": "deterministic title extraction",
-      "published_at": "2026-10-23T11:39:29+00:00",
-      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
-      "regions": [
-        "Europe"
-      ],
-      "source_ids": [
-        "f8765351a6022e9874b8077d"
-      ],
-      "summary": "Outstanding achievements of ATLAS members celebrated at CERN - ATLAS Experiment at CERN",
-      "topics": [
-        "CERN"
-      ],
-      "verification": "single_secondary_source"
-    },
-    {
-      "change_type": "unchanged",
-      "classification": "reported_news",
-      "corroboration": 1,
-      "event_id": "9e96fb8f8d86c03b97db3322",
-      "evidence": [
-        {
-          "location": "feed title",
-          "snippet": "Building A CERN Beyond Earth Will Take More Than A Bigger Ring – OpEd - Eurasia Review",
-          "source_id": "a9dcd941f4b61ee1e1af663d"
-        }
-      ],
-      "finding_id": "9e96fb8f8d86c03b97db3322",
-      "geography": {
-        "confidence": null,
-        "event_region": "unknown",
-        "evidence": []
-      },
-      "importance": null,
-      "institutions": [
-        "cern"
-      ],
-      "limitations": [
-        "Title-level extraction; linked source should be reviewed."
-      ],
-      "model_selected": null,
-      "observed_at": "2026-10-24T11:17:39.391606+00:00",
-      "profile_relevance": 7.503884356412037,
-      "provenance": "deterministic title extraction",
-      "published_at": "2026-10-22T23:23:15+00:00",
-      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
-      "regions": [
-        "Europe"
-      ],
-      "source_ids": [
-        "a9dcd941f4b61ee1e1af663d"
-      ],
-      "summary": "Building A CERN Beyond Earth Will Take More Than A Bigger Ring – OpEd - Eurasia Review",
-      "topics": [
-        "CERN"
-      ],
-      "verification": "single_secondary_source"
-    },
-    {
-      "change_type": "unchanged",
-      "classification": "reported_news",
-      "corroboration": 1,
-      "event_id": "67cdd0b8d7acf855fedc51f7",
-      "evidence": [
-        {
-          "location": "feed title",
-          "snippet": "Marathon Fusion Claims 10x CERN Gold Record Without Disclosing Actual Yield - the deep dive",
-          "source_id": "552e8c3a6ebb977df2ab77c0"
-        }
-      ],
-      "finding_id": "67cdd0b8d7acf855fedc51f7",
-      "geography": {
-        "confidence": null,
-        "event_region": "unknown",
-        "evidence": []
-      },
-      "importance": null,
-      "institutions": [
-        "cern"
-      ],
-      "limitations": [
-        "Title-level extraction; linked source should be reviewed."
-      ],
-      "model_selected": null,
-      "observed_at": "2026-10-24T11:17:39.391606+00:00",
-      "profile_relevance": 7.178525560115741,
-      "provenance": "deterministic title extraction",
-      "published_at": "2026-10-22T15:34:44+00:00",
-      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
-      "regions": [
-        "Europe"
-      ],
-      "source_ids": [
-        "552e8c3a6ebb977df2ab77c0"
-      ],
-      "summary": "Marathon Fusion Claims 10x CERN Gold Record Without Disclosing Actual Yield - the deep dive",
-      "topics": [
-        "CERN"
-      ],
-      "verification": "single_secondary_source"
-    },
-    {
-      "change_type": "unchanged",
-      "classification": "reported_news",
-      "corroboration": 1,
-      "event_id": "5caa04556123249c69ac94d1",
-      "evidence": [
-        {
-          "location": "feed title",
-          "snippet": "Pellegrini Meets CERN Director-General Thomson at Presidential Palace - TASR",
-          "source_id": "4cb3cfe30acd0d435e8175f2"
-        }
-      ],
-      "finding_id": "5caa04556123249c69ac94d1",
-      "geography": {
-        "confidence": null,
-        "event_region": "unknown",
-        "evidence": []
-      },
-      "importance": null,
-      "institutions": [
-        "cern"
-      ],
-      "limitations": [
-        "Title-level extraction; linked source should be reviewed."
-      ],
-      "model_selected": null,
-      "observed_at": "2026-10-24T11:17:39.391606+00:00",
-      "profile_relevance": 7.096037134189815,
-      "provenance": "deterministic title extraction",
-      "published_at": "2026-10-22T13:35:57+00:00",
-      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
-      "regions": [
-        "Europe"
-      ],
-      "source_ids": [
-        "4cb3cfe30acd0d435e8175f2"
-      ],
-      "summary": "Pellegrini Meets CERN Director-General Thomson at Presidential Palace - TASR",
-      "topics": [
-        "CERN"
-      ],
-      "verification": "single_secondary_source"
     }
   ],
   "history": {
     "comparison": "last_good",
-    "previous_created_at": "2026-10-23T11:51:52.396328+00:00",
-    "previous_report_id": "c36122d6632d470aae0d8ff2258a5434",
-    "previous_report_sha256": "c04db040780aeab7299006d84d4c63b564333aa92aa9f92948ce241607b437ce",
-    "previous_snapshot_commit": "9f35013ab83ba3504927b79112641de37584d4bd",
+    "previous_created_at": "2026-10-24T11:17:39.394449+00:00",
+    "previous_report_id": "d5e98a691f5a4f10a44d1d4d6b0a8bd7",
+    "previous_report_sha256": "0bb658668b0cd2cfeef1d7ef3190ef4a924e96a53ec7bf0291d548a998ae5193",
+    "previous_snapshot_commit": "70d12764bee6168ca77bc981b213e76f06de2f61",
     "stale_last_good": false,
     "state": "restored"
   },
@@ -405,21 +165,21 @@
     "Contradiction/resolution labels require explicit source wording and review; no automatic truth adjudication."
   ],
   "links": {
-    "json": "intel/reports/institutions/cern/2026/10/24/d5e98a691f5a4f10a44d1d4d6b0a8bd7/report.json",
-    "markdown": "intel/reports/institutions/cern/2026/10/24/d5e98a691f5a4f10a44d1d4d6b0a8bd7/report.md"
+    "json": "intel/reports/institutions/cern/2026/10/25/e15c0d4d1e954349ba9c1c663fc18432/report.json",
+    "markdown": "intel/reports/institutions/cern/2026/10/25/e15c0d4d1e954349ba9c1c663fc18432/report.md"
   },
   "model_used": null,
   "profile_id": "institutions/cern",
   "question": "",
-  "report_id": "d5e98a691f5a4f10a44d1d4d6b0a8bd7",
-  "run_id": "d5e98a691f5a4f10a44d1d4d6b0a8bd7",
+  "report_id": "e15c0d4d1e954349ba9c1c663fc18432",
+  "run_id": "e15c0d4d1e954349ba9c1c663fc18432",
   "schedule": {},
   "schema_version": "1.0",
   "sources": [
     {
       "canonical_url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNS0JuQUZWa1lrZlVKR3lRb0w1QUhCMzE2Zy1jR2JDNmZFbk95ZXRNa1JtQ2F5Q2JUVUdONG9kVE9YNC03SF92VkNnVFV0X21QUXNVMG9uMlV5OGk4Y3dUSEVpSTZNVVdTekJrOURxMlB2R2tPdDc4T1d3SnF5djhSUXZVTkl2UmpsV2NtUjVQMUd2RDdLNjYya08tOGtNYUFvZEVvQnNjV0F3SzZzWGRtb1JjVjlCN3VrclU0SktxSzN2UXhrOWNfc3NwV2bSAdIBQVVfeXFMTmlkLUVpbVpjNkNIZFBrTFM3OVQ5cmprcW04S0NGVnNuTmllLS05aGlsWnRzcERKNHhjMEQxUkt6eWJWaFJlOVZCLWpBUnBmeUZDblhHbU9kSTd2a1puRU9wZHp6M3FsUFlNSTlJNGw1QjBDYmhxUGw1UEE3MnBmbjFqaXZtNGFMM1kzVzZqdHFCVklPOXVkOV9sUmxmM0t3RHlJczZ1N3o0Y0NwNktFODNCRmlfMUR2WjREdTh0RW1XYXBoRkxTZ1dyZVFqQzl3YjBR?oc=5",
       "content_fingerprint": "e005fe8c1fcd07409b9194b0",
-      "fetched_at": "2026-10-24T11:17:39.391606+00:00",
+      "fetched_at": "2026-10-25T11:47:01.579102+00:00",
       "institution_id": "cern",
       "language": "en",
       "observations": [
@@ -443,87 +203,9 @@
       "source_seen_at": null
     },
     {
-      "canonical_url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOWS1ibTZJMzR6M3FaekhhZW1GemVGNGlmUHREdTJCb3ZVQ0hZSFRGcEdLWVV6MXJWb0ZWT3BRbFhlQ1MyWjlySW4zeTVCQXFoRndya0NLX0g5aUlMazBTQXZTQVRoRV9yVlUwTjhHZjJid2xpRlljbmRuV20xcndjRF9KR3hkVHRucUtaNXR6QUxvaVV5T05LTUZB?oc=5",
-      "content_fingerprint": "1f29a5662485245f9e0fdd43",
-      "fetched_at": "2026-10-24T11:17:39.391606+00:00",
-      "institution_id": "cern",
-      "language": "en",
-      "observations": [
-        {
-          "collector": "google_news",
-          "language": "en",
-          "search_query": "\"CERN\"",
-          "search_region": "Europe",
-          "title": "Pellegrini Meets CERN Director-General Thomson at Presidential Palace - TASR"
-        }
-      ],
-      "origin_collector": "google_news",
-      "original_url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOWS1ibTZJMzR6M3FaekhhZW1GemVGNGlmUHREdTJCb3ZVQ0hZSFRGcEdLWVV6MXJWb0ZWT3BRbFhlQ1MyWjlySW4zeTVCQXFoRndya0NLX0g5aUlMazBTQXZTQVRoRV9yVlUwTjhHZjJid2xpRlljbmRuV20xcndjRF9KR3hkVHRucUtaNXR6QUxvaVV5T05LTUZB?oc=5",
-      "profile_id": "institutions/cern",
-      "published_at": "2026-10-22T13:35:57+00:00",
-      "publisher": "TASR",
-      "search_query": "\"CERN\"",
-      "source_country": "unknown",
-      "source_id": "4cb3cfe30acd0d435e8175f2",
-      "source_kind": "secondary",
-      "source_seen_at": null
-    },
-    {
-      "canonical_url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNXzYxa3RseENFM2ZiRC1MR0g2NFlXdUhCTlQzbEZsRXgwYlhMMHlwclc4YlVtOVZiTTF4ZkEwUTZ1SDBKWjBlV0JjYkw5OGdvVHg4bk1TYjhNYVJTOE1sWklvRExZUnhVdzZCWk9tUlBQWmtyMVZrTzRRNlJabXJWT3pBeXAzak95RUdBTmdnbThnejliaS1reEtrY3lnX09U?oc=5",
-      "content_fingerprint": "3519a95e3b00e0d81c90133b",
-      "fetched_at": "2026-10-24T11:17:39.391606+00:00",
-      "institution_id": "cern",
-      "language": "en",
-      "observations": [
-        {
-          "collector": "google_news",
-          "language": "en",
-          "search_query": "\"CERN\"",
-          "search_region": "Europe",
-          "title": "Marathon Fusion Claims 10x CERN Gold Record Without Disclosing Actual Yield - the deep dive"
-        }
-      ],
-      "origin_collector": "google_news",
-      "original_url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNXzYxa3RseENFM2ZiRC1MR0g2NFlXdUhCTlQzbEZsRXgwYlhMMHlwclc4YlVtOVZiTTF4ZkEwUTZ1SDBKWjBlV0JjYkw5OGdvVHg4bk1TYjhNYVJTOE1sWklvRExZUnhVdzZCWk9tUlBQWmtyMVZrTzRRNlJabXJWT3pBeXAzak95RUdBTmdnbThnejliaS1reEtrY3lnX09U?oc=5",
-      "profile_id": "institutions/cern",
-      "published_at": "2026-10-22T15:34:44+00:00",
-      "publisher": "the deep dive",
-      "search_query": "\"CERN\"",
-      "source_country": "unknown",
-      "source_id": "552e8c3a6ebb977df2ab77c0",
-      "source_kind": "secondary",
-      "source_seen_at": null
-    },
-    {
-      "canonical_url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNWWhJT2ZDa3U4eFBmUDRta2JnS2d6c0tlclczQ29nMHFYNXRLclVRVTVkS0pJSlNkS0FZRTRLU2E0LWlIaDhEWWVjb1J4cEo3SVpwSkZHWnQtdkYwN2dfV1lwUmNtTGlVZ2VuOUFOa3dDeFdocGxrb01XSnd1WG10WFFoUnczbkJBbXNxOUJyWmg1d1F5bFc2cC1XSE1CQXJiSHU0NV8ydVMyNEE?oc=5",
-      "content_fingerprint": "c6974f513fd4912304895e2b",
-      "fetched_at": "2026-10-24T11:17:39.391606+00:00",
-      "institution_id": "cern",
-      "language": "en",
-      "observations": [
-        {
-          "collector": "google_news",
-          "language": "en",
-          "search_query": "\"CERN\"",
-          "search_region": "Europe",
-          "title": "Building A CERN Beyond Earth Will Take More Than A Bigger Ring – OpEd - Eurasia Review"
-        }
-      ],
-      "origin_collector": "google_news",
-      "original_url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNWWhJT2ZDa3U4eFBmUDRta2JnS2d6c0tlclczQ29nMHFYNXRLclVRVTVkS0pJSlNkS0FZRTRLU2E0LWlIaDhEWWVjb1J4cEo3SVpwSkZHWnQtdkYwN2dfV1lwUmNtTGlVZ2VuOUFOa3dDeFdocGxrb01XSnd1WG10WFFoUnczbkJBbXNxOUJyWmg1d1F5bFc2cC1XSE1CQXJiSHU0NV8ydVMyNEE?oc=5",
-      "profile_id": "institutions/cern",
-      "published_at": "2026-10-22T23:23:15+00:00",
-      "publisher": "Eurasia Review",
-      "search_query": "\"CERN\"",
-      "source_country": "unknown",
-      "source_id": "a9dcd941f4b61ee1e1af663d",
-      "source_kind": "secondary",
-      "source_seen_at": null
-    },
-    {
       "canonical_url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPUmhyX3hSRVF2WnhnMVIzNVNjTEw4Y2RFNXlvdEIyYjBhcF85T1RUb1pldmw4WGdwaTJqNG1BcWhTZzRHUk4xRVRWOXBCNGRHT1ZMaVNGNG80NjFUeUpPVWgxUUp0QWFGUTFOeWdLUDlLYmtCRHBQM3d1UHJPUDF5SFd1SzZLRG5CazRoM0M5N2dpMFZCanl5aTJhZ2pYOTRYUEJzcGJXY1o1NGhGTkdEZ09Tc1Y5ZUl5Z3fSAb8BQVVfeXFMTjRSZjdEWEZtN2tkaDlRUkZWcnEzc0NlNmVPcVZaSERLTW1SOXV4MGQzSndMaHpCYWEzdUtUS3ZOMFZYNHZ3TVVkT2JlckJUaVE5aFFCbkNnSTRSTmJJVUNuT2xYenFjUWxRaGdkaER0bG9UZ0VGSzAtZEFEa0FGWUQxLW5wU0x0S2sxVnVBX0NOVHV5Z1VwZTIyVUF1VnRoRXg2YjEyTG82RktlZ2haTzJOTGRlX2JTOEU1V3FkdWc?oc=5",
       "content_fingerprint": "6cb41494840a938f3669e31f",
-      "fetched_at": "2026-10-24T11:17:39.391606+00:00",
+      "fetched_at": "2026-10-25T11:47:01.579102+00:00",
       "institution_id": "cern",
       "language": "en",
       "observations": [
@@ -547,35 +229,9 @@
       "source_seen_at": null
     },
     {
-      "canonical_url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNQTZ2T0o3a1VseHk3c0hFSFpMOW5jVFAweXA1NGV2MkRSTVpyYWNUYkFwRXVBUklpMlVyclBTRlBDVDhZc1lueXdLSHJRVHIxM0xmeXlsX0pzOEJjMjYtVmtBOS1Wek81VmFxZUJMOE1UMlJDSnRPbU5mSXNtUlplUmliN0hCdVVUSk5TNktDaUt3VkZnZm5OVW03S0lWYWRUNEktMnBiTWlQTGVHNzhISjJBajl0eGZqODRDbFc3NG1TbUk?oc=5",
-      "content_fingerprint": "40ac3e03ba2afd035c1950b8",
-      "fetched_at": "2026-10-24T11:17:39.391606+00:00",
-      "institution_id": "cern",
-      "language": "en",
-      "observations": [
-        {
-          "collector": "google_news",
-          "language": "en",
-          "search_query": "\"CERN\"",
-          "search_region": "Europe",
-          "title": "Marathon Fusion says it has turned mercury into gold with fusion neutrons, 10x CERN's record - Dealroom"
-        }
-      ],
-      "origin_collector": "google_news",
-      "original_url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNQTZ2T0o3a1VseHk3c0hFSFpMOW5jVFAweXA1NGV2MkRSTVpyYWNUYkFwRXVBUklpMlVyclBTRlBDVDhZc1lueXdLSHJRVHIxM0xmeXlsX0pzOEJjMjYtVmtBOS1Wek81VmFxZUJMOE1UMlJDSnRPbU5mSXNtUlplUmliN0hCdVVUSk5TNktDaUt3VkZnZm5OVW03S0lWYWRUNEktMnBiTWlQTGVHNzhISjJBajl0eGZqODRDbFc3NG1TbUk?oc=5",
-      "profile_id": "institutions/cern",
-      "published_at": "2026-10-24T09:46:25+00:00",
-      "publisher": "Dealroom",
-      "search_query": "\"CERN\"",
-      "source_country": "unknown",
-      "source_id": "ebfca8d60f95a42f31926528",
-      "source_kind": "secondary",
-      "source_seen_at": null
-    },
-    {
       "canonical_url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQYjRoUGp5TmhoRGRvZktqWHFUdUxDOHZqMmVVQWFldXJuN01CbUtYcWN0SUFRWFpoLWpOYWF6QldSMWdsN2ZUQnVVSDlLbVpVSWtxU2diWjhMMjYwN2JMQmYzWVpFSTIybXEyam1QdVpNcXpoMklFTWVoOFdzeDNSc2NzYllkdVZ0MWNDUlN2OWlscFhXM05hWFNIRmx3NXFMZHpneVJPdUQ3VGs2VHRwWUpSTFIzQUZvTDBRM0k1QdIBxwFBVV95cUxQSUpKem14Nzc3aElaUFZEVGNkamVyX3FSOXVMc1hZSDV2a3M0ZkY1RHlXUXJ6Q2xBR25qS3lUc016TUJ1UTIweHZOV1NuR3dwQ0pkS3YxdjNOM1ZRbVhoMjFLcnN2Z1pKNWtNQ1lCTUlNU0l4UGJwS2c0ektJSUppcHRvdXVpQUVzdW9oc1Iweml5bWV1cXdCS1p5NU1SLUg1Sk80ZU9OZmdQTXZVOWIxX1labVRJWmZ4SHl6N3hVdjNlYm9JVEE0?oc=5",
       "content_fingerprint": "bf502c20cfc9fecd9a957a88",
-      "fetched_at": "2026-10-24T11:17:39.391606+00:00",
+      "fetched_at": "2026-10-25T11:47:01.579102+00:00",
       "institution_id": "cern",
       "language": "en",
       "observations": [
@@ -597,32 +253,6 @@
       "source_id": "ed4b6613726acf12b7165a73",
       "source_kind": "secondary",
       "source_seen_at": null
-    },
-    {
-      "canonical_url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5la3hvSUhGUDg1d0RhWGJkcXN5R3BrVjhwYkNyS1RlUzFNNUxFblZ2eW9hb1lrVEZmeUx4QlBCeFZVeWw2RlRULWdOMUtrbEhsaFJEclJ4QjlCejVXeEFiSDhQRmZQVVI0bnhCdQ?oc=5",
-      "content_fingerprint": "0fcabf82ab16f8aa8c3103e9",
-      "fetched_at": "2026-10-24T11:17:39.391606+00:00",
-      "institution_id": "cern",
-      "language": "en",
-      "observations": [
-        {
-          "collector": "google_news",
-          "language": "en",
-          "search_query": "\"CERN\"",
-          "search_region": "Europe",
-          "title": "Outstanding achievements of ATLAS members celebrated at CERN - ATLAS Experiment at CERN"
-        }
-      ],
-      "origin_collector": "google_news",
-      "original_url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5la3hvSUhGUDg1d0RhWGJkcXN5R3BrVjhwYkNyS1RlUzFNNUxFblZ2eW9hb1lrVEZmeUx4QlBCeFZVeWw2RlRULWdOMUtrbEhsaFJEclJ4QjlCejVXeEFiSDhQRmZQVVI0bnhCdQ?oc=5",
-      "profile_id": "institutions/cern",
-      "published_at": "2026-10-23T11:39:29+00:00",
-      "publisher": "ATLAS Experiment at CERN",
-      "search_query": "\"CERN\"",
-      "source_country": "unknown",
-      "source_id": "f8765351a6022e9874b8077d",
-      "source_kind": "secondary",
-      "source_seen_at": null
     }
   ],
   "statistics": {
@@ -636,7 +266,7 @@
       },
       {
         "error_code": null,
-        "items": 14,
+        "items": 5,
         "query": "\"CERN\"",
         "source": "google_news",
         "status": "ok"
@@ -654,18 +284,18 @@
         "status": "failed"
       }
     ],
-    "items": 8,
-    "sources": 8
+    "items": 3,
+    "sources": 3
   },
   "status": "partial",
   "time_window": {
-    "since": "2026-10-22T11:17:39.394449+00:00",
-    "until": "2026-10-24T11:17:39.394449+00:00"
+    "since": "2026-10-23T11:47:01.580290+00:00",
+    "until": "2026-10-25T11:47:01.580290+00:00"
   },
   "workflow": {
     "repository": "JsonLord/Horizon",
     "run_attempt": "1",
-    "run_id": "40089132468",
+    "run_id": "40190122800",
     "source_commit": "c9dcef30a10ffe67b8e399baea5c2a6787c7dfd2"
   }
 }

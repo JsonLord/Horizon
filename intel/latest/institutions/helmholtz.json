@@ -1,6 +1,15 @@
 {
   "analysis_mode": "deterministic",
-  "changes": [],
+  "changes": [
+    {
+      "finding_id": "85ebcc440329121c6b9b2228",
+      "institution_ids": [
+        "helmholtz"
+      ],
+      "observed_at": "2026-10-25T11:47:31.096215+00:00",
+      "type": "new"
+    }
+  ],
   "coverage": {
     "basis": "search query region; event geography unknown",
     "missing_regions": [],
@@ -8,22 +17,27 @@
       "Europe"
     ]
   },
-  "created_at": "2026-10-22T12:07:41.558691+00:00",
-  "errors": [],
+  "created_at": "2026-10-25T11:47:31.096215+00:00",
+  "errors": [
+    {
+      "code": "SOURCE_INCOMPLETE",
+      "source": "gdelt"
+    }
+  ],
   "findings": [
     {
-      "change_type": "unchanged",
+      "change_type": "new",
       "classification": "reported_news",
       "corroboration": 1,
-      "event_id": "b1cde0160581d27bceea6acd",
+      "event_id": "85ebcc440329121c6b9b2228",
       "evidence": [
         {
           "location": "feed title",
-          "snippet": "“We are at the dawn of a golden age” - Helmholtz - Association of German Research Centres - Helmholtz-Gemeinschaft Deutscher Forschungszentren",
-          "source_id": "165c6d9cb88e0eaf8d8cda86"
+          "snippet": "Statement Importance of Libraries - Helmholtz Open Science Office",
+          "source_id": "45717bc72ac6804e3dc41a66"
         }
       ],
-      "finding_id": "b1cde0160581d27bceea6acd",
+      "finding_id": "85ebcc440329121c6b9b2228",
       "geography": {
         "confidence": null,
         "event_region": "unknown",
@@ -37,18 +51,18 @@
         "Title-level extraction; linked source should be reviewed."
       ],
       "model_selected": null,
-      "observed_at": "2026-10-22T12:07:41.558039+00:00",
-      "profile_relevance": 5.134681041215278,
+      "observed_at": "2026-10-25T11:47:31.095561+00:00",
+      "profile_relevance": 6.63565861619213,
       "provenance": "deterministic title extraction",
-      "published_at": "2026-10-20T15:21:38+00:00",
+      "published_at": "2026-10-25T03:02:52+00:00",
       "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
       "regions": [
         "Europe"
       ],
       "source_ids": [
-        "165c6d9cb88e0eaf8d8cda86"
+        "45717bc72ac6804e3dc41a66"
       ],
-      "summary": "“We are at the dawn of a golden age” - Helmholtz - Association of German Research Centres - Helmholtz-Gemeinschaft Deutscher Forschungszentren",
+      "summary": "Statement Importance of Libraries - Helmholtz Open Science Office",
       "topics": [
         "Helmholtz Association"
       ],
@@ -57,11 +71,11 @@
   ],
   "history": {
     "comparison": "last_good",
-    "previous_created_at": "2026-10-21T12:04:40.516351+00:00",
-    "previous_report_id": "a279be671cba48efb15bc4d77880086c",
-    "previous_report_sha256": "5d63673e6ea9196347175accecc48e236d4ca29124bf491ccc9e5ad10a8a516c",
-    "previous_snapshot_commit": "9eea5d06695c05f2c63738967ef31539974ba239",
-    "stale_last_good": false,
+    "previous_created_at": "2026-10-22T12:07:41.558691+00:00",
+    "previous_report_id": "6d0564451fc544f69bb1bd954600679a",
+    "previous_report_sha256": "4d3c8bcdd7832bc0f50fdac0b7dcd3aa67e117f3647f02a41ee07fb56c251a43",
+    "previous_snapshot_commit": "70d12764bee6168ca77bc981b213e76f06de2f61",
+    "stale_last_good": true,
     "state": "restored"
   },
   "limitations": [
@@ -70,21 +84,21 @@
     "Contradiction/resolution labels require explicit source wording and review; no automatic truth adjudication."
   ],
   "links": {
-    "json": "intel/reports/institutions/helmholtz/2026/10/22/6d0564451fc544f69bb1bd954600679a/report.json",
-    "markdown": "intel/reports/institutions/helmholtz/2026/10/22/6d0564451fc544f69bb1bd954600679a/report.md"
+    "json": "intel/reports/institutions/helmholtz/2026/10/25/396dc19e8897431b83e53734e7443c2f/report.json",
+    "markdown": "intel/reports/institutions/helmholtz/2026/10/25/396dc19e8897431b83e53734e7443c2f/report.md"
   },
   "model_used": null,
   "profile_id": "institutions/helmholtz",
   "question": "",
-  "report_id": "6d0564451fc544f69bb1bd954600679a",
-  "run_id": "6d0564451fc544f69bb1bd954600679a",
+  "report_id": "396dc19e8897431b83e53734e7443c2f",
+  "run_id": "396dc19e8897431b83e53734e7443c2f",
   "schedule": {},
   "schema_version": "1.0",
   "sources": [
     {
-      "canonical_url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQYUdGZHZwR2RWQkhhYzA4YmZSdnZaXzdTS0xWR1dkcGc4b2JHcXA5RVhRN2d5SDMyNjFMTWVjR0xZVVRnbHNZem55WGFMUTNCVUhYN0NJcS1kSnktSC1LMU5wcEVMQ1Jfd0h0bHZMUHdKM3pERC1SQlNqcXJoa1BvdFJBX25XVTg?oc=5",
-      "content_fingerprint": "7616be5a6a20d2bc5e792635",
-      "fetched_at": "2026-10-22T12:07:41.558039+00:00",
+      "canonical_url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQT2htb2gzY1dQWmwyb1ZiekZ5Q0hVOWNLUWI0dG9NWlJYdjdNQ2p3UFNqUkdLUXVtVmJEaW1VdmRxTmttQm5NTFJlbVF0ZkFjWklzcjlULUZlLVRoNTBwVUoyTXB6T1BDT0I5OUdVcDY1S2F5QjkzZEpiTUppVXJZeFZSSm5XY29ZQy1nb21KY0UxMi1BcVpidXFtbzlZWVd0cHZNZnFKMzhDSEpqVVBtaks1NDEzcllEaEtCazRB?oc=5",
+      "content_fingerprint": "ee1bb4dc9006050d913ea856",
+      "fetched_at": "2026-10-25T11:47:31.095561+00:00",
       "institution_id": "helmholtz",
       "language": "en",
       "observations": [
@@ -93,17 +107,17 @@
           "language": "en",
           "search_query": "site:helmholtz.de",
           "search_region": "Europe",
-          "title": "“We are at the dawn of a golden age” - Helmholtz - Association of German Research Centres - Helmholtz-Gemeinschaft Deutscher Forschungszentren"
+          "title": "Statement Importance of Libraries - Helmholtz Open Science Office"
         }
       ],
       "origin_collector": "google_news",
-      "original_url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQYUdGZHZwR2RWQkhhYzA4YmZSdnZaXzdTS0xWR1dkcGc4b2JHcXA5RVhRN2d5SDMyNjFMTWVjR0xZVVRnbHNZem55WGFMUTNCVUhYN0NJcS1kSnktSC1LMU5wcEVMQ1Jfd0h0bHZMUHdKM3pERC1SQlNqcXJoa1BvdFJBX25XVTg?oc=5",
+      "original_url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQT2htb2gzY1dQWmwyb1ZiekZ5Q0hVOWNLUWI0dG9NWlJYdjdNQ2p3UFNqUkdLUXVtVmJEaW1VdmRxTmttQm5NTFJlbVF0ZkFjWklzcjlULUZlLVRoNTBwVUoyTXB6T1BDT0I5OUdVcDY1S2F5QjkzZEpiTUppVXJZeFZSSm5XY29ZQy1nb21KY0UxMi1BcVpidXFtbzlZWVd0cHZNZnFKMzhDSEpqVVBtaks1NDEzcllEaEtCazRB?oc=5",
       "profile_id": "institutions/helmholtz",
-      "published_at": "2026-10-20T15:21:38+00:00",
-      "publisher": "Helmholtz-Gemeinschaft Deutscher Forschungszentren",
+      "published_at": "2026-10-25T03:02:52+00:00",
+      "publisher": "Helmholtz Open Science Office",
       "search_query": "site:helmholtz.de",
       "source_country": "unknown",
-      "source_id": "165c6d9cb88e0eaf8d8cda86",
+      "source_id": "45717bc72ac6804e3dc41a66",
       "source_kind": "secondary",
       "source_seen_at": null
     }
@@ -113,13 +127,6 @@
       {
         "error_code": null,
         "items": 1,
-        "query": "site:helmholtz.de",
-        "source": "google_news",
-        "status": "ok"
-      },
-      {
-        "error_code": null,
-        "items": 3,
         "query": "\"Helmholtz Association\"",
         "source": "google_news",
         "status": "ok"
@@ -127,23 +134,30 @@
       {
         "error_code": null,
         "items": 1,
+        "query": "site:helmholtz.de",
+        "source": "google_news",
+        "status": "ok"
+      },
+      {
+        "error_code": null,
+        "items": 0,
         "query": "\"Helmholtz Association\"",
         "source": "gdelt",
-        "status": "ok"
+        "status": "failed"
       }
     ],
     "items": 1,
     "sources": 1
   },
-  "status": "complete",
+  "status": "partial",
   "time_window": {
-    "since": "2026-10-20T12:07:41.558691+00:00",
-    "until": "2026-10-22T12:07:41.558691+00:00"
+    "since": "2026-10-23T11:47:31.096215+00:00",
+    "until": "2026-10-25T11:47:31.096215+00:00"
   },
   "workflow": {
     "repository": "JsonLord/Horizon",
     "run_attempt": "1",
-    "run_id": "39775401954",
+    "run_id": "40190122800",
     "source_commit": "c9dcef30a10ffe67b8e399baea5c2a6787c7dfd2"
   }
 }

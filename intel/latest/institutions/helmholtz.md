@@ -1,11 +1,11 @@
 # Horizon: institutions/helmholtz
-Status: complete | Analysis: deterministic
-Observed: 2026-10-22T12:07:41.558691+00:00
+Status: partial | Analysis: deterministic
+Observed: 2026-10-25T11:47:31.096215+00:00
 
 Search-region coverage (not event geography): Europe
 
-- “We are at the dawn of a golden age” - Helmholtz - Association of German Research Centres - Helmholtz-Gemeinschaft Deutscher Forschungszentren (single_secondary_source; unchanged)
-  - <https://news.google.com/rss/articles/CBMihwFBVV95cUxQYUdGZHZwR2RWQkhhYzA4YmZSdnZaXzdTS0xWR1dkcGc4b2JHcXA5RVhRN2d5SDMyNjFMTWVjR0xZVVRnbHNZem55WGFMUTNCVUhYN0NJcS1kSnktSC1LMU5wcEVMQ1Jfd0h0bHZMUHdKM3pERC1SQlNqcXJoa1BvdFJBX25XVTg?oc=5> — Helmholtz-Gemeinschaft Deutscher Forschungszentren
+- Statement Importance of Libraries - Helmholtz Open Science Office (single_secondary_source; new)
+  - <https://news.google.com/rss/articles/CBMivgFBVV95cUxQT2htb2gzY1dQWmwyb1ZiekZ5Q0hVOWNLUWI0dG9NWlJYdjdNQ2p3UFNqUkdLUXVtVmJEaW1VdmRxTmttQm5NTFJlbVF0ZkFjWklzcjlULUZlLVRoNTBwVUoyTXB6T1BDT0I5OUdVcDY1S2F5QjkzZEpiTUppVXJZeFZSSm5XY29ZQy1nb21KY0UxMi1BcVpidXFtbzlZWVd0cHZNZnFKMzhDSEpqVVBtaks1NDEzcllEaEtCazRB?oc=5> — Helmholtz Open Science Office
 
 ## Limitations
 - Bounded queries do not provide exhaustive global coverage.

@@ -1,0 +1,104 @@
+# Horizon: institutions/who
+Status: partial | Analysis: deterministic
+Observed: 2026-10-25T11:46:20.234083+00:00
+
+Search-region coverage (not event geography): world
+
+- WHO Regional Office for the Eastern Mediterranean and Rotary reaffirm commitment to ending polio at World Polio Day events in Cairo - World Health Organization (WHO) (single_secondary_source; new)
+  - <https://news.google.com/rss/articles/CBMiggJBVV95cUxNckpLLW9wdTRQTnhEOGwzengwVV91VUZ3Vk80WjdMRTUxOE53REo5V2cxM3QwSmJSdEZmR21Ha3ZIV0tiajk5SEY4aVBXQ3M5ZTZnVkI3THZLaERTU3ZOMGc4dkxqZ1pzSE9BSE5vb1daaXJDRjlldldpbmNxdzFTNW5DdERBOHdRN2Z1OFBiR3ZJN0xEWFZkN0paNFdSQXNWOVR1Um1QQVJjcmFTd2FXOEFsUEhPRXNwOERlSTNVLU1jZ0Fld2VydmFZSTRseDJpNEs4OUtfME83RU83WWIyb3gtSTk5SjVtQWNzcWJLdkJpY1hVZXd2bkFkcjh5NVFIMVE?oc=5> — World Health Organization (WHO)
+- WHO backs ThaiHealth funding and tobacco and alcohol tax safeguards - Nation Thailand (single_secondary_source; new)
+  - <https://news.google.com/rss/articles/CBMiZkFVX3lxTE1ZOHFPaXNMdzFtd0R5QXlLR0hyYWFwbG84N0ZPdi1hNXdqX0NfQ3R1RnR1cWtldHJpNGFVZ056a3VIUlBPYVVXSmpXckVvS2VUeEl2MXNrM1QtUHE5eHYzODZXamxzZw?oc=5> — Nation Thailand
+- Bangladesh moves to strengthen medicine supply chains and improve access to essential medicines - World Health Organization (WHO) (single_secondary_source; new)
+  - <https://news.google.com/rss/articles/CBMi4wFBVV95cUxPQnl1WmxOOHFuS2ZkaDJPVGpfX0hUa1FFN0cwQTg4cU45TVlYUmVVQzRvY2lvYnBNREp4cnZrQVpUem82c3hyelFIT0s5V3l5b3Jad3JIRnJWUlNnYnU5UFJUWnplMDVKV1MwMVltMXpiUEZiSzBmam5DbWx4ZzRqTHd4UmJjZzZJUkRiS0U0cnFLMVpRdnNnRV9mc2twVUh4ZWpoU3NYZDZQU0lJTnpvNzNFUURSR1NmS0F4S2ZNdmMxRHpsdDMtd3BGM2lvS1ZYWDhJMG9GZk1sdFVyRUp2cWxZcw?oc=5> — World Health Organization (WHO)
+- Somalia unites for a polio-free future on World Polio Day 2026 - World Health Organization (WHO) (single_secondary_source; new)
+  - <https://news.google.com/rss/articles/CBMiqAFBVV95cUxPOTU5TU9ZYTZnczl5R1FyYjVkNERybGJxejF0bWdEenlTQWZfNVpzbndTMDdjdGs0NkQ0YWpfRWlxdTJ3UWgxOVpvbkV4ZngwOE1UYW5PMVd1cmI3MXNsQXlUd2txeGczUUVIZGhQNXdiZ3BmOW5fVmo0Z1Z3S1lGOXN1MldKWDlEVmcyVlFEZFVnbWp1UnM1Q2c5UUZWX2pReWJVWU5QZkI?oc=5> — World Health Organization (WHO)
+- Bilan 2025 du bureau de l&\#x27;OMS en République du Congo - WHO | Regional Office for Africa (single_secondary_source; new)
+  - <https://news.google.com/rss/articles/CBMiZkFVX3lxTE4tOWhTd3Z6MVBXc21qTzJuN3NfY05uNFB3Szhib3luU1NNa0V4TzZ5UV81eGRyX3VGWXFSSEdEWUdSTWV6MThPTGpWWGliTnBxWHFlYjU5MC1sT1NmMDBHbmQ3VEVmdw?oc=5> — WHO | Regional Office for Africa
+- Guide for National Public Health Laboratory Networking to Strengthen Integrated Disease Surveillance and Response (IDSR) - WHO | Regional Office for Africa (single_secondary_source; new)
+  - <https://news.google.com/rss/articles/CBMiZEFVX3lxTFAtS0pObmZuTGsyR0h2ZDJXNTRrWVRoVVM1Q2JrbkFUQkhIN1ctT1NFM3dHakpBUy1ESnUycjAzTUpkYW5NS19LNlp1c3BrNE5YelM2M192YXpjb21VbGdjWGF6Q0s?oc=5> — WHO | Regional Office for Africa
+- Yemen conflict 2026 - World Health Organization (WHO) (single_secondary_source; unchanged)
+  - <https://news.google.com/rss/articles/CBMiUkFVX3lxTE9nN2MxOTdJb2g3bGN6MU9oMzUzSnA2Ym9sQ3hzQXBWQXlSQlg3bFM2RE91ak5WQ0ZoTmV1bmduNnZ6c25BZ1cwdFY2VDBqZU9WRkE?oc=5> — World Health Organization (WHO)
+- Two drops, one dream: a vaccinator&\#x27;s 14-year journey to protect Afghan children from polio - World Health Organization (WHO) (single_secondary_source; unchanged)
+  - <https://news.google.com/rss/articles/CBMi1AFBVV95cUxNWkMwdWFrQXdoVTFzYWtGa2k0bHk0S2RCU2VGMWpCMHJVZHhxVFllaHlwUGZyaXV6MFc1N2tMVU1pb3VFWFlvbDVkRXNvcTlueElEVGhUQWw5TEpNcEQ5RUsxSENYZ29xa2dEZlMyYW9FREM1cV9udDRyTW4weHFUdXdnTUVZY3ZzQzBQb29PaVZFcGN5WV8zNF9zaEpvVEwtZjBBVkZ1czF2T2k0ZXNYNzNPUmJMWFU0QkZyNTFHRkNqWFBVRjRyWksydUlpVklBNk00MQ?oc=5> — World Health Organization (WHO)
+- Ending polio through regional partnerships - World Health Organization (WHO) (single_secondary_source; unchanged)
+  - <https://news.google.com/rss/articles/CBMimwFBVV95cUxPVHV4RW9OTVo3elRCTWNhdnlYdU1TMkEwby13bzdfZEI4U2FzRWptaFN2anpBMDVyN1k1ZXNEa3ZrZklPUjZUTGU2RjB1SDZtdUtPNVEtWEJBcDZrNW1EOVd6dXVYT2lnMGU5TUlFX0c3MHpuSW9TWEN6aVhDOHpCVVNNUWFWT2tQX0tJX0FKWUJTNHVERFcwQk5VYw?oc=5> — World Health Organization (WHO)
+- Tanzanian President Lauds WHO Initiative to Develop Manual for Prevention and Management of Oral Diseases - WHO | Regional Office for Africa (single_secondary_source; new)
+  - <https://news.google.com/rss/articles/CBMiZEFVX3lxTE1mRGNiZ0J4YmRDQ1RxZ3VVMG9FTkhDQms0MkVGRWl4TGdnTDVJY0EzdEZ5ZDNVUzRQOS1tTTNxT0VvX0FELTRIWlRaUmxJa3BMZENZT2hhZEI4QVA5cjhpOGdKbTU?oc=5> — WHO | Regional Office for Africa
+- News - WHO | Regional Office for Africa (single_secondary_source; new)
+  - <https://news.google.com/rss/articles/CBMiU0FVX3lxTE9RX0ZKdFFDOHRjYmhXQWdwQlRsU0dhWF9mcjBMWnNnSmFoczlBUmc0b1JzVUJYWHJWTjIwRS1wSGQxaUtmbjl0N3dXRy03a2x5SHN3?oc=5> — WHO | Regional Office for Africa
+- WHO Official Stresses Continued Efforts for Polio Eradication in Nepal - Ratopati (single_secondary_source; new)
+  - <https://news.google.com/rss/articles/CBMitwFBVV95cUxQWnhlS0RhYjhsXzFtN2lqN0hrQmxnUUVvVndQNUVYa3l2X3o3eGRZUXptNUZlWEp1ZXRJSkRVblRyZUY5eU0yeG9DNnpsYTg4dmQyUlNUR0JpRGViNDk5bm9TOVZHdk8zLXg4WWRNbDkxcHlvRnR4WDNFUEtLSHlXQ3BrdFIyTndNQkFjQUhTQnFJQkFoc2lZWkllX0JHclplTm51cEU2aUMtMUJITjZycjhtUnhRZWM?oc=5> — Ratopati
+- Eradication de la Polio et élimination des autres maladies évitables par la vaccination (S04/2025) - WHO | Regional Office for Africa (single_secondary_source; new)
+  - <https://news.google.com/rss/articles/CBMiYkFVX3lxTE9DRkZNZXRacFB4QUtocC12V1QzRjY2VzM0anVRdUw1TmtvOWJGOUVaRTZsQ0hFOHBmS3lCWmpFSkw1TXJLUTJuMG5LQ0YwMnRSOWs5ZGNUbzk2NGhFLTJCS1BR?oc=5> — WHO | Regional Office for Africa
+- Improvement of access to ANC services by pregnant women - WHO | Regional Office for Africa (single_secondary_source; new)
+  - <https://news.google.com/rss/articles/CBMiZEFVX3lxTE5MUWpCU2MwRGd5dXBQTXprVHIzNmZLYmJJVDJTalU4blBkN3ppUUQ4OGNBS0NTR0dFMzJKUnVxUENkSThEVUw2N0VJZWRlckxwZ2Q0NTJTZktmTGE1SzRucVAxcE8?oc=5> — WHO | Regional Office for Africa
+- Continuous surveillance vital to maintaining Nepal’s polio-free status: WHO official - myRepublica (single_secondary_source; unchanged)
+  - <https://news.google.com/rss/articles/CBMiygFBVV95cUxNMnBWSU0xeWNoUW9LVWpmdXg1X25UdWNnb01zanM2bEx1dVMwcGc5UDQ0cGNIWXFwdEpBYlhzUUhGczc4TUZnTDFOUTFPdHZPdjFIQnQ5TkpRcVhBR0t1Tkh5d3BSbzAwazFLVjRXNWxLdXFtcXVzYXZBMEZsZTFmWjhwaTJxOGNtYkdGRi1jeE5qdWNEX2wzN2JhTmkzMUc3VFNMV25mRmNaeEdqOEt6b0RmZFpPTkR3U3NSdDlqTXhzZDRhWmZLMDh3?oc=5> — myRepublica
+- OMS | Bureau régional pour l&\#x27;Afrique - WHO | Regional Office for Africa (single_secondary_source; new)
+  - <https://news.google.com/rss/articles/CBMibkFVX3lxTE1fLVh0LVN1SlBlMDVEUXVVc2M0S0MzZ2lremRxMXhQdTZTZ0hYTTdUSnBsc3g3d2hmN2k5c1hDM1FMalp6R2lIbkFPNTJDa1FYcDkxd1RKSHpvNi1acnBwQ3lrNFJOSmZlNy10RXZn?oc=5> — WHO | Regional Office for Africa
+- One day, one focus, Ending polio for good” Together let us build polio free future. - WHO | Regional Office for Africa (single_secondary_source; unchanged)
+  - <https://news.google.com/rss/articles/CBMiwgFBVV95cUxQN25PNkJtUzB6VlZPeEYzRnczY0szRWdJcVFHN3lpbnkyOTZEcVdXNkVpQWFYcHBtLTJwNmNWQnMtazV0SnM2c3lTQk9zZ1Z5UEVwcWNlSDVGQXJvU2UyUHdfNkZrRFJoY3JrS2VTb0swS2EtOGRQWUVGSHloc0thdUdrWGt3dHBNbHhsSFlISFhxd0xqR1hfRnNFaFdjZEZaWDZBVXREcG1sV2IyaU1QbUwxMjd3a2VMcDNLXzBmVzc3UQ?oc=5> — WHO | Regional Office for Africa
+- WHO launches working papers on traditional medicine - World Health Organization (WHO) (single_secondary_source; unchanged)
+  - <https://news.google.com/rss/articles/CBMilwFBVV95cUxOYmZubnB5MktoeXZUT0FBcjJoLWkzTDVRdEgxUVo2QzFyTVB2QmJzMDNkOXhQOXNwbjdkeUw4MlhYY29sZWE1REx6eVB4Wl93OGE5RERkcFZDcHl4UUpMSHFkSE1NdXR2dEwtYmdrUEZxbWRKR0N5QkxiUTU0WWRKZVRtYjVGLTFuTERnYXBubDFXS01CclpB?oc=5> — World Health Organization (WHO)
+- With no approved vaccine for Ebola strain, WHO begins first clinical trial in DR Congo - The Times of India (single_secondary_source; new)
+  - <https://news.google.com/rss/articles/CBMi-wFBVV95cUxOUVFrdGlNWDVuSUtvTWJoN0t6bmNrb09waWZ4S1A3N29WRkVFMk1jTEg3NEx0RkNqaktaaW1uMFRtVk5RTjhITkpjLWQ4WHBEOUNsUHZEbUVzTDhIbjA0RmVjajEwVDY5ejRSVW5PYzU5Uk80MlFOeUc0Nm1YaVltTDFHSWtua0FyNWNFWlMtVWJ0ZVJ6dlFQNmxEUkg4MTRFMXA0a2dwWDl6WEppWS1teWZfZk40V0dRejJVd294UnRCemhZWWl6NmZnQTF0dmxRU0tBdGRDYUZzUDVRUTZRM2pTVFlGOVBPVER4MHA3VWl4enh1MDY4TWhNNNIBgAJBVV95cUxPeXJUN3E3YU9pV3BGWXR3RFdzNHotZjhKT3g5cktCZ1Bvc2tzbUdEZzRuMUticGpPaFRJeUhfY2RORzJHWV9kdndyR2V1U2RmYnYyZVJQVWhHZ0hyYkFXWUozTGR5dHZMS080bHU3aHpvNVdaTlk2TDZsU0g4d3FncXBLRlBhSGs2SzJYNkEzVzJHX29GT3BJTDE0Y2ZDQUNrWFVlbnljRHlESHJKVUtfakZ3WWlYX25hLUVoYUNDMzlJOFFlTm5sV0cxaU5DV0VpOTlrUjhHaXM0RjFSOWpCTTJvXzhLWkNEMjRCLVFJWkpQbmZVcFJ0MWhGS2NnNkVN?oc=5> — The Times of India
+- 29 Years of WHO in Namibia | OMS | Bureau régional pour l&\#x27;Afrique - WHO | Regional Office for Africa (single_secondary_source; new)
+  - <https://news.google.com/rss/articles/CBMiZkFVX3lxTFBtbXVlMmpvYnhSa2VqUUZKSFd2VmRRSWFlbGp6RENZWlU5eVBBbGFxWkd6Zkl1cXo5S0FLRVpCTlFld056akwxWlZPWWZ3c1EyVE5ZYWRaMEl2RkQzVUJVc2NWRmpSZw?oc=5> — WHO | Regional Office for Africa
+- WHO announces start of Ebola vaccine clinical trial in DR Congo - Al Jazeera (single_secondary_source; unchanged)
+  - <https://news.google.com/rss/articles/CBMiqAFBVV95cUxONGRSMjhjbnh2Q0h4Q2sxVjVYZGdZeFJwV3VrUklReDhUYUJkdGwxRmo1T01DTGEyYlZCYV9hYXhUVXREMnljTDNibGRfNXNZUnZsWEM3c0pNV2l0cDE3Z2JXTXVlNnZYR21fenhwQjI2MERuTWIycTBwb0RVRXJIbENPeThqaTJVdVh1WGNWNWZLOFlkY0JBOEM3NmtIQmNJNzNiaUVMeHbSAa4BQVVfeXFMUGctRm45V2VUbEk0cmpkaWgzNTBtNXM3RjNIZEtmc1g4Y0d3Vy16anQ3bVBqY0NGejJfOHcwM0trVGtzVV9FNGpJd1RFeTZ3X2F0d2pPUzVlYXJ3SXRQaXRSNFppMXJCSUV6V0VGMlpHc2ltNUlmeWN5UnhuV1ViWTlmX3dvUllxZk85OXNMOWlNV3dsc2JORVZCZHZUQmVzN0JFS2N6SGpBa1F0NFRR?oc=5> — Al Jazeera
+- Ebola disease caused by Bundibugyo virus, Democratic Republic of the Congo, Kenya and Nigeria - World Health Organization (WHO) (single_secondary_source; unchanged)
+  - <https://news.google.com/rss/articles/CBMiekFVX3lxTFBlUm1hZ2VRNHNaODBRZU5qWmNDaDJZWWx0TVNQelN4M20zTldsd0VGc2NVWDFZaTQ2OG1RQXQzZ3ZhYlpaRGlxeU9PUUlpQ2VwTm8xZWtjOFFXQ1d4Z3A1V2dyWXpTMnljaTVkeVBuR3BGMmxBTHBDZzZn?oc=5> — World Health Organization (WHO)
+- WHO | News releases - World Health Organization (WHO) (single_secondary_source; updated)
+  - <https://news.google.com/rss/articles/CBMiY0FVX3lxTE9MOUk3T0FnNjJQcVNyY3RiWXE1Q2ZDMTJGVW9VMXBZYldUT3hhemswcWR0T2dDZ0J4dktja0RTMGJjWHFYdWItY293V21vWmlucy1HNUlhUjZnVmpHSHR4dDF0dw?oc=5> — World Health Organization (WHO)
+  - <https://news.google.com/rss/articles/CBMikAFBVV95cUxQUUdVQ2xxTnA4TDRqdzZhR1QwWE8tc3NaUmJnb190c2l5MFd6WDlZaU9wLVNqMkowNndybHNpVlhhX3hoXzNtMDJpOFI5Nl9HTzRIYjY3VWN6Z0ZiUWhpQ2xDV00tMFRUQmJIR08wM3FVX2ZjVVFMNmNZS1RVMlVGaXRBYkZpYnV0UEotV3p5YWU?oc=5> — World Health Organization (WHO)
+  - <https://news.google.com/rss/articles/CBMiYkFVX3lxTE43eHFWdGhBU01FdzRjbFRoR2VzYWRBeE50XzVXSW1OZ1YwUlRBd1RFUDNMeGg3QWlMTzZ2bVpDVGV2UmJZT0FuOVYxbGhGNDhYNFU4RmNSaXhmQW5LeEM4Y2ZR?oc=5> — World Health Organization (WHO)
+  - <https://news.google.com/rss/articles/CBMiY0FVX3lxTE9jcGM2OG5sbFg5clNKNXRYeUxjTXdFSDE1RjRaQ2Z5cFRNWEtLWkFSVVF3VEF5a3puRmkzUWJRX1hXMl9FTDg3eFBHOGlibW15NUFXUEFRZk85SjRDOE0yQmt3Yw?oc=5> — World Health Organization (WHO)
+- WHO Warns Medical Supplies Shortage Threatens Life-Saving Services in Yemen - Edition.mv (single_secondary_source; new)
+  - <https://news.google.com/rss/articles/CBMiWkFVX3lxTFBXMWk1QS1SWFhhcWtMRHVkd0EzbTNUNWg2aUwxWUdwWWVvRTdheEhzaThJS29hRlF3dTV2ZzFEUEhoZjhKSzdQalhDN0dQV0ZKcERWenQ0Nm9SUQ?oc=5> — Edition.mv
+- National surveys of costs faced by tuberculosis patients and their households 2015-2021 - World Health Organization (WHO) (single_secondary_source; unchanged)
+  - <https://news.google.com/rss/articles/CBMiUkFVX3lxTE9sZVkwWFZnRVRZRkxINE8wUVQyOUtJUnY0THNHTTRXTVJHRnV4em5meFduWU81X21kSGRCSjBPSWFsbXZUSjhzU3hJRkdmVV9vT2c?oc=5> — World Health Organization (WHO)
+- WHO Warns: Fuel And Supply Shortages Threaten Life-Saving Services In Taiz - يمن مونيتور (single_secondary_source; new)
+  - <https://news.google.com/rss/articles/CBMidkFVX3lxTE5RMUk4OXRoaW13NGNRWV95bFl6dE4zSzJHanhOcDY0dnpTakpZZVlNS1pHMU80aGdtcGo5eG5vNjFBeUVpWWVYMUhlV2YzanFkb1d1cjlaZU5yaWt0WW5UZjNZQjhUa1ZtNTE0N1hJTGdRRGZXenc?oc=5> — يمن مونيتور
+- A world in disorder - World Health Organization (WHO) (single_secondary_source; unchanged)
+  - <https://news.google.com/rss/articles/CBMiUkFVX3lxTE00aGVjWVJiclBxampzMGRjVHAtdEFMR0hENnR6RWVNMmhmZFRUUV9sSFUwYnQtbjRhZk9ORDVpUlpEVHlseGstU2U2LUtIUklyZVE?oc=5> — World Health Organization (WHO)
+- Can people afford to pay for health care? - World Health Organization (WHO) (single_secondary_source; unchanged)
+  - <https://news.google.com/rss/articles/CBMiUkFVX3lxTE1ldnR4akJKMjRoNzFjUElPZWRlc1cwQ2tLUUhRYXhLcDRwa3VSU0szcjBycjRFWHlrYTVoV0ZqRmNWZHpQODBibXN4MDI4RFYtN1E?oc=5> — World Health Organization (WHO)
+- Volume 32 number 9 - World Health Organization (WHO) (single_secondary_source; unchanged)
+  - <https://news.google.com/rss/articles/CBMickFVX3lxTE1iX0EzUnFQM29yMXJlYWJYTVBFNlczWjJiWEpQeW9MUzF4akE2Q3BIMzJobXdFLWthZWtlU1lLQkxIZFVzQzdwal9CTWpER19sRUxZWVctOHpHQTVDX2dLUGhCck1rdTkwallrWmMxS05lUQ?oc=5> — World Health Organization (WHO)
+- Blood brothers: WHO chief joins ENHYPEN to celebrate drive success - UN News (single_secondary_source; new)
+  - <https://news.google.com/rss/articles/CBMiV0FVX3lxTE9rY1dONkt2VXRaNVo0LU11d0VXMFRodlRCNHBUODJZNmtjbDg2QjRILVJXMGpYR1N3SThTYzNmSVdpNTRnSEZaOElTbk9hX2ZYY0VuMnNLQQ?oc=5> — UN News
+- Framework for a public health emergency operations centre, second edition - World Health Organization (WHO) (single_secondary_source; unchanged)
+  - <https://news.google.com/rss/articles/CBMiUkFVX3lxTE5iWlFJNDhmM3drLVZuVDdrYnlFeklXMTBlMVlOQ0JwRHQ4cWowdGtnVVhKSklOVTJMaS1QWlo0ci1uSGhGNmJLNmFIZmR5RTdBeUE?oc=5> — World Health Organization (WHO)
+- Cabo Verde aposta na melhoria da qualidade de cuidados aos idosos (Vídeo) - WHO | Regional Office for Africa (single_secondary_source; unchanged)
+  - <https://news.google.com/rss/articles/CBMiYkFVX3lxTE5ZRVpZd1VXeEUyUHA2N1g3YmJtcmIwS0dqaXJkU1RYbnE1eTJqV3gwc2ZoMlR6Z1drVHo5YkVNRFNzVjBYT2FhWVZkNU1vekdDMVgwTUNoNlVVQUkwOVhRZDZ3?oc=5> — WHO | Regional Office for Africa
+- Development, management and support of care workers – towards an integrated health and care workforce - World Health Organization (WHO) (single_secondary_source; new)
+  - <https://news.google.com/rss/articles/CBMiUEFVX3lxTE5yVlNZOHQycmdQdTF6LXVCbHBCWl9hUVNuSHgyOVlFMGhxa21RZjZVN25fRnotZ0otRm5jZ2g4ZTFrTldhQ21oQlhWYzBfSUQ0?oc=5> — World Health Organization (WHO)
+- Cupping therapy - World Health Organization (WHO) (single_secondary_source; unchanged)
+  - <https://news.google.com/rss/articles/CBMiUkFVX3lxTE1IZk5sNFNjMGFuODQxbzZhU0Z5Q0ZOVmYxTHdPTXlRaTQxbkdNZHJadmR2SHNCeTlrVWhkdUM0NmF5b29xLU1tUWtaTlA5NVFaTHc?oc=5> — World Health Organization (WHO)
+- National consolidated guidelines for comprehensive HIV prevention, care and treatment - WHO | Regional Office for Africa (single_secondary_source; new)
+  - <https://news.google.com/rss/articles/CBMiZkFVX3lxTFBEXzlpZjRRYjlubl9fLS14UEZ6NXhzQjNCeEFmSmg1NFQ3TUFLT0dmMS1wYlc2cGx5Ql9jaE9VMXZGbmZFM2N3WXZTaVpyTEpuUHpoYXVhZ3BVNm5odEFxZ04zSi0wUQ?oc=5> — WHO | Regional Office for Africa
+- The Weekly Epidemiological Record (WER) - World Health Organization (WHO) (single_secondary_source; new)
+  - <https://news.google.com/rss/articles/CBMiiAFBVV95cUxONW42Ymc0M282bm1EZUY5NjU3c192RjVFQlFrRURLUThQVWdVTWJMblFCcm1temFXOV9PaU51U1djSEZKaWNsckN6eVFtZ0dDbFdGR3NBd1ZPUFQ1WUs5UjljeHplUkJQTDBwVmVMMHNFa0s0SUV6S19rUHBld0w0Z0VWT2xaOW0x?oc=5> — World Health Organization (WHO)
+- Weekly epidemiological record - World Health Organization (WHO) (single_secondary_source; new)
+  - <https://news.google.com/rss/articles/CBMigwFBVV95cUxQaVN1RU4tNFlzTDMwNHY1eFFuNWhOcWhoNDEwWUgyQll5bUJLby1ZNzhZVlEtM2RLRjJ2QVMzd1dzb2FNczdpUFIxS0FBVFM5R2tISjNEU2UxRnFRNWxRa0xKbzlLdl9xZnZ6SGZWUVFZSmE2Nm1CaVpBTk50SHVlM2s2VQ?oc=5> — World Health Organization (WHO)
+- Infographics | OMS | Escritório Regional para a África - WHO | Regional Office for Africa (single_secondary_source; unchanged)
+  - <https://news.google.com/rss/articles/CBMiZEFVX3lxTE1acmRCU3dGYVozUkhaOWtRQzIxRGJrR1dqeU80SHItNjU0TWhRM1JldFhKRDF6eWdOS0djMmV1NDExSVpMTWZSU3hEeUpjR0d5MVNlenFBTU5QbzlBT3pua01SMmU?oc=5> — WHO | Regional Office for Africa
+- Angola launches integrated vaccination campaign to protect more than 10 million children - WHO | Regional Office for Africa (single_secondary_source; unchanged)
+  - <https://news.google.com/rss/articles/CBMiwAFBVV95cUxOZGJNUl9tTHVrTWYyX3ZsMVVCUmpRbmdmXy1PUklRNTRlZXJJVzNmbFhNMS03NTFWYWNhT1JrT0Job2RzZkdqaUVwWDJnQU00MmFfQnI3MEx1SmZvN3NVQkVrOXBFU1RjLXlhSFBtdlVLeW01clhpTEVuMXRWVUt5S0RuTXZ6MnR6cmZGQzdzRThJZWNUeGhzMGhrV254dExJdG1BS25ueF9lV1VHbVF1MnMtWVJUZ2pxb05GZUhVOTk?oc=5> — WHO | Regional Office for Africa
+- Living with a black dog | OMS | Bureau régional pour l&\#x27;Afrique - WHO | Regional Office for Africa (single_secondary_source; new)
+  - <https://news.google.com/rss/articles/CBMiZEFVX3lxTE80TzZlVmtmZFd3a2VGMnBjQ0VrYjliakhoRE1lcWVrZnFhSGFTUENwXy1aQjFyS1ZNQWtLM2VlZUtFT1lLWVhqMkhuOE1GaWZoUF9HeHBNaDR5V2VlNjY5TUVleGw?oc=5> — WHO | Regional Office for Africa
+- MAHA-Sponsored Infant Hepatitis B Vaccine Trial Is Axed After WHO Sabotage - PJ Media (single_secondary_source; new)
+  - <https://news.google.com/rss/articles/CBMiwgFBVV95cUxPTE5Na2RRaWlKc2dIYjBJZVY3UFNyR0E5RnFScXZQZElucHJuWk5NUUNrV2RmRHotMndMQzZ5Q3RrVTYxSWU0WFdqU0JCNGtqTjY3Sm1rdW9Qb3QteHBfVFRTTVRBN2tnWEVQVW1aU3dOVFJpR3YzT1VsUUdkQXlmaW1HWUpfYjZvXzhTb1ZyQzgzdWIxT2ZOODBiSWtiSDYyNklKbGVUR3RuX1pGWGV3blpUVWF4MU9wNV9XbmlqQ0dPUQ?oc=5> — PJ Media
+- World Polio Day 2026 Message from WHO Regional Director for Africa, Dr Mohamed Janabi - WHO | Regional Office for Africa (single_secondary_source; unchanged)
+  - <https://news.google.com/rss/articles/CBMivgFBVV95cUxOQU5MQlRXaEhsUXZma1BIOE9DNXhPbEZ5d2R0dGZpNWJqeDdoSjczSnA3Y3B3dkxEa25IcFFubGZ2blJtT0VmNl9PSFV3S1llWlE0bzMweG1rWnlkelRZUEZITi02c1N4QnZ5N3dJVWVVZVFuUmZ1OWo2bk5EcW9iOG9oTmdJYVROR1FJTXpOakhRU3lqUDd4cmdfNHlkUFR6N0p5em51VXBuREJOQ1YzMEZac1Q2dVFzU1A5WHV3?oc=5> — WHO | Regional Office for Africa
+- Strengthening dignity and human rights in mental health response in the African region - WHO | Regional Office for Africa (single_secondary_source; unchanged)
+  - <https://news.google.com/rss/articles/CBMiqgFBVV95cUxPWHhYSUMxWGVuRnV1R2RHRUx3VVMta2VzMTdfQ3hobUo1bHNWbWdVN3F4OF9BaXJrMWtkYWRFanhGR3k4XzlteENBbHZXWWNMaXpZV0JtN28xOUZtSHpNR3lXam9WZkF1bWtYYTRENm9fZmIxc29mbUxfMzlJQndyUXhNb2o5Yk9KaXBBTzVkb2w3RHJuVF84UnJVZDhiS19meXJBTUVtOEVpZw?oc=5> — WHO | Regional Office for Africa
+- Polio in wastewater – the science behind the United Kingdom sampling process that provides an early warning - World Health Organization (WHO) (single_secondary_source; new)
+  - <https://news.google.com/rss/articles/CBMi-AFBVV95cUxPNmM3VFdaQklUZ215LWhTaTljaUF2RXJHSHZvQkFIbnFHVUU1dHdHaTcxMmNEcGhLLUQtTWtWS2d4QnZ6N2lMMmlZWTJNOGt0T0oyc2lSdDZrcUExeC1pWlhRWDZTRnJ5M2dEY2hnVFg3eHExWWdjVnV1QzlSa0JIWTRfZEVuT1ZLc1BvRkszczFoMnlVWm5OVElIV0MycDFnZE9aWTFFcEExZzB1dk15a0xQcUdqTVh4elkwV28xc1kxQlMyX05wOUt6WGVhajhoMXdNRU5JX1hTX05KRkN0eVJXTFhNanViU3poUEQ3WVhwV0U2RHpCcA?oc=5> — World Health Organization (WHO)
+- Get ready for this year’s influenza season: vaccination is key - World Health Organization (WHO) (single_secondary_source; new)
+  - <https://news.google.com/rss/articles/CBMirwFBVV95cUxPcXg5aEIxWmthTGM4M3ktYzVDdmlnQkpLWEJHUldvM1luNkwweHlRTnppb3puWkNXVnVDbng4MXRrTVZheXB0RDZIOE5rSGZuR0pSbmVFakkxUE80bDFIbmlrY0xKZWJVd3psM05BZ1pVZnZIa2tQUTR0TGZ6QV92MGhEeWFicXJqN0lpNUVBVEVKaVp0bS1tZk1ZUHNNS2o1TlItZExWOTA3RjZRbmdR?oc=5> — World Health Organization (WHO)
+
+## Limitations
+- Bounded queries do not provide exhaustive global coverage.
+- GDELT seen time is an observation timestamp, not verified publication time.
+- Contradiction/resolution labels require explicit source wording and review; no automatic truth adjudication.

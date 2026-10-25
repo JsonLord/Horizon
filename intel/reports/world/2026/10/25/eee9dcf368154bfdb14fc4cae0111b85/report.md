@@ -1,0 +1,134 @@
+# Horizon: world/global
+Status: complete | Analysis: deterministic
+Observed: 2026-10-25T11:44:50.602014+00:00
+
+Search-region coverage (not event geography): Africa, Americas, Asia, Europe, Oceania
+
+- Violent clashes, slogans, tear gas and blaze: Another weekend of unrest sweeps Europe | World News - Hindustan Times (single_secondary_source; new)
+  - <https://news.google.com/rss/articles/CBMihAJBVV95cUxPUEZmaVlhTTlWUFBFenc3anBEY1ZSX0JTZVhmLWhIVHdocFVNTGNfaTI4VTVjUUprMlN1Z0t5ZjFnb3dGQ3RkTG1ubC14S2FveFZJOHpnQzNWcjVUczlkbkw2N1duNzl6Mk5fN2RMSG5qX0NwMXA1S0V0aGdqb2FxMHIyOEttMzlEX3FhYlJVX1BBcnJ4OTdPZHMxbVE3SE9rSFlwbElQSlQ4OEZDR3RkaGVKeDRRNFdpanJVVXJNaGxDV3dpdjJBTm5IallCb05nZEFYWkdVenp5ZEdpYzhfMU96WFBwWE1Ta2ZmQzZXNTdjYTFaLTFRNTZnbFNaX1R0cFVJNdIBigJBVV95cUxQeGZ4VlFqY0hrQndaZEh6N2ZSS2dlMkF2cy1pbHBPeXBXeGlUbWZjczh2QlYxRVJzTXhEcHJpQkQ5cHZsOEJRR1NUSk5rTFJuOG4zMXJ1MzJlLXNVcVQ3T3hTNXRiYzRELW0yS3dzRF9ZdG5oUHljU2pLYllOZXhZM2FjMGhSVWo1WVAyOFNBeDZJdWZzYzYzZDdyUzRmVGh6OTd4M0lLd2ozcTFBN1lBQk94OERQamNDUUtRd0dPS1JmN3NROXFEMDc4eVliSUF0Z244bWNwTU8zZkNIeFdnMjNYUDViMDZKY3BWX2JCb1g0MjNvR3htVUlSUm05MlpBOVptd0tLTFN5dw?oc=5> — Hindustan Times
+- News Briefing: Church in the World - The Tablet (single_secondary_source; new)
+  - <https://news.google.com/rss/articles/CBMiekFVX3lxTFBxbENuVzQ2U3lGc1phUE5hVVZXOXdvMHRicEQwZmxoN3RtdVJYSXAtZE54ZWphZzVaN0FwRUg2YU1KY3h0NjVTaUtuNjR0eTRzaW8tSFhXMEduSjhhZURTVWJNY0hFR19MQ3daSzlHT3M5ZXNJMEFVbjBR?oc=5> — The Tablet
+- World News | US Intel Warns of Threats to American Diplomats in West Asia: Report - LatestLY (single_secondary_source; unchanged)
+  - <https://news.google.com/rss/articles/CBMixwFBVV95cUxNZlpucWlwNExMYlk3blprdEhSdkhJdU12ZW96VjN5a3ROdXoteldGdWpDR1UyNUJvbEVBb2QwVjcwWlpUcGNJVDVka0dBalBVd080SUxOMV8wM1liX2JvM2hUYWs5cUJvYVh2M05SZGlNbk1QWVZQMWM0QnhsdS1mRlEzaXkyM1BEMVd1bEVlOUo5dWNsUEtnOVNnUGxUUnhTR1kzdTRWU29Xa0hiVDBjaGhKclRKdTB0Y0hURVZES21RZjRKMzdN0gHMAUFVX3lxTE5YOWM4Zk9idzBqbVJnVnZnaUQ4VHJEWGdzNUJLNEo1REpjQktwNV80eEdpVmphSGdDUENZYlFJQzFXVmF4eF9qcHdWX2hGRFNSTHRvbjZZNXRwbWFZQWZJdUFjX1RzZkdraUxsXzF2Zm14dkRCZUswXzJHc1dXcXVvVTNaZHUzeFFlYnNGUUIyWDVPUlZ5eGlxeFBZZFBRbUFWNndMVDBPYlVGdlhRX0ItY0h3b09LNzdhVFVFenduM0x5QV9xemx4TWlRZw?oc=5> — LatestLY
+- ABS-CBN News. . Take a look at world’s biggest stories tonight on Asia’s longest-running newscast and ANC’s flagship news program (23 October 2026) - Facebook (single_secondary_source; unchanged)
+  - <https://news.google.com/rss/articles/CBMinwFBVV95cUxQY0hEVUdKYURpU1VSQUV5cy01N1lWa1JfVC1SWU42Z21mdzNrMnJRVXBTNm0zVzMzNGdVOVZSLWx1TUc2Qjl5dDhLeE1USjhjQ25OT3dqaVBCUlVOY1c4TlR5UFMwbnpFVVhqeVVGc2ozU2tueWVBQi1uOEdpQjhVWlJrOW8xU1ItSWxPX3V4cnY2dENlV2RxaHNzbXRnYTQ?oc=5> — Facebook
+- Tough start for Oceania teams as FIFA U-15 Boys’ World Cup gets underway - Friends of Football (single_secondary_source; new)
+  - <https://news.google.com/rss/articles/CBMiuwFBVV95cUxQVjhmTXdLeUswWHVKQ1o4WFhFQzVvTElvZTMyN01wRTlWU2VUYmhfaExVUUVrT3poQUU0czIzRHlqZ2gzZnZMR1lYdTVhbmdxU00tcTZTVXNfNFRsa3dfWk9CSHlCTFFRR0FneldoOUZWNTNhTEVUaEgwdEdrSXVReFU3cUYxeHZ0NElhU1pfc01oS0VUT18xMS1rQV9zVUVwdjFpNzNNLTZFems0RVFNeTZiWXlCTENEUVJJ?oc=5> — Friends of Football
+- Critical flaw affecting 70 % of websites has cybersecurity world panicked (single_secondary_source; new)
+  - <https://www.business-standard.com/world-news/critical-flaw-affecting-70-of-websites-has-cybersecurity-world-panicked-126102500328_1.html> — business-standard.com
+- The World’s Southernmost Property Opens in Chile, IHG’s European Growth, and Other Hotel News - Upgraded Points (single_secondary_source; new)
+  - <https://news.google.com/rss/articles/CBMie0FVX3lxTFBBSENBVE9OMVYtLXJrZER4bU5XSG90XzdLd0U1d2d1MVA1Wk9pOVg0MGZIYURjOWEzVHAydzl6NkxNaHdQd0VRMXhNR0lWTFdDU1BLajBLQkM2YXZSTlRGVXJ2Tzhtbk1qeGx1b04xajZzbU5KblhVcXlqYw?oc=5> — Upgraded Points
+- Kenya News Agency - KNA. . DP Kithure Kindiki – If the world has become transactional, Africa must become transactional too. - Facebook (single_secondary_source; new)
+  - <https://news.google.com/rss/articles/CBMi3wFBVV95cUxQOGQ2RmRFaGtfUUlpc2tMM3JIZDF4dGpHN3dGNXZUYTBXZlJMMmp6WlRTeG9iMkE3SGNIekxjcDdEMkdWc3hycFdUcXRfQTY4ak9RSVBSSG9vMmpVUDA3ZWZvOFBUOTJkajQtQ2JJVEx0RDdqWVI5VWIweW5XTUVGSXZHWVNaYWw3Mmk5NTgzdV9scVBlSThwcUJSampYWmMzZVU0LXpGOHA1amJtNm1kcTBjdHkwdUlEaVJVNkwyZzhjeGUyUWpHQ2pIOGdYMndPTDJKZHFfcjFlYy1TNmVR?oc=5> — Facebook
+- BBC World News America on BBC News HD: full details and when it&\#x27;s on - TVGuide.co.uk (single_secondary_source; unchanged)
+  - <https://news.google.com/rss/articles/CBMimgFBVV95cUxQZjh6LU5EdlY2MDl5VHFtWEQtd1dCcGhabVVoZnNjMW1fTm5ka0ZXQlA4SjJXR2E1Y3Y1U3lvSGNXdWg2NmNlQ1V0NEg1NzQ3WjJZZFRUczZzN3ZZb19fck44UEEySUZhckdHODJpQnc5czR4Y0NDQXJhNU5PY1FNc0pqVTdDY0RDQm9ON2FMa2FqT0FnMk5nUGt3?oc=5> — TVGuide.co.uk
+- Baseball-World Series rematch, Indian edition: Yankees beat Dodgers in Mumbai event - CNA (single_secondary_source; new)
+  - <https://news.google.com/rss/articles/CBMixgFBVV95cUxQWjF2eXd4OFlyUzNWUTdCakZYSHQxVzd2R2RMbHQ2bk9tZXRkdGZsZXZDeGVxR1NsdDFzaWRnMUM4WUdfQUZVblJ2T0FZMUxwdVMtMjliMVM5QzdEQm5McTN5WkpIOXhfUHNfVDRGT0ZSMW83SlZjcGt4ZDJQbGVqaXFzTUpPWW9za3A5MTJ3aUc2a3VWRW84cGIwcXNaWVFOWVJzV3AxUjNZSkRLWFN5NFR5cjdYTjdSQWhXZTQ1d2VQTVp4Z0E?oc=5> — CNA
+- NKorea’s Kim calls for training world’s ‘strongest’ military - The Manila Times (single_secondary_source; new)
+  - <https://news.google.com/rss/articles/CBMivwFBVV95cUxPLVBOY2RHRGRpY2s3bVZhbFBzNkxOb2dJaVVpQ3JaTzdOc3hUMjZ2cHc3aXA1T2k1TUtXQ040a3I3S0dvUDJtT1Q2VVc2QXhMaVJ6My1RXzBobmE2OXRBNWZEUldtRHhITnBmX25rcm5Oc0c3ZFV0ZUJLNF84aVJEbGNVa3pBdEpjTEYxV3Q1dHpvWUlLV1dnN3ZzbFZoNERHeHZqYm1MeS0zOUVWTlJwd2xtMmNrcm0yelVuby12Y9IBxAFBVV95cUxOVHVFcDNoVDdFS0tJbVZXb04xdEczemVmWnYtOFdlN3licWIxV1Q4ZEl2UjNwT3BwMEJjX1VsYTlXaGJuVzMzNFVJV3lPOGYzMU5iSDl4UlFBaUlNRjVJTklsSjVqUm5ST2psMEhmLUxvVFZfUnhfdU9EWGhzWTdrYi1kMTBXekxuR3gwTlhiRXVRQ3NFaFg0eUhsWkxPZ0dMQmpYLUl2TUN1aWFRMlV3YTdGbnMtTEZoT0ZGTGM1V0VLVGtU?oc=5> — The Manila Times
+- Norris Perne &amp; French LLP MI Purchases New Holdings in Vanguard FTSE All - World ex - US ETF $VEU (single_secondary_source; new)
+  - <https://www.themarketsdaily.com/2026/10/25/norris-perne-french-llp-mi-purchases-new-holdings-in-vanguard-ftse-all-world-ex-us-etf-veu.html> — themarketsdaily.com
+- The World of Motorcycling- News detail - fim-moto.com (single_secondary_source; unchanged)
+  - <https://news.google.com/rss/articles/CBMiugFBVV95cUxQQjRCbklqSF9oTWg1YlZxRGxCdElPb0d1ZFFtblgyVVpVQU1BUTU1djFRSU00TFg3d3lZbmFVajlmVHNaWVFnanJXREVUNWdwTVl5TmVMWHlaYzlMVE1kbllreHZ1U1BRWG81Tk9DWkMxNnpfWG53QmpFWF9HOEJWTnJwWDJ6aUlXaFc3cHV5ZTZFdXk0Q2VhbXZEMHZ4M3Etcm1QRTZtU1FLX1d4R2tpZG1xTkpiWUc2Y2c?oc=5> — fim-moto.com
+- Chula Vice President Invited as Speaker at the World Academic Summit 2026 in South Africa | Newswise - Newswise (single_secondary_source; unchanged)
+  - <https://news.google.com/rss/articles/CBMiwAFBVV95cUxOOElYSm9JQW1DcURqWmllZ3RDWU5pNHljTXE4Z0JWSEJDeHQxUnFHMDFrLVl2QWs0WExvaGFuNngtQ1F1U1liZEpSNThNd3E3YS1FR2YzU0VvcUNDeVlfaFRQcVlGeGhocVp5QTF6WlRwWlk1SklHVmZuZUpKT29mZnl6QkQyejN6dHBiMnZJdENFVTVVZWhQNnZVcVo3ZXdUeTFCYk1zcXZNY2N0ZXg2UjVRd0xNU1VsWnJBNS00aDLSAcABQVVfeXFMTjhJWEpvSUFtQ3FEalppZWd0Q1lOaTR5Y01xOGdCVkhCQ3h0MVJxRzAxay1ZdkFrNFhMb2hhbjZ4LUNRdVNZYmRKUjU4TXdxN2EtRUdmM1NFb3FDQ3lZX2hUUHFZRnhoaHFaeUExelpUcFpZNUpJR1ZmbmVKSk9vZmZ5ekJEMnozenRwYjJ2SXRDRVU1VWVoUDZ2VXFaN2V3VHkxQmJNc3F2TWNjdGV4NlI1UXdMTVNVbFpyQTUtNGgy?oc=5> — Newswise
+- When America Reordered the World - freebeacon.com (single_secondary_source; new)
+  - <https://news.google.com/rss/articles/CBMickFVX3lxTFB6cVVyX3ZmMW1JbDh5djhaSThVNWFNSkstSl9pRlhkaFE2Qm9EWUx2S1ZEdVZKY2lWcGRfSlk5RzV4SE5MUXJiR1F6YUlGbVQ5aTlVUVpxNzRndHZ0VHV4V2pxNFk4a0FkU2FpSjV2Q3FiZw?oc=5> — freebeacon.com
+- PM Wong calls for gas contracts to be honored — Channel NewsAsia - UA.NEWS (single_secondary_source; new)
+  - <https://news.google.com/rss/articles/CBMinAFBVV95cUxOZHdMWnN6azJxVHVzWk9SNVlnUE5ObGdjdzVEM0h0Q1ZieHJWcXdfSl9Qem4zMTBselEzcXpFQnBGQmMtOEh1ckVZZ1otSWV0MHVGbjFsUmswVTRZNEVYczRTd01LcHdJQTlMVDdwQXRvR1NxcXNEYV8tOVNIYnJpWUx1dUZZU2txNW0wS3JuUzZGdWtFZWRQY1hHWUI?oc=5> — UA.NEWS
+- How to watch the 2026 World Series: Rays vs. Brewers live stream, TV channel, schedule - The Big Lead (single_secondary_source; unchanged)
+  - <https://news.google.com/rss/articles/CBMirwFBVV95cUxQX2l1dUVrM1RWa21BaEo4N0NyNFNaMHRJNGgtWDhrQV82eTYxaDkyeU1GRE1fMDJwUG02dmMxeWxvVU1hV3pmQjE5YVBuOFFWT1BRTWRTSDFMRnFIQV9uNVJTeHA3b3NoeXA3cTduVEUxREtJeEdIb29ubUVNNHdxV3ZBdzM4QTNPYlRocFEydWJEck84Q0dzNEFCaDMzNmVNZV9RR3VMR0dDYWVJeWNn?oc=5> — The Big Lead
+- Weekly News Wrap – BILKULONLINE - Bilkul Online (single_secondary_source; new)
+  - <https://bilkulonline.com/2026/10/25/weekly-news-wrap-bilkulonline-4> — bilkulonline.com
+- Video. Latest news bulletin | October 25th, 2026 – Morning - Euronews.com (single_secondary_source; new)
+  - <https://news.google.com/rss/articles/CBMikgFBVV95cUxQT1FGWmczWWVFN1FVWFFTV0U5VmZjV0htTnlJQjR3NmZlQ1hOWDJtZzJteTJheDg3Tm9RQThwY2NKeXZjdjg4REgwTDJWamdFM1ZBUGNyb0hmUk5KaFhJLW1kcnVNRnAwZENvTXJwWk1JRWgzaE5WS3ltMHpIV3Y1M1piajdHZ0FwQTB1Q1FEY3NmUQ?oc=5> — Euronews.com
+- Rubio: US Remains World&\#x27;s Leading Force Against Terrorism, Expands Fight Into Africa - - TVC News (single_secondary_source; new)
+  - <https://news.google.com/rss/articles/CBMiqAFBVV95cUxPSlN0UmpkQlhKM293MzQyUDZReU0tMmY1cndzcDNXVnRXRFd2eFV2RE1uQ0xQRFM0N0hWNXRCNk1kOW9vRS1yNG1OVnlSRXlDZFM5a0pMaFc1bEpPcE9OTFNCc3VSSDBzV2U2blZHelVLUkZjOFduMEdFX2NKbkVMNWhCN0NBMWo5MndnYkxOMGg4Tlk2d210ZWNnMFpKSU1ZX0g0OVd2NTM?oc=5> — TVC News
+- The history of the Women’s World Cup final – 1991: America victorious but was it officially a World Cup? - The Athletic - The New York Times (single_secondary_source; new)
+  - <https://news.google.com/rss/articles/CBMilwFBVV95cUxOVUowU1Vac2N4WWRpaURxNlU0Y0ZxQmlxcjd4QUMxcXp6YUpOS2FlSHF5TGNfbWliQzU2MmlzX004NWszcXhhQUJObm9vUVpSbEtmSmVYQ2FaUzVYSFJUb1lkeEtLUl9jeE1lS2dObDlNZm55TGltVkxWNmt5WXNyd2Q2NEhHVGE3bi1EMXV0SHgyRTRBTng0?oc=5> — The New York Times
+- Alpine skiing-US veteran Moltzan opens World Cup season with first career win - CNA (single_secondary_source; new)
+  - <https://news.google.com/rss/articles/CBMiugFBVV95cUxOcmhKdV85VkpsWTNQSUpaTS1HcmtTRHI3dkNQbG1qZVZJZ3VhUnhYNVFwM2pBRUFLY29NeW5IZll5N2tDRmRyS0diVDZRSDFFVW41dXZqUVhQOEMxNmpacHc2WDFfdE40OG9yRHZJSlVZeklPcGU2NEI1Sm1aMzVOSXhrNFlWa0lFTkYxdFBsYW9jYWNKTDl2b09UTF9BajU2WUJrREJXbmw4WC1Ud1MyRWpFd25VRU8tT1E?oc=5> — CNA
+- New Zealand bow out of FIFA U-17 Women’s World Cup ™ in Morocco - Oceania Football Confederation (single_secondary_source; unchanged)
+  - <https://news.google.com/rss/articles/CBMimAFBVV95cUxPVTE2MFR6Q3I4allVVEhNbVZ2V25OSm5yRU9CZ0p3blBhM3Y0OXJCQW92Q2JNTUdxZW1GNXJ5bFFGcktwbHM5Ym54UTh0VHA1RVZMS0IyZHNON1BKVWd2YXdfOWxtdEtmMUZwV1hOZHhwSDl2X1VNSi1HVmZ6ZHVZVUJEX2xLN3ZrOGRJU0JFLUZtWW41SFk1SA?oc=5> — Oceania Football Confederation
+- Denver archbishop responds to criticism over Trump prayer meeting :  I was being a Catholic priest  – Catholic World Report (single_secondary_source; new)
+  - <https://www.catholicworldreport.com/2026/10/24/denver-archbishop-responds-to-criticism-over-trump-prayer-meeting-i-was-being-a-catholic-priest> — catholicworldreport.com
+- World War III: Why Israel May Be Better Prepared Than Europe - The Times of Israel (single_secondary_source; new)
+  - <https://news.google.com/rss/articles/CBMilwFBVV95cUxQUWlxemZLQnhrRmFWTkJJVTZRYXV6bjA2Y2wtM3R6ek5QbHhOSERBc2k5dk1SRVlrSGU2OVdRb2VfWWJ5azluR3hxTVp2Q3M0SVJaMzRBbkFtMUV0bzVtbUVqU1hSN2NGWnlRT3JYa0ZYcHRGQ2Y2anJoRG82OTl3TmJDMnp1c09KV0dPdUNRdktuTmI4Si00?oc=5> — The Times of Israel
+- FIFA U15 World Cup: Mali score seven as African teams shine in Azerbaijan - GhanaSoccernet (single_secondary_source; new)
+  - <https://news.google.com/rss/articles/CBMioAFBVV95cUxPMDlXMDFZWjBYOGpTd0lIMktWckZ6VDZaNTFfSHBlMVRPVXlCTTNaWjdaQ0hGdzhxVDMySFZuLXNoYVJzc0VHa2dKNjRJbmlOV2hhZXNBMWp1cTJ1TzF4UW1JOWpRMnJYMHBoYVFHVGowc0Vra1oxeVBxTDdJNXE0UU5pdEZjdDJqVWJSWm40aWNnekxEaVZ5NVpMNFd6bXZ0?oc=5> — GhanaSoccernet
+- American Paula Moltzan wins Alpine skiing World Cup opener, her first career victory - The New York Times (single_secondary_source; new)
+  - <https://news.google.com/rss/articles/CBMiuAFBVV95cUxNckd6Y3IwSFRldVRDb1NaWWo3U204TnoydElrcGJrNV84OWlVZTY3Q1lZbXFRSVNHRWtNcEJ0NkRLb2ZFYXBlR2ZWTjRvbm5BcnRfQ2lGQXhMWEt6Q2dKdHdsWE50bFJmdFR1Ri1iLWo3UU5PenNmeW5DZjJiR1pyUUNBNFZrOW9ORktnVW1uY2w5Z3MyLVFVS280R3Voa2NMTmFBOS1ZTDY2czk1QzBTa2o1enZUOU5u?oc=5> — The New York Times
+- Indonesia cuts gas supplies to Singapore — Channel NewsAsia - UA.NEWS (single_secondary_source; new)
+  - <https://news.google.com/rss/articles/CBMinwFBVV95cUxNbXVkbERUazhQcTVidFF5Y2NyZHk2VGM2WEhJOGZEZzR3SVY5NkJTOEttVG40U2JBV3BCZ29TcExvN0tfS3h5SFRIY053eTJMMUxkYURZVy1LaHhlRDA1amVPaVdiM0tvVDFtV1E0N3FxdUJVWmR2M0thNkFINDdqSjc5b0ZpaHdvaVV6c2VWTnRHVXNDMFNLSnF6UE9EelU?oc=5> — UA.NEWS
+- 2028 Women’s Club World Cup: North Korea’s Naegohyang Participation in Doubt - 조선일보 (single_secondary_source; unchanged)
+  - <https://news.google.com/rss/articles/CBMihgFBVV95cUxOWS1mZ2VxcjM4cTRmU3RNY1dwZU5WNFdaSUhzbWc5THhpTENuOXdhVDRYTERpWVh6OTFpSURfMi1pdllSUVdzSE0zTWlKZFY0YXNZdW10YUNxWUpYLWdIbk56MjZTWEl1QnhpMHlkUHU2cTAwemVmRERwV1c2WDJSLWxKdGNJdw?oc=5> — 조선일보
+- Massive fire erupts at world largest of its kind Iowa Quaker Oats plant after reported explosion ; all workers safe (single_secondary_source; new)
+  - <https://economictimes.indiatimes.com/world/us/massive-fire-erupts-at-worlds-largest-of-its-kind-iowa-quaker-oats-plant-after-reported-explosion-all-workers-safe/articleshow/135188257.cms> — economictimes.indiatimes.com
+- Europe’s critical minerals challenge: A world tour - Mining.com.au (single_secondary_source; new)
+  - <https://news.google.com/rss/articles/CBMie0FVX3lxTE5jQjRJbkJSUnhadWlQZ3N5Y2RMTnVaWHIzQm5uS2FSdU5zTkw0dXBIZFB6dE9nYW10S0o1TFg2Z05ySWhBYUlSZFBiWS05QUJHQng2Z0UzeUxHRjhCRVMzQ2N2bGtYdFY1MjFRSGJvTEs4bmlocllfdVhoZw?oc=5> — Mining.com.au
+- World Children’s Day: Outside The Bowl Africa Celebrates 10 Years Of Community Impact - The Bulrushes (single_secondary_source; new)
+  - <https://news.google.com/rss/articles/CBMivAFBVV95cUxPUjkyRzF5YmZ2YTFJWGZUYmVXeU5fZzdaRFpLbHRHYlhxUGQ1aV95QWtaNWJfOFZScnhpenZPUXZ6VUxfcTQxX0tVR3hmT1V0T0pUWXpmTzBsSE9yaEw5Y2xoaHFnVkNUSHlmVlh3VjZOVXNMc3kxekExakVmRWk3d2wteHRQQTc1RVd3UHgxb09sMGUxOTM2OWNsVTc3NDhFR1Nja09vNTF5WU5UYXdfc2wxdTdSakJVTHBSbw?oc=5> — The Bulrushes
+- America’s true F1 race, plus an electric World Series opener - The New York Times (single_secondary_source; new)
+  - <https://news.google.com/rss/articles/CBMisAFBVV95cUxOTXNzelpjWW4xNS1POFJnNDFvemZkWVRmTHpWa3pCYkxEWHV5aFhxczkzQWdWUm5mTHNLaFJVZ2Y1TFNSUEhUNVpZTklxbnRkSmtwYkE0a1YyYkV4SmhLTkdaUWowVkRsSGpzUXJCS1BRZmpSMFFIOXRoM1ROVWlfbjNrdV9KeXkwYVFIYXY3bDdpN0lxMnVYcDFSOFZWLUhPdGltaWQ2bGNzVmtzOVFSLQ?oc=5> — The New York Times
+- Three companies say they will comply with NEA haze requirements — Channel NewsAsia - UA.NEWS (single_secondary_source; new)
+  - <https://news.google.com/rss/articles/CBMitwFBVV95cUxQRE5OMGdyVy16Q2taOUlNWGFzclg3NGtqVUN2Y096aUE1M3lna1dBQnZYZ3NUeWxQX3VPQVZ0VWs4b0RwS2lTQjlDRjhMa0ZmV3BWRTZJRnE3THJNdEJRLUs2RnR0SWdHZWV3R0FRWUZSSVA1aUNTTUN0bWlBUE1rSW81d1BVYWlqa1Rnak1HaHptSHNwT0NFQkNVVVczR2pkMExhMmdReE5zeXY3X3l0UHlqaTJZVUE?oc=5> — UA.NEWS
+- Wildfires threaten world’s oldest cave paintings - The Manila Times (single_secondary_source; unchanged)
+  - <https://news.google.com/rss/articles/CBMiuAFBVV95cUxPZmVoSlRHejNncFVqVUcwQ3g3RHRRbjNRcDgwRXdZYzloaFFxUzZ1WnVoSkJOS1U3MFJXNWR2NHN1Rlh6WGpoeDBRZHI4QlJ4MzlIT3JBVGlyUU5la3lFRllwXzNET3F4SVJHMmhqcnpuZzQwVExQR0RhNkVQMzBLMG91Sk1jeGFMeFJfNW90QWhsTWFuMGRyLXE5c2tXMlNrbGVTUFBVQ3NycUU2WllzVkNlbzgwTjUw0gG4AUFVX3lxTE9mZWhKVEd6M2dwVWpVRzBDeDdEdFFuM1FwODBFd1ljOWhoUXFTNnVadWhKQk5LVTcwUlc1ZHY0c3VGWHpYamh4MFFkcjhCUngzOUhPckFUaXJRTmVreUVGWXBfM0RPcXhJUkcyaGpyem5nNDBUTFBHRGE2RVAzMEswb3VKTWN4YUx4Ul81b3RBaGxNYW4wZHItcTlza1cyU2tsZVNQUFVDc3JxRTZaWXNWQ2VvODBONTA?oc=5> — The Manila Times
+- UK food company enters liquidation and closes after 13 years (multiple_secondary_sources; new)
+  - <https://www.countytimes.co.uk/news/26667935.uk-food-company-enters-liquidation-closes-13-years> — countytimes.co.uk
+  - <https://www.hillingdontimes.co.uk/news/national/uk-today/26667800.uk-food-company-enters-liquidation-closes-13-years> — hillingdontimes.co.uk
+  - <https://www.thewestmorlandgazette.co.uk/news/national/uk-today/26667800.uk-food-company-enters-liquidation-closes-13-years> — thewestmorlandgazette.co.uk
+  - <https://www.lancashiretelegraph.co.uk/news/national/uk-today/26667800.uk-food-company-enters-liquidation-closes-13-years> — lancashiretelegraph.co.uk
+- Cover Story newsletter: The agony of liberal Europe - The Economist (single_secondary_source; new)
+  - <https://news.google.com/rss/articles/CBMiqwFBVV95cUxONnhmQW5aTl9ZU1Q2T2p1TUNOdkNtNlVsQTAxME5NTllqZ0dHRDJVYXpkeGx3Z1lLMFBRdms3dm9QbTh5SnFyYWhQcTduUGMzdXNGUGZoUXVMaHlYM1MzTHpyeVctb095NUNXMTZnNFN6ZndUTHRpUUZSNlRJSk5pXzhrbUFWd1VIS2FiQ3dWdHhEMll2TTJYUGlJNWRrYTZJRDlseFQxX1NCRXM?oc=5> — The Economist
+- SA U15 off to a winning start in their opening World Cup fixture - South African Football Association (single_secondary_source; new)
+  - <https://news.google.com/rss/articles/CBMioAFBVV95cUxONVFqenZ6QW82VVh6azRyOUY3MFZPLVhqdWIwaXJtNUdhcjFoQUtBNV9MMUNBNlFOeG5TTDVKelZkcnZWYWgxME8tOW5CTVhDVVZGTmRmTHp1Qkl5Wl9XZGE4cGRQSFozNGtGOW5qVnBldDJzRmgyQVpkV3lWd01sUFpKRDNieVZxb21pZlp4djdsREhPZ21MTVNlOGZTaFA1?oc=5> — South African Football Association
+- AMERICAN ENERGY SNAPSHOT: How America Became the World’s Energy Stabilizer - EnergyNow.com (single_secondary_source; new)
+  - <https://news.google.com/rss/articles/CBMipgFBVV95cUxOMjN0cDV3Y2JiMUQxc3J0Ri1DQ0ZSd295cUE5cWJrakk4SjZHbE5STmZrdFdWU1QxSHBGTm9peG4zMU1NVE1qYTMyQnR6RUdFeTE0NU5oR3dlX29GbXduVklKdDhwb00tOFNwbTR0WktsWFlJc3NYd3l5bER1S0JOTUNRRkxaaG9kSHdUNm4tVHlUSHJwLWZSQ19lUGd1RVZkX3dLazh3?oc=5> — EnergyNow.com
+- Akbar Travels of India Wins ‘Asia’s Leading Travel Agency 2026’ at World Travel Awards - The Tribune (single_secondary_source; new)
+  - <https://news.google.com/rss/articles/CBMixgFBVV95cUxPVDhzUFFFeEp3WUZHZTVwaDBUdzJLSXAtdHQtU2R5dWdjTFdaUm4weU5KMnc5Z3lZTHBGdGFESXBVOU1ZM3pQRWJtRTdkLUZiYXBxbndvVUR0N2ltVnpsN0E4akJtcVJQQ3JFTHYxTEd3eWtiRS1qZEtVdlBkb2cwdnZaOWdJOTdUVUF3Z3lKZi1NVnF0aDNweW1idmdoNC1zVTJDNFVLZHptQ3hSSWc3azBLZzdnREZOZVBhcWk1NThpNUVZN2fSAcoBQVVfeXFMTUQ0WjVYbE5oa2syMWpkSndZMjY4Qk9Tanlxdlp4ZFU2R0xGTDFCaDBWVU94TUd0Q3BfbXhJckd0ZUMxY0FZZ2p4czM1U3Q0a0Y3N3lXRVhjWkpaYklSWGNFM192M3E4aUJWa2lSb2dIN0ljRXZiVEgyamxydGZrT1BLXzNpcE9xbTB3SzJNOHk2eHRHcVl1RDdQZzVyOWRMcHphcU51RldXMXl3anJMQU5FckhONDVXZ3BfSmpDVXlDUXdXcFN3QTZ1UQ?oc=5> — The Tribune
+- Protesters clash with police over India dam project bordering China - The Manila Times (single_secondary_source; new)
+  - <https://news.google.com/rss/articles/CBMi0wFBVV95cUxPaFNoZ00zZVVNVk9vTU1mZFZucFY0RFc1eXNqSi1VMXN4Um9QZkdHdTFzTkFoZF80M1k2LVEycnM0a3Z5VkdrTklrMjlsclBOM1N6eEgxSVpiZzNxOEttanR0U2VwZ0F6V2FwMTJRcTRPQURzbFJueWhuR080U2otZkFObVB2Vi1xb0xXZHVvcWxRR1JzWEZsbk5SUm1JY2dqZXZmYkZyTWhHZzhfeER6QTFjZzNKSUkyNDlBRExrUkxGZ0JmRG9kNFMxVlFGbTFZREs00gHTAUFVX3lxTE9oU2hnTTNlVU1WT29NTWZkVm5wVjREVzV5c2pKLVUxc3hSb1BmR0d1MXNOQWhkXzQzWTYtUTJyczRrdnlWR2tOSWsyOWxyUE4zU3p4SDFJWmJnM3E4S21qdHRTZXBnQXpXYXAxMlFxNE9BRHNsUm55aG5HTzRTai1mQU5tUHZWLXFvTFdkdW9xbFFHUnNYRmxuTlJSbUljZ2pldmZiRnJNaEdnOF94RHpBMWNnM0pJSTI0OUFETGtSTEZnQmZEb2Q0UzFWUUZtMVlESzQ?oc=5> — The Manila Times
+- Crocodiles , Technocrats and Commanders (single_secondary_source; new)
+  - <https://www.armscontrolwonk.com/archive/1208343/crocodiles-technocrats-and-commanders> — armscontrolwonk.com
+- Tinned mackerel, hand-crank radios and bags for poo: crisis-prepping guides around the world - The Guardian (single_secondary_source; unchanged)
+  - <https://news.google.com/rss/articles/CBMi1AFBVV95cUxPOVZyQW5wWFlSaWloNHpsenJ3Sm5VQ3dJRFhLXzMxa1FOZlgyNVlDVHNiTGpSSHFZLXhSSHRtYkNKMzlMTjFNalVZa09zakN5THBvTElEWWUzSFU1OURjNFBWTjdvTEFicXJXX1BEZTdnOFl3X1JIY0Zwc1g1Ym8zT1czRksxcnZoUDFTcDI5YnNmRC1udG5yQWgwMnktc1RxR2kxNW1ua1lIZUFlMnlHNmZKdGtRVERQSHJqb2IwS3BmbEtkcmpzNFZ3RnFtNW14dXBySw?oc=5> — The Guardian
+- Geopolitical calculations shape the next Russia-Africa summit - Africa - World - Ahram Online (single_secondary_source; unchanged)
+  - <https://news.google.com/rss/articles/CBMivgFBVV95cUxQTDBuSC1vZmUtZWpucUJPbXB4LVQtbXpDdjFVdmdfREJEdkhkcmI5eXNoVzQ1QkhpQmt6OHF6UWJBcnRMblQzZzVVWFFaN01KOTRSS1RyRExsekZfNHViOUltSEhqOUtHZnhxUzBFTDZLT2RPR0R2N0FHNXdXMjNNWXNRc0ZPeE9kZlQzNHBPYy1CRERRdWd5TTNtRV9FNHdQR3ZqcG0ycXctRlBzUkdiOHZwMlBuQUN6UUN2a1ZB?oc=5> — Ahram Online
+- Brewers fans without tickets watch World Series through windows at American Family Field - WISN (single_secondary_source; unchanged)
+  - <https://news.google.com/rss/articles/CBMihAFBVV95cUxQaF9JaWlqVndObjRoMkZ5X19wa0E2VnBpUXVrVUJpVkpkQkpmb0x5NVp2bmtGVXpCaG9Na3drQzF5TVRaNnBHRTJPYjNKcGQ0eGV4TExPdkFocE41aktFbVk4bDZGd0M3MldnTlJjOXVSZWVXM3R5cVRBT3h2dFg3TFEybWE?oc=5> — WISN
+- Attack in the West Bank kills 2 Israeli soldiers, and other Mideast news, Asia News - AsiaOne.com (single_secondary_source; new)
+  - <https://news.google.com/rss/articles/CBMimAFBVV95cUxQSzRwelkzMGczdlVwSjVNX0VBS2dpdDNveHZqT1ByQVFlSG9uTXlSb1BCSHdoN0RjODV6SWxhczJGQWIwV3EwRjBZaTdFeGtyNGNXVjgzM1BuOWtqOW9kVnFqT1ZqRHBTVG9oVFN1MTVWTndyRlIzdUp0Rzc2eXdtR0N4OWtFU2RBSXZwZmFLcjBvc1lrZk5RQQ?oc=5> — AsiaOne.com
+- New Developments in Global Postal Services - SSBCrack (single_secondary_source; new)
+  - <https://news.google.com/rss/articles/CBMieEFVX3lxTE1PeTFkcU16QVpNVTN5UlAweTA5QnF1N3QtZkQySm1yR1F5TzlnZlpUcTRCUFBfcld6U2NPLUZiWS1IYzFfSUFlMzBKRHMzWUdSOTRoUEh0enYteGJiREdYaFFnNkhocTNvSTdqQlBwM1ZxNmVKd3FSbA?oc=5> — SSBCrack
+- What Cameron Young said about Brooks Koepka returning as it revealed he agreed to join LIV himself (single_secondary_source; new)
+  - <https://www.hitc.com/what-cameron-young-said-about-brooks-koepka-returning-as-its-revealed-he-agreed-to-join-liv-himself> — hitc.com
+- Leaked emails reveal AfD co-leader Weidel’s shift in stance on Höcke — Politico Europe - UA.NEWS (single_secondary_source; new)
+  - <https://news.google.com/rss/articles/CBMitAFBVV95cUxNRk8yZVZNRmt5Y01lck9aSVI2bW1ub3ZIN2l1a0Z6RDhQSGxlTlNnUFJJQWstcFFVak8yLU01NmlNNzJiQ0U1Qmxtb1FzSWNJcWVpUFV3VmpZckdRWl9jdjQwRnBZU2lwcjFjT2llVU1udEdBN2dCR1pwY3dzT3dxVXZJS1RlMjhDTmljaDh4M1lkN05hblBMZXlDeUozRGRTVTJxcEZueFhYdGZVRTVRTGlmTVM?oc=5> — UA.NEWS
+- South Africa fast bowler Anrich Nortje to miss third Test against Australia — Channel NewsAsia - UA.NEWS (single_secondary_source; unchanged)
+  - <https://news.google.com/rss/articles/CBMitAFBVV95cUxPNlBXa1pHRXd1X042UnBaYllaUkg2N3pGaVVzYXpJZUZiazdyUVNKNGxsUElMaW9LWXFMODRvc2N1dnNTZlFxQUNjYS1YT2FxSEZkb2dZWFJ1TGdxX3p2VFdkRW5SSFZPZmtJQmVfbFhJM2xxSTB4bzN6dXZHY2lXVGRTQmpiOHJoTy1lemtlZkxRM2x0cFNYeWFraUVhWmwyWEh3THdWRmw0UzNLeFUxXzE2aVY?oc=5> — UA.NEWS
+- American gymnast Skye Blakely’s long road to the top ends with all-around gold at the world championships - Chicago Tribune (single_secondary_source; unchanged)
+  - <https://news.google.com/rss/articles/CBMilgFBVV95cUxNUVFzUHhaa1lPeGZhbUJaZVBNNG5pc0lkTUFBTThnd1ZBckZKX0dSdFU0S2pXWFZ3OTBfOEkySGZOcnBFVHhMUWRDVmZLRmJxYXM0SnI4OGU1cVN6eGhmZEVBeVRfY1VjbndRUGQ0UlFBSDVpUnUwM21VZXFZU0xQdzFPaG1BQVkxd1FSWUFGQUFFOVdyZkE?oc=5> — Chicago Tribune
+- Print isn’t dead: How a Singapore printer is keeping paper relevant in a digital world - CNA Luxury (single_secondary_source; unchanged)
+  - <https://news.google.com/rss/articles/CBMimAFBVV95cUxNMnZEMjRvZUJJcFAwQ21qV184WFNPYV9xbDlQM2RjTzc1aFRqblc5eUJKeVNLaDRMWVpaeHdKSmI4M3ZJYXIxUVFHUDk3Yk9SMUlBYy0wYVZIX2hjcEI0WWJCM0dxM0hxQjJfdVhtZ1pLR2NJZHhMZUNjS3o1c3dPZU82TUpIUFFVRmJxY1N4Z2szVDRsdXc4dQ?oc=5> — CNA Luxury
+- RESULTS: Sunday’s winners, scorers and latest league tables - Friends of Football (single_secondary_source; new)
+  - <https://news.google.com/rss/articles/CBMirAFBVV95cUxNOC12VDlDaXJwN2VjQzU1Y0JkTk9qcVZmckp0akNMeTkxTVlaTUhwdHhVQ294cEIyMzc1SVBMNGNLbzEtbzRPTldXX1oxZ1hvNG1nLW1POXlCMXEyM1VyT014TURieVZfUWdNRmU4OGZXVmZTNVRyeGluY0pmdzBiX1prSzhFZnBSbDJoVGhYZmY4V0JUbHBCdWh3SkdhcG5pNnVubTNHS0pvMV9t?oc=5> — Friends of Football
+- I Thought I Knew Which School Was Best for My Son . I Was Wrong . (single_secondary_source; new)
+  - <https://www.businessinsider.com/washington-dc-school-lottery-lost-public-school-turned-out-great-2026-10> — businessinsider.com
+- France protests: tear gas and 1,300 arrests after 400,000 march in peace - The Times (single_secondary_source; new)
+  - <https://news.google.com/rss/articles/CBMimwFBVV95cUxPMEhEN2dHbmtrMWZGb0ZoTlp1VUlsTXhPaVNJalluRWJIMXo4QkFLQVdHaS1OSUlYVWZaSHlFSklJVzhfNUliZURza2dzQ3VXNHR4dUYzbFRSQXQ0aWRjTUFjeFJvRkh0X0ZfTDI2S1BPRnJsa3RPcU95dk0xNEg4LWd6LXprR1piVnJhQ1FKcFlnUUFSbzNKX3pKbw?oc=5> — The Times
+- SA U15 squad eyes good start against Maldives in opening World Cup clash - South African Football Association (single_secondary_source; unchanged)
+  - <https://news.google.com/rss/articles/CBMiqwFBVV95cUxOaEx3Q3IzQXRCOEVVY2tUQVJvSDBTZE1na01tQ3FBaVlWeXFISmhUMi16MmlRYkpMeU9kWVJ2TlNxcUEtcnlRdWNUOHRUT0MwOXVrSUM2NnJXa29TaWVKTkd1Q1o2ZzJzb2hwS3RIV3YwaGlFdHhIVUNTQnk3NV9JbGstakpvdTZVTDNQUzlTcXdXZlMzUVAyTnJTV0t4Y0pTTFluUG5lZUJWem8?oc=5> — South African Football Association
+- What to know about World Series roof rules at American Family Field - Yahoo Sports (single_secondary_source; new)
+  - <https://news.google.com/rss/articles/CBMigwFBVV95cUxQc19oRkJLbFlOR2p4U2pPV0dadmZYUzdvQ1QzNDJzdGhqR2loY1RoZ21yZ3g3NTNLTk5IeUZBa0VkSkdQWE5ZRzlLMUNWSkRtcG9raEw3cDU2ZVNPM3BjajdVRUplWFp0ekU1ZkNzUjk3UG52bGtiRkNoYm9ET1g5MUdpQQ?oc=5> — Yahoo Sports
+- Laos Airfield Sparks Concerns Over China&\#x27;s Expanding Military Presence In Southeast Asia | World - Ommcom News (single_secondary_source; unchanged)
+  - <https://news.google.com/rss/articles/CBMivwFBVV95cUxPSXV4UFpXcUFyVF9hcU82NUZlWjVoOExXZW52bzgtWEU1NlBpUGhpcDdJVkVrQWNHNlFVME1OYlQxeUdfUlNmRHpPNTI2cGI0T1dWZDR2WVg3bmxEdW4wSktnT21lTkRwT0g3dWRaRGl1eWJpMjR0NVI0YWRQT0J0cFhPRmt1TGpEUTh3bmtrSUJGSlV3QlJMc3A4OHJoTHZ4ZXJndk0zZWZUc2VlQlFwQzk0RENOYzh5WmozTF92OA?oc=5> — Ommcom News
+- Watch Auckland United play Naegohyang in FIFA Women’s Champions Cup - Friends of Football (single_secondary_source; new)
+  - <https://news.google.com/rss/articles/CBMiqAFBVV95cUxNYmV4eFh2RHFpVmdHWDZuWGxmX2lzY3BYRmxHZ0FHWWhrbFRyRnhJZDJWZnFhNU9WZ2lYMk56c01kbHp4aTVEdW9jejZGM1VBMkRRM3ZuNmJUcE1Sak9mRnZwcVRfTWExTjVUZmZtdnFPU2hpVjk5b1Z5SUJuNHR1WWpzY2RiRHVGdm9ySGI2Q1RaQmZYbGhPWV9UMWJ0TF9qeklxbVpMbE0?oc=5> — Friends of Football
+- Student - Loan Borrowers Facing Higher Bills Are Slashing Their Budgets (single_secondary_source; new)
+  - <https://www.businessinsider.com/student-loan-borrowers-cutting-back-higher-bills-debt-repayment-trump-2026-10> — businessinsider.com
+
+## Limitations
+- Bounded queries do not provide exhaustive global coverage.
+- GDELT seen time is an observation timestamp, not verified publication time.
+- Contradiction/resolution labels require explicit source wording and review; no automatic truth adjudication.

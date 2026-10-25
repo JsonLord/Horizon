@@ -1,25 +1,15 @@
 # Horizon: institutions/cern
 Status: partial | Analysis: deterministic
-Observed: 2026-10-24T11:17:39.394449+00:00
+Observed: 2026-10-25T11:47:01.580290+00:00
 
 Search-region coverage (not event geography): Europe
 
-- Marathon Fusion says it has turned mercury into gold with fusion neutrons, 10x CERN&\#x27;s record - Dealroom (single_secondary_source; unchanged)
-  - <https://news.google.com/rss/articles/CBMiwwFBVV95cUxNQTZ2T0o3a1VseHk3c0hFSFpMOW5jVFAweXA1NGV2MkRSTVpyYWNUYkFwRXVBUklpMlVyclBTRlBDVDhZc1lueXdLSHJRVHIxM0xmeXlsX0pzOEJjMjYtVmtBOS1Wek81VmFxZUJMOE1UMlJDSnRPbU5mSXNtUlplUmliN0hCdVVUSk5TNktDaUt3VkZnZm5OVW03S0lWYWRUNEktMnBiTWlQTGVHNzhISjJBajl0eGZqODRDbFc3NG1TbUk?oc=5> — Dealroom
-- US Startup Claims It Turned Mercury Into Gold, Says It Beat CERN&\#x27;s 2025 Record 10-Fold - NDTV (single_secondary_source; new)
+- US Startup Claims It Turned Mercury Into Gold, Says It Beat CERN&\#x27;s 2025 Record 10-Fold - NDTV (single_secondary_source; unchanged)
   - <https://news.google.com/rss/articles/CBMivwFBVV95cUxQYjRoUGp5TmhoRGRvZktqWHFUdUxDOHZqMmVVQWFldXJuN01CbUtYcWN0SUFRWFpoLWpOYWF6QldSMWdsN2ZUQnVVSDlLbVpVSWtxU2diWjhMMjYwN2JMQmYzWVpFSTIybXEyam1QdVpNcXpoMklFTWVoOFdzeDNSc2NzYllkdVZ0MWNDUlN2OWlscFhXM05hWFNIRmx3NXFMZHpneVJPdUQ3VGs2VHRwWUpSTFIzQUZvTDBRM0k1QdIBxwFBVV95cUxQSUpKem14Nzc3aElaUFZEVGNkamVyX3FSOXVMc1hZSDV2a3M0ZkY1RHlXUXJ6Q2xBR25qS3lUc016TUJ1UTIweHZOV1NuR3dwQ0pkS3YxdjNOM1ZRbVhoMjFLcnN2Z1pKNWtNQ1lCTUlNU0l4UGJwS2c0ektJSUppcHRvdXVpQUVzdW9oc1Iweml5bWV1cXdCS1p5NU1SLUg1Sk80ZU9OZmdQTXZVOWIxX1labVRJWmZ4SHl6N3hVdjNlYm9JVEE0?oc=5> — NDTV
-- US Startup Claims To Have Turned Mercury Into Gold, Says It Beat CERN’s Record By 10 Times | VIDEO - Free Press Journal (single_secondary_source; new)
+- US Startup Claims To Have Turned Mercury Into Gold, Says It Beat CERN’s Record By 10 Times | VIDEO - Free Press Journal (single_secondary_source; unchanged)
   - <https://news.google.com/rss/articles/CBMizAFBVV95cUxNS0JuQUZWa1lrZlVKR3lRb0w1QUhCMzE2Zy1jR2JDNmZFbk95ZXRNa1JtQ2F5Q2JUVUdONG9kVE9YNC03SF92VkNnVFV0X21QUXNVMG9uMlV5OGk4Y3dUSEVpSTZNVVdTekJrOURxMlB2R2tPdDc4T1d3SnF5djhSUXZVTkl2UmpsV2NtUjVQMUd2RDdLNjYya08tOGtNYUFvZEVvQnNjV0F3SzZzWGRtb1JjVjlCN3VrclU0SktxSzN2UXhrOWNfc3NwV2bSAdIBQVVfeXFMTmlkLUVpbVpjNkNIZFBrTFM3OVQ5cmprcW04S0NGVnNuTmllLS05aGlsWnRzcERKNHhjMEQxUkt6eWJWaFJlOVZCLWpBUnBmeUZDblhHbU9kSTd2a1puRU9wZHp6M3FsUFlNSTlJNGw1QjBDYmhxUGw1UEE3MnBmbjFqaXZtNGFMM1kzVzZqdHFCVklPOXVkOV9sUmxmM0t3RHlJczZ1N3o0Y0NwNktFODNCRmlfMUR2WjREdTh0RW1XYXBoRkxTZ1dyZVFqQzl3YjBR?oc=5> — Free Press Journal
-- US start-up claims it turned Mercury into Gold, beats CERN’s 2025 record - WION (single_secondary_source; new)
+- US start-up claims it turned Mercury into Gold, beats CERN’s 2025 record - WION (single_secondary_source; unchanged)
   - <https://news.google.com/rss/articles/CBMiugFBVV95cUxPUmhyX3hSRVF2WnhnMVIzNVNjTEw4Y2RFNXlvdEIyYjBhcF85T1RUb1pldmw4WGdwaTJqNG1BcWhTZzRHUk4xRVRWOXBCNGRHT1ZMaVNGNG80NjFUeUpPVWgxUUp0QWFGUTFOeWdLUDlLYmtCRHBQM3d1UHJPUDF5SFd1SzZLRG5CazRoM0M5N2dpMFZCanl5aTJhZ2pYOTRYUEJzcGJXY1o1NGhGTkdEZ09Tc1Y5ZUl5Z3fSAb8BQVVfeXFMTjRSZjdEWEZtN2tkaDlRUkZWcnEzc0NlNmVPcVZaSERLTW1SOXV4MGQzSndMaHpCYWEzdUtUS3ZOMFZYNHZ3TVVkT2JlckJUaVE5aFFCbkNnSTRSTmJJVUNuT2xYenFjUWxRaGdkaER0bG9UZ0VGSzAtZEFEa0FGWUQxLW5wU0x0S2sxVnVBX0NOVHV5Z1VwZTIyVUF1VnRoRXg2YjEyTG82RktlZ2haTzJOTGRlX2JTOEU1V3FkdWc?oc=5> — WION
-- Outstanding achievements of ATLAS members celebrated at CERN - ATLAS Experiment at CERN (single_secondary_source; unchanged)
-  - <https://news.google.com/rss/articles/CBMibEFVX3lxTE5la3hvSUhGUDg1d0RhWGJkcXN5R3BrVjhwYkNyS1RlUzFNNUxFblZ2eW9hb1lrVEZmeUx4QlBCeFZVeWw2RlRULWdOMUtrbEhsaFJEclJ4QjlCejVXeEFiSDhQRmZQVVI0bnhCdQ?oc=5> — ATLAS Experiment at CERN
-- Building A CERN Beyond Earth Will Take More Than A Bigger Ring – OpEd - Eurasia Review (single_secondary_source; unchanged)
-  - <https://news.google.com/rss/articles/CBMiqwFBVV95cUxNWWhJT2ZDa3U4eFBmUDRta2JnS2d6c0tlclczQ29nMHFYNXRLclVRVTVkS0pJSlNkS0FZRTRLU2E0LWlIaDhEWWVjb1J4cEo3SVpwSkZHWnQtdkYwN2dfV1lwUmNtTGlVZ2VuOUFOa3dDeFdocGxrb01XSnd1WG10WFFoUnczbkJBbXNxOUJyWmg1d1F5bFc2cC1XSE1CQXJiSHU0NV8ydVMyNEE?oc=5> — Eurasia Review
-- Marathon Fusion Claims 10x CERN Gold Record Without Disclosing Actual Yield - the deep dive (single_secondary_source; unchanged)
-  - <https://news.google.com/rss/articles/CBMioAFBVV95cUxNXzYxa3RseENFM2ZiRC1MR0g2NFlXdUhCTlQzbEZsRXgwYlhMMHlwclc4YlVtOVZiTTF4ZkEwUTZ1SDBKWjBlV0JjYkw5OGdvVHg4bk1TYjhNYVJTOE1sWklvRExZUnhVdzZCWk9tUlBQWmtyMVZrTzRRNlJabXJWT3pBeXAzak95RUdBTmdnbThnejliaS1reEtrY3lnX09U?oc=5> — the deep dive
-- Pellegrini Meets CERN Director-General Thomson at Presidential Palace - TASR (single_secondary_source; unchanged)
-  - <https://news.google.com/rss/articles/CBMimgFBVV95cUxOWS1ibTZJMzR6M3FaekhhZW1GemVGNGlmUHREdTJCb3ZVQ0hZSFRGcEdLWVV6MXJWb0ZWT3BRbFhlQ1MyWjlySW4zeTVCQXFoRndya0NLX0g5aUlMazBTQXZTQVRoRV9yVlUwTjhHZjJid2xpRlljbmRuV20xcndjRF9KR3hkVHRucUtaNXR6QUxvaVV5T05LTUZB?oc=5> — TASR
 
 ## Limitations
 - Bounded queries do not provide exhaustive global coverage.
