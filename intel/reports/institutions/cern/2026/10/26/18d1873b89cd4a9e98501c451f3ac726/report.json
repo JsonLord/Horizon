@@ -1,0 +1,403 @@
+{
+  "analysis_mode": "deterministic",
+  "changes": [
+    {
+      "finding_id": "364bd372eee87abe717fe9cc",
+      "institution_ids": [
+        "cern"
+      ],
+      "observed_at": "2026-10-26T13:20:49.867278+00:00",
+      "type": "new"
+    },
+    {
+      "finding_id": "5f8179b13aef3f4d4c1eadda",
+      "institution_ids": [
+        "cern"
+      ],
+      "observed_at": "2026-10-26T13:20:49.867278+00:00",
+      "type": "new"
+    },
+    {
+      "finding_id": "e28210b5e0ebb1bc752faf0a",
+      "institution_ids": [
+        "cern"
+      ],
+      "observed_at": "2026-10-26T13:20:49.867278+00:00",
+      "type": "new"
+    },
+    {
+      "finding_id": "6180760abc8d0e662571bf98",
+      "institution_ids": [
+        "cern"
+      ],
+      "observed_at": "2026-10-26T13:20:49.867278+00:00",
+      "type": "new"
+    }
+  ],
+  "coverage": {
+    "basis": "search query region; event geography unknown",
+    "missing_regions": [],
+    "regions": [
+      "Europe"
+    ]
+  },
+  "created_at": "2026-10-26T13:20:49.867278+00:00",
+  "errors": [
+    {
+      "code": "SOURCE_INCOMPLETE",
+      "source": "gdelt"
+    },
+    {
+      "code": "SOURCE_INCOMPLETE",
+      "source": "rss"
+    }
+  ],
+  "findings": [
+    {
+      "change_type": "new",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "364bd372eee87abe717fe9cc",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "Gold From Mercury? US Startup Claims It Beat CERN’s Record - NDTV Profit",
+          "source_id": "c469bfda647efe7c04a7792f"
+        }
+      ],
+      "finding_id": "364bd372eee87abe717fe9cc",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [
+        "cern"
+      ],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-26T13:20:49.865754+00:00",
+      "profile_relevance": 8.969191368587964,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-26T12:36:28+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "Europe"
+      ],
+      "source_ids": [
+        "c469bfda647efe7c04a7792f"
+      ],
+      "summary": "Gold From Mercury? US Startup Claims It Beat CERN’s Record - NDTV Profit",
+      "topics": [
+        "CERN"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "new",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "5f8179b13aef3f4d4c1eadda",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "How CERN Earns Trust at Scale - Issues in Science and Technology",
+          "source_id": "dfde2d2244081e1775c4729d"
+        }
+      ],
+      "finding_id": "5f8179b13aef3f4d4c1eadda",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [
+        "cern"
+      ],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-26T13:20:49.865754+00:00",
+      "profile_relevance": 8.90080016488426,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-26T10:57:59+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "Europe"
+      ],
+      "source_ids": [
+        "dfde2d2244081e1775c4729d"
+      ],
+      "summary": "How CERN Earns Trust at Scale - Issues in Science and Technology",
+      "topics": [
+        "CERN"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "new",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "e28210b5e0ebb1bc752faf0a",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "HL-LHC economic impact: what CERN’s estimate means - NeoTeo",
+          "source_id": "27819a33d3401a2409c04219"
+        }
+      ],
+      "finding_id": "e28210b5e0ebb1bc752faf0a",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [
+        "cern"
+      ],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-26T13:20:49.865754+00:00",
+      "profile_relevance": 8.009573313032408,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-25T13:34:37+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "Europe"
+      ],
+      "source_ids": [
+        "27819a33d3401a2409c04219"
+      ],
+      "summary": "HL-LHC economic impact: what CERN’s estimate means - NeoTeo",
+      "topics": [
+        "CERN"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "new",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "6180760abc8d0e662571bf98",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "Latvian CERN team zooms in on new device / Article - Latvian Public Media",
+          "source_id": "3d2caf67ad69abce6dcd4cb2"
+        }
+      ],
+      "finding_id": "6180760abc8d0e662571bf98",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [
+        "cern"
+      ],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-26T13:20:49.865754+00:00",
+      "profile_relevance": 7.00378627599537,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-24T13:26:17+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "Europe"
+      ],
+      "source_ids": [
+        "3d2caf67ad69abce6dcd4cb2"
+      ],
+      "summary": "Latvian CERN team zooms in on new device / Article - Latvian Public Media",
+      "topics": [
+        "CERN"
+      ],
+      "verification": "single_secondary_source"
+    }
+  ],
+  "history": {
+    "comparison": "last_good",
+    "previous_created_at": "2026-10-25T11:47:01.580290+00:00",
+    "previous_report_id": "e15c0d4d1e954349ba9c1c663fc18432",
+    "previous_report_sha256": "0ec2f60a4110961242efd425e01c2dc654cb57c011a8f350dbb999434c607920",
+    "previous_snapshot_commit": "44b2677676c9520e1fc5fb670547939b2571eace",
+    "stale_last_good": false,
+    "state": "restored"
+  },
+  "limitations": [
+    "Bounded queries do not provide exhaustive global coverage.",
+    "GDELT seen time is an observation timestamp, not verified publication time.",
+    "Contradiction/resolution labels require explicit source wording and review; no automatic truth adjudication."
+  ],
+  "links": {
+    "json": "intel/reports/institutions/cern/2026/10/26/18d1873b89cd4a9e98501c451f3ac726/report.json",
+    "markdown": "intel/reports/institutions/cern/2026/10/26/18d1873b89cd4a9e98501c451f3ac726/report.md"
+  },
+  "model_used": null,
+  "profile_id": "institutions/cern",
+  "question": "",
+  "report_id": "18d1873b89cd4a9e98501c451f3ac726",
+  "run_id": "18d1873b89cd4a9e98501c451f3ac726",
+  "schedule": {},
+  "schema_version": "1.0",
+  "sources": [
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9lb0tid2NLOFI2QlVFLTBRMVJvNDdKUWxEc0M4LVl4SDNxLWlERUVISUI1UllGRVN1aDBCVFpvN3Q2amFENU95bXliRnB5bHNBWUNSMWF5SGJvRHFpaFM0SDB4dlNfTVZIbUN3MnFkZ2xVYzgyYjFJ?oc=5",
+      "content_fingerprint": "ee78a4e07d42e2096ff10c7c",
+      "fetched_at": "2026-10-26T13:20:49.865754+00:00",
+      "institution_id": "cern",
+      "language": "en",
+      "observations": [
+        {
+          "collector": "google_news",
+          "language": "en",
+          "search_query": "\"CERN\"",
+          "search_region": "Europe",
+          "title": "HL-LHC economic impact: what CERN’s estimate means - NeoTeo"
+        }
+      ],
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9lb0tid2NLOFI2QlVFLTBRMVJvNDdKUWxEc0M4LVl4SDNxLWlERUVISUI1UllGRVN1aDBCVFpvN3Q2amFENU95bXliRnB5bHNBWUNSMWF5SGJvRHFpaFM0SDB4dlNfTVZIbUN3MnFkZ2xVYzgyYjFJ?oc=5",
+      "profile_id": "institutions/cern",
+      "published_at": "2026-10-25T13:34:37+00:00",
+      "publisher": "NeoTeo",
+      "search_query": "\"CERN\"",
+      "source_country": "unknown",
+      "source_id": "27819a33d3401a2409c04219",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNUTBQWTJST0VYRXpLNUVUeVUxOWg4Qzc3MmF6TlZkVkg4TXM1emU2ckkwcVk1bXVtaTRPVTcwMTZVR1hiME5DRmpTTS1nc3VFRXhqeFZaaXF2ZnpxS1ZyYm9EcjFzRHlMMWN6UmZ2Z0pIRU90a3pJS2VxNWVXcFdpYTdjS0dBdUtVUHhLUXR5dFRaR05KOHl2X0RoQ1NMMHhOMnd5ejNTZ0s?oc=5",
+      "content_fingerprint": "d5531455bc8d4205c1bf7d49",
+      "fetched_at": "2026-10-26T13:20:49.865754+00:00",
+      "institution_id": "cern",
+      "language": "en",
+      "observations": [
+        {
+          "collector": "google_news",
+          "language": "en",
+          "search_query": "\"CERN\"",
+          "search_region": "Europe",
+          "title": "Latvian CERN team zooms in on new device / Article - Latvian Public Media"
+        }
+      ],
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNUTBQWTJST0VYRXpLNUVUeVUxOWg4Qzc3MmF6TlZkVkg4TXM1emU2ckkwcVk1bXVtaTRPVTcwMTZVR1hiME5DRmpTTS1nc3VFRXhqeFZaaXF2ZnpxS1ZyYm9EcjFzRHlMMWN6UmZ2Z0pIRU90a3pJS2VxNWVXcFdpYTdjS0dBdUtVUHhLUXR5dFRaR05KOHl2X0RoQ1NMMHhOMnd5ejNTZ0s?oc=5",
+      "profile_id": "institutions/cern",
+      "published_at": "2026-10-24T13:26:17+00:00",
+      "publisher": "Latvian Public Media",
+      "search_query": "\"CERN\"",
+      "source_country": "unknown",
+      "source_id": "3d2caf67ad69abce6dcd4cb2",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQZURBTGM3YTlDWWdYcWxZVnpTbjlYMGVNRVMxei1hanZHTUZHdHdTSml0aXVaT3ZkSlNOeVpGNXdXd2tfZHUtbml2NE05c1YyNk9iZWVZWUFGbTR2TEhuY2t1MkhraTBMaTMtRkl1UmJaS1g0UUhaWVpFRHZ2WHFZVWpnVjZhVkRPNXNneUpWdUVfS1hUSUllSklhak02N1d2QnFXS9IBrAFBVV95cUxPVFVOLWRtVkttWU4zZVJpVUVodUpMSHZYOTRlMng5bm14LWdrdEZZV0ZnSDFHS0JqQ01YbzgxRG1TeFhPV25Yb1IwRGtTLXZBOTU2VXprWkZOVTZ1NHdKN0RjSlVpY01aUHdENVB1RllkRFkyWExvSkVxNGFzWVNNM2FBTDJJV3V2WkZUelM1bXZHR1RvamNpenpPeFVyRkxoYlYtekduTlUwWF9z?oc=5",
+      "content_fingerprint": "4e4984227605592d220d8948",
+      "fetched_at": "2026-10-26T13:20:49.865754+00:00",
+      "institution_id": "cern",
+      "language": "en",
+      "observations": [
+        {
+          "collector": "google_news",
+          "language": "en",
+          "search_query": "\"CERN\"",
+          "search_region": "Europe",
+          "title": "Gold From Mercury? US Startup Claims It Beat CERN’s Record - NDTV Profit"
+        }
+      ],
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQZURBTGM3YTlDWWdYcWxZVnpTbjlYMGVNRVMxei1hanZHTUZHdHdTSml0aXVaT3ZkSlNOeVpGNXdXd2tfZHUtbml2NE05c1YyNk9iZWVZWUFGbTR2TEhuY2t1MkhraTBMaTMtRkl1UmJaS1g0UUhaWVpFRHZ2WHFZVWpnVjZhVkRPNXNneUpWdUVfS1hUSUllSklhak02N1d2QnFXS9IBrAFBVV95cUxPVFVOLWRtVkttWU4zZVJpVUVodUpMSHZYOTRlMng5bm14LWdrdEZZV0ZnSDFHS0JqQ01YbzgxRG1TeFhPV25Yb1IwRGtTLXZBOTU2VXprWkZOVTZ1NHdKN0RjSlVpY01aUHdENVB1RllkRFkyWExvSkVxNGFzWVNNM2FBTDJJV3V2WkZUelM1bXZHR1RvamNpenpPeFVyRkxoYlYtekduTlUwWF9z?oc=5",
+      "profile_id": "institutions/cern",
+      "published_at": "2026-10-26T12:36:28+00:00",
+      "publisher": "NDTV Profit",
+      "search_query": "\"CERN\"",
+      "source_country": "unknown",
+      "source_id": "c469bfda647efe7c04a7792f",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE93Y0dlXzB1dm9DVk1WemNld2ZwaW8zRjRzMy1YQ3VXOEJDYndGMnZibzdNdFNCa3JyUHFJazdwb2lkMHVFei1KcmVLNndISlZicXM0VmRfbm9MLWJrRVQtUDNQb01yTlQ0?oc=5",
+      "content_fingerprint": "89465b38c75e3e5dd1431a8f",
+      "fetched_at": "2026-10-26T13:20:49.865754+00:00",
+      "institution_id": "cern",
+      "language": "en",
+      "observations": [
+        {
+          "collector": "google_news",
+          "language": "en",
+          "search_query": "\"CERN\"",
+          "search_region": "Europe",
+          "title": "How CERN Earns Trust at Scale - Issues in Science and Technology"
+        }
+      ],
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE93Y0dlXzB1dm9DVk1WemNld2ZwaW8zRjRzMy1YQ3VXOEJDYndGMnZibzdNdFNCa3JyUHFJazdwb2lkMHVFei1KcmVLNndISlZicXM0VmRfbm9MLWJrRVQtUDNQb01yTlQ0?oc=5",
+      "profile_id": "institutions/cern",
+      "published_at": "2026-10-26T10:57:59+00:00",
+      "publisher": "Issues in Science and Technology",
+      "search_query": "\"CERN\"",
+      "source_country": "unknown",
+      "source_id": "dfde2d2244081e1775c4729d",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    }
+  ],
+  "statistics": {
+    "collectors": [
+      {
+        "error_code": null,
+        "items": 0,
+        "query": "site:home.cern",
+        "source": "google_news",
+        "status": "ok"
+      },
+      {
+        "error_code": null,
+        "items": 7,
+        "query": "\"CERN\"",
+        "source": "google_news",
+        "status": "ok"
+      },
+      {
+        "error_code": "HTTP_429",
+        "items": 0,
+        "query": "\"CERN\"",
+        "source": "gdelt",
+        "status": "failed"
+      },
+      {
+        "items": 0,
+        "source": "rss",
+        "status": "failed"
+      }
+    ],
+    "items": 4,
+    "sources": 4
+  },
+  "status": "partial",
+  "time_window": {
+    "since": "2026-10-24T13:20:49.867278+00:00",
+    "until": "2026-10-26T13:20:49.867278+00:00"
+  },
+  "workflow": {
+    "repository": "JsonLord/Horizon",
+    "run_attempt": "1",
+    "run_id": "40329431034",
+    "source_commit": "c9dcef30a10ffe67b8e399baea5c2a6787c7dfd2"
+  }
+}

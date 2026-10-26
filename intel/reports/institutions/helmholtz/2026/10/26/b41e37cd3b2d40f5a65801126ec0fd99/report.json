@@ -1,0 +1,153 @@
+{
+  "analysis_mode": "deterministic",
+  "changes": [],
+  "coverage": {
+    "basis": "search query region; event geography unknown",
+    "missing_regions": [],
+    "regions": [
+      "Europe"
+    ]
+  },
+  "created_at": "2026-10-26T13:21:35.188874+00:00",
+  "errors": [
+    {
+      "code": "SOURCE_INCOMPLETE",
+      "source": "gdelt"
+    }
+  ],
+  "findings": [
+    {
+      "change_type": "unchanged",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "85ebcc440329121c6b9b2228",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "Statement Importance of Libraries - Helmholtz Open Science Office",
+          "source_id": "45717bc72ac6804e3dc41a66"
+        }
+      ],
+      "finding_id": "85ebcc440329121c6b9b2228",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [
+        "helmholtz"
+      ],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-26T13:21:35.188240+00:00",
+      "profile_relevance": 5.570333469444444,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-25T03:02:52+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "Europe"
+      ],
+      "source_ids": [
+        "45717bc72ac6804e3dc41a66"
+      ],
+      "summary": "Statement Importance of Libraries - Helmholtz Open Science Office",
+      "topics": [
+        "Helmholtz Association"
+      ],
+      "verification": "single_secondary_source"
+    }
+  ],
+  "history": {
+    "comparison": "last_good",
+    "previous_created_at": "2026-10-25T11:47:31.096215+00:00",
+    "previous_report_id": "396dc19e8897431b83e53734e7443c2f",
+    "previous_report_sha256": "28cf72d33f767e4c5bad056437f9db2f522daa886bd49d469cf4805f59b29478",
+    "previous_snapshot_commit": "44b2677676c9520e1fc5fb670547939b2571eace",
+    "stale_last_good": false,
+    "state": "restored"
+  },
+  "limitations": [
+    "Bounded queries do not provide exhaustive global coverage.",
+    "GDELT seen time is an observation timestamp, not verified publication time.",
+    "Contradiction/resolution labels require explicit source wording and review; no automatic truth adjudication."
+  ],
+  "links": {
+    "json": "intel/reports/institutions/helmholtz/2026/10/26/b41e37cd3b2d40f5a65801126ec0fd99/report.json",
+    "markdown": "intel/reports/institutions/helmholtz/2026/10/26/b41e37cd3b2d40f5a65801126ec0fd99/report.md"
+  },
+  "model_used": null,
+  "profile_id": "institutions/helmholtz",
+  "question": "",
+  "report_id": "b41e37cd3b2d40f5a65801126ec0fd99",
+  "run_id": "b41e37cd3b2d40f5a65801126ec0fd99",
+  "schedule": {},
+  "schema_version": "1.0",
+  "sources": [
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQT2htb2gzY1dQWmwyb1ZiekZ5Q0hVOWNLUWI0dG9NWlJYdjdNQ2p3UFNqUkdLUXVtVmJEaW1VdmRxTmttQm5NTFJlbVF0ZkFjWklzcjlULUZlLVRoNTBwVUoyTXB6T1BDT0I5OUdVcDY1S2F5QjkzZEpiTUppVXJZeFZSSm5XY29ZQy1nb21KY0UxMi1BcVpidXFtbzlZWVd0cHZNZnFKMzhDSEpqVVBtaks1NDEzcllEaEtCazRB?oc=5",
+      "content_fingerprint": "ee1bb4dc9006050d913ea856",
+      "fetched_at": "2026-10-26T13:21:35.188240+00:00",
+      "institution_id": "helmholtz",
+      "language": "en",
+      "observations": [
+        {
+          "collector": "google_news",
+          "language": "en",
+          "search_query": "site:helmholtz.de",
+          "search_region": "Europe",
+          "title": "Statement Importance of Libraries - Helmholtz Open Science Office"
+        }
+      ],
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQT2htb2gzY1dQWmwyb1ZiekZ5Q0hVOWNLUWI0dG9NWlJYdjdNQ2p3UFNqUkdLUXVtVmJEaW1VdmRxTmttQm5NTFJlbVF0ZkFjWklzcjlULUZlLVRoNTBwVUoyTXB6T1BDT0I5OUdVcDY1S2F5QjkzZEpiTUppVXJZeFZSSm5XY29ZQy1nb21KY0UxMi1BcVpidXFtbzlZWVd0cHZNZnFKMzhDSEpqVVBtaks1NDEzcllEaEtCazRB?oc=5",
+      "profile_id": "institutions/helmholtz",
+      "published_at": "2026-10-25T03:02:52+00:00",
+      "publisher": "Helmholtz Open Science Office",
+      "search_query": "site:helmholtz.de",
+      "source_country": "unknown",
+      "source_id": "45717bc72ac6804e3dc41a66",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    }
+  ],
+  "statistics": {
+    "collectors": [
+      {
+        "error_code": null,
+        "items": 1,
+        "query": "\"Helmholtz Association\"",
+        "source": "google_news",
+        "status": "ok"
+      },
+      {
+        "error_code": null,
+        "items": 1,
+        "query": "site:helmholtz.de",
+        "source": "google_news",
+        "status": "ok"
+      },
+      {
+        "items": 0,
+        "query": "\"Helmholtz Association\"",
+        "source": "gdelt",
+        "status": "failed"
+      }
+    ],
+    "items": 1,
+    "sources": 1
+  },
+  "status": "partial",
+  "time_window": {
+    "since": "2026-10-24T13:21:35.188874+00:00",
+    "until": "2026-10-26T13:21:35.188874+00:00"
+  },
+  "workflow": {
+    "repository": "JsonLord/Horizon",
+    "run_attempt": "1",
+    "run_id": "40329431034",
+    "source_commit": "c9dcef30a10ffe67b8e399baea5c2a6787c7dfd2"
+  }
+}

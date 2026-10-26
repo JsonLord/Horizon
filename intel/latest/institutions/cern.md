@@ -1,15 +1,17 @@
 # Horizon: institutions/cern
 Status: partial | Analysis: deterministic
-Observed: 2026-10-25T11:47:01.580290+00:00
+Observed: 2026-10-26T13:20:49.867278+00:00
 
 Search-region coverage (not event geography): Europe
 
-- US Startup Claims It Turned Mercury Into Gold, Says It Beat CERN&\#x27;s 2025 Record 10-Fold - NDTV (single_secondary_source; unchanged)
-  - <https://news.google.com/rss/articles/CBMivwFBVV95cUxQYjRoUGp5TmhoRGRvZktqWHFUdUxDOHZqMmVVQWFldXJuN01CbUtYcWN0SUFRWFpoLWpOYWF6QldSMWdsN2ZUQnVVSDlLbVpVSWtxU2diWjhMMjYwN2JMQmYzWVpFSTIybXEyam1QdVpNcXpoMklFTWVoOFdzeDNSc2NzYllkdVZ0MWNDUlN2OWlscFhXM05hWFNIRmx3NXFMZHpneVJPdUQ3VGs2VHRwWUpSTFIzQUZvTDBRM0k1QdIBxwFBVV95cUxQSUpKem14Nzc3aElaUFZEVGNkamVyX3FSOXVMc1hZSDV2a3M0ZkY1RHlXUXJ6Q2xBR25qS3lUc016TUJ1UTIweHZOV1NuR3dwQ0pkS3YxdjNOM1ZRbVhoMjFLcnN2Z1pKNWtNQ1lCTUlNU0l4UGJwS2c0ektJSUppcHRvdXVpQUVzdW9oc1Iweml5bWV1cXdCS1p5NU1SLUg1Sk80ZU9OZmdQTXZVOWIxX1labVRJWmZ4SHl6N3hVdjNlYm9JVEE0?oc=5> — NDTV
-- US Startup Claims To Have Turned Mercury Into Gold, Says It Beat CERN’s Record By 10 Times | VIDEO - Free Press Journal (single_secondary_source; unchanged)
-  - <https://news.google.com/rss/articles/CBMizAFBVV95cUxNS0JuQUZWa1lrZlVKR3lRb0w1QUhCMzE2Zy1jR2JDNmZFbk95ZXRNa1JtQ2F5Q2JUVUdONG9kVE9YNC03SF92VkNnVFV0X21QUXNVMG9uMlV5OGk4Y3dUSEVpSTZNVVdTekJrOURxMlB2R2tPdDc4T1d3SnF5djhSUXZVTkl2UmpsV2NtUjVQMUd2RDdLNjYya08tOGtNYUFvZEVvQnNjV0F3SzZzWGRtb1JjVjlCN3VrclU0SktxSzN2UXhrOWNfc3NwV2bSAdIBQVVfeXFMTmlkLUVpbVpjNkNIZFBrTFM3OVQ5cmprcW04S0NGVnNuTmllLS05aGlsWnRzcERKNHhjMEQxUkt6eWJWaFJlOVZCLWpBUnBmeUZDblhHbU9kSTd2a1puRU9wZHp6M3FsUFlNSTlJNGw1QjBDYmhxUGw1UEE3MnBmbjFqaXZtNGFMM1kzVzZqdHFCVklPOXVkOV9sUmxmM0t3RHlJczZ1N3o0Y0NwNktFODNCRmlfMUR2WjREdTh0RW1XYXBoRkxTZ1dyZVFqQzl3YjBR?oc=5> — Free Press Journal
-- US start-up claims it turned Mercury into Gold, beats CERN’s 2025 record - WION (single_secondary_source; unchanged)
-  - <https://news.google.com/rss/articles/CBMiugFBVV95cUxPUmhyX3hSRVF2WnhnMVIzNVNjTEw4Y2RFNXlvdEIyYjBhcF85T1RUb1pldmw4WGdwaTJqNG1BcWhTZzRHUk4xRVRWOXBCNGRHT1ZMaVNGNG80NjFUeUpPVWgxUUp0QWFGUTFOeWdLUDlLYmtCRHBQM3d1UHJPUDF5SFd1SzZLRG5CazRoM0M5N2dpMFZCanl5aTJhZ2pYOTRYUEJzcGJXY1o1NGhGTkdEZ09Tc1Y5ZUl5Z3fSAb8BQVVfeXFMTjRSZjdEWEZtN2tkaDlRUkZWcnEzc0NlNmVPcVZaSERLTW1SOXV4MGQzSndMaHpCYWEzdUtUS3ZOMFZYNHZ3TVVkT2JlckJUaVE5aFFCbkNnSTRSTmJJVUNuT2xYenFjUWxRaGdkaER0bG9UZ0VGSzAtZEFEa0FGWUQxLW5wU0x0S2sxVnVBX0NOVHV5Z1VwZTIyVUF1VnRoRXg2YjEyTG82RktlZ2haTzJOTGRlX2JTOEU1V3FkdWc?oc=5> — WION
+- Gold From Mercury? US Startup Claims It Beat CERN’s Record - NDTV Profit (single_secondary_source; new)
+  - <https://news.google.com/rss/articles/CBMipAFBVV95cUxQZURBTGM3YTlDWWdYcWxZVnpTbjlYMGVNRVMxei1hanZHTUZHdHdTSml0aXVaT3ZkSlNOeVpGNXdXd2tfZHUtbml2NE05c1YyNk9iZWVZWUFGbTR2TEhuY2t1MkhraTBMaTMtRkl1UmJaS1g0UUhaWVpFRHZ2WHFZVWpnVjZhVkRPNXNneUpWdUVfS1hUSUllSklhak02N1d2QnFXS9IBrAFBVV95cUxPVFVOLWRtVkttWU4zZVJpVUVodUpMSHZYOTRlMng5bm14LWdrdEZZV0ZnSDFHS0JqQ01YbzgxRG1TeFhPV25Yb1IwRGtTLXZBOTU2VXprWkZOVTZ1NHdKN0RjSlVpY01aUHdENVB1RllkRFkyWExvSkVxNGFzWVNNM2FBTDJJV3V2WkZUelM1bXZHR1RvamNpenpPeFVyRkxoYlYtekduTlUwWF9z?oc=5> — NDTV Profit
+- How CERN Earns Trust at Scale - Issues in Science and Technology (single_secondary_source; new)
+  - <https://news.google.com/rss/articles/CBMiaEFVX3lxTE93Y0dlXzB1dm9DVk1WemNld2ZwaW8zRjRzMy1YQ3VXOEJDYndGMnZibzdNdFNCa3JyUHFJazdwb2lkMHVFei1KcmVLNndISlZicXM0VmRfbm9MLWJrRVQtUDNQb01yTlQ0?oc=5> — Issues in Science and Technology
+- HL-LHC economic impact: what CERN’s estimate means - NeoTeo (single_secondary_source; new)
+  - <https://news.google.com/rss/articles/CBMid0FVX3lxTE9lb0tid2NLOFI2QlVFLTBRMVJvNDdKUWxEc0M4LVl4SDNxLWlERUVISUI1UllGRVN1aDBCVFpvN3Q2amFENU95bXliRnB5bHNBWUNSMWF5SGJvRHFpaFM0SDB4dlNfTVZIbUN3MnFkZ2xVYzgyYjFJ?oc=5> — NeoTeo
+- Latvian CERN team zooms in on new device / Article - Latvian Public Media (single_secondary_source; new)
+  - <https://news.google.com/rss/articles/CBMiqAFBVV95cUxNUTBQWTJST0VYRXpLNUVUeVUxOWg4Qzc3MmF6TlZkVkg4TXM1emU2ckkwcVk1bXVtaTRPVTcwMTZVR1hiME5DRmpTTS1nc3VFRXhqeFZaaXF2ZnpxS1ZyYm9EcjFzRHlMMWN6UmZ2Z0pIRU90a3pJS2VxNWVXcFdpYTdjS0dBdUtVUHhLUXR5dFRaR05KOHl2X0RoQ1NMMHhOMnd5ejNTZ0s?oc=5> — Latvian Public Media
 
 ## Limitations
 - Bounded queries do not provide exhaustive global coverage.

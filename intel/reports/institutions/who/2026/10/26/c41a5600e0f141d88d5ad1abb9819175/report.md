@@ -1,0 +1,81 @@
+# Horizon: institutions/who
+Status: complete | Analysis: deterministic
+Observed: 2026-10-26T13:20:13.563846+00:00
+
+Search-region coverage (not event geography): world
+
+- Implementing and scaling wheat flour fortification programmes - World Health Organization (WHO) (single_secondary_source; new)
+  - <https://news.google.com/rss/articles/CBMizgFBVV95cUxPSmxuNmMzbjlfZ2w3OTFLNUhROU5Zc3prLXpfQXYyX2Y3UzUwZjBWWDgxMktPTU1KcUJabzN1RFJHdU56ajF6WnBLY3E1U0Rvblh5SUpwVjFOTHd3UUx1MFpLb09DdTNrVTJuT0lCenh4NzFDUjBWaUwyNzg3NU5xRDFRbFo2Y0NJVW41ZG5PUThQZFJ3ZzI4Z2xBcVNMQ1hMTy1nSktNcUdQQlA1eHdkNXJjam5GUHJxeXIzSlg2dlNLbThhdjFIbmJMdVVsZw?oc=5> — World Health Organization (WHO)
+- When wildfires move, health care must move too: lessons from the Muğla wildfire response in Türkiye - World Health Organization (WHO) (single_secondary_source; new)
+  - <https://news.google.com/rss/articles/CBMi7gFBVV95cUxQaUdSREtBdFQtbmF4OUFfYUdpZFdFTEE2c211SVZvVDlUOGVqR2JJYUc4VHROS3hEdW1SaWxZczZKRWY4Mmo0R0JEaG00TUsybFVzcVU0MnRNLTFWcTd5cjNGUVRLY3Zkc0lzVkZMd1Nvd0lyU0xockExTVJJbkEyNEFsdkE5X1pDcHJkSkdKVllxajhDdjFFdUltRm9zcEFKS2t3SElpVjhpVTY0dFBteDVyOFYyYV9oQjFnTG1LdzczOVZiaEhPX3BVa014amY1X0t5Z3p2b2IySnhtYVA4ckZYV3VsYi01dmZNQ3ln?oc=5> — World Health Organization (WHO)
+- WHO chief meets ENHYPEN: blood donation campaign inspires fans across the world - Devdiscourse (single_secondary_source; new)
+  - <https://news.google.com/rss/articles/CBMizwFBVV95cUxQS0lzREUyUTNaUFU3M09lOVdxNS1vNnNwSG10NTlFNHBOTzRMRFpJbUx0dkVzUU5hcDJmUVJMaEFiMnBNV2xyMWZtOEpqcXlqOUxNUWpleFJwRl9RYTRIUi1mRms0LThCSG1QdFlha1llMWJuMm43Y2xVUkx1ZVBoYkozQm56WUotdlFqTTFybnlpQlBNeUx0TlIzSjZsM1IxVkZaZmZmUzN3MmxPa3J2WVg2ekxOQks1X3lkTS1Ec2ZNYVdsU3RpTVF6RkRTSjTSAc8BQVVfeXFMUEtJc0RFMlEzWlBVNzNPZTlXcTUtbzZzcEhtdDU5RTRwTk80TERaSW1MdHZFc1FOYXAyZlFSTGhBYjJwTVdscjFmbThKanF5ajlMTVFqZXhScEZfUWE0SFItZkZrNC04QkhtUHRZYWtZZTFibjJuN2NsVVJMdWVQaGJKM0JuellKLXZRak0xcm55aUJQTXlMdE5SM0o2bDNSMVZGWmZmZlMzdzJsT2tydllYNnpMTkJLNV95ZE0tRHNmTWFXbFN0aU1RekZEU0o0?oc=5> — Devdiscourse
+- Mifepristone monographs information webinar - World Health Organization (WHO) (single_secondary_source; new)
+  - <https://news.google.com/rss/articles/CBMitgFBVV95cUxQaDBIU3l0d29LOWtyLWxEUzBaNUJGZ3lYdERtRHVncUVvS2hqdEJua1FUSm9jRXVBaHBsemxUVzF0WllPX2p3d3Q1eDN5T3FXMThHQkotUkYzQWNxdTJUWkttOUEwM2prd3U4b08zdFNXMWVDSFF5WVJac04wdDJxOE1EVlB6QnkzOGZFa1lkcVJ4ak9mN0tJb2ZkdkVaSmtrLS1MU1FybnlnazlmNUl6MUJfWURTZw?oc=5> — World Health Organization (WHO)
+- How a polio outbreak transformed wastewater testing in the United Kingdom - World Health Organization (WHO) (single_secondary_source; new)
+  - <https://news.google.com/rss/articles/CBMiywFBVV95cUxNYUNrNHZQX1I1S1VacXFJbVUzMDRDRG9GQi0zSzBNQkp4VUQtYjl4RkJxMnZqZktONml4WldjbkVwdlYtUUNvS2ZVR0ttZmI5M0RBazh6dHE4REc5MlUydk9ReHROaGYydFVyVEUxR0t1YUJya3VJRWNxTndaZjdvVjNTZzEzTU5SV1VJMGFDd0ZNaTRZRVpEamR3VzNLaDBoaHJmSkFfeU52aEpLSjdXZUJwTjhQdWhzeEw0bkE2ZERmTE96aFgzTlpwWQ?oc=5> — World Health Organization (WHO)
+- South Sudan conducts a full-scale simulation exercise to test Bundibugyo virus disease (BVD) readiness - WHO | Regional Office for Africa (single_secondary_source; new)
+  - <https://news.google.com/rss/articles/CBMi2wFBVV95cUxQalpEd1o3ZnVDRGV2bFp2ZUxiSHljV0NvWXBSVmwyLUd1LTlJMEVnZUR1eVVrLWxWc01XZU5iemhUdmhnUkpKVS1yenhFVVQxS0tWeTB6OWd0bVJobW5MMlBodlZfWDE0OGpuT3FIOU1pYUJqc0Q3bWRRdTRGZjJjMVVrNEJKTjB4ZkNNdDZTU3hDQ085S0s1dHFKcG5WV0tpMTZWS1hWYmZKR0hrcjBWYTk4UWd0RUd6SkhUZkYxR2hOclkwMGRqTVJHY0V5NVlwOUVRZDczdVBFQTg?oc=5> — WHO | Regional Office for Africa
+  - <https://news.google.com/rss/articles/CBMi4AFBVV95cUxPcVFMVHM4TW4zZWFuWVBGSGttc3BVa18yQjRhSmRWN1NGOWxSYVVpSUZoUUVPZHI4QVJ3ME1kbHJFRXVMa2lqb2c2b1EtVVFhZUxYRUVYNzdRVFAtcV9jQjkxTGJpOHYyTk5MVnc0N3JpZU1aY3FpSjdnNXlGcTdCMHVMSER1RnlmdTRZSF9fWkp2YUpWUEw4SmFmVHk1akpPcVNwWWZUM3EwSDJROUMyN0UzcHZuY1FVWGpsNU4tYTdSNHVqenVMVUVwRHhjMjcxQUMzTzVpWDIwSmNEd0NWdA?oc=5> — WHO | Regional Office for Africa
+- Strengthening border health through partnership: communities at the heart of resilient health systems - World Health Organization (WHO) (single_secondary_source; new)
+  - <https://news.google.com/rss/articles/CBMi7wFBVV95cUxOeW01S0E1ajUwbEFBS3EtRmtiTm41ZURONjNlRGJPSFNLRzNmbk5senRyaVNwQzE2eVBxZDBKdzh0bVdlVTY4Mm42amJtV280T1N2U1FvdGhpX1lwRWVUUi1IWEVpOVJVZmlwbmkyOE1BMy1YdEoyOTBkV0FKbjZkcnppekhEdDQtV3dUSXV5dTZfYjV2V1JJdS1rdGEyR1pPdnVXWGJtcmdKQmRHdVg3eS1qRFJySDd5ZzRvU0VJTGZIc0ZaZUd1SG0xejQxTldNSzNsQ1hycDVlQThoYU1QLWJMZjBEeGNMZjBUbzhvQQ?oc=5> — World Health Organization (WHO)
+- Ebola response: Disinformation kills, care saves lives - WHO | Regional Office for Africa (single_secondary_source; new)
+  - <https://news.google.com/rss/articles/CBMivgFBVV95cUxQTUpwYWxScTFBbXlIc04yMHMwekVvNThRd0stU0RaY1FOVVk2ZDBVWlVrS1VnbGtiVEZkZDI3Y3MtZWpCVUhYSzFxVWVBSkFLbjVjM2hKak15Q1FLX0trcnhid3FNQzRVRjZ3V1JVam5oREZhQWdycTBqYmhPWTU4bEMyVHd6czhLQ3JsT0xYS0JFTndhb1Y2a1NkUy1yMGhkNnRKVXBWeHByZHp5ZFo1VnBsakpqaXRPQVFnNGtn?oc=5> — WHO | Regional Office for Africa
+- Weekly Epidemiological Bulletin - \#Week 39, 2026 - World Health Organization (WHO) (single_secondary_source; new)
+  - <https://news.google.com/rss/articles/CBMirAFBVV95cUxPTnJjU2JNTEt1Qkc1UHprX2RnZV9qZFVUVEtvNWwtaEE1dHNYaG1kNHAwaElfS1B0QjBFY2VZR2gyMjhfV0dOamhobV9ZSm9NdENKN2VISERiTDZKbHQwdzVMYmQyZ3dibGIxRzVtdzdtajM1VmhXeHlPTlhnblpWNi1HLUhHWHgtVU5DY2s2VW1LMWNaUm8xblhNeE1RMHNJYmxQckllMF8ydVpB?oc=5> — World Health Organization (WHO)
+- Volume 32 number 9 - World Health Organization (WHO) (single_secondary_source; unchanged)
+  - <https://news.google.com/rss/articles/CBMickFVX3lxTE1iX0EzUnFQM29yMXJlYWJYTVBFNlczWjJiWEpQeW9MUzF4akE2Q3BIMzJobXdFLWthZWtlU1lLQkxIZFVzQzdwal9CTWpER19sRUxZWVctOHpHQTVDX2dLUGhCck1rdTkwallrWmMxS05lUQ?oc=5> — World Health Organization (WHO)
+- 2026 UHC Day Youth Advocacy Workshop - World Health Organization (WHO) (single_secondary_source; new)
+  - <https://news.google.com/rss/articles/CBMirAFBVV95cUxOSTdaS29aM2tBVWJWVGN1d3hyN1lXWDhzMHY0MmdwbHpDT0NlallaM3FkdHBUNlI5bE1ZajUzcUMydGtzNWNmSzhvSnZMQnRkMG5BdWJNOUFULTBSdE1aZ1huTEh0TVI2RTR6Z2NaNVZLN0M2anY3RWJTbXZXbFNOR0xRX29NVE44R3BfUEI5X0IyRC1wckFzbGpPa1VFbW5IcWh2djdFUURGWEJq?oc=5> — World Health Organization (WHO)
+- WHO chief envisions AI-driven future for global health, hails Korea&\#x27;s vaccine equity push - Korea JoongAng Daily (single_secondary_source; new)
+  - <https://news.google.com/rss/articles/CBMi0gFBVV95cUxPZVZIenlfclhobkx5ZjBMZ0Q5VmJQLVdMaGNFSWJQX0xpaHB2X2Y1eHphTDVrVlhPeFY3LUNZYm9TRW9xdWJsb0hodlhoNzZMeHhkTmVudnJfYksyY2NlY2Jpc3RZQjdVMGptcmhmWUI2NEg2YkhYMGZnTmpjdFFRVUNIRWp5d3Y0SWFaZXZYSVlWNE1Lb2l2TWpqb2xNWDI3YmhhS0NtT25zQmJyZmNQTDJINlQ4QWlwbW1KNlFyUlZ3WFc2b0JnekFKQVM1NlFUMWc?oc=5> — Korea JoongAng Daily
+- Egypt is the first country globally to maintain Gold Tier status on the path to hepatitis C elimination - World Health Organization (WHO) (single_secondary_source; new)
+  - <https://news.google.com/rss/articles/CBMi3AFBVV95cUxNVURoeTd5SjdRQkhUdFpUTDNhSVdRZDUzb1VidDZ1c0R1WEVkSjEyM1o2U2QzZ1J4MEh5QXdXeFl3OXlUN2huQ2YzR25VSzQ5R1JxYUFOMVhpUkM3TnhKWFBuNTcyLVl4czh6R1Z0TVN6dUZQdDgzX083b2xjSHBwY1d5MTI5QXBXVkpWUTVBckFEdDRfYUVpTUtwMjhhbzNkZGVHRmZtU0FBeVhsTF9Dal9rZkpWUUVWWERnMi1fcXlWeWZoSVBYMHVENFkyamkwXzRxeGFUdHVDcWZ0?oc=5> — World Health Organization (WHO)
+- Water, sanitation and hygiene (WASH) WPRO - World Health Organization (WHO) (single_secondary_source; new)
+  - <https://news.google.com/rss/articles/CBMigwFBVV95cUxPWUZodDVyTF9hcWhGMVpRMVZxbzR6V2EyT2Y1RnpKMGZzWVdqNWVyU0lOLWtLZ0dCVk5rN0RjNVZlSjBXdXJBbXJSZmRJQnVoSF9BRWtsakQ5VEdfeXJsTUtVUnVadjBOWWNrel9vdWNJRnAyak16c2hmN0F1Vk9SckF1Yw?oc=5> — World Health Organization (WHO)
+- Strengthening integrated surveillance across WHO’s Eastern Mediterranean Region - World Health Organization (WHO) (single_secondary_source; new)
+  - <https://news.google.com/rss/articles/CBMiuwFBVV95cUxNZGEzYTdZYjlBMkJfWmJEd1k0M3BqU3VGRndIbnYxNFprb1phSENIa19falBqVFpVbzdTWmNRRi11ZWJYTTZpcWRkbTBNVEhoNFN5SmxiWnZxRG5YblJQcFY1Q2NZelYzNFpoU2FUOXJDQzdkY1JmZm40bTE4TDIwQ3hFYnlZeDJpRHZJdEstRjBaVE1Zd0dSamZRYjhJNjVhTVFINGxKdk8xMVdKTlg2WVlabWpfRGFkNFNn?oc=5> — World Health Organization (WHO)
+- WHO urges government to safeguard ThaiHealth funding, health taxes - Thai PBS World (single_secondary_source; new)
+  - <https://news.google.com/rss/articles/CBMiVEFVX3lxTE5EN0dReWc5SGliYXYydW9ydzVIUHFYUkcyYW5PckxtYnZLekg0OS1lMWZkY0NRNktua1VaYUlMVFRnNXJZWkZQbk5KSXJ1SkRJMkkxdA?oc=5> — Thai PBS World
+- Indicator Metadata Registry Details - World Health Organization (WHO) (single_secondary_source; new)
+  - <https://news.google.com/rss/articles/CBMiggFBVV95cUxNMWZ4UEJKSjZqc2Nmd2hwSFNlSDBSS0FndWtUM3hDSnF5c2E3aHQwUy1Tc3o5REw1OVoyRkhieEpXYU9lQmtqWHFWY2ZfZGNCLW1nQko5UlRlQjEyMVozRFExcjI4S0ZNTy0yWjhDVVpNNWlfWHdOaUtxOUY1ZVVJeHB3?oc=5> — World Health Organization (WHO)
+- Somalia and health partners agree on priorities to strengthen essential health services and health security - World Health Organization (WHO) (single_secondary_source; new)
+  - <https://news.google.com/rss/articles/CBMi5AFBVV95cUxQQTVtYjNtOFV4dGJiaV9JR2pHWjBUNjR2eWFUMlZkVHFDWk1wREpzdGFiUEVVSTg3bHFncWZjaUxYTDFTS2FuZHNybW9Ra251NHJKUHZ4UUVDMUpQVlFaSmNsTkNCc0IwRjlOUVgxMVhnWWt3OEFnZmhUNlJrUUdsSDJGOEx3cGltcG5SVnhSeUx5QW92YjBWZnpvN0JmNlNST2pSenBsc1d0bE9mM0pRUWJ6Mm8wTUpTeE5Ya0Q1aDhiZ05VV2o2U1BDX01xcHNNQzFHSE9iV2NBRGJ5N1BQclBKVHc?oc=5> — World Health Organization (WHO)
+- WHO Regional Office for the Eastern Mediterranean and Rotary reaffirm commitment to ending polio at World Polio Day events in Cairo - World Health Organization (WHO) (single_secondary_source; unchanged)
+  - <https://news.google.com/rss/articles/CBMiggJBVV95cUxNckpLLW9wdTRQTnhEOGwzengwVV91VUZ3Vk80WjdMRTUxOE53REo5V2cxM3QwSmJSdEZmR21Ha3ZIV0tiajk5SEY4aVBXQ3M5ZTZnVkI3THZLaERTU3ZOMGc4dkxqZ1pzSE9BSE5vb1daaXJDRjlldldpbmNxdzFTNW5DdERBOHdRN2Z1OFBiR3ZJN0xEWFZkN0paNFdSQXNWOVR1Um1QQVJjcmFTd2FXOEFsUEhPRXNwOERlSTNVLU1jZ0Fld2VydmFZSTRseDJpNEs4OUtfME83RU83WWIyb3gtSTk5SjVtQWNzcWJLdkJpY1hVZXd2bkFkcjh5NVFIMVE?oc=5> — World Health Organization (WHO)
+- China plays important role in advancing traditional medicine globally , WHO official says - Xinhua (single_secondary_source; new)
+  - <https://english.news.cn/20261025/82c75e812d8f44ffbd34882938d7fb14/c.html> — english.news.cn
+- WHO backs ThaiHealth funding and tobacco and alcohol tax safeguards - Nation Thailand (single_secondary_source; unchanged)
+  - <https://news.google.com/rss/articles/CBMiZkFVX3lxTE1ZOHFPaXNMdzFtd0R5QXlLR0hyYWFwbG84N0ZPdi1hNXdqX0NfQ3R1RnR1cWtldHJpNGFVZ056a3VIUlBPYVVXSmpXckVvS2VUeEl2MXNrM1QtUHE5eHYzODZXamxzZw?oc=5> — Nation Thailand
+- Bangladesh moves to strengthen medicine supply chains and improve access to essential medicines - World Health Organization (WHO) (single_secondary_source; unchanged)
+  - <https://news.google.com/rss/articles/CBMi4wFBVV95cUxPQnl1WmxOOHFuS2ZkaDJPVGpfX0hUa1FFN0cwQTg4cU45TVlYUmVVQzRvY2lvYnBNREp4cnZrQVpUem82c3hyelFIT0s5V3l5b3Jad3JIRnJWUlNnYnU5UFJUWnplMDVKV1MwMVltMXpiUEZiSzBmam5DbWx4ZzRqTHd4UmJjZzZJUkRiS0U0cnFLMVpRdnNnRV9mc2twVUh4ZWpoU3NYZDZQU0lJTnpvNzNFUURSR1NmS0F4S2ZNdmMxRHpsdDMtd3BGM2lvS1ZYWDhJMG9GZk1sdFVyRUp2cWxZcw?oc=5> — World Health Organization (WHO)
+- Somalia unites for a polio-free future on World Polio Day 2026 - World Health Organization (WHO) (single_secondary_source; unchanged)
+  - <https://news.google.com/rss/articles/CBMiqAFBVV95cUxPOTU5TU9ZYTZnczl5R1FyYjVkNERybGJxejF0bWdEenlTQWZfNVpzbndTMDdjdGs0NkQ0YWpfRWlxdTJ3UWgxOVpvbkV4ZngwOE1UYW5PMVd1cmI3MXNsQXlUd2txeGczUUVIZGhQNXdiZ3BmOW5fVmo0Z1Z3S1lGOXN1MldKWDlEVmcyVlFEZFVnbWp1UnM1Q2c5UUZWX2pReWJVWU5QZkI?oc=5> — World Health Organization (WHO)
+- AVAREF assembly resolution - The AVAREF strategic plan for national regulatory authorities (NRAS) and national ethics committees (ECS), 2018 - 2020 - WHO | Regional Office for Africa (single_secondary_source; new)
+  - <https://news.google.com/rss/articles/CBMiZkFVX3lxTE5EMzlGbFc1QXhRVTBGZVMxVHdYaHBvWFV3YlFvX04xRVR4SGRnOF9kckZDdFlRZkEzYmw0RENqakhVUERnVXRSMHJ3bmF0N1Q5SUlySzU3UlZDUjlLSzNXTjc1b2JfQQ?oc=5> — WHO | Regional Office for Africa
+- PLAN DIRECTEUR NATIONAL D’ELIMINATION DES MALADIES TROPICALES NEGLIGEES AU CAMEROUN 2024-2028 - WHO | Regional Office for Africa (single_secondary_source; new)
+  - <https://news.google.com/rss/articles/CBMiYkFVX3lxTE4yaTNHWU5kb3dad1RWd3RxMnNjRWkxdFlMMFZrZXBlbHRXMU41YTRnSWx2UmxBVWJnR3lBWHdIcG5LMnF0Tl9aTzlHc25xLWFoWWltNk54V0MxR1NLVW5PZUtR?oc=5> — WHO | Regional Office for Africa
+- FAO/WHO Expert Meeting on the Application of Nanotechnologies in the Food and Agriculture Sectors - World Health Organization (WHO) (single_secondary_source; new)
+  - <https://news.google.com/rss/articles/CBMiUkFVX3lxTE8tQmJWUk1ORklnMnJvc0xzUHBlNzhPckxpU01INDhJZWZfNjVGM2ZUa0xWN0NwR0RWbEFHZEJNdjBrMkJVRG1hdVhmVktNWXhUQnc?oc=5> — World Health Organization (WHO)
+- WHO | News releases - World Health Organization (WHO) (single_secondary_source; updated)
+  - <https://news.google.com/rss/articles/CBMiiAFBVV95cUxQcThwejdzbXBCM0xucER1WnRuaU9Wcm0zTkdUYWZvN21kdlFjWTZodGhSLU9qWkFRM3ctNnU0Z21mbWlPRmRWcXE0eWZJVVdBNDJCRlBmcVJ0cWFENktkUFBTRXMtY2xWOEdoUmtacEJzcHYzQjlhV1ppQnl3VFVtamZkTmZaaUNn?oc=5> — World Health Organization (WHO)
+  - <https://news.google.com/rss/articles/CBMiVkFVX3lxTE0ydHREbEFndHFGeEs3UHdRNFBYbjZWcnA4QTh1NUtxOW04RktsSDNud0p5dWNsVXJqSENZTklRMElHTjhRdU0xSnBmeVJoWWxLdElYY3VR?oc=5> — World Health Organization (WHO)
+- Country Cooperation Strategy 2024–2028 Ghana - WHO | Regional Office for Africa (single_secondary_source; new)
+  - <https://news.google.com/rss/articles/CBMiZkFVX3lxTFBHM0dEbmlVYzV0VENmYjJTV2RiUkdMSnpmd21JNUdYWXMxVnlyeF9OX0pXSTlFTjByMXl2V2Y4eXNmQWFCLVlEaE95cTRfYW1PUmdNUC1XVjQwbmNNbnFTVGJITXAzQQ?oc=5> — WHO | Regional Office for Africa
+- Guide for National Public Health Laboratory Networking to Strengthen Integrated Disease Surveillance and Response (IDSR) - WHO | Regional Office for Africa (single_secondary_source; unchanged)
+  - <https://news.google.com/rss/articles/CBMiZEFVX3lxTFAtS0pObmZuTGsyR0h2ZDJXNTRrWVRoVVM1Q2JrbkFUQkhIN1ctT1NFM3dHakpBUy1ESnUycjAzTUpkYW5NS19LNlp1c3BrNE5YelM2M192YXpjb21VbGdjWGF6Q0s?oc=5> — WHO | Regional Office for Africa
+- Yemen conflict 2026 - World Health Organization (WHO) (single_secondary_source; unchanged)
+  - <https://news.google.com/rss/articles/CBMiUkFVX3lxTE9nN2MxOTdJb2g3bGN6MU9oMzUzSnA2Ym9sQ3hzQXBWQXlSQlg3bFM2RE91ak5WQ0ZoTmV1bmduNnZ6c25BZ1cwdFY2VDBqZU9WRkE?oc=5> — World Health Organization (WHO)
+- Two drops, one dream: a vaccinator&\#x27;s 14-year journey to protect Afghan children from polio - World Health Organization (WHO) (single_secondary_source; unchanged)
+  - <https://news.google.com/rss/articles/CBMi1AFBVV95cUxNWkMwdWFrQXdoVTFzYWtGa2k0bHk0S2RCU2VGMWpCMHJVZHhxVFllaHlwUGZyaXV6MFc1N2tMVU1pb3VFWFlvbDVkRXNvcTlueElEVGhUQWw5TEpNcEQ5RUsxSENYZ29xa2dEZlMyYW9FREM1cV9udDRyTW4weHFUdXdnTUVZY3ZzQzBQb29PaVZFcGN5WV8zNF9zaEpvVEwtZjBBVkZ1czF2T2k0ZXNYNzNPUmJMWFU0QkZyNTFHRkNqWFBVRjRyWksydUlpVklBNk00MQ?oc=5> — World Health Organization (WHO)
+- ​Breast Cancer Killed 6 . 9 Lakh Globally in 2024 with 80 % Lacking Specific Risk Factors : WHO &amp; Oncologist Outline Screening Steps (single_secondary_source; new)
+  - <https://pragativadi.com/breast-cancer-killed-6-9-lakh-globally-in-2024-with-80-lacking-specific-risk-factors-who-oncologist-outline-screening-steps> — pragativadi.com
+- Ending polio through regional partnerships - World Health Organization (WHO) (single_secondary_source; unchanged)
+  - <https://news.google.com/rss/articles/CBMimwFBVV95cUxPVHV4RW9OTVo3elRCTWNhdnlYdU1TMkEwby13bzdfZEI4U2FzRWptaFN2anpBMDVyN1k1ZXNEa3ZrZklPUjZUTGU2RjB1SDZtdUtPNVEtWEJBcDZrNW1EOVd6dXVYT2lnMGU5TUlFX0c3MHpuSW9TWEN6aVhDOHpCVVNNUWFWT2tQX0tJX0FKWUJTNHVERFcwQk5VYw?oc=5> — World Health Organization (WHO)
+- Tanzanian President Lauds WHO Initiative to Develop Manual for Prevention and Management of Oral Diseases - WHO | Regional Office for Africa (single_secondary_source; unchanged)
+  - <https://news.google.com/rss/articles/CBMiZEFVX3lxTE1mRGNiZ0J4YmRDQ1RxZ3VVMG9FTkhDQms0MkVGRWl4TGdnTDVJY0EzdEZ5ZDNVUzRQOS1tTTNxT0VvX0FELTRIWlRaUmxJa3BMZENZT2hhZEI4QVA5cjhpOGdKbTU?oc=5> — WHO | Regional Office for Africa
+
+## Limitations
+- Bounded queries do not provide exhaustive global coverage.
+- GDELT seen time is an observation timestamp, not verified publication time.
+- Contradiction/resolution labels require explicit source wording and review; no automatic truth adjudication.

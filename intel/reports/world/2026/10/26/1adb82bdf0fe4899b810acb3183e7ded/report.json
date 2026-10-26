@@ -1,0 +1,4504 @@
+{
+  "analysis_mode": "deterministic",
+  "changes": [
+    {
+      "finding_id": "d1ce4a997d533ddda84fddd9",
+      "institution_ids": [],
+      "observed_at": "2026-10-26T13:19:22.536937+00:00",
+      "type": "new"
+    },
+    {
+      "finding_id": "aede03d0f9cf5fbb47a59e8d",
+      "institution_ids": [],
+      "observed_at": "2026-10-26T13:19:22.536937+00:00",
+      "type": "new"
+    },
+    {
+      "finding_id": "26c78936fc8176347658ca88",
+      "institution_ids": [],
+      "observed_at": "2026-10-26T13:19:22.536937+00:00",
+      "type": "new"
+    },
+    {
+      "finding_id": "d62b9f1948cc25123d14ec40",
+      "institution_ids": [],
+      "observed_at": "2026-10-26T13:19:22.536937+00:00",
+      "type": "new"
+    },
+    {
+      "finding_id": "476a1ab12fc9038d841ce5d3",
+      "institution_ids": [],
+      "observed_at": "2026-10-26T13:19:22.536937+00:00",
+      "type": "new"
+    },
+    {
+      "finding_id": "80837e8e0e2be98dec3f9aa5",
+      "institution_ids": [],
+      "observed_at": "2026-10-26T13:19:22.536937+00:00",
+      "type": "new"
+    },
+    {
+      "finding_id": "8352497b68eca2f1ddbf48e7",
+      "institution_ids": [],
+      "observed_at": "2026-10-26T13:19:22.536937+00:00",
+      "type": "new"
+    },
+    {
+      "finding_id": "5637d03763ad98e9450acf01",
+      "institution_ids": [],
+      "observed_at": "2026-10-26T13:19:22.536937+00:00",
+      "type": "new"
+    },
+    {
+      "finding_id": "c44b03b2913511b328b39f4e",
+      "institution_ids": [],
+      "observed_at": "2026-10-26T13:19:22.536937+00:00",
+      "type": "new"
+    },
+    {
+      "finding_id": "4fd473ffe42861c10331e865",
+      "institution_ids": [],
+      "observed_at": "2026-10-26T13:19:22.536937+00:00",
+      "type": "new"
+    },
+    {
+      "finding_id": "5fb872cd1f7ecbcc548506f9",
+      "institution_ids": [],
+      "observed_at": "2026-10-26T13:19:22.536937+00:00",
+      "type": "new"
+    },
+    {
+      "finding_id": "bb4d009042060d8bfe86a280",
+      "institution_ids": [],
+      "observed_at": "2026-10-26T13:19:22.536937+00:00",
+      "type": "new"
+    },
+    {
+      "finding_id": "e1bb90786db5ca81d6bd96ec",
+      "institution_ids": [],
+      "observed_at": "2026-10-26T13:19:22.536937+00:00",
+      "type": "new"
+    },
+    {
+      "finding_id": "83f7a150e0d1678cc3cb8ff3",
+      "institution_ids": [],
+      "observed_at": "2026-10-26T13:19:22.536937+00:00",
+      "type": "new"
+    },
+    {
+      "finding_id": "4ec1940fd2150f3f1c74f6e3",
+      "institution_ids": [],
+      "observed_at": "2026-10-26T13:19:22.536937+00:00",
+      "type": "new"
+    },
+    {
+      "finding_id": "5809b0cb840728dc0fae1761",
+      "institution_ids": [],
+      "observed_at": "2026-10-26T13:19:22.536937+00:00",
+      "type": "new"
+    },
+    {
+      "finding_id": "5d0e06b455ed7337ae97a32b",
+      "institution_ids": [],
+      "observed_at": "2026-10-26T13:19:22.536937+00:00",
+      "type": "new"
+    },
+    {
+      "finding_id": "1fda985d11c9bfe16255b092",
+      "institution_ids": [],
+      "observed_at": "2026-10-26T13:19:22.536937+00:00",
+      "type": "new"
+    },
+    {
+      "finding_id": "d5ca7a8f30e4dd7ce61e0521",
+      "institution_ids": [],
+      "observed_at": "2026-10-26T13:19:22.536937+00:00",
+      "type": "new"
+    },
+    {
+      "finding_id": "f5703a6a36b108d762efd0e0",
+      "institution_ids": [],
+      "observed_at": "2026-10-26T13:19:22.536937+00:00",
+      "type": "new"
+    },
+    {
+      "finding_id": "7ff996fbf275ea3677b15763",
+      "institution_ids": [],
+      "observed_at": "2026-10-26T13:19:22.536937+00:00",
+      "type": "new"
+    },
+    {
+      "finding_id": "c5f04df389f8c1f09663c0d8",
+      "institution_ids": [],
+      "observed_at": "2026-10-26T13:19:22.536937+00:00",
+      "type": "new"
+    },
+    {
+      "finding_id": "be22a01bd69505b41b74795b",
+      "institution_ids": [],
+      "observed_at": "2026-10-26T13:19:22.536937+00:00",
+      "type": "new"
+    },
+    {
+      "finding_id": "5a962504fa67e27c13d7794b",
+      "institution_ids": [],
+      "observed_at": "2026-10-26T13:19:22.536937+00:00",
+      "type": "new"
+    },
+    {
+      "finding_id": "c3b5e40ca31b4312beb6b055",
+      "institution_ids": [],
+      "observed_at": "2026-10-26T13:19:22.536937+00:00",
+      "type": "new"
+    },
+    {
+      "finding_id": "5d2d42c6debb3ceebfff5979",
+      "institution_ids": [],
+      "observed_at": "2026-10-26T13:19:22.536937+00:00",
+      "type": "new"
+    },
+    {
+      "finding_id": "465d81fd27d3ecd90c304892",
+      "institution_ids": [],
+      "observed_at": "2026-10-26T13:19:22.536937+00:00",
+      "type": "new"
+    },
+    {
+      "finding_id": "dd7087ca368e4eea9f3f57fc",
+      "institution_ids": [],
+      "observed_at": "2026-10-26T13:19:22.536937+00:00",
+      "type": "new"
+    },
+    {
+      "finding_id": "2a86de0e6423f9da5b998f3e",
+      "institution_ids": [],
+      "observed_at": "2026-10-26T13:19:22.536937+00:00",
+      "type": "new"
+    },
+    {
+      "finding_id": "aa8cc2e773c24c197b7a6852",
+      "institution_ids": [],
+      "observed_at": "2026-10-26T13:19:22.536937+00:00",
+      "type": "new"
+    },
+    {
+      "finding_id": "414c4a76509d97d07be31f37",
+      "institution_ids": [],
+      "observed_at": "2026-10-26T13:19:22.536937+00:00",
+      "type": "new"
+    },
+    {
+      "finding_id": "d51d743199a63ef57cbdac94",
+      "institution_ids": [],
+      "observed_at": "2026-10-26T13:19:22.536937+00:00",
+      "type": "new"
+    },
+    {
+      "finding_id": "c32fdaaba0f6565dcda7cd3f",
+      "institution_ids": [],
+      "observed_at": "2026-10-26T13:19:22.536937+00:00",
+      "type": "new"
+    },
+    {
+      "finding_id": "68176bca92a1909f2c0b01a1",
+      "institution_ids": [],
+      "observed_at": "2026-10-26T13:19:22.536937+00:00",
+      "type": "new"
+    },
+    {
+      "finding_id": "5797d78156c917448de74779",
+      "institution_ids": [],
+      "observed_at": "2026-10-26T13:19:22.536937+00:00",
+      "type": "new"
+    },
+    {
+      "finding_id": "0eeddc1cfb7fefd9b6c73d26",
+      "institution_ids": [],
+      "observed_at": "2026-10-26T13:19:22.536937+00:00",
+      "type": "new"
+    },
+    {
+      "finding_id": "d7cc9dd69ab3a4d8cf1221f7",
+      "institution_ids": [],
+      "observed_at": "2026-10-26T13:19:22.536937+00:00",
+      "type": "new"
+    },
+    {
+      "finding_id": "3e68a72049aaf459cac54ec8",
+      "institution_ids": [],
+      "observed_at": "2026-10-26T13:19:22.536937+00:00",
+      "type": "new"
+    },
+    {
+      "finding_id": "6ecfd67d394ff677223e06d4",
+      "institution_ids": [],
+      "observed_at": "2026-10-26T13:19:22.536937+00:00",
+      "type": "new"
+    },
+    {
+      "finding_id": "e7cdf9ee1633bdeb1941b6da",
+      "institution_ids": [],
+      "observed_at": "2026-10-26T13:19:22.536937+00:00",
+      "type": "new"
+    },
+    {
+      "finding_id": "1eca7da4dc3196e86b28b1c7",
+      "institution_ids": [],
+      "observed_at": "2026-10-26T13:19:22.536937+00:00",
+      "type": "new"
+    },
+    {
+      "finding_id": "fc0216047db59516d489cbdc",
+      "institution_ids": [],
+      "observed_at": "2026-10-26T13:19:22.536937+00:00",
+      "type": "new"
+    },
+    {
+      "finding_id": "d14879e881f66e883a419a69",
+      "institution_ids": [],
+      "observed_at": "2026-10-26T13:19:22.536937+00:00",
+      "type": "new"
+    },
+    {
+      "finding_id": "e94725ee39a7bb0ce2fcfc78",
+      "institution_ids": [],
+      "observed_at": "2026-10-26T13:19:22.536937+00:00",
+      "type": "new"
+    },
+    {
+      "finding_id": "4e1b307212b7493826f9fac7",
+      "institution_ids": [],
+      "observed_at": "2026-10-26T13:19:22.536937+00:00",
+      "type": "new"
+    },
+    {
+      "finding_id": "f298beb95d24eacdf20fa350",
+      "institution_ids": [],
+      "observed_at": "2026-10-26T13:19:22.536937+00:00",
+      "type": "new"
+    },
+    {
+      "finding_id": "9d09adeb49bc569e7db4bddd",
+      "institution_ids": [],
+      "observed_at": "2026-10-26T13:19:22.536937+00:00",
+      "type": "new"
+    },
+    {
+      "finding_id": "a7e5893a22bd9ee78eaf4704",
+      "institution_ids": [],
+      "observed_at": "2026-10-26T13:19:22.536937+00:00",
+      "type": "new"
+    },
+    {
+      "finding_id": "88ca4316c5d30db6ddbac00f",
+      "institution_ids": [],
+      "observed_at": "2026-10-26T13:19:22.536937+00:00",
+      "type": "new"
+    },
+    {
+      "finding_id": "70914255c37f88bba652eeb5",
+      "institution_ids": [],
+      "observed_at": "2026-10-26T13:19:22.536937+00:00",
+      "type": "new"
+    }
+  ],
+  "coverage": {
+    "basis": "search query region; event geography unknown",
+    "missing_regions": [],
+    "regions": [
+      "Africa",
+      "Americas",
+      "Asia",
+      "Europe",
+      "Oceania"
+    ]
+  },
+  "created_at": "2026-10-26T13:19:22.536937+00:00",
+  "errors": [
+    {
+      "code": "SOURCE_INCOMPLETE",
+      "source": "gdelt"
+    }
+  ],
+  "findings": [
+    {
+      "change_type": "new",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "d1ce4a997d533ddda84fddd9",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "World News in Brief: Iran nuclear inspections, deadly church attack in Jordan, El Fasher – one year on - The European Sting",
+          "source_id": "98c7373001a31a3531f8dee1"
+        }
+      ],
+      "finding_id": "d1ce4a997d533ddda84fddd9",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-26T13:19:22.256955+00:00",
+      "profile_relevance": 7.864209988946759,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-26T10:03:50+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "Europe"
+      ],
+      "source_ids": [
+        "98c7373001a31a3531f8dee1"
+      ],
+      "summary": "World News in Brief: Iran nuclear inspections, deadly church attack in Jordan, El Fasher – one year on - The European Sting",
+      "topics": [
+        "world",
+        "news"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "new",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "aede03d0f9cf5fbb47a59e8d",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "China increasingly depends on copying American AI | World News - Hindustan Times",
+          "source_id": "c1ee7541f9ac7c2ae4325433"
+        }
+      ],
+      "finding_id": "aede03d0f9cf5fbb47a59e8d",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-26T13:19:22.256955+00:00",
+      "profile_relevance": 7.565922951909722,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-26T02:54:18+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "Americas"
+      ],
+      "source_ids": [
+        "c1ee7541f9ac7c2ae4325433"
+      ],
+      "summary": "China increasingly depends on copying American AI | World News - Hindustan Times",
+      "topics": [
+        "world",
+        "news"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "unchanged",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "ce67b585827ad66190b04b18",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "Kenya News Agency - KNA. . DP Kithure Kindiki – If the world has become transactional, Africa must become transactional too. - Facebook",
+          "source_id": "f3f2ab184ce80e3c1d0e19d7"
+        }
+      ],
+      "finding_id": "ce67b585827ad66190b04b18",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-26T13:19:22.256955+00:00",
+      "profile_relevance": 6.1506914704282405,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-24T16:56:22+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "Africa"
+      ],
+      "source_ids": [
+        "f3f2ab184ce80e3c1d0e19d7"
+      ],
+      "summary": "Kenya News Agency - KNA. . DP Kithure Kindiki – If the world has become transactional, Africa must become transactional too. - Facebook",
+      "topics": [
+        "world",
+        "news"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "new",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "26c78936fc8176347658ca88",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "MSC: More Complimentary Dining Options on World Asia - Cruise Industry News",
+          "source_id": "4b517f4e3bda54571218a53d"
+        }
+      ],
+      "finding_id": "26c78936fc8176347658ca88",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-26T13:19:22.256955+00:00",
+      "profile_relevance": 5.903087303761574,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-26T10:59:49+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "Asia"
+      ],
+      "source_ids": [
+        "4b517f4e3bda54571218a53d"
+      ],
+      "summary": "MSC: More Complimentary Dining Options on World Asia - Cruise Industry News",
+      "topics": [
+        "world",
+        "news"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "new",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "d62b9f1948cc25123d14ec40",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "Chula Achiev World’s Top 2% Scientists Rank - QS GEN",
+          "source_id": "80090ea2e7d44d5247fe6c44"
+        }
+      ],
+      "finding_id": "d62b9f1948cc25123d14ec40",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-26T13:19:22.256955+00:00",
+      "profile_relevance": 5.5813164704282405,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-26T03:16:28+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "Oceania"
+      ],
+      "source_ids": [
+        "80090ea2e7d44d5247fe6c44"
+      ],
+      "summary": "Chula Achiev World’s Top 2% Scientists Rank - QS GEN",
+      "topics": [
+        "world",
+        "news"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "new",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "476a1ab12fc9038d841ce5d3",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "Seam Cutter",
+          "source_id": "0186c0f1dfec08d5c6eec295"
+        }
+      ],
+      "finding_id": "476a1ab12fc9038d841ce5d3",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-26T13:19:22.256955+00:00",
+      "profile_relevance": 2.0770456370949075,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-25T15:10:19+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "unknown"
+      ],
+      "source_ids": [
+        "0186c0f1dfec08d5c6eec295"
+      ],
+      "summary": "Seam Cutter",
+      "topics": [
+        "world",
+        "news"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "new",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "80837e8e0e2be98dec3f9aa5",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "Europe's Navy Eyes Hormuz: Britain and France ready mine-hunting drones to reopen the world’s oil chokepoint, but only if the guns fall silent - Gulf News",
+          "source_id": "9c738798bba805284bdd1fae"
+        }
+      ],
+      "finding_id": "80837e8e0e2be98dec3f9aa5",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-26T13:19:22.256955+00:00",
+      "profile_relevance": 5.955124340798611,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-26T12:14:45+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "Europe"
+      ],
+      "source_ids": [
+        "9c738798bba805284bdd1fae"
+      ],
+      "summary": "Europe's Navy Eyes Hormuz: Britain and France ready mine-hunting drones to reopen the world’s oil chokepoint, but only if the guns fall silent - Gulf News",
+      "topics": [
+        "world",
+        "news"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "new",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "8352497b68eca2f1ddbf48e7",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "Man dubbed ‘America’s Nostradamus’ shares chilling prediction about the world before 2028 - LADbible",
+          "source_id": "a4d8efa490edfdc3bd07c926"
+        }
+      ],
+      "finding_id": "8352497b68eca2f1ddbf48e7",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-26T13:19:22.256955+00:00",
+      "profile_relevance": 5.833179896354167,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-26T09:19:09+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "Americas"
+      ],
+      "source_ids": [
+        "a4d8efa490edfdc3bd07c926"
+      ],
+      "summary": "Man dubbed ‘America’s Nostradamus’ shares chilling prediction about the world before 2028 - LADbible",
+      "topics": [
+        "world",
+        "news"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "new",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "5637d03763ad98e9450acf01",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "African women’s football records significant milestone at FIFA U-17 Women’s World Cup - CAFOnline.com",
+          "source_id": "07aaabe1347f401ea422fc73"
+        }
+      ],
+      "finding_id": "5637d03763ad98e9450acf01",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-26T13:19:22.256955+00:00",
+      "profile_relevance": 5.946953044502315,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-26T12:02:59+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "Africa"
+      ],
+      "source_ids": [
+        "07aaabe1347f401ea422fc73"
+      ],
+      "summary": "African women’s football records significant milestone at FIFA U-17 Women’s World Cup - CAFOnline.com",
+      "topics": [
+        "world",
+        "news"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "new",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "c44b03b2913511b328b39f4e",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "The 13th World Sustainability Forum - Asia Research News |",
+          "source_id": "370f3e22be16ad9c8e40a079"
+        }
+      ],
+      "finding_id": "c44b03b2913511b328b39f4e",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-26T13:19:22.256955+00:00",
+      "profile_relevance": 5.820170637094908,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-26T09:00:25+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "Asia"
+      ],
+      "source_ids": [
+        "370f3e22be16ad9c8e40a079"
+      ],
+      "summary": "The 13th World Sustainability Forum - Asia Research News |",
+      "topics": [
+        "world",
+        "news"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "new",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "4fd473ffe42861c10331e865",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "Aussie Roads Become Rollercoaster Rides Featuring Fibreglass Crocodiles in VW's 'Walkinshaw World' — LBB - LBB - Little Black Book",
+          "source_id": "a4d83ad84515d10495df3864"
+        }
+      ],
+      "finding_id": "4fd473ffe42861c10331e865",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-26T13:19:22.256955+00:00",
+      "profile_relevance": 5.431964618576389,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-25T23:41:24+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "Oceania"
+      ],
+      "source_ids": [
+        "a4d83ad84515d10495df3864"
+      ],
+      "summary": "Aussie Roads Become Rollercoaster Rides Featuring Fibreglass Crocodiles in VW's 'Walkinshaw World' — LBB - LBB - Little Black Book",
+      "topics": [
+        "world",
+        "news"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "new",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "5fb872cd1f7ecbcc548506f9",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "World reacts to Lula’s victory in Brazil’s presidential election - Al Jazeera",
+          "source_id": "dde11345e08d00c4b6cfc38c"
+        }
+      ],
+      "finding_id": "5fb872cd1f7ecbcc548506f9",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-26T13:19:22.256955+00:00",
+      "profile_relevance": 5.9546498037615745,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-26T12:14:04+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "Europe",
+        "Asia"
+      ],
+      "source_ids": [
+        "dde11345e08d00c4b6cfc38c"
+      ],
+      "summary": "World reacts to Lula’s victory in Brazil’s presidential election - Al Jazeera",
+      "topics": [
+        "world",
+        "news"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "new",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "bb4d009042060d8bfe86a280",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "Julio Mendoza Loor and Jewel’s Goldstrike capture Mexico World Cup Freestyle On Highest Score in 3 Years for American-based rider from Ecuador. - Dressage-News",
+          "source_id": "4877bf3bfea11a1fe09494d2"
+        }
+      ],
+      "finding_id": "bb4d009042060d8bfe86a280",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-26T13:19:22.256955+00:00",
+      "profile_relevance": 5.365934525983796,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-25T22:06:19+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "Americas"
+      ],
+      "source_ids": [
+        "4877bf3bfea11a1fe09494d2"
+      ],
+      "summary": "Julio Mendoza Loor and Jewel’s Goldstrike capture Mexico World Cup Freestyle On Highest Score in 3 Years for American-based rider from Ecuador. - Dressage-News",
+      "topics": [
+        "world",
+        "news"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "new",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "e1bb90786db5ca81d6bd96ec",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "Lesotho Seeks Sustainable Investment Partnerships at 9th World Investment Forum 2026 - Africa.com",
+          "source_id": "d8cf5a192a97343a5702793d"
+        }
+      ],
+      "finding_id": "e1bb90786db5ca81d6bd96ec",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-26T13:19:22.256955+00:00",
+      "profile_relevance": 5.8892562852430554,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-26T10:39:54+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "Africa"
+      ],
+      "source_ids": [
+        "d8cf5a192a97343a5702793d"
+      ],
+      "summary": "Lesotho Seeks Sustainable Investment Partnerships at 9th World Investment Forum 2026 - Africa.com",
+      "topics": [
+        "world",
+        "news"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "new",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "83f7a150e0d1678cc3cb8ff3",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "Asia Is Building the World's Next $15 Trillion Energy Market - Crude Oil Prices Today | OilPrice.com",
+          "source_id": "860c1e5e2c8877a119cb45d7"
+        }
+      ],
+      "finding_id": "83f7a150e0d1678cc3cb8ff3",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-26T13:19:22.256955+00:00",
+      "profile_relevance": 5.4032146185763885,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-25T23:00:00+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "Asia"
+      ],
+      "source_ids": [
+        "860c1e5e2c8877a119cb45d7"
+      ],
+      "summary": "Asia Is Building the World's Next $15 Trillion Energy Market - Crude Oil Prices Today | OilPrice.com",
+      "topics": [
+        "world",
+        "news"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "new",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "4ec1940fd2150f3f1c74f6e3",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "Volkswagen Australia - Walkinshaw World — LBB - LBB - Little Black Book",
+          "source_id": "00d0d06199a379aade06c49c"
+        }
+      ],
+      "finding_id": "4ec1940fd2150f3f1c74f6e3",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-26T13:19:22.256955+00:00",
+      "profile_relevance": 5.390274803761574,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-25T22:41:22+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "Oceania"
+      ],
+      "source_ids": [
+        "00d0d06199a379aade06c49c"
+      ],
+      "summary": "Volkswagen Australia - Walkinshaw World — LBB - LBB - Little Black Book",
+      "topics": [
+        "world",
+        "news"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "new",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "5809b0cb840728dc0fae1761",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "Video. Latest news bulletin | October 26th, 2026 – Midday - Euronews.com",
+          "source_id": "a9dcd311a9176004de3dd4c3"
+        }
+      ],
+      "finding_id": "5809b0cb840728dc0fae1761",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-26T13:19:22.256955+00:00",
+      "profile_relevance": 5.9033882296875,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-26T11:00:15+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "Europe"
+      ],
+      "source_ids": [
+        "a9dcd311a9176004de3dd4c3"
+      ],
+      "summary": "Video. Latest news bulletin | October 26th, 2026 – Midday - Euronews.com",
+      "topics": [
+        "world",
+        "news"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "new",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "5d0e06b455ed7337ae97a32b",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "Fans try to see World Series from American Family Field windows - Yahoo Sports",
+          "source_id": "d44f5d0af1c5a07cea7d3119"
+        }
+      ],
+      "finding_id": "5d0e06b455ed7337ae97a32b",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-26T13:19:22.256955+00:00",
+      "profile_relevance": 5.211906748206019,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-25T18:24:31+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "Americas"
+      ],
+      "source_ids": [
+        "d44f5d0af1c5a07cea7d3119"
+      ],
+      "summary": "Fans try to see World Series from American Family Field windows - Yahoo Sports",
+      "topics": [
+        "world",
+        "news"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "new",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "1fda985d11c9bfe16255b092",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "South African Paddlers Make Their Mark at World Championships - Good Things Guy",
+          "source_id": "b87b0497950f52be66d6b1e1"
+        }
+      ],
+      "finding_id": "1fda985d11c9bfe16255b092",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-26T13:19:22.256955+00:00",
+      "profile_relevance": 5.882578044502315,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-26T10:30:17+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "Africa"
+      ],
+      "source_ids": [
+        "b87b0497950f52be66d6b1e1"
+      ],
+      "summary": "South African Paddlers Make Their Mark at World Championships - Good Things Guy",
+      "topics": [
+        "world",
+        "news"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "new",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "d5ca7a8f30e4dd7ce61e0521",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "Why the world’s biggest events are landing in this Asian city - Meetings & Conventions Asia",
+          "source_id": "c1470f0a6dedaff2e6341895"
+        }
+      ],
+      "finding_id": "d5ca7a8f30e4dd7ce61e0521",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-26T13:19:22.256955+00:00",
+      "profile_relevance": 5.242508600057871,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-25T19:08:35+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "Asia"
+      ],
+      "source_ids": [
+        "c1470f0a6dedaff2e6341895"
+      ],
+      "summary": "Why the world’s biggest events are landing in this Asian city - Meetings & Conventions Asia",
+      "topics": [
+        "world",
+        "news"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "new",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "f5703a6a36b108d762efd0e0",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "Samoa bow out of the FIFA U-17 Women’s World Cup™ group stages following a 4-0 defeat to Kenya - Oceania Football Confederation",
+          "source_id": "cff8832ad3f539342beec335"
+        }
+      ],
+      "finding_id": "f5703a6a36b108d762efd0e0",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-26T13:19:22.256955+00:00",
+      "profile_relevance": 5.303816470428241,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-25T20:36:52+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "Oceania"
+      ],
+      "source_ids": [
+        "cff8832ad3f539342beec335"
+      ],
+      "summary": "Samoa bow out of the FIFA U-17 Women’s World Cup™ group stages following a 4-0 defeat to Kenya - Oceania Football Confederation",
+      "topics": [
+        "world",
+        "news"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "new",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "7ff996fbf275ea3677b15763",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "Europe is the world’s most expensive region to build data centres - Green Street News",
+          "source_id": "881fc31cdf6e962f733437fe"
+        }
+      ],
+      "finding_id": "7ff996fbf275ea3677b15763",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-26T13:19:22.256955+00:00",
+      "profile_relevance": 5.771362766724537,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-26T07:50:08+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "Europe"
+      ],
+      "source_ids": [
+        "881fc31cdf6e962f733437fe"
+      ],
+      "summary": "Europe is the world’s most expensive region to build data centres - Green Street News",
+      "topics": [
+        "world",
+        "news"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "new",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "c5f04df389f8c1f09663c0d8",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "Brewers fans celebrate World Series return outside American Family Field - Channel 3000",
+          "source_id": "c6b4fc8c44ec92495a5735f5"
+        }
+      ],
+      "finding_id": "c5f04df389f8c1f09663c0d8",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-26T13:19:22.256955+00:00",
+      "profile_relevance": 5.142797951909722,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-25T16:45:00+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "Americas"
+      ],
+      "source_ids": [
+        "c6b4fc8c44ec92495a5735f5"
+      ],
+      "summary": "Brewers fans celebrate World Series return outside American Family Field - Channel 3000",
+      "topics": [
+        "world",
+        "news"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "new",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "be22a01bd69505b41b74795b",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "Smart Africa, World Bank discuss cooperation to advance digital transformation - Tech Review Africa",
+          "source_id": "7b67a4b90f496d6f3c58c0c6"
+        }
+      ],
+      "finding_id": "be22a01bd69505b41b74795b",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-26T13:19:22.256955+00:00",
+      "profile_relevance": 5.865286377835648,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-26T10:05:23+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "Africa"
+      ],
+      "source_ids": [
+        "7b67a4b90f496d6f3c58c0c6"
+      ],
+      "summary": "Smart Africa, World Bank discuss cooperation to advance digital transformation - Tech Review Africa",
+      "topics": [
+        "world",
+        "news"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "new",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "5a962504fa67e27c13d7794b",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "Best World CEO Dora Hoan Elected Chair of Global Direct Selling Body - Retail News Asia",
+          "source_id": "84d622295bd84343ecff6e81"
+        }
+      ],
+      "finding_id": "5a962504fa67e27c13d7794b",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-26T13:19:22.256955+00:00",
+      "profile_relevance": 5.221258600057871,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-25T18:37:59+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "Asia"
+      ],
+      "source_ids": [
+        "84d622295bd84343ecff6e81"
+      ],
+      "summary": "Best World CEO Dora Hoan Elected Chair of Global Direct Selling Body - Retail News Asia",
+      "topics": [
+        "world",
+        "news"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "unchanged",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "9802d3b5cde03d918e7762e6",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "Tough start for Oceania teams as FIFA U-15 Boys’ World Cup gets underway - Friends of Football",
+          "source_id": "201f7fabda153de806a1840d"
+        }
+      ],
+      "finding_id": "9802d3b5cde03d918e7762e6",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-26T13:19:22.256955+00:00",
+      "profile_relevance": 4.906131285243055,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-25T11:04:12+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "Oceania"
+      ],
+      "source_ids": [
+        "201f7fabda153de806a1840d"
+      ],
+      "summary": "Tough start for Oceania teams as FIFA U-15 Boys’ World Cup gets underway - Friends of Football",
+      "topics": [
+        "world",
+        "news"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "new",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "c3b5e40ca31b4312beb6b055",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "EU trade deal about ‘role of Australia in the world’ - Yahoo News Australia",
+          "source_id": "bc828417fb20da7c8767c516"
+        }
+      ],
+      "finding_id": "c3b5e40ca31b4312beb6b055",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-26T13:19:22.256955+00:00",
+      "profile_relevance": 5.237682211168981,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-25T19:01:38+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "Europe"
+      ],
+      "source_ids": [
+        "bc828417fb20da7c8767c516"
+      ],
+      "summary": "EU trade deal about ‘role of Australia in the world’ - Yahoo News Australia",
+      "topics": [
+        "world",
+        "news"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "new",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "5d2d42c6debb3ceebfff5979",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "Good Morning America: News to start your day | October 25 - Central Oregon Daily",
+          "source_id": "d56b69d075b07f65fb20391c"
+        }
+      ],
+      "finding_id": "5d2d42c6debb3ceebfff5979",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-26T13:19:22.256955+00:00",
+      "profile_relevance": 4.999348877835648,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-25T13:18:26+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "Americas"
+      ],
+      "source_ids": [
+        "d56b69d075b07f65fb20391c"
+      ],
+      "summary": "Good Morning America: News to start your day | October 25 - Central Oregon Daily",
+      "topics": [
+        "world",
+        "news"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "new",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "465d81fd27d3ecd90c304892",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "Mandela University Choirs and Brass Ensemble take centre stage at Skål International World Congress - Nelson Mandela University",
+          "source_id": "c8a8ce12cf00c8ea6fc3451f"
+        }
+      ],
+      "finding_id": "465d81fd27d3ecd90c304892",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-26T13:19:22.256955+00:00",
+      "profile_relevance": 5.8614669333912035,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-26T09:59:53+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "Africa"
+      ],
+      "source_ids": [
+        "c8a8ce12cf00c8ea6fc3451f"
+      ],
+      "summary": "Mandela University Choirs and Brass Ensemble take centre stage at Skål International World Congress - Nelson Mandela University",
+      "topics": [
+        "world",
+        "news"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "unchanged",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "0cdf2b800d4e8e2eacc5540e",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "Baseball-World Series rematch, Indian edition: Yankees beat Dodgers in Mumbai event - CNA",
+          "source_id": "73ede52a965b588d33178f33"
+        }
+      ],
+      "finding_id": "0cdf2b800d4e8e2eacc5540e",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-26T13:19:22.256955+00:00",
+      "profile_relevance": 4.721536377835648,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-25T06:38:23+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "Asia"
+      ],
+      "source_ids": [
+        "73ede52a965b588d33178f33"
+      ],
+      "summary": "Baseball-World Series rematch, Indian edition: Yankees beat Dodgers in Mumbai event - CNA",
+      "topics": [
+        "world",
+        "news"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "unchanged",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "4c12db3824fb6a91cd29376c",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "NKorea’s Kim calls for training world’s ‘strongest’ military - The Manila Times",
+          "source_id": "7b7d50ecbc0c56457b7e5a90"
+        }
+      ],
+      "finding_id": "4c12db3824fb6a91cd29376c",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-26T13:19:22.256955+00:00",
+      "profile_relevance": 4.117103507465278,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-24T16:08:00+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "Oceania"
+      ],
+      "source_ids": [
+        "7b7d50ecbc0c56457b7e5a90"
+      ],
+      "summary": "NKorea’s Kim calls for training world’s ‘strongest’ military - The Manila Times",
+      "topics": [
+        "world",
+        "news"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "new",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "dd7087ca368e4eea9f3f57fc",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "Off the Record: Yalta 2.0 spells bad news for Europe in desperate need of a plan - Euronews.com",
+          "source_id": "8afee1f6305677d05396ce86"
+        }
+      ],
+      "finding_id": "dd7087ca368e4eea9f3f57fc",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-26T13:19:22.256955+00:00",
+      "profile_relevance": 5.138747025983797,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-25T16:39:10+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "Europe"
+      ],
+      "source_ids": [
+        "8afee1f6305677d05396ce86"
+      ],
+      "summary": "Off the Record: Yalta 2.0 spells bad news for Europe in desperate need of a plan - Euronews.com",
+      "topics": [
+        "world",
+        "news"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "unchanged",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "b3b833ef3595bf87008b53fd",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "When America Reordered the World - freebeacon.com",
+          "source_id": "fa669f05bcb97a5f47f34690"
+        }
+      ],
+      "finding_id": "b3b833ef3595bf87008b53fd",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-26T13:19:22.256955+00:00",
+      "profile_relevance": 4.8245224889467595,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-25T09:06:41+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "Americas"
+      ],
+      "source_ids": [
+        "fa669f05bcb97a5f47f34690"
+      ],
+      "summary": "When America Reordered the World - freebeacon.com",
+      "topics": [
+        "world",
+        "news"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "new",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "2a86de0e6423f9da5b998f3e",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "Partnering with Sunday World to equip South Africa’s next generation of journalists - Johannesburg Sunday World",
+          "source_id": "5511efcd78a6bf58731208cc"
+        }
+      ],
+      "finding_id": "2a86de0e6423f9da5b998f3e",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-26T13:19:22.256955+00:00",
+      "profile_relevance": 5.796547951909722,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-26T08:26:24+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "Africa"
+      ],
+      "source_ids": [
+        "5511efcd78a6bf58731208cc"
+      ],
+      "summary": "Partnering with Sunday World to equip South Africa’s next generation of journalists - Johannesburg Sunday World",
+      "topics": [
+        "world",
+        "news"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "unchanged",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "0ecd080efa28fcc633e6b1b3",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "PM Wong calls for gas contracts to be honored — Channel NewsAsia - UA.NEWS",
+          "source_id": "bcf6a009cc3cd4dc3457b52f"
+        }
+      ],
+      "finding_id": "0ecd080efa28fcc633e6b1b3",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-26T13:19:22.256955+00:00",
+      "profile_relevance": 4.617485451909722,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-25T04:08:33+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "Asia"
+      ],
+      "source_ids": [
+        "bcf6a009cc3cd4dc3457b52f"
+      ],
+      "summary": "PM Wong calls for gas contracts to be honored — Channel NewsAsia - UA.NEWS",
+      "topics": [
+        "world",
+        "news"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "new",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "aa8cc2e773c24c197b7a6852",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "'Fanatec Gran Turismo Eifel Cup 2026' Time Trial Begins 2 November. Amazing Prizes Await the Top Finishers! - gran-turismo.com",
+          "source_id": "7c0f4b34d718f124a7484325"
+        }
+      ],
+      "finding_id": "aa8cc2e773c24c197b7a6852",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-26T13:19:22.256955+00:00",
+      "profile_relevance": 3.8823812852430555,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-26T10:30:00+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "Oceania"
+      ],
+      "source_ids": [
+        "7c0f4b34d718f124a7484325"
+      ],
+      "summary": "'Fanatec Gran Turismo Eifel Cup 2026' Time Trial Begins 2 November. Amazing Prizes Await the Top Finishers! - gran-turismo.com",
+      "topics": [
+        "world",
+        "news"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "new",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "414c4a76509d97d07be31f37",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "Old World ablaze with fury of protests: over 1,300 people detained by police in France - News.by",
+          "source_id": "1a408bf411934c456851d798"
+        }
+      ],
+      "finding_id": "414c4a76509d97d07be31f37",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-26T13:19:22.256955+00:00",
+      "profile_relevance": 5.0985271185763885,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-25T15:41:15+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "Europe"
+      ],
+      "source_ids": [
+        "1a408bf411934c456851d798"
+      ],
+      "summary": "Old World ablaze with fury of protests: over 1,300 people detained by police in France - News.by",
+      "topics": [
+        "world",
+        "news"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "unchanged",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "c9710a6491716c1add4314dc",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "The history of the Women’s World Cup final – 1991: America victorious but was it officially a World Cup? - The Athletic - The New York Times",
+          "source_id": "3012de3811aa068fd6dc6b0f"
+        }
+      ],
+      "finding_id": "c9710a6491716c1add4314dc",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-26T13:19:22.256955+00:00",
+      "profile_relevance": 4.667311840798611,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-25T05:20:18+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "Americas"
+      ],
+      "source_ids": [
+        "3012de3811aa068fd6dc6b0f"
+      ],
+      "summary": "The history of the Women’s World Cup final – 1991: America victorious but was it officially a World Cup? - The Athletic - The New York Times",
+      "topics": [
+        "world",
+        "news"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "new",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "d51d743199a63ef57cbdac94",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "World’s second-largest economy boosts trade with Africa’s largest economy to $15 billion as South Africa grows wary of U.S. ties despite 125,000 jobs at stake - Business Insider Africa",
+          "source_id": "e0d1392ff092e20f96de5184"
+        }
+      ],
+      "finding_id": "d51d743199a63ef57cbdac94",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-26T13:19:22.256955+00:00",
+      "profile_relevance": 5.745112766724537,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-26T07:12:20+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "Africa"
+      ],
+      "source_ids": [
+        "e0d1392ff092e20f96de5184"
+      ],
+      "summary": "World’s second-largest economy boosts trade with Africa’s largest economy to $15 billion as South Africa grows wary of U.S. ties despite 125,000 jobs at stake - Business Insider Africa",
+      "topics": [
+        "world",
+        "news"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "new",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "c32fdaaba0f6565dcda7cd3f",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "Data of 110,000 Alliance Medinet members may have been compromised in Singapore — Channel NewsAsia - UA.NEWS",
+          "source_id": "efe5ece788c31dad3851ec0f"
+        }
+      ],
+      "finding_id": "c32fdaaba0f6565dcda7cd3f",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-26T13:19:22.256955+00:00",
+      "profile_relevance": 4.0944183222800925,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-24T15:35:20+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "Asia"
+      ],
+      "source_ids": [
+        "efe5ece788c31dad3851ec0f"
+      ],
+      "summary": "Data of 110,000 Alliance Medinet members may have been compromised in Singapore — Channel NewsAsia - UA.NEWS",
+      "topics": [
+        "world",
+        "news"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "new",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "68176bca92a1909f2c0b01a1",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "PGF Capital Q2 FY27 PAT surges 63.1% to RM8.2m on stronger insulation demand - The Sun Malaysia",
+          "source_id": "242756e9dcd180f269bf04dc"
+        }
+      ],
+      "finding_id": "68176bca92a1909f2c0b01a1",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-26T13:19:22.256955+00:00",
+      "profile_relevance": 3.8513396185763886,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-26T09:45:18+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "Oceania"
+      ],
+      "source_ids": [
+        "242756e9dcd180f269bf04dc"
+      ],
+      "summary": "PGF Capital Q2 FY27 PAT surges 63.1% to RM8.2m on stronger insulation demand - The Sun Malaysia",
+      "topics": [
+        "world",
+        "news"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "unchanged",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "8b58bad86da5f0e99bd58a63",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "Video. Latest news bulletin | October 25th, 2026 – Morning - Euronews.com",
+          "source_id": "6cfb8f4a1efb6c46e4be8f8b"
+        }
+      ],
+      "finding_id": "8b58bad86da5f0e99bd58a63",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-26T13:19:22.256955+00:00",
+      "profile_relevance": 4.736918322280093,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-25T07:00:32+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "Europe"
+      ],
+      "source_ids": [
+        "6cfb8f4a1efb6c46e4be8f8b"
+      ],
+      "summary": "Video. Latest news bulletin | October 25th, 2026 – Morning - Euronews.com",
+      "topics": [
+        "world",
+        "news"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "new",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "5797d78156c917448de74779",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "Another over-capacity crowd for Brewers' World Series Game 2 - Yahoo Sports",
+          "source_id": "4684f52b527ff809fc206d54"
+        }
+      ],
+      "finding_id": "5797d78156c917448de74779",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-26T13:19:22.256955+00:00",
+      "profile_relevance": 4.544881285243056,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-25T02:24:00+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "Americas"
+      ],
+      "source_ids": [
+        "4684f52b527ff809fc206d54"
+      ],
+      "summary": "Another over-capacity crowd for Brewers' World Series Game 2 - Yahoo Sports",
+      "topics": [
+        "world",
+        "news"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "new",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "0eeddc1cfb7fefd9b6c73d26",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "BBC World Service Expands Educational Programming In West Africa With Dars Hausa - Broadcast Media Africa",
+          "source_id": "5148eea24fe3dc95429b35ed"
+        }
+      ],
+      "finding_id": "0eeddc1cfb7fefd9b6c73d26",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-26T13:19:22.256955+00:00",
+      "profile_relevance": 5.721385914872685,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-26T06:38:10+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "Africa"
+      ],
+      "source_ids": [
+        "5148eea24fe3dc95429b35ed"
+      ],
+      "summary": "BBC World Service Expands Educational Programming In West Africa With Dars Hausa - Broadcast Media Africa",
+      "topics": [
+        "world",
+        "news"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "unchanged",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "50d9c3b44e3da181f726ab16",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "Alpine skiing-US veteran Moltzan opens World Cup season with first career win - CNA",
+          "source_id": "db315cf16da870cd8c5dc7c6"
+        }
+      ],
+      "finding_id": "50d9c3b44e3da181f726ab16",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-26T13:19:22.256955+00:00",
+      "profile_relevance": 4.023828044502315,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-24T13:53:41+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "Asia"
+      ],
+      "source_ids": [
+        "db315cf16da870cd8c5dc7c6"
+      ],
+      "summary": "Alpine skiing-US veteran Moltzan opens World Cup season with first career win - CNA",
+      "topics": [
+        "world",
+        "news"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "new",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "d7cc9dd69ab3a4d8cf1221f7",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "Australian Parliament pays tribute to injured lawmaker as it resumes work under increased security - The Manila Times",
+          "source_id": "4fbaf7775ad4d29c0745e4e7"
+        }
+      ],
+      "finding_id": "d7cc9dd69ab3a4d8cf1221f7",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-26T13:19:22.256955+00:00",
+      "profile_relevance": 3.7900201741319446,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-26T08:17:00+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "Oceania"
+      ],
+      "source_ids": [
+        "4fbaf7775ad4d29c0745e4e7"
+      ],
+      "summary": "Australian Parliament pays tribute to injured lawmaker as it resumes work under increased security - The Manila Times",
+      "topics": [
+        "world",
+        "news"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "new",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "3e68a72049aaf459cac54ec8",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "Ten days that could shake the world: democratic norms at stake in four pivotal elections - The Guardian",
+          "source_id": "94c9477cff8c556a55acdd89"
+        }
+      ],
+      "finding_id": "3e68a72049aaf459cac54ec8",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-26T13:19:22.256955+00:00",
+      "profile_relevance": 4.736547951909722,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-25T07:00:00+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "Europe"
+      ],
+      "source_ids": [
+        "94c9477cff8c556a55acdd89"
+      ],
+      "summary": "Ten days that could shake the world: democratic norms at stake in four pivotal elections - The Guardian",
+      "topics": [
+        "world",
+        "news"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "new",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "6ecfd67d394ff677223e06d4",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "‘Like a fairy tale’: USA’s Paula Moltzan becomes oldest first-time World Cup winner by 0.01sec - The Guardian",
+          "source_id": "4ff522869b0fdc11c722bda0"
+        }
+      ],
+      "finding_id": "6ecfd67d394ff677223e06d4",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-26T13:19:22.256955+00:00",
+      "profile_relevance": 4.426825729687501,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-24T23:34:00+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "Americas"
+      ],
+      "source_ids": [
+        "4ff522869b0fdc11c722bda0"
+      ],
+      "summary": "‘Like a fairy tale’: USA’s Paula Moltzan becomes oldest first-time World Cup winner by 0.01sec - The Guardian",
+      "topics": [
+        "world",
+        "news"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "new",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "e7cdf9ee1633bdeb1941b6da",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "Heirs Insurance Group wins prestigious Financial Times–World Bank Group Africa Sustainable Futures Award - Business Insider Africa",
+          "source_id": "a90c23e7e6220366c0da7ff8"
+        }
+      ],
+      "finding_id": "e7cdf9ee1633bdeb1941b6da",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-26T13:19:22.256955+00:00",
+      "profile_relevance": 5.719557211168981,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-26T06:35:32+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "Africa"
+      ],
+      "source_ids": [
+        "a90c23e7e6220366c0da7ff8"
+      ],
+      "summary": "Heirs Insurance Group wins prestigious Financial Times–World Bank Group Africa Sustainable Futures Award - Business Insider Africa",
+      "topics": [
+        "world",
+        "news"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "new",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "1eca7da4dc3196e86b28b1c7",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "CNA Explains: Why are the Houthis targeting Saudi airports? - CNA",
+          "source_id": "96c03fcc60c386aca03c91d9"
+        }
+      ],
+      "finding_id": "1eca7da4dc3196e86b28b1c7",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-26T13:19:22.256955+00:00",
+      "profile_relevance": 3.933550266724537,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-26T11:43:41+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "Asia"
+      ],
+      "source_ids": [
+        "96c03fcc60c386aca03c91d9"
+      ],
+      "summary": "CNA Explains: Why are the Houthis targeting Saudi airports? - CNA",
+      "topics": [
+        "world",
+        "news"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "new",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "fc0216047db59516d489cbdc",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "Jordan arrests 3 over church attack — state TV - The Manila Times",
+          "source_id": "6f8a6756eb90bb5fb5da31c2"
+        }
+      ],
+      "finding_id": "fc0216047db59516d489cbdc",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-26T13:19:22.256955+00:00",
+      "profile_relevance": 3.7837701741319445,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-26T08:08:00+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "Oceania"
+      ],
+      "source_ids": [
+        "6f8a6756eb90bb5fb5da31c2"
+      ],
+      "summary": "Jordan arrests 3 over church attack — state TV - The Manila Times",
+      "topics": [
+        "world",
+        "news"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "unchanged",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "be9a5b2da2aca55a9ae8766b",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "World War III: Why Israel May Be Better Prepared Than Europe - The Times of Israel",
+          "source_id": "e37e759d8cbf1b20fcc89320"
+        }
+      ],
+      "finding_id": "be9a5b2da2aca55a9ae8766b",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-26T13:19:22.256955+00:00",
+      "profile_relevance": 4.7046035074652774,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-25T06:14:00+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "Europe"
+      ],
+      "source_ids": [
+        "e37e759d8cbf1b20fcc89320"
+      ],
+      "summary": "World War III: Why Israel May Be Better Prepared Than Europe - The Times of Israel",
+      "topics": [
+        "world",
+        "news"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "new",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "d14879e881f66e883a419a69",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "Brewers fans frolic at American Family Field for World Series Game 2 - Yahoo Sports",
+          "source_id": "6fae8491012a8fe5e96e4ed0"
+        }
+      ],
+      "finding_id": "d14879e881f66e883a419a69",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-26T13:19:22.256955+00:00",
+      "profile_relevance": 4.3655757296875,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-24T22:05:48+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "Americas"
+      ],
+      "source_ids": [
+        "6fae8491012a8fe5e96e4ed0"
+      ],
+      "summary": "Brewers fans frolic at American Family Field for World Series Game 2 - Yahoo Sports",
+      "topics": [
+        "world",
+        "news"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "new",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "e94725ee39a7bb0ce2fcfc78",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "Nigeria Leads Africa into U-17 Women's World Cup Knockout Stage - Head Topics",
+          "source_id": "379d1112c6bdd58237e4e80d"
+        }
+      ],
+      "finding_id": "e94725ee39a7bb0ce2fcfc78",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-26T13:19:22.256955+00:00",
+      "profile_relevance": 5.516409063020833,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-26T01:43:00+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "Africa"
+      ],
+      "source_ids": [
+        "379d1112c6bdd58237e4e80d"
+      ],
+      "summary": "Nigeria Leads Africa into U-17 Women's World Cup Knockout Stage - Head Topics",
+      "topics": [
+        "world",
+        "news"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "new",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "4e1b307212b7493826f9fac7",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "Officials from Mecca pact countries to meet Iranian officials in Tehran - CNA",
+          "source_id": "be907074f7c24dfcfb6c0045"
+        }
+      ],
+      "finding_id": "4e1b307212b7493826f9fac7",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-26T13:19:22.256955+00:00",
+      "profile_relevance": 3.8516289704282407,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-26T09:45:43+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "Asia"
+      ],
+      "source_ids": [
+        "be907074f7c24dfcfb6c0045"
+      ],
+      "summary": "Officials from Mecca pact countries to meet Iranian officials in Tehran - CNA",
+      "topics": [
+        "world",
+        "news"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "new",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "f298beb95d24eacdf20fa350",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "SMH Good Food Guide 2027 Oceania Cruises Service Excellence: Monique Guest, Saint Peter - SMH.com.au",
+          "source_id": "6e975d88d79e317084ea2b2c"
+        }
+      ],
+      "finding_id": "f298beb95d24eacdf20fa350",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-26T13:19:22.256955+00:00",
+      "profile_relevance": 3.778214618576389,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-26T08:00:00+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "Oceania"
+      ],
+      "source_ids": [
+        "6e975d88d79e317084ea2b2c"
+      ],
+      "summary": "SMH Good Food Guide 2027 Oceania Cruises Service Excellence: Monique Guest, Saint Peter - SMH.com.au",
+      "topics": [
+        "world",
+        "news"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "new",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "9d09adeb49bc569e7db4bddd",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "Video. Latest news bulletin | October 24th, 2026 – Evening - Euronews.com",
+          "source_id": "21dd93c1643badca10b3932f"
+        }
+      ],
+      "finding_id": "9d09adeb49bc569e7db4bddd",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-26T13:19:22.256955+00:00",
+      "profile_relevance": 4.111848877835648,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-24T16:00:26+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "Europe"
+      ],
+      "source_ids": [
+        "21dd93c1643badca10b3932f"
+      ],
+      "summary": "Video. Latest news bulletin | October 24th, 2026 – Evening - Euronews.com",
+      "topics": [
+        "world",
+        "news"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "new",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "a7e5893a22bd9ee78eaf4704",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "Food and drink discounts during World Cup: Where soccer fans can score freebies and deals at restaurants, bars and more - ABC News - Breaking News, Latest News and Videos",
+          "source_id": "d552affd3877d9ce21646c41"
+        }
+      ],
+      "finding_id": "a7e5893a22bd9ee78eaf4704",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-26T13:19:22.256955+00:00",
+      "profile_relevance": 4.294499340798611,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-24T20:23:27+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "Americas"
+      ],
+      "source_ids": [
+        "d552affd3877d9ce21646c41"
+      ],
+      "summary": "Food and drink discounts during World Cup: Where soccer fans can score freebies and deals at restaurants, bars and more - ABC News - Breaking News, Latest News and Videos",
+      "topics": [
+        "world",
+        "news"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "new",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "88ca4316c5d30db6ddbac00f",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "T20 World Cup: Nigeria beat Uganda, clinch sub-regional Africa qualifier ticket - Daily Trust",
+          "source_id": "34e058f80c5c313b3e6ffc56"
+        }
+      ],
+      "finding_id": "88ca4316c5d30db6ddbac00f",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-26T13:19:22.256955+00:00",
+      "profile_relevance": 5.500934525983796,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-26T01:20:43+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "Africa"
+      ],
+      "source_ids": [
+        "34e058f80c5c313b3e6ffc56"
+      ],
+      "summary": "T20 World Cup: Nigeria beat Uganda, clinch sub-regional Africa qualifier ticket - Daily Trust",
+      "topics": [
+        "world",
+        "news"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "new",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "70914255c37f88bba652eeb5",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "Fukuda, prime minister who fought climate change, dies - 朝日新聞",
+          "source_id": "d58a79b830c6ee8ca0770b64"
+        }
+      ],
+      "finding_id": "70914255c37f88bba652eeb5",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-26T13:19:22.256955+00:00",
+      "profile_relevance": 3.7879368407986114,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-26T08:14:00+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "Asia"
+      ],
+      "source_ids": [
+        "d58a79b830c6ee8ca0770b64"
+      ],
+      "summary": "Fukuda, prime minister who fought climate change, dies - 朝日新聞",
+      "topics": [
+        "world",
+        "news"
+      ],
+      "verification": "single_secondary_source"
+    }
+  ],
+  "history": {
+    "comparison": "last_good",
+    "previous_created_at": "2026-10-25T11:44:50.602014+00:00",
+    "previous_report_id": "eee9dcf368154bfdb14fc4cae0111b85",
+    "previous_report_sha256": "0fc2f1a05f287b2bf7cc669a4c573c31492162000d761c202e230836689f400d",
+    "previous_snapshot_commit": "44b2677676c9520e1fc5fb670547939b2571eace",
+    "stale_last_good": false,
+    "state": "restored"
+  },
+  "limitations": [
+    "Bounded queries do not provide exhaustive global coverage.",
+    "GDELT seen time is an observation timestamp, not verified publication time.",
+    "Contradiction/resolution labels require explicit source wording and review; no automatic truth adjudication."
+  ],
+  "links": {
+    "json": "intel/reports/world/2026/10/26/1adb82bdf0fe4899b810acb3183e7ded/report.json",
+    "markdown": "intel/reports/world/2026/10/26/1adb82bdf0fe4899b810acb3183e7ded/report.md"
+  },
+  "model_used": null,
+  "profile_id": "world/global",
+  "question": "",
+  "report_id": "1adb82bdf0fe4899b810acb3183e7ded",
+  "run_id": "1adb82bdf0fe4899b810acb3183e7ded",
+  "schedule": {},
+  "schema_version": "1.0",
+  "sources": [
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE14UW9XWGd0Z2R2bGtlVWxQelR3SEpZSURSc01USlRPN3JvUndFZkE0aG9GR3RhVTlveVNtdEMtVXoxc3hTR2RuOQ?oc=5",
+      "content_fingerprint": "e70678c773b5ad4d3f2fd342",
+      "fetched_at": "2026-10-26T13:19:22.256955+00:00",
+      "institution_id": null,
+      "language": "en",
+      "observations": [
+        {
+          "collector": "google_news",
+          "language": "en",
+          "search_query": "world news Oceania",
+          "search_region": "Oceania",
+          "title": "Volkswagen Australia - Walkinshaw World — LBB - LBB - Little Black Book"
+        }
+      ],
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE14UW9XWGd0Z2R2bGtlVWxQelR3SEpZSURSc01USlRPN3JvUndFZkE0aG9GR3RhVTlveVNtdEMtVXoxc3hTR2RuOQ?oc=5",
+      "profile_id": "world/global",
+      "published_at": "2026-10-25T22:41:22+00:00",
+      "publisher": "LBB - Little Black Book",
+      "search_query": "world news Oceania",
+      "source_country": "unknown",
+      "source_id": "00d0d06199a379aade06c49c",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://simonwillison.net/2026/Oct/25/seam-cutter",
+      "content_fingerprint": "79f240fe9406d59989456e55",
+      "fetched_at": "2026-10-26T13:19:22.256955+00:00",
+      "institution_id": null,
+      "language": "unknown",
+      "observations": [
+        {
+          "collector": "rss",
+          "language": "unknown",
+          "search_query": null,
+          "search_region": "unknown",
+          "title": "Seam Cutter"
+        }
+      ],
+      "origin_collector": "rss",
+      "original_url": "https://simonwillison.net/2026/Oct/25/seam-cutter/",
+      "profile_id": "world/global",
+      "published_at": "2026-10-25T15:10:19+00:00",
+      "publisher": "Simon Willison (existing Horizon public feed)",
+      "search_query": null,
+      "source_country": "unknown",
+      "source_id": "0186c0f1dfec08d5c6eec295",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPTVFHSzl5WDVvUmRLX2VubDJpMHplcDVScW1TQjF4QlRPSTg1SGRmM1NDcTA2ZF9Ob0QwaTVvamF3MG5fZy1scHowdUktWmNaTURxZmxyUVdxY3J6WWtwd2dFbnNBYWhtQVBKS3BjZE8zSnhsTWRfWlVWVFd5RklNRC1najAtaFBMWWYzSGV0UkNIRGVCUmExOVJ6SXhmak1iQTBFa3I2cWpLaUVISHhhWDVkRjlub3I5Vm5vUVpGRFN6NldGRjFJWDU4cGV1dw?oc=5",
+      "content_fingerprint": "24941dcb6a9aab66fe610060",
+      "fetched_at": "2026-10-26T13:19:22.256955+00:00",
+      "institution_id": null,
+      "language": "en",
+      "observations": [
+        {
+          "collector": "google_news",
+          "language": "en",
+          "search_query": "world news Africa",
+          "search_region": "Africa",
+          "title": "African women’s football records significant milestone at FIFA U-17 Women’s World Cup - CAFOnline.com"
+        }
+      ],
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPTVFHSzl5WDVvUmRLX2VubDJpMHplcDVScW1TQjF4QlRPSTg1SGRmM1NDcTA2ZF9Ob0QwaTVvamF3MG5fZy1scHowdUktWmNaTURxZmxyUVdxY3J6WWtwd2dFbnNBYWhtQVBKS3BjZE8zSnhsTWRfWlVWVFd5RklNRC1najAtaFBMWWYzSGV0UkNIRGVCUmExOVJ6SXhmak1iQTBFa3I2cWpLaUVISHhhWDVkRjlub3I5Vm5vUVpGRFN6NldGRjFJWDU4cGV1dw?oc=5",
+      "profile_id": "world/global",
+      "published_at": "2026-10-26T12:02:59+00:00",
+      "publisher": "CAFOnline.com",
+      "search_query": "world news Africa",
+      "source_country": "unknown",
+      "source_id": "07aaabe1347f401ea422fc73",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQckJPNFUzUzNIWnpMVTltTXVkVXhSc3BjYkFFRjdFTEswdjh4bTNYd3VCUDhQUkI3UEV3SGdQRG8tcXJDYzhlZ2F1VTd5Smd5Y3lCTGFKQmxkUTdvMURVOXpoaHQ4NElhTzk5ZzBGVmt5TXBiTXc1UVQzRnZuTjZFeXJBTUdEbXhVbzJNUmlEazF0dWlxMVBBX3B4cFZaX3BtemxPZjVra29NVm5UZDdqYjdHUHRqbzdm?oc=5",
+      "content_fingerprint": "8346ba21b682ef87922e5a0e",
+      "fetched_at": "2026-10-26T13:19:22.256955+00:00",
+      "institution_id": null,
+      "language": "en",
+      "observations": [
+        {
+          "collector": "google_news",
+          "language": "en",
+          "search_query": "world news Europe",
+          "search_region": "Europe",
+          "title": "Old World ablaze with fury of protests: over 1,300 people detained by police in France - News.by"
+        }
+      ],
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQckJPNFUzUzNIWnpMVTltTXVkVXhSc3BjYkFFRjdFTEswdjh4bTNYd3VCUDhQUkI3UEV3SGdQRG8tcXJDYzhlZ2F1VTd5Smd5Y3lCTGFKQmxkUTdvMURVOXpoaHQ4NElhTzk5ZzBGVmt5TXBiTXc1UVQzRnZuTjZFeXJBTUdEbXhVbzJNUmlEazF0dWlxMVBBX3B4cFZaX3BtemxPZjVra29NVm5UZDdqYjdHUHRqbzdm?oc=5",
+      "profile_id": "world/global",
+      "published_at": "2026-10-25T15:41:15+00:00",
+      "publisher": "News.by",
+      "search_query": "world news Europe",
+      "source_country": "unknown",
+      "source_id": "1a408bf411934c456851d798",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQVjhmTXdLeUswWHVKQ1o4WFhFQzVvTElvZTMyN01wRTlWU2VUYmhfaExVUUVrT3poQUU0czIzRHlqZ2gzZnZMR1lYdTVhbmdxU00tcTZTVXNfNFRsa3dfWk9CSHlCTFFRR0FneldoOUZWNTNhTEVUaEgwdEdrSXVReFU3cUYxeHZ0NElhU1pfc01oS0VUT18xMS1rQV9zVUVwdjFpNzNNLTZFems0RVFNeTZiWXlCTENEUVJJ?oc=5",
+      "content_fingerprint": "ca62d30ed1b18d4c92633d8f",
+      "fetched_at": "2026-10-26T13:19:22.256955+00:00",
+      "institution_id": null,
+      "language": "en",
+      "observations": [
+        {
+          "collector": "google_news",
+          "language": "en",
+          "search_query": "world news Oceania",
+          "search_region": "Oceania",
+          "title": "Tough start for Oceania teams as FIFA U-15 Boys’ World Cup gets underway - Friends of Football"
+        }
+      ],
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQVjhmTXdLeUswWHVKQ1o4WFhFQzVvTElvZTMyN01wRTlWU2VUYmhfaExVUUVrT3poQUU0czIzRHlqZ2gzZnZMR1lYdTVhbmdxU00tcTZTVXNfNFRsa3dfWk9CSHlCTFFRR0FneldoOUZWNTNhTEVUaEgwdEdrSXVReFU3cUYxeHZ0NElhU1pfc01oS0VUT18xMS1rQV9zVUVwdjFpNzNNLTZFems0RVFNeTZiWXlCTENEUVJJ?oc=5",
+      "profile_id": "world/global",
+      "published_at": "2026-10-25T11:04:12+00:00",
+      "publisher": "Friends of Football",
+      "search_query": "world news Oceania",
+      "source_country": "unknown",
+      "source_id": "201f7fabda153de806a1840d",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOWW50X3JKLU1LLVV0Q0pGdi1TYkc0YWxVb2NlYW9RRjdtbWdyOEZMU0FpTUZiQWxSenJWcExIRUVvQ1RhVkIwdEs3b21VYkN0NnpBZXdHdk9XdGR2QU5SNHNwTlBPd2VMWmZXNXZSUXhjNUVuRVIxY3RqdHdxOFlFZDMzSmp2VU9Ub3ZXY1lCX1ZGdw?oc=5",
+      "content_fingerprint": "c1b14110d96932388f00dba4",
+      "fetched_at": "2026-10-26T13:19:22.256955+00:00",
+      "institution_id": null,
+      "language": "en",
+      "observations": [
+        {
+          "collector": "google_news",
+          "language": "en",
+          "search_query": "world news Europe",
+          "search_region": "Europe",
+          "title": "Video. Latest news bulletin | October 24th, 2026 – Evening - Euronews.com"
+        }
+      ],
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOWW50X3JKLU1LLVV0Q0pGdi1TYkc0YWxVb2NlYW9RRjdtbWdyOEZMU0FpTUZiQWxSenJWcExIRUVvQ1RhVkIwdEs3b21VYkN0NnpBZXdHdk9XdGR2QU5SNHNwTlBPd2VMWmZXNXZSUXhjNUVuRVIxY3RqdHdxOFlFZDMzSmp2VU9Ub3ZXY1lCX1ZGdw?oc=5",
+      "profile_id": "world/global",
+      "published_at": "2026-10-24T16:00:26+00:00",
+      "publisher": "Euronews.com",
+      "search_query": "world news Europe",
+      "source_country": "unknown",
+      "source_id": "21dd93c1643badca10b3932f",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNd2tFOUZLSU5hOHdlV2k3STVVb0lxLTRJOTZ2VUtpYW5SS1N3WmVuRTRwWm5VVlFpdS1lR3QxVm9HcHc4WjlVZU03QUNqN01ZTVoxVlZaclpUNUZiZWI2WlZZcTJUMkFQZXdKYi1lTERxVnRnUTNNejBPUDZoQ0pCY1ZjOXhRQmczZXlkbW1EVDJ5ZHQ1MFdwaVdBMGFvdmlEcU4tczlR?oc=5",
+      "content_fingerprint": "3d7006d450d4a963f6bec0a2",
+      "fetched_at": "2026-10-26T13:19:22.256955+00:00",
+      "institution_id": null,
+      "language": "en",
+      "observations": [
+        {
+          "collector": "google_news",
+          "language": "en",
+          "search_query": "world news Oceania",
+          "search_region": "Oceania",
+          "title": "PGF Capital Q2 FY27 PAT surges 63.1% to RM8.2m on stronger insulation demand - The Sun Malaysia"
+        }
+      ],
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNd2tFOUZLSU5hOHdlV2k3STVVb0lxLTRJOTZ2VUtpYW5SS1N3WmVuRTRwWm5VVlFpdS1lR3QxVm9HcHc4WjlVZU03QUNqN01ZTVoxVlZaclpUNUZiZWI2WlZZcTJUMkFQZXdKYi1lTERxVnRnUTNNejBPUDZoQ0pCY1ZjOXhRQmczZXlkbW1EVDJ5ZHQ1MFdwaVdBMGFvdmlEcU4tczlR?oc=5",
+      "profile_id": "world/global",
+      "published_at": "2026-10-26T09:45:18+00:00",
+      "publisher": "The Sun Malaysia",
+      "search_query": "world news Oceania",
+      "source_country": "unknown",
+      "source_id": "242756e9dcd180f269bf04dc",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOVUowU1Vac2N4WWRpaURxNlU0Y0ZxQmlxcjd4QUMxcXp6YUpOS2FlSHF5TGNfbWliQzU2MmlzX004NWszcXhhQUJObm9vUVpSbEtmSmVYQ2FaUzVYSFJUb1lkeEtLUl9jeE1lS2dObDlNZm55TGltVkxWNmt5WXNyd2Q2NEhHVGE3bi1EMXV0SHgyRTRBTng0?oc=5",
+      "content_fingerprint": "18f0b6152bfb88c5cbea48e6",
+      "fetched_at": "2026-10-26T13:19:22.256955+00:00",
+      "institution_id": null,
+      "language": "en",
+      "observations": [
+        {
+          "collector": "google_news",
+          "language": "en",
+          "search_query": "world news Americas",
+          "search_region": "Americas",
+          "title": "The history of the Women’s World Cup final – 1991: America victorious but was it officially a World Cup? - The Athletic - The New York Times"
+        }
+      ],
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOVUowU1Vac2N4WWRpaURxNlU0Y0ZxQmlxcjd4QUMxcXp6YUpOS2FlSHF5TGNfbWliQzU2MmlzX004NWszcXhhQUJObm9vUVpSbEtmSmVYQ2FaUzVYSFJUb1lkeEtLUl9jeE1lS2dObDlNZm55TGltVkxWNmt5WXNyd2Q2NEhHVGE3bi1EMXV0SHgyRTRBTng0?oc=5",
+      "profile_id": "world/global",
+      "published_at": "2026-10-25T05:20:18+00:00",
+      "publisher": "The New York Times",
+      "search_query": "world news Americas",
+      "source_country": "unknown",
+      "source_id": "3012de3811aa068fd6dc6b0f",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPOVJoSm1CcXAzQXpFVHVtM0ZDMXlCaVVYTFZYVmFzTVZMN1NtTnhvT2NsdHVBYVdMV0tTNlNESmlzV0E1TG5TVHR0N2VMZ2w5dHphNHVmWmY5aEZ1MW45V0drYXNES2FIUllJX2R2bnY5MHkwalFZbWV5ZUZSQlc5cDkwTnpTUVNpSmdzZ3BzbkFLVjZzZXIyRWJ6MEpPT0Q3VGFn?oc=5",
+      "content_fingerprint": "95586694968d164d26a8e1a1",
+      "fetched_at": "2026-10-26T13:19:22.256955+00:00",
+      "institution_id": null,
+      "language": "en",
+      "observations": [
+        {
+          "collector": "google_news",
+          "language": "en",
+          "search_query": "world news Africa",
+          "search_region": "Africa",
+          "title": "T20 World Cup: Nigeria beat Uganda, clinch sub-regional Africa qualifier ticket - Daily Trust"
+        }
+      ],
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPOVJoSm1CcXAzQXpFVHVtM0ZDMXlCaVVYTFZYVmFzTVZMN1NtTnhvT2NsdHVBYVdMV0tTNlNESmlzV0E1TG5TVHR0N2VMZ2w5dHphNHVmWmY5aEZ1MW45V0drYXNES2FIUllJX2R2bnY5MHkwalFZbWV5ZUZSQlc5cDkwTnpTUVNpSmdzZ3BzbkFLVjZzZXIyRWJ6MEpPT0Q3VGFn?oc=5",
+      "profile_id": "world/global",
+      "published_at": "2026-10-26T01:20:43+00:00",
+      "publisher": "Daily Trust",
+      "search_query": "world news Africa",
+      "source_country": "unknown",
+      "source_id": "34e058f80c5c313b3e6ffc56",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE50TGFGM2FsRVA5TVFGb2lNZzhYalNSQm9QbzFrTTkxSzNvX1JNWUw0YjZsNlU5dW9RdFZMT0l3RFpxVTRZYnZ6MjgxMGp1UU54LVNMWXR3dzdvWURIeWJiMXBXWXV6N3pBZFk4cldwUXVNV040MlBZS083Y0o?oc=5",
+      "content_fingerprint": "cd405f07d1d39f1eec9fe72c",
+      "fetched_at": "2026-10-26T13:19:22.256955+00:00",
+      "institution_id": null,
+      "language": "en",
+      "observations": [
+        {
+          "collector": "google_news",
+          "language": "en",
+          "search_query": "world news Asia",
+          "search_region": "Asia",
+          "title": "The 13th World Sustainability Forum - Asia Research News |"
+        }
+      ],
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE50TGFGM2FsRVA5TVFGb2lNZzhYalNSQm9QbzFrTTkxSzNvX1JNWUw0YjZsNlU5dW9RdFZMT0l3RFpxVTRZYnZ6MjgxMGp1UU54LVNMWXR3dzdvWURIeWJiMXBXWXV6N3pBZFk4cldwUXVNV040MlBZS083Y0o?oc=5",
+      "profile_id": "world/global",
+      "published_at": "2026-10-26T09:00:25+00:00",
+      "publisher": "Asia Research News |",
+      "search_query": "world news Asia",
+      "source_country": "unknown",
+      "source_id": "370f3e22be16ad9c8e40a079",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPZjhESVc3b1VlY2NKcjRJeUFWalFFcm1WeXFvaXVQdHM1cV9PaGlkYXpGVTFzVVVIY1hfXzVoeVRYNDJydG80WXNhdHJHYXppR2RtbjY0dTRhaDFxTjhBcnNvMHZwVXdlRFdPNXM1RTF2TWhWMXJZMVlIc2pGVkZBZEtrVVpyc3l5T0twNlJ1ajVaMTVoNG5kNWNsVXY0QQ?oc=5",
+      "content_fingerprint": "812448a041cd8d295d88f8cc",
+      "fetched_at": "2026-10-26T13:19:22.256955+00:00",
+      "institution_id": null,
+      "language": "en",
+      "observations": [
+        {
+          "collector": "google_news",
+          "language": "en",
+          "search_query": "world news Africa",
+          "search_region": "Africa",
+          "title": "Nigeria Leads Africa into U-17 Women's World Cup Knockout Stage - Head Topics"
+        }
+      ],
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPZjhESVc3b1VlY2NKcjRJeUFWalFFcm1WeXFvaXVQdHM1cV9PaGlkYXpGVTFzVVVIY1hfXzVoeVRYNDJydG80WXNhdHJHYXppR2RtbjY0dTRhaDFxTjhBcnNvMHZwVXdlRFdPNXM1RTF2TWhWMXJZMVlIc2pGVkZBZEtrVVpyc3l5T0twNlJ1ajVaMTVoNG5kNWNsVXY0QQ?oc=5",
+      "profile_id": "world/global",
+      "published_at": "2026-10-26T01:43:00+00:00",
+      "publisher": "Head Topics",
+      "search_query": "world news Africa",
+      "source_country": "unknown",
+      "source_id": "379d1112c6bdd58237e4e80d",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQQXNWX3VOZDVNcjZzbUFfazFFal8wdkl1Y2VXcFk3ZTZ6SERkQ1dQT3ZLVmtkYW4xM0FUTUV3X2ZqMkxZdHoxSENSemtHdUQ5WDcweU1xRmxTNHlmb1Z5bTVzcDdWRWdKM09CdFhrVzNxN1NNdVQ4MEEtd3BXTzFTOE9TXzFWNUpZelpwSzBZSQ?oc=5",
+      "content_fingerprint": "a9b3561231044086b0a8e072",
+      "fetched_at": "2026-10-26T13:19:22.256955+00:00",
+      "institution_id": null,
+      "language": "en",
+      "observations": [
+        {
+          "collector": "google_news",
+          "language": "en",
+          "search_query": "world news Americas",
+          "search_region": "Americas",
+          "title": "Another over-capacity crowd for Brewers' World Series Game 2 - Yahoo Sports"
+        }
+      ],
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQQXNWX3VOZDVNcjZzbUFfazFFal8wdkl1Y2VXcFk3ZTZ6SERkQ1dQT3ZLVmtkYW4xM0FUTUV3X2ZqMkxZdHoxSENSemtHdUQ5WDcweU1xRmxTNHlmb1Z5bTVzcDdWRWdKM09CdFhrVzNxN1NNdVQ4MEEtd3BXTzFTOE9TXzFWNUpZelpwSzBZSQ?oc=5",
+      "profile_id": "world/global",
+      "published_at": "2026-10-25T02:24:00+00:00",
+      "publisher": "Yahoo Sports",
+      "search_query": "world news Americas",
+      "source_country": "unknown",
+      "source_id": "4684f52b527ff809fc206d54",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxQNVF3M0UxNHR0ZnY2UHlWN05ERExHdUlGVUI0ZkJKTHRSWmxnTjFJd2phQW1SQmdpRHFTS2NHZF9LWDAycHZMa010UGlUYmJwTGlzLVppa2JoYXpNVG9tV0ppQThSSDJZSGNOdF9sZ2FwZURFdU9weGk4YjNCMlMzekJ4am03Y0RueUFtZklQTWJrQTVIdVU0d012Q0RhdHNQWm9LQVM0dmVfUFFtaHEzbFZQbmRVLXlSV0xibTI4NTVpVEQ2UDNUOWJDb2RXWFJ1X080WExBNV94RG1NaDE1QnNkcElXQzYtbXBUT25TNVJ5dFpjMU1yOTNxdnhvUUZuQnRzTmxFRTF6T3c?oc=5",
+      "content_fingerprint": "2b41371431b7d11540ed18af",
+      "fetched_at": "2026-10-26T13:19:22.256955+00:00",
+      "institution_id": null,
+      "language": "en",
+      "observations": [
+        {
+          "collector": "google_news",
+          "language": "en",
+          "search_query": "world news Americas",
+          "search_region": "Americas",
+          "title": "Julio Mendoza Loor and Jewel’s Goldstrike capture Mexico World Cup Freestyle On Highest Score in 3 Years for American-based rider from Ecuador. - Dressage-News"
+        }
+      ],
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxQNVF3M0UxNHR0ZnY2UHlWN05ERExHdUlGVUI0ZkJKTHRSWmxnTjFJd2phQW1SQmdpRHFTS2NHZF9LWDAycHZMa010UGlUYmJwTGlzLVppa2JoYXpNVG9tV0ppQThSSDJZSGNOdF9sZ2FwZURFdU9weGk4YjNCMlMzekJ4am03Y0RueUFtZklQTWJrQTVIdVU0d012Q0RhdHNQWm9LQVM0dmVfUFFtaHEzbFZQbmRVLXlSV0xibTI4NTVpVEQ2UDNUOWJDb2RXWFJ1X080WExBNV94RG1NaDE1QnNkcElXQzYtbXBUT25TNVJ5dFpjMU1yOTNxdnhvUUZuQnRzTmxFRTF6T3c?oc=5",
+      "profile_id": "world/global",
+      "published_at": "2026-10-25T22:06:19+00:00",
+      "publisher": "Dressage-News",
+      "search_query": "world news Americas",
+      "source_country": "unknown",
+      "source_id": "4877bf3bfea11a1fe09494d2",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOTnZsak1BLVVJRzFJc1hXT3RSQmtBRy1vdkJzaURfTXNNUnlSNzk0Nzgxb1FYRTZKTkx5bjR4MDNXME00VWlSaWhRWjU0X2c5U1Z3RVJ6aG1vRXJHWTVnNDVXYXNDZFlrczM2LXpWM2VYVWlxTDFFWVY1YWFXTlBSMTVreUtTeWxwZGNHSFFOVjh6YUYwZW44S0VHY1lUb3JybXZ1N3ZB?oc=5",
+      "content_fingerprint": "6da2ae6b631d611a288c99e8",
+      "fetched_at": "2026-10-26T13:19:22.256955+00:00",
+      "institution_id": null,
+      "language": "en",
+      "observations": [
+        {
+          "collector": "google_news",
+          "language": "en",
+          "search_query": "world news Asia",
+          "search_region": "Asia",
+          "title": "MSC: More Complimentary Dining Options on World Asia - Cruise Industry News"
+        }
+      ],
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOTnZsak1BLVVJRzFJc1hXT3RSQmtBRy1vdkJzaURfTXNNUnlSNzk0Nzgxb1FYRTZKTkx5bjR4MDNXME00VWlSaWhRWjU0X2c5U1Z3RVJ6aG1vRXJHWTVnNDVXYXNDZFlrczM2LXpWM2VYVWlxTDFFWVY1YWFXTlBSMTVreUtTeWxwZGNHSFFOVjh6YUYwZW44S0VHY1lUb3JybXZ1N3ZB?oc=5",
+      "profile_id": "world/global",
+      "published_at": "2026-10-26T10:59:49+00:00",
+      "publisher": "Cruise Industry News",
+      "search_query": "world news Asia",
+      "source_country": "unknown",
+      "source_id": "4b517f4e3bda54571218a53d",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxOUmFCeWdTNlV1T05iZVBhRTF4MkV0ZEh0WFU0MFpvR0FiNU5XT2lvUm84OWRYMGhPUGF3QnN4c1l3dmdTYkZRZ2sxOEtHNGdhTU9zOUZtNkZJWFAtZnVucTNmWjNvVmNqWmJTWE5oNTZHT3BNLWhTMW5XdW5GcUEwdV9YcHJDX2dqSEQ3c1NQd0xXRFk5dGZyN1pCb3duZExQV0s4Z0dpUmlnTUxqTkVaaTZTZlVXSXBtNG9zTW1jaVFDZ3ZPUEttc3otY2VpdUdYTGxZSUdqQzVKLTlscGFBVk43Yy1wdm85VjdWZkNZU1NwY0FNS2ln0gH8AUFVX3lxTE5ZQV80ZHpDVFQ5SGlNWHFaTkwwUDRTOEhMWm5LZU5fU0NyV3p2U0RaaWRwakhWSWRZb1dEOXB1aDFWVTlESG9vbVR0N2UyeFVSVTVnZlVOOThrNDQ2ZnF1TmVWemhKMHRSeVQ1UThiTUlDa0pFWlp2SnFyZEVkNnN3aWxJMk1MV2tNVUJiZjA4a0VKYlBYNnlyN1hSTDhkaEFCSmE4WG94czNxZWh0dEw3c3dMV08xa1VDdzhMa1JYSmM0T09EZjB3TWhZZTVSSENvTUdZakVPR0ctNkM0Tm1fM0N1Zk1wX1lkNC1sTm9FVUJaTnExSDZjNm5qTQ?oc=5",
+      "content_fingerprint": "63b94dbb442ba26a1e15250d",
+      "fetched_at": "2026-10-26T13:19:22.256955+00:00",
+      "institution_id": null,
+      "language": "en",
+      "observations": [
+        {
+          "collector": "google_news",
+          "language": "en",
+          "search_query": "world news Oceania",
+          "search_region": "Oceania",
+          "title": "Australian Parliament pays tribute to injured lawmaker as it resumes work under increased security - The Manila Times"
+        }
+      ],
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxOUmFCeWdTNlV1T05iZVBhRTF4MkV0ZEh0WFU0MFpvR0FiNU5XT2lvUm84OWRYMGhPUGF3QnN4c1l3dmdTYkZRZ2sxOEtHNGdhTU9zOUZtNkZJWFAtZnVucTNmWjNvVmNqWmJTWE5oNTZHT3BNLWhTMW5XdW5GcUEwdV9YcHJDX2dqSEQ3c1NQd0xXRFk5dGZyN1pCb3duZExQV0s4Z0dpUmlnTUxqTkVaaTZTZlVXSXBtNG9zTW1jaVFDZ3ZPUEttc3otY2VpdUdYTGxZSUdqQzVKLTlscGFBVk43Yy1wdm85VjdWZkNZU1NwY0FNS2ln0gH8AUFVX3lxTE5ZQV80ZHpDVFQ5SGlNWHFaTkwwUDRTOEhMWm5LZU5fU0NyV3p2U0RaaWRwakhWSWRZb1dEOXB1aDFWVTlESG9vbVR0N2UyeFVSVTVnZlVOOThrNDQ2ZnF1TmVWemhKMHRSeVQ1UThiTUlDa0pFWlp2SnFyZEVkNnN3aWxJMk1MV2tNVUJiZjA4a0VKYlBYNnlyN1hSTDhkaEFCSmE4WG94czNxZWh0dEw3c3dMV08xa1VDdzhMa1JYSmM0T09EZjB3TWhZZTVSSENvTUdZakVPR0ctNkM0Tm1fM0N1Zk1wX1lkNC1sTm9FVUJaTnExSDZjNm5qTQ?oc=5",
+      "profile_id": "world/global",
+      "published_at": "2026-10-26T08:17:00+00:00",
+      "publisher": "The Manila Times",
+      "search_query": "world news Oceania",
+      "source_country": "unknown",
+      "source_id": "4fbaf7775ad4d29c0745e4e7",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPVHhZMlJrcktRNEFvN2YzV1VZUDk0OFBWMjdoNkdoM0ZmcVpYV29HeTI5WnNkYy1aSmFuMUZqTklRV05na1l5QkpsNnRNTXRNc2ZXOUYxelp6TzlPV21zNEFjVklrbzNab3ZpNnVSTlVhNDhkVDZLcTRaWWhZYzlDYVA2eEd0R1R3YVMyNm93NXJPLVh2X0JHclRrN0tkb2s2?oc=5",
+      "content_fingerprint": "d93b5f9436124918f67fceae",
+      "fetched_at": "2026-10-26T13:19:22.256955+00:00",
+      "institution_id": null,
+      "language": "en",
+      "observations": [
+        {
+          "collector": "google_news",
+          "language": "en",
+          "search_query": "world news Americas",
+          "search_region": "Americas",
+          "title": "‘Like a fairy tale’: USA’s Paula Moltzan becomes oldest first-time World Cup winner by 0.01sec - The Guardian"
+        }
+      ],
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPVHhZMlJrcktRNEFvN2YzV1VZUDk0OFBWMjdoNkdoM0ZmcVpYV29HeTI5WnNkYy1aSmFuMUZqTklRV05na1l5QkpsNnRNTXRNc2ZXOUYxelp6TzlPV21zNEFjVklrbzNab3ZpNnVSTlVhNDhkVDZLcTRaWWhZYzlDYVA2eEd0R1R3YVMyNm93NXJPLVh2X0JHclRrN0tkb2s2?oc=5",
+      "profile_id": "world/global",
+      "published_at": "2026-10-24T23:34:00+00:00",
+      "publisher": "The Guardian",
+      "search_query": "world news Americas",
+      "source_country": "unknown",
+      "source_id": "4ff522869b0fdc11c722bda0",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQeHR2VnhnZUtxZktBSVdrZFF5ZWM5QUo2U3J4TXFYcmE5QlBNdHQxYkMtMlp0MHJ5cmQ0VkE2a1N1bktQQ2wteWhIRHZCaGNocnp0MmcyS3ZBbThudG5rZ2llTjlzSlh6UnVjZWVfN1lwM0dzYUs3QUJ6VTVRTElSc04tSXdTQmlLaTdSek44VEFzVUlGOE1KVU02YXFNUWhpdHhGMW1nRlEzTHdNdFd4Qld1UnRFVEhQT0xyTEFqcERabmgwUlhpcmtn?oc=5",
+      "content_fingerprint": "7496483497305aed93496ec7",
+      "fetched_at": "2026-10-26T13:19:22.256955+00:00",
+      "institution_id": null,
+      "language": "en",
+      "observations": [
+        {
+          "collector": "google_news",
+          "language": "en",
+          "search_query": "world news Africa",
+          "search_region": "Africa",
+          "title": "BBC World Service Expands Educational Programming In West Africa With Dars Hausa - Broadcast Media Africa"
+        }
+      ],
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQeHR2VnhnZUtxZktBSVdrZFF5ZWM5QUo2U3J4TXFYcmE5QlBNdHQxYkMtMlp0MHJ5cmQ0VkE2a1N1bktQQ2wteWhIRHZCaGNocnp0MmcyS3ZBbThudG5rZ2llTjlzSlh6UnVjZWVfN1lwM0dzYUs3QUJ6VTVRTElSc04tSXdTQmlLaTdSek44VEFzVUlGOE1KVU02YXFNUWhpdHhGMW1nRlEzTHdNdFd4Qld1UnRFVEhQT0xyTEFqcERabmgwUlhpcmtn?oc=5",
+      "profile_id": "world/global",
+      "published_at": "2026-10-26T06:38:10+00:00",
+      "publisher": "Broadcast Media Africa",
+      "search_query": "world news Africa",
+      "source_country": "unknown",
+      "source_id": "5148eea24fe3dc95429b35ed",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOWEZCNkx2VlhRTjVoNmIzRjNGRmdoMlNqbFktdzJ5amE2R0VDTjJ4MUIwX2FCU2V0ZHk3cksyR3dhRVZJZXpqS0FtWVFzMk8ybm1ZTHdIMVM4RE91NlFxUGQ1Zzk1Nk5jNFVmVDAycm5FejBoY0FhWGxZT1JWYTNGQnlYa3p4b2RkM3d4R2VWRDB6Nk1jd2FVWmU5anVWT1JqWVlaZEdCRTd4UExpMFhDalp1M0F1TTdzYVpnMzhmeWxkMi1aaVdsNUh6M0g?oc=5",
+      "content_fingerprint": "f6764790a203dbcf2e681fe5",
+      "fetched_at": "2026-10-26T13:19:22.256955+00:00",
+      "institution_id": null,
+      "language": "en",
+      "observations": [
+        {
+          "collector": "google_news",
+          "language": "en",
+          "search_query": "world news Africa",
+          "search_region": "Africa",
+          "title": "Partnering with Sunday World to equip South Africa’s next generation of journalists - Johannesburg Sunday World"
+        }
+      ],
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOWEZCNkx2VlhRTjVoNmIzRjNGRmdoMlNqbFktdzJ5amE2R0VDTjJ4MUIwX2FCU2V0ZHk3cksyR3dhRVZJZXpqS0FtWVFzMk8ybm1ZTHdIMVM4RE91NlFxUGQ1Zzk1Nk5jNFVmVDAycm5FejBoY0FhWGxZT1JWYTNGQnlYa3p4b2RkM3d4R2VWRDB6Nk1jd2FVWmU5anVWT1JqWVlaZEdCRTd4UExpMFhDalp1M0F1TTdzYVpnMzhmeWxkMi1aaVdsNUh6M0g?oc=5",
+      "profile_id": "world/global",
+      "published_at": "2026-10-26T08:26:24+00:00",
+      "publisher": "Johannesburg Sunday World",
+      "search_query": "world news Africa",
+      "source_country": "unknown",
+      "source_id": "5511efcd78a6bf58731208cc",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQT1FGWmczWWVFN1FVWFFTV0U5VmZjV0htTnlJQjR3NmZlQ1hOWDJtZzJteTJheDg3Tm9RQThwY2NKeXZjdjg4REgwTDJWamdFM1ZBUGNyb0hmUk5KaFhJLW1kcnVNRnAwZENvTXJwWk1JRWgzaE5WS3ltMHpIV3Y1M1piajdHZ0FwQTB1Q1FEY3NmUQ?oc=5",
+      "content_fingerprint": "520f4ad6324c6171946e508c",
+      "fetched_at": "2026-10-26T13:19:22.256955+00:00",
+      "institution_id": null,
+      "language": "en",
+      "observations": [
+        {
+          "collector": "google_news",
+          "language": "en",
+          "search_query": "world news Europe",
+          "search_region": "Europe",
+          "title": "Video. Latest news bulletin | October 25th, 2026 – Morning - Euronews.com"
+        }
+      ],
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQT1FGWmczWWVFN1FVWFFTV0U5VmZjV0htTnlJQjR3NmZlQ1hOWDJtZzJteTJheDg3Tm9RQThwY2NKeXZjdjg4REgwTDJWamdFM1ZBUGNyb0hmUk5KaFhJLW1kcnVNRnAwZENvTXJwWk1JRWgzaE5WS3ltMHpIV3Y1M1piajdHZ0FwQTB1Q1FEY3NmUQ?oc=5",
+      "profile_id": "world/global",
+      "published_at": "2026-10-25T07:00:32+00:00",
+      "publisher": "Euronews.com",
+      "search_query": "world news Europe",
+      "source_country": "unknown",
+      "source_id": "6cfb8f4a1efb6c46e4be8f8b",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOcXV5Q0dRdjRPUmJuQmRlMHdveE5IdzduaWV2SXI0cVdVRkZRSmJlakxDcHc1Wm5UbEQzQW9YTnN3aE1JTGViM3NQZzZZOXJ4NGxoUkx5ZTFhY0NUVngtQzIzZVdvMmFZTmhLd1R6eEl6UGI5SnZ6MEo1ZUE2YXhGalNPOXFpNUtaSS1QMXd6bXM4cU5fVEkxYV9NSy1nSDZFODdkbkZxYlJ5Q1JiMlNUVEJKSzZvTFNRa1BKSmZadzEwdmljQTQtNmY5TnFRQQ?oc=5",
+      "content_fingerprint": "e32709fc4e9fafa6d391c5b0",
+      "fetched_at": "2026-10-26T13:19:22.256955+00:00",
+      "institution_id": null,
+      "language": "en",
+      "observations": [
+        {
+          "collector": "google_news",
+          "language": "en",
+          "search_query": "world news Oceania",
+          "search_region": "Oceania",
+          "title": "SMH Good Food Guide 2027 Oceania Cruises Service Excellence: Monique Guest, Saint Peter - SMH.com.au"
+        }
+      ],
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOcXV5Q0dRdjRPUmJuQmRlMHdveE5IdzduaWV2SXI0cVdVRkZRSmJlakxDcHc1Wm5UbEQzQW9YTnN3aE1JTGViM3NQZzZZOXJ4NGxoUkx5ZTFhY0NUVngtQzIzZVdvMmFZTmhLd1R6eEl6UGI5SnZ6MEo1ZUE2YXhGalNPOXFpNUtaSS1QMXd6bXM4cU5fVEkxYV9NSy1nSDZFODdkbkZxYlJ5Q1JiMlNUVEJKSzZvTFNRa1BKSmZadzEwdmljQTQtNmY5TnFRQQ?oc=5",
+      "profile_id": "world/global",
+      "published_at": "2026-10-26T08:00:00+00:00",
+      "publisher": "SMH.com.au",
+      "search_query": "world news Oceania",
+      "source_country": "unknown",
+      "source_id": "6e975d88d79e317084ea2b2c",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOb0lfd0sxMlUzdHVYd25sbmdtXzVYTmN6R3JqMUF1YnY2ZExoWlpiMlVfLUo2blJ1NDNVX1lCRzhnR3hKS3d0bWJQQVhDemRfM08zU2wtSXJncG9JZ2lUSk43UzR6S3FjREZGeWNfMkd1aENTV2Vpc21XSHVTaUpNbGE1eFlYQ2ttZTU3cmItOXZPV0tZUnlxWENDZEFoNTRxRURjcW5IaE5Cajc1N3FB0gG0AUFVX3lxTE9BMzBUWjlpWEUxX293RWlObEE3Q0hsUm1jblFIc3BJWDJScGktWUk1ckZyYVg3U0lEdDdXNmRKTmJJNlFHVGtnR21JRzZpUjZla0ExekhQTU05LTNNX2FEb3lFN20zTjFrRFNST3pHeVRZRkZmTTIxbWVzREVtZzV1dEJjcVBqNW9LX1B6UTczekxmOXhIVDN3VGh1eU5MT3NBTFZXY01rMWlNSUlybUhFX2NCVQ?oc=5",
+      "content_fingerprint": "5a3c84616b03733b119c6add",
+      "fetched_at": "2026-10-26T13:19:22.256955+00:00",
+      "institution_id": null,
+      "language": "en",
+      "observations": [
+        {
+          "collector": "google_news",
+          "language": "en",
+          "search_query": "world news Oceania",
+          "search_region": "Oceania",
+          "title": "Jordan arrests 3 over church attack — state TV - The Manila Times"
+        }
+      ],
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOb0lfd0sxMlUzdHVYd25sbmdtXzVYTmN6R3JqMUF1YnY2ZExoWlpiMlVfLUo2blJ1NDNVX1lCRzhnR3hKS3d0bWJQQVhDemRfM08zU2wtSXJncG9JZ2lUSk43UzR6S3FjREZGeWNfMkd1aENTV2Vpc21XSHVTaUpNbGE1eFlYQ2ttZTU3cmItOXZPV0tZUnlxWENDZEFoNTRxRURjcW5IaE5Cajc1N3FB0gG0AUFVX3lxTE9BMzBUWjlpWEUxX293RWlObEE3Q0hsUm1jblFIc3BJWDJScGktWUk1ckZyYVg3U0lEdDdXNmRKTmJJNlFHVGtnR21JRzZpUjZla0ExekhQTU05LTNNX2FEb3lFN20zTjFrRFNST3pHeVRZRkZmTTIxbWVzREVtZzV1dEJjcVBqNW9LX1B6UTczekxmOXhIVDN3VGh1eU5MT3NBTFZXY01rMWlNSUlybUhFX2NCVQ?oc=5",
+      "profile_id": "world/global",
+      "published_at": "2026-10-26T08:08:00+00:00",
+      "publisher": "The Manila Times",
+      "search_query": "world news Oceania",
+      "source_country": "unknown",
+      "source_id": "6f8a6756eb90bb5fb5da31c2",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOWTF1S1RtdlUxLUxZbDRwNmNScGpUckl3RC00RlRnVHQ2cWpJeUJZZ1JINkE3aU5MUzgtS2x1N3A5WmphZjNXenpubk9kVEdHem1yaXRpWF9Ick1rdWNidFJDblR5amlYcVBhWVlOUjYzdUJQYTdDTnFsU05oai03U2FNeWI4U1kyemRTbkduRQ?oc=5",
+      "content_fingerprint": "d6a00723b24d7bf2010fdba8",
+      "fetched_at": "2026-10-26T13:19:22.256955+00:00",
+      "institution_id": null,
+      "language": "en",
+      "observations": [
+        {
+          "collector": "google_news",
+          "language": "en",
+          "search_query": "world news Americas",
+          "search_region": "Americas",
+          "title": "Brewers fans frolic at American Family Field for World Series Game 2 - Yahoo Sports"
+        }
+      ],
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOWTF1S1RtdlUxLUxZbDRwNmNScGpUckl3RC00RlRnVHQ2cWpJeUJZZ1JINkE3aU5MUzgtS2x1N3A5WmphZjNXenpubk9kVEdHem1yaXRpWF9Ick1rdWNidFJDblR5amlYcVBhWVlOUjYzdUJQYTdDTnFsU05oai03U2FNeWI4U1kyemRTbkduRQ?oc=5",
+      "profile_id": "world/global",
+      "published_at": "2026-10-24T22:05:48+00:00",
+      "publisher": "Yahoo Sports",
+      "search_query": "world news Americas",
+      "source_country": "unknown",
+      "source_id": "6fae8491012a8fe5e96e4ed0",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQWjF2eXd4OFlyUzNWUTdCakZYSHQxVzd2R2RMbHQ2bk9tZXRkdGZsZXZDeGVxR1NsdDFzaWRnMUM4WUdfQUZVblJ2T0FZMUxwdVMtMjliMVM5QzdEQm5McTN5WkpIOXhfUHNfVDRGT0ZSMW83SlZjcGt4ZDJQbGVqaXFzTUpPWW9za3A5MTJ3aUc2a3VWRW84cGIwcXNaWVFOWVJzV3AxUjNZSkRLWFN5NFR5cjdYTjdSQWhXZTQ1d2VQTVp4Z0E?oc=5",
+      "content_fingerprint": "c34fa058ee92d4e5b3eee0a0",
+      "fetched_at": "2026-10-26T13:19:22.256955+00:00",
+      "institution_id": null,
+      "language": "en",
+      "observations": [
+        {
+          "collector": "google_news",
+          "language": "en",
+          "search_query": "world news Asia",
+          "search_region": "Asia",
+          "title": "Baseball-World Series rematch, Indian edition: Yankees beat Dodgers in Mumbai event - CNA"
+        }
+      ],
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQWjF2eXd4OFlyUzNWUTdCakZYSHQxVzd2R2RMbHQ2bk9tZXRkdGZsZXZDeGVxR1NsdDFzaWRnMUM4WUdfQUZVblJ2T0FZMUxwdVMtMjliMVM5QzdEQm5McTN5WkpIOXhfUHNfVDRGT0ZSMW83SlZjcGt4ZDJQbGVqaXFzTUpPWW9za3A5MTJ3aUc2a3VWRW84cGIwcXNaWVFOWVJzV3AxUjNZSkRLWFN5NFR5cjdYTjdSQWhXZTQ1d2VQTVp4Z0E?oc=5",
+      "profile_id": "world/global",
+      "published_at": "2026-10-25T06:38:23+00:00",
+      "publisher": "CNA",
+      "search_query": "world news Asia",
+      "source_country": "unknown",
+      "source_id": "73ede52a965b588d33178f33",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPdVJHYmFDNGlxcXE2WEJZLUtVMmhENUpzd2lDNGdfRUNsVXJSanJiTXpnZTAwNW9uOW94LXVkMkU0eVlid2p3R3lhcXVGZkNPemFxazdRWUlnd2o5YUVNYUJOUHoyWTZGRjEyYlB0QXJTX0ZyNEFnVlVlS3lNN3Jmdm1abVFLQkRIV0ktdFh4R3MxMnFkREZsaXp0WTJCYjZUNFdLZHZmYkJBN1p1OHFySkwza0pTTDA?oc=5",
+      "content_fingerprint": "3bfb2bc74e34e0cd522338df",
+      "fetched_at": "2026-10-26T13:19:22.256955+00:00",
+      "institution_id": null,
+      "language": "en",
+      "observations": [
+        {
+          "collector": "google_news",
+          "language": "en",
+          "search_query": "world news Africa",
+          "search_region": "Africa",
+          "title": "Smart Africa, World Bank discuss cooperation to advance digital transformation - Tech Review Africa"
+        }
+      ],
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPdVJHYmFDNGlxcXE2WEJZLUtVMmhENUpzd2lDNGdfRUNsVXJSanJiTXpnZTAwNW9uOW94LXVkMkU0eVlid2p3R3lhcXVGZkNPemFxazdRWUlnd2o5YUVNYUJOUHoyWTZGRjEyYlB0QXJTX0ZyNEFnVlVlS3lNN3Jmdm1abVFLQkRIV0ktdFh4R3MxMnFkREZsaXp0WTJCYjZUNFdLZHZmYkJBN1p1OHFySkwza0pTTDA?oc=5",
+      "profile_id": "world/global",
+      "published_at": "2026-10-26T10:05:23+00:00",
+      "publisher": "Tech Review Africa",
+      "search_query": "world news Africa",
+      "source_country": "unknown",
+      "source_id": "7b67a4b90f496d6f3c58c0c6",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPLVBOY2RHRGRpY2s3bVZhbFBzNkxOb2dJaVVpQ3JaTzdOc3hUMjZ2cHc3aXA1T2k1TUtXQ040a3I3S0dvUDJtT1Q2VVc2QXhMaVJ6My1RXzBobmE2OXRBNWZEUldtRHhITnBmX25rcm5Oc0c3ZFV0ZUJLNF84aVJEbGNVa3pBdEpjTEYxV3Q1dHpvWUlLV1dnN3ZzbFZoNERHeHZqYm1MeS0zOUVWTlJwd2xtMmNrcm0yelVuby12Y9IBxAFBVV95cUxOVHVFcDNoVDdFS0tJbVZXb04xdEczemVmWnYtOFdlN3licWIxV1Q4ZEl2UjNwT3BwMEJjX1VsYTlXaGJuVzMzNFVJV3lPOGYzMU5iSDl4UlFBaUlNRjVJTklsSjVqUm5ST2psMEhmLUxvVFZfUnhfdU9EWGhzWTdrYi1kMTBXekxuR3gwTlhiRXVRQ3NFaFg0eUhsWkxPZ0dMQmpYLUl2TUN1aWFRMlV3YTdGbnMtTEZoT0ZGTGM1V0VLVGtU?oc=5",
+      "content_fingerprint": "1ca0ca7092c274d0fd24bc74",
+      "fetched_at": "2026-10-26T13:19:22.256955+00:00",
+      "institution_id": null,
+      "language": "en",
+      "observations": [
+        {
+          "collector": "google_news",
+          "language": "en",
+          "search_query": "world news Oceania",
+          "search_region": "Oceania",
+          "title": "NKorea’s Kim calls for training world’s ‘strongest’ military - The Manila Times"
+        }
+      ],
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPLVBOY2RHRGRpY2s3bVZhbFBzNkxOb2dJaVVpQ3JaTzdOc3hUMjZ2cHc3aXA1T2k1TUtXQ040a3I3S0dvUDJtT1Q2VVc2QXhMaVJ6My1RXzBobmE2OXRBNWZEUldtRHhITnBmX25rcm5Oc0c3ZFV0ZUJLNF84aVJEbGNVa3pBdEpjTEYxV3Q1dHpvWUlLV1dnN3ZzbFZoNERHeHZqYm1MeS0zOUVWTlJwd2xtMmNrcm0yelVuby12Y9IBxAFBVV95cUxOVHVFcDNoVDdFS0tJbVZXb04xdEczemVmWnYtOFdlN3licWIxV1Q4ZEl2UjNwT3BwMEJjX1VsYTlXaGJuVzMzNFVJV3lPOGYzMU5iSDl4UlFBaUlNRjVJTklsSjVqUm5ST2psMEhmLUxvVFZfUnhfdU9EWGhzWTdrYi1kMTBXekxuR3gwTlhiRXVRQ3NFaFg0eUhsWkxPZ0dMQmpYLUl2TUN1aWFRMlV3YTdGbnMtTEZoT0ZGTGM1V0VLVGtU?oc=5",
+      "profile_id": "world/global",
+      "published_at": "2026-10-24T16:08:00+00:00",
+      "publisher": "The Manila Times",
+      "search_query": "world news Oceania",
+      "source_country": "unknown",
+      "source_id": "7b7d50ecbc0c56457b7e5a90",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBRYWZTTk1TcHcwWGVqc0FYV2t5MDhoazFoVmlFZU9mWFNVdXNEUGlhb2dUT1Fpb0NWblNGTkttaTAxUk5oVlNoZDYxV05TWU5FY1RHMVVPQ0xyLWtVcGRBajczU2xYRTg?oc=5",
+      "content_fingerprint": "87f40e8fb7a899b60741a734",
+      "fetched_at": "2026-10-26T13:19:22.256955+00:00",
+      "institution_id": null,
+      "language": "en",
+      "observations": [
+        {
+          "collector": "google_news",
+          "language": "en",
+          "search_query": "world news Oceania",
+          "search_region": "Oceania",
+          "title": "'Fanatec Gran Turismo Eifel Cup 2026' Time Trial Begins 2 November. Amazing Prizes Await the Top Finishers! - gran-turismo.com"
+        }
+      ],
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBRYWZTTk1TcHcwWGVqc0FYV2t5MDhoazFoVmlFZU9mWFNVdXNEUGlhb2dUT1Fpb0NWblNGTkttaTAxUk5oVlNoZDYxV05TWU5FY1RHMVVPQ0xyLWtVcGRBajczU2xYRTg?oc=5",
+      "profile_id": "world/global",
+      "published_at": "2026-10-26T10:30:00+00:00",
+      "publisher": "gran-turismo.com",
+      "search_query": "world news Oceania",
+      "source_country": "unknown",
+      "source_id": "7c0f4b34d718f124a7484325",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBoWnF3QnJWLUJSYUl5STBoZDVEMDlwampVaWdGWUFseUc2bjdKMTgxMml6SDBlS0cxSVpuTmVhXzRvNDFDQUI5Q1RkT2labGVuR0R1a3lLYTdnV0tNdE0xYzhxRlZ5RHBjVnc5c2dB?oc=5",
+      "content_fingerprint": "9bb91f588cffb95a7f13417a",
+      "fetched_at": "2026-10-26T13:19:22.256955+00:00",
+      "institution_id": null,
+      "language": "en",
+      "observations": [
+        {
+          "collector": "google_news",
+          "language": "en",
+          "search_query": "world news Oceania",
+          "search_region": "Oceania",
+          "title": "Chula Achiev World’s Top 2% Scientists Rank - QS GEN"
+        }
+      ],
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBoWnF3QnJWLUJSYUl5STBoZDVEMDlwampVaWdGWUFseUc2bjdKMTgxMml6SDBlS0cxSVpuTmVhXzRvNDFDQUI5Q1RkT2labGVuR0R1a3lLYTdnV0tNdE0xYzhxRlZ5RHBjVnc5c2dB?oc=5",
+      "profile_id": "world/global",
+      "published_at": "2026-10-26T03:16:28+00:00",
+      "publisher": "QS GEN",
+      "search_query": "world news Oceania",
+      "source_country": "unknown",
+      "source_id": "80090ea2e7d44d5247fe6c44",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNYk9RTThMS1NNSzhjRmpIOWlGZk5iMHlyTC1jWUd0Q1RLVlFUc1dIRVhpQmNoVFk4eE11SFNXOUs1TldoLTNzenVMYVlxX0dXbzFUYnVhWVJTT2d5dmhnd19nUDdjRHBNazVQMUJmT0NYU25kNElwQklQRXNKa0NOVXc0VEU3ei01UkN2cXZOc1hweWh5cHlEVHZ6ZlI?oc=5",
+      "content_fingerprint": "0504a264002071f97844479e",
+      "fetched_at": "2026-10-26T13:19:22.256955+00:00",
+      "institution_id": null,
+      "language": "en",
+      "observations": [
+        {
+          "collector": "google_news",
+          "language": "en",
+          "search_query": "world news Asia",
+          "search_region": "Asia",
+          "title": "Best World CEO Dora Hoan Elected Chair of Global Direct Selling Body - Retail News Asia"
+        }
+      ],
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNYk9RTThMS1NNSzhjRmpIOWlGZk5iMHlyTC1jWUd0Q1RLVlFUc1dIRVhpQmNoVFk4eE11SFNXOUs1TldoLTNzenVMYVlxX0dXbzFUYnVhWVJTT2d5dmhnd19nUDdjRHBNazVQMUJmT0NYU25kNElwQklQRXNKa0NOVXc0VEU3ei01UkN2cXZOc1hweWh5cHlEVHZ6ZlI?oc=5",
+      "profile_id": "world/global",
+      "published_at": "2026-10-25T18:37:59+00:00",
+      "publisher": "Retail News Asia",
+      "search_query": "world news Asia",
+      "source_country": "unknown",
+      "source_id": "84d622295bd84343ecff6e81",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNRXd2VnM1bkZhSUxMMUxkTUJvZlRDeVNQTlRiRDZOY0tZQjRza2ZjZ3ZvS1dCVTk3X2NWYldlRThuVk01RTlUYjA3VkFNMlNKNG5tekVINjVVRFhQQXZONUFVUEk1V2FtN2dmd0FOOG1fQ2tDbnl6aElPRUZYWjdLclRxRVJ1MlpnTTQ1eVZRcUd5TTY4dTB6S3V0VWQ0elFJanQ3Ni0yVFl3QdIBrwFBVV95cUxNc3E3VEJFRS1sT1hsNnA1bHBXdnd2aXAyTnlTVDZzY3pBZkZFdGdpNWhYMTJIYTA3eHE4RkRieWZaMWZHeXZkTm80UzlpNUhSNEhabHF3RlkwblJvZzdISE9PUmFzQVVFNmNZZTdndExiRUhNcEVVUUlOb3FBdnF2UzNielprdmY4ektweU9IekZZa2FsTnRsc3RucGF1Z2JudGtJNFBSVUtQRHRPSVZr?oc=5",
+      "content_fingerprint": "9832ee3513d27db6cf99bf9d",
+      "fetched_at": "2026-10-26T13:19:22.256955+00:00",
+      "institution_id": null,
+      "language": "en",
+      "observations": [
+        {
+          "collector": "google_news",
+          "language": "en",
+          "search_query": "world news Asia",
+          "search_region": "Asia",
+          "title": "Asia Is Building the World's Next $15 Trillion Energy Market - Crude Oil Prices Today | OilPrice.com"
+        }
+      ],
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNRXd2VnM1bkZhSUxMMUxkTUJvZlRDeVNQTlRiRDZOY0tZQjRza2ZjZ3ZvS1dCVTk3X2NWYldlRThuVk01RTlUYjA3VkFNMlNKNG5tekVINjVVRFhQQXZONUFVUEk1V2FtN2dmd0FOOG1fQ2tDbnl6aElPRUZYWjdLclRxRVJ1MlpnTTQ1eVZRcUd5TTY4dTB6S3V0VWQ0elFJanQ3Ni0yVFl3QdIBrwFBVV95cUxNc3E3VEJFRS1sT1hsNnA1bHBXdnd2aXAyTnlTVDZzY3pBZkZFdGdpNWhYMTJIYTA3eHE4RkRieWZaMWZHeXZkTm80UzlpNUhSNEhabHF3RlkwblJvZzdISE9PUmFzQVVFNmNZZTdndExiRUhNcEVVUUlOb3FBdnF2UzNielprdmY4ektweU9IekZZa2FsTnRsc3RucGF1Z2JudGtJNFBSVUtQRHRPSVZr?oc=5",
+      "profile_id": "world/global",
+      "published_at": "2026-10-25T23:00:00+00:00",
+      "publisher": "Crude Oil Prices Today | OilPrice.com",
+      "search_query": "world news Asia",
+      "source_country": "unknown",
+      "source_id": "860c1e5e2c8877a119cb45d7",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQTkJkNjNoakp3NUV4NkRMLUlhYmtuQlUwOURjVkoteFZoMGpXSlhDRWo1TDhVMVdwM1F5bUxGZUpoMGJYWGtoQWMtWFhYeHVyczlLcXRpaTJnSmVkT3ctMFZWVDFWWlJ2V0VhNTVtOVNLTVBLb29SZ0xEdDN4eE5xSE9qaVp6WWRlcFRaRXE4Rzd6QTREM1I3bGF6a1F3QkREbTA4?oc=5",
+      "content_fingerprint": "7888e235e93df1d819026321",
+      "fetched_at": "2026-10-26T13:19:22.256955+00:00",
+      "institution_id": null,
+      "language": "en",
+      "observations": [
+        {
+          "collector": "google_news",
+          "language": "en",
+          "search_query": "world news Europe",
+          "search_region": "Europe",
+          "title": "Europe is the world’s most expensive region to build data centres - Green Street News"
+        }
+      ],
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQTkJkNjNoakp3NUV4NkRMLUlhYmtuQlUwOURjVkoteFZoMGpXSlhDRWo1TDhVMVdwM1F5bUxGZUpoMGJYWGtoQWMtWFhYeHVyczlLcXRpaTJnSmVkT3ctMFZWVDFWWlJ2V0VhNTVtOVNLTVBLb29SZ0xEdDN4eE5xSE9qaVp6WWRlcFRaRXE4Rzd6QTREM1I3bGF6a1F3QkREbTA4?oc=5",
+      "profile_id": "world/global",
+      "published_at": "2026-10-26T07:50:08+00:00",
+      "publisher": "Green Street News",
+      "search_query": "world news Europe",
+      "source_country": "unknown",
+      "source_id": "881fc31cdf6e962f733437fe",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOTXcyQkZpX21aRFpCUjBkb09ya0FpazV2RUQwZFNjb3d6dlp5UWVRS3M2RVdySkE4aTZCemxPVWxpUWtIV0x4UVRwejJNNnBjVWF5N1lXT3F4SVJVRUVqeE9kWWgtMGRlcGdGbk4tYVdrS2NoUFBleUs2OTZCa0FZa2RJb1I4QjFCb0RzeDFEVXRkajl5YWp6N0ZCaGRma2xDOWp1SC1rbnJVRFJrUTNaQWlaTTQ?oc=5",
+      "content_fingerprint": "df0da7df7dd3672cde7ea0ce",
+      "fetched_at": "2026-10-26T13:19:22.256955+00:00",
+      "institution_id": null,
+      "language": "en",
+      "observations": [
+        {
+          "collector": "google_news",
+          "language": "en",
+          "search_query": "world news Europe",
+          "search_region": "Europe",
+          "title": "Off the Record: Yalta 2.0 spells bad news for Europe in desperate need of a plan - Euronews.com"
+        }
+      ],
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOTXcyQkZpX21aRFpCUjBkb09ya0FpazV2RUQwZFNjb3d6dlp5UWVRS3M2RVdySkE4aTZCemxPVWxpUWtIV0x4UVRwejJNNnBjVWF5N1lXT3F4SVJVRUVqeE9kWWgtMGRlcGdGbk4tYVdrS2NoUFBleUs2OTZCa0FZa2RJb1I4QjFCb0RzeDFEVXRkajl5YWp6N0ZCaGRma2xDOWp1SC1rbnJVRFJrUTNaQWlaTTQ?oc=5",
+      "profile_id": "world/global",
+      "published_at": "2026-10-25T16:39:10+00:00",
+      "publisher": "Euronews.com",
+      "search_query": "world news Europe",
+      "source_country": "unknown",
+      "source_id": "8afee1f6305677d05396ce86",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPbHJWMG9kVGxRcWVPUlprU2I5N0VyZEZ4eXI0RTVIOHRMaFc1c09taUhkd2ZuUGxtUWJPdjVIX0RhbnF3UTE3OUN6U01mUTNUMFhCUTNnc2s1VnFTWFdpbjJnMjA5R3JlWWl2TVdQQkJjWkZhLW55Ym5oTWh2d2ZrVlJCVzdFMEZHV2Y2MnZJM3c1R0d4dUx5Y2xsb19yejdHTTAtWlZwSUE4MXZOZVdzQ3VzSXVCY2UyMzhNNlJXTFhXQTdsUHpsQ2FhaXAwVkJROVZnS1JMcw?oc=5",
+      "content_fingerprint": "3cc44d81522340a6876512ce",
+      "fetched_at": "2026-10-26T13:19:22.256955+00:00",
+      "institution_id": null,
+      "language": "en",
+      "observations": [
+        {
+          "collector": "google_news",
+          "language": "en",
+          "search_query": "world news Europe",
+          "search_region": "Europe",
+          "title": "Ten days that could shake the world: democratic norms at stake in four pivotal elections - The Guardian"
+        }
+      ],
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPbHJWMG9kVGxRcWVPUlprU2I5N0VyZEZ4eXI0RTVIOHRMaFc1c09taUhkd2ZuUGxtUWJPdjVIX0RhbnF3UTE3OUN6U01mUTNUMFhCUTNnc2s1VnFTWFdpbjJnMjA5R3JlWWl2TVdQQkJjWkZhLW55Ym5oTWh2d2ZrVlJCVzdFMEZHV2Y2MnZJM3c1R0d4dUx5Y2xsb19yejdHTTAtWlZwSUE4MXZOZVdzQ3VzSXVCY2UyMzhNNlJXTFhXQTdsUHpsQ2FhaXAwVkJROVZnS1JMcw?oc=5",
+      "profile_id": "world/global",
+      "published_at": "2026-10-25T07:00:00+00:00",
+      "publisher": "The Guardian",
+      "search_query": "world news Europe",
+      "source_country": "unknown",
+      "source_id": "94c9477cff8c556a55acdd89",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQcDFUdElsOEloOGdqNjAxcXJfbDNCVDZSOWlMT1VjRzNQeUtyeTRxVUxqMC1JWkNoTGFUN214RE9IQTN4aEFxREdDdnBETjNFQUUycy1LNkVvY2ZyME9sNEtnVXloa25fMURmRG1ZUlhHdEFMYXZXR1dBUG9DNS16TC1iRG96NFpjZDk1VU5ERFNGeW9JUUhqLVVJVmdxMzQ?oc=5",
+      "content_fingerprint": "5cca3ec4406932618d1c2176",
+      "fetched_at": "2026-10-26T13:19:22.256955+00:00",
+      "institution_id": null,
+      "language": "en",
+      "observations": [
+        {
+          "collector": "google_news",
+          "language": "en",
+          "search_query": "world news Asia",
+          "search_region": "Asia",
+          "title": "CNA Explains: Why are the Houthis targeting Saudi airports? - CNA"
+        }
+      ],
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQcDFUdElsOEloOGdqNjAxcXJfbDNCVDZSOWlMT1VjRzNQeUtyeTRxVUxqMC1JWkNoTGFUN214RE9IQTN4aEFxREdDdnBETjNFQUUycy1LNkVvY2ZyME9sNEtnVXloa25fMURmRG1ZUlhHdEFMYXZXR1dBUG9DNS16TC1iRG96NFpjZDk1VU5ERFNGeW9JUUhqLVVJVmdxMzQ?oc=5",
+      "profile_id": "world/global",
+      "published_at": "2026-10-26T11:43:41+00:00",
+      "publisher": "CNA",
+      "search_query": "world news Asia",
+      "source_country": "unknown",
+      "source_id": "96c03fcc60c386aca03c91d9",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPQVg4ODRlb1BZV1ZjOVFvYW9WSGZEOWgwd2ZadHVfc19BV1hESmFHZU44MlZOZFc3S2JMZlBnNEpWR0pTejJoVzZLSTE1OG9BZVhtQndIM1duUlF1V25SLTZsNVpDRVFldmlLWVl2dDBGSkV5MXNpMHNvOEhEaXNUMkYxeDloMkhkc1MydEpsY0RjT3RoMVpBSVBRc25iMlhXMXlPSl9PSHpOVjBISVFWcVlNQWFiYWNRZjgtV0dGMUtZUFFrSUo2Zmx1b29WWHFk?oc=5",
+      "content_fingerprint": "bd12e3ab21c8e752a2e5148d",
+      "fetched_at": "2026-10-26T13:19:22.256955+00:00",
+      "institution_id": null,
+      "language": "en",
+      "observations": [
+        {
+          "collector": "google_news",
+          "language": "en",
+          "search_query": "world news Europe",
+          "search_region": "Europe",
+          "title": "World News in Brief: Iran nuclear inspections, deadly church attack in Jordan, El Fasher – one year on - The European Sting"
+        }
+      ],
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPQVg4ODRlb1BZV1ZjOVFvYW9WSGZEOWgwd2ZadHVfc19BV1hESmFHZU44MlZOZFc3S2JMZlBnNEpWR0pTejJoVzZLSTE1OG9BZVhtQndIM1duUlF1V25SLTZsNVpDRVFldmlLWVl2dDBGSkV5MXNpMHNvOEhEaXNUMkYxeDloMkhkc1MydEpsY0RjT3RoMVpBSVBRc25iMlhXMXlPSl9PSHpOVjBISVFWcVlNQWFiYWNRZjgtV0dGMUtZUFFrSUo2Zmx1b29WWHFk?oc=5",
+      "profile_id": "world/global",
+      "published_at": "2026-10-26T10:03:50+00:00",
+      "publisher": "The European Sting",
+      "search_query": "world news Europe",
+      "source_country": "unknown",
+      "source_id": "98c7373001a31a3531f8dee1",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxOUDNfSFFrOTVZbVpMQ3lsR2VzR0htY2RoTFdPQk1xc2dPSERUZ2d6NWxqNlVoaG1XWlJMMUhwVlpWd2N0V0s5anlZeHFlUWdHWHVIYi1UQ1NuMi1la3Jib2hSa3ZEM1QtV0w4OHFjeHNfX3k0b0s0X3o2c1BvNUdDOEpJVXZrMU12cUZtWUZEUEZUSWgwaDVPdkEtRFFzUGt4cWxEOWlUVlJHRjlDcE5NNlBaU21RcHdQYTgyRmF6UXFUWkNQQTNlZmJBZnR6cFk1YXY3TEFPeUJldGxOcVA1MnBYcTBHbFZlYkg1LXRhaEQ1Z1F3MzVwY293SzNWb2dURkRGMnFmeHFtQjhNSDJr0gGiAkFVX3lxTE00cXhQUGVxY1l2dVV6dXpUc1JsZGJLNllaZ3k1d21XalhfYXVzeFd2S2l4Z3pybnBHclBjT0xpVjRKUjRzbGgyNXN6cWUwVWVvcWk5N1JLcFpMczRncEtpZ2d0UlAycFZreFZ4c2RqSENXYnVIRFUwSC1uUE5aLUtWdzhVWlc0clJYRlpwTjdoYXAySUZjaktLaG5WMEtGUkYzakpBS1dVcnM0WE9USGxieHZKdjdEVTdKUlJXOHV5clhzbTA0Y3JCSkpHUlF6aWtuQ2RDQ2poeldMU3FJaFhWdjRGUHBISVgzMm9VNGxYeE1SVS1LVnRVY25WSW1EcWgwMU16cFJqWGt5bzdVMktuQS1Ca1hyVHNvNG9SR0U0dHFR?oc=5",
+      "content_fingerprint": "3f88df7015d6fc9d337dda47",
+      "fetched_at": "2026-10-26T13:19:22.256955+00:00",
+      "institution_id": null,
+      "language": "en",
+      "observations": [
+        {
+          "collector": "google_news",
+          "language": "en",
+          "search_query": "world news Europe",
+          "search_region": "Europe",
+          "title": "Europe's Navy Eyes Hormuz: Britain and France ready mine-hunting drones to reopen the world’s oil chokepoint, but only if the guns fall silent - Gulf News"
+        }
+      ],
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxOUDNfSFFrOTVZbVpMQ3lsR2VzR0htY2RoTFdPQk1xc2dPSERUZ2d6NWxqNlVoaG1XWlJMMUhwVlpWd2N0V0s5anlZeHFlUWdHWHVIYi1UQ1NuMi1la3Jib2hSa3ZEM1QtV0w4OHFjeHNfX3k0b0s0X3o2c1BvNUdDOEpJVXZrMU12cUZtWUZEUEZUSWgwaDVPdkEtRFFzUGt4cWxEOWlUVlJHRjlDcE5NNlBaU21RcHdQYTgyRmF6UXFUWkNQQTNlZmJBZnR6cFk1YXY3TEFPeUJldGxOcVA1MnBYcTBHbFZlYkg1LXRhaEQ1Z1F3MzVwY293SzNWb2dURkRGMnFmeHFtQjhNSDJr0gGiAkFVX3lxTE00cXhQUGVxY1l2dVV6dXpUc1JsZGJLNllaZ3k1d21XalhfYXVzeFd2S2l4Z3pybnBHclBjT0xpVjRKUjRzbGgyNXN6cWUwVWVvcWk5N1JLcFpMczRncEtpZ2d0UlAycFZreFZ4c2RqSENXYnVIRFUwSC1uUE5aLUtWdzhVWlc0clJYRlpwTjdoYXAySUZjaktLaG5WMEtGUkYzakpBS1dVcnM0WE9USGxieHZKdjdEVTdKUlJXOHV5clhzbTA0Y3JCSkpHUlF6aWtuQ2RDQ2poeldMU3FJaFhWdjRGUHBISVgzMm9VNGxYeE1SVS1LVnRVY25WSW1EcWgwMU16cFJqWGt5bzdVMktuQS1Ca1hyVHNvNG9SR0U0dHFR?oc=5",
+      "profile_id": "world/global",
+      "published_at": "2026-10-26T12:14:45+00:00",
+      "publisher": "Gulf News",
+      "search_query": "world news Europe",
+      "source_country": "unknown",
+      "source_id": "9c738798bba805284bdd1fae",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE55YlZ2YWFnTTJmRVBYYm1zM09saW9oYzBweDBDVmR6c2t3Ymppem9ROF9HbE9USTJIRFhnb0RLNlUyUWFvZEk4dzFXdjk2OEh4RDVZVWhzcDZ6XzNBNm5iM3hnd2IyQVpGb0UyZmdVbEtRYXI2VkZ0MnFSYw?oc=5",
+      "content_fingerprint": "ce205b99d40c000e812009d1",
+      "fetched_at": "2026-10-26T13:19:22.256955+00:00",
+      "institution_id": null,
+      "language": "en",
+      "observations": [
+        {
+          "collector": "google_news",
+          "language": "en",
+          "search_query": "world news Oceania",
+          "search_region": "Oceania",
+          "title": "Aussie Roads Become Rollercoaster Rides Featuring Fibreglass Crocodiles in VW's 'Walkinshaw World' — LBB - LBB - Little Black Book"
+        }
+      ],
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE55YlZ2YWFnTTJmRVBYYm1zM09saW9oYzBweDBDVmR6c2t3Ymppem9ROF9HbE9USTJIRFhnb0RLNlUyUWFvZEk4dzFXdjk2OEh4RDVZVWhzcDZ6XzNBNm5iM3hnd2IyQVpGb0UyZmdVbEtRYXI2VkZ0MnFSYw?oc=5",
+      "profile_id": "world/global",
+      "published_at": "2026-10-25T23:41:24+00:00",
+      "publisher": "LBB - Little Black Book",
+      "search_query": "world news Oceania",
+      "source_country": "unknown",
+      "source_id": "a4d83ad84515d10495df3864",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNNVE3OC1FTm14alpUZ0x0YlJCX242LTVrSE96Q0xrNXI1MkZOb1cxd0dZd2hOY3ZsNXlxVjVZQkZmWTYycEVyVXJvVEpGVHluSElDdnFTS0M0UklNekJSRk1PalYyV2duaGw2Mld6Yk1vNUxrZTVLU09xSVVCRVVPTHZJWWc2cl9PenpCMlZJX2N2aUVKLW81LWpNWEQ3blU?oc=5",
+      "content_fingerprint": "47fbeb2c4864f7cd836c40a0",
+      "fetched_at": "2026-10-26T13:19:22.256955+00:00",
+      "institution_id": null,
+      "language": "en",
+      "observations": [
+        {
+          "collector": "google_news",
+          "language": "en",
+          "search_query": "world news Americas",
+          "search_region": "Americas",
+          "title": "Man dubbed ‘America’s Nostradamus’ shares chilling prediction about the world before 2028 - LADbible"
+        }
+      ],
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNNVE3OC1FTm14alpUZ0x0YlJCX242LTVrSE96Q0xrNXI1MkZOb1cxd0dZd2hOY3ZsNXlxVjVZQkZmWTYycEVyVXJvVEpGVHluSElDdnFTS0M0UklNekJSRk1PalYyV2duaGw2Mld6Yk1vNUxrZTVLU09xSVVCRVVPTHZJWWc2cl9PenpCMlZJX2N2aUVKLW81LWpNWEQ3blU?oc=5",
+      "profile_id": "world/global",
+      "published_at": "2026-10-26T09:19:09+00:00",
+      "publisher": "LADbible",
+      "search_query": "world news Americas",
+      "source_country": "unknown",
+      "source_id": "a4d8efa490edfdc3bd07c926",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQZms5VW5qMHp3Mm5EeFFBbGtpTFVWbjBGOVN5ZTMweG1WS2dqaHBiUko3NFJVU0hLelh0dXlKVnc5SjU1WkZwd0dWUVBZRmY4MnJqQmJZRGQyZUJiZldfTzNGS2FjS25va2pJTGxFSmwwVGItLXFEQ3d6d3YwYkNHWVpLSkhaOEJHTmhOcGNmU3lvMVJCSThaVG9kRXVQekNRUlVSYVNoNVVlbmJtbWc4YjVud3B4cTVnYUw4d2w1aEg0Ujlm?oc=5",
+      "content_fingerprint": "e982e32110761ad9656d4bbf",
+      "fetched_at": "2026-10-26T13:19:22.256955+00:00",
+      "institution_id": null,
+      "language": "en",
+      "observations": [
+        {
+          "collector": "google_news",
+          "language": "en",
+          "search_query": "world news Africa",
+          "search_region": "Africa",
+          "title": "Heirs Insurance Group wins prestigious Financial Times–World Bank Group Africa Sustainable Futures Award - Business Insider Africa"
+        }
+      ],
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQZms5VW5qMHp3Mm5EeFFBbGtpTFVWbjBGOVN5ZTMweG1WS2dqaHBiUko3NFJVU0hLelh0dXlKVnc5SjU1WkZwd0dWUVBZRmY4MnJqQmJZRGQyZUJiZldfTzNGS2FjS25va2pJTGxFSmwwVGItLXFEQ3d6d3YwYkNHWVpLSkhaOEJHTmhOcGNmU3lvMVJCSThaVG9kRXVQekNRUlVSYVNoNVVlbmJtbWc4YjVud3B4cTVnYUw4d2w1aEg0Ujlm?oc=5",
+      "profile_id": "world/global",
+      "published_at": "2026-10-26T06:35:32+00:00",
+      "publisher": "Business Insider Africa",
+      "search_query": "world news Africa",
+      "source_country": "unknown",
+      "source_id": "a90c23e7e6220366c0da7ff8",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPMVB5bXFNMnVnZ1VBRUpXaU1LOE1nRmc2ZHk0djJfOXprZWdmWmJqUWlzOFlyekw3NjNwaHU2MExXT3VlTGMzeFFMUmFGc0JtdW9RVThnVV92cWNzZjFxLW9ybkZVajlrcVlxcWV1THF0bjktX2QwQ0FXSHE1Z1Mwckk4TGJYRTM3dWFnNENEYmY?oc=5",
+      "content_fingerprint": "a44db6b9cea8c218def0e823",
+      "fetched_at": "2026-10-26T13:19:22.256955+00:00",
+      "institution_id": null,
+      "language": "en",
+      "observations": [
+        {
+          "collector": "google_news",
+          "language": "en",
+          "search_query": "world news Europe",
+          "search_region": "Europe",
+          "title": "Video. Latest news bulletin | October 26th, 2026 – Midday - Euronews.com"
+        }
+      ],
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPMVB5bXFNMnVnZ1VBRUpXaU1LOE1nRmc2ZHk0djJfOXprZWdmWmJqUWlzOFlyekw3NjNwaHU2MExXT3VlTGMzeFFMUmFGc0JtdW9RVThnVV92cWNzZjFxLW9ybkZVajlrcVlxcWV1THF0bjktX2QwQ0FXSHE1Z1Mwckk4TGJYRTM3dWFnNENEYmY?oc=5",
+      "profile_id": "world/global",
+      "published_at": "2026-10-26T11:00:15+00:00",
+      "publisher": "Euronews.com",
+      "search_query": "world news Europe",
+      "source_country": "unknown",
+      "source_id": "a9dcd311a9176004de3dd4c3",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5sQUZTRnhYaWRlQm10bEZ0aUctRkdIT04tUmZ1amhGSzJKdEc4dFVHX2V0MTFkWmhUOThIVW1xZzJuWngwRU4teFlFTnM5QmRwNVF3RzUyRTJicnJzSlFOWmpnZkh3a2FJUTBsSHNmQXlCb19vcG5MTy1CVmdqdw?oc=5",
+      "content_fingerprint": "280fc572aa246e0a49142989",
+      "fetched_at": "2026-10-26T13:19:22.256955+00:00",
+      "institution_id": null,
+      "language": "en",
+      "observations": [
+        {
+          "collector": "google_news",
+          "language": "en",
+          "search_query": "world news Africa",
+          "search_region": "Africa",
+          "title": "South African Paddlers Make Their Mark at World Championships - Good Things Guy"
+        }
+      ],
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5sQUZTRnhYaWRlQm10bEZ0aUctRkdIT04tUmZ1amhGSzJKdEc4dFVHX2V0MTFkWmhUOThIVW1xZzJuWngwRU4teFlFTnM5QmRwNVF3RzUyRTJicnJzSlFOWmpnZkh3a2FJUTBsSHNmQXlCb19vcG5MTy1CVmdqdw?oc=5",
+      "profile_id": "world/global",
+      "published_at": "2026-10-26T10:30:17+00:00",
+      "publisher": "Good Things Guy",
+      "search_query": "world news Africa",
+      "source_country": "unknown",
+      "source_id": "b87b0497950f52be66d6b1e1",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBrSG15aGZHclpHRlBhT2N1YTlDa3pGTGR4UWlJN3RfNDlpR0F3S3pPQmhVY2psaWRJTWkzeklWYTNMWEpKNEl2MVhjZlU2NDR4Y2lQLXFiSm9mYktaRm4xZ2xJUWREd2VCNmhEa1NwTEdlYWxXSlQzcQ?oc=5",
+      "content_fingerprint": "12fef234738e037ec2870623",
+      "fetched_at": "2026-10-26T13:19:22.256955+00:00",
+      "institution_id": null,
+      "language": "en",
+      "observations": [
+        {
+          "collector": "google_news",
+          "language": "en",
+          "search_query": "world news Europe",
+          "search_region": "Europe",
+          "title": "EU trade deal about ‘role of Australia in the world’ - Yahoo News Australia"
+        }
+      ],
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBrSG15aGZHclpHRlBhT2N1YTlDa3pGTGR4UWlJN3RfNDlpR0F3S3pPQmhVY2psaWRJTWkzeklWYTNMWEpKNEl2MVhjZlU2NDR4Y2lQLXFiSm9mYktaRm4xZ2xJUWREd2VCNmhEa1NwTEdlYWxXSlQzcQ?oc=5",
+      "profile_id": "world/global",
+      "published_at": "2026-10-25T19:01:38+00:00",
+      "publisher": "Yahoo News Australia",
+      "search_query": "world news Europe",
+      "source_country": "unknown",
+      "source_id": "bc828417fb20da7c8767c516",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOZHdMWnN6azJxVHVzWk9SNVlnUE5ObGdjdzVEM0h0Q1ZieHJWcXdfSl9Qem4zMTBselEzcXpFQnBGQmMtOEh1ckVZZ1otSWV0MHVGbjFsUmswVTRZNEVYczRTd01LcHdJQTlMVDdwQXRvR1NxcXNEYV8tOVNIYnJpWUx1dUZZU2txNW0wS3JuUzZGdWtFZWRQY1hHWUI?oc=5",
+      "content_fingerprint": "a453517abb88132fe8540184",
+      "fetched_at": "2026-10-26T13:19:22.256955+00:00",
+      "institution_id": null,
+      "language": "en",
+      "observations": [
+        {
+          "collector": "google_news",
+          "language": "en",
+          "search_query": "world news Asia",
+          "search_region": "Asia",
+          "title": "PM Wong calls for gas contracts to be honored — Channel NewsAsia - UA.NEWS"
+        }
+      ],
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOZHdMWnN6azJxVHVzWk9SNVlnUE5ObGdjdzVEM0h0Q1ZieHJWcXdfSl9Qem4zMTBselEzcXpFQnBGQmMtOEh1ckVZZ1otSWV0MHVGbjFsUmswVTRZNEVYczRTd01LcHdJQTlMVDdwQXRvR1NxcXNEYV8tOVNIYnJpWUx1dUZZU2txNW0wS3JuUzZGdWtFZWRQY1hHWUI?oc=5",
+      "profile_id": "world/global",
+      "published_at": "2026-10-25T04:08:33+00:00",
+      "publisher": "UA.NEWS",
+      "search_query": "world news Asia",
+      "source_country": "unknown",
+      "source_id": "bcf6a009cc3cd4dc3457b52f",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOVWQ3Qlo4MVhLay1XcWhUTi03YjVsb0dreFVIbkkyUWlFMjZ1c3NudVBWbzBDMkg3ZGFzMnZFZjlvcnZodW5GbElOanE4Rk9LcnZlTm00ZWI5aHdYUDNjX25QV0F6UDB3Mkx6bXlUcW9PRG9Bd0dOSTA1ZmdBdGU2RW9LWWVwQmszdE05OUcxbF9nZjdxMkwwV3JOdTNYVy1WSFVv?oc=5",
+      "content_fingerprint": "2bac296cde993d754a8923ad",
+      "fetched_at": "2026-10-26T13:19:22.256955+00:00",
+      "institution_id": null,
+      "language": "en",
+      "observations": [
+        {
+          "collector": "google_news",
+          "language": "en",
+          "search_query": "world news Asia",
+          "search_region": "Asia",
+          "title": "Officials from Mecca pact countries to meet Iranian officials in Tehran - CNA"
+        }
+      ],
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOVWQ3Qlo4MVhLay1XcWhUTi03YjVsb0dreFVIbkkyUWlFMjZ1c3NudVBWbzBDMkg3ZGFzMnZFZjlvcnZodW5GbElOanE4Rk9LcnZlTm00ZWI5aHdYUDNjX25QV0F6UDB3Mkx6bXlUcW9PRG9Bd0dOSTA1ZmdBdGU2RW9LWWVwQmszdE05OUcxbF9nZjdxMkwwV3JOdTNYVy1WSFVv?oc=5",
+      "profile_id": "world/global",
+      "published_at": "2026-10-26T09:45:43+00:00",
+      "publisher": "CNA",
+      "search_query": "world news Asia",
+      "source_country": "unknown",
+      "source_id": "be907074f7c24dfcfb6c0045",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQdWVFUG8tbFZtRV8wa0pFTW5rWVliVld5YTZSTzlFNkpOYW9UTjJTcTNlQldxUmlEbzl1eGVRWWtJS3dNOHlZbFZwUEZFaDBmZTBiN3VOV0NZZDUxN1lOWnRCWnN6d3RFamltbDVOc0k5b1RZcWhpTTFidUlXNFpDeXpXVVFLcG5zVmtaRG9iYkFJRGljcVNWc1BvdXcyOW01RTd1NGhoWnB1ZU5nR0RQODVjdkstRmNRbXRsRHlrVWpnZ2M?oc=5",
+      "content_fingerprint": "e17d27287080361b0a885f9c",
+      "fetched_at": "2026-10-26T13:19:22.256955+00:00",
+      "institution_id": null,
+      "language": "en",
+      "observations": [
+        {
+          "collector": "google_news",
+          "language": "en",
+          "search_query": "world news Asia",
+          "search_region": "Asia",
+          "title": "Why the world’s biggest events are landing in this Asian city - Meetings & Conventions Asia"
+        }
+      ],
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQdWVFUG8tbFZtRV8wa0pFTW5rWVliVld5YTZSTzlFNkpOYW9UTjJTcTNlQldxUmlEbzl1eGVRWWtJS3dNOHlZbFZwUEZFaDBmZTBiN3VOV0NZZDUxN1lOWnRCWnN6d3RFamltbDVOc0k5b1RZcWhpTTFidUlXNFpDeXpXVVFLcG5zVmtaRG9iYkFJRGljcVNWc1BvdXcyOW01RTd1NGhoWnB1ZU5nR0RQODVjdkstRmNRbXRsRHlrVWpnZ2M?oc=5",
+      "profile_id": "world/global",
+      "published_at": "2026-10-25T19:08:35+00:00",
+      "publisher": "Meetings & Conventions Asia",
+      "search_query": "world news Asia",
+      "source_country": "unknown",
+      "source_id": "c1470f0a6dedaff2e6341895",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPQzB6UHJ3Ync4Z2pZRmZVM0xzMk96M0xfVjRfVjgxR1NNZ1hhTGFXVXVhYUNObHZvS2VxWUt6Mk9HX0pXX1lYOWRqQ0xqaV93bDB5UWNzd1g3Y0V0aExHUUdaZC1aZXoyNWVvSHdzSTFWUG1BZFM5X3RuOGlNUklJUmhOVnZyXzd6elNGVjdST0NRM2ttVXNpbi12c1FldGpUdEtyeGxuMEk0N0JXX2VQYUNR0gG3AUFVX3lxTE1GaG9mVDJ0dW4xWmVQWW43MGxtMnZSMTRSYTF1eWZqM2FIRE9vVnNtMHN5NUN1NEd5d0dQYnRRTU1oMjZLT0dlcXVsSE40emd4VXBJbWFmamN0RTFqdFVyYW14YlhtbkIwUzYyRTVaQmk0SXA4NUpUd3NnTzFpWHZJZFJhZWQ3MDlqMkFqbkIwVFlSVFBKNjliOTNXdFRzOHFtUEotbXU4azRUWlByak4tcXRJYndnbw?oc=5",
+      "content_fingerprint": "a2d2132bedf025a9bbd5e65a",
+      "fetched_at": "2026-10-26T13:19:22.256955+00:00",
+      "institution_id": null,
+      "language": "en",
+      "observations": [
+        {
+          "collector": "google_news",
+          "language": "en",
+          "search_query": "world news Americas",
+          "search_region": "Americas",
+          "title": "China increasingly depends on copying American AI | World News - Hindustan Times"
+        }
+      ],
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPQzB6UHJ3Ync4Z2pZRmZVM0xzMk96M0xfVjRfVjgxR1NNZ1hhTGFXVXVhYUNObHZvS2VxWUt6Mk9HX0pXX1lYOWRqQ0xqaV93bDB5UWNzd1g3Y0V0aExHUUdaZC1aZXoyNWVvSHdzSTFWUG1BZFM5X3RuOGlNUklJUmhOVnZyXzd6elNGVjdST0NRM2ttVXNpbi12c1FldGpUdEtyeGxuMEk0N0JXX2VQYUNR0gG3AUFVX3lxTE1GaG9mVDJ0dW4xWmVQWW43MGxtMnZSMTRSYTF1eWZqM2FIRE9vVnNtMHN5NUN1NEd5d0dQYnRRTU1oMjZLT0dlcXVsSE40emd4VXBJbWFmamN0RTFqdFVyYW14YlhtbkIwUzYyRTVaQmk0SXA4NUpUd3NnTzFpWHZJZFJhZWQ3MDlqMkFqbkIwVFlSVFBKNjliOTNXdFRzOHFtUEotbXU4azRUWlByak4tcXRJYndnbw?oc=5",
+      "profile_id": "world/global",
+      "published_at": "2026-10-26T02:54:18+00:00",
+      "publisher": "Hindustan Times",
+      "search_query": "world news Americas",
+      "source_country": "unknown",
+      "source_id": "c1ee7541f9ac7c2ae4325433",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOS0ZOUm1JX1BBZno1TzREVExObjFVTUQxNjczUXdLN2ZlMG90MFVQRVQ3dFptMl9wdjYxTEYyVWd1ck5xUTdQZGEyOGg2VjNHemJwRVJxN2dVRXlqa3N3ZEo1a3lpcm83SjA5ZmZ2WWRzTjZiemFqZ2U2bVFJZURZZS1OOEdweU9BRjk0cUJwa3MwcTZueEJ4UjdfbzFmcHNiTUMwZ2ZuRGhtMFkxWi1YYUNaZ0J1VFpyRDB6RFZ0SlFRMEFDSS1ybmpZSWhBN1M2U21RSWthaHVhS0ZmNmRVTUxqQ0VyS1piS29n?oc=5",
+      "content_fingerprint": "05e0ccabd559b4eeda786303",
+      "fetched_at": "2026-10-26T13:19:22.256955+00:00",
+      "institution_id": null,
+      "language": "en",
+      "observations": [
+        {
+          "collector": "google_news",
+          "language": "en",
+          "search_query": "world news Americas",
+          "search_region": "Americas",
+          "title": "Brewers fans celebrate World Series return outside American Family Field - Channel 3000"
+        }
+      ],
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOS0ZOUm1JX1BBZno1TzREVExObjFVTUQxNjczUXdLN2ZlMG90MFVQRVQ3dFptMl9wdjYxTEYyVWd1ck5xUTdQZGEyOGg2VjNHemJwRVJxN2dVRXlqa3N3ZEo1a3lpcm83SjA5ZmZ2WWRzTjZiemFqZ2U2bVFJZURZZS1OOEdweU9BRjk0cUJwa3MwcTZueEJ4UjdfbzFmcHNiTUMwZ2ZuRGhtMFkxWi1YYUNaZ0J1VFpyRDB6RFZ0SlFRMEFDSS1ybmpZSWhBN1M2U21RSWthaHVhS0ZmNmRVTUxqQ0VyS1piS29n?oc=5",
+      "profile_id": "world/global",
+      "published_at": "2026-10-25T16:45:00+00:00",
+      "publisher": "Channel 3000",
+      "search_query": "world news Americas",
+      "source_country": "unknown",
+      "source_id": "c6b4fc8c44ec92495a5735f5",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOazItOEZmeENmd1l6ek5ONFhGM3RBZjVmXzVJZFlMcXFrbkdZZ20xckJNS3VJY2tqNW4xY3lvRG5WTHRWY0FleWZFYk5DaFZ3dEl4VU1HTm9ZWWt1RkNITFFVQnZ6dGtRWEFzY2x5MS1fRWl6QW9Vek42a2hFUGx0djVTLUpfSVQz?oc=5",
+      "content_fingerprint": "2792fca96e7dfd267d2d2228",
+      "fetched_at": "2026-10-26T13:19:22.256955+00:00",
+      "institution_id": null,
+      "language": "en",
+      "observations": [
+        {
+          "collector": "google_news",
+          "language": "en",
+          "search_query": "world news Africa",
+          "search_region": "Africa",
+          "title": "Mandela University Choirs and Brass Ensemble take centre stage at Skål International World Congress - Nelson Mandela University"
+        }
+      ],
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOazItOEZmeENmd1l6ek5ONFhGM3RBZjVmXzVJZFlMcXFrbkdZZ20xckJNS3VJY2tqNW4xY3lvRG5WTHRWY0FleWZFYk5DaFZ3dEl4VU1HTm9ZWWt1RkNITFFVQnZ6dGtRWEFzY2x5MS1fRWl6QW9Vek42a2hFUGx0djVTLUpfSVQz?oc=5",
+      "profile_id": "world/global",
+      "published_at": "2026-10-26T09:59:53+00:00",
+      "publisher": "Nelson Mandela University",
+      "search_query": "world news Africa",
+      "source_country": "unknown",
+      "source_id": "c8a8ce12cf00c8ea6fc3451f",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOS09SQTVoMm9sOGVzY1N1VnZRX3NVNGhXeENOeWltb29ybER0dlg1azV6M3l2Yy1KV0RWY0stS1RWek1HMGJKRnAzNnZFOHdGRTNaYndfRjlmeUp3eno1YkktNW9Vc2xUQUdMYWxfdW9ITmUtaERkdU5vdUp1T1MybDZ6SDN2MVcycjZyZFRycDFoVVhxMURvSXROZGNxcGJ6aktwV1NGRUdOOWV0ZjdWdEpjM2lJVmZhbFRjMmM4VUVFVXc?oc=5",
+      "content_fingerprint": "5573f92b915fa767b79007df",
+      "fetched_at": "2026-10-26T13:19:22.256955+00:00",
+      "institution_id": null,
+      "language": "en",
+      "observations": [
+        {
+          "collector": "google_news",
+          "language": "en",
+          "search_query": "world news Oceania",
+          "search_region": "Oceania",
+          "title": "Samoa bow out of the FIFA U-17 Women’s World Cup™ group stages following a 4-0 defeat to Kenya - Oceania Football Confederation"
+        }
+      ],
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOS09SQTVoMm9sOGVzY1N1VnZRX3NVNGhXeENOeWltb29ybER0dlg1azV6M3l2Yy1KV0RWY0stS1RWek1HMGJKRnAzNnZFOHdGRTNaYndfRjlmeUp3eno1YkktNW9Vc2xUQUdMYWxfdW9ITmUtaERkdU5vdUp1T1MybDZ6SDN2MVcycjZyZFRycDFoVVhxMURvSXROZGNxcGJ6aktwV1NGRUdOOWV0ZjdWdEpjM2lJVmZhbFRjMmM4VUVFVXc?oc=5",
+      "profile_id": "world/global",
+      "published_at": "2026-10-25T20:36:52+00:00",
+      "publisher": "Oceania Football Confederation",
+      "search_query": "world news Oceania",
+      "source_country": "unknown",
+      "source_id": "cff8832ad3f539342beec335",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE50Rl82UXFpalhiUjBWTUJaNFlTVVZFSFZWS1hQT3R4UkFwRVZ0MHgxclFuNEZxRkhRSzZZQUxxV2VJUWUwblUzS0I1SEVTdlltdXB1bG04ZGw0T1VZMzNVd3MxYmhyTzlUUGF0MkdXUnlWXzVHNEp2cGIyWWY3UkE?oc=5",
+      "content_fingerprint": "79cafeb269abf2806ddb7f31",
+      "fetched_at": "2026-10-26T13:19:22.256955+00:00",
+      "institution_id": null,
+      "language": "en",
+      "observations": [
+        {
+          "collector": "google_news",
+          "language": "en",
+          "search_query": "world news Americas",
+          "search_region": "Americas",
+          "title": "Fans try to see World Series from American Family Field windows - Yahoo Sports"
+        }
+      ],
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE50Rl82UXFpalhiUjBWTUJaNFlTVVZFSFZWS1hQT3R4UkFwRVZ0MHgxclFuNEZxRkhRSzZZQUxxV2VJUWUwblUzS0I1SEVTdlltdXB1bG04ZGw0T1VZMzNVd3MxYmhyTzlUUGF0MkdXUnlWXzVHNEp2cGIyWWY3UkE?oc=5",
+      "profile_id": "world/global",
+      "published_at": "2026-10-25T18:24:31+00:00",
+      "publisher": "Yahoo Sports",
+      "search_query": "world news Americas",
+      "source_country": "unknown",
+      "source_id": "d44f5d0af1c5a07cea7d3119",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPMWoxVDNxN1hnMHBITnRSVFMyWmh5cmRpOGhReHh6SjJ0cHE3X29mdmZabU5BTVpudDJSVDNlS1o2U3V5cWRPdnVuRmYwTi1YNTNaa3ZDVHlQMC1XZS1ZS2MxRllZb3FhNzNFRUZhcEFlS0E5TUlHU19zRkQwZmk5OHJSRzlBcFN5SVYwVVlMZG9FaGRTX1FnZ2FFWdIBoAFBVV95cUxQQ081TDlmcnRUaHpUNUo0aE53SzF1LTh1TUhGeExkZWd5OXJuT2ZGd3lLb3NqdWQzc09FRC1aSEtsaDZkUV9BNXBaZDRvRDEtMXZEd0FMVkFxQUYwY0h0RUxpSU9kUkZTT1ktRF82WkdYN2VPVGhHMXM3QlJ6RkpUNlFsc000V3F6VTRrQWd6WXFHNVN0T0w2bzAwNjJZUmIw?oc=5",
+      "content_fingerprint": "d67657a63fe86364d42083df",
+      "fetched_at": "2026-10-26T13:19:22.256955+00:00",
+      "institution_id": null,
+      "language": "en",
+      "observations": [
+        {
+          "collector": "google_news",
+          "language": "en",
+          "search_query": "world news Americas",
+          "search_region": "Americas",
+          "title": "Food and drink discounts during World Cup: Where soccer fans can score freebies and deals at restaurants, bars and more - ABC News - Breaking News, Latest News and Videos"
+        }
+      ],
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPMWoxVDNxN1hnMHBITnRSVFMyWmh5cmRpOGhReHh6SjJ0cHE3X29mdmZabU5BTVpudDJSVDNlS1o2U3V5cWRPdnVuRmYwTi1YNTNaa3ZDVHlQMC1XZS1ZS2MxRllZb3FhNzNFRUZhcEFlS0E5TUlHU19zRkQwZmk5OHJSRzlBcFN5SVYwVVlMZG9FaGRTX1FnZ2FFWdIBoAFBVV95cUxQQ081TDlmcnRUaHpUNUo0aE53SzF1LTh1TUhGeExkZWd5OXJuT2ZGd3lLb3NqdWQzc09FRC1aSEtsaDZkUV9BNXBaZDRvRDEtMXZEd0FMVkFxQUYwY0h0RUxpSU9kUkZTT1ktRF82WkdYN2VPVGhHMXM3QlJ6RkpUNlFsc000V3F6VTRrQWd6WXFHNVN0T0w2bzAwNjJZUmIw?oc=5",
+      "profile_id": "world/global",
+      "published_at": "2026-10-24T20:23:27+00:00",
+      "publisher": "ABC News - Breaking News, Latest News and Videos",
+      "search_query": "world news Americas",
+      "source_country": "unknown",
+      "source_id": "d552affd3877d9ce21646c41",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPRTVnMFo2b3VyajVlMF84MGlMZ0ZfbGNOcHcteXp3blVnZHN5RlkwdGFoSHNDRTV1YzgzN3pDWkdtOEE2X0oyR1A5TXQxUUJSU19qZ3dKVGFrY1BjQ0YzYVcwYmxaLWNqMkZ3bk1hU3NoNWNCYlQ5VmVBb1JLU1RDOTZ1NUpXSEVuMzdjd3JBc1AxXzhjaHFIM2t2Mjc5NFhkSl81eWF3TUVTZHBZLWpmVm9fQ2F4Nzd0eVd4RHZBOU9EZEVXM1RnWmRuMDZRNVB4UENqTWx4cGljSW9wSzNKaHdCQkppUkJKT2VB?oc=5",
+      "content_fingerprint": "e117478b2840faff54034b72",
+      "fetched_at": "2026-10-26T13:19:22.256955+00:00",
+      "institution_id": null,
+      "language": "en",
+      "observations": [
+        {
+          "collector": "google_news",
+          "language": "en",
+          "search_query": "world news Americas",
+          "search_region": "Americas",
+          "title": "Good Morning America: News to start your day | October 25 - Central Oregon Daily"
+        }
+      ],
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPRTVnMFo2b3VyajVlMF84MGlMZ0ZfbGNOcHcteXp3blVnZHN5RlkwdGFoSHNDRTV1YzgzN3pDWkdtOEE2X0oyR1A5TXQxUUJSU19qZ3dKVGFrY1BjQ0YzYVcwYmxaLWNqMkZ3bk1hU3NoNWNCYlQ5VmVBb1JLU1RDOTZ1NUpXSEVuMzdjd3JBc1AxXzhjaHFIM2t2Mjc5NFhkSl81eWF3TUVTZHBZLWpmVm9fQ2F4Nzd0eVd4RHZBOU9EZEVXM1RnWmRuMDZRNVB4UENqTWx4cGljSW9wSzNKaHdCQkppUkJKT2VB?oc=5",
+      "profile_id": "world/global",
+      "published_at": "2026-10-25T13:18:26+00:00",
+      "publisher": "Central Oregon Daily",
+      "search_query": "world news Americas",
+      "source_country": "unknown",
+      "source_id": "d56b69d075b07f65fb20391c",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5id0hrQVZNQlRNblRpMldKUEJvZVZhcEdFcmE5aEk2eHkxeFJ5Z2wyVkthT0lWSjl6ZzRrZXpTR1dRajNWSzBNUDZZVklGNGNpZkk4WS13?oc=5",
+      "content_fingerprint": "a0a776eed504206b3e207615",
+      "fetched_at": "2026-10-26T13:19:22.256955+00:00",
+      "institution_id": null,
+      "language": "en",
+      "observations": [
+        {
+          "collector": "google_news",
+          "language": "en",
+          "search_query": "world news Asia",
+          "search_region": "Asia",
+          "title": "Fukuda, prime minister who fought climate change, dies - 朝日新聞"
+        }
+      ],
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5id0hrQVZNQlRNblRpMldKUEJvZVZhcEdFcmE5aEk2eHkxeFJ5Z2wyVkthT0lWSjl6ZzRrZXpTR1dRajNWSzBNUDZZVklGNGNpZkk4WS13?oc=5",
+      "profile_id": "world/global",
+      "published_at": "2026-10-26T08:14:00+00:00",
+      "publisher": "朝日新聞",
+      "search_query": "world news Asia",
+      "source_country": "unknown",
+      "source_id": "d58a79b830c6ee8ca0770b64",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPV051eXNXbDA4Zmc5R2NvSF9MSmJDcllwRE1HZ1BNV3Q3dng3S0pCTTFUcGJyM1RfaXRsSmx2ZHp6c3NXdXFYT2s5VHVJcURHY29rbndodXFaVlJQdmZXRFhLSVZlSXBiWmtKZFlsdmlRZHp5STNrT3hvZ3p3QWJwbWlyTy14LVlQdXRveHlkNFRRNjgteFg4ckFqX0dFRk1EU3c2WHJwSExhU1k?oc=5",
+      "content_fingerprint": "75212a3b52b4c48fae3e6a73",
+      "fetched_at": "2026-10-26T13:19:22.256955+00:00",
+      "institution_id": null,
+      "language": "en",
+      "observations": [
+        {
+          "collector": "google_news",
+          "language": "en",
+          "search_query": "world news Africa",
+          "search_region": "Africa",
+          "title": "Lesotho Seeks Sustainable Investment Partnerships at 9th World Investment Forum 2026 - Africa.com"
+        }
+      ],
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPV051eXNXbDA4Zmc5R2NvSF9MSmJDcllwRE1HZ1BNV3Q3dng3S0pCTTFUcGJyM1RfaXRsSmx2ZHp6c3NXdXFYT2s5VHVJcURHY29rbndodXFaVlJQdmZXRFhLSVZlSXBiWmtKZFlsdmlRZHp5STNrT3hvZ3p3QWJwbWlyTy14LVlQdXRveHlkNFRRNjgteFg4ckFqX0dFRk1EU3c2WHJwSExhU1k?oc=5",
+      "profile_id": "world/global",
+      "published_at": "2026-10-26T10:39:54+00:00",
+      "publisher": "Africa.com",
+      "search_query": "world news Africa",
+      "source_country": "unknown",
+      "source_id": "d8cf5a192a97343a5702793d",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOcmhKdV85VkpsWTNQSUpaTS1HcmtTRHI3dkNQbG1qZVZJZ3VhUnhYNVFwM2pBRUFLY29NeW5IZll5N2tDRmRyS0diVDZRSDFFVW41dXZqUVhQOEMxNmpacHc2WDFfdE40OG9yRHZJSlVZeklPcGU2NEI1Sm1aMzVOSXhrNFlWa0lFTkYxdFBsYW9jYWNKTDl2b09UTF9BajU2WUJrREJXbmw4WC1Ud1MyRWpFd25VRU8tT1E?oc=5",
+      "content_fingerprint": "31d3bc5839a1d2f03c785180",
+      "fetched_at": "2026-10-26T13:19:22.256955+00:00",
+      "institution_id": null,
+      "language": "en",
+      "observations": [
+        {
+          "collector": "google_news",
+          "language": "en",
+          "search_query": "world news Asia",
+          "search_region": "Asia",
+          "title": "Alpine skiing-US veteran Moltzan opens World Cup season with first career win - CNA"
+        }
+      ],
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOcmhKdV85VkpsWTNQSUpaTS1HcmtTRHI3dkNQbG1qZVZJZ3VhUnhYNVFwM2pBRUFLY29NeW5IZll5N2tDRmRyS0diVDZRSDFFVW41dXZqUVhQOEMxNmpacHc2WDFfdE40OG9yRHZJSlVZeklPcGU2NEI1Sm1aMzVOSXhrNFlWa0lFTkYxdFBsYW9jYWNKTDl2b09UTF9BajU2WUJrREJXbmw4WC1Ud1MyRWpFd25VRU8tT1E?oc=5",
+      "profile_id": "world/global",
+      "published_at": "2026-10-24T13:53:41+00:00",
+      "publisher": "CNA",
+      "search_query": "world news Asia",
+      "source_country": "unknown",
+      "source_id": "db315cf16da870cd8c5dc7c6",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOcFpHby1JWDJtaWcxUlBCeHZXLUVCc1Z3TGxFSHJpZnNiUEFBT0hVMnpIdC15M3FQRm1NUzZjSVpha1BqaXJaZ0FQTllXWlJBN1lRNE10cnFUREVNZ1NUODF4N3RzV2t5TWUtSGdBbklUOTl6ZWplWFFCWk1JWnRxenR0RnpBUXI1Vzh0cU5MTU14MDlibnpzbmR3aTAyRXUzME9MV9IBqgFBVV95cUxNb0dHWkwtVXRtdVZnV1lCdEdaclFqTjNmdHNlQ0h4dkNDWExDdUlvWVJJT0c0Q0xoWnlyMnpYWHJVWGNhVmEwcDVwdnNMdVVMeEV1eFVaNHhRaEx6dnlnTUdnRVNwSXhaaFpPX2xNUTgzVnRydVBCckc3Rm1XQzVPQ3Y5cWtYQ1llTXp4UnhaSmNEbTJ2cktqZUlCWWdjNDBJaGg1d2VnVWxxZw?oc=5",
+      "content_fingerprint": "e5bf263755847371b03e31c8",
+      "fetched_at": "2026-10-26T13:19:22.256955+00:00",
+      "institution_id": null,
+      "language": "en",
+      "observations": [
+        {
+          "collector": "google_news",
+          "language": "en",
+          "search_query": "world news Europe",
+          "search_region": "Europe",
+          "title": "World reacts to Lula’s victory in Brazil’s presidential election - Al Jazeera"
+        },
+        {
+          "collector": "google_news",
+          "language": "en",
+          "search_query": "world news Asia",
+          "search_region": "Asia",
+          "title": "World reacts to Lula’s victory in Brazil’s presidential election - Al Jazeera"
+        }
+      ],
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOcFpHby1JWDJtaWcxUlBCeHZXLUVCc1Z3TGxFSHJpZnNiUEFBT0hVMnpIdC15M3FQRm1NUzZjSVpha1BqaXJaZ0FQTllXWlJBN1lRNE10cnFUREVNZ1NUODF4N3RzV2t5TWUtSGdBbklUOTl6ZWplWFFCWk1JWnRxenR0RnpBUXI1Vzh0cU5MTU14MDlibnpzbmR3aTAyRXUzME9MV9IBqgFBVV95cUxNb0dHWkwtVXRtdVZnV1lCdEdaclFqTjNmdHNlQ0h4dkNDWExDdUlvWVJJT0c0Q0xoWnlyMnpYWHJVWGNhVmEwcDVwdnNMdVVMeEV1eFVaNHhRaEx6dnlnTUdnRVNwSXhaaFpPX2xNUTgzVnRydVBCckc3Rm1XQzVPQ3Y5cWtYQ1llTXp4UnhaSmNEbTJ2cktqZUlCWWdjNDBJaGg1d2VnVWxxZw?oc=5",
+      "profile_id": "world/global",
+      "published_at": "2026-10-26T12:14:04+00:00",
+      "publisher": "Al Jazeera",
+      "search_query": "world news Asia",
+      "source_country": "unknown",
+      "source_id": "dde11345e08d00c4b6cfc38c",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNcnMwZDA3ajN3Ums0S3RVaDR3eXJ4TnFua3NnUHFOb2VuV3NJaVVXeVRKZ2d1VmxBS0ZVVmZkbE5OalJQVkdQZnhSTXc0UGpzaUYySzF6eDhLQ0xid2VYWkM1VFdKemtub2ZsZ1VZNm10OE5KZ0VKUjdXMzhHN1hibUhTbVVJWWVRY1dvZW8wcU1ONGlvMk1Sa0hERENZX1Y5RWhRX3NvbzR3bVRwVWF6UURDUWU5aG5QdC03bWVmS3lXT3ZwNnVteTQtZERtZnl0dmJr?oc=5",
+      "content_fingerprint": "5403b075e6d9be8d97449349",
+      "fetched_at": "2026-10-26T13:19:22.256955+00:00",
+      "institution_id": null,
+      "language": "en",
+      "observations": [
+        {
+          "collector": "google_news",
+          "language": "en",
+          "search_query": "world news Africa",
+          "search_region": "Africa",
+          "title": "World’s second-largest economy boosts trade with Africa’s largest economy to $15 billion as South Africa grows wary of U.S. ties despite 125,000 jobs at stake - Business Insider Africa"
+        }
+      ],
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNcnMwZDA3ajN3Ums0S3RVaDR3eXJ4TnFua3NnUHFOb2VuV3NJaVVXeVRKZ2d1VmxBS0ZVVmZkbE5OalJQVkdQZnhSTXc0UGpzaUYySzF6eDhLQ0xid2VYWkM1VFdKemtub2ZsZ1VZNm10OE5KZ0VKUjdXMzhHN1hibUhTbVVJWWVRY1dvZW8wcU1ONGlvMk1Sa0hERENZX1Y5RWhRX3NvbzR3bVRwVWF6UURDUWU5aG5QdC03bWVmS3lXT3ZwNnVteTQtZERtZnl0dmJr?oc=5",
+      "profile_id": "world/global",
+      "published_at": "2026-10-26T07:12:20+00:00",
+      "publisher": "Business Insider Africa",
+      "search_query": "world news Africa",
+      "source_country": "unknown",
+      "source_id": "e0d1392ff092e20f96de5184",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQUWlxemZLQnhrRmFWTkJJVTZRYXV6bjA2Y2wtM3R6ek5QbHhOSERBc2k5dk1SRVlrSGU2OVdRb2VfWWJ5azluR3hxTVp2Q3M0SVJaMzRBbkFtMUV0bzVtbUVqU1hSN2NGWnlRT3JYa0ZYcHRGQ2Y2anJoRG82OTl3TmJDMnp1c09KV0dPdUNRdktuTmI4Si00?oc=5",
+      "content_fingerprint": "d5e3bdcf294d0c89739591af",
+      "fetched_at": "2026-10-26T13:19:22.256955+00:00",
+      "institution_id": null,
+      "language": "en",
+      "observations": [
+        {
+          "collector": "google_news",
+          "language": "en",
+          "search_query": "world news Europe",
+          "search_region": "Europe",
+          "title": "World War III: Why Israel May Be Better Prepared Than Europe - The Times of Israel"
+        }
+      ],
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQUWlxemZLQnhrRmFWTkJJVTZRYXV6bjA2Y2wtM3R6ek5QbHhOSERBc2k5dk1SRVlrSGU2OVdRb2VfWWJ5azluR3hxTVp2Q3M0SVJaMzRBbkFtMUV0bzVtbUVqU1hSN2NGWnlRT3JYa0ZYcHRGQ2Y2anJoRG82OTl3TmJDMnp1c09KV0dPdUNRdktuTmI4Si00?oc=5",
+      "profile_id": "world/global",
+      "published_at": "2026-10-25T06:14:00+00:00",
+      "publisher": "The Times of Israel",
+      "search_query": "world news Europe",
+      "source_country": "unknown",
+      "source_id": "e37e759d8cbf1b20fcc89320",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOWnQwcEpQV2QxN3JDVnQ4cHFUV29ndDZhZGl6Sk9LbjlrZ0N6ZFNabU9XdmNXYUxpTm9nMTZtTUhET1pqZmd0eTFZZGNLYmhfQzhEeDIydlZiMThWN0FKYWw1ODkzVW94TGdVN3pBYlc2RTVaUEFpaElnUVZkWlRVaUx4X3pqVjExckdFOW5fOXRTd0VjcTJkZVJrOHR1ZWFVYzdENE81dENQVTd4d3lYTUVBVlZtd2EyRE1ubl9sUENnZzZqQmNV?oc=5",
+      "content_fingerprint": "e0595b62161b5eabc5b3a4a5",
+      "fetched_at": "2026-10-26T13:19:22.256955+00:00",
+      "institution_id": null,
+      "language": "en",
+      "observations": [
+        {
+          "collector": "google_news",
+          "language": "en",
+          "search_query": "world news Asia",
+          "search_region": "Asia",
+          "title": "Data of 110,000 Alliance Medinet members may have been compromised in Singapore — Channel NewsAsia - UA.NEWS"
+        }
+      ],
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOWnQwcEpQV2QxN3JDVnQ4cHFUV29ndDZhZGl6Sk9LbjlrZ0N6ZFNabU9XdmNXYUxpTm9nMTZtTUhET1pqZmd0eTFZZGNLYmhfQzhEeDIydlZiMThWN0FKYWw1ODkzVW94TGdVN3pBYlc2RTVaUEFpaElnUVZkWlRVaUx4X3pqVjExckdFOW5fOXRTd0VjcTJkZVJrOHR1ZWFVYzdENE81dENQVTd4d3lYTUVBVlZtd2EyRE1ubl9sUENnZzZqQmNV?oc=5",
+      "profile_id": "world/global",
+      "published_at": "2026-10-24T15:35:20+00:00",
+      "publisher": "UA.NEWS",
+      "search_query": "world news Asia",
+      "source_country": "unknown",
+      "source_id": "efe5ece788c31dad3851ec0f",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQOGQ2RmRFaGtfUUlpc2tMM3JIZDF4dGpHN3dGNXZUYTBXZlJMMmp6WlRTeG9iMkE3SGNIekxjcDdEMkdWc3hycFdUcXRfQTY4ak9RSVBSSG9vMmpVUDA3ZWZvOFBUOTJkajQtQ2JJVEx0RDdqWVI5VWIweW5XTUVGSXZHWVNaYWw3Mmk5NTgzdV9scVBlSThwcUJSampYWmMzZVU0LXpGOHA1amJtNm1kcTBjdHkwdUlEaVJVNkwyZzhjeGUyUWpHQ2pIOGdYMndPTDJKZHFfcjFlYy1TNmVR?oc=5",
+      "content_fingerprint": "0c8ee9754579fb06a54d1ab8",
+      "fetched_at": "2026-10-26T13:19:22.256955+00:00",
+      "institution_id": null,
+      "language": "en",
+      "observations": [
+        {
+          "collector": "google_news",
+          "language": "en",
+          "search_query": "world news Africa",
+          "search_region": "Africa",
+          "title": "Kenya News Agency - KNA. . DP Kithure Kindiki – If the world has become transactional, Africa must become transactional too. - Facebook"
+        }
+      ],
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQOGQ2RmRFaGtfUUlpc2tMM3JIZDF4dGpHN3dGNXZUYTBXZlJMMmp6WlRTeG9iMkE3SGNIekxjcDdEMkdWc3hycFdUcXRfQTY4ak9RSVBSSG9vMmpVUDA3ZWZvOFBUOTJkajQtQ2JJVEx0RDdqWVI5VWIweW5XTUVGSXZHWVNaYWw3Mmk5NTgzdV9scVBlSThwcUJSampYWmMzZVU0LXpGOHA1amJtNm1kcTBjdHkwdUlEaVJVNkwyZzhjeGUyUWpHQ2pIOGdYMndPTDJKZHFfcjFlYy1TNmVR?oc=5",
+      "profile_id": "world/global",
+      "published_at": "2026-10-24T16:56:22+00:00",
+      "publisher": "Facebook",
+      "search_query": "world news Africa",
+      "source_country": "unknown",
+      "source_id": "f3f2ab184ce80e3c1d0e19d7",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMickFVX3lxTFB6cVVyX3ZmMW1JbDh5djhaSThVNWFNSkstSl9pRlhkaFE2Qm9EWUx2S1ZEdVZKY2lWcGRfSlk5RzV4SE5MUXJiR1F6YUlGbVQ5aTlVUVpxNzRndHZ0VHV4V2pxNFk4a0FkU2FpSjV2Q3FiZw?oc=5",
+      "content_fingerprint": "d1517a2318dd04782bbf771a",
+      "fetched_at": "2026-10-26T13:19:22.256955+00:00",
+      "institution_id": null,
+      "language": "en",
+      "observations": [
+        {
+          "collector": "google_news",
+          "language": "en",
+          "search_query": "world news Americas",
+          "search_region": "Americas",
+          "title": "When America Reordered the World - freebeacon.com"
+        }
+      ],
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMickFVX3lxTFB6cVVyX3ZmMW1JbDh5djhaSThVNWFNSkstSl9pRlhkaFE2Qm9EWUx2S1ZEdVZKY2lWcGRfSlk5RzV4SE5MUXJiR1F6YUlGbVQ5aTlVUVpxNzRndHZ0VHV4V2pxNFk4a0FkU2FpSjV2Q3FiZw?oc=5",
+      "profile_id": "world/global",
+      "published_at": "2026-10-25T09:06:41+00:00",
+      "publisher": "freebeacon.com",
+      "search_query": "world news Americas",
+      "source_country": "unknown",
+      "source_id": "fa669f05bcb97a5f47f34690",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    }
+  ],
+  "statistics": {
+    "collectors": [
+      {
+        "error_code": null,
+        "items": 58,
+        "query": "world news Americas",
+        "source": "google_news",
+        "status": "ok"
+      },
+      {
+        "error_code": null,
+        "items": 58,
+        "query": "world news Europe",
+        "source": "google_news",
+        "status": "ok"
+      },
+      {
+        "error_code": null,
+        "items": 59,
+        "query": "world news Africa",
+        "source": "google_news",
+        "status": "ok"
+      },
+      {
+        "error_code": null,
+        "items": 54,
+        "query": "world news Asia",
+        "source": "google_news",
+        "status": "ok"
+      },
+      {
+        "error_code": null,
+        "items": 29,
+        "query": "world news Oceania",
+        "source": "google_news",
+        "status": "ok"
+      },
+      {
+        "error_code": "HTTP_429",
+        "items": 0,
+        "query": "world news",
+        "source": "gdelt",
+        "status": "failed"
+      },
+      {
+        "items": 1,
+        "source": "rss",
+        "status": "ok"
+      }
+    ],
+    "items": 60,
+    "sources": 60
+  },
+  "status": "partial",
+  "time_window": {
+    "since": "2026-10-24T13:19:22.536937+00:00",
+    "until": "2026-10-26T13:19:22.536937+00:00"
+  },
+  "workflow": {
+    "repository": "JsonLord/Horizon",
+    "run_attempt": "1",
+    "run_id": "40329431034",
+    "source_commit": "c9dcef30a10ffe67b8e399baea5c2a6787c7dfd2"
+  }
+}
