@@ -1,0 +1,464 @@
+{
+  "analysis_mode": "deterministic",
+  "changes": [
+    {
+      "finding_id": "9b2d54b946b7c130e39efa09",
+      "institution_ids": [
+        "cern"
+      ],
+      "observed_at": "2026-10-27T12:27:03.781028+00:00",
+      "type": "new"
+    },
+    {
+      "finding_id": "5f8179b13aef3f4d4c1eadda",
+      "institution_ids": [
+        "cern"
+      ],
+      "observed_at": "2026-10-27T12:27:03.781028+00:00",
+      "type": "updated"
+    },
+    {
+      "finding_id": "d4fcd40020a332c2aec8eb00",
+      "institution_ids": [
+        "cern"
+      ],
+      "observed_at": "2026-10-27T12:27:03.781028+00:00",
+      "type": "new"
+    }
+  ],
+  "coverage": {
+    "basis": "search query region; event geography unknown",
+    "missing_regions": [],
+    "regions": [
+      "Europe"
+    ]
+  },
+  "created_at": "2026-10-27T12:27:03.781028+00:00",
+  "errors": [
+    {
+      "code": "SOURCE_INCOMPLETE",
+      "source": "gdelt"
+    },
+    {
+      "code": "SOURCE_INCOMPLETE",
+      "source": "rss"
+    }
+  ],
+  "findings": [
+    {
+      "change_type": "new",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "9b2d54b946b7c130e39efa09",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "Limburg first region in Europe to host a CERN innovation hub in Hasselt - VRT",
+          "source_id": "d15e6f160557105fa79eb773"
+        }
+      ],
+      "finding_id": "9b2d54b946b7c130e39efa09",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [
+        "cern"
+      ],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-27T12:27:03.779602+00:00",
+      "profile_relevance": 8.916727087939815,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-27T10:27:09+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "Europe"
+      ],
+      "source_ids": [
+        "d15e6f160557105fa79eb773"
+      ],
+      "summary": "Limburg first region in Europe to host a CERN innovation hub in Hasselt - VRT",
+      "topics": [
+        "CERN"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "unchanged",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "364bd372eee87abe717fe9cc",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "Gold From Mercury? US Startup Claims It Beat CERN’s Record - NDTV Profit",
+          "source_id": "c469bfda647efe7c04a7792f"
+        }
+      ],
+      "finding_id": "364bd372eee87abe717fe9cc",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [
+        "cern"
+      ],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-27T12:27:03.779602+00:00",
+      "profile_relevance": 8.006530328680554,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-26T12:36:28+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "Europe"
+      ],
+      "source_ids": [
+        "c469bfda647efe7c04a7792f"
+      ],
+      "summary": "Gold From Mercury? US Startup Claims It Beat CERN’s Record - NDTV Profit",
+      "topics": [
+        "CERN"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "updated",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "5f8179b13aef3f4d4c1eadda",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "How CERN Earns Trust at Scale - Issues in Science and Technology",
+          "source_id": "7ff4d896db7202665de4bb7a"
+        }
+      ],
+      "finding_id": "5f8179b13aef3f4d4c1eadda",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [
+        "cern"
+      ],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-27T12:27:03.779602+00:00",
+      "profile_relevance": 7.938139124976852,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-26T10:57:59+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "Europe"
+      ],
+      "source_ids": [
+        "7ff4d896db7202665de4bb7a"
+      ],
+      "summary": "How CERN Earns Trust at Scale - Issues in Science and Technology",
+      "topics": [
+        "CERN"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "new",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "d4fcd40020a332c2aec8eb00",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "CERN, Superintelligence & the Golden Age: Michelle Fielding on Humanity’s Future - YouTube",
+          "source_id": "cecf5b36e9f3fe73f7987d7b"
+        }
+      ],
+      "finding_id": "d4fcd40020a332c2aec8eb00",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [
+        "cern"
+      ],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-27T12:27:03.779602+00:00",
+      "profile_relevance": 7.929493291643519,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-26T10:45:32+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "Europe"
+      ],
+      "source_ids": [
+        "cecf5b36e9f3fe73f7987d7b"
+      ],
+      "summary": "CERN, Superintelligence & the Golden Age: Michelle Fielding on Humanity’s Future - YouTube",
+      "topics": [
+        "CERN"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "unchanged",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "e28210b5e0ebb1bc752faf0a",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "HL-LHC economic impact: what CERN’s estimate means - NeoTeo",
+          "source_id": "27819a33d3401a2409c04219"
+        }
+      ],
+      "finding_id": "e28210b5e0ebb1bc752faf0a",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [
+        "cern"
+      ],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-27T12:27:03.779602+00:00",
+      "profile_relevance": 7.046912273125,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-25T13:34:37+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "Europe"
+      ],
+      "source_ids": [
+        "27819a33d3401a2409c04219"
+      ],
+      "summary": "HL-LHC economic impact: what CERN’s estimate means - NeoTeo",
+      "topics": [
+        "CERN"
+      ],
+      "verification": "single_secondary_source"
+    }
+  ],
+  "history": {
+    "comparison": "last_good",
+    "previous_created_at": "2026-10-26T13:20:49.867278+00:00",
+    "previous_report_id": "18d1873b89cd4a9e98501c451f3ac726",
+    "previous_report_sha256": "e29ca15b4cdec9d9e91f262d007b12a331c9cbeaf35365a304fb88fcf06097d1",
+    "previous_snapshot_commit": "5a916cf68266d2496aaae6417cfcc3023b55f3d9",
+    "stale_last_good": false,
+    "state": "restored"
+  },
+  "limitations": [
+    "Bounded queries do not provide exhaustive global coverage.",
+    "GDELT seen time is an observation timestamp, not verified publication time.",
+    "Contradiction/resolution labels require explicit source wording and review; no automatic truth adjudication."
+  ],
+  "links": {
+    "json": "intel/reports/institutions/cern/2026/10/27/452dfe0241e043ee88da119a123a2614/report.json",
+    "markdown": "intel/reports/institutions/cern/2026/10/27/452dfe0241e043ee88da119a123a2614/report.md"
+  },
+  "model_used": null,
+  "profile_id": "institutions/cern",
+  "question": "",
+  "report_id": "452dfe0241e043ee88da119a123a2614",
+  "run_id": "452dfe0241e043ee88da119a123a2614",
+  "schedule": {},
+  "schema_version": "1.0",
+  "sources": [
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9lb0tid2NLOFI2QlVFLTBRMVJvNDdKUWxEc0M4LVl4SDNxLWlERUVISUI1UllGRVN1aDBCVFpvN3Q2amFENU95bXliRnB5bHNBWUNSMWF5SGJvRHFpaFM0SDB4dlNfTVZIbUN3MnFkZ2xVYzgyYjFJ?oc=5",
+      "content_fingerprint": "ee78a4e07d42e2096ff10c7c",
+      "fetched_at": "2026-10-27T12:27:03.779602+00:00",
+      "institution_id": "cern",
+      "language": "en",
+      "observations": [
+        {
+          "collector": "google_news",
+          "language": "en",
+          "search_query": "\"CERN\"",
+          "search_region": "Europe",
+          "title": "HL-LHC economic impact: what CERN’s estimate means - NeoTeo"
+        }
+      ],
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9lb0tid2NLOFI2QlVFLTBRMVJvNDdKUWxEc0M4LVl4SDNxLWlERUVISUI1UllGRVN1aDBCVFpvN3Q2amFENU95bXliRnB5bHNBWUNSMWF5SGJvRHFpaFM0SDB4dlNfTVZIbUN3MnFkZ2xVYzgyYjFJ?oc=5",
+      "profile_id": "institutions/cern",
+      "published_at": "2026-10-25T13:34:37+00:00",
+      "publisher": "NeoTeo",
+      "search_query": "\"CERN\"",
+      "source_country": "unknown",
+      "source_id": "27819a33d3401a2409c04219",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9scHZKaGV4dEN4VnVXaGd0VzR6NmV1U2pZUGJBWVBETERocVVvMUhxbUJjbklscXlwb3R5TDBjaFR3MElkaUM0ZWxjVXZpbkREWExlZkZta3FaUEtDT2dDYVRYM1NSckJOMXc?oc=5",
+      "content_fingerprint": "89465b38c75e3e5dd1431a8f",
+      "fetched_at": "2026-10-27T12:27:03.779602+00:00",
+      "institution_id": "cern",
+      "language": "en",
+      "observations": [
+        {
+          "collector": "google_news",
+          "language": "en",
+          "search_query": "\"CERN\"",
+          "search_region": "Europe",
+          "title": "How CERN Earns Trust at Scale - Issues in Science and Technology"
+        }
+      ],
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9scHZKaGV4dEN4VnVXaGd0VzR6NmV1U2pZUGJBWVBETERocVVvMUhxbUJjbklscXlwb3R5TDBjaFR3MElkaUM0ZWxjVXZpbkREWExlZkZta3FaUEtDT2dDYVRYM1NSckJOMXc?oc=5",
+      "profile_id": "institutions/cern",
+      "published_at": "2026-10-26T10:57:59+00:00",
+      "publisher": "Issues in Science and Technology",
+      "search_query": "\"CERN\"",
+      "source_country": "unknown",
+      "source_id": "7ff4d896db7202665de4bb7a",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQZURBTGM3YTlDWWdYcWxZVnpTbjlYMGVNRVMxei1hanZHTUZHdHdTSml0aXVaT3ZkSlNOeVpGNXdXd2tfZHUtbml2NE05c1YyNk9iZWVZWUFGbTR2TEhuY2t1MkhraTBMaTMtRkl1UmJaS1g0UUhaWVpFRHZ2WHFZVWpnVjZhVkRPNXNneUpWdUVfS1hUSUllSklhak02N1d2QnFXS9IBrAFBVV95cUxPVFVOLWRtVkttWU4zZVJpVUVodUpMSHZYOTRlMng5bm14LWdrdEZZV0ZnSDFHS0JqQ01YbzgxRG1TeFhPV25Yb1IwRGtTLXZBOTU2VXprWkZOVTZ1NHdKN0RjSlVpY01aUHdENVB1RllkRFkyWExvSkVxNGFzWVNNM2FBTDJJV3V2WkZUelM1bXZHR1RvamNpenpPeFVyRkxoYlYtekduTlUwWF9z?oc=5",
+      "content_fingerprint": "4e4984227605592d220d8948",
+      "fetched_at": "2026-10-27T12:27:03.779602+00:00",
+      "institution_id": "cern",
+      "language": "en",
+      "observations": [
+        {
+          "collector": "google_news",
+          "language": "en",
+          "search_query": "\"CERN\"",
+          "search_region": "Europe",
+          "title": "Gold From Mercury? US Startup Claims It Beat CERN’s Record - NDTV Profit"
+        }
+      ],
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQZURBTGM3YTlDWWdYcWxZVnpTbjlYMGVNRVMxei1hanZHTUZHdHdTSml0aXVaT3ZkSlNOeVpGNXdXd2tfZHUtbml2NE05c1YyNk9iZWVZWUFGbTR2TEhuY2t1MkhraTBMaTMtRkl1UmJaS1g0UUhaWVpFRHZ2WHFZVWpnVjZhVkRPNXNneUpWdUVfS1hUSUllSklhak02N1d2QnFXS9IBrAFBVV95cUxPVFVOLWRtVkttWU4zZVJpVUVodUpMSHZYOTRlMng5bm14LWdrdEZZV0ZnSDFHS0JqQ01YbzgxRG1TeFhPV25Yb1IwRGtTLXZBOTU2VXprWkZOVTZ1NHdKN0RjSlVpY01aUHdENVB1RllkRFkyWExvSkVxNGFzWVNNM2FBTDJJV3V2WkZUelM1bXZHR1RvamNpenpPeFVyRkxoYlYtekduTlUwWF9z?oc=5",
+      "profile_id": "institutions/cern",
+      "published_at": "2026-10-26T12:36:28+00:00",
+      "publisher": "NDTV Profit",
+      "search_query": "\"CERN\"",
+      "source_country": "unknown",
+      "source_id": "c469bfda647efe7c04a7792f",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1TeHpSU1p0VFMzMjFFOHVVbU9rZDBpVWgyaEp5Sk0xTDZRLXpiZ3ItUWlLaFJuNkJ1aElKV3Y4Z3pHWEFwRlpHbGVFcEFobWYwZWRsV0M1QjY4cFdG?oc=5",
+      "content_fingerprint": "5c2d0542f24f31354fcb18f0",
+      "fetched_at": "2026-10-27T12:27:03.779602+00:00",
+      "institution_id": "cern",
+      "language": "en",
+      "observations": [
+        {
+          "collector": "google_news",
+          "language": "en",
+          "search_query": "\"CERN\"",
+          "search_region": "Europe",
+          "title": "CERN, Superintelligence & the Golden Age: Michelle Fielding on Humanity’s Future - YouTube"
+        }
+      ],
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1TeHpSU1p0VFMzMjFFOHVVbU9rZDBpVWgyaEp5Sk0xTDZRLXpiZ3ItUWlLaFJuNkJ1aElKV3Y4Z3pHWEFwRlpHbGVFcEFobWYwZWRsV0M1QjY4cFdG?oc=5",
+      "profile_id": "institutions/cern",
+      "published_at": "2026-10-26T10:45:32+00:00",
+      "publisher": "YouTube",
+      "search_query": "\"CERN\"",
+      "source_country": "unknown",
+      "source_id": "cecf5b36e9f3fe73f7987d7b",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOTVdmYmRkSVJpMmRzdGh1MmRhWklKeHZlank2blNpLW5ETlhpZE9MMHlNTkh2UUZZMm9KRnFaQTJVTTRoU291SW1NNkxQMzFBQzBUZDd5UUdsT1QxeG5GVnhjTE9fbzdqYUF1TnIxd0dsbFo4MmpOOGFhMnZTcjkwUTBWblIxSW1KaFEwd001UmNDLVhxT2xRLVdCdHpoQXBlb3VZcGNoQQ?oc=5",
+      "content_fingerprint": "20b0d21c32c672fe7f81bb4d",
+      "fetched_at": "2026-10-27T12:27:03.779602+00:00",
+      "institution_id": "cern",
+      "language": "en",
+      "observations": [
+        {
+          "collector": "google_news",
+          "language": "en",
+          "search_query": "\"CERN\"",
+          "search_region": "Europe",
+          "title": "Limburg first region in Europe to host a CERN innovation hub in Hasselt - VRT"
+        }
+      ],
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOTVdmYmRkSVJpMmRzdGh1MmRhWklKeHZlank2blNpLW5ETlhpZE9MMHlNTkh2UUZZMm9KRnFaQTJVTTRoU291SW1NNkxQMzFBQzBUZDd5UUdsT1QxeG5GVnhjTE9fbzdqYUF1TnIxd0dsbFo4MmpOOGFhMnZTcjkwUTBWblIxSW1KaFEwd001UmNDLVhxT2xRLVdCdHpoQXBlb3VZcGNoQQ?oc=5",
+      "profile_id": "institutions/cern",
+      "published_at": "2026-10-27T10:27:09+00:00",
+      "publisher": "VRT",
+      "search_query": "\"CERN\"",
+      "source_country": "unknown",
+      "source_id": "d15e6f160557105fa79eb773",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    }
+  ],
+  "statistics": {
+    "collectors": [
+      {
+        "error_code": null,
+        "items": 0,
+        "query": "site:home.cern",
+        "source": "google_news",
+        "status": "ok"
+      },
+      {
+        "error_code": null,
+        "items": 7,
+        "query": "\"CERN\"",
+        "source": "google_news",
+        "status": "ok"
+      },
+      {
+        "error_code": null,
+        "items": 0,
+        "query": "\"CERN\"",
+        "source": "gdelt",
+        "status": "failed"
+      },
+      {
+        "items": 0,
+        "source": "rss",
+        "status": "failed"
+      }
+    ],
+    "items": 5,
+    "sources": 5
+  },
+  "status": "partial",
+  "time_window": {
+    "since": "2026-10-25T12:27:03.781028+00:00",
+    "until": "2026-10-27T12:27:03.781028+00:00"
+  },
+  "workflow": {
+    "repository": "JsonLord/Horizon",
+    "run_attempt": "1",
+    "run_id": "40503538316",
+    "source_commit": "c9dcef30a10ffe67b8e399baea5c2a6787c7dfd2"
+  }
+}

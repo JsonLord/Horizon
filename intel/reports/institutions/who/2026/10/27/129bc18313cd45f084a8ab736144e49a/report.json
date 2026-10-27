@@ -1,0 +1,4505 @@
+{
+  "analysis_mode": "deterministic",
+  "changes": [
+    {
+      "finding_id": "84598bcb99799b8084e4a6d5",
+      "institution_ids": [
+        "who"
+      ],
+      "observed_at": "2026-10-27T12:26:52.545253+00:00",
+      "type": "new"
+    },
+    {
+      "finding_id": "42e8e9d3c715901403126072",
+      "institution_ids": [
+        "who"
+      ],
+      "observed_at": "2026-10-27T12:26:52.545253+00:00",
+      "type": "new"
+    },
+    {
+      "finding_id": "df5c45da38334d298a12577a",
+      "institution_ids": [
+        "who"
+      ],
+      "observed_at": "2026-10-27T12:26:52.545253+00:00",
+      "type": "new"
+    },
+    {
+      "finding_id": "e8cba6c639001dcbf6ca3997",
+      "institution_ids": [
+        "who"
+      ],
+      "observed_at": "2026-10-27T12:26:52.545253+00:00",
+      "type": "new"
+    },
+    {
+      "finding_id": "7ff1676560f26d7e97bd1310",
+      "institution_ids": [
+        "who"
+      ],
+      "observed_at": "2026-10-27T12:26:52.545253+00:00",
+      "type": "new"
+    },
+    {
+      "finding_id": "d94d8abbffabf27a60582cdb",
+      "institution_ids": [
+        "who"
+      ],
+      "observed_at": "2026-10-27T12:26:52.545253+00:00",
+      "type": "new"
+    },
+    {
+      "finding_id": "2de69a66a18e00ac8d687df6",
+      "institution_ids": [
+        "who"
+      ],
+      "observed_at": "2026-10-27T12:26:52.545253+00:00",
+      "type": "new"
+    },
+    {
+      "finding_id": "bdc9e0513c567f33e136a6ad",
+      "institution_ids": [
+        "who"
+      ],
+      "observed_at": "2026-10-27T12:26:52.545253+00:00",
+      "type": "new"
+    },
+    {
+      "finding_id": "de254bbca539bcafb5c08811",
+      "institution_ids": [
+        "who"
+      ],
+      "observed_at": "2026-10-27T12:26:52.545253+00:00",
+      "type": "new"
+    },
+    {
+      "finding_id": "7a3f611eac2578c37f14f451",
+      "institution_ids": [
+        "who"
+      ],
+      "observed_at": "2026-10-27T12:26:52.545253+00:00",
+      "type": "new"
+    },
+    {
+      "finding_id": "c99e21ba048c56f71a006aef",
+      "institution_ids": [
+        "who"
+      ],
+      "observed_at": "2026-10-27T12:26:52.545253+00:00",
+      "type": "new"
+    },
+    {
+      "finding_id": "a21ecdef9d6bb55e6b16b1f6",
+      "institution_ids": [
+        "who"
+      ],
+      "observed_at": "2026-10-27T12:26:52.545253+00:00",
+      "type": "new"
+    },
+    {
+      "finding_id": "e3be96758ce6da1d0f93e2c8",
+      "institution_ids": [
+        "who"
+      ],
+      "observed_at": "2026-10-27T12:26:52.545253+00:00",
+      "type": "new"
+    },
+    {
+      "finding_id": "7df15a97a00f07e72f84c23b",
+      "institution_ids": [
+        "who"
+      ],
+      "observed_at": "2026-10-27T12:26:52.545253+00:00",
+      "type": "new"
+    },
+    {
+      "finding_id": "f28ef1d61aaaeca724e47cfd",
+      "institution_ids": [
+        "who"
+      ],
+      "observed_at": "2026-10-27T12:26:52.545253+00:00",
+      "type": "new"
+    },
+    {
+      "finding_id": "db7e114f6f2d15d527b14e81",
+      "institution_ids": [
+        "who"
+      ],
+      "observed_at": "2026-10-27T12:26:52.545253+00:00",
+      "type": "new"
+    },
+    {
+      "finding_id": "14158a92e9fa7a7182ac47a0",
+      "institution_ids": [
+        "who"
+      ],
+      "observed_at": "2026-10-27T12:26:52.545253+00:00",
+      "type": "new"
+    },
+    {
+      "finding_id": "7ae65faed4a67635974ad642",
+      "institution_ids": [
+        "who"
+      ],
+      "observed_at": "2026-10-27T12:26:52.545253+00:00",
+      "type": "new"
+    },
+    {
+      "finding_id": "b2fef35c5d7ada34f652564d",
+      "institution_ids": [
+        "who"
+      ],
+      "observed_at": "2026-10-27T12:26:52.545253+00:00",
+      "type": "new"
+    },
+    {
+      "finding_id": "6f196de08cd1d910cb91101e",
+      "institution_ids": [
+        "who"
+      ],
+      "observed_at": "2026-10-27T12:26:52.545253+00:00",
+      "type": "updated"
+    },
+    {
+      "finding_id": "635bb3472c58e435de165a7e",
+      "institution_ids": [
+        "who"
+      ],
+      "observed_at": "2026-10-27T12:26:52.545253+00:00",
+      "type": "new"
+    },
+    {
+      "finding_id": "37a84ce9eac39038ecede959",
+      "institution_ids": [
+        "who"
+      ],
+      "observed_at": "2026-10-27T12:26:52.545253+00:00",
+      "type": "new"
+    },
+    {
+      "finding_id": "9301e3cf5caabdc675836c0a",
+      "institution_ids": [
+        "who"
+      ],
+      "observed_at": "2026-10-27T12:26:52.545253+00:00",
+      "type": "new"
+    },
+    {
+      "finding_id": "9beb5a6445f97065f4743741",
+      "institution_ids": [
+        "who"
+      ],
+      "observed_at": "2026-10-27T12:26:52.545253+00:00",
+      "type": "new"
+    },
+    {
+      "finding_id": "79aba48b0751594e107f02f8",
+      "institution_ids": [
+        "who"
+      ],
+      "observed_at": "2026-10-27T12:26:52.545253+00:00",
+      "type": "new"
+    },
+    {
+      "finding_id": "6aa318b9b33bfa61eb1b3837",
+      "institution_ids": [
+        "who"
+      ],
+      "observed_at": "2026-10-27T12:26:52.545253+00:00",
+      "type": "new"
+    },
+    {
+      "finding_id": "9b8e57be1b5927311dfd0a60",
+      "institution_ids": [
+        "who"
+      ],
+      "observed_at": "2026-10-27T12:26:52.545253+00:00",
+      "type": "new"
+    },
+    {
+      "finding_id": "267fc9a206861dcfc73a77d7",
+      "institution_ids": [
+        "who"
+      ],
+      "observed_at": "2026-10-27T12:26:52.545253+00:00",
+      "type": "new"
+    },
+    {
+      "finding_id": "fea90a2bf90c79f665ef5f02",
+      "institution_ids": [
+        "who"
+      ],
+      "observed_at": "2026-10-27T12:26:52.545253+00:00",
+      "type": "new"
+    },
+    {
+      "finding_id": "d68e9cf51a74b9b51eec3924",
+      "institution_ids": [
+        "who"
+      ],
+      "observed_at": "2026-10-27T12:26:52.545253+00:00",
+      "type": "new"
+    },
+    {
+      "finding_id": "da8de9ea11511459909f1627",
+      "institution_ids": [
+        "who"
+      ],
+      "observed_at": "2026-10-27T12:26:52.545253+00:00",
+      "type": "new"
+    },
+    {
+      "finding_id": "19fba0e995b9794fc2c26217",
+      "institution_ids": [
+        "who"
+      ],
+      "observed_at": "2026-10-27T12:26:52.545253+00:00",
+      "type": "new"
+    },
+    {
+      "finding_id": "a4bd05dafee451f4e971357e",
+      "institution_ids": [
+        "who"
+      ],
+      "observed_at": "2026-10-27T12:26:52.545253+00:00",
+      "type": "new"
+    },
+    {
+      "finding_id": "6c2111f11871acefc6ff528c",
+      "institution_ids": [
+        "who"
+      ],
+      "observed_at": "2026-10-27T12:26:52.545253+00:00",
+      "type": "new"
+    },
+    {
+      "finding_id": "a6b4a689250d19e7f96f6937",
+      "institution_ids": [
+        "who"
+      ],
+      "observed_at": "2026-10-27T12:26:52.545253+00:00",
+      "type": "new"
+    },
+    {
+      "finding_id": "0332d9edd6967982e4bf9063",
+      "institution_ids": [
+        "who"
+      ],
+      "observed_at": "2026-10-27T12:26:52.545253+00:00",
+      "type": "new"
+    },
+    {
+      "finding_id": "6ffc16998555d58defb0a90c",
+      "institution_ids": [
+        "who"
+      ],
+      "observed_at": "2026-10-27T12:26:52.545253+00:00",
+      "type": "new"
+    },
+    {
+      "finding_id": "25b5293e09e4607bb1e763e1",
+      "institution_ids": [
+        "who"
+      ],
+      "observed_at": "2026-10-27T12:26:52.545253+00:00",
+      "type": "new"
+    },
+    {
+      "finding_id": "48a5d85c527546fe3d5e60f2",
+      "institution_ids": [
+        "who"
+      ],
+      "observed_at": "2026-10-27T12:26:52.545253+00:00",
+      "type": "new"
+    },
+    {
+      "finding_id": "af076ad602748e17af864f42",
+      "institution_ids": [
+        "who"
+      ],
+      "observed_at": "2026-10-27T12:26:52.545253+00:00",
+      "type": "updated"
+    },
+    {
+      "finding_id": "702c183230f3ebbceeb2a57f",
+      "institution_ids": [
+        "who"
+      ],
+      "observed_at": "2026-10-27T12:26:52.545253+00:00",
+      "type": "new"
+    },
+    {
+      "finding_id": "272e9b7646c684bb0efe643f",
+      "institution_ids": [
+        "who"
+      ],
+      "observed_at": "2026-10-27T12:26:52.545253+00:00",
+      "type": "updated"
+    },
+    {
+      "finding_id": "8a4e001e9bce95d8c128875a",
+      "institution_ids": [
+        "who"
+      ],
+      "observed_at": "2026-10-27T12:26:52.545253+00:00",
+      "type": "updated"
+    },
+    {
+      "finding_id": "fda167bdac9018e203c0a7a1",
+      "institution_ids": [
+        "who"
+      ],
+      "observed_at": "2026-10-27T12:26:52.545253+00:00",
+      "type": "new"
+    },
+    {
+      "finding_id": "734b0e188f14b17e54a55a3d",
+      "institution_ids": [
+        "who"
+      ],
+      "observed_at": "2026-10-27T12:26:52.545253+00:00",
+      "type": "new"
+    },
+    {
+      "finding_id": "21bfcb9fdc957f8f3a85df73",
+      "institution_ids": [
+        "who"
+      ],
+      "observed_at": "2026-10-27T12:26:52.545253+00:00",
+      "type": "new"
+    },
+    {
+      "finding_id": "6064463ac1f30cb90e1d39b9",
+      "institution_ids": [
+        "who"
+      ],
+      "observed_at": "2026-10-27T12:26:52.545253+00:00",
+      "type": "new"
+    },
+    {
+      "finding_id": "bce5f81c4220d4171cb8162c",
+      "institution_ids": [
+        "who"
+      ],
+      "observed_at": "2026-10-27T12:26:52.545253+00:00",
+      "type": "new"
+    }
+  ],
+  "coverage": {
+    "basis": "search query region; event geography unknown",
+    "missing_regions": [],
+    "regions": [
+      "world"
+    ]
+  },
+  "created_at": "2026-10-27T12:26:52.545253+00:00",
+  "errors": [],
+  "findings": [
+    {
+      "change_type": "new",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "84598bcb99799b8084e4a6d5",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "- World Health Organization (WHO)",
+          "source_id": "2f4169cbaf9e82438ee442c9"
+        }
+      ],
+      "finding_id": "84598bcb99799b8084e4a6d5",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [
+        "who"
+      ],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-27T12:26:52.523298+00:00",
+      "profile_relevance": 8.442181443310185,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-26T23:03:37+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "world"
+      ],
+      "source_ids": [
+        "2f4169cbaf9e82438ee442c9"
+      ],
+      "summary": "- World Health Organization (WHO)",
+      "topics": [
+        "World Health Organization"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "new",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "42e8e9d3c715901403126072",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "Officials from the World Health Organization (WHO) and the United Nations Children’s Fund (UNICEF) responsible for vaccination in Helmand have reported interference by the Taliban in the vaccination process in the province. The officials said on Monday, O - Facebook",
+          "source_id": "2912e9186cbc74542dc1446f"
+        }
+      ],
+      "finding_id": "42e8e9d3c715901403126072",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [
+        "who"
+      ],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-27T12:26:52.523298+00:00",
+      "profile_relevance": 8.056949961828703,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-26T13:48:53+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "world"
+      ],
+      "source_ids": [
+        "2912e9186cbc74542dc1446f"
+      ],
+      "summary": "Officials from the World Health Organization (WHO) and the United Nations Children’s Fund (UNICEF) responsible for vaccination in Helmand have reported interference by the Taliban in the vaccination process in the province. The officials said on Monday, O - Facebook",
+      "topics": [
+        "World Health Organization"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "new",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "df5c45da38334d298a12577a",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "Sixth meeting of the European Regional Laboratory Task Force for emerging and re-emerging pathogens - World Health Organization (WHO)",
+          "source_id": "1d6240df099b843e6bc37999"
+        }
+      ],
+      "finding_id": "df5c45da38334d298a12577a",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [
+        "who"
+      ],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-27T12:26:52.523298+00:00",
+      "profile_relevance": 6.9634545914583335,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-27T11:34:15+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "world"
+      ],
+      "source_ids": [
+        "1d6240df099b843e6bc37999"
+      ],
+      "summary": "Sixth meeting of the European Regional Laboratory Task Force for emerging and re-emerging pathogens - World Health Organization (WHO)",
+      "topics": [
+        "World Health Organization"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "new",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "e8cba6c639001dcbf6ca3997",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "Call for public comment – Monitoring, evaluation and learning framework for the Strategic plan for coronavirus disease threat management - World Health Organization (WHO)",
+          "source_id": "6693690e7cdbaa1ab3dbfeb2"
+        }
+      ],
+      "finding_id": "e8cba6c639001dcbf6ca3997",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [
+        "who"
+      ],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-27T12:26:52.523298+00:00",
+      "profile_relevance": 6.9086050544212965,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-27T10:15:16+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "world"
+      ],
+      "source_ids": [
+        "6693690e7cdbaa1ab3dbfeb2"
+      ],
+      "summary": "Call for public comment – Monitoring, evaluation and learning framework for the Strategic plan for coronavirus disease threat management - World Health Organization (WHO)",
+      "topics": [
+        "World Health Organization"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "new",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "7ff1676560f26d7e97bd1310",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "The Madrid Global Obesity Summit - World Health Organization (WHO)",
+          "source_id": "fa126c18718d335176936be8"
+        }
+      ],
+      "finding_id": "7ff1676560f26d7e97bd1310",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [
+        "who"
+      ],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-27T12:26:52.523298+00:00",
+      "profile_relevance": 6.906290239606482,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-27T10:11:56+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "world"
+      ],
+      "source_ids": [
+        "fa126c18718d335176936be8"
+      ],
+      "summary": "The Madrid Global Obesity Summit - World Health Organization (WHO)",
+      "topics": [
+        "World Health Organization"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "new",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "d94d8abbffabf27a60582cdb",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "Job Description - PROTOCOL ASSISTANT (G5), TA, NAIROBI (2604674) - World Health Organization (WHO)",
+          "source_id": "2b6f4bd1b7a9b856a83c456b"
+        }
+      ],
+      "finding_id": "d94d8abbffabf27a60582cdb",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [
+        "who"
+      ],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-27T12:26:52.523298+00:00",
+      "profile_relevance": 6.880642091458333,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-27T09:35:00+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "world"
+      ],
+      "source_ids": [
+        "2b6f4bd1b7a9b856a83c456b"
+      ],
+      "summary": "Job Description - PROTOCOL ASSISTANT (G5), TA, NAIROBI (2604674) - World Health Organization (WHO)",
+      "topics": [
+        "World Health Organization"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "new",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "2de69a66a18e00ac8d687df6",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "High-level dialogue on One Health - World Health Organization (WHO)",
+          "source_id": "f6723c4efee24354f660f6fa"
+        }
+      ],
+      "finding_id": "2de69a66a18e00ac8d687df6",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [
+        "who"
+      ],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-27T12:26:52.523298+00:00",
+      "profile_relevance": 6.801544869236111,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-27T07:41:06+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "world"
+      ],
+      "source_ids": [
+        "f6723c4efee24354f660f6fa"
+      ],
+      "summary": "High-level dialogue on One Health - World Health Organization (WHO)",
+      "topics": [
+        "World Health Organization"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "new",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "bdc9e0513c567f33e136a6ad",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "New framework helps Public Health Scotland in managing risks of private-sector engagement - World Health Organization (WHO)",
+          "source_id": "17486cb74e19728456edc414"
+        }
+      ],
+      "finding_id": "bdc9e0513c567f33e136a6ad",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [
+        "who"
+      ],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-27T12:26:52.523298+00:00",
+      "profile_relevance": 6.801533295162037,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-27T07:41:05+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "world"
+      ],
+      "source_ids": [
+        "17486cb74e19728456edc414"
+      ],
+      "summary": "New framework helps Public Health Scotland in managing risks of private-sector engagement - World Health Organization (WHO)",
+      "topics": [
+        "World Health Organization"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "unchanged",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "83d3f2914954dd883c9d9914",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "Two drops, one dream: a vaccinator's 14-year journey to protect Afghan children from polio - World Health Organization (WHO)",
+          "source_id": "9808e0a56fc1d41e7796f27f"
+        }
+      ],
+      "finding_id": "83d3f2914954dd883c9d9914",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [
+        "who"
+      ],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-27T12:26:52.523298+00:00",
+      "profile_relevance": 6.80006338775463,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-27T07:38:58+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "world"
+      ],
+      "source_ids": [
+        "9808e0a56fc1d41e7796f27f"
+      ],
+      "summary": "Two drops, one dream: a vaccinator's 14-year journey to protect Afghan children from polio - World Health Organization (WHO)",
+      "topics": [
+        "World Health Organization"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "unchanged",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "3e87ce2f7d72b8320e5b989d",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "WHO Regional Office for the Eastern Mediterranean and Rotary reaffirm commitment to ending polio at World Polio Day events in Cairo - World Health Organization (WHO)",
+          "source_id": "6916bc43bce1cb3c782770ba"
+        }
+      ],
+      "finding_id": "3e87ce2f7d72b8320e5b989d",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [
+        "who"
+      ],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-27T12:26:52.523298+00:00",
+      "profile_relevance": 6.800051813680556,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-27T07:38:57+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "world"
+      ],
+      "source_ids": [
+        "6916bc43bce1cb3c782770ba"
+      ],
+      "summary": "WHO Regional Office for the Eastern Mediterranean and Rotary reaffirm commitment to ending polio at World Polio Day events in Cairo - World Health Organization (WHO)",
+      "topics": [
+        "World Health Organization"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "new",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "de254bbca539bcafb5c08811",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "30th meeting of the Malaria Policy Advisory Group (MPAG) - World Health Organization (WHO)",
+          "source_id": "2719ca8f30c2c4c234b53d04"
+        }
+      ],
+      "finding_id": "de254bbca539bcafb5c08811",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [
+        "who"
+      ],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-27T12:26:52.523298+00:00",
+      "profile_relevance": 6.731776350717593,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-27T06:00:38+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "world"
+      ],
+      "source_ids": [
+        "2719ca8f30c2c4c234b53d04"
+      ],
+      "summary": "30th meeting of the Malaria Policy Advisory Group (MPAG) - World Health Organization (WHO)",
+      "topics": [
+        "World Health Organization"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "new",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "7a3f611eac2578c37f14f451",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "Ebola survivor clinics strengthen the Ebola response in the Democratic Republic of the Congo - WHO | Regional Office for Africa",
+          "source_id": "2b32d70a75d8eef6b133c37c"
+        }
+      ],
+      "finding_id": "7a3f611eac2578c37f14f451",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [
+        "who"
+      ],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-27T12:26:52.523298+00:00",
+      "profile_relevance": 6.7255379247916665,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-27T05:51:39+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "world"
+      ],
+      "source_ids": [
+        "2b32d70a75d8eef6b133c37c"
+      ],
+      "summary": "Ebola survivor clinics strengthen the Ebola response in the Democratic Republic of the Congo - WHO | Regional Office for Africa",
+      "topics": [
+        "World Health Organization"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "new",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "c99e21ba048c56f71a006aef",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "Learning from loss: improving care for mothers and newborns in Afghanistan - World Health Organization (WHO)",
+          "source_id": "719100722c0d749bebe70198"
+        }
+      ],
+      "finding_id": "c99e21ba048c56f71a006aef",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [
+        "who"
+      ],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-27T12:26:52.523298+00:00",
+      "profile_relevance": 6.536845795162037,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-27T01:19:56+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "world"
+      ],
+      "source_ids": [
+        "719100722c0d749bebe70198"
+      ],
+      "summary": "Learning from loss: improving care for mothers and newborns in Afghanistan - World Health Organization (WHO)",
+      "topics": [
+        "World Health Organization"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "new",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "a21ecdef9d6bb55e6b16b1f6",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "Treating severe acute malnutrition and saving young lives in Herat, Afghanistan - World Health Organization (WHO)",
+          "source_id": "df90945834476e2ac0f3beec"
+        }
+      ],
+      "finding_id": "a21ecdef9d6bb55e6b16b1f6",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [
+        "who"
+      ],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-27T12:26:52.523298+00:00",
+      "profile_relevance": 6.524137461828704,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-27T01:01:38+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "world"
+      ],
+      "source_ids": [
+        "df90945834476e2ac0f3beec"
+      ],
+      "summary": "Treating severe acute malnutrition and saving young lives in Herat, Afghanistan - World Health Organization (WHO)",
+      "topics": [
+        "World Health Organization"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "new",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "e3be96758ce6da1d0f93e2c8",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "Virtual Health Sciences Library - World Health Organization (WHO)",
+          "source_id": "88a864bca2528fd70d266edb"
+        }
+      ],
+      "finding_id": "e3be96758ce6da1d0f93e2c8",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [
+        "who"
+      ],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-27T12:26:52.523298+00:00",
+      "profile_relevance": 6.510642091458333,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-27T00:42:12+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "world"
+      ],
+      "source_ids": [
+        "88a864bca2528fd70d266edb"
+      ],
+      "summary": "Virtual Health Sciences Library - World Health Organization (WHO)",
+      "topics": [
+        "World Health Organization"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "new",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "7df15a97a00f07e72f84c23b",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "Working to overcome the global impact of neglected tropical diseases: First WHO report on neglected tropical diseases - WHO | Regional Office for Africa",
+          "source_id": "8f55009abc03cac57402c8ab"
+        }
+      ],
+      "finding_id": "7df15a97a00f07e72f84c23b",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [
+        "who"
+      ],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-27T12:26:52.523298+00:00",
+      "profile_relevance": 6.470399035902778,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-26T23:44:15+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "world"
+      ],
+      "source_ids": [
+        "8f55009abc03cac57402c8ab"
+      ],
+      "summary": "Working to overcome the global impact of neglected tropical diseases: First WHO report on neglected tropical diseases - WHO | Regional Office for Africa",
+      "topics": [
+        "World Health Organization"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "new",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "f28ef1d61aaaeca724e47cfd",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "Macleods’s Primaquine pediatric products prequalified - World Health Organization (WHO)",
+          "source_id": "c31ceae1d867bb424b8dbe75"
+        }
+      ],
+      "finding_id": "f28ef1d61aaaeca724e47cfd",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [
+        "who"
+      ],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-27T12:26:52.523298+00:00",
+      "profile_relevance": 6.448003202569445,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-26T23:12:00+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "world"
+      ],
+      "source_ids": [
+        "c31ceae1d867bb424b8dbe75"
+      ],
+      "summary": "Macleods’s Primaquine pediatric products prequalified - World Health Organization (WHO)",
+      "topics": [
+        "World Health Organization"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "new",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "db7e114f6f2d15d527b14e81",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "Solomon Islands tests readiness to detect and report disease outbreaks - World Health Organization (WHO)",
+          "source_id": "6b28671ab9c97eff50c8d20b"
+        }
+      ],
+      "finding_id": "db7e114f6f2d15d527b14e81",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [
+        "who"
+      ],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-27T12:26:52.523298+00:00",
+      "profile_relevance": 6.442274035902778,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-26T23:03:45+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "world"
+      ],
+      "source_ids": [
+        "6b28671ab9c97eff50c8d20b"
+      ],
+      "summary": "Solomon Islands tests readiness to detect and report disease outbreaks - World Health Organization (WHO)",
+      "topics": [
+        "World Health Organization"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "new",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "14158a92e9fa7a7182ac47a0",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "Cross-border health governance as a core health system function in conflict settings - World Health Organization (WHO)",
+          "source_id": "6e152cd547c817df6d2ccbd6"
+        }
+      ],
+      "finding_id": "14158a92e9fa7a7182ac47a0",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [
+        "who"
+      ],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-27T12:26:52.523298+00:00",
+      "profile_relevance": 6.429681443310185,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-26T22:45:37+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "world"
+      ],
+      "source_ids": [
+        "6e152cd547c817df6d2ccbd6"
+      ],
+      "summary": "Cross-border health governance as a core health system function in conflict settings - World Health Organization (WHO)",
+      "topics": [
+        "World Health Organization"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "new",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "7ae65faed4a67635974ad642",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "WHO announces 2019 update for guidelines on HIV testing services | OMS | Bureau régional pour l'Afrique - WHO | Regional Office for Africa",
+          "source_id": "057318e38bd043e7182e1a27"
+        }
+      ],
+      "finding_id": "7ae65faed4a67635974ad642",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [
+        "who"
+      ],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-27T12:26:52.523298+00:00",
+      "profile_relevance": 6.427910609976852,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-26T22:43:04+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "world"
+      ],
+      "source_ids": [
+        "057318e38bd043e7182e1a27"
+      ],
+      "summary": "WHO announces 2019 update for guidelines on HIV testing services | OMS | Bureau régional pour l'Afrique - WHO | Regional Office for Africa",
+      "topics": [
+        "World Health Organization"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "new",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "b2fef35c5d7ada34f652564d",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "WHO Declares Nigeria Ebola Free After Patient’s Evacuation - The Trumpet Newspaper Nigeria",
+          "source_id": "e4a9dffa28c8f8d7a362e2ea"
+        }
+      ],
+      "finding_id": "b2fef35c5d7ada34f652564d",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [
+        "who"
+      ],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-27T12:26:52.523298+00:00",
+      "profile_relevance": 6.373859684050926,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-26T21:25:14+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "world"
+      ],
+      "source_ids": [
+        "e4a9dffa28c8f8d7a362e2ea"
+      ],
+      "summary": "WHO Declares Nigeria Ebola Free After Patient’s Evacuation - The Trumpet Newspaper Nigeria",
+      "topics": [
+        "World Health Organization"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "updated",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "6f196de08cd1d910cb91101e",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "WHO | News releases - World Health Organization (WHO)",
+          "source_id": "94c958572ace86abea7149cf"
+        }
+      ],
+      "finding_id": "6f196de08cd1d910cb91101e",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [
+        "who"
+      ],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-27T12:26:52.523298+00:00",
+      "profile_relevance": 6.372470795162037,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-26T21:23:14+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "world"
+      ],
+      "source_ids": [
+        "94c958572ace86abea7149cf"
+      ],
+      "summary": "WHO | News releases - World Health Organization (WHO)",
+      "topics": [
+        "World Health Organization"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "new",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "635bb3472c58e435de165a7e",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "Job Description - DRIVER – SPECIAL SERVICE AGREEMENT (SSA), Nairobi, G2 (2604589) - World Health Organization (WHO)",
+          "source_id": "004b19160f8193f2cec91b00"
+        }
+      ],
+      "finding_id": "635bb3472c58e435de165a7e",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [
+        "who"
+      ],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-27T12:26:52.523298+00:00",
+      "profile_relevance": 6.2837670914583335,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-26T19:15:30+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "world"
+      ],
+      "source_ids": [
+        "004b19160f8193f2cec91b00"
+      ],
+      "summary": "Job Description - DRIVER – SPECIAL SERVICE AGREEMENT (SSA), Nairobi, G2 (2604589) - World Health Organization (WHO)",
+      "topics": [
+        "World Health Organization"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "new",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "37a84ce9eac39038ecede959",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "Indicators, measures and methods for monitoring climate resilient WASH – Final short list (Set B) - World Health Organization (WHO)",
+          "source_id": "95171af13712ba1e7600921e"
+        }
+      ],
+      "finding_id": "37a84ce9eac39038ecede959",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [
+        "who"
+      ],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-27T12:26:52.523298+00:00",
+      "profile_relevance": 6.26830412849537,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-26T18:53:14+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "world"
+      ],
+      "source_ids": [
+        "95171af13712ba1e7600921e"
+      ],
+      "summary": "Indicators, measures and methods for monitoring climate resilient WASH – Final short list (Set B) - World Health Organization (WHO)",
+      "topics": [
+        "World Health Organization"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "unchanged",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "520a94089a7846da26c7ddee",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "Implementing and scaling wheat flour fortification programmes - World Health Organization (WHO)",
+          "source_id": "891448c653f652aba0917682"
+        }
+      ],
+      "finding_id": "520a94089a7846da26c7ddee",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [
+        "who"
+      ],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-27T12:26:52.523298+00:00",
+      "profile_relevance": 6.263072647013889,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-26T18:45:42+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "world"
+      ],
+      "source_ids": [
+        "891448c653f652aba0917682"
+      ],
+      "summary": "Implementing and scaling wheat flour fortification programmes - World Health Organization (WHO)",
+      "topics": [
+        "World Health Organization"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "new",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "9301e3cf5caabdc675836c0a",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "Indicators, measures and methods for monitoring climate resilient WASH – Final short list (Set A) - World Health Organization (WHO)",
+          "source_id": "1fb3c69a300e3a534e6107a7"
+        }
+      ],
+      "finding_id": "9301e3cf5caabdc675836c0a",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [
+        "who"
+      ],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-27T12:26:52.523298+00:00",
+      "profile_relevance": 6.248118943310185,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-26T18:24:10+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "world"
+      ],
+      "source_ids": [
+        "1fb3c69a300e3a534e6107a7"
+      ],
+      "summary": "Indicators, measures and methods for monitoring climate resilient WASH – Final short list (Set A) - World Health Organization (WHO)",
+      "topics": [
+        "World Health Organization"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "new",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "9beb5a6445f97065f4743741",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "Indicators, measures and methods for monitoring climate resilient WASH – Indicator metadata - World Health Organization (WHO)",
+          "source_id": "7800b3f92b8c0c960c06228c"
+        }
+      ],
+      "finding_id": "9beb5a6445f97065f4743741",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [
+        "who"
+      ],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-27T12:26:52.523298+00:00",
+      "profile_relevance": 6.247702276643519,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-26T18:23:34+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "world"
+      ],
+      "source_ids": [
+        "7800b3f92b8c0c960c06228c"
+      ],
+      "summary": "Indicators, measures and methods for monitoring climate resilient WASH – Indicator metadata - World Health Organization (WHO)",
+      "topics": [
+        "World Health Organization"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "new",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "79aba48b0751594e107f02f8",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "What to watch for at RC76 - World Health Organization (WHO)",
+          "source_id": "93c995ee39b008b0f0741c9a"
+        }
+      ],
+      "finding_id": "79aba48b0751594e107f02f8",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [
+        "who"
+      ],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-27T12:26:52.523298+00:00",
+      "profile_relevance": 6.232493943310185,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-26T18:01:40+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "world"
+      ],
+      "source_ids": [
+        "93c995ee39b008b0f0741c9a"
+      ],
+      "summary": "What to watch for at RC76 - World Health Organization (WHO)",
+      "topics": [
+        "World Health Organization"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "new",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "6aa318b9b33bfa61eb1b3837",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "WHO Director-General's remarks at the visit to the Global Training Hub for Biomanufacturing – 20 October 2026 - World Health Organization (WHO)",
+          "source_id": "e9928d7ab1328c5cb058773b"
+        }
+      ],
+      "finding_id": "6aa318b9b33bfa61eb1b3837",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [
+        "who"
+      ],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-27T12:26:52.523298+00:00",
+      "profile_relevance": 6.229982369236112,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-26T17:58:03+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "world"
+      ],
+      "source_ids": [
+        "e9928d7ab1328c5cb058773b"
+      ],
+      "summary": "WHO Director-General's remarks at the visit to the Global Training Hub for Biomanufacturing – 20 October 2026 - World Health Organization (WHO)",
+      "topics": [
+        "World Health Organization"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "new",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "9b8e57be1b5927311dfd0a60",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "General search page - World Health Organization (WHO)",
+          "source_id": "1a9e4c1130c367e688d596cf"
+        }
+      ],
+      "finding_id": "9b8e57be1b5927311dfd0a60",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [
+        "who"
+      ],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-27T12:26:52.523298+00:00",
+      "profile_relevance": 6.204924498865741,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-26T17:21:58+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "world"
+      ],
+      "source_ids": [
+        "1a9e4c1130c367e688d596cf"
+      ],
+      "summary": "General search page - World Health Organization (WHO)",
+      "topics": [
+        "World Health Organization"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "new",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "267fc9a206861dcfc73a77d7",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "Ethiopia stakeholders chart path forward for stronger hand hygiene systems - WHO | Regional Office for Africa",
+          "source_id": "1ee970e4f5969ab318052ca0"
+        }
+      ],
+      "finding_id": "267fc9a206861dcfc73a77d7",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [
+        "who"
+      ],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-27T12:26:52.523298+00:00",
+      "profile_relevance": 6.079426813680556,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-26T14:21:15+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "world"
+      ],
+      "source_ids": [
+        "1ee970e4f5969ab318052ca0"
+      ],
+      "summary": "Ethiopia stakeholders chart path forward for stronger hand hygiene systems - WHO | Regional Office for Africa",
+      "topics": [
+        "World Health Organization"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "new",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "fea90a2bf90c79f665ef5f02",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "Twenty contacts of Kenya’s first Ebola case released from quarantine - WHO | Regional Office for Africa",
+          "source_id": "2da9deec731c420033b83937"
+        }
+      ],
+      "finding_id": "fea90a2bf90c79f665ef5f02",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [
+        "who"
+      ],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-27T12:26:52.523298+00:00",
+      "profile_relevance": 6.072123572939815,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-26T14:10:44+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "world"
+      ],
+      "source_ids": [
+        "2da9deec731c420033b83937"
+      ],
+      "summary": "Twenty contacts of Kenya’s first Ebola case released from quarantine - WHO | Regional Office for Africa",
+      "topics": [
+        "World Health Organization"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "new",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "d68e9cf51a74b9b51eec3924",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "Supporting recovery from substance dependence through community outreach and OAMT services in Helmand, Afghanistan - World Health Organization (WHO)",
+          "source_id": "bb100b4b036cdfb94a964dd6"
+        }
+      ],
+      "finding_id": "d68e9cf51a74b9b51eec3924",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [
+        "who"
+      ],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-27T12:26:52.523298+00:00",
+      "profile_relevance": 6.031602739606481,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-26T13:12:23+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "world"
+      ],
+      "source_ids": [
+        "bb100b4b036cdfb94a964dd6"
+      ],
+      "summary": "Supporting recovery from substance dependence through community outreach and OAMT services in Helmand, Afghanistan - World Health Organization (WHO)",
+      "topics": [
+        "World Health Organization"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "new",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "da8de9ea11511459909f1627",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "WHO supports capacity-building workshop on cause of death determination and medical death certification in Iran - World Health Organization (WHO)",
+          "source_id": "468faea19cf16f658b2f6f1e"
+        }
+      ],
+      "finding_id": "da8de9ea11511459909f1627",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [
+        "who"
+      ],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-27T12:26:52.523298+00:00",
+      "profile_relevance": 6.0310008877546295,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-26T13:11:31+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "world"
+      ],
+      "source_ids": [
+        "468faea19cf16f658b2f6f1e"
+      ],
+      "summary": "WHO supports capacity-building workshop on cause of death determination and medical death certification in Iran - World Health Organization (WHO)",
+      "topics": [
+        "World Health Organization"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "new",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "19fba0e995b9794fc2c26217",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "News - World Health Organization (WHO)",
+          "source_id": "cfb06861f2fcdf36fcefc5fe"
+        }
+      ],
+      "finding_id": "19fba0e995b9794fc2c26217",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [
+        "who"
+      ],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-27T12:26:52.523298+00:00",
+      "profile_relevance": 6.030989313680555,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-26T13:11:30+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "world"
+      ],
+      "source_ids": [
+        "cfb06861f2fcdf36fcefc5fe"
+      ],
+      "summary": "News - World Health Organization (WHO)",
+      "topics": [
+        "World Health Organization"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "new",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "a4bd05dafee451f4e971357e",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "WHO Botswana Q1 Newsletter 2026 | OMS | Bureau régional pour l'Afrique - WHO | Regional Office for Africa",
+          "source_id": "7a3bd5c864b10b623ca2494f"
+        }
+      ],
+      "finding_id": "a4bd05dafee451f4e971357e",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [
+        "who"
+      ],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-27T12:26:52.523298+00:00",
+      "profile_relevance": 6.030074961828704,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-26T13:10:11+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "world"
+      ],
+      "source_ids": [
+        "7a3bd5c864b10b623ca2494f"
+      ],
+      "summary": "WHO Botswana Q1 Newsletter 2026 | OMS | Bureau régional pour l'Afrique - WHO | Regional Office for Africa",
+      "topics": [
+        "World Health Organization"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "new",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "6c2111f11871acefc6ff528c",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "Public health intelligence - 2026 - WHO | Regional Office for Africa",
+          "source_id": "35278ceb29ff1f17085c7a87"
+        }
+      ],
+      "finding_id": "6c2111f11871acefc6ff528c",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [
+        "who"
+      ],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-27T12:26:52.523298+00:00",
+      "profile_relevance": 6.005294869236112,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-26T12:34:30+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "world"
+      ],
+      "source_ids": [
+        "35278ceb29ff1f17085c7a87"
+      ],
+      "summary": "Public health intelligence - 2026 - WHO | Regional Office for Africa",
+      "topics": [
+        "World Health Organization"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "new",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "a6b4a689250d19e7f96f6937",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "Lessons from establishing a national public health institute in Somalia - World Health Organization (WHO)",
+          "source_id": "0e8945496b957cdd799d319f"
+        }
+      ],
+      "finding_id": "a6b4a689250d19e7f96f6937",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [
+        "who"
+      ],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-27T12:26:52.523298+00:00",
+      "profile_relevance": 5.981162924791667,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-26T11:59:45+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "world"
+      ],
+      "source_ids": [
+        "0e8945496b957cdd799d319f"
+      ],
+      "summary": "Lessons from establishing a national public health institute in Somalia - World Health Organization (WHO)",
+      "topics": [
+        "World Health Organization"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "new",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "0332d9edd6967982e4bf9063",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "Chair, Regional Director, Excellencies, distinguished delegates, ● Indonesia welcomes WHO’s review of existing guidance on p - World Health Organization (WHO)",
+          "source_id": "9d8a36f805e7104fa4a2d2ad"
+        }
+      ],
+      "finding_id": "0332d9edd6967982e4bf9063",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [
+        "who"
+      ],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-27T12:26:52.523298+00:00",
+      "profile_relevance": 5.976614313680556,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-26T11:53:12+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "world"
+      ],
+      "source_ids": [
+        "9d8a36f805e7104fa4a2d2ad"
+      ],
+      "summary": "Chair, Regional Director, Excellencies, distinguished delegates, ● Indonesia welcomes WHO’s review of existing guidance on p - World Health Organization (WHO)",
+      "topics": [
+        "World Health Organization"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "new",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "6ffc16998555d58defb0a90c",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "Impact of the work of the WHO European Office for Investement for Health and Development - World Health Organization (WHO)",
+          "source_id": "b3150f60ec0b9935a3fb0af6"
+        }
+      ],
+      "finding_id": "6ffc16998555d58defb0a90c",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [
+        "who"
+      ],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-27T12:26:52.523298+00:00",
+      "profile_relevance": 5.959855054421296,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-26T11:29:04+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "world"
+      ],
+      "source_ids": [
+        "b3150f60ec0b9935a3fb0af6"
+      ],
+      "summary": "Impact of the work of the WHO European Office for Investement for Health and Development - World Health Organization (WHO)",
+      "topics": [
+        "World Health Organization"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "new",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "25b5293e09e4607bb1e763e1",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "From commitment to action: Sri Lanka strengthens gender equality, health equity and safeguards against sexual misconduct in health - World Health Organization (WHO)",
+          "source_id": "2e7cddca4d87db1127fbab85"
+        }
+      ],
+      "finding_id": "25b5293e09e4607bb1e763e1",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [
+        "who"
+      ],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-27T12:26:52.523298+00:00",
+      "profile_relevance": 5.955977739606482,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-26T11:23:29+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "world"
+      ],
+      "source_ids": [
+        "2e7cddca4d87db1127fbab85"
+      ],
+      "summary": "From commitment to action: Sri Lanka strengthens gender equality, health equity and safeguards against sexual misconduct in health - World Health Organization (WHO)",
+      "topics": [
+        "World Health Organization"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "new",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "48a5d85c527546fe3d5e60f2",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "Empowering Indonesia to end tuberculosis (TB) - World Health Organization (WHO)",
+          "source_id": "006b4f2b3a6ab2e8db5c4428"
+        }
+      ],
+      "finding_id": "48a5d85c527546fe3d5e60f2",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [
+        "who"
+      ],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-27T12:26:52.523298+00:00",
+      "profile_relevance": 5.935410609976852,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-26T10:53:52+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "world"
+      ],
+      "source_ids": [
+        "006b4f2b3a6ab2e8db5c4428"
+      ],
+      "summary": "Empowering Indonesia to end tuberculosis (TB) - World Health Organization (WHO)",
+      "topics": [
+        "World Health Organization"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "unchanged",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "090c87eca9621ae9b5360ed4",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "Mifepristone monographs information webinar - World Health Organization (WHO)",
+          "source_id": "11cdbec83cb886a0169af00a"
+        }
+      ],
+      "finding_id": "090c87eca9621ae9b5360ed4",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [
+        "who"
+      ],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-27T12:26:52.523298+00:00",
+      "profile_relevance": 5.860908295162037,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-26T09:06:35+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "world"
+      ],
+      "source_ids": [
+        "11cdbec83cb886a0169af00a"
+      ],
+      "summary": "Mifepristone monographs information webinar - World Health Organization (WHO)",
+      "topics": [
+        "World Health Organization"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "updated",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "af076ad602748e17af864f42",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "South Sudan conducts a full-scale simulation exercise to test Bundibugyo virus disease (BVD) readiness - WHO | Regional Office for Africa",
+          "source_id": "2e37f19a61eaa0b92839eb33"
+        }
+      ],
+      "finding_id": "af076ad602748e17af864f42",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [
+        "who"
+      ],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-27T12:26:52.523298+00:00",
+      "profile_relevance": 5.839507832199074,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-26T08:35:46+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "world"
+      ],
+      "source_ids": [
+        "2e37f19a61eaa0b92839eb33"
+      ],
+      "summary": "South Sudan conducts a full-scale simulation exercise to test Bundibugyo virus disease (BVD) readiness - WHO | Regional Office for Africa",
+      "topics": [
+        "World Health Organization"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "unchanged",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "2eac5352b7683577acf57472",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "Strengthening border health through partnership: communities at the heart of resilient health systems - World Health Organization (WHO)",
+          "source_id": "439df2a556e3b19407ec0cb7"
+        }
+      ],
+      "finding_id": "2eac5352b7683577acf57472",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [
+        "who"
+      ],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-27T12:26:52.523298+00:00",
+      "profile_relevance": 5.803743943310185,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-26T07:44:16+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "world"
+      ],
+      "source_ids": [
+        "439df2a556e3b19407ec0cb7"
+      ],
+      "summary": "Strengthening border health through partnership: communities at the heart of resilient health systems - World Health Organization (WHO)",
+      "topics": [
+        "World Health Organization"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "new",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "702c183230f3ebbceeb2a57f",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "Bilan 2025 du bureau de l'OMS en République du Congo - WHO | Regional Office for Africa",
+          "source_id": "844c3e765eee7080c20bbc52"
+        }
+      ],
+      "finding_id": "702c183230f3ebbceeb2a57f",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [
+        "who"
+      ],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-27T12:26:52.523298+00:00",
+      "profile_relevance": 5.799565702569445,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-26T07:38:15+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "world"
+      ],
+      "source_ids": [
+        "844c3e765eee7080c20bbc52"
+      ],
+      "summary": "Bilan 2025 du bureau de l'OMS en République du Congo - WHO | Regional Office for Africa",
+      "topics": [
+        "World Health Organization"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "updated",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "272e9b7646c684bb0efe643f",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "Ebola response: Disinformation kills, care saves lives - WHO | Regional Office for Africa",
+          "source_id": "cb97d7d92d543f8f12f56fae"
+        },
+        {
+          "location": "feed title",
+          "snippet": "Ebola response: Disinformation kills, care saves lives - WHO | Regional Office for Africa",
+          "source_id": "cb9fbbf0860a6d58bbb4cbd5"
+        }
+      ],
+      "finding_id": "272e9b7646c684bb0efe643f",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [
+        "who"
+      ],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-27T12:26:52.523298+00:00",
+      "profile_relevance": 5.787412924791667,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-26T07:20:45+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "world"
+      ],
+      "source_ids": [
+        "cb97d7d92d543f8f12f56fae",
+        "cb9fbbf0860a6d58bbb4cbd5"
+      ],
+      "summary": "Ebola response: Disinformation kills, care saves lives - WHO | Regional Office for Africa",
+      "topics": [
+        "World Health Organization"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "updated",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "8a4e001e9bce95d8c128875a",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "Weekly Epidemiological Bulletin - #Week 39, 2026 - World Health Organization (WHO)",
+          "source_id": "cdc6be4b5a8461ff95408214"
+        }
+      ],
+      "finding_id": "8a4e001e9bce95d8c128875a",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [
+        "who"
+      ],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-27T12:26:52.523298+00:00",
+      "profile_relevance": 5.781730054421296,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-26T07:12:34+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "world"
+      ],
+      "source_ids": [
+        "cdc6be4b5a8461ff95408214"
+      ],
+      "summary": "Weekly Epidemiological Bulletin - #Week 39, 2026 - World Health Organization (WHO)",
+      "topics": [
+        "World Health Organization"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "new",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "fda167bdac9018e203c0a7a1",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "Workshop on engaging national public health institutes in emergency preparedness and response in the WHO Eastern Mediterranean Region - World Health Organization (WHO)",
+          "source_id": "40eedfb0763261bf13751081"
+        }
+      ],
+      "finding_id": "fda167bdac9018e203c0a7a1",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [
+        "who"
+      ],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-27T12:26:52.523298+00:00",
+      "profile_relevance": 5.648361998865741,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-26T04:00:31+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "world"
+      ],
+      "source_ids": [
+        "40eedfb0763261bf13751081"
+      ],
+      "summary": "Workshop on engaging national public health institutes in emergency preparedness and response in the WHO Eastern Mediterranean Region - World Health Organization (WHO)",
+      "topics": [
+        "World Health Organization"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "unchanged",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "879328c73a1038983bbcebe8",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "Volume 32 number 9 - World Health Organization (WHO)",
+          "source_id": "2c0d713550f703432849593f"
+        }
+      ],
+      "finding_id": "879328c73a1038983bbcebe8",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [
+        "who"
+      ],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-27T12:26:52.523298+00:00",
+      "profile_relevance": 5.628269406273148,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-26T03:31:35+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "world"
+      ],
+      "source_ids": [
+        "2c0d713550f703432849593f"
+      ],
+      "summary": "Volume 32 number 9 - World Health Organization (WHO)",
+      "topics": [
+        "World Health Organization"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "new",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "734b0e188f14b17e54a55a3d",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "Harnessing the true potential of artificial intelligence for health emergency preparedness and response in complex settings - World Health Organization (WHO)",
+          "source_id": "ca9d0970bb58134eb3291a3b"
+        }
+      ],
+      "finding_id": "734b0e188f14b17e54a55a3d",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [
+        "who"
+      ],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-27T12:26:52.523298+00:00",
+      "profile_relevance": 5.4369268136805555,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-25T22:56:03+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "world"
+      ],
+      "source_ids": [
+        "ca9d0970bb58134eb3291a3b"
+      ],
+      "summary": "Harnessing the true potential of artificial intelligence for health emergency preparedness and response in complex settings - World Health Organization (WHO)",
+      "topics": [
+        "World Health Organization"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "new",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "21bfcb9fdc957f8f3a85df73",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "Qualitative analysis of outbreak management by national public health institutes across the WHO Eastern Mediterranean Region - World Health Organization (WHO)",
+          "source_id": "0aeeb626ecfb9930cb48a348"
+        }
+      ],
+      "finding_id": "21bfcb9fdc957f8f3a85df73",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [
+        "who"
+      ],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-27T12:26:52.523298+00:00",
+      "profile_relevance": 5.405098109976852,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-25T22:10:13+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "world"
+      ],
+      "source_ids": [
+        "0aeeb626ecfb9930cb48a348"
+      ],
+      "summary": "Qualitative analysis of outbreak management by national public health institutes across the WHO Eastern Mediterranean Region - World Health Organization (WHO)",
+      "topics": [
+        "World Health Organization"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "unchanged",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "a88423231b8af6ce70a7fc9c",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "WHO chief envisions AI-driven future for global health, hails Korea's vaccine equity push - Korea JoongAng Daily",
+          "source_id": "804d1b03b5cc47595a7441c3"
+        }
+      ],
+      "finding_id": "a88423231b8af6ce70a7fc9c",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [
+        "who"
+      ],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-27T12:26:52.523298+00:00",
+      "profile_relevance": 5.400213850717593,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-25T22:03:11+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "world"
+      ],
+      "source_ids": [
+        "804d1b03b5cc47595a7441c3"
+      ],
+      "summary": "WHO chief envisions AI-driven future for global health, hails Korea's vaccine equity push - Korea JoongAng Daily",
+      "topics": [
+        "World Health Organization"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "new",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "6064463ac1f30cb90e1d39b9",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "Infection prevention and control simulation on the implementation of standard and transmission-based precautions - World Health Organization (WHO)",
+          "source_id": "6f72a17d67b5c700a19d0fa0"
+        }
+      ],
+      "finding_id": "6064463ac1f30cb90e1d39b9",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [
+        "who"
+      ],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-27T12:26:52.523298+00:00",
+      "profile_relevance": 5.372540239606481,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-25T21:23:20+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "world"
+      ],
+      "source_ids": [
+        "6f72a17d67b5c700a19d0fa0"
+      ],
+      "summary": "Infection prevention and control simulation on the implementation of standard and transmission-based precautions - World Health Organization (WHO)",
+      "topics": [
+        "World Health Organization"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "new",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "bce5f81c4220d4171cb8162c",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "Health Worker Role in Providing Safe Abortion Care and Post Abortion Contraception - World Health Organization (WHO)",
+          "source_id": "b5900269e0d805639a4fa397"
+        }
+      ],
+      "finding_id": "bce5f81c4220d4171cb8162c",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [
+        "who"
+      ],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-27T12:26:52.523298+00:00",
+      "profile_relevance": 5.372447647013889,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-25T21:23:12+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "world"
+      ],
+      "source_ids": [
+        "b5900269e0d805639a4fa397"
+      ],
+      "summary": "Health Worker Role in Providing Safe Abortion Care and Post Abortion Contraception - World Health Organization (WHO)",
+      "topics": [
+        "World Health Organization"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "unchanged",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "f9e8a21d66e88f75efc3ded9",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "Egypt is the first country globally to maintain Gold Tier status on the path to hepatitis C elimination - World Health Organization (WHO)",
+          "source_id": "de431eb012a05a04262200e0"
+        }
+      ],
+      "finding_id": "f9e8a21d66e88f75efc3ded9",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [
+        "who"
+      ],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-27T12:26:52.523298+00:00",
+      "profile_relevance": 5.368512461828704,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-25T21:17:32+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "world"
+      ],
+      "source_ids": [
+        "de431eb012a05a04262200e0"
+      ],
+      "summary": "Egypt is the first country globally to maintain Gold Tier status on the path to hepatitis C elimination - World Health Organization (WHO)",
+      "topics": [
+        "World Health Organization"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "unchanged",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "89fb9a4d5b6c9190f4c348a9",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "Strengthening integrated surveillance across WHO’s Eastern Mediterranean Region - World Health Organization (WHO)",
+          "source_id": "11641ead748de8a667b59b12"
+        }
+      ],
+      "finding_id": "89fb9a4d5b6c9190f4c348a9",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [
+        "who"
+      ],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-27T12:26:52.523298+00:00",
+      "profile_relevance": 5.032574961828704,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-25T13:13:47+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "world"
+      ],
+      "source_ids": [
+        "11641ead748de8a667b59b12"
+      ],
+      "summary": "Strengthening integrated surveillance across WHO’s Eastern Mediterranean Region - World Health Organization (WHO)",
+      "topics": [
+        "World Health Organization"
+      ],
+      "verification": "single_secondary_source"
+    }
+  ],
+  "history": {
+    "comparison": "last_good",
+    "previous_created_at": "2026-10-26T13:20:13.563846+00:00",
+    "previous_report_id": "c41a5600e0f141d88d5ad1abb9819175",
+    "previous_report_sha256": "f675244d0be0776c045ee0c649e8e9cb87d9ead5f3f19591d140059ab2bf4d50",
+    "previous_snapshot_commit": "5a916cf68266d2496aaae6417cfcc3023b55f3d9",
+    "stale_last_good": false,
+    "state": "restored"
+  },
+  "limitations": [
+    "Bounded queries do not provide exhaustive global coverage.",
+    "GDELT seen time is an observation timestamp, not verified publication time.",
+    "Contradiction/resolution labels require explicit source wording and review; no automatic truth adjudication."
+  ],
+  "links": {
+    "json": "intel/reports/institutions/who/2026/10/27/129bc18313cd45f084a8ab736144e49a/report.json",
+    "markdown": "intel/reports/institutions/who/2026/10/27/129bc18313cd45f084a8ab736144e49a/report.md"
+  },
+  "model_used": null,
+  "profile_id": "institutions/who",
+  "question": "",
+  "report_id": "129bc18313cd45f084a8ab736144e49a",
+  "run_id": "129bc18313cd45f084a8ab736144e49a",
+  "schedule": {},
+  "schema_version": "1.0",
+  "sources": [
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5pX2gtbzZTNXA4MURrV01ibnEtY3dLS25nUko5YU9ud3daY1lOaTJOODYyQzdOQjEwcUx6SnNjUEVVZHFsTTgzVWZ3dWhMWUREbDZwekN0eExLNHVoOUhFUlAtdW5FUENPNW1RR0JreV9jZnhR?oc=5",
+      "content_fingerprint": "411c62ed9525e15570c7f4ab",
+      "fetched_at": "2026-10-27T12:26:52.523298+00:00",
+      "institution_id": "who",
+      "language": "en",
+      "observations": [
+        {
+          "collector": "google_news",
+          "language": "en",
+          "search_query": "site:who.int",
+          "search_region": "world",
+          "title": "Job Description - DRIVER – SPECIAL SERVICE AGREEMENT (SSA), Nairobi, G2 (2604589) - World Health Organization (WHO)"
+        }
+      ],
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5pX2gtbzZTNXA4MURrV01ibnEtY3dLS25nUko5YU9ud3daY1lOaTJOODYyQzdOQjEwcUx6SnNjUEVVZHFsTTgzVWZ3dWhMWUREbDZwekN0eExLNHVoOUhFUlAtdW5FUENPNW1RR0JreV9jZnhR?oc=5",
+      "profile_id": "institutions/who",
+      "published_at": "2026-10-26T19:15:30+00:00",
+      "publisher": "World Health Organization (WHO)",
+      "search_query": "site:who.int",
+      "source_country": "unknown",
+      "source_id": "004b19160f8193f2cec91b00",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQUURNRFdPR3JPRVU3b1hISEFtNVY4WmpOZGNPOU1Jc25PRG5ZWldlN2dmTGJsNHVvN0xEUW1wUS1YTWhBekE3X0hJYzFkbDI4YkI5anJCOHVTeExqakU5bzM0cXVJQ19adnFjX1NtRzBHX3JFcjJWTWJkYVNKVGRCeGFYbDJCMUlrYzVvRlpQUjlFU0ZzZ3dHN3dZQm5oLU1sVWwzMWdKTWVPd3dCVnNQUXhmQm5EdWczVDk4MGRQRm50YnV6VnhXUV8tU0RfeEt0bFdLd0dfSktkak9DMkROQXJqT0M?oc=5",
+      "content_fingerprint": "781e2017de0519ce14fb01f5",
+      "fetched_at": "2026-10-27T12:26:52.523298+00:00",
+      "institution_id": "who",
+      "language": "en",
+      "observations": [
+        {
+          "collector": "google_news",
+          "language": "en",
+          "search_query": "site:who.int",
+          "search_region": "world",
+          "title": "Empowering Indonesia to end tuberculosis (TB) - World Health Organization (WHO)"
+        }
+      ],
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQUURNRFdPR3JPRVU3b1hISEFtNVY4WmpOZGNPOU1Jc25PRG5ZWldlN2dmTGJsNHVvN0xEUW1wUS1YTWhBekE3X0hJYzFkbDI4YkI5anJCOHVTeExqakU5bzM0cXVJQ19adnFjX1NtRzBHX3JFcjJWTWJkYVNKVGRCeGFYbDJCMUlrYzVvRlpQUjlFU0ZzZ3dHN3dZQm5oLU1sVWwzMWdKTWVPd3dCVnNQUXhmQm5EdWczVDk4MGRQRm50YnV6VnhXUV8tU0RfeEt0bFdLd0dfSktkak9DMkROQXJqT0M?oc=5",
+      "profile_id": "institutions/who",
+      "published_at": "2026-10-26T10:53:52+00:00",
+      "publisher": "World Health Organization (WHO)",
+      "search_query": "site:who.int",
+      "source_country": "unknown",
+      "source_id": "006b4f2b3a6ab2e8db5c4428",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5vUkN1Zkk0ckM0cGpobVlYN0J0TEVhNkVYZDhyb1Vvc3lEWWdEQmxUcW9XRU5aaXZGN1JPaUtrbUdIUVFVLW9sblhSTjVZcExmdjVQSHBoUEZWbDMxdTNuZHc0ZU1Tdw?oc=5",
+      "content_fingerprint": "0fb4ad2cea934bdbd5844620",
+      "fetched_at": "2026-10-27T12:26:52.523298+00:00",
+      "institution_id": "who",
+      "language": "en",
+      "observations": [
+        {
+          "collector": "google_news",
+          "language": "en",
+          "search_query": "site:who.int",
+          "search_region": "world",
+          "title": "WHO announces 2019 update for guidelines on HIV testing services | OMS | Bureau régional pour l'Afrique - WHO | Regional Office for Africa"
+        }
+      ],
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5vUkN1Zkk0ckM0cGpobVlYN0J0TEVhNkVYZDhyb1Vvc3lEWWdEQmxUcW9XRU5aaXZGN1JPaUtrbUdIUVFVLW9sblhSTjVZcExmdjVQSHBoUEZWbDMxdTNuZHc0ZU1Tdw?oc=5",
+      "profile_id": "institutions/who",
+      "published_at": "2026-10-26T22:43:04+00:00",
+      "publisher": "WHO | Regional Office for Africa",
+      "search_query": "site:who.int",
+      "source_country": "unknown",
+      "source_id": "057318e38bd043e7182e1a27",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMingJBVV95cUxQVjFFT1ZJeTRZaUtFQVN1dGVIU1VhZ2NISUFoV2hzSTE1cF9jV3J2WENLeVMwRjFGdDBQaGV4WEp1Yk5lRzR4eS1oM3N3Rm5KdmFKS0IwN2xiLTJ6aGVUMUVtSzdKdWI4Wm8wb214VHF3WUtIVWRqZWdvNU40T2ZGSG9FUzhqRTNpdU9NT3NENXVlLTlyNE1ENVdyYzh6Q0stTno1a1NrTFRKWElJbmtlQ1JocllTUTFLM293S09hTDRtZWstTXZiRmNRT2FrYkQ4N05Ra0ZOazRxTjltQmdSRjFQOGVrRHBuR2MtUnVmS0JiRFJDSTNOVWI5VG8xLWZ3WEplUmhRZGFqQmJ4bUU0YzhmSlltek9oTmhWV2pn?oc=5",
+      "content_fingerprint": "9870ce12c3db7a77b0392ff7",
+      "fetched_at": "2026-10-27T12:26:52.523298+00:00",
+      "institution_id": "who",
+      "language": "en",
+      "observations": [
+        {
+          "collector": "google_news",
+          "language": "en",
+          "search_query": "site:who.int",
+          "search_region": "world",
+          "title": "Qualitative analysis of outbreak management by national public health institutes across the WHO Eastern Mediterranean Region - World Health Organization (WHO)"
+        }
+      ],
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMingJBVV95cUxQVjFFT1ZJeTRZaUtFQVN1dGVIU1VhZ2NISUFoV2hzSTE1cF9jV3J2WENLeVMwRjFGdDBQaGV4WEp1Yk5lRzR4eS1oM3N3Rm5KdmFKS0IwN2xiLTJ6aGVUMUVtSzdKdWI4Wm8wb214VHF3WUtIVWRqZWdvNU40T2ZGSG9FUzhqRTNpdU9NT3NENXVlLTlyNE1ENVdyYzh6Q0stTno1a1NrTFRKWElJbmtlQ1JocllTUTFLM293S09hTDRtZWstTXZiRmNRT2FrYkQ4N05Ra0ZOazRxTjltQmdSRjFQOGVrRHBuR2MtUnVmS0JiRFJDSTNOVWI5VG8xLWZ3WEplUmhRZGFqQmJ4bUU0YzhmSlltek9oTmhWV2pn?oc=5",
+      "profile_id": "institutions/who",
+      "published_at": "2026-10-25T22:10:13+00:00",
+      "publisher": "World Health Organization (WHO)",
+      "search_query": "site:who.int",
+      "source_country": "unknown",
+      "source_id": "0aeeb626ecfb9930cb48a348",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQbWhGYXJkUmtjNVprRWR0dGd1VWZCSXJtNHpZd25VVWlPZHpTcDJPVVhwR1QwS1FZZGtJX3ViQktYX3R0U0U2Zm9Hb3M1Q2hsYlBkSmVzbmp3MzlNZ2tYX1NBM0hEMGRZQnpuWlVua0RWNWZZVEkwdWllN3BTc0Q3OVQ1VUtOdWcyeUNpUDUzVTJsR2RJcHQ3WFU0cE9yc0Q5RHNJeWZ1bHFycFpGMzYzQl9nTlRISTFDd2haUHZheW5rM0kyOGZoQkhrdF9EdFNQT1FMeWd1aw?oc=5",
+      "content_fingerprint": "a29ba096608d6ca70ddd654a",
+      "fetched_at": "2026-10-27T12:26:52.523298+00:00",
+      "institution_id": "who",
+      "language": "en",
+      "observations": [
+        {
+          "collector": "google_news",
+          "language": "en",
+          "search_query": "site:who.int",
+          "search_region": "world",
+          "title": "Lessons from establishing a national public health institute in Somalia - World Health Organization (WHO)"
+        }
+      ],
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQbWhGYXJkUmtjNVprRWR0dGd1VWZCSXJtNHpZd25VVWlPZHpTcDJPVVhwR1QwS1FZZGtJX3ViQktYX3R0U0U2Zm9Hb3M1Q2hsYlBkSmVzbmp3MzlNZ2tYX1NBM0hEMGRZQnpuWlVua0RWNWZZVEkwdWllN3BTc0Q3OVQ1VUtOdWcyeUNpUDUzVTJsR2RJcHQ3WFU0cE9yc0Q5RHNJeWZ1bHFycFpGMzYzQl9nTlRISTFDd2haUHZheW5rM0kyOGZoQkhrdF9EdFNQT1FMeWd1aw?oc=5",
+      "profile_id": "institutions/who",
+      "published_at": "2026-10-26T11:59:45+00:00",
+      "publisher": "World Health Organization (WHO)",
+      "search_query": "site:who.int",
+      "source_country": "unknown",
+      "source_id": "0e8945496b957cdd799d319f",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNZGEzYTdZYjlBMkJfWmJEd1k0M3BqU3VGRndIbnYxNFprb1phSENIa19falBqVFpVbzdTWmNRRi11ZWJYTTZpcWRkbTBNVEhoNFN5SmxiWnZxRG5YblJQcFY1Q2NZelYzNFpoU2FUOXJDQzdkY1JmZm40bTE4TDIwQ3hFYnlZeDJpRHZJdEstRjBaVE1Zd0dSamZRYjhJNjVhTVFINGxKdk8xMVdKTlg2WVlabWpfRGFkNFNn?oc=5",
+      "content_fingerprint": "a1f048cf73035299e114b649",
+      "fetched_at": "2026-10-27T12:26:52.523298+00:00",
+      "institution_id": "who",
+      "language": "en",
+      "observations": [
+        {
+          "collector": "google_news",
+          "language": "en",
+          "search_query": "site:who.int",
+          "search_region": "world",
+          "title": "Strengthening integrated surveillance across WHO’s Eastern Mediterranean Region - World Health Organization (WHO)"
+        }
+      ],
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNZGEzYTdZYjlBMkJfWmJEd1k0M3BqU3VGRndIbnYxNFprb1phSENIa19falBqVFpVbzdTWmNRRi11ZWJYTTZpcWRkbTBNVEhoNFN5SmxiWnZxRG5YblJQcFY1Q2NZelYzNFpoU2FUOXJDQzdkY1JmZm40bTE4TDIwQ3hFYnlZeDJpRHZJdEstRjBaVE1Zd0dSamZRYjhJNjVhTVFINGxKdk8xMVdKTlg2WVlabWpfRGFkNFNn?oc=5",
+      "profile_id": "institutions/who",
+      "published_at": "2026-10-25T13:13:47+00:00",
+      "publisher": "World Health Organization (WHO)",
+      "search_query": "site:who.int",
+      "source_country": "unknown",
+      "source_id": "11641ead748de8a667b59b12",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQaDBIU3l0d29LOWtyLWxEUzBaNUJGZ3lYdERtRHVncUVvS2hqdEJua1FUSm9jRXVBaHBsemxUVzF0WllPX2p3d3Q1eDN5T3FXMThHQkotUkYzQWNxdTJUWkttOUEwM2prd3U4b08zdFNXMWVDSFF5WVJac04wdDJxOE1EVlB6QnkzOGZFa1lkcVJ4ak9mN0tJb2ZkdkVaSmtrLS1MU1FybnlnazlmNUl6MUJfWURTZw?oc=5",
+      "content_fingerprint": "6b44a8b72327046fb38ee15c",
+      "fetched_at": "2026-10-27T12:26:52.523298+00:00",
+      "institution_id": "who",
+      "language": "en",
+      "observations": [
+        {
+          "collector": "google_news",
+          "language": "en",
+          "search_query": "site:who.int",
+          "search_region": "world",
+          "title": "Mifepristone monographs information webinar - World Health Organization (WHO)"
+        }
+      ],
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQaDBIU3l0d29LOWtyLWxEUzBaNUJGZ3lYdERtRHVncUVvS2hqdEJua1FUSm9jRXVBaHBsemxUVzF0WllPX2p3d3Q1eDN5T3FXMThHQkotUkYzQWNxdTJUWkttOUEwM2prd3U4b08zdFNXMWVDSFF5WVJac04wdDJxOE1EVlB6QnkzOGZFa1lkcVJ4ak9mN0tJb2ZkdkVaSmtrLS1MU1FybnlnazlmNUl6MUJfWURTZw?oc=5",
+      "profile_id": "institutions/who",
+      "published_at": "2026-10-26T09:06:35+00:00",
+      "publisher": "World Health Organization (WHO)",
+      "search_query": "site:who.int",
+      "source_country": "unknown",
+      "source_id": "11cdbec83cb886a0169af00a",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPWGRkaXFPbXFBTm5SSWFDQnFBVXRPT1NUcU8yeWYwLWZnamdPbHl1OHdrbE5LZ2VhYnVSX3FKcEYyelRJYUJzZ3JZWUhsOGcxLWZTT0E3TGdhRUNsRDMtenAxQmdVbWstQzZ0OXlwQmE3YUxMYUd0VFFpUm5pMWM0WkI2emVuWkhoeksxVlNIbGxLOVV4bHJvYXUxN1FjMnR0M1Q3bXdHcGRvbEFWNmtZS0RSX1BsR1BUUWVSRV9OSml6UUhpRDloUHlybzNHOEFic1Bj?oc=5",
+      "content_fingerprint": "0e0d3a49af9b0885e53b24eb",
+      "fetched_at": "2026-10-27T12:26:52.523298+00:00",
+      "institution_id": "who",
+      "language": "en",
+      "observations": [
+        {
+          "collector": "google_news",
+          "language": "en",
+          "search_query": "site:who.int",
+          "search_region": "world",
+          "title": "New framework helps Public Health Scotland in managing risks of private-sector engagement - World Health Organization (WHO)"
+        }
+      ],
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPWGRkaXFPbXFBTm5SSWFDQnFBVXRPT1NUcU8yeWYwLWZnamdPbHl1OHdrbE5LZ2VhYnVSX3FKcEYyelRJYUJzZ3JZWUhsOGcxLWZTT0E3TGdhRUNsRDMtenAxQmdVbWstQzZ0OXlwQmE3YUxMYUd0VFFpUm5pMWM0WkI2emVuWkhoeksxVlNIbGxLOVV4bHJvYXUxN1FjMnR0M1Q3bXdHcGRvbEFWNmtZS0RSX1BsR1BUUWVSRV9OSml6UUhpRDloUHlybzNHOEFic1Bj?oc=5",
+      "profile_id": "institutions/who",
+      "published_at": "2026-10-27T07:41:05+00:00",
+      "publisher": "World Health Organization (WHO)",
+      "search_query": "site:who.int",
+      "source_country": "unknown",
+      "source_id": "17486cb74e19728456edc414",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMi4gJBVV95cUxNSnFUakhsRDhkYmo5V1R3bXBhOFpMR254elA0U0F1NTZ2NzFYQU1IWFV4NEh1SXMxeGw3cnBfWmFCN0VJY05wUFlQcjUxWHZvRmRIa1JBSFg2Ui1jQTRUdElqZDczUnRwY3NKaE15VVpIT3pLMVptRGZUcTV0SXpMazBjTGQzcTlTc3dsb0VzU25KNHVMRzBqNFoxUkpPQXhRM3oya3ZUZ0pubVhTWUlxcEc3YkEyVXBZelhGcTk2ZGVIaTJxRkNWUEtXN0R1dkxDU0tRRTkyVXNGZHpCZUp0blVBQ1ZGYVRsdEVZZ0pVcTlOTHNvWnRBaWdvUXVRWHlNZl91QXRsZk1zdy1RdVo3TjBNWUViXzV1UjJNdWpKS2NuQ0xGYm9JM1ZYbVpfajRDUS1PeHRYdGtueUZfVC1vUV80dUJWMXR4X21lWVN1NUZGRVpfR1RGdmJWazdMQzltZ3c?oc=5",
+      "content_fingerprint": "5b9d2558455d8fcfc8ecbf51",
+      "fetched_at": "2026-10-27T12:26:52.523298+00:00",
+      "institution_id": "who",
+      "language": "en",
+      "observations": [
+        {
+          "collector": "google_news",
+          "language": "en",
+          "search_query": "site:who.int",
+          "search_region": "world",
+          "title": "General search page - World Health Organization (WHO)"
+        }
+      ],
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMi4gJBVV95cUxNSnFUakhsRDhkYmo5V1R3bXBhOFpMR254elA0U0F1NTZ2NzFYQU1IWFV4NEh1SXMxeGw3cnBfWmFCN0VJY05wUFlQcjUxWHZvRmRIa1JBSFg2Ui1jQTRUdElqZDczUnRwY3NKaE15VVpIT3pLMVptRGZUcTV0SXpMazBjTGQzcTlTc3dsb0VzU25KNHVMRzBqNFoxUkpPQXhRM3oya3ZUZ0pubVhTWUlxcEc3YkEyVXBZelhGcTk2ZGVIaTJxRkNWUEtXN0R1dkxDU0tRRTkyVXNGZHpCZUp0blVBQ1ZGYVRsdEVZZ0pVcTlOTHNvWnRBaWdvUXVRWHlNZl91QXRsZk1zdy1RdVo3TjBNWUViXzV1UjJNdWpKS2NuQ0xGYm9JM1ZYbVpfajRDUS1PeHRYdGtueUZfVC1vUV80dUJWMXR4X21lWVN1NUZGRVpfR1RGdmJWazdMQzltZ3c?oc=5",
+      "profile_id": "institutions/who",
+      "published_at": "2026-10-26T17:21:58+00:00",
+      "publisher": "World Health Organization (WHO)",
+      "search_query": "site:who.int",
+      "source_country": "unknown",
+      "source_id": "1a9e4c1130c367e688d596cf",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxPOVN1bXlpVE1DT3dpMzN3aUprYkhwRlNTX3RHSXFHZVU2RnpfaTEyckZiUHZoWHRWSjc0NEFtZHFkSkVFN2NvcmVWWV9RdHdDcWpNR3BUMkNpMWNCRlYyOUxzdTVCV014RVU4ZUxDYks4WmFSaFdjM0lXZ2xpdTlrMXVOTV96TldCWHd0bTg0TUtuR24xdFNsZlMwU19mdHRsYnd3Q0pIbkl1UVdmcUhrWFBqNVZMUXN0Ym1oc3lzdDFWM216Rjd4bjB2emd3bmxvNG5TMng2SjJrNkk0OFRYd21TM2ZiR2p2VzNjemp3OGhHX2NacjZZUUhGbGFJWEUxYTQwNVpCYw?oc=5",
+      "content_fingerprint": "13badef7fb5b707af18560ff",
+      "fetched_at": "2026-10-27T12:26:52.523298+00:00",
+      "institution_id": "who",
+      "language": "en",
+      "observations": [
+        {
+          "collector": "google_news",
+          "language": "en",
+          "search_query": "site:who.int",
+          "search_region": "world",
+          "title": "Sixth meeting of the European Regional Laboratory Task Force for emerging and re-emerging pathogens - World Health Organization (WHO)"
+        }
+      ],
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxPOVN1bXlpVE1DT3dpMzN3aUprYkhwRlNTX3RHSXFHZVU2RnpfaTEyckZiUHZoWHRWSjc0NEFtZHFkSkVFN2NvcmVWWV9RdHdDcWpNR3BUMkNpMWNCRlYyOUxzdTVCV014RVU4ZUxDYks4WmFSaFdjM0lXZ2xpdTlrMXVOTV96TldCWHd0bTg0TUtuR24xdFNsZlMwU19mdHRsYnd3Q0pIbkl1UVdmcUhrWFBqNVZMUXN0Ym1oc3lzdDFWM216Rjd4bjB2emd3bmxvNG5TMng2SjJrNkk0OFRYd21TM2ZiR2p2VzNjemp3OGhHX2NacjZZUUhGbGFJWEUxYTQwNVpCYw?oc=5",
+      "profile_id": "institutions/who",
+      "published_at": "2026-10-27T11:34:15+00:00",
+      "publisher": "World Health Organization (WHO)",
+      "search_query": "site:who.int",
+      "source_country": "unknown",
+      "source_id": "1d6240df099b843e6bc37999",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOT2JlNWZCVlFNWlNmMHFzNExJYnFQeHljd0llOG1GLWd4dlBsVHhaZ3NxY3BBSE1yTHVNXzkzRmh4QkZvRW5oa1JadVh5UTRBaUs4NHkxOFpoZzBCd0tjYm9PNGlLaWNDYmxCaFpmb1p1ajNFVTdsbm84WmVIWkRpNFdacFdEQy0yaHp0ZlRuNlIwbzI3bnM1S1JxVEpwc1MwZG52RU5wRUdyazZHRXNYbm1idFpyeDl5ZGMw?oc=5",
+      "content_fingerprint": "2c2921be8552093c487814cd",
+      "fetched_at": "2026-10-27T12:26:52.523298+00:00",
+      "institution_id": "who",
+      "language": "en",
+      "observations": [
+        {
+          "collector": "google_news",
+          "language": "en",
+          "search_query": "\"World Health Organization\"",
+          "search_region": "world",
+          "title": "Ethiopia stakeholders chart path forward for stronger hand hygiene systems - WHO | Regional Office for Africa"
+        }
+      ],
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOT2JlNWZCVlFNWlNmMHFzNExJYnFQeHljd0llOG1GLWd4dlBsVHhaZ3NxY3BBSE1yTHVNXzkzRmh4QkZvRW5oa1JadVh5UTRBaUs4NHkxOFpoZzBCd0tjYm9PNGlLaWNDYmxCaFpmb1p1ajNFVTdsbm84WmVIWkRpNFdacFdEQy0yaHp0ZlRuNlIwbzI3bnM1S1JxVEpwc1MwZG52RU5wRUdyazZHRXNYbm1idFpyeDl5ZGMw?oc=5",
+      "profile_id": "institutions/who",
+      "published_at": "2026-10-26T14:21:15+00:00",
+      "publisher": "WHO | Regional Office for Africa",
+      "search_query": "\"World Health Organization\"",
+      "source_country": "unknown",
+      "source_id": "1ee970e4f5969ab318052ca0",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPdzNaT0U1WTJTVmxzYkgzNG9WUlN5RExvMzFEa2RobTVsd3d1VnktZW9Qa2xZM3FEaWRDc09HTVlsQVNyZHJNTzQ3OTd4SWNQamR1QnY4SjlXb3NZZldETndXT3B3RktLbk5kZ1F1Y3MzbmMtUEY5ZWQzS011VUUxcXB3SVJGY1FqN2lUeFVfRnBSbXRwM21aekNCTmx5OGQ5WWRFNTJhLTE5R2Nya29QdFRaamhCY2g3Q3RNZkIxNFBFR3FaUXFyLUZMb1BFVGFNaFdJ?oc=5",
+      "content_fingerprint": "b5b03a22c8885f6c71b3b4c1",
+      "fetched_at": "2026-10-27T12:26:52.523298+00:00",
+      "institution_id": "who",
+      "language": "en",
+      "observations": [
+        {
+          "collector": "google_news",
+          "language": "en",
+          "search_query": "site:who.int",
+          "search_region": "world",
+          "title": "Indicators, measures and methods for monitoring climate resilient WASH – Final short list (Set A) - World Health Organization (WHO)"
+        }
+      ],
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPdzNaT0U1WTJTVmxzYkgzNG9WUlN5RExvMzFEa2RobTVsd3d1VnktZW9Qa2xZM3FEaWRDc09HTVlsQVNyZHJNTzQ3OTd4SWNQamR1QnY4SjlXb3NZZldETndXT3B3RktLbk5kZ1F1Y3MzbmMtUEY5ZWQzS011VUUxcXB3SVJGY1FqN2lUeFVfRnBSbXRwM21aekNCTmx5OGQ5WWRFNTJhLTE5R2Nya29QdFRaamhCY2g3Q3RNZkIxNFBFR3FaUXFyLUZMb1BFVGFNaFdJ?oc=5",
+      "profile_id": "institutions/who",
+      "published_at": "2026-10-26T18:24:10+00:00",
+      "publisher": "World Health Organization (WHO)",
+      "search_query": "site:who.int",
+      "source_country": "unknown",
+      "source_id": "1fb3c69a300e3a534e6107a7",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQMmdleUtaVUFBajhwOHk0dkFNVldiY0JwVThFQ0o5c1RGbWxpckNOaUYzbGw2QUxJVGVxRDFlTzAxWDBvRm5EdDVxQkJXWEp3YkxHZDY3a2VjaWoza1hGUmQ3RnFaa19CYjhwMHNIRWU3cDFYQjZ4M0V3ckdKZHBmcTItLVZrZjd0X3M5bDdvd1dFc3FKUmRqV3Myc2xqYURWMExZOHdsSTNNdGdnZUJpVW1PM2I5bzZkZEo3aXRaUTc3ZG8wWWln?oc=5",
+      "content_fingerprint": "1ac4363a1d6734a08bd65fae",
+      "fetched_at": "2026-10-27T12:26:52.523298+00:00",
+      "institution_id": "who",
+      "language": "en",
+      "observations": [
+        {
+          "collector": "google_news",
+          "language": "en",
+          "search_query": "site:who.int",
+          "search_region": "world",
+          "title": "30th meeting of the Malaria Policy Advisory Group (MPAG) - World Health Organization (WHO)"
+        }
+      ],
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQMmdleUtaVUFBajhwOHk0dkFNVldiY0JwVThFQ0o5c1RGbWxpckNOaUYzbGw2QUxJVGVxRDFlTzAxWDBvRm5EdDVxQkJXWEp3YkxHZDY3a2VjaWoza1hGUmQ3RnFaa19CYjhwMHNIRWU3cDFYQjZ4M0V3ckdKZHBmcTItLVZrZjd0X3M5bDdvd1dFc3FKUmRqV3Myc2xqYURWMExZOHdsSTNNdGdnZUJpVW1PM2I5bzZkZEo3aXRaUTc3ZG8wWWln?oc=5",
+      "profile_id": "institutions/who",
+      "published_at": "2026-10-27T06:00:38+00:00",
+      "publisher": "World Health Organization (WHO)",
+      "search_query": "site:who.int",
+      "source_country": "unknown",
+      "source_id": "2719ca8f30c2c4c234b53d04",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOTk91SmtqRU5FdXRHOFBJQ0ZaX3hsY2JVX0JDWUdJWW9mc19sYUNLQnRvM1d1SG5xV3lTaWd2MENobGt5UEpUR09JLW1NZC1iMDBPakVFT0tzOVR2UFRvR3FFaEdBMDF3RXUtX21tVVpnM3o5ZEVSQzk5TkNwMHZHeWpEUHRDVm5EQldyazF1QnZqbEpvLVp3Z0gwT1VWWkRjOUVSQ3RYRjB5NzJHeVh0QWlNbGhQVGtjaEVjWHBqRmVMTVhRWlk1aUdMTVpZS0dFR0IyQmV3?oc=5",
+      "content_fingerprint": "5a99b9406df92f8ca994f907",
+      "fetched_at": "2026-10-27T12:26:52.523298+00:00",
+      "institution_id": "who",
+      "language": "en",
+      "observations": [
+        {
+          "collector": "google_news",
+          "language": "en",
+          "search_query": "\"World Health Organization\"",
+          "search_region": "world",
+          "title": "Officials from the World Health Organization (WHO) and the United Nations Children’s Fund (UNICEF) responsible for vaccination in Helmand have reported interference by the Taliban in the vaccination process in the province. The officials said on Monday, O - Facebook"
+        }
+      ],
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOTk91SmtqRU5FdXRHOFBJQ0ZaX3hsY2JVX0JDWUdJWW9mc19sYUNLQnRvM1d1SG5xV3lTaWd2MENobGt5UEpUR09JLW1NZC1iMDBPakVFT0tzOVR2UFRvR3FFaEdBMDF3RXUtX21tVVpnM3o5ZEVSQzk5TkNwMHZHeWpEUHRDVm5EQldyazF1QnZqbEpvLVp3Z0gwT1VWWkRjOUVSQ3RYRjB5NzJHeVh0QWlNbGhQVGtjaEVjWHBqRmVMTVhRWlk1aUdMTVpZS0dFR0IyQmV3?oc=5",
+      "profile_id": "institutions/who",
+      "published_at": "2026-10-26T13:48:53+00:00",
+      "publisher": "Facebook",
+      "search_query": "\"World Health Organization\"",
+      "source_country": "unknown",
+      "source_id": "2912e9186cbc74542dc1446f",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPTFdzcGZhT2dhMGlDMVA5Yl9lNWV2S0YxLXhHRzB2WFhDa2Z6enNQY0tXVkxTLVBPdlVNMXBZLW1pd2NfZjZwZGpGQUR3VWs1TlZIbldwQ0N6RWR6WVoxU29acmgtcWhVd3VYblBoNUd1QVhGTktMWUZFRWtSVDdwclFLWHo0X21xOVlRRFZjZmlVTVhMd0x4ZzhFYmozWllnY0ZURC1SSDJ1WnFxT2daN0JGaTZIX2VMSE5ENk1rRnBaR05pbWdqQ2hxLVYxRHplM2FkN0d2QmQtd3M?oc=5",
+      "content_fingerprint": "7b16c4043a9bcff0f0fbc802",
+      "fetched_at": "2026-10-27T12:26:52.523298+00:00",
+      "institution_id": "who",
+      "language": "en",
+      "observations": [
+        {
+          "collector": "google_news",
+          "language": "en",
+          "search_query": "site:who.int",
+          "search_region": "world",
+          "title": "Ebola survivor clinics strengthen the Ebola response in the Democratic Republic of the Congo - WHO | Regional Office for Africa"
+        },
+        {
+          "collector": "google_news",
+          "language": "en",
+          "search_query": "\"World Health Organization\"",
+          "search_region": "world",
+          "title": "Ebola survivor clinics strengthen the Ebola response in the Democratic Republic of the Congo - WHO | Regional Office for Africa"
+        }
+      ],
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPTFdzcGZhT2dhMGlDMVA5Yl9lNWV2S0YxLXhHRzB2WFhDa2Z6enNQY0tXVkxTLVBPdlVNMXBZLW1pd2NfZjZwZGpGQUR3VWs1TlZIbldwQ0N6RWR6WVoxU29acmgtcWhVd3VYblBoNUd1QVhGTktMWUZFRWtSVDdwclFLWHo0X21xOVlRRFZjZmlVTVhMd0x4ZzhFYmozWllnY0ZURC1SSDJ1WnFxT2daN0JGaTZIX2VMSE5ENk1rRnBaR05pbWdqQ2hxLVYxRHplM2FkN0d2QmQtd3M?oc=5",
+      "profile_id": "institutions/who",
+      "published_at": "2026-10-27T05:51:39+00:00",
+      "publisher": "WHO | Regional Office for Africa",
+      "search_query": "\"World Health Organization\"",
+      "source_country": "unknown",
+      "source_id": "2b32d70a75d8eef6b133c37c",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE8yLUg0ZEZfdjJ5aFdqeUNIVzNPampyZ0s5MU56MTI3ZFI5YzhVUlM2ZGdzZVJ2b1ZSSFhRR0Zqb3JuSGFQaTRpQzNIRk9fVEpFMldlZ2JHLVkwQVFjUmN2TFdNQi1ZYmN0b3NnZFctU09NZTE5?oc=5",
+      "content_fingerprint": "16301c4ecd3ebbcbc5cc9705",
+      "fetched_at": "2026-10-27T12:26:52.523298+00:00",
+      "institution_id": "who",
+      "language": "en",
+      "observations": [
+        {
+          "collector": "google_news",
+          "language": "en",
+          "search_query": "site:who.int",
+          "search_region": "world",
+          "title": "Job Description - PROTOCOL ASSISTANT (G5), TA, NAIROBI (2604674) - World Health Organization (WHO)"
+        }
+      ],
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE8yLUg0ZEZfdjJ5aFdqeUNIVzNPampyZ0s5MU56MTI3ZFI5YzhVUlM2ZGdzZVJ2b1ZSSFhRR0Zqb3JuSGFQaTRpQzNIRk9fVEpFMldlZ2JHLVkwQVFjUmN2TFdNQi1ZYmN0b3NnZFctU09NZTE5?oc=5",
+      "profile_id": "institutions/who",
+      "published_at": "2026-10-27T09:35:00+00:00",
+      "publisher": "World Health Organization (WHO)",
+      "search_query": "site:who.int",
+      "source_country": "unknown",
+      "source_id": "2b6f4bd1b7a9b856a83c456b",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1iX0EzUnFQM29yMXJlYWJYTVBFNlczWjJiWEpQeW9MUzF4akE2Q3BIMzJobXdFLWthZWtlU1lLQkxIZFVzQzdwal9CTWpER19sRUxZWVctOHpHQTVDX2dLUGhCck1rdTkwallrWmMxS05lUQ?oc=5",
+      "content_fingerprint": "fd9d1c7a179b3240765097ca",
+      "fetched_at": "2026-10-27T12:26:52.523298+00:00",
+      "institution_id": "who",
+      "language": "en",
+      "observations": [
+        {
+          "collector": "google_news",
+          "language": "en",
+          "search_query": "site:who.int",
+          "search_region": "world",
+          "title": "Volume 32 number 9 - World Health Organization (WHO)"
+        }
+      ],
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1iX0EzUnFQM29yMXJlYWJYTVBFNlczWjJiWEpQeW9MUzF4akE2Q3BIMzJobXdFLWthZWtlU1lLQkxIZFVzQzdwal9CTWpER19sRUxZWVctOHpHQTVDX2dLUGhCck1rdTkwallrWmMxS05lUQ?oc=5",
+      "profile_id": "institutions/who",
+      "published_at": "2026-10-26T03:31:35+00:00",
+      "publisher": "World Health Organization (WHO)",
+      "search_query": "site:who.int",
+      "source_country": "unknown",
+      "source_id": "2c0d713550f703432849593f",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQLUxPS1N5UnZ3MFgwa01RR29ScVpuWXZsUUZXUnlPRE1VNVZTT052emU0dGExX2UxeUc1M09nSVhIaFZWUzZ1SlVsdC1wUHZ1VUlqVnIxQ1hnNW9tWEpYNGItT2JwdjBGRmdmZ0lNUXhWdTg1V3NMRHlFVVQ0akFxYjFRd0k2ZkU5MXpYd2RPeXhGYlJkSjhuNlFpOXYtVk1ZNUZlcGdRTTM?oc=5",
+      "content_fingerprint": "c231de7a5048d16c56c22e05",
+      "fetched_at": "2026-10-27T12:26:52.523298+00:00",
+      "institution_id": "who",
+      "language": "en",
+      "observations": [
+        {
+          "collector": "google_news",
+          "language": "en",
+          "search_query": "\"World Health Organization\"",
+          "search_region": "world",
+          "title": "Twenty contacts of Kenya’s first Ebola case released from quarantine - WHO | Regional Office for Africa"
+        }
+      ],
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQLUxPS1N5UnZ3MFgwa01RR29ScVpuWXZsUUZXUnlPRE1VNVZTT052emU0dGExX2UxeUc1M09nSVhIaFZWUzZ1SlVsdC1wUHZ1VUlqVnIxQ1hnNW9tWEpYNGItT2JwdjBGRmdmZ0lNUXhWdTg1V3NMRHlFVVQ0akFxYjFRd0k2ZkU5MXpYd2RPeXhGYlJkSjhuNlFpOXYtVk1ZNUZlcGdRTTM?oc=5",
+      "profile_id": "institutions/who",
+      "published_at": "2026-10-26T14:10:44+00:00",
+      "publisher": "WHO | Regional Office for Africa",
+      "search_query": "\"World Health Organization\"",
+      "source_country": "unknown",
+      "source_id": "2da9deec731c420033b83937",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPcVFMVHM4TW4zZWFuWVBGSGttc3BVa18yQjRhSmRWN1NGOWxSYVVpSUZoUUVPZHI4QVJ3ME1kbHJFRXVMa2lqb2c2b1EtVVFhZUxYRUVYNzdRVFAtcV9jQjkxTGJpOHYyTk5MVnc0N3JpZU1aY3FpSjdnNXlGcTdCMHVMSER1RnlmdTRZSF9fWkp2YUpWUEw4SmFmVHk1akpPcVNwWWZUM3EwSDJROUMyN0UzcHZuY1FVWGpsNU4tYTdSNHVqenVMVUVwRHhjMjcxQUMzTzVpWDIwSmNEd0NWdA?oc=5",
+      "content_fingerprint": "ddcd2e6b54125d701aab9336",
+      "fetched_at": "2026-10-27T12:26:52.523298+00:00",
+      "institution_id": "who",
+      "language": "en",
+      "observations": [
+        {
+          "collector": "google_news",
+          "language": "en",
+          "search_query": "\"World Health Organization\"",
+          "search_region": "world",
+          "title": "South Sudan conducts a full-scale simulation exercise to test Bundibugyo virus disease (BVD) readiness - WHO | Regional Office for Africa"
+        }
+      ],
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPcVFMVHM4TW4zZWFuWVBGSGttc3BVa18yQjRhSmRWN1NGOWxSYVVpSUZoUUVPZHI4QVJ3ME1kbHJFRXVMa2lqb2c2b1EtVVFhZUxYRUVYNzdRVFAtcV9jQjkxTGJpOHYyTk5MVnc0N3JpZU1aY3FpSjdnNXlGcTdCMHVMSER1RnlmdTRZSF9fWkp2YUpWUEw4SmFmVHk1akpPcVNwWWZUM3EwSDJROUMyN0UzcHZuY1FVWGpsNU4tYTdSNHVqenVMVUVwRHhjMjcxQUMzTzVpWDIwSmNEd0NWdA?oc=5",
+      "profile_id": "institutions/who",
+      "published_at": "2026-10-26T08:35:46+00:00",
+      "publisher": "WHO | Regional Office for Africa",
+      "search_query": "\"World Health Organization\"",
+      "source_country": "unknown",
+      "source_id": "2e37f19a61eaa0b92839eb33",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxPNllyRUlieDBKc0NiRW5IclhFeFZUaGJqWXhDcVF0cmo1RTJMYng5dVAzUWFySWdITXRfM0FJU3JjaExYMEo1dUJIb1VzYXlPalZpUWlEdnJialZGMzJOUHBxeC14bnk5Z21hTjUzUWw1V0Z6YVNUdW1zQ0gzT0xiUGFJMXB5U2t3a2I4WkJzejROOW5wQWNZR1VWcVJCcXBOYkJ0ZmpuekxNUXRwWmVzNEhVanFaWllEWWxuZnRWbjRuLVRZdmZnTzZ4YkhnajkxbFBhTGdtWTZTdTRCNVgzM0pGdDFRYldzOF9wSlY2UjJ3eEtrQ1BCbV9JbkFpYzdTQ0lGSFJlYnV5ZW9WaFBF?oc=5",
+      "content_fingerprint": "452eb1bdb3f914075f7fcbb7",
+      "fetched_at": "2026-10-27T12:26:52.523298+00:00",
+      "institution_id": "who",
+      "language": "en",
+      "observations": [
+        {
+          "collector": "google_news",
+          "language": "en",
+          "search_query": "site:who.int",
+          "search_region": "world",
+          "title": "From commitment to action: Sri Lanka strengthens gender equality, health equity and safeguards against sexual misconduct in health - World Health Organization (WHO)"
+        }
+      ],
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxPNllyRUlieDBKc0NiRW5IclhFeFZUaGJqWXhDcVF0cmo1RTJMYng5dVAzUWFySWdITXRfM0FJU3JjaExYMEo1dUJIb1VzYXlPalZpUWlEdnJialZGMzJOUHBxeC14bnk5Z21hTjUzUWw1V0Z6YVNUdW1zQ0gzT0xiUGFJMXB5U2t3a2I4WkJzejROOW5wQWNZR1VWcVJCcXBOYkJ0ZmpuekxNUXRwWmVzNEhVanFaWllEWWxuZnRWbjRuLVRZdmZnTzZ4YkhnajkxbFBhTGdtWTZTdTRCNVgzM0pGdDFRYldzOF9wSlY2UjJ3eEtrQ1BCbV9JbkFpYzdTQ0lGSFJlYnV5ZW9WaFBF?oc=5",
+      "profile_id": "institutions/who",
+      "published_at": "2026-10-26T11:23:29+00:00",
+      "publisher": "World Health Organization (WHO)",
+      "search_query": "site:who.int",
+      "source_country": "unknown",
+      "source_id": "2e7cddca4d87db1127fbab85",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE13U0tSUXhmMGRNVVpkRjFoVi1nTTVzSl9ka3E4ZmdJX0tabldHeDNfZno4S1lEUktRYnRVdEhfdGhDSzJwSDBMTzRSbUROMjdhNHEzWFFaVF8wV0c5c3p0aU9wZjdmSjhZYVZJQ2NNbzRSYTVS?oc=5",
+      "content_fingerprint": "bfe81bd753fa5be3bd882521",
+      "fetched_at": "2026-10-27T12:26:52.523298+00:00",
+      "institution_id": "who",
+      "language": "en",
+      "observations": [
+        {
+          "collector": "google_news",
+          "language": "en",
+          "search_query": "site:who.int",
+          "search_region": "world",
+          "title": "- World Health Organization (WHO)"
+        }
+      ],
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE13U0tSUXhmMGRNVVpkRjFoVi1nTTVzSl9ka3E4ZmdJX0tabldHeDNfZno4S1lEUktRYnRVdEhfdGhDSzJwSDBMTzRSbUROMjdhNHEzWFFaVF8wV0c5c3p0aU9wZjdmSjhZYVZJQ2NNbzRSYTVS?oc=5",
+      "profile_id": "institutions/who",
+      "published_at": "2026-10-26T23:03:37+00:00",
+      "publisher": "World Health Organization (WHO)",
+      "search_query": "site:who.int",
+      "source_country": "unknown",
+      "source_id": "2f4169cbaf9e82438ee442c9",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1ZTmRlOWZoLU10SFZrWnZSRzVvcy1jaUF2NUF6RTAzenIybk0tWGJQWmpyaXRvUjJoUDBDRnFZbkNTR0k5cUJtakwzVE42d1pvbl9WeWFIcGpjdDJ1Tmo5bnozSDZ6WEFsQ01Eby1mb0RRalVVSmMydA?oc=5",
+      "content_fingerprint": "5eb4e19cc1993de2dabce4e3",
+      "fetched_at": "2026-10-27T12:26:52.523298+00:00",
+      "institution_id": "who",
+      "language": "en",
+      "observations": [
+        {
+          "collector": "google_news",
+          "language": "en",
+          "search_query": "site:who.int",
+          "search_region": "world",
+          "title": "Public health intelligence - 2026 - WHO | Regional Office for Africa"
+        },
+        {
+          "collector": "google_news",
+          "language": "en",
+          "search_query": "\"World Health Organization\"",
+          "search_region": "world",
+          "title": "Public health intelligence - 2026 - WHO | Regional Office for Africa"
+        }
+      ],
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1ZTmRlOWZoLU10SFZrWnZSRzVvcy1jaUF2NUF6RTAzenIybk0tWGJQWmpyaXRvUjJoUDBDRnFZbkNTR0k5cUJtakwzVE42d1pvbl9WeWFIcGpjdDJ1Tmo5bnozSDZ6WEFsQ01Eby1mb0RRalVVSmMydA?oc=5",
+      "profile_id": "institutions/who",
+      "published_at": "2026-10-26T12:34:30+00:00",
+      "publisher": "WHO | Regional Office for Africa",
+      "search_query": "\"World Health Organization\"",
+      "source_country": "unknown",
+      "source_id": "35278ceb29ff1f17085c7a87",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMiqgJBVV95cUxPSF9pYnlxUmxyenB2cGhIamVBX2VkZTJNZ0JiQ2lHS1AxMHVfT1pBblVxaE1OZlJJNXVkZGdaWkY5alI0aTNqWktPQWpzWFoyNTNGTVliN3NnaWhnbjJMaGxIUXFTN2lTYU8wRU9vcmhjNkR4UG5STGlVbHc2SEJFOVU1SUNTTmJtNm15cS1SeG9XOU9vRlQ3YTROaUtYOEdFSVpkQU9RTkgyNldjWm5ZVGNIRVVoajlpWnlZN3c3NzRZbXZPNFRPQ2VETVNfOFF3MVRuV21wTXkzaFJhLTVHdXdjTFpWT3BpLXFsWllBV3ZkeGRNaERac0k4ZnlyT2xWRno1RlhoUWoxd2ZPLVVqeUc5N0g5SGkzQnIxck9hbTVNTW53eGc2OFR3?oc=5",
+      "content_fingerprint": "49cebe3df6fa11a9917e1f41",
+      "fetched_at": "2026-10-27T12:26:52.523298+00:00",
+      "institution_id": "who",
+      "language": "en",
+      "observations": [
+        {
+          "collector": "google_news",
+          "language": "en",
+          "search_query": "site:who.int",
+          "search_region": "world",
+          "title": "Workshop on engaging national public health institutes in emergency preparedness and response in the WHO Eastern Mediterranean Region - World Health Organization (WHO)"
+        }
+      ],
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMiqgJBVV95cUxPSF9pYnlxUmxyenB2cGhIamVBX2VkZTJNZ0JiQ2lHS1AxMHVfT1pBblVxaE1OZlJJNXVkZGdaWkY5alI0aTNqWktPQWpzWFoyNTNGTVliN3NnaWhnbjJMaGxIUXFTN2lTYU8wRU9vcmhjNkR4UG5STGlVbHc2SEJFOVU1SUNTTmJtNm15cS1SeG9XOU9vRlQ3YTROaUtYOEdFSVpkQU9RTkgyNldjWm5ZVGNIRVVoajlpWnlZN3c3NzRZbXZPNFRPQ2VETVNfOFF3MVRuV21wTXkzaFJhLTVHdXdjTFpWT3BpLXFsWllBV3ZkeGRNaERac0k4ZnlyT2xWRno1RlhoUWoxd2ZPLVVqeUc5N0g5SGkzQnIxck9hbTVNTW53eGc2OFR3?oc=5",
+      "profile_id": "institutions/who",
+      "published_at": "2026-10-26T04:00:31+00:00",
+      "publisher": "World Health Organization (WHO)",
+      "search_query": "site:who.int",
+      "source_country": "unknown",
+      "source_id": "40eedfb0763261bf13751081",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOeW01S0E1ajUwbEFBS3EtRmtiTm41ZURONjNlRGJPSFNLRzNmbk5senRyaVNwQzE2eVBxZDBKdzh0bVdlVTY4Mm42amJtV280T1N2U1FvdGhpX1lwRWVUUi1IWEVpOVJVZmlwbmkyOE1BMy1YdEoyOTBkV0FKbjZkcnppekhEdDQtV3dUSXV5dTZfYjV2V1JJdS1rdGEyR1pPdnVXWGJtcmdKQmRHdVg3eS1qRFJySDd5ZzRvU0VJTGZIc0ZaZUd1SG0xejQxTldNSzNsQ1hycDVlQThoYU1QLWJMZjBEeGNMZjBUbzhvQQ?oc=5",
+      "content_fingerprint": "7176b2a0c24292424a403295",
+      "fetched_at": "2026-10-27T12:26:52.523298+00:00",
+      "institution_id": "who",
+      "language": "en",
+      "observations": [
+        {
+          "collector": "google_news",
+          "language": "en",
+          "search_query": "site:who.int",
+          "search_region": "world",
+          "title": "Strengthening border health through partnership: communities at the heart of resilient health systems - World Health Organization (WHO)"
+        },
+        {
+          "collector": "google_news",
+          "language": "en",
+          "search_query": "\"World Health Organization\"",
+          "search_region": "world",
+          "title": "Strengthening border health through partnership: communities at the heart of resilient health systems - World Health Organization (WHO)"
+        }
+      ],
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOeW01S0E1ajUwbEFBS3EtRmtiTm41ZURONjNlRGJPSFNLRzNmbk5senRyaVNwQzE2eVBxZDBKdzh0bVdlVTY4Mm42amJtV280T1N2U1FvdGhpX1lwRWVUUi1IWEVpOVJVZmlwbmkyOE1BMy1YdEoyOTBkV0FKbjZkcnppekhEdDQtV3dUSXV5dTZfYjV2V1JJdS1rdGEyR1pPdnVXWGJtcmdKQmRHdVg3eS1qRFJySDd5ZzRvU0VJTGZIc0ZaZUd1SG0xejQxTldNSzNsQ1hycDVlQThoYU1QLWJMZjBEeGNMZjBUbzhvQQ?oc=5",
+      "profile_id": "institutions/who",
+      "published_at": "2026-10-26T07:44:16+00:00",
+      "publisher": "World Health Organization (WHO)",
+      "search_query": "\"World Health Organization\"",
+      "source_country": "unknown",
+      "source_id": "439df2a556e3b19407ec0cb7",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOV2VWbGhqdi1jV0poTmZjTmJpQW5MSC1uWFFMR3h0SllSbkZBN2ctclJzZDROQkhlWjFTM2ZxeUsySWtBNjhkTWFJWjBaNkpNcmxrSVdZb25BUlpVQzJIUWU3cGgwN2E1WVlYMDhWREc4VnBJelJSdVRPR2lkNWJvTVp4ZlBXaUJXeHVOS2VhTTlVSkV1cG9SSVdGSkk4V1ZlWm5SQmlPeUVScXUyQUpfUjNjVVZ6YWxETzZ5NXBDeDhMYmhNQUk1aGNnSmM1c3VZdllTRjZPTHhCdy05dWtZcUlRaGo2QQ?oc=5",
+      "content_fingerprint": "80cb97511272ec9fe3b28c97",
+      "fetched_at": "2026-10-27T12:26:52.523298+00:00",
+      "institution_id": "who",
+      "language": "en",
+      "observations": [
+        {
+          "collector": "google_news",
+          "language": "en",
+          "search_query": "site:who.int",
+          "search_region": "world",
+          "title": "WHO supports capacity-building workshop on cause of death determination and medical death certification in Iran - World Health Organization (WHO)"
+        }
+      ],
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOV2VWbGhqdi1jV0poTmZjTmJpQW5MSC1uWFFMR3h0SllSbkZBN2ctclJzZDROQkhlWjFTM2ZxeUsySWtBNjhkTWFJWjBaNkpNcmxrSVdZb25BUlpVQzJIUWU3cGgwN2E1WVlYMDhWREc4VnBJelJSdVRPR2lkNWJvTVp4ZlBXaUJXeHVOS2VhTTlVSkV1cG9SSVdGSkk4V1ZlWm5SQmlPeUVScXUyQUpfUjNjVVZ6YWxETzZ5NXBDeDhMYmhNQUk1aGNnSmM1c3VZdllTRjZPTHhCdy05dWtZcUlRaGo2QQ?oc=5",
+      "profile_id": "institutions/who",
+      "published_at": "2026-10-26T13:11:31+00:00",
+      "publisher": "World Health Organization (WHO)",
+      "search_query": "site:who.int",
+      "source_country": "unknown",
+      "source_id": "468faea19cf16f658b2f6f1e",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxOT0dhbFAzTmMwYnJJaUl4eXFoeG5nMkp1djlwbDc5OXVJLUhoOVB3cmJVek42b3RKSmVYa0ZrbkZpckU1RW9pV1FaVkl6ZnA0TllZWU9yUGV2Q0N2MEdwbEdvLXVkV3drUW5lYjFUcTZWa2RtS3hESDVDLWliRDZOS2dsaTFxTVBrRGVxOUw5UTR4OE9ZOFAwMF9MTnNyVHFjOXVBQnhkdUFqcy1jNFNBbk00QjQwcTI2MlNaaEFPdWRPNmFYVE9PYkctNDBxTmgzdk9ER0RvV1lyeVpVblh2X2sxNkUyM29zV0Z5YzdsS1lwN2ZBb1d2QjhxWkF5RU1lS0xRM0VBSjFJankwQ0JV?oc=5",
+      "content_fingerprint": "fd979b8b129406f12e391e04",
+      "fetched_at": "2026-10-27T12:26:52.523298+00:00",
+      "institution_id": "who",
+      "language": "en",
+      "observations": [
+        {
+          "collector": "google_news",
+          "language": "en",
+          "search_query": "site:who.int",
+          "search_region": "world",
+          "title": "Call for public comment – Monitoring, evaluation and learning framework for the Strategic plan for coronavirus disease threat management - World Health Organization (WHO)"
+        }
+      ],
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxOT0dhbFAzTmMwYnJJaUl4eXFoeG5nMkp1djlwbDc5OXVJLUhoOVB3cmJVek42b3RKSmVYa0ZrbkZpckU1RW9pV1FaVkl6ZnA0TllZWU9yUGV2Q0N2MEdwbEdvLXVkV3drUW5lYjFUcTZWa2RtS3hESDVDLWliRDZOS2dsaTFxTVBrRGVxOUw5UTR4OE9ZOFAwMF9MTnNyVHFjOXVBQnhkdUFqcy1jNFNBbk00QjQwcTI2MlNaaEFPdWRPNmFYVE9PYkctNDBxTmgzdk9ER0RvV1lyeVpVblh2X2sxNkUyM29zV0Z5YzdsS1lwN2ZBb1d2QjhxWkF5RU1lS0xRM0VBSjFJankwQ0JV?oc=5",
+      "profile_id": "institutions/who",
+      "published_at": "2026-10-27T10:15:16+00:00",
+      "publisher": "World Health Organization (WHO)",
+      "search_query": "site:who.int",
+      "source_country": "unknown",
+      "source_id": "6693690e7cdbaa1ab3dbfeb2",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxNckpLLW9wdTRQTnhEOGwzengwVV91VUZ3Vk80WjdMRTUxOE53REo5V2cxM3QwSmJSdEZmR21Ha3ZIV0tiajk5SEY4aVBXQ3M5ZTZnVkI3THZLaERTU3ZOMGc4dkxqZ1pzSE9BSE5vb1daaXJDRjlldldpbmNxdzFTNW5DdERBOHdRN2Z1OFBiR3ZJN0xEWFZkN0paNFdSQXNWOVR1Um1QQVJjcmFTd2FXOEFsUEhPRXNwOERlSTNVLU1jZ0Fld2VydmFZSTRseDJpNEs4OUtfME83RU83WWIyb3gtSTk5SjVtQWNzcWJLdkJpY1hVZXd2bkFkcjh5NVFIMVE?oc=5",
+      "content_fingerprint": "be99b5d0b2867a1777f054f2",
+      "fetched_at": "2026-10-27T12:26:52.523298+00:00",
+      "institution_id": "who",
+      "language": "en",
+      "observations": [
+        {
+          "collector": "google_news",
+          "language": "en",
+          "search_query": "site:who.int",
+          "search_region": "world",
+          "title": "WHO Regional Office for the Eastern Mediterranean and Rotary reaffirm commitment to ending polio at World Polio Day events in Cairo - World Health Organization (WHO)"
+        },
+        {
+          "collector": "google_news",
+          "language": "en",
+          "search_query": "\"World Health Organization\"",
+          "search_region": "world",
+          "title": "WHO Regional Office for the Eastern Mediterranean and Rotary reaffirm commitment to ending polio at World Polio Day events in Cairo - World Health Organization (WHO)"
+        }
+      ],
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxNckpLLW9wdTRQTnhEOGwzengwVV91VUZ3Vk80WjdMRTUxOE53REo5V2cxM3QwSmJSdEZmR21Ha3ZIV0tiajk5SEY4aVBXQ3M5ZTZnVkI3THZLaERTU3ZOMGc4dkxqZ1pzSE9BSE5vb1daaXJDRjlldldpbmNxdzFTNW5DdERBOHdRN2Z1OFBiR3ZJN0xEWFZkN0paNFdSQXNWOVR1Um1QQVJjcmFTd2FXOEFsUEhPRXNwOERlSTNVLU1jZ0Fld2VydmFZSTRseDJpNEs4OUtfME83RU83WWIyb3gtSTk5SjVtQWNzcWJLdkJpY1hVZXd2bkFkcjh5NVFIMVE?oc=5",
+      "profile_id": "institutions/who",
+      "published_at": "2026-10-27T07:38:57+00:00",
+      "publisher": "World Health Organization (WHO)",
+      "search_query": "\"World Health Organization\"",
+      "source_country": "unknown",
+      "source_id": "6916bc43bce1cb3c782770ba",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxNSjVFU2ZoWmh0a2dZVDMwMmNMNVlndF9veHZERkE5UU43WUFXWXZMTUVsd0RjT25idjJGUkxqRlJ2V3FFaG9OakhaR0diUzBpVTdsR0F4bEV6RmgwZXZIRHlUZmhfWFhxYUI4OWNGdm1xMVByLWdpWWVCd1hHQTJ3QmRJbTBicmhIYVF5RjRORElSMTkxSU5LbE5ud0JfN1hlbVZiMUFhRENoeUx2VzhyakFRZEZpeG5yUUtTRDh3YVZQaHZtZ1dKSTlFYlJMQVI2RmE1cmJsY1JBTE5FMGd5OFIxN291VmJ3RVMtQWh5QTZtcERp?oc=5",
+      "content_fingerprint": "4b2f68d4e42508e1d34a24df",
+      "fetched_at": "2026-10-27T12:26:52.523298+00:00",
+      "institution_id": "who",
+      "language": "en",
+      "observations": [
+        {
+          "collector": "google_news",
+          "language": "en",
+          "search_query": "site:who.int",
+          "search_region": "world",
+          "title": "Solomon Islands tests readiness to detect and report disease outbreaks - World Health Organization (WHO)"
+        },
+        {
+          "collector": "google_news",
+          "language": "en",
+          "search_query": "\"World Health Organization\"",
+          "search_region": "world",
+          "title": "Solomon Islands tests readiness to detect and report disease outbreaks - World Health Organization (WHO)"
+        }
+      ],
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxNSjVFU2ZoWmh0a2dZVDMwMmNMNVlndF9veHZERkE5UU43WUFXWXZMTUVsd0RjT25idjJGUkxqRlJ2V3FFaG9OakhaR0diUzBpVTdsR0F4bEV6RmgwZXZIRHlUZmhfWFhxYUI4OWNGdm1xMVByLWdpWWVCd1hHQTJ3QmRJbTBicmhIYVF5RjRORElSMTkxSU5LbE5ud0JfN1hlbVZiMUFhRENoeUx2VzhyakFRZEZpeG5yUUtTRDh3YVZQaHZtZ1dKSTlFYlJMQVI2RmE1cmJsY1JBTE5FMGd5OFIxN291VmJ3RVMtQWh5QTZtcERp?oc=5",
+      "profile_id": "institutions/who",
+      "published_at": "2026-10-26T23:03:45+00:00",
+      "publisher": "World Health Organization (WHO)",
+      "search_query": "\"World Health Organization\"",
+      "source_country": "unknown",
+      "source_id": "6b28671ab9c97eff50c8d20b",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQRXpQNGVtZ0R4MTZCZFNuQ0dWYS1pNkVwM3BQbE83ZktFNHZaMjRPbllqaGpTVUVNZThBeEc2Z0ptaURUWm1qbWtmbHZLVEg5WkFGa09CcFpiSWZ2OGlodXlZNFhTVGoyQlFQbVZ4RzJ1ZEt6LUxUM3RJaHZIWjg4MXZLcTlGM1RyVEhDQ1JEUmNPbVlMQ1RSU3FzcmN1VnBNV3dCTjlpUmU5ZEptSk5wV0otWkU1cHR6UTRrbUcwNzJrVU9xYm1Gb0J6SFhxLWhoWWdwdDlvRmFxMU91Xzh4c2J1cjl3cFNo?oc=5",
+      "content_fingerprint": "53092b981869aff525a71a4e",
+      "fetched_at": "2026-10-27T12:26:52.523298+00:00",
+      "institution_id": "who",
+      "language": "en",
+      "observations": [
+        {
+          "collector": "google_news",
+          "language": "en",
+          "search_query": "site:who.int",
+          "search_region": "world",
+          "title": "Cross-border health governance as a core health system function in conflict settings - World Health Organization (WHO)"
+        }
+      ],
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQRXpQNGVtZ0R4MTZCZFNuQ0dWYS1pNkVwM3BQbE83ZktFNHZaMjRPbllqaGpTVUVNZThBeEc2Z0ptaURUWm1qbWtmbHZLVEg5WkFGa09CcFpiSWZ2OGlodXlZNFhTVGoyQlFQbVZ4RzJ1ZEt6LUxUM3RJaHZIWjg4MXZLcTlGM1RyVEhDQ1JEUmNPbVlMQ1RSU3FzcmN1VnBNV3dCTjlpUmU5ZEptSk5wV0otWkU1cHR6UTRrbUcwNzJrVU9xYm1Gb0J6SFhxLWhoWWdwdDlvRmFxMU91Xzh4c2J1cjl3cFNo?oc=5",
+      "profile_id": "institutions/who",
+      "published_at": "2026-10-26T22:45:37+00:00",
+      "publisher": "World Health Organization (WHO)",
+      "search_query": "site:who.int",
+      "source_country": "unknown",
+      "source_id": "6e152cd547c817df6d2ccbd6",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5WdVhPTl9Xb2R0dkRGUTRmRkpuVUtuWDhxZ29YM0Nsbkp6ZHVUaXJGS3dfZ1dXS18wNVhBRWVGVTBCUmZCWjJRQV9JZnQwSU1ELWc?oc=5",
+      "content_fingerprint": "ba44b2c7d8b7c30dc81ac8e6",
+      "fetched_at": "2026-10-27T12:26:52.523298+00:00",
+      "institution_id": "who",
+      "language": "en",
+      "observations": [
+        {
+          "collector": "google_news",
+          "language": "en",
+          "search_query": "site:who.int",
+          "search_region": "world",
+          "title": "Infection prevention and control simulation on the implementation of standard and transmission-based precautions - World Health Organization (WHO)"
+        }
+      ],
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5WdVhPTl9Xb2R0dkRGUTRmRkpuVUtuWDhxZ29YM0Nsbkp6ZHVUaXJGS3dfZ1dXS18wNVhBRWVGVTBCUmZCWjJRQV9JZnQwSU1ELWc?oc=5",
+      "profile_id": "institutions/who",
+      "published_at": "2026-10-25T21:23:20+00:00",
+      "publisher": "World Health Organization (WHO)",
+      "search_query": "site:who.int",
+      "source_country": "unknown",
+      "source_id": "6f72a17d67b5c700a19d0fa0",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQU09kSC16RzBrLWt5MXZVUVNRQ2ZGR3lPa3JLVFZ4bi16U0wxaGREbnJrMjRmVEgzeElSekl3MTJxdlhlMzk3UmRfVWN1ZGJFeFdMdFdHbElWQzlWcXNRejZZYktRaG5HaXFkbDlLLXdIMzl2bXJIcnJfQXlSMWZvYmppTTRmdWp0U25wNmJsQTJ2QlJzNEp2Y2R0b1ZUN2tZeHoxTTRYejVuQlpaemxVelFGUm40NVZZVENXOUhyQ1Z0dw?oc=5",
+      "content_fingerprint": "4d02fdf16101d3253657f04a",
+      "fetched_at": "2026-10-27T12:26:52.523298+00:00",
+      "institution_id": "who",
+      "language": "en",
+      "observations": [
+        {
+          "collector": "google_news",
+          "language": "en",
+          "search_query": "site:who.int",
+          "search_region": "world",
+          "title": "Learning from loss: improving care for mothers and newborns in Afghanistan - World Health Organization (WHO)"
+        },
+        {
+          "collector": "google_news",
+          "language": "en",
+          "search_query": "\"World Health Organization\"",
+          "search_region": "world",
+          "title": "Learning from loss: improving care for mothers and newborns in Afghanistan - World Health Organization (WHO)"
+        }
+      ],
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQU09kSC16RzBrLWt5MXZVUVNRQ2ZGR3lPa3JLVFZ4bi16U0wxaGREbnJrMjRmVEgzeElSekl3MTJxdlhlMzk3UmRfVWN1ZGJFeFdMdFdHbElWQzlWcXNRejZZYktRaG5HaXFkbDlLLXdIMzl2bXJIcnJfQXlSMWZvYmppTTRmdWp0U25wNmJsQTJ2QlJzNEp2Y2R0b1ZUN2tZeHoxTTRYejVuQlpaemxVelFGUm40NVZZVENXOUhyQ1Z0dw?oc=5",
+      "profile_id": "institutions/who",
+      "published_at": "2026-10-27T01:19:56+00:00",
+      "publisher": "World Health Organization (WHO)",
+      "search_query": "\"World Health Organization\"",
+      "source_country": "unknown",
+      "source_id": "719100722c0d749bebe70198",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQb2dpRFRCU0NZMVI1QXY3cmwxTm1GdGt6Sms5WmFLNnFqSzV5UUhUNDFiMXBYZWNnN2tFcTA1X2Mwc2dIbFpoV2hBZjlHTEFkYWdXVU5UWVJmOTk4eVRMVXRTU2x3ak1xOXhhenhSMEhmWFdvbzFlMDd1YTJGT2lEYXZBaWNSdGVnc0xncW9Wc3pLTmNuZlFuV2R3dHViWVc0ekRodHg3WmRFM3RvbVVrRlRpc1d3OTRPa0NSY2ZNVklXRkFQRUZKUHh2MA?oc=5",
+      "content_fingerprint": "47fb4c5a2fef97f3c790e989",
+      "fetched_at": "2026-10-27T12:26:52.523298+00:00",
+      "institution_id": "who",
+      "language": "en",
+      "observations": [
+        {
+          "collector": "google_news",
+          "language": "en",
+          "search_query": "site:who.int",
+          "search_region": "world",
+          "title": "Indicators, measures and methods for monitoring climate resilient WASH – Indicator metadata - World Health Organization (WHO)"
+        }
+      ],
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQb2dpRFRCU0NZMVI1QXY3cmwxTm1GdGt6Sms5WmFLNnFqSzV5UUhUNDFiMXBYZWNnN2tFcTA1X2Mwc2dIbFpoV2hBZjlHTEFkYWdXVU5UWVJmOTk4eVRMVXRTU2x3ak1xOXhhenhSMEhmWFdvbzFlMDd1YTJGT2lEYXZBaWNSdGVnc0xncW9Wc3pLTmNuZlFuV2R3dHViWVc0ekRodHg3WmRFM3RvbVVrRlRpc1d3OTRPa0NSY2ZNVklXRkFQRUZKUHh2MA?oc=5",
+      "profile_id": "institutions/who",
+      "published_at": "2026-10-26T18:23:34+00:00",
+      "publisher": "World Health Organization (WHO)",
+      "search_query": "site:who.int",
+      "source_country": "unknown",
+      "source_id": "7800b3f92b8c0c960c06228c",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFA3ckdPdGZFdzNweHlaNGhqZnU2MDJWS2VJaUp0Q2RHd0kzZ29CWTdjTXozMEJwZHVrc1R0Z2U5UFJTeUFoRUp1b0w0VUFfM2JaakdzNEx6UW85NG5lWld1Y2tUVVlmQQ?oc=5",
+      "content_fingerprint": "1dfd77eb5ff69a4710dcab44",
+      "fetched_at": "2026-10-27T12:26:52.523298+00:00",
+      "institution_id": "who",
+      "language": "en",
+      "observations": [
+        {
+          "collector": "google_news",
+          "language": "en",
+          "search_query": "site:who.int",
+          "search_region": "world",
+          "title": "WHO Botswana Q1 Newsletter 2026 | OMS | Bureau régional pour l'Afrique - WHO | Regional Office for Africa"
+        }
+      ],
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFA3ckdPdGZFdzNweHlaNGhqZnU2MDJWS2VJaUp0Q2RHd0kzZ29CWTdjTXozMEJwZHVrc1R0Z2U5UFJTeUFoRUp1b0w0VUFfM2JaakdzNEx6UW85NG5lWld1Y2tUVVlmQQ?oc=5",
+      "profile_id": "institutions/who",
+      "published_at": "2026-10-26T13:10:11+00:00",
+      "publisher": "WHO | Regional Office for Africa",
+      "search_query": "site:who.int",
+      "source_country": "unknown",
+      "source_id": "7a3bd5c864b10b623ca2494f",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPZVZIenlfclhobkx5ZjBMZ0Q5VmJQLVdMaGNFSWJQX0xpaHB2X2Y1eHphTDVrVlhPeFY3LUNZYm9TRW9xdWJsb0hodlhoNzZMeHhkTmVudnJfYksyY2NlY2Jpc3RZQjdVMGptcmhmWUI2NEg2YkhYMGZnTmpjdFFRVUNIRWp5d3Y0SWFaZXZYSVlWNE1Lb2l2TWpqb2xNWDI3YmhhS0NtT25zQmJyZmNQTDJINlQ4QWlwbW1KNlFyUlZ3WFc2b0JnekFKQVM1NlFUMWc?oc=5",
+      "content_fingerprint": "3ad74ebd8deb0927e4e101e0",
+      "fetched_at": "2026-10-27T12:26:52.523298+00:00",
+      "institution_id": "who",
+      "language": "en",
+      "observations": [
+        {
+          "collector": "google_news",
+          "language": "en",
+          "search_query": "\"World Health Organization\"",
+          "search_region": "world",
+          "title": "WHO chief envisions AI-driven future for global health, hails Korea's vaccine equity push - Korea JoongAng Daily"
+        }
+      ],
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPZVZIenlfclhobkx5ZjBMZ0Q5VmJQLVdMaGNFSWJQX0xpaHB2X2Y1eHphTDVrVlhPeFY3LUNZYm9TRW9xdWJsb0hodlhoNzZMeHhkTmVudnJfYksyY2NlY2Jpc3RZQjdVMGptcmhmWUI2NEg2YkhYMGZnTmpjdFFRVUNIRWp5d3Y0SWFaZXZYSVlWNE1Lb2l2TWpqb2xNWDI3YmhhS0NtT25zQmJyZmNQTDJINlQ4QWlwbW1KNlFyUlZ3WFc2b0JnekFKQVM1NlFUMWc?oc=5",
+      "profile_id": "institutions/who",
+      "published_at": "2026-10-25T22:03:11+00:00",
+      "publisher": "Korea JoongAng Daily",
+      "search_query": "\"World Health Organization\"",
+      "source_country": "unknown",
+      "source_id": "804d1b03b5cc47595a7441c3",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE4tOWhTd3Z6MVBXc21qTzJuN3NfY05uNFB3Szhib3luU1NNa0V4TzZ5UV81eGRyX3VGWXFSSEdEWUdSTWV6MThPTGpWWGliTnBxWHFlYjU5MC1sT1NmMDBHbmQ3VEVmdw?oc=5",
+      "content_fingerprint": "32e0ae7eae9f772fc6845d84",
+      "fetched_at": "2026-10-27T12:26:52.523298+00:00",
+      "institution_id": "who",
+      "language": "en",
+      "observations": [
+        {
+          "collector": "google_news",
+          "language": "en",
+          "search_query": "site:who.int",
+          "search_region": "world",
+          "title": "Bilan 2025 du bureau de l'OMS en République du Congo - WHO | Regional Office for Africa"
+        }
+      ],
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE4tOWhTd3Z6MVBXc21qTzJuN3NfY05uNFB3Szhib3luU1NNa0V4TzZ5UV81eGRyX3VGWXFSSEdEWUdSTWV6MThPTGpWWGliTnBxWHFlYjU5MC1sT1NmMDBHbmQ3VEVmdw?oc=5",
+      "profile_id": "institutions/who",
+      "published_at": "2026-10-26T07:38:15+00:00",
+      "publisher": "WHO | Regional Office for Africa",
+      "search_query": "site:who.int",
+      "source_country": "unknown",
+      "source_id": "844c3e765eee7080c20bbc52",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMi3wJBVV95cUxPd205bFU1SGRYbjVhNmZqd3NHSFJ5Y201X1dkQVoxZEJPaTNoWlloUWNhcXg0ZmdUS2xPR0JZR3pFcmhLSVRkSm0tTW1SNld5a3dWUmViblhPb1JSeE5WZVVHd3dYaHdtbUJFT3A2MHoyYVZ1SlRGNEsxdnZHU0dCX3lnaWJfY0tfbDlCSjRaU1RLanh4MmRkZjdRMDhJb3MtN0xqNkpzZ3lfX2VnNHNmRjlpN3dEOWRwWTVSeDB3REw2VWRuWm9kczBJX0NNNjdBUkhHcEJ3YTV5dkplaXl2SlktYlRZenpiSFI3ZVNaMHFxT1EyVms1Rm43RW1SdWdjMU52dkRkOUhhV3JIRFJKRHFOZE1VdFZsU2hoR2xIa1dZZFhubzRPSExjX29Pd0t2QlRiR0o4b21MSFdvN3pJQUhDUkgzdm9yWUh0SmtNMFMzbGVtWE9vdGJFUnVfVms?oc=5",
+      "content_fingerprint": "203f278b6194c33acc89285b",
+      "fetched_at": "2026-10-27T12:26:52.523298+00:00",
+      "institution_id": "who",
+      "language": "en",
+      "observations": [
+        {
+          "collector": "google_news",
+          "language": "en",
+          "search_query": "site:who.int",
+          "search_region": "world",
+          "title": "Virtual Health Sciences Library - World Health Organization (WHO)"
+        }
+      ],
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMi3wJBVV95cUxPd205bFU1SGRYbjVhNmZqd3NHSFJ5Y201X1dkQVoxZEJPaTNoWlloUWNhcXg0ZmdUS2xPR0JZR3pFcmhLSVRkSm0tTW1SNld5a3dWUmViblhPb1JSeE5WZVVHd3dYaHdtbUJFT3A2MHoyYVZ1SlRGNEsxdnZHU0dCX3lnaWJfY0tfbDlCSjRaU1RLanh4MmRkZjdRMDhJb3MtN0xqNkpzZ3lfX2VnNHNmRjlpN3dEOWRwWTVSeDB3REw2VWRuWm9kczBJX0NNNjdBUkhHcEJ3YTV5dkplaXl2SlktYlRZenpiSFI3ZVNaMHFxT1EyVms1Rm43RW1SdWdjMU52dkRkOUhhV3JIRFJKRHFOZE1VdFZsU2hoR2xIa1dZZFhubzRPSExjX29Pd0t2QlRiR0o4b21MSFdvN3pJQUhDUkgzdm9yWUh0SmtNMFMzbGVtWE9vdGJFUnVfVms?oc=5",
+      "profile_id": "institutions/who",
+      "published_at": "2026-10-27T00:42:12+00:00",
+      "publisher": "World Health Organization (WHO)",
+      "search_query": "site:who.int",
+      "source_country": "unknown",
+      "source_id": "88a864bca2528fd70d266edb",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPSmxuNmMzbjlfZ2w3OTFLNUhROU5Zc3prLXpfQXYyX2Y3UzUwZjBWWDgxMktPTU1KcUJabzN1RFJHdU56ajF6WnBLY3E1U0Rvblh5SUpwVjFOTHd3UUx1MFpLb09DdTNrVTJuT0lCenh4NzFDUjBWaUwyNzg3NU5xRDFRbFo2Y0NJVW41ZG5PUThQZFJ3ZzI4Z2xBcVNMQ1hMTy1nSktNcUdQQlA1eHdkNXJjam5GUHJxeXIzSlg2dlNLbThhdjFIbmJMdVVsZw?oc=5",
+      "content_fingerprint": "96aa170d912807136caabe6c",
+      "fetched_at": "2026-10-27T12:26:52.523298+00:00",
+      "institution_id": "who",
+      "language": "en",
+      "observations": [
+        {
+          "collector": "google_news",
+          "language": "en",
+          "search_query": "site:who.int",
+          "search_region": "world",
+          "title": "Implementing and scaling wheat flour fortification programmes - World Health Organization (WHO)"
+        },
+        {
+          "collector": "google_news",
+          "language": "en",
+          "search_query": "\"World Health Organization\"",
+          "search_region": "world",
+          "title": "Implementing and scaling wheat flour fortification programmes - World Health Organization (WHO)"
+        }
+      ],
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPSmxuNmMzbjlfZ2w3OTFLNUhROU5Zc3prLXpfQXYyX2Y3UzUwZjBWWDgxMktPTU1KcUJabzN1RFJHdU56ajF6WnBLY3E1U0Rvblh5SUpwVjFOTHd3UUx1MFpLb09DdTNrVTJuT0lCenh4NzFDUjBWaUwyNzg3NU5xRDFRbFo2Y0NJVW41ZG5PUThQZFJ3ZzI4Z2xBcVNMQ1hMTy1nSktNcUdQQlA1eHdkNXJjam5GUHJxeXIzSlg2dlNLbThhdjFIbmJMdVVsZw?oc=5",
+      "profile_id": "institutions/who",
+      "published_at": "2026-10-26T18:45:42+00:00",
+      "publisher": "World Health Organization (WHO)",
+      "search_query": "\"World Health Organization\"",
+      "source_country": "unknown",
+      "source_id": "891448c653f652aba0917682",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5VLWFMaU1SbHBGbWFMZm1wUnpYWktvOFE2VlM2VEdzdjlrbDV1SGR3ald1X3pxOEJEN3BxN2E3Sk9pbERSYWpHcjhVMW14TWxxdTFxRUZFQmtzWEVJUWQ2OFdDcC0?oc=5",
+      "content_fingerprint": "5db0069adb1f216ad2e85a83",
+      "fetched_at": "2026-10-27T12:26:52.523298+00:00",
+      "institution_id": "who",
+      "language": "en",
+      "observations": [
+        {
+          "collector": "google_news",
+          "language": "en",
+          "search_query": "site:who.int",
+          "search_region": "world",
+          "title": "Working to overcome the global impact of neglected tropical diseases: First WHO report on neglected tropical diseases - WHO | Regional Office for Africa"
+        }
+      ],
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5VLWFMaU1SbHBGbWFMZm1wUnpYWktvOFE2VlM2VEdzdjlrbDV1SGR3ald1X3pxOEJEN3BxN2E3Sk9pbERSYWpHcjhVMW14TWxxdTFxRUZFQmtzWEVJUWQ2OFdDcC0?oc=5",
+      "profile_id": "institutions/who",
+      "published_at": "2026-10-26T23:44:15+00:00",
+      "publisher": "WHO | Regional Office for Africa",
+      "search_query": "site:who.int",
+      "source_country": "unknown",
+      "source_id": "8f55009abc03cac57402c8ab",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1DTW4tcjdzcklvSDZDbmVxWW9mbkR3Zl8wNHBRaTU1UWhHOG9vaDN0QlRMU0dpOUxNd3BjbTlvUWVrLVA5NGlqOUlBM1Zfb0Z4VnAwbURpSC1pemVMaGg5RTd1WmhaYmU3NmpuS2VGd05aWW16TGY4eG5HcEVuZw?oc=5",
+      "content_fingerprint": "e37af8cadc59cfb5a8a9a75a",
+      "fetched_at": "2026-10-27T12:26:52.523298+00:00",
+      "institution_id": "who",
+      "language": "en",
+      "observations": [
+        {
+          "collector": "google_news",
+          "language": "en",
+          "search_query": "site:who.int",
+          "search_region": "world",
+          "title": "What to watch for at RC76 - World Health Organization (WHO)"
+        }
+      ],
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1DTW4tcjdzcklvSDZDbmVxWW9mbkR3Zl8wNHBRaTU1UWhHOG9vaDN0QlRMU0dpOUxNd3BjbTlvUWVrLVA5NGlqOUlBM1Zfb0Z4VnAwbURpSC1pemVMaGg5RTd1WmhaYmU3NmpuS2VGd05aWW16TGY4eG5HcEVuZw?oc=5",
+      "profile_id": "institutions/who",
+      "published_at": "2026-10-26T18:01:40+00:00",
+      "publisher": "World Health Organization (WHO)",
+      "search_query": "site:who.int",
+      "source_country": "unknown",
+      "source_id": "93c995ee39b008b0f0741c9a",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBjZkVKY2JIc2RhM2hrT0piUG11OG8zSU9MdUxNS2RlZTNFV3I3WURSbXZWVmZaZ0hzXzhzRWNsV2xRVDNXc1hxblZiV1M5UWRjVnlmWHNkQ0pic0hBckh5NVJBUkQ?oc=5",
+      "content_fingerprint": "5e59267eb6bc2defdfcf5f1a",
+      "fetched_at": "2026-10-27T12:26:52.523298+00:00",
+      "institution_id": "who",
+      "language": "en",
+      "observations": [
+        {
+          "collector": "google_news",
+          "language": "en",
+          "search_query": "site:who.int",
+          "search_region": "world",
+          "title": "WHO | News releases - World Health Organization (WHO)"
+        }
+      ],
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBjZkVKY2JIc2RhM2hrT0piUG11OG8zSU9MdUxNS2RlZTNFV3I3WURSbXZWVmZaZ0hzXzhzRWNsV2xRVDNXc1hxblZiV1M5UWRjVnlmWHNkQ0pic0hBckh5NVJBUkQ?oc=5",
+      "profile_id": "institutions/who",
+      "published_at": "2026-10-26T21:23:14+00:00",
+      "publisher": "World Health Organization (WHO)",
+      "search_query": "site:who.int",
+      "source_country": "unknown",
+      "source_id": "94c958572ace86abea7149cf",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOWnZrOF9DTFZFNExIXzBwdlNhalVPWHBfb2hYbkJ0RWRUbXZBa2xUR09wRnN4dDBRY09wSUxBZkZ6Tk9TV3RKZkNyYnI4N0NpV3lvc05KMlNpbWZzTTJuNWc1dzVqbnQ1MmNQUmdBdnR6MGJhY2Uwd1NVNUh5elJTSUhqczhNbmxFelF6NEdDVWNXbC0xaHJZbkdxS3VxcjhzVHp1YmY3VjZmRXkyQmRvRmpEWXVCLVlWME1xMFlJSkc1ZzRiejVMT0NsTGFkUlZKR2RJ?oc=5",
+      "content_fingerprint": "0c820c1584fd8400f8ecf70c",
+      "fetched_at": "2026-10-27T12:26:52.523298+00:00",
+      "institution_id": "who",
+      "language": "en",
+      "observations": [
+        {
+          "collector": "google_news",
+          "language": "en",
+          "search_query": "site:who.int",
+          "search_region": "world",
+          "title": "Indicators, measures and methods for monitoring climate resilient WASH – Final short list (Set B) - World Health Organization (WHO)"
+        }
+      ],
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOWnZrOF9DTFZFNExIXzBwdlNhalVPWHBfb2hYbkJ0RWRUbXZBa2xUR09wRnN4dDBRY09wSUxBZkZ6Tk9TV3RKZkNyYnI4N0NpV3lvc05KMlNpbWZzTTJuNWc1dzVqbnQ1MmNQUmdBdnR6MGJhY2Uwd1NVNUh5elJTSUhqczhNbmxFelF6NEdDVWNXbC0xaHJZbkdxS3VxcjhzVHp1YmY3VjZmRXkyQmRvRmpEWXVCLVlWME1xMFlJSkc1ZzRiejVMT0NsTGFkUlZKR2RJ?oc=5",
+      "profile_id": "institutions/who",
+      "published_at": "2026-10-26T18:53:14+00:00",
+      "publisher": "World Health Organization (WHO)",
+      "search_query": "site:who.int",
+      "source_country": "unknown",
+      "source_id": "95171af13712ba1e7600921e",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNWkMwdWFrQXdoVTFzYWtGa2k0bHk0S2RCU2VGMWpCMHJVZHhxVFllaHlwUGZyaXV6MFc1N2tMVU1pb3VFWFlvbDVkRXNvcTlueElEVGhUQWw5TEpNcEQ5RUsxSENYZ29xa2dEZlMyYW9FREM1cV9udDRyTW4weHFUdXdnTUVZY3ZzQzBQb29PaVZFcGN5WV8zNF9zaEpvVEwtZjBBVkZ1czF2T2k0ZXNYNzNPUmJMWFU0QkZyNTFHRkNqWFBVRjRyWksydUlpVklBNk00MQ?oc=5",
+      "content_fingerprint": "05250bf9fd5d07e405e40575",
+      "fetched_at": "2026-10-27T12:26:52.523298+00:00",
+      "institution_id": "who",
+      "language": "en",
+      "observations": [
+        {
+          "collector": "google_news",
+          "language": "en",
+          "search_query": "site:who.int",
+          "search_region": "world",
+          "title": "Two drops, one dream: a vaccinator's 14-year journey to protect Afghan children from polio - World Health Organization (WHO)"
+        }
+      ],
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNWkMwdWFrQXdoVTFzYWtGa2k0bHk0S2RCU2VGMWpCMHJVZHhxVFllaHlwUGZyaXV6MFc1N2tMVU1pb3VFWFlvbDVkRXNvcTlueElEVGhUQWw5TEpNcEQ5RUsxSENYZ29xa2dEZlMyYW9FREM1cV9udDRyTW4weHFUdXdnTUVZY3ZzQzBQb29PaVZFcGN5WV8zNF9zaEpvVEwtZjBBVkZ1czF2T2k0ZXNYNzNPUmJMWFU0QkZyNTFHRkNqWFBVRjRyWksydUlpVklBNk00MQ?oc=5",
+      "profile_id": "institutions/who",
+      "published_at": "2026-10-27T07:38:58+00:00",
+      "publisher": "World Health Organization (WHO)",
+      "search_query": "site:who.int",
+      "source_country": "unknown",
+      "source_id": "9808e0a56fc1d41e7796f27f",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPcTJVNlFyRXJrZmR5U2VVVkpPRkpSVnpVWUJvQXlEbGozSzMzV214R2hzSGFIem91dkxpS1hKdHZIeFBrWUMxRWFreHBweHBrejhpU0k2MVFQczVNay11TjMwUFBRUm1fU28xWlF4a3lXTDNTaTc4Zm9XSWs4OWhFdkRGMS1heEJmbWpKc2RrZVlvMmRreURlTVBhUVRNN2hqTjhvY3luU3U3N2lhSFhTWjE1cGtVM0MwZUV1SEtVdlZVQ3cxX3VOaWZMZmxuVjV1ZnVrT3FKMXpRNzZNWGVmVVJ0ZFdmSTA?oc=5",
+      "content_fingerprint": "81485e94e9a66436cc0ca965",
+      "fetched_at": "2026-10-27T12:26:52.523298+00:00",
+      "institution_id": "who",
+      "language": "en",
+      "observations": [
+        {
+          "collector": "google_news",
+          "language": "en",
+          "search_query": "site:who.int",
+          "search_region": "world",
+          "title": "Chair, Regional Director, Excellencies, distinguished delegates, ● Indonesia welcomes WHO’s review of existing guidance on p - World Health Organization (WHO)"
+        }
+      ],
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPcTJVNlFyRXJrZmR5U2VVVkpPRkpSVnpVWUJvQXlEbGozSzMzV214R2hzSGFIem91dkxpS1hKdHZIeFBrWUMxRWFreHBweHBrejhpU0k2MVFQczVNay11TjMwUFBRUm1fU28xWlF4a3lXTDNTaTc4Zm9XSWs4OWhFdkRGMS1heEJmbWpKc2RrZVlvMmRreURlTVBhUVRNN2hqTjhvY3luU3U3N2lhSFhTWjE1cGtVM0MwZUV1SEtVdlZVQ3cxX3VOaWZMZmxuVjV1ZnVrT3FKMXpRNzZNWGVmVVJ0ZFdmSTA?oc=5",
+      "profile_id": "institutions/who",
+      "published_at": "2026-10-26T11:53:12+00:00",
+      "publisher": "World Health Organization (WHO)",
+      "search_query": "site:who.int",
+      "source_country": "unknown",
+      "source_id": "9d8a36f805e7104fa4a2d2ad",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNUkdGWjFvUlQ5bGpzOHJtUS1Rb3lDTmhqMlZNaFVvd21YdldzZVZFeW5wX21HaW92bUE5bHBaNGxiZHJFWlNBeVVYYldXYzF0VW8xMjlLNGpMYnNTMXJtVzRXV28tbUw3VHdRZVBxcFBRLVpOa3dqdE4yZ0IzN2h0bnlKRlBUUW9xTDQ0TzhLVHhEbU9vNXNv?oc=5",
+      "content_fingerprint": "99ef2e629fba09d52726e3ee",
+      "fetched_at": "2026-10-27T12:26:52.523298+00:00",
+      "institution_id": "who",
+      "language": "en",
+      "observations": [
+        {
+          "collector": "google_news",
+          "language": "en",
+          "search_query": "site:who.int",
+          "search_region": "world",
+          "title": "Impact of the work of the WHO European Office for Investement for Health and Development - World Health Organization (WHO)"
+        }
+      ],
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNUkdGWjFvUlQ5bGpzOHJtUS1Rb3lDTmhqMlZNaFVvd21YdldzZVZFeW5wX21HaW92bUE5bHBaNGxiZHJFWlNBeVVYYldXYzF0VW8xMjlLNGpMYnNTMXJtVzRXV28tbUw3VHdRZVBxcFBRLVpOa3dqdE4yZ0IzN2h0bnlKRlBUUW9xTDQ0TzhLVHhEbU9vNXNv?oc=5",
+      "profile_id": "institutions/who",
+      "published_at": "2026-10-26T11:29:04+00:00",
+      "publisher": "World Health Organization (WHO)",
+      "search_query": "site:who.int",
+      "source_country": "unknown",
+      "source_id": "b3150f60ec0b9935a3fb0af6",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBnWmZpUnhUaWllLVdDS215bWZHMF9tTUI2WWJoMnByOVkwdmZmX0xqdDZLbXNpUTBZSUkxdEQtTWNXZ3l0X3VBRUFpaUxZM050NkE?oc=5",
+      "content_fingerprint": "b5680ed85cdadf8897959e26",
+      "fetched_at": "2026-10-27T12:26:52.523298+00:00",
+      "institution_id": "who",
+      "language": "en",
+      "observations": [
+        {
+          "collector": "google_news",
+          "language": "en",
+          "search_query": "site:who.int",
+          "search_region": "world",
+          "title": "Health Worker Role in Providing Safe Abortion Care and Post Abortion Contraception - World Health Organization (WHO)"
+        }
+      ],
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBnWmZpUnhUaWllLVdDS215bWZHMF9tTUI2WWJoMnByOVkwdmZmX0xqdDZLbXNpUTBZSUkxdEQtTWNXZ3l0X3VBRUFpaUxZM050NkE?oc=5",
+      "profile_id": "institutions/who",
+      "published_at": "2026-10-25T21:23:12+00:00",
+      "publisher": "World Health Organization (WHO)",
+      "search_query": "site:who.int",
+      "source_country": "unknown",
+      "source_id": "b5900269e0d805639a4fa397",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxQblhiQTFGYjVtVk9sVndTak0yZkczUk5CZTNRaE1jdFVRUzE3LWFncGhCaHgxVG5WaVdXdGZabUhxUk9DZXFlTWtnNzR2VW1oeHlrS3hJbmh6V0xXcG5rUzdTdnJXRE5BQ3hfN3NVRlI2NTJ3dmswLW1fendFUHhPaEpYQ24wZEhmTk9vYWgyVVdad0l6VmtIbkNYTmRWUmxPUVhGdlV2b0hDcjFQa2VPSEp0NGd5aE54YUs5czlPNHZNMVRfeGY3b04yR25lTjVsRkMwT0lQeTg1U3VSU1EwNFYxUGEtR08ydGxFR0hiWTNSd2tJLUNV?oc=5",
+      "content_fingerprint": "8fe58ea8a8f34a1a9af37115",
+      "fetched_at": "2026-10-27T12:26:52.523298+00:00",
+      "institution_id": "who",
+      "language": "en",
+      "observations": [
+        {
+          "collector": "google_news",
+          "language": "en",
+          "search_query": "site:who.int",
+          "search_region": "world",
+          "title": "Supporting recovery from substance dependence through community outreach and OAMT services in Helmand, Afghanistan - World Health Organization (WHO)"
+        }
+      ],
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxQblhiQTFGYjVtVk9sVndTak0yZkczUk5CZTNRaE1jdFVRUzE3LWFncGhCaHgxVG5WaVdXdGZabUhxUk9DZXFlTWtnNzR2VW1oeHlrS3hJbmh6V0xXcG5rUzdTdnJXRE5BQ3hfN3NVRlI2NTJ3dmswLW1fendFUHhPaEpYQ24wZEhmTk9vYWgyVVdad0l6VmtIbkNYTmRWUmxPUVhGdlV2b0hDcjFQa2VPSEp0NGd5aE54YUs5czlPNHZNMVRfeGY3b04yR25lTjVsRkMwT0lQeTg1U3VSU1EwNFYxUGEtR08ydGxFR0hiWTNSd2tJLUNV?oc=5",
+      "profile_id": "institutions/who",
+      "published_at": "2026-10-26T13:12:23+00:00",
+      "publisher": "World Health Organization (WHO)",
+      "search_query": "site:who.int",
+      "source_country": "unknown",
+      "source_id": "bb100b4b036cdfb94a964dd6",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNMXp3NHdXd3pWMnNFQzdURnNrR04wd1FQMW9rYTJ5WFdycWN0WUkwdWdnUV94ZjdUbVdvQXpqMTl4V3VhVlA5cEw4NWdFelpDTUF4QXNNdzFDVjFFZUpGbmh2cWpNR1RRcjkzd25TN2hHZEZiY3lZMUpuMEZuYXFrRUV5YkF5bmdWYm1WQ3Bianh2bVFy?oc=5",
+      "content_fingerprint": "1e71a85c062227a610471eae",
+      "fetched_at": "2026-10-27T12:26:52.523298+00:00",
+      "institution_id": "who",
+      "language": "en",
+      "observations": [
+        {
+          "collector": "google_news",
+          "language": "en",
+          "search_query": "site:who.int",
+          "search_region": "world",
+          "title": "Macleods’s Primaquine pediatric products prequalified - World Health Organization (WHO)"
+        }
+      ],
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNMXp3NHdXd3pWMnNFQzdURnNrR04wd1FQMW9rYTJ5WFdycWN0WUkwdWdnUV94ZjdUbVdvQXpqMTl4V3VhVlA5cEw4NWdFelpDTUF4QXNNdzFDVjFFZUpGbmh2cWpNR1RRcjkzd25TN2hHZEZiY3lZMUpuMEZuYXFrRUV5YkF5bmdWYm1WQ3Bianh2bVFy?oc=5",
+      "profile_id": "institutions/who",
+      "published_at": "2026-10-26T23:12:00+00:00",
+      "publisher": "World Health Organization (WHO)",
+      "search_query": "site:who.int",
+      "source_country": "unknown",
+      "source_id": "c31ceae1d867bb424b8dbe75",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMinAJBVV95cUxQY3FPWWRqQzAxd2pDTGgtQmNTMDE0S0ZhTkJuLWRiRDVBV2pTdGdjWlB4dW03SXg0cm1iaDZ6dzhYLUNXUEd5N3kzOVhoeTAtRUctZGZ2WUQ5R3FEOGNBaUtENWZNTjFKS3N2UjhyX1U2Ynk0azN1NmRGN0tfeGFLaUZoN1UyWUpWTXduV09PNlQ3Snc0TmpuQm4za0hJekEwb3pZNEUtX1FZMUhkR3BvaGU3WEszWEZOd0taX0lGRjBCVmM3S3l1QmtpamtRVkt0MEFSSU9oY3l6VFNCY1prQWYxcUxuWFZmZmFWV1l6LWNYelA0VE1tZ3dHb2V3Qkw5SGxHaVBSNnE2LTNRYmNoejBueW0yNlQ4U0dQVA?oc=5",
+      "content_fingerprint": "b0cb8bf02e79b41b2a1104f0",
+      "fetched_at": "2026-10-27T12:26:52.523298+00:00",
+      "institution_id": "who",
+      "language": "en",
+      "observations": [
+        {
+          "collector": "google_news",
+          "language": "en",
+          "search_query": "site:who.int",
+          "search_region": "world",
+          "title": "Harnessing the true potential of artificial intelligence for health emergency preparedness and response in complex settings - World Health Organization (WHO)"
+        }
+      ],
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMinAJBVV95cUxQY3FPWWRqQzAxd2pDTGgtQmNTMDE0S0ZhTkJuLWRiRDVBV2pTdGdjWlB4dW03SXg0cm1iaDZ6dzhYLUNXUEd5N3kzOVhoeTAtRUctZGZ2WUQ5R3FEOGNBaUtENWZNTjFKS3N2UjhyX1U2Ynk0azN1NmRGN0tfeGFLaUZoN1UyWUpWTXduV09PNlQ3Snc0TmpuQm4za0hJekEwb3pZNEUtX1FZMUhkR3BvaGU3WEszWEZOd0taX0lGRjBCVmM3S3l1QmtpamtRVkt0MEFSSU9oY3l6VFNCY1prQWYxcUxuWFZmZmFWV1l6LWNYelA0VE1tZ3dHb2V3Qkw5SGxHaVBSNnE2LTNRYmNoejBueW0yNlQ4U0dQVA?oc=5",
+      "profile_id": "institutions/who",
+      "published_at": "2026-10-25T22:56:03+00:00",
+      "publisher": "World Health Organization (WHO)",
+      "search_query": "site:who.int",
+      "source_country": "unknown",
+      "source_id": "ca9d0970bb58134eb3291a3b",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQTUpwYWxScTFBbXlIc04yMHMwekVvNThRd0stU0RaY1FOVVk2ZDBVWlVrS1VnbGtiVEZkZDI3Y3MtZWpCVUhYSzFxVWVBSkFLbjVjM2hKak15Q1FLX0trcnhid3FNQzRVRjZ3V1JVam5oREZhQWdycTBqYmhPWTU4bEMyVHd6czhLQ3JsT0xYS0JFTndhb1Y2a1NkUy1yMGhkNnRKVXBWeHByZHp5ZFo1VnBsakpqaXRPQVFnNGtn?oc=5",
+      "content_fingerprint": "3b90c027930adfcd01c8f531",
+      "fetched_at": "2026-10-27T12:26:52.523298+00:00",
+      "institution_id": "who",
+      "language": "en",
+      "observations": [
+        {
+          "collector": "google_news",
+          "language": "en",
+          "search_query": "site:who.int",
+          "search_region": "world",
+          "title": "Ebola response: Disinformation kills, care saves lives - WHO | Regional Office for Africa"
+        }
+      ],
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQTUpwYWxScTFBbXlIc04yMHMwekVvNThRd0stU0RaY1FOVVk2ZDBVWlVrS1VnbGtiVEZkZDI3Y3MtZWpCVUhYSzFxVWVBSkFLbjVjM2hKak15Q1FLX0trcnhid3FNQzRVRjZ3V1JVam5oREZhQWdycTBqYmhPWTU4bEMyVHd6czhLQ3JsT0xYS0JFTndhb1Y2a1NkUy1yMGhkNnRKVXBWeHByZHp5ZFo1VnBsakpqaXRPQVFnNGtn?oc=5",
+      "profile_id": "institutions/who",
+      "published_at": "2026-10-26T07:20:45+00:00",
+      "publisher": "WHO | Regional Office for Africa",
+      "search_query": "site:who.int",
+      "source_country": "unknown",
+      "source_id": "cb97d7d92d543f8f12f56fae",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQdVFLTldvYW12RWV6S1ZVaFJEWWVIT09Ua3NEQU0zT2wwQms0ZGhDZ2pmTDRwX0hjQnNwR1IzTGZaY21mV2wzMkZ0Z2pNUTBqdEJCT2R0OEtoVzFYMWhWVDZIMVNFV3BpTDFxUzBHSVJNalVZOGdRcHRRbHZISG1XN2JPOGQ3aE9vX3l5WF9sUTlVODg0MlN1cWVVcU4xOC1EYmd6Sl93eXg4dmlnMERqZ3JBaXhya0Rx?oc=5",
+      "content_fingerprint": "3b90c027930adfcd01c8f531",
+      "fetched_at": "2026-10-27T12:26:52.523298+00:00",
+      "institution_id": "who",
+      "language": "en",
+      "observations": [
+        {
+          "collector": "google_news",
+          "language": "en",
+          "search_query": "\"World Health Organization\"",
+          "search_region": "world",
+          "title": "Ebola response: Disinformation kills, care saves lives - WHO | Regional Office for Africa"
+        }
+      ],
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQdVFLTldvYW12RWV6S1ZVaFJEWWVIT09Ua3NEQU0zT2wwQms0ZGhDZ2pmTDRwX0hjQnNwR1IzTGZaY21mV2wzMkZ0Z2pNUTBqdEJCT2R0OEtoVzFYMWhWVDZIMVNFV3BpTDFxUzBHSVJNalVZOGdRcHRRbHZISG1XN2JPOGQ3aE9vX3l5WF9sUTlVODg0MlN1cWVVcU4xOC1EYmd6Sl93eXg4dmlnMERqZ3JBaXhya0Rx?oc=5",
+      "profile_id": "institutions/who",
+      "published_at": "2026-10-26T07:20:56+00:00",
+      "publisher": "WHO | Regional Office for Africa",
+      "search_query": "\"World Health Organization\"",
+      "source_country": "unknown",
+      "source_id": "cb9fbbf0860a6d58bbb4cbd5",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPdF9BWnJWUW5UWmlFdTBJblhVNXN5d3hYem41S0MyZmEtZU5zLWt3M05yajg3YVM2cG9yeHNwb1ZvNUNaR2tqSGV2NXJYdFREVHR0aFVXWFp2VDNETUhjejdzOVJTSFZ1RHlkeGRBT3JGZTNSUEptUG5ySHF2d2ZROGVEUl9vaFJEZ2NUNTdGZjVEcGd2ZmxMcXFXdjJsZDhy?oc=5",
+      "content_fingerprint": "0cbfa160d5a2e1bff2b38e13",
+      "fetched_at": "2026-10-27T12:26:52.523298+00:00",
+      "institution_id": "who",
+      "language": "en",
+      "observations": [
+        {
+          "collector": "google_news",
+          "language": "en",
+          "search_query": "site:who.int",
+          "search_region": "world",
+          "title": "Weekly Epidemiological Bulletin - #Week 39, 2026 - World Health Organization (WHO)"
+        }
+      ],
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPdF9BWnJWUW5UWmlFdTBJblhVNXN5d3hYem41S0MyZmEtZU5zLWt3M05yajg3YVM2cG9yeHNwb1ZvNUNaR2tqSGV2NXJYdFREVHR0aFVXWFp2VDNETUhjejdzOVJTSFZ1RHlkeGRBT3JGZTNSUEptUG5ySHF2d2ZROGVEUl9vaFJEZ2NUNTdGZjVEcGd2ZmxMcXFXdjJsZDhy?oc=5",
+      "profile_id": "institutions/who",
+      "published_at": "2026-10-26T07:12:34+00:00",
+      "publisher": "World Health Organization (WHO)",
+      "search_query": "site:who.int",
+      "source_country": "unknown",
+      "source_id": "cdc6be4b5a8461ff95408214",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1Meml3dW1DOXMtTVdsVnJIWkZza293dnJEX01VQllLaVMtTVpLVWpuT3lWZEJIbzY4N1BiN2lRVHlRTHpjd2o1TmoxOThQLUFDampmeEhEZXVRbW9kQldvNF9FZTBTTXNoQ0hB?oc=5",
+      "content_fingerprint": "72ccd646d0d72261183737a3",
+      "fetched_at": "2026-10-27T12:26:52.523298+00:00",
+      "institution_id": "who",
+      "language": "en",
+      "observations": [
+        {
+          "collector": "google_news",
+          "language": "en",
+          "search_query": "site:who.int",
+          "search_region": "world",
+          "title": "News - World Health Organization (WHO)"
+        }
+      ],
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1Meml3dW1DOXMtTVdsVnJIWkZza293dnJEX01VQllLaVMtTVpLVWpuT3lWZEJIbzY4N1BiN2lRVHlRTHpjd2o1TmoxOThQLUFDampmeEhEZXVRbW9kQldvNF9FZTBTTXNoQ0hB?oc=5",
+      "profile_id": "institutions/who",
+      "published_at": "2026-10-26T13:11:30+00:00",
+      "publisher": "World Health Organization (WHO)",
+      "search_query": "site:who.int",
+      "source_country": "unknown",
+      "source_id": "cfb06861f2fcdf36fcefc5fe",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNVURoeTd5SjdRQkhUdFpUTDNhSVdRZDUzb1VidDZ1c0R1WEVkSjEyM1o2U2QzZ1J4MEh5QXdXeFl3OXlUN2huQ2YzR25VSzQ5R1JxYUFOMVhpUkM3TnhKWFBuNTcyLVl4czh6R1Z0TVN6dUZQdDgzX083b2xjSHBwY1d5MTI5QXBXVkpWUTVBckFEdDRfYUVpTUtwMjhhbzNkZGVHRmZtU0FBeVhsTF9Dal9rZkpWUUVWWERnMi1fcXlWeWZoSVBYMHVENFkyamkwXzRxeGFUdHVDcWZ0?oc=5",
+      "content_fingerprint": "4f0eacaceb654574002ce053",
+      "fetched_at": "2026-10-27T12:26:52.523298+00:00",
+      "institution_id": "who",
+      "language": "en",
+      "observations": [
+        {
+          "collector": "google_news",
+          "language": "en",
+          "search_query": "site:who.int",
+          "search_region": "world",
+          "title": "Egypt is the first country globally to maintain Gold Tier status on the path to hepatitis C elimination - World Health Organization (WHO)"
+        },
+        {
+          "collector": "google_news",
+          "language": "en",
+          "search_query": "\"World Health Organization\"",
+          "search_region": "world",
+          "title": "Egypt is the first country globally to maintain Gold Tier status on the path to hepatitis C elimination - World Health Organization (WHO)"
+        }
+      ],
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNVURoeTd5SjdRQkhUdFpUTDNhSVdRZDUzb1VidDZ1c0R1WEVkSjEyM1o2U2QzZ1J4MEh5QXdXeFl3OXlUN2huQ2YzR25VSzQ5R1JxYUFOMVhpUkM3TnhKWFBuNTcyLVl4czh6R1Z0TVN6dUZQdDgzX083b2xjSHBwY1d5MTI5QXBXVkpWUTVBckFEdDRfYUVpTUtwMjhhbzNkZGVHRmZtU0FBeVhsTF9Dal9rZkpWUUVWWERnMi1fcXlWeWZoSVBYMHVENFkyamkwXzRxeGFUdHVDcWZ0?oc=5",
+      "profile_id": "institutions/who",
+      "published_at": "2026-10-25T21:17:32+00:00",
+      "publisher": "World Health Organization (WHO)",
+      "search_query": "\"World Health Organization\"",
+      "source_country": "unknown",
+      "source_id": "de431eb012a05a04262200e0",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOVEFvQXY0aGJDcy16WmVzalN2dUhQVUg2TGdJMjEwcmQ2UUExZl9FMmk4dTRpVWM3SzF4X3pnd3MzM0VHOVUtWjVSQU5zcGJPckFMWkRaN2RYc0tFQzA0dUFaMGxmeE9fUXFsSUJpMG0tLWpHeWdEUmRIeHdZd3o0bW9SUFVRRi1IX2hqaV8zTVlJVXdUVFRKbi1qcnZCbmg1dVIyMUktczF5ZS1HYUpWcW5md3Q5N3BjdTVzSzlqdDBEODhSM1NlVg?oc=5",
+      "content_fingerprint": "2cff901b882ec71979e6700b",
+      "fetched_at": "2026-10-27T12:26:52.523298+00:00",
+      "institution_id": "who",
+      "language": "en",
+      "observations": [
+        {
+          "collector": "google_news",
+          "language": "en",
+          "search_query": "site:who.int",
+          "search_region": "world",
+          "title": "Treating severe acute malnutrition and saving young lives in Herat, Afghanistan - World Health Organization (WHO)"
+        }
+      ],
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOVEFvQXY0aGJDcy16WmVzalN2dUhQVUg2TGdJMjEwcmQ2UUExZl9FMmk4dTRpVWM3SzF4X3pnd3MzM0VHOVUtWjVSQU5zcGJPckFMWkRaN2RYc0tFQzA0dUFaMGxmeE9fUXFsSUJpMG0tLWpHeWdEUmRIeHdZd3o0bW9SUFVRRi1IX2hqaV8zTVlJVXdUVFRKbi1qcnZCbmg1dVIyMUktczF5ZS1HYUpWcW5md3Q5N3BjdTVzSzlqdDBEODhSM1NlVg?oc=5",
+      "profile_id": "institutions/who",
+      "published_at": "2026-10-27T01:01:38+00:00",
+      "publisher": "World Health Organization (WHO)",
+      "search_query": "site:who.int",
+      "source_country": "unknown",
+      "source_id": "df90945834476e2ac0f3beec",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1XbnBrZ0l3Y0xEdm1RQ3JJeXFzUXVacG5ON0xkOWl1RjlSMDJxeTFVbWNrYTc0dng0YmdLNDFheHp4V3RMaEZidG51VDN1TFRKUUF2S2dGeEZTalVLMFFGaTF6Y1U?oc=5",
+      "content_fingerprint": "bb55c2f9ee23b35ca40e8f7b",
+      "fetched_at": "2026-10-27T12:26:52.523298+00:00",
+      "institution_id": "who",
+      "language": "en",
+      "observations": [
+        {
+          "collector": "google_news",
+          "language": "en",
+          "search_query": "\"World Health Organization\"",
+          "search_region": "world",
+          "title": "WHO Declares Nigeria Ebola Free After Patient’s Evacuation - The Trumpet Newspaper Nigeria"
+        }
+      ],
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1XbnBrZ0l3Y0xEdm1RQ3JJeXFzUXVacG5ON0xkOWl1RjlSMDJxeTFVbWNrYTc0dng0YmdLNDFheHp4V3RMaEZidG51VDN1TFRKUUF2S2dGeEZTalVLMFFGaTF6Y1U?oc=5",
+      "profile_id": "institutions/who",
+      "published_at": "2026-10-26T21:25:14+00:00",
+      "publisher": "The Trumpet Newspaper Nigeria",
+      "search_query": "\"World Health Organization\"",
+      "source_country": "unknown",
+      "source_id": "e4a9dffa28c8f8d7a362e2ea",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQcXZLbk4yLU0tX2d4X2gxVUFHdW9WUWtWVHh5M2xnNTRtMk8yV241cEo1c04yemhoc0Y2cWh0THliLUpxMGJDUEtCZ3ZZcjRoRXBOck5nQUd3cTRrZmw1a0l6UlEzR1A1VE16ajZNLXlXMjM3bWczeUlMR2NieFR2X2hXZktPVDY4cHVoUklkWnI5dXZLSEVwcTJvbFlkdGtNRWJ3YUVrQWtIWlVuaVV5dVE1YjA5RWJVN3I3dnNhUUtYTHM3amMwSFU1UFYxMHNIYU5aaFBqb2ZiNXlZekdDSnRvdU5kQQ?oc=5",
+      "content_fingerprint": "5a23d9f8a239d4f2128bebe3",
+      "fetched_at": "2026-10-27T12:26:52.523298+00:00",
+      "institution_id": "who",
+      "language": "en",
+      "observations": [
+        {
+          "collector": "google_news",
+          "language": "en",
+          "search_query": "site:who.int",
+          "search_region": "world",
+          "title": "WHO Director-General's remarks at the visit to the Global Training Hub for Biomanufacturing – 20 October 2026 - World Health Organization (WHO)"
+        }
+      ],
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQcXZLbk4yLU0tX2d4X2gxVUFHdW9WUWtWVHh5M2xnNTRtMk8yV241cEo1c04yemhoc0Y2cWh0THliLUpxMGJDUEtCZ3ZZcjRoRXBOck5nQUd3cTRrZmw1a0l6UlEzR1A1VE16ajZNLXlXMjM3bWczeUlMR2NieFR2X2hXZktPVDY4cHVoUklkWnI5dXZLSEVwcTJvbFlkdGtNRWJ3YUVrQWtIWlVuaVV5dVE1YjA5RWJVN3I3dnNhUUtYTHM3amMwSFU1UFYxMHNIYU5aaFBqb2ZiNXlZekdDSnRvdU5kQQ?oc=5",
+      "profile_id": "institutions/who",
+      "published_at": "2026-10-26T17:58:03+00:00",
+      "publisher": "World Health Organization (WHO)",
+      "search_query": "site:who.int",
+      "source_country": "unknown",
+      "source_id": "e9928d7ab1328c5cb058773b",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOMWhBRHBwYVlmWVRfZDUxNmlxUVR2VEN6ZEZ4TUF6SUhlU2E2TFRycDQxNWVmSDZHdVBDcXZoMm1DcVNQVGx5ZmtaNkRxTkVWZy1vaFhtMzN5SmlEVmRrcWRiSFF6UVhCU3hQMzE0TXFLY3pyaVNFN1lBTVBBX1Y5UnQycnlFU3luU3ZGWllCQlhPeGNXbTI2OVpha0ljbEUydjJHYzhxUEFyYjNxVURj?oc=5",
+      "content_fingerprint": "9792b4d427f265203a802ea0",
+      "fetched_at": "2026-10-27T12:26:52.523298+00:00",
+      "institution_id": "who",
+      "language": "en",
+      "observations": [
+        {
+          "collector": "google_news",
+          "language": "en",
+          "search_query": "site:who.int",
+          "search_region": "world",
+          "title": "High-level dialogue on One Health - World Health Organization (WHO)"
+        },
+        {
+          "collector": "google_news",
+          "language": "en",
+          "search_query": "\"World Health Organization\"",
+          "search_region": "world",
+          "title": "High-level dialogue on One Health - World Health Organization (WHO)"
+        }
+      ],
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOMWhBRHBwYVlmWVRfZDUxNmlxUVR2VEN6ZEZ4TUF6SUhlU2E2TFRycDQxNWVmSDZHdVBDcXZoMm1DcVNQVGx5ZmtaNkRxTkVWZy1vaFhtMzN5SmlEVmRrcWRiSFF6UVhCU3hQMzE0TXFLY3pyaVNFN1lBTVBBX1Y5UnQycnlFU3luU3ZGWllCQlhPeGNXbTI2OVpha0ljbEUydjJHYzhxUEFyYjNxVURj?oc=5",
+      "profile_id": "institutions/who",
+      "published_at": "2026-10-27T07:41:06+00:00",
+      "publisher": "World Health Organization (WHO)",
+      "search_query": "\"World Health Organization\"",
+      "source_country": "unknown",
+      "source_id": "f6723c4efee24354f660f6fa",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNc0dReGdaQ2M4WkhVSHN4MUZNdERCMWF3T29XdEQzUGFjVlhvaTV3Z0U1V3NRTlpYbkZtSVJiLS1aeThnVjFYcHZ1YTZiV1dIUm9DRnRYR1djdXAzeUJ2YWhUVzJ4a29uV1VaTkVKNEEtRU00Wk1oT2U4OWVTdDk3cTNPWm1xekswQnAxWXJKYUZPWG5YbmdDZXNzYVp2ek1wT1pKZE4yWQ?oc=5",
+      "content_fingerprint": "9d56ab54bdd7f00915d262c3",
+      "fetched_at": "2026-10-27T12:26:52.523298+00:00",
+      "institution_id": "who",
+      "language": "en",
+      "observations": [
+        {
+          "collector": "google_news",
+          "language": "en",
+          "search_query": "site:who.int",
+          "search_region": "world",
+          "title": "The Madrid Global Obesity Summit - World Health Organization (WHO)"
+        },
+        {
+          "collector": "google_news",
+          "language": "en",
+          "search_query": "\"World Health Organization\"",
+          "search_region": "world",
+          "title": "The Madrid Global Obesity Summit - World Health Organization (WHO)"
+        }
+      ],
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNc0dReGdaQ2M4WkhVSHN4MUZNdERCMWF3T29XdEQzUGFjVlhvaTV3Z0U1V3NRTlpYbkZtSVJiLS1aeThnVjFYcHZ1YTZiV1dIUm9DRnRYR1djdXAzeUJ2YWhUVzJ4a29uV1VaTkVKNEEtRU00Wk1oT2U4OWVTdDk3cTNPWm1xekswQnAxWXJKYUZPWG5YbmdDZXNzYVp2ek1wT1pKZE4yWQ?oc=5",
+      "profile_id": "institutions/who",
+      "published_at": "2026-10-27T10:11:56+00:00",
+      "publisher": "World Health Organization (WHO)",
+      "search_query": "\"World Health Organization\"",
+      "source_country": "unknown",
+      "source_id": "fa126c18718d335176936be8",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    }
+  ],
+  "statistics": {
+    "collectors": [
+      {
+        "error_code": null,
+        "items": 24,
+        "query": "\"World Health Organization\"",
+        "source": "google_news",
+        "status": "ok"
+      },
+      {
+        "error_code": null,
+        "items": 51,
+        "query": "site:who.int",
+        "source": "google_news",
+        "status": "ok"
+      },
+      {
+        "error_code": null,
+        "items": 6,
+        "query": "\"World Health Organization\"",
+        "source": "gdelt",
+        "status": "ok"
+      },
+      {
+        "items": 0,
+        "source": "rss",
+        "status": "ok"
+      }
+    ],
+    "items": 57,
+    "sources": 58
+  },
+  "status": "complete",
+  "time_window": {
+    "since": "2026-10-25T12:26:52.545253+00:00",
+    "until": "2026-10-27T12:26:52.545253+00:00"
+  },
+  "workflow": {
+    "repository": "JsonLord/Horizon",
+    "run_attempt": "1",
+    "run_id": "40503538316",
+    "source_commit": "c9dcef30a10ffe67b8e399baea5c2a6787c7dfd2"
+  }
+}
