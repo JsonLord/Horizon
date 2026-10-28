@@ -1,6 +1,116 @@
 {
   "reports": [
     {
+      "created_at": "2026-10-28T13:13:25.822785+00:00",
+      "history": {
+        "comparison": "last_good",
+        "previous_created_at": "2026-10-26T13:21:35.188874+00:00",
+        "previous_report_id": "b41e37cd3b2d40f5a65801126ec0fd99",
+        "previous_report_sha256": "56c62b5d2bde57173c1f207917015b0eb4a9ea8dd7f47192c4923c8419cf95b7",
+        "previous_snapshot_commit": "bc8abc08ffb631dc84d5229ec71cf2587231fd1f",
+        "stale_last_good": false,
+        "state": "restored"
+      },
+      "path": "intel/reports/institutions/helmholtz/2026/10/28/f85fb729e98940758f15decf1079ac58/report.json",
+      "profile_id": "institutions/helmholtz",
+      "report_id": "f85fb729e98940758f15decf1079ac58",
+      "status": "partial",
+      "workflow": {
+        "repository": "JsonLord/Horizon",
+        "run_attempt": "1",
+        "run_id": "40694101853",
+        "source_commit": "c9dcef30a10ffe67b8e399baea5c2a6787c7dfd2"
+      }
+    },
+    {
+      "created_at": "2026-10-28T13:12:52.629537+00:00",
+      "history": {
+        "comparison": "last_good",
+        "previous_created_at": "2026-10-27T12:27:03.781028+00:00",
+        "previous_report_id": "452dfe0241e043ee88da119a123a2614",
+        "previous_report_sha256": "799a3432d1619d1288dabaa787d0053762764c6a15c8599e79195124f4e045ae",
+        "previous_snapshot_commit": "bc8abc08ffb631dc84d5229ec71cf2587231fd1f",
+        "stale_last_good": false,
+        "state": "restored"
+      },
+      "path": "intel/reports/institutions/cern/2026/10/28/ee2faed453624ff0afc2b9117f7150fa/report.json",
+      "profile_id": "institutions/cern",
+      "report_id": "ee2faed453624ff0afc2b9117f7150fa",
+      "status": "partial",
+      "workflow": {
+        "repository": "JsonLord/Horizon",
+        "run_attempt": "1",
+        "run_id": "40694101853",
+        "source_commit": "c9dcef30a10ffe67b8e399baea5c2a6787c7dfd2"
+      }
+    },
+    {
+      "created_at": "2026-10-28T13:12:40.388494+00:00",
+      "history": {
+        "comparison": "last_good",
+        "previous_created_at": "2026-10-27T12:26:52.545253+00:00",
+        "previous_report_id": "129bc18313cd45f084a8ab736144e49a",
+        "previous_report_sha256": "ae71be742f09a45002e2827eccff9d10c61360ded6ec0951b0c106fc75118418",
+        "previous_snapshot_commit": "bc8abc08ffb631dc84d5229ec71cf2587231fd1f",
+        "stale_last_good": false,
+        "state": "restored"
+      },
+      "path": "intel/reports/institutions/who/2026/10/28/7ed9e2a077674f6cab45f1e83f3e9560/report.json",
+      "profile_id": "institutions/who",
+      "report_id": "7ed9e2a077674f6cab45f1e83f3e9560",
+      "status": "partial",
+      "workflow": {
+        "repository": "JsonLord/Horizon",
+        "run_attempt": "1",
+        "run_id": "40694101853",
+        "source_commit": "c9dcef30a10ffe67b8e399baea5c2a6787c7dfd2"
+      }
+    },
+    {
+      "created_at": "2026-10-28T13:12:05.355156+00:00",
+      "history": {
+        "comparison": "last_good",
+        "previous_created_at": "2026-10-27T12:26:09.572431+00:00",
+        "previous_report_id": "ea8fdc82f520436b81b337cd5d3bc5e2",
+        "previous_report_sha256": "68801e6f849cd787800af560e42508caee43cd0aad0f8c8e070056f1d107d514",
+        "previous_snapshot_commit": "bc8abc08ffb631dc84d5229ec71cf2587231fd1f",
+        "stale_last_good": false,
+        "state": "restored"
+      },
+      "path": "intel/reports/institutions/ecb/2026/10/28/293d0aec377443bf858baf8dc7c67dbb/report.json",
+      "profile_id": "institutions/ecb",
+      "report_id": "293d0aec377443bf858baf8dc7c67dbb",
+      "status": "complete",
+      "workflow": {
+        "repository": "JsonLord/Horizon",
+        "run_attempt": "1",
+        "run_id": "40694101853",
+        "source_commit": "c9dcef30a10ffe67b8e399baea5c2a6787c7dfd2"
+      }
+    },
+    {
+      "created_at": "2026-10-28T13:11:44.006547+00:00",
+      "history": {
+        "comparison": "last_good",
+        "previous_created_at": "2026-10-27T12:25:33.446352+00:00",
+        "previous_report_id": "d2268189c04f4e8583959477dce665c4",
+        "previous_report_sha256": "06461bc46c3070f23748649d44768c32e2224439e6bc8be5bbe26f36a7a29c15",
+        "previous_snapshot_commit": "bc8abc08ffb631dc84d5229ec71cf2587231fd1f",
+        "stale_last_good": false,
+        "state": "restored"
+      },
+      "path": "intel/reports/world/2026/10/28/10f5135e873c44a1aa10db36f55ec214/report.json",
+      "profile_id": "world/global",
+      "report_id": "10f5135e873c44a1aa10db36f55ec214",
+      "status": "partial",
+      "workflow": {
+        "repository": "JsonLord/Horizon",
+        "run_attempt": "1",
+        "run_id": "40694101853",
+        "source_commit": "c9dcef30a10ffe67b8e399baea5c2a6787c7dfd2"
+      }
+    },
+    {
       "created_at": "2026-10-27T12:27:35.762516+00:00",
       "history": {
         "comparison": "last_good",

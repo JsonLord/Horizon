@@ -1,0 +1,1988 @@
+{
+  "analysis_mode": "deterministic",
+  "changes": [
+    {
+      "finding_id": "ab94ec2384a5c33dbd657477",
+      "institution_ids": [
+        "ecb"
+      ],
+      "observed_at": "2026-10-28T13:12:05.355156+00:00",
+      "type": "updated"
+    },
+    {
+      "finding_id": "bc7bf7f4a7e3ef07e39e09de",
+      "institution_ids": [
+        "ecb"
+      ],
+      "observed_at": "2026-10-28T13:12:05.355156+00:00",
+      "type": "new"
+    },
+    {
+      "finding_id": "888682d2f7579e2e3935a847",
+      "institution_ids": [
+        "ecb"
+      ],
+      "observed_at": "2026-10-28T13:12:05.355156+00:00",
+      "type": "new"
+    },
+    {
+      "finding_id": "c1961c682180fe80a48b18f7",
+      "institution_ids": [
+        "ecb"
+      ],
+      "observed_at": "2026-10-28T13:12:05.355156+00:00",
+      "type": "new"
+    },
+    {
+      "finding_id": "f86c6f779b35343261365c34",
+      "institution_ids": [
+        "ecb"
+      ],
+      "observed_at": "2026-10-28T13:12:05.355156+00:00",
+      "type": "new"
+    },
+    {
+      "finding_id": "c75d7a68bb104913f5912ce4",
+      "institution_ids": [
+        "ecb"
+      ],
+      "observed_at": "2026-10-28T13:12:05.355156+00:00",
+      "type": "new"
+    },
+    {
+      "finding_id": "342a926b4b476285ddcd6359",
+      "institution_ids": [
+        "ecb"
+      ],
+      "observed_at": "2026-10-28T13:12:05.355156+00:00",
+      "type": "new"
+    },
+    {
+      "finding_id": "ea03fba8ccae9dd6744297d4",
+      "institution_ids": [
+        "ecb"
+      ],
+      "observed_at": "2026-10-28T13:12:05.355156+00:00",
+      "type": "new"
+    },
+    {
+      "finding_id": "325f8fe54b141932924078c7",
+      "institution_ids": [
+        "ecb"
+      ],
+      "observed_at": "2026-10-28T13:12:05.355156+00:00",
+      "type": "new"
+    },
+    {
+      "finding_id": "f1a0c11a728e36ab0181aa8d",
+      "institution_ids": [
+        "ecb"
+      ],
+      "observed_at": "2026-10-28T13:12:05.355156+00:00",
+      "type": "new"
+    },
+    {
+      "finding_id": "8fb059aec8ab6df3f933e4cf",
+      "institution_ids": [
+        "ecb"
+      ],
+      "observed_at": "2026-10-28T13:12:05.355156+00:00",
+      "type": "new"
+    },
+    {
+      "finding_id": "75af460897026677faab2b44",
+      "institution_ids": [
+        "ecb"
+      ],
+      "observed_at": "2026-10-28T13:12:05.355156+00:00",
+      "type": "updated"
+    },
+    {
+      "finding_id": "40e4b75bc58c32c0d3c435c4",
+      "institution_ids": [
+        "ecb"
+      ],
+      "observed_at": "2026-10-28T13:12:05.355156+00:00",
+      "type": "new"
+    },
+    {
+      "finding_id": "9a13e18e0df4414ed4e868aa",
+      "institution_ids": [
+        "ecb"
+      ],
+      "observed_at": "2026-10-28T13:12:05.355156+00:00",
+      "type": "new"
+    },
+    {
+      "finding_id": "6a997b65f49f51ab249a5f92",
+      "institution_ids": [
+        "ecb"
+      ],
+      "observed_at": "2026-10-28T13:12:05.355156+00:00",
+      "type": "new"
+    }
+  ],
+  "coverage": {
+    "basis": "search query region; event geography unknown",
+    "missing_regions": [],
+    "regions": [
+      "Europe"
+    ]
+  },
+  "created_at": "2026-10-28T13:12:05.355156+00:00",
+  "errors": [],
+  "findings": [
+    {
+      "change_type": "unchanged",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "a1a70fece4c3e81b39327126",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "October 2026 euro area bank lending survey - European Central Bank",
+          "source_id": "940dc44b6f5339f2837d6bb4"
+        },
+        {
+          "location": "feed title",
+          "snippet": "October 2026 euro area bank lending survey",
+          "source_id": "d1af0e9e9c8b89b7bcd71956"
+        }
+      ],
+      "finding_id": "a1a70fece4c3e81b39327126",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [
+        "ecb"
+      ],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-28T13:12:05.344477+00:00",
+      "profile_relevance": 5.834058512997685,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-27T09:13:08+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "Europe",
+        "unknown"
+      ],
+      "source_ids": [
+        "940dc44b6f5339f2837d6bb4",
+        "d1af0e9e9c8b89b7bcd71956"
+      ],
+      "summary": "October 2026 euro area bank lending survey - European Central Bank",
+      "topics": [
+        "European Central Bank"
+      ],
+      "verification": "single_primary_source"
+    },
+    {
+      "change_type": "updated",
+      "classification": "reported_news",
+      "corroboration": 4,
+      "event_id": "ab94ec2384a5c33dbd657477",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "Germany European Central Bank - Post Register",
+          "source_id": "9c02f5ed400c08545826c0f0"
+        },
+        {
+          "location": "feed title",
+          "snippet": "Germany European Central Bank - The Herald Journal",
+          "source_id": "8526fd8ad2d06a51e6c0a01f"
+        },
+        {
+          "location": "feed title",
+          "snippet": "Germany European Central Bank - WV News",
+          "source_id": "7fce17cf921273e3168987f9"
+        },
+        {
+          "location": "feed title",
+          "snippet": "Germany European Central Bank - Goshen News",
+          "source_id": "d6471d9667b0acdc760c19fb"
+        },
+        {
+          "location": "feed title",
+          "snippet": "Germany European Central Bank - Post Register",
+          "source_id": "a73033f236b90f8402d32f2f"
+        },
+        {
+          "location": "feed title",
+          "snippet": "Germany European Central Bank - WV News",
+          "source_id": "1be27144dd8ea6780751a3da"
+        },
+        {
+          "location": "feed title",
+          "snippet": "Germany European Central Bank - The Herald Journal",
+          "source_id": "09dcac05e43e8aac86b345e2"
+        }
+      ],
+      "finding_id": "ab94ec2384a5c33dbd657477",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [
+        "ecb"
+      ],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-28T13:12:05.344477+00:00",
+      "profile_relevance": 8.898688142627314,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-28T10:46:12+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "Europe"
+      ],
+      "source_ids": [
+        "9c02f5ed400c08545826c0f0",
+        "8526fd8ad2d06a51e6c0a01f",
+        "7fce17cf921273e3168987f9",
+        "d6471d9667b0acdc760c19fb",
+        "a73033f236b90f8402d32f2f",
+        "1be27144dd8ea6780751a3da",
+        "09dcac05e43e8aac86b345e2"
+      ],
+      "summary": "Germany European Central Bank - Post Register",
+      "topics": [
+        "European Central Bank"
+      ],
+      "verification": "multiple_secondary_sources"
+    },
+    {
+      "change_type": "new",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "bc7bf7f4a7e3ef07e39e09de",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "Intesa Sanpaolo Gets European Central Bank Approval to Take Over Monte Dei Paschi - WSJ",
+          "source_id": "b0073588693592c4b3b95da4"
+        }
+      ],
+      "finding_id": "bc7bf7f4a7e3ef07e39e09de",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [
+        "ecb"
+      ],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-28T13:12:05.344477+00:00",
+      "profile_relevance": 8.766234438923611,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-28T07:35:28+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "Europe"
+      ],
+      "source_ids": [
+        "b0073588693592c4b3b95da4"
+      ],
+      "summary": "Intesa Sanpaolo Gets European Central Bank Approval to Take Over Monte Dei Paschi - WSJ",
+      "topics": [
+        "European Central Bank"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "new",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "888682d2f7579e2e3935a847",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "European Central Bank Expected to Hold Interest Rates at 2.5% - Greek City Times",
+          "source_id": "84d478fe44d771f48ea8813a"
+        }
+      ],
+      "finding_id": "888682d2f7579e2e3935a847",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [
+        "ecb"
+      ],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-28T13:12:05.344477+00:00",
+      "profile_relevance": 8.691593235219909,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-28T05:47:59+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "Europe"
+      ],
+      "source_ids": [
+        "84d478fe44d771f48ea8813a"
+      ],
+      "summary": "European Central Bank Expected to Hold Interest Rates at 2.5% - Greek City Times",
+      "topics": [
+        "European Central Bank"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "new",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "c1961c682180fe80a48b18f7",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "European Central Bank OKs Intesa Sanpaolo's Proposed Takeover of Banca Monte dei Paschi di Siena - marketscreener.com",
+          "source_id": "8eedc04d199ed79d9f12b277"
+        }
+      ],
+      "finding_id": "c1961c682180fe80a48b18f7",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [
+        "ecb"
+      ],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-28T13:12:05.344477+00:00",
+      "profile_relevance": 8.657114068553241,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-28T04:58:20+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "Europe"
+      ],
+      "source_ids": [
+        "8eedc04d199ed79d9f12b277"
+      ],
+      "summary": "European Central Bank OKs Intesa Sanpaolo's Proposed Takeover of Banca Monte dei Paschi di Siena - marketscreener.com",
+      "topics": [
+        "European Central Bank"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "new",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "f86c6f779b35343261365c34",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "European Central Bank: Tighter lending conditions, weakening credit demand. - Vietnam.vn",
+          "source_id": "dcff26be1e574d5c9ff1843f"
+        }
+      ],
+      "finding_id": "f86c6f779b35343261365c34",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [
+        "ecb"
+      ],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-28T13:12:05.344477+00:00",
+      "profile_relevance": 8.634023790775462,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-28T04:25:05+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "Europe"
+      ],
+      "source_ids": [
+        "dcff26be1e574d5c9ff1843f"
+      ],
+      "summary": "European Central Bank: Tighter lending conditions, weakening credit demand. - Vietnam.vn",
+      "topics": [
+        "European Central Bank"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "unchanged",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "65ea722a7f6d1d01109b4356",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "European Central Bank Survey: Rising interest rates are putting pressure on lending and reducing demand for loans - المتداول العربي",
+          "source_id": "1a23c918078b1236d506012b"
+        }
+      ],
+      "finding_id": "65ea722a7f6d1d01109b4356",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [
+        "ecb"
+      ],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-28T13:12:05.344477+00:00",
+      "profile_relevance": 7.850077031516204,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-27T09:36:12+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "Europe"
+      ],
+      "source_ids": [
+        "1a23c918078b1236d506012b"
+      ],
+      "summary": "European Central Bank Survey: Rising interest rates are putting pressure on lending and reducing demand for loans - المتداول العربي",
+      "topics": [
+        "European Central Bank"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "unchanged",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "658a159e1d715d77f1742e36",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "October 29 meeting.. Will the European Central Bank halt its interest rate hike path? - صوت الإمارات",
+          "source_id": "33b010a853b566a5d9c52eb6"
+        }
+      ],
+      "finding_id": "658a159e1d715d77f1742e36",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [
+        "ecb"
+      ],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-28T13:12:05.344477+00:00",
+      "profile_relevance": 7.798769161145833,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-27T08:22:19+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "Europe"
+      ],
+      "source_ids": [
+        "33b010a853b566a5d9c52eb6"
+      ],
+      "summary": "October 29 meeting.. Will the European Central Bank halt its interest rate hike path? - صوت الإمارات",
+      "topics": [
+        "European Central Bank"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "unchanged",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "602fb4179d4bfdd5a9366228",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "ECB Expected to Leave Key Rate Unchanged Amid French Bond Drama - WSJ",
+          "source_id": "8f8e7d1f4862eab3bcbb412d"
+        }
+      ],
+      "finding_id": "602fb4179d4bfdd5a9366228",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [
+        "ecb"
+      ],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-28T13:12:05.344477+00:00",
+      "profile_relevance": 6.943607124108796,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-28T11:50:53+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "Europe"
+      ],
+      "source_ids": [
+        "8f8e7d1f4862eab3bcbb412d"
+      ],
+      "summary": "ECB Expected to Leave Key Rate Unchanged Amid French Bond Drama - WSJ",
+      "topics": [
+        "European Central Bank"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "new",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "c75d7a68bb104913f5912ce4",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "COMMENTARY: ECB can cool rate bets, but may not want to yet - Reuters",
+          "source_id": "73abbb5c9071f1f6f1d7bf69"
+        }
+      ],
+      "finding_id": "c75d7a68bb104913f5912ce4",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [
+        "ecb"
+      ],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-28T13:12:05.344477+00:00",
+      "profile_relevance": 6.9089890685532405,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-28T11:01:02+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "Europe"
+      ],
+      "source_ids": [
+        "73abbb5c9071f1f6f1d7bf69"
+      ],
+      "summary": "COMMENTARY: ECB can cool rate bets, but may not want to yet - Reuters",
+      "topics": [
+        "European Central Bank"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "new",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "342a926b4b476285ddcd6359",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "Euro area economic and financial developments by institutional sector: second quarter of 2026 - European Central Bank",
+          "source_id": "7b762acf7414d4b308d31993"
+        }
+      ],
+      "finding_id": "342a926b4b476285ddcd6359",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [
+        "ecb"
+      ],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-28T13:12:05.344477+00:00",
+      "profile_relevance": 6.868931198182871,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-28T10:03:21+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "Europe"
+      ],
+      "source_ids": [
+        "7b762acf7414d4b308d31993"
+      ],
+      "summary": "Euro area economic and financial developments by institutional sector: second quarter of 2026 - European Central Bank",
+      "topics": [
+        "European Central Bank"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "new",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "ea03fba8ccae9dd6744297d4",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "1 Table 1. Income, consumption, saving, investment and net lending / net borrowing: euro area and contributions by sector - European Central Bank",
+          "source_id": "aa9c11b2523fcf836c33833c"
+        }
+      ],
+      "finding_id": "ea03fba8ccae9dd6744297d4",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [
+        "ecb"
+      ],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-28T13:12:05.344477+00:00",
+      "profile_relevance": 6.867090920405093,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-28T10:00:42+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "Europe"
+      ],
+      "source_ids": [
+        "aa9c11b2523fcf836c33833c"
+      ],
+      "summary": "1 Table 1. Income, consumption, saving, investment and net lending / net borrowing: euro area and contributions by sector - European Central Bank",
+      "topics": [
+        "European Central Bank"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "new",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "325f8fe54b141932924078c7",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "Euro area charts and additional tables for all institutional sectors - European Central Bank",
+          "source_id": "508dbc3d0362fd10ea6f4ce7"
+        }
+      ],
+      "finding_id": "325f8fe54b141932924078c7",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [
+        "ecb"
+      ],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-28T13:12:05.344477+00:00",
+      "profile_relevance": 6.8670793463310185,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-28T10:00:41+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "Europe"
+      ],
+      "source_ids": [
+        "508dbc3d0362fd10ea6f4ce7"
+      ],
+      "summary": "Euro area charts and additional tables for all institutional sectors - European Central Bank",
+      "topics": [
+        "European Central Bank"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "unchanged",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "16cb390f097b16a7f597ff0c",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "The euro area bank lending survey - Third quarter of 2026 - European Central Bank",
+          "source_id": "208b9a5ff2429f50613c9944"
+        }
+      ],
+      "finding_id": "16cb390f097b16a7f597ff0c",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [
+        "ecb"
+      ],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-28T13:12:05.344477+00:00",
+      "profile_relevance": 6.32537795744213,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-27T21:00:38+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "Europe"
+      ],
+      "source_ids": [
+        "208b9a5ff2429f50613c9944"
+      ],
+      "summary": "The euro area bank lending survey - Third quarter of 2026 - European Central Bank",
+      "topics": [
+        "European Central Bank"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "new",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "f1a0c11a728e36ab0181aa8d",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "Commentary - European Central Bank",
+          "source_id": "752c10ac7bd7696596592352"
+        }
+      ],
+      "finding_id": "f1a0c11a728e36ab0181aa8d",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [
+        "ecb"
+      ],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-28T13:12:05.344477+00:00",
+      "profile_relevance": 6.035516846331019,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-27T14:03:14+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "Europe"
+      ],
+      "source_ids": [
+        "752c10ac7bd7696596592352"
+      ],
+      "summary": "Commentary - European Central Bank",
+      "topics": [
+        "European Central Bank"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "new",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "8fb059aec8ab6df3f933e4cf",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "Consolidated financial statement of the Eurosystem as at 23 October 2026 - European Central Bank",
+          "source_id": "6d15a0aac45a898d7d499260"
+        }
+      ],
+      "finding_id": "8fb059aec8ab6df3f933e4cf",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [
+        "ecb"
+      ],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-28T13:12:05.344477+00:00",
+      "profile_relevance": 6.033850179664352,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-27T14:00:50+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "Europe"
+      ],
+      "source_ids": [
+        "6d15a0aac45a898d7d499260"
+      ],
+      "summary": "Consolidated financial statement of the Eurosystem as at 23 October 2026 - European Central Bank",
+      "topics": [
+        "European Central Bank"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "updated",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "75af460897026677faab2b44",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "Monetary developments in the euro area: September 2026 - European Central Bank",
+          "source_id": "df7fc2d6657ea5aeea609ff8"
+        },
+        {
+          "location": "feed title",
+          "snippet": "Monetary developments in the euro area: September 2026 - European Central Bank",
+          "source_id": "42a7c5cf3bcf962ecadf6ea0"
+        }
+      ],
+      "finding_id": "75af460897026677faab2b44",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [
+        "ecb"
+      ],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-28T13:12:05.344477+00:00",
+      "profile_relevance": 5.834058512997685,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-27T09:13:08+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "Europe"
+      ],
+      "source_ids": [
+        "df7fc2d6657ea5aeea609ff8",
+        "42a7c5cf3bcf962ecadf6ea0"
+      ],
+      "summary": "Monetary developments in the euro area: September 2026 - European Central Bank",
+      "topics": [
+        "European Central Bank"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "unchanged",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "86e36b3acb2a90f0f37a6c83",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "Euro zone mortgage demand falls as rates rise, ECB survey shows - Yahoo Finance",
+          "source_id": "7222527a64ccbd72884f21c3"
+        }
+      ],
+      "finding_id": "86e36b3acb2a90f0f37a6c83",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [
+        "ecb"
+      ],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-28T13:12:05.344477+00:00",
+      "profile_relevance": 5.827739068553241,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-27T09:04:02+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "Europe"
+      ],
+      "source_ids": [
+        "7222527a64ccbd72884f21c3"
+      ],
+      "summary": "Euro zone mortgage demand falls as rates rise, ECB survey shows - Yahoo Finance",
+      "topics": [
+        "European Central Bank"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "unchanged",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "c9ac79e47f01a86fc9771234",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "Annex 1 Results for the standard questions* - European Central Bank",
+          "source_id": "f47c988b04a668824fcf04ba"
+        }
+      ],
+      "finding_id": "c9ac79e47f01a86fc9771234",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [
+        "ecb"
+      ],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-28T13:12:05.344477+00:00",
+      "profile_relevance": 5.825192772256944,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-27T09:00:22+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "Europe"
+      ],
+      "source_ids": [
+        "f47c988b04a668824fcf04ba"
+      ],
+      "summary": "Annex 1 Results for the standard questions* - European Central Bank",
+      "topics": [
+        "European Central Bank"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "new",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "40e4b75bc58c32c0d3c435c4",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "France's debt woes in focus as ECB meets | Gulf Times - Gulf Times",
+          "source_id": "169efc4d808338b3fc4cc021"
+        }
+      ],
+      "finding_id": "40e4b75bc58c32c0d3c435c4",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [
+        "ecb"
+      ],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-28T13:12:05.344477+00:00",
+      "profile_relevance": 5.324938142627315,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-26T21:00:00+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "Europe"
+      ],
+      "source_ids": [
+        "169efc4d808338b3fc4cc021"
+      ],
+      "summary": "France's debt woes in focus as ECB meets | Gulf Times - Gulf Times",
+      "topics": [
+        "European Central Bank"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "new",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "9a13e18e0df4414ed4e868aa",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "Medium-term strategic priorities for the statistical cooperation between the ESS and the ESCB (October 2026) - European Central Bank",
+          "source_id": "04f2fd575edbd36a753b7543"
+        }
+      ],
+      "finding_id": "9a13e18e0df4414ed4e868aa",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [
+        "ecb"
+      ],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-28T13:12:05.344477+00:00",
+      "profile_relevance": 5.218097864849537,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-26T18:26:09+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "Europe"
+      ],
+      "source_ids": [
+        "04f2fd575edbd36a753b7543"
+      ],
+      "summary": "Medium-term strategic priorities for the statistical cooperation between the ESS and the ESCB (October 2026) - European Central Bank",
+      "topics": [
+        "European Central Bank"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "new",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "6a997b65f49f51ab249a5f92",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "Euro Foreign Exchange Reference Rates - European Central Bank",
+          "source_id": "02619a15d154fb3cdba4a33b"
+        }
+      ],
+      "finding_id": "6a997b65f49f51ab249a5f92",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [
+        "ecb"
+      ],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-28T13:12:05.344477+00:00",
+      "profile_relevance": 5.127831661145834,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-26T16:16:10+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "Europe"
+      ],
+      "source_ids": [
+        "02619a15d154fb3cdba4a33b"
+      ],
+      "summary": "Euro Foreign Exchange Reference Rates - European Central Bank",
+      "topics": [
+        "European Central Bank"
+      ],
+      "verification": "single_secondary_source"
+    }
+  ],
+  "history": {
+    "comparison": "last_good",
+    "previous_created_at": "2026-10-27T12:26:09.572431+00:00",
+    "previous_report_id": "ea8fdc82f520436b81b337cd5d3bc5e2",
+    "previous_report_sha256": "68801e6f849cd787800af560e42508caee43cd0aad0f8c8e070056f1d107d514",
+    "previous_snapshot_commit": "bc8abc08ffb631dc84d5229ec71cf2587231fd1f",
+    "stale_last_good": false,
+    "state": "restored"
+  },
+  "limitations": [
+    "Bounded queries do not provide exhaustive global coverage.",
+    "GDELT seen time is an observation timestamp, not verified publication time.",
+    "Contradiction/resolution labels require explicit source wording and review; no automatic truth adjudication."
+  ],
+  "links": {
+    "json": "intel/reports/institutions/ecb/2026/10/28/293d0aec377443bf858baf8dc7c67dbb/report.json",
+    "markdown": "intel/reports/institutions/ecb/2026/10/28/293d0aec377443bf858baf8dc7c67dbb/report.md"
+  },
+  "model_used": null,
+  "profile_id": "institutions/ecb",
+  "question": "",
+  "report_id": "293d0aec377443bf858baf8dc7c67dbb",
+  "run_id": "293d0aec377443bf858baf8dc7c67dbb",
+  "schedule": {},
+  "schema_version": "1.0",
+  "sources": [
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNdDVjT0JKUVF1dFNXWEtDZ0VqQXZCM1RrTkVhUHVKUjlOclpzdnNKUXpvaWFxR2l2cTdmSnpvQ3hpSkJYTU5QTW0zUXR1VUYyWjl0c2N4cUFGRzBDUDJMSFJCOU95andiV2FNSzhBWmFETTBaT0NHZTRIdWRuM1NJNXVhRTNrbGx2N1JERWRMclUyTDQ?oc=5",
+      "content_fingerprint": "540992fea93f9767419ca03d",
+      "fetched_at": "2026-10-28T13:12:05.344477+00:00",
+      "institution_id": "ecb",
+      "language": "en",
+      "observations": [
+        {
+          "collector": "google_news",
+          "language": "en",
+          "search_query": "site:ecb.europa.eu",
+          "search_region": "Europe",
+          "title": "Euro Foreign Exchange Reference Rates - European Central Bank"
+        }
+      ],
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNdDVjT0JKUVF1dFNXWEtDZ0VqQXZCM1RrTkVhUHVKUjlOclpzdnNKUXpvaWFxR2l2cTdmSnpvQ3hpSkJYTU5QTW0zUXR1VUYyWjl0c2N4cUFGRzBDUDJMSFJCOU95andiV2FNSzhBWmFETTBaT0NHZTRIdWRuM1NJNXVhRTNrbGx2N1JERWRMclUyTDQ?oc=5",
+      "profile_id": "institutions/ecb",
+      "published_at": "2026-10-26T16:16:10+00:00",
+      "publisher": "European Central Bank",
+      "search_query": "site:ecb.europa.eu",
+      "source_country": "unknown",
+      "source_id": "02619a15d154fb3cdba4a33b",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxObWpfS1lnWVRDa1dLd0hvN3JmZmtSeDQzMlNkMHJtS3gzS21LMG9qVWNqQVJmdGVIYW9YZDVyQS1iem8xZTJBb3JTdmdhTFp5b2ZBMmtpYVI4RHBqSURaNXNYS3JpNno4ZGNCellTLVlnSVZQU1AtbUJZNlhrTU5rY3FKR3BGUXNwOHc4U21WV0dHRTR3Szk2SVBKbVcydUZjRFZUYXNPMHlHRFBTM2JnRg?oc=5",
+      "content_fingerprint": "81dc94f25bbdf95abc228b80",
+      "fetched_at": "2026-10-28T13:12:05.344477+00:00",
+      "institution_id": "ecb",
+      "language": "en",
+      "observations": [
+        {
+          "collector": "google_news",
+          "language": "en",
+          "search_query": "site:ecb.europa.eu",
+          "search_region": "Europe",
+          "title": "Medium-term strategic priorities for the statistical cooperation between the ESS and the ESCB (October 2026) - European Central Bank"
+        }
+      ],
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxObWpfS1lnWVRDa1dLd0hvN3JmZmtSeDQzMlNkMHJtS3gzS21LMG9qVWNqQVJmdGVIYW9YZDVyQS1iem8xZTJBb3JTdmdhTFp5b2ZBMmtpYVI4RHBqSURaNXNYS3JpNno4ZGNCellTLVlnSVZQU1AtbUJZNlhrTU5rY3FKR3BGUXNwOHc4U21WV0dHRTR3Szk2SVBKbVcydUZjRFZUYXNPMHlHRFBTM2JnRg?oc=5",
+      "profile_id": "institutions/ecb",
+      "published_at": "2026-10-26T18:26:09+00:00",
+      "publisher": "European Central Bank",
+      "search_query": "site:ecb.europa.eu",
+      "source_country": "unknown",
+      "source_id": "04f2fd575edbd36a753b7543",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQTWFYNWZ0LWZQRERYOGVPVWxucGZDbEZjamM5N3B3T1R2cFlDNU9ScEVHZlV1alEyM0EtYldjT19OM3N0b2FteUF0WDJnMzlEbXdUM1NrTmhpYXgzSWdfZVk4dU1QcmhpMWJkV095aTJwMUJ5YUt5aWpReDg2VnNwS1hnT1ZscndocHVBZVVGX18zN2o3Y1VvVDJobXpOWWIwYVlicGRoa3Q4QQ?oc=5",
+      "content_fingerprint": "5e0f2ebada6cbf19d7301a58",
+      "fetched_at": "2026-10-28T13:12:05.344477+00:00",
+      "institution_id": "ecb",
+      "language": "en",
+      "observations": [
+        {
+          "collector": "google_news",
+          "language": "en",
+          "search_query": "\"European Central Bank\"",
+          "search_region": "Europe",
+          "title": "Germany European Central Bank - The Herald Journal"
+        }
+      ],
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQTWFYNWZ0LWZQRERYOGVPVWxucGZDbEZjamM5N3B3T1R2cFlDNU9ScEVHZlV1alEyM0EtYldjT19OM3N0b2FteUF0WDJnMzlEbXdUM1NrTmhpYXgzSWdfZVk4dU1QcmhpMWJkV095aTJwMUJ5YUt5aWpReDg2VnNwS1hnT1ZscndocHVBZVVGX18zN2o3Y1VvVDJobXpOWWIwYVlicGRoa3Q4QQ?oc=5",
+      "profile_id": "institutions/ecb",
+      "published_at": "2026-10-26T20:37:21+00:00",
+      "publisher": "The Herald Journal",
+      "search_query": "\"European Central Bank\"",
+      "source_country": "unknown",
+      "source_id": "09dcac05e43e8aac86b345e2",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNX29VYXVxdnpzUlNteGZpQXR1SUZOVDJKV3FZRGpZOC1za1VQdU55eG5YbkxpenRXLUgzcDk4V3pHbjVGOWNhZ093V3RqY0J0ZFFIUk9IdGhha2pMNDU5YzNCeUNfNGVyeWFfNEFRcllJTUNscGo4ZFNmWGpNTVdISWc3RVFDSUU3ZFZRa3dOdzhveU9a0gGaAUFVX3lxTE5KTXdVenBpMEprSHlta1poRTdraEtybEg2dnRSNHh4RlktbXlwZ3I5ajhESmZ1bTUyWkROTUpNcERhczBKbnhqRC1OMERSdlZXTmtDMjI3ZDNYX1RvWFRhTW5OS2p6VVRkMFBFZndnVGhJUC1wX2VGXy0tVGpGaEdaMlhfckl1ZWNUREk0aWc0WVJMVFl4aEx4dXc?oc=5",
+      "content_fingerprint": "482acf82134fc526e579744a",
+      "fetched_at": "2026-10-28T13:12:05.344477+00:00",
+      "institution_id": "ecb",
+      "language": "en",
+      "observations": [
+        {
+          "collector": "google_news",
+          "language": "en",
+          "search_query": "\"European Central Bank\"",
+          "search_region": "Europe",
+          "title": "France's debt woes in focus as ECB meets | Gulf Times - Gulf Times"
+        }
+      ],
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNX29VYXVxdnpzUlNteGZpQXR1SUZOVDJKV3FZRGpZOC1za1VQdU55eG5YbkxpenRXLUgzcDk4V3pHbjVGOWNhZ093V3RqY0J0ZFFIUk9IdGhha2pMNDU5YzNCeUNfNGVyeWFfNEFRcllJTUNscGo4ZFNmWGpNTVdISWc3RVFDSUU3ZFZRa3dOdzhveU9a0gGaAUFVX3lxTE5KTXdVenBpMEprSHlta1poRTdraEtybEg2dnRSNHh4RlktbXlwZ3I5ajhESmZ1bTUyWkROTUpNcERhczBKbnhqRC1OMERSdlZXTmtDMjI3ZDNYX1RvWFRhTW5OS2p6VVRkMFBFZndnVGhJUC1wX2VGXy0tVGpGaEdaMlhfckl1ZWNUREk0aWc0WVJMVFl4aEx4dXc?oc=5",
+      "profile_id": "institutions/ecb",
+      "published_at": "2026-10-26T21:00:00+00:00",
+      "publisher": "Gulf Times",
+      "search_query": "\"European Central Bank\"",
+      "source_country": "unknown",
+      "source_id": "169efc4d808338b3fc4cc021",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxQT2VYYTJpS2tlVjBfcm9rUFh6clBBb2xfVGZkUmtXR3pJaGNKVXZMZVc3SDdvZUZ5ZzhiWWUta2dXN2h6VVc1dHp1eXZQYThUV3ZLOVlDdlpnVmFlWEtMMGxnS2JXcXM3UjNMeERTYXBESWVIRWdyS0dUaUozM2VBX3ZqT2gxcWZDcXprQ3k1YktPSGNlN09CbTRfaTVUemdYLWFKZmVPenJlTXpZdXlmcTB2RGZ1NjFxc3BuX1I0SHVWNTNUX3JUWHp3dXZad293YXBPUVN0ZDJmelZxWUhKSTQ3eFR2YlpzOXZMWVN2Y0kwRkVVQW1JdzE1R1lULTA?oc=5",
+      "content_fingerprint": "95ccead43e1b6cd298519ac8",
+      "fetched_at": "2026-10-28T13:12:05.344477+00:00",
+      "institution_id": "ecb",
+      "language": "en",
+      "observations": [
+        {
+          "collector": "google_news",
+          "language": "en",
+          "search_query": "\"European Central Bank\"",
+          "search_region": "Europe",
+          "title": "European Central Bank Survey: Rising interest rates are putting pressure on lending and reducing demand for loans - المتداول العربي"
+        }
+      ],
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxQT2VYYTJpS2tlVjBfcm9rUFh6clBBb2xfVGZkUmtXR3pJaGNKVXZMZVc3SDdvZUZ5ZzhiWWUta2dXN2h6VVc1dHp1eXZQYThUV3ZLOVlDdlpnVmFlWEtMMGxnS2JXcXM3UjNMeERTYXBESWVIRWdyS0dUaUozM2VBX3ZqT2gxcWZDcXprQ3k1YktPSGNlN09CbTRfaTVUemdYLWFKZmVPenJlTXpZdXlmcTB2RGZ1NjFxc3BuX1I0SHVWNTNUX3JUWHp3dXZad293YXBPUVN0ZDJmelZxWUhKSTQ3eFR2YlpzOXZMWVN2Y0kwRkVVQW1JdzE1R1lULTA?oc=5",
+      "profile_id": "institutions/ecb",
+      "published_at": "2026-10-27T09:36:12+00:00",
+      "publisher": "المتداول العربي",
+      "search_query": "\"European Central Bank\"",
+      "source_country": "unknown",
+      "source_id": "1a23c918078b1236d506012b",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPVXJCRDZuZnpTeXVqNXdoeW80X3VmTjhBSnFNcktpOFJRai00ZVVuT2Jkd1lEUXV3RWpYU2dudnVzZ040Q1FKWHNrTmhlTEJQa1ZkQWN1R3g5by1XVlcyUUR6Q0pXa2hyMnNHbEhtMjRXa05WXzl0bldVbnFEQXUtVGdDZzRHQkFycUlaQ2c1QVc5Tzg0ZHBHY2l6aWlqNlZHQ3BvcElUUHhYenlrakJnVTRNZFpCQQ?oc=5",
+      "content_fingerprint": "121542310a4a29b9e17b5162",
+      "fetched_at": "2026-10-28T13:12:05.344477+00:00",
+      "institution_id": "ecb",
+      "language": "en",
+      "observations": [
+        {
+          "collector": "google_news",
+          "language": "en",
+          "search_query": "\"European Central Bank\"",
+          "search_region": "Europe",
+          "title": "Germany European Central Bank - WV News"
+        }
+      ],
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPVXJCRDZuZnpTeXVqNXdoeW80X3VmTjhBSnFNcktpOFJRai00ZVVuT2Jkd1lEUXV3RWpYU2dudnVzZ040Q1FKWHNrTmhlTEJQa1ZkQWN1R3g5by1XVlcyUUR6Q0pXa2hyMnNHbEhtMjRXa05WXzl0bldVbnFEQXUtVGdDZzRHQkFycUlaQ2c1QVc5Tzg0ZHBHY2l6aWlqNlZHQ3BvcElUUHhYenlrakJnVTRNZFpCQQ?oc=5",
+      "profile_id": "institutions/ecb",
+      "published_at": "2026-10-26T20:37:57+00:00",
+      "publisher": "WV News",
+      "search_query": "\"European Central Bank\"",
+      "source_country": "unknown",
+      "source_id": "1be27144dd8ea6780751a3da",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPa2NiNGpLNER5ZndJZGJqcF9oS18wUm84RkZNT2U0U0RXQ0VTUnVSU3hhOEVNbk5zUVp0UldRUkpjaEdkWG4xbERRREtpZzRoWk1ia0NOMjJMY09rR251eTRXVi0wNVA0YUxYWjRObFotc01qLUNtWjhrT3lsQ3dOQVNwUTNKdy1UeEcwZmc3WEZSNFhxSjhBS0pnUnBsNFpaak9CQThBa0FWTnc?oc=5",
+      "content_fingerprint": "ba2eb9393144b675240b6b5a",
+      "fetched_at": "2026-10-28T13:12:05.344477+00:00",
+      "institution_id": "ecb",
+      "language": "en",
+      "observations": [
+        {
+          "collector": "google_news",
+          "language": "en",
+          "search_query": "site:ecb.europa.eu",
+          "search_region": "Europe",
+          "title": "The euro area bank lending survey - Third quarter of 2026 - European Central Bank"
+        },
+        {
+          "collector": "google_news",
+          "language": "en",
+          "search_query": "\"European Central Bank\"",
+          "search_region": "Europe",
+          "title": "The euro area bank lending survey - Third quarter of 2026 - European Central Bank"
+        }
+      ],
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPa2NiNGpLNER5ZndJZGJqcF9oS18wUm84RkZNT2U0U0RXQ0VTUnVSU3hhOEVNbk5zUVp0UldRUkpjaEdkWG4xbERRREtpZzRoWk1ia0NOMjJMY09rR251eTRXVi0wNVA0YUxYWjRObFotc01qLUNtWjhrT3lsQ3dOQVNwUTNKdy1UeEcwZmc3WEZSNFhxSjhBS0pnUnBsNFpaak9CQThBa0FWTnc?oc=5",
+      "profile_id": "institutions/ecb",
+      "published_at": "2026-10-27T21:00:38+00:00",
+      "publisher": "European Central Bank",
+      "search_query": "\"European Central Bank\"",
+      "source_country": "unknown",
+      "source_id": "208b9a5ff2429f50613c9944",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOcDM5aHpEZFNEM2E4QjB2M0tseXllSV81ZFlVbmJHNEJCNVBSOV9nV3VzdlpRVWdaT0R5VEhTcU9kSFM4Vjl4aGpnMVk0VDNkd3ZSb1JxNDZwVXlxaUVFc0VpVkdHZlRpRDJnMVM0TXFmMVlFWExFd1BDdHJFN2thZGJzWDktdzJxcnhGQTFMYVFNQmhNU1JKbGF0ZUhWbXl5Zk5ZZWJXSmlfaHFCUEVWYXkzYjVSSU9mY1o0TkxiRmZpUnM1ZUlhWG1kZFVZdTM2ZlptNQ?oc=5",
+      "content_fingerprint": "055acfef31549d62ed3ec54b",
+      "fetched_at": "2026-10-28T13:12:05.344477+00:00",
+      "institution_id": "ecb",
+      "language": "en",
+      "observations": [
+        {
+          "collector": "google_news",
+          "language": "en",
+          "search_query": "\"European Central Bank\"",
+          "search_region": "Europe",
+          "title": "October 29 meeting.. Will the European Central Bank halt its interest rate hike path? - صوت الإمارات"
+        }
+      ],
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOcDM5aHpEZFNEM2E4QjB2M0tseXllSV81ZFlVbmJHNEJCNVBSOV9nV3VzdlpRVWdaT0R5VEhTcU9kSFM4Vjl4aGpnMVk0VDNkd3ZSb1JxNDZwVXlxaUVFc0VpVkdHZlRpRDJnMVM0TXFmMVlFWExFd1BDdHJFN2thZGJzWDktdzJxcnhGQTFMYVFNQmhNU1JKbGF0ZUhWbXl5Zk5ZZWJXSmlfaHFCUEVWYXkzYjVSSU9mY1o0TkxiRmZpUnM1ZUlhWG1kZFVZdTM2ZlptNQ?oc=5",
+      "profile_id": "institutions/ecb",
+      "published_at": "2026-10-27T08:22:19+00:00",
+      "publisher": "صوت الإمارات",
+      "search_query": "\"European Central Bank\"",
+      "source_country": "unknown",
+      "source_id": "33b010a853b566a5d9c52eb6",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPQkttYktsNkEyVDYzZDFnVGJOdTBXSmxWYjY2ZkhIQnM3bmJCc2l0QXJoMjRGZ2JkaDhlN0lGM2Z6bWFCZUZROHFiSkF6WVBsWjBoZmxlZlktNGxjUThpT1VfN0JKcHF1dmt3VnNWRHFlSmFPeG55TUczRWJPRHBIeg?oc=5",
+      "content_fingerprint": "5fe8d204597148f09d6ee47c",
+      "fetched_at": "2026-10-28T13:12:05.344477+00:00",
+      "institution_id": "ecb",
+      "language": "en",
+      "observations": [
+        {
+          "collector": "google_news",
+          "language": "en",
+          "search_query": "site:ecb.europa.eu",
+          "search_region": "Europe",
+          "title": "Monetary developments in the euro area: September 2026 - European Central Bank"
+        }
+      ],
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPQkttYktsNkEyVDYzZDFnVGJOdTBXSmxWYjY2ZkhIQnM3bmJCc2l0QXJoMjRGZ2JkaDhlN0lGM2Z6bWFCZUZROHFiSkF6WVBsWjBoZmxlZlktNGxjUThpT1VfN0JKcHF1dmt3VnNWRHFlSmFPeG55TUczRWJPRHBIeg?oc=5",
+      "profile_id": "institutions/ecb",
+      "published_at": "2026-10-27T10:29:40+00:00",
+      "publisher": "European Central Bank",
+      "search_query": "site:ecb.europa.eu",
+      "source_country": "unknown",
+      "source_id": "42a7c5cf3bcf962ecadf6ea0",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOMGItQk9TaVlSSUsxcmhJMVhldk1TaHlSNXNpcTlIb3VkSzVkbDdXelVSNFltb21lTnVWbWlrLW1Cbnl2WHFBOUwxUjR3dkwyM1JSQ2FxNTdnQXBTcDlFRHF5VVhXSHZOX09keUFBYjl1YzVDYzQ4T0hZNTRSNlExQXg3MXFZZE5Fc0U3VzhSUFlLOWJ6QnNxU3kzMkFia2lNQS1jTlp1TVVFM2p5QjltUjVQOGJxRk0tWmw4?oc=5",
+      "content_fingerprint": "5d9c919bec72ca5923e8fb55",
+      "fetched_at": "2026-10-28T13:12:05.344477+00:00",
+      "institution_id": "ecb",
+      "language": "en",
+      "observations": [
+        {
+          "collector": "google_news",
+          "language": "en",
+          "search_query": "site:ecb.europa.eu",
+          "search_region": "Europe",
+          "title": "Euro area charts and additional tables for all institutional sectors - European Central Bank"
+        }
+      ],
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOMGItQk9TaVlSSUsxcmhJMVhldk1TaHlSNXNpcTlIb3VkSzVkbDdXelVSNFltb21lTnVWbWlrLW1Cbnl2WHFBOUwxUjR3dkwyM1JSQ2FxNTdnQXBTcDlFRHF5VVhXSHZOX09keUFBYjl1YzVDYzQ4T0hZNTRSNlExQXg3MXFZZE5Fc0U3VzhSUFlLOWJ6QnNxU3kzMkFia2lNQS1jTlp1TVVFM2p5QjltUjVQOGJxRk0tWmw4?oc=5",
+      "profile_id": "institutions/ecb",
+      "published_at": "2026-10-28T10:00:41+00:00",
+      "publisher": "European Central Bank",
+      "search_query": "site:ecb.europa.eu",
+      "source_country": "unknown",
+      "source_id": "508dbc3d0362fd10ea6f4ce7",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQSVFWQVpoS19SdUJWT1RISFhaSWo5SFJwYTJKaUNHdmhoeFhUV3ZQNWF0T2FvUTZ1OS00Y0lDLVhfdEN3ckZJMS1ISHdRVVJ5RzRyb0J3eVVraGN3eHpMcTlKTm5fWFR2SWZlTm1FM1gwQl9ZQm0xeDdoZ2V4QjhHQ194NFhYQnNMYlVYckdiQ09vaW5tTWdMYjV1TTFYT05haUhuOUx3?oc=5",
+      "content_fingerprint": "665ed3d419706d1b4ac2f673",
+      "fetched_at": "2026-10-28T13:12:05.344477+00:00",
+      "institution_id": "ecb",
+      "language": "en",
+      "observations": [
+        {
+          "collector": "google_news",
+          "language": "en",
+          "search_query": "site:ecb.europa.eu",
+          "search_region": "Europe",
+          "title": "Consolidated financial statement of the Eurosystem as at 23 October 2026 - European Central Bank"
+        }
+      ],
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQSVFWQVpoS19SdUJWT1RISFhaSWo5SFJwYTJKaUNHdmhoeFhUV3ZQNWF0T2FvUTZ1OS00Y0lDLVhfdEN3ckZJMS1ISHdRVVJ5RzRyb0J3eVVraGN3eHpMcTlKTm5fWFR2SWZlTm1FM1gwQl9ZQm0xeDdoZ2V4QjhHQ194NFhYQnNMYlVYckdiQ09vaW5tTWdMYjV1TTFYT05haUhuOUx3?oc=5",
+      "profile_id": "institutions/ecb",
+      "published_at": "2026-10-27T14:00:50+00:00",
+      "publisher": "European Central Bank",
+      "search_query": "site:ecb.europa.eu",
+      "source_country": "unknown",
+      "source_id": "6d15a0aac45a898d7d499260",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOZzJzakVNU2RhLUxjLUlpUGZ1LTM5LXRSOHUxMVI1V0JLT2E1WTZnZVRhdkRrTW1yeWt0WXpUaDdyNW5pSFNwclM1eXgtRUZMV29JQS1lZnJiaGVQbkVha0dyazFDZ0M4T0xtT2tJQ0w0Wlh4MnFsb19LZlBzQ3ZuUkxBR0lodnZEckFlNDl4Nm9EYmZvTEtkaDBfU2w?oc=5",
+      "content_fingerprint": "0ef6ad27382ddd7b0694b785",
+      "fetched_at": "2026-10-28T13:12:05.344477+00:00",
+      "institution_id": "ecb",
+      "language": "en",
+      "observations": [
+        {
+          "collector": "google_news",
+          "language": "en",
+          "search_query": "\"European Central Bank\"",
+          "search_region": "Europe",
+          "title": "Euro zone mortgage demand falls as rates rise, ECB survey shows - Yahoo Finance"
+        }
+      ],
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOZzJzakVNU2RhLUxjLUlpUGZ1LTM5LXRSOHUxMVI1V0JLT2E1WTZnZVRhdkRrTW1yeWt0WXpUaDdyNW5pSFNwclM1eXgtRUZMV29JQS1lZnJiaGVQbkVha0dyazFDZ0M4T0xtT2tJQ0w0Wlh4MnFsb19LZlBzQ3ZuUkxBR0lodnZEckFlNDl4Nm9EYmZvTEtkaDBfU2w?oc=5",
+      "profile_id": "institutions/ecb",
+      "published_at": "2026-10-27T09:04:02+00:00",
+      "publisher": "Yahoo Finance",
+      "search_query": "\"European Central Bank\"",
+      "source_country": "unknown",
+      "source_id": "7222527a64ccbd72884f21c3",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPaG8tZ1VDYmVRZ3M3MWFadDRTYXUyQ0tOeGtFenNJU0oyZXlrRHV3VHBMYUZNOHNiaE5QcFJZRHhkbERBbThSNUZGNjJ2b1ljLWdzcUxEWHk5QkNzWmtaeXZhSkZPd2ZwSE5OcWVFTWRpN1JNUi1KdE5lLUhCTGwxbm5YcnE5SGR2QklBYzI3dGU1SzltWHhDTHFaaVk0WllDV3BESVh4ajF5dHp5?oc=5",
+      "content_fingerprint": "74c5dc708877fb250ca6c7f3",
+      "fetched_at": "2026-10-28T13:12:05.344477+00:00",
+      "institution_id": "ecb",
+      "language": "en",
+      "observations": [
+        {
+          "collector": "google_news",
+          "language": "en",
+          "search_query": "\"European Central Bank\"",
+          "search_region": "Europe",
+          "title": "COMMENTARY: ECB can cool rate bets, but may not want to yet - Reuters"
+        }
+      ],
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPaG8tZ1VDYmVRZ3M3MWFadDRTYXUyQ0tOeGtFenNJU0oyZXlrRHV3VHBMYUZNOHNiaE5QcFJZRHhkbERBbThSNUZGNjJ2b1ljLWdzcUxEWHk5QkNzWmtaeXZhSkZPd2ZwSE5OcWVFTWRpN1JNUi1KdE5lLUhCTGwxbm5YcnE5SGR2QklBYzI3dGU1SzltWHhDTHFaaVk0WllDV3BESVh4ajF5dHp5?oc=5",
+      "profile_id": "institutions/ecb",
+      "published_at": "2026-10-28T11:01:02+00:00",
+      "publisher": "Reuters",
+      "search_query": "\"European Central Bank\"",
+      "source_country": "unknown",
+      "source_id": "73abbb5c9071f1f6f1d7bf69",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOU2JZcEpXUVVzcGhRMmJjT0plaV9za2lEazM3ZmZCUGhIbnBSSUxkYXdxR2MwZkJMMG5PT0xraFA2ZEE1MUZwdGdiajZlODRQRnRpSjhqUUdyakVDbjVwall1QU9rVDhNbHA5c3g5cUFrVW1HR2t1TlBFcDdWS2traHVORUdLSFBDLXFRRHd4am14VHJ0SWJlMXlkRHNIaXo0ZE5DYw?oc=5",
+      "content_fingerprint": "203133ef85c49af39e766f29",
+      "fetched_at": "2026-10-28T13:12:05.344477+00:00",
+      "institution_id": "ecb",
+      "language": "en",
+      "observations": [
+        {
+          "collector": "google_news",
+          "language": "en",
+          "search_query": "site:ecb.europa.eu",
+          "search_region": "Europe",
+          "title": "Commentary - European Central Bank"
+        }
+      ],
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOU2JZcEpXUVVzcGhRMmJjT0plaV9za2lEazM3ZmZCUGhIbnBSSUxkYXdxR2MwZkJMMG5PT0xraFA2ZEE1MUZwdGdiajZlODRQRnRpSjhqUUdyakVDbjVwall1QU9rVDhNbHA5c3g5cUFrVW1HR2t1TlBFcDdWS2traHVORUdLSFBDLXFRRHd4am14VHJ0SWJlMXlkRHNIaXo0ZE5DYw?oc=5",
+      "profile_id": "institutions/ecb",
+      "published_at": "2026-10-27T14:03:14+00:00",
+      "publisher": "European Central Bank",
+      "search_query": "site:ecb.europa.eu",
+      "source_country": "unknown",
+      "source_id": "752c10ac7bd7696596592352",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQYXRkZWhDeTV6b1lITlhsLWp2c2FmYThTYkxYQUhLTWVLTjRHR010eDRwRmFqcHk4QzIzUVhaODVySm45dW4zUFZZTFByZG9YYnQyWkhlbE43djBXM1g1WndVaURTMG1JRkF2NkJHWEd2R0FSaU1SMzRkOGNzR0lQUTVYUGZ2azREUk51RUY3cw?oc=5",
+      "content_fingerprint": "189076e1dfa73533f33e1be0",
+      "fetched_at": "2026-10-28T13:12:05.344477+00:00",
+      "institution_id": "ecb",
+      "language": "en",
+      "observations": [
+        {
+          "collector": "google_news",
+          "language": "en",
+          "search_query": "site:ecb.europa.eu",
+          "search_region": "Europe",
+          "title": "Euro area economic and financial developments by institutional sector: second quarter of 2026 - European Central Bank"
+        }
+      ],
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQYXRkZWhDeTV6b1lITlhsLWp2c2FmYThTYkxYQUhLTWVLTjRHR010eDRwRmFqcHk4QzIzUVhaODVySm45dW4zUFZZTFByZG9YYnQyWkhlbE43djBXM1g1WndVaURTMG1JRkF2NkJHWEd2R0FSaU1SMzRkOGNzR0lQUTVYUGZ2azREUk51RUY3cw?oc=5",
+      "profile_id": "institutions/ecb",
+      "published_at": "2026-10-28T10:03:21+00:00",
+      "publisher": "European Central Bank",
+      "search_query": "site:ecb.europa.eu",
+      "source_country": "unknown",
+      "source_id": "7b762acf7414d4b308d31993",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNSnpxUHhhOWhFYnhKRE9DQlFTYVdNdmhQSXA3eGFYaUg0UEpTcmFIR2xoS0g2akp5Q0JFazBwMTVhaTVEaUJWZS1PV1dKOXZBRVByd3pzWUtJR1ZkSFZSOTd1QTdQYlUwYnVHdl8yUDFCVnNSb3ZUeFJPeE9DbTZEWW9IdVBSQWdzel9BY2hPNDNBaDUyM1VsWkZHUXVOaXlwLTljTGN2Zldmc1FWQ3ZZMW5qNWdHdw?oc=5",
+      "content_fingerprint": "121542310a4a29b9e17b5162",
+      "fetched_at": "2026-10-28T13:12:05.344477+00:00",
+      "institution_id": "ecb",
+      "language": "en",
+      "observations": [
+        {
+          "collector": "google_news",
+          "language": "en",
+          "search_query": "\"European Central Bank\"",
+          "search_region": "Europe",
+          "title": "Germany European Central Bank - WV News"
+        }
+      ],
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNSnpxUHhhOWhFYnhKRE9DQlFTYVdNdmhQSXA3eGFYaUg0UEpTcmFIR2xoS0g2akp5Q0JFazBwMTVhaTVEaUJWZS1PV1dKOXZBRVByd3pzWUtJR1ZkSFZSOTd1QTdQYlUwYnVHdl8yUDFCVnNSb3ZUeFJPeE9DbTZEWW9IdVBSQWdzel9BY2hPNDNBaDUyM1VsWkZHUXVOaXlwLTljTGN2Zldmc1FWQ3ZZMW5qNWdHdw?oc=5",
+      "profile_id": "institutions/ecb",
+      "published_at": "2026-10-28T10:46:12+00:00",
+      "publisher": "WV News",
+      "search_query": "\"European Central Bank\"",
+      "source_country": "unknown",
+      "source_id": "7fce17cf921273e3168987f9",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQNFhGUDVxMTNsS2J4dlY0MlVkZnY5dTFHampFSm1xbU9iWDlWekVYYTl3Yl9vOTRkaXJuSkpJWFIwLVprOVYyR1VmNl8xT2dfNlk5dzUzVUg0U3ZGbG4yMFJFbHVQQTkwcmxVZmFSTlpwb3VEaTI3bWZ1b1Jvc0M0ZVZzYWpDTFk1UnZvUXZSc29FRV9fOENhMWNJWFRva0Nj?oc=5",
+      "content_fingerprint": "e68fac72f5289b6ec3f3c250",
+      "fetched_at": "2026-10-28T13:12:05.344477+00:00",
+      "institution_id": "ecb",
+      "language": "en",
+      "observations": [
+        {
+          "collector": "google_news",
+          "language": "en",
+          "search_query": "\"European Central Bank\"",
+          "search_region": "Europe",
+          "title": "European Central Bank Expected to Hold Interest Rates at 2.5% - Greek City Times"
+        }
+      ],
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQNFhGUDVxMTNsS2J4dlY0MlVkZnY5dTFHampFSm1xbU9iWDlWekVYYTl3Yl9vOTRkaXJuSkpJWFIwLVprOVYyR1VmNl8xT2dfNlk5dzUzVUg0U3ZGbG4yMFJFbHVQQTkwcmxVZmFSTlpwb3VEaTI3bWZ1b1Jvc0M0ZVZzYWpDTFk1UnZvUXZSc29FRV9fOENhMWNJWFRva0Nj?oc=5",
+      "profile_id": "institutions/ecb",
+      "published_at": "2026-10-28T05:47:59+00:00",
+      "publisher": "Greek City Times",
+      "search_query": "\"European Central Bank\"",
+      "source_country": "unknown",
+      "source_id": "84d478fe44d771f48ea8813a",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQUTRfblk0Um9sV2ZZYjJtZEhMY29qV1VncGhvLXNQUTZQSTlxNmxjbWVWQVRmLWpKTVF1enhxb3pwSTVQQUhLNm9GekJPZ2syaXFaQ2tWMEdSR3FOelZTbjQtLTBBOGJHNVlUYTZSNjJ5ekdNQ2pJVVhKaFpyLV9LTnpPSjlpQ3M5MnQ1d0VRQlVsR01SNm1WaWtUV3MzS0ZjTGNoVlZXMEdLZw?oc=5",
+      "content_fingerprint": "5e0f2ebada6cbf19d7301a58",
+      "fetched_at": "2026-10-28T13:12:05.344477+00:00",
+      "institution_id": "ecb",
+      "language": "en",
+      "observations": [
+        {
+          "collector": "google_news",
+          "language": "en",
+          "search_query": "\"European Central Bank\"",
+          "search_region": "Europe",
+          "title": "Germany European Central Bank - The Herald Journal"
+        }
+      ],
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQUTRfblk0Um9sV2ZZYjJtZEhMY29qV1VncGhvLXNQUTZQSTlxNmxjbWVWQVRmLWpKTVF1enhxb3pwSTVQQUhLNm9GekJPZ2syaXFaQ2tWMEdSR3FOelZTbjQtLTBBOGJHNVlUYTZSNjJ5ekdNQ2pJVVhKaFpyLV9LTnpPSjlpQ3M5MnQ1d0VRQlVsR01SNm1WaWtUV3MzS0ZjTGNoVlZXMEdLZw?oc=5",
+      "profile_id": "institutions/ecb",
+      "published_at": "2026-10-28T10:45:05+00:00",
+      "publisher": "The Herald Journal",
+      "search_query": "\"European Central Bank\"",
+      "source_country": "unknown",
+      "source_id": "8526fd8ad2d06a51e6c0a01f",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOSXpyMk5JY1lsaEc2NWRITW12bWFBMV9Lb0NNQWwwaUE4M2xQb3VsaHpqSHVnZDNRMHQzTFRLSmZyNWhTU3FMZ0dWY3BYNk4zeEpDWlpVaFh6UGU5U25ab0otSk9QOF9nc21NZTgwMlp5VVo0NEw2cDI2VlBVaEpYTEVsVUthTEpCd3g0QlYxY3IxMUhuanVqU3RKVUs5RWpXdVZBY3FJUC1lb1RfVXRGbkNKRE1DRldiUXNyLUkwLUNrTGNmSVBCMDh2dElleGpiZkxPM0Z0bVRUM2FIUVpMMkJqRQ?oc=5",
+      "content_fingerprint": "86b2c2319d83a529f13c9511",
+      "fetched_at": "2026-10-28T13:12:05.344477+00:00",
+      "institution_id": "ecb",
+      "language": "en",
+      "observations": [
+        {
+          "collector": "google_news",
+          "language": "en",
+          "search_query": "\"European Central Bank\"",
+          "search_region": "Europe",
+          "title": "European Central Bank OKs Intesa Sanpaolo's Proposed Takeover of Banca Monte dei Paschi di Siena - marketscreener.com"
+        }
+      ],
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOSXpyMk5JY1lsaEc2NWRITW12bWFBMV9Lb0NNQWwwaUE4M2xQb3VsaHpqSHVnZDNRMHQzTFRLSmZyNWhTU3FMZ0dWY3BYNk4zeEpDWlpVaFh6UGU5U25ab0otSk9QOF9nc21NZTgwMlp5VVo0NEw2cDI2VlBVaEpYTEVsVUthTEpCd3g0QlYxY3IxMUhuanVqU3RKVUs5RWpXdVZBY3FJUC1lb1RfVXRGbkNKRE1DRldiUXNyLUkwLUNrTGNmSVBCMDh2dElleGpiZkxPM0Z0bVRUM2FIUVpMMkJqRQ?oc=5",
+      "profile_id": "institutions/ecb",
+      "published_at": "2026-10-28T04:58:20+00:00",
+      "publisher": "marketscreener.com",
+      "search_query": "\"European Central Bank\"",
+      "source_country": "unknown",
+      "source_id": "8eedc04d199ed79d9f12b277",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOYXZzbXVham1ZQ3ZRZEJzSGxNSmZUMnRfblVxa1JEbjRUM3o3YWZXOVBHZ1RYU0RvZHU1YjdTQ1BDZGV3VjFqODRVeEhISG5hVGowVlY2VVVWcy1iSVg4WmNFYXl3VDdLRkRYbndjZW1Pbkl0dHpGVlJHUGRUTDVrTmhHdkZhRktLTnREY2VqdE5MUVNCZ3ZFMGUxY0tJU1dzYWlZbk1QNHlBbklyVlBvY3VB?oc=5",
+      "content_fingerprint": "6aa29e991e71ae39e89be9f7",
+      "fetched_at": "2026-10-28T13:12:05.344477+00:00",
+      "institution_id": "ecb",
+      "language": "en",
+      "observations": [
+        {
+          "collector": "google_news",
+          "language": "en",
+          "search_query": "\"European Central Bank\"",
+          "search_region": "Europe",
+          "title": "ECB Expected to Leave Key Rate Unchanged Amid French Bond Drama - WSJ"
+        }
+      ],
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOYXZzbXVham1ZQ3ZRZEJzSGxNSmZUMnRfblVxa1JEbjRUM3o3YWZXOVBHZ1RYU0RvZHU1YjdTQ1BDZGV3VjFqODRVeEhISG5hVGowVlY2VVVWcy1iSVg4WmNFYXl3VDdLRkRYbndjZW1Pbkl0dHpGVlJHUGRUTDVrTmhHdkZhRktLTnREY2VqdE5MUVNCZ3ZFMGUxY0tJU1dzYWlZbk1QNHlBbklyVlBvY3VB?oc=5",
+      "profile_id": "institutions/ecb",
+      "published_at": "2026-10-28T11:50:53+00:00",
+      "publisher": "WSJ",
+      "search_query": "\"European Central Bank\"",
+      "source_country": "unknown",
+      "source_id": "8f8e7d1f4862eab3bcbb412d",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPSzB4eENadDNzd0hKcDE0ZDMtcWxUTXo3RWszSk15bTIxM3hvYURueVlMSlY5MmRCdlcwZnoxd3Z2RkFYUlZWbld3STRtcVpGM1gzTUx2d0lBaE12d0RRb3BRcVRGMENCRG85UGd3TXNvUGxMeDRJdW5aNnNIXzRQTE5ONmk0V1l3?oc=5",
+      "content_fingerprint": "47c87ed3709900c0dd797887",
+      "fetched_at": "2026-10-28T13:12:05.344477+00:00",
+      "institution_id": "ecb",
+      "language": "en",
+      "observations": [
+        {
+          "collector": "google_news",
+          "language": "en",
+          "search_query": "site:ecb.europa.eu",
+          "search_region": "Europe",
+          "title": "October 2026 euro area bank lending survey - European Central Bank"
+        }
+      ],
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPSzB4eENadDNzd0hKcDE0ZDMtcWxUTXo3RWszSk15bTIxM3hvYURueVlMSlY5MmRCdlcwZnoxd3Z2RkFYUlZWbld3STRtcVpGM1gzTUx2d0lBaE12d0RRb3BRcVRGMENCRG85UGd3TXNvUGxMeDRJdW5aNnNIXzRQTE5ONmk0V1l3?oc=5",
+      "profile_id": "institutions/ecb",
+      "published_at": "2026-10-27T09:13:08+00:00",
+      "publisher": "European Central Bank",
+      "search_query": "site:ecb.europa.eu",
+      "source_country": "unknown",
+      "source_id": "940dc44b6f5339f2837d6bb4",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPOWVFNEtxcUtmZWxNN0lTMHAwMVRhLXMtcmJDbERReVgyTWdGX2ZCa3NQckk3NFpYdEl2RG5aRjd5Ym9CZEpPc3lId0tqZkdWSFJLREZqTEVrOWhWRUdvV3dpREY2VGoxa1BsaVI5emtDYXkwRW5wMk1nYml6bUFrTWJ1cDBKNVQ5ZHQ0RWRxTmNrajhLTWd6WGNCUmVQYV93d2ZBVnpZODVGTVpwUWhDYzdoLVV4UzN1?oc=5",
+      "content_fingerprint": "212023b23a0326b8c3f579e7",
+      "fetched_at": "2026-10-28T13:12:05.344477+00:00",
+      "institution_id": "ecb",
+      "language": "en",
+      "observations": [
+        {
+          "collector": "google_news",
+          "language": "en",
+          "search_query": "\"European Central Bank\"",
+          "search_region": "Europe",
+          "title": "Germany European Central Bank - Post Register"
+        }
+      ],
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPOWVFNEtxcUtmZWxNN0lTMHAwMVRhLXMtcmJDbERReVgyTWdGX2ZCa3NQckk3NFpYdEl2RG5aRjd5Ym9CZEpPc3lId0tqZkdWSFJLREZqTEVrOWhWRUdvV3dpREY2VGoxa1BsaVI5emtDYXkwRW5wMk1nYml6bUFrTWJ1cDBKNVQ5ZHQ0RWRxTmNrajhLTWd6WGNCUmVQYV93d2ZBVnpZODVGTVpwUWhDYzdoLVV4UzN1?oc=5",
+      "profile_id": "institutions/ecb",
+      "published_at": "2026-10-28T10:46:12+00:00",
+      "publisher": "Post Register",
+      "search_query": "\"European Central Bank\"",
+      "source_country": "unknown",
+      "source_id": "9c02f5ed400c08545826c0f0",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNOTNkTC0tc19jOGZWVnBNWnVQRW9LUm93c3ZQQVFnWFBYT19TbHBDQ0ZFemdUb0JsQUJzUFA5SEZQVHk4M1laZUN1YldyNnlsUFRYbzZZdmZPTE5pN3NlRVdfSTl2ZUg3U0NtcmZqQkhObGtROXg1eW1FMGtXWW1kS0c1SGx4QTZBTndoSWFVN3VjdmpfNm9PN1p1OWpTUzB1dXdoa0V1TFBTOHVWMkx5SWRhYXI1czNS?oc=5",
+      "content_fingerprint": "212023b23a0326b8c3f579e7",
+      "fetched_at": "2026-10-28T13:12:05.344477+00:00",
+      "institution_id": "ecb",
+      "language": "en",
+      "observations": [
+        {
+          "collector": "google_news",
+          "language": "en",
+          "search_query": "\"European Central Bank\"",
+          "search_region": "Europe",
+          "title": "Germany European Central Bank - Post Register"
+        }
+      ],
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNOTNkTC0tc19jOGZWVnBNWnVQRW9LUm93c3ZQQVFnWFBYT19TbHBDQ0ZFemdUb0JsQUJzUFA5SEZQVHk4M1laZUN1YldyNnlsUFRYbzZZdmZPTE5pN3NlRVdfSTl2ZUg3U0NtcmZqQkhObGtROXg1eW1FMGtXWW1kS0c1SGx4QTZBTndoSWFVN3VjdmpfNm9PN1p1OWpTUzB1dXdoa0V1TFBTOHVWMkx5SWRhYXI1czNS?oc=5",
+      "profile_id": "institutions/ecb",
+      "published_at": "2026-10-26T20:37:57+00:00",
+      "publisher": "Post Register",
+      "search_query": "\"European Central Bank\"",
+      "source_country": "unknown",
+      "source_id": "a73033f236b90f8402d32f2f",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNMzM5LTd0cjBhYXNzU05zQ2lZdlJoWFFybFN6eVpaNTVBY0ZaVXhuckx3TGIxdFhpa0Y4Wm5kenZiWWFhaGo5VmxaUE5Lekd4Qks4YlZfVnYzN2N3eFZLTkFSdXF1dmdpSXRzejNUZFhPZXI2Nm1zOXRaNUNtNzVTUWFiLUpIZ1BxNTl1dA?oc=5",
+      "content_fingerprint": "574f59f8ea437632ed4b8a2a",
+      "fetched_at": "2026-10-28T13:12:05.344477+00:00",
+      "institution_id": "ecb",
+      "language": "en",
+      "observations": [
+        {
+          "collector": "google_news",
+          "language": "en",
+          "search_query": "site:ecb.europa.eu",
+          "search_region": "Europe",
+          "title": "1 Table 1. Income, consumption, saving, investment and net lending / net borrowing: euro area and contributions by sector - European Central Bank"
+        }
+      ],
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNMzM5LTd0cjBhYXNzU05zQ2lZdlJoWFFybFN6eVpaNTVBY0ZaVXhuckx3TGIxdFhpa0Y4Wm5kenZiWWFhaGo5VmxaUE5Lekd4Qks4YlZfVnYzN2N3eFZLTkFSdXF1dmdpSXRzejNUZFhPZXI2Nm1zOXRaNUNtNzVTUWFiLUpIZ1BxNTl1dA?oc=5",
+      "profile_id": "institutions/ecb",
+      "published_at": "2026-10-28T10:00:42+00:00",
+      "publisher": "European Central Bank",
+      "search_query": "site:ecb.europa.eu",
+      "source_country": "unknown",
+      "source_id": "aa9c11b2523fcf836c33833c",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOVWZEaTA5Qnc5NDd2WXh1VWgyTUpTcFBvVExBOHg2TnV3b09vWnpNSVNrWWVHZDZLNWx0MDNGUU93cm5qdHJVQmMtekg1SjZrZEtfTVpCeHQ4VlRxRHRXSHNnbmZXdFNHaEM2alpHTlNQeGZRY09zVU9iWkZicEJWTFppNUcxd185c3VFLWxGcjNYUjVWc1hrNlZtRk9IbTZtQWdQVkQ1aldfU1hXSkFRQkw1bUQwSVB5bW9V?oc=5",
+      "content_fingerprint": "355a8834e97ba0c6b07889a9",
+      "fetched_at": "2026-10-28T13:12:05.344477+00:00",
+      "institution_id": "ecb",
+      "language": "en",
+      "observations": [
+        {
+          "collector": "google_news",
+          "language": "en",
+          "search_query": "\"European Central Bank\"",
+          "search_region": "Europe",
+          "title": "Intesa Sanpaolo Gets European Central Bank Approval to Take Over Monte Dei Paschi - WSJ"
+        }
+      ],
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOVWZEaTA5Qnc5NDd2WXh1VWgyTUpTcFBvVExBOHg2TnV3b09vWnpNSVNrWWVHZDZLNWx0MDNGUU93cm5qdHJVQmMtekg1SjZrZEtfTVpCeHQ4VlRxRHRXSHNnbmZXdFNHaEM2alpHTlNQeGZRY09zVU9iWkZicEJWTFppNUcxd185c3VFLWxGcjNYUjVWc1hrNlZtRk9IbTZtQWdQVkQ1aldfU1hXSkFRQkw1bUQwSVB5bW9V?oc=5",
+      "profile_id": "institutions/ecb",
+      "published_at": "2026-10-28T07:35:28+00:00",
+      "publisher": "WSJ",
+      "search_query": "\"European Central Bank\"",
+      "source_country": "unknown",
+      "source_id": "b0073588693592c4b3b95da4",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261027~506ef03145.en.html",
+      "content_fingerprint": "b420d910032ceea48aa2a9df",
+      "fetched_at": "2026-10-28T13:12:05.344477+00:00",
+      "institution_id": "ecb",
+      "language": "unknown",
+      "observations": [
+        {
+          "collector": "rss",
+          "language": "unknown",
+          "search_query": null,
+          "search_region": "unknown",
+          "title": "October 2026 euro area bank lending survey"
+        }
+      ],
+      "origin_collector": "rss",
+      "original_url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261027~506ef03145.en.html",
+      "profile_id": "institutions/ecb",
+      "published_at": "2026-10-27T00:00:00+00:00",
+      "publisher": "European Central Bank",
+      "search_query": null,
+      "source_country": "unknown",
+      "source_id": "d1af0e9e9c8b89b7bcd71956",
+      "source_kind": "primary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNbVJVYUxlQm1qSUozVzU5U1dRZ1NMbTI1b2NwMS1VQTlmLXFGS2NPeWFaSFlkbUJBWHdQWUR4NFBGQjc3cFlIdm1nQkZkUTBjWm9EeU9aaFZTVmF5dUtSSkF5b1dNVXJ6bkplWEVjdFBIMFR4WkpoRW15QW1lcmVnd3RsTThoTDU0ek14X3Y3ZEZ5Z2VfeHRBSWZnT0tOckprZWFLamZpaDlleHk3Vkc4WE1kZ2pwbU9IZmtZY3VGRTg?oc=5",
+      "content_fingerprint": "70cc2f013550edc8c573204f",
+      "fetched_at": "2026-10-28T13:12:05.344477+00:00",
+      "institution_id": "ecb",
+      "language": "en",
+      "observations": [
+        {
+          "collector": "google_news",
+          "language": "en",
+          "search_query": "\"European Central Bank\"",
+          "search_region": "Europe",
+          "title": "Germany European Central Bank - Goshen News"
+        }
+      ],
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNbVJVYUxlQm1qSUozVzU5U1dRZ1NMbTI1b2NwMS1VQTlmLXFGS2NPeWFaSFlkbUJBWHdQWUR4NFBGQjc3cFlIdm1nQkZkUTBjWm9EeU9aaFZTVmF5dUtSSkF5b1dNVXJ6bkplWEVjdFBIMFR4WkpoRW15QW1lcmVnd3RsTThoTDU0ek14X3Y3ZEZ5Z2VfeHRBSWZnT0tOckprZWFLamZpaDlleHk3Vkc4WE1kZ2pwbU9IZmtZY3VGRTg?oc=5",
+      "profile_id": "institutions/ecb",
+      "published_at": "2026-10-28T10:45:05+00:00",
+      "publisher": "Goshen News",
+      "search_query": "\"European Central Bank\"",
+      "source_country": "unknown",
+      "source_id": "d6471d9667b0acdc760c19fb",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPSElLaU5XNnV6WE5va21WSlAyWEl0VjhfYXhYNXNZbVNoSVF5UWdJOTdBcnU2enY1azVVTkxBTmJOT3pheEFJcWN2TDQxckFyUFpqV3lwNWtSNEJEaFduUGNHU1BaZXZFQWktZklZb2c3VzlUTndBZFZxTUFjczc0Xy1MbklLemE1Q053bmxfdE1rNWRva2c?oc=5",
+      "content_fingerprint": "7107ce541009f14b8f69ab0a",
+      "fetched_at": "2026-10-28T13:12:05.344477+00:00",
+      "institution_id": "ecb",
+      "language": "en",
+      "observations": [
+        {
+          "collector": "google_news",
+          "language": "en",
+          "search_query": "\"European Central Bank\"",
+          "search_region": "Europe",
+          "title": "European Central Bank: Tighter lending conditions, weakening credit demand. - Vietnam.vn"
+        }
+      ],
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPSElLaU5XNnV6WE5va21WSlAyWEl0VjhfYXhYNXNZbVNoSVF5UWdJOTdBcnU2enY1azVVTkxBTmJOT3pheEFJcWN2TDQxckFyUFpqV3lwNWtSNEJEaFduUGNHU1BaZXZFQWktZklZb2c3VzlUTndBZFZxTUFjczc0Xy1MbklLemE1Q053bmxfdE1rNWRva2c?oc=5",
+      "profile_id": "institutions/ecb",
+      "published_at": "2026-10-28T04:25:05+00:00",
+      "publisher": "Vietnam.vn",
+      "search_query": "\"European Central Bank\"",
+      "source_country": "unknown",
+      "source_id": "dcff26be1e574d5c9ff1843f",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNYjNOOWZOR3R1c3FKdUN3N2EwdEVnUFRwQ1BjV3RoMndVOVMxeXplN2VDVVdjaVEzY3pwUWJLWmRZd2o3ZW1GUmlrTHlLR1hfTVhxR2dQZ2c3bEczLUxiVEx6LVFaM1ZkODkxVjg4NzZyQVV0eGlmWEw2ZWdSS0lvUQ?oc=5",
+      "content_fingerprint": "5fe8d204597148f09d6ee47c",
+      "fetched_at": "2026-10-28T13:12:05.344477+00:00",
+      "institution_id": "ecb",
+      "language": "en",
+      "observations": [
+        {
+          "collector": "google_news",
+          "language": "en",
+          "search_query": "site:ecb.europa.eu",
+          "search_region": "Europe",
+          "title": "Monetary developments in the euro area: September 2026 - European Central Bank"
+        }
+      ],
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNYjNOOWZOR3R1c3FKdUN3N2EwdEVnUFRwQ1BjV3RoMndVOVMxeXplN2VDVVdjaVEzY3pwUWJLWmRZd2o3ZW1GUmlrTHlLR1hfTVhxR2dQZ2c3bEczLUxiVEx6LVFaM1ZkODkxVjg4NzZyQVV0eGlmWEw2ZWdSS0lvUQ?oc=5",
+      "profile_id": "institutions/ecb",
+      "published_at": "2026-10-27T09:13:08+00:00",
+      "publisher": "European Central Bank",
+      "search_query": "site:ecb.europa.eu",
+      "source_country": "unknown",
+      "source_id": "df7fc2d6657ea5aeea609ff8",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPWnhQNXF0QmJCZ2RXTWlENXZfMnF3bjVaLUIxMzJuel8teFFOVG9hWWotZmRwWFZWWGxnT2NuOVZEMlMzWTh4WEx5U0NyTVV3Rmt4UEl5WjlPbXBUeE1HM05aZzhybFJvREo4Qi1keE1XSXlNNHprNjRsd2ZkaVZ5cTdLQW15WFk3aWRQMF9DcHdWLVNXQVpLR3Nn?oc=5",
+      "content_fingerprint": "c758fe50d1af6619e1d08836",
+      "fetched_at": "2026-10-28T13:12:05.344477+00:00",
+      "institution_id": "ecb",
+      "language": "en",
+      "observations": [
+        {
+          "collector": "google_news",
+          "language": "en",
+          "search_query": "site:ecb.europa.eu",
+          "search_region": "Europe",
+          "title": "Annex 1 Results for the standard questions* - European Central Bank"
+        }
+      ],
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPWnhQNXF0QmJCZ2RXTWlENXZfMnF3bjVaLUIxMzJuel8teFFOVG9hWWotZmRwWFZWWGxnT2NuOVZEMlMzWTh4WEx5U0NyTVV3Rmt4UEl5WjlPbXBUeE1HM05aZzhybFJvREo4Qi1keE1XSXlNNHprNjRsd2ZkaVZ5cTdLQW15WFk3aWRQMF9DcHdWLVNXQVpLR3Nn?oc=5",
+      "profile_id": "institutions/ecb",
+      "published_at": "2026-10-27T09:00:22+00:00",
+      "publisher": "European Central Bank",
+      "search_query": "site:ecb.europa.eu",
+      "source_country": "unknown",
+      "source_id": "f47c988b04a668824fcf04ba",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    }
+  ],
+  "statistics": {
+    "collectors": [
+      {
+        "error_code": null,
+        "items": 12,
+        "query": "site:ecb.europa.eu",
+        "source": "google_news",
+        "status": "ok"
+      },
+      {
+        "error_code": null,
+        "items": 29,
+        "query": "\"European Central Bank\"",
+        "source": "google_news",
+        "status": "ok"
+      },
+      {
+        "error_code": null,
+        "items": 3,
+        "query": "\"European Central Bank\"",
+        "source": "gdelt",
+        "status": "ok"
+      },
+      {
+        "items": 1,
+        "source": "rss",
+        "status": "ok"
+      }
+    ],
+    "items": 22,
+    "sources": 30
+  },
+  "status": "complete",
+  "time_window": {
+    "since": "2026-10-26T13:12:05.355156+00:00",
+    "until": "2026-10-28T13:12:05.355156+00:00"
+  },
+  "workflow": {
+    "repository": "JsonLord/Horizon",
+    "run_attempt": "1",
+    "run_id": "40694101853",
+    "source_commit": "c9dcef30a10ffe67b8e399baea5c2a6787c7dfd2"
+  }
+}

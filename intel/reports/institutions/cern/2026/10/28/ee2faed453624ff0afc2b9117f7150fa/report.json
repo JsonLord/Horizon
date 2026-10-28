@@ -1,0 +1,801 @@
+{
+  "analysis_mode": "deterministic",
+  "changes": [
+    {
+      "finding_id": "aa152e5e76ee0ec890c9b47f",
+      "institution_ids": [
+        "cern"
+      ],
+      "observed_at": "2026-10-28T13:12:52.629537+00:00",
+      "type": "new"
+    },
+    {
+      "finding_id": "6732aa05d8982b556f545582",
+      "institution_ids": [
+        "cern"
+      ],
+      "observed_at": "2026-10-28T13:12:52.629537+00:00",
+      "type": "new"
+    },
+    {
+      "finding_id": "9b13820aff64f409b1ede7a1",
+      "institution_ids": [
+        "cern"
+      ],
+      "observed_at": "2026-10-28T13:12:52.629537+00:00",
+      "type": "new"
+    },
+    {
+      "finding_id": "77541cb537a17ec9dc3c0282",
+      "institution_ids": [
+        "cern"
+      ],
+      "observed_at": "2026-10-28T13:12:52.629537+00:00",
+      "type": "new"
+    },
+    {
+      "finding_id": "b99080f8e1c25e4b6e9788c7",
+      "institution_ids": [
+        "cern"
+      ],
+      "observed_at": "2026-10-28T13:12:52.629537+00:00",
+      "type": "new"
+    },
+    {
+      "finding_id": "1bcd0c67a3e4e90be1e09c43",
+      "institution_ids": [
+        "cern"
+      ],
+      "observed_at": "2026-10-28T13:12:52.629537+00:00",
+      "type": "new"
+    },
+    {
+      "finding_id": "5fc4e54a5d58aeca70424abb",
+      "institution_ids": [
+        "cern"
+      ],
+      "observed_at": "2026-10-28T13:12:52.629537+00:00",
+      "type": "new"
+    },
+    {
+      "finding_id": "3e11d3a1dd27144d81a7bfa6",
+      "institution_ids": [
+        "cern"
+      ],
+      "observed_at": "2026-10-28T13:12:52.629537+00:00",
+      "type": "new"
+    }
+  ],
+  "coverage": {
+    "basis": "search query region; event geography unknown",
+    "missing_regions": [],
+    "regions": [
+      "Europe"
+    ]
+  },
+  "created_at": "2026-10-28T13:12:52.629537+00:00",
+  "errors": [
+    {
+      "code": "SOURCE_INCOMPLETE",
+      "source": "gdelt"
+    },
+    {
+      "code": "SOURCE_INCOMPLETE",
+      "source": "rss"
+    }
+  ],
+  "findings": [
+    {
+      "change_type": "new",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "aa152e5e76ee0ec890c9b47f",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "Switzerland Study Tour: From the UN to CERN, 50 Indian students experience global learning - Education Times",
+          "source_id": "9ad0ac008ce26acea4d367f3"
+        }
+      ],
+      "finding_id": "aa152e5e76ee0ec890c9b47f",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [
+        "cern"
+      ],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-28T13:12:52.626852+00:00",
+      "profile_relevance": 8.966057559583334,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-28T12:24:00+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "Europe"
+      ],
+      "source_ids": [
+        "9ad0ac008ce26acea4d367f3"
+      ],
+      "summary": "Switzerland Study Tour: From the UN to CERN, 50 Indian students experience global learning - Education Times",
+      "topics": [
+        "CERN"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "new",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "6732aa05d8982b556f545582",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "CERN-made HiLumi LHC quadrupoles ready for installation – Home - Home | CERN",
+          "source_id": "5dc3e91f4b097c862236e7eb"
+        }
+      ],
+      "finding_id": "6732aa05d8982b556f545582",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [
+        "cern"
+      ],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-28T13:12:52.626852+00:00",
+      "profile_relevance": 8.820756633657407,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-28T08:54:46+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "Europe"
+      ],
+      "source_ids": [
+        "5dc3e91f4b097c862236e7eb"
+      ],
+      "summary": "CERN-made HiLumi LHC quadrupoles ready for installation – Home - Home | CERN",
+      "topics": [
+        "CERN"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "new",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "9b13820aff64f409b1ede7a1",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "Inside CERN’s 7,000-Ton −271°C ATLAS Detector - Engineerine",
+          "source_id": "05893212791a26b32f7b9324"
+        }
+      ],
+      "finding_id": "9b13820aff64f409b1ede7a1",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [
+        "cern"
+      ],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-28T13:12:52.626852+00:00",
+      "profile_relevance": 8.74797885587963,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-28T07:09:58+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "Europe"
+      ],
+      "source_ids": [
+        "05893212791a26b32f7b9324"
+      ],
+      "summary": "Inside CERN’s 7,000-Ton −271°C ATLAS Detector - Engineerine",
+      "topics": [
+        "CERN"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "new",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "77541cb537a17ec9dc3c0282",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "CERN engineers cut the first magnet interconnection in the week of 17 September 2026 and will strip out 1.2 km of the Large Hadron Collider, which switched off on 29 June 2026 for Long Shutdown 3. - Make Tech Easier",
+          "source_id": "122a7fe5dc59531e2d92210c"
+        }
+      ],
+      "finding_id": "77541cb537a17ec9dc3c0282",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [
+        "cern"
+      ],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-28T13:12:52.626852+00:00",
+      "profile_relevance": 8.317770522546297,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-27T20:50:28+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "Europe"
+      ],
+      "source_ids": [
+        "122a7fe5dc59531e2d92210c"
+      ],
+      "summary": "CERN engineers cut the first magnet interconnection in the week of 17 September 2026 and will strip out 1.2 km of the Large Hadron Collider, which switched off on 29 June 2026 for Long Shutdown 3. - Make Tech Easier",
+      "topics": [
+        "CERN"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "new",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "b99080f8e1c25e4b6e9788c7",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "Outstanding achievements of ATLAS Collaboration members celebrated at CERN – Home - Home | CERN",
+          "source_id": "16e32d306a8a69cc08d1088f"
+        }
+      ],
+      "finding_id": "b99080f8e1c25e4b6e9788c7",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [
+        "cern"
+      ],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-28T13:12:52.626852+00:00",
+      "profile_relevance": 8.15860385587963,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-27T17:01:16+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "Europe"
+      ],
+      "source_ids": [
+        "16e32d306a8a69cc08d1088f"
+      ],
+      "summary": "Outstanding achievements of ATLAS Collaboration members celebrated at CERN – Home - Home | CERN",
+      "topics": [
+        "CERN"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "new",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "1bcd0c67a3e4e90be1e09c43",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "Limburg gets Europe's first CERN innovation hub - Belga Share",
+          "source_id": "2c419496c3588b6e4a51895c"
+        }
+      ],
+      "finding_id": "1bcd0c67a3e4e90be1e09c43",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [
+        "cern"
+      ],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-28T13:12:52.626852+00:00",
+      "profile_relevance": 8.09940246699074,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-27T15:36:01+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "Europe"
+      ],
+      "source_ids": [
+        "2c419496c3588b6e4a51895c"
+      ],
+      "summary": "Limburg gets Europe's first CERN innovation hub - Belga Share",
+      "topics": [
+        "CERN"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "new",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "5fc4e54a5d58aeca70424abb",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "CERN’s first Innovation Hub pilot to open in Belgium – Home - Home | CERN",
+          "source_id": "8e40fd6827b602469bdf19b2"
+        }
+      ],
+      "finding_id": "5fc4e54a5d58aeca70424abb",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [
+        "cern"
+      ],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-28T13:12:52.626852+00:00",
+      "profile_relevance": 8.04368487439815,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-27T14:15:47+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "Europe"
+      ],
+      "source_ids": [
+        "8e40fd6827b602469bdf19b2"
+      ],
+      "summary": "CERN’s first Innovation Hub pilot to open in Belgium – Home - Home | CERN",
+      "topics": [
+        "CERN"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "unchanged",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "9b2d54b946b7c130e39efa09",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "Limburg first region in Europe to host a CERN innovation hub in Hasselt - VRT",
+          "source_id": "d15e6f160557105fa79eb773"
+        }
+      ],
+      "finding_id": "9b2d54b946b7c130e39efa09",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [
+        "cern"
+      ],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-28T13:12:52.626852+00:00",
+      "profile_relevance": 7.8849117262499995,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-27T10:27:09+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "Europe"
+      ],
+      "source_ids": [
+        "d15e6f160557105fa79eb773"
+      ],
+      "summary": "Limburg first region in Europe to host a CERN innovation hub in Hasselt - VRT",
+      "topics": [
+        "CERN"
+      ],
+      "verification": "single_secondary_source"
+    },
+    {
+      "change_type": "new",
+      "classification": "reported_news",
+      "corroboration": 1,
+      "event_id": "3e11d3a1dd27144d81a7bfa6",
+      "evidence": [
+        {
+          "location": "feed title",
+          "snippet": "Computer Security: Uninvited nastiness – Home - Home | CERN",
+          "source_id": "8045b204e07c55705a6aa6a9"
+        }
+      ],
+      "finding_id": "3e11d3a1dd27144d81a7bfa6",
+      "geography": {
+        "confidence": null,
+        "event_region": "unknown",
+        "evidence": []
+      },
+      "importance": null,
+      "institutions": [
+        "cern"
+      ],
+      "limitations": [
+        "Title-level extraction; linked source should be reviewed."
+      ],
+      "model_selected": null,
+      "observed_at": "2026-10-28T13:12:52.626852+00:00",
+      "profile_relevance": 6.905235800324074,
+      "provenance": "deterministic title extraction",
+      "published_at": "2026-10-28T10:56:25+00:00",
+      "ranking_explanation": "1 baseline + 2 per topic match + 5 official domain + 3 institution mention + 0–2 recency + 1 declared search-region match; not a truth probability",
+      "regions": [
+        "Europe"
+      ],
+      "source_ids": [
+        "8045b204e07c55705a6aa6a9"
+      ],
+      "summary": "Computer Security: Uninvited nastiness – Home - Home | CERN",
+      "topics": [
+        "CERN"
+      ],
+      "verification": "single_secondary_source"
+    }
+  ],
+  "history": {
+    "comparison": "last_good",
+    "previous_created_at": "2026-10-27T12:27:03.781028+00:00",
+    "previous_report_id": "452dfe0241e043ee88da119a123a2614",
+    "previous_report_sha256": "799a3432d1619d1288dabaa787d0053762764c6a15c8599e79195124f4e045ae",
+    "previous_snapshot_commit": "bc8abc08ffb631dc84d5229ec71cf2587231fd1f",
+    "stale_last_good": false,
+    "state": "restored"
+  },
+  "limitations": [
+    "Bounded queries do not provide exhaustive global coverage.",
+    "GDELT seen time is an observation timestamp, not verified publication time.",
+    "Contradiction/resolution labels require explicit source wording and review; no automatic truth adjudication."
+  ],
+  "links": {
+    "json": "intel/reports/institutions/cern/2026/10/28/ee2faed453624ff0afc2b9117f7150fa/report.json",
+    "markdown": "intel/reports/institutions/cern/2026/10/28/ee2faed453624ff0afc2b9117f7150fa/report.md"
+  },
+  "model_used": null,
+  "profile_id": "institutions/cern",
+  "question": "",
+  "report_id": "ee2faed453624ff0afc2b9117f7150fa",
+  "run_id": "ee2faed453624ff0afc2b9117f7150fa",
+  "schedule": {},
+  "schema_version": "1.0",
+  "sources": [
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9MWlVMVk9PMi1RRm9iNEhYbTZQd0VDN0pFZDg5b0R5V19jdDN6MGczMzg2RkxDeVF3U09ONnJoNXVmWUxWWGtJdTJVaUdVYU94amV0Tl9iUkZaRU1TdGdDUnNfMA?oc=5",
+      "content_fingerprint": "044f6e8be2a3b22e65116496",
+      "fetched_at": "2026-10-28T13:12:52.626852+00:00",
+      "institution_id": "cern",
+      "language": "en",
+      "observations": [
+        {
+          "collector": "google_news",
+          "language": "en",
+          "search_query": "\"CERN\"",
+          "search_region": "Europe",
+          "title": "Inside CERN’s 7,000-Ton −271°C ATLAS Detector - Engineerine"
+        }
+      ],
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9MWlVMVk9PMi1RRm9iNEhYbTZQd0VDN0pFZDg5b0R5V19jdDN6MGczMzg2RkxDeVF3U09ONnJoNXVmWUxWWGtJdTJVaUdVYU94amV0Tl9iUkZaRU1TdGdDUnNfMA?oc=5",
+      "profile_id": "institutions/cern",
+      "published_at": "2026-10-28T07:09:58+00:00",
+      "publisher": "Engineerine",
+      "search_query": "\"CERN\"",
+      "source_country": "unknown",
+      "source_id": "05893212791a26b32f7b9324",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE82VWRvNzlCUkxWdXhpbjRGVHVueVBnMGRXM1dZZXlibTZwWGQyNHBDMmt4Ynp4Rl9HNzhIQmU4d0RHUF9vV3B6bEFSZ1Q1VnE3VjdrbllSMDl0ODJsZFMzV2NUSVNRdlZtVmotbGNEdnZDeUJq?oc=5",
+      "content_fingerprint": "4f655ed126a4ca218b8baf3e",
+      "fetched_at": "2026-10-28T13:12:52.626852+00:00",
+      "institution_id": "cern",
+      "language": "en",
+      "observations": [
+        {
+          "collector": "google_news",
+          "language": "en",
+          "search_query": "\"CERN\"",
+          "search_region": "Europe",
+          "title": "CERN engineers cut the first magnet interconnection in the week of 17 September 2026 and will strip out 1.2 km of the Large Hadron Collider, which switched off on 29 June 2026 for Long Shutdown 3. - Make Tech Easier"
+        }
+      ],
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE82VWRvNzlCUkxWdXhpbjRGVHVueVBnMGRXM1dZZXlibTZwWGQyNHBDMmt4Ynp4Rl9HNzhIQmU4d0RHUF9vV3B6bEFSZ1Q1VnE3VjdrbllSMDl0ODJsZFMzV2NUSVNRdlZtVmotbGNEdnZDeUJq?oc=5",
+      "profile_id": "institutions/cern",
+      "published_at": "2026-10-27T20:50:28+00:00",
+      "publisher": "Make Tech Easier",
+      "search_query": "\"CERN\"",
+      "source_country": "unknown",
+      "source_id": "122a7fe5dc59531e2d92210c",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPY1J4YXk2cndwRzJXMkdSTDgwVFpkM2pvaTBsU1JndEZmUkc1Q29SVE5YeHBjYV95V0RZVnNTUF9GVlY3YVRfVTNIN0txUURNRlgyX3dMZy02NmV2Sk92X3VGNHFfdkV0UVdiVE1qUDVZOUtsRkhVS25ISDNaRUJzS3VGTDZvSHZkYnJGMjJJM3VvOHFqT2ZQVg?oc=5",
+      "content_fingerprint": "9186aea77373043082f7debe",
+      "fetched_at": "2026-10-28T13:12:52.626852+00:00",
+      "institution_id": "cern",
+      "language": "en",
+      "observations": [
+        {
+          "collector": "google_news",
+          "language": "en",
+          "search_query": "site:home.cern",
+          "search_region": "Europe",
+          "title": "Outstanding achievements of ATLAS Collaboration members celebrated at CERN – Home - Home | CERN"
+        }
+      ],
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPY1J4YXk2cndwRzJXMkdSTDgwVFpkM2pvaTBsU1JndEZmUkc1Q29SVE5YeHBjYV95V0RZVnNTUF9GVlY3YVRfVTNIN0txUURNRlgyX3dMZy02NmV2Sk92X3VGNHFfdkV0UVdiVE1qUDVZOUtsRkhVS25ISDNaRUJzS3VGTDZvSHZkYnJGMjJJM3VvOHFqT2ZQVg?oc=5",
+      "profile_id": "institutions/cern",
+      "published_at": "2026-10-27T17:01:16+00:00",
+      "publisher": "Home | CERN",
+      "search_query": "site:home.cern",
+      "source_country": "unknown",
+      "source_id": "16e32d306a8a69cc08d1088f",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOd0k2ZGJlY0xWSFJtWXNZYVhOT2M1bDBhV1BvSjhQYWxBU2UzaHRpMC1DYkkxcmV5SERiMk43NHI3cVJIb2hxdXB2Y1FNSmJLOW1pVGF1b1ZmTERoQUpFUU5mcTFkQUhjRF9vMzdORUZtQ1BicFNrMUpOdUJUbFFuWklDVjlxQk1YT2gwVkUyMU01a2VaUllkYm9Vd1dMVUgxTExqOElR?oc=5",
+      "content_fingerprint": "bc7c222cd01254b00b49e3bc",
+      "fetched_at": "2026-10-28T13:12:52.626852+00:00",
+      "institution_id": "cern",
+      "language": "en",
+      "observations": [
+        {
+          "collector": "google_news",
+          "language": "en",
+          "search_query": "\"CERN\"",
+          "search_region": "Europe",
+          "title": "Limburg gets Europe's first CERN innovation hub - Belga Share"
+        }
+      ],
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOd0k2ZGJlY0xWSFJtWXNZYVhOT2M1bDBhV1BvSjhQYWxBU2UzaHRpMC1DYkkxcmV5SERiMk43NHI3cVJIb2hxdXB2Y1FNSmJLOW1pVGF1b1ZmTERoQUpFUU5mcTFkQUhjRF9vMzdORUZtQ1BicFNrMUpOdUJUbFFuWklDVjlxQk1YT2gwVkUyMU01a2VaUllkYm9Vd1dMVUgxTExqOElR?oc=5",
+      "profile_id": "institutions/cern",
+      "published_at": "2026-10-27T15:36:01+00:00",
+      "publisher": "Belga Share",
+      "search_query": "\"CERN\"",
+      "source_country": "unknown",
+      "source_id": "2c419496c3588b6e4a51895c",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE41bWlEeHdkQXRUWXBYNnpHS0FfVGlRZl91NG9PTG00aGprTFJVbEFiSnV0eTQyU0lSUjJwRlRmT0E4UWdGZHIxa0haVVFFOS1sb0tld1BxeFhCRWJsTGFoU09YNE1SSUphdE82emdvQUxHY0ltYXFNNzRqcjdFR0k?oc=5",
+      "content_fingerprint": "5f3433d7b81bf14564d5bfa0",
+      "fetched_at": "2026-10-28T13:12:52.626852+00:00",
+      "institution_id": "cern",
+      "language": "en",
+      "observations": [
+        {
+          "collector": "google_news",
+          "language": "en",
+          "search_query": "site:home.cern",
+          "search_region": "Europe",
+          "title": "CERN-made HiLumi LHC quadrupoles ready for installation – Home - Home | CERN"
+        },
+        {
+          "collector": "google_news",
+          "language": "en",
+          "search_query": "\"CERN\"",
+          "search_region": "Europe",
+          "title": "CERN-made HiLumi LHC quadrupoles ready for installation – Home - Home | CERN"
+        }
+      ],
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE41bWlEeHdkQXRUWXBYNnpHS0FfVGlRZl91NG9PTG00aGprTFJVbEFiSnV0eTQyU0lSUjJwRlRmT0E4UWdGZHIxa0haVVFFOS1sb0tld1BxeFhCRWJsTGFoU09YNE1SSUphdE82emdvQUxHY0ltYXFNNzRqcjdFR0k?oc=5",
+      "profile_id": "institutions/cern",
+      "published_at": "2026-10-28T08:54:46+00:00",
+      "publisher": "Home | CERN",
+      "search_query": "\"CERN\"",
+      "source_country": "unknown",
+      "source_id": "5dc3e91f4b097c862236e7eb",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1QZmJrTm1sTHIzOThuNlotOXBSR2lmRWFoQml0cC1VUEJBeDdqMlpsSkJtUFoyVXBQbUFYLXJodVluallFWmp6R1YzRDQ1ckVSQTZkNG8ybU5QQk1OTFVtT0Z3MG55SXc?oc=5",
+      "content_fingerprint": "23808f8281913c356bf7520a",
+      "fetched_at": "2026-10-28T13:12:52.626852+00:00",
+      "institution_id": "cern",
+      "language": "en",
+      "observations": [
+        {
+          "collector": "google_news",
+          "language": "en",
+          "search_query": "site:home.cern",
+          "search_region": "Europe",
+          "title": "Computer Security: Uninvited nastiness – Home - Home | CERN"
+        },
+        {
+          "collector": "google_news",
+          "language": "en",
+          "search_query": "\"CERN\"",
+          "search_region": "Europe",
+          "title": "Computer Security: Uninvited nastiness – Home - Home | CERN"
+        }
+      ],
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1QZmJrTm1sTHIzOThuNlotOXBSR2lmRWFoQml0cC1VUEJBeDdqMlpsSkJtUFoyVXBQbUFYLXJodVluallFWmp6R1YzRDQ1ckVSQTZkNG8ybU5QQk1OTFVtT0Z3MG55SXc?oc=5",
+      "profile_id": "institutions/cern",
+      "published_at": "2026-10-28T10:56:25+00:00",
+      "publisher": "Home | CERN",
+      "search_query": "\"CERN\"",
+      "source_country": "unknown",
+      "source_id": "8045b204e07c55705a6aa6a9",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9CRjRXemFLZmJGMnpkM1N3UmFVUGRtSmxITjFwV2hHRW55VFpoUjQxeDB4dFJpQnFTcU5aM0hmenpIdm5jZkxMYjkyWjJ4TWdfRmx1ZmNNYzlIamFUejJTdUNiRmZpM3ZwRVNYX05LNVFwaTA3NGpLZ3ln?oc=5",
+      "content_fingerprint": "61b0cbc14e4011ac6b636d7a",
+      "fetched_at": "2026-10-28T13:12:52.626852+00:00",
+      "institution_id": "cern",
+      "language": "en",
+      "observations": [
+        {
+          "collector": "google_news",
+          "language": "en",
+          "search_query": "site:home.cern",
+          "search_region": "Europe",
+          "title": "CERN’s first Innovation Hub pilot to open in Belgium – Home - Home | CERN"
+        },
+        {
+          "collector": "google_news",
+          "language": "en",
+          "search_query": "\"CERN\"",
+          "search_region": "Europe",
+          "title": "CERN’s first Innovation Hub pilot to open in Belgium – Home - Home | CERN"
+        }
+      ],
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9CRjRXemFLZmJGMnpkM1N3UmFVUGRtSmxITjFwV2hHRW55VFpoUjQxeDB4dFJpQnFTcU5aM0hmenpIdm5jZkxMYjkyWjJ4TWdfRmx1ZmNNYzlIamFUejJTdUNiRmZpM3ZwRVNYX05LNVFwaTA3NGpLZ3ln?oc=5",
+      "profile_id": "institutions/cern",
+      "published_at": "2026-10-27T14:15:47+00:00",
+      "publisher": "Home | CERN",
+      "search_query": "\"CERN\"",
+      "source_country": "unknown",
+      "source_id": "8e40fd6827b602469bdf19b2",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQTDVuaXM4XzJyelZ1bXo5NER5S3lyLVhfcEN5SFFad29ud1Y0VG9hd2dUdHdYQ09FUHhQOURjSFhmS1hnU015X0k4ckVyRm15Ukg5Smx3dDMzWXZWdnRkSlFjam9GXzdzQjY1bmpOTVRZTGVGSTlhVXctUjdGX3NHWFNaN08wVGJYSmFVUVF2akpUbTBSUzdGRHpVOUtDXzRTMVRwTm1GSmNUdU9JZGJKME5LUlFJSXd3cHVPdkNYUHBucE1HZEU3QmUtSzBybjV0bUtNcnloM1NpWDh4eUJ1ZXpjRTRsQ1c1aGtyNG82TQ?oc=5",
+      "content_fingerprint": "9c94f547011692fc0ade4ae1",
+      "fetched_at": "2026-10-28T13:12:52.626852+00:00",
+      "institution_id": "cern",
+      "language": "en",
+      "observations": [
+        {
+          "collector": "google_news",
+          "language": "en",
+          "search_query": "\"CERN\"",
+          "search_region": "Europe",
+          "title": "Switzerland Study Tour: From the UN to CERN, 50 Indian students experience global learning - Education Times"
+        }
+      ],
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQTDVuaXM4XzJyelZ1bXo5NER5S3lyLVhfcEN5SFFad29ud1Y0VG9hd2dUdHdYQ09FUHhQOURjSFhmS1hnU015X0k4ckVyRm15Ukg5Smx3dDMzWXZWdnRkSlFjam9GXzdzQjY1bmpOTVRZTGVGSTlhVXctUjdGX3NHWFNaN08wVGJYSmFVUVF2akpUbTBSUzdGRHpVOUtDXzRTMVRwTm1GSmNUdU9JZGJKME5LUlFJSXd3cHVPdkNYUHBucE1HZEU3QmUtSzBybjV0bUtNcnloM1NpWDh4eUJ1ZXpjRTRsQ1c1aGtyNG82TQ?oc=5",
+      "profile_id": "institutions/cern",
+      "published_at": "2026-10-28T12:24:00+00:00",
+      "publisher": "Education Times",
+      "search_query": "\"CERN\"",
+      "source_country": "unknown",
+      "source_id": "9ad0ac008ce26acea4d367f3",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    },
+    {
+      "canonical_url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOTVdmYmRkSVJpMmRzdGh1MmRhWklKeHZlank2blNpLW5ETlhpZE9MMHlNTkh2UUZZMm9KRnFaQTJVTTRoU291SW1NNkxQMzFBQzBUZDd5UUdsT1QxeG5GVnhjTE9fbzdqYUF1TnIxd0dsbFo4MmpOOGFhMnZTcjkwUTBWblIxSW1KaFEwd001UmNDLVhxT2xRLVdCdHpoQXBlb3VZcGNoQQ?oc=5",
+      "content_fingerprint": "20b0d21c32c672fe7f81bb4d",
+      "fetched_at": "2026-10-28T13:12:52.626852+00:00",
+      "institution_id": "cern",
+      "language": "en",
+      "observations": [
+        {
+          "collector": "google_news",
+          "language": "en",
+          "search_query": "\"CERN\"",
+          "search_region": "Europe",
+          "title": "Limburg first region in Europe to host a CERN innovation hub in Hasselt - VRT"
+        }
+      ],
+      "origin_collector": "google_news",
+      "original_url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOTVdmYmRkSVJpMmRzdGh1MmRhWklKeHZlank2blNpLW5ETlhpZE9MMHlNTkh2UUZZMm9KRnFaQTJVTTRoU291SW1NNkxQMzFBQzBUZDd5UUdsT1QxeG5GVnhjTE9fbzdqYUF1TnIxd0dsbFo4MmpOOGFhMnZTcjkwUTBWblIxSW1KaFEwd001UmNDLVhxT2xRLVdCdHpoQXBlb3VZcGNoQQ?oc=5",
+      "profile_id": "institutions/cern",
+      "published_at": "2026-10-27T10:27:09+00:00",
+      "publisher": "VRT",
+      "search_query": "\"CERN\"",
+      "source_country": "unknown",
+      "source_id": "d15e6f160557105fa79eb773",
+      "source_kind": "secondary",
+      "source_seen_at": null
+    }
+  ],
+  "statistics": {
+    "collectors": [
+      {
+        "error_code": null,
+        "items": 4,
+        "query": "site:home.cern",
+        "source": "google_news",
+        "status": "ok"
+      },
+      {
+        "error_code": null,
+        "items": 8,
+        "query": "\"CERN\"",
+        "source": "google_news",
+        "status": "ok"
+      },
+      {
+        "error_code": null,
+        "items": 0,
+        "query": "\"CERN\"",
+        "source": "gdelt",
+        "status": "failed"
+      },
+      {
+        "items": 0,
+        "source": "rss",
+        "status": "failed"
+      }
+    ],
+    "items": 9,
+    "sources": 9
+  },
+  "status": "partial",
+  "time_window": {
+    "since": "2026-10-26T13:12:52.629537+00:00",
+    "until": "2026-10-28T13:12:52.629537+00:00"
+  },
+  "workflow": {
+    "repository": "JsonLord/Horizon",
+    "run_attempt": "1",
+    "run_id": "40694101853",
+    "source_commit": "c9dcef30a10ffe67b8e399baea5c2a6787c7dfd2"
+  }
+}
