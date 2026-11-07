@@ -1,0 +1,18 @@
+{
+  "recorded_at": "2026-11-07T11:32:44.352369+00:00",
+  "source_sha": "300f07bc4a91ff33520bef4cee8fdb7a2d441b82",
+  "dispatch_exit_code": 1,
+  "status": "blocked",
+  "http_status": 422,
+  "reason": "repository_actions_disabled",
+  "live_inference_verified": false,
+  "hosted_run_id": null,
+  "repository_variables_metadata_http_status": 403,
+  "repository_secret_metadata_http_status": 403,
+  "local_configuration_present": {
+    "HORIZON_DECISION_BASE_URL": false,
+    "HORIZON_DECISION_MODEL": false,
+    "HORIZON_DECISION_API_KEY": false,
+    "HORIZON_DECISION_API_MODE": false
+  }
+}

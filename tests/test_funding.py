@@ -345,6 +345,10 @@ def test_consecutive_qualification_uses_restored_history(tmp_path, monkeypatch):
             return Page(url, url, at, html="<h1>Synthetic qualification fixture</h1>")
     async def collect(**kwargs):
         kwargs["fetcher"] = Fetcher()
+        # Historical fixture must precede its verified November cutoff.
+        from datetime import datetime, UTC
+        kwargs["observed_at"] = datetime(2026, 10, 23, 12, 0 if not hasattr(collect,"called") else 1, tzinfo=UTC)
+        collect.called=True
         return await original(**kwargs)
     monkeypatch.setattr(pipeline, "collect_opportunities", collect)
     proofs = asyncio.run(qualify(tmp_path / "qualification"))

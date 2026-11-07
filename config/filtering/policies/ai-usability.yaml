@@ -1,0 +1,28 @@
+{
+  "topics": [
+    "usability",
+    "accessibility",
+    "agentic browser testing",
+    "inclusive UX",
+    "synthetic users",
+    "user simulation",
+    "AI research",
+    "regulatory compliance",
+    "agent evaluation",
+    "reliability",
+    "market entrants",
+    "enterprise demand"
+  ],
+  "weights": {
+    "relevance": 0.3,
+    "novelty": 0.2,
+    "importance": 0.2,
+    "actionability": 0.2,
+    "evidence": 0.1
+  },
+  "deprioritize": [
+    "generic LLM launches without UX or testing implications",
+    "reposts without new information",
+    "commentary without technical or business consequences"
+  ]
+}

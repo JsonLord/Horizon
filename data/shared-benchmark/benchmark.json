@@ -1,0 +1,138 @@
+{
+  "items": 200,
+  "labels": "unreviewed; no ground truth claimed",
+  "policies": [
+    {
+      "baseline_top10": [
+        "d1ce4a997d533ddda84fddd9",
+        "e69ec2a22582f93cde63fae6",
+        "f7af5d34e5578cf4c2e5839f",
+        "f67e4849dbf3b68e99c280ef",
+        "3d857c7be6e3bc41ba6f1735",
+        "aede03d0f9cf5fbb47a59e8d",
+        "ba0019492e9d1f394063d599",
+        "ce67b585827ad66190b04b18",
+        "1d322c3de21c41c8f7b0e8a0",
+        "00018593739d760622ac8fb7"
+      ],
+      "coverage_limit": "Corpus reflects existing archive coverage; AUX/funding positives require curation and reviewed labels.",
+      "duplicate_publication_rate": null,
+      "fallback_frequency": 1.0,
+      "latency_ms": 500,
+      "metrics": {
+        "important_item_recall": null,
+        "new_development_recall": null,
+        "precision_at_10": null,
+        "unsupported_finding_rate": null
+      },
+      "model_cost": 0,
+      "model_cost_per_accepted": 0,
+      "model_latency_ms": null,
+      "model_requests": 0,
+      "profile": "examples/ai-usability",
+      "publication": "disabled",
+      "shared_top10": [
+        "a6ba913ff7c30d6c5300bda0",
+        "dc833bbe92bf5849606f6fdb",
+        "b1ed0f658c83f0bb8a780e79",
+        "b64d17f89a99d9a142ac7bad",
+        "c30817411edc3c0179d040ef",
+        "e69ec2a22582f93cde63fae6",
+        "f7af5d34e5578cf4c2e5839f",
+        "a4bce2b6fc352ff8bdeedeb0",
+        "826616eda19accabfd5ad4ba",
+        "643d0a9d47ebdd5fe27c0a3d"
+      ]
+    },
+    {
+      "baseline_top10": [
+        "d1ce4a997d533ddda84fddd9",
+        "e69ec2a22582f93cde63fae6",
+        "f7af5d34e5578cf4c2e5839f",
+        "f67e4849dbf3b68e99c280ef",
+        "3d857c7be6e3bc41ba6f1735",
+        "aede03d0f9cf5fbb47a59e8d",
+        "ba0019492e9d1f394063d599",
+        "ce67b585827ad66190b04b18",
+        "1d322c3de21c41c8f7b0e8a0",
+        "00018593739d760622ac8fb7"
+      ],
+      "coverage_limit": "Corpus reflects existing archive coverage; AUX/funding positives require curation and reviewed labels.",
+      "duplicate_publication_rate": null,
+      "fallback_frequency": 1.0,
+      "latency_ms": 498,
+      "metrics": {
+        "important_item_recall": null,
+        "new_development_recall": null,
+        "precision_at_10": null,
+        "unsupported_finding_rate": null
+      },
+      "model_cost": 0,
+      "model_cost_per_accepted": null,
+      "model_latency_ms": null,
+      "model_requests": 0,
+      "profile": "funding/de-eu",
+      "publication": "disabled",
+      "shared_top10": [
+        "b1ed0f658c83f0bb8a780e79",
+        "b64d17f89a99d9a142ac7bad",
+        "c30817411edc3c0179d040ef",
+        "a4bce2b6fc352ff8bdeedeb0",
+        "74ed9b9e409606cb071790c9",
+        "e05acd59c97ecd88dc40be67",
+        "4a67dcf88f595782e466f9db",
+        "a576661c90b12f8b59c3f5bc",
+        "1ed2d10ac9b4f356f4e25629",
+        "27b213a39543a49a2c134aec"
+      ]
+    },
+    {
+      "baseline_top10": [
+        "d1ce4a997d533ddda84fddd9",
+        "e69ec2a22582f93cde63fae6",
+        "f7af5d34e5578cf4c2e5839f",
+        "f67e4849dbf3b68e99c280ef",
+        "3d857c7be6e3bc41ba6f1735",
+        "aede03d0f9cf5fbb47a59e8d",
+        "ba0019492e9d1f394063d599",
+        "ce67b585827ad66190b04b18",
+        "1d322c3de21c41c8f7b0e8a0",
+        "00018593739d760622ac8fb7"
+      ],
+      "coverage_limit": "Corpus reflects existing archive coverage; AUX/funding positives require curation and reviewed labels.",
+      "duplicate_publication_rate": null,
+      "fallback_frequency": 1.0,
+      "latency_ms": 487,
+      "metrics": {
+        "important_item_recall": null,
+        "new_development_recall": null,
+        "precision_at_10": null,
+        "unsupported_finding_rate": null
+      },
+      "model_cost": 0,
+      "model_cost_per_accepted": 0,
+      "model_latency_ms": null,
+      "model_requests": 0,
+      "profile": "world/global",
+      "publication": "disabled",
+      "shared_top10": [
+        "cf0af3049ed98ac977c0620a",
+        "ba41936c301dcd29327658db",
+        "2673cde15b9fed161e07bbce",
+        "71a4f89db71fcdae554a3ea4",
+        "26d545f6c241cb53b11fc42c",
+        "aee345d7d9edea4bbfc8fe99",
+        "a7f087f5915d12b42ebd27ca",
+        "63d8ee80eb4710ee2300dd08",
+        "20332f3d61427c8e359a245c",
+        "dac86d981fa601c7300d7dbf"
+      ]
+    }
+  ],
+  "source_profile_counts": {
+    "examples/ai-usability": 2,
+    "funding/de-eu": 3,
+    "world/global": 195
+  },
+  "source_revision": "5c28eebb15b1d92fd3f16fcc7c18a331d634b7f8"
+}

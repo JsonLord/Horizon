@@ -171,3 +171,20 @@ collection/publication, and changes only generated queue JSON/Markdown through
 the same guarded writer. The proof notice reports success or the exact bounded
 GitHub permission failure; a completed qualification job with `status: blocked`
 is not successful PR publication. No token or repository setting is changed.
+
+## Shared decision filtering
+
+Read docs/SHARED_INTELLIGENCE_FILTERING.md before editing the new subsystem.
+Its only inference adapter is OpenAI-compatible chat, using global
+HORIZON_DECISION_BASE_URL / MODEL / API_MODE repository variables and
+HORIZON_DECISION_API_KEY repository secret. Do not add native Laya, OpenRouter or
+TypeSafe dependencies to this pipeline; old program Laya remains backward-compatible.
+Policies inherit config/filtering/defaults.yaml; bind reviewed profile IDs in
+config/filtering/bindings.json. Bump versions for tuning, keep source/eligibility
+hard rules independent, and keep decisions staged until qualification. A model,
+feedback or cache must never promote unknown funding eligibility. No endpoint,
+model ID or secret belongs in a research profile. Use the explicit shared-filtering
+qualification flag only in an authorized read-only Actions execution. Repository
+Actions currently refuses execution; do not enable it without authorization that
+accounts for existing schedules. Never claim live inference from mock/fallback
+results. Benchmark labels are unreviewed, not ground truth.

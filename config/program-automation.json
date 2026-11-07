@@ -1,6 +1,13 @@
 {
   "schema_version": "1.0",
-  "allowed_refs": ["main", "feature/horizon-program-intelligence-spec", "feature/program-intelligence-implementation", "research/program-intelligence"],
+  "allowed_refs": [
+    "main",
+    "feature/horizon-program-intelligence-spec",
+    "feature/program-intelligence-implementation",
+    "research/program-intelligence",
+    "feature/shared-intelligence-filtering",
+    "research/ai-usability"
+  ],
   "review_pr_enabled": false,
   "intel_publication_enabled": false,
   "generated_branch": "automation/program-intelligence"
