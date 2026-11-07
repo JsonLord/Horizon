@@ -242,9 +242,13 @@ class ResearchService:
                                         and iid not in finding["institutions"]
                                     ):
                                         finding["institutions"].append(iid)
-                        model, mode, warnings = await enrich(
-                            findings, os.getenv("HORIZON_AI_MODE", "auto")
-                        )
+                        from .filtering import FilterPolicy
+                        if FilterPolicy.load(profile.profile_id):
+                            model, mode, warnings = None, "deterministic", []
+                        else:
+                            model, mode, warnings = await enrich(
+                                findings, os.getenv("HORIZON_AI_MODE", "auto")
+                            )
                         report = make_report(
                             profile,
                             jid,

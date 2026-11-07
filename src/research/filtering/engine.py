@@ -13,12 +13,16 @@ class FilterPolicy(Strict):
     version: str
     profile_id: str
     topics: list[str]
+    public_context: list[str]=Field(default_factory=list,max_length=10)
+    deprioritize: list[str]=Field(default_factory=list,max_length=20)
     exclusions: list[str]
     weights: dict[str,float]
+    max_cost_usd: float | None=Field(default=None,ge=0)
+    usd_per_million_tokens: float | None=Field(default=None,ge=0)
     concurrency: int=Field(default=1,ge=1,le=4)
     threshold: float=Field(ge=0,le=1)
     max_requests: int=Field(ge=0,le=120)
-    max_tokens: int=Field(ge=0,le=100000)
+    max_tokens: int=Field(ge=0,le=200000)
     @model_validator(mode='after')
     def valid_weights(self):
         if set(self.weights)!={'relevance','novelty','importance','actionability','evidence'} or abs(sum(self.weights.values())-1)>1e-8 or any(v<0 for v in self.weights.values()):raise ValueError('Invalid weights')
@@ -93,35 +97,51 @@ class AttentionRanking:
 class HorizonFilterPipeline:
     def __init__(self,policy,state,provider=None):self.policy=policy;self.state=state;self.provider=provider or DecisionModelProvider(concurrency=policy.concurrency);self.feedback=FeedbackStore(state)
     async def run(self,findings,sources,previous=None,hard_statuses=None):
+        if self.policy.profile_id.startswith("funding/") and hard_statuses is None:hard_statuses={}
         results=[];requests=0;reserved=0
+        context=list(previous or [])
         evidence={s['source_id']:s for s in sources}
         for item in findings:
             public={'summary':item['summary'][:1000],'event_id':item['event_id'],'evidence':[{'id':e['source_id'],'snippet':e['snippet'][:500],'fingerprint':evidence[e['source_id']].get('content_fingerprint')} for e in item.get('evidence',[]) if e['source_id'] in evidence]}
             digest=hashlib.sha256(dumps(public).encode()).hexdigest()
-            key=hashlib.sha256(dumps([self.policy.model_dump(),self.provider.identity(),item['finding_id'],digest,previous or [],self.state.get('feedback',self.policy.profile_id+'|'+item['finding_id']),self.state.get('taste',self.policy.profile_id),self.state.get('examples',self.policy.profile_id),hard_statuses]).encode()).hexdigest()
+            key=hashlib.sha256(dumps(['shared-filtering-1.0',self.policy.model_dump(),self.provider.identity(),item['finding_id'],digest,context,self.state.get('feedback',self.policy.profile_id+'|'+item['finding_id']),self.state.get('taste',self.policy.profile_id),self.state.get('examples',self.policy.profile_id),hard_statuses]).encode()).hexdigest()
             cached=self.state.get('completed',key)
-            if cached:results.append({**cached,'cache_hit':True});continue
-            text=item['summary'].lower();novelty=NoveltyGate().run(item,previous or [])
+            if cached:
+                current_hard=DeterministicGate().run(item,self.policy) and bool(public['evidence'])
+                if hard_statuses is not None:current_hard=current_hard and hard_statuses.get(item['event_id'])=='ELIGIBLE_NOW'
+                cached={**cached,'hard_gate':current_hard,'accepted':bool(cached.get('accepted')) and current_hard}
+                results.append({**cached,'cache_hit':True});context.append({**item,'event_id':cached['event_id']});continue
+            text=item['summary'].lower();novelty=NoveltyGate().run(item,context)
             values={'relevance':min(1,sum(t.lower() in text for t in self.policy.topics)/2),'novelty':0 if novelty=='coverage' else 1,'importance':.5,'actionability':.5,'evidence':1 if public['evidence'] else 0}
+            candidates=sorted(context,key=lambda p:len(set(p['summary'].lower().split()) & set(text.split())),reverse=True)[:3]
             gates={};failures=[]
             for command in COMMANDS:
                 cachekey=key+'|'+command
                 entry=self.state.get('decision',cachekey)
-                if entry is None and self.provider.configured and requests+3<=self.policy.max_requests and reserved+13500<=self.policy.max_tokens:
-                    requests+=3;reserved+=13500
-                    decision,meta=await {'relevance':SemanticRelevanceGate,'worth-attention':ActionabilityGate,'same-story':SameStoryGate,'importance':ImportanceGate,'claim-support':ClaimSupportGate,'hfs':HFSGate}[command]().run(self.provider,{**public,'topics':self.policy.topics,'curated_examples':self.state.get('examples',self.policy.profile_id) or [],'previous':[{'event_id':p['event_id'],'summary':p['summary'][:500]} for p in (previous or [])[-3:]]})
+                price=self.policy.usd_per_million_tokens
+                cost_allowed=self.policy.max_cost_usd is None or price is not None and (reserved+19500)*price/1000000<=self.policy.max_cost_usd
+                if entry is None and self.provider.configured and cost_allowed and requests+3<=self.policy.max_requests and reserved+19500<=self.policy.max_tokens:
+                    requests+=3;reserved+=19500
+                    decision,meta=await {'relevance':SemanticRelevanceGate,'worth-attention':ActionabilityGate,'same-story':SameStoryGate,'importance':ImportanceGate,'claim-support':ClaimSupportGate,'hfs':HFSGate}[command]().run(self.provider,{**public,'topics':self.policy.topics,'research_assumptions_not_eligibility':self.policy.public_context,'deprioritize':self.policy.deprioritize,'curated_examples':self.state.get('examples',self.policy.profile_id) or [],'previous':[{'event_id':p['event_id'],'summary':p['summary'][:500]} for p in candidates]})
                     entry={'decision':decision.model_dump() if decision else None,'provider':meta}
                     if decision:self.state.put('decision',cachekey,entry)
-                if entry is None:entry={'decision':None,'provider':{'family':'openai_chat','status':'budget_limit' if self.provider.configured else 'unavailable','tokens':None,'cost':None}}
+                if entry is None:entry={'decision':None,'provider':{'family':'openai_chat','status':'budget_limit' if self.provider.configured else 'unavailable','model':getattr(self.provider,'model',None),'attempts':0,'latency_ms':None,'tokens':None,'cost':None}}
                 if entry:
                     gates[command]=entry
                     if not entry['decision']:failures.append(command)
             for cmd,dimension in [('relevance','relevance'),('importance','importance'),('worth-attention','actionability')]:
                 if gates.get(cmd,{}).get('decision'):values[dimension]=gates[cmd]['decision']['score']
             story=gates.get('same-story',{}).get('decision')
+            target_event=item['event_id']
             if story and story['verdict'] in ('same','development','contradiction'):
                 novelty={'same':'coverage','development':'development','contradiction':'review'}[story['verdict']]
+                if story.get('related_event_id'):
+                    if hard_statuses is None:target_event=story['related_event_id']
+                    elif story['related_event_id']!=item['event_id']:novelty='review'
             support=gates.get('claim-support',{}).get('decision')
+            if support and support['verdict']=='unknown':novelty='review'
+            if story and story['verdict']=='unknown' and context:novelty='review'
+            values['novelty']=0 if novelty=='coverage' else .5 if novelty=='review' else 1
             taste=self.state.get('taste',self.policy.profile_id) or {'topics':{},'sources':{}}
             adjustment=sum(v for t,v in taste['topics'].items() if t.lower() in text)+sum(taste['sources'].get(s,0) for s in item['source_ids'])
             values['relevance']=max(0,min(1,values['relevance']+max(-.1,min(.1,adjustment))))
@@ -130,9 +150,10 @@ class HorizonFilterPipeline:
             hard=DeterministicGate().run(item,self.policy) and bool(public['evidence'])
             if hard_statuses is not None:hard=hard and hard_statuses.get(item['event_id'])=='ELIGIBLE_NOW'
             score=max(0,min(1,AttentionRanking().score(values,self.policy)+self.feedback.adjustment(self.policy.profile_id,item['finding_id'])))
-            result={'cache_hit':False,'public_summary':item['summary'][:500],'item_id':item['finding_id'],'event_id':item['event_id'],'profile_id':self.policy.profile_id,'policy_version':self.policy.version,'input_hash':digest,'gates':gates,'dimensions':values,'attention':score,'novelty':novelty,'evidence_ids':item['source_ids'],'accepted':hard and score>=self.policy.threshold and novelty not in ('coverage','review') and not(support and support['verdict']=='no'),'hard_gate':hard,'fallback':not gates or bool(failures),'failures':failures,'provider_family':'openai_chat','heuristic_not_probability':True}
+            result={'engine_version':'shared-filtering-1.0','cache_hit':False,'public_summary':item['summary'][:500],'item_id':item['finding_id'],'event_id':target_event,'profile_id':self.policy.profile_id,'policy_version':self.policy.version,'input_hash':digest,'gates':gates,'dimensions':values,'attention':score,'novelty':novelty,'evidence_ids':item['source_ids'],'accepted':hard and score>=self.policy.threshold and novelty not in ('coverage','review') and not(support and support['verdict']=='no'),'hard_gate':hard,'fallback':not gates or bool(failures),'failures':failures,'provider_family':'openai_chat','heuristic_not_probability':True}
             # Failed inference is retried on a later execution, not cached forever.
             if not result['fallback']:self.state.put('completed',key,result)
             self.state.put('history',self.policy.profile_id+'|'+item['finding_id'],result)
             results.append(result)
+            context.append({**item,'event_id':target_event})
         return sorted(results,key=lambda r:r['attention'],reverse=True)

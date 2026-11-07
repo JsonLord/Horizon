@@ -1,10 +1,16 @@
 {
   "topics": [
-    "policy",
-    "institution",
-    "research",
-    "economic",
-    "governance"
+    "institutional policy",
+    "geopolitics",
+    "scientific research",
+    "economic consequences",
+    "technology governance",
+    "institutional decisions",
+    "government",
+    "election",
+    "war",
+    "sanctions",
+    "central bank"
   ],
   "weights": {
     "relevance": 0.25,
@@ -12,5 +18,11 @@
     "importance": 0.3,
     "actionability": 0.05,
     "evidence": 0.15
-  }
+  },
+  "deprioritize": [
+    "opinion-only republication",
+    "unattributed rumor",
+    "duplicate coverage without new evidence",
+    "headlines without a substantive development"
+  ]
 }

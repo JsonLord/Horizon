@@ -1,10 +1,15 @@
 {
   "topics": [
-    "grant",
-    "founder",
+    "non-dilutive grant",
+    "research commercialization",
+    "pre-incorporation",
     "Berlin",
-    "research",
-    "software"
+    "Germany",
+    "EU",
+    "microloan",
+    "incubator",
+    "AI software infrastructure",
+    "university collaboration"
   ],
   "weights": {
     "relevance": 0.2,
@@ -12,5 +17,9 @@
     "importance": 0.15,
     "actionability": 0.35,
     "evidence": 0.2
-  }
+  },
+  "public_context": [
+    "Research target: Germany/Berlin AI software and AUX research.",
+    "Pre-incorporation founder support is a research assumption, never verified applicant eligibility."
+  ]
 }

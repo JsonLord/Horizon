@@ -48,6 +48,9 @@ concurrency:
   cancel-in-progress: false
 jobs:
   collect:
+    permissions:
+      contents: read
+      actions: read
     if: inputs.program_qualification != true && inputs.funding_qualification != true && inputs.funding_acceptance != true && inputs.funding_review_qualification != true && inputs.shared_filtering_qualification != true
     runs-on: ubuntu-24.04
     timeout-minutes: 20
@@ -58,11 +61,19 @@ jobs:
           python-version: '3.11'
       - uses: astral-sh/setup-uv@v7
       - run: uv sync --frozen
+      - name: Restore same-revision filtering cache from a successful prior run
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: uv run python -m scripts.filter_state restore
       - name: Validate inputs and run shared service
         env:
           PROFILE_ID: ${{ inputs.profile_id }}
           LOOKBACK_HOURS: ${{ inputs.lookback_hours || '48' }}
           HORIZON_AI_MODE: 'off'
+          HORIZON_DECISION_BASE_URL: ${{ vars.HORIZON_DECISION_BASE_URL }}
+          HORIZON_DECISION_MODEL: ${{ vars.HORIZON_DECISION_MODEL }}
+          HORIZON_DECISION_API_KEY: ${{ secrets.HORIZON_DECISION_API_KEY }}
+          HORIZON_DECISION_API_MODE: ${{ vars.HORIZON_DECISION_API_MODE }}
           ARCHIVE_REPO: ${{ github.repository }}
         run: |
           uv run python - <<'PY'
@@ -80,6 +91,17 @@ jobs:
           name: research-archive
           path: data/research/intel
           retention-days: 7
+          if-no-files-found: error
+      - name: Seal optional shared filtering cache
+        run: uv run python -m scripts.filter_state seal
+      - uses: actions/upload-artifact@v6
+        if: hashFiles('data/research/filtering/manifest.json') != ''
+        with:
+          name: shared-filter-cache
+          path: |
+            data/research/filtering/checkpoint.sqlite
+            data/research/filtering/manifest.json
+          retention-days: 14
           if-no-files-found: error
   publish:
     if: github.ref == 'refs/heads/main' && github.workflow_ref == format('{0}/.github/workflows/horizon-intel.yml@refs/heads/main', github.repository)
