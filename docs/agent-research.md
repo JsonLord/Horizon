@@ -651,3 +651,66 @@ qualification will access configured variables/secret without logging values.
 Full existing+initial tests: 445 passed; MCP reports 24 tools/12 profiles. A
 historical funding fixture was clock-frozen before its already-passed Nov 4 cutoff;
 no live deadline rules were relaxed. Hosted, benchmark and remaining gates pending.
+
+
+Shared filtering follow-up (7 November): all three policies use the exclusive
+OpenAI chat provider. Added within-batch/development event linkage and candidate
+selection, funding-safe cache invalidation/current hard-gate recheck, bounded
+profile/topic/source feedback and public examples, optional dollar-budget fail-
+closed behavior, retry cooldowns, cache/corruption tests and normal Actions
+same-revision state artifact restore/seal. Legacy enrichment is bypassed only
+for profiles using the new pipeline; legacy Laya remains separate. No production
+publishing/schedule flag changed. New namespace has 12 profiles; all existing IDs
+remain. The public authored funding source and its 43-link audit remain unchanged.
+
+Built a 200-item genuine archive corpus from intel revision
+5c28eebb15b1d92fd3f16fcc7c18a331d634b7f8. It is all world/global, unreviewed and
+not ground truth; AUX/funding positive coverage and reviewed labels are pending.
+Offline comparison stores archived/new top tens, actual CPU timing and fallback
+frequency; quality/publication metrics remain null when not supportable. Live
+benchmark requests require --live-model and still obey per-policy budgets.
+
+Actual hosted dispatch was rejected HTTP 422: Actions has been disabled for
+this repository. Variable and secret metadata reads were HTTP 403. No new hosted
+run or real provider inference occurred; do not substitute earlier funding runs
+or local/mock success as evidence. Enabling Actions could resume existing cron
+jobs and was not authorized or performed. Local fixture smoke on all three
+policies and deliberately corrupted-working-state recovery pass with zero model
+requests; production model integration remains explicitly UNVERIFIED.
+
+Full regressions reached 454 passed in 5.64s; MCP smokes pass (24 tools / 12
+profiles), funding projection/43-link audit pass and actionlint 1.7.7 passes.
+An additional trace-only metadata change will receive focused validation before
+final commit. See SHARED_INTELLIGENCE_FILTERING_ACCEPTANCE.md for partial/blocked
+gates. No force-push, merge, intel publication, permission/network/secrets change
+or existing schedule modification occurred.
+
+
+Final local coverage update: actual AUX public collection completed with two
+findings/two sources/two shared decisions, no live inference and no publication;
+proof is shared-filtering-local-collection.json. Final benchmark has 200 cases:
+195 archived news findings, 2 actual local AUX findings, and 3 explicitly marked
+historical official opportunity projections (not fabricated news/baseline scores).
+All labels remain unreviewed; metrics are null, and model quality is not certified.
+453 tests passed after normal cache installation; strict numeric JSON validation,
+stock strict-schema normalization and the final corpus changes bring the final
+suite to 455 tests. The final timing is recorded after validation. All local
+semantic/provider tests remain mocks or deterministic fallback, never live smoke
+success. Actions dispatch is still blocked; no hosted result exists.
+
+Final validation: 458 tests passed in 5.23s, including direct funding calls with
+missing assessments (fail closed), strict numeric/command-specific JSON and
+review-label type validation. Policies are 1.1-provisional with all requested
+interest/deprioritization topics. Request cap is 6 KB, conservative reservation
+19,500 tokens per decision, default policy cap 120,000; prices remain optional
+and unknown actual billing is never invented. Both MCP smokes and actionlint
+pass; actual AUX collection proof and the provenance-rich 200-case corpus are
+retained. All model/hosted success claims remain blocked pending authorized
+configuration/execution and reviewed quality labels.
+
+Final full suite: **458 passed in 5.23s**. The correction is implemented without
+claiming live integration success: actual final dispatch remains HTTP 422 Actions
+disabled. The secure environment has none of the four HORIZON_DECISION_* settings;
+no endpoint/model/key was guessed. Existing draft PR #5 and production refs remain
+unchanged. Model/token config and local recovery are ready for authorized testing,
+with quality metrics intentionally unclaimed pending reviewed labels.

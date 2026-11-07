@@ -1,0 +1,15 @@
+{
+  "schema_version": "1.0",
+  "archive_revision": "5c28eebb15b1d92fd3f16fcc7c18a331d634b7f8",
+  "items": 200,
+  "case_counts": {
+    "examples/ai-usability": 2,
+    "funding/de-eu": 3,
+    "world/global": 195
+  },
+  "corpus_sha256": "ba4f3655056bac092d5a4080e2b8c39983a4b8edf985806f9f22844a672572ca",
+  "benchmark_sha256": "117a109aceb3a50dbbbe3a71ae193bad5ee35444fd3b4f6688d1f87a8c1ce41a",
+  "policies_version": "1.1-provisional",
+  "ground_truth_available": false,
+  "live_model_evaluation_verified": false
+}
