@@ -631,3 +631,23 @@ workflow lint were rerun and passed after that code change. Final code 805028e
 passed push regression **39991873667** and PR regression **39991878771**. The
 native-model live failure and GitHub-token PR policy block remain explicitly
 partial; no success is inferred from those completed qualification jobs.
+
+## Shared intelligence filtering — 7 November 2026
+
+User provider correction overrides native/SystemOne provisions in the attachment:
+new shared filtering selects exclusively HORIZON_DECISION_* OpenAI chat config.
+Existing Laya remains separate. Created feature/shared-intelligence-filtering
+from the funding implementation. Audited Pi Durable revision 273b79b (MIT),
+jev-classify.ts and news/hfs.ts; independent Python adaptation, no copied code.
+Added three versioned inherited policies, dedicated examples/ai-usability profile,
+shared service staging metadata, six schema-validated semantic commands, bounded
+provider retry/format fallback/circuit breaker, transactional SQLite cache and
+feedback/checkpoint interfaces. Funding assessments remain mandatory hard gates.
+No endpoint/model/key is in a profile. Production findings/publication unchanged.
+Local deterministic smoke and corrupted-working-state recovery passed for all
+three policies; live inference is UNVERIFIED locally (configuration absent).
+Repository variables/secrets metadata reads return HTTP 403; read-only Actions
+qualification will access configured variables/secret without logging values.
+Full existing+initial tests: 445 passed; MCP reports 24 tools/12 profiles. A
+historical funding fixture was clock-frozen before its already-passed Nov 4 cutoff;
+no live deadline rules were relaxed. Hosted, benchmark and remaining gates pending.

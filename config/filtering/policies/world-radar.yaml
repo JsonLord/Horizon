@@ -1,0 +1,16 @@
+{
+  "topics": [
+    "policy",
+    "institution",
+    "research",
+    "economic",
+    "governance"
+  ],
+  "weights": {
+    "relevance": 0.25,
+    "novelty": 0.25,
+    "importance": 0.3,
+    "actionability": 0.05,
+    "evidence": 0.15
+  }
+}

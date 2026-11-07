@@ -1,0 +1,61 @@
+{
+  "schema_version": "1.0",
+  "profile_id": "examples/ai-usability",
+  "mode": "research_job",
+  "name": "AI usability and accessibility research",
+  "enabled": true,
+  "topics": [
+    "accessibility",
+    "usability",
+    "agent evaluation"
+  ],
+  "regions": [
+    "Americas",
+    "Europe",
+    "Africa",
+    "Asia",
+    "Oceania"
+  ],
+  "languages": [
+    "en"
+  ],
+  "queries": [
+    {
+      "source": "google_news",
+      "text": "AI usability accessibility agent browser testing",
+      "language": "en",
+      "country": "GB",
+      "topic": "accessibility",
+      "region": "Europe"
+    }
+  ],
+  "sources": [
+    "gdelt",
+    "google_news",
+    "rss"
+  ],
+  "schedule_hint": "manual",
+  "lookback_hours": 48,
+  "max_items": 60,
+  "max_queries": 2,
+  "ranking": {
+    "mode": "keyword",
+    "minimum_score": 0
+  },
+  "output": {
+    "languages": [
+      "en"
+    ],
+    "markdown": true,
+    "json": true,
+    "changes": true
+  },
+  "feeds": [
+    {
+      "name": "Simon Willison (existing Horizon public feed)",
+      "url": "https://simonwillison.net/atom/everything/",
+      "topic": "technology",
+      "region": "unknown"
+    }
+  ]
+}

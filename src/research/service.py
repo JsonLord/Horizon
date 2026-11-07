@@ -256,6 +256,22 @@ class ResearchService:
                             mode,
                             warnings,
                         )
+                    from .filtering import FilterPolicy, HorizonFilterPipeline
+                    from .filtering.engine import DurableCheckpointStore
+                    filtering_policy=FilterPolicy.load(profile.profile_id)
+                    if filtering_policy:
+                        state=DurableCheckpointStore(self.root/'filtering/state.sqlite')
+                        try:
+                            previous_filter=self.archive.latest(profile.profile_id)
+                            hard_statuses=None
+                            if profile.mode=='funding_watch':
+                                from .funding.models import Applicant,Opportunity,assess
+                                from .profiles import ROOT as FILTER_ROOT
+                                applicant=Applicant.model_validate_json((FILTER_ROOT/'config/funding-applicant.json').read_text())
+                                hard_statuses={r['opportunity_id']:assess(Opportunity.model_validate(r),applicant)['status'] for r in report['statistics']['funding']['opportunities']}
+                            report['statistics']['shared_filtering']={'staging_only':True,'decisions':await HorizonFilterPipeline(filtering_policy,state).run(report['findings'],report['sources'],(previous_filter or {}).get('findings',[]),hard_statuses=hard_statuses)}
+                        finally:
+                            state.close()
                     report["history"] = dict(self.history)
                     previous = self.archive.latest(profile.profile_id)
                     report["history"]["previous_report_id"] = (
