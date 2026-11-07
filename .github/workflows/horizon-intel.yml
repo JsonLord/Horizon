@@ -4,6 +4,10 @@ on:
     - cron: '23 6 * * *'
   workflow_dispatch:
     inputs:
+      shared_filtering_qualification:
+        description: Read-only shared filtering smoke and checkpoint restoration
+        type: boolean
+        default: false
       funding_review_qualification:
         description: Explicit isolated data-PR test with the automatic job token; never targets main
         type: boolean
@@ -44,7 +48,7 @@ concurrency:
   cancel-in-progress: false
 jobs:
   collect:
-    if: inputs.program_qualification != true && inputs.funding_qualification != true && inputs.funding_acceptance != true && inputs.funding_review_qualification != true
+    if: inputs.program_qualification != true && inputs.funding_qualification != true && inputs.funding_acceptance != true && inputs.funding_review_qualification != true && inputs.shared_filtering_qualification != true
     runs-on: ubuntu-24.04
     timeout-minutes: 20
     steps:
@@ -221,3 +225,11 @@ jobs:
           path: data/funding-review-qualification/proof.json
           if-no-files-found: warn
           retention-days: 14
+  shared-filtering-qualify:
+    if: inputs.shared_filtering_qualification == true && github.event_name == 'workflow_dispatch' && github.ref == 'refs/heads/feature/shared-intelligence-filtering'
+    permissions:
+      contents: read
+      actions: read
+    uses: ./.github/workflows/shared-filtering.yml
+    secrets:
+      HORIZON_DECISION_API_KEY: ${{ secrets.HORIZON_DECISION_API_KEY }}

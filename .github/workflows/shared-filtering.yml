@@ -1,5 +1,9 @@
 name: Shared filtering staging qualification
 on:
+  workflow_call:
+    secrets:
+      HORIZON_DECISION_API_KEY:
+        required: false
   workflow_dispatch:
   push:
     branches: [feature/shared-intelligence-filtering]
@@ -10,7 +14,7 @@ on:
       - 'profiles/examples/ai-usability.json'
       - 'scripts/shared_filtering.py'
       - 'tests/test_shared_filtering.py'
-      - '.github/workflows/shared-filtering.yml' 
+      - '.github/workflows/shared-filtering.yml'
 permissions:
   contents: read
   actions: read
