@@ -188,3 +188,51 @@ qualification flag only in an authorized read-only Actions execution. Repository
 Actions currently refuses execution; do not enable it without authorization that
 accounts for existing schedules. Never claim live inference from mock/fallback
 results. Benchmark labels are unreviewed, not ground truth.
+
+## Technical radar fleet and source changes
+
+Read `docs/RADAR_PULL_CONTRACT.md` and `docs/TECHNICAL_RADAR_ARCHITECTURE.md`.
+Trusted controller code lives on the reviewed application branch. The three
+`radar/*` branches contain only isolated research data; never execute their code.
+Implementation is stacked on PR #7. Leave PR #5/#7 and all schedules unmerged and
+inactive until explicitly authorized. `config/radar/registry.json` has separate
+false scheduling/publication flags; enabling Actions itself can resume existing
+production cron and is not an innocuous qualification step.
+
+To change monitored subjects, edit the radar's profile in `profiles/radars/` and
+its policy in `config/filtering/policies/radar-*.yaml`, then bump the policy
+version and matching registry version. `config/radar/sources/<radar>.json` is the
+URL/repository register: approved project repository seeds, en/de/fr discovery
+queries and links requiring review. Profile queries drive collection; keep their
+mirrored source-register queries consistent. Do not add guessed feeds, assumed
+source language or private URLs. New source families need explicit bounded
+adapters and official ownership/source review. A query match is only a nomination.
+
+Steering controls: query text/language/country, topics, lookback (max 168h),
+max_items/max_queries live in the profile. The policy controls shared attention
+weights and threshold. Registry controls independent radar IDs/branches, candidate
+cap (30), model request/token budgets (36/200000), and 12-hour eligibility.
+The runner reserves technical distillation/support budget before shared scoring;
+overflow stays in review. Unknown source language or semantic relevance is not an
+exclusion. Primary evidence, bounded verbatim supporting quotations, separately
+validated distillation support and explicit source language are required for
+HIGH_SIGNAL. Marketing text and a large model score cannot override these gates.
+
+Use `uv run python -m scripts.radar_fleet collect --radar rag-memory --restore`
+for read-only development/qualification (repeat for other registered IDs).
+`digest --radar rag-memory --week-end 2026-11-06T18:00:00Z` demonstrates an explicit
+cutoff recovery; use the intended Friday, never fabricate historical coverage.
+`--correction <review-id>` creates a traceable correction while retaining the
+original snapshot; it requires explicit review, never an automatic rerun.
+Generation is local/artifact-only. The publisher refuses non-main execution and
+disabled publication, validates allowlisted data paths and never touches `intel`.
+
+All model calls use the same four global HORIZON_DECISION_* settings as shared
+filtering. No external delivery credentials, webhook, notification or consumer
+pull client belongs in Horizon. Consumers use read-only GitHub APIs and pin the
+branch head SHA before reading. Do not put a commit's own SHA inside its files.
+
+Run `uv run --extra dev pytest`, `uv run python -m scripts.radar_schemas`, MCP
+smokes and actionlint. Record actual live/hosted results independently of fixtures
+in `docs/TECHNICAL_RADAR_FLEET_ACCEPTANCE.md` and `docs/agent-research.md`.
+A live model remains unqualified until a real authorized Actions job validates it.

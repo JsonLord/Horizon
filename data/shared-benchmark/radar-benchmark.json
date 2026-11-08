@@ -1,0 +1,682 @@
+{
+  "cases": [
+    {
+      "classification": "RESEARCH_REQUIRED",
+      "event_id": "d0f0ee2f4e8385fe76a6b672",
+      "id": "a1e6c47c0d28ee195cd51de3",
+      "label": null,
+      "language": "unknown",
+      "observed_at_utc": "2026-11-08T23:08:04.443833Z",
+      "radar_id": "distributed-training",
+      "significance": 1,
+      "source_ids": [
+        "a1e6c47c0d28ee195cd51de3"
+      ],
+      "source_urls": [
+        "https://news.google.com/rss/articles/CBMib0FVX3lxTE93dGM0YWR3bFdwNldWWVR6cG0xRllHRjE0aVlWV2xJdXRmd21SUFFLdDVpQy1UNHYzczdkSWJDT0RjNHh3TDZmY3htTHFnZ3pfVTk1R3hadVhPUjdoZmlFcXA1NWw1X2VqMjg0QjJVTQ?oc=5"
+      ],
+      "title": "AMD Présente des Avancées en IA lors de la Conférence PyTorch 2026 - blockchain.news"
+    },
+    {
+      "classification": "RESEARCH_REQUIRED",
+      "event_id": "bf0fbce642a49c99be139904",
+      "id": "8b63705714e46b3dfb35e064",
+      "label": null,
+      "language": "unknown",
+      "observed_at_utc": "2026-11-08T23:08:04.457345Z",
+      "radar_id": "rag-memory",
+      "significance": 1,
+      "source_ids": [
+        "8b63705714e46b3dfb35e064"
+      ],
+      "source_urls": [
+        "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.7.4"
+      ],
+      "title": "langchain-core==1.7.4"
+    },
+    {
+      "classification": "RESEARCH_REQUIRED",
+      "event_id": "84437d19b97cb6bc1701b676",
+      "id": "31cebd78575afc99152211af",
+      "label": null,
+      "language": "unknown",
+      "observed_at_utc": "2026-11-08T23:08:04.457345Z",
+      "radar_id": "rag-memory",
+      "significance": 1,
+      "source_ids": [
+        "31cebd78575afc99152211af"
+      ],
+      "source_urls": [
+        "https://github.com/langchain-ai/langchain/releases/tag/langchain-anthropic%3D%3D1.7.10"
+      ],
+      "title": "langchain-anthropic==1.7.10"
+    },
+    {
+      "classification": "RESEARCH_REQUIRED",
+      "event_id": "4a2d84d32c3ea23afcc1ddca",
+      "id": "4cec6d1a0953b4c56ca536f4",
+      "label": null,
+      "language": "unknown",
+      "observed_at_utc": "2026-11-08T23:08:04.457345Z",
+      "radar_id": "rag-memory",
+      "significance": 1,
+      "source_ids": [
+        "4cec6d1a0953b4c56ca536f4"
+      ],
+      "source_urls": [
+        "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.7.5"
+      ],
+      "title": "langchain-core==1.7.5"
+    },
+    {
+      "classification": "RESEARCH_REQUIRED",
+      "event_id": "9c71789b7bdcc8e46c6b6443",
+      "id": "46245a8b49e3366fcc0b5544",
+      "label": null,
+      "language": "unknown",
+      "observed_at_utc": "2026-11-08T23:08:04.457345Z",
+      "radar_id": "rag-memory",
+      "significance": 1,
+      "source_ids": [
+        "46245a8b49e3366fcc0b5544"
+      ],
+      "source_urls": [
+        "https://github.com/langchain-ai/langchain/releases/tag/langchain-fireworks%3D%3D1.7.2"
+      ],
+      "title": "langchain-fireworks==1.7.2"
+    },
+    {
+      "classification": "RESEARCH_REQUIRED",
+      "event_id": "7ef0cc3466090054e33279ca",
+      "id": "46a7544f355ff8641f23ab57",
+      "label": null,
+      "language": "unknown",
+      "observed_at_utc": "2026-11-08T23:08:04.457345Z",
+      "radar_id": "rag-memory",
+      "significance": 1,
+      "source_ids": [
+        "46a7544f355ff8641f23ab57"
+      ],
+      "source_urls": [
+        "https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.7.4"
+      ],
+      "title": "langchain-openai==1.7.4"
+    },
+    {
+      "classification": "RESEARCH_REQUIRED",
+      "event_id": "882614252e809bfa28613b93",
+      "id": "f6b81b187c82c584185147c2",
+      "label": null,
+      "language": "unknown",
+      "observed_at_utc": "2026-11-08T23:08:04.457345Z",
+      "radar_id": "rag-memory",
+      "significance": 1,
+      "source_ids": [
+        "f6b81b187c82c584185147c2"
+      ],
+      "source_urls": [
+        "https://github.com/langchain-ai/langchain/releases/tag/langchain-typesafe%3D%3D0.0.1"
+      ],
+      "title": "langchain-typesafe==0.0.1"
+    },
+    {
+      "classification": "RESEARCH_REQUIRED",
+      "event_id": "ed0410e4df19aef3b017a7cf",
+      "id": "0819298170ecc53f7ee044a9",
+      "label": null,
+      "language": "unknown",
+      "observed_at_utc": "2026-11-08T23:08:04.457345Z",
+      "radar_id": "rag-memory",
+      "significance": 1,
+      "source_ids": [
+        "0819298170ecc53f7ee044a9"
+      ],
+      "source_urls": [
+        "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.4.9"
+      ],
+      "title": "langchain==1.4.9"
+    },
+    {
+      "classification": "RESEARCH_REQUIRED",
+      "event_id": "6c98838815577443eb463f95",
+      "id": "244db3685d1718e25fedee1a",
+      "label": null,
+      "language": "unknown",
+      "observed_at_utc": "2026-11-08T23:08:04.457345Z",
+      "radar_id": "rag-memory",
+      "significance": 1,
+      "source_ids": [
+        "244db3685d1718e25fedee1a"
+      ],
+      "source_urls": [
+        "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.7.6"
+      ],
+      "title": "langchain-core==1.7.6"
+    },
+    {
+      "classification": "RESEARCH_REQUIRED",
+      "event_id": "dcc9028e84e8faeb34c01468",
+      "id": "9d279cdb393401d1e971c953",
+      "label": null,
+      "language": "unknown",
+      "observed_at_utc": "2026-11-08T23:08:04.457345Z",
+      "radar_id": "rag-memory",
+      "significance": 1,
+      "source_ids": [
+        "9d279cdb393401d1e971c953"
+      ],
+      "source_urls": [
+        "https://github.com/langchain-ai/langchain/releases/tag/langchain-typesafe%3D%3D0.0.2"
+      ],
+      "title": "langchain-typesafe==0.0.2"
+    },
+    {
+      "classification": "RESEARCH_REQUIRED",
+      "event_id": "0ce62f77c11c71b3afdc72d0",
+      "id": "c92f172030301f0fb60019dc",
+      "label": null,
+      "language": "en",
+      "observed_at_utc": "2026-11-08T23:08:04.457345Z",
+      "radar_id": "rag-memory",
+      "significance": 1,
+      "source_ids": [
+        "c92f172030301f0fb60019dc"
+      ],
+      "source_urls": [
+        "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.4.8"
+      ],
+      "title": "langchain==1.4.8"
+    },
+    {
+      "classification": "RESEARCH_REQUIRED",
+      "event_id": "fce1708a7a6af025cf2b04ae",
+      "id": "e36557918089d9c592ed66c6",
+      "label": null,
+      "language": "unknown",
+      "observed_at_utc": "2026-11-08T23:08:04.457345Z",
+      "radar_id": "rag-memory",
+      "significance": 1,
+      "source_ids": [
+        "e36557918089d9c592ed66c6"
+      ],
+      "source_urls": [
+        "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5ROEZyeW9XcmE1S253NUZfTlVXeVl5aHJOY1J0V0h5a1ZsU2pobnpwcF9oT0RxNTV0SXlYaUdRVHJ3aWJzeWNzYXp1V1F2SVhPVVVtWW5pYjNUZkVaWDFr?oc=5"
+      ],
+      "title": "Better Search Took This AI Agent From 36% to 98% Accuracy - Aamir Shakir, Mixedbread｜AI Engineer - finance.biggo.com"
+    },
+    {
+      "classification": "RESEARCH_REQUIRED",
+      "event_id": "983b0ba41b5926b4d5e014d4",
+      "id": "45cab82e1c6b4c58ce67bf65",
+      "label": null,
+      "language": "unknown",
+      "observed_at_utc": "2026-11-08T23:08:04.355557Z",
+      "radar_id": "agent-control-planes",
+      "significance": 1,
+      "source_ids": [
+        "45cab82e1c6b4c58ce67bf65"
+      ],
+      "source_urls": [
+        "https://news.google.com/rss/articles/CBMiUkFVX3lxTFB6Z0p6SDdLbjVqWGFfV0xieUg5TVU4MUY0OGUzSHQ3bk8tVXpWR0FXeUpBX1VRNmkyakVtMHVEUFpvUi1kUXU3VlhCOFlQTHNqbnc?oc=5"
+      ],
+      "title": "20+ AI Agent Builders: Microsoft, CrewAI, LangGraph and More - AIMultiple"
+    },
+    {
+      "classification": "RESEARCH_REQUIRED",
+      "event_id": "1ede57b2126ca53694ab95b7",
+      "id": "52a0312fc06865c77555b427",
+      "label": null,
+      "language": "unknown",
+      "observed_at_utc": "2026-11-08T23:08:04.457345Z",
+      "radar_id": "rag-memory",
+      "significance": 1,
+      "source_ids": [
+        "52a0312fc06865c77555b427"
+      ],
+      "source_urls": [
+        "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1LcndWV3liNGZiaW01bWxUS21LeXJ0a1JHZ04tTTVvRzBzOEZlVHFydS0ycDRxSkdZM2ZHZnpyV2tlREhvTDMtQURjZk5WcnVQTlBZTzRHYUV4VGM?oc=5"
+      ],
+      "title": "Mixedbread's Aamir Shakir Says Better Search Took a Hedge Fund's AI Agent From 36% to 98% Accuracy - BigGo Finance"
+    },
+    {
+      "classification": "RESEARCH_REQUIRED",
+      "event_id": "5c562f9796d4e9e97a2d5563",
+      "id": "aaf09a99537a02bb221405db",
+      "label": null,
+      "language": "unknown",
+      "observed_at_utc": "2026-11-08T23:08:04.355557Z",
+      "radar_id": "agent-control-planes",
+      "significance": 1,
+      "source_ids": [
+        "aaf09a99537a02bb221405db"
+      ],
+      "source_urls": [
+        "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1NR2p3cU1wUktvV19FWUhQY3hSRjhZYks1TmNiTmZ4NkNNcEs0MEJOVEdvYXpRTmdMZTk0VmdJYWltM2gxWXpOamN6VHVFa0UtaXVn?oc=5"
+      ],
+      "title": "Top 13 Open-Source Agentic AI Frameworks - AIMultiple"
+    },
+    {
+      "classification": "RESEARCH_REQUIRED",
+      "event_id": "7bd8d247b089971f456769ac",
+      "id": "5b7fe2018f0b81af6e48a50b",
+      "label": null,
+      "language": "unknown",
+      "observed_at_utc": "2026-11-08T23:08:04.457345Z",
+      "radar_id": "rag-memory",
+      "significance": 1,
+      "source_ids": [
+        "5b7fe2018f0b81af6e48a50b"
+      ],
+      "source_urls": [
+        "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNTko0bVNmaGIyU1czeUdkVUhhOVJrTjF5cExmeWhST2U4dEc0RXVSTTF4VEQ5QUQ0ZmRiTm1BcVdyWV80aWNJek5LeXNMalRZb0Q5ODFwZ3QzWDNhWUdXWEc5UTg3WUczNXF6N2lMVFkzbXdlelFfbW9ZWk5NY2hReDdLXy1RdEx2RUtYR0xMaUh3dG9pZjFSWW1uMTNOWTB6X29CTDJZd3BPeC11eXloaEc2ZlJIZTIxTGg0?oc=5"
+      ],
+      "title": "Chroma : avis sur la meilleure base de données vectorielle open source pour la recherche par IA - quasa.io"
+    },
+    {
+      "classification": "RESEARCH_REQUIRED",
+      "event_id": "7100260b05b387be9a0a34a8",
+      "id": "11434f9f047f02cc802b57af",
+      "label": null,
+      "language": "unknown",
+      "observed_at_utc": "2026-11-08T23:08:04.457345Z",
+      "radar_id": "rag-memory",
+      "significance": 1,
+      "source_ids": [
+        "11434f9f047f02cc802b57af"
+      ],
+      "source_urls": [
+        "https://news.google.com/rss/articles/CBMiX0FVX3lxTE56X0ZBUDVySG9CWGR1MUZkdTlkMFUxc1lxbjJ6MFBPRWZiMldjNmJBS3VGckRHcm5LZ0NpVDZwQzh1WXhyUFdFY2plbzJCQU43NG96enp3MkJmZ0NKMzVv?oc=5"
+      ],
+      "title": "Your AI Agent Keeps Making the Same Mistakes - Sparsh Jain, CentralAgent AI｜AI Engineer - finance.biggo.com"
+    },
+    {
+      "classification": "RESEARCH_REQUIRED",
+      "event_id": "a2dfaefe455274e139a43f77",
+      "id": "2a396490d5ddd1bb2859dff0",
+      "label": null,
+      "language": "fr",
+      "observed_at_utc": "2026-11-08T23:08:04.457345Z",
+      "radar_id": "rag-memory",
+      "significance": 1,
+      "source_ids": [
+        "2a396490d5ddd1bb2859dff0"
+      ],
+      "source_urls": [
+        "https://news.google.com/rss/articles/CBMikwFBVV95cUxNcE9rc1NrbFNBWWJxZW5LTHRhUFo2VkppeVBteXBMR3VWcXEtemZLU3N3UnNLLV90UlIzdE0xOHc5ZjJLUDVYakRIOWE2VXlhQXNkMHVfRk9BeGZ6dmJKVjM1dUxyNUN2RnNzd2JjaDZfZkFjR09FaFNGZ0pXaUFxc2JORzA5VU9KVlMxZVprNDRuamM?oc=5"
+      ],
+      "title": "LangChain : avis sur le framework ultime pour créer des agents IA - quasa.io"
+    },
+    {
+      "classification": "RESEARCH_REQUIRED",
+      "event_id": "7c74ae8f6f19b2ca246916e1",
+      "id": "266f6817a63eb77e1795650b",
+      "label": null,
+      "language": "unknown",
+      "observed_at_utc": "2026-11-08T23:08:04.457345Z",
+      "radar_id": "rag-memory",
+      "significance": 1,
+      "source_ids": [
+        "266f6817a63eb77e1795650b"
+      ],
+      "source_urls": [
+        "https://news.google.com/rss/articles/CBMiigFBVV95cUxQTERQdHNuMm10X3hMTzI4bXRfOGFpR2pySzc4c2twdklRYkxLRERZVzFSNzNTeGZUbXFwM1gyNUpXYy14dEdHOFpvZEFQckhUSlVYRjJOdlBIT0tTR2ZWQ3BiODhSNjJ5b0k3NGJXc0hnNHRMS0xhRXZwUlYzU0ZvNDJPOWRwSUZHTVE?oc=5"
+      ],
+      "title": "Stanford unveils Memorilla, an AI memory that recalls entire chat histories - Pasquale Pillitteri"
+    },
+    {
+      "classification": "RESEARCH_REQUIRED",
+      "event_id": "be42304b1379f5f60c3f391c",
+      "id": "dd1cd1c194be0551b2a5f0e4",
+      "label": null,
+      "language": "unknown",
+      "observed_at_utc": "2026-11-08T23:08:04.355557Z",
+      "radar_id": "agent-control-planes",
+      "significance": 1,
+      "source_ids": [
+        "dd1cd1c194be0551b2a5f0e4"
+      ],
+      "source_urls": [
+        "https://github.com/langchain-ai/langgraph/releases/tag/sdk%3D%3D0.4.12"
+      ],
+      "title": "langgraph-sdk==0.4.12"
+    },
+    {
+      "classification": "RESEARCH_REQUIRED",
+      "event_id": "b04727f084c44ac09d10b18f",
+      "id": "a7c8f96b2133faaa0d96a7b1",
+      "label": null,
+      "language": "unknown",
+      "observed_at_utc": "2026-11-08T23:08:04.355557Z",
+      "radar_id": "agent-control-planes",
+      "significance": 1,
+      "source_ids": [
+        "a7c8f96b2133faaa0d96a7b1"
+      ],
+      "source_urls": [
+        "https://github.com/langchain-ai/langgraph/releases/tag/sdk%3D%3D0.4.13"
+      ],
+      "title": "langgraph-sdk==0.4.13"
+    },
+    {
+      "classification": "RESEARCH_REQUIRED",
+      "event_id": "09af4ba16f83444e285e3623",
+      "id": "b032be756972db7e83dfaa25",
+      "label": null,
+      "language": "unknown",
+      "observed_at_utc": "2026-11-08T23:08:04.355557Z",
+      "radar_id": "agent-control-planes",
+      "significance": 1,
+      "source_ids": [
+        "b032be756972db7e83dfaa25"
+      ],
+      "source_urls": [
+        "https://github.com/langchain-ai/langgraph/releases/tag/1.2.20"
+      ],
+      "title": "langgraph==1.2.20"
+    },
+    {
+      "classification": "RESEARCH_REQUIRED",
+      "event_id": "d9dbdb581f79f750ac49133b",
+      "id": "c7709f653e0e7359a44eb324",
+      "label": null,
+      "language": "unknown",
+      "observed_at_utc": "2026-11-08T23:08:04.355557Z",
+      "radar_id": "agent-control-planes",
+      "significance": 1,
+      "source_ids": [
+        "c7709f653e0e7359a44eb324"
+      ],
+      "source_urls": [
+        "https://github.com/langchain-ai/langgraph/releases/tag/cli%3D%3D0.4.42"
+      ],
+      "title": "langgraph-cli==0.4.42"
+    },
+    {
+      "classification": "RESEARCH_REQUIRED",
+      "event_id": "66af235e42475984322168dc",
+      "id": "c4b0d7917bba1a47fe8883da",
+      "label": null,
+      "language": "unknown",
+      "observed_at_utc": "2026-11-08T23:08:04.355557Z",
+      "radar_id": "agent-control-planes",
+      "significance": 1,
+      "source_ids": [
+        "c4b0d7917bba1a47fe8883da"
+      ],
+      "source_urls": [
+        "https://github.com/langchain-ai/langgraph/releases/tag/sdk%3D%3D0.4.14"
+      ],
+      "title": "langgraph-sdk==0.4.14"
+    },
+    {
+      "classification": "RESEARCH_REQUIRED",
+      "event_id": "0930381b353807195d62cdab",
+      "id": "776a7b941d700840b03f4cf3",
+      "label": null,
+      "language": "en",
+      "observed_at_utc": "2026-11-08T23:08:04.355557Z",
+      "radar_id": "agent-control-planes",
+      "significance": 1,
+      "source_ids": [
+        "776a7b941d700840b03f4cf3"
+      ],
+      "source_urls": [
+        "https://github.com/langchain-ai/langgraph/releases/tag/cli%3D%3D0.4.41"
+      ],
+      "title": "langgraph-cli==0.4.41"
+    },
+    {
+      "classification": "RESEARCH_REQUIRED",
+      "event_id": "7859ca09bf66a642eaaa479b",
+      "id": "ed8034307b8ba436cc16624c",
+      "label": null,
+      "language": "unknown",
+      "observed_at_utc": "2026-11-08T23:08:04.355557Z",
+      "radar_id": "agent-control-planes",
+      "significance": 1,
+      "source_ids": [
+        "ed8034307b8ba436cc16624c"
+      ],
+      "source_urls": [
+        "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9KT0dOeldhLUtpNURUaHdLdWVzdUVZTXR3dDBfOENKb3ZtMFFNLWtMR1VvbnVQMW1leUk5YXduQzFIVEEwOV9kWnp0MngtVXZmSHctMi1GUE1WTFVKOGo4?oc=5"
+      ],
+      "title": "Make Your AI Agents Predictable With Graph Engineering - Zachary Blumenfeld, Neo4j - BigGo Finance"
+    },
+    {
+      "classification": "RESEARCH_REQUIRED",
+      "event_id": "6befb69e706ef81b370a9718",
+      "id": "aee18cd30c96c2cbc5d68254",
+      "label": null,
+      "language": "unknown",
+      "observed_at_utc": "2026-11-08T23:08:04.355557Z",
+      "radar_id": "agent-control-planes",
+      "significance": 1,
+      "source_ids": [
+        "aee18cd30c96c2cbc5d68254"
+      ],
+      "source_urls": [
+        "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5WOFE1ZDBCT09IbEhHWmhHTS11NHVYVllBcWVsVEg1YVdPRDJPdGdZd1JKWnZoZkFrbWJ6cmF6bzhmXzE1SGczb1h2UGs2emZPTnE4ZG42aTRCUUhVUjk4?oc=5"
+      ],
+      "title": "Agent Swarms Do Months of Work in Days | Dexter Horthy｜MTS - finance.biggo.com"
+    },
+    {
+      "classification": "RESEARCH_REQUIRED",
+      "event_id": "5f59397b08516f298e898d11",
+      "id": "435e81863b84efc2d1d7f32a",
+      "label": null,
+      "language": "unknown",
+      "observed_at_utc": "2026-11-08T23:08:04.355557Z",
+      "radar_id": "agent-control-planes",
+      "significance": 1,
+      "source_ids": [
+        "435e81863b84efc2d1d7f32a"
+      ],
+      "source_urls": [
+        "https://news.google.com/rss/articles/CBMigwFBVV95cUxPSE10dWo5ZkVuVmlIYTNIWEI2UVItNjhBV0xfYmJjc2RmbWdzNk42NmpfWFhVY2JMNTRRT2ZjNlRHLThCWFlXM3FWNE1uSE9GUGhEbTBQRlltYUR0dnI4MVRsSW1oaUlicGFBWDdoWThHZXpiYkkwVGlXM0VkMy15WVNHRQ?oc=5"
+      ],
+      "title": "LangGraph vs LangChain [2026]: 3 Key Differences - shattered.io"
+    }
+  ],
+  "groups": [
+    {
+      "count": 1,
+      "language": "en",
+      "metrics": {
+        "cross_language_accuracy": null,
+        "duplicate_suppression": null,
+        "evidence_support_rate": null,
+        "high_significance_recall": null,
+        "missed_high_significance": null,
+        "model_cost_per_accepted": null,
+        "model_latency_ms": null,
+        "new_development_recall": null,
+        "precision_at_10": null
+      },
+      "radar_id": "agent-control-planes"
+    },
+    {
+      "count": 0,
+      "language": "de",
+      "metrics": {
+        "cross_language_accuracy": null,
+        "duplicate_suppression": null,
+        "evidence_support_rate": null,
+        "high_significance_recall": null,
+        "missed_high_significance": null,
+        "model_cost_per_accepted": null,
+        "model_latency_ms": null,
+        "new_development_recall": null,
+        "precision_at_10": null
+      },
+      "radar_id": "agent-control-planes"
+    },
+    {
+      "count": 0,
+      "language": "fr",
+      "metrics": {
+        "cross_language_accuracy": null,
+        "duplicate_suppression": null,
+        "evidence_support_rate": null,
+        "high_significance_recall": null,
+        "missed_high_significance": null,
+        "model_cost_per_accepted": null,
+        "model_latency_ms": null,
+        "new_development_recall": null,
+        "precision_at_10": null
+      },
+      "radar_id": "agent-control-planes"
+    },
+    {
+      "count": 10,
+      "language": "unknown",
+      "metrics": {
+        "cross_language_accuracy": null,
+        "duplicate_suppression": null,
+        "evidence_support_rate": null,
+        "high_significance_recall": null,
+        "missed_high_significance": null,
+        "model_cost_per_accepted": null,
+        "model_latency_ms": null,
+        "new_development_recall": null,
+        "precision_at_10": null
+      },
+      "radar_id": "agent-control-planes"
+    },
+    {
+      "count": 0,
+      "language": "en",
+      "metrics": {
+        "cross_language_accuracy": null,
+        "duplicate_suppression": null,
+        "evidence_support_rate": null,
+        "high_significance_recall": null,
+        "missed_high_significance": null,
+        "model_cost_per_accepted": null,
+        "model_latency_ms": null,
+        "new_development_recall": null,
+        "precision_at_10": null
+      },
+      "radar_id": "distributed-training"
+    },
+    {
+      "count": 0,
+      "language": "de",
+      "metrics": {
+        "cross_language_accuracy": null,
+        "duplicate_suppression": null,
+        "evidence_support_rate": null,
+        "high_significance_recall": null,
+        "missed_high_significance": null,
+        "model_cost_per_accepted": null,
+        "model_latency_ms": null,
+        "new_development_recall": null,
+        "precision_at_10": null
+      },
+      "radar_id": "distributed-training"
+    },
+    {
+      "count": 0,
+      "language": "fr",
+      "metrics": {
+        "cross_language_accuracy": null,
+        "duplicate_suppression": null,
+        "evidence_support_rate": null,
+        "high_significance_recall": null,
+        "missed_high_significance": null,
+        "model_cost_per_accepted": null,
+        "model_latency_ms": null,
+        "new_development_recall": null,
+        "precision_at_10": null
+      },
+      "radar_id": "distributed-training"
+    },
+    {
+      "count": 1,
+      "language": "unknown",
+      "metrics": {
+        "cross_language_accuracy": null,
+        "duplicate_suppression": null,
+        "evidence_support_rate": null,
+        "high_significance_recall": null,
+        "missed_high_significance": null,
+        "model_cost_per_accepted": null,
+        "model_latency_ms": null,
+        "new_development_recall": null,
+        "precision_at_10": null
+      },
+      "radar_id": "distributed-training"
+    },
+    {
+      "count": 1,
+      "language": "en",
+      "metrics": {
+        "cross_language_accuracy": null,
+        "duplicate_suppression": null,
+        "evidence_support_rate": null,
+        "high_significance_recall": null,
+        "missed_high_significance": null,
+        "model_cost_per_accepted": null,
+        "model_latency_ms": null,
+        "new_development_recall": null,
+        "precision_at_10": null
+      },
+      "radar_id": "rag-memory"
+    },
+    {
+      "count": 0,
+      "language": "de",
+      "metrics": {
+        "cross_language_accuracy": null,
+        "duplicate_suppression": null,
+        "evidence_support_rate": null,
+        "high_significance_recall": null,
+        "missed_high_significance": null,
+        "model_cost_per_accepted": null,
+        "model_latency_ms": null,
+        "new_development_recall": null,
+        "precision_at_10": null
+      },
+      "radar_id": "rag-memory"
+    },
+    {
+      "count": 1,
+      "language": "fr",
+      "metrics": {
+        "cross_language_accuracy": null,
+        "duplicate_suppression": null,
+        "evidence_support_rate": null,
+        "high_significance_recall": null,
+        "missed_high_significance": null,
+        "model_cost_per_accepted": null,
+        "model_latency_ms": null,
+        "new_development_recall": null,
+        "precision_at_10": null
+      },
+      "radar_id": "rag-memory"
+    },
+    {
+      "count": 14,
+      "language": "unknown",
+      "metrics": {
+        "cross_language_accuracy": null,
+        "duplicate_suppression": null,
+        "evidence_support_rate": null,
+        "high_significance_recall": null,
+        "missed_high_significance": null,
+        "model_cost_per_accepted": null,
+        "model_latency_ms": null,
+        "new_development_recall": null,
+        "precision_at_10": null
+      },
+      "radar_id": "rag-memory"
+    }
+  ],
+  "limitations": [
+    "No independently reviewed labels supplied.",
+    "Latency and cost remain null until measured live inference is available.",
+    "Test fixtures do not count as real research or quality ground truth."
+  ],
+  "live_inference_quality_certified": false,
+  "reviewed_ground_truth": false,
+  "schema_version": "1.0"
+}

@@ -1,0 +1,49 @@
+name: Technical radar fleet
+on:
+  workflow_dispatch:
+  # Prepared schedules stay inactive until a reviewed default-branch merge AND
+  # config/radar/registry.json schedule_enabled=true. No existing cron is changed.
+  schedule:
+    - cron: '13 2,14 * * *'
+    - cron: '0 18 * * 5'
+permissions:
+  contents: read
+jobs:
+  gate:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 3
+    outputs:
+      enabled: ${{ steps.policy.outputs.enabled }}
+      publication: ${{ steps.policy.outputs.publication }}
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          persist-credentials: false
+      - id: policy
+        env:
+          EVENT_NAME: ${{ github.event_name }}
+          REF_NAME: ${{ github.ref }}
+        run: |
+          python - <<'PY'
+          import json,os
+          p=json.load(open('config/radar/registry.json'))
+          enabled=os.environ['EVENT_NAME']=='workflow_dispatch' or (os.environ['REF_NAME']=='refs/heads/main' and p['schedule_enabled'])
+          publication=os.environ['REF_NAME']=='refs/heads/main' and p['publication_enabled'] and p['schedule_enabled'] and os.environ['EVENT_NAME']=='schedule'
+          with open(os.environ['GITHUB_OUTPUT'],'a') as f:
+              f.write('enabled='+str(enabled).lower()+'\npublication='+str(publication).lower()+'\n')
+          PY
+  radars:
+    needs: gate
+    if: needs.gate.outputs.enabled == 'true'
+    strategy:
+      fail-fast: false
+      matrix:
+        radar: [agent-control-planes, distributed-training, rag-memory]
+    uses: ./.github/workflows/radar-worker.yml
+    permissions:
+      contents: write
+    with:
+      radar: ${{ matrix.radar }}
+      publication: ${{ needs.gate.outputs.publication == 'true' }}
+    secrets:
+      HORIZON_DECISION_API_KEY: ${{ secrets.HORIZON_DECISION_API_KEY }}

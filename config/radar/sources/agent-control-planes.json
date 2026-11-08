@@ -1,0 +1,62 @@
+{
+  "schema_version": "1.0",
+  "radar_id": "agent-control-planes",
+  "languages": [
+    "en",
+    "de",
+    "fr"
+  ],
+  "discovery_queries": [
+    {
+      "source": "google_news",
+      "text": "agent orchestration MCP durable execution",
+      "language": "en",
+      "country": "US",
+      "topic": "agent-control-planes",
+      "region": "worldwide"
+    },
+    {
+      "source": "google_news",
+      "text": "Agenten Orchestrierung MCP dauerhafte Ausführung",
+      "language": "de",
+      "country": "DE",
+      "topic": "agent-control-planes",
+      "region": "worldwide"
+    },
+    {
+      "source": "google_news",
+      "text": "orchestration agents MCP exécution durable",
+      "language": "fr",
+      "country": "FR",
+      "topic": "agent-control-planes",
+      "region": "worldwide"
+    }
+  ],
+  "primary_repositories": [
+    "microsoft/autogen",
+    "langchain-ai/langgraph"
+  ],
+  "reviewed_seed_links": [
+    {
+      "url": "https://github.com/microsoft/autogen",
+      "kind": "official_repository",
+      "language": "unknown",
+      "note": "Public project identity; individual releases and language require retrieval."
+    },
+    {
+      "url": "https://github.com/langchain-ai/langgraph",
+      "kind": "official_repository",
+      "language": "unknown",
+      "note": "Public project identity; individual releases and language require retrieval."
+    }
+  ],
+  "source_families_pending_review": [
+    "arxiv",
+    "laboratory",
+    "academic",
+    "conference",
+    "benchmark",
+    "technical_blog"
+  ],
+  "policy": "Only registered repository release API endpoints and credential-free discovery; no arbitrary page crawling. Discovery language is not proof of source language."
+}

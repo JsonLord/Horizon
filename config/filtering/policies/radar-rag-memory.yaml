@@ -1,0 +1,33 @@
+{
+  "version": "radar-1.0-provisional",
+  "topics": [
+    "Retrieval augmented generation",
+    "Hybrid retrieval",
+    "BM25",
+    "Embeddings",
+    "Reranking",
+    "Agent memory",
+    "Episodic memory",
+    "Semantic memory",
+    "Knowledge graphs",
+    "Context compression",
+    "Memory consolidation",
+    "Adaptive retrieval",
+    "Retrieval evaluation",
+    "Long-context reasoning",
+    "Memory benchmarks",
+    "Citation grounding"
+  ],
+  "public_context": [
+    "Technical learning; preserve original evidence language; unknown relevance requires review."
+  ],
+  "weights": {
+    "relevance": 0.3,
+    "novelty": 0.2,
+    "importance": 0.2,
+    "actionability": 0.1,
+    "evidence": 0.2
+  },
+  "max_requests": 36,
+  "max_tokens": 200000
+}

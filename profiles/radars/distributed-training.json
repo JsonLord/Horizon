@@ -1,0 +1,79 @@
+{
+  "schema_version": "1.0",
+  "profile_id": "examples/radar-distributed-training",
+  "mode": "research_job",
+  "name": "Distributed Training",
+  "enabled": true,
+  "topics": [
+    "Distributed LLM training",
+    "Data parallelism",
+    "Tensor parallelism",
+    "Pipeline parallelism",
+    "FSDP",
+    "ZeRO",
+    "Gradient checkpointing",
+    "Distributed fine-tuning",
+    "GPU memory optimization",
+    "Cluster scheduling",
+    "Collective communication",
+    "Model sharding",
+    "Efficient training",
+    "Multi-node benchmarking",
+    "Heterogeneous compute"
+  ],
+  "regions": [
+    "worldwide"
+  ],
+  "languages": [
+    "en",
+    "de",
+    "fr"
+  ],
+  "queries": [
+    {
+      "source": "google_news",
+      "text": "distributed training FSDP ZeRO tensor parallelism",
+      "language": "en",
+      "country": "US",
+      "topic": "distributed-training",
+      "region": "worldwide"
+    },
+    {
+      "source": "google_news",
+      "text": "verteiltes Training GPU Speicher Optimierung",
+      "language": "de",
+      "country": "DE",
+      "topic": "distributed-training",
+      "region": "worldwide"
+    },
+    {
+      "source": "google_news",
+      "text": "entraînement distribué parallélisme mémoire GPU",
+      "language": "fr",
+      "country": "FR",
+      "topic": "distributed-training",
+      "region": "worldwide"
+    }
+  ],
+  "sources": [
+    "google_news"
+  ],
+  "schedule_hint": "manual",
+  "lookback_hours": 168,
+  "max_items": 30,
+  "max_queries": 3,
+  "ranking": {
+    "mode": "keyword",
+    "minimum_score": 0
+  },
+  "output": {
+    "languages": [
+      "en",
+      "de",
+      "fr"
+    ],
+    "markdown": true,
+    "json": true,
+    "changes": true
+  }
+}

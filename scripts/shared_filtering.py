@@ -8,7 +8,7 @@ import sqlite3
 from pathlib import Path
 from src.research.filtering import FilterPolicy,HorizonFilterPipeline
 from src.research.filtering.engine import DurableCheckpointStore,FeedbackStore
-from src.research.filtering.provider import DecisionModelProvider
+from src.research.filtering.provider import DecisionModelProvider,COMMANDS
 from src.research.reporting import atomic,dumps
 
 async def qualify(output,restore=False):
@@ -36,6 +36,20 @@ async def qualify(output,restore=False):
     restored=DurableCheckpointStore(output/'checkpoint.sqlite')
     proof['restoration_verified']=restored.get('history','world/global|fixture-world-global') is not None
     restored.close()
+    proof['command_qualification']=[]
+    command_state=DurableCheckpointStore(output/'commands.sqlite')
+    for profile in ('examples/ai-usability','funding/de-eu','world/global'):
+        for command in COMMANDS:
+            key=provider.identity()+'|'+profile+'|'+command
+            entry=command_state.get('live-command',key)
+            if entry is None:
+                response,metadata=await provider.decide(command,{**payload,'topics':FilterPolicy.load(profile).topics,'previous':[]})
+                entry={'profile':profile,'command':command,'decision':response.model_dump() if response else None,'provider':metadata}
+                if response:command_state.put('live-command',key,entry)
+            proof['command_qualification'].append(entry)
+    command_state.close()
+    proof['all_commands_live_validated']=all(e['decision'] is not None for e in proof['command_qualification'])
+    proof['configuration']={'base_url_present':bool(provider.base),'model_present':bool(provider.model),'key_present':bool(provider.key),'mode_is_openai_chat':provider.mode=='openai_chat'}
     proof['provider_requests']=provider.requests
     proof['cache_hits']=sum(r.get('cache_hit',False) for p in proof['policies'] for r in p['fixture_decisions'])
     proof['restored_prior_runner_checkpoint']=restore

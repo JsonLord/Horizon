@@ -1,0 +1,40 @@
+{
+  "schema_version": "1.0",
+  "schedule_enabled": false,
+  "publication_enabled": false,
+  "radars": [
+    {
+      "radar_id": "agent-control-planes",
+      "branch": "radar/agent-control-planes",
+      "profile_id": "examples/radar-agent-control-planes",
+      "policy_version": "radar-1.0-provisional",
+      "collection_interval_hours": 12,
+      "max_candidates": 30,
+      "max_model_requests": 36,
+      "max_model_tokens": 200000,
+      "source_registry": "config/radar/sources/agent-control-planes.json"
+    },
+    {
+      "radar_id": "distributed-training",
+      "branch": "radar/distributed-training",
+      "profile_id": "examples/radar-distributed-training",
+      "policy_version": "radar-1.0-provisional",
+      "collection_interval_hours": 12,
+      "max_candidates": 30,
+      "max_model_requests": 36,
+      "max_model_tokens": 200000,
+      "source_registry": "config/radar/sources/distributed-training.json"
+    },
+    {
+      "radar_id": "rag-memory",
+      "branch": "radar/rag-memory",
+      "profile_id": "examples/radar-rag-memory",
+      "policy_version": "radar-1.0-provisional",
+      "collection_interval_hours": 12,
+      "max_candidates": 30,
+      "max_model_requests": 36,
+      "max_model_tokens": 200000,
+      "source_registry": "config/radar/sources/rag-memory.json"
+    }
+  ]
+}

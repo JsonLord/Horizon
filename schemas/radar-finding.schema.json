@@ -1,0 +1,466 @@
+{
+  "$defs": {
+    "Components": {
+      "additionalProperties": false,
+      "properties": {
+        "integration_change": {
+          "maximum": 2,
+          "minimum": 0,
+          "title": "Integration Change",
+          "type": "integer"
+        },
+        "learning": {
+          "maximum": 1,
+          "minimum": 0,
+          "title": "Learning",
+          "type": "integer"
+        },
+        "mechanism": {
+          "maximum": 3,
+          "minimum": 0,
+          "title": "Mechanism",
+          "type": "integer"
+        },
+        "primary_evidence": {
+          "maximum": 1,
+          "minimum": 0,
+          "title": "Primary Evidence",
+          "type": "integer"
+        },
+        "reproducibility": {
+          "maximum": 2,
+          "minimum": 0,
+          "title": "Reproducibility",
+          "type": "integer"
+        }
+      },
+      "required": [
+        "mechanism",
+        "integration_change",
+        "reproducibility",
+        "learning",
+        "primary_evidence"
+      ],
+      "title": "Components",
+      "type": "object"
+    },
+    "Pattern": {
+      "additionalProperties": false,
+      "properties": {
+        "documentation_url": {
+          "title": "Documentation Url",
+          "type": "string"
+        },
+        "evidence_references": {
+          "items": {
+            "type": "string"
+          },
+          "maxItems": 20,
+          "minItems": 1,
+          "title": "Evidence References",
+          "type": "array"
+        },
+        "example": {
+          "maxLength": 1000,
+          "title": "Example",
+          "type": "string"
+        },
+        "example_kind": {
+          "enum": [
+            "original_pseudocode",
+            "attributed_excerpt"
+          ],
+          "title": "Example Kind",
+          "type": "string"
+        },
+        "limitations": {
+          "items": {
+            "type": "string"
+          },
+          "maxItems": 10,
+          "minItems": 1,
+          "title": "Limitations",
+          "type": "array"
+        },
+        "mechanism": {
+          "maxLength": 500,
+          "title": "Mechanism",
+          "type": "string"
+        },
+        "prerequisites": {
+          "items": {
+            "type": "string"
+          },
+          "maxItems": 10,
+          "title": "Prerequisites",
+          "type": "array"
+        },
+        "problem": {
+          "maxLength": 500,
+          "title": "Problem",
+          "type": "string"
+        },
+        "title": {
+          "maxLength": 200,
+          "title": "Title",
+          "type": "string"
+        }
+      },
+      "required": [
+        "title",
+        "problem",
+        "mechanism",
+        "example",
+        "example_kind",
+        "evidence_references",
+        "documentation_url",
+        "prerequisites",
+        "limitations"
+      ],
+      "title": "Pattern",
+      "type": "object"
+    },
+    "Reference": {
+      "additionalProperties": false,
+      "properties": {
+        "author": {
+          "anyOf": [
+            {
+              "maxLength": 200,
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Author"
+        },
+        "content_hash": {
+          "pattern": "^[a-f0-9]{64}$",
+          "title": "Content Hash",
+          "type": "string"
+        },
+        "discovery_language": {
+          "default": "unknown",
+          "enum": [
+            "en",
+            "de",
+            "fr",
+            "unknown"
+          ],
+          "title": "Discovery Language",
+          "type": "string"
+        },
+        "excerpt": {
+          "maxLength": 500,
+          "minLength": 1,
+          "title": "Excerpt",
+          "type": "string"
+        },
+        "fetched_at_utc": {
+          "title": "Fetched At Utc",
+          "type": "string"
+        },
+        "id": {
+          "pattern": "^[a-f0-9]{24}$",
+          "title": "Id",
+          "type": "string"
+        },
+        "language": {
+          "enum": [
+            "en",
+            "de",
+            "fr",
+            "unknown"
+          ],
+          "title": "Language",
+          "type": "string"
+        },
+        "language_basis": {
+          "maxLength": 120,
+          "title": "Language Basis",
+          "type": "string"
+        },
+        "primary": {
+          "title": "Primary",
+          "type": "boolean"
+        },
+        "published_at_utc": {
+          "title": "Published At Utc",
+          "type": "string"
+        },
+        "publisher": {
+          "maxLength": 200,
+          "title": "Publisher",
+          "type": "string"
+        },
+        "title": {
+          "maxLength": 500,
+          "minLength": 1,
+          "title": "Title",
+          "type": "string"
+        },
+        "url": {
+          "maxLength": 2048,
+          "title": "Url",
+          "type": "string"
+        }
+      },
+      "required": [
+        "id",
+        "title",
+        "language",
+        "language_basis",
+        "publisher",
+        "published_at_utc",
+        "fetched_at_utc",
+        "url",
+        "excerpt",
+        "content_hash",
+        "primary"
+      ],
+      "title": "Reference",
+      "type": "object"
+    },
+    "Support": {
+      "additionalProperties": false,
+      "properties": {
+        "dimension": {
+          "enum": [
+            "mechanism",
+            "integration_change",
+            "reproducibility",
+            "learning",
+            "primary_evidence"
+          ],
+          "title": "Dimension",
+          "type": "string"
+        },
+        "evidence_id": {
+          "title": "Evidence Id",
+          "type": "string"
+        },
+        "quote": {
+          "maxLength": 300,
+          "minLength": 1,
+          "title": "Quote",
+          "type": "string"
+        }
+      },
+      "required": [
+        "dimension",
+        "evidence_id",
+        "quote"
+      ],
+      "title": "Support",
+      "type": "object"
+    },
+    "TechnicalDecision": {
+      "additionalProperties": false,
+      "properties": {
+        "code_patterns": {
+          "items": {
+            "$ref": "#/$defs/Pattern"
+          },
+          "maxItems": 1,
+          "title": "Code Patterns",
+          "type": "array"
+        },
+        "components": {
+          "$ref": "#/$defs/Components"
+        },
+        "deeper_research": {
+          "title": "Deeper Research",
+          "type": "boolean"
+        },
+        "evidence_ids": {
+          "items": {
+            "type": "string"
+          },
+          "maxItems": 20,
+          "title": "Evidence Ids",
+          "type": "array"
+        },
+        "explanation": {
+          "maxLength": 500,
+          "minLength": 1,
+          "title": "Explanation",
+          "type": "string"
+        },
+        "learning_objective": {
+          "maxLength": 500,
+          "title": "Learning Objective",
+          "type": "string"
+        },
+        "mechanism": {
+          "maxLength": 500,
+          "title": "Mechanism",
+          "type": "string"
+        },
+        "prerequisites": {
+          "items": {
+            "type": "string"
+          },
+          "maxItems": 10,
+          "title": "Prerequisites",
+          "type": "array"
+        },
+        "reason": {
+          "maxLength": 500,
+          "title": "Reason",
+          "type": "string"
+        },
+        "support": {
+          "items": {
+            "$ref": "#/$defs/Support"
+          },
+          "maxItems": 10,
+          "title": "Support",
+          "type": "array"
+        },
+        "uncertainties": {
+          "items": {
+            "type": "string"
+          },
+          "maxItems": 10,
+          "title": "Uncertainties",
+          "type": "array"
+        },
+        "what_is_new": {
+          "maxLength": 500,
+          "title": "What Is New",
+          "type": "string"
+        }
+      },
+      "required": [
+        "reason",
+        "evidence_ids",
+        "components",
+        "support",
+        "explanation",
+        "mechanism",
+        "what_is_new",
+        "learning_objective",
+        "prerequisites",
+        "uncertainties",
+        "deeper_research"
+      ],
+      "title": "TechnicalDecision",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "classification": {
+      "enum": [
+        "HIGH_SIGNAL",
+        "RESEARCH_REQUIRED",
+        "WATCHLIST",
+        "REDUNDANT_COVERAGE",
+        "LOW_PRIORITY",
+        "INSUFFICIENT_EVIDENCE"
+      ],
+      "title": "Classification",
+      "type": "string"
+    },
+    "event_id": {
+      "pattern": "^[a-f0-9]{24}$",
+      "title": "Event Id",
+      "type": "string"
+    },
+    "id": {
+      "pattern": "^[a-f0-9]{24}$",
+      "title": "Id",
+      "type": "string"
+    },
+    "model": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Model"
+    },
+    "observed_at_utc": {
+      "title": "Observed At Utc",
+      "type": "string"
+    },
+    "policy_version": {
+      "title": "Policy Version",
+      "type": "string"
+    },
+    "provider": {
+      "additionalProperties": true,
+      "title": "Provider",
+      "type": "object"
+    },
+    "radar_id": {
+      "enum": [
+        "agent-control-planes",
+        "distributed-training",
+        "rag-memory"
+      ],
+      "title": "Radar Id",
+      "type": "string"
+    },
+    "reason_codes": {
+      "items": {
+        "type": "string"
+      },
+      "maxItems": 20,
+      "title": "Reason Codes",
+      "type": "array"
+    },
+    "references": {
+      "items": {
+        "$ref": "#/$defs/Reference"
+      },
+      "maxItems": 20,
+      "minItems": 1,
+      "title": "References",
+      "type": "array"
+    },
+    "shared_decision": {
+      "additionalProperties": true,
+      "title": "Shared Decision",
+      "type": "object"
+    },
+    "significance": {
+      "maximum": 10,
+      "minimum": 1,
+      "title": "Significance",
+      "type": "integer"
+    },
+    "technical": {
+      "anyOf": [
+        {
+          "$ref": "#/$defs/TechnicalDecision"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null
+    }
+  },
+  "required": [
+    "id",
+    "radar_id",
+    "event_id",
+    "references",
+    "classification",
+    "reason_codes",
+    "significance",
+    "policy_version",
+    "shared_decision",
+    "provider",
+    "observed_at_utc"
+  ],
+  "title": "TechnicalFinding",
+  "type": "object"
+}

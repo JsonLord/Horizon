@@ -1,0 +1,53 @@
+{
+  "checked_at_utc": "2026-11-08T23:08:08.450010+00:00",
+  "classifications": {
+    "RESEARCH_REQUIRED": 11
+  },
+  "confirmed_concepts": 0,
+  "digest_status": "partial",
+  "discovery_languages": [
+    "en",
+    "unknown"
+  ],
+  "findings": 11,
+  "hosted": false,
+  "live_inference": false,
+  "radar_id": "agent-control-planes",
+  "source_checks": [
+    {
+      "error_code": null,
+      "items": 0,
+      "query": "Agenten Orchestrierung MCP dauerhafte Ausführung",
+      "source": "google_news",
+      "status": "ok"
+    },
+    {
+      "error_code": null,
+      "items": 5,
+      "query": "agent orchestration MCP durable execution",
+      "source": "google_news",
+      "status": "ok"
+    },
+    {
+      "error_code": null,
+      "items": 0,
+      "query": "orchestration agents MCP exécution durable",
+      "source": "google_news",
+      "status": "ok"
+    },
+    {
+      "items": 10,
+      "source": "github:microsoft/autogen",
+      "status": "ok"
+    },
+    {
+      "items": 10,
+      "source": "github:langchain-ai/langgraph",
+      "status": "ok"
+    }
+  ],
+  "source_languages": [
+    "en",
+    "unknown"
+  ]
+}

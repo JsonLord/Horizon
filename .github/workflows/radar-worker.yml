@@ -1,0 +1,100 @@
+name: Isolated technical radar worker
+on:
+  workflow_call:
+    inputs:
+      radar:
+        required: true
+        type: string
+      publication:
+        required: true
+        type: boolean
+    secrets:
+      HORIZON_DECISION_API_KEY:
+        required: false
+permissions:
+  contents: read
+jobs:
+  collect:
+    permissions:
+      contents: read
+    concurrency:
+      group: radar-collection-${{ inputs.radar }}-${{ github.ref }}
+      cancel-in-progress: false
+    runs-on: ubuntu-24.04
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.11'
+      - uses: astral-sh/setup-uv@v7
+      - run: uv sync --frozen
+      - name: Restore pinned data and collect with trusted workflow code
+        env:
+          RADAR_ID: ${{ inputs.radar }}
+          GITHUB_TOKEN: ${{ github.token }}
+          HORIZON_DECISION_BASE_URL: ${{ vars.HORIZON_DECISION_BASE_URL }}
+          HORIZON_DECISION_MODEL: ${{ vars.HORIZON_DECISION_MODEL }}
+          HORIZON_DECISION_API_MODE: ${{ vars.HORIZON_DECISION_API_MODE }}
+          HORIZON_DECISION_API_KEY: ${{ secrets.HORIZON_DECISION_API_KEY }}
+        run: uv run python -m scripts.radar_fleet collect --radar "$RADAR_ID" --restore
+      - uses: actions/upload-artifact@v6
+        with:
+          name: radar-${{ inputs.radar }}
+          path: data/radar
+          retention-days: 14
+          if-no-files-found: error
+  validate:
+    permissions:
+      contents: read
+    needs: collect
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.11'
+      - uses: astral-sh/setup-uv@v7
+      - run: uv sync --frozen
+      - uses: actions/download-artifact@v7
+        with:
+          name: radar-${{ inputs.radar }}
+          path: data/radar
+      - name: Validate on a fresh hosted runner
+        env:
+          RADAR_ID: ${{ inputs.radar }}
+        run: uv run python -m scripts.radar_fleet validate --radar "$RADAR_ID"
+  publish:
+    needs: validate
+    if: github.ref == 'refs/heads/main' && github.event_name == 'schedule' && inputs.publication == true
+    permissions:
+      contents: write
+    concurrency:
+      group: radar-publish-${{ inputs.radar }}
+      cancel-in-progress: false
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          ref: ${{ github.sha }}
+          persist-credentials: false
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.11'
+      - uses: astral-sh/setup-uv@v7
+      - run: uv sync --frozen
+      - uses: actions/download-artifact@v7
+        with:
+          name: radar-${{ inputs.radar }}
+          path: data/radar
+      - name: Validate source revision and publish approved data paths only
+        env:
+          RADAR_ID: ${{ inputs.radar }}
+          GITHUB_TOKEN: ${{ github.token }}
+        run: uv run python -m scripts.radar_fleet publish --radar "$RADAR_ID"
