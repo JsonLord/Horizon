@@ -58,6 +58,7 @@ def stage_digest(root, digest, correction=None):
     atomic(path,dumps(value))
     latest=root/'weekly-digest.json'
     old=Digest.model_validate(read_json(latest)) if latest.exists() else None
+    if old and old.radar_id!=digest.radar_id:raise ValueError('Cross-radar latest digest')
     if old and utc(old.week_end_utc)>utc(digest.week_end_utc):
         return {'status':'historical_only','writes':1}
     atomic(latest,dumps(value))

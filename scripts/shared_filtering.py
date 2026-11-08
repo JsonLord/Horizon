@@ -5,6 +5,7 @@ import json
 import hashlib
 import shutil
 import sqlite3
+import os
 from pathlib import Path
 from src.research.filtering import FilterPolicy,HorizonFilterPipeline
 from src.research.filtering.engine import DurableCheckpointStore,FeedbackStore
@@ -16,6 +17,10 @@ async def qualify(output,restore=False):
     if restore:
         manifest=json.loads((output/'manifest.json').read_text())
         if hashlib.sha256((output/'checkpoint.sqlite').read_bytes()).hexdigest()!=manifest['sha256']:raise ValueError('Checkpoint checksum mismatch')
+        if manifest.get('source_revision')!=os.getenv('GITHUB_SHA','local-development'):raise ValueError('Source revision mismatch')
+        policies={profile:FilterPolicy.load(profile).version for profile in ('examples/ai-usability','funding/de-eu','world/global')}
+        if manifest.get('policy_versions')!=policies:raise ValueError('Policy version mismatch')
+        if hashlib.sha256((output/'commands.sqlite').read_bytes()).hexdigest()!=manifest['command_sha256']:raise ValueError('Command cache checksum mismatch')
         with sqlite3.connect('file:'+str((output/'checkpoint.sqlite').resolve())+'?mode=ro',uri=True) as db:
             if db.execute('PRAGMA quick_check').fetchone()[0]!='ok':raise ValueError('Invalid SQLite snapshot')
         # Deliberate interrupted working state, recovered solely from validated backup.
@@ -53,7 +58,7 @@ async def qualify(output,restore=False):
     proof['provider_requests']=provider.requests
     proof['cache_hits']=sum(r.get('cache_hit',False) for p in proof['policies'] for r in p['fixture_decisions'])
     proof['restored_prior_runner_checkpoint']=restore
-    atomic(output/'manifest.json',dumps({'schema_version':'1.0','sha256':hashlib.sha256((output/'checkpoint.sqlite').read_bytes()).hexdigest()}))
+    atomic(output/'manifest.json',dumps({'schema_version':'1.0','source_revision':os.getenv('GITHUB_SHA','local-development'),'policy_versions':{profile:FilterPolicy.load(profile).version for profile in ('examples/ai-usability','funding/de-eu','world/global')},'command_sha256':hashlib.sha256((output/'commands.sqlite').read_bytes()).hexdigest(),'sha256':hashlib.sha256((output/'checkpoint.sqlite').read_bytes()).hexdigest()}))
     atomic(output/'proof.json',dumps(proof))
     # Safe public proof: omit endpoint, credentials and retrieved content.
     public={k:proof[k] for k in ('live_inference','provider','restoration_verified','restored_prior_runner_checkpoint','provider_requests','cache_hits')}

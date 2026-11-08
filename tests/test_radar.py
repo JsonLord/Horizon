@@ -282,3 +282,16 @@ def test_unreviewed_benchmark_has_no_fabricated_quality(tmp_path):
     assert not result['reviewed_ground_truth']
     assert all(v is None for group in result['groups'] for v in group['metrics'].values())
     with pytest.raises(ValueError):benchmark(tmp_path,{'reviewer':'reviewer','reviewed_at_utc':stamp(END),'cases':{'invented':{}}})
+
+
+def test_shared_qualification_checks_revision_policy_and_both_caches(tmp_path,monkeypatch):
+    from scripts.shared_filtering import qualify
+    monkeypatch.delenv('HORIZON_DECISION_BASE_URL',raising=False)
+    monkeypatch.delenv('HORIZON_DECISION_MODEL',raising=False)
+    asyncio.run(qualify(tmp_path))
+    proof=read_json(tmp_path/'proof.json')
+    assert len(proof['command_qualification'])==18 and not proof['all_commands_live_validated']
+    asyncio.run(qualify(tmp_path,restore=True))
+    manifest=read_json(tmp_path/'manifest.json');manifest['source_revision']='unreviewed-source'
+    atomic(tmp_path/'manifest.json',dumps(manifest))
+    with pytest.raises(ValueError,match='Source revision'):asyncio.run(qualify(tmp_path,restore=True))

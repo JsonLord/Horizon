@@ -494,6 +494,18 @@
       "default": null,
       "title": "Coverage Start Utc"
     },
+    "decision_identity": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Decision Identity"
+    },
     "failed_sources": {
       "additionalProperties": {
         "additionalProperties": true,

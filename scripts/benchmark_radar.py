@@ -8,7 +8,7 @@ from src.research.radar.contracts import RADARS
 
 def benchmark(root,labels=None):
     cases={}
-    for path in Path(root).glob('*/reports/*.json'):
+    for path in sorted(Path(root).glob('*/reports/*.json')):
         f=TechnicalFinding.model_validate_json(path.read_text())
         cases[f.id]={'id':f.id,'radar_id':f.radar_id,'language':f.references[0].language,'title':f.references[0].title,'source_ids':[r.id for r in f.references],'source_urls':[r.url for r in f.references],'classification':f.classification,'significance':f.significance,'event_id':f.event_id,'observed_at_utc':f.observed_at_utc,'label':None}
     if labels:

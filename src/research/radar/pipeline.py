@@ -88,6 +88,7 @@ class State(Strict):
     radar_id: Literal['agent-control-planes','distributed-training','rag-memory']
     policy_version: str
     source_revision: str | None = None
+    decision_identity: str | None = None
     coverage_start_utc: str | None = None
     last_attempted_collection_utc: str | None = None
     last_successful_collection_utc: str | None = None
@@ -179,7 +180,9 @@ async def run_collection(radar, root, now=None, items=None, metrics=None, provid
     state=State.model_validate(read_json(root/'radar-state.json')) if (root/'radar-state.json').exists() else State(radar_id=radar,policy_version=entry['policy_version'])
     if state.radar_id!=radar:raise ValueError('Cross-radar checkpoint')
     profile=load_profiles()[entry['profile_id']]
-    if items is None:items,metrics=await collect_items(entry,profile)
+    if items is None:
+        if state.next_eligible_collection_utc and now<utc(state.next_eligible_collection_utc):return state,[{'source':'scheduler','status':'not_due'}]
+        items,metrics=await collect_items(entry,profile)
     metrics=metrics or []
     refs={}
     for item in items:
@@ -195,9 +198,11 @@ async def run_collection(radar, root, now=None, items=None, metrics=None, provid
         for values in buckets.values():
             if i<len(values):ordered.append(values[i])
     ordered += [r for r in refs.values() if r not in ordered]
+    provider=provider or DecisionModelProvider()
+    if state.decision_identity!=provider.identity() or state.policy_version!=entry['policy_version'] or state.source_revision!=source_revision:
+        state.processed={};state.checkpoint=[]
     pending=[r for r in ordered if state.processed.get(r.id)!=r.content_hash]
     selected=pending[:entry['max_candidates']];state.collection_backlog=max(0,len(pending)-len(selected))
-    provider=provider or DecisionModelProvider()
     store=DurableCheckpointStore(root/'.working-filter.sqlite')
     # Portable JSON checkpoint only. Never load or execute branch-supplied Python,
     # pickle or SQLite. Cache rows are bounded and policy/model-keyed by shared engine.
@@ -264,7 +269,7 @@ async def run_collection(radar, root, now=None, items=None, metrics=None, provid
         since=now-timedelta(days=7)
         if not state.coverage_start_utc or not state.last_successful_collection_utc or utc(state.last_successful_collection_utc)<since:state.coverage_start_utc=stamp(since)
         state.last_successful_collection_utc=stamp(now)
-    state.policy_version=entry['policy_version'];state.source_revision=source_revision
+    state.policy_version=entry['policy_version'];state.source_revision=source_revision;state.decision_identity=provider.identity()
     atomic(root/'radar-state.json',dumps(state.model_dump(mode='json')))
     manifest=load_manifest(root,radar);manifest.last_successful_collection_utc=state.last_successful_collection_utc
     atomic(root/'radar-manifest.json',dumps(manifest.model_dump(mode='json')))
