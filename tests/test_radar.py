@@ -217,6 +217,7 @@ def test_publisher_data_only_idempotency_history_conflicts(tmp_path):
             return self.head
         def api(self,method,path,**kw):
             self.calls.append((method,path,kw))
+            if method=='GET' and path.startswith('git/commits/'):return {'tree':{'sha':'actual-base-tree'}}
             if path=='git/blobs':
                 import base64
                 sha=str(len(self.blobs));self.blobs[sha]=base64.b64decode(kw['json']['content']);return {'sha':sha}
@@ -236,7 +237,7 @@ def test_publisher_data_only_idempotency_history_conflicts(tmp_path):
     corrupted=read_json(root/'weekly/2026-W45/weekly-digest.json');corrupted['quality']['coverage_limitations'].append('unauthorized mutation')
     atomic(root/'weekly/2026-W45/weekly-digest.json',dumps(corrupted))
     atomic(root/'weekly-digest.json',dumps(corrupted))
-    with pytest.raises(ValueError,match='Immutable history'):api._publish_validated('rag-memory',root)
+    with pytest.raises(ValueError,match='Immutable history|traceable correction'):api._publish_validated('rag-memory',root)
 
 
 def test_technical_budget_reserved_and_public_model_distillation(tmp_path):
@@ -295,3 +296,10 @@ def test_shared_qualification_checks_revision_policy_and_both_caches(tmp_path,mo
     manifest=read_json(tmp_path/'manifest.json');manifest['source_revision']='unreviewed-source'
     atomic(tmp_path/'manifest.json',dumps(manifest))
     with pytest.raises(ValueError,match='Source revision'):asyncio.run(qualify(tmp_path,restore=True))
+
+
+def test_public_reader_does_not_send_blank_bearer_header(monkeypatch):
+    monkeypatch.delenv('GITHUB_TOKEN',raising=False)
+    api=GitHubData()
+    assert 'Authorization' not in api.client.headers
+    api.client.close()

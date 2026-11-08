@@ -6,14 +6,17 @@ from pathlib import Path
 import httpx
 from ..reporting import dumps
 from .contracts import RADARS, Digest, utc
-from .storage import allowed_path, validate_tree
+from .storage import allowed_path, validate_tree, load_manifest, read_json
 
 
 class GitHubData:
     def __init__(self,repo='JsonLord/Horizon',token=None,client=None):
         if repo!='JsonLord/Horizon':raise ValueError('Unapproved repository')
         self.repo=repo
-        self.client=client or httpx.Client(base_url='https://api.github.com',headers={'Authorization':'Bearer '+(token or os.getenv('GITHUB_TOKEN','')),'Accept':'application/vnd.github+json'},timeout=30,follow_redirects=False)
+        headers={'Accept':'application/vnd.github+json'}
+        credential=token or os.getenv('GITHUB_TOKEN','')
+        if credential:headers['Authorization']='Bearer '+credential
+        self.client=client or httpx.Client(base_url='https://api.github.com',headers=headers,timeout=30,follow_redirects=False)
     def api(self,method,path,**kwargs):
         response=self.client.request(method,'/repos/'+self.repo+'/'+path,**kwargs)
         if response.status_code>=400:raise RuntimeError('GitHub HTTP '+str(response.status_code))
@@ -54,6 +57,12 @@ class GitHubData:
             with tempfile.TemporaryDirectory() as temp:
                 oldhead=self.read(radar,temp)
                 if oldhead is None:raise ValueError('Radar branch must be initialized by operator review')
+                old_manifest=load_manifest(temp,radar);incoming_manifest=load_manifest(root,radar)
+                if old_manifest.latest_digest_path and not incoming_manifest.latest_digest_path:raise ValueError('Cannot clear last-good manifest')
+                old_state=Path(temp)/'radar-state.json';new_state=Path(root)/'radar-state.json'
+                if old_state.exists() and new_state.exists():
+                    before=read_json(old_state).get('last_attempted_collection_utc');after=read_json(new_state).get('last_attempted_collection_utc')
+                    if before and (not after or utc(after)<utc(before)):raise ValueError('Collection state regression')
                 files={p.relative_to(root).as_posix():p.read_bytes() for p in Path(root).rglob('*') if p.is_file()}
                 changes=[]
                 for name,data in files.items():
@@ -63,10 +72,14 @@ class GitHubData:
                     if name=='weekly-digest.json' and old.exists():
                         current=Digest.model_validate_json(old.read_text());incoming=Digest.model_validate_json(data)
                         if utc(incoming.week_end_utc)<utc(current.week_end_utc):raise ValueError('Latest week regression')
+                        if utc(incoming.week_end_utc)==utc(current.week_end_utc):
+                            corrections=[p for p in (Path(root)/'weekly').glob('*/corrections/*/weekly-digest.json') if not (Path(temp)/p.relative_to(root)).exists()]
+                            if not any(p.read_bytes()==data for p in corrections):raise ValueError('Same-week replacement requires new traceable correction')
                     blob=self.api('POST','git/blobs',json={'content':base64.b64encode(data).decode(),'encoding':'base64'})
                     changes.append({'path':name,'mode':'100644','type':'blob','sha':blob['sha']})
                 if not changes:return {'status':'unchanged','commit':oldhead,'writes':0}
-                tree=self.api('POST','git/trees',json={'base_tree':oldhead,'tree':changes})
+                base_tree=self.api('GET','git/commits/'+oldhead)['tree']['sha']
+                tree=self.api('POST','git/trees',json={'base_tree':base_tree,'tree':changes})
                 commit=self.api('POST','git/commits',json={'message':'Publish validated '+radar+' research data','tree':tree['sha'],'parents':[oldhead]})
                 try:
                     self.api('PATCH','git/refs/heads/radar/'+radar,json={'sha':commit['sha'],'force':False})
