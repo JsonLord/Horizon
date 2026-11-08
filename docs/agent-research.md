@@ -714,3 +714,60 @@ disabled. The secure environment has none of the four HORIZON_DECISION_* setting
 no endpoint/model/key was guessed. Existing draft PR #5 and production refs remain
 unchanged. Model/token config and local recovery are ready for authorized testing,
 with quality metrics intentionally unclaimed pending reviewed labels.
+
+## 2026-11-08 — Technical radar fleet with pull-only amendment
+
+Accepted the operator's architectural correction: Horizon only researches,
+validates, distills and publishes data; external consumers independently pull.
+No external delivery API, webhook, wakeup, issue creation, dispatch queue,
+consumer credential or pull client was introduced.
+
+Milestone 0: audited spec/AGENTS, all workflows, PR #5/#7 stacking, collectors,
+shared provider/cache and intel publisher. Created `feature/technical-radar-fleet`
+from reviewed shared source `05ab6d8`; both prior PRs remain draft/unmerged.
+Architecture reuse report is docs/TECHNICAL_RADAR_ARCHITECTURE.md.
+
+Milestone 1: retried live qualification immediately. Registered horizon-intel
+returned 422 Actions disabled; metadata endpoints 403. After pushing the new
+branch, new workflow names returned 404 lookup failures, no hosted runs. Expanded
+qualification to all 6 commands × 3 existing policies, with source/policy/hash-bound
+checkpoint and command-cache restoration. Local calls remain zero; no provider
+success/model/usage/hosted durability invented. Evidence: DECISION_MODEL_LIVE_ACCEPTANCE.md
+and radar-hosted-blocker.json.
+
+Milestones 2–7: added three approved EN/DE/FR profiles/policies/source registers,
+primary GitHub release collection, independent bounded state/backlog/freshness,
+source-first prefilters, DOI/arXiv/release identity, shared semantic gates,
+evidence-quoted technical-learning rubric, independent distillation support,
+conservative review fallback and original-language reports. All initial targeted
+contract tests passed; later regressions caught and fixed a blank anonymous bearer
+header, true Git-tree base identity, version/PDF normalization and exhausted
+technical budget. Unknown eligibility and existing Laya/CLI/MCP remain unchanged.
+
+Milestones 8–9: implemented fixed UTC Friday windows, immutable ISO-week digests,
+explicit correction versions, idempotent repeated runs, older-week protection,
+catch-up planning, manifest consistency and read-only SHA-pinned GitHub interface.
+Contract is docs/RADAR_PULL_CONTRACT.md. Created only uninitialized data manifests
+on the three approved radar branches and actually read them via GitHub contents
+and token-free pinned tree/blob APIs. No weekly root was fabricated or published.
+Proof commit SHAs are in radar-branch-initialization.json.
+
+Milestones 10–12: prepared disabled-by-default trusted controller and per-radar
+reusable worker, read-only collection/fresh-runner validation, narrowly scoped
+main-only non-force publisher. Existing production cron/publication guards remain;
+only the read-only shared qualification branch allowlist was extended. All three
+local live source sets succeeded, final bounded counts 30 agent / 8 training / 30
+RAG findings, all RESEARCH_REQUIRED. Broader queries recovered real DE/FR discovery;
+unknown language stays explicit. Real 68-case benchmark has no reviewed labels,
+so quality metrics remain null. Source-family expansion, actual multilingual model
+quality, full weekly coverage, live digest/history retrieval and automatic-token
+publication remain explicitly partial/blocked, not mock-certified.
+
+Final measured regression suite: **487 passed in 5.09s**; targeted radar **29 passed
+in 0.36s**. Both MCP smokes pass (24 tools, 15 profiles). Funding deterministic
+check and 43-link acceptance pass; authored seed checksum unchanged; 3 unknown
+eligibility records and 4 pending nominations retained. actionlint and diff checks
+pass. Code source `93596431508915f97dcfdacf01536654c99e1347`; complete acceptance
+gate matrix and remaining operational limits are in
+`docs/TECHNICAL_RADAR_FLEET_ACCEPTANCE.md`. No merge, settings change, production
+publication or schedule activation performed.
