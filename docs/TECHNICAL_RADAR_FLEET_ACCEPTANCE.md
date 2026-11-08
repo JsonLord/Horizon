@@ -28,7 +28,7 @@ measured limits; it is not production qualification.
 
 ## Commands and exact measured results
 
-- `uv run --extra dev pytest`: **487 passed in 5.09s**.
+- `uv run --extra dev pytest`: **487 passed in 5.22s**.
 - Latest targeted `uv run --extra dev pytest tests/test_radar.py`: **29 passed
   in 0.36s**; covers EN/DE/FR provenance, semantic-event links, release versions,
   technical budget reservation, rubric support, original code pattern citations,
@@ -158,3 +158,9 @@ M	tests/test_research.py
 A	docs/TECHNICAL_RADAR_FLEET_ACCEPTANCE.md
 M	docs/agent-research.md
 ```
+
+Final review: draft PR #8 (https://github.com/JsonLord/Horizon/pull/8), base
+`feature/shared-intelligence-filtering`, head `feature/technical-radar-fleet`.
+A final dispatch of the registered horizon-intel shared qualification against the
+fleet ref also returned 422 Actions disabled; no run was created. Final full
+suite at the pushed implementation: 487 passed in 5.22s.

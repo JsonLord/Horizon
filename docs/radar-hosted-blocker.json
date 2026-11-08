@@ -30,5 +30,13 @@
       "workflow": "radar-fleet.yml"
     }
   ],
-  "settings_changed": false
+  "settings_changed": false,
+  "fleet_ref_qualification": {
+    "workflow": "horizon-intel.yml",
+    "ref": "feature/technical-radar-fleet",
+    "source_revision": "d9a1ae9",
+    "http_status": 422,
+    "reason": "Actions has been disabled for this repository",
+    "run_id": null
+  }
 }

@@ -763,7 +763,7 @@ so quality metrics remain null. Source-family expansion, actual multilingual mod
 quality, full weekly coverage, live digest/history retrieval and automatic-token
 publication remain explicitly partial/blocked, not mock-certified.
 
-Final measured regression suite: **487 passed in 5.09s**; targeted radar **29 passed
+Final measured regression suite: **487 passed in 5.22s**; targeted radar **29 passed
 in 0.36s**. Both MCP smokes pass (24 tools, 15 profiles). Funding deterministic
 check and 43-link acceptance pass; authored seed checksum unchanged; 3 unknown
 eligibility records and 4 pending nominations retained. actionlint and diff checks
