@@ -32,3 +32,21 @@ schedules, so this task did not change that setting. Collect the actual run URLs
 18-cell results, reported model identity, usage, latency, schema/citation checks
 and fresh-runner restoration proof before changing this gate to PASS. A successful
 HTTP response or fixture schema alone cannot certify multilingual research quality.
+
+After pushing the fleet branch, direct lookup/dispatch by the new workflow names
+`shared-filtering.yml` and `radar-fleet.yml` returned **404 Not Found**; no run was
+created. This is distinct from the registered horizon-intel workflow's 422. The
+existing read-only shared-filtering qualification allowlist now also permits
+`feature/technical-radar-fleet`, without changing its production collect/publish
+guards. Once Actions is available, qualify the new 18-cell implementation with:
+
+```sh
+gh workflow run horizon-intel.yml --repo JsonLord/Horizon \
+  --ref feature/technical-radar-fleet -f shared_filtering_qualification=true
+```
+
+Do not use a successful workflow dispatch response as inference proof; inspect
+both runners' actual artifacts and `all_commands_live_validated`. Checkpoint
+restoration now verifies the application source revision, three policy versions,
+SQLite checkpoint hash and separate command-cache hash before opening restored
+state. No hosted run currently exists for these changes.

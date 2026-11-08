@@ -248,7 +248,7 @@ jobs:
           if-no-files-found: warn
           retention-days: 14
   shared-filtering-qualify:
-    if: inputs.shared_filtering_qualification == true && github.event_name == 'workflow_dispatch' && github.ref == 'refs/heads/feature/shared-intelligence-filtering'
+    if: inputs.shared_filtering_qualification == true && github.event_name == 'workflow_dispatch' && (github.ref == 'refs/heads/feature/shared-intelligence-filtering' || github.ref == 'refs/heads/feature/technical-radar-fleet')
     permissions:
       contents: read
       actions: read

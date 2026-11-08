@@ -107,6 +107,7 @@ def registry():
     if {e['radar_id'] for e in entries}!=set(RADARS) or len(entries)!=3:raise ValueError('Invalid radar registry')
     for e in entries:
         if e['branch']!='radar/'+e['radar_id'] or e['source_registry']!='config/radar/sources/'+e['radar_id']+'.json':raise ValueError('Unsafe registry')
+        if not 1<=e['collection_interval_hours']<=48:raise ValueError('Invalid collection interval')
         if not 1<=e['max_candidates']<=30 or not 0<=e['max_model_requests']<=120 or not 0<=e['max_model_tokens']<=200000:raise ValueError('Unbounded radar')
     return data
 
@@ -123,7 +124,11 @@ def language(text, declared=None):
 
 def event_identity(url):
     # Versions/tags remain part of the identity. Same repository is not same event.
-    match=re.search(r'arxiv\.org/(?:abs|pdf)/([\d.]+(?:v\d+)?)',url)
+    from urllib.parse import unquote
+    normalized=unquote(url)
+    doi=re.search(r'(?:doi\.org/|/doi/(?:abs/|full/)?)(10\.\d{4,9}/[^?#]+)',normalized,re.I)
+    if doi:return ident('doi:'+doi[1].rstrip('/').lower())
+    match=re.search(r'arxiv\.org/(?:abs|pdf)/(\d{4}\.\d{4,5}(?:v\d+)?)',normalized)
     return ident('arxiv:'+match[1]) if match else ident(canonical(url))
 
 
@@ -198,6 +203,9 @@ async def run_collection(radar, root, now=None, items=None, metrics=None, provid
         for values in buckets.values():
             if i<len(values):ordered.append(values[i])
     ordered += [r for r in refs.values() if r not in ordered]
+    # Primary releases precede discovery nominations; language round-robin is
+    # retained for the remaining slots, without quotas on published concepts.
+    ordered=[r for r in ordered if r.primary]+[r for r in ordered if not r.primary]
     provider=provider or DecisionModelProvider()
     if state.decision_identity!=provider.identity() or state.policy_version!=entry['policy_version'] or state.source_revision!=source_revision:
         state.processed={};state.checkpoint=[]
@@ -259,12 +267,12 @@ async def run_collection(radar, root, now=None, items=None, metrics=None, provid
         if checkpoint_bytes>150000:break
         state.checkpoint.append({'kind':k,'key':key,'value':json.loads(v)})
     store.close();(root/'.working-filter.sqlite').unlink(missing_ok=True)
-    state.last_attempted_collection_utc=stamp(now);state.next_eligible_collection_utc=stamp(now+timedelta(hours=12))
+    state.last_attempted_collection_utc=stamp(now);state.next_eligible_collection_utc=stamp(now+timedelta(hours=entry['collection_interval_hours']))
     complete=bool(metrics) and all(m['status']=='ok' for m in metrics)
     for m in metrics:
         key=m.get('query') or m['source']
         if m['status']=='ok':state.source_freshness[key]=stamp(now);state.failed_sources.pop(key,None)
-        else:state.failed_sources[key]={'attempts':min(10,state.failed_sources.get(key,{}).get('attempts',0)+1),'last_attempt_utc':stamp(now),'next_retry_utc':stamp(now+timedelta(hours=12))}
+        else:state.failed_sources[key]={'attempts':min(10,state.failed_sources.get(key,{}).get('attempts',0)+1),'last_attempt_utc':stamp(now),'next_retry_utc':stamp(now+timedelta(hours=entry['collection_interval_hours']))}
     if complete:
         since=now-timedelta(days=7)
         if not state.coverage_start_utc or not state.last_successful_collection_utc or utc(state.last_successful_collection_utc)<since:state.coverage_start_utc=stamp(since)

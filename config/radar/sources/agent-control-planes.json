@@ -9,7 +9,7 @@
   "discovery_queries": [
     {
       "source": "google_news",
-      "text": "agent orchestration MCP durable execution",
+      "text": "(MCP OR \"agent orchestration\") (architecture OR durable)",
       "language": "en",
       "country": "US",
       "topic": "agent-control-planes",
@@ -17,7 +17,7 @@
     },
     {
       "source": "google_news",
-      "text": "Agenten Orchestrierung MCP dauerhafte Ausführung",
+      "text": "\"KI-Agenten\" (MCP OR Orchestrierung OR Architektur)",
       "language": "de",
       "country": "DE",
       "topic": "agent-control-planes",
@@ -25,7 +25,7 @@
     },
     {
       "source": "google_news",
-      "text": "orchestration agents MCP exécution durable",
+      "text": "\"agents IA\" (orchestration OR architecture OR MCP)",
       "language": "fr",
       "country": "FR",
       "topic": "agent-control-planes",

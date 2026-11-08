@@ -46,6 +46,7 @@ def test_registry_and_profiles():
         assert FilterPolicy.load(p.profile_id).version==entry['policy_version']
         assert set(p.languages)=={'en','de','fr'}
         seeds=json.loads((ROOT/entry['source_registry']).read_text())
+        assert seeds['discovery_queries']==[q.model_dump() for q in p.queries]
         assert all(re.fullmatch(r'[\w.-]+/[\w.-]+',r) for r in seeds['primary_repositories'])
         assert not any(k in p.canonical() for k in ('api_key','base_url','model_id'))
 
@@ -303,3 +304,9 @@ def test_public_reader_does_not_send_blank_bearer_header(monkeypatch):
     api=GitHubData()
     assert 'Authorization' not in api.client.headers
     api.client.close()
+
+
+def test_canonical_doi_and_arxiv_pdf_versions():
+    assert event_identity('https://doi.org/10.12345/ABC')==event_identity('https://example.org/doi/full/10.12345/abc')
+    assert event_identity('https://arxiv.org/abs/2611.12345')==event_identity('https://arxiv.org/pdf/2611.12345.pdf')
+    assert event_identity('https://arxiv.org/abs/2611.12345v1')!=event_identity('https://arxiv.org/abs/2611.12345v2')

@@ -6,6 +6,7 @@
       "digest_status": "uninitialized",
       "latest_digest_path": null,
       "manifest_schema_valid": true,
+      "public_no_token_tree_validation": true,
       "read_only_consumer_verified": true
     },
     {
@@ -14,6 +15,7 @@
       "digest_status": "uninitialized",
       "latest_digest_path": null,
       "manifest_schema_valid": true,
+      "public_no_token_tree_validation": true,
       "read_only_consumer_verified": true
     },
     {
@@ -22,9 +24,11 @@
       "digest_status": "uninitialized",
       "latest_digest_path": null,
       "manifest_schema_valid": true,
+      "public_no_token_tree_validation": true,
       "read_only_consumer_verified": true
     }
   ],
   "checked_at_utc": "2026-11-08T23:13:01.643507+00:00",
-  "initialization_only": true
+  "initialization_only": true,
+  "public_tree_reads_verified_at_utc": "2026-11-08T23:15:55.662373+00:00"
 }

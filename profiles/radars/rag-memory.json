@@ -33,7 +33,7 @@
   "queries": [
     {
       "source": "google_news",
-      "text": "RAG retrieval agent memory benchmarks",
+      "text": "\"agent memory\" OR \"hybrid retrieval\" OR \"RAG evaluation\"",
       "language": "en",
       "country": "US",
       "topic": "rag-memory",
@@ -41,7 +41,7 @@
     },
     {
       "source": "google_news",
-      "text": "RAG Wissensabruf Agenten Gedächtnis",
+      "text": "(RAG OR Wissensabruf) (KI OR Gedächtnis OR Evaluierung)",
       "language": "de",
       "country": "DE",
       "topic": "rag-memory",
@@ -49,7 +49,7 @@
     },
     {
       "source": "google_news",
-      "text": "RAG recherche mémoire agents évaluation",
+      "text": "(RAG OR \"mémoire agents\") (évaluation OR recherche OR hybride)",
       "language": "fr",
       "country": "FR",
       "topic": "rag-memory",

@@ -1,38 +1,39 @@
 {
-  "checked_at_utc": "2026-11-08T23:08:10.168544+00:00",
+  "checked_at_utc": "2026-11-08T23:16:48.155129+00:00",
   "classifications": {
-    "RESEARCH_REQUIRED": 18
+    "RESEARCH_REQUIRED": 30
   },
   "confirmed_concepts": 0,
   "digest_status": "partial",
   "discovery_languages": [
+    "de",
     "en",
     "fr",
     "unknown"
   ],
-  "findings": 18,
+  "findings": 30,
   "hosted": false,
   "live_inference": false,
   "radar_id": "rag-memory",
   "source_checks": [
     {
       "error_code": null,
-      "items": 0,
-      "query": "RAG Wissensabruf Agenten Gedächtnis",
+      "items": 13,
+      "query": "(RAG OR Wissensabruf) (KI OR Gedächtnis OR Evaluierung)",
       "source": "google_news",
       "status": "ok"
     },
     {
       "error_code": null,
-      "items": 6,
-      "query": "RAG retrieval agent memory benchmarks",
+      "items": 8,
+      "query": "\"agent memory\" OR \"hybrid retrieval\" OR \"RAG evaluation\"",
       "source": "google_news",
       "status": "ok"
     },
     {
       "error_code": null,
-      "items": 2,
-      "query": "RAG recherche mémoire agents évaluation",
+      "items": 8,
+      "query": "(RAG OR \"mémoire agents\") (évaluation OR recherche OR hybride)",
       "source": "google_news",
       "status": "ok"
     },
@@ -48,8 +49,8 @@
     }
   ],
   "source_languages": [
+    "de",
     "en",
-    "fr",
     "unknown"
   ]
 }

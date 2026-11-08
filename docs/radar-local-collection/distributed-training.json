@@ -1,14 +1,14 @@
 {
-  "checked_at_utc": "2026-11-08T23:08:10.287835+00:00",
+  "checked_at_utc": "2026-11-08T23:16:48.304823+00:00",
   "classifications": {
-    "RESEARCH_REQUIRED": 1
+    "RESEARCH_REQUIRED": 8
   },
   "confirmed_concepts": 0,
   "digest_status": "partial",
   "discovery_languages": [
-    "fr"
+    "en"
   ],
-  "findings": 1,
+  "findings": 8,
   "hosted": false,
   "live_inference": false,
   "radar_id": "distributed-training",
@@ -16,21 +16,21 @@
     {
       "error_code": null,
       "items": 0,
-      "query": "verteiltes Training GPU Speicher Optimierung",
+      "query": "FSDP OR \"verteiltes Training\" OR Tensorparallelität",
       "source": "google_news",
       "status": "ok"
     },
     {
       "error_code": null,
       "items": 0,
-      "query": "distributed training FSDP ZeRO tensor parallelism",
+      "query": "FSDP OR \"entraînement distribué\" OR \"parallélisme tensoriel\"",
       "source": "google_news",
       "status": "ok"
     },
     {
       "error_code": null,
-      "items": 1,
-      "query": "entraînement distribué parallélisme mémoire GPU",
+      "items": 8,
+      "query": "FSDP OR \"distributed training\" OR \"tensor parallelism\"",
       "source": "google_news",
       "status": "ok"
     },
@@ -46,6 +46,7 @@
     }
   ],
   "source_languages": [
+    "en",
     "unknown"
   ]
 }

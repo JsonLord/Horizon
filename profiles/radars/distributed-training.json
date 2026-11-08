@@ -32,7 +32,7 @@
   "queries": [
     {
       "source": "google_news",
-      "text": "distributed training FSDP ZeRO tensor parallelism",
+      "text": "FSDP OR \"distributed training\" OR \"tensor parallelism\"",
       "language": "en",
       "country": "US",
       "topic": "distributed-training",
@@ -40,7 +40,7 @@
     },
     {
       "source": "google_news",
-      "text": "verteiltes Training GPU Speicher Optimierung",
+      "text": "FSDP OR \"verteiltes Training\" OR Tensorparallelität",
       "language": "de",
       "country": "DE",
       "topic": "distributed-training",
@@ -48,7 +48,7 @@
     },
     {
       "source": "google_news",
-      "text": "entraînement distribué parallélisme mémoire GPU",
+      "text": "FSDP OR \"entraînement distribué\" OR \"parallélisme tensoriel\"",
       "language": "fr",
       "country": "FR",
       "topic": "distributed-training",
