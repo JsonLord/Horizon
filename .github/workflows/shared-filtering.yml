@@ -2,6 +2,10 @@ name: Shared filtering staging qualification
 on:
   workflow_call:
     inputs:
+      model:
+        description: Optional model identifier for read-only qualification
+        type: string
+        default: ''
       chat_url:
         description: Optional exact endpoint on the configured provider origin for read-only qualification
         type: string
@@ -14,6 +18,10 @@ on:
         required: false
   workflow_dispatch:
     inputs:
+      model:
+        description: Optional model identifier for read-only qualification
+        type: string
+        default: ''
       chat_url:
         description: Optional exact endpoint on the configured provider origin for read-only qualification
         type: string
@@ -48,6 +56,7 @@ jobs:
       - run: uv sync --frozen
       - name: Exercise shared provider and all three policies
         env:
+          HORIZON_QUALIFICATION_MODEL: ${{ inputs.model }}
           HORIZON_QUALIFICATION_CHAT_URL: ${{ inputs.chat_url }}
           HORIZON_DECISION_CHAT_URL: ${{ vars.HORIZON_DECISION_CHAT_URL }}
           HORIZON_DECISION_BASE_URL: ${{ vars.HORIZON_DECISION_BASE_URL }}

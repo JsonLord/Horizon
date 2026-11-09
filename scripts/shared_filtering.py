@@ -6,6 +6,7 @@ import hashlib
 import shutil
 import sqlite3
 import os
+import re
 from pathlib import Path
 from src.research.filtering import FilterPolicy,HorizonFilterPipeline
 from src.research.filtering.engine import DurableCheckpointStore,FeedbackStore
@@ -21,7 +22,7 @@ def qualification_endpoint(base,value):
     return value
 
 
-async def qualify(output,restore=False,restore_only=False,chat_url=None):
+async def qualify(output,restore=False,restore_only=False,chat_url=None,model=None):
     output.mkdir(parents=True,exist_ok=True)
     restore=restore or restore_only
     if restore:
@@ -48,6 +49,9 @@ async def qualify(output,restore=False,restore_only=False,chat_url=None):
         print('::notice title=shared-checkpoint-recovery::'+json.dumps(proof))
         return proof
     provider=DecisionModelProvider()
+    if model:
+        if not re.fullmatch(r'[A-Za-z0-9][A-Za-z0-9._:/-]{0,199}',model):raise ValueError('Invalid qualification model identifier')
+        provider.model=model
     if chat_url:provider.chat_url=qualification_endpoint(provider.request_url,chat_url)
     # A disclosed inference fixture, never a published research finding.
     payload={'summary':'Public fixture: accessibility testing tool adds keyboard-navigation checks.','evidence':[{'id':'smoke-public','snippet':'The fixture release adds keyboard-navigation checks.'}]}
@@ -93,10 +97,10 @@ async def qualify(output,restore=False,restore_only=False,chat_url=None):
     return proof
 
 if __name__=='__main__':
-    p=argparse.ArgumentParser(description=__doc__);p.add_argument('--restore',action='store_true');p.add_argument('--restore-only',action='store_true');p.add_argument('--chat-url',default=os.getenv('HORIZON_QUALIFICATION_CHAT_URL',''));p.add_argument('--require-live',action='store_true');p.add_argument('--feedback',choices=['more_like_this','less_like_this','important_but_not_actionable']);p.add_argument('--profile');p.add_argument('--topics',nargs='*',default=[]);p.add_argument('--sources',nargs='*',default=[]);p.add_argument('--item');p.add_argument('--reason',default='Operator review');p.add_argument('--output',type=Path,default=Path('data/shared-filtering'));args=p.parse_args()
+    p=argparse.ArgumentParser(description=__doc__);p.add_argument('--restore',action='store_true');p.add_argument('--restore-only',action='store_true');p.add_argument('--chat-url',default=os.getenv('HORIZON_QUALIFICATION_CHAT_URL',''));p.add_argument('--model',default=os.getenv('HORIZON_QUALIFICATION_MODEL',''));p.add_argument('--require-live',action='store_true');p.add_argument('--feedback',choices=['more_like_this','less_like_this','important_but_not_actionable']);p.add_argument('--profile');p.add_argument('--topics',nargs='*',default=[]);p.add_argument('--sources',nargs='*',default=[]);p.add_argument('--item');p.add_argument('--reason',default='Operator review');p.add_argument('--output',type=Path,default=Path('data/shared-filtering'));args=p.parse_args()
     if args.feedback:
         if not args.profile or not args.item:p.error('Feedback needs --profile and --item')
         state=DurableCheckpointStore(args.output/'state.sqlite');FeedbackStore(state).add(args.profile,args.item,args.feedback,args.reason,topics=args.topics,sources=args.sources);state.close()
     else:
-        proof=asyncio.run(qualify(args.output,args.restore,args.restore_only,args.chat_url))
+        proof=asyncio.run(qualify(args.output,args.restore,args.restore_only,args.chat_url,args.model))
         if args.require_live and not proof.get('all_commands_live_validated',False):raise SystemExit('Live qualification incomplete; inspect safe proof.json metadata')

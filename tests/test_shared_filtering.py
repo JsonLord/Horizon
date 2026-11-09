@@ -198,3 +198,16 @@ def test_qualification_url_cannot_redirect_model_secret_to_another_origin():
     assert qualification_endpoint('https://gateway.example.com/v1','https://gateway.example.com/operation')=='https://gateway.example.com/operation'
     for bad in ('https://attacker.example.com/operation','http://gateway.example.com/operation','https://gateway.example.com/operation?token=secret'):
         with pytest.raises(ValueError):qualification_endpoint('https://gateway.example.com/v1',bad)
+
+
+def test_qualification_model_override_does_not_change_repository_environment(tmp_path,monkeypatch):
+    from scripts.shared_filtering import qualify
+    monkeypatch.setenv('HORIZON_DECISION_MODEL','repository-model')
+    monkeypatch.delenv('HORIZON_DECISION_BASE_URL',raising=False)
+    monkeypatch.delenv('HORIZON_DECISION_CHAT_URL',raising=False)
+    proof=asyncio.run(qualify(tmp_path,model='approved-model'))
+    assert proof['provider']['model']=='approved-model'
+    import os
+    assert os.environ['HORIZON_DECISION_MODEL']=='repository-model'
+    with pytest.raises(ValueError,match='Invalid qualification model'):
+        asyncio.run(qualify(tmp_path/'bad',model='model\nnot-an-id'))
