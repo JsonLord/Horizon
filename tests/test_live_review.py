@@ -146,3 +146,75 @@ async def test_real_program_adapter_no_native_legacy_calls(monkeypatch):
     rows, metrics, extra = await acquire('incubators', load_profiles()['programs/incubators'])
     assert rows and metrics
     assert all(row.eligibility == 'review_required' for row in rows)
+
+@pytest.mark.anyio
+async def test_public_handoff_roundtrip_validates_all_seven_domains(tmp_path, capsys, monkeypatch):
+    monkeypatch.setenv("GITHUB_RUN_ID", "42")
+    from scripts.review_bundle import validate
+    from src.research.live_review import portfolio
+    from src.research.reporting import atomic, dumps
+    async def acquisition(*args):
+        return [candidate()], [{'source': 'approved', 'status': 'ok'}], {'retrieved_items': 1}
+    packs = [await evaluate(d, tmp_path, provider=Provider(), acquisition=acquisition) for d in DOMAINS]
+    atomic(tmp_path / 'INDEX.md', portfolio(packs))
+    atomic(tmp_path / 'review.schema.json', dumps(ReviewPack.model_json_schema()))
+    export_notices(tmp_path)
+    output = capsys.readouterr().out.splitlines()
+    assert len(output) == 7 and all(len(line.encode()) < 4000 for line in output)
+    files = validate(tmp_path, packs[0].source_revision, packs[0].workflow_run_id)
+    assert len(files) == 23
+    assert files['aux/findings.json'] == (tmp_path / 'aux/findings.json').read_bytes()
+    (tmp_path / 'aux/review-labels.json').write_text('{}')
+    with pytest.raises((ValueError, KeyError)): validate(tmp_path, 'local-development', None)
+
+
+@pytest.mark.anyio
+async def test_cache_changes_when_evidence_or_context_changes(tmp_path):
+    p = Provider(); state = DurableCheckpointStore(tmp_path / 'cache.sqlite')
+    budget = {'requests': 0, 'tokens': 0, 'known_tokens': 0, 'unknown_usage_calls': 0}
+    payload = {'summary': 'old', 'evidence': [{'id': 'source-1', 'snippet': 'old'}]}
+    first = await decide_cached(p, state, 'relevance', payload, policy(), budget)
+    same = await decide_cached(p, state, 'relevance', payload, policy(), budget)
+    assert not first['cache_hit'] and same['cache_hit'] and p.requests == 1
+    changed = await decide_cached(p, state, 'relevance', {**payload, 'previous': [{'event_id': 'other', 'summary': 'different event'}]}, policy(), budget)
+    assert not changed['cache_hit'] and p.requests == 2
+    state.close()
+
+
+def test_review_publisher_refuses_nonqualification_context(tmp_path, monkeypatch):
+    from scripts.review_bundle import publish
+    monkeypatch.setenv('GITHUB_EVENT_NAME', 'workflow_dispatch')
+    for ref in ('refs/heads/main', 'refs/heads/radar/rag-memory', 'refs/heads/intel'):
+        monkeypatch.setenv('GITHUB_REF', ref)
+        with pytest.raises(ValueError, match='qualification'): publish(tmp_path, None)
+
+
+@pytest.mark.anyio
+async def test_review_publisher_changes_only_approved_pr_report_paths(tmp_path, monkeypatch):
+    from scripts.review_bundle import publish, seal, TARGET
+    from src.research.live_review import portfolio
+    from src.research.reporting import atomic, dumps
+    async def acquisition(*args): return [candidate()], [{'source': 'approved', 'status': 'ok'}], {'retrieved_items': 1}
+    monkeypatch.setenv('GITHUB_SHA', 'source-sha')
+    monkeypatch.setenv('GITHUB_RUN_ID', '42')
+    packs = [await evaluate(d, tmp_path, provider=Provider(), acquisition=acquisition) for d in DOMAINS]
+    atomic(tmp_path / 'INDEX.md', portfolio(packs))
+    atomic(tmp_path / 'review.schema.json', dumps(ReviewPack.model_json_schema()))
+    class API:
+        calls = []
+        def api(self, method, path, **kwargs):
+            self.calls.append((method, path, kwargs))
+            if path == 'actions/runs/42': return {'head_sha': 'source-sha', 'head_branch': 'qualification/live-review-test', 'conclusion': 'success', 'html_url': 'https://github.com/JsonLord/Horizon/actions/runs/42'}
+            if method == 'GET' and path.startswith('git/ref/'): return {'object': {'sha': 'old'}}
+            if method == 'GET' and path.startswith('git/commits/'): return {'tree': {'sha': 'old-tree'}}
+            return {'sha': 'new'}
+    api = API()
+    seal(tmp_path, 'source-sha', '42', api)
+    monkeypatch.setenv('GITHUB_EVENT_NAME', 'workflow_dispatch')
+    monkeypatch.setenv('GITHUB_REF', 'refs/heads/qualification/live-review-test')
+    publish(tmp_path, api)
+    tree = next(kwargs['json'] for method, path, kwargs in api.calls if method == 'POST' and path == 'git/trees')
+    assert len(tree['tree']) == 24
+    assert all(entry['path'].startswith('data/live-review/') and entry['mode'] == '100644' for entry in tree['tree'])
+    patch = [(path, kwargs['json']) for method, path, kwargs in api.calls if method == 'PATCH']
+    assert patch == [('git/refs/heads/' + TARGET, {'sha': 'new', 'force': False})]

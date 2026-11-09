@@ -1,7 +1,7 @@
 {
-  "audited_at_utc": "2026-11-09T02:16:58.323290+00:00",
-  "workflow_files": 8,
-  "job_definitions": 18,
+  "audited_at_utc": "2026-11-09T06:02:49.343912+00:00",
+  "workflow_files": 10,
+  "job_definitions": 21,
   "workflows": [
     {
       "path": ".github/workflows/daily-summary.yml",
@@ -183,6 +183,54 @@
         14,
         14
       ]
+    },
+    {
+      "path": ".github/workflows/live-review.yml",
+      "job_definitions": 1,
+      "jobs": [
+        "review"
+      ],
+      "sha256": "657e24a303566de0aa93f3d3db2d0d973c1b9401f25f7679aacf24a233ba79be",
+      "crons": [],
+      "runners": [
+        "ubuntu-24.04"
+      ],
+      "timeouts_minutes": [
+        45
+      ],
+      "secrets": [
+        "HORIZON_DECISION_API_KEY"
+      ],
+      "retention_days": [
+        14
+      ],
+      "recommended_status": "MANUAL_ONLY",
+      "function": "Seven real-source review packs; read-only, no production publication"
+    },
+    {
+      "path": ".github/workflows/live-review-recovery.yml",
+      "job_definitions": 2,
+      "jobs": [
+        "validate",
+        "review-pr-reports"
+      ],
+      "sha256": "eea11bc82194575ad2df84358c0aefd7b8d274e0daac5bfe8b961182831035a1",
+      "crons": [],
+      "runners": [
+        "ubuntu-24.04"
+      ],
+      "timeouts_minutes": [
+        10,
+        10
+      ],
+      "secrets": [
+        "HORIZON_DECISION_API_KEY"
+      ],
+      "retention_days": [
+        14
+      ],
+      "recommended_status": "MANUAL_ONLY",
+      "function": "Validate prior review artifact; optional separately privileged copy of public reports to implementation PR only"
     }
   ]
 }

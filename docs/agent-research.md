@@ -1007,3 +1007,12 @@ language excerpts, separate blank feedback templates, portfolio comparison and
 bounded public-safe artifact fallback. Thirteen targeted tests pass, including
 real funding/program adapter boundaries and unchanged-input zero-call replay.
 Hosted real-source evaluation is next; unit fixtures are not research findings.
+
+Real-source collection42569950068 completed successfully on isolated wrapper
+3c2e79d. Artifacts exist, but GitHub notice messages truncate at4096bytes and
+only10 per step survive; no incomplete chunks were imported as reports. Replaced
+full-data notices with seven bounded summaries. Added artifact recovery/sealing
+and an optional separately privileged publisher restricted to data/live-review
+on the implementation PR branch, as explicitly permitted by the milestone.
+Seventeen focused tests pass, including writer branch/path/force restrictions
+and complete seven-domain bundle validation. No production data writes.

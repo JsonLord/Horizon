@@ -2,10 +2,8 @@
 from __future__ import annotations
 
 import asyncio
-import base64
 from collections import Counter
 from datetime import UTC, datetime
-import gzip
 import hashlib
 import html
 import json
@@ -72,6 +70,7 @@ class Evidence(Strict):
     @model_validator(mode='after')
     def valid(self):
         canonical(self.url)
+        if any(c in self.url for c in '\r\n<>`\" '): raise ValueError('Unsafe report URL')
         for value in (self.published_at, self.retrieved_at):
             if value and datetime.fromisoformat(value.replace('Z', '+00:00')).tzinfo is None:
                 raise ValueError('Evidence requires zoned timestamps')
@@ -100,7 +99,9 @@ class Candidate(Strict):
     confirmed: Literal[False] = False
     @model_validator(mode='after')
     def valid(self):
-        if self.url: canonical(self.url)
+        if self.url:
+            canonical(self.url)
+            if any(c in self.url for c in '\r\n<>`\" '): raise ValueError('Unsafe report URL')
         if self.decisions and set(self.decisions) != set(COMMANDS):
             raise ValueError('All six command states required')
         for entry in self.decisions.values():
@@ -190,11 +191,11 @@ async def acquire(domain, profile):
         entry = next(e for e in registry()['radars'] if e['radar_id'] == domain)
         items, metrics = await collect_items(entry, profile)
         rows, invalid = from_items(items, profile.topics)
-        return rows, metrics, {'retrieved_items': len(items), 'invalid_public_urls': invalid}
+        return rows, metrics, {'retrieved_items': len(items), 'invalid_public_urls': invalid, 'not_in_review_inventory': max(0, len(items) - 200)}
     if domain not in ('funding-de-eu', 'incubators'):
         items, metrics = await collect(profile)
         rows, invalid = from_items(items, profile.topics)
-        return rows, metrics, {'retrieved_items': len(items), 'invalid_public_urls': invalid}
+        return rows, metrics, {'retrieved_items': len(items), 'invalid_public_urls': invalid, 'not_in_review_inventory': max(0, len(items) - 200)}
     if domain == 'funding-de-eu':
         from .funding.pipeline import build_report
         from .funding.models import Applicant, Opportunity, assess
@@ -327,7 +328,8 @@ async def evaluate(domain, output, *, provider=None, acquisition=acquire):
         'Short source excerpts may omit context; original publication dates can be unknown.',
         'Novelty compares this run only; no historical corpus was loaded.',
         'Technical significance is unassessed: native choices cannot generate technical-learning explanations or code.',
-        'No human ground truth: precision@10 and recall remain null.']
+        'No human ground truth: precision@10 and recall remain null.',
+        'The provider reports an alias, not a separately versioned model-weights revision.']
     rows, metrics, extra = [], [], {}
     try:
         async with asyncio.timeout(300):
@@ -367,6 +369,8 @@ async def evaluate(domain, output, *, provider=None, acquisition=acquire):
     if domain in tuple(DOMAINS)[:3]:
         for lang in ('en', 'de', 'fr'):
             if not langs[lang]: limitations.append(f'No verified {lang} language evidence retrieved. Inspect approved native-language discovery query results; query locale is not source language. Primary research/laboratory/conference families remain pending source review in this radar registry.')
+    if extra.get('not_in_review_inventory'):
+        limitations.append(f"{extra['not_in_review_inventory']} retrieved items exceed the 200-item review inventory bound; no decisions are claimed for them.")
     failures = sum(m.get('status') not in ('ok', 'review_required') for m in metrics)
     if failures: limitations.append(f'{failures} source checks failed; inspect the per-source table. No restrictions were bypassed.')
     if any(e['provider']['status'] == 'budget_limit' for r in rows for e in r.decisions.values()): limitations.append('Model budget exhausted; remaining command states are explicitly budget_limit, not inferred decisions.')
@@ -467,21 +471,24 @@ def portfolio(packs):
 
 
 def export_notices(output):
-    """Bounded public-safe handoff when artifact storage is inaccessible to operator."""
+    """Seven bounded summaries; full reports stay in the uploaded artifact."""
     allowed = ['INDEX.md', 'review.schema.json'] + [f'{d}/{name}' for d in DOMAINS for name in ('findings.json', 'REVIEW.md', 'review-labels.json')]
     for relative in allowed:
         path = output / relative
         if not path.is_file(): continue
         raw = path.read_bytes()
         for name in ('HORIZON_DECISION_API_KEY', 'HORIZON_DECISION_BASE_URL', 'HORIZON_DECISION_CHAT_URL'):
-            secret = os.getenv(name, '')
-            if secret and secret.encode() in raw: raise ValueError('Sensitive configured value in review output')
-        if len(raw) > 1_500_000: raise ValueError('Review output size ceiling')
-        encoded = base64.b64encode(gzip.compress(raw, mtime=0)).decode()
-        if len(encoded) > 160000: raise ValueError('Public review handoff size ceiling')
-        chunks = [encoded[i:i+40000] for i in range(0, len(encoded), 40000)]
-        for index, chunk in enumerate(chunks):
-            proof = {'path': relative, 'sha256': hashlib.sha256(raw).hexdigest(), 'encoding': 'gzip+base64', 'part': index, 'parts': len(chunks), 'data': chunk}
-            print('::notice title=live-review-file::' + json.dumps(proof))
+            value = os.getenv(name, '')
+            if value and value.encode() in raw: raise ValueError('Sensitive configured value in review output')
+        if len(raw) > 1_000_000: raise ValueError('Review output size ceiling')
         if os.getenv('GITHUB_STEP_SUMMARY') and path.name in ('INDEX.md', 'REVIEW.md'):
             with open(os.environ['GITHUB_STEP_SUMMARY'], 'a') as f: f.write(raw.decode()[:60000] + '\n')
+    for domain in DOMAINS:
+        path = output / domain / 'findings.json'
+        if not path.is_file(): continue
+        pack = ReviewPack.model_validate_json(path.read_text())
+        proof = {'domain': domain, 'statistics': pack.statistics, 'cache_replay': pack.cache_replay,
+                 'acceptance': pack.acceptance, 'source_revision': pack.source_revision, 'run_id': pack.workflow_run_id}
+        raw = json.dumps(proof)
+        if len(raw.encode()) > 3800: raise ValueError('Summary size ceiling')
+        print('::notice title=live-review-summary::' + raw.replace('%', '%25'))

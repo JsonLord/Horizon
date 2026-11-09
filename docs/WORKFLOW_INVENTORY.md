@@ -122,3 +122,17 @@ Delivery concurrency note: PR #8 advanced remotely to b95ab064c7ec7371f970a7272d
 with a Python 3.11 f-string compatibility fix during this task. It was preserved;
 only the two unpublished optimization commits were replayed onto it. The before
 snapshot remains the exact original 5582bde audit. No force push was used.
+
+## Real-findings milestone addition (manual only)
+
+`live-review.yml` adds one manual/reusable, read-only review job, Ubuntu24.04,
+45-minute ceiling, cached uv dependencies, saved shared provider settings,14-day
+artifacts, no cron or write permission. Status: MANUAL_ONLY. Current candidate
+inventory is9workflow files/19job definitions (estimates, not execution savings).
+This dedicated evaluation run does not alter routine schedules or budget estimates.
+
+The artifact fallback live-review-recovery.yml adds two dedicated manual-only
+job definitions: read-only validation, then optional PR-report copy with isolated
+contents:write. Both have10-minute ceilings, cached uv and14-day artifacts.
+Current candidate inventory:10files/21job definitions, no additional cron.
+These are dedicated acceptance jobs; routine weekly estimates are unchanged.

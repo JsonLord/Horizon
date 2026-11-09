@@ -26,10 +26,21 @@ Only successful decisions cache. A content/policy/context/provider-bound six-com
 replay demonstrates unchanged input makes zero additional requests. Cache state
 is separate from human labels and raw evidence. No feedback is applied automatically.
 
-GitHub artifacts retain packs and checkpoints14days. A public-safe allowlist exports
-bounded compressed report chunks through job annotations and readable summaries
-when artifact storage cannot be retrieved. Export rejects configured endpoint or
-credential echoes. Never export the SQLite cache or full source pages that way.
-Retrieve and validate hashes/schemas/source revision before committing report files
-to this implementation PR. No intel/radar branch, weekly digest, merge or schedule
-is changed by this milestone. Keep observed source/language/coverage gaps visible.
+GitHub artifacts retain packs and checkpoints14days. Readable step summaries
+and seven bounded notices expose actual domain counts. GitHub truncates notice
+messages at4096bytes and retains only ten per step, so full report transport
+through annotations is intentionally not used.
+
+If artifact storage is unavailable locally, the explicit live-review-recovery
+workflow downloads the existing artifact on a runner, verifies the exact prior
+source/run, all23 allowlisted reports, schemas, hashes, blank feedback and absence
+of configured secret/endpoint echoes. Its separate optional contents:write job
+revalidates the sealed handoff and copies only24 public files (23reports plus
+hosted provenance) to data/live-review on feature/technical-radar-fleet. No source,
+config, cache, deletion, main/intel/radar branch or force update is permitted.
+The writer is disabled by default; the operator's milestone authorizes copying
+validated public review reports to this draft PR. Ref conflicts fail closed.
+
+This is a dedicated review acceptance path, not routine scheduled publication.
+No weekly digest, production archive, merge, schedule or Paperclip functionality
+is changed. Keep actual source, language and evidence gaps visible.
