@@ -164,3 +164,14 @@ Final review: draft PR #8 (https://github.com/JsonLord/Horizon/pull/8), base
 A final dispatch of the registered horizon-intel shared qualification against the
 fleet ref also returned 422 Actions disabled; no run was created. Final full
 suite at the pushed implementation: 487 passed in 5.22s.
+
+## 2026-11-09 optimization addendum
+
+The newer fork-aware configuration and measured local checks are recorded in
+ACTIONS_OPTIMIZATION_ACCEPTANCE.md and WORKFLOW_INVENTORY.md. Routine fresh-runner
+validation is now optional; disabled subsystem cron events are absent, not gated.
+The 24-hour pilot, conditional source/model reuse, metering and schedule renderer
+preserve this digest contract. The past hosted run 42548115014 did execute but
+failed pytest before inference; do not treat earlier 422 observations as a
+complete diagnosis of the fork's current state. Live provider/digest publication
+still require separate actual evidence; no production activation occurred.

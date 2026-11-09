@@ -771,3 +771,55 @@ pass. Code source `93596431508915f97dcfdacf01536654c99e1347`; complete acceptanc
 gate matrix and remaining operational limits are in
 `docs/TECHNICAL_RADAR_FLEET_ACCEPTANCE.md`. No merge, settings change, production
 publication or schedule activation performed.
+
+## 2026-11-09 — Fork-aware Actions optimization
+
+Implemented the user's six-phase optimization as additive work on draft PR #8;
+no new branch/merge, global Actions change, schedule enablement or production
+publication. Audited exact main/funding/shared/radar commits and seven registered
+workflows; active registration is not execution. The operator reports repository
+permissions enabled/all, while this integration receives 403. A newer actual run
+42548115014 reached a hosted runner and failed pytest before inference. Its logs
+were unavailable; no provider-key, billing or account failure was inferred.
+
+Preserved the built gh-pages site, seven post path entries and both language
+feeds. Legacy multilingual generation stays manual with separate read/write jobs;
+its recurring collection was consolidated into the existing daily intel route.
+Docs deployment remains docs-change-only. Removed obsolete branch push triggers
+and qualification's duplicate full-suite run; relevant PR CI owns regressions.
+All uv jobs explicitly cache by uv.lock, use frozen installs and bounded timeouts.
+
+Removed actual radar/funding cron events while disabled, and removed gate runners.
+Added a reviewed schedule plan/renderer with CI drift checking. World daily stays
+unchanged; pilot is daily, optional second slot configurable, funding weekly only
+after approval, Friday cutoff fixed. Due timestamps stay aligned despite delayed
+starts; a missing Friday window gets a bounded refresh while ordinary not-due
+collections skip source/model calls.
+
+Added normalized source/ETag checkpoints with validated hashes and original
+language evidence, no raw page cache. Model decisions survive documentation-only
+revisions and operational cadence/budget tuning; semantic code/policy/provider
+changes invalidate them. Source config changes reset coverage. Independent
+candidate/source backoff preserves backlog and last-good state. Shared/technical
+calls are metered together with hard reservations and explicit usage anomalies;
+unknown billing is null, configured token-rate costs labeled estimates.
+
+Routine validation moved into the read-only collector; the separate write job
+revalidates the sealed artifact, source SHA and data allowlist. Full fresh-runner
+validation remains explicit durability acceptance. Identical snapshots suppress
+artifact/publish; a due refresh may still persist meaningful operational timestamps.
+
+Final tests: **499 passed in 5.04s**; both MCP smokes (24 tools, 15 profiles),
+funding deterministic check, 43-link/three-unknown eligibility acceptance, starting
+point index check, schema generation, schedule check, actionlint and diff check
+pass. Actual optimized local collection checked 15 source routes, retained
+30/8/30 review findings; immediate repeats all not_due, zero model requests,
+identical sealed snapshots. No hosted qualification or model success claimed.
+
+Implementation `16c7ca594bc496b1eac7f6294317a7dcaec951d1`. Inventory includes
+before/after counts: 8 workflow files retained, 19→18 definitions; routine radar
+10→at most 6 expanded jobs/event. If merged, disabled-subsystem configuration
+estimates 31→14 scheduled jobs/week; current main separately estimates 15. These
+are estimates, not measured savings. Evidence and exact boundaries:
+WORKFLOW_INVENTORY.md, ACTIONS_OPTIMIZATION_ACCEPTANCE.md and the requested
+FORK_ACTIONS_REACTIVATION.md. PR #8 remains draft.
