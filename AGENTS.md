@@ -311,3 +311,20 @@ with403; do not claim production configured until readback and an override-free
 qualification succeed. See docs/PRODUCTION_DECISION_CONFIGURATION.md. Native
 choice classification is qualified; generative technical-learning remains
 unsupported. This authorization does not merge PR8 or enable schedules.
+
+## Real-source review packs
+
+Use scripts/live_review.py and docs/LIVE_RESEARCH_REVIEW.md for seven-domain,
+read-only evaluation. Radar collectors reuse config/radar sources and profiles;
+AUX queries live in profiles/examples/ai-usability.json. Source probe outcomes and
+known false-positive hypotheses are in docs/LIVE_RESEARCH_ACCEPTANCE_2026-11-09.md.
+Do not mistake raw inventory, model-qualified review candidates or publisher-page
+availability for confirmed facts. Preserve unknown language and eligibility states.
+
+Full reports remain in data/live-review/DOMAIN; generated label templates are not
+reviewed ground truth. Copy templates to the ignored data/live-review-feedback
+folder before adding labels/notes, preserving findings_sha256. Do not automatically
+change policies, source verification, eligibility or measured metrics from feedback.
+The dedicated artifact recovery writer may copy only validated public report files
+to this draft implementation PR; it never targets main, intel or radar branches.
+The native model supports six choices, not free-form technical-learning generation.

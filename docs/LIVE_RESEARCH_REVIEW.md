@@ -44,3 +44,23 @@ validated public review reports to this draft PR. Ref conflicts fail closed.
 This is a dedicated review acceptance path, not routine scheduled publication.
 No weekly digest, production archive, merge, schedule or Paperclip functionality
 is changed. Keep actual source, language and evidence gaps visible.
+
+## Reproduce the evaluated implementation
+
+The new workflow is not installed on main. The isolated registered-path wrapper
+can run the exact reviewed implementation without source/provider overrides:
+
+```sh
+gh workflow run horizon-intel.yml --repo JsonLord/Horizon \
+  --ref qualification/live-review-final-936d05a
+```
+
+The blank recovery inputs select read-only collection, not the optional PR writer.
+For one domain locally, use `--domain aux` (or another DOMAINS key). Local inference
+requires the same operator-managed environment variables; absent configuration
+uses deterministic/explicit-unavailable states without new credentials.
+
+See [the final evaluation](LIVE_RESEARCH_ACCEPTANCE_2026-11-09.md) for seven report
+links, actual command budgets, language gaps, source probes, human-review guidance,
+validated artifact IDs and exact tested source revisions. Review-qualified is a
+human-review queue state, never independent verification or funding eligibility.

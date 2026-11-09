@@ -1049,3 +1049,25 @@ still returned no training observations; preserve that evidence gap. Source
 experiments and four public repository-metadata checks are recorded in
 docs/LIVE_RESEARCH_SOURCE_PROBES_2026-11-09.json. Third evaluation verifies the
 balanced policy. Historical first-run reports remain pinned in commit17e4ec9.
+
+## 2026-11-09 — Real-findings milestone delivered and independently verified
+
+Final collection42572214484 (source57c4165) succeeded:499 raw observations,
+375 bounded review candidates,29 fully model-evaluated plus5 partially evaluated,
+12 qualified for human review,9 rejected and2 duplicates. Funding/incubator
+eligibility stays unknown/future-round as supported; factual confirmations stay0.
+German/French gaps and weak primary evidence are explicitly documented, not filled.
+All seven replay probes hit six cached decisions with zero additional requests.
+Final inference194requests/134961known tokens; cost unknown.
+
+Separate validated artifact delivery42572616009 used the automatic job token,
+restricted to public PR report files, and committedfdcde80. Fetched without
+force/rebase/overwriting unrelated work. Independent read-only Contents API
+consumer verified14 domain report files at that immutable commit and a first-run
+historical report at17e4ec9. Seven templates remain unlabelled and metricsnull.
+Full final Python3.11 suite544passed in5.25s; hosted regression42572192768 PASS;
+both MCP smokes24tools/15profiles PASS; funding projection/audit/seed,23review
+hashes/schemas and four radar schemas, actionlint/schedule/diff checks PASS.
+Main and three radar data heads match their recorded baseline. No production
+archive, schedule, merge or Paperclip action. Draft PR8 retains all outputs.
+See docs/LIVE_RESEARCH_ACCEPTANCE_2026-11-09.md/.json and data/live-review/INDEX.md.
