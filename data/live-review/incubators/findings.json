@@ -170,14 +170,14 @@
     },
     {
       "application_status": "unknown",
-      "attention": 0.58,
+      "attention": 0.38,
       "classification": "VERIFICATION_REQUIRED",
       "confirmed": false,
       "deadline": null,
       "decisions": {
         "claim-support": {
           "cache_hit": false,
-          "charged_tokens": 623,
+          "charged_tokens": 551,
           "decision": {
             "evidence_ids": [
               "afab8667a3f62a743ee7e508"
@@ -196,24 +196,24 @@
             "cost": null,
             "family": "systemone",
             "format": "systemone_choices",
-            "input_tokens": 623,
-            "latency_ms": 512,
+            "input_tokens": 551,
+            "latency_ms": 424,
             "model": "alias-clef",
             "model_identity_verified": true,
             "output_tokens": 0,
             "response_model": "alias-clef",
             "status": "success",
-            "tokens": 623
+            "tokens": 551
           }
         },
         "hfs": {
           "cache_hit": false,
-          "charged_tokens": 865,
+          "charged_tokens": 793,
           "decision": {
             "evidence_ids": [
               "afab8667a3f62a743ee7e508"
             ],
-            "facts": 0.9,
+            "facts": 0.1,
             "hype": 0.1,
             "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
             "related_event_id": null,
@@ -227,19 +227,19 @@
             "cost": null,
             "family": "systemone",
             "format": "systemone_choices",
-            "input_tokens": 865,
-            "latency_ms": 556,
+            "input_tokens": 793,
+            "latency_ms": 464,
             "model": "alias-clef",
             "model_identity_verified": true,
             "output_tokens": 0,
             "response_model": "alias-clef",
             "status": "success",
-            "tokens": 865
+            "tokens": 793
           }
         },
         "importance": {
           "cache_hit": false,
-          "charged_tokens": 632,
+          "charged_tokens": 560,
           "decision": {
             "evidence_ids": [
               "afab8667a3f62a743ee7e508"
@@ -248,9 +248,9 @@
             "hype": 0.5,
             "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
             "related_event_id": null,
-            "score": 0.9,
+            "score": 0.1,
             "signal": 0.5,
-            "verdict": "yes"
+            "verdict": "no"
           },
           "provider": {
             "abstained": false,
@@ -258,50 +258,19 @@
             "cost": null,
             "family": "systemone",
             "format": "systemone_choices",
-            "input_tokens": 632,
-            "latency_ms": 532,
+            "input_tokens": 560,
+            "latency_ms": 418,
             "model": "alias-clef",
             "model_identity_verified": true,
             "output_tokens": 0,
             "response_model": "alias-clef",
             "status": "success",
-            "tokens": 632
+            "tokens": 560
           }
         },
         "relevance": {
           "cache_hit": false,
-          "charged_tokens": 610,
-          "decision": {
-            "evidence_ids": [
-              "afab8667a3f62a743ee7e508"
-            ],
-            "facts": 0.5,
-            "hype": 0.5,
-            "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
-            "related_event_id": null,
-            "score": 0.9,
-            "signal": 0.5,
-            "verdict": "yes"
-          },
-          "provider": {
-            "abstained": false,
-            "attempts": 1,
-            "cost": null,
-            "family": "systemone",
-            "format": "systemone_choices",
-            "input_tokens": 610,
-            "latency_ms": 534,
-            "model": "alias-clef",
-            "model_identity_verified": true,
-            "output_tokens": 0,
-            "response_model": "alias-clef",
-            "status": "success",
-            "tokens": 610
-          }
-        },
-        "same-story": {
-          "cache_hit": false,
-          "charged_tokens": 825,
+          "charged_tokens": 538,
           "decision": {
             "evidence_ids": [
               "afab8667a3f62a743ee7e508"
@@ -320,19 +289,50 @@
             "cost": null,
             "family": "systemone",
             "format": "systemone_choices",
-            "input_tokens": 825,
-            "latency_ms": 586,
+            "input_tokens": 538,
+            "latency_ms": 425,
             "model": "alias-clef",
             "model_identity_verified": true,
             "output_tokens": 0,
             "response_model": "alias-clef",
             "status": "success",
-            "tokens": 825
+            "tokens": 538
+          }
+        },
+        "same-story": {
+          "cache_hit": false,
+          "charged_tokens": 610,
+          "decision": {
+            "evidence_ids": [
+              "afab8667a3f62a743ee7e508"
+            ],
+            "facts": 0.5,
+            "hype": 0.5,
+            "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
+            "related_event_id": null,
+            "score": 0.5,
+            "signal": 0.5,
+            "verdict": "unknown"
+          },
+          "provider": {
+            "abstained": false,
+            "attempts": 1,
+            "cost": null,
+            "family": "systemone",
+            "format": "systemone_choices",
+            "input_tokens": 610,
+            "latency_ms": 425,
+            "model": "alias-clef",
+            "model_identity_verified": true,
+            "output_tokens": 0,
+            "response_model": "alias-clef",
+            "status": "success",
+            "tokens": 610
           }
         },
         "worth-attention": {
           "cache_hit": false,
-          "charged_tokens": 614,
+          "charged_tokens": 542,
           "decision": {
             "evidence_ids": [
               "afab8667a3f62a743ee7e508"
@@ -351,14 +351,14 @@
             "cost": null,
             "family": "systemone",
             "format": "systemone_choices",
-            "input_tokens": 614,
-            "latency_ms": 540,
+            "input_tokens": 542,
+            "latency_ms": 421,
             "model": "alias-clef",
             "model_identity_verified": true,
             "output_tokens": 0,
             "response_model": "alias-clef",
             "status": "success",
-            "tokens": 614
+            "tokens": 542
           }
         }
       },
@@ -377,7 +377,7 @@
           "primary": true,
           "published_at": null,
           "publisher": "GET INVESTMENT FROM ANTLER",
-          "retrieved_at": "2026-11-09T05:57:16.773821+00:00",
+          "retrieved_at": "2026-11-09T06:20:38.841941+00:00",
           "title": "GET INVESTMENT FROM ANTLER",
           "url": "https://www.antler.co/pitch"
         },
@@ -392,7 +392,7 @@
           "primary": true,
           "published_at": null,
           "publisher": "GET INVESTMENT FROM ANTLER",
-          "retrieved_at": "2026-11-09T05:57:16.773821+00:00",
+          "retrieved_at": "2026-11-09T06:20:38.841941+00:00",
           "title": "GET INVESTMENT FROM ANTLER",
           "url": "https://www.antler.co/pitch"
         }
@@ -488,7 +488,7 @@
           "primary": true,
           "published_at": null,
           "publisher": "FOUND, DON'T FOLLOW",
-          "retrieved_at": "2026-11-09T05:57:16.773821+00:00",
+          "retrieved_at": "2026-11-09T06:20:38.841941+00:00",
           "title": "FOUND, DON'T FOLLOW",
           "url": "https://www.joinef.com/"
         },
@@ -503,7 +503,7 @@
           "primary": true,
           "published_at": null,
           "publisher": "FOUND, DON'T FOLLOW",
-          "retrieved_at": "2026-11-09T05:57:16.773821+00:00",
+          "retrieved_at": "2026-11-09T06:20:38.841941+00:00",
           "title": "FOUND, DON'T FOLLOW",
           "url": "https://www.joinef.com/"
         },
@@ -518,7 +518,7 @@
           "primary": true,
           "published_at": null,
           "publisher": "FOUND, DON'T FOLLOW",
-          "retrieved_at": "2026-11-09T05:57:16.773821+00:00",
+          "retrieved_at": "2026-11-09T06:20:38.841941+00:00",
           "title": "FOUND, DON'T FOLLOW",
           "url": "https://www.joinef.com/"
         },
@@ -533,7 +533,7 @@
           "primary": true,
           "published_at": null,
           "publisher": "FOUND, DON'T FOLLOW",
-          "retrieved_at": "2026-11-09T05:57:16.773821+00:00",
+          "retrieved_at": "2026-11-09T06:20:38.841941+00:00",
           "title": "FOUND, DON'T FOLLOW",
           "url": "https://www.joinef.com/"
         }
@@ -620,7 +620,7 @@
       "event_id": "d8d4e35a2a7ef7364bd8efac",
       "evidence": [
         {
-          "content_hash": "473b3348c1d5fd485202c3cc5a5638f3930cdecb173862fadbe0074b1116e3a1",
+          "content_hash": "ce24b7f517a179d0d3ba56d22c3b04da2879e687c938fce6af612792b8834fcd",
           "discovery_language": "unknown",
           "excerpt": "Apply to Y Combinator",
           "fresh": false,
@@ -630,12 +630,12 @@
           "primary": true,
           "published_at": null,
           "publisher": "Apply to Y Combinator",
-          "retrieved_at": "2026-11-09T05:57:16.773821+00:00",
+          "retrieved_at": "2026-11-09T06:20:38.841941+00:00",
           "title": "Apply to Y Combinator",
           "url": "https://www.ycombinator.com/apply"
         },
         {
-          "content_hash": "473b3348c1d5fd485202c3cc5a5638f3930cdecb173862fadbe0074b1116e3a1",
+          "content_hash": "ce24b7f517a179d0d3ba56d22c3b04da2879e687c938fce6af612792b8834fcd",
           "discovery_language": "unknown",
           "excerpt": "Apply",
           "fresh": false,
@@ -645,12 +645,12 @@
           "primary": true,
           "published_at": null,
           "publisher": "Apply to Y Combinator",
-          "retrieved_at": "2026-11-09T05:57:16.773821+00:00",
+          "retrieved_at": "2026-11-09T06:20:38.841941+00:00",
           "title": "Apply to Y Combinator",
           "url": "https://www.ycombinator.com/apply"
         },
         {
-          "content_hash": "473b3348c1d5fd485202c3cc5a5638f3930cdecb173862fadbe0074b1116e3a1",
+          "content_hash": "ce24b7f517a179d0d3ba56d22c3b04da2879e687c938fce6af612792b8834fcd",
           "discovery_language": "unknown",
           "excerpt": "Y Combinator is accepting applications for the Winter 2027 Batch funding cycle. The batch will take place from January to March in San Francisco.",
           "fresh": false,
@@ -660,12 +660,12 @@
           "primary": true,
           "published_at": null,
           "publisher": "Apply to Y Combinator",
-          "retrieved_at": "2026-11-09T05:57:16.773821+00:00",
+          "retrieved_at": "2026-11-09T06:20:38.841941+00:00",
           "title": "Apply to Y Combinator",
           "url": "https://www.ycombinator.com/apply"
         },
         {
-          "content_hash": "473b3348c1d5fd485202c3cc5a5638f3930cdecb173862fadbe0074b1116e3a1",
+          "content_hash": "ce24b7f517a179d0d3ba56d22c3b04da2879e687c938fce6af612792b8834fcd",
           "discovery_language": "unknown",
           "excerpt": "If you want to apply, please submit your application online .",
           "fresh": false,
@@ -675,7 +675,7 @@
           "primary": true,
           "published_at": null,
           "publisher": "Apply to Y Combinator",
-          "retrieved_at": "2026-11-09T05:57:16.773821+00:00",
+          "retrieved_at": "2026-11-09T06:20:38.841941+00:00",
           "title": "Apply to Y Combinator",
           "url": "https://www.ycombinator.com/apply"
         }
@@ -697,14 +697,15 @@
     }
   ],
   "domain": "incubators",
-  "generated_at_utc": "2026-11-09T05:57:23.822074+00:00",
+  "generated_at_utc": "2026-11-09T06:20:44.991544+00:00",
   "limitations": [
     "Model choices are uncalibrated editorial judgments, not verified facts.",
     "Short source excerpts may omit context; original publication dates can be unknown.",
     "Novelty compares this run only; no historical corpus was loaded.",
     "Technical significance is unassessed: native choices cannot generate technical-learning explanations or code.",
     "No human ground truth: precision@10 and recall remain null.",
-    "3 source checks failed; inspect the per-source table. No restrictions were bypassed."
+    "The provider reports an alias, not a separately versioned model-weights revision.",
+    "2 source checks failed; inspect the per-source table. No restrictions were bypassed."
   ],
   "physical_data_branch": null,
   "policy": {
@@ -743,19 +744,19 @@
   "recall": null,
   "review_version": "live-review-1.0",
   "schema_version": "1.0",
-  "source_revision": "3c2e79d6645869f6ac3a2178d5d7194bdc73a9ab",
+  "source_revision": "57c41654fdda261ec2168e2e32ba7f1a76567002",
   "sources": [
     {
       "error_code": null,
-      "items": 3,
-      "query": "startup accelerator founder fellowship grant applications",
+      "items": 6,
+      "query": "software AI innovation incubator application deadline",
       "source": "google_news",
       "status": "ok"
     },
     {
       "error_code": null,
-      "items": 6,
-      "query": "software AI innovation incubator application deadline",
+      "items": 3,
+      "query": "startup accelerator founder fellowship grant applications",
       "source": "google_news",
       "status": "ok"
     },
@@ -816,7 +817,9 @@
       "unknown": 10
     },
     "duplicates": 0,
-    "known_tokens": 4169,
+    "fresh_evidence_references": 2,
+    "historical_evidence_references": 8,
+    "known_tokens": 3594,
     "model_requests": 6,
     "program_coverage": {
       "basis": "search query region; event geography unknown",
@@ -839,13 +842,13 @@
     "retained_for_review": 5,
     "retrieved_items": 5,
     "review_worthy": 0,
-    "runtime_seconds": 7.099,
-    "source_failures": 3,
+    "runtime_seconds": 6.218,
+    "source_failures": 2,
     "source_languages": {
       "unknown": 2
     },
     "token_usage_complete": true
   },
   "window_hours": 168,
-  "workflow_run_id": "42569950068"
+  "workflow_run_id": "42572214484"
 }

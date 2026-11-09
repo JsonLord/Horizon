@@ -9,195 +9,63 @@
   "candidates": [
     {
       "application_status": null,
-      "attention": 0.68,
+      "attention": 0.25,
       "classification": "UNASSESSED",
       "confirmed": false,
       "deadline": null,
       "decisions": {
         "claim-support": {
           "cache_hit": false,
-          "charged_tokens": 679,
-          "decision": {
-            "evidence_ids": [
-              "b92b16132cded970ed290033"
-            ],
-            "facts": 0.5,
-            "hype": 0.5,
-            "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
-            "related_event_id": null,
-            "score": 0.9,
-            "signal": 0.5,
-            "verdict": "yes"
-          },
+          "charged_tokens": 0,
+          "decision": null,
           "provider": {
-            "abstained": false,
-            "attempts": 1,
-            "cost": null,
-            "family": "systemone",
-            "format": "systemone_choices",
-            "input_tokens": 679,
-            "latency_ms": 535,
             "model": "alias-clef",
-            "model_identity_verified": true,
-            "output_tokens": 0,
-            "response_model": "alias-clef",
-            "status": "success",
-            "tokens": 679
+            "status": "budget_limit"
           }
         },
         "hfs": {
           "cache_hit": false,
-          "charged_tokens": 921,
-          "decision": {
-            "evidence_ids": [
-              "b92b16132cded970ed290033"
-            ],
-            "facts": 0.5,
-            "hype": 0.5,
-            "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
-            "related_event_id": null,
-            "score": 0.5,
-            "signal": 0.5,
-            "verdict": "yes"
-          },
+          "charged_tokens": 0,
+          "decision": null,
           "provider": {
-            "abstained": false,
-            "attempts": 1,
-            "cost": null,
-            "family": "systemone",
-            "format": "systemone_choices",
-            "input_tokens": 921,
-            "latency_ms": 728,
             "model": "alias-clef",
-            "model_identity_verified": true,
-            "output_tokens": 0,
-            "response_model": "alias-clef",
-            "status": "success",
-            "tokens": 921
+            "status": "budget_limit"
           }
         },
         "importance": {
           "cache_hit": false,
-          "charged_tokens": 688,
-          "decision": {
-            "evidence_ids": [
-              "b92b16132cded970ed290033"
-            ],
-            "facts": 0.5,
-            "hype": 0.5,
-            "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
-            "related_event_id": null,
-            "score": 0.5,
-            "signal": 0.5,
-            "verdict": "yes"
-          },
+          "charged_tokens": 0,
+          "decision": null,
           "provider": {
-            "abstained": false,
-            "attempts": 1,
-            "cost": null,
-            "family": "systemone",
-            "format": "systemone_choices",
-            "input_tokens": 688,
-            "latency_ms": 514,
             "model": "alias-clef",
-            "model_identity_verified": true,
-            "output_tokens": 0,
-            "response_model": "alias-clef",
-            "status": "success",
-            "tokens": 688
+            "status": "budget_limit"
           }
         },
         "relevance": {
           "cache_hit": false,
-          "charged_tokens": 666,
-          "decision": {
-            "evidence_ids": [
-              "b92b16132cded970ed290033"
-            ],
-            "facts": 0.5,
-            "hype": 0.5,
-            "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
-            "related_event_id": null,
-            "score": 0.5,
-            "signal": 0.5,
-            "verdict": "unknown"
-          },
+          "charged_tokens": 0,
+          "decision": null,
           "provider": {
-            "abstained": false,
-            "attempts": 1,
-            "cost": null,
-            "family": "systemone",
-            "format": "systemone_choices",
-            "input_tokens": 666,
-            "latency_ms": 725,
             "model": "alias-clef",
-            "model_identity_verified": true,
-            "output_tokens": 0,
-            "response_model": "alias-clef",
-            "status": "success",
-            "tokens": 666
+            "status": "budget_limit"
           }
         },
         "same-story": {
           "cache_hit": false,
-          "charged_tokens": 929,
-          "decision": {
-            "evidence_ids": [
-              "b92b16132cded970ed290033"
-            ],
-            "facts": 0.5,
-            "hype": 0.5,
-            "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
-            "related_event_id": "95ae03e80a8dd03bc0413bb6",
-            "score": 0.9,
-            "signal": 0.5,
-            "verdict": "different"
-          },
+          "charged_tokens": 0,
+          "decision": null,
           "provider": {
-            "abstained": false,
-            "attempts": 1,
-            "cost": null,
-            "family": "systemone",
-            "format": "systemone_choices",
-            "input_tokens": 929,
-            "latency_ms": 783,
             "model": "alias-clef",
-            "model_identity_verified": true,
-            "output_tokens": 0,
-            "response_model": "alias-clef",
-            "status": "success",
-            "tokens": 929
+            "status": "budget_limit"
           }
         },
         "worth-attention": {
           "cache_hit": false,
-          "charged_tokens": 670,
-          "decision": {
-            "evidence_ids": [
-              "b92b16132cded970ed290033"
-            ],
-            "facts": 0.5,
-            "hype": 0.5,
-            "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
-            "related_event_id": null,
-            "score": 0.5,
-            "signal": 0.5,
-            "verdict": "unknown"
-          },
+          "charged_tokens": 0,
+          "decision": null,
           "provider": {
-            "abstained": false,
-            "attempts": 1,
-            "cost": null,
-            "family": "systemone",
-            "format": "systemone_choices",
-            "input_tokens": 670,
-            "latency_ms": 535,
             "model": "alias-clef",
-            "model_identity_verified": true,
-            "output_tokens": 0,
-            "response_model": "alias-clef",
-            "status": "success",
-            "tokens": 670
+            "status": "budget_limit"
           }
         }
       },
@@ -216,7 +84,7 @@
           "primary": false,
           "published_at": "2026-11-06T17:13:13Z",
           "publisher": "Amazon Web Services (AWS)",
-          "retrieved_at": "2026-11-09T05:54:44.251115Z",
+          "retrieved_at": "2026-11-09T06:18:30.643759Z",
           "title": "Serverless MCP server for AI agent data lake access on Amazon ECS Fargate | Amazon Web Services - Amazon Web Services (AWS)",
           "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOSi12d1RsMk5BNjFPTmNfOUhFdS1kYWs5ZE1fNUtrZWd3UFhNYlVuSDRnX3ItOFgyUFNVOUdDRktIa2hwQnA0NjNkNTE5NEtkc1BLQWhSTXlMUWRFeFQzYm9WQnNxZllOVnpyTG9uZmlvVUJmRm5KbHZtWlZxMTJPUU1uc3c0b2JZd2cxNnZtR1VDaVgwZVUtNVRIMG1YbTl2bk5PVFh6bi14cDBTSmZZQ2JkdGVGMnVQRzJXUA?oc=5"
         }
@@ -310,7 +178,7 @@
           "primary": false,
           "published_at": "2026-11-04T14:37:51Z",
           "publisher": "infoq.com",
-          "retrieved_at": "2026-11-09T05:54:44.251144Z",
+          "retrieved_at": "2026-11-09T06:18:30.643797Z",
           "title": "Inkitt Builds a One-Shot PR Creator with Resumable Agent Orchestration - infoq.com",
           "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9VZlhHVlpROFJnQTM1a1JURS0wNkFUMHV3WVJUQjFKVFBfTC05M3VqX29IVWRyZjRKQk5nQ05NM0dDZ25FVUk5Uk9qTC1qNEt5OWo5ZUE2R3FTWUdidWVCUDRFWGZ5TWVDeWRrd1kyMkVRNEZwUU5r?oc=5"
         }
@@ -406,7 +274,7 @@
           "primary": false,
           "published_at": "2026-11-06T19:13:04Z",
           "publisher": "IBM",
-          "retrieved_at": "2026-11-09T05:54:44.251159Z",
+          "retrieved_at": "2026-11-09T06:18:30.643824Z",
           "title": "IBM recognized as the Company to Beat for Context Engineering Services by Gartner® as of October 2026 - IBM",
           "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOcF81MWhNcEljTE9hMkx4VHFuV3VWRzZsODlIaDNGMDBMcjgzTmh2WHU2ckh6bWQxWVpSUTlTVUdvaXVZXzV3dlNrOUY5WjI2SUVBRW04cWdvcVZhLWdzaVNjdWdiTl9DblpRcWJramY5THFrVTNGM3A3YlJmR2pyMng4REVBeGE4aVp3aHJxaUpNVnJRSzE4SXh5S01yckphVlNvY1oxZUtwYVpsUFQtVW9Ib3Jhd1RZcFJWVlVucHdGOTUzVFV5VUY2Z0ZtUW5fWGZMNQ?oc=5"
         }
@@ -500,7 +368,7 @@
           "primary": false,
           "published_at": "2026-11-05T18:43:27Z",
           "publisher": "Oracle Blogs",
-          "retrieved_at": "2026-11-09T05:54:44.251172Z",
+          "retrieved_at": "2026-11-09T06:18:30.643845Z",
           "title": "Oracle AI World: New Innovations in Database Protection and Recovery - Oracle Blogs",
           "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQcWw2cDNSZFh0Ym1xMVRJdlZreEtwM3JlcEM2R1lCNEsyZVJpN042ME9EMGpDUnBJNzNHNFRLTzV5OE8wUmdGYXRCQXp2bWlVRG10cUdVSG0tSWdjMDJHb2Y4Vld2VVpraWUyWExFUTZRWHFtQ3RSckIwcHNRSVptZEQ0U2NSRTU3VlFRRjE4NnYySjN2cmsta0dYWHQ?oc=5"
         }
@@ -594,7 +462,7 @@
           "primary": false,
           "published_at": "2026-11-07T23:23:53Z",
           "publisher": "shattered.io",
-          "retrieved_at": "2026-11-09T05:54:44.251183Z",
+          "retrieved_at": "2026-11-09T06:18:30.643864Z",
           "title": "OpenCode MCP Servers: 12 Steps, 70 Min [2026] - shattered.io",
           "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1zVTJpcE42amFYTE1zSHI0cHdWR1Z6dHJiSkF4Z3k0TDE1Nk51SzVzV01RU1o5WlZGa1N6RlkxeFZObXI4Y0ViU2VVaGtqVlF6aWF0dktzUkwtNVRxQ0VTOUtUZWRSM3hibXAwVEYzN2x3QQ?oc=5"
         }
@@ -688,7 +556,7 @@
           "primary": false,
           "published_at": "2026-11-06T23:42:58Z",
           "publisher": "HPCwire",
-          "retrieved_at": "2026-11-09T05:54:44.251196Z",
+          "retrieved_at": "2026-11-09T06:18:30.643884Z",
           "title": "Kihan Launches Constitutional Computing to Bring Enforceable Authority to Enterprise AI Agents - HPCwire",
           "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPcDRtQlFVUVFnUS01cWdva3NlX3dnX1pJQnQ2QXVkbHItdFV0RHhESmN1V0tXc3RydGpyYnE2bm5rNkEtbFZzQXZwYkNmLWpSSk9rNzlsR1lTRzl6VllNcEd4cW5XNUhjLU5hUzNQYl9BSzhJSDBSdDhFLTluZktXXzZscHZubTBISGR3dXhjMkdibTU5cERYbW5iQ1NLLTJrSVhzcThaWkNoZGpvX1RiLWtCWkgtSjhLSzRQN2NIdjVlMy1QVVRhSkdhWjBfeTNxOWg4?oc=5"
         }
@@ -769,35 +637,35 @@
       },
       "duplicate_of": null,
       "eligibility": null,
-      "event_id": "6a4f3854bc291bdcb072d3b1",
+      "event_id": "07b1b6bbe3e3d2e0a331cd69",
       "evidence": [
         {
-          "content_hash": "3a8f7794635b88933cfde54665c2f221ad32bf646e30d03de6f71ac018c12d55",
+          "content_hash": "b52447c2f720420d3517128333baddc28e7447ce604c678957d5e919e9ae9f7b",
           "discovery_language": "en",
-          "excerpt": "WebMCP: What it is, why it matters, and what to do now Semrush",
+          "excerpt": "People, devices, and agents: How Rippling’s edge architecture evolved Cloudflare",
           "fresh": true,
-          "id": "03b2a6ccaadd5a53e66094ee",
+          "id": "4a2689253ce1eca0035288e4",
           "language": "unknown",
           "language_basis": "insufficient_language_evidence",
           "primary": false,
-          "published_at": "2026-11-04T08:00:00Z",
-          "publisher": "Semrush",
-          "retrieved_at": "2026-11-09T05:54:44.251209Z",
-          "title": "WebMCP: What it is, why it matters, and what to do now - Semrush",
-          "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9KV0RWUGlINC01a3Z4dk9hQVZYSVF6ZU5GdHJKcVY4ZHRpVk5KUXM1R2FhakJiNi04OXVEUEpMZFZaRW5DOTExLUN6X3E?oc=5"
+          "published_at": "2026-11-03T20:27:55Z",
+          "publisher": "Cloudflare",
+          "retrieved_at": "2026-11-09T06:18:30.643905Z",
+          "title": "People, devices, and agents: How Rippling’s edge architecture evolved - Cloudflare",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPalBMdWVWb1FBNTFSUV90NXpjbkVod0xlWEF1bW9MbTB0TFVlNzd6bUx3MXJYZGdvcUd0N2tCQ2tmUldIWWZQZFJManNlZnhTeV9KaXRpZVN1Tmo0M1VXcEVHUXhlUnpCa1BRb25wSkNlOWNYRTl0S1VMWnQyVlJWczZRSTJsb2RVUDJKRllDMXVVNy1VWmJZRFlab2hMZkt2dkhnUjJBazdhU0FXYUhNVzVOQQ?oc=5"
         }
       ],
       "historical_application_status": null,
       "historical_deadline": null,
-      "id": "a22f07eb72d1243d73219497",
+      "id": "256585727410ad52b98e7c1d",
       "matched_topics": [],
       "missing_verification": [],
       "reasons": [
         "incomplete_uncertain_or_below_threshold_model_assessment"
       ],
       "technical_significance": null,
-      "title": "WebMCP: What it is, why it matters, and what to do now - Semrush",
-      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9KV0RWUGlINC01a3Z4dk9hQVZYSVF6ZU5GdHJKcVY4ZHRpVk5KUXM1R2FhakJiNi04OXVEUEpMZFZaRW5DOTExLUN6X3E?oc=5"
+      "title": "People, devices, and agents: How Rippling’s edge architecture evolved - Cloudflare",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPalBMdWVWb1FBNTFSUV90NXpjbkVod0xlWEF1bW9MbTB0TFVlNzd6bUx3MXJYZGdvcUd0N2tCQ2tmUldIWWZQZFJManNlZnhTeV9KaXRpZVN1Tmo0M1VXcEVHUXhlUnpCa1BRb25wSkNlOWNYRTl0S1VMWnQyVlJWczZRSTJsb2RVUDJKRllDMXVVNy1VWmJZRFlab2hMZkt2dkhnUjJBazdhU0FXYUhNVzVOQQ?oc=5"
     },
     {
       "application_status": null,
@@ -863,35 +731,35 @@
       },
       "duplicate_of": null,
       "eligibility": null,
-      "event_id": "07b1b6bbe3e3d2e0a331cd69",
+      "event_id": "6a4f3854bc291bdcb072d3b1",
       "evidence": [
         {
-          "content_hash": "b52447c2f720420d3517128333baddc28e7447ce604c678957d5e919e9ae9f7b",
+          "content_hash": "3a8f7794635b88933cfde54665c2f221ad32bf646e30d03de6f71ac018c12d55",
           "discovery_language": "en",
-          "excerpt": "People, devices, and agents: How Rippling’s edge architecture evolved Cloudflare",
+          "excerpt": "WebMCP: What it is, why it matters, and what to do now Semrush",
           "fresh": true,
-          "id": "4a2689253ce1eca0035288e4",
+          "id": "03b2a6ccaadd5a53e66094ee",
           "language": "unknown",
           "language_basis": "insufficient_language_evidence",
           "primary": false,
-          "published_at": "2026-11-03T20:27:55Z",
-          "publisher": "Cloudflare",
-          "retrieved_at": "2026-11-09T05:54:44.251231Z",
-          "title": "People, devices, and agents: How Rippling’s edge architecture evolved - Cloudflare",
-          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPalBMdWVWb1FBNTFSUV90NXpjbkVod0xlWEF1bW9MbTB0TFVlNzd6bUx3MXJYZGdvcUd0N2tCQ2tmUldIWWZQZFJManNlZnhTeV9KaXRpZVN1Tmo0M1VXcEVHUXhlUnpCa1BRb25wSkNlOWNYRTl0S1VMWnQyVlJWczZRSTJsb2RVUDJKRllDMXVVNy1VWmJZRFlab2hMZkt2dkhnUjJBazdhU0FXYUhNVzVOQQ?oc=5"
+          "published_at": "2026-11-04T08:00:00Z",
+          "publisher": "Semrush",
+          "retrieved_at": "2026-11-09T06:18:30.643935Z",
+          "title": "WebMCP: What it is, why it matters, and what to do now - Semrush",
+          "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9KV0RWUGlINC01a3Z4dk9hQVZYSVF6ZU5GdHJKcVY4ZHRpVk5KUXM1R2FhakJiNi04OXVEUEpMZFZaRW5DOTExLUN6X3E?oc=5"
         }
       ],
       "historical_application_status": null,
       "historical_deadline": null,
-      "id": "31009316333008d0faa8f2ca",
+      "id": "98c6bf0fae8969f67dfed6b3",
       "matched_topics": [],
       "missing_verification": [],
       "reasons": [
         "incomplete_uncertain_or_below_threshold_model_assessment"
       ],
       "technical_significance": null,
-      "title": "People, devices, and agents: How Rippling’s edge architecture evolved - Cloudflare",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPalBMdWVWb1FBNTFSUV90NXpjbkVod0xlWEF1bW9MbTB0TFVlNzd6bUx3MXJYZGdvcUd0N2tCQ2tmUldIWWZQZFJManNlZnhTeV9KaXRpZVN1Tmo0M1VXcEVHUXhlUnpCa1BRb25wSkNlOWNYRTl0S1VMWnQyVlJWczZRSTJsb2RVUDJKRllDMXVVNy1VWmJZRFlab2hMZkt2dkhnUjJBazdhU0FXYUhNVzVOQQ?oc=5"
+      "title": "WebMCP: What it is, why it matters, and what to do now - Semrush",
+      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9KV0RWUGlINC01a3Z4dk9hQVZYSVF6ZU5GdHJKcVY4ZHRpVk5KUXM1R2FhakJiNi04OXVEUEpMZFZaRW5DOTExLUN6X3E?oc=5"
     },
     {
       "application_status": null,
@@ -970,7 +838,7 @@
           "primary": false,
           "published_at": "2026-11-05T08:00:00Z",
           "publisher": "AIMultiple",
-          "retrieved_at": "2026-11-09T05:54:44.251246Z",
+          "retrieved_at": "2026-11-09T06:18:30.643956Z",
           "title": "Top 13 Open-Source Agentic AI Frameworks - AIMultiple",
           "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1NR2p3cU1wUktvV19FWUhQY3hSRjhZYks1TmNiTmZ4NkNNcEs0MEJOVEdvYXpRTmdMZTk0VmdJYWltM2gxWXpOamN6VHVFa0UtaXVn?oc=5"
         }
@@ -1064,7 +932,7 @@
           "primary": false,
           "published_at": "2026-11-03T10:02:18Z",
           "publisher": "Developer Tech News",
-          "retrieved_at": "2026-11-09T05:54:44.251257Z",
+          "retrieved_at": "2026-11-09T06:18:30.643989Z",
           "title": "How Uber uses MCP Gateway to manage 5,000 AI agent tools - Developer Tech News",
           "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9NXzB2SlR3Q1dtNl9DRGwwRWM2Y2cwbWd3TWs4X1F3MEFWTFhlcDUyV2dEMkoySTJpWlZMdG4tOWFXR2xkNmxZamV4Y2ZPWWtaS3R6dnVDdmFlcXc5TlBsalNHcjBySEJ0Nlo1T2dwd3NkNl9hZDJJ?oc=5"
         }
@@ -1158,7 +1026,7 @@
           "primary": false,
           "published_at": "2026-11-04T08:15:00Z",
           "publisher": "TradingView",
-          "retrieved_at": "2026-11-09T05:54:44.251270Z",
+          "retrieved_at": "2026-11-09T06:18:30.644021Z",
           "title": "Cerillion 26.2 Expands Agentic AI and Extends Open Standards Leadership - TradingView",
           "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPTGtJV0tsLWhkbUg5RHZaR1JlWTNMTm02a1BMZEx6TmR4T2w0LVdYNXhDMUViTXVmTzZ1bkVyNFRjTmZmRWVTZXZqSzBJV2o3ZVc5b29ObU5FVkhFNjBEanhrUDhuUzlVUkNJWXFDM0RudWx4NzZQMzhkS0tVaFVDVTRFRFZJd1VsNENVYjZlYjgza3RXQnhzVFV1YXEyTjFTOEk1SDRSa3ZRZDF3SWdERXJMMnpRNEtGblZKdEtobTRWbVF3NjNENlVGQnc?oc=5"
         }
@@ -1252,7 +1120,7 @@
           "primary": false,
           "published_at": "2026-11-05T08:20:00Z",
           "publisher": "Newswire",
-          "retrieved_at": "2026-11-09T05:54:44.251282Z",
+          "retrieved_at": "2026-11-09T06:18:30.644041Z",
           "title": "doola Powers US Company Formation Inside Durable's AI Business Platform - Newswire",
           "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOdTRObVNtV05IeXBSWTZSNlpTZWpYemhTVzNkdDNXMDBGRWNCVFJKVkx5TXNPYWdJU1pSRXhwazN2b3h2UThvaXFselJfV1RMb1VDVDNud0FqVXo1NzF2WjNFN1ZPbWpvU2VKdzgzZFdQT09HOEpkZ0FzYTFwTUxDTnpnWm5XTVZsMU4wc3gwY3VCSU9XbHdxZzhtQ2dMMGs2dkpWcUZLQnYzTnNzbFE?oc=5"
         }
@@ -1346,7 +1214,7 @@
           "primary": false,
           "published_at": "2026-11-02T13:53:31Z",
           "publisher": "infoq.com",
-          "retrieved_at": "2026-11-09T05:54:44.251292Z",
+          "retrieved_at": "2026-11-09T06:18:30.644057Z",
           "title": "Uber Builds MCP Gateway to Govern Access to 800+ Servers and 5,000+ AI Agent Tools - infoq.com",
           "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFAwYTRmTzZjT1YyVjRJMnpNcGQxMjRKZFZJN0tXYTlscmRub0pGdDVuMmxfVm5BaE0yV3ZTQjVBay1TZmVkYlhuUmhTaVJYX3NFTlE2VDVYNTJjUWFUX2x1QUt2b3piN0xRYjMwbDlvUQ?oc=5"
         }
@@ -1372,7 +1240,7 @@
       "decisions": {
         "claim-support": {
           "cache_hit": false,
-          "charged_tokens": 567,
+          "charged_tokens": 679,
           "decision": {
             "evidence_ids": [
               "c8eb77e782eaa1f4bcdbe4a2"
@@ -1391,50 +1259,19 @@
             "cost": null,
             "family": "systemone",
             "format": "systemone_choices",
-            "input_tokens": 567,
-            "latency_ms": 780,
+            "input_tokens": 679,
+            "latency_ms": 434,
             "model": "alias-clef",
             "model_identity_verified": true,
             "output_tokens": 0,
             "response_model": "alias-clef",
             "status": "success",
-            "tokens": 567
+            "tokens": 679
           }
         },
         "hfs": {
           "cache_hit": false,
-          "charged_tokens": 809,
-          "decision": {
-            "evidence_ids": [
-              "c8eb77e782eaa1f4bcdbe4a2"
-            ],
-            "facts": 0.1,
-            "hype": 0.5,
-            "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
-            "related_event_id": null,
-            "score": 0.5,
-            "signal": 0.5,
-            "verdict": "yes"
-          },
-          "provider": {
-            "abstained": false,
-            "attempts": 1,
-            "cost": null,
-            "family": "systemone",
-            "format": "systemone_choices",
-            "input_tokens": 809,
-            "latency_ms": 576,
-            "model": "alias-clef",
-            "model_identity_verified": true,
-            "output_tokens": 0,
-            "response_model": "alias-clef",
-            "status": "success",
-            "tokens": 809
-          }
-        },
-        "importance": {
-          "cache_hit": false,
-          "charged_tokens": 576,
+          "charged_tokens": 921,
           "decision": {
             "evidence_ids": [
               "c8eb77e782eaa1f4bcdbe4a2"
@@ -1453,19 +1290,50 @@
             "cost": null,
             "family": "systemone",
             "format": "systemone_choices",
-            "input_tokens": 576,
-            "latency_ms": 796,
+            "input_tokens": 921,
+            "latency_ms": 505,
             "model": "alias-clef",
             "model_identity_verified": true,
             "output_tokens": 0,
             "response_model": "alias-clef",
             "status": "success",
-            "tokens": 576
+            "tokens": 921
+          }
+        },
+        "importance": {
+          "cache_hit": false,
+          "charged_tokens": 688,
+          "decision": {
+            "evidence_ids": [
+              "c8eb77e782eaa1f4bcdbe4a2"
+            ],
+            "facts": 0.5,
+            "hype": 0.5,
+            "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
+            "related_event_id": null,
+            "score": 0.5,
+            "signal": 0.5,
+            "verdict": "yes"
+          },
+          "provider": {
+            "abstained": false,
+            "attempts": 1,
+            "cost": null,
+            "family": "systemone",
+            "format": "systemone_choices",
+            "input_tokens": 688,
+            "latency_ms": 411,
+            "model": "alias-clef",
+            "model_identity_verified": true,
+            "output_tokens": 0,
+            "response_model": "alias-clef",
+            "status": "success",
+            "tokens": 688
           }
         },
         "relevance": {
           "cache_hit": false,
-          "charged_tokens": 554,
+          "charged_tokens": 666,
           "decision": {
             "evidence_ids": [
               "c8eb77e782eaa1f4bcdbe4a2"
@@ -1484,19 +1352,19 @@
             "cost": null,
             "family": "systemone",
             "format": "systemone_choices",
-            "input_tokens": 554,
-            "latency_ms": 1083,
+            "input_tokens": 666,
+            "latency_ms": 430,
             "model": "alias-clef",
             "model_identity_verified": true,
             "output_tokens": 0,
             "response_model": "alias-clef",
             "status": "success",
-            "tokens": 554
+            "tokens": 666
           }
         },
         "same-story": {
           "cache_hit": false,
-          "charged_tokens": 626,
+          "charged_tokens": 921,
           "decision": {
             "evidence_ids": [
               "c8eb77e782eaa1f4bcdbe4a2"
@@ -1504,7 +1372,7 @@
             "facts": 0.5,
             "hype": 0.5,
             "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
-            "related_event_id": null,
+            "related_event_id": "95ae03e80a8dd03bc0413bb6",
             "score": 0.9,
             "signal": 0.5,
             "verdict": "different"
@@ -1515,19 +1383,19 @@
             "cost": null,
             "family": "systemone",
             "format": "systemone_choices",
-            "input_tokens": 626,
-            "latency_ms": 720,
+            "input_tokens": 921,
+            "latency_ms": 480,
             "model": "alias-clef",
             "model_identity_verified": true,
             "output_tokens": 0,
             "response_model": "alias-clef",
             "status": "success",
-            "tokens": 626
+            "tokens": 921
           }
         },
         "worth-attention": {
           "cache_hit": false,
-          "charged_tokens": 558,
+          "charged_tokens": 670,
           "decision": {
             "evidence_ids": [
               "c8eb77e782eaa1f4bcdbe4a2"
@@ -1546,14 +1414,14 @@
             "cost": null,
             "family": "systemone",
             "format": "systemone_choices",
-            "input_tokens": 558,
-            "latency_ms": 686,
+            "input_tokens": 670,
+            "latency_ms": 412,
             "model": "alias-clef",
             "model_identity_verified": true,
             "output_tokens": 0,
             "response_model": "alias-clef",
             "status": "success",
-            "tokens": 558
+            "tokens": 670
           }
         }
       },
@@ -1572,7 +1440,7 @@
           "primary": false,
           "published_at": "2026-11-03T16:41:13Z",
           "publisher": "Amazon Web Services (AWS)",
-          "retrieved_at": "2026-11-09T05:54:44.251304Z",
+          "retrieved_at": "2026-11-09T06:18:30.644075Z",
           "title": "Build a semantic layer for agentic AI with EDB Postgres AI and Amazon Bedrock AgentCore | Artificial Intelligence - Amazon Web Services (AWS)",
           "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxObFpLQ3lpWmc2SXVFejNuOHEwX3p3TkFheVJhY011dVJBNXF5b2ZHNUR4UDFqa2Frdk5ZS25oUkdZR093SWV6WUpKUlZOalpmbTR0TlJxS3ZoQnFKcGhON1pEZ2dTWmxrYjI0WnlwM0FtZUplUmlYS2NDTU15d3lyX1U0S3h2UjM1dnFkU18taF80NnRGaXgyTkFFQlpweDJ2enpFQ05GMUxuM2lKQS1KbXhHY1V3RUZMN2lRMDNnUGFfVW02cXpZNTdTZDIzWnM?oc=5"
         }
@@ -1666,7 +1534,7 @@
           "primary": false,
           "published_at": "2026-11-03T08:00:00Z",
           "publisher": "AIMultiple",
-          "retrieved_at": "2026-11-09T05:54:44.251314Z",
+          "retrieved_at": "2026-11-09T06:18:30.644090Z",
           "title": "Best Design to Code Tools Compared: Detailed Analysis - AIMultiple",
           "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBzSExyR19rU0Z5RVN5Z1UzZUMyRU1IaDl2MlVUeFYtRUY1TWRYckJ3OUtTMnZUMTQxT1NNcWlqeHAyNERxOVgxLXFHN2hJZw?oc=5"
         }
@@ -1760,7 +1628,7 @@
           "primary": false,
           "published_at": "2026-11-05T19:42:38Z",
           "publisher": "Engineering.com",
-          "retrieved_at": "2026-11-09T05:54:44.251325Z",
+          "retrieved_at": "2026-11-09T06:18:30.644106Z",
           "title": "What MCP could mean for infrastructure AI - Engineering.com",
           "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5JUTI3S1hkRXRXWVFobjdldUZvTDdhUnE4NVNpNldhSDdpQWs3U194N0JLSDJGYXIyWk14N2YtQ19IdjkzaHU3WmtySjRzV1hOMk1aSEYxOHNfX1JCdmRieXp4aTBJTmZqd1JRMzZDZTFpUmlJcmVZTlhB?oc=5"
         }
@@ -1854,7 +1722,7 @@
           "primary": false,
           "published_at": "2026-11-03T15:41:24Z",
           "publisher": "AEC Magazine",
-          "retrieved_at": "2026-11-09T05:54:44.251335Z",
+          "retrieved_at": "2026-11-09T06:18:30.644122Z",
           "title": "Autom8Labs launches AEC skills for AI agents - AEC Magazine",
           "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNTlhDN1RZWklCQm84R0lZSFhEU2J3R202WUZMc3dzanNDaU90bF9peDhZc1BsZ3h6NkZrZ2d4aTltNHVOWnNEdnFqNDFUdGpEZEFQSS0yRWxOeHJKcWxjVVZ2bU1UOHFZbTFJVTlyUEJwQ3JEaEppcmxsdXRabURTUQ?oc=5"
         }
@@ -1935,35 +1803,35 @@
       },
       "duplicate_of": null,
       "eligibility": null,
-      "event_id": "197fb117be2de507d0098bfd",
+      "event_id": "40a77541c3d71d3c7b859715",
       "evidence": [
         {
-          "content_hash": "45a64af5dd336344c929000c85add24962dcef7218df3b5c608ea24aa4aeb822",
+          "content_hash": "726d33388089541a446d928ffda03cc730ad6d236236254bf7d40eb1d5b298c7",
           "discovery_language": "en",
-          "excerpt": "CloudCasa DR Adds Dell PowerStore Failover for Kubernetes and a Read-Only MCP Server StorageReview.com",
+          "excerpt": "Blue Yonder Release 2026.3 Introduces New AI-Driven Supply Chain Capabilities Logistics Viewpoints",
           "fresh": true,
-          "id": "bba77be5bb4348f3a932a610",
+          "id": "4d81e1a9e6761ade10d884dd",
           "language": "unknown",
           "language_basis": "insufficient_language_evidence",
           "primary": false,
-          "published_at": "2026-11-02T15:59:19Z",
-          "publisher": "StorageReview.com",
-          "retrieved_at": "2026-11-09T05:54:44.251348Z",
-          "title": "CloudCasa DR Adds Dell PowerStore Failover for Kubernetes and a Read-Only MCP Server - StorageReview.com",
-          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQaUlKNU5RMkZQSFhRTzdsM21ORWVYY0ZCdnB2U1E5cF9KQlJKQTNwM2JoSC1QaEYyYW1OVk9faFl4ZFE5RHVoRUMwWjJLV2JrN3dsV1BnbngyM01ONVN3Z3RBNXphZnplU0FoNktCZXphT2lZNms3SFJjN3lwS2F2WjdQZEJJdWxXZlZneFZxbGxBUkMwcWRJNUlB0gGfAUFVX3lxTE92Yy15QnU5TnVqZVpxNGczOUdXYXZyclQ4dUpLYTNpTDE0QVBzbE9PbHNtYlB2UEM0dWJwTXIxcUJGc0RvU2lmVDlLSENlRXloZjdYYlY2ZGZPSE92THV3TV9nR204Y2JWRlMtYWtHN3BmZ3NwUldwbC1UUVd4Sno3eHl0VjBCSjRDMWU0czFRUUlMaVhpMDZHUE5vQ0s5QQ?oc=5"
+          "published_at": "2026-11-06T15:01:29Z",
+          "publisher": "Logistics Viewpoints",
+          "retrieved_at": "2026-11-09T06:18:30.644138Z",
+          "title": "Blue Yonder Release 2026.3 Introduces New AI-Driven Supply Chain Capabilities - Logistics Viewpoints",
+          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNaEpBOE5vcVVpQmoxYzJjcElPUC1McldQcDQxUDJvYW9qdk5pWkx3Tl80LUNUOUM5OWluNHB2VW9Ud0ZOdnA1aHNjZ0IwdzJTVWRTUkdEV0ljOVg2R0ZsUkJVN0hzSWNPbjJTaUQ2OFNSMFljR1IzVkdCSGF4RVp5Yy1CTUhDRHhjZ3JQVlNIcTYzM3BqbVlES2MwRDdrQWFURWVYVnZCcmpkaGxMVG4zdmRfaGM1Sl9YN0RMMlBR?oc=5"
         }
       ],
       "historical_application_status": null,
       "historical_deadline": null,
-      "id": "0865749210452595c933ffda",
+      "id": "be2c755bb529f53987ebb33c",
       "matched_topics": [],
       "missing_verification": [],
       "reasons": [
         "incomplete_uncertain_or_below_threshold_model_assessment"
       ],
       "technical_significance": null,
-      "title": "CloudCasa DR Adds Dell PowerStore Failover for Kubernetes and a Read-Only MCP Server - StorageReview.com",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQaUlKNU5RMkZQSFhRTzdsM21ORWVYY0ZCdnB2U1E5cF9KQlJKQTNwM2JoSC1QaEYyYW1OVk9faFl4ZFE5RHVoRUMwWjJLV2JrN3dsV1BnbngyM01ONVN3Z3RBNXphZnplU0FoNktCZXphT2lZNms3SFJjN3lwS2F2WjdQZEJJdWxXZlZneFZxbGxBUkMwcWRJNUlB0gGfAUFVX3lxTE92Yy15QnU5TnVqZVpxNGczOUdXYXZyclQ4dUpLYTNpTDE0QVBzbE9PbHNtYlB2UEM0dWJwTXIxcUJGc0RvU2lmVDlLSENlRXloZjdYYlY2ZGZPSE92THV3TV9nR204Y2JWRlMtYWtHN3BmZ3NwUldwbC1UUVd4Sno3eHl0VjBCSjRDMWU0czFRUUlMaVhpMDZHUE5vQ0s5QQ?oc=5"
+      "title": "Blue Yonder Release 2026.3 Introduces New AI-Driven Supply Chain Capabilities - Logistics Viewpoints",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNaEpBOE5vcVVpQmoxYzJjcElPUC1McldQcDQxUDJvYW9qdk5pWkx3Tl80LUNUOUM5OWluNHB2VW9Ud0ZOdnA1aHNjZ0IwdzJTVWRTUkdEV0ljOVg2R0ZsUkJVN0hzSWNPbjJTaUQ2OFNSMFljR1IzVkdCSGF4RVp5Yy1CTUhDRHhjZ3JQVlNIcTYzM3BqbVlES2MwRDdrQWFURWVYVnZCcmpkaGxMVG4zdmRfaGM1Sl9YN0RMMlBR?oc=5"
     },
     {
       "application_status": null,
@@ -2029,35 +1897,35 @@
       },
       "duplicate_of": null,
       "eligibility": null,
-      "event_id": "401fc20a3a502a7e8fff5ca7",
+      "event_id": "197fb117be2de507d0098bfd",
       "evidence": [
         {
-          "content_hash": "60f8026ee5ca9922ee2c5e48dd402d310c9b814ce805b1196902977eeacc5388",
+          "content_hash": "45a64af5dd336344c929000c85add24962dcef7218df3b5c608ea24aa4aeb822",
           "discovery_language": "en",
-          "excerpt": "Introducing the Supply Chain & Logistics Video Library: Expert Insights from ARC Advisory Group Logistics Viewpoints",
+          "excerpt": "CloudCasa DR Adds Dell PowerStore Failover for Kubernetes and a Read-Only MCP Server StorageReview.com",
           "fresh": true,
-          "id": "e53bb745a39492565c27fc2d",
+          "id": "bba77be5bb4348f3a932a610",
           "language": "unknown",
           "language_basis": "insufficient_language_evidence",
           "primary": false,
-          "published_at": "2026-11-06T16:52:23Z",
-          "publisher": "Logistics Viewpoints",
-          "retrieved_at": "2026-11-09T05:54:44.251361Z",
-          "title": "Introducing the Supply Chain & Logistics Video Library: Expert Insights from ARC Advisory Group - Logistics Viewpoints",
-          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNRmlSWFpNdzJ1UmJmaWtjMWYySmRoQ1Flc0Z0YUp6Wk1LYzA5ZUNodEtnNTZIVGh2bzlHRzNlb2x3b3hMYTVNX0laVmtOZWUyVHNQN0c3OWFBcDVUNkJXWm5CVGdwT2hTX1cxa2V0V2FfdndLbnkyNnBuQ0FZRWluR0J3UlROX1BvSDg1SWZEMWxTZXd5OTdiZXQ4LURjTUROQnJmQXNVaUNIYUk2YlloLXJuQ3ctSEVkdlc3eVloM2F1Q0tybTAwZ25RZlU4VUVETkE?oc=5"
+          "published_at": "2026-11-02T15:59:19Z",
+          "publisher": "StorageReview.com",
+          "retrieved_at": "2026-11-09T06:18:30.644158Z",
+          "title": "CloudCasa DR Adds Dell PowerStore Failover for Kubernetes and a Read-Only MCP Server - StorageReview.com",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQaUlKNU5RMkZQSFhRTzdsM21ORWVYY0ZCdnB2U1E5cF9KQlJKQTNwM2JoSC1QaEYyYW1OVk9faFl4ZFE5RHVoRUMwWjJLV2JrN3dsV1BnbngyM01ONVN3Z3RBNXphZnplU0FoNktCZXphT2lZNms3SFJjN3lwS2F2WjdQZEJJdWxXZlZneFZxbGxBUkMwcWRJNUlB0gGfAUFVX3lxTE92Yy15QnU5TnVqZVpxNGczOUdXYXZyclQ4dUpLYTNpTDE0QVBzbE9PbHNtYlB2UEM0dWJwTXIxcUJGc0RvU2lmVDlLSENlRXloZjdYYlY2ZGZPSE92THV3TV9nR204Y2JWRlMtYWtHN3BmZ3NwUldwbC1UUVd4Sno3eHl0VjBCSjRDMWU0czFRUUlMaVhpMDZHUE5vQ0s5QQ?oc=5"
         }
       ],
       "historical_application_status": null,
       "historical_deadline": null,
-      "id": "d684fe54eed5921e80dae88e",
+      "id": "0141c3394e57ef1d57910f8a",
       "matched_topics": [],
       "missing_verification": [],
       "reasons": [
         "incomplete_uncertain_or_below_threshold_model_assessment"
       ],
       "technical_significance": null,
-      "title": "Introducing the Supply Chain & Logistics Video Library: Expert Insights from ARC Advisory Group - Logistics Viewpoints",
-      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNRmlSWFpNdzJ1UmJmaWtjMWYySmRoQ1Flc0Z0YUp6Wk1LYzA5ZUNodEtnNTZIVGh2bzlHRzNlb2x3b3hMYTVNX0laVmtOZWUyVHNQN0c3OWFBcDVUNkJXWm5CVGdwT2hTX1cxa2V0V2FfdndLbnkyNnBuQ0FZRWluR0J3UlROX1BvSDg1SWZEMWxTZXd5OTdiZXQ4LURjTUROQnJmQXNVaUNIYUk2YlloLXJuQ3ctSEVkdlc3eVloM2F1Q0tybTAwZ25RZlU4VUVETkE?oc=5"
+      "title": "CloudCasa DR Adds Dell PowerStore Failover for Kubernetes and a Read-Only MCP Server - StorageReview.com",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQaUlKNU5RMkZQSFhRTzdsM21ORWVYY0ZCdnB2U1E5cF9KQlJKQTNwM2JoSC1QaEYyYW1OVk9faFl4ZFE5RHVoRUMwWjJLV2JrN3dsV1BnbngyM01ONVN3Z3RBNXphZnplU0FoNktCZXphT2lZNms3SFJjN3lwS2F2WjdQZEJJdWxXZlZneFZxbGxBUkMwcWRJNUlB0gGfAUFVX3lxTE92Yy15QnU5TnVqZVpxNGczOUdXYXZyclQ4dUpLYTNpTDE0QVBzbE9PbHNtYlB2UEM0dWJwTXIxcUJGc0RvU2lmVDlLSENlRXloZjdYYlY2ZGZPSE92THV3TV9nR204Y2JWRlMtYWtHN3BmZ3NwUldwbC1UUVd4Sno3eHl0VjBCSjRDMWU0czFRUUlMaVhpMDZHUE5vQ0s5QQ?oc=5"
     },
     {
       "application_status": null,
@@ -2136,7 +2004,7 @@
           "primary": false,
           "published_at": "2026-11-04T19:45:13Z",
           "publisher": "IBM",
-          "retrieved_at": "2026-11-09T05:54:44.251371Z",
+          "retrieved_at": "2026-11-09T06:18:30.644175Z",
           "title": "Your business, always current. Streamhouse is the data architecture for the age of AI - IBM",
           "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNWTVmRUY5bUxxSTBnM2NxbmUxUWFJN3ZsUWNvVFYxblRkUGh4akVKQ2NDS1N4c3R4QlF0dGpDVjNQeS14T2FGaFROdXlnS055dGRFMmw1SUx2QkZWNm5WdHlyNEJ6R3RRYXZSaFJZaXU0R2NtYkJpTTNtV1RWd3NzN3ZJSkg?oc=5"
         }
@@ -2217,6 +2085,100 @@
       },
       "duplicate_of": null,
       "eligibility": null,
+      "event_id": "401fc20a3a502a7e8fff5ca7",
+      "evidence": [
+        {
+          "content_hash": "60f8026ee5ca9922ee2c5e48dd402d310c9b814ce805b1196902977eeacc5388",
+          "discovery_language": "en",
+          "excerpt": "Introducing the Supply Chain & Logistics Video Library: Expert Insights from ARC Advisory Group Logistics Viewpoints",
+          "fresh": true,
+          "id": "e53bb745a39492565c27fc2d",
+          "language": "unknown",
+          "language_basis": "insufficient_language_evidence",
+          "primary": false,
+          "published_at": "2026-11-06T16:52:23Z",
+          "publisher": "Logistics Viewpoints",
+          "retrieved_at": "2026-11-09T06:18:30.644192Z",
+          "title": "Introducing the Supply Chain & Logistics Video Library: Expert Insights from ARC Advisory Group - Logistics Viewpoints",
+          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNRmlSWFpNdzJ1UmJmaWtjMWYySmRoQ1Flc0Z0YUp6Wk1LYzA5ZUNodEtnNTZIVGh2bzlHRzNlb2x3b3hMYTVNX0laVmtOZWUyVHNQN0c3OWFBcDVUNkJXWm5CVGdwT2hTX1cxa2V0V2FfdndLbnkyNnBuQ0FZRWluR0J3UlROX1BvSDg1SWZEMWxTZXd5OTdiZXQ4LURjTUROQnJmQXNVaUNIYUk2YlloLXJuQ3ctSEVkdlc3eVloM2F1Q0tybTAwZ25RZlU4VUVETkE?oc=5"
+        }
+      ],
+      "historical_application_status": null,
+      "historical_deadline": null,
+      "id": "3820d9b4abd96bbc81fa7c31",
+      "matched_topics": [],
+      "missing_verification": [],
+      "reasons": [
+        "incomplete_uncertain_or_below_threshold_model_assessment"
+      ],
+      "technical_significance": null,
+      "title": "Introducing the Supply Chain & Logistics Video Library: Expert Insights from ARC Advisory Group - Logistics Viewpoints",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNRmlSWFpNdzJ1UmJmaWtjMWYySmRoQ1Flc0Z0YUp6Wk1LYzA5ZUNodEtnNTZIVGh2bzlHRzNlb2x3b3hMYTVNX0laVmtOZWUyVHNQN0c3OWFBcDVUNkJXWm5CVGdwT2hTX1cxa2V0V2FfdndLbnkyNnBuQ0FZRWluR0J3UlROX1BvSDg1SWZEMWxTZXd5OTdiZXQ4LURjTUROQnJmQXNVaUNIYUk2YlloLXJuQ3ctSEVkdlc3eVloM2F1Q0tybTAwZ25RZlU4VUVETkE?oc=5"
+    },
+    {
+      "application_status": null,
+      "attention": 0.25,
+      "classification": "UNASSESSED",
+      "confirmed": false,
+      "deadline": null,
+      "decisions": {
+        "claim-support": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "hfs": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "importance": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "relevance": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "same-story": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "worth-attention": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        }
+      },
+      "duplicate_of": null,
+      "eligibility": null,
       "event_id": "35720118d879d4fa048772c6",
       "evidence": [
         {
@@ -2230,14 +2192,14 @@
           "primary": false,
           "published_at": "2026-11-06T23:10:05Z",
           "publisher": "HPCwire",
-          "retrieved_at": "2026-11-09T05:54:44.251383Z",
+          "retrieved_at": "2026-11-09T06:18:30.644209Z",
           "title": "VAST Data Reports More Than $10B in AI Infrastructure Commitments from 14 Customers - HPCwire",
           "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQdlpFbXRxaV9SYUV4VHNGTHVGMEtFWEhpRG1vQVE5MVZNaUVlMzh5bGlHSGg1NTFXZTVqUzVMYVNFMWN3S0xoSG9WZzVMNENfSkUzdy1PQmM0Z29nQVhWd1BpeEpnQ19reHU0ZFhMNDU0eDl0R2VKcEtDN0lEcjBic0gtWW9ZeHFaRTZIWl9Ta1dUcm9RRF9lZDZ2TkR5YWNrLS1iZE5tV1hqT1ZvS1ZaSFhMZHhHVEFRVXgzX2x5Xy05aUk?oc=5"
         }
       ],
       "historical_application_status": null,
       "historical_deadline": null,
-      "id": "101010ca3633f2394eeee498",
+      "id": "601d911da42e24ccd6d179d1",
       "matched_topics": [],
       "missing_verification": [],
       "reasons": [
@@ -2324,14 +2286,14 @@
           "primary": false,
           "published_at": "2026-11-05T12:08:18Z",
           "publisher": "Logistics Viewpoints",
-          "retrieved_at": "2026-11-09T05:54:44.251395Z",
+          "retrieved_at": "2026-11-09T06:18:30.644226Z",
           "title": "OpenAI’s Pierre Acquisition Signals a New Era for Supply Chain Software Development - Logistics Viewpoints",
           "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPRXoyOGE1akhvYVlrLWJiQ0cxWWd0cE1NdFVUYWJQVGNNRGwwQ0lVYjFKYkVHcUQzdXB2dUlEcDR4d09zbHVob2NyMWtKZlQzd3QzbmRpRkhWY0FxM0JqVkZCOEFaTmpPSFZ4dVN4ZGhLVkNUT2VsMmVrSDVRSGlzaEE0QzN3UmdmRXR1VG1ZNnByc0w1ajZtdWhnYWJyNTRsRndPYVVabk5UZU9uSU5aUTFlYXh4TXpxY2haTEhkcmpKUDRG?oc=5"
         }
       ],
       "historical_application_status": null,
       "historical_deadline": null,
-      "id": "f0dfbfed944e4a06d0df34a3",
+      "id": "234e5e25ed5a2f167468c255",
       "matched_topics": [],
       "missing_verification": [],
       "reasons": [
@@ -2418,14 +2380,14 @@
           "primary": false,
           "published_at": "2026-11-04T12:01:19Z",
           "publisher": "AiThority",
-          "retrieved_at": "2026-11-09T05:54:44.251407Z",
+          "retrieved_at": "2026-11-09T06:18:30.644243Z",
           "title": "Keytomic Launches MCP Server, AI Visibility Tracker, and Reddit AI Agent for SEO Automation - AiThority",
           "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNY204UnRUSktUOGRLaHR6VGg3OXNuOGUyZlpzSjZtdUx6SG1OT05EQ3BIUm1kOFZ4amZTVXFPQ2Y3aVhxbkxOOUt1UnE5TjF2TUxvOEdBcnJ5YU8tbFdWSktZLVNXdlJNZG9Wd0RqSWtWQkJUaGdxQkF5NWQ5b1FCa0hOZTJEeG1NSWF0Y3VoMjZJSTBXOWM2aEdUQWJ4TU12WnFLN3EyYm5XeFVfbExCUlFpLXp3R3dVT2wta0Fld2hOeXBCSlY0TQ?oc=5"
         }
       ],
       "historical_application_status": null,
       "historical_deadline": null,
-      "id": "c5e2f4da3e4ddb1fd5897545",
+      "id": "6d917ed056771acfa02e2472",
       "matched_topics": [],
       "missing_verification": [],
       "reasons": [
@@ -2512,14 +2474,14 @@
           "primary": false,
           "published_at": "2026-11-05T03:56:00Z",
           "publisher": "Forkast News",
-          "retrieved_at": "2026-11-09T05:54:44.251420Z",
+          "retrieved_at": "2026-11-09T06:18:30.644260Z",
           "title": "MCP Inspector 2.14.0 fixes three privately reported vulnerabilities and changes developer-facing behavior - Forkast News",
           "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPRTk3aWo4d2plemhKUWVKaXl5REZwelV2WEFlRUdjT1FtUjBqd2p2aW1VZ3RaT2hDYTU2aDlwblcyZm54djhFYmt0dlBqWjY4eGs1bjFZX04tYklkY1ZMZE9OZkQ0YUlibHk1RU81bmhrMC1aOXR3S1NtbVhXdTV3RUtPNG1PSUJmdjYwcFJJNEZpSU9id0ZFQmpDOFRPVzJMZDZ0MjhJN3Jyb3Z6ZXNFaTZmbGxmYmgwYnptRGk2X0hrbXZPV1E?oc=5"
         }
       ],
       "historical_application_status": null,
       "historical_deadline": null,
-      "id": "9358fade744a0b6609e22436",
+      "id": "79e39c3a00c03acf9cb8f37f",
       "matched_topics": [],
       "missing_verification": [],
       "reasons": [
@@ -2606,14 +2568,14 @@
           "primary": false,
           "published_at": "2026-11-03T12:05:29Z",
           "publisher": "CX Today",
-          "retrieved_at": "2026-11-09T05:54:44.251431Z",
+          "retrieved_at": "2026-11-09T06:18:30.644276Z",
           "title": "Why Google, Cordial and Twilio are Pushing for Smarter Visibility - CX Today",
           "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNUGE4YjRVdTQtcldSU1NJcTJvSTdBdDJwRy1salcwQ2xuUVM5SEFNU3FKeEc3ZXMtWWlhUzJQTUpuZ3luOXctb1VrSGh2YXZhcnRzTVVyNkNFMTdPY19nTXhfS0lJUEdrWlc1ZmJNNGMyVkp1MUFlV3pmcGlIaW5UZVc2bw?oc=5"
         }
       ],
       "historical_application_status": null,
       "historical_deadline": null,
-      "id": "ed0d6f5def0d9f8ea4353dfd",
+      "id": "206529e468fa155f202c54f4",
       "matched_topics": [],
       "missing_verification": [],
       "reasons": [
@@ -2700,14 +2662,14 @@
           "primary": false,
           "published_at": "2026-11-03T08:00:00Z",
           "publisher": "AIMultiple",
-          "retrieved_at": "2026-11-09T05:54:44.251440Z",
+          "retrieved_at": "2026-11-09T06:18:30.644290Z",
           "title": "5 Agentic AI Design Patterns & Real-World Examples - AIMultiple",
           "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBiaG1hR2lZaHAxQ193YzYtZ2ZlWGNmYktjb3FzTjZZc0RhQ3RVUHBTcy1meTJ4eV8yTzJNTTZwRkh2eVRYM1E2aTI0eXFYUnVKVFlQanBTM3RpekFwSVE?oc=5"
         }
       ],
       "historical_application_status": null,
       "historical_deadline": null,
-      "id": "99fb6ccd3c6805d3a858de8d",
+      "id": "3139a3ab07178b7eadd41566",
       "matched_topics": [],
       "missing_verification": [],
       "reasons": [
@@ -2794,14 +2756,14 @@
           "primary": false,
           "published_at": "2026-11-07T07:52:27Z",
           "publisher": "Meteora Web",
-          "retrieved_at": "2026-11-09T05:54:44.251450Z",
+          "retrieved_at": "2026-11-09T06:18:30.644306Z",
           "title": "Claude Code 2.1.319 changes auto mode behind LLM gateways and adds MCP tasks - Meteora Web",
           "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQRGtVVnRScXBjamJfOGl0RVN3Y2J6cC1waXl2bEdKQnYwdmJfWkViM0JjTDUtTENKVXMxQ25fMzYzY2Rsem1ialNrdXlnbGlrRVZoLXJ4UVFrNm5yQVd1aDZMX3pRSHRRZXc3MjB1RElRekVlaExhTVBmb2I4VVpBZERsRVF1YnpzcUoxaGJJXy1MNWpxS3VHX2g1MWpUTTR3Mnpqb0xtZ3FVaWM?oc=5"
         }
       ],
       "historical_application_status": null,
       "historical_deadline": null,
-      "id": "92de254eb43f1efe2bb3b4da",
+      "id": "c30f0a0acb587de93b43b7d3",
       "matched_topics": [],
       "missing_verification": [],
       "reasons": [
@@ -2888,14 +2850,14 @@
           "primary": false,
           "published_at": "2026-11-06T06:14:57Z",
           "publisher": "ContentGrip",
-          "retrieved_at": "2026-11-09T05:54:44.251471Z",
+          "retrieved_at": "2026-11-09T06:18:30.644338Z",
           "title": "Adobe CX Coworker reaches ChatGPT and Copilot - ContentGrip",
           "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE40WWsxLVA1cFloUzhRTG5HRU1WaFBxVzRSWlBKS1RyMGI4UW5sR0ZlOVQwMmtrUHpWR0JJN0ZZYjBJcHNudDFzVVRrVE9jWmFWTDNIMU9XZzdHV0UwNWpSQUNtQ0hWdVRoX0tN?oc=5"
         }
       ],
       "historical_application_status": null,
       "historical_deadline": null,
-      "id": "cdbe397e63c015b29f75dfed",
+      "id": "b322df65644ebbd69a59aa88",
       "matched_topics": [],
       "missing_verification": [],
       "reasons": [
@@ -2904,100 +2866,6 @@
       "technical_significance": null,
       "title": "Adobe CX Coworker reaches ChatGPT and Copilot - ContentGrip",
       "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE40WWsxLVA1cFloUzhRTG5HRU1WaFBxVzRSWlBKS1RyMGI4UW5sR0ZlOVQwMmtrUHpWR0JJN0ZZYjBJcHNudDFzVVRrVE9jWmFWTDNIMU9XZzdHV0UwNWpSQUNtQ0hWdVRoX0tN?oc=5"
-    },
-    {
-      "application_status": null,
-      "attention": 0.25,
-      "classification": "UNASSESSED",
-      "confirmed": false,
-      "deadline": null,
-      "decisions": {
-        "claim-support": {
-          "cache_hit": false,
-          "charged_tokens": 0,
-          "decision": null,
-          "provider": {
-            "model": "alias-clef",
-            "status": "budget_limit"
-          }
-        },
-        "hfs": {
-          "cache_hit": false,
-          "charged_tokens": 0,
-          "decision": null,
-          "provider": {
-            "model": "alias-clef",
-            "status": "budget_limit"
-          }
-        },
-        "importance": {
-          "cache_hit": false,
-          "charged_tokens": 0,
-          "decision": null,
-          "provider": {
-            "model": "alias-clef",
-            "status": "budget_limit"
-          }
-        },
-        "relevance": {
-          "cache_hit": false,
-          "charged_tokens": 0,
-          "decision": null,
-          "provider": {
-            "model": "alias-clef",
-            "status": "budget_limit"
-          }
-        },
-        "same-story": {
-          "cache_hit": false,
-          "charged_tokens": 0,
-          "decision": null,
-          "provider": {
-            "model": "alias-clef",
-            "status": "budget_limit"
-          }
-        },
-        "worth-attention": {
-          "cache_hit": false,
-          "charged_tokens": 0,
-          "decision": null,
-          "provider": {
-            "model": "alias-clef",
-            "status": "budget_limit"
-          }
-        }
-      },
-      "duplicate_of": null,
-      "eligibility": null,
-      "event_id": "fa7fa1e946b0306409371f37",
-      "evidence": [
-        {
-          "content_hash": "c2517fe76337281cd22783b55d0c45c50f26bb6d9cfb010bcb93d1227fdf59b6",
-          "discovery_language": "en",
-          "excerpt": "NVIDIA Vera CPU Delivers 2x AI Agent Speed Against AMD's 256-Core EPYC Venice NoobFeed",
-          "fresh": true,
-          "id": "39f6e26c60498c0defba2adf",
-          "language": "unknown",
-          "language_basis": "insufficient_language_evidence",
-          "primary": false,
-          "published_at": "2026-11-07T19:14:10Z",
-          "publisher": "NoobFeed",
-          "retrieved_at": "2026-11-09T05:54:44.251481Z",
-          "title": "NVIDIA Vera CPU Delivers 2x AI Agent Speed Against AMD's 256-Core EPYC Venice - NoobFeed",
-          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1zQVU4MVVWZDNiclFQRU90aXEydHdzeUl5S0VNN3RUQ09fbHFPeTRkaGFGNktPRW5TdmRUZk5UM2tZUmctS08ybFZhZWZBMVp4YmhFdWxSUDBNQUxCQ0NBaUEyazh6R3hzSzJfQXZYYlp4WFpKNEQ2aHczMnp5QQ?oc=5"
-        }
-      ],
-      "historical_application_status": null,
-      "historical_deadline": null,
-      "id": "47117af215bc8b4af64d3c8e",
-      "matched_topics": [],
-      "missing_verification": [],
-      "reasons": [
-        "incomplete_uncertain_or_below_threshold_model_assessment"
-      ],
-      "technical_significance": null,
-      "title": "NVIDIA Vera CPU Delivers 2x AI Agent Speed Against AMD's 256-Core EPYC Venice - NoobFeed",
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1zQVU4MVVWZDNiclFQRU90aXEydHdzeUl5S0VNN3RUQ09fbHFPeTRkaGFGNktPRW5TdmRUZk5UM2tZUmctS08ybFZhZWZBMVp4YmhFdWxSUDBNQUxCQ0NBaUEyazh6R3hzSzJfQXZYYlp4WFpKNEQ2aHczMnp5QQ?oc=5"
     },
     {
       "application_status": null,
@@ -3076,7 +2944,7 @@
           "primary": false,
           "published_at": "2026-11-07T07:21:00Z",
           "publisher": "heise online",
-          "retrieved_at": "2026-11-09T05:54:44.584569Z",
+          "retrieved_at": "2026-11-09T06:18:30.989179Z",
           "title": "Sichere Architektur für KI-Agenten im Backoffice - heise online",
           "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQWXVFWVhuMzdTLVlLeGlxdm9VUU5nbkU4OTRaa1J6ZzdxY1hEcnl2VFVyT3VDMURsZzNFQTNIR1M4bHhvZnlFcGd1NTBIN00ta29RdlhhZkNaUHgyME0zOU41SlVrVzdPdVFLVHlMVW1CbUZKWTIzeW1JMnY1TVJ4RkdOUUk4X2o1ajkzOWl5aHIyM1J0VndPbFBNWlY?oc=5"
         }
@@ -3170,7 +3038,7 @@
           "primary": false,
           "published_at": "2026-11-08T12:13:29Z",
           "publisher": "tech-insider.org",
-          "retrieved_at": "2026-11-09T05:54:44.584591Z",
+          "retrieved_at": "2026-11-09T06:18:30.989211Z",
           "title": "Claude Code Workshop: 8 Stunden am 7. Dezember [2026] - tech-insider.org",
           "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5yNjFqSDZIbmF0dktjaFNnQi1aZTZFYlFjMGk5cEpna3dKUjZYTXp2QlQ5LXFYZ0hWVUdRaTdWX2l6RkFFSEtrdjV3V2VGaS15eEZYWjR5WC1yLXpkVTZiYnJuZWVkZ05Wa1N5WjRhNDEzaGZJa2tSRnpBZlpGaFk?oc=5"
         }
@@ -3264,7 +3132,7 @@
           "primary": false,
           "published_at": "2026-11-06T12:29:56Z",
           "publisher": "All About SECURITY",
-          "retrieved_at": "2026-11-09T05:54:44.584605Z",
+          "retrieved_at": "2026-11-09T06:18:30.989233Z",
           "title": "BOSSAI: 12 KI-Agenten im Cyberangriff aktiv - All About SECURITY",
           "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNb2N0d0tlY1lfVl85eVNaamVESGNwS0NzOXRxbjN3TTVFckYzUThPX0hBMHNPcF9yVDNLQjlOWGRvc2tGUEJIOVItUXUzUHVRMFlfU1A0VXNFb0VMRUVfSDVjaTEzakN6UVR3VjJDd09idnNsWnhhTzlRMzZ3UzRzem5lZnk2TkZyTnpHT0Q2c2lJanlNckwxVUswUVZWalV2VlluWUFnQUZ5eWpoR2NyUQ?oc=5"
         }
@@ -3358,7 +3226,7 @@
           "primary": false,
           "published_at": "2026-11-05T15:58:03Z",
           "publisher": "Unite.AI",
-          "retrieved_at": "2026-11-09T05:54:44.584618Z",
+          "retrieved_at": "2026-11-09T06:18:30.989255Z",
           "title": "Instagram Edits für den Mac ermöglicht KI-Agenten, Rohschnitte zu erstellen - Unite.AI",
           "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOZERCbTZvUVFhd1hZS3RlODdOXzl1NWhjT0N6Nk9tVTFwU1dlcjl3NjZHM184blFEb0NIZUxhYmFUZHJ6MHJGb3VrX3dkUDk1VldvNktLSTNYTkgxN1lEdmJGa1RjVGQxRXl5VVA0anoxY0N0QWlpMzFzbXlZY0g4dHNFdUp2bEdq?oc=5"
         }
@@ -3452,7 +3320,7 @@
           "primary": false,
           "published_at": "2026-11-05T21:31:11Z",
           "publisher": "quasa.io",
-          "retrieved_at": "2026-11-09T05:54:44.584629Z",
+          "retrieved_at": "2026-11-09T06:18:30.989274Z",
           "title": "Conductor im Test: Zuverlässige Multi-Agenten-Workflows erstellen - quasa.io",
           "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNc0N1dFEyV290RFFZTTZPazdKa1JZaHVXN05rX0NvOVZ5WUhWQUZTVjN0QThhX0VOYUFDUGtYX1ZZQm56Z2V0dk1aSmdzdERHbVIxQ0VCTDJycWgyeW0yQ0xqaFJyYnd3UUFySHlMUzcwYkNuZS13QW5NM2Yzb0pGd3MtVEx0RlNiV2Y5Smd3elV0QTJMU1E?oc=5"
         }
@@ -3546,7 +3414,7 @@
           "primary": false,
           "published_at": "2026-11-03T10:10:44Z",
           "publisher": "Infopoint Security",
-          "retrieved_at": "2026-11-09T05:54:44.584643Z",
+          "retrieved_at": "2026-11-09T06:18:30.989296Z",
           "title": "KI-Agenten auf Cyberjagd: Zscaler enthüllt weltweit koordinierte Angriffskampagne - Infopoint Security",
           "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNU1FoY05nQjlteDlOSGdTUDNWb2l1anNrYlJ1RzYzZF83Ullia1BjRGpOMW1sVmRiczRodjEwVnFoZmtuS28xWXFrNDVvSWpkWmVwTGtFMjRZMUJhNXdQbW95VUdxUmstbGItb01zVDVtbFE5VURPbzZBY2x5QV9jUVNIN0RJTEUzS3Exd09ydFJ2d0IzTkVQMjBSY3Q0R00tZDl3OU1qejdoSDF0VmlXellpdVFNaF9fbWdDM3BLYkvSAcQBQVVfeXFMTl95RzNtbFRsRUtLeXZIa2NyYlFrNlVLRFlRVjc0TEVnZEpPRzQ5S0RwcXI2OGY2YktHY3VYM0QxemhJOUtEQ1FYUkk2S1hHdGZudTk4QXctSjR5UWoxVkpURjRYYnNCVFZyMGhzbm90NVpzM1pOSXM4dUpvN1BSbHNMMGo3YjdtTHg2eVlGMWJlWTV1eUNHWVJSRExmdFZkZFo5LVdJbjdmUGZFYnpmRUs2V3JGQ21ZQlRfOXBETF84S1BkRg?oc=5"
         }
@@ -3640,7 +3508,7 @@
           "primary": false,
           "published_at": "2026-11-02T18:56:10Z",
           "publisher": "ONE to ONE",
-          "retrieved_at": "2026-11-09T05:54:44.584655Z",
+          "retrieved_at": "2026-11-09T06:18:30.989313Z",
           "title": "KI-Agenten handeln über ihren Auftrag hinaus - ONE to ONE",
           "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBSeS1oMDFRUGhXYVEyTnV6c2JfeWNNU2JyRC1OREhGU0MxRWRUX3pfdS1ZWFlvQU9UaUlBekx5ZjEwZ25LRzNZVHN0MWhROXpVU0pBVWRPQnczVlpkeE03dHE3Z2g0RWJPR3p6S1dPLVZfUXNGSEktclJXSnE?oc=5"
         }
@@ -3734,7 +3602,7 @@
           "primary": false,
           "published_at": "2026-11-06T00:12:52Z",
           "publisher": "tech-insider.org",
-          "retrieved_at": "2026-11-09T05:54:44.584666Z",
+          "retrieved_at": "2026-11-09T06:18:30.989329Z",
           "title": "KI-Testautomatisierung: 5 Schritte mit Playwright [2026] - tech-insider.org",
           "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPc1Nnal9NUXRUZkFwOW0zWG9mdkhmdUhlMldHVHdYX1hyNm5LWEpEbG05LVo2ZHVkV3NmdXVSeW1EcXNEYjJxcU5XaVJyVjBOQ3BpRldWYU9LMXRYejRCR1lCekZXY3pGUlBXb1JrbG9jdW91Q1V6dXNmdE1rVmYzOGNhRW8tcHk3d2g4?oc=5"
         }
@@ -3828,7 +3696,7 @@
           "primary": false,
           "published_at": "2026-11-07T06:20:13Z",
           "publisher": "quasa.io",
-          "retrieved_at": "2026-11-09T05:54:44.584677Z",
+          "retrieved_at": "2026-11-09T06:18:30.989347Z",
           "title": "Tonkean im Test: Die führende Plattform für agentenbasierte Orchestrierung in Unternehmen - quasa.io",
           "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPTUxOMjNleGgyQXFpRTFBZXFoRERST2ZyZFFMaGNqUEhfZjVIODIyMHNYRVhNVnd4Tl9GalpoY3F1U2lEek5ZdmNkVFJsMFdqVzZPWW4xTllzM2hTVTdOMDIxMDVUa21iTjRVOVZPdU94NnRvdE0tQ0hkZi1ad09SVmtDTlBEQ0psYWwwZkZZZ1VrdW84SjloNzk0UG12aFNTbGJzbGNXRTVPUktZcGhxN0p3T052eUk?oc=5"
         }
@@ -3922,7 +3790,7 @@
           "primary": false,
           "published_at": "2026-11-06T15:19:59Z",
           "publisher": "it-daily.net",
-          "retrieved_at": "2026-11-09T05:54:44.584688Z",
+          "retrieved_at": "2026-11-09T06:18:30.989364Z",
           "title": "Snowflake-Plattform: Mehr Kontrolle für autonome KI-Agenten - it-daily.net",
           "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNRnN1YnNWX2hIcmpwRTkzMzV0MUdiaGxSRGVSaTdpYlVpYS0zU01sQjBLR0hyZHFsZ2N2SFJQTnp4N2IyMEVmWEJxa2FneTAxOVltOUd4R2VxVkE4SUhxamhpTVhLYzFlNWRXOXRwQTVxb1BKbk9rNnhyM1ZQbkoxQjl2ZjlOc0FpTUhGTnJ2QWo?oc=5"
         }
@@ -4016,7 +3884,7 @@
           "primary": false,
           "published_at": "2026-11-04T08:00:00Z",
           "publisher": "BornCity",
-          "retrieved_at": "2026-11-09T05:54:44.584699Z",
+          "retrieved_at": "2026-11-09T06:18:30.989382Z",
           "title": "KI-Agenten in Singapur: Drei Behörden warnen vor zu vielen Zugriffsrechten - BornCity",
           "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxObnk2aHJ2RDlhWnB1X0tYOU9jSzJ5bDRkMG5sSUV4d2tPNzJ0ek5jR3FqWU9ETGpDbDIzamtaemdLNHRlZ3JrR1JIYjZncmRYNXBSX1hnQTloYlBBQm5IWmo2X1otTjlIQkZ2T1Q1RnpnRGtlT2FiRGZnUlRWcGRMUE80LVB5dzZzd2NCYzh1NE9HbzI1OEZRMHJMZVh0NUVsNjRR?oc=5"
         }
@@ -4110,7 +3978,7 @@
           "primary": false,
           "published_at": "2026-11-05T11:38:32Z",
           "publisher": "Vietnam.vn",
-          "retrieved_at": "2026-11-09T05:54:44.584710Z",
+          "retrieved_at": "2026-11-09T06:18:30.989398Z",
           "title": "Google-Chef warnt: KI-Kompetenzen könnten das Jahr 2027 prägen. - Vietnam.vn",
           "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOU05qSHlseEM4akVWNGc5RGRISU1sN2F6dkhDenRGanROVHFLYzAzQ2NJRkd6T19fTEh6YXZUV1RCcGc5RUdSQjVFX2szTXUzSERJQTBpUUlHUldDeDZyQ3BzUXRncGl0YmQyWkgwdVhDYndZOFFrT0txV1hPSzR3cUhIYkxUUWI1bHVN?oc=5"
         }
@@ -4204,7 +4072,7 @@
           "primary": false,
           "published_at": "2026-11-02T12:48:24Z",
           "publisher": "ad-hoc-news.de",
-          "retrieved_at": "2026-11-09T05:54:44.584721Z",
+          "retrieved_at": "2026-11-09T06:18:30.989416Z",
           "title": "Atlassian-Aktie: Plattform für KI-Agenten wird ausgebaut - ad-hoc-news.de",
           "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQWjkxbnZKbFNMWmJRb2pvM0N2Q18tQ1ZUb0dfZ21QXzFxU1lWMHZMVTVQVk1pWHlsNlkyM3laYXp2N1ZiVlA4aDFTZmRaWUtTNHZKc3U5eDlEb3J5RXdQZUpxZUh6Rmt0bXJkZ0RUTURlX3B6QWxrcklmUW8zQjdLUzZnRW1JVGsxTW5tMU5VNXVNLXdad3lGcUNRVENuR2ZIZnZhZjFENWp3VVNNaDlNQy1Uc2lpeFBQOFc4?oc=5"
         }
@@ -4230,7 +4098,7 @@
       "decisions": {
         "claim-support": {
           "cache_hit": false,
-          "charged_tokens": 594,
+          "charged_tokens": 573,
           "decision": {
             "evidence_ids": [
               "d7fdc788ae411bbcb46248cc"
@@ -4249,19 +4117,19 @@
             "cost": null,
             "family": "systemone",
             "format": "systemone_choices",
-            "input_tokens": 594,
-            "latency_ms": 1012,
+            "input_tokens": 573,
+            "latency_ms": 530,
             "model": "alias-clef",
             "model_identity_verified": true,
             "output_tokens": 0,
             "response_model": "alias-clef",
             "status": "success",
-            "tokens": 594
+            "tokens": 573
           }
         },
         "hfs": {
           "cache_hit": false,
-          "charged_tokens": 836,
+          "charged_tokens": 815,
           "decision": {
             "evidence_ids": [
               "d7fdc788ae411bbcb46248cc"
@@ -4280,19 +4148,19 @@
             "cost": null,
             "family": "systemone",
             "format": "systemone_choices",
-            "input_tokens": 836,
-            "latency_ms": 565,
+            "input_tokens": 815,
+            "latency_ms": 598,
             "model": "alias-clef",
             "model_identity_verified": true,
             "output_tokens": 0,
             "response_model": "alias-clef",
             "status": "success",
-            "tokens": 836
+            "tokens": 815
           }
         },
         "importance": {
           "cache_hit": false,
-          "charged_tokens": 603,
+          "charged_tokens": 582,
           "decision": {
             "evidence_ids": [
               "d7fdc788ae411bbcb46248cc"
@@ -4311,19 +4179,19 @@
             "cost": null,
             "family": "systemone",
             "format": "systemone_choices",
-            "input_tokens": 603,
-            "latency_ms": 880,
+            "input_tokens": 582,
+            "latency_ms": 456,
             "model": "alias-clef",
             "model_identity_verified": true,
             "output_tokens": 0,
             "response_model": "alias-clef",
             "status": "success",
-            "tokens": 603
+            "tokens": 582
           }
         },
         "relevance": {
           "cache_hit": false,
-          "charged_tokens": 581,
+          "charged_tokens": 560,
           "decision": {
             "evidence_ids": [
               "d7fdc788ae411bbcb46248cc"
@@ -4342,19 +4210,19 @@
             "cost": null,
             "family": "systemone",
             "format": "systemone_choices",
-            "input_tokens": 581,
-            "latency_ms": 497,
+            "input_tokens": 560,
+            "latency_ms": 433,
             "model": "alias-clef",
             "model_identity_verified": true,
             "output_tokens": 0,
             "response_model": "alias-clef",
             "status": "success",
-            "tokens": 581
+            "tokens": 560
           }
         },
         "same-story": {
           "cache_hit": false,
-          "charged_tokens": 784,
+          "charged_tokens": 743,
           "decision": {
             "evidence_ids": [
               "d7fdc788ae411bbcb46248cc"
@@ -4362,7 +4230,7 @@
             "facts": 0.5,
             "hype": 0.5,
             "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
-            "related_event_id": "08fe807c81e82111b4f9b33a",
+            "related_event_id": null,
             "score": 0.9,
             "signal": 0.5,
             "verdict": "different"
@@ -4373,19 +4241,19 @@
             "cost": null,
             "family": "systemone",
             "format": "systemone_choices",
-            "input_tokens": 784,
-            "latency_ms": 811,
+            "input_tokens": 743,
+            "latency_ms": 525,
             "model": "alias-clef",
             "model_identity_verified": true,
             "output_tokens": 0,
             "response_model": "alias-clef",
             "status": "success",
-            "tokens": 784
+            "tokens": 743
           }
         },
         "worth-attention": {
           "cache_hit": false,
-          "charged_tokens": 585,
+          "charged_tokens": 564,
           "decision": {
             "evidence_ids": [
               "d7fdc788ae411bbcb46248cc"
@@ -4404,14 +4272,14 @@
             "cost": null,
             "family": "systemone",
             "format": "systemone_choices",
-            "input_tokens": 585,
-            "latency_ms": 753,
+            "input_tokens": 564,
+            "latency_ms": 514,
             "model": "alias-clef",
             "model_identity_verified": true,
             "output_tokens": 0,
             "response_model": "alias-clef",
             "status": "success",
-            "tokens": 585
+            "tokens": 564
           }
         }
       },
@@ -4430,7 +4298,7 @@
           "primary": false,
           "published_at": "2026-11-02T16:21:03Z",
           "publisher": "Unite.AI",
-          "retrieved_at": "2026-11-09T05:54:44.584731Z",
+          "retrieved_at": "2026-11-09T06:18:30.989433Z",
           "title": "Perplexity erläutert die Speicherarchitektur von Brain und Tests der Agent API - Unite.AI",
           "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOQUhSeFZwYTZnNDBheVN4RUFoZktzR0toRV9zb0xMRGtSSWUzbkRnZFMteXdiRzV3bEw2N1FpTmpvR1Q5aTI5UTN2YkNaZk8xcE5VOXFIYmhZaTRuWl9mdi01ci1rNUdxYm5MVTNJR0FyeF9zOVZ2X0xURlFmQTRNVEpOUGoxbktHSlRWb21oSm9SdW83eFE?oc=5"
         }
@@ -4524,7 +4392,7 @@
           "primary": false,
           "published_at": "2026-11-05T05:15:50Z",
           "publisher": "ad-hoc-news.de",
-          "retrieved_at": "2026-11-09T05:54:44.584742Z",
+          "retrieved_at": "2026-11-09T06:18:30.989450Z",
           "title": "NetSuite-KI: Agent kann direkt ins Hauptbuch von Unternehmen schreiben - ad-hoc-news.de",
           "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPekc0aTNDb1E4MUc5dE5PZlhDWmRYaldOb2Rrdy0tZ3l2dXBlLUoxUW1DcndHNGtWckIwX09SNGZ3M29obkVWTGhHRU1hUTJ2Y2Rzd2lJYmMzdHdpTDloMWU5RV9nT2lTZ3RLRXFPaXBWNmlsaHk1bkVhM203QU9HRXA5amt1QzlyV1labEJkREk2QzNqSWxaYWNaYmhGYzFIS3JoT2JhcHcyUnBaby1LaHNiV0lVOEZyZEE?oc=5"
         }
@@ -4618,7 +4486,7 @@
           "primary": false,
           "published_at": "2026-11-06T09:03:38Z",
           "publisher": "ad-hoc-news.de",
-          "retrieved_at": "2026-11-09T05:54:44.584753Z",
+          "retrieved_at": "2026-11-09T06:18:30.989467Z",
           "title": "Accenture-Aktie: CIO-Studie zeigt Lücke bei KI-Wertschöpfung - ad-hoc-news.de",
           "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQcGk5TVhWZHR1RXVSeXZIbUxNQVRvSFFzTFNtWC1lTDlOVGVUelRJR1JyWlJWelc2V2Q4WFpaQlgyUWRjaFVNRThrUktSTnd4cDdZZDIzcDJpc0dZZy1NMTZSMTFEcjlERHh2VW9TekJlR1BrdHdkVHpUUmYzd0JXSjJ2VEllOUY5RHVWR1hmcHZrZEZVeFpQTXpYUHZkelJSMnhDVWZYWjZzaU9zQkJSM0tDWGdzYldHMUNjTjhIM2pwUQ?oc=5"
         }
@@ -4712,7 +4580,7 @@
           "primary": false,
           "published_at": "2026-11-05T14:47:44Z",
           "publisher": "ad-hoc-news.de",
-          "retrieved_at": "2026-11-09T05:54:44.584764Z",
+          "retrieved_at": "2026-11-09T06:18:30.989484Z",
           "title": "Accenture-Aktie: CIO-Studie zeigt KI-Wachstum mit Umsetzungsrisiken - ad-hoc-news.de",
           "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNRV9RLURGMzU1YjEwQUR1V2tyc1RCSnZqUU1NLXFiaHJURHpsYW45U0FkajFGRnA0Mnk3eTIxbFlEYllXTDdwNl8yekRHZ1psUmlTWG0xSldGeUc1OWxKV3FJdF90RTM2ZnlKOVBnX3ZQbTFIc0dBcnFGamxuZWRrQ2NqTDJ1WDJuM0tIeGFwN25UWWFtWlZBVEpsVEUzSy1mX3p1aEVnWjFIcXVZYURlcVFRUi1KekFNYTJRQUQyMzlpVEZUbExDNg?oc=5"
         }
@@ -4806,7 +4674,7 @@
           "primary": false,
           "published_at": "2026-11-06T12:31:31Z",
           "publisher": "ad-hoc-news.de",
-          "retrieved_at": "2026-11-09T05:54:44.584775Z",
+          "retrieved_at": "2026-11-09T06:18:30.989501Z",
           "title": "IBM-Aktie: Confluent baut Streamhouse für Echtzeit-KI aus - ad-hoc-news.de",
           "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPZlRFand0LWltU2VENUViR1gwcTN4N1EzeGJCNXYzSFVBUm1TVE5xVWI1RXdLaWxnNTBhenpTNUMxSDFUUjhfNE8xYUxOSW1CYnpELUkzVVNRS2tWUVlMbmRjNmpwcWd1Sl91OHVyWE90Wk5sNW9ndEd5X0UyWmdaMWlIYzRlbkRTQWZDVVBwbDdTUV9PNkYyNm1uZFFkQWhQLWM2b29JMmNzU2FrMVNmNjFHbW12THA1MnZBMg?oc=5"
         }
@@ -4900,7 +4768,7 @@
           "primary": false,
           "published_at": "2026-11-08T12:00:00Z",
           "publisher": "Decideo - Actualités sur le Big Data, Business Intelligence, Data Science, Data Mining",
-          "retrieved_at": "2026-11-09T05:54:44.987391Z",
+          "retrieved_at": "2026-11-09T06:18:31.329448Z",
           "title": "Confluent dévoile l’architecture Streamhouse pour donner à l’IA un accès au contexte métier en temps réel - Decideo - Actualités sur le Big Data, Business Intelligence, Data Science, Data Mining",
           "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOZnBzaHVvdGZDbDMtN0ZIdk5ZVnFtY2dGSE1oMUhtRWdyRjNZUmV4dTQzcEs1VVJpWTI5SElNZ3RnallWZlVZQXltNjJYQWxwM0lvam9NMTF4R3dWNTJUcGQ3NnZwYVFvamJhQnlqY3BjeEtEYVhYZ2VjdXpUMFhueTFQVjk4RG1TRElpX1VEMUljWUtYZGZVTXJTSHlkaDY0VVptWmk5RG8tYmpKMnR6ZE9XRDU5RjVucklOdzRPeW1LN1ZNRW04VTFUeVdlQWl2bGlSX2JhUQ?oc=5"
         }
@@ -4994,7 +4862,7 @@
           "primary": false,
           "published_at": "2026-11-06T13:52:09Z",
           "publisher": "RelationclientMag.fr",
-          "retrieved_at": "2026-11-09T05:54:44.987417Z",
+          "retrieved_at": "2026-11-09T06:18:31.329483Z",
           "title": "[Tribune] La valeur de l’IA passera par les agents IA spécialisés - RelationclientMag.fr",
           "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQcjJqY3BsN040NjMxMXdQTWJVQTl4VnkwWTYzaTFtNXNZTFpBektvMGdfNjE2UG1rVGtxd3kzbm4yXzZGMkJYX19jN2FOeU5nci1ORFYyZTVMUHNZZVdnbHRPdnIybXJHM2NCUGNlLXd6R1AyejgzNTRWVUJHTDFtZFBIenQ2dzBhWEI5UGlrRFZPbUplbm1YTTYwc3VUZ01FLTZlaGlvMHBUTjFIRUcyZ2FfZ21pRFBsUzBOcnlmZ0Y3QzJiYUVrR9IBzgFBVV95cUxNcnRtQ2t5REYzM3RqRjg1ZnRMTTQ0MVRxaElSVnB3dWItMllBS1ZWdVpmYkN1Zk9uT096a1pTQmYtenhySF80RzdxMDhKa2d2STh4ZVpEdkRWQXFEdnY4R2hLeFNaOHhyV1duVDFKdFNQYTh3aWQ1RnVvMUtyWW1LdTJGZ1JHU1FIcUlSdTNwa1lPZkJFS3FvbUQxQXpSX2U5SjZWT19XcExXYk1KOTFhN2xja0RZNFh3bHBGUml3OVQzTWVrTXY1WUF4QVdGQQ?oc=5"
         }
@@ -5088,7 +4956,7 @@
           "primary": false,
           "published_at": "2026-11-03T08:27:22Z",
           "publisher": "Abondance",
-          "retrieved_at": "2026-11-09T05:54:44.987431Z",
+          "retrieved_at": "2026-11-09T06:18:31.329505Z",
           "title": "Piloter son SEO depuis son IA : Sedestral connecte ses agents à Claude et ChatGPT grâce au MCP - Abondance",
           "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNRXZKMWNYSzBsbldxb3pRUHQzOFNLQzhBRS1GXy1ENUgzRVpRTUxVNkVYQ1ZaaW1rSDNSZHZyR0xlM0RPZzB5UnM5TWFibFE2WUx0azlic05ka0RYMkhLYzZ0WkhCcXl4QjZSdXU4VzNMUVJHUGpNa0d4V3NmelRTVUhYRHRRcDIxeGNvTjc5eGhoRDV6TVF4V2h3ejJfcjZC?oc=5"
         }
@@ -5182,7 +5050,7 @@
           "primary": false,
           "published_at": "2026-11-05T15:58:03Z",
           "publisher": "Unite.AI",
-          "retrieved_at": "2026-11-09T05:54:44.987442Z",
+          "retrieved_at": "2026-11-09T06:18:31.329523Z",
           "title": "L’application Edits d’Instagram pour Mac permet aux agents IA de créer des premiers montages - Unite.AI",
           "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxObUh2emhCVFZfbnhiU0dzdllHTkg2X05Ld1VReTVPNFg4ZXBOcERyUGFqanVwNzZzY2VJbEVjNzB1clY1Q1ZWNmVvVUh4ZUZ4b3FDUU5zNHNaS3RfTkpvNkMyYVFtZ1J6eHhocTFhZlZTSndSYjNEbnpCWjlRejRmX05xUXI1bUo3?oc=5"
         }
@@ -5276,7 +5144,7 @@
           "primary": false,
           "published_at": "2026-11-04T13:09:11Z",
           "publisher": "Brief IA",
-          "retrieved_at": "2026-11-09T05:54:44.987453Z",
+          "retrieved_at": "2026-11-09T06:18:31.329541Z",
           "title": "Plateformes d’agents IA : 7 solutions pour la collaboration en équipe - Brief IA",
           "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOYVFhdTU2czNQVm5qM0tUNi1fNkZ4ZzBta052RGkxaHA0OUJIUFVnN2Z0TmltdWlGdjJpSEYwU2s1VkxaZ2pLVk80RlNfbU9oTDlWUlIySEhZNDlzdHlDT2dvLWJLOEpoMkk2WWMzMk9fSzVyNlN1SWtyVUVqZUpsMFd0RU1tSlM1N090YmVvV1RRT3BfQmktSzlqTzN1eWM?oc=5"
         }
@@ -5370,7 +5238,7 @@
           "primary": false,
           "published_at": "2026-11-03T22:51:23Z",
           "publisher": "Pasquale Pillitteri",
-          "retrieved_at": "2026-11-09T05:54:44.987464Z",
+          "retrieved_at": "2026-11-09T06:18:31.329559Z",
           "title": "Automatisation sans code avec les agents IA, ce qu'on réussit vraiment à faire - Pasquale Pillitteri",
           "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFA3aFJDd3VLTUw2NXE5al9pbVBzekFaU0p0bEllcjFPMFdhQ0lBb1o2dXhMZ3RsU1k1SS0wVDhhVjZyZmNDa1FMRjZraXZIdWVKa2ZNVU85bElsUzJlSGUtQlp6S2pJZ21mc2E2VnZ2TEk3VzFBbmpFVVhRUUI?oc=5"
         }
@@ -5464,7 +5332,7 @@
           "primary": false,
           "published_at": "2026-11-04T08:00:00Z",
           "publisher": "IBM",
-          "retrieved_at": "2026-11-09T05:54:44.987476Z",
+          "retrieved_at": "2026-11-09T06:18:31.329577Z",
           "title": "Votre activité, toujours à jour. Streamhouse, l’architecture de données de l’ère de l’IA - IBM",
           "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNeTVNZmk4ZjJnbjdHNGVNRFQta1NkSzU0ZGVsajIyOTd2MThYbXhQYW5lUWpBWmdScVR4OEE4MkhidkxFa3NlQXRocnVKeGt5Zkxha09RejRqa2I4MURzTUhMWVpnYWFscDhuVW85Z1JNRThnX0JfZWl4eG14dURsRnpkN2JvZGpqc1VRRg?oc=5"
         }
@@ -5545,35 +5413,35 @@
       },
       "duplicate_of": null,
       "eligibility": null,
-      "event_id": "972a2116bf5e60c7424bec00",
+      "event_id": "74681d987c30f54e7579fa3f",
       "evidence": [
         {
-          "content_hash": "6f4ff7cfae99ca3261d1ef2c51e70e2b6c0eb54fb87d1a578709c19c49b46886",
+          "content_hash": "a1a65de321f771b7de54ca8914e9ff3c5c986e57501222414231641f5c909514",
           "discovery_language": "fr",
-          "excerpt": "IA : DeepSeek veut dépasser la limite des 5 agents supervisés par humain Cointribune",
+          "excerpt": "Agents IA : déploiements, risques et état 2026 lefilia.fr",
           "fresh": true,
-          "id": "939241f33d2cd3a557e0acdd",
+          "id": "3d83a34af0290c2b5c842f17",
           "language": "unknown",
           "language_basis": "insufficient_language_evidence",
           "primary": false,
-          "published_at": "2026-11-02T16:00:00Z",
-          "publisher": "Cointribune",
-          "retrieved_at": "2026-11-09T05:54:44.987488Z",
-          "title": "IA : DeepSeek veut dépasser la limite des 5 agents supervisés par humain - Cointribune",
-          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQenZJbTRLUlk1bmpfaml0d2YyUlFUdlQzcVptdFZoekhMc0tLdmdPYTE5STdGdVZZSmlJZzdWdzZmaWxCdVlOTTVQRmJCVTNNQ2lXRGdFOVN3cWlnQ20xUnBxZHliR1NQRkhzQng2anZmU2dXOXk3N2s2RUdQOXZpLTQyV1I5emJid2VRdQ?oc=5"
+          "published_at": "2026-11-02T08:00:00Z",
+          "publisher": "lefilia.fr",
+          "retrieved_at": "2026-11-09T06:18:31.329593Z",
+          "title": "Agents IA : déploiements, risques et état 2026 - lefilia.fr",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5hUkk0Q0FJTXdfc3pldmN6WHM2dzJjTVVwbGNIN0hMWmtvS05qNkZiZ0JRbFBTY2xVU054VXR6dDJ3U1h4a3Nidi04WmtUZXZhLXc?oc=5"
         }
       ],
       "historical_application_status": null,
       "historical_deadline": null,
-      "id": "4daac2743f0718cd205e0987",
+      "id": "d251085d7381d8f895901b52",
       "matched_topics": [],
       "missing_verification": [],
       "reasons": [
         "incomplete_uncertain_or_below_threshold_model_assessment"
       ],
       "technical_significance": null,
-      "title": "IA : DeepSeek veut dépasser la limite des 5 agents supervisés par humain - Cointribune",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQenZJbTRLUlk1bmpfaml0d2YyUlFUdlQzcVptdFZoekhMc0tLdmdPYTE5STdGdVZZSmlJZzdWdzZmaWxCdVlOTTVQRmJCVTNNQ2lXRGdFOVN3cWlnQ20xUnBxZHliR1NQRkhzQng2anZmU2dXOXk3N2s2RUdQOXZpLTQyV1I5emJid2VRdQ?oc=5"
+      "title": "Agents IA : déploiements, risques et état 2026 - lefilia.fr",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5hUkk0Q0FJTXdfc3pldmN6WHM2dzJjTVVwbGNIN0hMWmtvS05qNkZiZ0JRbFBTY2xVU054VXR6dDJ3U1h4a3Nidi04WmtUZXZhLXc?oc=5"
     },
     {
       "application_status": null,
@@ -5639,35 +5507,35 @@
       },
       "duplicate_of": null,
       "eligibility": null,
-      "event_id": "c30be3bff9ffa4fb799c41e3",
+      "event_id": "972a2116bf5e60c7424bec00",
       "evidence": [
         {
-          "content_hash": "1eb5abb3e727fa26b2b5a4b90fd76bf12de6a32ec0a075253ec788849a0d65e6",
+          "content_hash": "6f4ff7cfae99ca3261d1ef2c51e70e2b6c0eb54fb87d1a578709c19c49b46886",
           "discovery_language": "fr",
-          "excerpt": "20+ créateurs d'agents IA: Microsoft, CrewAI, LangGraph et plus encore AIMultiple",
+          "excerpt": "IA : DeepSeek veut dépasser la limite des 5 agents supervisés par humain Cointribune",
           "fresh": true,
-          "id": "563f9fdfe1d40d84963dfa82",
+          "id": "939241f33d2cd3a557e0acdd",
           "language": "unknown",
           "language_basis": "insufficient_language_evidence",
           "primary": false,
-          "published_at": "2026-11-02T08:00:00Z",
-          "publisher": "AIMultiple",
-          "retrieved_at": "2026-11-09T05:54:44.987498Z",
-          "title": "20+ créateurs d'agents IA: Microsoft, CrewAI, LangGraph et plus encore - AIMultiple",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5rbnlhcFF3bFdBWTN6d0RSc0pJd0dKb0tVcU80anUxVl85RkhoZWp3M0l4dHpmNlU0S1ZQWlJyT09yZWR6MUdBRE5xWkFuZDlGd0E5UDF3?oc=5"
+          "published_at": "2026-11-02T16:00:00Z",
+          "publisher": "Cointribune",
+          "retrieved_at": "2026-11-09T06:18:31.329634Z",
+          "title": "IA : DeepSeek veut dépasser la limite des 5 agents supervisés par humain - Cointribune",
+          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQenZJbTRLUlk1bmpfaml0d2YyUlFUdlQzcVptdFZoekhMc0tLdmdPYTE5STdGdVZZSmlJZzdWdzZmaWxCdVlOTTVQRmJCVTNNQ2lXRGdFOVN3cWlnQ20xUnBxZHliR1NQRkhzQng2anZmU2dXOXk3N2s2RUdQOXZpLTQyV1I5emJid2VRdQ?oc=5"
         }
       ],
       "historical_application_status": null,
       "historical_deadline": null,
-      "id": "3a2dcf34efe0e071feee7d93",
+      "id": "c437711858612e04f59372cc",
       "matched_topics": [],
       "missing_verification": [],
       "reasons": [
         "incomplete_uncertain_or_below_threshold_model_assessment"
       ],
       "technical_significance": null,
-      "title": "20+ créateurs d'agents IA: Microsoft, CrewAI, LangGraph et plus encore - AIMultiple",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5rbnlhcFF3bFdBWTN6d0RSc0pJd0dKb0tVcU80anUxVl85RkhoZWp3M0l4dHpmNlU0S1ZQWlJyT09yZWR6MUdBRE5xWkFuZDlGd0E5UDF3?oc=5"
+      "title": "IA : DeepSeek veut dépasser la limite des 5 agents supervisés par humain - Cointribune",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQenZJbTRLUlk1bmpfaml0d2YyUlFUdlQzcVptdFZoekhMc0tLdmdPYTE5STdGdVZZSmlJZzdWdzZmaWxCdVlOTTVQRmJCVTNNQ2lXRGdFOVN3cWlnQ20xUnBxZHliR1NQRkhzQng2anZmU2dXOXk3N2s2RUdQOXZpLTQyV1I5emJid2VRdQ?oc=5"
     },
     {
       "application_status": null,
@@ -5678,7 +5546,7 @@
       "decisions": {
         "claim-support": {
           "cache_hit": false,
-          "charged_tokens": 711,
+          "charged_tokens": 690,
           "decision": {
             "evidence_ids": [
               "8ca8838ce1154d4c7e4a022b"
@@ -5697,19 +5565,19 @@
             "cost": null,
             "family": "systemone",
             "format": "systemone_choices",
-            "input_tokens": 711,
-            "latency_ms": 543,
+            "input_tokens": 690,
+            "latency_ms": 552,
             "model": "alias-clef",
             "model_identity_verified": true,
             "output_tokens": 0,
             "response_model": "alias-clef",
             "status": "success",
-            "tokens": 711
+            "tokens": 690
           }
         },
         "hfs": {
           "cache_hit": false,
-          "charged_tokens": 953,
+          "charged_tokens": 932,
           "decision": {
             "evidence_ids": [
               "8ca8838ce1154d4c7e4a022b"
@@ -5728,19 +5596,19 @@
             "cost": null,
             "family": "systemone",
             "format": "systemone_choices",
-            "input_tokens": 953,
-            "latency_ms": 887,
+            "input_tokens": 932,
+            "latency_ms": 555,
             "model": "alias-clef",
             "model_identity_verified": true,
             "output_tokens": 0,
             "response_model": "alias-clef",
             "status": "success",
-            "tokens": 953
+            "tokens": 932
           }
         },
         "importance": {
           "cache_hit": false,
-          "charged_tokens": 720,
+          "charged_tokens": 699,
           "decision": {
             "evidence_ids": [
               "8ca8838ce1154d4c7e4a022b"
@@ -5759,19 +5627,19 @@
             "cost": null,
             "family": "systemone",
             "format": "systemone_choices",
-            "input_tokens": 720,
-            "latency_ms": 821,
+            "input_tokens": 699,
+            "latency_ms": 511,
             "model": "alias-clef",
             "model_identity_verified": true,
             "output_tokens": 0,
             "response_model": "alias-clef",
             "status": "success",
-            "tokens": 720
+            "tokens": 699
           }
         },
         "relevance": {
           "cache_hit": false,
-          "charged_tokens": 698,
+          "charged_tokens": 677,
           "decision": {
             "evidence_ids": [
               "8ca8838ce1154d4c7e4a022b"
@@ -5790,19 +5658,19 @@
             "cost": null,
             "family": "systemone",
             "format": "systemone_choices",
-            "input_tokens": 698,
-            "latency_ms": 508,
+            "input_tokens": 677,
+            "latency_ms": 413,
             "model": "alias-clef",
             "model_identity_verified": true,
             "output_tokens": 0,
             "response_model": "alias-clef",
             "status": "success",
-            "tokens": 698
+            "tokens": 677
           }
         },
         "same-story": {
           "cache_hit": false,
-          "charged_tokens": 955,
+          "charged_tokens": 914,
           "decision": {
             "evidence_ids": [
               "8ca8838ce1154d4c7e4a022b"
@@ -5810,7 +5678,7 @@
             "facts": 0.5,
             "hype": 0.5,
             "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
-            "related_event_id": "08fe807c81e82111b4f9b33a",
+            "related_event_id": null,
             "score": 0.9,
             "signal": 0.5,
             "verdict": "different"
@@ -5821,19 +5689,19 @@
             "cost": null,
             "family": "systemone",
             "format": "systemone_choices",
-            "input_tokens": 955,
-            "latency_ms": 590,
+            "input_tokens": 914,
+            "latency_ms": 475,
             "model": "alias-clef",
             "model_identity_verified": true,
             "output_tokens": 0,
             "response_model": "alias-clef",
             "status": "success",
-            "tokens": 955
+            "tokens": 914
           }
         },
         "worth-attention": {
           "cache_hit": false,
-          "charged_tokens": 702,
+          "charged_tokens": 681,
           "decision": {
             "evidence_ids": [
               "8ca8838ce1154d4c7e4a022b"
@@ -5852,14 +5720,14 @@
             "cost": null,
             "family": "systemone",
             "format": "systemone_choices",
-            "input_tokens": 702,
-            "latency_ms": 799,
+            "input_tokens": 681,
+            "latency_ms": 532,
             "model": "alias-clef",
             "model_identity_verified": true,
             "output_tokens": 0,
             "response_model": "alias-clef",
             "status": "success",
-            "tokens": 702
+            "tokens": 681
           }
         }
       },
@@ -5878,7 +5746,7 @@
           "primary": false,
           "published_at": "2026-11-04T07:23:00Z",
           "publisher": "Decideo - Actualités sur le Big Data, Business Intelligence, Data Science, Data Mining",
-          "retrieved_at": "2026-11-09T05:54:44.987511Z",
+          "retrieved_at": "2026-11-09T06:18:31.329658Z",
           "title": "Snowflake présente de nouvelles fonctionnalités pour faciliter le déploiement des agents d’IA en production - Decideo - Actualités sur le Big Data, Business Intelligence, Data Science, Data Mining",
           "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNdUo5SW1KMGp3ZTRGWG1fU3pOU1h5Q2RWMl9YQnZuSUhMOEQ1UVFIYXl1Sk1iX2hvLUotOUpXc2x4UUhrZ0FFUU02RUp0RnRsMTEwWE85QnNKY29WeGpkVDN1Z1dIRk84Z29DLWxUV21ibnVlS0ozN2VtelFQMDY4cG5fbjdHWFl3TjVPQmNWaGxleW01RGlYRWJkWElEWXAtSzNUWUtSeGpRanN5d1hpN295NVRfSTBaSWlZZ0RoMmRKS1lOQVZoVnlVU0pYX3BDNk5aNjVGMHVGdw?oc=5"
         }
@@ -5972,7 +5840,7 @@
           "primary": false,
           "published_at": "2026-11-05T08:00:00Z",
           "publisher": "Pasquale Pillitteri",
-          "retrieved_at": "2026-11-09T05:54:44.987522Z",
+          "retrieved_at": "2026-11-09T06:18:31.329676Z",
           "title": "Mistral Studio lance ses agents gérés et ses apps on-premises - Pasquale Pillitteri",
           "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNVFdhZjgzdTBCZW9wRWNxNkVXMTBZLTFHMVJ0T3pPSlZGYWhFSGJVWk5zUEhFb2NKWEpZNFpjcDNoN2UzZ3BGcGFjbU1yYW15TXc1NVZ4bnZCQXhkSmdhMW1iOURfQWlxb3Mtb0t1eUd6eFl6WWxSZkowOGxfN05FUFQ3RVR4SzZ5dHVSV04yT1BJZw?oc=5"
         }
@@ -6066,7 +5934,7 @@
           "primary": false,
           "published_at": "2026-11-02T13:01:20Z",
           "publisher": "Brief IA",
-          "retrieved_at": "2026-11-09T05:54:44.987532Z",
+          "retrieved_at": "2026-11-09T06:18:31.329692Z",
           "title": "Mémoire des agents IA : trois approches pour 2026 - Brief IA",
           "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9fT3NhOU9wb04xeGtGeFA4Rmdjc1dMQkpaM2k5SzlWR1hwa2gza0ZuMGN4MERCaXA2VTI4RWRNRjRGbVpYUkQyaHZYNk5vQWpxSHRwaWozbkpPeWl1cUFITU5ORThQeG9TeE5TdUNn?oc=5"
         }
@@ -6160,7 +6028,7 @@
           "primary": false,
           "published_at": "2026-11-04T11:44:50Z",
           "publisher": "Brief IA",
-          "retrieved_at": "2026-11-09T05:54:44.987544Z",
+          "retrieved_at": "2026-11-09T06:18:31.329709Z",
           "title": "Analyse agentique : 48 % d’insights utiles, 60 % misent sur la gouvernance - Brief IA",
           "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPeTAtS2czUnpxeEswa3lrRFlHSEFOTWFtU24yc09Yd1hWdzdmM2FCTm1SS0FVQVFDaFJ2Mm9GaHZMQURod2ZZeWJYaWlqcFl2R0NicWQzb3E0eW1CbHpLd1pfb295YmxobHFiN21ZQ2YzcDh6QzVlNThreEp2M1V4U003a1pOalNsWVZ4ZTNVLXBpRHVFdWxuVThsWkdGbXM?oc=5"
         }
@@ -6254,7 +6122,7 @@
           "primary": false,
           "published_at": "2026-11-04T13:34:16Z",
           "publisher": "Pasquale Pillitteri",
-          "retrieved_at": "2026-11-09T05:54:44.987554Z",
+          "retrieved_at": "2026-11-09T06:18:31.329725Z",
           "title": "OpenAI dévoile Pando, le backend Git construit avec Codex en 10 semaines - Pasquale Pillitteri",
           "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNTUVKVUZBQkhTQkUwV250WlZKX3dMWDhaZEQ1Q1ZXUHByT1hFLTlocGdfcjVab0FrcmFIbGpMbVFzbl9ZbE1hSEo0N0dnTW00VWloTTFfN1Y3bGhqUEtJQVZUdHNHT1h5MlpraXNJcF8yRFpBWFBCRmhoR29WdFY0MjdGQXlvY0EteGc?oc=5"
         }
@@ -6348,7 +6216,7 @@
           "primary": false,
           "published_at": "2026-11-06T12:12:30Z",
           "publisher": "Solutions-Numeriques",
-          "retrieved_at": "2026-11-09T05:54:44.987564Z",
+          "retrieved_at": "2026-11-09T06:18:31.329741Z",
           "title": "L’IA peut-elle briser la dépendance des entreprises à leurs éditeurs logiciels ? - Solutions-Numeriques",
           "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOdTFzcXF2XzdmemdfbDJ0ZGd5a1N3WmNKbWtOVTdSbHBjaW5NcjRFVU42VzJUOU50VDlaSjFFNzFKMzhSV3hpaDdUUXJadFZBYmtOOGJqdnk1Q3pWNHp1THZTbUtVQm1RT2JsVEcxZzNhRURxOW00NDdEcjVvNmJRSTlQMGdZaWl1Rm85N011dklmakx4VE55WC1ES1ZwQVFCZjBXcDkzOGVpSl9aX0NhUXpWbEFEQQ?oc=5"
         }
@@ -6392,7 +6260,7 @@
         },
         "importance": {
           "cache_hit": false,
-          "charged_tokens": 659,
+          "charged_tokens": 665,
           "decision": {
             "evidence_ids": [
               "c7c4cc6480dfd9e032b1320d"
@@ -6411,19 +6279,19 @@
             "cost": null,
             "family": "systemone",
             "format": "systemone_choices",
-            "input_tokens": 659,
-            "latency_ms": 561,
+            "input_tokens": 665,
+            "latency_ms": 421,
             "model": "alias-clef",
             "model_identity_verified": true,
             "output_tokens": 0,
             "response_model": "alias-clef",
             "status": "success",
-            "tokens": 659
+            "tokens": 665
           }
         },
         "relevance": {
           "cache_hit": false,
-          "charged_tokens": 637,
+          "charged_tokens": 643,
           "decision": {
             "evidence_ids": [
               "c7c4cc6480dfd9e032b1320d"
@@ -6442,19 +6310,19 @@
             "cost": null,
             "family": "systemone",
             "format": "systemone_choices",
-            "input_tokens": 637,
-            "latency_ms": 737,
+            "input_tokens": 643,
+            "latency_ms": 429,
             "model": "alias-clef",
             "model_identity_verified": true,
             "output_tokens": 0,
             "response_model": "alias-clef",
             "status": "success",
-            "tokens": 637
+            "tokens": 643
           }
         },
         "same-story": {
           "cache_hit": false,
-          "charged_tokens": 880,
+          "charged_tokens": 892,
           "decision": {
             "evidence_ids": [
               "c7c4cc6480dfd9e032b1320d"
@@ -6462,7 +6330,7 @@
             "facts": 0.5,
             "hype": 0.5,
             "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
-            "related_event_id": null,
+            "related_event_id": "08fe807c81e82111b4f9b33a",
             "score": 0.9,
             "signal": 0.5,
             "verdict": "different"
@@ -6473,19 +6341,19 @@
             "cost": null,
             "family": "systemone",
             "format": "systemone_choices",
-            "input_tokens": 880,
-            "latency_ms": 526,
+            "input_tokens": 892,
+            "latency_ms": 470,
             "model": "alias-clef",
             "model_identity_verified": true,
             "output_tokens": 0,
             "response_model": "alias-clef",
             "status": "success",
-            "tokens": 880
+            "tokens": 892
           }
         },
         "worth-attention": {
           "cache_hit": false,
-          "charged_tokens": 641,
+          "charged_tokens": 647,
           "decision": {
             "evidence_ids": [
               "c7c4cc6480dfd9e032b1320d"
@@ -6504,14 +6372,14 @@
             "cost": null,
             "family": "systemone",
             "format": "systemone_choices",
-            "input_tokens": 641,
-            "latency_ms": 527,
+            "input_tokens": 647,
+            "latency_ms": 594,
             "model": "alias-clef",
             "model_identity_verified": true,
             "output_tokens": 0,
             "response_model": "alias-clef",
             "status": "success",
-            "tokens": 641
+            "tokens": 647
           }
         }
       },
@@ -6530,7 +6398,7 @@
           "primary": false,
           "published_at": "2026-11-06T14:44:36Z",
           "publisher": "BDM",
-          "retrieved_at": "2026-11-09T05:54:44.987575Z",
+          "retrieved_at": "2026-11-09T06:18:31.329758Z",
           "title": "Perplexity lance Teammates, des agents IA pour les « tâches de longue haleine » - BDM",
           "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOYThmUk1LQ0ZKeWpsLUF3RUFuRmswOHdOaVZhWnJ5YmoxVjZQaUI3NzlHamJ6VVhxU3VUREljUUp2VnBwdGN6OVp1aGF0LTUzUlpKbTB1UlZKbTNmdXlJWi1kaFA3OXB5ajEtSEtrRWF2RDJ6djd3N2xnalpwZW1JSlNoSWNsWEI0U2F2WjlhcEx4QkZvUE40?oc=5"
         }
@@ -6611,35 +6479,35 @@
       },
       "duplicate_of": null,
       "eligibility": null,
-      "event_id": "ec9f8c6ebd291c29542eba62",
+      "event_id": "db802270937b915e00f5215b",
       "evidence": [
         {
-          "content_hash": "8ca0fbb99ae6fb6af5b972d4cc796aa352f1b4f31c42bcd1d178b062cd40088a",
+          "content_hash": "88ddbe080c25f8e2724fcccf733f0079fa826949158d7e15a21213be66e625f9",
           "discovery_language": "fr",
-          "excerpt": "Pourquoi Meta rachète la start-up Conductor et ses équipes d’agents IA L'Usine Digitale",
+          "excerpt": "Shadow AI agentique : au tour des agents IA d’échapper au contrôle des entreprises incyber news",
           "fresh": true,
-          "id": "ebf1c944b6f341e7d577a39d",
+          "id": "5b14c554a6c121d1018a7eb3",
           "language": "unknown",
           "language_basis": "insufficient_language_evidence",
           "primary": false,
-          "published_at": "2026-11-06T14:30:00Z",
-          "publisher": "L'Usine Digitale",
-          "retrieved_at": "2026-11-09T05:54:44.987588Z",
-          "title": "Pourquoi Meta rachète la start-up Conductor et ses équipes d’agents IA - L'Usine Digitale",
-          "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQUGRfa1BkQnpGMEJVQ1lxbVBHWUtkdDNiWmV3bWFZTTVwaklKZGlqcUlqOFB0dnRKUVdqNUJJUkxlZmpuaExtZnBpd3o2LVZRLUM5RkgzMU05TkNEMmoycUxOYzNPM3JDakxVWWlKQXZGTWFJRkpycTJfYkdkR2Q2RUJZbE9BMW1KOE5lOGNER2NfQW13VVFFeThzUTc5cXVrQ2owREp1WlBuazJXWDFnd2dWSjhkUF9zWkcwalNLT2Z5V1VsVVN4aXZtek1vTDNMb1BKMFk1UksxeFJBaEE?oc=5"
+          "published_at": "2026-11-05T07:25:25Z",
+          "publisher": "incyber news",
+          "retrieved_at": "2026-11-09T06:18:31.329776Z",
+          "title": "Shadow AI agentique : au tour des agents IA d’échapper au contrôle des entreprises - incyber news",
+          "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE11X3FXZDRLajFRTjg2QmpXMU9jOXJFalhsdV93dldkNlhxSkM3bVpoMFI0bXM4ZnV4YW44RXhudUVMUQ?oc=5"
         }
       ],
       "historical_application_status": null,
       "historical_deadline": null,
-      "id": "3fd168ace6e13d55d1c08f84",
+      "id": "bb8a9dcad9da3a545923f1d5",
       "matched_topics": [],
       "missing_verification": [],
       "reasons": [
         "incomplete_uncertain_or_below_threshold_model_assessment"
       ],
       "technical_significance": null,
-      "title": "Pourquoi Meta rachète la start-up Conductor et ses équipes d’agents IA - L'Usine Digitale",
-      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQUGRfa1BkQnpGMEJVQ1lxbVBHWUtkdDNiWmV3bWFZTTVwaklKZGlqcUlqOFB0dnRKUVdqNUJJUkxlZmpuaExtZnBpd3o2LVZRLUM5RkgzMU05TkNEMmoycUxOYzNPM3JDakxVWWlKQXZGTWFJRkpycTJfYkdkR2Q2RUJZbE9BMW1KOE5lOGNER2NfQW13VVFFeThzUTc5cXVrQ2owREp1WlBuazJXWDFnd2dWSjhkUF9zWkcwalNLT2Z5V1VsVVN4aXZtek1vTDNMb1BKMFk1UksxeFJBaEE?oc=5"
+      "title": "Shadow AI agentique : au tour des agents IA d’échapper au contrôle des entreprises - incyber news",
+      "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE11X3FXZDRLajFRTjg2QmpXMU9jOXJFalhsdV93dldkNlhxSkM3bVpoMFI0bXM4ZnV4YW44RXhudUVMUQ?oc=5"
     },
     {
       "application_status": null,
@@ -6705,35 +6573,35 @@
       },
       "duplicate_of": null,
       "eligibility": null,
-      "event_id": "db802270937b915e00f5215b",
+      "event_id": "9e906744923dda57e236385f",
       "evidence": [
         {
-          "content_hash": "88ddbe080c25f8e2724fcccf733f0079fa826949158d7e15a21213be66e625f9",
+          "content_hash": "6271290d34d9cf546497fd9cbb937b7a7f98c2731cf1afcc7eea2b749057fdea",
           "discovery_language": "fr",
-          "excerpt": "Shadow AI agentique : au tour des agents IA d’échapper au contrôle des entreprises incyber news",
+          "excerpt": "Recherche Lakebase : développez la récupération IA pour les agents avec Lakebase Postgres | Recherche hybride + Intégrations automatisées Databricks",
           "fresh": true,
-          "id": "5b14c554a6c121d1018a7eb3",
-          "language": "unknown",
-          "language_basis": "insufficient_language_evidence",
+          "id": "d52e311525a56371ea8b44da",
+          "language": "fr",
+          "language_basis": "lexical_heuristic_requires_review",
           "primary": false,
-          "published_at": "2026-11-05T07:25:25Z",
-          "publisher": "incyber news",
-          "retrieved_at": "2026-11-09T05:54:44.987597Z",
-          "title": "Shadow AI agentique : au tour des agents IA d’échapper au contrôle des entreprises - incyber news",
-          "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE11X3FXZDRLajFRTjg2QmpXMU9jOXJFalhsdV93dldkNlhxSkM3bVpoMFI0bXM4ZnV4YW44RXhudUVMUQ?oc=5"
+          "published_at": "2026-11-08T01:38:40Z",
+          "publisher": "Databricks",
+          "retrieved_at": "2026-11-09T06:18:31.329797Z",
+          "title": "Recherche Lakebase : développez la récupération IA pour les agents avec Lakebase Postgres | Recherche hybride + Intégrations automatisées - Databricks",
+          "url": "https://news.google.com/rss/articles/CBMiywNBVV95cUxQVU5iR2k4UXRLZldib19CM2R3N1k4cHdla3RpeUcxZXQ3M045TkFsam5DaWMzLTZ1dF9KT1J1NlJNMzczcGVkZ2RJeWZtbXp3UUg2My1iUHNtd0JyQ3RrNU1NSmFEQkh5LVlpT25CRjh2SmZ5LUdVV0Q0SDhYQXpoanY0Sm5CYkttSmp1WXhHX0kxbkFtbk5sQWlYMEx2Z0N3SkhwTXcxUjlHQUMzUVU2THRiNXVOdE9wcEpDc1piNlBrZXRVNGtybnJwckZqdlVJYlFNV2lWa0twb0NYRzdPRFBFLU1BQkVFbk9jY0FIbGo5TGhTWXdFVFgzZ1FRVDNUeVVGWHRFZ1AxMTh6U3pCTnFqZlhpLW1GZDB3ZGJ1M1RBZENxTzVvWGZ0UUFYbElhcHJaMmtwX3hfM3A1ZUJYODE2RnphYXJuc05ad1BBVVBoSTRlbDFudG4zaUk4MG12N1ViWHdFaERGYkdXZjRiUnlpZk8xWG51WUpINmI3VVVSTlVLYUluaW94UFhMbXF5VkxpalBoVzBhRHd4UHlNV2pJT1ZpX1otNk5LcDZjeTZNWkpOSFF0ZHJKbEZwUUVWX1NFOUpGYllIWnM?oc=5"
         }
       ],
       "historical_application_status": null,
       "historical_deadline": null,
-      "id": "cb09e111be493ea122b47253",
+      "id": "b40c70b8da675a3084591a18",
       "matched_topics": [],
       "missing_verification": [],
       "reasons": [
         "incomplete_uncertain_or_below_threshold_model_assessment"
       ],
       "technical_significance": null,
-      "title": "Shadow AI agentique : au tour des agents IA d’échapper au contrôle des entreprises - incyber news",
-      "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE11X3FXZDRLajFRTjg2QmpXMU9jOXJFalhsdV93dldkNlhxSkM3bVpoMFI0bXM4ZnV4YW44RXhudUVMUQ?oc=5"
+      "title": "Recherche Lakebase : développez la récupération IA pour les agents avec Lakebase Postgres | Recherche hybride + Intégrations automatisées - Databricks",
+      "url": "https://news.google.com/rss/articles/CBMiywNBVV95cUxQVU5iR2k4UXRLZldib19CM2R3N1k4cHdla3RpeUcxZXQ3M045TkFsam5DaWMzLTZ1dF9KT1J1NlJNMzczcGVkZ2RJeWZtbXp3UUg2My1iUHNtd0JyQ3RrNU1NSmFEQkh5LVlpT25CRjh2SmZ5LUdVV0Q0SDhYQXpoanY0Sm5CYkttSmp1WXhHX0kxbkFtbk5sQWlYMEx2Z0N3SkhwTXcxUjlHQUMzUVU2THRiNXVOdE9wcEpDc1piNlBrZXRVNGtybnJwckZqdlVJYlFNV2lWa0twb0NYRzdPRFBFLU1BQkVFbk9jY0FIbGo5TGhTWXdFVFgzZ1FRVDNUeVVGWHRFZ1AxMTh6U3pCTnFqZlhpLW1GZDB3ZGJ1M1RBZENxTzVvWGZ0UUFYbElhcHJaMmtwX3hfM3A1ZUJYODE2RnphYXJuc05ad1BBVVBoSTRlbDFudG4zaUk4MG12N1ViWHdFaERGYkdXZjRiUnlpZk8xWG51WUpINmI3VVVSTlVLYUluaW94UFhMbXF5VkxpalBoVzBhRHd4UHlNV2pJT1ZpX1otNk5LcDZjeTZNWkpOSFF0ZHJKbEZwUUVWX1NFOUpGYllIWnM?oc=5"
     },
     {
       "application_status": null,
@@ -6812,7 +6680,7 @@
           "primary": false,
           "published_at": "2026-11-02T09:17:12Z",
           "publisher": "Pasquale Pillitteri",
-          "retrieved_at": "2026-11-09T05:54:44.987608Z",
+          "retrieved_at": "2026-11-09T06:18:31.329814Z",
           "title": "Memdoor débarque, cinq Qwen3.8-27B font jeu égal avec Fable 5 sur LiveCodeBench Hard - Pasquale Pillitteri",
           "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOemtyT2hqanBoLTJJdTFSSFU5bFhjZUp0alVrZjdldWxEdEpoaDNQRkxZckZXSFQ2cHVIdlNDbnJoZFkwdjJfOThjdlNaNkNZbE1Sb0Jyd0RfVjBoejdOekNLRjFsdlplYVhpYzAtSzJEdmRGNFEtMmVETTBSTWF6NFExZFVscEgxVkFiV29QZUdtR2gxaEJEWV9nam8?oc=5"
         }
@@ -6893,100 +6761,6 @@
       },
       "duplicate_of": null,
       "eligibility": null,
-      "event_id": "9e906744923dda57e236385f",
-      "evidence": [
-        {
-          "content_hash": "6271290d34d9cf546497fd9cbb937b7a7f98c2731cf1afcc7eea2b749057fdea",
-          "discovery_language": "fr",
-          "excerpt": "Recherche Lakebase : développez la récupération IA pour les agents avec Lakebase Postgres | Recherche hybride + Intégrations automatisées Databricks",
-          "fresh": true,
-          "id": "d52e311525a56371ea8b44da",
-          "language": "fr",
-          "language_basis": "lexical_heuristic_requires_review",
-          "primary": false,
-          "published_at": "2026-11-08T01:38:40Z",
-          "publisher": "Databricks",
-          "retrieved_at": "2026-11-09T05:54:44.987621Z",
-          "title": "Recherche Lakebase : développez la récupération IA pour les agents avec Lakebase Postgres | Recherche hybride + Intégrations automatisées - Databricks",
-          "url": "https://news.google.com/rss/articles/CBMiywNBVV95cUxQVU5iR2k4UXRLZldib19CM2R3N1k4cHdla3RpeUcxZXQ3M045TkFsam5DaWMzLTZ1dF9KT1J1NlJNMzczcGVkZ2RJeWZtbXp3UUg2My1iUHNtd0JyQ3RrNU1NSmFEQkh5LVlpT25CRjh2SmZ5LUdVV0Q0SDhYQXpoanY0Sm5CYkttSmp1WXhHX0kxbkFtbk5sQWlYMEx2Z0N3SkhwTXcxUjlHQUMzUVU2THRiNXVOdE9wcEpDc1piNlBrZXRVNGtybnJwckZqdlVJYlFNV2lWa0twb0NYRzdPRFBFLU1BQkVFbk9jY0FIbGo5TGhTWXdFVFgzZ1FRVDNUeVVGWHRFZ1AxMTh6U3pCTnFqZlhpLW1GZDB3ZGJ1M1RBZENxTzVvWGZ0UUFYbElhcHJaMmtwX3hfM3A1ZUJYODE2RnphYXJuc05ad1BBVVBoSTRlbDFudG4zaUk4MG12N1ViWHdFaERGYkdXZjRiUnlpZk8xWG51WUpINmI3VVVSTlVLYUluaW94UFhMbXF5VkxpalBoVzBhRHd4UHlNV2pJT1ZpX1otNk5LcDZjeTZNWkpOSFF0ZHJKbEZwUUVWX1NFOUpGYllIWnM?oc=5"
-        }
-      ],
-      "historical_application_status": null,
-      "historical_deadline": null,
-      "id": "9ae8c9cd3c127817a4a7d955",
-      "matched_topics": [],
-      "missing_verification": [],
-      "reasons": [
-        "incomplete_uncertain_or_below_threshold_model_assessment"
-      ],
-      "technical_significance": null,
-      "title": "Recherche Lakebase : développez la récupération IA pour les agents avec Lakebase Postgres | Recherche hybride + Intégrations automatisées - Databricks",
-      "url": "https://news.google.com/rss/articles/CBMiywNBVV95cUxQVU5iR2k4UXRLZldib19CM2R3N1k4cHdla3RpeUcxZXQ3M045TkFsam5DaWMzLTZ1dF9KT1J1NlJNMzczcGVkZ2RJeWZtbXp3UUg2My1iUHNtd0JyQ3RrNU1NSmFEQkh5LVlpT25CRjh2SmZ5LUdVV0Q0SDhYQXpoanY0Sm5CYkttSmp1WXhHX0kxbkFtbk5sQWlYMEx2Z0N3SkhwTXcxUjlHQUMzUVU2THRiNXVOdE9wcEpDc1piNlBrZXRVNGtybnJwckZqdlVJYlFNV2lWa0twb0NYRzdPRFBFLU1BQkVFbk9jY0FIbGo5TGhTWXdFVFgzZ1FRVDNUeVVGWHRFZ1AxMTh6U3pCTnFqZlhpLW1GZDB3ZGJ1M1RBZENxTzVvWGZ0UUFYbElhcHJaMmtwX3hfM3A1ZUJYODE2RnphYXJuc05ad1BBVVBoSTRlbDFudG4zaUk4MG12N1ViWHdFaERGYkdXZjRiUnlpZk8xWG51WUpINmI3VVVSTlVLYUluaW94UFhMbXF5VkxpalBoVzBhRHd4UHlNV2pJT1ZpX1otNk5LcDZjeTZNWkpOSFF0ZHJKbEZwUUVWX1NFOUpGYllIWnM?oc=5"
-    },
-    {
-      "application_status": null,
-      "attention": 0.25,
-      "classification": "UNASSESSED",
-      "confirmed": false,
-      "deadline": null,
-      "decisions": {
-        "claim-support": {
-          "cache_hit": false,
-          "charged_tokens": 0,
-          "decision": null,
-          "provider": {
-            "model": "alias-clef",
-            "status": "budget_limit"
-          }
-        },
-        "hfs": {
-          "cache_hit": false,
-          "charged_tokens": 0,
-          "decision": null,
-          "provider": {
-            "model": "alias-clef",
-            "status": "budget_limit"
-          }
-        },
-        "importance": {
-          "cache_hit": false,
-          "charged_tokens": 0,
-          "decision": null,
-          "provider": {
-            "model": "alias-clef",
-            "status": "budget_limit"
-          }
-        },
-        "relevance": {
-          "cache_hit": false,
-          "charged_tokens": 0,
-          "decision": null,
-          "provider": {
-            "model": "alias-clef",
-            "status": "budget_limit"
-          }
-        },
-        "same-story": {
-          "cache_hit": false,
-          "charged_tokens": 0,
-          "decision": null,
-          "provider": {
-            "model": "alias-clef",
-            "status": "budget_limit"
-          }
-        },
-        "worth-attention": {
-          "cache_hit": false,
-          "charged_tokens": 0,
-          "decision": null,
-          "provider": {
-            "model": "alias-clef",
-            "status": "budget_limit"
-          }
-        }
-      },
-      "duplicate_of": null,
-      "eligibility": null,
       "event_id": "336c7100960d9e587afef491",
       "evidence": [
         {
@@ -7000,14 +6774,14 @@
           "primary": false,
           "published_at": "2026-11-04T08:21:00Z",
           "publisher": "MacGeneration",
-          "retrieved_at": "2026-11-09T05:54:44.987632Z",
+          "retrieved_at": "2026-11-09T06:18:31.329831Z",
           "title": "Xcode 27.3 ajoute GitHub Copilot à sa liste d’agents IA - MacGeneration",
           "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQS0p5UXlKOWliTXc4TFJKSFV3cDVYWDZDTkU5WUxxWlVRZHowR2I0UUU0Rkl0Zkt4bHlhSVJ3SF9sTXBnVmZtN2l3VTgxUHhmTHBPWGMwT2dkWXYwQUVnR1pKZVBDSDJHT0F1cXlfZG16V1cwMDkzTDFaQUswWkhMRVJPdHBuZDhwUFlCekRlcjRqWFBSN1ZvRk02aGZDUjllQVM4S21VTjBVYkM2SkhQeEhR?oc=5"
         }
       ],
       "historical_application_status": null,
       "historical_deadline": null,
-      "id": "38a5f0da29d5f8ae041cc03a",
+      "id": "e5a7509929800a8662721aba",
       "matched_topics": [],
       "missing_verification": [],
       "reasons": [
@@ -7094,14 +6868,14 @@
           "primary": false,
           "published_at": "2026-11-04T09:00:00Z",
           "publisher": "Elektor",
-          "retrieved_at": "2026-11-09T05:54:44.987642Z",
+          "retrieved_at": "2026-11-09T06:18:31.329848Z",
           "title": "Conception RF : Keysight confie le travail à des agents IA - Elektor",
           "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPYl9iLVBGYXIzY0poXzI2QzJYNDgwVllfZUJfRU9DWElFcVEyeG5aX08tOTZKY3kzMUR3X2dBTks5TzU2Y2Q0NERERGlBQlJmWHZOWVVLUVVjTzVsWUMzazFGb1VQS0hWTmxXQkhTZHB3bnJWa21WRk1DcE8zalUza3UzZHVZRFk3cHNyTXhCZ3kzSXF2Yi1n?oc=5"
         }
       ],
       "historical_application_status": null,
       "historical_deadline": null,
-      "id": "6a98d50a185fba65194aec7f",
+      "id": "10535c68066a9a4c3f7a350d",
       "matched_topics": [],
       "missing_verification": [],
       "reasons": [
@@ -7188,14 +6962,14 @@
           "primary": false,
           "published_at": "2026-11-07T05:52:42Z",
           "publisher": "quasa.io",
-          "retrieved_at": "2026-11-09T05:54:44.987651Z",
+          "retrieved_at": "2026-11-09T06:18:31.329865Z",
           "title": "LangChain : avis sur le framework ultime pour créer des agents IA - quasa.io",
           "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNcE9rc1NrbFNBWWJxZW5LTHRhUFo2VkppeVBteXBMR3VWcXEtemZLU3N3UnNLLV90UlIzdE0xOHc5ZjJLUDVYakRIOWE2VXlhQXNkMHVfRk9BeGZ6dmJKVjM1dUxyNUN2RnNzd2JjaDZfZkFjR09FaFNGZ0pXaUFxc2JORzA5VU9KVlMxZVprNDRuamM?oc=5"
         }
       ],
       "historical_application_status": null,
       "historical_deadline": null,
-      "id": "af9bb157b99dbf23e3766cc8",
+      "id": "c1f7c56cb8183bac2af656dd",
       "matched_topics": [],
       "missing_verification": [],
       "reasons": [
@@ -7282,14 +7056,14 @@
           "primary": false,
           "published_at": "2026-11-05T08:00:00Z",
           "publisher": "BlogNT",
-          "retrieved_at": "2026-11-09T05:54:44.987661Z",
+          "retrieved_at": "2026-11-09T06:18:31.329881Z",
           "title": "Meta Conductor agents IA : rachat et fermeture le 20 novembre - BlogNT",
           "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPZi01YWVndW5XX09MUG1xaDR2UmZrMDBaS2tNcnFPLVZESld6cmhSdDY3RGtZUXQtNzY2Nk5BV1o2bjNjVDhJNTlZemp6QzhJcG1xZHpEd1NReUtUSThDQW8ydk93MUZZWE1rNEtFU2FuOG9PaC1OR0NPSXh4LUN6YXBDV3dsZ0IxUklvSnF5Tk9WUQ?oc=5"
         }
       ],
       "historical_application_status": null,
       "historical_deadline": null,
-      "id": "0b5d0f070b045a8dd74d4bee",
+      "id": "ffab9c4300af87699aa131e1",
       "matched_topics": [],
       "missing_verification": [],
       "reasons": [
@@ -7376,14 +7150,14 @@
           "primary": false,
           "published_at": "2026-11-03T01:01:27Z",
           "publisher": "StorageReview.com",
-          "retrieved_at": "2026-11-09T05:54:44.987673Z",
+          "retrieved_at": "2026-11-09T06:18:31.329900Z",
           "title": "Les modèles d'IA Cadence Maestro affichent une efficacité jusqu'à 5 fois supérieure en termes de jetons pour les super-agents de conception de puces. - StorageReview.com",
           "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNWUJidEdTbGtucFpNLWNpODMwRE1zZ2ZEOEYyRTRYQWV4RXRvamIzeHBwZU1XVExQZDRPQWxjc2ZGaURTQUx3R0hzVndSeERKZ2xKVHFaRkt0SThJdjI5cjhxNVhCR0JzSWRKeTBLTXhxNHViMWpTeU5rdHNBbHFHYmktUnNwd21MSzEzMURUU1RMUdIBlwFBVV95cUxQMGhIV1g3NEFNVmlhZ2Z1cEdoaDhXOGZpRmVfTlNlYzFacnNsQXhnby04cEdSdFdVNWJVTDZ6LXVHZlVhOEFicXB5RjJXbXUxS0lYV0psWnhtelV4RmtmbHF6eHpNUWkzQkRDX2tpRDNTMC1yd2tHSTV3RW4zSlBYMjJIX2tpek9pWU54b3JuUnprMElqU2Ew?oc=5"
         }
       ],
       "historical_application_status": null,
       "historical_deadline": null,
-      "id": "34c03ccbf58fb0e0ab695f3d",
+      "id": "db50d6bafe15643cee3338ee",
       "matched_topics": [],
       "missing_verification": [],
       "reasons": [
@@ -7470,14 +7244,14 @@
           "primary": false,
           "published_at": "2026-11-04T16:15:12Z",
           "publisher": "Le Mag IT",
-          "retrieved_at": "2026-11-09T05:54:44.987683Z",
+          "retrieved_at": "2026-11-09T06:18:31.329916Z",
           "title": "RSSI : pourquoi l’accélération de l’IA rend les fondamentaux de la sécurité indispensables - Le Mag IT",
           "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQT1BiTzY1bUJmTUxyYWZ1Yzh6SXVhc2dPNkxCN2U4Tk12UDhRSXNvZy11NVNyOGlqeFFCZ1VOTHRsNTVIT2ZqTEhKV0hhSjl4T1JITDJMOFJJV2RmZTFaTnhrODhFRXAwR2c3U0RpenFKUzNvaDhZcHdUZU1JVXNIV2w2UjhJdXlya3ZQMksyRDR0aFppclFMQ3BTbkxETTQxckxXNGVwYjBlZ19kVzQ0SXdlUVhTRldy?oc=5"
         }
       ],
       "historical_application_status": null,
       "historical_deadline": null,
-      "id": "82918eb8a718e4b3591ab0ff",
+      "id": "e5cca554c2a59b15bfa9d927",
       "matched_topics": [],
       "missing_verification": [],
       "reasons": [
@@ -7564,14 +7338,14 @@
           "primary": false,
           "published_at": "2026-11-02T16:57:13Z",
           "publisher": "Unite.AI",
-          "retrieved_at": "2026-11-09T05:54:44.987694Z",
+          "retrieved_at": "2026-11-09T06:18:31.329933Z",
           "title": "Quels éléments de leur pile d’IA les entreprises devraient-elles posséder ? - Unite.AI",
           "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE01UWFOYzFZR3hyZnBRcjVkeFNnaDU0Tks3bjRWRnkzcm0zTEVnN1lKVjZCUXhPY2dNeUxxWTdTLUpucUdGMmxYMWFibGdyUkJ5U214ako2QlR2MXNnRGxmRmM2R0dGSzJDbTZUZ19WWXdqbTh6N1V3NHN3?oc=5"
         }
       ],
       "historical_application_status": null,
       "historical_deadline": null,
-      "id": "d0b1eb4d9ade3e23446b106a",
+      "id": "8b2d0c2f7783f03312404f06",
       "matched_topics": [],
       "missing_verification": [],
       "reasons": [
@@ -7658,14 +7432,14 @@
           "primary": false,
           "published_at": "2026-11-03T16:06:36Z",
           "publisher": "Silicon.fr",
-          "retrieved_at": "2026-11-09T05:54:44.987706Z",
+          "retrieved_at": "2026-11-09T06:18:31.329950Z",
           "title": "Intranets : avec l’IA, le marché s’ouvre… et se segmente - Silicon.fr",
           "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE03QWRWeC1nV091amZBX2xNT2RjTDhpNkg2SEp1aXhnWUhCYlJHaHI0WnFuUWd4blE3UG9YWjhsWmc2MlBJNm91OGZLVThsQWE2ZGhrQlpRWElWajlkcnVFYkRlb3FuS0NsME05UWR5QkJRbEtaTjRXaWh4elBuRkHSAYQBQVVfeXFMT3cxMVZYN0RnTmQ0MWoyeVZmZ2dlRGZzMWdJTDJMMlhRS1FvbFkydTBaekpiVWJndnlTWmVVYTgyMFUzY2JiQjUyUVBVcW9tZW50MklCRnJBaVFvWE9ELTh2bjJZN2xGSDNJN09JOXdqaVVYU1JyWTBxN0N6cnh1enhPbzE2?oc=5"
         }
       ],
       "historical_application_status": null,
       "historical_deadline": null,
-      "id": "529d4c7f8275eb95e5cd3b4a",
+      "id": "28c5b5195e369ea498e6d08d",
       "matched_topics": [],
       "missing_verification": [],
       "reasons": [
@@ -7752,14 +7526,14 @@
           "primary": false,
           "published_at": "2026-11-07T16:31:59Z",
           "publisher": "Pasquale Pillitteri",
-          "retrieved_at": "2026-11-09T05:54:44.987716Z",
+          "retrieved_at": "2026-11-09T06:18:31.329967Z",
           "title": "DeepSeek Harness 0.2.2 arrive et peut déléguer à Codex et Claude - Pasquale Pillitteri",
           "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPREpOVmsxYXh5OXozek8tdmIzLUJfY1ZXT0NTcEw0dzhaWlptVjNlMXF4Y2NDTjdvZVozek1yb216TWhlTm05bUdJQ3ljaU9aeTlEd0NfTUdNVmhtdEVkekVlYTIxX3dOU2d1MmtoWm92N0JtY0s3S0hYZVk4VjF3Tll6RHpQWGpIdlZrUTJvRnlpNnJZVkstQw?oc=5"
         }
       ],
       "historical_application_status": null,
       "historical_deadline": null,
-      "id": "f2770562c39976e8c0628e66",
+      "id": "a1bd543cc26fcf2bbed71069",
       "matched_topics": [],
       "missing_verification": [],
       "reasons": [
@@ -7846,14 +7620,14 @@
           "primary": false,
           "published_at": "2026-11-06T12:04:53Z",
           "publisher": "Brief IA",
-          "retrieved_at": "2026-11-09T05:54:44.987727Z",
+          "retrieved_at": "2026-11-09T06:18:31.329982Z",
           "title": "Un agent Python sauvegarde ses échanges dans un fichier JSON - Brief IA",
           "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPTkdKenVsLVQ1TjJTeklodE1tdEl3X3laR1RhYzJITlFRWUx5OE9neGdhRDVvUHBZZ0tlWGFxTWtoa3pkU3JISDFJM3RQTERlMG5WNUsyZ3EtVDNGS2VHRE52NEVFekc1bDFLVHZadjI3dm1RSWhMR0txRkw5SUJGb2ZfLUEydncyU2pkeHhFSV9MNEw2b3c?oc=5"
         }
       ],
       "historical_application_status": null,
       "historical_deadline": null,
-      "id": "5d8faf4fd17ce6d3ad2682a2",
+      "id": "3575e3f93701b82715a428ed",
       "matched_topics": [],
       "missing_verification": [],
       "reasons": [
@@ -7927,6 +7701,232 @@
       },
       "duplicate_of": null,
       "eligibility": null,
+      "event_id": "89af1951ef18cf6ed29a5811",
+      "evidence": [
+        {
+          "content_hash": "1f7b308e96ed679a57dca9a1b9b3808db89a33b568c59af85d02f0306e5a7f28",
+          "discovery_language": "fr",
+          "excerpt": "Meilleurs outils de design-to-code comparés: analyse détaillée AIMultiple",
+          "fresh": true,
+          "id": "38faef0bfe923280b8a83bb7",
+          "language": "unknown",
+          "language_basis": "insufficient_language_evidence",
+          "primary": false,
+          "published_at": "2026-11-03T08:00:00Z",
+          "publisher": "AIMultiple",
+          "retrieved_at": "2026-11-09T06:18:31.329997Z",
+          "title": "Meilleurs outils de design-to-code comparés: analyse détaillée - AIMultiple",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFAtcTBBMmtPaXk1ODFQeTZoaHlvZFE4X3F5RUl1X1hxWk80bTdRTXpETTEzSWVzdk5fdmdmQ1hxVGxmSlRqM2ppbWRtc1lCQjE1SFE?oc=5"
+        }
+      ],
+      "historical_application_status": null,
+      "historical_deadline": null,
+      "id": "966a08bc4c106bfcc5110c84",
+      "matched_topics": [],
+      "missing_verification": [],
+      "reasons": [
+        "incomplete_uncertain_or_below_threshold_model_assessment"
+      ],
+      "technical_significance": null,
+      "title": "Meilleurs outils de design-to-code comparés: analyse détaillée - AIMultiple",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFAtcTBBMmtPaXk1ODFQeTZoaHlvZFE4X3F5RUl1X1hxWk80bTdRTXpETTEzSWVzdk5fdmdmQ1hxVGxmSlRqM2ppbWRtc1lCQjE1SFE?oc=5"
+    },
+    {
+      "application_status": null,
+      "attention": 0.76,
+      "classification": "REVIEW",
+      "confirmed": false,
+      "deadline": null,
+      "decisions": {
+        "claim-support": {
+          "cache_hit": false,
+          "charged_tokens": 759,
+          "decision": {
+            "evidence_ids": [
+              "c4b0d7917bba1a47fe8883da"
+            ],
+            "facts": 0.5,
+            "hype": 0.5,
+            "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
+            "related_event_id": null,
+            "score": 0.9,
+            "signal": 0.5,
+            "verdict": "yes"
+          },
+          "provider": {
+            "abstained": false,
+            "attempts": 1,
+            "cost": null,
+            "family": "systemone",
+            "format": "systemone_choices",
+            "input_tokens": 759,
+            "latency_ms": 523,
+            "model": "alias-clef",
+            "model_identity_verified": true,
+            "output_tokens": 0,
+            "response_model": "alias-clef",
+            "status": "success",
+            "tokens": 759
+          }
+        },
+        "hfs": {
+          "cache_hit": false,
+          "charged_tokens": 1001,
+          "decision": {
+            "evidence_ids": [
+              "c4b0d7917bba1a47fe8883da"
+            ],
+            "facts": 0.9,
+            "hype": 0.1,
+            "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
+            "related_event_id": null,
+            "score": 0.5,
+            "signal": 0.5,
+            "verdict": "yes"
+          },
+          "provider": {
+            "abstained": false,
+            "attempts": 1,
+            "cost": null,
+            "family": "systemone",
+            "format": "systemone_choices",
+            "input_tokens": 1001,
+            "latency_ms": 509,
+            "model": "alias-clef",
+            "model_identity_verified": true,
+            "output_tokens": 0,
+            "response_model": "alias-clef",
+            "status": "success",
+            "tokens": 1001
+          }
+        },
+        "importance": {
+          "cache_hit": false,
+          "charged_tokens": 768,
+          "decision": {
+            "evidence_ids": [
+              "c4b0d7917bba1a47fe8883da"
+            ],
+            "facts": 0.5,
+            "hype": 0.5,
+            "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
+            "related_event_id": null,
+            "score": 0.5,
+            "signal": 0.5,
+            "verdict": "yes"
+          },
+          "provider": {
+            "abstained": false,
+            "attempts": 1,
+            "cost": null,
+            "family": "systemone",
+            "format": "systemone_choices",
+            "input_tokens": 768,
+            "latency_ms": 555,
+            "model": "alias-clef",
+            "model_identity_verified": true,
+            "output_tokens": 0,
+            "response_model": "alias-clef",
+            "status": "success",
+            "tokens": 768
+          }
+        },
+        "relevance": {
+          "cache_hit": false,
+          "charged_tokens": 746,
+          "decision": {
+            "evidence_ids": [
+              "c4b0d7917bba1a47fe8883da"
+            ],
+            "facts": 0.5,
+            "hype": 0.5,
+            "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
+            "related_event_id": null,
+            "score": 0.9,
+            "signal": 0.5,
+            "verdict": "yes"
+          },
+          "provider": {
+            "abstained": false,
+            "attempts": 1,
+            "cost": null,
+            "family": "systemone",
+            "format": "systemone_choices",
+            "input_tokens": 746,
+            "latency_ms": 460,
+            "model": "alias-clef",
+            "model_identity_verified": true,
+            "output_tokens": 0,
+            "response_model": "alias-clef",
+            "status": "success",
+            "tokens": 746
+          }
+        },
+        "same-story": {
+          "cache_hit": false,
+          "charged_tokens": 1009,
+          "decision": {
+            "evidence_ids": [
+              "c4b0d7917bba1a47fe8883da"
+            ],
+            "facts": 0.5,
+            "hype": 0.5,
+            "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
+            "related_event_id": null,
+            "score": 0.9,
+            "signal": 0.5,
+            "verdict": "different"
+          },
+          "provider": {
+            "abstained": false,
+            "attempts": 1,
+            "cost": null,
+            "family": "systemone",
+            "format": "systemone_choices",
+            "input_tokens": 1009,
+            "latency_ms": 496,
+            "model": "alias-clef",
+            "model_identity_verified": true,
+            "output_tokens": 0,
+            "response_model": "alias-clef",
+            "status": "success",
+            "tokens": 1009
+          }
+        },
+        "worth-attention": {
+          "cache_hit": false,
+          "charged_tokens": 750,
+          "decision": {
+            "evidence_ids": [
+              "c4b0d7917bba1a47fe8883da"
+            ],
+            "facts": 0.5,
+            "hype": 0.5,
+            "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
+            "related_event_id": null,
+            "score": 0.1,
+            "signal": 0.5,
+            "verdict": "no"
+          },
+          "provider": {
+            "abstained": false,
+            "attempts": 1,
+            "cost": null,
+            "family": "systemone",
+            "format": "systemone_choices",
+            "input_tokens": 750,
+            "latency_ms": 415,
+            "model": "alias-clef",
+            "model_identity_verified": true,
+            "output_tokens": 0,
+            "response_model": "alias-clef",
+            "status": "success",
+            "tokens": 750
+          }
+        }
+      },
+      "duplicate_of": null,
+      "eligibility": null,
       "event_id": "66af235e42475984322168dc",
       "evidence": [
         {
@@ -7940,7 +7940,7 @@
           "primary": true,
           "published_at": "2026-11-06T03:03:34Z",
           "publisher": "langchain-ai/langgraph",
-          "retrieved_at": "2026-11-09T05:54:45.451449Z",
+          "retrieved_at": "2026-11-09T06:18:31.709104Z",
           "title": "langgraph-sdk==0.4.14",
           "url": "https://github.com/langchain-ai/langgraph/releases/tag/sdk%3D%3D0.4.14"
         }
@@ -7951,7 +7951,7 @@
       "matched_topics": [],
       "missing_verification": [],
       "reasons": [
-        "incomplete_uncertain_or_below_threshold_model_assessment"
+        "provisional_domain_rubric_threshold_met_not_verified_truth"
       ],
       "technical_significance": null,
       "title": "langgraph-sdk==0.4.14",
@@ -8034,7 +8034,7 @@
           "primary": true,
           "published_at": "2026-11-06T03:04:13Z",
           "publisher": "langchain-ai/langgraph",
-          "retrieved_at": "2026-11-09T05:54:45.451466Z",
+          "retrieved_at": "2026-11-09T06:18:31.709126Z",
           "title": "langgraph-cli==0.4.42",
           "url": "https://github.com/langchain-ai/langgraph/releases/tag/cli%3D%3D0.4.42"
         }
@@ -8128,7 +8128,7 @@
           "primary": true,
           "published_at": "2026-11-05T02:20:53Z",
           "publisher": "langchain-ai/langgraph",
-          "retrieved_at": "2026-11-09T05:54:45.451472Z",
+          "retrieved_at": "2026-11-09T06:18:31.709137Z",
           "title": "langgraph==1.2.20",
           "url": "https://github.com/langchain-ai/langgraph/releases/tag/1.2.20"
         }
@@ -8222,7 +8222,7 @@
           "primary": true,
           "published_at": "2026-11-05T02:16:06Z",
           "publisher": "langchain-ai/langgraph",
-          "retrieved_at": "2026-11-09T05:54:45.451480Z",
+          "retrieved_at": "2026-11-09T06:18:31.709147Z",
           "title": "langgraph-sdk==0.4.13",
           "url": "https://github.com/langchain-ai/langgraph/releases/tag/sdk%3D%3D0.4.13"
         }
@@ -8241,14 +8241,14 @@
     },
     {
       "application_status": null,
-      "attention": 0.68,
-      "classification": "REVIEW",
+      "attention": 0.56,
+      "classification": "UNASSESSED",
       "confirmed": false,
       "deadline": null,
       "decisions": {
         "claim-support": {
           "cache_hit": false,
-          "charged_tokens": 819,
+          "charged_tokens": 692,
           "decision": {
             "evidence_ids": [
               "776a7b941d700840b03f4cf3"
@@ -8267,19 +8267,19 @@
             "cost": null,
             "family": "systemone",
             "format": "systemone_choices",
-            "input_tokens": 819,
-            "latency_ms": 522,
+            "input_tokens": 692,
+            "latency_ms": 563,
             "model": "alias-clef",
             "model_identity_verified": true,
             "output_tokens": 0,
             "response_model": "alias-clef",
             "status": "success",
-            "tokens": 819
+            "tokens": 692
           }
         },
         "hfs": {
           "cache_hit": false,
-          "charged_tokens": 1061,
+          "charged_tokens": 934,
           "decision": {
             "evidence_ids": [
               "776a7b941d700840b03f4cf3"
@@ -8298,19 +8298,19 @@
             "cost": null,
             "family": "systemone",
             "format": "systemone_choices",
-            "input_tokens": 1061,
-            "latency_ms": 576,
+            "input_tokens": 934,
+            "latency_ms": 579,
             "model": "alias-clef",
             "model_identity_verified": true,
             "output_tokens": 0,
             "response_model": "alias-clef",
             "status": "success",
-            "tokens": 1061
+            "tokens": 934
           }
         },
         "importance": {
           "cache_hit": false,
-          "charged_tokens": 828,
+          "charged_tokens": 701,
           "decision": {
             "evidence_ids": [
               "776a7b941d700840b03f4cf3"
@@ -8329,19 +8329,19 @@
             "cost": null,
             "family": "systemone",
             "format": "systemone_choices",
-            "input_tokens": 828,
-            "latency_ms": 570,
+            "input_tokens": 701,
+            "latency_ms": 443,
             "model": "alias-clef",
             "model_identity_verified": true,
             "output_tokens": 0,
             "response_model": "alias-clef",
             "status": "success",
-            "tokens": 828
+            "tokens": 701
           }
         },
         "relevance": {
           "cache_hit": false,
-          "charged_tokens": 806,
+          "charged_tokens": 679,
           "decision": {
             "evidence_ids": [
               "776a7b941d700840b03f4cf3"
@@ -8350,9 +8350,9 @@
             "hype": 0.5,
             "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
             "related_event_id": null,
-            "score": 0.9,
+            "score": 0.5,
             "signal": 0.5,
-            "verdict": "yes"
+            "verdict": "unknown"
           },
           "provider": {
             "abstained": false,
@@ -8360,19 +8360,19 @@
             "cost": null,
             "family": "systemone",
             "format": "systemone_choices",
-            "input_tokens": 806,
-            "latency_ms": 561,
+            "input_tokens": 679,
+            "latency_ms": 748,
             "model": "alias-clef",
             "model_identity_verified": true,
             "output_tokens": 0,
             "response_model": "alias-clef",
             "status": "success",
-            "tokens": 806
+            "tokens": 679
           }
         },
         "same-story": {
           "cache_hit": false,
-          "charged_tokens": 1075,
+          "charged_tokens": 751,
           "decision": {
             "evidence_ids": [
               "776a7b941d700840b03f4cf3"
@@ -8391,19 +8391,19 @@
             "cost": null,
             "family": "systemone",
             "format": "systemone_choices",
-            "input_tokens": 1075,
-            "latency_ms": 776,
+            "input_tokens": 751,
+            "latency_ms": 542,
             "model": "alias-clef",
             "model_identity_verified": true,
             "output_tokens": 0,
             "response_model": "alias-clef",
             "status": "success",
-            "tokens": 1075
+            "tokens": 751
           }
         },
         "worth-attention": {
           "cache_hit": false,
-          "charged_tokens": 810,
+          "charged_tokens": 683,
           "decision": {
             "evidence_ids": [
               "776a7b941d700840b03f4cf3"
@@ -8422,14 +8422,14 @@
             "cost": null,
             "family": "systemone",
             "format": "systemone_choices",
-            "input_tokens": 810,
-            "latency_ms": 553,
+            "input_tokens": 683,
+            "latency_ms": 541,
             "model": "alias-clef",
             "model_identity_verified": true,
             "output_tokens": 0,
             "response_model": "alias-clef",
             "status": "success",
-            "tokens": 810
+            "tokens": 683
           }
         }
       },
@@ -8448,7 +8448,7 @@
           "primary": true,
           "published_at": "2026-11-05T02:30:54Z",
           "publisher": "langchain-ai/langgraph",
-          "retrieved_at": "2026-11-09T05:54:45.451485Z",
+          "retrieved_at": "2026-11-09T06:18:31.709155Z",
           "title": "langgraph-cli==0.4.41",
           "url": "https://github.com/langchain-ai/langgraph/releases/tag/cli%3D%3D0.4.41"
         }
@@ -8459,7 +8459,7 @@
       "matched_topics": [],
       "missing_verification": [],
       "reasons": [
-        "provisional_domain_rubric_threshold_met_not_verified_truth"
+        "incomplete_uncertain_or_below_threshold_model_assessment"
       ],
       "technical_significance": null,
       "title": "langgraph-cli==0.4.41",
@@ -8542,7 +8542,7 @@
           "primary": true,
           "published_at": "2026-11-03T18:10:30Z",
           "publisher": "langchain-ai/langgraph",
-          "retrieved_at": "2026-11-09T05:54:45.451490Z",
+          "retrieved_at": "2026-11-09T06:18:31.709164Z",
           "title": "langgraph-sdk==0.4.12",
           "url": "https://github.com/langchain-ai/langgraph/releases/tag/sdk%3D%3D0.4.12"
         }
@@ -8561,13 +8561,14 @@
     }
   ],
   "domain": "agent-control-planes",
-  "generated_at_utc": "2026-11-09T05:55:09.264461+00:00",
+  "generated_at_utc": "2026-11-09T06:18:49.643149+00:00",
   "limitations": [
     "Model choices are uncalibrated editorial judgments, not verified facts.",
     "Short source excerpts may omit context; original publication dates can be unknown.",
     "Novelty compares this run only; no historical corpus was loaded.",
     "Technical significance is unassessed: native choices cannot generate technical-learning explanations or code.",
     "No human ground truth: precision@10 and recall remain null.",
+    "The provider reports an alias, not a separately versioned model-weights revision.",
     "Model budget exhausted; remaining command states are explicitly budget_limit, not inferred decisions."
   ],
   "physical_data_branch": "radar/agent-control-planes",
@@ -8613,7 +8614,7 @@
   "recall": null,
   "review_version": "live-review-1.0",
   "schema_version": "1.0",
-  "source_revision": "3c2e79d6645869f6ac3a2178d5d7194bdc73a9ab",
+  "source_revision": "57c41654fdda261ec2168e2e32ba7f1a76567002",
   "sources": [
     {
       "content_unchanged": false,
@@ -8666,14 +8667,17 @@
       "unknown": 6
     },
     "duplicates": 0,
+    "fresh_evidence_references": 83,
+    "historical_evidence_references": 0,
     "invalid_public_urls": 0,
-    "known_tokens": 25181,
+    "known_tokens": 25295,
     "model_requests": 34,
+    "not_in_review_inventory": 0,
     "rejected": 0,
     "retained_for_review": 83,
     "retrieved_items": 83,
     "review_worthy": 3,
-    "runtime_seconds": 25.745,
+    "runtime_seconds": 19.75,
     "source_failures": 0,
     "source_languages": {
       "de": 1,
@@ -8684,5 +8688,5 @@
     "token_usage_complete": true
   },
   "window_hours": 168,
-  "workflow_run_id": "42569950068"
+  "workflow_run_id": "42572214484"
 }

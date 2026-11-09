@@ -1,5 +1,5 @@
 {
-  "acceptance": "PARTIAL",
+  "acceptance": "REVIEW_READY",
   "cache_replay": {
     "cache_hits": 6,
     "performed": true,
@@ -9,17 +9,17 @@
   "candidates": [
     {
       "application_status": null,
-      "attention": 0.52,
-      "classification": "REJECTED",
+      "attention": 0.68,
+      "classification": "REVIEW",
       "confirmed": false,
       "deadline": null,
       "decisions": {
         "claim-support": {
           "cache_hit": false,
-          "charged_tokens": 649,
+          "charged_tokens": 569,
           "decision": {
             "evidence_ids": [
-              "df6cb2c826977a9e9a10f578"
+              "42ff7465dd0311f38310c054"
             ],
             "facts": 0.5,
             "hype": 0.5,
@@ -35,30 +35,30 @@
             "cost": null,
             "family": "systemone",
             "format": "systemone_choices",
-            "input_tokens": 649,
-            "latency_ms": 532,
+            "input_tokens": 569,
+            "latency_ms": 446,
             "model": "alias-clef",
             "model_identity_verified": true,
             "output_tokens": 0,
             "response_model": "alias-clef",
             "status": "success",
-            "tokens": 649
+            "tokens": 569
           }
         },
         "hfs": {
           "cache_hit": false,
-          "charged_tokens": 891,
+          "charged_tokens": 811,
           "decision": {
             "evidence_ids": [
-              "df6cb2c826977a9e9a10f578"
+              "42ff7465dd0311f38310c054"
             ],
-            "facts": 0.1,
-            "hype": 0.1,
+            "facts": 0.5,
+            "hype": 0.5,
             "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
             "related_event_id": null,
-            "score": 0.1,
-            "signal": 0.1,
-            "verdict": "no"
+            "score": 0.5,
+            "signal": 0.5,
+            "verdict": "yes"
           },
           "provider": {
             "abstained": false,
@@ -66,22 +66,53 @@
             "cost": null,
             "family": "systemone",
             "format": "systemone_choices",
-            "input_tokens": 891,
-            "latency_ms": 527,
+            "input_tokens": 811,
+            "latency_ms": 468,
             "model": "alias-clef",
             "model_identity_verified": true,
             "output_tokens": 0,
             "response_model": "alias-clef",
             "status": "success",
-            "tokens": 891
+            "tokens": 811
           }
         },
         "importance": {
           "cache_hit": false,
-          "charged_tokens": 658,
+          "charged_tokens": 578,
           "decision": {
             "evidence_ids": [
-              "df6cb2c826977a9e9a10f578"
+              "42ff7465dd0311f38310c054"
+            ],
+            "facts": 0.5,
+            "hype": 0.5,
+            "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
+            "related_event_id": null,
+            "score": 0.5,
+            "signal": 0.5,
+            "verdict": "yes"
+          },
+          "provider": {
+            "abstained": false,
+            "attempts": 1,
+            "cost": null,
+            "family": "systemone",
+            "format": "systemone_choices",
+            "input_tokens": 578,
+            "latency_ms": 422,
+            "model": "alias-clef",
+            "model_identity_verified": true,
+            "output_tokens": 0,
+            "response_model": "alias-clef",
+            "status": "success",
+            "tokens": 578
+          }
+        },
+        "relevance": {
+          "cache_hit": false,
+          "charged_tokens": 556,
+          "decision": {
+            "evidence_ids": [
+              "42ff7465dd0311f38310c054"
             ],
             "facts": 0.5,
             "hype": 0.5,
@@ -97,58 +128,27 @@
             "cost": null,
             "family": "systemone",
             "format": "systemone_choices",
-            "input_tokens": 658,
-            "latency_ms": 523,
+            "input_tokens": 556,
+            "latency_ms": 433,
             "model": "alias-clef",
             "model_identity_verified": true,
             "output_tokens": 0,
             "response_model": "alias-clef",
             "status": "success",
-            "tokens": 658
-          }
-        },
-        "relevance": {
-          "cache_hit": false,
-          "charged_tokens": 636,
-          "decision": {
-            "evidence_ids": [
-              "df6cb2c826977a9e9a10f578"
-            ],
-            "facts": 0.5,
-            "hype": 0.5,
-            "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
-            "related_event_id": null,
-            "score": 0.1,
-            "signal": 0.5,
-            "verdict": "no"
-          },
-          "provider": {
-            "abstained": false,
-            "attempts": 1,
-            "cost": null,
-            "family": "systemone",
-            "format": "systemone_choices",
-            "input_tokens": 636,
-            "latency_ms": 544,
-            "model": "alias-clef",
-            "model_identity_verified": true,
-            "output_tokens": 0,
-            "response_model": "alias-clef",
-            "status": "success",
-            "tokens": 636
+            "tokens": 556
           }
         },
         "same-story": {
           "cache_hit": false,
-          "charged_tokens": 818,
+          "charged_tokens": 752,
           "decision": {
             "evidence_ids": [
-              "df6cb2c826977a9e9a10f578"
+              "42ff7465dd0311f38310c054"
             ],
             "facts": 0.5,
             "hype": 0.5,
             "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
-            "related_event_id": null,
+            "related_event_id": "94a90e5d3e8580064d664cc6",
             "score": 0.9,
             "signal": 0.5,
             "verdict": "different"
@@ -159,22 +159,22 @@
             "cost": null,
             "family": "systemone",
             "format": "systemone_choices",
-            "input_tokens": 818,
-            "latency_ms": 567,
+            "input_tokens": 752,
+            "latency_ms": 437,
             "model": "alias-clef",
             "model_identity_verified": true,
             "output_tokens": 0,
             "response_model": "alias-clef",
             "status": "success",
-            "tokens": 818
+            "tokens": 752
           }
         },
         "worth-attention": {
           "cache_hit": false,
-          "charged_tokens": 640,
+          "charged_tokens": 560,
           "decision": {
             "evidence_ids": [
-              "df6cb2c826977a9e9a10f578"
+              "42ff7465dd0311f38310c054"
             ],
             "facts": 0.5,
             "hype": 0.5,
@@ -190,14 +190,2364 @@
             "cost": null,
             "family": "systemone",
             "format": "systemone_choices",
-            "input_tokens": 640,
-            "latency_ms": 531,
+            "input_tokens": 560,
+            "latency_ms": 407,
             "model": "alias-clef",
             "model_identity_verified": true,
             "output_tokens": 0,
             "response_model": "alias-clef",
             "status": "success",
-            "tokens": 640
+            "tokens": 560
+          }
+        }
+      },
+      "duplicate_of": null,
+      "eligibility": null,
+      "event_id": "aedca49e37e8b4b037af1917",
+      "evidence": [
+        {
+          "content_hash": "80f9ffa26529726df07946e6d09c27caa09344ec12d1b3469c47120f7b67de54",
+          "discovery_language": "en",
+          "excerpt": "Accessibility, experiences, AI to the fore at WTM London Conference & Meetings World",
+          "fresh": true,
+          "id": "42ff7465dd0311f38310c054",
+          "language": "unknown",
+          "language_basis": "insufficient_language_evidence",
+          "primary": false,
+          "published_at": "2026-11-04T17:23:53Z",
+          "publisher": "Conference & Meetings World",
+          "retrieved_at": "2026-11-09T06:19:25.420491Z",
+          "title": "Accessibility, experiences, AI to the fore at WTM London - Conference & Meetings World",
+          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPMkM1YnlaRnpCZTVSbVVIU0RYU0dOdEtPRmtOM2NWS3o4U2tmY3ZSMVpKU2tiU0ozUkIyODg1Vld3TUV1cDhDRXJCQlBTaTR4Ymc5QVVXRktOd3dmTl9aVnFFblk3a3o1WjlWMXQ3czdxZ2IxRGdCM2RQWHRwRXNFTGZn?oc=5"
+        }
+      ],
+      "historical_application_status": null,
+      "historical_deadline": null,
+      "id": "656ac68e957af70f3a8a68a3",
+      "matched_topics": [
+        "accessibility"
+      ],
+      "missing_verification": [],
+      "reasons": [
+        "provisional_domain_rubric_threshold_met_not_verified_truth"
+      ],
+      "technical_significance": null,
+      "title": "Accessibility, experiences, AI to the fore at WTM London - Conference & Meetings World",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPMkM1YnlaRnpCZTVSbVVIU0RYU0dOdEtPRmtOM2NWS3o4U2tmY3ZSMVpKU2tiU0ozUkIyODg1Vld3TUV1cDhDRXJCQlBTaTR4Ymc5QVVXRktOd3dmTl9aVnFFblk3a3o1WjlWMXQ3czdxZ2IxRGdCM2RQWHRwRXNFTGZn?oc=5"
+    },
+    {
+      "application_status": null,
+      "attention": 0.32,
+      "classification": "DUPLICATE",
+      "confirmed": false,
+      "deadline": null,
+      "decisions": {
+        "claim-support": {
+          "cache_hit": false,
+          "charged_tokens": 617,
+          "decision": {
+            "evidence_ids": [
+              "12fe26dc998cf1869ea668bd"
+            ],
+            "facts": 0.5,
+            "hype": 0.5,
+            "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
+            "related_event_id": null,
+            "score": 0.9,
+            "signal": 0.5,
+            "verdict": "yes"
+          },
+          "provider": {
+            "abstained": false,
+            "attempts": 1,
+            "cost": null,
+            "family": "systemone",
+            "format": "systemone_choices",
+            "input_tokens": 617,
+            "latency_ms": 413,
+            "model": "alias-clef",
+            "model_identity_verified": true,
+            "output_tokens": 0,
+            "response_model": "alias-clef",
+            "status": "success",
+            "tokens": 617
+          }
+        },
+        "hfs": {
+          "cache_hit": false,
+          "charged_tokens": 859,
+          "decision": {
+            "evidence_ids": [
+              "12fe26dc998cf1869ea668bd"
+            ],
+            "facts": 0.9,
+            "hype": 0.1,
+            "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
+            "related_event_id": null,
+            "score": 0.5,
+            "signal": 0.5,
+            "verdict": "yes"
+          },
+          "provider": {
+            "abstained": false,
+            "attempts": 1,
+            "cost": null,
+            "family": "systemone",
+            "format": "systemone_choices",
+            "input_tokens": 859,
+            "latency_ms": 467,
+            "model": "alias-clef",
+            "model_identity_verified": true,
+            "output_tokens": 0,
+            "response_model": "alias-clef",
+            "status": "success",
+            "tokens": 859
+          }
+        },
+        "importance": {
+          "cache_hit": false,
+          "charged_tokens": 626,
+          "decision": {
+            "evidence_ids": [
+              "12fe26dc998cf1869ea668bd"
+            ],
+            "facts": 0.5,
+            "hype": 0.5,
+            "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
+            "related_event_id": null,
+            "score": 0.9,
+            "signal": 0.5,
+            "verdict": "yes"
+          },
+          "provider": {
+            "abstained": false,
+            "attempts": 1,
+            "cost": null,
+            "family": "systemone",
+            "format": "systemone_choices",
+            "input_tokens": 626,
+            "latency_ms": 412,
+            "model": "alias-clef",
+            "model_identity_verified": true,
+            "output_tokens": 0,
+            "response_model": "alias-clef",
+            "status": "success",
+            "tokens": 626
+          }
+        },
+        "relevance": {
+          "cache_hit": false,
+          "charged_tokens": 604,
+          "decision": {
+            "evidence_ids": [
+              "12fe26dc998cf1869ea668bd"
+            ],
+            "facts": 0.5,
+            "hype": 0.5,
+            "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
+            "related_event_id": null,
+            "score": 0.1,
+            "signal": 0.5,
+            "verdict": "no"
+          },
+          "provider": {
+            "abstained": false,
+            "attempts": 1,
+            "cost": null,
+            "family": "systemone",
+            "format": "systemone_choices",
+            "input_tokens": 604,
+            "latency_ms": 430,
+            "model": "alias-clef",
+            "model_identity_verified": true,
+            "output_tokens": 0,
+            "response_model": "alias-clef",
+            "status": "success",
+            "tokens": 604
+          }
+        },
+        "same-story": {
+          "cache_hit": false,
+          "charged_tokens": 837,
+          "decision": {
+            "evidence_ids": [
+              "12fe26dc998cf1869ea668bd"
+            ],
+            "facts": 0.5,
+            "hype": 0.5,
+            "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
+            "related_event_id": "aedca49e37e8b4b037af1917",
+            "score": 0.1,
+            "signal": 0.5,
+            "verdict": "same"
+          },
+          "provider": {
+            "abstained": false,
+            "attempts": 1,
+            "cost": null,
+            "family": "systemone",
+            "format": "systemone_choices",
+            "input_tokens": 837,
+            "latency_ms": 450,
+            "model": "alias-clef",
+            "model_identity_verified": true,
+            "output_tokens": 0,
+            "response_model": "alias-clef",
+            "status": "success",
+            "tokens": 837
+          }
+        },
+        "worth-attention": {
+          "cache_hit": false,
+          "charged_tokens": 608,
+          "decision": {
+            "evidence_ids": [
+              "12fe26dc998cf1869ea668bd"
+            ],
+            "facts": 0.5,
+            "hype": 0.5,
+            "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
+            "related_event_id": null,
+            "score": 0.1,
+            "signal": 0.5,
+            "verdict": "no"
+          },
+          "provider": {
+            "abstained": false,
+            "attempts": 1,
+            "cost": null,
+            "family": "systemone",
+            "format": "systemone_choices",
+            "input_tokens": 608,
+            "latency_ms": 459,
+            "model": "alias-clef",
+            "model_identity_verified": true,
+            "output_tokens": 0,
+            "response_model": "alias-clef",
+            "status": "success",
+            "tokens": 608
+          }
+        }
+      },
+      "duplicate_of": null,
+      "eligibility": null,
+      "event_id": "80b5f53807fabcfff54ff878",
+      "evidence": [
+        {
+          "content_hash": "5a66bada64bc13af2b8e83a540a6bcb03097cc057e3f222a62a341b9b936d525",
+          "discovery_language": "en",
+          "excerpt": "WTM London 2026 opens with trends, AI and accessibility | WTM London World Travel Market Events",
+          "fresh": true,
+          "id": "12fe26dc998cf1869ea668bd",
+          "language": "unknown",
+          "language_basis": "insufficient_language_evidence",
+          "primary": false,
+          "published_at": "2026-11-04T11:24:40Z",
+          "publisher": "World Travel Market Events",
+          "retrieved_at": "2026-11-09T06:19:25.420523Z",
+          "title": "WTM London 2026 opens with trends, AI and accessibility | WTM London - World Travel Market Events",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQZzBQMkY0eGY4Wk43SXBtRGpiWm9kczJJT0NCaFo0V3ZtbHJkdWcxVXp2REdHelB1ZWJlWGRoN3g3cjRjUFZxdkJxNnBZeDBiMkR5YmlSbVVUSHZaSWE3d0dMQ011c05ob05SZlNxUy04a0dCZ0djQ3p5LS0tN2F2bG8yaVE3dGx4S3lxamx0VS1VZUFYNmVtVElVZzgyXzZYS3d0emxBQ2xZYm1pOC1lbmlsdmFKdw?oc=5"
+        }
+      ],
+      "historical_application_status": null,
+      "historical_deadline": null,
+      "id": "31d0607db4d5c88d9f170684",
+      "matched_topics": [
+        "accessibility"
+      ],
+      "missing_verification": [],
+      "reasons": [
+        "model_same_story_judgement"
+      ],
+      "technical_significance": null,
+      "title": "WTM London 2026 opens with trends, AI and accessibility | WTM London - World Travel Market Events",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQZzBQMkY0eGY4Wk43SXBtRGpiWm9kczJJT0NCaFo0V3ZtbHJkdWcxVXp2REdHelB1ZWJlWGRoN3g3cjRjUFZxdkJxNnBZeDBiMkR5YmlSbVVUSHZaSWE3d0dMQ011c05ob05SZlNxUy04a0dCZ0djQ3p5LS0tN2F2bG8yaVE3dGx4S3lxamx0VS1VZUFYNmVtVElVZzgyXzZYS3d0emxBQ2xZYm1pOC1lbmlsdmFKdw?oc=5"
+    },
+    {
+      "application_status": null,
+      "attention": 0.23,
+      "classification": "DUPLICATE",
+      "confirmed": false,
+      "deadline": null,
+      "decisions": {
+        "claim-support": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "hfs": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "importance": {
+          "cache_hit": false,
+          "charged_tokens": 633,
+          "decision": {
+            "evidence_ids": [
+              "c262bba1cbc2db6068c491c9"
+            ],
+            "facts": 0.5,
+            "hype": 0.5,
+            "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
+            "related_event_id": null,
+            "score": 0.9,
+            "signal": 0.5,
+            "verdict": "yes"
+          },
+          "provider": {
+            "abstained": false,
+            "attempts": 1,
+            "cost": null,
+            "family": "systemone",
+            "format": "systemone_choices",
+            "input_tokens": 633,
+            "latency_ms": 460,
+            "model": "alias-clef",
+            "model_identity_verified": true,
+            "output_tokens": 0,
+            "response_model": "alias-clef",
+            "status": "success",
+            "tokens": 633
+          }
+        },
+        "relevance": {
+          "cache_hit": false,
+          "charged_tokens": 611,
+          "decision": {
+            "evidence_ids": [
+              "c262bba1cbc2db6068c491c9"
+            ],
+            "facts": 0.5,
+            "hype": 0.5,
+            "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
+            "related_event_id": null,
+            "score": 0.1,
+            "signal": 0.5,
+            "verdict": "no"
+          },
+          "provider": {
+            "abstained": false,
+            "attempts": 1,
+            "cost": null,
+            "family": "systemone",
+            "format": "systemone_choices",
+            "input_tokens": 611,
+            "latency_ms": 437,
+            "model": "alias-clef",
+            "model_identity_verified": true,
+            "output_tokens": 0,
+            "response_model": "alias-clef",
+            "status": "success",
+            "tokens": 611
+          }
+        },
+        "same-story": {
+          "cache_hit": false,
+          "charged_tokens": 851,
+          "decision": {
+            "evidence_ids": [
+              "c262bba1cbc2db6068c491c9"
+            ],
+            "facts": 0.5,
+            "hype": 0.5,
+            "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
+            "related_event_id": "80b5f53807fabcfff54ff878",
+            "score": 0.1,
+            "signal": 0.5,
+            "verdict": "same"
+          },
+          "provider": {
+            "abstained": false,
+            "attempts": 1,
+            "cost": null,
+            "family": "systemone",
+            "format": "systemone_choices",
+            "input_tokens": 851,
+            "latency_ms": 468,
+            "model": "alias-clef",
+            "model_identity_verified": true,
+            "output_tokens": 0,
+            "response_model": "alias-clef",
+            "status": "success",
+            "tokens": 851
+          }
+        },
+        "worth-attention": {
+          "cache_hit": false,
+          "charged_tokens": 615,
+          "decision": {
+            "evidence_ids": [
+              "c262bba1cbc2db6068c491c9"
+            ],
+            "facts": 0.5,
+            "hype": 0.5,
+            "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
+            "related_event_id": null,
+            "score": 0.1,
+            "signal": 0.5,
+            "verdict": "no"
+          },
+          "provider": {
+            "abstained": false,
+            "attempts": 1,
+            "cost": null,
+            "family": "systemone",
+            "format": "systemone_choices",
+            "input_tokens": 615,
+            "latency_ms": 442,
+            "model": "alias-clef",
+            "model_identity_verified": true,
+            "output_tokens": 0,
+            "response_model": "alias-clef",
+            "status": "success",
+            "tokens": 615
+          }
+        }
+      },
+      "duplicate_of": null,
+      "eligibility": null,
+      "event_id": "dffeebfa4d9a929efa87f9cc",
+      "evidence": [
+        {
+          "content_hash": "0649cf802c32498f2d08cb59647ac62e008a9ef48271952ceadbd0f507b4439d",
+          "discovery_language": "en",
+          "excerpt": "WTM London Puts Event Tourism, Accessibility and AI at the Centre of Travel’s Future Kenya Association of Travel Agents",
+          "fresh": true,
+          "id": "c262bba1cbc2db6068c491c9",
+          "language": "unknown",
+          "language_basis": "insufficient_language_evidence",
+          "primary": false,
+          "published_at": "2026-11-08T10:07:49Z",
+          "publisher": "Kenya Association of Travel Agents",
+          "retrieved_at": "2026-11-09T06:19:25.420545Z",
+          "title": "WTM London Puts Event Tourism, Accessibility and AI at the Centre of Travel’s Future - Kenya Association of Travel Agents",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPTXJudWkwWjdheVp6a2lBbDBwU3k2Qmt5RlVaU0ZfX085MmdPRWJWSnYxVExzV2o2a0pCbnB2akNHLWFoU2pMd2VXQ0xyQk5LUEI4WnJoZTNuRUFZM3lBNXRwcG5DVkpKQzVpNlpDWWMydjVfY09QUDJHUUtEdkJPZ18tT1ZpMjY2Zm9lQnBiMzdyOFhxY0lrM3JWUjZSUmtGbk1KWUx1Qzk?oc=5"
+        }
+      ],
+      "historical_application_status": null,
+      "historical_deadline": null,
+      "id": "ae67cffe4d13d014d91cb1bd",
+      "matched_topics": [
+        "accessibility"
+      ],
+      "missing_verification": [],
+      "reasons": [
+        "model_same_story_judgement"
+      ],
+      "technical_significance": null,
+      "title": "WTM London Puts Event Tourism, Accessibility and AI at the Centre of Travel’s Future - Kenya Association of Travel Agents",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPTXJudWkwWjdheVp6a2lBbDBwU3k2Qmt5RlVaU0ZfX085MmdPRWJWSnYxVExzV2o2a0pCbnB2akNHLWFoU2pMd2VXQ0xyQk5LUEI4WnJoZTNuRUFZM3lBNXRwcG5DVkpKQzVpNlpDWWMydjVfY09QUDJHUUtEdkJPZ18tT1ZpMjY2Zm9lQnBiMzdyOFhxY0lrM3JWUjZSUmtGbk1KWUx1Qzk?oc=5"
+    },
+    {
+      "application_status": null,
+      "attention": 0.45,
+      "classification": "UNASSESSED",
+      "confirmed": false,
+      "deadline": null,
+      "decisions": {
+        "claim-support": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "hfs": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "importance": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "relevance": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "same-story": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "worth-attention": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        }
+      },
+      "duplicate_of": null,
+      "eligibility": null,
+      "event_id": "cae4f57ffe4ea49fdc1431d9",
+      "evidence": [
+        {
+          "content_hash": "cc84c3461b0be4ddbebad60edc831b2afb73516156808cda3ce8d528e1ebab39",
+          "discovery_language": "en",
+          "excerpt": "BrowsAble raises £300K to test AI web-accessibility tool Dealroom",
+          "fresh": true,
+          "id": "8773d120832c220f8bde229c",
+          "language": "unknown",
+          "language_basis": "insufficient_language_evidence",
+          "primary": false,
+          "published_at": "2026-11-03T15:52:33Z",
+          "publisher": "Dealroom",
+          "retrieved_at": "2026-11-09T06:19:25.420564Z",
+          "title": "BrowsAble raises £300K to test AI web-accessibility tool - Dealroom",
+          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxORnFVMWt6OHJuYWJGb3dRc0hFNFVkMkpIYW5BZElSZEVnSDNQRUF4OVRPbGpuS1o4dlB6d1JBOUw2UFVrTUJ5WV9MS2hkVkpKRFVTRnVzM3gyNWltUldBUW5GbVd4bVUyRTIyMUlYVmItYi1jRHE0N0UzemlxUlA3LVozVmtCNG5kRE1SdXVXeEVLdWM?oc=5"
+        }
+      ],
+      "historical_application_status": null,
+      "historical_deadline": null,
+      "id": "3038ab819ee13df53aacff21",
+      "matched_topics": [
+        "accessibility"
+      ],
+      "missing_verification": [],
+      "reasons": [
+        "incomplete_uncertain_or_below_threshold_model_assessment"
+      ],
+      "technical_significance": null,
+      "title": "BrowsAble raises £300K to test AI web-accessibility tool - Dealroom",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxORnFVMWt6OHJuYWJGb3dRc0hFNFVkMkpIYW5BZElSZEVnSDNQRUF4OVRPbGpuS1o4dlB6d1JBOUw2UFVrTUJ5WV9MS2hkVkpKRFVTRnVzM3gyNWltUldBUW5GbVd4bVUyRTIyMUlYVmItYi1jRHE0N0UzemlxUlA3LVozVmtCNG5kRE1SdXVXeEVLdWM?oc=5"
+    },
+    {
+      "application_status": null,
+      "attention": 0.45,
+      "classification": "UNASSESSED",
+      "confirmed": false,
+      "deadline": null,
+      "decisions": {
+        "claim-support": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "hfs": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "importance": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "relevance": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "same-story": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "worth-attention": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        }
+      },
+      "duplicate_of": null,
+      "eligibility": null,
+      "event_id": "3a4b0877d8945c843ffa16fd",
+      "evidence": [
+        {
+          "content_hash": "e8e8790d94bef52aaead5bfe368aea8c6f6aa0e71191bb0264853d3851891b99",
+          "discovery_language": "en",
+          "excerpt": "WTM London 2026 highlights accessibility, AI, and experiences Travel Daily Media",
+          "fresh": true,
+          "id": "22b6c84c4d1e76531ae161ff",
+          "language": "unknown",
+          "language_basis": "insufficient_language_evidence",
+          "primary": false,
+          "published_at": "2026-11-04T23:05:18Z",
+          "publisher": "Travel Daily Media",
+          "retrieved_at": "2026-11-09T06:19:25.420581Z",
+          "title": "WTM London 2026 highlights accessibility, AI, and experiences - Travel Daily Media",
+          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPUUZKdWFIR3JhZG9BUUx0Mk1jZjk0bFNqYWptcEd5UC0xYks2d1ZqWjY5bE1GUC1ZeWxmRWRtOXdIRXF3bmU1NDBORVFhN2cxUm1mNDRmejl4X1daeXdCZnRNai1oSUpXZVl6MjdxTm5hVnVjR3hRTXVYcEVpbGpzZnIxQzZsNWE4Z0lGSkp2T0EtcGtKbnBTVA?oc=5"
+        }
+      ],
+      "historical_application_status": null,
+      "historical_deadline": null,
+      "id": "d9ad64af6e4a2070a7e8cd2f",
+      "matched_topics": [
+        "accessibility"
+      ],
+      "missing_verification": [],
+      "reasons": [
+        "incomplete_uncertain_or_below_threshold_model_assessment"
+      ],
+      "technical_significance": null,
+      "title": "WTM London 2026 highlights accessibility, AI, and experiences - Travel Daily Media",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPUUZKdWFIR3JhZG9BUUx0Mk1jZjk0bFNqYWptcEd5UC0xYks2d1ZqWjY5bE1GUC1ZeWxmRWRtOXdIRXF3bmU1NDBORVFhN2cxUm1mNDRmejl4X1daeXdCZnRNai1oSUpXZVl6MjdxTm5hVnVjR3hRTXVYcEVpbGpzZnIxQzZsNWE4Z0lGSkp2T0EtcGtKbnBTVA?oc=5"
+    },
+    {
+      "application_status": null,
+      "attention": 0.45,
+      "classification": "UNASSESSED",
+      "confirmed": false,
+      "deadline": null,
+      "decisions": {
+        "claim-support": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "hfs": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "importance": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "relevance": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "same-story": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "worth-attention": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        }
+      },
+      "duplicate_of": null,
+      "eligibility": null,
+      "event_id": "4569670c61ed7f3c05e52815",
+      "evidence": [
+        {
+          "content_hash": "db7a632bb38449efaaa1033e3322b7e763e91158c9e5feb95c427ad18aaa504d",
+          "discovery_language": "en",
+          "excerpt": "Accessibility, experiences, AI and more get WTM London off to a strong start TravelPress",
+          "fresh": true,
+          "id": "8c868d9c84c1b23ffac35625",
+          "language": "unknown",
+          "language_basis": "insufficient_language_evidence",
+          "primary": false,
+          "published_at": "2026-11-05T11:26:09Z",
+          "publisher": "TravelPress",
+          "retrieved_at": "2026-11-09T06:19:25.420600Z",
+          "title": "Accessibility, experiences, AI and more get WTM London off to a strong start - TravelPress",
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPV1YxMnpmU3dZQzNOZXdSV1IwWFBGLWdYdFgzQlhPNkRwd1N5UUxDQWEwZFgwRG1DM3BSd2dNaFRhNmJUd0NuYXYxSS1rQVNJekM4SkpCbWNjSWJiWlh3SnUyMU1pZGlUaktYSm9xZWJLZEdaZWxjbGhlYnBKM1M0azNaYVlmWG1DNC1DY0xWeE9qczMzUTJwOTZXb0tGZnhXNS1TM1RR?oc=5"
+        }
+      ],
+      "historical_application_status": null,
+      "historical_deadline": null,
+      "id": "7b24229f7cefb7c7090b8b93",
+      "matched_topics": [
+        "accessibility"
+      ],
+      "missing_verification": [],
+      "reasons": [
+        "incomplete_uncertain_or_below_threshold_model_assessment"
+      ],
+      "technical_significance": null,
+      "title": "Accessibility, experiences, AI and more get WTM London off to a strong start - TravelPress",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPV1YxMnpmU3dZQzNOZXdSV1IwWFBGLWdYdFgzQlhPNkRwd1N5UUxDQWEwZFgwRG1DM3BSd2dNaFRhNmJUd0NuYXYxSS1rQVNJekM4SkpCbWNjSWJiWlh3SnUyMU1pZGlUaktYSm9xZWJLZEdaZWxjbGhlYnBKM1M0azNaYVlmWG1DNC1DY0xWeE9qczMzUTJwOTZXb0tGZnhXNS1TM1RR?oc=5"
+    },
+    {
+      "application_status": null,
+      "attention": 0.45,
+      "classification": "UNASSESSED",
+      "confirmed": false,
+      "deadline": null,
+      "decisions": {
+        "claim-support": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "hfs": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "importance": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "relevance": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "same-story": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "worth-attention": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        }
+      },
+      "duplicate_of": null,
+      "eligibility": null,
+      "event_id": "861d73eee8b2b601f1b20a05",
+      "evidence": [
+        {
+          "content_hash": "286127c0c9a779999362d5cbd0d03684262e4919bb6ff8d3bd59157c5b991fd3",
+          "discovery_language": "en",
+          "excerpt": "Inclusion, AI literacy and accessibility focus of China internet reports CGTN",
+          "fresh": true,
+          "id": "ade3e17fcbf8b6d5158eb66b",
+          "language": "unknown",
+          "language_basis": "insufficient_language_evidence",
+          "primary": false,
+          "published_at": "2026-11-04T07:23:37Z",
+          "publisher": "CGTN",
+          "retrieved_at": "2026-11-09T06:19:25.420645Z",
+          "title": "Inclusion, AI literacy and accessibility focus of China internet reports - CGTN",
+          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQMHVaOFAzc1UxYURMelBGd2hiR0o0cGhKYl9CM0VIRWRuZnZOT0VyMzdhVkU3LUZfQTJqamlTaFEwamFFbTlpeFNIUlN2aHExNzJiV0o0UkowOXZDOGFuSUpITzZoamltb2Z3bElmY3RiV1EzaU1hUjQ1NDA0WEN2TDB3U2pQNi11Y0tJRDkxRDFqUUh1SHZKVHZleVRfYWxzSEpVMVd5cHQtRjJrcVpxZ001ZUl1WUlNYmh6RDFIVGVJUQ?oc=5"
+        }
+      ],
+      "historical_application_status": null,
+      "historical_deadline": null,
+      "id": "c886144742e5a0983532d4bf",
+      "matched_topics": [
+        "accessibility"
+      ],
+      "missing_verification": [],
+      "reasons": [
+        "incomplete_uncertain_or_below_threshold_model_assessment"
+      ],
+      "technical_significance": null,
+      "title": "Inclusion, AI literacy and accessibility focus of China internet reports - CGTN",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQMHVaOFAzc1UxYURMelBGd2hiR0o0cGhKYl9CM0VIRWRuZnZOT0VyMzdhVkU3LUZfQTJqamlTaFEwamFFbTlpeFNIUlN2aHExNzJiV0o0UkowOXZDOGFuSUpITzZoamltb2Z3bElmY3RiV1EzaU1hUjQ1NDA0WEN2TDB3U2pQNi11Y0tJRDkxRDFqUUh1SHZKVHZleVRfYWxzSEpVMVd5cHQtRjJrcVpxZ001ZUl1WUlNYmh6RDFIVGVJUQ?oc=5"
+    },
+    {
+      "application_status": null,
+      "attention": 0.45,
+      "classification": "UNASSESSED",
+      "confirmed": false,
+      "deadline": null,
+      "decisions": {
+        "claim-support": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "hfs": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "importance": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "relevance": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "same-story": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "worth-attention": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        }
+      },
+      "duplicate_of": null,
+      "eligibility": null,
+      "event_id": "4afe06b985d62ed558a26da2",
+      "evidence": [
+        {
+          "content_hash": "ec79b2a730cf2a21f9031b82a07e873ca6ba58c148538fa5a2c7a9d02dc034aa",
+          "discovery_language": "en",
+          "excerpt": "WTM London 2026: Luxury, Experiential Travel, Accessibility and AI Take Centre Stage - News and Statistics IndexBox",
+          "fresh": true,
+          "id": "e4844c52202bac12813a91b5",
+          "language": "unknown",
+          "language_basis": "insufficient_language_evidence",
+          "primary": false,
+          "published_at": "2026-11-04T14:11:52Z",
+          "publisher": "IndexBox",
+          "retrieved_at": "2026-11-09T06:19:25.420664Z",
+          "title": "WTM London 2026: Luxury, Experiential Travel, Accessibility and AI Take Centre Stage - News and Statistics - IndexBox",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQUkFqNUgycVR6bzFyc19pZThlY3RwYkZaWTR3aU5JUkRoWGJyekFyUFozbWt0eVFOLTdCZUZacnY5clRYbnNnLXYyTTJVZm15M0hXZ2FrRDRERkMtM3pJRzlzOXFMcVZUYzFYQm5Va2I2d3dfVVdpak1PVkVfNHIxcTBqZHhuMzhLejRtcWFETkh5VWhIdEMxTHVheDI4bmNlN3JQTTZJWHUwSHl5bUpyVnVqTFItdw?oc=5"
+        }
+      ],
+      "historical_application_status": null,
+      "historical_deadline": null,
+      "id": "d7d521d082030b93b653e111",
+      "matched_topics": [
+        "accessibility"
+      ],
+      "missing_verification": [],
+      "reasons": [
+        "incomplete_uncertain_or_below_threshold_model_assessment"
+      ],
+      "technical_significance": null,
+      "title": "WTM London 2026: Luxury, Experiential Travel, Accessibility and AI Take Centre Stage - News and Statistics - IndexBox",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQUkFqNUgycVR6bzFyc19pZThlY3RwYkZaWTR3aU5JUkRoWGJyekFyUFozbWt0eVFOLTdCZUZacnY5clRYbnNnLXYyTTJVZm15M0hXZ2FrRDRERkMtM3pJRzlzOXFMcVZUYzFYQm5Va2I2d3dfVVdpak1PVkVfNHIxcTBqZHhuMzhLejRtcWFETkh5VWhIdEMxTHVheDI4bmNlN3JQTTZJWHUwSHl5bUpyVnVqTFItdw?oc=5"
+    },
+    {
+      "application_status": null,
+      "attention": 0.3,
+      "classification": "UNASSESSED",
+      "confirmed": false,
+      "deadline": null,
+      "decisions": {
+        "claim-support": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "hfs": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "importance": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "relevance": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "same-story": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "worth-attention": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        }
+      },
+      "duplicate_of": null,
+      "eligibility": null,
+      "event_id": "8e8002d2adb7db9b9b35225d",
+      "evidence": [
+        {
+          "content_hash": "bc5d494226c3331c9cf8de6abd7ef465c70e90514d4d369c0f9e62487fd5c652",
+          "discovery_language": "en",
+          "excerpt": "Microsoft counted 306,000 AI agent sessions with a checkout. Chrome says agents read what screen readers read. Webcoda",
+          "fresh": true,
+          "id": "365ab67f03634fd9f1ad6cb8",
+          "language": "unknown",
+          "language_basis": "insufficient_language_evidence",
+          "primary": false,
+          "published_at": "2026-11-05T07:41:22Z",
+          "publisher": "Webcoda",
+          "retrieved_at": "2026-11-09T06:19:25.420681Z",
+          "title": "Microsoft counted 306,000 AI agent sessions with a checkout. Chrome says agents read what screen readers read. - Webcoda",
+          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOQVJjdWJBX18wUTVudlF6ZXFjanZ5MF9FYWJiT25YcjNFU1JiMVJvczJOU0xDaVdiUnY5blZZWENyNXB4Q3BYN1F0STBwVFFoM19sUzJpSW54THJjZTdwR3lBZWFJNXhOR21NRFU2S2tFMjdQTm5sREJIbDl0MWxtVU10cTdESHF0dmpLWWM2S2RsdmRkVXB5dQ?oc=5"
+        }
+      ],
+      "historical_application_status": null,
+      "historical_deadline": null,
+      "id": "e2c76469769037d865e30b80",
+      "matched_topics": [],
+      "missing_verification": [],
+      "reasons": [
+        "incomplete_uncertain_or_below_threshold_model_assessment"
+      ],
+      "technical_significance": null,
+      "title": "Microsoft counted 306,000 AI agent sessions with a checkout. Chrome says agents read what screen readers read. - Webcoda",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOQVJjdWJBX18wUTVudlF6ZXFjanZ5MF9FYWJiT25YcjNFU1JiMVJvczJOU0xDaVdiUnY5blZZWENyNXB4Q3BYN1F0STBwVFFoM19sUzJpSW54THJjZTdwR3lBZWFJNXhOR21NRFU2S2tFMjdQTm5sREJIbDl0MWxtVU10cTdESHF0dmpLWWM2S2RsdmRkVXB5dQ?oc=5"
+    },
+    {
+      "application_status": null,
+      "attention": 0.3,
+      "classification": "UNASSESSED",
+      "confirmed": false,
+      "deadline": null,
+      "decisions": {
+        "claim-support": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "hfs": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "importance": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "relevance": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "same-story": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "worth-attention": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        }
+      },
+      "duplicate_of": null,
+      "eligibility": null,
+      "event_id": "0a7e0afd4365287670ae11f3",
+      "evidence": [
+        {
+          "content_hash": "444d25975ba336ddbb49282c6ce656582cb4b5ba6f5b12524ac09ea5da7c8a15",
+          "discovery_language": "en",
+          "excerpt": "WTM London 2026: Luxury, AI and Accessible Tourism eTurboNews",
+          "fresh": true,
+          "id": "d107cc5c37793ef6de791f6e",
+          "language": "unknown",
+          "language_basis": "insufficient_language_evidence",
+          "primary": false,
+          "published_at": "2026-11-04T09:29:15Z",
+          "publisher": "eTurboNews",
+          "retrieved_at": "2026-11-09T06:19:25.420699Z",
+          "title": "WTM London 2026: Luxury, AI and Accessible Tourism - eTurboNews",
+          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOejdNMFg5V1hrY05vd2VjMFVJOHhPUU5MQld3Y2NPQmN2M1pLcGMwZGtYRjlPT0lvdnhSY2JnWXl3amZNM1I0S2VPTnk1TlRxYnRUS283VmpqU1FxSkZfZWh1d1M3Y012V1VxQzA1MmZvektrd0g5UmRWNGFxdEpyWg?oc=5"
+        }
+      ],
+      "historical_application_status": null,
+      "historical_deadline": null,
+      "id": "b4392ca3b49ba3056284dd26",
+      "matched_topics": [],
+      "missing_verification": [],
+      "reasons": [
+        "incomplete_uncertain_or_below_threshold_model_assessment"
+      ],
+      "technical_significance": null,
+      "title": "WTM London 2026: Luxury, AI and Accessible Tourism - eTurboNews",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOejdNMFg5V1hrY05vd2VjMFVJOHhPUU5MQld3Y2NPQmN2M1pLcGMwZGtYRjlPT0lvdnhSY2JnWXl3amZNM1I0S2VPTnk1TlRxYnRUS283VmpqU1FxSkZfZWh1d1M3Y012V1VxQzA1MmZvektrd0g5UmRWNGFxdEpyWg?oc=5"
+    },
+    {
+      "application_status": null,
+      "attention": 0.3,
+      "classification": "UNASSESSED",
+      "confirmed": false,
+      "deadline": null,
+      "decisions": {
+        "claim-support": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "hfs": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "importance": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "relevance": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "same-story": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "worth-attention": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        }
+      },
+      "duplicate_of": null,
+      "eligibility": null,
+      "event_id": "6d69c7a87e7820f2b016d9ea",
+      "evidence": [
+        {
+          "content_hash": "aeac180ae78e4e6354e1959a6861dc47c27d9169514b1f4bb192f68918abac3c",
+          "discovery_language": "en",
+          "excerpt": "Best AI Chatbot for Voice: 4 Apps, $8 to $500 [2026] tech-insider.org",
+          "fresh": true,
+          "id": "ef693c15b4924466dfb6b46e",
+          "language": "unknown",
+          "language_basis": "insufficient_language_evidence",
+          "primary": false,
+          "published_at": "2026-11-06T04:40:23Z",
+          "publisher": "tech-insider.org",
+          "retrieved_at": "2026-11-09T06:19:25.420715Z",
+          "title": "Best AI Chatbot for Voice: 4 Apps, $8 to $500 [2026] - tech-insider.org",
+          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOQlRLaVdjdTEtSUlraEpORXJGb2RQME9BeVh1dEc1ZzRNWEJSY1VzWkhGYnMyV1ZIaGtfVV9nSHN5clNLM1piYllONmdmOUJ4T2FvbjF1LXpkLUZybVFxSTlPQUdEWVNqcTdtZTZoOEo3TTRKRk8xaGlCWmtnVTF5dlJSUQ?oc=5"
+        }
+      ],
+      "historical_application_status": null,
+      "historical_deadline": null,
+      "id": "53e8a749f6277cfde9e0a8f2",
+      "matched_topics": [],
+      "missing_verification": [],
+      "reasons": [
+        "incomplete_uncertain_or_below_threshold_model_assessment"
+      ],
+      "technical_significance": null,
+      "title": "Best AI Chatbot for Voice: 4 Apps, $8 to $500 [2026] - tech-insider.org",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOQlRLaVdjdTEtSUlraEpORXJGb2RQME9BeVh1dEc1ZzRNWEJSY1VzWkhGYnMyV1ZIaGtfVV9nSHN5clNLM1piYllONmdmOUJ4T2FvbjF1LXpkLUZybVFxSTlPQUdEWVNqcTdtZTZoOEo3TTRKRk8xaGlCWmtnVTF5dlJSUQ?oc=5"
+    },
+    {
+      "application_status": null,
+      "attention": 0.45,
+      "classification": "UNASSESSED",
+      "confirmed": false,
+      "deadline": null,
+      "decisions": {
+        "claim-support": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "hfs": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "importance": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "relevance": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "same-story": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "worth-attention": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        }
+      },
+      "duplicate_of": null,
+      "eligibility": null,
+      "event_id": "6b7670903e10634159fc56c5",
+      "evidence": [
+        {
+          "content_hash": "0c39b9acc2a2af0d9f54057ef0bfe00388056ab6f60a97e533836d4325494832",
+          "discovery_language": "en",
+          "excerpt": "Beverly LeBlanc calls for digital accessibility to be included Dominica’s transformation Dominica News Online",
+          "fresh": true,
+          "id": "dfd558ce5d16c4cdcf209d2c",
+          "language": "unknown",
+          "language_basis": "insufficient_language_evidence",
+          "primary": false,
+          "published_at": "2026-11-04T17:31:00Z",
+          "publisher": "Dominica News Online",
+          "retrieved_at": "2026-11-09T06:19:25.420732Z",
+          "title": "Beverly LeBlanc calls for digital accessibility to be included Dominica’s transformation - Dominica News Online",
+          "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOR1haZndBQ25IeFN3RE5JUkdZemUzOGpsajJrRkxiYnJfOHhfWjBPM1dlZnFoeVV3SVdyQmxpOGUwWEozLTUxckV6X3puX29CUDB0RTloLWp5blNkTEhfa0tiaHhJbGthYzlfMFYwS1NRYmtuQlo1NHlVcnBwSmljbkQ2Z0VHN1lRQnJJNDBYWlBzSkdlR0h3ckFVY1dXRzYtZGZwNlVUMGdRMDJXWEkzSnhia1l4NzRBcTgzNkQycHJqSGY5VEtYQTlVazVXUXBLbVdWZEdlV3NQLTljNHpaRWlR?oc=5"
+        }
+      ],
+      "historical_application_status": null,
+      "historical_deadline": null,
+      "id": "e41825890eaf612d5d3ecbdd",
+      "matched_topics": [
+        "accessibility"
+      ],
+      "missing_verification": [],
+      "reasons": [
+        "incomplete_uncertain_or_below_threshold_model_assessment"
+      ],
+      "technical_significance": null,
+      "title": "Beverly LeBlanc calls for digital accessibility to be included Dominica’s transformation - Dominica News Online",
+      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOR1haZndBQ25IeFN3RE5JUkdZemUzOGpsajJrRkxiYnJfOHhfWjBPM1dlZnFoeVV3SVdyQmxpOGUwWEozLTUxckV6X3puX29CUDB0RTloLWp5blNkTEhfa0tiaHhJbGthYzlfMFYwS1NRYmtuQlo1NHlVcnBwSmljbkQ2Z0VHN1lRQnJJNDBYWlBzSkdlR0h3ckFVY1dXRzYtZGZwNlVUMGdRMDJXWEkzSnhia1l4NzRBcTgzNkQycHJqSGY5VEtYQTlVazVXUXBLbVdWZEdlV3NQLTljNHpaRWlR?oc=5"
+    },
+    {
+      "application_status": null,
+      "attention": 0.82,
+      "classification": "REVIEW",
+      "confirmed": false,
+      "deadline": null,
+      "decisions": {
+        "claim-support": {
+          "cache_hit": false,
+          "charged_tokens": 523,
+          "decision": {
+            "evidence_ids": [
+              "321bb5bed9485da8ebcbb676"
+            ],
+            "facts": 0.5,
+            "hype": 0.5,
+            "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
+            "related_event_id": null,
+            "score": 0.9,
+            "signal": 0.5,
+            "verdict": "yes"
+          },
+          "provider": {
+            "abstained": false,
+            "attempts": 1,
+            "cost": null,
+            "family": "systemone",
+            "format": "systemone_choices",
+            "input_tokens": 523,
+            "latency_ms": 413,
+            "model": "alias-clef",
+            "model_identity_verified": true,
+            "output_tokens": 0,
+            "response_model": "alias-clef",
+            "status": "success",
+            "tokens": 523
+          }
+        },
+        "hfs": {
+          "cache_hit": false,
+          "charged_tokens": 765,
+          "decision": {
+            "evidence_ids": [
+              "321bb5bed9485da8ebcbb676"
+            ],
+            "facts": 0.9,
+            "hype": 0.9,
+            "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
+            "related_event_id": null,
+            "score": 0.9,
+            "signal": 0.9,
+            "verdict": "yes"
+          },
+          "provider": {
+            "abstained": false,
+            "attempts": 1,
+            "cost": null,
+            "family": "systemone",
+            "format": "systemone_choices",
+            "input_tokens": 765,
+            "latency_ms": 433,
+            "model": "alias-clef",
+            "model_identity_verified": true,
+            "output_tokens": 0,
+            "response_model": "alias-clef",
+            "status": "success",
+            "tokens": 765
+          }
+        },
+        "importance": {
+          "cache_hit": false,
+          "charged_tokens": 532,
+          "decision": {
+            "evidence_ids": [
+              "321bb5bed9485da8ebcbb676"
+            ],
+            "facts": 0.5,
+            "hype": 0.5,
+            "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
+            "related_event_id": null,
+            "score": 0.9,
+            "signal": 0.5,
+            "verdict": "yes"
+          },
+          "provider": {
+            "abstained": false,
+            "attempts": 1,
+            "cost": null,
+            "family": "systemone",
+            "format": "systemone_choices",
+            "input_tokens": 532,
+            "latency_ms": 446,
+            "model": "alias-clef",
+            "model_identity_verified": true,
+            "output_tokens": 0,
+            "response_model": "alias-clef",
+            "status": "success",
+            "tokens": 532
+          }
+        },
+        "relevance": {
+          "cache_hit": false,
+          "charged_tokens": 510,
+          "decision": {
+            "evidence_ids": [
+              "321bb5bed9485da8ebcbb676"
+            ],
+            "facts": 0.5,
+            "hype": 0.5,
+            "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
+            "related_event_id": null,
+            "score": 0.9,
+            "signal": 0.5,
+            "verdict": "yes"
+          },
+          "provider": {
+            "abstained": false,
+            "attempts": 1,
+            "cost": null,
+            "family": "systemone",
+            "format": "systemone_choices",
+            "input_tokens": 510,
+            "latency_ms": 416,
+            "model": "alias-clef",
+            "model_identity_verified": true,
+            "output_tokens": 0,
+            "response_model": "alias-clef",
+            "status": "success",
+            "tokens": 510
+          }
+        },
+        "same-story": {
+          "cache_hit": false,
+          "charged_tokens": 582,
+          "decision": {
+            "evidence_ids": [
+              "321bb5bed9485da8ebcbb676"
+            ],
+            "facts": 0.5,
+            "hype": 0.5,
+            "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
+            "related_event_id": null,
+            "score": 0.5,
+            "signal": 0.5,
+            "verdict": "unknown"
+          },
+          "provider": {
+            "abstained": false,
+            "attempts": 1,
+            "cost": null,
+            "family": "systemone",
+            "format": "systemone_choices",
+            "input_tokens": 582,
+            "latency_ms": 455,
+            "model": "alias-clef",
+            "model_identity_verified": true,
+            "output_tokens": 0,
+            "response_model": "alias-clef",
+            "status": "success",
+            "tokens": 582
+          }
+        },
+        "worth-attention": {
+          "cache_hit": false,
+          "charged_tokens": 514,
+          "decision": {
+            "evidence_ids": [
+              "321bb5bed9485da8ebcbb676"
+            ],
+            "facts": 0.5,
+            "hype": 0.5,
+            "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
+            "related_event_id": null,
+            "score": 0.9,
+            "signal": 0.5,
+            "verdict": "yes"
+          },
+          "provider": {
+            "abstained": false,
+            "attempts": 1,
+            "cost": null,
+            "family": "systemone",
+            "format": "systemone_choices",
+            "input_tokens": 514,
+            "latency_ms": 418,
+            "model": "alias-clef",
+            "model_identity_verified": true,
+            "output_tokens": 0,
+            "response_model": "alias-clef",
+            "status": "success",
+            "tokens": 514
+          }
+        }
+      },
+      "duplicate_of": null,
+      "eligibility": null,
+      "event_id": "94a90e5d3e8580064d664cc6",
+      "evidence": [
+        {
+          "content_hash": "53be3dd8fbfc5d0d76c966547505b271bf4d48cc8ebfaf1a73ff6d59981b98d9",
+          "discovery_language": "en",
+          "excerpt": "Zalo integrates 5 AI accessibility features for the elderly, from video subtitles to message translation. Vietnam.vn",
+          "fresh": true,
+          "id": "321bb5bed9485da8ebcbb676",
+          "language": "en",
+          "language_basis": "lexical_heuristic_requires_review",
+          "primary": false,
+          "published_at": "2026-11-05T07:27:30Z",
+          "publisher": "Vietnam.vn",
+          "retrieved_at": "2026-11-09T06:19:25.420749Z",
+          "title": "Zalo integrates 5 AI accessibility features for the elderly, from video subtitles to message translation. - Vietnam.vn",
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOLVBkUGEyWWp1dlJYcFBfQXMzQVk0Z1Q3dmpDNlR1Y011R3ZfZ2JxN3VMN1VWTU4tRGw4ZGljYlRIVzMzWUhpdGdMY21iZXVPU0ZTVWMyRXRJWnhVN1BLbVhtMU1VRlFIbXBpZnVGYzVaallvNF9JR09CMWVXSTRTcUZFdkZOeWVyVUI0ci1oLUhWWGlaLXdHTF9UN2poRWpRQnIydVJkZFlkeEQxZVV0SFpJTk5TR1k?oc=5"
+        }
+      ],
+      "historical_application_status": null,
+      "historical_deadline": null,
+      "id": "0496b43eed2a8e28972916ee",
+      "matched_topics": [
+        "accessibility"
+      ],
+      "missing_verification": [],
+      "reasons": [
+        "provisional_domain_rubric_threshold_met_not_verified_truth"
+      ],
+      "technical_significance": null,
+      "title": "Zalo integrates 5 AI accessibility features for the elderly, from video subtitles to message translation. - Vietnam.vn",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOLVBkUGEyWWp1dlJYcFBfQXMzQVk0Z1Q3dmpDNlR1Y011R3ZfZ2JxN3VMN1VWTU4tRGw4ZGljYlRIVzMzWUhpdGdMY21iZXVPU0ZTVWMyRXRJWnhVN1BLbVhtMU1VRlFIbXBpZnVGYzVaallvNF9JR09CMWVXSTRTcUZFdkZOeWVyVUI0ci1oLUhWWGlaLXdHTF9UN2poRWpRQnIydVJkZFlkeEQxZVV0SFpJTk5TR1k?oc=5"
+    },
+    {
+      "application_status": null,
+      "attention": 0.45,
+      "classification": "UNASSESSED",
+      "confirmed": false,
+      "deadline": null,
+      "decisions": {
+        "claim-support": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "hfs": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "importance": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "relevance": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "same-story": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "worth-attention": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        }
+      },
+      "duplicate_of": null,
+      "eligibility": null,
+      "event_id": "13a24a66f535627e168eeb60",
+      "evidence": [
+        {
+          "content_hash": "75f03b03094af4bc448ed24dde26a6082205d9ab5e7e871efadc9dffe5db4578",
+          "discovery_language": "en",
+          "excerpt": "Springdale AI panel brings accessibility into focus Bramptonist",
+          "fresh": true,
+          "id": "9400dee14013d8755b6576da",
+          "language": "unknown",
+          "language_basis": "insufficient_language_evidence",
+          "primary": false,
+          "published_at": "2026-11-03T14:20:18Z",
+          "publisher": "Bramptonist",
+          "retrieved_at": "2026-11-09T06:19:25.420767Z",
+          "title": "Springdale AI panel brings accessibility into focus - Bramptonist",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQS0xKNmxnUnZacUU1VkFjczItQVlSMEh0WkNKclVOLUhMaDdUclQ0UVFtTmFnX3FpYUs5WS1FWXNaakVlQlI0TnpMYWMwcHdIbTl0V2RzZDJrN1dUSkNzSTVYVEJMTXlXZWtPV01DWlQ3aHE2SWFLUjZwZ2VISXlXcnYyWVZGY1k?oc=5"
+        }
+      ],
+      "historical_application_status": null,
+      "historical_deadline": null,
+      "id": "86ba171a44266dfe0c195e8c",
+      "matched_topics": [
+        "accessibility"
+      ],
+      "missing_verification": [],
+      "reasons": [
+        "incomplete_uncertain_or_below_threshold_model_assessment"
+      ],
+      "technical_significance": null,
+      "title": "Springdale AI panel brings accessibility into focus - Bramptonist",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQS0xKNmxnUnZacUU1VkFjczItQVlSMEh0WkNKclVOLUhMaDdUclQ0UVFtTmFnX3FpYUs5WS1FWXNaakVlQlI0TnpMYWMwcHdIbTl0V2RzZDJrN1dUSkNzSTVYVEJMTXlXZWtPV01DWlQ3aHE2SWFLUjZwZ2VISXlXcnYyWVZGY1k?oc=5"
+    },
+    {
+      "application_status": null,
+      "attention": 0.3,
+      "classification": "UNASSESSED",
+      "confirmed": false,
+      "deadline": null,
+      "decisions": {
+        "claim-support": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "hfs": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "importance": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "relevance": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "same-story": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "worth-attention": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        }
+      },
+      "duplicate_of": null,
+      "eligibility": null,
+      "event_id": "e884773f7c8d802eb2802aa7",
+      "evidence": [
+        {
+          "content_hash": "efcd7650712bec08eb4652418b9cb7f1e3edb00e5789d904029d04923ed83c54",
+          "discovery_language": "en",
+          "excerpt": "5 Ways To Train Siri AI For Better Responses BGR",
+          "fresh": true,
+          "id": "9664a0d4b66f0d26091efb76",
+          "language": "unknown",
+          "language_basis": "insufficient_language_evidence",
+          "primary": false,
+          "published_at": "2026-11-08T16:17:00Z",
+          "publisher": "BGR",
+          "retrieved_at": "2026-11-09T06:19:25.420783Z",
+          "title": "5 Ways To Train Siri AI For Better Responses - BGR",
+          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFAxREpMNkJVV29ReC1yRGFxS2t4VVd3c3pfNm1MSS1yOHJVN21fZEdqb3Zqc3Uwd2JScXZtVC1qdXJOaElPQ2g5ZXpjaVNtNlNfZ1k1SWZzVTFRcW1JVjJGRnFPVkpQTXlIMVBzM2lxN3hjdw?oc=5"
+        }
+      ],
+      "historical_application_status": null,
+      "historical_deadline": null,
+      "id": "ef202d488bc760aa8283af91",
+      "matched_topics": [],
+      "missing_verification": [],
+      "reasons": [
+        "incomplete_uncertain_or_below_threshold_model_assessment"
+      ],
+      "technical_significance": null,
+      "title": "5 Ways To Train Siri AI For Better Responses - BGR",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFAxREpMNkJVV29ReC1yRGFxS2t4VVd3c3pfNm1MSS1yOHJVN21fZEdqb3Zqc3Uwd2JScXZtVC1qdXJOaElPQ2g5ZXpjaVNtNlNfZ1k1SWZzVTFRcW1JVjJGRnFPVkpQTXlIMVBzM2lxN3hjdw?oc=5"
+    },
+    {
+      "application_status": null,
+      "attention": 0.45,
+      "classification": "UNASSESSED",
+      "confirmed": false,
+      "deadline": null,
+      "decisions": {
+        "claim-support": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "hfs": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "importance": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "relevance": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "same-story": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "worth-attention": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        }
+      },
+      "duplicate_of": null,
+      "eligibility": null,
+      "event_id": "f1a4d8a0ba9dd1b9e3af1a3c",
+      "evidence": [
+        {
+          "content_hash": "9857a9fb3d618bd1f6581fb4d4fae42be99e5cd277c432b0f627b04e8c7ebfef",
+          "discovery_language": "en",
+          "excerpt": "iPhone Duo Just Got A New Accessibility Feature In iOS 27.3 Beta Engadget",
+          "fresh": true,
+          "id": "c5fadd64a7a922a6abcf87dd",
+          "language": "unknown",
+          "language_basis": "insufficient_language_evidence",
+          "primary": false,
+          "published_at": "2026-11-05T17:59:50Z",
+          "publisher": "Engadget",
+          "retrieved_at": "2026-11-09T06:19:25.420800Z",
+          "title": "iPhone Duo Just Got A New Accessibility Feature In iOS 27.3 Beta - Engadget",
+          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNTHp0SkJhVkVQM1FoNVJHM3IzYjgzeUd6RjlvUHhraThJN0NsY3hfYmNmUkx6a1ltbFM5TWlTdE9hZlhLTkFIR2xXWkE5YXBxYllYSGRMQUlLUExEZ1ZhdjVDTjQtVGFpOURGcEJHUUxoTXotblhEaWFsWjFVY2gxY0pBc3BVa21weVpqWGdfX2tiZXExTDVjN2JJSEZBQQ?oc=5"
+        }
+      ],
+      "historical_application_status": null,
+      "historical_deadline": null,
+      "id": "8a25f06485eea73829acd904",
+      "matched_topics": [
+        "accessibility"
+      ],
+      "missing_verification": [],
+      "reasons": [
+        "incomplete_uncertain_or_below_threshold_model_assessment"
+      ],
+      "technical_significance": null,
+      "title": "iPhone Duo Just Got A New Accessibility Feature In iOS 27.3 Beta - Engadget",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNTHp0SkJhVkVQM1FoNVJHM3IzYjgzeUd6RjlvUHhraThJN0NsY3hfYmNmUkx6a1ltbFM5TWlTdE9hZlhLTkFIR2xXWkE5YXBxYllYSGRMQUlLUExEZ1ZhdjVDTjQtVGFpOURGcEJHUUxoTXotblhEaWFsWjFVY2gxY0pBc3BVa21weVpqWGdfX2tiZXExTDVjN2JJSEZBQQ?oc=5"
+    },
+    {
+      "application_status": null,
+      "attention": 0.3,
+      "classification": "UNASSESSED",
+      "confirmed": false,
+      "deadline": null,
+      "decisions": {
+        "claim-support": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "hfs": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "importance": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "relevance": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "same-story": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "worth-attention": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        }
+      },
+      "duplicate_of": null,
+      "eligibility": null,
+      "event_id": "f788012c382d8907677d13b9",
+      "evidence": [
+        {
+          "content_hash": "04006b016babf72e155f8af78193c4e1707e0125f653e4587a858a3eab2e5bb0",
+          "discovery_language": "en",
+          "excerpt": "AI stock sell-off sends the S&P 500 down 4.4% in worst day since April 2025 CBC",
+          "fresh": true,
+          "id": "f1ad430ce709b54a84517d85",
+          "language": "unknown",
+          "language_basis": "insufficient_language_evidence",
+          "primary": false,
+          "published_at": "2026-11-05T23:08:45Z",
+          "publisher": "CBC",
+          "retrieved_at": "2026-11-09T06:19:25.420815Z",
+          "title": "AI stock sell-off sends the S&P 500 down 4.4% in worst day since April 2025 - CBC",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9OV3FBZktKMVI0S1kxc2lWZ2xwVFJYSk5BVGl6M0c5eThGNDM3NHBYUWNIYmdRWWVCSjVyX2xvaFJLaDZ1MmhuN0hqY0tHYWIwZnZCTGtYU1NsMFhRRzlsUUQ3V0ZyMVdxeFZERg?oc=5"
+        }
+      ],
+      "historical_application_status": null,
+      "historical_deadline": null,
+      "id": "8e6be0d6f406fe852c41ed8c",
+      "matched_topics": [],
+      "missing_verification": [],
+      "reasons": [
+        "incomplete_uncertain_or_below_threshold_model_assessment"
+      ],
+      "technical_significance": null,
+      "title": "AI stock sell-off sends the S&P 500 down 4.4% in worst day since April 2025 - CBC",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9OV3FBZktKMVI0S1kxc2lWZ2xwVFJYSk5BVGl6M0c5eThGNDM3NHBYUWNIYmdRWWVCSjVyX2xvaFJLaDZ1MmhuN0hqY0tHYWIwZnZCTGtYU1NsMFhRRzlsUUQ3V0ZyMVdxeFZERg?oc=5"
+    },
+    {
+      "application_status": null,
+      "attention": 0.3,
+      "classification": "UNASSESSED",
+      "confirmed": false,
+      "deadline": null,
+      "decisions": {
+        "claim-support": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "hfs": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "importance": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "relevance": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "same-story": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "worth-attention": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        }
+      },
+      "duplicate_of": null,
+      "eligibility": null,
+      "event_id": "ae74ec2e259a2d26bb7144cf",
+      "evidence": [
+        {
+          "content_hash": "d191f19222b179c4ac71263f04f9e7c299b76bc534e0595f6c26f4d0e5efc48d",
+          "discovery_language": "en",
+          "excerpt": "iOS 27 is on your iPhone – but what new features are still to come? Macworld",
+          "fresh": true,
+          "id": "7e85ba6a663821e5605634aa",
+          "language": "unknown",
+          "language_basis": "insufficient_language_evidence",
+          "primary": false,
+          "published_at": "2026-11-04T08:00:00Z",
+          "publisher": "Macworld",
+          "retrieved_at": "2026-11-09T06:19:25.420832Z",
+          "title": "iOS 27 is on your iPhone – but what new features are still to come? - Macworld",
+          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPRzdMbk5qSlBZSEs0TDNDVm5uSjZqT3B0aEpBaXhCdE9TQS1kOEhHNmNPZFZLejJIWHVWU00yMzZKS3lERndQb2kxekNGZ3VnbXRjamdlSmhmb1lHUUYzd2c2d3VDdEEweXBySVF1UHhZaDFBNk90cDJsT2MycEtvR0RtNHQ3a0kwZzJyd2dRWUNVeU83?oc=5"
+        }
+      ],
+      "historical_application_status": null,
+      "historical_deadline": null,
+      "id": "81b307e2892900cb37fe4750",
+      "matched_topics": [],
+      "missing_verification": [],
+      "reasons": [
+        "incomplete_uncertain_or_below_threshold_model_assessment"
+      ],
+      "technical_significance": null,
+      "title": "iOS 27 is on your iPhone – but what new features are still to come? - Macworld",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPRzdMbk5qSlBZSEs0TDNDVm5uSjZqT3B0aEpBaXhCdE9TQS1kOEhHNmNPZFZLejJIWHVWU00yMzZKS3lERndQb2kxekNGZ3VnbXRjamdlSmhmb1lHUUYzd2c2d3VDdEEweXBySVF1UHhZaDFBNk90cDJsT2MycEtvR0RtNHQ3a0kwZzJyd2dRWUNVeU83?oc=5"
+    },
+    {
+      "application_status": null,
+      "attention": 0.3,
+      "classification": "UNASSESSED",
+      "confirmed": false,
+      "deadline": null,
+      "decisions": {
+        "claim-support": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "hfs": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "importance": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "relevance": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "same-story": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "worth-attention": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        }
+      },
+      "duplicate_of": null,
+      "eligibility": null,
+      "event_id": "76f50a4799729bd6fd998a35",
+      "evidence": [
+        {
+          "content_hash": "2b6f2e625cbdd9cb836700c54ba463f68e5d4b3f6bc430bd9f0552f590ce84bc",
+          "discovery_language": "en",
+          "excerpt": "Americans with Disabilities Act (ADA) | History & Facts Britannica",
+          "fresh": true,
+          "id": "8acaacf88a0f027a5323a602",
+          "language": "unknown",
+          "language_basis": "insufficient_language_evidence",
+          "primary": false,
+          "published_at": "2026-11-04T08:00:00Z",
+          "publisher": "Britannica",
+          "retrieved_at": "2026-11-09T06:19:25.420848Z",
+          "title": "Americans with Disabilities Act (ADA) | History & Facts - Britannica",
+          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBKRlJubW1jd1AzSy1UcmY0MDVEcFVPb1dTX2k5Y2h1SXZMNGNGa2JaNjRnSU5wMU1YSWswZmxYcFlhWmk3ZXBYRUVWeUlNdWVVRmtxc2FxVTB2WGVzMjlUdDJycU1Qd29QMjRqaXQ2aGdhQQ?oc=5"
+        }
+      ],
+      "historical_application_status": null,
+      "historical_deadline": null,
+      "id": "695a4b21da7e9a30666b1a59",
+      "matched_topics": [],
+      "missing_verification": [],
+      "reasons": [
+        "incomplete_uncertain_or_below_threshold_model_assessment"
+      ],
+      "technical_significance": null,
+      "title": "Americans with Disabilities Act (ADA) | History & Facts - Britannica",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBKRlJubW1jd1AzSy1UcmY0MDVEcFVPb1dTX2k5Y2h1SXZMNGNGa2JaNjRnSU5wMU1YSWswZmxYcFlhWmk3ZXBYRUVWeUlNdWVVRmtxc2FxVTB2WGVzMjlUdDJycU1Qd29QMjRqaXQ2aGdhQQ?oc=5"
+    },
+    {
+      "application_status": null,
+      "attention": 0.3,
+      "classification": "UNASSESSED",
+      "confirmed": false,
+      "deadline": null,
+      "decisions": {
+        "claim-support": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "hfs": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "importance": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "relevance": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "same-story": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "worth-attention": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        }
+      },
+      "duplicate_of": null,
+      "eligibility": null,
+      "event_id": "d11f94ba16f376a1a364290b",
+      "evidence": [
+        {
+          "content_hash": "976658cffbf19e9eb0c2ffc0d2dd515c2f866a8236c0cfc6a3aa88dcf219060e",
+          "discovery_language": "en",
+          "excerpt": "macOS Golden Gate is here – but what features are still coming to your Mac? Macworld",
+          "fresh": true,
+          "id": "95d9aa7362c67df9bf24d77b",
+          "language": "unknown",
+          "language_basis": "insufficient_language_evidence",
+          "primary": false,
+          "published_at": "2026-11-04T08:00:00Z",
+          "publisher": "Macworld",
+          "retrieved_at": "2026-11-09T06:19:25.420865Z",
+          "title": "macOS Golden Gate is here – but what features are still coming to your Mac? - Macworld",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQa1lVQy03clZsdTBBYTBrSHNTNm9lMXNmemtsYm5EWjJaZVY3R0dYSWhkei1BWVlKMTBqY3hySXBRbXZIdG9EcGdzb0V2VHUycURkbkg0azhUbzBzcjdVNGFpUGNtT0NCd3RCRndjdWc3QUZiUncybF9CeVM2em1taEhqcmJDOVJTR2hTdVZKaExqcVkxU3F3YjRoSVc1N3ViZDNHdFAzNkpqNTlkYmxUcG9IME5IajlRbHc?oc=5"
+        }
+      ],
+      "historical_application_status": null,
+      "historical_deadline": null,
+      "id": "a39d9571c599bfce0e4a1025",
+      "matched_topics": [],
+      "missing_verification": [],
+      "reasons": [
+        "incomplete_uncertain_or_below_threshold_model_assessment"
+      ],
+      "technical_significance": null,
+      "title": "macOS Golden Gate is here – but what features are still coming to your Mac? - Macworld",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQa1lVQy03clZsdTBBYTBrSHNTNm9lMXNmemtsYm5EWjJaZVY3R0dYSWhkei1BWVlKMTBqY3hySXBRbXZIdG9EcGdzb0V2VHUycURkbkg0azhUbzBzcjdVNGFpUGNtT0NCd3RCRndjdWc3QUZiUncybF9CeVM2em1taEhqcmJDOVJTR2hTdVZKaExqcVkxU3F3YjRoSVc1N3ViZDNHdFAzNkpqNTlkYmxUcG9IME5IajlRbHc?oc=5"
+    },
+    {
+      "application_status": null,
+      "attention": 0.3,
+      "classification": "UNASSESSED",
+      "confirmed": false,
+      "deadline": null,
+      "decisions": {
+        "claim-support": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "hfs": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "importance": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "relevance": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "same-story": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "worth-attention": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        }
+      },
+      "duplicate_of": null,
+      "eligibility": null,
+      "event_id": "6be171b0827f75dcea01dd9a",
+      "evidence": [
+        {
+          "content_hash": "011e4e068d5902f1239856e0f2f0a90408209ef1663a644eda6a102662b16cec",
+          "discovery_language": "en",
+          "excerpt": "WTM London 2026 Opens with Focus on Experiences, AI and Accessible Tourism FTN news",
+          "fresh": true,
+          "id": "436d0269fd4ff9814705375d",
+          "language": "unknown",
+          "language_basis": "insufficient_language_evidence",
+          "primary": false,
+          "published_at": "2026-11-04T09:25:01Z",
+          "publisher": "FTN news",
+          "retrieved_at": "2026-11-09T06:19:25.420882Z",
+          "title": "WTM London 2026 Opens with Focus on Experiences, AI and Accessible Tourism - FTN news",
+          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPdHlEOTE4a3I4S08zNTdPcThPYWZXUTNoNnpaeXR2bzF1RFpmUktYdkZRRzFOcjF0YmIyMlVKcUVpUkg1T0ItQnUydkc4cmtkMlAydEp2WVRkd0hrZnNBMVAwNGJXQUIxako0SUlETXNZOVVwNUxQVzFuOWozdWpDcjlOVTFiQmNHdl9QRlhWeV8?oc=5"
+        }
+      ],
+      "historical_application_status": null,
+      "historical_deadline": null,
+      "id": "cb7b50ba49442bd43d66a4e9",
+      "matched_topics": [],
+      "missing_verification": [],
+      "reasons": [
+        "incomplete_uncertain_or_below_threshold_model_assessment"
+      ],
+      "technical_significance": null,
+      "title": "WTM London 2026 Opens with Focus on Experiences, AI and Accessible Tourism - FTN news",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPdHlEOTE4a3I4S08zNTdPcThPYWZXUTNoNnpaeXR2bzF1RFpmUktYdkZRRzFOcjF0YmIyMlVKcUVpUkg1T0ItQnUydkc4cmtkMlAydEp2WVRkd0hrZnNBMVAwNGJXQUIxako0SUlETXNZOVVwNUxQVzFuOWozdWpDcjlOVTFiQmNHdl9QRlhWeV8?oc=5"
+    },
+    {
+      "application_status": null,
+      "attention": 0.3,
+      "classification": "UNASSESSED",
+      "confirmed": false,
+      "deadline": null,
+      "decisions": {
+        "claim-support": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "hfs": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "importance": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "relevance": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "same-story": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "worth-attention": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
           }
         }
       },
@@ -216,18 +2566,18 @@
           "primary": false,
           "published_at": "2026-11-09T04:32:33Z",
           "publisher": "unknown",
-          "retrieved_at": "2026-11-09T05:55:52.315730Z",
+          "retrieved_at": "2026-11-09T06:19:25.561923Z",
           "title": "The Web Is More Than Enough, by Paul Ford",
           "url": "https://simonwillison.net/2026/Nov/9/hn-50421091"
         }
       ],
       "historical_application_status": null,
       "historical_deadline": null,
-      "id": "02998671bea41856a0653730",
+      "id": "49b64a6d3c694c6a9b926fd1",
       "matched_topics": [],
       "missing_verification": [],
       "reasons": [
-        "model_relevance_no"
+        "incomplete_uncertain_or_below_threshold_model_assessment"
       ],
       "technical_significance": null,
       "title": "The Web Is More Than Enough, by Paul Ford",
@@ -242,7 +2592,7 @@
       "decisions": {
         "claim-support": {
           "cache_hit": false,
-          "charged_tokens": 589,
+          "charged_tokens": 693,
           "decision": {
             "evidence_ids": [
               "17f98e0bdcf116827a4c9e00"
@@ -261,19 +2611,19 @@
             "cost": null,
             "family": "systemone",
             "format": "systemone_choices",
-            "input_tokens": 589,
-            "latency_ms": 519,
+            "input_tokens": 693,
+            "latency_ms": 439,
             "model": "alias-clef",
             "model_identity_verified": true,
             "output_tokens": 0,
             "response_model": "alias-clef",
             "status": "success",
-            "tokens": 589
+            "tokens": 693
           }
         },
         "hfs": {
           "cache_hit": false,
-          "charged_tokens": 831,
+          "charged_tokens": 935,
           "decision": {
             "evidence_ids": [
               "17f98e0bdcf116827a4c9e00"
@@ -292,19 +2642,19 @@
             "cost": null,
             "family": "systemone",
             "format": "systemone_choices",
-            "input_tokens": 831,
-            "latency_ms": 583,
+            "input_tokens": 935,
+            "latency_ms": 480,
             "model": "alias-clef",
             "model_identity_verified": true,
             "output_tokens": 0,
             "response_model": "alias-clef",
             "status": "success",
-            "tokens": 831
+            "tokens": 935
           }
         },
         "importance": {
           "cache_hit": false,
-          "charged_tokens": 598,
+          "charged_tokens": 702,
           "decision": {
             "evidence_ids": [
               "17f98e0bdcf116827a4c9e00"
@@ -323,19 +2673,19 @@
             "cost": null,
             "family": "systemone",
             "format": "systemone_choices",
-            "input_tokens": 598,
-            "latency_ms": 535,
+            "input_tokens": 702,
+            "latency_ms": 429,
             "model": "alias-clef",
             "model_identity_verified": true,
             "output_tokens": 0,
             "response_model": "alias-clef",
             "status": "success",
-            "tokens": 598
+            "tokens": 702
           }
         },
         "relevance": {
           "cache_hit": false,
-          "charged_tokens": 576,
+          "charged_tokens": 680,
           "decision": {
             "evidence_ids": [
               "17f98e0bdcf116827a4c9e00"
@@ -354,19 +2704,19 @@
             "cost": null,
             "family": "systemone",
             "format": "systemone_choices",
-            "input_tokens": 576,
-            "latency_ms": 515,
+            "input_tokens": 680,
+            "latency_ms": 414,
             "model": "alias-clef",
             "model_identity_verified": true,
             "output_tokens": 0,
             "response_model": "alias-clef",
             "status": "success",
-            "tokens": 576
+            "tokens": 680
           }
         },
         "same-story": {
           "cache_hit": false,
-          "charged_tokens": 648,
+          "charged_tokens": 927,
           "decision": {
             "evidence_ids": [
               "17f98e0bdcf116827a4c9e00"
@@ -385,19 +2735,19 @@
             "cost": null,
             "family": "systemone",
             "format": "systemone_choices",
-            "input_tokens": 648,
-            "latency_ms": 526,
+            "input_tokens": 927,
+            "latency_ms": 443,
             "model": "alias-clef",
             "model_identity_verified": true,
             "output_tokens": 0,
             "response_model": "alias-clef",
             "status": "success",
-            "tokens": 648
+            "tokens": 927
           }
         },
         "worth-attention": {
           "cache_hit": false,
-          "charged_tokens": 580,
+          "charged_tokens": 684,
           "decision": {
             "evidence_ids": [
               "17f98e0bdcf116827a4c9e00"
@@ -416,14 +2766,14 @@
             "cost": null,
             "family": "systemone",
             "format": "systemone_choices",
-            "input_tokens": 580,
-            "latency_ms": 562,
+            "input_tokens": 684,
+            "latency_ms": 421,
             "model": "alias-clef",
             "model_identity_verified": true,
             "output_tokens": 0,
             "response_model": "alias-clef",
             "status": "success",
-            "tokens": 580
+            "tokens": 684
           }
         }
       },
@@ -442,14 +2792,14 @@
           "primary": false,
           "published_at": "2026-11-09T04:25:05Z",
           "publisher": "unknown",
-          "retrieved_at": "2026-11-09T05:55:52.315759Z",
+          "retrieved_at": "2026-11-09T06:19:25.561966Z",
           "title": "Hide your slop PR descriptions behind",
           "url": "https://simonwillison.net/2026/Nov/9/details-summary"
         }
       ],
       "historical_application_status": null,
       "historical_deadline": null,
-      "id": "9521648cb470785fd40757bb",
+      "id": "36ee477c9f10743ce6a6d0a0",
       "matched_topics": [],
       "missing_verification": [],
       "reasons": [
@@ -468,7 +2818,7 @@
       "decisions": {
         "claim-support": {
           "cache_hit": false,
-          "charged_tokens": 686,
+          "charged_tokens": 698,
           "decision": {
             "evidence_ids": [
               "3a1bef313302093b51199da5"
@@ -487,19 +2837,19 @@
             "cost": null,
             "family": "systemone",
             "format": "systemone_choices",
-            "input_tokens": 686,
-            "latency_ms": 522,
+            "input_tokens": 698,
+            "latency_ms": 454,
             "model": "alias-clef",
             "model_identity_verified": true,
             "output_tokens": 0,
             "response_model": "alias-clef",
             "status": "success",
-            "tokens": 686
+            "tokens": 698
           }
         },
         "hfs": {
           "cache_hit": false,
-          "charged_tokens": 928,
+          "charged_tokens": 940,
           "decision": {
             "evidence_ids": [
               "3a1bef313302093b51199da5"
@@ -518,19 +2868,19 @@
             "cost": null,
             "family": "systemone",
             "format": "systemone_choices",
-            "input_tokens": 928,
-            "latency_ms": 575,
+            "input_tokens": 940,
+            "latency_ms": 472,
             "model": "alias-clef",
             "model_identity_verified": true,
             "output_tokens": 0,
             "response_model": "alias-clef",
             "status": "success",
-            "tokens": 928
+            "tokens": 940
           }
         },
         "importance": {
           "cache_hit": false,
-          "charged_tokens": 695,
+          "charged_tokens": 707,
           "decision": {
             "evidence_ids": [
               "3a1bef313302093b51199da5"
@@ -549,19 +2899,19 @@
             "cost": null,
             "family": "systemone",
             "format": "systemone_choices",
-            "input_tokens": 695,
-            "latency_ms": 536,
+            "input_tokens": 707,
+            "latency_ms": 445,
             "model": "alias-clef",
             "model_identity_verified": true,
             "output_tokens": 0,
             "response_model": "alias-clef",
             "status": "success",
-            "tokens": 695
+            "tokens": 707
           }
         },
         "relevance": {
           "cache_hit": false,
-          "charged_tokens": 673,
+          "charged_tokens": 685,
           "decision": {
             "evidence_ids": [
               "3a1bef313302093b51199da5"
@@ -580,19 +2930,19 @@
             "cost": null,
             "family": "systemone",
             "format": "systemone_choices",
-            "input_tokens": 673,
-            "latency_ms": 506,
+            "input_tokens": 685,
+            "latency_ms": 428,
             "model": "alias-clef",
             "model_identity_verified": true,
             "output_tokens": 0,
             "response_model": "alias-clef",
             "status": "success",
-            "tokens": 673
+            "tokens": 685
           }
         },
         "same-story": {
           "cache_hit": false,
-          "charged_tokens": 900,
+          "charged_tokens": 924,
           "decision": {
             "evidence_ids": [
               "3a1bef313302093b51199da5"
@@ -611,19 +2961,19 @@
             "cost": null,
             "family": "systemone",
             "format": "systemone_choices",
-            "input_tokens": 900,
-            "latency_ms": 579,
+            "input_tokens": 924,
+            "latency_ms": 451,
             "model": "alias-clef",
             "model_identity_verified": true,
             "output_tokens": 0,
             "response_model": "alias-clef",
             "status": "success",
-            "tokens": 900
+            "tokens": 924
           }
         },
         "worth-attention": {
           "cache_hit": false,
-          "charged_tokens": 677,
+          "charged_tokens": 689,
           "decision": {
             "evidence_ids": [
               "3a1bef313302093b51199da5"
@@ -642,14 +2992,14 @@
             "cost": null,
             "family": "systemone",
             "format": "systemone_choices",
-            "input_tokens": 677,
-            "latency_ms": 790,
+            "input_tokens": 689,
+            "latency_ms": 430,
             "model": "alias-clef",
             "model_identity_verified": true,
             "output_tokens": 0,
             "response_model": "alias-clef",
             "status": "success",
-            "tokens": 677
+            "tokens": 689
           }
         }
       },
@@ -668,14 +3018,14 @@
           "primary": false,
           "published_at": "2026-11-08T22:26:00Z",
           "publisher": "unknown",
-          "retrieved_at": "2026-11-09T05:55:52.315777Z",
+          "retrieved_at": "2026-11-09T06:19:25.561995Z",
           "title": "parse_number() as a SQLite extension: C vs Rust",
           "url": "https://simonwillison.net/2026/Nov/8/sqlite-parse-number-c-vs-rust"
         }
       ],
       "historical_application_status": null,
       "historical_deadline": null,
-      "id": "65bc46d55d99149b1e820b02",
+      "id": "5f79788d2faaf82999b04e84",
       "matched_topics": [],
       "missing_verification": [],
       "reasons": [
@@ -687,195 +3037,63 @@
     },
     {
       "application_status": null,
-      "attention": 0.68,
-      "classification": "REJECTED",
+      "attention": 0.3,
+      "classification": "UNASSESSED",
       "confirmed": false,
       "deadline": null,
       "decisions": {
         "claim-support": {
           "cache_hit": false,
-          "charged_tokens": 683,
-          "decision": {
-            "evidence_ids": [
-              "1c7355b3de07c180d6851a66"
-            ],
-            "facts": 0.5,
-            "hype": 0.5,
-            "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
-            "related_event_id": null,
-            "score": 0.9,
-            "signal": 0.5,
-            "verdict": "yes"
-          },
+          "charged_tokens": 0,
+          "decision": null,
           "provider": {
-            "abstained": false,
-            "attempts": 1,
-            "cost": null,
-            "family": "systemone",
-            "format": "systemone_choices",
-            "input_tokens": 683,
-            "latency_ms": 540,
             "model": "alias-clef",
-            "model_identity_verified": true,
-            "output_tokens": 0,
-            "response_model": "alias-clef",
-            "status": "success",
-            "tokens": 683
+            "status": "budget_limit"
           }
         },
         "hfs": {
           "cache_hit": false,
-          "charged_tokens": 925,
-          "decision": {
-            "evidence_ids": [
-              "1c7355b3de07c180d6851a66"
-            ],
-            "facts": 0.9,
-            "hype": 0.1,
-            "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
-            "related_event_id": null,
-            "score": 0.9,
-            "signal": 0.9,
-            "verdict": "yes"
-          },
+          "charged_tokens": 0,
+          "decision": null,
           "provider": {
-            "abstained": false,
-            "attempts": 1,
-            "cost": null,
-            "family": "systemone",
-            "format": "systemone_choices",
-            "input_tokens": 925,
-            "latency_ms": 561,
             "model": "alias-clef",
-            "model_identity_verified": true,
-            "output_tokens": 0,
-            "response_model": "alias-clef",
-            "status": "success",
-            "tokens": 925
+            "status": "budget_limit"
           }
         },
         "importance": {
           "cache_hit": false,
-          "charged_tokens": 692,
-          "decision": {
-            "evidence_ids": [
-              "1c7355b3de07c180d6851a66"
-            ],
-            "facts": 0.5,
-            "hype": 0.5,
-            "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
-            "related_event_id": null,
-            "score": 0.9,
-            "signal": 0.5,
-            "verdict": "yes"
-          },
+          "charged_tokens": 0,
+          "decision": null,
           "provider": {
-            "abstained": false,
-            "attempts": 1,
-            "cost": null,
-            "family": "systemone",
-            "format": "systemone_choices",
-            "input_tokens": 692,
-            "latency_ms": 514,
             "model": "alias-clef",
-            "model_identity_verified": true,
-            "output_tokens": 0,
-            "response_model": "alias-clef",
-            "status": "success",
-            "tokens": 692
+            "status": "budget_limit"
           }
         },
         "relevance": {
           "cache_hit": false,
-          "charged_tokens": 670,
-          "decision": {
-            "evidence_ids": [
-              "1c7355b3de07c180d6851a66"
-            ],
-            "facts": 0.5,
-            "hype": 0.5,
-            "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
-            "related_event_id": null,
-            "score": 0.1,
-            "signal": 0.5,
-            "verdict": "no"
-          },
+          "charged_tokens": 0,
+          "decision": null,
           "provider": {
-            "abstained": false,
-            "attempts": 1,
-            "cost": null,
-            "family": "systemone",
-            "format": "systemone_choices",
-            "input_tokens": 670,
-            "latency_ms": 522,
             "model": "alias-clef",
-            "model_identity_verified": true,
-            "output_tokens": 0,
-            "response_model": "alias-clef",
-            "status": "success",
-            "tokens": 670
+            "status": "budget_limit"
           }
         },
         "same-story": {
           "cache_hit": false,
-          "charged_tokens": 894,
-          "decision": {
-            "evidence_ids": [
-              "1c7355b3de07c180d6851a66"
-            ],
-            "facts": 0.5,
-            "hype": 0.5,
-            "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
-            "related_event_id": null,
-            "score": 0.9,
-            "signal": 0.5,
-            "verdict": "different"
-          },
+          "charged_tokens": 0,
+          "decision": null,
           "provider": {
-            "abstained": false,
-            "attempts": 1,
-            "cost": null,
-            "family": "systemone",
-            "format": "systemone_choices",
-            "input_tokens": 894,
-            "latency_ms": 553,
             "model": "alias-clef",
-            "model_identity_verified": true,
-            "output_tokens": 0,
-            "response_model": "alias-clef",
-            "status": "success",
-            "tokens": 894
+            "status": "budget_limit"
           }
         },
         "worth-attention": {
           "cache_hit": false,
-          "charged_tokens": 674,
-          "decision": {
-            "evidence_ids": [
-              "1c7355b3de07c180d6851a66"
-            ],
-            "facts": 0.5,
-            "hype": 0.5,
-            "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
-            "related_event_id": null,
-            "score": 0.9,
-            "signal": 0.5,
-            "verdict": "yes"
-          },
+          "charged_tokens": 0,
+          "decision": null,
           "provider": {
-            "abstained": false,
-            "attempts": 1,
-            "cost": null,
-            "family": "systemone",
-            "format": "systemone_choices",
-            "input_tokens": 674,
-            "latency_ms": 527,
             "model": "alias-clef",
-            "model_identity_verified": true,
-            "output_tokens": 0,
-            "response_model": "alias-clef",
-            "status": "success",
-            "tokens": 674
+            "status": "budget_limit"
           }
         }
       },
@@ -894,18 +3112,18 @@
           "primary": false,
           "published_at": "2026-11-07T23:57:46Z",
           "publisher": "unknown",
-          "retrieved_at": "2026-11-09T05:55:52.315792Z",
+          "retrieved_at": "2026-11-09T06:19:25.562021Z",
           "title": "datasette #3046: Don't serve link: rel=next HTTP headers to Firefox for HTML pages",
           "url": "https://simonwillison.net/2026/Nov/7/link-rel-next"
         }
       ],
       "historical_application_status": null,
       "historical_deadline": null,
-      "id": "86536f0e462d91a96700a02d",
+      "id": "9002cce1b93a5e9a6bc08cf9",
       "matched_topics": [],
       "missing_verification": [],
       "reasons": [
-        "model_relevance_no"
+        "incomplete_uncertain_or_below_threshold_model_assessment"
       ],
       "technical_significance": null,
       "title": "datasette #3046: Don't serve link: rel=next HTTP headers to Firefox for HTML pages",
@@ -913,195 +3131,63 @@
     },
     {
       "application_status": null,
-      "attention": 0.36,
-      "classification": "REJECTED",
+      "attention": 0.3,
+      "classification": "UNASSESSED",
       "confirmed": false,
       "deadline": null,
       "decisions": {
         "claim-support": {
           "cache_hit": false,
-          "charged_tokens": 666,
-          "decision": {
-            "evidence_ids": [
-              "00d9572b93002b02c067db47"
-            ],
-            "facts": 0.5,
-            "hype": 0.5,
-            "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
-            "related_event_id": null,
-            "score": 0.9,
-            "signal": 0.5,
-            "verdict": "yes"
-          },
+          "charged_tokens": 0,
+          "decision": null,
           "provider": {
-            "abstained": false,
-            "attempts": 1,
-            "cost": null,
-            "family": "systemone",
-            "format": "systemone_choices",
-            "input_tokens": 666,
-            "latency_ms": 537,
             "model": "alias-clef",
-            "model_identity_verified": true,
-            "output_tokens": 0,
-            "response_model": "alias-clef",
-            "status": "success",
-            "tokens": 666
+            "status": "budget_limit"
           }
         },
         "hfs": {
           "cache_hit": false,
-          "charged_tokens": 908,
-          "decision": {
-            "evidence_ids": [
-              "00d9572b93002b02c067db47"
-            ],
-            "facts": 0.1,
-            "hype": 0.1,
-            "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
-            "related_event_id": null,
-            "score": 0.1,
-            "signal": 0.1,
-            "verdict": "no"
-          },
+          "charged_tokens": 0,
+          "decision": null,
           "provider": {
-            "abstained": false,
-            "attempts": 1,
-            "cost": null,
-            "family": "systemone",
-            "format": "systemone_choices",
-            "input_tokens": 908,
-            "latency_ms": 555,
             "model": "alias-clef",
-            "model_identity_verified": true,
-            "output_tokens": 0,
-            "response_model": "alias-clef",
-            "status": "success",
-            "tokens": 908
+            "status": "budget_limit"
           }
         },
         "importance": {
           "cache_hit": false,
-          "charged_tokens": 675,
-          "decision": {
-            "evidence_ids": [
-              "00d9572b93002b02c067db47"
-            ],
-            "facts": 0.5,
-            "hype": 0.5,
-            "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
-            "related_event_id": null,
-            "score": 0.1,
-            "signal": 0.5,
-            "verdict": "no"
-          },
+          "charged_tokens": 0,
+          "decision": null,
           "provider": {
-            "abstained": false,
-            "attempts": 1,
-            "cost": null,
-            "family": "systemone",
-            "format": "systemone_choices",
-            "input_tokens": 675,
-            "latency_ms": 519,
             "model": "alias-clef",
-            "model_identity_verified": true,
-            "output_tokens": 0,
-            "response_model": "alias-clef",
-            "status": "success",
-            "tokens": 675
+            "status": "budget_limit"
           }
         },
         "relevance": {
           "cache_hit": false,
-          "charged_tokens": 653,
-          "decision": {
-            "evidence_ids": [
-              "00d9572b93002b02c067db47"
-            ],
-            "facts": 0.5,
-            "hype": 0.5,
-            "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
-            "related_event_id": null,
-            "score": 0.1,
-            "signal": 0.5,
-            "verdict": "no"
-          },
+          "charged_tokens": 0,
+          "decision": null,
           "provider": {
-            "abstained": false,
-            "attempts": 1,
-            "cost": null,
-            "family": "systemone",
-            "format": "systemone_choices",
-            "input_tokens": 653,
-            "latency_ms": 542,
             "model": "alias-clef",
-            "model_identity_verified": true,
-            "output_tokens": 0,
-            "response_model": "alias-clef",
-            "status": "success",
-            "tokens": 653
+            "status": "budget_limit"
           }
         },
         "same-story": {
           "cache_hit": false,
-          "charged_tokens": 881,
-          "decision": {
-            "evidence_ids": [
-              "00d9572b93002b02c067db47"
-            ],
-            "facts": 0.5,
-            "hype": 0.5,
-            "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
-            "related_event_id": null,
-            "score": 0.9,
-            "signal": 0.5,
-            "verdict": "different"
-          },
+          "charged_tokens": 0,
+          "decision": null,
           "provider": {
-            "abstained": false,
-            "attempts": 1,
-            "cost": null,
-            "family": "systemone",
-            "format": "systemone_choices",
-            "input_tokens": 881,
-            "latency_ms": 572,
             "model": "alias-clef",
-            "model_identity_verified": true,
-            "output_tokens": 0,
-            "response_model": "alias-clef",
-            "status": "success",
-            "tokens": 881
+            "status": "budget_limit"
           }
         },
         "worth-attention": {
           "cache_hit": false,
-          "charged_tokens": 657,
-          "decision": {
-            "evidence_ids": [
-              "00d9572b93002b02c067db47"
-            ],
-            "facts": 0.5,
-            "hype": 0.5,
-            "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
-            "related_event_id": null,
-            "score": 0.1,
-            "signal": 0.5,
-            "verdict": "no"
-          },
+          "charged_tokens": 0,
+          "decision": null,
           "provider": {
-            "abstained": false,
-            "attempts": 1,
-            "cost": null,
-            "family": "systemone",
-            "format": "systemone_choices",
-            "input_tokens": 657,
-            "latency_ms": 525,
             "model": "alias-clef",
-            "model_identity_verified": true,
-            "output_tokens": 0,
-            "response_model": "alias-clef",
-            "status": "success",
-            "tokens": 657
+            "status": "budget_limit"
           }
         }
       },
@@ -1120,18 +3206,18 @@
           "primary": false,
           "published_at": "2026-11-07T19:34:24Z",
           "publisher": "unknown",
-          "retrieved_at": "2026-11-09T05:55:52.315805Z",
+          "retrieved_at": "2026-11-09T06:19:25.562043Z",
           "title": "Terry Pratchett's Study",
           "url": "https://simonwillison.net/2026/Nov/7/hn-50407316"
         }
       ],
       "historical_application_status": null,
       "historical_deadline": null,
-      "id": "62a1051ec168bdb5776aec8c",
+      "id": "daecdb80735498fffdac742d",
       "matched_topics": [],
       "missing_verification": [],
       "reasons": [
-        "model_relevance_no"
+        "incomplete_uncertain_or_below_threshold_model_assessment"
       ],
       "technical_significance": null,
       "title": "Terry Pratchett's Study",
@@ -1214,14 +3300,14 @@
           "primary": false,
           "published_at": "2026-11-06T17:13:12Z",
           "publisher": "unknown",
-          "retrieved_at": "2026-11-09T05:55:52.315819Z",
+          "retrieved_at": "2026-11-09T06:19:25.562068Z",
           "title": "Quoting Nilay Patel",
           "url": "https://simonwillison.net/2026/Nov/6/nilay-patel"
         }
       ],
       "historical_application_status": null,
       "historical_deadline": null,
-      "id": "fcd344bc1bc62db9193df3c8",
+      "id": "6b05fe22f7c4b4e34275b4dd",
       "matched_topics": [],
       "missing_verification": [],
       "reasons": [
@@ -1308,14 +3394,14 @@
           "primary": false,
           "published_at": "2026-11-05T17:34:03Z",
           "publisher": "unknown",
-          "retrieved_at": "2026-11-09T05:55:52.315833Z",
+          "retrieved_at": "2026-11-09T06:19:25.562090Z",
           "title": "Quoting Paul Ford",
           "url": "https://simonwillison.net/2026/Nov/5/paul-ford"
         }
       ],
       "historical_application_status": null,
       "historical_deadline": null,
-      "id": "3037f0263f22b8291046c678",
+      "id": "03589c942c2bd94e5f704a74",
       "matched_topics": [],
       "missing_verification": [],
       "reasons": [
@@ -1327,8 +3413,8 @@
     },
     {
       "application_status": null,
-      "attention": 0.27,
-      "classification": "REJECTED",
+      "attention": 0.3,
+      "classification": "UNASSESSED",
       "confirmed": false,
       "deadline": null,
       "decisions": {
@@ -1352,126 +3438,38 @@
         },
         "importance": {
           "cache_hit": false,
-          "charged_tokens": 687,
-          "decision": {
-            "evidence_ids": [
-              "1e8460dd2c0b414c849f8f29"
-            ],
-            "facts": 0.5,
-            "hype": 0.5,
-            "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
-            "related_event_id": null,
-            "score": 0.1,
-            "signal": 0.5,
-            "verdict": "no"
-          },
+          "charged_tokens": 0,
+          "decision": null,
           "provider": {
-            "abstained": false,
-            "attempts": 1,
-            "cost": null,
-            "family": "systemone",
-            "format": "systemone_choices",
-            "input_tokens": 687,
-            "latency_ms": 542,
             "model": "alias-clef",
-            "model_identity_verified": true,
-            "output_tokens": 0,
-            "response_model": "alias-clef",
-            "status": "success",
-            "tokens": 687
+            "status": "budget_limit"
           }
         },
         "relevance": {
           "cache_hit": false,
-          "charged_tokens": 665,
-          "decision": {
-            "evidence_ids": [
-              "1e8460dd2c0b414c849f8f29"
-            ],
-            "facts": 0.5,
-            "hype": 0.5,
-            "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
-            "related_event_id": null,
-            "score": 0.1,
-            "signal": 0.5,
-            "verdict": "no"
-          },
+          "charged_tokens": 0,
+          "decision": null,
           "provider": {
-            "abstained": false,
-            "attempts": 1,
-            "cost": null,
-            "family": "systemone",
-            "format": "systemone_choices",
-            "input_tokens": 665,
-            "latency_ms": 522,
             "model": "alias-clef",
-            "model_identity_verified": true,
-            "output_tokens": 0,
-            "response_model": "alias-clef",
-            "status": "success",
-            "tokens": 665
+            "status": "budget_limit"
           }
         },
         "same-story": {
           "cache_hit": false,
-          "charged_tokens": 901,
-          "decision": {
-            "evidence_ids": [
-              "1e8460dd2c0b414c849f8f29"
-            ],
-            "facts": 0.5,
-            "hype": 0.5,
-            "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
-            "related_event_id": "5f8103aa8ad8e667fe99f576",
-            "score": 0.9,
-            "signal": 0.5,
-            "verdict": "different"
-          },
+          "charged_tokens": 0,
+          "decision": null,
           "provider": {
-            "abstained": false,
-            "attempts": 1,
-            "cost": null,
-            "family": "systemone",
-            "format": "systemone_choices",
-            "input_tokens": 901,
-            "latency_ms": 559,
             "model": "alias-clef",
-            "model_identity_verified": true,
-            "output_tokens": 0,
-            "response_model": "alias-clef",
-            "status": "success",
-            "tokens": 901
+            "status": "budget_limit"
           }
         },
         "worth-attention": {
           "cache_hit": false,
-          "charged_tokens": 669,
-          "decision": {
-            "evidence_ids": [
-              "1e8460dd2c0b414c849f8f29"
-            ],
-            "facts": 0.5,
-            "hype": 0.5,
-            "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
-            "related_event_id": null,
-            "score": 0.1,
-            "signal": 0.5,
-            "verdict": "no"
-          },
+          "charged_tokens": 0,
+          "decision": null,
           "provider": {
-            "abstained": false,
-            "attempts": 1,
-            "cost": null,
-            "family": "systemone",
-            "format": "systemone_choices",
-            "input_tokens": 669,
-            "latency_ms": 543,
             "model": "alias-clef",
-            "model_identity_verified": true,
-            "output_tokens": 0,
-            "response_model": "alias-clef",
-            "status": "success",
-            "tokens": 669
+            "status": "budget_limit"
           }
         }
       },
@@ -1490,18 +3488,18 @@
           "primary": false,
           "published_at": "2026-11-04T15:26:02Z",
           "publisher": "unknown",
-          "retrieved_at": "2026-11-09T05:55:52.315847Z",
+          "retrieved_at": "2026-11-09T06:19:25.562113Z",
           "title": "datasette-llm 0.1a10",
           "url": "https://simonwillison.net/2026/Nov/4/datasette-llm"
         }
       ],
       "historical_application_status": null,
       "historical_deadline": null,
-      "id": "57c0d3bfb0f021ce853ff2b0",
+      "id": "0ecb16a504593ff24b160983",
       "matched_topics": [],
       "missing_verification": [],
       "reasons": [
-        "model_relevance_no"
+        "incomplete_uncertain_or_below_threshold_model_assessment"
       ],
       "technical_significance": null,
       "title": "datasette-llm 0.1a10",
@@ -1584,14 +3582,14 @@
           "primary": false,
           "published_at": "2026-11-04T00:29:36Z",
           "publisher": "unknown",
-          "retrieved_at": "2026-11-09T05:55:52.315861Z",
+          "retrieved_at": "2026-11-09T06:19:25.562136Z",
           "title": "datasette-apps 0.3a0",
           "url": "https://simonwillison.net/2026/Nov/4/datasette-apps"
         }
       ],
       "historical_application_status": null,
       "historical_deadline": null,
-      "id": "6b96b2544a1cfd984438f94f",
+      "id": "4ccbeefa8fb1dcefa3826c9e",
       "matched_topics": [],
       "missing_verification": [],
       "reasons": [
@@ -1678,14 +3676,14 @@
           "primary": false,
           "published_at": "2026-11-03T23:13:45Z",
           "publisher": "unknown",
-          "retrieved_at": "2026-11-09T05:55:52.315875Z",
+          "retrieved_at": "2026-11-09T06:19:25.562158Z",
           "title": "datasette-agent 0.5a0",
           "url": "https://simonwillison.net/2026/Nov/3/datasette-agent"
         }
       ],
       "historical_application_status": null,
       "historical_deadline": null,
-      "id": "74891e58f9148501d0096038",
+      "id": "b12a3e07b1604373e8d5a8d7",
       "matched_topics": [],
       "missing_verification": [],
       "reasons": [
@@ -1772,14 +3770,14 @@
           "primary": false,
           "published_at": "2026-11-03T21:41:42Z",
           "publisher": "unknown",
-          "retrieved_at": "2026-11-09T05:55:52.315887Z",
+          "retrieved_at": "2026-11-09T06:19:25.562177Z",
           "title": "llm 0.37.1",
           "url": "https://simonwillison.net/2026/Nov/3/llm"
         }
       ],
       "historical_application_status": null,
       "historical_deadline": null,
-      "id": "e275403580f9b47c5819c2e3",
+      "id": "2502e99a92f261efedddd1b0",
       "matched_topics": [],
       "missing_verification": [],
       "reasons": [
@@ -1866,14 +3864,14 @@
           "primary": false,
           "published_at": "2026-11-03T16:42:02Z",
           "publisher": "unknown",
-          "retrieved_at": "2026-11-09T05:55:52.315901Z",
+          "retrieved_at": "2026-11-09T06:19:25.562200Z",
           "title": "AI is destroying my CS degree",
           "url": "https://simonwillison.net/2026/Nov/3/hn-50354278"
         }
       ],
       "historical_application_status": null,
       "historical_deadline": null,
-      "id": "85442e478f3aaf487f773191",
+      "id": "732c63d8d7a6a8dd72784688",
       "matched_topics": [],
       "missing_verification": [],
       "reasons": [
@@ -1960,14 +3958,14 @@
           "primary": false,
           "published_at": "2026-11-03T16:29:48Z",
           "publisher": "unknown",
-          "retrieved_at": "2026-11-09T05:55:52.315916Z",
+          "retrieved_at": "2026-11-09T06:19:25.562224Z",
           "title": "Qwen 3.8 27B on my laptop can interpret model weights, too",
           "url": "https://simonwillison.net/2026/Nov/3/qwen-can-interpret-model-weights"
         }
       ],
       "historical_application_status": null,
       "historical_deadline": null,
-      "id": "bcf92c8ab248bbffb920c2c2",
+      "id": "351629659e1aba65826f431d",
       "matched_topics": [],
       "missing_verification": [],
       "reasons": [
@@ -2054,14 +4052,14 @@
           "primary": false,
           "published_at": "2026-11-03T05:32:25Z",
           "publisher": "unknown",
-          "retrieved_at": "2026-11-09T05:55:52.315928Z",
+          "retrieved_at": "2026-11-09T06:19:25.562245Z",
           "title": "I discovered a sound that leaks your exact location (and it's everywhere) - YouTube",
           "url": "https://simonwillison.net/2026/Nov/3/a-sound-that-leaks-your-exact-location"
         }
       ],
       "historical_application_status": null,
       "historical_deadline": null,
-      "id": "b6e99e7210304cc7cca0b15d",
+      "id": "5193015f97184bcd7f4f8a17",
       "matched_topics": [],
       "missing_verification": [],
       "reasons": [
@@ -2148,14 +4146,14 @@
           "primary": false,
           "published_at": "2026-11-03T05:28:59Z",
           "publisher": "unknown",
-          "retrieved_at": "2026-11-09T05:55:52.315940Z",
+          "retrieved_at": "2026-11-09T06:19:25.562264Z",
           "title": "October sponsors-only newsletter",
           "url": "https://simonwillison.net/2026/Nov/3/october-newsletter"
         }
       ],
       "historical_application_status": null,
       "historical_deadline": null,
-      "id": "a3d029d98abe021dc5a2a69f",
+      "id": "a526a63eb27b121c8ec3f54c",
       "matched_topics": [],
       "missing_verification": [],
       "reasons": [
@@ -2242,14 +4240,14 @@
           "primary": false,
           "published_at": "2026-11-02T23:49:30Z",
           "publisher": "unknown",
-          "retrieved_at": "2026-11-09T05:55:52.315955Z",
+          "retrieved_at": "2026-11-09T06:19:25.562289Z",
           "title": "llm 0.37",
           "url": "https://simonwillison.net/2026/Nov/2/llm"
         }
       ],
       "historical_application_status": null,
       "historical_deadline": null,
-      "id": "2a0d96e98b4ee7b0ad144e97",
+      "id": "29e2422df42f085c8e98ecea",
       "matched_topics": [],
       "missing_verification": [],
       "reasons": [
@@ -2336,14 +4334,14 @@
           "primary": false,
           "published_at": "2026-11-02T13:31:26Z",
           "publisher": "unknown",
-          "retrieved_at": "2026-11-09T05:55:52.315969Z",
+          "retrieved_at": "2026-11-09T06:19:25.562312Z",
           "title": "The U.S. Census Bureau and “Super Intelligence”",
           "url": "https://simonwillison.net/2026/Nov/2/census-bureau-super-intelligence"
         }
       ],
       "historical_application_status": null,
       "historical_deadline": null,
-      "id": "3b885540f9f032fe0bedfbfa",
+      "id": "20930e03b5e38674475bdd1d",
       "matched_topics": [],
       "missing_verification": [],
       "reasons": [
@@ -2355,13 +4353,14 @@
     }
   ],
   "domain": "aux",
-  "generated_at_utc": "2026-11-09T05:56:11.611495+00:00",
+  "generated_at_utc": "2026-11-09T06:19:41.388586+00:00",
   "limitations": [
     "Model choices are uncalibrated editorial judgments, not verified facts.",
     "Short source excerpts may omit context; original publication dates can be unknown.",
     "Novelty compares this run only; no historical corpus was loaded.",
     "Technical significance is unassessed: native choices cannot generate technical-learning explanations or code.",
     "No human ground truth: precision@10 and recall remain null.",
+    "The provider reports an alias, not a separately versioned model-weights revision.",
     "Model budget exhausted; remaining command states are explicitly budget_limit, not inferred decisions."
   ],
   "physical_data_branch": null,
@@ -2408,12 +4407,19 @@
   "recall": null,
   "review_version": "live-review-1.0",
   "schema_version": "1.0",
-  "source_revision": "3c2e79d6645869f6ac3a2178d5d7194bdc73a9ab",
+  "source_revision": "57c41654fdda261ec2168e2e32ba7f1a76567002",
   "sources": [
     {
       "error_code": null,
       "items": 0,
       "query": "AI usability accessibility agent browser testing",
+      "source": "google_news",
+      "status": "ok"
+    },
+    {
+      "error_code": null,
+      "items": 21,
+      "query": "(\"AI\" OR \"artificial intelligence\") (accessibility OR \"usability testing\" OR \"inclusive UX\")",
       "source": "google_news",
       "status": "ok"
     },
@@ -2425,28 +4431,32 @@
   ],
   "statistics": {
     "cache_hits": 0,
-    "candidates": 17,
+    "candidates": 38,
     "confirmed_findings": 0,
     "cost_usd": null,
     "discovery_languages": {
+      "en": 21,
       "unknown": 17
     },
-    "duplicates": 0,
+    "duplicates": 2,
+    "fresh_evidence_references": 38,
+    "historical_evidence_references": 0,
     "invalid_public_urls": 0,
-    "known_tokens": 24573,
+    "known_tokens": 23377,
     "model_requests": 34,
-    "rejected": 6,
-    "retained_for_review": 11,
-    "retrieved_items": 17,
-    "review_worthy": 0,
-    "runtime_seconds": 19.821,
+    "not_in_review_inventory": 0,
+    "rejected": 2,
+    "retained_for_review": 34,
+    "retrieved_items": 38,
+    "review_worthy": 2,
+    "runtime_seconds": 16.353,
     "source_failures": 0,
     "source_languages": {
-      "en": 12,
-      "unknown": 5
+      "en": 13,
+      "unknown": 25
     },
     "token_usage_complete": true
   },
   "window_hours": 168,
-  "workflow_run_id": "42569950068"
+  "workflow_run_id": "42572214484"
 }

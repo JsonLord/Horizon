@@ -1,9 +1,9 @@
 {
   "domain": "distributed-training",
-  "findings_sha256": "6905e45088b9abbc673c83ddd0265fa4d5325835b9b1795c678a0bfed5570382",
+  "findings_sha256": "5665f1d0d36a193748187223f20e7b725aef7179af00f5e649dbb4d18297e355",
   "labels": [
     {
-      "candidate_id": "562dd6db0df38711f8fef16e",
+      "candidate_id": "f99326fa9cbf56e840eb2095",
       "correct_duplicate_classification": null,
       "evidence_supported": null,
       "important": null,
@@ -14,7 +14,7 @@
       "reviewer_notes": null
     },
     {
-      "candidate_id": "f99326fa9cbf56e840eb2095",
+      "candidate_id": "562dd6db0df38711f8fef16e",
       "correct_duplicate_classification": null,
       "evidence_supported": null,
       "important": null,
@@ -81,6 +81,17 @@
     },
     {
       "candidate_id": "99d4861a19320385a91362e3",
+      "correct_duplicate_classification": null,
+      "evidence_supported": null,
+      "important": null,
+      "new_development": null,
+      "preference": null,
+      "relevant": null,
+      "reviewed_at": null,
+      "reviewer_notes": null
+    },
+    {
+      "candidate_id": "2ec98e84ad70ab929b83c6e4",
       "correct_duplicate_classification": null,
       "evidence_supported": null,
       "important": null,

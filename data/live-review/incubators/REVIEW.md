@@ -1,7 +1,7 @@
 # Live review: incubators
 
 Profile: `programs/incubators`; this is not a separate Git data branch.
-Generated: 2026-11-09T05:57:23.822074+00:00. Window: previous 7 days for news; current official refresh for opportunities. Status: **PARTIAL**.
+Generated: 2026-11-09T06:20:44.991544+00:00. Window: previous 7 days for news; current official refresh for opportunities. Status: **PARTIAL**.
 
 ## A. Collection overview
 
@@ -15,22 +15,24 @@ Generated: 2026-11-09T05:57:23.822074+00:00. Window: previous 7 days for news; c
 | review_worthy | 0 |
 | retained_for_review | 5 |
 | confirmed_findings | 0 |
-| source_failures | 3 |
+| source_failures | 2 |
 | source_languages | {"unknown": 2} |
+| fresh_evidence_references | 2 |
+| historical_evidence_references | 8 |
 | discovery_languages | {"unknown": 10} |
 | model_requests | 6 |
-| known_tokens | 4169 |
+| known_tokens | 3594 |
 | token_usage_complete | true |
 | cost_usd | null |
 | cache_hits | 0 |
-| runtime_seconds | 7.099 |
+| runtime_seconds | 6.218 |
 
 Cache replay: `{"performed": true, "cache_hits": 6, "provider_requests": 0, "unchanged_content_avoids_calls": true}`.
 
 | Source / query | Status | Items | Error |
 | --- | --- | --- | --- |
-| google\_news / startup accelerator founder fellowship grant applications | ok | 3 |  |
 | google\_news / software AI innovation incubator application deadline | ok | 6 |  |
+| google\_news / startup accelerator founder fellowship grant applications | ok | 3 |  |
 | program\_primary / https://www.antler.co/pitch | ok | unknown |  |
 | program\_primary / https://kilo.co/ | ok | unknown |  |
 | program\_primary / https://kilo.co/ | ok | unknown |  |
@@ -47,14 +49,14 @@ Ranked within this domain only. Source statements, model judgments and editorial
 ### GET INVESTMENT FROM ANTLER
 
 [Original source](<https://www.antler.co/pitch>)
-Classification: **VERIFICATION_REQUIRED**. Provisional domain attention: 0.58. Technical significance: **unassessed**.
+Classification: **VERIFICATION_REQUIRED**. Provisional domain attention: 0.38. Technical significance: **unassessed**.
 Matched topics: none matched lexically; inspect semantic judgments.
-Language: unknown (insufficient_language_evidence); discovery locale: unknown. Publication: unknown; retrieved: 2026-11-09T05:57:16.773821+00:00; fresh: True.
+Language: unknown (insufficient_language_evidence); discovery locale: unknown. Publication: unknown; retrieved: 2026-11-09T06:20:38.841941+00:00; fresh: True.
 Source-attributed statement from GET INVESTMENT FROM ANTLER: “GET INVESTMENT FROM ANTLER”. This excerpt records what the source says; it does not independently establish the claim or its implications.
-Language: unknown (insufficient_language_evidence); discovery locale: unknown. Publication: unknown; retrieved: 2026-11-09T05:57:16.773821+00:00; fresh: True.
+Language: unknown (insufficient_language_evidence); discovery locale: unknown. Publication: unknown; retrieved: 2026-11-09T06:20:38.841941+00:00; fresh: True.
 Source-attributed statement from GET INVESTMENT FROM ANTLER: “GET INVESTMENT FROM ANTLER”. This excerpt records what the source says; it does not independently establish the claim or its implications.
 **Editorial investigation / potential implications:** Check the official current round, founder prerequisites, costs and equity terms. Strategic fit is separate from eligibility and application availability.
-**Model judgments:** relevance: yes / score 0.9 (success; live); worth-attention: no / score 0.1 (success; live); same-story: unknown / score 0.5 (success; live); importance: yes / score 0.9 (success; live); claim-support: yes / score 0.9 (success; live); hfs: no / score 0.1 (success; live)
+**Model judgments:** relevance: unknown / score 0.5 (success; live); worth-attention: no / score 0.1 (success; live); same-story: unknown / score 0.5 (success; live); importance: no / score 0.1 (success; live); claim-support: yes / score 0.9 (success; live); hfs: no / score 0.1 (success; live)
 Reason: missing\_fresh\_evidence\_or\_hard\_eligibility
 Unresolved: critical\_eligibility\_or\_primary\_evidence\_unknown
 Next investigation: open the cited original, compare primary evidence and label this candidate in review-labels.json.
@@ -89,9 +91,9 @@ Hard eligibility: **review\_required**; application: unknown; deadline: unknown;
 [Original source](<https://www.joinef.com/>)
 Classification: **VERIFICATION_REQUIRED**. Provisional domain attention: 0.3. Technical significance: **unassessed**.
 Matched topics: none matched lexically; inspect semantic judgments.
-Language: unknown (insufficient_language_evidence); discovery locale: unknown. Publication: unknown; retrieved: 2026-11-09T05:57:16.773821+00:00; fresh: False.
+Language: unknown (insufficient_language_evidence); discovery locale: unknown. Publication: unknown; retrieved: 2026-11-09T06:20:38.841941+00:00; fresh: False.
 Source-attributed statement from FOUND, DON'T FOLLOW: “FOUND, DON'T FOLLOW”. This excerpt records what the source says; it does not independently establish the claim or its implications.
-Language: unknown (insufficient_language_evidence); discovery locale: unknown. Publication: unknown; retrieved: 2026-11-09T05:57:16.773821+00:00; fresh: False.
+Language: unknown (insufficient_language_evidence); discovery locale: unknown. Publication: unknown; retrieved: 2026-11-09T06:20:38.841941+00:00; fresh: False.
 Source-attributed statement from FOUND, DON'T FOLLOW: “APPLY HERE”. This excerpt records what the source says; it does not independently establish the claim or its implications.
 **Editorial investigation / potential implications:** Check the official current round, founder prerequisites, costs and equity terms. Strategic fit is separate from eligibility and application availability.
 **Model judgments:** relevance: unassessed / score null (no_fresh_evidence; no call); worth-attention: unassessed / score null (no_fresh_evidence; no call); same-story: unassessed / score null (no_fresh_evidence; no call); importance: unassessed / score null (no_fresh_evidence; no call); claim-support: unassessed / score null (no_fresh_evidence; no call); hfs: unassessed / score null (no_fresh_evidence; no call)
@@ -105,9 +107,9 @@ Hard eligibility: **review\_required**; application: unknown; deadline: unknown;
 [Original source](<https://www.ycombinator.com/apply>)
 Classification: **VERIFICATION_REQUIRED**. Provisional domain attention: 0.3. Technical significance: **unassessed**.
 Matched topics: none matched lexically; inspect semantic judgments.
-Language: unknown (insufficient_language_evidence); discovery locale: unknown. Publication: unknown; retrieved: 2026-11-09T05:57:16.773821+00:00; fresh: False.
+Language: unknown (insufficient_language_evidence); discovery locale: unknown. Publication: unknown; retrieved: 2026-11-09T06:20:38.841941+00:00; fresh: False.
 Source-attributed statement from Apply to Y Combinator: “Apply to Y Combinator”. This excerpt records what the source says; it does not independently establish the claim or its implications.
-Language: unknown (insufficient_language_evidence); discovery locale: unknown. Publication: unknown; retrieved: 2026-11-09T05:57:16.773821+00:00; fresh: False.
+Language: unknown (insufficient_language_evidence); discovery locale: unknown. Publication: unknown; retrieved: 2026-11-09T06:20:38.841941+00:00; fresh: False.
 Source-attributed statement from Apply to Y Combinator: “Apply”. This excerpt records what the source says; it does not independently establish the claim or its implications.
 **Editorial investigation / potential implications:** Check the official current round, founder prerequisites, costs and equity terms. Strategic fit is separate from eligibility and application availability.
 **Model judgments:** relevance: unassessed / score null (no_fresh_evidence; no call); worth-attention: unassessed / score null (no_fresh_evidence; no call); same-story: unassessed / score null (no_fresh_evidence; no call); importance: unassessed / score null (no_fresh_evidence; no call); claim-support: unassessed / score null (no_fresh_evidence; no call); hfs: unassessed / score null (no_fresh_evidence; no call)
@@ -127,7 +129,8 @@ No observed rejected/duplicate examples; do not invent five examples. See low-ra
 - Novelty compares this run only; no historical corpus was loaded.
 - Technical significance is unassessed: native choices cannot generate technical-learning explanations or code.
 - No human ground truth: precision@10 and recall remain null.
-- 3 source checks failed; inspect the per-source table. No restrictions were bypassed.
+- The provider reports an alias, not a separately versioned model-weights revision.
+- 2 source checks failed; inspect the per-source table. No restrictions were bypassed.
 
 **Source improvements:** Inspect failed approved sources first. Review primary papers, release-note feeds and benchmark/laboratory sources before adding their verified URLs to the source registry. German/French query hits alone do not establish language coverage.
 **Policy improvements:** Label low-ranked and ambiguous cases before changing thresholds. Compare the approved topic list against actual false positives; no precision/recall claim is available without reviewed labels.

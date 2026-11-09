@@ -1,7 +1,7 @@
 # Live review: funding-de-eu
 
 Profile: `funding/de-eu`; this is not a separate Git data branch.
-Generated: 2026-11-09T05:56:25.671508+00:00. Window: previous 7 days for news; current official refresh for opportunities. Status: **PARTIAL**.
+Generated: 2026-11-09T06:19:52.141688+00:00. Window: previous 7 days for news; current official refresh for opportunities. Status: **PARTIAL**.
 
 ## A. Collection overview
 
@@ -16,13 +16,15 @@ Generated: 2026-11-09T05:56:25.671508+00:00. Window: previous 7 days for news; c
 | confirmed_findings | 0 |
 | source_failures | 0 |
 | source_languages | {"unknown": 3} |
+| fresh_evidence_references | 3 |
+| historical_evidence_references | 37 |
 | discovery_languages | {"unknown": 40} |
 | model_requests | 18 |
 | known_tokens | 10413 |
 | token_usage_complete | true |
 | cost_usd | null |
 | cache_hits | 0 |
-| runtime_seconds | 14.051 |
+| runtime_seconds | 10.738 |
 
 Cache replay: `{"performed": true, "cache_hits": 6, "provider_requests": 0, "unchanged_content_avoids_calls": true}`.
 
@@ -95,6 +97,7 @@ No observed rejected/duplicate examples; do not invent five examples. See low-ra
 - Novelty compares this run only; no historical corpus was loaded.
 - Technical significance is unassessed: native choices cannot generate technical-learning explanations or code.
 - No human ground truth: precision@10 and recall remain null.
+- The provider reports an alias, not a separately versioned model-weights revision.
 
 **Source improvements:** Inspect failed approved sources first. Review primary papers, release-note feeds and benchmark/laboratory sources before adding their verified URLs to the source registry. German/French query hits alone do not establish language coverage.
 **Policy improvements:** Label low-ranked and ambiguous cases before changing thresholds. Compare the approved topic list against actual false positives; no precision/recall claim is available without reviewed labels.

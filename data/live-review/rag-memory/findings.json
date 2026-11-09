@@ -9,651 +9,63 @@
   "candidates": [
     {
       "application_status": null,
-      "attention": 0.8,
-      "classification": "REVIEW",
-      "confirmed": false,
-      "deadline": null,
-      "decisions": {
-        "claim-support": {
-          "cache_hit": false,
-          "charged_tokens": 585,
-          "decision": {
-            "evidence_ids": [
-              "66932257d35ca7213dcb952f"
-            ],
-            "facts": 0.5,
-            "hype": 0.5,
-            "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
-            "related_event_id": null,
-            "score": 0.9,
-            "signal": 0.5,
-            "verdict": "yes"
-          },
-          "provider": {
-            "abstained": false,
-            "attempts": 1,
-            "cost": null,
-            "family": "systemone",
-            "format": "systemone_choices",
-            "input_tokens": 585,
-            "latency_ms": 529,
-            "model": "alias-clef",
-            "model_identity_verified": true,
-            "output_tokens": 0,
-            "response_model": "alias-clef",
-            "status": "success",
-            "tokens": 585
-          }
-        },
-        "hfs": {
-          "cache_hit": false,
-          "charged_tokens": 827,
-          "decision": {
-            "evidence_ids": [
-              "66932257d35ca7213dcb952f"
-            ],
-            "facts": 0.5,
-            "hype": 0.5,
-            "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
-            "related_event_id": null,
-            "score": 0.5,
-            "signal": 0.5,
-            "verdict": "yes"
-          },
-          "provider": {
-            "abstained": false,
-            "attempts": 1,
-            "cost": null,
-            "family": "systemone",
-            "format": "systemone_choices",
-            "input_tokens": 827,
-            "latency_ms": 937,
-            "model": "alias-clef",
-            "model_identity_verified": true,
-            "output_tokens": 0,
-            "response_model": "alias-clef",
-            "status": "success",
-            "tokens": 827
-          }
-        },
-        "importance": {
-          "cache_hit": false,
-          "charged_tokens": 594,
-          "decision": {
-            "evidence_ids": [
-              "66932257d35ca7213dcb952f"
-            ],
-            "facts": 0.5,
-            "hype": 0.5,
-            "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
-            "related_event_id": null,
-            "score": 0.5,
-            "signal": 0.5,
-            "verdict": "yes"
-          },
-          "provider": {
-            "abstained": false,
-            "attempts": 1,
-            "cost": null,
-            "family": "systemone",
-            "format": "systemone_choices",
-            "input_tokens": 594,
-            "latency_ms": 521,
-            "model": "alias-clef",
-            "model_identity_verified": true,
-            "output_tokens": 0,
-            "response_model": "alias-clef",
-            "status": "success",
-            "tokens": 594
-          }
-        },
-        "relevance": {
-          "cache_hit": false,
-          "charged_tokens": 572,
-          "decision": {
-            "evidence_ids": [
-              "66932257d35ca7213dcb952f"
-            ],
-            "facts": 0.5,
-            "hype": 0.5,
-            "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
-            "related_event_id": null,
-            "score": 0.9,
-            "signal": 0.5,
-            "verdict": "yes"
-          },
-          "provider": {
-            "abstained": false,
-            "attempts": 1,
-            "cost": null,
-            "family": "systemone",
-            "format": "systemone_choices",
-            "input_tokens": 572,
-            "latency_ms": 509,
-            "model": "alias-clef",
-            "model_identity_verified": true,
-            "output_tokens": 0,
-            "response_model": "alias-clef",
-            "status": "success",
-            "tokens": 572
-          }
-        },
-        "same-story": {
-          "cache_hit": false,
-          "charged_tokens": 752,
-          "decision": {
-            "evidence_ids": [
-              "66932257d35ca7213dcb952f"
-            ],
-            "facts": 0.5,
-            "hype": 0.5,
-            "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
-            "related_event_id": null,
-            "score": 0.9,
-            "signal": 0.5,
-            "verdict": "different"
-          },
-          "provider": {
-            "abstained": false,
-            "attempts": 1,
-            "cost": null,
-            "family": "systemone",
-            "format": "systemone_choices",
-            "input_tokens": 752,
-            "latency_ms": 509,
-            "model": "alias-clef",
-            "model_identity_verified": true,
-            "output_tokens": 0,
-            "response_model": "alias-clef",
-            "status": "success",
-            "tokens": 752
-          }
-        },
-        "worth-attention": {
-          "cache_hit": false,
-          "charged_tokens": 576,
-          "decision": {
-            "evidence_ids": [
-              "66932257d35ca7213dcb952f"
-            ],
-            "facts": 0.5,
-            "hype": 0.5,
-            "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
-            "related_event_id": null,
-            "score": 0.5,
-            "signal": 0.5,
-            "verdict": "unknown"
-          },
-          "provider": {
-            "abstained": false,
-            "attempts": 1,
-            "cost": null,
-            "family": "systemone",
-            "format": "systemone_choices",
-            "input_tokens": 576,
-            "latency_ms": 490,
-            "model": "alias-clef",
-            "model_identity_verified": true,
-            "output_tokens": 0,
-            "response_model": "alias-clef",
-            "status": "success",
-            "tokens": 576
-          }
-        }
-      },
-      "duplicate_of": null,
-      "eligibility": null,
-      "event_id": "78899e861b35838498cd6f8d",
-      "evidence": [
-        {
-          "content_hash": "f8a06a46f4beede2ea407cec2b924f0584bd28f6c972e8d5cba7e47f427b7cee",
-          "discovery_language": "en",
-          "excerpt": "PhoenixAI Introduces Contextbase for AI Agent Memory and Knowledge HPCwire",
-          "fresh": true,
-          "id": "66932257d35ca7213dcb952f",
-          "language": "unknown",
-          "language_basis": "insufficient_language_evidence",
-          "primary": false,
-          "published_at": "2026-11-05T18:27:48Z",
-          "publisher": "HPCwire",
-          "retrieved_at": "2026-11-09T05:55:31.225941Z",
-          "title": "PhoenixAI Introduces Contextbase for AI Agent Memory and Knowledge - HPCwire",
-          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNWXhCV2ZwbXk2bFBGNU0xVVBSWE5GSV90LWRtVXdaX0ZjNmVfU2xHa2RRMXRkYWxpejZ0cDZLUWdURXdqcF9qUGIyVFZYbHRySTRxcWo4ZkI2MGFhQmlPcEtQdng1UjE1VmpZYkJuTVlYT24tZXRXZXRFcktPMld6TUJRbzJrS3BXSEJ1eXR0V2thN0hWUS04SUhhSHNBTzlGb0pKMXNpUTFQN0V2TExDOXNRbGd4RFk?oc=5"
-        }
-      ],
-      "historical_application_status": null,
-      "historical_deadline": null,
-      "id": "ebbf6f61ac07382863c612d0",
-      "matched_topics": [
-        "Agent memory"
-      ],
-      "missing_verification": [],
-      "reasons": [
-        "provisional_domain_rubric_threshold_met_not_verified_truth"
-      ],
-      "technical_significance": null,
-      "title": "PhoenixAI Introduces Contextbase for AI Agent Memory and Knowledge - HPCwire",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNWXhCV2ZwbXk2bFBGNU0xVVBSWE5GSV90LWRtVXdaX0ZjNmVfU2xHa2RRMXRkYWxpejZ0cDZLUWdURXdqcF9qUGIyVFZYbHRySTRxcWo4ZkI2MGFhQmlPcEtQdng1UjE1VmpZYkJuTVlYT24tZXRXZXRFcktPMld6TUJRbzJrS3BXSEJ1eXR0V2thN0hWUS04SUhhSHNBTzlGb0pKMXNpUTFQN0V2TExDOXNRbGd4RFk?oc=5"
-    },
-    {
-      "application_status": null,
-      "attention": 0.8,
-      "classification": "REVIEW",
-      "confirmed": false,
-      "deadline": null,
-      "decisions": {
-        "claim-support": {
-          "cache_hit": false,
-          "charged_tokens": 637,
-          "decision": {
-            "evidence_ids": [
-              "7f6fbccedbc4787c09915299"
-            ],
-            "facts": 0.5,
-            "hype": 0.5,
-            "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
-            "related_event_id": null,
-            "score": 0.9,
-            "signal": 0.5,
-            "verdict": "yes"
-          },
-          "provider": {
-            "abstained": false,
-            "attempts": 1,
-            "cost": null,
-            "family": "systemone",
-            "format": "systemone_choices",
-            "input_tokens": 637,
-            "latency_ms": 541,
-            "model": "alias-clef",
-            "model_identity_verified": true,
-            "output_tokens": 0,
-            "response_model": "alias-clef",
-            "status": "success",
-            "tokens": 637
-          }
-        },
-        "hfs": {
-          "cache_hit": false,
-          "charged_tokens": 879,
-          "decision": {
-            "evidence_ids": [
-              "7f6fbccedbc4787c09915299"
-            ],
-            "facts": 0.1,
-            "hype": 0.1,
-            "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
-            "related_event_id": null,
-            "score": 0.5,
-            "signal": 0.5,
-            "verdict": "yes"
-          },
-          "provider": {
-            "abstained": false,
-            "attempts": 1,
-            "cost": null,
-            "family": "systemone",
-            "format": "systemone_choices",
-            "input_tokens": 879,
-            "latency_ms": 572,
-            "model": "alias-clef",
-            "model_identity_verified": true,
-            "output_tokens": 0,
-            "response_model": "alias-clef",
-            "status": "success",
-            "tokens": 879
-          }
-        },
-        "importance": {
-          "cache_hit": false,
-          "charged_tokens": 646,
-          "decision": {
-            "evidence_ids": [
-              "7f6fbccedbc4787c09915299"
-            ],
-            "facts": 0.5,
-            "hype": 0.5,
-            "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
-            "related_event_id": null,
-            "score": 0.5,
-            "signal": 0.5,
-            "verdict": "yes"
-          },
-          "provider": {
-            "abstained": false,
-            "attempts": 1,
-            "cost": null,
-            "family": "systemone",
-            "format": "systemone_choices",
-            "input_tokens": 646,
-            "latency_ms": 522,
-            "model": "alias-clef",
-            "model_identity_verified": true,
-            "output_tokens": 0,
-            "response_model": "alias-clef",
-            "status": "success",
-            "tokens": 646
-          }
-        },
-        "relevance": {
-          "cache_hit": false,
-          "charged_tokens": 624,
-          "decision": {
-            "evidence_ids": [
-              "7f6fbccedbc4787c09915299"
-            ],
-            "facts": 0.5,
-            "hype": 0.5,
-            "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
-            "related_event_id": null,
-            "score": 0.9,
-            "signal": 0.5,
-            "verdict": "yes"
-          },
-          "provider": {
-            "abstained": false,
-            "attempts": 1,
-            "cost": null,
-            "family": "systemone",
-            "format": "systemone_choices",
-            "input_tokens": 624,
-            "latency_ms": 526,
-            "model": "alias-clef",
-            "model_identity_verified": true,
-            "output_tokens": 0,
-            "response_model": "alias-clef",
-            "status": "success",
-            "tokens": 624
-          }
-        },
-        "same-story": {
-          "cache_hit": false,
-          "charged_tokens": 857,
-          "decision": {
-            "evidence_ids": [
-              "7f6fbccedbc4787c09915299"
-            ],
-            "facts": 0.5,
-            "hype": 0.5,
-            "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
-            "related_event_id": "78899e861b35838498cd6f8d",
-            "score": 0.9,
-            "signal": 0.5,
-            "verdict": "different"
-          },
-          "provider": {
-            "abstained": false,
-            "attempts": 1,
-            "cost": null,
-            "family": "systemone",
-            "format": "systemone_choices",
-            "input_tokens": 857,
-            "latency_ms": 567,
-            "model": "alias-clef",
-            "model_identity_verified": true,
-            "output_tokens": 0,
-            "response_model": "alias-clef",
-            "status": "success",
-            "tokens": 857
-          }
-        },
-        "worth-attention": {
-          "cache_hit": false,
-          "charged_tokens": 628,
-          "decision": {
-            "evidence_ids": [
-              "7f6fbccedbc4787c09915299"
-            ],
-            "facts": 0.5,
-            "hype": 0.5,
-            "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
-            "related_event_id": null,
-            "score": 0.5,
-            "signal": 0.5,
-            "verdict": "unknown"
-          },
-          "provider": {
-            "abstained": false,
-            "attempts": 1,
-            "cost": null,
-            "family": "systemone",
-            "format": "systemone_choices",
-            "input_tokens": 628,
-            "latency_ms": 540,
-            "model": "alias-clef",
-            "model_identity_verified": true,
-            "output_tokens": 0,
-            "response_model": "alias-clef",
-            "status": "success",
-            "tokens": 628
-          }
-        }
-      },
-      "duplicate_of": null,
-      "eligibility": null,
-      "event_id": "3d72a113042f096ebbeccf88",
-      "evidence": [
-        {
-          "content_hash": "13c9ff06f204279dba75f1956459a0dda74d36ad1f622285969179f75fbe6eff",
-          "discovery_language": "en",
-          "excerpt": "Mads Thines calls for a shared format for AI agent memory news.lavx.hu",
-          "fresh": true,
-          "id": "7f6fbccedbc4787c09915299",
-          "language": "unknown",
-          "language_basis": "insufficient_language_evidence",
-          "primary": false,
-          "published_at": "2026-11-08T16:26:03Z",
-          "publisher": "news.lavx.hu",
-          "retrieved_at": "2026-11-09T05:55:31.225965Z",
-          "title": "Mads Thines calls for a shared format for AI agent memory - news.lavx.hu",
-          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOSkE0cFVnY0RMeVExbTJNVjg0bEloTTlrV2doaGNxNUdfamNYSzMySzgzMF9vLTdtbnR0a3JHa21GN0lvX2ZrRTZ0XzItRmtORnVQVXdaYjNsLUMyZnA0TlRZUjlBbHJFYnd2MzBJSW8zUU5vcTd2dzk1ak9IZEJfOUt1Yk40Wk5uLWVCRmN6OA?oc=5"
-        }
-      ],
-      "historical_application_status": null,
-      "historical_deadline": null,
-      "id": "790ea0ff8c7787425792a93b",
-      "matched_topics": [
-        "Agent memory"
-      ],
-      "missing_verification": [],
-      "reasons": [
-        "provisional_domain_rubric_threshold_met_not_verified_truth"
-      ],
-      "technical_significance": null,
-      "title": "Mads Thines calls for a shared format for AI agent memory - news.lavx.hu",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOSkE0cFVnY0RMeVExbTJNVjg0bEloTTlrV2doaGNxNUdfamNYSzMySzgzMF9vLTdtbnR0a3JHa21GN0lvX2ZrRTZ0XzItRmtORnVQVXdaYjNsLUMyZnA0TlRZUjlBbHJFYnd2MzBJSW8zUU5vcTd2dzk1ak9IZEJfOUt1Yk40Wk5uLWVCRmN6OA?oc=5"
-    },
-    {
-      "application_status": null,
-      "attention": 0.68,
+      "attention": 0.25,
       "classification": "UNASSESSED",
       "confirmed": false,
       "deadline": null,
       "decisions": {
         "claim-support": {
           "cache_hit": false,
-          "charged_tokens": 637,
-          "decision": {
-            "evidence_ids": [
-              "43923e80c3aa600c52ffb1b5"
-            ],
-            "facts": 0.5,
-            "hype": 0.5,
-            "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
-            "related_event_id": null,
-            "score": 0.9,
-            "signal": 0.5,
-            "verdict": "yes"
-          },
+          "charged_tokens": 0,
+          "decision": null,
           "provider": {
-            "abstained": false,
-            "attempts": 1,
-            "cost": null,
-            "family": "systemone",
-            "format": "systemone_choices",
-            "input_tokens": 637,
-            "latency_ms": 526,
             "model": "alias-clef",
-            "model_identity_verified": true,
-            "output_tokens": 0,
-            "response_model": "alias-clef",
-            "status": "success",
-            "tokens": 637
+            "status": "budget_limit"
           }
         },
         "hfs": {
           "cache_hit": false,
-          "charged_tokens": 879,
-          "decision": {
-            "evidence_ids": [
-              "43923e80c3aa600c52ffb1b5"
-            ],
-            "facts": 0.5,
-            "hype": 0.1,
-            "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
-            "related_event_id": null,
-            "score": 0.5,
-            "signal": 0.5,
-            "verdict": "yes"
-          },
+          "charged_tokens": 0,
+          "decision": null,
           "provider": {
-            "abstained": false,
-            "attempts": 1,
-            "cost": null,
-            "family": "systemone",
-            "format": "systemone_choices",
-            "input_tokens": 879,
-            "latency_ms": 558,
             "model": "alias-clef",
-            "model_identity_verified": true,
-            "output_tokens": 0,
-            "response_model": "alias-clef",
-            "status": "success",
-            "tokens": 879
+            "status": "budget_limit"
           }
         },
         "importance": {
           "cache_hit": false,
-          "charged_tokens": 646,
-          "decision": {
-            "evidence_ids": [
-              "43923e80c3aa600c52ffb1b5"
-            ],
-            "facts": 0.5,
-            "hype": 0.5,
-            "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
-            "related_event_id": null,
-            "score": 0.5,
-            "signal": 0.5,
-            "verdict": "yes"
-          },
+          "charged_tokens": 0,
+          "decision": null,
           "provider": {
-            "abstained": false,
-            "attempts": 1,
-            "cost": null,
-            "family": "systemone",
-            "format": "systemone_choices",
-            "input_tokens": 646,
-            "latency_ms": 498,
             "model": "alias-clef",
-            "model_identity_verified": true,
-            "output_tokens": 0,
-            "response_model": "alias-clef",
-            "status": "success",
-            "tokens": 646
+            "status": "budget_limit"
           }
         },
         "relevance": {
           "cache_hit": false,
-          "charged_tokens": 624,
-          "decision": {
-            "evidence_ids": [
-              "43923e80c3aa600c52ffb1b5"
-            ],
-            "facts": 0.5,
-            "hype": 0.5,
-            "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
-            "related_event_id": null,
-            "score": 0.5,
-            "signal": 0.5,
-            "verdict": "unknown"
-          },
+          "charged_tokens": 0,
+          "decision": null,
           "provider": {
-            "abstained": false,
-            "attempts": 1,
-            "cost": null,
-            "family": "systemone",
-            "format": "systemone_choices",
-            "input_tokens": 624,
-            "latency_ms": 528,
             "model": "alias-clef",
-            "model_identity_verified": true,
-            "output_tokens": 0,
-            "response_model": "alias-clef",
-            "status": "success",
-            "tokens": 624
+            "status": "budget_limit"
           }
         },
         "same-story": {
           "cache_hit": false,
-          "charged_tokens": 867,
-          "decision": {
-            "evidence_ids": [
-              "43923e80c3aa600c52ffb1b5"
-            ],
-            "facts": 0.5,
-            "hype": 0.5,
-            "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
-            "related_event_id": "78899e861b35838498cd6f8d",
-            "score": 0.9,
-            "signal": 0.5,
-            "verdict": "different"
-          },
+          "charged_tokens": 0,
+          "decision": null,
           "provider": {
-            "abstained": false,
-            "attempts": 1,
-            "cost": null,
-            "family": "systemone",
-            "format": "systemone_choices",
-            "input_tokens": 867,
-            "latency_ms": 525,
             "model": "alias-clef",
-            "model_identity_verified": true,
-            "output_tokens": 0,
-            "response_model": "alias-clef",
-            "status": "success",
-            "tokens": 867
+            "status": "budget_limit"
           }
         },
         "worth-attention": {
           "cache_hit": false,
-          "charged_tokens": 628,
-          "decision": {
-            "evidence_ids": [
-              "43923e80c3aa600c52ffb1b5"
-            ],
-            "facts": 0.5,
-            "hype": 0.5,
-            "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
-            "related_event_id": null,
-            "score": 0.5,
-            "signal": 0.5,
-            "verdict": "unknown"
-          },
+          "charged_tokens": 0,
+          "decision": null,
           "provider": {
-            "abstained": false,
-            "attempts": 1,
-            "cost": null,
-            "family": "systemone",
-            "format": "systemone_choices",
-            "input_tokens": 628,
-            "latency_ms": 506,
             "model": "alias-clef",
-            "model_identity_verified": true,
-            "output_tokens": 0,
-            "response_model": "alias-clef",
-            "status": "success",
-            "tokens": 628
+            "status": "budget_limit"
           }
         }
       },
@@ -672,14 +84,14 @@
           "primary": false,
           "published_at": "2026-11-05T14:00:41Z",
           "publisher": "Adafruit",
-          "retrieved_at": "2026-11-09T05:55:31.225979Z",
+          "retrieved_at": "2026-11-09T06:19:08.080531Z",
           "title": "MariaDB enhances agent development for its next-gen database platform - Adafruit",
           "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPX292amRMWEhpVzQxOEpfVGl1R2RjZlQ1REtXOC1lQTNmZlczdENZV2lCMXhoUUI0S2V2RjhuWXE4XzN5LXVRZlFHQjMxTmgybFVLdG5DNkJzSXRIaG9Da3FEVE5wV2ZWT3hYSWN1azRIempremM3N05qaVQ4OGp0M3FPOTlCeUp0Vlg0Y3VZaTJJd0U1akUwaGRMeHhuZUs0MDJ1UlZmS1A2Y3c?oc=5"
         }
       ],
       "historical_application_status": null,
       "historical_deadline": null,
-      "id": "ffdbce5064a74eb64b45bc6d",
+      "id": "c46d7cacf6789a36fcd78536",
       "matched_topics": [],
       "missing_verification": [],
       "reasons": [
@@ -691,17 +103,17 @@
     },
     {
       "application_status": null,
-      "attention": 0.92,
+      "attention": 0.8,
       "classification": "REVIEW",
       "confirmed": false,
       "deadline": null,
       "decisions": {
         "claim-support": {
           "cache_hit": false,
-          "charged_tokens": 700,
+          "charged_tokens": 630,
           "decision": {
             "evidence_ids": [
-              "9c92de28ec476d83d59d685c"
+              "7f6fbccedbc4787c09915299"
             ],
             "facts": 0.5,
             "hype": 0.5,
@@ -717,29 +129,29 @@
             "cost": null,
             "family": "systemone",
             "format": "systemone_choices",
-            "input_tokens": 700,
-            "latency_ms": 542,
+            "input_tokens": 630,
+            "latency_ms": 414,
             "model": "alias-clef",
             "model_identity_verified": true,
             "output_tokens": 0,
             "response_model": "alias-clef",
             "status": "success",
-            "tokens": 700
+            "tokens": 630
           }
         },
         "hfs": {
           "cache_hit": false,
-          "charged_tokens": 942,
+          "charged_tokens": 872,
           "decision": {
             "evidence_ids": [
-              "9c92de28ec476d83d59d685c"
+              "7f6fbccedbc4787c09915299"
             ],
-            "facts": 0.9,
-            "hype": 0.9,
+            "facts": 0.1,
+            "hype": 0.1,
             "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
             "related_event_id": null,
-            "score": 0.9,
-            "signal": 0.9,
+            "score": 0.5,
+            "signal": 0.5,
             "verdict": "yes"
           },
           "provider": {
@@ -748,204 +160,22 @@
             "cost": null,
             "family": "systemone",
             "format": "systemone_choices",
-            "input_tokens": 942,
-            "latency_ms": 591,
+            "input_tokens": 872,
+            "latency_ms": 490,
             "model": "alias-clef",
             "model_identity_verified": true,
             "output_tokens": 0,
             "response_model": "alias-clef",
             "status": "success",
-            "tokens": 942
+            "tokens": 872
           }
         },
         "importance": {
           "cache_hit": false,
-          "charged_tokens": 709,
+          "charged_tokens": 639,
           "decision": {
             "evidence_ids": [
-              "9c92de28ec476d83d59d685c"
-            ],
-            "facts": 0.5,
-            "hype": 0.5,
-            "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
-            "related_event_id": null,
-            "score": 0.9,
-            "signal": 0.5,
-            "verdict": "yes"
-          },
-          "provider": {
-            "abstained": false,
-            "attempts": 1,
-            "cost": null,
-            "family": "systemone",
-            "format": "systemone_choices",
-            "input_tokens": 709,
-            "latency_ms": 550,
-            "model": "alias-clef",
-            "model_identity_verified": true,
-            "output_tokens": 0,
-            "response_model": "alias-clef",
-            "status": "success",
-            "tokens": 709
-          }
-        },
-        "relevance": {
-          "cache_hit": false,
-          "charged_tokens": 687,
-          "decision": {
-            "evidence_ids": [
-              "9c92de28ec476d83d59d685c"
-            ],
-            "facts": 0.5,
-            "hype": 0.5,
-            "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
-            "related_event_id": null,
-            "score": 0.9,
-            "signal": 0.5,
-            "verdict": "yes"
-          },
-          "provider": {
-            "abstained": false,
-            "attempts": 1,
-            "cost": null,
-            "family": "systemone",
-            "format": "systemone_choices",
-            "input_tokens": 687,
-            "latency_ms": 546,
-            "model": "alias-clef",
-            "model_identity_verified": true,
-            "output_tokens": 0,
-            "response_model": "alias-clef",
-            "status": "success",
-            "tokens": 687
-          }
-        },
-        "same-story": {
-          "cache_hit": false,
-          "charged_tokens": 928,
-          "decision": {
-            "evidence_ids": [
-              "9c92de28ec476d83d59d685c"
-            ],
-            "facts": 0.5,
-            "hype": 0.5,
-            "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
-            "related_event_id": "3d72a113042f096ebbeccf88",
-            "score": 0.9,
-            "signal": 0.5,
-            "verdict": "different"
-          },
-          "provider": {
-            "abstained": false,
-            "attempts": 1,
-            "cost": null,
-            "family": "systemone",
-            "format": "systemone_choices",
-            "input_tokens": 928,
-            "latency_ms": 565,
-            "model": "alias-clef",
-            "model_identity_verified": true,
-            "output_tokens": 0,
-            "response_model": "alias-clef",
-            "status": "success",
-            "tokens": 928
-          }
-        },
-        "worth-attention": {
-          "cache_hit": false,
-          "charged_tokens": 691,
-          "decision": {
-            "evidence_ids": [
-              "9c92de28ec476d83d59d685c"
-            ],
-            "facts": 0.5,
-            "hype": 0.5,
-            "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
-            "related_event_id": null,
-            "score": 0.9,
-            "signal": 0.5,
-            "verdict": "yes"
-          },
-          "provider": {
-            "abstained": false,
-            "attempts": 1,
-            "cost": null,
-            "family": "systemone",
-            "format": "systemone_choices",
-            "input_tokens": 691,
-            "latency_ms": 528,
-            "model": "alias-clef",
-            "model_identity_verified": true,
-            "output_tokens": 0,
-            "response_model": "alias-clef",
-            "status": "success",
-            "tokens": 691
-          }
-        }
-      },
-      "duplicate_of": null,
-      "eligibility": null,
-      "event_id": "8c6e0aba2aae2c999b29df91",
-      "evidence": [
-        {
-          "content_hash": "209b0e765f118665770a92b3c8c324d86c8c782582fc4ca4dda644d2c4f9c4bd",
-          "discovery_language": "en",
-          "excerpt": "Anthropic's \"Dreaming\" Lets AI Agents Reorganize Memory Offline, Lifting Complex Research Scores from 73% to 87% XenoSpectrum",
-          "fresh": true,
-          "id": "9c92de28ec476d83d59d685c",
-          "language": "unknown",
-          "language_basis": "insufficient_language_evidence",
-          "primary": false,
-          "published_at": "2026-11-08T09:22:48Z",
-          "publisher": "XenoSpectrum",
-          "retrieved_at": "2026-11-09T05:55:31.226003Z",
-          "title": "Anthropic's \"Dreaming\" Lets AI Agents Reorganize Memory Offline, Lifting Complex Research Scores from 73% to 87% - XenoSpectrum",
-          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1PNUxTc0xaOHpTS2xDQld0aGsySmJoaGVId0FObFNnZmlzZWwyZFJRVFFTWnRMRk13OGZrdTM4TXdCT25SU01adFNyaTZONk1fMXpNUEt2YU5wQW9Ka0k3OFVpejhEMWhzY0JjeDZKNWpUZkhyX29Keg?oc=5"
-        }
-      ],
-      "historical_application_status": null,
-      "historical_deadline": null,
-      "id": "bc97f981513ef5664b8c73ec",
-      "matched_topics": [],
-      "missing_verification": [],
-      "reasons": [
-        "provisional_domain_rubric_threshold_met_not_verified_truth"
-      ],
-      "technical_significance": null,
-      "title": "Anthropic's \"Dreaming\" Lets AI Agents Reorganize Memory Offline, Lifting Complex Research Scores from 73% to 87% - XenoSpectrum",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1PNUxTc0xaOHpTS2xDQld0aGsySmJoaGVId0FObFNnZmlzZWwyZFJRVFFTWnRMRk13OGZrdTM4TXdCT25SU01adFNyaTZONk1fMXpNUEt2YU5wQW9Ka0k3OFVpejhEMWhzY0JjeDZKNWpUZkhyX29Keg?oc=5"
-    },
-    {
-      "application_status": null,
-      "attention": 0.38,
-      "classification": "DUPLICATE",
-      "confirmed": false,
-      "deadline": null,
-      "decisions": {
-        "claim-support": {
-          "cache_hit": false,
-          "charged_tokens": 0,
-          "decision": null,
-          "provider": {
-            "model": "alias-clef",
-            "status": "budget_limit"
-          }
-        },
-        "hfs": {
-          "cache_hit": false,
-          "charged_tokens": 0,
-          "decision": null,
-          "provider": {
-            "model": "alias-clef",
-            "status": "budget_limit"
-          }
-        },
-        "importance": {
-          "cache_hit": false,
-          "charged_tokens": 673,
-          "decision": {
-            "evidence_ids": [
-              "7ca09299f648f33099c3b1f7"
+              "7f6fbccedbc4787c09915299"
             ],
             "facts": 0.5,
             "hype": 0.5,
@@ -961,22 +191,22 @@
             "cost": null,
             "family": "systemone",
             "format": "systemone_choices",
-            "input_tokens": 673,
-            "latency_ms": 509,
+            "input_tokens": 639,
+            "latency_ms": 524,
             "model": "alias-clef",
             "model_identity_verified": true,
             "output_tokens": 0,
             "response_model": "alias-clef",
             "status": "success",
-            "tokens": 673
+            "tokens": 639
           }
         },
         "relevance": {
           "cache_hit": false,
-          "charged_tokens": 651,
+          "charged_tokens": 617,
           "decision": {
             "evidence_ids": [
-              "7ca09299f648f33099c3b1f7"
+              "7f6fbccedbc4787c09915299"
             ],
             "facts": 0.5,
             "hype": 0.5,
@@ -992,61 +222,30 @@
             "cost": null,
             "family": "systemone",
             "format": "systemone_choices",
-            "input_tokens": 651,
-            "latency_ms": 563,
+            "input_tokens": 617,
+            "latency_ms": 416,
             "model": "alias-clef",
             "model_identity_verified": true,
             "output_tokens": 0,
             "response_model": "alias-clef",
             "status": "success",
-            "tokens": 651
+            "tokens": 617
           }
         },
         "same-story": {
           "cache_hit": false,
-          "charged_tokens": 909,
+          "charged_tokens": 843,
           "decision": {
             "evidence_ids": [
-              "7ca09299f648f33099c3b1f7"
-            ],
-            "facts": 0.5,
-            "hype": 0.5,
-            "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
-            "related_event_id": "8c6e0aba2aae2c999b29df91",
-            "score": 0.1,
-            "signal": 0.5,
-            "verdict": "same"
-          },
-          "provider": {
-            "abstained": false,
-            "attempts": 1,
-            "cost": null,
-            "family": "systemone",
-            "format": "systemone_choices",
-            "input_tokens": 909,
-            "latency_ms": 562,
-            "model": "alias-clef",
-            "model_identity_verified": true,
-            "output_tokens": 0,
-            "response_model": "alias-clef",
-            "status": "success",
-            "tokens": 909
-          }
-        },
-        "worth-attention": {
-          "cache_hit": false,
-          "charged_tokens": 655,
-          "decision": {
-            "evidence_ids": [
-              "7ca09299f648f33099c3b1f7"
+              "7f6fbccedbc4787c09915299"
             ],
             "facts": 0.5,
             "hype": 0.5,
             "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
             "related_event_id": null,
-            "score": 0.1,
+            "score": 0.9,
             "signal": 0.5,
-            "verdict": "no"
+            "verdict": "different"
           },
           "provider": {
             "abstained": false,
@@ -1054,50 +253,81 @@
             "cost": null,
             "family": "systemone",
             "format": "systemone_choices",
-            "input_tokens": 655,
-            "latency_ms": 530,
+            "input_tokens": 843,
+            "latency_ms": 464,
             "model": "alias-clef",
             "model_identity_verified": true,
             "output_tokens": 0,
             "response_model": "alias-clef",
             "status": "success",
-            "tokens": 655
+            "tokens": 843
+          }
+        },
+        "worth-attention": {
+          "cache_hit": false,
+          "charged_tokens": 621,
+          "decision": {
+            "evidence_ids": [
+              "7f6fbccedbc4787c09915299"
+            ],
+            "facts": 0.5,
+            "hype": 0.5,
+            "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
+            "related_event_id": null,
+            "score": 0.5,
+            "signal": 0.5,
+            "verdict": "unknown"
+          },
+          "provider": {
+            "abstained": false,
+            "attempts": 1,
+            "cost": null,
+            "family": "systemone",
+            "format": "systemone_choices",
+            "input_tokens": 621,
+            "latency_ms": 407,
+            "model": "alias-clef",
+            "model_identity_verified": true,
+            "output_tokens": 0,
+            "response_model": "alias-clef",
+            "status": "success",
+            "tokens": 621
           }
         }
       },
       "duplicate_of": null,
       "eligibility": null,
-      "event_id": "4e5b4bc1349e30abd48dde54",
+      "event_id": "3d72a113042f096ebbeccf88",
       "evidence": [
         {
-          "content_hash": "79a4c64244702652a8222e4b2862e96878e115cf5cd953839234b0a92d1b6b53",
+          "content_hash": "13c9ff06f204279dba75f1956459a0dda74d36ad1f622285969179f75fbe6eff",
           "discovery_language": "en",
-          "excerpt": "Claude dreaming, Anthropic reveals how it tests agent memory Pasquale Pillitteri",
+          "excerpt": "Mads Thines calls for a shared format for AI agent memory news.lavx.hu",
           "fresh": true,
-          "id": "7ca09299f648f33099c3b1f7",
+          "id": "7f6fbccedbc4787c09915299",
           "language": "unknown",
           "language_basis": "insufficient_language_evidence",
           "primary": false,
-          "published_at": "2026-11-08T09:09:53Z",
-          "publisher": "Pasquale Pillitteri",
-          "retrieved_at": "2026-11-09T05:55:31.226017Z",
-          "title": "Claude dreaming, Anthropic reveals how it tests agent memory - Pasquale Pillitteri",
-          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPaGRCY1h2d0JZTklHYUc4QlhkRmN5OHdJeHUzQjhVNC1Rc0ZfYXVET1lqQlNCcGNkUHd4WGE3UnVJTThONFNJNTN6cDAyX1RoXzRLMnc1U1BKOVZ0TlJkNlVSd0o1OVBJUVA4WUhnbzg0eWY1eS1OTGJiUEVrTENjZVFtdjNRaG9kU3d0VUdhaGEwQQ?oc=5"
+          "published_at": "2026-11-08T16:26:03Z",
+          "publisher": "news.lavx.hu",
+          "retrieved_at": "2026-11-09T06:19:08.080563Z",
+          "title": "Mads Thines calls for a shared format for AI agent memory - news.lavx.hu",
+          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOSkE0cFVnY0RMeVExbTJNVjg0bEloTTlrV2doaGNxNUdfamNYSzMySzgzMF9vLTdtbnR0a3JHa21GN0lvX2ZrRTZ0XzItRmtORnVQVXdaYjNsLUMyZnA0TlRZUjlBbHJFYnd2MzBJSW8zUU5vcTd2dzk1ak9IZEJfOUt1Yk40Wk5uLWVCRmN6OA?oc=5"
         }
       ],
       "historical_application_status": null,
       "historical_deadline": null,
-      "id": "cad0e20147f0653cfd7487bf",
+      "id": "790ea0ff8c7787425792a93b",
       "matched_topics": [
         "Agent memory"
       ],
       "missing_verification": [],
       "reasons": [
-        "model_same_story_judgement"
+        "provisional_domain_rubric_threshold_met_not_verified_truth"
       ],
       "technical_significance": null,
-      "title": "Claude dreaming, Anthropic reveals how it tests agent memory - Pasquale Pillitteri",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPaGRCY1h2d0JZTklHYUc4QlhkRmN5OHdJeHUzQjhVNC1Rc0ZfYXVET1lqQlNCcGNkUHd4WGE3UnVJTThONFNJNTN6cDAyX1RoXzRLMnc1U1BKOVZ0TlJkNlVSd0o1OVBJUVA4WUhnbzg0eWY1eS1OTGJiUEVrTENjZVFtdjNRaG9kU3d0VUdhaGEwQQ?oc=5"
+      "title": "Mads Thines calls for a shared format for AI agent memory - news.lavx.hu",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOSkE0cFVnY0RMeVExbTJNVjg0bEloTTlrV2doaGNxNUdfamNYSzMySzgzMF9vLTdtbnR0a3JHa21GN0lvX2ZrRTZ0XzItRmtORnVQVXdaYjNsLUMyZnA0TlRZUjlBbHJFYnd2MzBJSW8zUU5vcTd2dzk1ak9IZEJfOUt1Yk40Wk5uLWVCRmN6OA?oc=5"
     },
     {
       "application_status": null,
@@ -1176,14 +406,14 @@
           "primary": false,
           "published_at": "2026-11-05T21:51:01Z",
           "publisher": "Medium",
-          "retrieved_at": "2026-11-09T05:55:31.226029Z",
+          "retrieved_at": "2026-11-09T06:19:08.080585Z",
           "title": "Evals All the Way Down: Fault Localization in Compound AI Systems | by Adnan Masood, PhD. | Nov, 2026 - Medium",
           "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNekJaV1FxbUdnMUxXQy1NaW96YmJlVWxJTDR2TEFsYTZ3VUJRX0R0QW1aM0hJZEszVlU2bm14MXhEMklQdHROTzIwMUo3NUlJSUlOYVl3RlM2eC10cUQyQWJtV2NsbGM2R0hCUkVTQTZyMUE1bXZBajdIZXE1TWpJSnE2VHNqU2d2NGZjeDV4MjQ1Wm5FcEtvckp2b0oyV3dpU2tfaHhNMEs3ajYzYnc?oc=5"
         }
       ],
       "historical_application_status": null,
       "historical_deadline": null,
-      "id": "1f2e7736700acf7c6491cb65",
+      "id": "475e6ce089a5273b2e54a73f",
       "matched_topics": [],
       "missing_verification": [],
       "reasons": [
@@ -1192,6 +422,328 @@
       "technical_significance": null,
       "title": "Evals All the Way Down: Fault Localization in Compound AI Systems | by Adnan Masood, PhD. | Nov, 2026 - Medium",
       "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNekJaV1FxbUdnMUxXQy1NaW96YmJlVWxJTDR2TEFsYTZ3VUJRX0R0QW1aM0hJZEszVlU2bm14MXhEMklQdHROTzIwMUo3NUlJSUlOYVl3RlM2eC10cUQyQWJtV2NsbGM2R0hCUkVTQTZyMUE1bXZBajdIZXE1TWpJSnE2VHNqU2d2NGZjeDV4MjQ1Wm5FcEtvckp2b0oyV3dpU2tfaHhNMEs3ajYzYnc?oc=5"
+    },
+    {
+      "application_status": null,
+      "attention": 0.25,
+      "classification": "UNASSESSED",
+      "confirmed": false,
+      "deadline": null,
+      "decisions": {
+        "claim-support": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "hfs": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "importance": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "relevance": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "same-story": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "worth-attention": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        }
+      },
+      "duplicate_of": null,
+      "eligibility": null,
+      "event_id": "8c6e0aba2aae2c999b29df91",
+      "evidence": [
+        {
+          "content_hash": "209b0e765f118665770a92b3c8c324d86c8c782582fc4ca4dda644d2c4f9c4bd",
+          "discovery_language": "en",
+          "excerpt": "Anthropic's \"Dreaming\" Lets AI Agents Reorganize Memory Offline, Lifting Complex Research Scores from 73% to 87% XenoSpectrum",
+          "fresh": true,
+          "id": "9c92de28ec476d83d59d685c",
+          "language": "unknown",
+          "language_basis": "insufficient_language_evidence",
+          "primary": false,
+          "published_at": "2026-11-08T09:22:48Z",
+          "publisher": "XenoSpectrum",
+          "retrieved_at": "2026-11-09T06:19:08.080603Z",
+          "title": "Anthropic's \"Dreaming\" Lets AI Agents Reorganize Memory Offline, Lifting Complex Research Scores from 73% to 87% - XenoSpectrum",
+          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1PNUxTc0xaOHpTS2xDQld0aGsySmJoaGVId0FObFNnZmlzZWwyZFJRVFFTWnRMRk13OGZrdTM4TXdCT25SU01adFNyaTZONk1fMXpNUEt2YU5wQW9Ka0k3OFVpejhEMWhzY0JjeDZKNWpUZkhyX29Keg?oc=5"
+        }
+      ],
+      "historical_application_status": null,
+      "historical_deadline": null,
+      "id": "bc97f981513ef5664b8c73ec",
+      "matched_topics": [],
+      "missing_verification": [],
+      "reasons": [
+        "incomplete_uncertain_or_below_threshold_model_assessment"
+      ],
+      "technical_significance": null,
+      "title": "Anthropic's \"Dreaming\" Lets AI Agents Reorganize Memory Offline, Lifting Complex Research Scores from 73% to 87% - XenoSpectrum",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1PNUxTc0xaOHpTS2xDQld0aGsySmJoaGVId0FObFNnZmlzZWwyZFJRVFFTWnRMRk13OGZrdTM4TXdCT25SU01adFNyaTZONk1fMXpNUEt2YU5wQW9Ka0k3OFVpejhEMWhzY0JjeDZKNWpUZkhyX29Keg?oc=5"
+    },
+    {
+      "application_status": null,
+      "attention": 0.8,
+      "classification": "REVIEW",
+      "confirmed": false,
+      "deadline": null,
+      "decisions": {
+        "claim-support": {
+          "cache_hit": false,
+          "charged_tokens": 640,
+          "decision": {
+            "evidence_ids": [
+              "7ca09299f648f33099c3b1f7"
+            ],
+            "facts": 0.5,
+            "hype": 0.5,
+            "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
+            "related_event_id": null,
+            "score": 0.9,
+            "signal": 0.5,
+            "verdict": "yes"
+          },
+          "provider": {
+            "abstained": false,
+            "attempts": 1,
+            "cost": null,
+            "family": "systemone",
+            "format": "systemone_choices",
+            "input_tokens": 640,
+            "latency_ms": 408,
+            "model": "alias-clef",
+            "model_identity_verified": true,
+            "output_tokens": 0,
+            "response_model": "alias-clef",
+            "status": "success",
+            "tokens": 640
+          }
+        },
+        "hfs": {
+          "cache_hit": false,
+          "charged_tokens": 882,
+          "decision": {
+            "evidence_ids": [
+              "7ca09299f648f33099c3b1f7"
+            ],
+            "facts": 0.5,
+            "hype": 0.1,
+            "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
+            "related_event_id": null,
+            "score": 0.5,
+            "signal": 0.5,
+            "verdict": "yes"
+          },
+          "provider": {
+            "abstained": false,
+            "attempts": 1,
+            "cost": null,
+            "family": "systemone",
+            "format": "systemone_choices",
+            "input_tokens": 882,
+            "latency_ms": 441,
+            "model": "alias-clef",
+            "model_identity_verified": true,
+            "output_tokens": 0,
+            "response_model": "alias-clef",
+            "status": "success",
+            "tokens": 882
+          }
+        },
+        "importance": {
+          "cache_hit": false,
+          "charged_tokens": 649,
+          "decision": {
+            "evidence_ids": [
+              "7ca09299f648f33099c3b1f7"
+            ],
+            "facts": 0.5,
+            "hype": 0.5,
+            "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
+            "related_event_id": null,
+            "score": 0.5,
+            "signal": 0.5,
+            "verdict": "yes"
+          },
+          "provider": {
+            "abstained": false,
+            "attempts": 1,
+            "cost": null,
+            "family": "systemone",
+            "format": "systemone_choices",
+            "input_tokens": 649,
+            "latency_ms": 420,
+            "model": "alias-clef",
+            "model_identity_verified": true,
+            "output_tokens": 0,
+            "response_model": "alias-clef",
+            "status": "success",
+            "tokens": 649
+          }
+        },
+        "relevance": {
+          "cache_hit": false,
+          "charged_tokens": 627,
+          "decision": {
+            "evidence_ids": [
+              "7ca09299f648f33099c3b1f7"
+            ],
+            "facts": 0.5,
+            "hype": 0.5,
+            "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
+            "related_event_id": null,
+            "score": 0.9,
+            "signal": 0.5,
+            "verdict": "yes"
+          },
+          "provider": {
+            "abstained": false,
+            "attempts": 1,
+            "cost": null,
+            "family": "systemone",
+            "format": "systemone_choices",
+            "input_tokens": 627,
+            "latency_ms": 442,
+            "model": "alias-clef",
+            "model_identity_verified": true,
+            "output_tokens": 0,
+            "response_model": "alias-clef",
+            "status": "success",
+            "tokens": 627
+          }
+        },
+        "same-story": {
+          "cache_hit": false,
+          "charged_tokens": 861,
+          "decision": {
+            "evidence_ids": [
+              "7ca09299f648f33099c3b1f7"
+            ],
+            "facts": 0.5,
+            "hype": 0.5,
+            "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
+            "related_event_id": "3d72a113042f096ebbeccf88",
+            "score": 0.9,
+            "signal": 0.5,
+            "verdict": "different"
+          },
+          "provider": {
+            "abstained": false,
+            "attempts": 1,
+            "cost": null,
+            "family": "systemone",
+            "format": "systemone_choices",
+            "input_tokens": 861,
+            "latency_ms": 460,
+            "model": "alias-clef",
+            "model_identity_verified": true,
+            "output_tokens": 0,
+            "response_model": "alias-clef",
+            "status": "success",
+            "tokens": 861
+          }
+        },
+        "worth-attention": {
+          "cache_hit": false,
+          "charged_tokens": 631,
+          "decision": {
+            "evidence_ids": [
+              "7ca09299f648f33099c3b1f7"
+            ],
+            "facts": 0.5,
+            "hype": 0.5,
+            "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
+            "related_event_id": null,
+            "score": 0.5,
+            "signal": 0.5,
+            "verdict": "unknown"
+          },
+          "provider": {
+            "abstained": false,
+            "attempts": 1,
+            "cost": null,
+            "family": "systemone",
+            "format": "systemone_choices",
+            "input_tokens": 631,
+            "latency_ms": 404,
+            "model": "alias-clef",
+            "model_identity_verified": true,
+            "output_tokens": 0,
+            "response_model": "alias-clef",
+            "status": "success",
+            "tokens": 631
+          }
+        }
+      },
+      "duplicate_of": null,
+      "eligibility": null,
+      "event_id": "4e5b4bc1349e30abd48dde54",
+      "evidence": [
+        {
+          "content_hash": "79a4c64244702652a8222e4b2862e96878e115cf5cd953839234b0a92d1b6b53",
+          "discovery_language": "en",
+          "excerpt": "Claude dreaming, Anthropic reveals how it tests agent memory Pasquale Pillitteri",
+          "fresh": true,
+          "id": "7ca09299f648f33099c3b1f7",
+          "language": "unknown",
+          "language_basis": "insufficient_language_evidence",
+          "primary": false,
+          "published_at": "2026-11-08T09:09:53Z",
+          "publisher": "Pasquale Pillitteri",
+          "retrieved_at": "2026-11-09T06:19:08.080648Z",
+          "title": "Claude dreaming, Anthropic reveals how it tests agent memory - Pasquale Pillitteri",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPaGRCY1h2d0JZTklHYUc4QlhkRmN5OHdJeHUzQjhVNC1Rc0ZfYXVET1lqQlNCcGNkUHd4WGE3UnVJTThONFNJNTN6cDAyX1RoXzRLMnc1U1BKOVZ0TlJkNlVSd0o1OVBJUVA4WUhnbzg0eWY1eS1OTGJiUEVrTENjZVFtdjNRaG9kU3d0VUdhaGEwQQ?oc=5"
+        }
+      ],
+      "historical_application_status": null,
+      "historical_deadline": null,
+      "id": "cad0e20147f0653cfd7487bf",
+      "matched_topics": [
+        "Agent memory"
+      ],
+      "missing_verification": [],
+      "reasons": [
+        "provisional_domain_rubric_threshold_met_not_verified_truth"
+      ],
+      "technical_significance": null,
+      "title": "Claude dreaming, Anthropic reveals how it tests agent memory - Pasquale Pillitteri",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPaGRCY1h2d0JZTklHYUc4QlhkRmN5OHdJeHUzQjhVNC1Rc0ZfYXVET1lqQlNCcGNkUHd4WGE3UnVJTThONFNJNTN6cDAyX1RoXzRLMnc1U1BKOVZ0TlJkNlVSd0o1OVBJUVA4WUhnbzg0eWY1eS1OTGJiUEVrTENjZVFtdjNRaG9kU3d0VUdhaGEwQQ?oc=5"
     },
     {
       "application_status": null,
@@ -1270,14 +822,14 @@
           "primary": false,
           "published_at": "2026-11-04T17:25:02Z",
           "publisher": "Unite.AI",
-          "retrieved_at": "2026-11-09T05:55:31.226040Z",
+          "retrieved_at": "2026-11-09T06:19:08.080668Z",
           "title": "Redis Broadens Iris With Agent Routing, Observability and Messaging - Unite.AI",
           "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQQmRDcjJDUDYyT2xZd2NibXA5SDMwRG5CU011T0plczhhV0JsbFUwZ1VhaVpwVnI5RTBGUDNVVTRQLTVremhNTXVYaVB4M2gtNFdkeVlnYTRDWmRwYk1QazAxWXpiMGdlWTZ5dkpNbUJNLWRrWHJqN0Z6Qm5kSDlDdEF1a2lJc0RKOEhBcGt2NS1zUQ?oc=5"
         }
       ],
       "historical_application_status": null,
       "historical_deadline": null,
-      "id": "e8a73e7431f0c2e428021da9",
+      "id": "7cf09db00d95c179603bd568",
       "matched_topics": [],
       "missing_verification": [],
       "reasons": [
@@ -1364,14 +916,14 @@
           "primary": false,
           "published_at": "2026-11-05T11:49:00Z",
           "publisher": "Big News Network.com",
-          "retrieved_at": "2026-11-09T05:55:31.226052Z",
+          "retrieved_at": "2026-11-09T06:19:08.080687Z",
           "title": "Redis Expands Redis Iris to Give AI Agents the Memory, Context, and Messaging They Need to get to Production - Big News Network.com",
           "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNZm8zSmcwOFZMRndCYWxDLV9jVDdRRTYya1ZPQjFfcXRpanphUFJTV0tJYkVueExzVlROUzNGMHo4Yzl0OFN1Sk9EZUY2enZVUTFKY3RGcTlDTUhmalRaWjJvUlptNkd6TFU0ZjRHMlRHOVVnclBVa1o0T3FyaEdTY0VLaXF6ZmdrMDdQZEY3NXNqM0xHMjViOFRCaUtYVXJCRUFOU0pMdkhXNWpCd2pjSTJad3laUVVXQ1hIWWxSQTEwaEtmZW41cF9ib3RHbUVUWjVGTmEzeFVfdVhYd3l3ZDRkSUZ0dWc?oc=5"
         }
       ],
       "historical_application_status": null,
       "historical_deadline": null,
-      "id": "b5d3e871b8b6fa058808b587",
+      "id": "85207a1514023e4b84b6c872",
       "matched_topics": [],
       "missing_verification": [],
       "reasons": [
@@ -1458,14 +1010,14 @@
           "primary": false,
           "published_at": "2026-11-07T06:10:59Z",
           "publisher": "quasa.io",
-          "retrieved_at": "2026-11-09T05:55:31.551977Z",
+          "retrieved_at": "2026-11-09T06:19:08.355576Z",
           "title": "Chroma im Test: Die beste Open-Source-Vektordatenbank für die KI-Suche - quasa.io",
           "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQTkVZblBNbDdQTWVzS1BxdER0M2pTNzZjVkE3NTRCVGRnQmlqVzZVRVY4WUtDNWJ0VEstQlNadTRFaUZOM0R1STczQW93T1J4SGg1YS14N2lLWFNsYjJhMk0xeWVvX3didGVOVVFRc2tfRl9Pd2JRRDYweXEySUp5cHAwbW1aVTN2MTQ0Qm9uMW5hdmdxLW1HVWpaVy0?oc=5"
         }
       ],
       "historical_application_status": null,
       "historical_deadline": null,
-      "id": "235ef1058c6fb746385d898e",
+      "id": "bf378a39cc352fe4a1758de1",
       "matched_topics": [],
       "missing_verification": [],
       "reasons": [
@@ -1552,14 +1104,14 @@
           "primary": false,
           "published_at": "2026-11-06T11:21:00Z",
           "publisher": "it-daily.net",
-          "retrieved_at": "2026-11-09T05:55:31.552010Z",
+          "retrieved_at": "2026-11-09T06:19:08.355631Z",
           "title": "Die KI-Kompetenzlücke liegt im Betrieb, nicht im Prompt - it-daily.net",
           "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1kbzZiRVJjbmllSmFVVHl3UTRvZnJKS1RHb0xsOHlQbU0wTzJWNHl5Zmh0NW5Gd2JWN1hIVk11ZExDcHNCZUQwVFdWZVByUzY4YVYybUtBUUg4ZWN1bWlZNFFSLTFOdjFwUTQ0YjlYRUs4dw?oc=5"
         }
       ],
       "historical_application_status": null,
       "historical_deadline": null,
-      "id": "f42803595564edec90f25803",
+      "id": "40f46bcf056cc8f33b0896d7",
       "matched_topics": [],
       "missing_verification": [],
       "reasons": [
@@ -1646,14 +1198,14 @@
           "primary": false,
           "published_at": "2026-11-07T09:00:35Z",
           "publisher": "Pasquale Pillitteri",
-          "retrieved_at": "2026-11-09T05:55:31.552024Z",
+          "retrieved_at": "2026-11-09T06:19:08.355661Z",
           "title": "Stanford veröffentlicht Memorilla, ein KI-Gedächtnis für ganze Chatverläufe - Pasquale Pillitteri",
           "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNVElkY3puYjliellnMG9naEZMOFlxUS1BTlpVUG94MFVWeXEtWkV6M2NtckVaWW5zekdsRGc0NVpjX0t2WXhiSjhvTDIyNkpIOHo3SG1ZR0V2QTc0cnpuUk05MlNJdF9VdHdkVGZEYzdJSldCOWNYMkZGZW1OV2RvQW82WUc4RHRodnNSUEwtSQ?oc=5"
         }
       ],
       "historical_application_status": null,
       "historical_deadline": null,
-      "id": "f760c4b1acbe6425b358823f",
+      "id": "947bfbd2efe7aecb39eab4c1",
       "matched_topics": [],
       "missing_verification": [],
       "reasons": [
@@ -1740,14 +1292,14 @@
           "primary": false,
           "published_at": "2026-11-05T08:31:05Z",
           "publisher": "BornCity",
-          "retrieved_at": "2026-11-09T05:55:31.552036Z",
+          "retrieved_at": "2026-11-09T06:19:08.355681Z",
           "title": "CERT-In: Indiens 107-seitiger KI-Leitfaden nimmt autonome Agenten ins Visier - BornCity",
           "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxObmRYUVJBb1U2Ml9kYlFqX01XMGdsSURHc21vSWpkS2VjUnplbzlwV2xRUUlNTkJVTjhQSUFmTlczVi1nX0NvdF9tYnBCcl9Ra2I2SEdDa3lOMm1FenFSbUxQRGhadjQ4czZXOW92MGdYUDFKbWZHWDAyUXhpUV9MemVIeTlwU2RKZ1I3aDBCc2RiakdWSldJZGU2VkpyaGE1eDEwNg?oc=5"
         }
       ],
       "historical_application_status": null,
       "historical_deadline": null,
-      "id": "2465062c9e7ad8ef48f5bf8f",
+      "id": "c724853d74e3ef77b135b964",
       "matched_topics": [],
       "missing_verification": [],
       "reasons": [
@@ -1834,14 +1386,14 @@
           "primary": false,
           "published_at": "2026-11-03T23:37:57Z",
           "publisher": "quasa.io",
-          "retrieved_at": "2026-11-09T05:55:31.552048Z",
+          "retrieved_at": "2026-11-09T06:19:08.355707Z",
           "title": "DigitalGenius: Revolutionierung des autonomen Kundenservice mit KI - quasa.io",
           "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQbXRXRzNBeUxvOXVRMkF6TGJBUUVTbGRuU1AtVl9PdWNWYmhXWGZjSkVEaUllYnFsUUN5bld0RkN6b3c1OFNxc2Rvak9hbnV1MXp0VXdZNHpuMnVpNUE3OFpjdjBPUTRyYW82dnR4eWgtbHdhQmVPV3pTSWFfMWU0VHlmSGhiZGM2cndMLWRLR0RBWGRMV2c?oc=5"
         }
       ],
       "historical_application_status": null,
       "historical_deadline": null,
-      "id": "d217e7d1048e04c4fa36e0e5",
+      "id": "efc3360aa4874a239cfa62c6",
       "matched_topics": [],
       "missing_verification": [],
       "reasons": [
@@ -1928,14 +1480,14 @@
           "primary": false,
           "published_at": "2026-11-04T00:12:59Z",
           "publisher": "quasa.io",
-          "retrieved_at": "2026-11-09T05:55:31.552060Z",
+          "retrieved_at": "2026-11-09T06:19:08.355725Z",
           "title": "Wanderboat AI – KI-Reiseplaner, lokale Entdeckungen und kartenbasierte Empfehlungen - quasa.io",
           "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNMmNwRXluYUlpVjNueWVIcHNHTHNIaTl0ZEVmUnhhNEM0RmxoSEk0eV9JN1lRUTh2RXdaT0JRMFc5OVBKRzBjcWpXcEY4QVdFMHk2R3dyU2dkSkw3V3F4Y0s4UWt2MWJ5Z19zaEhCczZSQjlYdndIX3VaUHJkSWVRb0ZqVUpVNkR6YkJnLWJlem5udXotd3BCdkpmY2VkMlZaMFgwOTB3eVU4Zw?oc=5"
         }
       ],
       "historical_application_status": null,
       "historical_deadline": null,
-      "id": "1bea3eecf722aab9b66717c4",
+      "id": "72e7dd2b69f4948e819aa1c5",
       "matched_topics": [],
       "missing_verification": [],
       "reasons": [
@@ -2022,14 +1574,14 @@
           "primary": false,
           "published_at": "2026-11-03T17:52:19Z",
           "publisher": "quasa.io",
-          "retrieved_at": "2026-11-09T05:55:31.552071Z",
+          "retrieved_at": "2026-11-09T06:19:08.355742Z",
           "title": "Napkin AI: Revolutioniert visuelles Storytelling aus Text mit KI - quasa.io",
           "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQLVoxMno1bW53QWw1LW5kbVgwSlg0bkpOaW1jam1QWnRDUEVESVk5VG9jT2FwWnAyOUVlcWotV2NCNmZwWTJHSmU4bHVPRThpV1pSYnlpQ2xrdFJteVBJbHJaWTgtdWR3bm5mNVV4RkhOZlFrQk1HR2oxM0FlV1BpUm5pVDZoYThpNDI2dXVWc1l3UmM?oc=5"
         }
       ],
       "historical_application_status": null,
       "historical_deadline": null,
-      "id": "c122b9e1e1c5bc379493c53e",
+      "id": "50d17e8046d2937c8a87645f",
       "matched_topics": [],
       "missing_verification": [],
       "reasons": [
@@ -2116,14 +1668,14 @@
           "primary": false,
           "published_at": "2026-11-03T23:09:45Z",
           "publisher": "quasa.io",
-          "retrieved_at": "2026-11-09T05:55:31.552082Z",
+          "retrieved_at": "2026-11-09T06:19:08.355759Z",
           "title": "ChatHelp: Arbeitsabläufe mit KI-Tools transformieren – Umfassende Bewertung - quasa.io",
           "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPdjVoUThRVW1IcTU1TXRDMkxEcTFXMjFxdU1oVVRVRkE3Ym9oRUJYTWJGX28zQmsyVHZTazZ1U1RFZ2pGY3d0a0Vtbm9kbEFBYW1DMWNTTTlDVTRTZk5BTm1aTnJDcjk0YnM0Y2MtWnBGTW5pczdKNTZvN0NjUjUtR1RJdC1MRUNzelUwd0V0cXl1TXhtMm00Y2xtR0tpaVRW?oc=5"
         }
       ],
       "historical_application_status": null,
       "historical_deadline": null,
-      "id": "605e75f6c7c8d5dba255ea45",
+      "id": "ec16914b577a2b633967464f",
       "matched_topics": [],
       "missing_verification": [],
       "reasons": [
@@ -2210,14 +1762,14 @@
           "primary": false,
           "published_at": "2026-11-03T22:05:09Z",
           "publisher": "quasa.io",
-          "retrieved_at": "2026-11-09T05:55:31.552092Z",
+          "retrieved_at": "2026-11-09T06:19:08.355776Z",
           "title": "Composite: KI-gestützter Autopilot für jede Website im Jahr 2026 – Expertenratgeber. - quasa.io",
           "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQazJ0bkRIbU5US2s3bUtUcjZYeWxIVDQzcWR0anE5T2E5b2tMUzZBWUZvWjdCOHJKOXZnQ3Utd2kxZUlqdVc0d1M3ejlfZ21BaHNGMFY3MVA5LXBrVVBmZWY5ZzVRMWY5MXBsa2ttYVdvT2dYYlhqQV9ZNkg3UnFueFhDNDBHa29KYkRUYW1BbmZXX0s0QWNpX1pEMDhwMmd2d29zM2paNlU3LS1m?oc=5"
         }
       ],
       "historical_application_status": null,
       "historical_deadline": null,
-      "id": "8f21e6f5764fe0ec76f4d63c",
+      "id": "1796847744d860ad0f87e984",
       "matched_topics": [],
       "missing_verification": [],
       "reasons": [
@@ -2304,14 +1856,14 @@
           "primary": false,
           "published_at": "2026-11-03T18:01:07Z",
           "publisher": "quasa.io",
-          "retrieved_at": "2026-11-09T05:55:31.552103Z",
+          "retrieved_at": "2026-11-09T06:19:08.355793Z",
           "title": "Teal: Revolutioniert die Jobsuche durch KI-gestützte Karriereentwicklung - quasa.io",
           "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPeEZ3TW5ybUFzTDZCd3Z2WF9XdE9fN1JPUnVHUkpIODZJQ2Z4aUYtemYxRlpzbTJ2UnBZZ0R2T0I0UzNUd2J4R3JTTkh6Mzd6QTdicmNjVWxnSEQ2Y21NcnFuVFFvaU1QMUw1SDNoakIyZGpoWWdlRjJxbnRkTzJPUFRZdGtvZlJLMDd6TE9vbmY4YXRpX1A4Wjdob0dMdjA?oc=5"
         }
       ],
       "historical_application_status": null,
       "historical_deadline": null,
-      "id": "f231e81d94bae2ac1d782143",
+      "id": "831b4c0c1f2697cbee89bebc",
       "matched_topics": [],
       "missing_verification": [],
       "reasons": [
@@ -2398,14 +1950,14 @@
           "primary": false,
           "published_at": "2026-11-03T23:59:50Z",
           "publisher": "quasa.io",
-          "retrieved_at": "2026-11-09T05:55:31.552114Z",
+          "retrieved_at": "2026-11-09T06:19:08.355811Z",
           "title": "Aidbase – KI-Kundensupport-Plattform, wissensbasierter Chat & unterstützte Ticketbearbeitung - quasa.io",
           "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPbzM4WmpNTE9qTXNLUFpsSUE0cWo2djAtT0RmSGhxYWxxdS1pNWtDZVdtTWpsaWZVMGRmY3VmaHYwWE40WEhsSm0td0pyTEZXTk1GSnFHQlliemYyeTMzdUlxN0N6UndwRFp5TERpb0RCQkRkdWNZejB0bHJHb0VUYTVuZV9mM1hVT1BiQWpTU1k5VDhOdjRnTEFESnVTQ3lOVFUwUEFvNEwwWFc2Nlh2TGFYTXA?oc=5"
         }
       ],
       "historical_application_status": null,
       "historical_deadline": null,
-      "id": "4d27c1d4e24c720993b5bd24",
+      "id": "a31257b13186e242ac055ea5",
       "matched_topics": [],
       "missing_verification": [],
       "reasons": [
@@ -2492,14 +2044,14 @@
           "primary": false,
           "published_at": "2026-11-03T23:00:59Z",
           "publisher": "quasa.io",
-          "retrieved_at": "2026-11-09T05:55:31.552126Z",
+          "retrieved_at": "2026-11-09T06:19:08.355828Z",
           "title": "DataSquirrel: Revolutioniert die KI-gestützte Datenanalyse für Fachkräfte ohne technischen Hintergrund. Umfassender Testbericht. - quasa.io",
           "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOSnlRRklnVzZNM19aaFN4MGpCUDBsa1pqenprV2gwT3owOU0zNWFvbkpkczZXSnNiUHdza2RtTVJVcVZXZk5KZTVfQnViRnVYY0ZOcFJRMVFNbWE5TnoxOWpsbldXZThGZGgzRU5iNzFnOU5IQm4wLXZfT0t2M3dleDdOZUQ0OGRmRElJaW1RUXlTUzhLLUR2c2d4QzlhZlRfWVRycjlJbmxidllQd3RkVnlBWk9uOXFZZkRqcEFwR2hMRnNTQTJ6ZmIwckRsZjR5NUFxNEIyR2dSZm1oWGxOcFFXd0dTUnJFM1E?oc=5"
         }
       ],
       "historical_application_status": null,
       "historical_deadline": null,
-      "id": "fb37af982d061d216765791d",
+      "id": "a1c172e75f2440721a83330a",
       "matched_topics": [],
       "missing_verification": [],
       "reasons": [
@@ -2586,14 +2138,14 @@
           "primary": false,
           "published_at": "2026-11-03T23:53:24Z",
           "publisher": "quasa.io",
-          "retrieved_at": "2026-11-09T05:55:31.552137Z",
+          "retrieved_at": "2026-11-09T06:19:08.355845Z",
           "title": "FeedHive – Social-Media-Management, KI-Inhaltserstellung und automatisierte Veröffentlichung - quasa.io",
           "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPZnJHUWVwalBRN2swMGtUeEQtazFWOHFnbEliTHd2aVl4U2pzOXZJZFJqTG5DY0t1czFjWDBtaUhXTzVKclE1X0JVMTIwV3l2LVlmQzQyS1hOWVVnUENOMzdEM0xIbmlHdWItNGVzaGFCeXlZeEhOY2JueHQ0ZXUxSHI5N3lsbEFMbV9HSlhiNkltWWRuOU9Wc0hmdFBLOVhhU1dod055OURzUzRyY1lZVVVIR2hScG8?oc=5"
         }
       ],
       "historical_application_status": null,
       "historical_deadline": null,
-      "id": "5096c3550432f838079e08d4",
+      "id": "9b933277a39ec068257db18a",
       "matched_topics": [],
       "missing_verification": [],
       "reasons": [
@@ -2680,14 +2232,14 @@
           "primary": false,
           "published_at": "2026-11-08T00:48:06Z",
           "publisher": "IBM",
-          "retrieved_at": "2026-11-09T05:55:31.878532Z",
+          "retrieved_at": "2026-11-09T06:19:08.652816Z",
           "title": "La RAG agentique fait de l’IA un détective numérique plus intelligent - IBM",
           "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBITEFVZGphT3JPRWZ3SHVWRmZhSkpQX3RhczFpZ0l1SGNtV3hnV3ZYZ3VQWEVDZ0NYT3ZjQWdFQWE4NlliOG0zaWdFTldqOEJnZ2g0XzNPYlp2bDZldUFQZHp1clVjM3dKT04tSzBFRQ?oc=5"
         }
       ],
       "historical_application_status": null,
       "historical_deadline": null,
-      "id": "c312cb89f2dc62b14515aa24",
+      "id": "f67ffcfd2894a9d26f18fb14",
       "matched_topics": [],
       "missing_verification": [],
       "reasons": [
@@ -2774,14 +2326,14 @@
           "primary": false,
           "published_at": "2026-11-07T06:10:11Z",
           "publisher": "quasa.io",
-          "retrieved_at": "2026-11-09T05:55:31.878553Z",
+          "retrieved_at": "2026-11-09T06:19:08.652847Z",
           "title": "Chroma : avis sur la meilleure base de données vectorielle open source pour la recherche par IA - quasa.io",
           "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNTko0bVNmaGIyU1czeUdkVUhhOVJrTjF5cExmeWhST2U4dEc0RXVSTTF4VEQ5QUQ0ZmRiTm1BcVdyWV80aWNJek5LeXNMalRZb0Q5ODFwZ3QzWDNhWUdXWEc5UTg3WUczNXF6N2lMVFkzbXdlelFfbW9ZWk5NY2hReDdLXy1RdEx2RUtYR0xMaUh3dG9pZjFSWW1uMTNOWTB6X29CTDJZd3BPeC11eXloaEc2ZlJIZTIxTGg0?oc=5"
         }
       ],
       "historical_application_status": null,
       "historical_deadline": null,
-      "id": "3f829a479bc21d982ee30881",
+      "id": "ac32523f9647094422d61d5f",
       "matched_topics": [],
       "missing_verification": [],
       "reasons": [
@@ -2868,14 +2420,14 @@
           "primary": false,
           "published_at": "2026-11-08T05:42:08Z",
           "publisher": "NeoTeo",
-          "retrieved_at": "2026-11-09T05:55:31.878567Z",
+          "retrieved_at": "2026-11-09T06:19:08.652868Z",
           "title": "Cohere rend Embed 5 et Rerank 5 accessibles sur OpenRouter - NeoTeo",
           "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPdjVyNnlDSnpoNnFHV3pOeXBMTkxqTDQtM0Y1YXEwRlY5bDlIS3ZIOXM2c011bi0tQ3ZRZzJUWmVKVXRZamI0STZhX2NLV3hkR0hjRGx3bDIxak0teUJVOXFNUUNZb2RweE1ZTzEtSVVoV0NDVmdLMEZORFhueHUxdmtSWDNxWGdzMEt6cg?oc=5"
         }
       ],
       "historical_application_status": null,
       "historical_deadline": null,
-      "id": "792cc126b859534527417432",
+      "id": "59e3378ea1a4dc955698a7e8",
       "matched_topics": [],
       "missing_verification": [],
       "reasons": [
@@ -2962,14 +2514,14 @@
           "primary": false,
           "published_at": "2026-11-03T14:29:43Z",
           "publisher": "AEF info",
-          "retrieved_at": "2026-11-09T05:55:31.878578Z",
+          "retrieved_at": "2026-11-09T06:19:08.652888Z",
           "title": "IA : l'Inserm met à disposition de ses personnels deux nouveaux agents conversationnels souverains - AEF info",
           "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNZWtybmNvNTNLYUpiOWxNb2kxZTJfVDhnMW9rQUVxSVFialYzTHhqQUNjX3Jmb0t3aV9PNnlTN1QtdXNUaXJoMDBxYjB1VDNTQWlIZ01iX3cyQVpVTTh3VFcyUi1iQzB3U0w5TVE3V0lEQ1Y1R0gxUkItNXZRVkJaa0pfaThfR0kzNk5CQUJfdXVxWWlHcDhWcklnZVAtSldkQTdLLVUzZzJJLUpYX0JQaEEzV2FEOU5CeGpoVjQ2ZFRJanlocDIxc3QydUVWQQ?oc=5"
         }
       ],
       "historical_application_status": null,
       "historical_deadline": null,
-      "id": "f7d389418d58e0abd41327cc",
+      "id": "53171d8f28d3e062242ad727",
       "matched_topics": [],
       "missing_verification": [],
       "reasons": [
@@ -3056,14 +2608,14 @@
           "primary": false,
           "published_at": "2026-11-02T10:15:46Z",
           "publisher": "Le Rail",
-          "retrieved_at": "2026-11-09T05:55:31.878590Z",
+          "retrieved_at": "2026-11-09T06:19:08.652907Z",
           "title": "Comment Infrabel utilise l’IA et ses données pour améliorer la ponctualité - Le Rail",
           "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQcFFlVGt1THVfdS1xcXR2QkViX19oYVB1cGlXYkxCc3JBRXc1VG9UUzFmZ3ZsaTJnMXRnVHdHbVY2NXNKeTRxRlBOMk9sYWJ4ODhFZENuLWVzUUxGTDRpQmhCUGVjOFdvc29HaXlmV09JV3pkWTltdUpma1BmZkNoVGhDeUFnOTdxckhYbGdpM3RqVnlPX0t0em9BWWZqX2NrSi1HVTNwMzNmOWRtWFNQRXBRbFFDZW9LREFCVkRtMURpcXBySG1N?oc=5"
         }
       ],
       "historical_application_status": null,
       "historical_deadline": null,
-      "id": "2fea1d90013cb18e80d86409",
+      "id": "1b12b1ffd0a2f231a0658e22",
       "matched_topics": [],
       "missing_verification": [],
       "reasons": [
@@ -3150,14 +2702,14 @@
           "primary": false,
           "published_at": "2026-11-03T23:26:56Z",
           "publisher": "quasa.io",
-          "retrieved_at": "2026-11-09T05:55:31.878600Z",
+          "retrieved_at": "2026-11-09T06:19:08.652926Z",
           "title": "Twig : révolutionner le support client B2B grâce à l’automatisation RAG pilotée par l’IA - quasa.io",
           "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPYzZlcy1IZmhmM1p2QndoMS04TDhpY0xHQzVGWUdXWkdvTGJKRWJwNDZRRmoyYUtZTDF0UEhZbk1yb0dURU1TUDFwaEVrd2lCYWFuNTAxbHM5LVRCb3BIeEFGbENCeDBQNV9qbWtkSXJEY2N4WDNxUExUcjNUVXVlWDIwbHo1Wm9ab292N2JVdUM5YWx2dEdMQVl6UXRXZTZNd0tUczdSeDM0MzhmajBwS0Z3?oc=5"
         }
       ],
       "historical_application_status": null,
       "historical_deadline": null,
-      "id": "0ffd833c50a20852c2927024",
+      "id": "e0839c2cbeb5208e6bcc7481",
       "matched_topics": [],
       "missing_verification": [],
       "reasons": [
@@ -3244,14 +2796,14 @@
           "primary": false,
           "published_at": "2026-11-06T08:27:29Z",
           "publisher": "quasa.io",
-          "retrieved_at": "2026-11-09T05:55:31.878612Z",
+          "retrieved_at": "2026-11-09T06:19:08.652943Z",
           "title": "Elastic : avis sur Elasticsearch, la base de données vectorielle ultime pour l’IA - quasa.io",
           "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNWnpidHEzeVlwRGJ2YlV1cFhqZ2E2eUN3Sk40bE5uZmJlQkNWcUNucHZnLXVZOGFrU0hhbEdIQ1RiMEZvTjl2N1VjMU5VdWl6bE1YT0JSek41RVFrbFBnSFNhSnVkREpqMFBCTkJVeVRpcjM1TFJUcXBvcXVHcGM3d1VPTFJHZkJ0b0MzdS0tSDNkQkZETGpTMFVwNC15WU1zbnBxREtCOA?oc=5"
         }
       ],
       "historical_application_status": null,
       "historical_deadline": null,
-      "id": "93e0b277fe4835abc03b6fee",
+      "id": "8602c5df1e7bc1452125b459",
       "matched_topics": [],
       "missing_verification": [],
       "reasons": [
@@ -3263,63 +2815,195 @@
     },
     {
       "application_status": null,
-      "attention": 0.25,
-      "classification": "UNASSESSED",
+      "attention": 0.44,
+      "classification": "REJECTED",
       "confirmed": false,
       "deadline": null,
       "decisions": {
         "claim-support": {
           "cache_hit": false,
-          "charged_tokens": 0,
-          "decision": null,
+          "charged_tokens": 694,
+          "decision": {
+            "evidence_ids": [
+              "9d279cdb393401d1e971c953"
+            ],
+            "facts": 0.5,
+            "hype": 0.5,
+            "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
+            "related_event_id": null,
+            "score": 0.9,
+            "signal": 0.5,
+            "verdict": "yes"
+          },
           "provider": {
+            "abstained": false,
+            "attempts": 1,
+            "cost": null,
+            "family": "systemone",
+            "format": "systemone_choices",
+            "input_tokens": 694,
+            "latency_ms": 422,
             "model": "alias-clef",
-            "status": "budget_limit"
+            "model_identity_verified": true,
+            "output_tokens": 0,
+            "response_model": "alias-clef",
+            "status": "success",
+            "tokens": 694
           }
         },
         "hfs": {
           "cache_hit": false,
-          "charged_tokens": 0,
-          "decision": null,
+          "charged_tokens": 936,
+          "decision": {
+            "evidence_ids": [
+              "9d279cdb393401d1e971c953"
+            ],
+            "facts": 0.9,
+            "hype": 0.1,
+            "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
+            "related_event_id": null,
+            "score": 0.1,
+            "signal": 0.1,
+            "verdict": "no"
+          },
           "provider": {
+            "abstained": false,
+            "attempts": 1,
+            "cost": null,
+            "family": "systemone",
+            "format": "systemone_choices",
+            "input_tokens": 936,
+            "latency_ms": 482,
             "model": "alias-clef",
-            "status": "budget_limit"
+            "model_identity_verified": true,
+            "output_tokens": 0,
+            "response_model": "alias-clef",
+            "status": "success",
+            "tokens": 936
           }
         },
         "importance": {
           "cache_hit": false,
-          "charged_tokens": 0,
-          "decision": null,
+          "charged_tokens": 703,
+          "decision": {
+            "evidence_ids": [
+              "9d279cdb393401d1e971c953"
+            ],
+            "facts": 0.5,
+            "hype": 0.5,
+            "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
+            "related_event_id": null,
+            "score": 0.1,
+            "signal": 0.5,
+            "verdict": "no"
+          },
           "provider": {
+            "abstained": false,
+            "attempts": 1,
+            "cost": null,
+            "family": "systemone",
+            "format": "systemone_choices",
+            "input_tokens": 703,
+            "latency_ms": 449,
             "model": "alias-clef",
-            "status": "budget_limit"
+            "model_identity_verified": true,
+            "output_tokens": 0,
+            "response_model": "alias-clef",
+            "status": "success",
+            "tokens": 703
           }
         },
         "relevance": {
           "cache_hit": false,
-          "charged_tokens": 0,
-          "decision": null,
+          "charged_tokens": 681,
+          "decision": {
+            "evidence_ids": [
+              "9d279cdb393401d1e971c953"
+            ],
+            "facts": 0.5,
+            "hype": 0.5,
+            "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
+            "related_event_id": null,
+            "score": 0.1,
+            "signal": 0.5,
+            "verdict": "no"
+          },
           "provider": {
+            "abstained": false,
+            "attempts": 1,
+            "cost": null,
+            "family": "systemone",
+            "format": "systemone_choices",
+            "input_tokens": 681,
+            "latency_ms": 432,
             "model": "alias-clef",
-            "status": "budget_limit"
+            "model_identity_verified": true,
+            "output_tokens": 0,
+            "response_model": "alias-clef",
+            "status": "success",
+            "tokens": 681
           }
         },
         "same-story": {
           "cache_hit": false,
-          "charged_tokens": 0,
-          "decision": null,
+          "charged_tokens": 917,
+          "decision": {
+            "evidence_ids": [
+              "9d279cdb393401d1e971c953"
+            ],
+            "facts": 0.5,
+            "hype": 0.5,
+            "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
+            "related_event_id": null,
+            "score": 0.9,
+            "signal": 0.5,
+            "verdict": "different"
+          },
           "provider": {
+            "abstained": false,
+            "attempts": 1,
+            "cost": null,
+            "family": "systemone",
+            "format": "systemone_choices",
+            "input_tokens": 917,
+            "latency_ms": 444,
             "model": "alias-clef",
-            "status": "budget_limit"
+            "model_identity_verified": true,
+            "output_tokens": 0,
+            "response_model": "alias-clef",
+            "status": "success",
+            "tokens": 917
           }
         },
         "worth-attention": {
           "cache_hit": false,
-          "charged_tokens": 0,
-          "decision": null,
+          "charged_tokens": 685,
+          "decision": {
+            "evidence_ids": [
+              "9d279cdb393401d1e971c953"
+            ],
+            "facts": 0.5,
+            "hype": 0.5,
+            "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
+            "related_event_id": null,
+            "score": 0.1,
+            "signal": 0.5,
+            "verdict": "no"
+          },
           "provider": {
+            "abstained": false,
+            "attempts": 1,
+            "cost": null,
+            "family": "systemone",
+            "format": "systemone_choices",
+            "input_tokens": 685,
+            "latency_ms": 430,
             "model": "alias-clef",
-            "status": "budget_limit"
+            "model_identity_verified": true,
+            "output_tokens": 0,
+            "response_model": "alias-clef",
+            "status": "success",
+            "tokens": 685
           }
         }
       },
@@ -3338,18 +3022,18 @@
           "primary": true,
           "published_at": "2026-11-05T22:56:58Z",
           "publisher": "langchain-ai/langchain",
-          "retrieved_at": "2026-11-09T05:55:32.141135Z",
+          "retrieved_at": "2026-11-09T06:19:08.875252Z",
           "title": "langchain-typesafe==0.0.2",
           "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-typesafe%3D%3D0.0.2"
         }
       ],
       "historical_application_status": null,
       "historical_deadline": null,
-      "id": "91657b5e1b05c7c9ee392fef",
+      "id": "7e53d6526bad47e8e976a70f",
       "matched_topics": [],
       "missing_verification": [],
       "reasons": [
-        "incomplete_uncertain_or_below_threshold_model_assessment"
+        "model_relevance_no"
       ],
       "technical_significance": null,
       "title": "langchain-typesafe==0.0.2",
@@ -3357,8 +3041,8 @@
     },
     {
       "application_status": null,
-      "attention": 0.25,
-      "classification": "UNASSESSED",
+      "attention": 0.26,
+      "classification": "REJECTED",
       "confirmed": false,
       "deadline": null,
       "decisions": {
@@ -3382,38 +3066,126 @@
         },
         "importance": {
           "cache_hit": false,
-          "charged_tokens": 0,
-          "decision": null,
+          "charged_tokens": 747,
+          "decision": {
+            "evidence_ids": [
+              "244db3685d1718e25fedee1a"
+            ],
+            "facts": 0.5,
+            "hype": 0.5,
+            "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
+            "related_event_id": null,
+            "score": 0.1,
+            "signal": 0.5,
+            "verdict": "no"
+          },
           "provider": {
+            "abstained": false,
+            "attempts": 1,
+            "cost": null,
+            "family": "systemone",
+            "format": "systemone_choices",
+            "input_tokens": 747,
+            "latency_ms": 416,
             "model": "alias-clef",
-            "status": "budget_limit"
+            "model_identity_verified": true,
+            "output_tokens": 0,
+            "response_model": "alias-clef",
+            "status": "success",
+            "tokens": 747
           }
         },
         "relevance": {
           "cache_hit": false,
-          "charged_tokens": 0,
-          "decision": null,
+          "charged_tokens": 725,
+          "decision": {
+            "evidence_ids": [
+              "244db3685d1718e25fedee1a"
+            ],
+            "facts": 0.5,
+            "hype": 0.5,
+            "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
+            "related_event_id": null,
+            "score": 0.1,
+            "signal": 0.5,
+            "verdict": "no"
+          },
           "provider": {
+            "abstained": false,
+            "attempts": 1,
+            "cost": null,
+            "family": "systemone",
+            "format": "systemone_choices",
+            "input_tokens": 725,
+            "latency_ms": 433,
             "model": "alias-clef",
-            "status": "budget_limit"
+            "model_identity_verified": true,
+            "output_tokens": 0,
+            "response_model": "alias-clef",
+            "status": "success",
+            "tokens": 725
           }
         },
         "same-story": {
           "cache_hit": false,
-          "charged_tokens": 0,
-          "decision": null,
+          "charged_tokens": 957,
+          "decision": {
+            "evidence_ids": [
+              "244db3685d1718e25fedee1a"
+            ],
+            "facts": 0.5,
+            "hype": 0.5,
+            "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
+            "related_event_id": null,
+            "score": 0.9,
+            "signal": 0.5,
+            "verdict": "different"
+          },
           "provider": {
+            "abstained": false,
+            "attempts": 1,
+            "cost": null,
+            "family": "systemone",
+            "format": "systemone_choices",
+            "input_tokens": 957,
+            "latency_ms": 469,
             "model": "alias-clef",
-            "status": "budget_limit"
+            "model_identity_verified": true,
+            "output_tokens": 0,
+            "response_model": "alias-clef",
+            "status": "success",
+            "tokens": 957
           }
         },
         "worth-attention": {
           "cache_hit": false,
-          "charged_tokens": 0,
-          "decision": null,
+          "charged_tokens": 729,
+          "decision": {
+            "evidence_ids": [
+              "244db3685d1718e25fedee1a"
+            ],
+            "facts": 0.5,
+            "hype": 0.5,
+            "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
+            "related_event_id": null,
+            "score": 0.1,
+            "signal": 0.5,
+            "verdict": "no"
+          },
           "provider": {
+            "abstained": false,
+            "attempts": 1,
+            "cost": null,
+            "family": "systemone",
+            "format": "systemone_choices",
+            "input_tokens": 729,
+            "latency_ms": 455,
             "model": "alias-clef",
-            "status": "budget_limit"
+            "model_identity_verified": true,
+            "output_tokens": 0,
+            "response_model": "alias-clef",
+            "status": "success",
+            "tokens": 729
           }
         }
       },
@@ -3432,18 +3204,18 @@
           "primary": true,
           "published_at": "2026-11-05T00:22:12Z",
           "publisher": "langchain-ai/langchain",
-          "retrieved_at": "2026-11-09T05:55:32.141153Z",
+          "retrieved_at": "2026-11-09T06:19:08.875274Z",
           "title": "langchain-core==1.7.6",
           "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.7.6"
         }
       ],
       "historical_application_status": null,
       "historical_deadline": null,
-      "id": "7c877f6e264d60a244656e83",
+      "id": "136ddbbd845c1de9898b3617",
       "matched_topics": [],
       "missing_verification": [],
       "reasons": [
-        "incomplete_uncertain_or_below_threshold_model_assessment"
+        "model_relevance_no"
       ],
       "technical_significance": null,
       "title": "langchain-core==1.7.6",
@@ -3526,14 +3298,14 @@
           "primary": true,
           "published_at": "2026-11-04T17:07:37Z",
           "publisher": "langchain-ai/langchain",
-          "retrieved_at": "2026-11-09T05:55:32.141159Z",
+          "retrieved_at": "2026-11-09T06:19:08.875284Z",
           "title": "langchain==1.4.9",
           "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.4.9"
         }
       ],
       "historical_application_status": null,
       "historical_deadline": null,
-      "id": "160c468d3caf5b00d7555266",
+      "id": "c61aa8df17bc0e47ab32e3da",
       "matched_topics": [],
       "missing_verification": [],
       "reasons": [
@@ -3620,14 +3392,14 @@
           "primary": true,
           "published_at": "2026-11-04T00:11:25Z",
           "publisher": "langchain-ai/langchain",
-          "retrieved_at": "2026-11-09T05:55:32.141165Z",
+          "retrieved_at": "2026-11-09T06:19:08.875293Z",
           "title": "langchain-typesafe==0.0.1",
           "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-typesafe%3D%3D0.0.1"
         }
       ],
       "historical_application_status": null,
       "historical_deadline": null,
-      "id": "c627fe4742522cfefa6b011c",
+      "id": "f1eb66b651a37d8a40a1ddbc",
       "matched_topics": [],
       "missing_verification": [],
       "reasons": [
@@ -3714,14 +3486,14 @@
           "primary": true,
           "published_at": "2026-11-04T16:55:54Z",
           "publisher": "langchain-ai/langchain",
-          "retrieved_at": "2026-11-09T05:55:32.141171Z",
+          "retrieved_at": "2026-11-09T06:19:08.875302Z",
           "title": "langchain-openai==1.7.4",
           "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.7.4"
         }
       ],
       "historical_application_status": null,
       "historical_deadline": null,
-      "id": "f6c522984dd7ba4853cf6266",
+      "id": "ef0e784098541ec151038145",
       "matched_topics": [],
       "missing_verification": [],
       "reasons": [
@@ -3733,63 +3505,195 @@
     },
     {
       "application_status": null,
-      "attention": 0.4,
-      "classification": "UNASSESSED",
+      "attention": 0.44,
+      "classification": "REJECTED",
       "confirmed": false,
       "deadline": null,
       "decisions": {
         "claim-support": {
           "cache_hit": false,
-          "charged_tokens": 0,
-          "decision": null,
+          "charged_tokens": 698,
+          "decision": {
+            "evidence_ids": [
+              "46245a8b49e3366fcc0b5544"
+            ],
+            "facts": 0.5,
+            "hype": 0.5,
+            "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
+            "related_event_id": null,
+            "score": 0.9,
+            "signal": 0.5,
+            "verdict": "yes"
+          },
           "provider": {
+            "abstained": false,
+            "attempts": 1,
+            "cost": null,
+            "family": "systemone",
+            "format": "systemone_choices",
+            "input_tokens": 698,
+            "latency_ms": 452,
             "model": "alias-clef",
-            "status": "budget_limit"
+            "model_identity_verified": true,
+            "output_tokens": 0,
+            "response_model": "alias-clef",
+            "status": "success",
+            "tokens": 698
           }
         },
         "hfs": {
           "cache_hit": false,
-          "charged_tokens": 0,
-          "decision": null,
+          "charged_tokens": 940,
+          "decision": {
+            "evidence_ids": [
+              "46245a8b49e3366fcc0b5544"
+            ],
+            "facts": 0.9,
+            "hype": 0.1,
+            "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
+            "related_event_id": null,
+            "score": 0.1,
+            "signal": 0.1,
+            "verdict": "no"
+          },
           "provider": {
+            "abstained": false,
+            "attempts": 1,
+            "cost": null,
+            "family": "systemone",
+            "format": "systemone_choices",
+            "input_tokens": 940,
+            "latency_ms": 449,
             "model": "alias-clef",
-            "status": "budget_limit"
+            "model_identity_verified": true,
+            "output_tokens": 0,
+            "response_model": "alias-clef",
+            "status": "success",
+            "tokens": 940
           }
         },
         "importance": {
           "cache_hit": false,
-          "charged_tokens": 0,
-          "decision": null,
+          "charged_tokens": 707,
+          "decision": {
+            "evidence_ids": [
+              "46245a8b49e3366fcc0b5544"
+            ],
+            "facts": 0.5,
+            "hype": 0.5,
+            "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
+            "related_event_id": null,
+            "score": 0.1,
+            "signal": 0.5,
+            "verdict": "no"
+          },
           "provider": {
+            "abstained": false,
+            "attempts": 1,
+            "cost": null,
+            "family": "systemone",
+            "format": "systemone_choices",
+            "input_tokens": 707,
+            "latency_ms": 558,
             "model": "alias-clef",
-            "status": "budget_limit"
+            "model_identity_verified": true,
+            "output_tokens": 0,
+            "response_model": "alias-clef",
+            "status": "success",
+            "tokens": 707
           }
         },
         "relevance": {
           "cache_hit": false,
-          "charged_tokens": 0,
-          "decision": null,
+          "charged_tokens": 685,
+          "decision": {
+            "evidence_ids": [
+              "46245a8b49e3366fcc0b5544"
+            ],
+            "facts": 0.5,
+            "hype": 0.5,
+            "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
+            "related_event_id": null,
+            "score": 0.1,
+            "signal": 0.5,
+            "verdict": "no"
+          },
           "provider": {
+            "abstained": false,
+            "attempts": 1,
+            "cost": null,
+            "family": "systemone",
+            "format": "systemone_choices",
+            "input_tokens": 685,
+            "latency_ms": 421,
             "model": "alias-clef",
-            "status": "budget_limit"
+            "model_identity_verified": true,
+            "output_tokens": 0,
+            "response_model": "alias-clef",
+            "status": "success",
+            "tokens": 685
           }
         },
         "same-story": {
           "cache_hit": false,
-          "charged_tokens": 0,
-          "decision": null,
+          "charged_tokens": 865,
+          "decision": {
+            "evidence_ids": [
+              "46245a8b49e3366fcc0b5544"
+            ],
+            "facts": 0.5,
+            "hype": 0.5,
+            "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
+            "related_event_id": "0ce62f77c11c71b3afdc72d0",
+            "score": 0.9,
+            "signal": 0.5,
+            "verdict": "different"
+          },
           "provider": {
+            "abstained": false,
+            "attempts": 1,
+            "cost": null,
+            "family": "systemone",
+            "format": "systemone_choices",
+            "input_tokens": 865,
+            "latency_ms": 476,
             "model": "alias-clef",
-            "status": "budget_limit"
+            "model_identity_verified": true,
+            "output_tokens": 0,
+            "response_model": "alias-clef",
+            "status": "success",
+            "tokens": 865
           }
         },
         "worth-attention": {
           "cache_hit": false,
-          "charged_tokens": 0,
-          "decision": null,
+          "charged_tokens": 689,
+          "decision": {
+            "evidence_ids": [
+              "46245a8b49e3366fcc0b5544"
+            ],
+            "facts": 0.5,
+            "hype": 0.5,
+            "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
+            "related_event_id": null,
+            "score": 0.1,
+            "signal": 0.5,
+            "verdict": "no"
+          },
           "provider": {
+            "abstained": false,
+            "attempts": 1,
+            "cost": null,
+            "family": "systemone",
+            "format": "systemone_choices",
+            "input_tokens": 689,
+            "latency_ms": 431,
             "model": "alias-clef",
-            "status": "budget_limit"
+            "model_identity_verified": true,
+            "output_tokens": 0,
+            "response_model": "alias-clef",
+            "status": "success",
+            "tokens": 689
           }
         }
       },
@@ -3808,20 +3712,20 @@
           "primary": true,
           "published_at": "2026-11-04T20:47:50Z",
           "publisher": "langchain-ai/langchain",
-          "retrieved_at": "2026-11-09T05:55:32.141178Z",
+          "retrieved_at": "2026-11-09T06:19:08.875312Z",
           "title": "langchain-fireworks==1.7.2",
           "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-fireworks%3D%3D1.7.2"
         }
       ],
       "historical_application_status": null,
       "historical_deadline": null,
-      "id": "67a5b0fe62f42e097ab76858",
+      "id": "3effbb58341a4f24dd721b9c",
       "matched_topics": [
         "Reranking"
       ],
       "missing_verification": [],
       "reasons": [
-        "incomplete_uncertain_or_below_threshold_model_assessment"
+        "model_relevance_no"
       ],
       "technical_significance": null,
       "title": "langchain-fireworks==1.7.2",
@@ -3904,14 +3808,14 @@
           "primary": true,
           "published_at": "2026-11-04T15:50:04Z",
           "publisher": "langchain-ai/langchain",
-          "retrieved_at": "2026-11-09T05:55:32.141200Z",
+          "retrieved_at": "2026-11-09T06:19:08.875320Z",
           "title": "langchain-core==1.7.5",
           "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.7.5"
         }
       ],
       "historical_application_status": null,
       "historical_deadline": null,
-      "id": "a6e5267c84d7e46ba89af33f",
+      "id": "3bf91e574b7f157c6941933e",
       "matched_topics": [],
       "missing_verification": [],
       "reasons": [
@@ -3998,14 +3902,14 @@
           "primary": true,
           "published_at": "2026-11-04T16:51:12Z",
           "publisher": "langchain-ai/langchain",
-          "retrieved_at": "2026-11-09T05:55:32.141206Z",
+          "retrieved_at": "2026-11-09T06:19:08.875328Z",
           "title": "langchain-anthropic==1.7.10",
           "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-anthropic%3D%3D1.7.10"
         }
       ],
       "historical_application_status": null,
       "historical_deadline": null,
-      "id": "8aa7894d30adf6b292450181",
+      "id": "7d09d51f220327f4b1410923",
       "matched_topics": [],
       "missing_verification": [],
       "reasons": [
@@ -4044,7 +3948,7 @@
             "family": "systemone",
             "format": "systemone_choices",
             "input_tokens": 668,
-            "latency_ms": 534,
+            "latency_ms": 437,
             "model": "alias-clef",
             "model_identity_verified": true,
             "output_tokens": 0,
@@ -4075,7 +3979,7 @@
             "family": "systemone",
             "format": "systemone_choices",
             "input_tokens": 910,
-            "latency_ms": 595,
+            "latency_ms": 472,
             "model": "alias-clef",
             "model_identity_verified": true,
             "output_tokens": 0,
@@ -4106,7 +4010,7 @@
             "family": "systemone",
             "format": "systemone_choices",
             "input_tokens": 677,
-            "latency_ms": 562,
+            "latency_ms": 433,
             "model": "alias-clef",
             "model_identity_verified": true,
             "output_tokens": 0,
@@ -4137,7 +4041,7 @@
             "family": "systemone",
             "format": "systemone_choices",
             "input_tokens": 655,
-            "latency_ms": 533,
+            "latency_ms": 434,
             "model": "alias-clef",
             "model_identity_verified": true,
             "output_tokens": 0,
@@ -4168,7 +4072,7 @@
             "family": "systemone",
             "format": "systemone_choices",
             "input_tokens": 727,
-            "latency_ms": 545,
+            "latency_ms": 432,
             "model": "alias-clef",
             "model_identity_verified": true,
             "output_tokens": 0,
@@ -4199,7 +4103,7 @@
             "family": "systemone",
             "format": "systemone_choices",
             "input_tokens": 659,
-            "latency_ms": 553,
+            "latency_ms": 437,
             "model": "alias-clef",
             "model_identity_verified": true,
             "output_tokens": 0,
@@ -4224,14 +4128,14 @@
           "primary": true,
           "published_at": "2026-11-02T15:45:02Z",
           "publisher": "langchain-ai/langchain",
-          "retrieved_at": "2026-11-09T05:55:32.141211Z",
+          "retrieved_at": "2026-11-09T06:19:08.875336Z",
           "title": "langchain==1.4.8",
           "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.4.8"
         }
       ],
       "historical_application_status": null,
       "historical_deadline": null,
-      "id": "deaa1c02d5993e108c23d644",
+      "id": "c62f96283b4a369d64129785",
       "matched_topics": [],
       "missing_verification": [],
       "reasons": [
@@ -4318,14 +4222,14 @@
           "primary": true,
           "published_at": "2026-11-02T15:31:47Z",
           "publisher": "langchain-ai/langchain",
-          "retrieved_at": "2026-11-09T05:55:32.141217Z",
+          "retrieved_at": "2026-11-09T06:19:08.875343Z",
           "title": "langchain-core==1.7.4",
           "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.7.4"
         }
       ],
       "historical_application_status": null,
       "historical_deadline": null,
-      "id": "4e837ff42c999ea67789af59",
+      "id": "ec5f14abd1a3891f9685663d",
       "matched_topics": [],
       "missing_verification": [],
       "reasons": [
@@ -4337,13 +4241,14 @@
     }
   ],
   "domain": "rag-memory",
-  "generated_at_utc": "2026-11-09T05:55:51.777779+00:00",
+  "generated_at_utc": "2026-11-09T06:19:25.021218+00:00",
   "limitations": [
     "Model choices are uncalibrated editorial judgments, not verified facts.",
     "Short source excerpts may omit context; original publication dates can be unknown.",
     "Novelty compares this run only; no historical corpus was loaded.",
     "Technical significance is unassessed: native choices cannot generate technical-learning explanations or code.",
     "No human ground truth: precision@10 and recall remain null.",
+    "The provider reports an alias, not a separately versioned model-weights revision.",
     "No verified de language evidence retrieved. Inspect approved native-language discovery query results; query locale is not source language. Primary research/laboratory/conference families remain pending source review in this radar registry.",
     "No verified fr language evidence retrieved. Inspect approved native-language discovery query results; query locale is not source language. Primary research/laboratory/conference families remain pending source review in this radar registry.",
     "Model budget exhausted; remaining command states are explicitly budget_limit, not inferred decisions."
@@ -4394,12 +4299,12 @@
   "recall": null,
   "review_version": "live-review-1.0",
   "schema_version": "1.0",
-  "source_revision": "3c2e79d6645869f6ac3a2178d5d7194bdc73a9ab",
+  "source_revision": "57c41654fdda261ec2168e2e32ba7f1a76567002",
   "sources": [
     {
       "content_unchanged": false,
       "error_code": null,
-      "items": 8,
+      "items": 7,
       "query": "\"agent memory\" OR \"hybrid retrieval\" OR \"RAG evaluation\"",
       "source": "google_news",
       "status": "ok"
@@ -4437,31 +4342,34 @@
   ],
   "statistics": {
     "cache_hits": 0,
-    "candidates": 38,
+    "candidates": 37,
     "confirmed_findings": 0,
     "cost_usd": null,
     "discovery_languages": {
       "de": 13,
-      "en": 8,
+      "en": 7,
       "fr": 7,
       "unknown": 10
     },
-    "duplicates": 1,
+    "duplicates": 0,
+    "fresh_evidence_references": 37,
+    "historical_evidence_references": 0,
     "invalid_public_urls": 0,
-    "known_tokens": 24299,
+    "known_tokens": 25166,
     "model_requests": 34,
-    "rejected": 1,
-    "retained_for_review": 36,
-    "retrieved_items": 38,
-    "review_worthy": 3,
-    "runtime_seconds": 20.948,
+    "not_in_review_inventory": 0,
+    "rejected": 4,
+    "retained_for_review": 33,
+    "retrieved_items": 37,
+    "review_worthy": 2,
+    "runtime_seconds": 17.35,
     "source_failures": 0,
     "source_languages": {
       "en": 1,
-      "unknown": 37
+      "unknown": 36
     },
     "token_usage_complete": true
   },
   "window_hours": 168,
-  "workflow_run_id": "42569950068"
+  "workflow_run_id": "42572214484"
 }
