@@ -1,7 +1,7 @@
 # Live review: funding-de-eu
 
 Profile: `funding/de-eu`; this is not a separate Git data branch.
-Generated: 2026-11-09T06:19:52.141688+00:00. Window: previous 7 days for news; current official refresh for opportunities. Status: **PARTIAL**.
+Generated: 2026-11-09T22:15:52.456558+00:00. Window: previous 7 days for news; current official refresh for opportunities. Status: **PARTIAL**.
 
 ## A. Collection overview
 
@@ -20,11 +20,11 @@ Generated: 2026-11-09T06:19:52.141688+00:00. Window: previous 7 days for news; c
 | historical_evidence_references | 37 |
 | discovery_languages | {"unknown": 40} |
 | model_requests | 18 |
-| known_tokens | 10413 |
+| known_tokens | 10449 |
 | token_usage_complete | true |
 | cost_usd | null |
 | cache_hits | 0 |
-| runtime_seconds | 10.738 |
+| runtime_seconds | 11.235 |
 
 Cache replay: `{"performed": true, "cache_hits": 6, "provider_requests": 0, "unchanged_content_avoids_calls": true}`.
 
@@ -73,14 +73,14 @@ Hard eligibility: **ELIGIBILITY\_UNKNOWN**; application: UNKNOWN; deadline: UNKN
 ### EIC-Accelerator
 
 [Original source](<https://eic.ec.europa.eu/eic-funding-opportunities/eic-accelerator_en>)
-Classification: **VERIFICATION_REQUIRED**. Provisional domain attention: 0.57. Technical significance: **unassessed**.
+Classification: **VERIFICATION_REQUIRED**. Provisional domain attention: 0.49. Technical significance: **unassessed**.
 Matched topics: none matched lexically; inspect semantic judgments.
 Language: unknown (insufficient_language_evidence); discovery locale: unknown. Publication: unknown; retrieved: 2026-10-22T02:51:45.864575+00:00; fresh: False.
 Source-attributed statement from EU: “EIC Accelerator”. This excerpt records what the source says; it does not independently establish the claim or its implications.
 Language: en (lexical_heuristic_requires_review); discovery locale: unknown. Publication: unknown; retrieved: 2026-10-22T02:51:45.864575+00:00; fresh: False.
 Source-attributed statement from EU: “Grant funding Lump sum contribution below € 2.5 million , for innovation activities (TRL 6-8), to be completed within 24 months. Grant only - for start-ups and SMEs with capacity to scale-up. To be provided only once during the implementation period of the Horizon Europe programme (2021-2027) Investment component To fill the gap for high - risk innovation to a stage where they can be fully financed by other investments. €1 - €10 million . Higher ”. This excerpt records what the source says; it does not independently establish the claim or its implications.
 **Editorial investigation / potential implications:** Review current official application terms and applicant prerequisites. Semantic relevance cannot establish eligibility or an open application.
-**Model judgments:** relevance: yes / score 0.9 (success; live); worth-attention: no / score 0.1 (success; live); same-story: different / score 0.9 (success; live); importance: yes / score 0.5 (success; live); claim-support: yes / score 0.9 (success; live); hfs: yes / score 0.5 (success; live)
+**Model judgments:** relevance: unknown / score 0.5 (success; live); worth-attention: no / score 0.1 (success; live); same-story: different / score 0.9 (success; live); importance: yes / score 0.5 (success; live); claim-support: yes / score 0.9 (success; live); hfs: yes / score 0.5 (success; live)
 Reason: missing\_fresh\_evidence\_or\_hard\_eligibility
 Unresolved: Official evidence is missing, stale or could not be refreshed; official\_terms\_need\_reverification
 Next investigation: open the cited original, compare primary evidence and label this candidate in review-labels.json.

@@ -1,7 +1,7 @@
 # Live review: incubators
 
 Profile: `programs/incubators`; this is not a separate Git data branch.
-Generated: 2026-11-09T06:20:44.991544+00:00. Window: previous 7 days for news; current official refresh for opportunities. Status: **PARTIAL**.
+Generated: 2026-11-09T22:16:44.465461+00:00. Window: previous 7 days for news; current official refresh for opportunities. Status: **PARTIAL**.
 
 ## A. Collection overview
 
@@ -25,20 +25,20 @@ Generated: 2026-11-09T06:20:44.991544+00:00. Window: previous 7 days for news; c
 | token_usage_complete | true |
 | cost_usd | null |
 | cache_hits | 0 |
-| runtime_seconds | 6.218 |
+| runtime_seconds | 6.225 |
 
 Cache replay: `{"performed": true, "cache_hits": 6, "provider_requests": 0, "unchanged_content_avoids_calls": true}`.
 
 | Source / query | Status | Items | Error |
 | --- | --- | --- | --- |
-| google\_news / software AI innovation incubator application deadline | ok | 6 |  |
+| google\_news / software AI innovation incubator application deadline | ok | 7 |  |
 | google\_news / startup accelerator founder fellowship grant applications | ok | 3 |  |
 | program\_primary / https://www.antler.co/pitch | ok | unknown |  |
 | program\_primary / https://kilo.co/ | ok | unknown |  |
 | program\_primary / https://kilo.co/ | ok | unknown |  |
 | program\_primary / https://www.joinef.com/ | ok | unknown |  |
-| program\_primary / https://www.ycombinator.com/apply | ok | unknown |  |
 | program\_primary / https://apply.joinef.com/ | failed | unknown | HTTP\_403 |
+| program\_primary / https://www.ycombinator.com/apply | ok | unknown |  |
 | program\_primary / https://apply.ycombinator.com/home | failed | unknown | Query credentials and fragments are not allowed |
 | program\_coverage /  | failed | 0 |  |
 
@@ -51,9 +51,9 @@ Ranked within this domain only. Source statements, model judgments and editorial
 [Original source](<https://www.antler.co/pitch>)
 Classification: **VERIFICATION_REQUIRED**. Provisional domain attention: 0.38. Technical significance: **unassessed**.
 Matched topics: none matched lexically; inspect semantic judgments.
-Language: unknown (insufficient_language_evidence); discovery locale: unknown. Publication: unknown; retrieved: 2026-11-09T06:20:38.841941+00:00; fresh: True.
+Language: unknown (insufficient_language_evidence); discovery locale: unknown. Publication: unknown; retrieved: 2026-11-09T22:16:38.296095+00:00; fresh: True.
 Source-attributed statement from GET INVESTMENT FROM ANTLER: “GET INVESTMENT FROM ANTLER”. This excerpt records what the source says; it does not independently establish the claim or its implications.
-Language: unknown (insufficient_language_evidence); discovery locale: unknown. Publication: unknown; retrieved: 2026-11-09T06:20:38.841941+00:00; fresh: True.
+Language: unknown (insufficient_language_evidence); discovery locale: unknown. Publication: unknown; retrieved: 2026-11-09T22:16:38.296095+00:00; fresh: True.
 Source-attributed statement from GET INVESTMENT FROM ANTLER: “GET INVESTMENT FROM ANTLER”. This excerpt records what the source says; it does not independently establish the claim or its implications.
 **Editorial investigation / potential implications:** Check the official current round, founder prerequisites, costs and equity terms. Strategic fit is separate from eligibility and application availability.
 **Model judgments:** relevance: unknown / score 0.5 (success; live); worth-attention: no / score 0.1 (success; live); same-story: unknown / score 0.5 (success; live); importance: no / score 0.1 (success; live); claim-support: yes / score 0.9 (success; live); hfs: no / score 0.1 (success; live)
@@ -91,9 +91,9 @@ Hard eligibility: **review\_required**; application: unknown; deadline: unknown;
 [Original source](<https://www.joinef.com/>)
 Classification: **VERIFICATION_REQUIRED**. Provisional domain attention: 0.3. Technical significance: **unassessed**.
 Matched topics: none matched lexically; inspect semantic judgments.
-Language: unknown (insufficient_language_evidence); discovery locale: unknown. Publication: unknown; retrieved: 2026-11-09T06:20:38.841941+00:00; fresh: False.
+Language: unknown (insufficient_language_evidence); discovery locale: unknown. Publication: unknown; retrieved: 2026-11-09T22:16:38.296095+00:00; fresh: False.
 Source-attributed statement from FOUND, DON'T FOLLOW: “FOUND, DON'T FOLLOW”. This excerpt records what the source says; it does not independently establish the claim or its implications.
-Language: unknown (insufficient_language_evidence); discovery locale: unknown. Publication: unknown; retrieved: 2026-11-09T06:20:38.841941+00:00; fresh: False.
+Language: unknown (insufficient_language_evidence); discovery locale: unknown. Publication: unknown; retrieved: 2026-11-09T22:16:38.296095+00:00; fresh: False.
 Source-attributed statement from FOUND, DON'T FOLLOW: “APPLY HERE”. This excerpt records what the source says; it does not independently establish the claim or its implications.
 **Editorial investigation / potential implications:** Check the official current round, founder prerequisites, costs and equity terms. Strategic fit is separate from eligibility and application availability.
 **Model judgments:** relevance: unassessed / score null (no_fresh_evidence; no call); worth-attention: unassessed / score null (no_fresh_evidence; no call); same-story: unassessed / score null (no_fresh_evidence; no call); importance: unassessed / score null (no_fresh_evidence; no call); claim-support: unassessed / score null (no_fresh_evidence; no call); hfs: unassessed / score null (no_fresh_evidence; no call)
@@ -107,9 +107,9 @@ Hard eligibility: **review\_required**; application: unknown; deadline: unknown;
 [Original source](<https://www.ycombinator.com/apply>)
 Classification: **VERIFICATION_REQUIRED**. Provisional domain attention: 0.3. Technical significance: **unassessed**.
 Matched topics: none matched lexically; inspect semantic judgments.
-Language: unknown (insufficient_language_evidence); discovery locale: unknown. Publication: unknown; retrieved: 2026-11-09T06:20:38.841941+00:00; fresh: False.
+Language: unknown (insufficient_language_evidence); discovery locale: unknown. Publication: unknown; retrieved: 2026-11-09T22:16:38.296095+00:00; fresh: False.
 Source-attributed statement from Apply to Y Combinator: “Apply to Y Combinator”. This excerpt records what the source says; it does not independently establish the claim or its implications.
-Language: unknown (insufficient_language_evidence); discovery locale: unknown. Publication: unknown; retrieved: 2026-11-09T06:20:38.841941+00:00; fresh: False.
+Language: unknown (insufficient_language_evidence); discovery locale: unknown. Publication: unknown; retrieved: 2026-11-09T22:16:38.296095+00:00; fresh: False.
 Source-attributed statement from Apply to Y Combinator: “Apply”. This excerpt records what the source says; it does not independently establish the claim or its implications.
 **Editorial investigation / potential implications:** Check the official current round, founder prerequisites, costs and equity terms. Strategic fit is separate from eligibility and application availability.
 **Model judgments:** relevance: unassessed / score null (no_fresh_evidence; no call); worth-attention: unassessed / score null (no_fresh_evidence; no call); same-story: unassessed / score null (no_fresh_evidence; no call); importance: unassessed / score null (no_fresh_evidence; no call); claim-support: unassessed / score null (no_fresh_evidence; no call); hfs: unassessed / score null (no_fresh_evidence; no call)

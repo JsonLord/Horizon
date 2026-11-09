@@ -1,9 +1,9 @@
 {
   "domain": "distributed-training",
-  "findings_sha256": "5665f1d0d36a193748187223f20e7b725aef7179af00f5e649dbb4d18297e355",
+  "findings_sha256": "6ece60e683106e921f84c86680fdc7225c7ef9c1141778f8563cfa0faafa81d9",
   "labels": [
     {
-      "candidate_id": "f99326fa9cbf56e840eb2095",
+      "candidate_id": "39e935e946844c2e77484554",
       "correct_duplicate_classification": null,
       "evidence_supported": null,
       "important": null,
@@ -14,7 +14,7 @@
       "reviewer_notes": null
     },
     {
-      "candidate_id": "562dd6db0df38711f8fef16e",
+      "candidate_id": "f99326fa9cbf56e840eb2095",
       "correct_duplicate_classification": null,
       "evidence_supported": null,
       "important": null,
@@ -36,7 +36,7 @@
       "reviewer_notes": null
     },
     {
-      "candidate_id": "5a89e64d4413abd8cb36a2f4",
+      "candidate_id": "562dd6db0df38711f8fef16e",
       "correct_duplicate_classification": null,
       "evidence_supported": null,
       "important": null,
@@ -91,7 +91,29 @@
       "reviewer_notes": null
     },
     {
-      "candidate_id": "2ec98e84ad70ab929b83c6e4",
+      "candidate_id": "e60b7dfbfbba0b31af50c15c",
+      "correct_duplicate_classification": null,
+      "evidence_supported": null,
+      "important": null,
+      "new_development": null,
+      "preference": null,
+      "relevant": null,
+      "reviewed_at": null,
+      "reviewer_notes": null
+    },
+    {
+      "candidate_id": "06945d68d9313252dd3b180d",
+      "correct_duplicate_classification": null,
+      "evidence_supported": null,
+      "important": null,
+      "new_development": null,
+      "preference": null,
+      "relevant": null,
+      "reviewed_at": null,
+      "reviewer_notes": null
+    },
+    {
+      "candidate_id": "7791db42e63d13b9b4ee6568",
       "correct_duplicate_classification": null,
       "evidence_supported": null,
       "important": null,

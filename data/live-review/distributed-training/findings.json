@@ -16,7 +16,7 @@
       "decisions": {
         "claim-support": {
           "cache_hit": false,
-          "charged_tokens": 682,
+          "charged_tokens": 617,
           "decision": {
             "evidence_ids": [
               "3530d205ace5d5d53655ee95"
@@ -35,19 +35,19 @@
             "cost": null,
             "family": "systemone",
             "format": "systemone_choices",
-            "input_tokens": 682,
-            "latency_ms": 436,
+            "input_tokens": 617,
+            "latency_ms": 450,
             "model": "alias-clef",
             "model_identity_verified": true,
             "output_tokens": 0,
             "response_model": "alias-clef",
             "status": "success",
-            "tokens": 682
+            "tokens": 617
           }
         },
         "hfs": {
           "cache_hit": false,
-          "charged_tokens": 924,
+          "charged_tokens": 859,
           "decision": {
             "evidence_ids": [
               "3530d205ace5d5d53655ee95"
@@ -66,19 +66,19 @@
             "cost": null,
             "family": "systemone",
             "format": "systemone_choices",
-            "input_tokens": 924,
-            "latency_ms": 585,
+            "input_tokens": 859,
+            "latency_ms": 456,
             "model": "alias-clef",
             "model_identity_verified": true,
             "output_tokens": 0,
             "response_model": "alias-clef",
             "status": "success",
-            "tokens": 924
+            "tokens": 859
           }
         },
         "importance": {
           "cache_hit": false,
-          "charged_tokens": 691,
+          "charged_tokens": 626,
           "decision": {
             "evidence_ids": [
               "3530d205ace5d5d53655ee95"
@@ -97,19 +97,19 @@
             "cost": null,
             "family": "systemone",
             "format": "systemone_choices",
-            "input_tokens": 691,
-            "latency_ms": 439,
+            "input_tokens": 626,
+            "latency_ms": 437,
             "model": "alias-clef",
             "model_identity_verified": true,
             "output_tokens": 0,
             "response_model": "alias-clef",
             "status": "success",
-            "tokens": 691
+            "tokens": 626
           }
         },
         "relevance": {
           "cache_hit": false,
-          "charged_tokens": 669,
+          "charged_tokens": 604,
           "decision": {
             "evidence_ids": [
               "3530d205ace5d5d53655ee95"
@@ -128,19 +128,19 @@
             "cost": null,
             "family": "systemone",
             "format": "systemone_choices",
-            "input_tokens": 669,
+            "input_tokens": 604,
             "latency_ms": 438,
             "model": "alias-clef",
             "model_identity_verified": true,
             "output_tokens": 0,
             "response_model": "alias-clef",
             "status": "success",
-            "tokens": 669
+            "tokens": 604
           }
         },
         "same-story": {
           "cache_hit": false,
-          "charged_tokens": 944,
+          "charged_tokens": 811,
           "decision": {
             "evidence_ids": [
               "3530d205ace5d5d53655ee95"
@@ -159,19 +159,19 @@
             "cost": null,
             "family": "systemone",
             "format": "systemone_choices",
-            "input_tokens": 944,
-            "latency_ms": 455,
+            "input_tokens": 811,
+            "latency_ms": 475,
             "model": "alias-clef",
             "model_identity_verified": true,
             "output_tokens": 0,
             "response_model": "alias-clef",
             "status": "success",
-            "tokens": 944
+            "tokens": 811
           }
         },
         "worth-attention": {
           "cache_hit": false,
-          "charged_tokens": 673,
+          "charged_tokens": 608,
           "decision": {
             "evidence_ids": [
               "3530d205ace5d5d53655ee95"
@@ -190,14 +190,14 @@
             "cost": null,
             "family": "systemone",
             "format": "systemone_choices",
-            "input_tokens": 673,
-            "latency_ms": 415,
+            "input_tokens": 608,
+            "latency_ms": 435,
             "model": "alias-clef",
             "model_identity_verified": true,
             "output_tokens": 0,
             "response_model": "alias-clef",
             "status": "success",
-            "tokens": 673
+            "tokens": 608
           }
         }
       },
@@ -216,7 +216,7 @@
           "primary": false,
           "published_at": "2026-11-02T22:47:15Z",
           "publisher": "NVIDIA Developer",
-          "retrieved_at": "2026-11-09T06:18:49.997373Z",
+          "retrieved_at": "2026-11-09T22:14:45.989961Z",
           "title": "Keep Distributed Training Running with Automated Workload Recovery | NVIDIA Technical Blog - NVIDIA Developer",
           "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNdnFfR0tJdXZNZVdzTFpjMWU2RXRJYS1TNU5Janp1dFJ2eFZCSTdXWlhVX0N6UHByWnlnc3h6dldFZmtHQ296aGFmS2drY3RkVDM4UElrbVZDODZER0cxYzFaOXQxUjBvb21Pcjg0Zk5qbzZRWXo3NzdKTFdkV3pieHRmNGx4OE96R2d4VUlrcDlSTFAycEM1TndwY1FvVUtVS2JZ?oc=5"
         }
@@ -235,17 +235,17 @@
     },
     {
       "application_status": null,
-      "attention": 0.68,
-      "classification": "UNASSESSED",
+      "attention": 0.84,
+      "classification": "REVIEW",
       "confirmed": false,
       "deadline": null,
       "decisions": {
         "claim-support": {
           "cache_hit": false,
-          "charged_tokens": 660,
+          "charged_tokens": 664,
           "decision": {
             "evidence_ids": [
-              "e6e2df7c2f3cb3ef92527bcb"
+              "50ff9320c6645892dfa86d92"
             ],
             "facts": 0.5,
             "hype": 0.5,
@@ -261,30 +261,30 @@
             "cost": null,
             "family": "systemone",
             "format": "systemone_choices",
-            "input_tokens": 660,
-            "latency_ms": 457,
+            "input_tokens": 664,
+            "latency_ms": 481,
             "model": "alias-clef",
             "model_identity_verified": true,
             "output_tokens": 0,
             "response_model": "alias-clef",
             "status": "success",
-            "tokens": 660
+            "tokens": 664
           }
         },
         "hfs": {
           "cache_hit": false,
-          "charged_tokens": 902,
+          "charged_tokens": 906,
           "decision": {
             "evidence_ids": [
-              "e6e2df7c2f3cb3ef92527bcb"
+              "50ff9320c6645892dfa86d92"
             ],
-            "facts": 0.1,
+            "facts": 0.9,
             "hype": 0.1,
             "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
             "related_event_id": null,
-            "score": 0.1,
-            "signal": 0.1,
-            "verdict": "no"
+            "score": 0.9,
+            "signal": 0.9,
+            "verdict": "yes"
           },
           "provider": {
             "abstained": false,
@@ -292,30 +292,30 @@
             "cost": null,
             "family": "systemone",
             "format": "systemone_choices",
-            "input_tokens": 902,
-            "latency_ms": 541,
+            "input_tokens": 906,
+            "latency_ms": 494,
             "model": "alias-clef",
             "model_identity_verified": true,
             "output_tokens": 0,
             "response_model": "alias-clef",
             "status": "success",
-            "tokens": 902
+            "tokens": 906
           }
         },
         "importance": {
           "cache_hit": false,
-          "charged_tokens": 669,
+          "charged_tokens": 673,
           "decision": {
             "evidence_ids": [
-              "e6e2df7c2f3cb3ef92527bcb"
+              "50ff9320c6645892dfa86d92"
             ],
             "facts": 0.5,
             "hype": 0.5,
             "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
             "related_event_id": null,
-            "score": 0.5,
+            "score": 0.9,
             "signal": 0.5,
-            "verdict": "unknown"
+            "verdict": "yes"
           },
           "provider": {
             "abstained": false,
@@ -323,30 +323,30 @@
             "cost": null,
             "family": "systemone",
             "format": "systemone_choices",
-            "input_tokens": 669,
-            "latency_ms": 422,
+            "input_tokens": 673,
+            "latency_ms": 424,
             "model": "alias-clef",
             "model_identity_verified": true,
             "output_tokens": 0,
             "response_model": "alias-clef",
             "status": "success",
-            "tokens": 669
+            "tokens": 673
           }
         },
         "relevance": {
           "cache_hit": false,
-          "charged_tokens": 647,
+          "charged_tokens": 651,
           "decision": {
             "evidence_ids": [
-              "e6e2df7c2f3cb3ef92527bcb"
+              "50ff9320c6645892dfa86d92"
             ],
             "facts": 0.5,
             "hype": 0.5,
             "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
             "related_event_id": null,
-            "score": 0.5,
+            "score": 0.9,
             "signal": 0.5,
-            "verdict": "unknown"
+            "verdict": "yes"
           },
           "provider": {
             "abstained": false,
@@ -354,27 +354,27 @@
             "cost": null,
             "family": "systemone",
             "format": "systemone_choices",
-            "input_tokens": 647,
-            "latency_ms": 554,
+            "input_tokens": 651,
+            "latency_ms": 443,
             "model": "alias-clef",
             "model_identity_verified": true,
             "output_tokens": 0,
             "response_model": "alias-clef",
             "status": "success",
-            "tokens": 647
+            "tokens": 651
           }
         },
         "same-story": {
           "cache_hit": false,
-          "charged_tokens": 854,
+          "charged_tokens": 911,
           "decision": {
             "evidence_ids": [
-              "e6e2df7c2f3cb3ef92527bcb"
+              "50ff9320c6645892dfa86d92"
             ],
             "facts": 0.5,
             "hype": 0.5,
             "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
-            "related_event_id": "95e66ebda8dbd6383d314fb8",
+            "related_event_id": null,
             "score": 0.9,
             "signal": 0.5,
             "verdict": "different"
@@ -385,22 +385,124 @@
             "cost": null,
             "family": "systemone",
             "format": "systemone_choices",
-            "input_tokens": 854,
-            "latency_ms": 546,
+            "input_tokens": 911,
+            "latency_ms": 485,
             "model": "alias-clef",
             "model_identity_verified": true,
             "output_tokens": 0,
             "response_model": "alias-clef",
             "status": "success",
-            "tokens": 854
+            "tokens": 911
           }
         },
         "worth-attention": {
           "cache_hit": false,
-          "charged_tokens": 651,
+          "charged_tokens": 655,
           "decision": {
             "evidence_ids": [
-              "e6e2df7c2f3cb3ef92527bcb"
+              "50ff9320c6645892dfa86d92"
+            ],
+            "facts": 0.5,
+            "hype": 0.5,
+            "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
+            "related_event_id": null,
+            "score": 0.1,
+            "signal": 0.5,
+            "verdict": "no"
+          },
+          "provider": {
+            "abstained": false,
+            "attempts": 1,
+            "cost": null,
+            "family": "systemone",
+            "format": "systemone_choices",
+            "input_tokens": 655,
+            "latency_ms": 426,
+            "model": "alias-clef",
+            "model_identity_verified": true,
+            "output_tokens": 0,
+            "response_model": "alias-clef",
+            "status": "success",
+            "tokens": 655
+          }
+        }
+      },
+      "duplicate_of": null,
+      "eligibility": null,
+      "event_id": "5f20d5dd3ca73475efd685e1",
+      "evidence": [
+        {
+          "content_hash": "e6c14a82b499510209ef6d140e553cda5124c7c53768575457f71b3172a3f46d",
+          "discovery_language": "en",
+          "excerpt": "What is Pathways? Single-controller training for large models Google for Developers Blog",
+          "fresh": true,
+          "id": "50ff9320c6645892dfa86d92",
+          "language": "unknown",
+          "language_basis": "insufficient_language_evidence",
+          "primary": false,
+          "published_at": "2026-11-09T12:00:43Z",
+          "publisher": "Google for Developers Blog",
+          "retrieved_at": "2026-11-09T22:14:45.990002Z",
+          "title": "What is Pathways? Single-controller training for large models - Google for Developers Blog",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOUnpZMjVIYldkSUJoWlBUV2ZJakpDRFNSWWFublVZdWxFWlpfVmJBUktGS3VkQzludmQzdVFBSzNVMGxqRFNlMDZZalBjUU45emFDU3Y4YlNPbkRweGpfNUpnSE1DcUx3VFNhY3BKYnBWRlYtZWdMNUVITlFtWExVMnFqN0FIWDJZc3JRc2VsdUEyclVFTmNJRk5zZw?oc=5"
+        }
+      ],
+      "historical_application_status": null,
+      "historical_deadline": null,
+      "id": "39e935e946844c2e77484554",
+      "matched_topics": [],
+      "missing_verification": [],
+      "reasons": [
+        "provisional_domain_rubric_threshold_met_not_verified_truth"
+      ],
+      "technical_significance": null,
+      "title": "What is Pathways? Single-controller training for large models - Google for Developers Blog",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOUnpZMjVIYldkSUJoWlBUV2ZJakpDRFNSWWFublVZdWxFWlpfVmJBUktGS3VkQzludmQzdVFBSzNVMGxqRFNlMDZZalBjUU45emFDU3Y4YlNPbkRweGpfNUpnSE1DcUx3VFNhY3BKYnBWRlYtZWdMNUVITlFtWExVMnFqN0FIWDJZc3JRc2VsdUEyclVFTmNJRk5zZw?oc=5"
+    },
+    {
+      "application_status": null,
+      "attention": 0.52,
+      "classification": "REJECTED",
+      "confirmed": false,
+      "deadline": null,
+      "decisions": {
+        "claim-support": {
+          "cache_hit": false,
+          "charged_tokens": 664,
+          "decision": {
+            "evidence_ids": [
+              "6b1688432014892474030163"
+            ],
+            "facts": 0.5,
+            "hype": 0.5,
+            "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
+            "related_event_id": null,
+            "score": 0.9,
+            "signal": 0.5,
+            "verdict": "yes"
+          },
+          "provider": {
+            "abstained": false,
+            "attempts": 1,
+            "cost": null,
+            "family": "systemone",
+            "format": "systemone_choices",
+            "input_tokens": 664,
+            "latency_ms": 437,
+            "model": "alias-clef",
+            "model_identity_verified": true,
+            "output_tokens": 0,
+            "response_model": "alias-clef",
+            "status": "success",
+            "tokens": 664
+          }
+        },
+        "hfs": {
+          "cache_hit": false,
+          "charged_tokens": 906,
+          "decision": {
+            "evidence_ids": [
+              "6b1688432014892474030163"
             ],
             "facts": 0.5,
             "hype": 0.5,
@@ -408,7 +510,69 @@
             "related_event_id": null,
             "score": 0.5,
             "signal": 0.5,
-            "verdict": "unknown"
+            "verdict": "yes"
+          },
+          "provider": {
+            "abstained": false,
+            "attempts": 1,
+            "cost": null,
+            "family": "systemone",
+            "format": "systemone_choices",
+            "input_tokens": 906,
+            "latency_ms": 676,
+            "model": "alias-clef",
+            "model_identity_verified": true,
+            "output_tokens": 0,
+            "response_model": "alias-clef",
+            "status": "success",
+            "tokens": 906
+          }
+        },
+        "importance": {
+          "cache_hit": false,
+          "charged_tokens": 673,
+          "decision": {
+            "evidence_ids": [
+              "6b1688432014892474030163"
+            ],
+            "facts": 0.5,
+            "hype": 0.5,
+            "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
+            "related_event_id": null,
+            "score": 0.5,
+            "signal": 0.5,
+            "verdict": "yes"
+          },
+          "provider": {
+            "abstained": false,
+            "attempts": 1,
+            "cost": null,
+            "family": "systemone",
+            "format": "systemone_choices",
+            "input_tokens": 673,
+            "latency_ms": 447,
+            "model": "alias-clef",
+            "model_identity_verified": true,
+            "output_tokens": 0,
+            "response_model": "alias-clef",
+            "status": "success",
+            "tokens": 673
+          }
+        },
+        "relevance": {
+          "cache_hit": false,
+          "charged_tokens": 651,
+          "decision": {
+            "evidence_ids": [
+              "6b1688432014892474030163"
+            ],
+            "facts": 0.5,
+            "hype": 0.5,
+            "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
+            "related_event_id": null,
+            "score": 0.1,
+            "signal": 0.5,
+            "verdict": "no"
           },
           "provider": {
             "abstained": false,
@@ -417,7 +581,7 @@
             "family": "systemone",
             "format": "systemone_choices",
             "input_tokens": 651,
-            "latency_ms": 539,
+            "latency_ms": 434,
             "model": "alias-clef",
             "model_identity_verified": true,
             "output_tokens": 0,
@@ -425,176 +589,10 @@
             "status": "success",
             "tokens": 651
           }
-        }
-      },
-      "duplicate_of": null,
-      "eligibility": null,
-      "event_id": "261f61a60811870af5097f32",
-      "evidence": [
-        {
-          "content_hash": "12d9db497c4ed9ae07aa766667ccd8beed7457e77b9e832479287ef7d5658476",
-          "discovery_language": "en",
-          "excerpt": "Form 4 IDEX: William L. Simmons (Group Executive, FMT & FSDP) For: 16 September Investing.com Nigeria",
-          "fresh": true,
-          "id": "e6e2df7c2f3cb3ef92527bcb",
-          "language": "unknown",
-          "language_basis": "insufficient_language_evidence",
-          "primary": false,
-          "published_at": "2026-11-02T08:00:00Z",
-          "publisher": "Investing.com Nigeria",
-          "retrieved_at": "2026-11-09T06:18:49.997406Z",
-          "title": "Form 4 IDEX: William L. Simmons (Group Executive, FMT & FSDP) For: 16 September - Investing.com Nigeria",
-          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQN1E1bXdsLVctUUNzZTFmbEFoQ0R0OTB2RzVzVXY5S3Z2OUVBQzRHRnZyRUQ0SlltWU5LNkZ6N0FMRDdEZHJWTlU4OUdlQkFLRW01aFd4UC00dEZfWlU1TjVNVTJBQ0xwZWh5ZnZzdkhaU1pBX20zcURUbG5pYWhrRTZ3X2F4VHVqYXhyUVQybFQ4c1pJdDdESXVnd2dBVHRBY2NrdXU4dGFOejJva0RWaWg0TGJvdXF5SjgyUmROYWZZV0R6YnhUWXIyVHdJdw?oc=5"
-        }
-      ],
-      "historical_application_status": null,
-      "historical_deadline": null,
-      "id": "5a89e64d4413abd8cb36a2f4",
-      "matched_topics": [
-        "FSDP"
-      ],
-      "missing_verification": [],
-      "reasons": [
-        "incomplete_uncertain_or_below_threshold_model_assessment"
-      ],
-      "technical_significance": null,
-      "title": "Form 4 IDEX: William L. Simmons (Group Executive, FMT & FSDP) For: 16 September - Investing.com Nigeria",
-      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQN1E1bXdsLVctUUNzZTFmbEFoQ0R0OTB2RzVzVXY5S3Z2OUVBQzRHRnZyRUQ0SlltWU5LNkZ6N0FMRDdEZHJWTlU4OUdlQkFLRW01aFd4UC00dEZfWlU1TjVNVTJBQ0xwZWh5ZnZzdkhaU1pBX20zcURUbG5pYWhrRTZ3X2F4VHVqYXhyUVQybFQ4c1pJdDdESXVnd2dBVHRBY2NrdXU4dGFOejJva0RWaWg0TGJvdXF5SjgyUmROYWZZV0R6YnhUWXIyVHdJdw?oc=5"
-    },
-    {
-      "application_status": null,
-      "attention": 0.76,
-      "classification": "REVIEW",
-      "confirmed": false,
-      "deadline": null,
-      "decisions": {
-        "claim-support": {
-          "cache_hit": false,
-          "charged_tokens": 682,
-          "decision": {
-            "evidence_ids": [
-              "6b1688432014892474030163"
-            ],
-            "facts": 0.5,
-            "hype": 0.5,
-            "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
-            "related_event_id": null,
-            "score": 0.9,
-            "signal": 0.5,
-            "verdict": "yes"
-          },
-          "provider": {
-            "abstained": false,
-            "attempts": 1,
-            "cost": null,
-            "family": "systemone",
-            "format": "systemone_choices",
-            "input_tokens": 682,
-            "latency_ms": 424,
-            "model": "alias-clef",
-            "model_identity_verified": true,
-            "output_tokens": 0,
-            "response_model": "alias-clef",
-            "status": "success",
-            "tokens": 682
-          }
-        },
-        "hfs": {
-          "cache_hit": false,
-          "charged_tokens": 924,
-          "decision": {
-            "evidence_ids": [
-              "6b1688432014892474030163"
-            ],
-            "facts": 0.5,
-            "hype": 0.1,
-            "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
-            "related_event_id": null,
-            "score": 0.5,
-            "signal": 0.5,
-            "verdict": "yes"
-          },
-          "provider": {
-            "abstained": false,
-            "attempts": 1,
-            "cost": null,
-            "family": "systemone",
-            "format": "systemone_choices",
-            "input_tokens": 924,
-            "latency_ms": 480,
-            "model": "alias-clef",
-            "model_identity_verified": true,
-            "output_tokens": 0,
-            "response_model": "alias-clef",
-            "status": "success",
-            "tokens": 924
-          }
-        },
-        "importance": {
-          "cache_hit": false,
-          "charged_tokens": 691,
-          "decision": {
-            "evidence_ids": [
-              "6b1688432014892474030163"
-            ],
-            "facts": 0.5,
-            "hype": 0.5,
-            "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
-            "related_event_id": null,
-            "score": 0.5,
-            "signal": 0.5,
-            "verdict": "yes"
-          },
-          "provider": {
-            "abstained": false,
-            "attempts": 1,
-            "cost": null,
-            "family": "systemone",
-            "format": "systemone_choices",
-            "input_tokens": 691,
-            "latency_ms": 409,
-            "model": "alias-clef",
-            "model_identity_verified": true,
-            "output_tokens": 0,
-            "response_model": "alias-clef",
-            "status": "success",
-            "tokens": 691
-          }
-        },
-        "relevance": {
-          "cache_hit": false,
-          "charged_tokens": 669,
-          "decision": {
-            "evidence_ids": [
-              "6b1688432014892474030163"
-            ],
-            "facts": 0.5,
-            "hype": 0.5,
-            "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
-            "related_event_id": null,
-            "score": 0.9,
-            "signal": 0.5,
-            "verdict": "yes"
-          },
-          "provider": {
-            "abstained": false,
-            "attempts": 1,
-            "cost": null,
-            "family": "systemone",
-            "format": "systemone_choices",
-            "input_tokens": 669,
-            "latency_ms": 474,
-            "model": "alias-clef",
-            "model_identity_verified": true,
-            "output_tokens": 0,
-            "response_model": "alias-clef",
-            "status": "success",
-            "tokens": 669
-          }
         },
         "same-story": {
           "cache_hit": false,
-          "charged_tokens": 927,
+          "charged_tokens": 891,
           "decision": {
             "evidence_ids": [
               "6b1688432014892474030163"
@@ -613,19 +611,19 @@
             "cost": null,
             "family": "systemone",
             "format": "systemone_choices",
-            "input_tokens": 927,
-            "latency_ms": 484,
+            "input_tokens": 891,
+            "latency_ms": 642,
             "model": "alias-clef",
             "model_identity_verified": true,
             "output_tokens": 0,
             "response_model": "alias-clef",
             "status": "success",
-            "tokens": 927
+            "tokens": 891
           }
         },
         "worth-attention": {
           "cache_hit": false,
-          "charged_tokens": 673,
+          "charged_tokens": 655,
           "decision": {
             "evidence_ids": [
               "6b1688432014892474030163"
@@ -644,14 +642,14 @@
             "cost": null,
             "family": "systemone",
             "format": "systemone_choices",
-            "input_tokens": 673,
-            "latency_ms": 450,
+            "input_tokens": 655,
+            "latency_ms": 430,
             "model": "alias-clef",
             "model_identity_verified": true,
             "output_tokens": 0,
             "response_model": "alias-clef",
             "status": "success",
-            "tokens": 673
+            "tokens": 655
           }
         }
       },
@@ -670,7 +668,7 @@
           "primary": false,
           "published_at": "2026-11-05T17:04:56Z",
           "publisher": "NVIDIA Developer",
-          "retrieved_at": "2026-11-09T06:18:49.997428Z",
+          "retrieved_at": "2026-11-09T22:14:45.990015Z",
           "title": "Configure, Certify, and Operate Kubernetes GPU Clusters with NVIDIA DSX OS - NVIDIA Developer",
           "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPRGtOeWpBblRrTVNIRmlMYlhxVi1ENzNyMEUtTnFvOEtjazNzS1gwc2R0TmpEMlhRczRyQXNDRE1EZUdDSnNsTS1kUWFqbGpDSmU5TElkQ1BxUm1BLTU3UFdEZkFYSDZxMThjempUVGgzaTN0blFWMmxHZkJ1eHRmdnBLcXZad0llZnJ0aDVNa0pRRlJhRG1DMUZ1ODZOcWlkbjVDRVNJekp3MXc?oc=5"
         }
@@ -681,7 +679,7 @@
       "matched_topics": [],
       "missing_verification": [],
       "reasons": [
-        "provisional_domain_rubric_threshold_met_not_verified_truth"
+        "model_relevance_no"
       ],
       "technical_significance": null,
       "title": "Configure, Certify, and Operate Kubernetes GPU Clusters with NVIDIA DSX OS - NVIDIA Developer",
@@ -716,7 +714,7 @@
             "family": "systemone",
             "format": "systemone_choices",
             "input_tokens": 611,
-            "latency_ms": 415,
+            "latency_ms": 588,
             "model": "alias-clef",
             "model_identity_verified": true,
             "output_tokens": 0,
@@ -747,7 +745,7 @@
             "family": "systemone",
             "format": "systemone_choices",
             "input_tokens": 853,
-            "latency_ms": 454,
+            "latency_ms": 487,
             "model": "alias-clef",
             "model_identity_verified": true,
             "output_tokens": 0,
@@ -778,7 +776,7 @@
             "family": "systemone",
             "format": "systemone_choices",
             "input_tokens": 620,
-            "latency_ms": 418,
+            "latency_ms": 607,
             "model": "alias-clef",
             "model_identity_verified": true,
             "output_tokens": 0,
@@ -809,7 +807,7 @@
             "family": "systemone",
             "format": "systemone_choices",
             "input_tokens": 598,
-            "latency_ms": 427,
+            "latency_ms": 439,
             "model": "alias-clef",
             "model_identity_verified": true,
             "output_tokens": 0,
@@ -840,7 +838,7 @@
             "family": "systemone",
             "format": "systemone_choices",
             "input_tokens": 670,
-            "latency_ms": 456,
+            "latency_ms": 450,
             "model": "alias-clef",
             "model_identity_verified": true,
             "output_tokens": 0,
@@ -871,7 +869,7 @@
             "family": "systemone",
             "format": "systemone_choices",
             "input_tokens": 602,
-            "latency_ms": 520,
+            "latency_ms": 438,
             "model": "alias-clef",
             "model_identity_verified": true,
             "output_tokens": 0,
@@ -896,7 +894,7 @@
           "primary": false,
           "published_at": "2026-11-05T03:08:00Z",
           "publisher": "BigGo Finance",
-          "retrieved_at": "2026-11-09T06:18:49.997448Z",
+          "retrieved_at": "2026-11-09T22:14:45.990027Z",
           "title": "Core Automation's Rohan Anil Says AI Models Will Learn on the Job by 2027 — and Frontier Training No Longer Needs One Giant Data Center - BigGo Finance",
           "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1VYU9LWmJOVFBCN1Q0STV2dTZoS3A2cTNFTGNXdEFTNjNMUXAxTDE1WnhaVW95TTN0OHJrY3pDS1F1eS1xSTRMMHBvMWVQeHAxYzRIcEtHcFFJT28?oc=5"
         }
@@ -922,7 +920,7 @@
       "decisions": {
         "claim-support": {
           "cache_hit": false,
-          "charged_tokens": 643,
+          "charged_tokens": 640,
           "decision": {
             "evidence_ids": [],
             "facts": 0.5,
@@ -939,19 +937,19 @@
             "cost": null,
             "family": "systemone",
             "format": "systemone_choices",
-            "input_tokens": 643,
-            "latency_ms": 461,
+            "input_tokens": 640,
+            "latency_ms": 454,
             "model": "alias-clef",
             "model_identity_verified": true,
             "output_tokens": 0,
             "response_model": "alias-clef",
             "status": "success",
-            "tokens": 643
+            "tokens": 640
           }
         },
         "hfs": {
           "cache_hit": false,
-          "charged_tokens": 885,
+          "charged_tokens": 882,
           "decision": {
             "evidence_ids": [],
             "facts": 0.1,
@@ -968,19 +966,19 @@
             "cost": null,
             "family": "systemone",
             "format": "systemone_choices",
-            "input_tokens": 885,
-            "latency_ms": 469,
+            "input_tokens": 882,
+            "latency_ms": 455,
             "model": "alias-clef",
             "model_identity_verified": true,
             "output_tokens": 0,
             "response_model": "alias-clef",
             "status": "success",
-            "tokens": 885
+            "tokens": 882
           }
         },
         "importance": {
           "cache_hit": false,
-          "charged_tokens": 652,
+          "charged_tokens": 649,
           "decision": {
             "evidence_ids": [],
             "facts": 0.5,
@@ -997,19 +995,19 @@
             "cost": null,
             "family": "systemone",
             "format": "systemone_choices",
-            "input_tokens": 652,
-            "latency_ms": 428,
+            "input_tokens": 649,
+            "latency_ms": 454,
             "model": "alias-clef",
             "model_identity_verified": true,
             "output_tokens": 0,
             "response_model": "alias-clef",
             "status": "success",
-            "tokens": 652
+            "tokens": 649
           }
         },
         "relevance": {
           "cache_hit": false,
-          "charged_tokens": 630,
+          "charged_tokens": 627,
           "decision": {
             "evidence_ids": [],
             "facts": 0.5,
@@ -1026,19 +1024,19 @@
             "cost": null,
             "family": "systemone",
             "format": "systemone_choices",
-            "input_tokens": 630,
-            "latency_ms": 409,
+            "input_tokens": 627,
+            "latency_ms": 425,
             "model": "alias-clef",
             "model_identity_verified": true,
             "output_tokens": 0,
             "response_model": "alias-clef",
             "status": "success",
-            "tokens": 630
+            "tokens": 627
           }
         },
         "same-story": {
           "cache_hit": false,
-          "charged_tokens": 876,
+          "charged_tokens": 870,
           "decision": {
             "evidence_ids": [],
             "facts": 0.5,
@@ -1055,19 +1053,19 @@
             "cost": null,
             "family": "systemone",
             "format": "systemone_choices",
-            "input_tokens": 876,
-            "latency_ms": 473,
+            "input_tokens": 870,
+            "latency_ms": 478,
             "model": "alias-clef",
             "model_identity_verified": true,
             "output_tokens": 0,
             "response_model": "alias-clef",
             "status": "success",
-            "tokens": 876
+            "tokens": 870
           }
         },
         "worth-attention": {
           "cache_hit": false,
-          "charged_tokens": 634,
+          "charged_tokens": 631,
           "decision": {
             "evidence_ids": [],
             "facts": 0.5,
@@ -1084,14 +1082,14 @@
             "cost": null,
             "family": "systemone",
             "format": "systemone_choices",
-            "input_tokens": 634,
-            "latency_ms": 434,
+            "input_tokens": 631,
+            "latency_ms": 633,
             "model": "alias-clef",
             "model_identity_verified": true,
             "output_tokens": 0,
             "response_model": "alias-clef",
             "status": "success",
-            "tokens": 634
+            "tokens": 631
           }
         }
       },
@@ -1110,7 +1108,7 @@
           "primary": false,
           "published_at": "2026-11-05T08:00:00Z",
           "publisher": "Fishing News",
-          "retrieved_at": "2026-11-09T06:18:49.997467Z",
+          "retrieved_at": "2026-11-09T22:14:45.990039Z",
           "title": "Northern Ireland minister ‘working with industry on challenges’ - Fishing News",
           "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNTFBNcHFoMVRuRDltbkJWNV9Mc2FyUkdNNF9SaVVuaU9Ia3VOZU10ckF5Slo2WEJ1eVI5RzNDbDVWb0MtV0ZUbnE2cndZYk9naUNzbU0yaUxrcWg5NzMxUENtQ0s4MzBmdlE4SmR3TU1PRWRJTkI0OXNBdHZRdlpzejBzdnNRRGVBTUI4aWpHQUMtdkoyT0c4WWlkN0E?oc=5"
         }
@@ -1174,7 +1172,7 @@
             "family": "systemone",
             "format": "systemone_choices",
             "input_tokens": 671,
-            "latency_ms": 448,
+            "latency_ms": 428,
             "model": "alias-clef",
             "model_identity_verified": true,
             "output_tokens": 0,
@@ -1205,7 +1203,7 @@
             "family": "systemone",
             "format": "systemone_choices",
             "input_tokens": 649,
-            "latency_ms": 423,
+            "latency_ms": 428,
             "model": "alias-clef",
             "model_identity_verified": true,
             "output_tokens": 0,
@@ -1236,7 +1234,7 @@
             "family": "systemone",
             "format": "systemone_choices",
             "input_tokens": 889,
-            "latency_ms": 504,
+            "latency_ms": 476,
             "model": "alias-clef",
             "model_identity_verified": true,
             "output_tokens": 0,
@@ -1267,7 +1265,7 @@
             "family": "systemone",
             "format": "systemone_choices",
             "input_tokens": 653,
-            "latency_ms": 525,
+            "latency_ms": 443,
             "model": "alias-clef",
             "model_identity_verified": true,
             "output_tokens": 0,
@@ -1292,7 +1290,7 @@
           "primary": false,
           "published_at": "2026-11-03T00:03:37Z",
           "publisher": "The Herald",
-          "retrieved_at": "2026-11-09T06:18:49.997485Z",
+          "retrieved_at": "2026-11-09T22:14:45.990052Z",
           "title": "Holyrood committee cannot confirm Scottish budget plans are affordable amid £5bn gap - The Herald",
           "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOcklPWXNnNk5sSUZ0ZFo1TDFXd1hBYkNtSnh6MEtsbGxJbG9GV2RBUGtOMW1uZFQ0VFZpM0dIZ2xVNGdWWDBmWTFROGJ3amNZQ19Mb09SY1J6NUc4U3N5TTJqTmp3RW5LVzdwQWRqRXVreGhSTmpnV19OcFEyc3ZaSXMzWVUxX1ZzbXFvRXdWODBPdzRtUnp2bFlqRlk4SWVvMHc?oc=5"
         }
@@ -1386,7 +1384,7 @@
           "primary": false,
           "published_at": "2026-11-03T00:04:20Z",
           "publisher": "Holyrood Website",
-          "retrieved_at": "2026-11-09T06:18:49.997503Z",
+          "retrieved_at": "2026-11-09T22:14:45.990065Z",
           "title": "Finance committee calls on Scottish Government for ‘much greater transparency’ over £5bn fiscal gap - Holyrood Website",
           "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPVjBRaDNBSVZwV0NpVVlRdmNhYVJJUFZKTVk0YnkyOC1DZW40bkdzV0otd3kzNlZyUkFiQWphOGVLNzF5eTlBS0dYci13QXB4cTNoSU4xZDBlMlNyNUxIWnZiM2hJcTAxbVJzTlNqSm9ZdktTX3RqRHZEUUI0ZHdhZnQ3djM3VEdwekUtM09MVjAzWWVadUltWHlYVU5Zb1JMWmw0T0xjUFcyQ2VFMUVfaHlWa256MVZLWXJ2YjhBMEhvMllNMHhpOGFudw?oc=5"
         }
@@ -1480,7 +1478,7 @@
           "primary": false,
           "published_at": "2026-11-06T06:10:05Z",
           "publisher": "Tech Times",
-          "retrieved_at": "2026-11-09T06:18:49.997521Z",
+          "retrieved_at": "2026-11-09T22:14:45.990077Z",
           "title": "NVIDIA DSX OS Guide Says Slow GPU Nodes Pass Tests Until Operators Set Thresholds - Tech Times",
           "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNU01JUWRCNEx4TEs2R1ZsLVRiWXgzWVZ1a1lGUkp2WjNIVlVfdGtQcmJqVHdFSnZraHBncnlGcFdsd2E1dDRGQTlyRmVuNUJlcHcxVTZGSDRQWVkzVlgwZTlLd2podUg2SDFGTk9QR0dYSkI1VWxNYXNOOGZTMnA5OG0weTlpYXl1RE0wWnJwemhIRXRmdVJLVkdiVllvUVRvZGlLSFhuaUtGS3NnNm03dzNURzk4ajU3b3h3V1g0aDF3SjhHM05lc2xWNVlLNG4xTXc?oc=5"
         }
@@ -1561,6 +1559,100 @@
       },
       "duplicate_of": null,
       "eligibility": null,
+      "event_id": "88e6a5f748ad65e284025c52",
+      "evidence": [
+        {
+          "content_hash": "a53b8bdcf5c598d99a23135d6df888396ecf424fcef55252c4791efac493a21c",
+          "discovery_language": "de",
+          "excerpt": "Mit der GPU Geld verdienen? Microsoft prüft ein neues KI-Modell PCGH",
+          "fresh": true,
+          "id": "fad8f9813c0b93755b1a478e",
+          "language": "unknown",
+          "language_basis": "insufficient_language_evidence",
+          "primary": false,
+          "published_at": "2026-11-09T12:00:00Z",
+          "publisher": "PCGH",
+          "retrieved_at": "2026-11-09T22:14:46.359128Z",
+          "title": "Mit der GPU Geld verdienen? Microsoft prüft ein neues KI-Modell - PCGH",
+          "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxNckxPNHo4Q2RFYTBQclk3TEprdkRKNjRxdlhfMXAwaGlMbUZ0RE5uS0d2a05PMU5CQ0locHN1SjNVSV84MUdBWk9rY1RaSThsTk1INWc3WWM0dFd3eXN1N3NoeXFrdmpjank2TWJmTTlNYW9ZNXF6V2NlNnZlVmZxMGxSWFRUODZYVGFsdzEwMjZNN0hlUTl6ekdkcnpXaWdzMUoxczRoTzRHbUFvVTVTMTU4UERsQzZFY01IRXZzMDRiRUZaTWU5OXVXLWMycnhVYk1tOTZBdTUzQ0lkYzF6SnNnYnkxNkZySzgtMFlVVGNLZWFEdEFvMDZxZDNOdw?oc=5"
+        }
+      ],
+      "historical_application_status": null,
+      "historical_deadline": null,
+      "id": "e60b7dfbfbba0b31af50c15c",
+      "matched_topics": [],
+      "missing_verification": [],
+      "reasons": [
+        "incomplete_uncertain_or_below_threshold_model_assessment"
+      ],
+      "technical_significance": null,
+      "title": "Mit der GPU Geld verdienen? Microsoft prüft ein neues KI-Modell - PCGH",
+      "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxNckxPNHo4Q2RFYTBQclk3TEprdkRKNjRxdlhfMXAwaGlMbUZ0RE5uS0d2a05PMU5CQ0locHN1SjNVSV84MUdBWk9rY1RaSThsTk1INWc3WWM0dFd3eXN1N3NoeXFrdmpjank2TWJmTTlNYW9ZNXF6V2NlNnZlVmZxMGxSWFRUODZYVGFsdzEwMjZNN0hlUTl6ekdkcnpXaWdzMUoxczRoTzRHbUFvVTVTMTU4UERsQzZFY01IRXZzMDRiRUZaTWU5OXVXLWMycnhVYk1tOTZBdTUzQ0lkYzF6SnNnYnkxNkZySzgtMFlVVGNLZWFEdEFvMDZxZDNOdw?oc=5"
+    },
+    {
+      "application_status": null,
+      "attention": 0.25,
+      "classification": "UNASSESSED",
+      "confirmed": false,
+      "deadline": null,
+      "decisions": {
+        "claim-support": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "hfs": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "importance": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "relevance": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "same-story": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "worth-attention": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        }
+      },
+      "duplicate_of": null,
+      "eligibility": null,
       "event_id": "1c4cbad4dd5843f64dfcd9ab",
       "evidence": [
         {
@@ -1574,14 +1666,14 @@
           "primary": false,
           "published_at": "2026-11-08T12:00:00Z",
           "publisher": "PC Games (DE)",
-          "retrieved_at": "2026-11-09T06:18:50.283013Z",
+          "retrieved_at": "2026-11-09T22:14:46.359153Z",
           "title": "Mit der Gaming-Pause Geld verdienen: Microsoft plant GPU-Training - PC Games (DE)",
           "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNeENiWFdzRGtpanhfSnI3OTF0emVZWFhVMlI0TVJPWU1QTnM4OWVSeE0xUU5zN01FalA4aEU2eWg0bTRnRW95VEM1ZC0wS282ZkE4X2RUSEdxMmRWQ0hDZGpMbnV3RDJTOHd6ai1fNnAxVlV5VHN4WXE1OEFMaFVZbXBtVnU1SEpQZ0g0d2tfZHpIX3AxOENucDdZYw?oc=5"
         }
       ],
       "historical_application_status": null,
       "historical_deadline": null,
-      "id": "2ec98e84ad70ab929b83c6e4",
+      "id": "06945d68d9313252dd3b180d",
       "matched_topics": [],
       "missing_verification": [],
       "reasons": [
@@ -1590,10 +1682,104 @@
       "technical_significance": null,
       "title": "Mit der Gaming-Pause Geld verdienen: Microsoft plant GPU-Training - PC Games (DE)",
       "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNeENiWFdzRGtpanhfSnI3OTF0emVZWFhVMlI0TVJPWU1QTnM4OWVSeE0xUU5zN01FalA4aEU2eWg0bTRnRW95VEM1ZC0wS282ZkE4X2RUSEdxMmRWQ0hDZGpMbnV3RDJTOHd6ai1fNnAxVlV5VHN4WXE1OEFMaFVZbXBtVnU1SEpQZ0g0d2tfZHpIX3AxOENucDdZYw?oc=5"
+    },
+    {
+      "application_status": null,
+      "attention": 0.25,
+      "classification": "UNASSESSED",
+      "confirmed": false,
+      "deadline": null,
+      "decisions": {
+        "claim-support": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "hfs": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "importance": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "relevance": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "same-story": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "worth-attention": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        }
+      },
+      "duplicate_of": null,
+      "eligibility": null,
+      "event_id": "e630227d3adcf41716693dcb",
+      "evidence": [
+        {
+          "content_hash": "178c6f742680934413200539e5ad25a49f9515725eded39002e1982c743d7173",
+          "discovery_language": "fr",
+          "excerpt": "PyTorch 2.15 réécrit son backend NCCL pour stabiliser l'entraînement distribué Foro3D",
+          "fresh": true,
+          "id": "f18a0f48c2f32919137c3876",
+          "language": "unknown",
+          "language_basis": "insufficient_language_evidence",
+          "primary": false,
+          "published_at": "2026-11-09T19:08:46Z",
+          "publisher": "Foro3D",
+          "retrieved_at": "2026-11-09T22:14:46.677175Z",
+          "title": "PyTorch 2.15 réécrit son backend NCCL pour stabiliser l'entraînement distribué - Foro3D",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQSHZQcUlyWGVUVGxaX1FsV0M1TVRHV3BDS3BaSDFWRFJQcjBjLU53Sm0yMVlSR0ZlVjRuTVJDR050REVIR196WnFUX3A5V0o4Mlp0d3J6Z1dndlVKTldXSXd2V2REVkVZYU1LLWgyQnBvUnNzclNIZzZYUEhta2ZNTU5qZHJWRjNvU2ZENTFoejVaMEwyU3BwT2R3bmpnODl5WTVES3FSV0ZqWm9XSVFoRUVR?oc=5"
+        }
+      ],
+      "historical_application_status": null,
+      "historical_deadline": null,
+      "id": "7791db42e63d13b9b4ee6568",
+      "matched_topics": [],
+      "missing_verification": [],
+      "reasons": [
+        "incomplete_uncertain_or_below_threshold_model_assessment"
+      ],
+      "technical_significance": null,
+      "title": "PyTorch 2.15 réécrit son backend NCCL pour stabiliser l'entraînement distribué - Foro3D",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQSHZQcUlyWGVUVGxaX1FsV0M1TVRHV3BDS3BaSDFWRFJQcjBjLU53Sm0yMVlSR0ZlVjRuTVJDR050REVIR196WnFUX3A5V0o4Mlp0d3J6Z1dndlVKTldXSXd2V2REVkVZYU1LLWgyQnBvUnNzclNIZzZYUEhta2ZNTU5qZHJWRjNvU2ZENTFoejVaMEwyU3BwT2R3bmpnODl5WTVES3FSV0ZqWm9XSVFoRUVR?oc=5"
     }
   ],
   "domain": "distributed-training",
-  "generated_at_utc": "2026-11-09T06:19:07.663553+00:00",
+  "generated_at_utc": "2026-11-09T22:15:05.159725+00:00",
   "limitations": [
     "Model choices are uncalibrated editorial judgments, not verified facts.",
     "Short source excerpts may omit context; original publication dates can be unknown.",
@@ -1663,7 +1849,7 @@
     {
       "content_unchanged": false,
       "error_code": null,
-      "items": 1,
+      "items": 2,
       "query": "(\"KI-Training\" OR \"verteiltes Training\" OR Tensorparallelität) (GPU OR Cluster OR Speicher)",
       "source": "google_news",
       "status": "ok"
@@ -1671,7 +1857,7 @@
     {
       "content_unchanged": false,
       "error_code": null,
-      "items": 0,
+      "items": 1,
       "query": "(\"entraînement distribué\" OR \"entraînement IA\" OR \"entraînement des modèles\") (GPU OR cluster OR mémoire)",
       "source": "google_news",
       "status": "ok"
@@ -1693,32 +1879,33 @@
   ],
   "statistics": {
     "cache_hits": 0,
-    "candidates": 9,
+    "candidates": 11,
     "confirmed_findings": 0,
     "cost_usd": null,
     "discovery_languages": {
-      "de": 1,
-      "en": 8
+      "de": 2,
+      "en": 8,
+      "fr": 1
     },
     "duplicates": 0,
-    "fresh_evidence_references": 9,
+    "fresh_evidence_references": 11,
     "historical_evidence_references": 0,
     "invalid_public_urls": 0,
-    "known_tokens": 24668,
+    "known_tokens": 24140,
     "model_requests": 34,
     "not_in_review_inventory": 0,
-    "rejected": 1,
-    "retained_for_review": 8,
-    "retrieved_items": 9,
+    "rejected": 2,
+    "retained_for_review": 9,
+    "retrieved_items": 11,
     "review_worthy": 3,
-    "runtime_seconds": 17.993,
+    "runtime_seconds": 19.529,
     "source_failures": 0,
     "source_languages": {
       "en": 1,
-      "unknown": 8
+      "unknown": 10
     },
     "token_usage_complete": true
   },
   "window_hours": 168,
-  "workflow_run_id": "42572214484"
+  "workflow_run_id": "42710013748"
 }

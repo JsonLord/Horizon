@@ -16,10 +16,10 @@
       "decisions": {
         "claim-support": {
           "cache_hit": false,
-          "charged_tokens": 488,
+          "charged_tokens": 496,
           "decision": {
             "evidence_ids": [
-              "ad948c70faf32003dce835af"
+              "8002f96a25144bc18831d253"
             ],
             "facts": 0.5,
             "hype": 0.5,
@@ -35,22 +35,22 @@
             "cost": null,
             "family": "systemone",
             "format": "systemone_choices",
-            "input_tokens": 488,
-            "latency_ms": 421,
+            "input_tokens": 496,
+            "latency_ms": 417,
             "model": "alias-clef",
             "model_identity_verified": true,
             "output_tokens": 0,
             "response_model": "alias-clef",
             "status": "success",
-            "tokens": 488
+            "tokens": 496
           }
         },
         "hfs": {
           "cache_hit": false,
-          "charged_tokens": 730,
+          "charged_tokens": 738,
           "decision": {
             "evidence_ids": [
-              "ad948c70faf32003dce835af"
+              "8002f96a25144bc18831d253"
             ],
             "facts": 0.1,
             "hype": 0.1,
@@ -66,22 +66,22 @@
             "cost": null,
             "family": "systemone",
             "format": "systemone_choices",
-            "input_tokens": 730,
-            "latency_ms": 437,
+            "input_tokens": 738,
+            "latency_ms": 453,
             "model": "alias-clef",
             "model_identity_verified": true,
             "output_tokens": 0,
             "response_model": "alias-clef",
             "status": "success",
-            "tokens": 730
+            "tokens": 738
           }
         },
         "importance": {
           "cache_hit": false,
-          "charged_tokens": 497,
+          "charged_tokens": 505,
           "decision": {
             "evidence_ids": [
-              "ad948c70faf32003dce835af"
+              "8002f96a25144bc18831d253"
             ],
             "facts": 0.5,
             "hype": 0.5,
@@ -97,22 +97,22 @@
             "cost": null,
             "family": "systemone",
             "format": "systemone_choices",
-            "input_tokens": 497,
-            "latency_ms": 407,
+            "input_tokens": 505,
+            "latency_ms": 424,
             "model": "alias-clef",
             "model_identity_verified": true,
             "output_tokens": 0,
             "response_model": "alias-clef",
             "status": "success",
-            "tokens": 497
+            "tokens": 505
           }
         },
         "relevance": {
           "cache_hit": false,
-          "charged_tokens": 475,
+          "charged_tokens": 483,
           "decision": {
             "evidence_ids": [
-              "ad948c70faf32003dce835af"
+              "8002f96a25144bc18831d253"
             ],
             "facts": 0.5,
             "hype": 0.5,
@@ -128,22 +128,22 @@
             "cost": null,
             "family": "systemone",
             "format": "systemone_choices",
-            "input_tokens": 475,
-            "latency_ms": 410,
+            "input_tokens": 483,
+            "latency_ms": 424,
             "model": "alias-clef",
             "model_identity_verified": true,
             "output_tokens": 0,
             "response_model": "alias-clef",
             "status": "success",
-            "tokens": 475
+            "tokens": 483
           }
         },
         "same-story": {
           "cache_hit": false,
-          "charged_tokens": 547,
+          "charged_tokens": 555,
           "decision": {
             "evidence_ids": [
-              "ad948c70faf32003dce835af"
+              "8002f96a25144bc18831d253"
             ],
             "facts": 0.5,
             "hype": 0.5,
@@ -159,22 +159,22 @@
             "cost": null,
             "family": "systemone",
             "format": "systemone_choices",
-            "input_tokens": 547,
-            "latency_ms": 426,
+            "input_tokens": 555,
+            "latency_ms": 437,
             "model": "alias-clef",
             "model_identity_verified": true,
             "output_tokens": 0,
             "response_model": "alias-clef",
             "status": "success",
-            "tokens": 547
+            "tokens": 555
           }
         },
         "worth-attention": {
           "cache_hit": false,
-          "charged_tokens": 479,
+          "charged_tokens": 487,
           "decision": {
             "evidence_ids": [
-              "ad948c70faf32003dce835af"
+              "8002f96a25144bc18831d253"
             ],
             "facts": 0.5,
             "hype": 0.5,
@@ -190,14 +190,14 @@
             "cost": null,
             "family": "systemone",
             "format": "systemone_choices",
-            "input_tokens": 479,
-            "latency_ms": 407,
+            "input_tokens": 487,
+            "latency_ms": 451,
             "model": "alias-clef",
             "model_identity_verified": true,
             "output_tokens": 0,
             "response_model": "alias-clef",
             "status": "success",
-            "tokens": 479
+            "tokens": 487
           }
         }
       },
@@ -371,17 +371,17 @@
           "url": "https://www.ibb.de/de/foerderprogramme/gruendungsbonus-plus.html"
         },
         {
-          "content_hash": "0aabd1a23290cb5024164c828b085ae52ea6e0a511e35273f67b463c49e79fdd",
+          "content_hash": "f1f7d6522c7171811c48f21cc6f9643135cc06d669039d2ef3ec100eeed7aba0",
           "discovery_language": "unknown",
           "excerpt": "GründungsBONUS Plus",
           "fresh": true,
-          "id": "ad948c70faf32003dce835af",
+          "id": "8002f96a25144bc18831d253",
           "language": "unknown",
           "language_basis": "insufficient_language_evidence",
           "primary": true,
           "published_at": null,
           "publisher": "IBB",
-          "retrieved_at": "2026-11-09T06:19:41.476678+00:00",
+          "retrieved_at": "2026-11-09T22:15:41.266867+00:00",
           "title": "GruendungsBONUS Plus",
           "url": "https://www.ibb.de/de/foerderprogramme/gruendungsbonus-plus.html"
         }
@@ -433,7 +433,7 @@
             "family": "systemone",
             "format": "systemone_choices",
             "input_tokens": 540,
-            "latency_ms": 451,
+            "latency_ms": 472,
             "model": "alias-clef",
             "model_identity_verified": true,
             "output_tokens": 0,
@@ -464,7 +464,7 @@
             "family": "systemone",
             "format": "systemone_choices",
             "input_tokens": 782,
-            "latency_ms": 460,
+            "latency_ms": 478,
             "model": "alias-clef",
             "model_identity_verified": true,
             "output_tokens": 0,
@@ -495,7 +495,7 @@
             "family": "systemone",
             "format": "systemone_choices",
             "input_tokens": 549,
-            "latency_ms": 451,
+            "latency_ms": 421,
             "model": "alias-clef",
             "model_identity_verified": true,
             "output_tokens": 0,
@@ -526,7 +526,7 @@
             "family": "systemone",
             "format": "systemone_choices",
             "input_tokens": 527,
-            "latency_ms": 421,
+            "latency_ms": 424,
             "model": "alias-clef",
             "model_identity_verified": true,
             "output_tokens": 0,
@@ -557,7 +557,7 @@
             "family": "systemone",
             "format": "systemone_choices",
             "input_tokens": 693,
-            "latency_ms": 445,
+            "latency_ms": 450,
             "model": "alias-clef",
             "model_identity_verified": true,
             "output_tokens": 0,
@@ -588,7 +588,7 @@
             "family": "systemone",
             "format": "systemone_choices",
             "input_tokens": 531,
-            "latency_ms": 442,
+            "latency_ms": 438,
             "model": "alias-clef",
             "model_identity_verified": true,
             "output_tokens": 0,
@@ -763,7 +763,7 @@
           "primary": true,
           "published_at": null,
           "publisher": "KfW",
-          "retrieved_at": "2026-11-09T06:19:41.476678+00:00",
+          "retrieved_at": "2026-11-09T22:15:41.266867+00:00",
           "title": "ERP-StartGeld",
           "url": "https://www.kfw.de/inlandsfoerderung/Unternehmen/Gr%C3%BCnden-Nachfolgen/F%C3%B6rderprodukte/ERP-Gr%C3%BCnderkredit-Startgeld-(067)/"
         }
@@ -787,17 +787,17 @@
     },
     {
       "application_status": "PAST_ROUND_CURRENT_AVAILABILITY_UNKNOWN",
-      "attention": 0.57,
+      "attention": 0.49,
       "classification": "VERIFICATION_REQUIRED",
       "confirmed": false,
       "deadline": "2026-11-04",
       "decisions": {
         "claim-support": {
           "cache_hit": false,
-          "charged_tokens": 528,
+          "charged_tokens": 526,
           "decision": {
             "evidence_ids": [
-              "bef235ffb4073e5b09f2a034"
+              "3d57448dde1fe36ea97514be"
             ],
             "facts": 0.5,
             "hype": 0.5,
@@ -813,22 +813,22 @@
             "cost": null,
             "family": "systemone",
             "format": "systemone_choices",
-            "input_tokens": 528,
-            "latency_ms": 418,
+            "input_tokens": 526,
+            "latency_ms": 427,
             "model": "alias-clef",
             "model_identity_verified": true,
             "output_tokens": 0,
             "response_model": "alias-clef",
             "status": "success",
-            "tokens": 528
+            "tokens": 526
           }
         },
         "hfs": {
           "cache_hit": false,
-          "charged_tokens": 770,
+          "charged_tokens": 768,
           "decision": {
             "evidence_ids": [
-              "bef235ffb4073e5b09f2a034"
+              "3d57448dde1fe36ea97514be"
             ],
             "facts": 0.1,
             "hype": 0.1,
@@ -844,22 +844,22 @@
             "cost": null,
             "family": "systemone",
             "format": "systemone_choices",
-            "input_tokens": 770,
-            "latency_ms": 442,
+            "input_tokens": 768,
+            "latency_ms": 445,
             "model": "alias-clef",
             "model_identity_verified": true,
             "output_tokens": 0,
             "response_model": "alias-clef",
             "status": "success",
-            "tokens": 770
+            "tokens": 768
           }
         },
         "importance": {
           "cache_hit": false,
-          "charged_tokens": 537,
+          "charged_tokens": 535,
           "decision": {
             "evidence_ids": [
-              "bef235ffb4073e5b09f2a034"
+              "3d57448dde1fe36ea97514be"
             ],
             "facts": 0.5,
             "hype": 0.5,
@@ -875,30 +875,30 @@
             "cost": null,
             "family": "systemone",
             "format": "systemone_choices",
-            "input_tokens": 537,
-            "latency_ms": 422,
+            "input_tokens": 535,
+            "latency_ms": 457,
             "model": "alias-clef",
             "model_identity_verified": true,
             "output_tokens": 0,
             "response_model": "alias-clef",
             "status": "success",
-            "tokens": 537
+            "tokens": 535
           }
         },
         "relevance": {
           "cache_hit": false,
-          "charged_tokens": 515,
+          "charged_tokens": 513,
           "decision": {
             "evidence_ids": [
-              "bef235ffb4073e5b09f2a034"
+              "3d57448dde1fe36ea97514be"
             ],
             "facts": 0.5,
             "hype": 0.5,
             "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
             "related_event_id": null,
-            "score": 0.9,
+            "score": 0.5,
             "signal": 0.5,
-            "verdict": "yes"
+            "verdict": "unknown"
           },
           "provider": {
             "abstained": false,
@@ -906,22 +906,22 @@
             "cost": null,
             "family": "systemone",
             "format": "systemone_choices",
-            "input_tokens": 515,
-            "latency_ms": 420,
+            "input_tokens": 513,
+            "latency_ms": 427,
             "model": "alias-clef",
             "model_identity_verified": true,
             "output_tokens": 0,
             "response_model": "alias-clef",
             "status": "success",
-            "tokens": 515
+            "tokens": 513
           }
         },
         "same-story": {
           "cache_hit": false,
-          "charged_tokens": 706,
+          "charged_tokens": 704,
           "decision": {
             "evidence_ids": [
-              "bef235ffb4073e5b09f2a034"
+              "3d57448dde1fe36ea97514be"
             ],
             "facts": 0.5,
             "hype": 0.5,
@@ -937,22 +937,22 @@
             "cost": null,
             "family": "systemone",
             "format": "systemone_choices",
-            "input_tokens": 706,
-            "latency_ms": 429,
+            "input_tokens": 704,
+            "latency_ms": 447,
             "model": "alias-clef",
             "model_identity_verified": true,
             "output_tokens": 0,
             "response_model": "alias-clef",
             "status": "success",
-            "tokens": 706
+            "tokens": 704
           }
         },
         "worth-attention": {
           "cache_hit": false,
-          "charged_tokens": 519,
+          "charged_tokens": 517,
           "decision": {
             "evidence_ids": [
-              "bef235ffb4073e5b09f2a034"
+              "3d57448dde1fe36ea97514be"
             ],
             "facts": 0.5,
             "hype": 0.5,
@@ -968,14 +968,14 @@
             "cost": null,
             "family": "systemone",
             "format": "systemone_choices",
-            "input_tokens": 519,
-            "latency_ms": 415,
+            "input_tokens": 517,
+            "latency_ms": 436,
             "model": "alias-clef",
             "model_identity_verified": true,
             "output_tokens": 0,
             "response_model": "alias-clef",
             "status": "success",
-            "tokens": 519
+            "tokens": 517
           }
         }
       },
@@ -1224,17 +1224,17 @@
           "url": "https://eic.ec.europa.eu/eic-funding-opportunities/eic-accelerator_en"
         },
         {
-          "content_hash": "12759c3416de59af3ad842c724f0b7eb5035803d68192c425784f23f31e79a87",
+          "content_hash": "1ca6a8d97db76664105702483b5e1c18b0ba0b36556016bec106e221d6088ae8",
           "discovery_language": "unknown",
           "excerpt": "EIC Accelerator",
           "fresh": true,
-          "id": "bef235ffb4073e5b09f2a034",
+          "id": "3d57448dde1fe36ea97514be",
           "language": "unknown",
           "language_basis": "insufficient_language_evidence",
           "primary": true,
           "published_at": null,
           "publisher": "EU",
-          "retrieved_at": "2026-11-09T06:19:41.476678+00:00",
+          "retrieved_at": "2026-11-09T22:15:41.266867+00:00",
           "title": "EIC-Accelerator",
           "url": "https://eic.ec.europa.eu/eic-funding-opportunities/eic-accelerator_en"
         }
@@ -1256,7 +1256,7 @@
     }
   ],
   "domain": "funding-de-eu",
-  "generated_at_utc": "2026-11-09T06:19:52.141688+00:00",
+  "generated_at_utc": "2026-11-09T22:15:52.456558+00:00",
   "limitations": [
     "Model choices are uncalibrated editorial judgments, not verified facts.",
     "Short source excerpts may omit context; original publication dates can be unknown.",
@@ -1332,13 +1332,13 @@
     "duplicates": 0,
     "fresh_evidence_references": 3,
     "historical_evidence_references": 37,
-    "known_tokens": 10413,
+    "known_tokens": 10449,
     "model_requests": 18,
     "rejected": 0,
     "retained_for_review": 3,
     "retrieved_items": 3,
     "review_worthy": 0,
-    "runtime_seconds": 10.738,
+    "runtime_seconds": 11.235,
     "source_failures": 0,
     "source_languages": {
       "unknown": 3
@@ -1346,5 +1346,5 @@
     "token_usage_complete": true
   },
   "window_hours": 168,
-  "workflow_run_id": "42572214484"
+  "workflow_run_id": "42710013748"
 }
