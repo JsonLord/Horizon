@@ -2,6 +2,10 @@ name: Explicit model and endpoint read-only qualification
 on:
   workflow_dispatch:
     inputs:
+      diagnose_only:
+        description: One bounded error classification without the full matrix
+        type: boolean
+        default: false
       model:
         description: Exact model identifier approved by the operator
         required: true
@@ -15,6 +19,7 @@ permissions:
   actions: read
 jobs:
   qualify:
+    if: inputs.diagnose_only != true
     uses: ./.github/workflows/shared-filtering.yml
     permissions:
       contents: read
@@ -27,7 +32,7 @@ jobs:
       HORIZON_DECISION_API_KEY: ${{ secrets.HORIZON_DECISION_API_KEY }}
   diagnose:
     needs: qualify
-    if: failure() && !cancelled()
+    if: always() && !cancelled() && (inputs.diagnose_only == true || needs.qualify.result == 'failure')
     runs-on: ubuntu-24.04
     timeout-minutes: 5
     permissions:
@@ -65,11 +70,14 @@ jobs:
                   raw=b''
                   async for chunk in response.aiter_bytes(chunk_size=1024):
                       raw+=chunk
-                      if len(raw)>=4096:break
-                  category='unclassified';safe_fields={}
+                      if len(raw)>=16384:break
+                  category='unclassified';safe_fields={'bytes_inspected':len(raw),'parseable_json':False}
                   try:
                       value=json.loads(raw)
-                      error=value.get('error',value.get('detail','')) if isinstance(value,dict) else ''
+                      safe_fields['parseable_json']=True
+                      fields=('error','detail','message','reason','description','error_description','msg')
+                      error=[value.get(k) for k in fields if k in value] if isinstance(value,dict) else value
+                      safe_fields['top_level_error_fields']=[k for k in fields if isinstance(value,dict) and k in value]
                       text=json.dumps(error).lower()
                       known=('model','messages','prompt','input','max_tokens','max_completion_tokens','max_output_tokens','response_format','temperature','stream','system','json_schema','max_length','stop')
                       safe_fields['parameter_mentions']=[name for name in known if name in text]
@@ -77,7 +85,11 @@ jobs:
                           allowed={'invalid_request_error','unsupported_parameter','invalid_parameter','model_not_found','authentication_error','bad_request','unsupported_value'}
                           safe_fields.update({name:error[name] for name in ('code','type','param') if error.get(name) in allowed or name=='param' and error.get(name) in known})
                       if 'max_tokens' in text and 'max_completion_tokens' in text:category='completion_token_parameter_hint'
+                      elif 'system' in text and any(x in text for x in ('not supported','not allowed','unsupported')):category='system_role_unsupported_hint'
                       elif 'unsupported' in text:category='unsupported_parameter_hint'
+                      elif any(x in text for x in ('quota','insufficient credit','insufficient balance','payment required','spending limit')):category='quota_or_credit_hint'
+                      elif any(x in text for x in ('expired token','expired key','permission denied','access denied','forbidden')):category='access_restriction_hint'
+                      elif any(x in text for x in ('parse','malformed','invalid json')):category='request_parsing_hint'
                       if 'model' in text and any(x in text for x in ('not found','not_found','unknown','does not exist')):category='model_not_found_hint'
                       elif any(x in text for x in ('invalid api key','invalid_api_key','invalid token','unauthorized','authentication')):category='authentication_hint'
                       elif any(x in text for x in ('not found','not_found','no route')):category='not_found_unspecified'
