@@ -39,6 +39,8 @@ class MeteredProvider:
     @property
     def configured(self):return self.provider.configured
     @property
+    def family(self):return getattr(self.provider,'family','openai_chat')
+    @property
     def model(self):return getattr(self.provider,'model',None)
     def identity(self):return self.provider.identity()
     async def decide(self,command,payload):
@@ -47,7 +49,7 @@ class MeteredProvider:
         used=max(self.reserved_tokens,sum(m['tokens'] for m in self.records if type(m.get('tokens')) is int))
         cost_ok=cap is None or price is not None and (used+reserve)*price/1_000_000<=cap
         if not cost_ok or self.reserved_requests+3>self.entry['max_model_requests'] or used+reserve>self.entry['max_model_tokens']:
-            return None,{'status':'budget_limit','attempts':0,'tokens':None,'model':self.model,'family':'openai_chat'}
+            return None,{'status':'budget_limit','attempts':0,'tokens':None,'model':self.model,'family':self.family}
         self.reserved_requests+=3;self.reserved_tokens+=reserve
         decision,meta=await self.provider.decide(command,payload)
         self.records.append(meta)

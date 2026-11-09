@@ -22,7 +22,7 @@ def qualification_endpoint(base,value):
     return value
 
 
-async def qualify(output,restore=False,restore_only=False,chat_url=None,model=None):
+async def qualify(output,restore=False,restore_only=False,chat_url=None,model=None,api_mode=None,response_model=None):
     output.mkdir(parents=True,exist_ok=True)
     restore=restore or restore_only
     if restore:
@@ -49,6 +49,12 @@ async def qualify(output,restore=False,restore_only=False,chat_url=None,model=No
         print('::notice title=shared-checkpoint-recovery::'+json.dumps(proof))
         return proof
     provider=DecisionModelProvider()
+    if api_mode:
+        if api_mode not in ('openai_chat','systemone'):raise ValueError('Invalid qualification API mode')
+        provider.mode=api_mode
+    if response_model:
+        if not re.fullmatch(r'[A-Za-z0-9][A-Za-z0-9._:/-]{0,199}',response_model):raise ValueError('Invalid expected response model')
+        provider.response_model=response_model
     if model:
         if not re.fullmatch(r'[A-Za-z0-9][A-Za-z0-9._:/-]{0,199}',model):raise ValueError('Invalid qualification model identifier')
         provider.model=model
@@ -81,7 +87,7 @@ async def qualify(output,restore=False,restore_only=False,chat_url=None,model=No
     proof['all_commands_live_validated']=all(e['decision'] is not None for e in proof['command_qualification'])
     from urllib.parse import urlsplit
     path=urlsplit(provider.base).path.rstrip('/')
-    proof['configuration']={'routing':'exact_endpoint' if provider.chat_url else 'base_url','chat_url_present':bool(provider.chat_url),'base_path_style':'full_chat_endpoint' if path.endswith('/v1/chat/completions') else 'versioned_base' if path.endswith('/v1') else 'root_base' if not path else 'prefix_without_v1','base_url_present':bool(provider.base),'model_present':bool(provider.model),'key_present':bool(provider.key),'mode_is_openai_chat':provider.mode=='openai_chat'}
+    proof['configuration']={'api_mode':provider.mode,'expected_response_model_present':bool(provider.response_model),'routing':'exact_endpoint' if provider.chat_url else 'base_url','chat_url_present':bool(provider.chat_url),'base_path_style':'full_chat_endpoint' if path.endswith('/v1/chat/completions') else 'versioned_base' if path.endswith('/v1') else 'root_base' if not path else 'prefix_without_v1','base_url_present':bool(provider.base),'model_present':bool(provider.model),'key_present':bool(provider.key),'mode_is_openai_chat':provider.mode=='openai_chat'}
     proof['provider_requests']=provider.requests
     proof['cache_hits']=sum(r.get('cache_hit',False) for p in proof['policies'] for r in p['fixture_decisions'])
     proof['restored_prior_runner_checkpoint']=restore
@@ -97,10 +103,10 @@ async def qualify(output,restore=False,restore_only=False,chat_url=None,model=No
     return proof
 
 if __name__=='__main__':
-    p=argparse.ArgumentParser(description=__doc__);p.add_argument('--restore',action='store_true');p.add_argument('--restore-only',action='store_true');p.add_argument('--chat-url',default=os.getenv('HORIZON_QUALIFICATION_CHAT_URL',''));p.add_argument('--model',default=os.getenv('HORIZON_QUALIFICATION_MODEL',''));p.add_argument('--require-live',action='store_true');p.add_argument('--feedback',choices=['more_like_this','less_like_this','important_but_not_actionable']);p.add_argument('--profile');p.add_argument('--topics',nargs='*',default=[]);p.add_argument('--sources',nargs='*',default=[]);p.add_argument('--item');p.add_argument('--reason',default='Operator review');p.add_argument('--output',type=Path,default=Path('data/shared-filtering'));args=p.parse_args()
+    p=argparse.ArgumentParser(description=__doc__);p.add_argument('--restore',action='store_true');p.add_argument('--restore-only',action='store_true');p.add_argument('--chat-url',default=os.getenv('HORIZON_QUALIFICATION_CHAT_URL',''));p.add_argument('--model',default=os.getenv('HORIZON_QUALIFICATION_MODEL',''));p.add_argument('--api-mode',default=os.getenv('HORIZON_QUALIFICATION_API_MODE',''));p.add_argument('--response-model',default=os.getenv('HORIZON_QUALIFICATION_RESPONSE_MODEL',''));p.add_argument('--require-live',action='store_true');p.add_argument('--feedback',choices=['more_like_this','less_like_this','important_but_not_actionable']);p.add_argument('--profile');p.add_argument('--topics',nargs='*',default=[]);p.add_argument('--sources',nargs='*',default=[]);p.add_argument('--item');p.add_argument('--reason',default='Operator review');p.add_argument('--output',type=Path,default=Path('data/shared-filtering'));args=p.parse_args()
     if args.feedback:
         if not args.profile or not args.item:p.error('Feedback needs --profile and --item')
         state=DurableCheckpointStore(args.output/'state.sqlite');FeedbackStore(state).add(args.profile,args.item,args.feedback,args.reason,topics=args.topics,sources=args.sources);state.close()
     else:
-        proof=asyncio.run(qualify(args.output,args.restore,args.restore_only,args.chat_url,args.model))
+        proof=asyncio.run(qualify(args.output,args.restore,args.restore_only,args.chat_url,args.model,args.api_mode,args.response_model))
         if args.require_live and not proof.get('all_commands_live_validated',False):raise SystemExit('Live qualification incomplete; inspect safe proof.json metadata')
