@@ -1,6 +1,8 @@
 # Shared filtering operations
 
-The new pipeline uses only `DecisionModelProvider` (`openai_chat`). Existing
+The shared pipeline uses `DecisionModelProvider`, defaulting to `openai_chat`.
+The operator-supplied 2026-11-09 native example also enables explicit `systemone`
+mode; protocols are never selected automatically from a model name or HTTP error. Existing
 Laya/native program code is retained for legacy program research and is never
 selected by the shared engine. Bound news profiles bypass legacy model selection;
 all new semantic decisions use the same global settings:
@@ -11,7 +13,8 @@ all new semantic decisions use the same global settings:
 | HORIZON_DECISION_CHAT_URL | Optional repository variable: complete POST URL; used verbatim, overrides base |
 | HORIZON_DECISION_MODEL | Repository variable: exact model identifier |
 | HORIZON_DECISION_API_KEY | Repository secret: optional authentication token |
-| HORIZON_DECISION_API_MODE | Repository variable: `openai_chat` |
+| HORIZON_DECISION_API_MODE | Repository variable: `openai_chat` (default) or explicit `systemone` |
+| HORIZON_DECISION_RESPONSE_MODEL | Expected returned model identity; required for SystemOne aliases |
 
 When HORIZON_DECISION_CHAT_URL is set, the client POSTs to that exact public HTTPS
 operation URL without appending a path. The OpenAI chat JSON body, model check,
@@ -155,3 +158,36 @@ repository settings. It is validated and binds the decision cache identity.
 This override applies to all three fixture profiles in that qualification; normal
 collectors continue to use HORIZON_DECISION_MODEL. The latest operator-selected
 identifier is alias-laya; live status is recorded in the dated acceptance reports.
+
+
+## SystemOne choice protocol
+
+The native contract is `{model, state, questions}`; state is a public-evidence
+string, questions are typed choice specifications. Responses are `{model, answers,
+usage}` plus ignored routing metadata. No chat messages, response_format, max_tokens
+or chat-completions suffix is sent in this mode. BASE_URL is a complete operation
+URL; optional CHAT_URL still takes precedence. The existing API key remains a
+Bearer token, redirects remain disabled, and requests/responses/retries are bounded.
+
+Native mode requires an explicit expected server model (RESPONSE_MODEL), because
+a request alias can differ from the returned backend identity. It validates all
+answer IDs, selected criteria, probability distributions, confidence/action fields
+and usage. Citation/event choices are constrained to supplied IDs. Unexpected
+identities, malformed answers, unknown citations or unsupported shapes fail closed.
+Question IDs bind the response to the current request; no server-signed evidence
+attestation is claimed.
+
+Relevance/worth-attention/claim-support choose yes/no/unknown, mapped to ordinal
+heuristics .9/.1/.5. Importance and HFS choose high/medium/low/unknown (.9/.5/.1/.5).
+Same-story chooses same/development/different/contradiction/unknown and can select
+only an actual supplied previous event. These scores are not native probabilities.
+The response probabilities, confidence and action remain uncalibrated metadata;
+zero action or unsupported citation causes abstention. HFS fields for non-HFS
+commands are neutral/unassessed, explicitly recorded as such. Source language is
+never rewritten based on optional service routing language.
+
+Only classification is qualified by this interface. It cannot supply arbitrary
+technical explanation/code generation. Those requests return capability_unavailable
+without a network call and use existing deterministic review. Full technical digest
+quality remains a separate evidence/review gate. Existing funding hard eligibility
+never depends on native probabilities or model choice.

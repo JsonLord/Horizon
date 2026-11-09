@@ -77,3 +77,24 @@ The temporary alias-clef test selection was retracted by the owner. The latest
 bounded exact-URL alias-laya request (42556922702) still returns JSON404 with a
 model-not-found hint referencing that alias. No valid inference was obtained.
 See ALIAS_LAYA_RECHECK_2026-11-09.md; global MODEL was not changed by this task.
+
+## 2026-11-09 — Explicit native SystemOne contract; runner comparison
+
+Operator supplied the actual state/questions choice protocol and corrected the
+request alias to alias-laya. Source db68178 adds explicit systemone mode, strict
+answer/identity/citation/usage validation, six semantic classifications and
+uncalibrated metadata. OpenAI default and legacy Laya remain separate; free-text
+technical-learning generation is explicitly unsupported, with deterministic review.
+524 local Python3.11 tests pass (19 native tests); both MCP smokes, funding
+consistency, actionlint and schedule checks pass; hosted CI42558554176 succeeds.
+
+Actual native qualification42558670374 fails HTTP404/0 of18 cells; independent
+restore passes. Exact operator sample42559142256 also returns404. Comparison
+42559911506 sends the same token/payload through HTTPX and literal curl: both404
+with model_not_found_hint, curl HTTP/2 and zero redirects. Diagnostic green is not
+inference success. Operator reports their exact curl succeeds; the effective
+credential/access or runner/server routing difference remains unresolved. Do not
+infer a bad key, bypass restrictions or guess other aliases. No settings changed;
+repository variable writes remain403. PR8 stays draft, no merge, production
+publication or new schedule activation. Full evidence and owner configuration:
+docs/SYSTEMONE_LIVE_ACCEPTANCE_2026-11-09.md/.json.

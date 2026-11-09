@@ -175,10 +175,11 @@ is not successful PR publication. No token or repository setting is changed.
 ## Shared decision filtering
 
 Read docs/SHARED_INTELLIGENCE_FILTERING.md before editing the new subsystem.
-Its only inference adapter is OpenAI-compatible chat, using global
+Its default inference adapter is OpenAI-compatible chat, using global
 HORIZON_DECISION_BASE_URL / MODEL / API_MODE repository variables and
-HORIZON_DECISION_API_KEY repository secret. Do not add native Laya, OpenRouter or
-TypeSafe dependencies to this pipeline; old program Laya remains backward-compatible.
+HORIZON_DECISION_API_KEY repository secret. The operator's 2026-11-09 state/questions example authorizes an additional explicit
+`systemone` mode, independent of the old native Laya adapter. Do not auto-detect
+protocols or add OpenRouter/TypeSafe dependencies; old program Laya stays separate.
 Policies inherit config/filtering/defaults.yaml; bind reviewed profile IDs in
 config/filtering/bindings.json. Bump versions for tuning, keep source/eligibility
 hard rules independent, and keep decisions staged until qualification. A model,
@@ -277,3 +278,24 @@ BASE_URL compatibility remains the default when the override is absent. All shar
 policies and radars use the same setting, public-HTTPS validation, no redirects,
 strict response/citation checks and deterministic fallback. Never put an endpoint
 in a profile or infer that endpoint HTTP success proves structured inference.
+
+
+## Explicit SystemOne choice contract (operator amendment, 2026-11-09)
+
+The supplied API example uses model/state/questions and answers, not OpenAI chat
+messages/choices. Set HORIZON_DECISION_API_MODE=systemone explicitly; BASE_URL is
+then the complete operation URL (CHAT_URL can still override it). Request alias
+is HORIZON_DECISION_MODEL; pin the actual returned identity separately through
+HORIZON_DECISION_RESPONSE_MODEL. No endpoint or identity belongs in profiles.
+The user's example supersedes the earlier OpenAI-only protocol assumption for
+this endpoint; keep openai_chat as the unchanged default and keep legacy program
+Laya code unselected by shared filtering.
+
+Native responses are schema-validated: exact question and choice IDs, bounded
+probabilities/confidence/action, approved response identity and numeric usage.
+Probabilities/confidence are uncalibrated metadata, never importance/eligibility
+probabilities. The selected class maps to documented ordinal heuristic scores.
+Only supplied citations/event IDs can be selected; missing support or zero action
+abstains. Funding hard eligibility is independent. No free-text finding, benchmark
+or pseudocode may be invented from a choice response. Technical-learning generation
+is explicitly unsupported in this mode and falls back to deterministic review.
