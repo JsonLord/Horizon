@@ -63,7 +63,8 @@ jobs:
           HORIZON_DECISION_API_KEY: ${{ secrets.HORIZON_DECISION_API_KEY }}
         run: |
           uv run python - <<'PY'
-          import asyncio,json,os
+          import asyncio,json,os,subprocess,tempfile
+          from pathlib import Path
           import httpx
           from scripts.shared_filtering import qualification_endpoint
           from src.research.filtering.systemone import Envelope
@@ -89,6 +90,23 @@ jobs:
                       if answer.choice not in request['questions']['route_selection']['criteria']:raise ValueError('Unexpected choice')
                       proof.update(validated=True,response_model=result.model,choice=answer.choice,input_tokens=result.usage.input_tokens,output_tokens=result.usage.output_tokens)
               except (ValueError,TypeError):proof['response_schema_valid']=False
+              with tempfile.TemporaryDirectory() as folder:
+                  body=Path(folder)/'request.json';result_path=Path(folder)/'response.json'
+                  body.write_text(json.dumps(request))
+                  config='url = '+json.dumps(url)+'\nheader = '+json.dumps('Authorization: Bearer '+token)+'\n'
+                  result=subprocess.run(['curl','--disable','--silent','--show-error','--max-time','30','--proto','=https','--config','-','--header','Content-Type: application/json','--data-binary','@'+str(body),'--output',str(result_path),'--write-out','%{http_code}|%{http_version}|%{num_redirects}'],input=config,capture_output=True,text=True)
+                  stats=result.stdout.split('|')
+                  curl_proof={'process_exit':result.returncode,'http_status':int(stats[0]) if stats and stats[0].isdigit() else None,'http_version':stats[1] if len(stats)>1 else None,'redirects':stats[2] if len(stats)>2 else None,'same_token_and_payload':True,'validated':False}
+                  if result_path.exists() and result_path.stat().st_size<=64000:
+                      try:
+                          data=json.loads(result_path.read_text());text=json.dumps(data).lower()
+                          curl_proof['error_hint']='model_not_found_hint' if curl_proof['http_status'] and curl_proof['http_status']>=400 and 'model' in text and any(t in text for t in ('not found','not_found','unknown','does not exist')) else 'unclassified' if curl_proof['http_status'] and curl_proof['http_status']>=400 else None
+                          if curl_proof['http_status']==200:
+                              parsed=Envelope.model_validate(data)
+                              if parsed.model!=os.environ['EXPECTED_MODEL'] or set(parsed.answers)!={'route_selection'}:raise ValueError('Unexpected identity/question')
+                              curl_proof.update(validated=True,response_model=parsed.model,choice=parsed.answers['route_selection'].choice,input_tokens=parsed.usage.input_tokens,output_tokens=parsed.usage.output_tokens)
+                      except (ValueError,TypeError):curl_proof['response_schema_valid']=False
+                  proof['literal_curl']=curl_proof
               print('::notice title=systemone-operator-sample::'+json.dumps(proof))
           asyncio.run(main())
           PY
