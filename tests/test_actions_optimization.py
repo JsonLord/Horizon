@@ -130,10 +130,11 @@ def test_unchanged_cli_run_suppresses_publisher_handoff(tmp_path,monkeypatch):
     atomic(root/'radar-state.json',dumps(s.model_dump(mode='json')))
     atomic(root/'radar-manifest.json',dumps(cli.RadarManifest(radar_id=radar).model_dump(mode='json')))
     output=tmp_path/'job-output';monkeypatch.setenv('GITHUB_OUTPUT',str(output));monkeypatch.delenv('GITHUB_EVENT_NAME',raising=False)
+    monkeypatch.setenv('GITHUB_SHA','qualification-test-source')
     args=SimpleNamespace(output=tmp_path,radar=radar,command='collect',restore=False)
     asyncio.run(cli.main(args))
     assert output.read_text()=='changed=false\n'
-    cli.verify(root,json.loads((tmp_path/(radar+'-checkpoint.json')).read_text()),radar,'local-development')
+    cli.verify(root,json.loads((tmp_path/(radar+'-checkpoint.json')).read_text()),radar,'qualification-test-source')
 
 
 def test_source_cache_hash_tampering_is_rejected():
@@ -189,3 +190,13 @@ def test_cadence_and_budget_tuning_reuses_semantic_identity():
     before=analysis_identity(entry,profile)
     assert analysis_identity({**entry,'collection_interval_hours':12,'max_model_requests':12,'max_cost_usd':1},profile)==before
     assert analysis_identity({**entry,'policy_version':'radar-next-reviewed'},profile)!=before
+
+
+def test_checkpoint_recovery_remains_testable_when_inference_is_unavailable(tmp_path,monkeypatch):
+    from scripts.shared_filtering import qualify
+    monkeypatch.delenv('HORIZON_DECISION_BASE_URL',raising=False)
+    proof=asyncio.run(qualify(tmp_path))
+    assert not proof['all_commands_live_validated']
+    recovered=asyncio.run(qualify(tmp_path,restore_only=True))
+    assert recovered['restoration_verified'] and recovered['command_cache_verified']
+    assert recovered['provider_requests']==0 and recovered['scope']=='checkpoint_recovery_only'

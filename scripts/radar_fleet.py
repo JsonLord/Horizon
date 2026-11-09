@@ -48,7 +48,8 @@ async def main(args):
             stage_digest(root,digest)
         changed=before!=seal(root,args.radar,revision)
         telemetry=next((m for m in metrics if m['source']=='radar_telemetry'),{})
-        print(json.dumps({'radar_id':args.radar,'changed':changed,'telemetry':telemetry}))
+        public={'radar_id':args.radar,'changed':changed,'telemetry':telemetry,'finding_count':len(state.findings),'source_languages':sorted({r.language for f in state.findings for r in f.references})}
+        print('::notice title=radar-collection-proof::'+json.dumps(public))
         atomic(args.output/(args.radar+'-collection-proof.json'),dumps({'radar_id':args.radar,'source_revision':revision,'metrics':metrics,'finding_count':len(state.findings),'failed_sources':len(state.failed_sources),'hosted':os.getenv('GITHUB_ACTIONS')=='true','run_id':os.getenv('GITHUB_RUN_ID')}))
     elif args.command=='digest':
         state=State.model_validate(read_json(root/'radar-state.json'))
@@ -60,6 +61,7 @@ async def main(args):
     elif args.command=='validate':
         proof=read_json(args.output/(args.radar+'-checkpoint.json'))
         verify(root,proof,args.radar,revision)
+        print('::notice title=radar-checkpoint-proof::'+json.dumps({'radar_id':args.radar,'source_revision':revision,'files_verified':len(proof['files']),'checkpoint_verified':True,'provider_requests':0}))
     elif args.command=='publish':
         verify(root,read_json(args.output/(args.radar+'-checkpoint.json')),args.radar,revision)
         result=GitHubData().publish(args.radar,root)
