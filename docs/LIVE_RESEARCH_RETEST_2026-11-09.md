@@ -70,5 +70,5 @@ Machine-readable outcomes and artifact metadata are in the adjacent JSON file.
 
 ## Hosted artifacts
 
-- [live-review-seven-domains](https://github.com/JsonLord/Horizon/actions/runs/42710013748/artifacts/13714374806) — expires 2026-11-23T22:16:44Z (machine-recorded UTC).
-- [validated-live-review](https://github.com/JsonLord/Horizon/actions/runs/42710566016/artifacts/13716285253) — expires 2026-11-23T22:18:03Z (machine-recorded UTC).
+- [live-review-seven-domains](https://github.com/JsonLord/Horizon/actions/runs/42710013748/artifacts/13714374806) — expires 2026-11-23 23:16 CET (Europe/Berlin).
+- [validated-live-review](https://github.com/JsonLord/Horizon/actions/runs/42710566016/artifacts/13716285253) — expires 2026-11-23 23:18 CET (Europe/Berlin).
