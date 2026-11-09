@@ -1,0 +1,398 @@
+{
+  "inspected_at_utc": "2026-11-09T05:07:10.288243+00:00",
+  "runs": [
+    {
+      "id": 42565188435,
+      "html_url": "https://github.com/JsonLord/Horizon/actions/runs/42565188435",
+      "head_sha": "4960c4b2429862e1e4a4cccf93d57eeebb7e6f6e",
+      "head_branch": "qualification/systemone-db68178",
+      "status": "completed",
+      "conclusion": "success",
+      "event": "workflow_dispatch",
+      "created_at": "2026-11-09T05:04:28Z",
+      "updated_at": "2026-11-09T05:04:42Z",
+      "jobs": [
+        {
+          "id": 128990072357,
+          "name": "sample",
+          "status": "completed",
+          "conclusion": "success",
+          "runner_name": "GitHub Actions 1000003347",
+          "started_at": "2026-11-09T05:04:31Z",
+          "completed_at": "2026-11-09T05:04:42Z",
+          "failed_steps": [],
+          "proof_notices": [
+            {
+              "title": "systemone-operator-sample",
+              "proof": {
+                "request_matches_operator_sample": true,
+                "request_model": "alias-clef",
+                "key_present": true,
+                "key_has_bearer_prefix": false,
+                "key_contains_whitespace": false,
+                "validated": false,
+                "http_status": 404,
+                "error_hint": "unclassified",
+                "literal_curl": {
+                  "process_exit": 0,
+                  "http_status": 404,
+                  "http_version": "2",
+                  "redirects": "0",
+                  "same_token_and_payload": true,
+                  "validated": false,
+                  "error_hint": "unclassified"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 128990073432,
+          "name": "qualify",
+          "status": "completed",
+          "conclusion": "skipped",
+          "runner_name": null,
+          "started_at": "2026-11-09T05:04:30Z",
+          "completed_at": "2026-11-09T05:04:29Z",
+          "failed_steps": [],
+          "proof_notices": []
+        }
+      ]
+    },
+    {
+      "id": 42565240340,
+      "html_url": "https://github.com/JsonLord/Horizon/actions/runs/42565240340",
+      "head_sha": "7a013d78fe21d82c0e41359ad40b23e8d1479f88",
+      "head_branch": "qualification/systemone-db68178",
+      "status": "completed",
+      "conclusion": "success",
+      "event": "workflow_dispatch",
+      "created_at": "2026-11-09T05:05:02Z",
+      "updated_at": "2026-11-09T05:05:20Z",
+      "jobs": [
+        {
+          "id": 128990233765,
+          "name": "sample",
+          "status": "completed",
+          "conclusion": "success",
+          "runner_name": "GitHub Actions 1000003348",
+          "started_at": "2026-11-09T05:05:06Z",
+          "completed_at": "2026-11-09T05:05:19Z",
+          "failed_steps": [],
+          "proof_notices": [
+            {
+              "title": "systemone-operator-sample",
+              "proof": {
+                "request_matches_operator_sample": true,
+                "request_model": "alias-clef",
+                "key_present": true,
+                "key_has_bearer_prefix": false,
+                "key_contains_whitespace": false,
+                "validated": true,
+                "http_status": 200,
+                "error_hint": null,
+                "observed_response_model": "alias-clef",
+                "response_model": "alias-clef",
+                "choice": "heavy_tier",
+                "input_tokens": 182,
+                "output_tokens": 0,
+                "literal_curl": {
+                  "process_exit": 0,
+                  "http_status": 200,
+                  "http_version": "2",
+                  "redirects": "0",
+                  "same_token_and_payload": true,
+                  "validated": true,
+                  "error_hint": null,
+                  "observed_response_model": "alias-clef",
+                  "response_model": "alias-clef",
+                  "choice": "heavy_tier",
+                  "input_tokens": 182,
+                  "output_tokens": 0
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 128990235097,
+          "name": "qualify",
+          "status": "completed",
+          "conclusion": "skipped",
+          "runner_name": null,
+          "started_at": "2026-11-09T05:05:04Z",
+          "completed_at": "2026-11-09T05:05:04Z",
+          "failed_steps": [],
+          "proof_notices": []
+        }
+      ]
+    },
+    {
+      "id": 42565325280,
+      "html_url": "https://github.com/JsonLord/Horizon/actions/runs/42565325280",
+      "head_sha": "8ff26476cffa077e9d54cd9b1edde8cdfe026792",
+      "head_branch": "qualification/systemone-db68178",
+      "status": "completed",
+      "conclusion": "success",
+      "event": "workflow_dispatch",
+      "created_at": "2026-11-09T05:05:53Z",
+      "updated_at": "2026-11-09T05:06:53Z",
+      "jobs": [
+        {
+          "id": 128990481136,
+          "name": "qualify / qualify",
+          "status": "completed",
+          "conclusion": "success",
+          "runner_name": "GitHub Actions 1000003349",
+          "started_at": "2026-11-09T05:05:57Z",
+          "completed_at": "2026-11-09T05:06:37Z",
+          "failed_steps": [],
+          "proof_notices": [
+            {
+              "title": "shared-filtering-smoke",
+              "proof": {
+                "live_inference": true,
+                "provider": {
+                  "family": "systemone",
+                  "model": "alias-clef",
+                  "status": "success",
+                  "attempts": 1,
+                  "tokens": 340,
+                  "cost": null,
+                  "response_model": "alias-clef",
+                  "model_identity_verified": true,
+                  "input_tokens": 340,
+                  "output_tokens": 0,
+                  "format": "systemone_choices",
+                  "abstained": false,
+                  "ordinal_scores_not_probabilities": true,
+                  "native_answers": {
+                    "citation": {
+                      "type": "choice",
+                      "choice": "smoke-public",
+                      "probabilities": {
+                        "none": 0.037,
+                        "smoke-public": 0.963
+                      },
+                      "confidence": 0.963,
+                      "action": null
+                    },
+                    "decision": {
+                      "type": "choice",
+                      "choice": "yes",
+                      "probabilities": {
+                        "yes": 0.7305,
+                        "no": 0.1484,
+                        "unknown": 0.1211
+                      },
+                      "confidence": 0.7305,
+                      "action": null
+                    }
+                  },
+                  "unassessed_hfs_dimensions": [
+                    "hype",
+                    "facts",
+                    "signal"
+                  ],
+                  "evidence_binding": "validated input choice IDs; no server-signed evidence or truth attestation",
+                  "latency_ms": 1036
+                },
+                "restoration_verified": true,
+                "restored_prior_runner_checkpoint": false,
+                "provider_requests": 37,
+                "cache_hits": 0,
+                "profiles": [
+                  "examples/ai-usability",
+                  "funding/de-eu",
+                  "world/global"
+                ],
+                "configuration": {
+                  "api_mode": "systemone",
+                  "expected_response_model_present": true,
+                  "routing": "exact_endpoint",
+                  "chat_url_present": true,
+                  "base_path_style": "prefix_without_v1",
+                  "base_url_present": true,
+                  "model_present": true,
+                  "key_present": true,
+                  "mode_is_openai_chat": false
+                },
+                "all_commands_live_validated": true,
+                "command_cells": [
+                  {
+                    "profile": "examples/ai-usability",
+                    "command": "relevance",
+                    "validated": true,
+                    "status": "success",
+                    "error_code": null
+                  },
+                  {
+                    "profile": "examples/ai-usability",
+                    "command": "worth-attention",
+                    "validated": true,
+                    "status": "success",
+                    "error_code": null
+                  },
+                  {
+                    "profile": "examples/ai-usability",
+                    "command": "same-story",
+                    "validated": true,
+                    "status": "success",
+                    "error_code": null
+                  },
+                  {
+                    "profile": "examples/ai-usability",
+                    "command": "importance",
+                    "validated": true,
+                    "status": "success",
+                    "error_code": null
+                  },
+                  {
+                    "profile": "examples/ai-usability",
+                    "command": "claim-support",
+                    "validated": true,
+                    "status": "success",
+                    "error_code": null
+                  },
+                  {
+                    "profile": "examples/ai-usability",
+                    "command": "hfs",
+                    "validated": true,
+                    "status": "success",
+                    "error_code": null
+                  },
+                  {
+                    "profile": "funding/de-eu",
+                    "command": "relevance",
+                    "validated": true,
+                    "status": "success",
+                    "error_code": null
+                  },
+                  {
+                    "profile": "funding/de-eu",
+                    "command": "worth-attention",
+                    "validated": true,
+                    "status": "success",
+                    "error_code": null
+                  },
+                  {
+                    "profile": "funding/de-eu",
+                    "command": "same-story",
+                    "validated": true,
+                    "status": "success",
+                    "error_code": null
+                  },
+                  {
+                    "profile": "funding/de-eu",
+                    "command": "importance",
+                    "validated": true,
+                    "status": "success",
+                    "error_code": null
+                  },
+                  {
+                    "profile": "funding/de-eu",
+                    "command": "claim-support",
+                    "validated": true,
+                    "status": "success",
+                    "error_code": null
+                  },
+                  {
+                    "profile": "funding/de-eu",
+                    "command": "hfs",
+                    "validated": true,
+                    "status": "success",
+                    "error_code": null
+                  },
+                  {
+                    "profile": "world/global",
+                    "command": "relevance",
+                    "validated": true,
+                    "status": "success",
+                    "error_code": null
+                  },
+                  {
+                    "profile": "world/global",
+                    "command": "worth-attention",
+                    "validated": true,
+                    "status": "success",
+                    "error_code": null
+                  },
+                  {
+                    "profile": "world/global",
+                    "command": "same-story",
+                    "validated": true,
+                    "status": "success",
+                    "error_code": null
+                  },
+                  {
+                    "profile": "world/global",
+                    "command": "importance",
+                    "validated": true,
+                    "status": "success",
+                    "error_code": null
+                  },
+                  {
+                    "profile": "world/global",
+                    "command": "claim-support",
+                    "validated": true,
+                    "status": "success",
+                    "error_code": null
+                  },
+                  {
+                    "profile": "world/global",
+                    "command": "hfs",
+                    "validated": true,
+                    "status": "success",
+                    "error_code": null
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 128990482141,
+          "name": "sample",
+          "status": "completed",
+          "conclusion": "skipped",
+          "runner_name": null,
+          "started_at": "2026-11-09T05:05:55Z",
+          "completed_at": "2026-11-09T05:05:55Z",
+          "failed_steps": [],
+          "proof_notices": []
+        },
+        {
+          "id": 128990684948,
+          "name": "qualify / restore",
+          "status": "completed",
+          "conclusion": "success",
+          "runner_name": "GitHub Actions 1000003350",
+          "started_at": "2026-11-09T05:06:40Z",
+          "completed_at": "2026-11-09T05:06:53Z",
+          "failed_steps": [],
+          "proof_notices": [
+            {
+              "title": "shared-checkpoint-recovery",
+              "proof": {
+                "scope": "checkpoint_recovery_only",
+                "restoration_verified": true,
+                "restored_prior_runner_checkpoint": true,
+                "source_revision": "8ff26476cffa077e9d54cd9b1edde8cdfe026792",
+                "policy_versions": {
+                  "examples/ai-usability": "1.1-provisional",
+                  "funding/de-eu": "1.1-provisional",
+                  "world/global": "1.1-provisional"
+                },
+                "command_cache_verified": true,
+                "provider_requests": 0
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "scope": "Temporary operator-approved test host and alias-clef; read-only qualification, no persistent settings or production data changes",
+  "application_source": "db68178fceffa30005188dd3e676aad3a8c4cd8a",
+  "provider_readiness": "PASS for six native structured choice commands across three public fixture policies; not generative or production research qualification"
+}

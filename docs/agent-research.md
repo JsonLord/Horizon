@@ -937,3 +937,17 @@ curl used HTTP/2 with zero redirects. No decision validated. The diagnostic job
 succeeded in recording the failure; full qualification was skipped. The task did
 not read, compare or change the secret value and cannot confirm whether it was
 updated. No code, production data, settings or schedules changed.
+
+## 2026-11-09 — Temporary test host: live native qualification PASS
+
+Operator authorized test-d plus alias-clef. Exact root probe42565188435 returns404,
+but the existing /v1/systemone operation42565240340 returns200 through both curl
+and HTTPX, response identity alias-clef. Full read-only qualification42565325280
+passes all18 command/profile cells; independent fresh-runner source/policy/hash/
+SQLite command-cache restoration passes with zero inference calls. The full
+qualification uses37 provider requests including policy exercises. Cost unknown.
+No persistent provider settings, production data or schedules changed; PR8 draft.
+This supersedes the inference-unqualified status only for these native public
+fixture checks on the temporary host. Original host/laya failure and generative
+technical-learning limitations remain. Evidence and configuration:
+docs/SYSTEMONE_TEST_SERVER_ACCEPTANCE_2026-11-09.md/.json.

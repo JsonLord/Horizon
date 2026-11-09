@@ -98,3 +98,17 @@ infer a bad key, bypass restrictions or guess other aliases. No settings changed
 repository variable writes remain403. PR8 stays draft, no merge, production
 publication or new schedule activation. Full evidence and owner configuration:
 docs/SYSTEMONE_LIVE_ACCEPTANCE_2026-11-09.md/.json.
+
+## 2026-11-09 — Temporary test host: live native qualification PASS
+
+Operator authorized test-d plus alias-clef. Exact root probe42565188435 returns404,
+but the existing /v1/systemone operation42565240340 returns200 through both curl
+and HTTPX, response identity alias-clef. Full read-only qualification42565325280
+passes all18 command/profile cells; independent fresh-runner source/policy/hash/
+SQLite command-cache restoration passes with zero inference calls. The full
+qualification uses37 provider requests including policy exercises. Cost unknown.
+No persistent provider settings, production data or schedules changed; PR8 draft.
+This supersedes the inference-unqualified status only for these native public
+fixture checks on the temporary host. Original host/laya failure and generative
+technical-learning limitations remain. Evidence and configuration:
+docs/SYSTEMONE_TEST_SERVER_ACCEPTANCE_2026-11-09.md/.json.
