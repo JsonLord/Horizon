@@ -15,18 +15,18 @@ Reports are pinned to immutable commit
 
 | Domain | Inventory | Full model evaluation | Review worthy | Rejected / duplicates | Main limitation | Report |
 | --- | --- | --- | --- | --- | --- | --- |
-| Agent Control Planes |83|5|3|0 /0|Most languages unresolved; only short release/news excerpts|[REVIEW](../data/live-review/agent-control-planes/REVIEW.md)|
-| Distributed Training |9|5|3|1 /0|Zero German/French retrieval; no reproducible measured comparison|[REVIEW](../data/live-review/distributed-training/REVIEW.md)|
-| RAG & Memory |37|5|2|4 /0|German/French source language unverified; primary benchmark evidence missing|[REVIEW](../data/live-review/rag-memory/REVIEW.md)|
-| AUX |38|5|2|2 /2|Accessibility/AI overlap does not establish usability-testing relevance|[REVIEW](../data/live-review/aux/REVIEW.md)|
-| Funding DE/EU |3|3|0|0 /0|Official pages refreshed; complete current terms/applicant facts unresolved|[REVIEW](../data/live-review/funding-de-eu/REVIEW.md)|
-| World Intelligence |200|5|2|2 /0|124 additional observations outside inventory cap; mostly discovery headlines|[REVIEW](../data/live-review/world-intelligence/REVIEW.md)|
-| Incubators |5|1|0|0 /0|Two application-page checks fail; founder eligibility remains unknown|[REVIEW](../data/live-review/incubators/REVIEW.md)|
+| Agent Control Planes |83|5|3|0 /0|Most languages unresolved; only short release/news excerpts|[REVIEW](https://github.com/JsonLord/Horizon/blob/fdcde80d666e2bbf9afadac143b69c4e7a0fbb57/data/live-review/agent-control-planes/REVIEW.md)|
+| Distributed Training |9|5|3|1 /0|Zero German/French retrieval; no reproducible measured comparison|[REVIEW](https://github.com/JsonLord/Horizon/blob/fdcde80d666e2bbf9afadac143b69c4e7a0fbb57/data/live-review/distributed-training/REVIEW.md)|
+| RAG & Memory |37|5|2|4 /0|German/French source language unverified; primary benchmark evidence missing|[REVIEW](https://github.com/JsonLord/Horizon/blob/fdcde80d666e2bbf9afadac143b69c4e7a0fbb57/data/live-review/rag-memory/REVIEW.md)|
+| AUX |38|5|2|2 /2|Accessibility/AI overlap does not establish usability-testing relevance|[REVIEW](https://github.com/JsonLord/Horizon/blob/fdcde80d666e2bbf9afadac143b69c4e7a0fbb57/data/live-review/aux/REVIEW.md)|
+| Funding DE/EU |3|3|0|0 /0|Official pages refreshed; complete current terms/applicant facts unresolved|[REVIEW](https://github.com/JsonLord/Horizon/blob/fdcde80d666e2bbf9afadac143b69c4e7a0fbb57/data/live-review/funding-de-eu/REVIEW.md)|
+| World Intelligence |200|5|2|2 /0|124 additional observations outside inventory cap; mostly discovery headlines|[REVIEW](https://github.com/JsonLord/Horizon/blob/fdcde80d666e2bbf9afadac143b69c4e7a0fbb57/data/live-review/world-intelligence/REVIEW.md)|
+| Incubators |5|1|0|0 /0|Two application-page checks fail; founder eligibility remains unknown|[REVIEW](https://github.com/JsonLord/Horizon/blob/fdcde80d666e2bbf9afadac143b69c4e7a0fbb57/data/live-review/incubators/REVIEW.md)|
 
 Only the first three domains correspond to radar data branches. The other four
 are existing research profiles. None of those production branches was published.
 Each folder includes findings.json and an unlabelled review-labels.json template.
-[Portfolio index](../data/live-review/INDEX.md) compares the domain-specific rubrics.
+[Portfolio index](https://github.com/JsonLord/Horizon/blob/fdcde80d666e2bbf9afadac143b69c4e7a0fbb57/data/live-review/INDEX.md) compares the domain-specific rubrics.
 
 ## Findings worth inspecting
 
@@ -147,3 +147,5 @@ Main and all three radar ref SHAs were checked against their prior recorded head
 and remain unchanged. No production intel/radar write, schedule activation, merge,
 weekly digest publication, Paperclip push/client, service or new port was introduced.
 PR8 remains draft. Machine-readable evidence is in the adjacent acceptance JSON.
+
+A later fresh rerun is documented in [LIVE_RESEARCH_RETEST_2026-11-09.md](LIVE_RESEARCH_RETEST_2026-11-09.md). This document and its pinned report links retain the earlier evaluation.

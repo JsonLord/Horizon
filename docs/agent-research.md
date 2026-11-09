@@ -1071,3 +1071,17 @@ hashes/schemas and four radar schemas, actionlint/schedule/diff checks PASS.
 Main and three radar data heads match their recorded baseline. No production
 archive, schedule, merge or Paperclip action. Draft PR8 retains all outputs.
 See docs/LIVE_RESEARCH_ACCEPTANCE_2026-11-09.md/.json and data/live-review/INDEX.md.
+
+## 2026-11-09 — Requested fresh test rerun (23:14 CET collection start)
+
+Same uploaded seven-domain milestone, no implementation changes. Local544passed
+in5.95s; both MCP smokes, funding consistency/seed,schemas/hashes, actionlint and
+schedule checks PASS. Hosted full regression42574191998 attempt2 PASS on ef9996e.
+Fresh collection42710013748 PASS:476observations,371review candidates,29fully
+evaluated+5partial,14review-worthy,11rejected,4duplicates;194model requests and
+135240known tokens. All seven six-command probes hit cache without another
+request. Funding/incubators PARTIAL, actual language/full-text gaps remain.
+Validated data-only PR delivery42710566016 committedbeeb72d. Independent14-file
+Contents API consumption/hashes and actual alias-clef response identities checked.
+No production archive, schedule, merge or Paperclip action; PR8 draft. Evidence:
+docs/LIVE_RESEARCH_RETEST_2026-11-09.md/.json. Older reports stay commit-pinned.
