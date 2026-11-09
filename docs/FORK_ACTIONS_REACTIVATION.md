@@ -224,3 +224,9 @@ quoting fix was retained in PR #8. The pre-fix provider fails local compilation
 under a real 3.11 interpreter; full optimized regressions now pass under 3.11
 and 3.12. Keep this fix when reviewing/merging. Hosted provider readiness still
 requires the separate authorized smoke; local tests do not prove it.
+
+Live follow-up: after the owner re-enabled execution, authorized runs confirmed
+CI/funding/radar execution and independent shared/radar checkpoint recovery.
+Provider requests currently return HTTP 404, so inference is not qualified.
+Use ACTIONS_LIVE_VALIDATION_2026-11-09.md for actual run IDs and evidence. This
+does not activate the proposed radar/funding schedules or authorize publication.

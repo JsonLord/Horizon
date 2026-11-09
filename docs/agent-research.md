@@ -830,3 +830,33 @@ reference to `9332c2d717ba9d2ba3c6ab7e3de31a4be2050ccb`. The old source demonstr
 fails compilation on a real Python 3.11 interpreter; the remote fix compiles.
 Post-integration full suite: 499/499 on Python 3.11 (6.66s) and 3.12 (5.00s),
 plus both MCP smokes on 3.11. No new hosted run was needed to verify this locally.
+
+## 2026-11-09 — Actual Actions tests after owner reactivation
+
+Owner explicitly authorized live testing. Registered horizon-intel dispatch now
+executes. Direct new radar workflow lookup still 404 because it is not registered
+on main, so tested the unchanged radar controller through isolated workflow-path
+aliases, preserving all non-main/manual publication guards. No schedule, settings,
+merge or production archive changed.
+
+Initial hosted PR CI exposed a test-only GITHUB_SHA assumption. Reproduced with
+Actions environment variables, fixed the fixture SHA (verification unchanged),
+and ran 500 local Python 3.11 tests under those variables (5.33s). New hosted
+PR run **42552489740 PASS**. Funding read-only run **42552502452 PASS**, proposal
+skipped. Three radar collections + three independent fresh validations all PASS
+in **42552509052**, source alias 81ebc76 from implementation 7d714e7; all publishers
+skipped. Counts 30 agent / 8 training / 30 RAG, 5 checks each; fresh file manifest
+counts 63 / 19 / 63. Earlier alias run 42551970117 also passed.
+
+Provider run **42552497344 FAIL**: settings are present and mode openai_chat;
+configured alias alias-laya; standard request route receives HTTP 404. Zero of
+18 command/profile cells validated; three requests before circuit opened. Do not
+infer a bad key, billing issue or specific 404 origin. Added safe path-shape /
+per-cell notices without endpoint or credentials. Separate shared-state recovery
+PASS on a fresh runner without model credentials/calls despite failed inference.
+
+Executor artifact downloads were denied by outbound policy. No networking change
+or bypass: actual safe GitHub check annotations and artifact metadata provide
+reviewable evidence; hosted runners did download and verify artifacts. Proofs and
+limitations: docs/ACTIONS_LIVE_VALIDATION_2026-11-09.md and .json. Live provider
+readiness and production publication are still unqualified. PR #8 stays draft.

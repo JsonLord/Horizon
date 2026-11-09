@@ -175,3 +175,12 @@ preserve this digest contract. The past hosted run 42548115014 did execute but
 failed pytest before inference; do not treat earlier 422 observations as a
 complete diagnosis of the fork's current state. Live provider/digest publication
 still require separate actual evidence; no production activation occurred.
+
+## Authorized hosted follow-up after reactivation
+
+See ACTIONS_LIVE_VALIDATION_2026-11-09.md: actual hosted PR validation, funding
+collection, all three radar collections and fresh artifact validations pass.
+Shared checkpoint recovery also passes without inference. Radar controller testing
+used an isolated registered-path alias because its standalone workflow is not
+registered on main. Provider readiness is still unqualified: HTTP 404, 0/18 live
+cells validated. No production publisher ran; PR #8 remains draft.

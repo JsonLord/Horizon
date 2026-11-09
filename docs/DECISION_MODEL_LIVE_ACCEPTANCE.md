@@ -50,3 +50,14 @@ both runners' actual artifacts and `all_commands_live_validated`. Checkpoint
 restoration now verifies the application source revision, three policy versions,
 SQLite checkpoint hash and separate command-cache hash before opening restored
 state. No hosted run currently exists for these changes.
+
+## 2026-11-09 — Fork execution restored; endpoint returns 404
+
+Actual authorized run 42552497344 reached the configured provider. All settings
+are present, but three requests returned 404 and 0/18 cells validated. The
+configured alias is alias-laya; no successful server-reported model identity.
+Shared checkpoint recovery passed independently on a fresh runner with zero
+inference requests. The old Actions-disabled blocker is superseded by these
+observations; provider readiness remains FAIL/unqualified. Full safe evidence,
+run links and the unresolved endpoint/model-routing question are in
+ACTIONS_LIVE_VALIDATION_2026-11-09.md. No credentials or private endpoint exposed.
