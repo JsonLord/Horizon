@@ -1,0 +1,853 @@
+{
+  "audited_at_utc": "2026-11-09T02:03:19.971287+00:00",
+  "refs": {
+    "main": "c9dcef30a10ffe67b8e399baea5c2a6787c7dfd2",
+    "funding": "44e6e1b1d10d5915c0b1090a1db6f243fbe38dad",
+    "shared": "05ab6d80ffb3f1e7e9a7c3336c2e4c086727b9bb",
+    "radar_before": "5582bdea8e1bc715816e7e881acde8afb5516624"
+  },
+  "registered": [
+    {
+      "id": 306842636,
+      "node_id": "W_kwDOTKw43c4SSgwM",
+      "name": "Weekly Horizon Summary",
+      "path": ".github/workflows/daily-summary.yml",
+      "state": "active",
+      "created_at": "2026-07-03T19:57:28.000Z",
+      "updated_at": "2026-07-04T07:42:47.000Z",
+      "url": "https://api.github.com/repos/JsonLord/Horizon/actions/workflows/306842636",
+      "html_url": "https://github.com/JsonLord/Horizon/blob/main/.github/workflows/daily-summary.yml",
+      "badge_url": "https://github.com/JsonLord/Horizon/workflows/Weekly%20Horizon%20Summary/badge.svg"
+    },
+    {
+      "id": 306842637,
+      "node_id": "W_kwDOTKw43c4SSgwN",
+      "name": "Deploy Docs",
+      "path": ".github/workflows/deploy-docs.yml",
+      "state": "active",
+      "created_at": "2026-07-03T19:57:28.000Z",
+      "updated_at": "2026-07-03T19:57:28.000Z",
+      "url": "https://api.github.com/repos/JsonLord/Horizon/actions/workflows/306842637",
+      "html_url": "https://github.com/JsonLord/Horizon/blob/main/.github/workflows/deploy-docs.yml",
+      "badge_url": "https://github.com/JsonLord/Horizon/workflows/Deploy%20Docs/badge.svg"
+    },
+    {
+      "id": 392967451,
+      "node_id": "W_kwDOTKw43c4XbDUb",
+      "name": "Funding document research and enhancement",
+      "path": ".github/workflows/funding-research.yml",
+      "state": "active",
+      "created_at": "2026-10-22T14:01:16.000Z",
+      "updated_at": "2026-10-22T14:01:16.000Z",
+      "url": "https://api.github.com/repos/JsonLord/Horizon/actions/workflows/392967451",
+      "html_url": "https://github.com/JsonLord/Horizon/blob/main/.github/workflows/funding-research.yml",
+      "badge_url": "https://github.com/JsonLord/Horizon/workflows/Funding%20document%20research%20and%20enhancement/badge.svg"
+    },
+    {
+      "id": 380087226,
+      "node_id": "W_kwDOTKw43c4Wp6u6",
+      "name": "Horizon control validation",
+      "path": ".github/workflows/horizon-control-checks.yml",
+      "state": "active",
+      "created_at": "2026-10-09T22:37:06.000Z",
+      "updated_at": "2026-10-09T22:37:06.000Z",
+      "url": "https://api.github.com/repos/JsonLord/Horizon/actions/workflows/380087226",
+      "html_url": "https://github.com/JsonLord/Horizon/blob/main/.github/workflows/horizon-control-checks.yml",
+      "badge_url": "https://github.com/JsonLord/Horizon/workflows/Horizon%20control%20validation/badge.svg"
+    },
+    {
+      "id": 380057296,
+      "node_id": "W_kwDOTKw43c4WpzbQ",
+      "name": "Horizon intelligence archive",
+      "path": ".github/workflows/horizon-intel.yml",
+      "state": "active",
+      "created_at": "2026-10-09T21:43:36.000Z",
+      "updated_at": "2026-10-09T21:43:36.000Z",
+      "url": "https://api.github.com/repos/JsonLord/Horizon/actions/workflows/380057296",
+      "html_url": "https://github.com/JsonLord/Horizon/blob/main/.github/workflows/horizon-intel.yml",
+      "badge_url": "https://github.com/JsonLord/Horizon/workflows/Horizon%20intelligence%20archive/badge.svg"
+    },
+    {
+      "id": 383881388,
+      "node_id": "W_kwDOTKw43c4W4ZCs",
+      "name": "Research archive regression",
+      "path": ".github/workflows/research-validation.yml",
+      "state": "active",
+      "created_at": "2026-10-14T02:50:16.000Z",
+      "updated_at": "2026-10-14T13:46:12.000Z",
+      "url": "https://api.github.com/repos/JsonLord/Horizon/actions/workflows/383881388",
+      "html_url": "https://github.com/JsonLord/Horizon/blob/main/.github/workflows/research-validation.yml",
+      "badge_url": "https://github.com/JsonLord/Horizon/workflows/Research%20archive%20regression/badge.svg"
+    },
+    {
+      "id": 306847616,
+      "node_id": "W_kwDOTKw43c4SSh-A",
+      "name": "pages-build-deployment",
+      "path": "dynamic/pages/pages-build-deployment",
+      "state": "active",
+      "created_at": "2026-07-03T20:10:52.000Z",
+      "updated_at": "2026-07-03T20:10:52.000Z",
+      "url": "https://api.github.com/repos/JsonLord/Horizon/actions/workflows/306847616",
+      "html_url": "https://github.com/JsonLord/Horizon/actions/workflows/pages/pages-build-deployment",
+      "badge_url": "https://github.com/JsonLord/Horizon/actions/workflows/pages/pages-build-deployment/badge.svg"
+    }
+  ],
+  "workflows": [
+    {
+      "ref": "main",
+      "commit": "c9dcef30a10ffe67b8e399baea5c2a6787c7dfd2",
+      "path": ".github/workflows/daily-summary.yml",
+      "sha256": "e75cc1a407c7be5b11699ceecdf2591a1f49561ffb5b1124d73544f64b47a30b",
+      "name": "Weekly Horizon Summary",
+      "jobs": [
+        "daily-summary"
+      ],
+      "job_definitions": 1,
+      "crons": [
+        "17 0 * * 1"
+      ],
+      "events_section": "schedule:\n    # GitHub scheduled workflows use UTC and can be heavily delayed at the top\n    # of the hour. 00:17 UTC is 08:17 Asia/Shanghai.\n    - cron: '17 0 * * 1'   # weekly, Mondays 00:17 UTC (02:17 Paris)\n  workflow_dispatch:      # Allow manual trigger",
+      "runners": [
+        "ubuntu-latest"
+      ],
+      "timeouts_minutes": [],
+      "dependency_installs": [
+        "uv sync"
+      ],
+      "secrets": [
+        "APIFY_TOKEN",
+        "GITHUB_TOKEN",
+        "OPENAI_API_KEY"
+      ],
+      "write_permissions": [
+        "contents"
+      ],
+      "artifact_retention_days": []
+    },
+    {
+      "ref": "main",
+      "commit": "c9dcef30a10ffe67b8e399baea5c2a6787c7dfd2",
+      "path": ".github/workflows/deploy-docs.yml",
+      "sha256": "8602ef08935eda39743ba4cc3fb8d302219ecc167d4560f3727889b822e6d62d",
+      "name": "Deploy Docs",
+      "jobs": [
+        "deploy"
+      ],
+      "job_definitions": 1,
+      "crons": [],
+      "events_section": "push:\n    branches: [main]\n    paths: ['docs/**']",
+      "runners": [
+        "ubuntu-latest"
+      ],
+      "timeouts_minutes": [],
+      "dependency_installs": [],
+      "secrets": [
+        "GITHUB_TOKEN"
+      ],
+      "write_permissions": [
+        "contents"
+      ],
+      "artifact_retention_days": []
+    },
+    {
+      "ref": "main",
+      "commit": "c9dcef30a10ffe67b8e399baea5c2a6787c7dfd2",
+      "path": ".github/workflows/horizon-intel.yml",
+      "sha256": "c3d31e0e839c3934b7d80030e9a2d9fd903523a5fb62ad5856831ea98b3b0352",
+      "name": "Horizon intelligence archive",
+      "jobs": [
+        "collect",
+        "publish"
+      ],
+      "job_definitions": 2,
+      "crons": [
+        "23 6 * * *"
+      ],
+      "events_section": "schedule:\n    - cron: '23 6 * * *'\n  workflow_dispatch:\n    inputs:\n      profile_id:\n        description: Approved profile ID (empty runs standard set)\n        required: false\n        type: string\n      lookback_hours:\n        description: Lookback hours (1\u2013168)\n        required: false\n        default: '48'\n        type: string",
+      "runners": [
+        "ubuntu-24.04"
+      ],
+      "timeouts_minutes": [
+        20,
+        10
+      ],
+      "dependency_installs": [
+        "uv sync --frozen",
+        "uv sync --frozen"
+      ],
+      "secrets": [],
+      "write_permissions": [
+        "contents"
+      ],
+      "artifact_retention_days": [
+        7
+      ]
+    },
+    {
+      "ref": "main",
+      "commit": "c9dcef30a10ffe67b8e399baea5c2a6787c7dfd2",
+      "path": ".github/workflows/research-validation.yml",
+      "sha256": "1728e48212e6085c0103c1e747e0e4a2466f0333d2e11b5e9c0847e70e95521e",
+      "name": "Research archive regression",
+      "jobs": [
+        "validate"
+      ],
+      "job_definitions": 1,
+      "crons": [],
+      "events_section": "pull_request:\n    paths:\n      - 'src/research/**'\n      - 'schemas/**'\n      - 'tests/**'\n      - '.github/workflows/horizon-intel.yml'\n      - '.github/workflows/research-validation.yml'\n  push:\n    branches: [fix/archive-provenance-compat]",
+      "runners": [
+        "ubuntu-24.04"
+      ],
+      "timeouts_minutes": [
+        10
+      ],
+      "dependency_installs": [
+        "uv sync --frozen --extra dev"
+      ],
+      "secrets": [],
+      "write_permissions": [],
+      "artifact_retention_days": []
+    },
+    {
+      "ref": "funding",
+      "commit": "44e6e1b1d10d5915c0b1090a1db6f243fbe38dad",
+      "path": ".github/workflows/daily-summary.yml",
+      "sha256": "b82ae6a36be351c34be4da8b658f34bf03a83809aed5b21139396254a51d2844",
+      "name": "Weekly Horizon Summary",
+      "jobs": [
+        "daily-summary"
+      ],
+      "job_definitions": 1,
+      "crons": [
+        "17 0 * * 1"
+      ],
+      "events_section": "schedule:\n    # GitHub scheduled workflows use UTC and can be heavily delayed at the top\n    # of the hour. 00:17 UTC is 08:17 Asia/Shanghai.\n    - cron: '17 0 * * 1'   # weekly, Mondays 00:17 UTC (02:17 Paris)\n  workflow_dispatch:      # Allow manual trigger",
+      "runners": [
+        "ubuntu-latest"
+      ],
+      "timeouts_minutes": [],
+      "dependency_installs": [
+        "uv sync"
+      ],
+      "secrets": [
+        "APIFY_TOKEN",
+        "GITHUB_TOKEN",
+        "OPENAI_API_KEY"
+      ],
+      "write_permissions": [
+        "contents"
+      ],
+      "artifact_retention_days": []
+    },
+    {
+      "ref": "funding",
+      "commit": "44e6e1b1d10d5915c0b1090a1db6f243fbe38dad",
+      "path": ".github/workflows/deploy-docs.yml",
+      "sha256": "8602ef08935eda39743ba4cc3fb8d302219ecc167d4560f3727889b822e6d62d",
+      "name": "Deploy Docs",
+      "jobs": [
+        "deploy"
+      ],
+      "job_definitions": 1,
+      "crons": [],
+      "events_section": "push:\n    branches: [main]\n    paths: ['docs/**']",
+      "runners": [
+        "ubuntu-latest"
+      ],
+      "timeouts_minutes": [],
+      "dependency_installs": [],
+      "secrets": [
+        "GITHUB_TOKEN"
+      ],
+      "write_permissions": [
+        "contents"
+      ],
+      "artifact_retention_days": []
+    },
+    {
+      "ref": "funding",
+      "commit": "44e6e1b1d10d5915c0b1090a1db6f243fbe38dad",
+      "path": ".github/workflows/funding-research.yml",
+      "sha256": "e187c48111bfb56dbd23679b7f6573517cd899bf919acf96ceaa58a415a7e6a8",
+      "name": "Funding document research and enhancement",
+      "jobs": [
+        "gate",
+        "collect",
+        "propose"
+      ],
+      "job_definitions": 3,
+      "crons": [
+        "17 7 * * 1"
+      ],
+      "events_section": "workflow_dispatch:\n  push:\n    branches: [feature/program-intelligence-implementation]\n    paths:\n      - 'research/funding-de-eu/Funding DK (DE missing).md'\n      - 'config/funding-research.json'\n      - 'config/funding-sources.json'\n      - 'src/research/funding/**'\n      - 'scripts/funding_research.py'\n      - '.github/workflows/funding-research.yml'\n  schedule:\n    - cron: '17 7 * * 1'",
+      "runners": [
+        "ubuntu-24.04"
+      ],
+      "timeouts_minutes": [
+        15,
+        10
+      ],
+      "dependency_installs": [
+        "uv sync --frozen",
+        "uv sync --frozen"
+      ],
+      "secrets": [],
+      "write_permissions": [
+        "contents",
+        "pull-requests"
+      ],
+      "artifact_retention_days": [
+        14
+      ]
+    },
+    {
+      "ref": "funding",
+      "commit": "44e6e1b1d10d5915c0b1090a1db6f243fbe38dad",
+      "path": ".github/workflows/horizon-intel.yml",
+      "sha256": "aaa8e5ff744d06a57a7fe86d6a69c89309f82eca683e308c640d850a1c65cc9f",
+      "name": "Horizon intelligence archive",
+      "jobs": [
+        "collect",
+        "publish",
+        "program-qualify",
+        "funding-qualify",
+        "funding-review-qualify"
+      ],
+      "job_definitions": 5,
+      "crons": [
+        "23 6 * * *"
+      ],
+      "events_section": "schedule:\n    - cron: '23 6 * * *'\n  workflow_dispatch:\n    inputs:\n      funding_review_qualification:\n        description: Explicit isolated data-PR test with the automatic job token; never targets main\n        type: boolean\n        default: false\n      funding_acceptance:\n        description: Independent-run funding acceptance (also select funding_qualification)\n        type: boolean\n        default: false\n      funding_qualification:\n        description: Read-only funding verification with two consecutive executions\n        type: boolean\n        default: false\n      program_qualification:\n        description: Read-only program qualification; never publishes\n        type: boolean\n        default: false\n      research_ref:\n        description: Approved same-repository head; must match selected workflow ref\n        type: string\n        default: ''\n      previous_run_id:\n        description: Optional prior qualification run for fresh-runner comparison\n        type: string\n        default: ''\n      profile_id:\n        description: Approved profile ID (empty runs standard set)\n        required: false\n        type: string\n      lookback_hours:\n        description: Lookback hours (1\u2013168)\n        required: false\n        default: '48'\n        type: string",
+      "runners": [
+        "ubuntu-24.04"
+      ],
+      "timeouts_minutes": [
+        20,
+        10,
+        15,
+        15,
+        10
+      ],
+      "dependency_installs": [
+        "uv sync --frozen",
+        "uv sync --frozen",
+        "uv sync --frozen",
+        "uv sync --frozen",
+        "uv sync --frozen"
+      ],
+      "secrets": [],
+      "write_permissions": [
+        "contents",
+        "contents",
+        "pull-requests"
+      ],
+      "artifact_retention_days": [
+        7,
+        14,
+        14,
+        14,
+        14,
+        14
+      ]
+    },
+    {
+      "ref": "funding",
+      "commit": "44e6e1b1d10d5915c0b1090a1db6f243fbe38dad",
+      "path": ".github/workflows/research-validation.yml",
+      "sha256": "126eb3c7f76ac55a2aa7ce3f9b59f000f45ca6b8ad124127608fa08bc5ed387c",
+      "name": "Research archive regression",
+      "jobs": [
+        "validate"
+      ],
+      "job_definitions": 1,
+      "crons": [],
+      "events_section": "pull_request:\n    paths:\n      - 'src/research/**'\n      - 'src/mcp/**'\n      - 'scripts/**'\n      - 'config/**'\n      - 'profiles/**'\n      - 'research/funding-de-eu/**'\n      - 'schemas/**'\n      - 'tests/**'\n      - '.github/workflows/**'\n      - 'pyproject.toml'\n      - 'uv.lock'\n  push:\n    branches: [main, 'feature/**', 'research/**', 'automation/**', fix/archive-provenance-compat]",
+      "runners": [
+        "ubuntu-24.04"
+      ],
+      "timeouts_minutes": [
+        10
+      ],
+      "dependency_installs": [
+        "uv sync --frozen --extra dev"
+      ],
+      "secrets": [],
+      "write_permissions": [],
+      "artifact_retention_days": []
+    },
+    {
+      "ref": "shared",
+      "commit": "05ab6d80ffb3f1e7e9a7c3336c2e4c086727b9bb",
+      "path": ".github/workflows/daily-summary.yml",
+      "sha256": "b82ae6a36be351c34be4da8b658f34bf03a83809aed5b21139396254a51d2844",
+      "name": "Weekly Horizon Summary",
+      "jobs": [
+        "daily-summary"
+      ],
+      "job_definitions": 1,
+      "crons": [
+        "17 0 * * 1"
+      ],
+      "events_section": "schedule:\n    # GitHub scheduled workflows use UTC and can be heavily delayed at the top\n    # of the hour. 00:17 UTC is 08:17 Asia/Shanghai.\n    - cron: '17 0 * * 1'   # weekly, Mondays 00:17 UTC (02:17 Paris)\n  workflow_dispatch:      # Allow manual trigger",
+      "runners": [
+        "ubuntu-latest"
+      ],
+      "timeouts_minutes": [],
+      "dependency_installs": [
+        "uv sync"
+      ],
+      "secrets": [
+        "APIFY_TOKEN",
+        "GITHUB_TOKEN",
+        "OPENAI_API_KEY"
+      ],
+      "write_permissions": [
+        "contents"
+      ],
+      "artifact_retention_days": []
+    },
+    {
+      "ref": "shared",
+      "commit": "05ab6d80ffb3f1e7e9a7c3336c2e4c086727b9bb",
+      "path": ".github/workflows/deploy-docs.yml",
+      "sha256": "8602ef08935eda39743ba4cc3fb8d302219ecc167d4560f3727889b822e6d62d",
+      "name": "Deploy Docs",
+      "jobs": [
+        "deploy"
+      ],
+      "job_definitions": 1,
+      "crons": [],
+      "events_section": "push:\n    branches: [main]\n    paths: ['docs/**']",
+      "runners": [
+        "ubuntu-latest"
+      ],
+      "timeouts_minutes": [],
+      "dependency_installs": [],
+      "secrets": [
+        "GITHUB_TOKEN"
+      ],
+      "write_permissions": [
+        "contents"
+      ],
+      "artifact_retention_days": []
+    },
+    {
+      "ref": "shared",
+      "commit": "05ab6d80ffb3f1e7e9a7c3336c2e4c086727b9bb",
+      "path": ".github/workflows/funding-research.yml",
+      "sha256": "e187c48111bfb56dbd23679b7f6573517cd899bf919acf96ceaa58a415a7e6a8",
+      "name": "Funding document research and enhancement",
+      "jobs": [
+        "gate",
+        "collect",
+        "propose"
+      ],
+      "job_definitions": 3,
+      "crons": [
+        "17 7 * * 1"
+      ],
+      "events_section": "workflow_dispatch:\n  push:\n    branches: [feature/program-intelligence-implementation]\n    paths:\n      - 'research/funding-de-eu/Funding DK (DE missing).md'\n      - 'config/funding-research.json'\n      - 'config/funding-sources.json'\n      - 'src/research/funding/**'\n      - 'scripts/funding_research.py'\n      - '.github/workflows/funding-research.yml'\n  schedule:\n    - cron: '17 7 * * 1'",
+      "runners": [
+        "ubuntu-24.04"
+      ],
+      "timeouts_minutes": [
+        15,
+        10
+      ],
+      "dependency_installs": [
+        "uv sync --frozen",
+        "uv sync --frozen"
+      ],
+      "secrets": [],
+      "write_permissions": [
+        "contents",
+        "pull-requests"
+      ],
+      "artifact_retention_days": [
+        14
+      ]
+    },
+    {
+      "ref": "shared",
+      "commit": "05ab6d80ffb3f1e7e9a7c3336c2e4c086727b9bb",
+      "path": ".github/workflows/horizon-intel.yml",
+      "sha256": "6331eea69bf5bca89468ffc765c832dda81a8e79aaa45a9e0a4cf13544a2b450",
+      "name": "Horizon intelligence archive",
+      "jobs": [
+        "collect",
+        "publish",
+        "program-qualify",
+        "funding-qualify",
+        "funding-review-qualify",
+        "shared-filtering-qualify"
+      ],
+      "job_definitions": 6,
+      "crons": [
+        "23 6 * * *"
+      ],
+      "events_section": "schedule:\n    - cron: '23 6 * * *'\n  workflow_dispatch:\n    inputs:\n      shared_filtering_qualification:\n        description: Read-only shared filtering smoke and checkpoint restoration\n        type: boolean\n        default: false\n      funding_review_qualification:\n        description: Explicit isolated data-PR test with the automatic job token; never targets main\n        type: boolean\n        default: false\n      funding_acceptance:\n        description: Independent-run funding acceptance (also select funding_qualification)\n        type: boolean\n        default: false\n      funding_qualification:\n        description: Read-only funding verification with two consecutive executions\n        type: boolean\n        default: false\n      program_qualification:\n        description: Read-only program qualification; never publishes\n        type: boolean\n        default: false\n      research_ref:\n        description: Approved same-repository head; must match selected workflow ref\n        type: string\n        default: ''\n      previous_run_id:\n        description: Optional prior qualification run for fresh-runner comparison\n        type: string\n        default: ''\n      profile_id:\n        description: Approved profile ID (empty runs standard set)\n        required: false\n        type: string\n      lookback_hours:\n        description: Lookback hours (1\u2013168)\n        required: false\n        default: '48'\n        type: string",
+      "runners": [
+        "ubuntu-24.04"
+      ],
+      "timeouts_minutes": [
+        20,
+        10,
+        15,
+        15,
+        10
+      ],
+      "dependency_installs": [
+        "uv sync --frozen",
+        "uv sync --frozen",
+        "uv sync --frozen",
+        "uv sync --frozen",
+        "uv sync --frozen"
+      ],
+      "secrets": [
+        "HORIZON_DECISION_API_KEY"
+      ],
+      "write_permissions": [
+        "contents",
+        "contents",
+        "pull-requests"
+      ],
+      "artifact_retention_days": [
+        7,
+        14,
+        14,
+        14,
+        14,
+        14,
+        14
+      ]
+    },
+    {
+      "ref": "shared",
+      "commit": "05ab6d80ffb3f1e7e9a7c3336c2e4c086727b9bb",
+      "path": ".github/workflows/research-validation.yml",
+      "sha256": "126eb3c7f76ac55a2aa7ce3f9b59f000f45ca6b8ad124127608fa08bc5ed387c",
+      "name": "Research archive regression",
+      "jobs": [
+        "validate"
+      ],
+      "job_definitions": 1,
+      "crons": [],
+      "events_section": "pull_request:\n    paths:\n      - 'src/research/**'\n      - 'src/mcp/**'\n      - 'scripts/**'\n      - 'config/**'\n      - 'profiles/**'\n      - 'research/funding-de-eu/**'\n      - 'schemas/**'\n      - 'tests/**'\n      - '.github/workflows/**'\n      - 'pyproject.toml'\n      - 'uv.lock'\n  push:\n    branches: [main, 'feature/**', 'research/**', 'automation/**', fix/archive-provenance-compat]",
+      "runners": [
+        "ubuntu-24.04"
+      ],
+      "timeouts_minutes": [
+        10
+      ],
+      "dependency_installs": [
+        "uv sync --frozen --extra dev"
+      ],
+      "secrets": [],
+      "write_permissions": [],
+      "artifact_retention_days": []
+    },
+    {
+      "ref": "shared",
+      "commit": "05ab6d80ffb3f1e7e9a7c3336c2e4c086727b9bb",
+      "path": ".github/workflows/shared-filtering.yml",
+      "sha256": "156b0b671febc817545f90b37f31292cea44b68a93daf7545a303f899122683d",
+      "name": "Shared filtering staging qualification",
+      "jobs": [
+        "qualify",
+        "restore"
+      ],
+      "job_definitions": 2,
+      "crons": [],
+      "events_section": "workflow_call:\n    secrets:\n      HORIZON_DECISION_API_KEY:\n        required: false\n  workflow_dispatch:\n  push:\n    branches: [feature/shared-intelligence-filtering]\n    paths:\n      - 'src/research/filtering/**'\n      - 'src/research/service.py'\n      - 'config/filtering/**'\n      - 'profiles/examples/ai-usability.json'\n      - 'scripts/shared_filtering.py'\n      - 'tests/test_shared_filtering.py'\n      - '.github/workflows/shared-filtering.yml'",
+      "runners": [
+        "ubuntu-24.04"
+      ],
+      "timeouts_minutes": [
+        15,
+        15
+      ],
+      "dependency_installs": [
+        "uv sync --frozen --extra dev",
+        "uv sync --frozen"
+      ],
+      "secrets": [
+        "HORIZON_DECISION_API_KEY"
+      ],
+      "write_permissions": [],
+      "artifact_retention_days": [
+        14
+      ]
+    },
+    {
+      "ref": "radar_before",
+      "commit": "5582bdea8e1bc715816e7e881acde8afb5516624",
+      "path": ".github/workflows/daily-summary.yml",
+      "sha256": "b82ae6a36be351c34be4da8b658f34bf03a83809aed5b21139396254a51d2844",
+      "name": "Weekly Horizon Summary",
+      "jobs": [
+        "daily-summary"
+      ],
+      "job_definitions": 1,
+      "crons": [
+        "17 0 * * 1"
+      ],
+      "events_section": "schedule:\n    # GitHub scheduled workflows use UTC and can be heavily delayed at the top\n    # of the hour. 00:17 UTC is 08:17 Asia/Shanghai.\n    - cron: '17 0 * * 1'   # weekly, Mondays 00:17 UTC (02:17 Paris)\n  workflow_dispatch:      # Allow manual trigger",
+      "runners": [
+        "ubuntu-latest"
+      ],
+      "timeouts_minutes": [],
+      "dependency_installs": [
+        "uv sync"
+      ],
+      "secrets": [
+        "APIFY_TOKEN",
+        "GITHUB_TOKEN",
+        "OPENAI_API_KEY"
+      ],
+      "write_permissions": [
+        "contents"
+      ],
+      "artifact_retention_days": []
+    },
+    {
+      "ref": "radar_before",
+      "commit": "5582bdea8e1bc715816e7e881acde8afb5516624",
+      "path": ".github/workflows/deploy-docs.yml",
+      "sha256": "8602ef08935eda39743ba4cc3fb8d302219ecc167d4560f3727889b822e6d62d",
+      "name": "Deploy Docs",
+      "jobs": [
+        "deploy"
+      ],
+      "job_definitions": 1,
+      "crons": [],
+      "events_section": "push:\n    branches: [main]\n    paths: ['docs/**']",
+      "runners": [
+        "ubuntu-latest"
+      ],
+      "timeouts_minutes": [],
+      "dependency_installs": [],
+      "secrets": [
+        "GITHUB_TOKEN"
+      ],
+      "write_permissions": [
+        "contents"
+      ],
+      "artifact_retention_days": []
+    },
+    {
+      "ref": "radar_before",
+      "commit": "5582bdea8e1bc715816e7e881acde8afb5516624",
+      "path": ".github/workflows/funding-research.yml",
+      "sha256": "e187c48111bfb56dbd23679b7f6573517cd899bf919acf96ceaa58a415a7e6a8",
+      "name": "Funding document research and enhancement",
+      "jobs": [
+        "gate",
+        "collect",
+        "propose"
+      ],
+      "job_definitions": 3,
+      "crons": [
+        "17 7 * * 1"
+      ],
+      "events_section": "workflow_dispatch:\n  push:\n    branches: [feature/program-intelligence-implementation]\n    paths:\n      - 'research/funding-de-eu/Funding DK (DE missing).md'\n      - 'config/funding-research.json'\n      - 'config/funding-sources.json'\n      - 'src/research/funding/**'\n      - 'scripts/funding_research.py'\n      - '.github/workflows/funding-research.yml'\n  schedule:\n    - cron: '17 7 * * 1'",
+      "runners": [
+        "ubuntu-24.04"
+      ],
+      "timeouts_minutes": [
+        15,
+        10
+      ],
+      "dependency_installs": [
+        "uv sync --frozen",
+        "uv sync --frozen"
+      ],
+      "secrets": [],
+      "write_permissions": [
+        "contents",
+        "pull-requests"
+      ],
+      "artifact_retention_days": [
+        14
+      ]
+    },
+    {
+      "ref": "radar_before",
+      "commit": "5582bdea8e1bc715816e7e881acde8afb5516624",
+      "path": ".github/workflows/horizon-intel.yml",
+      "sha256": "4b96850bbca5d7c4969288507341317bf04d7abf8db8453c090b0ba4c1ffd21d",
+      "name": "Horizon intelligence archive",
+      "jobs": [
+        "collect",
+        "publish",
+        "program-qualify",
+        "funding-qualify",
+        "funding-review-qualify",
+        "shared-filtering-qualify"
+      ],
+      "job_definitions": 6,
+      "crons": [
+        "23 6 * * *"
+      ],
+      "events_section": "schedule:\n    - cron: '23 6 * * *'\n  workflow_dispatch:\n    inputs:\n      shared_filtering_qualification:\n        description: Read-only shared filtering smoke and checkpoint restoration\n        type: boolean\n        default: false\n      funding_review_qualification:\n        description: Explicit isolated data-PR test with the automatic job token; never targets main\n        type: boolean\n        default: false\n      funding_acceptance:\n        description: Independent-run funding acceptance (also select funding_qualification)\n        type: boolean\n        default: false\n      funding_qualification:\n        description: Read-only funding verification with two consecutive executions\n        type: boolean\n        default: false\n      program_qualification:\n        description: Read-only program qualification; never publishes\n        type: boolean\n        default: false\n      research_ref:\n        description: Approved same-repository head; must match selected workflow ref\n        type: string\n        default: ''\n      previous_run_id:\n        description: Optional prior qualification run for fresh-runner comparison\n        type: string\n        default: ''\n      profile_id:\n        description: Approved profile ID (empty runs standard set)\n        required: false\n        type: string\n      lookback_hours:\n        description: Lookback hours (1\u2013168)\n        required: false\n        default: '48'\n        type: string",
+      "runners": [
+        "ubuntu-24.04"
+      ],
+      "timeouts_minutes": [
+        20,
+        10,
+        15,
+        15,
+        10
+      ],
+      "dependency_installs": [
+        "uv sync --frozen",
+        "uv sync --frozen",
+        "uv sync --frozen",
+        "uv sync --frozen",
+        "uv sync --frozen"
+      ],
+      "secrets": [
+        "HORIZON_DECISION_API_KEY"
+      ],
+      "write_permissions": [
+        "contents",
+        "contents",
+        "pull-requests"
+      ],
+      "artifact_retention_days": [
+        7,
+        14,
+        14,
+        14,
+        14,
+        14,
+        14
+      ]
+    },
+    {
+      "ref": "radar_before",
+      "commit": "5582bdea8e1bc715816e7e881acde8afb5516624",
+      "path": ".github/workflows/radar-fleet.yml",
+      "sha256": "b5d194b8a0e32434b67af0e32846d83e2b869f93e16599cfa57c10f3f873d114",
+      "name": "Technical radar fleet",
+      "jobs": [
+        "gate",
+        "radars"
+      ],
+      "job_definitions": 2,
+      "crons": [
+        "13 2,14 * * *",
+        "0 18 * * 5"
+      ],
+      "events_section": "workflow_dispatch:\n  # Prepared schedules stay inactive until a reviewed default-branch merge AND\n  # config/radar/registry.json schedule_enabled=true. No existing cron is changed.\n  schedule:\n    - cron: '13 2,14 * * *'\n    - cron: '0 18 * * 5'",
+      "runners": [
+        "ubuntu-24.04"
+      ],
+      "timeouts_minutes": [
+        3
+      ],
+      "dependency_installs": [],
+      "secrets": [
+        "HORIZON_DECISION_API_KEY"
+      ],
+      "write_permissions": [
+        "contents"
+      ],
+      "artifact_retention_days": []
+    },
+    {
+      "ref": "radar_before",
+      "commit": "5582bdea8e1bc715816e7e881acde8afb5516624",
+      "path": ".github/workflows/radar-worker.yml",
+      "sha256": "4fad3d466523566c0c1a90ef0c14a7f23caf38a827c59502dac987aad5b4d0ac",
+      "name": "Isolated technical radar worker",
+      "jobs": [
+        "collect",
+        "validate",
+        "publish"
+      ],
+      "job_definitions": 3,
+      "crons": [],
+      "events_section": "workflow_call:\n    inputs:\n      radar:\n        required: true\n        type: string\n      publication:\n        required: true\n        type: boolean\n    secrets:\n      HORIZON_DECISION_API_KEY:\n        required: false",
+      "runners": [
+        "ubuntu-24.04"
+      ],
+      "timeouts_minutes": [
+        25,
+        10,
+        10
+      ],
+      "dependency_installs": [
+        "uv sync --frozen",
+        "uv sync --frozen",
+        "uv sync --frozen"
+      ],
+      "secrets": [
+        "HORIZON_DECISION_API_KEY"
+      ],
+      "write_permissions": [
+        "contents"
+      ],
+      "artifact_retention_days": [
+        14
+      ]
+    },
+    {
+      "ref": "radar_before",
+      "commit": "5582bdea8e1bc715816e7e881acde8afb5516624",
+      "path": ".github/workflows/research-validation.yml",
+      "sha256": "126eb3c7f76ac55a2aa7ce3f9b59f000f45ca6b8ad124127608fa08bc5ed387c",
+      "name": "Research archive regression",
+      "jobs": [
+        "validate"
+      ],
+      "job_definitions": 1,
+      "crons": [],
+      "events_section": "pull_request:\n    paths:\n      - 'src/research/**'\n      - 'src/mcp/**'\n      - 'scripts/**'\n      - 'config/**'\n      - 'profiles/**'\n      - 'research/funding-de-eu/**'\n      - 'schemas/**'\n      - 'tests/**'\n      - '.github/workflows/**'\n      - 'pyproject.toml'\n      - 'uv.lock'\n  push:\n    branches: [main, 'feature/**', 'research/**', 'automation/**', fix/archive-provenance-compat]",
+      "runners": [
+        "ubuntu-24.04"
+      ],
+      "timeouts_minutes": [
+        10
+      ],
+      "dependency_installs": [
+        "uv sync --frozen --extra dev"
+      ],
+      "secrets": [],
+      "write_permissions": [],
+      "artifact_retention_days": []
+    },
+    {
+      "ref": "radar_before",
+      "commit": "5582bdea8e1bc715816e7e881acde8afb5516624",
+      "path": ".github/workflows/shared-filtering.yml",
+      "sha256": "156b0b671febc817545f90b37f31292cea44b68a93daf7545a303f899122683d",
+      "name": "Shared filtering staging qualification",
+      "jobs": [
+        "qualify",
+        "restore"
+      ],
+      "job_definitions": 2,
+      "crons": [],
+      "events_section": "workflow_call:\n    secrets:\n      HORIZON_DECISION_API_KEY:\n        required: false\n  workflow_dispatch:\n  push:\n    branches: [feature/shared-intelligence-filtering]\n    paths:\n      - 'src/research/filtering/**'\n      - 'src/research/service.py'\n      - 'config/filtering/**'\n      - 'profiles/examples/ai-usability.json'\n      - 'scripts/shared_filtering.py'\n      - 'tests/test_shared_filtering.py'\n      - '.github/workflows/shared-filtering.yml'",
+      "runners": [
+        "ubuntu-24.04"
+      ],
+      "timeouts_minutes": [
+        15,
+        15
+      ],
+      "dependency_installs": [
+        "uv sync --frozen --extra dev",
+        "uv sync --frozen"
+      ],
+      "secrets": [
+        "HORIZON_DECISION_API_KEY"
+      ],
+      "write_permissions": [],
+      "artifact_retention_days": [
+        14
+      ]
+    }
+  ]
+}

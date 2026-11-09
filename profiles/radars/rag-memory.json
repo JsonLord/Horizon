@@ -1,0 +1,80 @@
+{
+  "schema_version": "1.0",
+  "profile_id": "examples/radar-rag-memory",
+  "mode": "research_job",
+  "name": "Rag Memory",
+  "enabled": true,
+  "topics": [
+    "Retrieval augmented generation",
+    "Hybrid retrieval",
+    "BM25",
+    "Embeddings",
+    "Reranking",
+    "Agent memory",
+    "Episodic memory",
+    "Semantic memory",
+    "Knowledge graphs",
+    "Context compression",
+    "Memory consolidation",
+    "Adaptive retrieval",
+    "Retrieval evaluation",
+    "Long-context reasoning",
+    "Memory benchmarks",
+    "Citation grounding"
+  ],
+  "regions": [
+    "worldwide"
+  ],
+  "languages": [
+    "en",
+    "de",
+    "fr"
+  ],
+  "queries": [
+    {
+      "source": "google_news",
+      "text": "\"agent memory\" OR \"hybrid retrieval\" OR \"RAG evaluation\"",
+      "language": "en",
+      "country": "US",
+      "topic": "rag-memory",
+      "region": "worldwide"
+    },
+    {
+      "source": "google_news",
+      "text": "(RAG OR Wissensabruf) (KI OR Gedächtnis OR Evaluierung)",
+      "language": "de",
+      "country": "DE",
+      "topic": "rag-memory",
+      "region": "worldwide"
+    },
+    {
+      "source": "google_news",
+      "text": "(RAG OR \"mémoire agents\") (évaluation OR recherche OR hybride)",
+      "language": "fr",
+      "country": "FR",
+      "topic": "rag-memory",
+      "region": "worldwide"
+    }
+  ],
+  "sources": [
+    "google_news"
+  ],
+  "schedule_hint": "manual",
+  "lookback_hours": 168,
+  "max_items": 30,
+  "max_queries": 3,
+  "ranking": {
+    "mode": "keyword",
+    "minimum_score": 0
+  },
+  "output": {
+    "languages": [
+      "en",
+      "de",
+      "fr"
+    ],
+    "markdown": true,
+    "json": true,
+    "changes": true
+  }
+}

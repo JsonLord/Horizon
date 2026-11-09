@@ -1,0 +1,77 @@
+{
+  "schema_version": "1.0",
+  "profile_id": "examples/radar-agent-control-planes",
+  "mode": "research_job",
+  "name": "Agent Control Planes",
+  "enabled": true,
+  "topics": [
+    "Multi-agent architectures",
+    "Agent orchestration",
+    "Control planes",
+    "Agent registries",
+    "Agent delegation",
+    "Task scheduling",
+    "Agent communication protocols",
+    "MCP interoperability",
+    "Agent observability",
+    "Agent security",
+    "Agent evaluation",
+    "Durable execution",
+    "Agent memory"
+  ],
+  "regions": [
+    "worldwide"
+  ],
+  "languages": [
+    "en",
+    "de",
+    "fr"
+  ],
+  "queries": [
+    {
+      "source": "google_news",
+      "text": "(MCP OR \"agent orchestration\") (architecture OR durable)",
+      "language": "en",
+      "country": "US",
+      "topic": "agent-control-planes",
+      "region": "worldwide"
+    },
+    {
+      "source": "google_news",
+      "text": "\"KI-Agenten\" (MCP OR Orchestrierung OR Architektur)",
+      "language": "de",
+      "country": "DE",
+      "topic": "agent-control-planes",
+      "region": "worldwide"
+    },
+    {
+      "source": "google_news",
+      "text": "\"agents IA\" (orchestration OR architecture OR MCP)",
+      "language": "fr",
+      "country": "FR",
+      "topic": "agent-control-planes",
+      "region": "worldwide"
+    }
+  ],
+  "sources": [
+    "google_news"
+  ],
+  "schedule_hint": "manual",
+  "lookback_hours": 168,
+  "max_items": 30,
+  "max_queries": 3,
+  "ranking": {
+    "mode": "keyword",
+    "minimum_score": 0
+  },
+  "output": {
+    "languages": [
+      "en",
+      "de",
+      "fr"
+    ],
+    "markdown": true,
+    "json": true,
+    "changes": true
+  }
+}

@@ -1,0 +1,477 @@
+{
+  "inspected_at_utc": "2026-11-09T03:09:56.496574+00:00",
+  "runs": [
+    {
+      "id": 42554237210,
+      "html_url": "https://github.com/JsonLord/Horizon/actions/runs/42554237210",
+      "head_sha": "4449b573b79f1c1da25509d058f442a515c17b0e",
+      "head_branch": "qualification/exact-chat-19d586e",
+      "status": "completed",
+      "conclusion": "failure",
+      "event": "workflow_dispatch",
+      "created_at": "2026-11-09T03:03:20Z",
+      "updated_at": "2026-11-09T03:03:51Z",
+      "jobs": [
+        {
+          "id": 128956287439,
+          "name": "qualify / qualify",
+          "status": "completed",
+          "conclusion": "failure",
+          "runner_name": "GitHub Actions 1000003321",
+          "started_at": "2026-11-09T03:03:23Z",
+          "completed_at": "2026-11-09T03:03:38Z",
+          "failed_steps": [
+            "Exercise shared provider and all three policies"
+          ],
+          "proof_notices": [
+            {
+              "title": "shared-filtering-smoke",
+              "proof": {
+                "live_inference": false,
+                "provider": {
+                  "family": "openai_chat",
+                  "model": "alias-laya",
+                  "status": "invalid_or_unavailable",
+                  "attempts": 1,
+                  "tokens": null,
+                  "cost": null,
+                  "error_code": "HTTP_404",
+                  "latency_ms": 1358
+                },
+                "restoration_verified": true,
+                "restored_prior_runner_checkpoint": false,
+                "provider_requests": 3,
+                "cache_hits": 0,
+                "profiles": [
+                  "examples/ai-usability",
+                  "funding/de-eu",
+                  "world/global"
+                ],
+                "configuration": {
+                  "routing": "exact_endpoint",
+                  "chat_url_present": true,
+                  "base_path_style": "prefix_without_v1",
+                  "base_url_present": true,
+                  "model_present": true,
+                  "key_present": true,
+                  "mode_is_openai_chat": true
+                },
+                "all_commands_live_validated": false,
+                "command_cells": [
+                  {
+                    "profile": "examples/ai-usability",
+                    "command": "relevance",
+                    "validated": false,
+                    "status": "circuit_open",
+                    "error_code": null
+                  },
+                  {
+                    "profile": "examples/ai-usability",
+                    "command": "worth-attention",
+                    "validated": false,
+                    "status": "circuit_open",
+                    "error_code": null
+                  },
+                  {
+                    "profile": "examples/ai-usability",
+                    "command": "same-story",
+                    "validated": false,
+                    "status": "circuit_open",
+                    "error_code": null
+                  },
+                  {
+                    "profile": "examples/ai-usability",
+                    "command": "importance",
+                    "validated": false,
+                    "status": "circuit_open",
+                    "error_code": null
+                  },
+                  {
+                    "profile": "examples/ai-usability",
+                    "command": "claim-support",
+                    "validated": false,
+                    "status": "circuit_open",
+                    "error_code": null
+                  },
+                  {
+                    "profile": "examples/ai-usability",
+                    "command": "hfs",
+                    "validated": false,
+                    "status": "circuit_open",
+                    "error_code": null
+                  },
+                  {
+                    "profile": "funding/de-eu",
+                    "command": "relevance",
+                    "validated": false,
+                    "status": "circuit_open",
+                    "error_code": null
+                  },
+                  {
+                    "profile": "funding/de-eu",
+                    "command": "worth-attention",
+                    "validated": false,
+                    "status": "circuit_open",
+                    "error_code": null
+                  },
+                  {
+                    "profile": "funding/de-eu",
+                    "command": "same-story",
+                    "validated": false,
+                    "status": "circuit_open",
+                    "error_code": null
+                  },
+                  {
+                    "profile": "funding/de-eu",
+                    "command": "importance",
+                    "validated": false,
+                    "status": "circuit_open",
+                    "error_code": null
+                  },
+                  {
+                    "profile": "funding/de-eu",
+                    "command": "claim-support",
+                    "validated": false,
+                    "status": "circuit_open",
+                    "error_code": null
+                  },
+                  {
+                    "profile": "funding/de-eu",
+                    "command": "hfs",
+                    "validated": false,
+                    "status": "circuit_open",
+                    "error_code": null
+                  },
+                  {
+                    "profile": "world/global",
+                    "command": "relevance",
+                    "validated": false,
+                    "status": "circuit_open",
+                    "error_code": null
+                  },
+                  {
+                    "profile": "world/global",
+                    "command": "worth-attention",
+                    "validated": false,
+                    "status": "circuit_open",
+                    "error_code": null
+                  },
+                  {
+                    "profile": "world/global",
+                    "command": "same-story",
+                    "validated": false,
+                    "status": "circuit_open",
+                    "error_code": null
+                  },
+                  {
+                    "profile": "world/global",
+                    "command": "importance",
+                    "validated": false,
+                    "status": "circuit_open",
+                    "error_code": null
+                  },
+                  {
+                    "profile": "world/global",
+                    "command": "claim-support",
+                    "validated": false,
+                    "status": "circuit_open",
+                    "error_code": null
+                  },
+                  {
+                    "profile": "world/global",
+                    "command": "hfs",
+                    "validated": false,
+                    "status": "circuit_open",
+                    "error_code": null
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 128956367621,
+          "name": "qualify / restore",
+          "status": "completed",
+          "conclusion": "success",
+          "runner_name": "GitHub Actions 1000003322",
+          "started_at": "2026-11-09T03:03:40Z",
+          "completed_at": "2026-11-09T03:03:51Z",
+          "failed_steps": [],
+          "proof_notices": [
+            {
+              "title": "shared-checkpoint-recovery",
+              "proof": {
+                "scope": "checkpoint_recovery_only",
+                "restoration_verified": true,
+                "restored_prior_runner_checkpoint": true,
+                "source_revision": "4449b573b79f1c1da25509d058f442a515c17b0e",
+                "policy_versions": {
+                  "examples/ai-usability": "1.1-provisional",
+                  "funding/de-eu": "1.1-provisional",
+                  "world/global": "1.1-provisional"
+                },
+                "command_cache_verified": true,
+                "provider_requests": 0
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 42554666728,
+      "html_url": "https://github.com/JsonLord/Horizon/actions/runs/42554666728",
+      "head_sha": "0cadf544ba85428f2a617ffb38f78ef3838eb477",
+      "head_branch": "qualification/exact-chat-19d586e",
+      "status": "completed",
+      "conclusion": "failure",
+      "event": "workflow_dispatch",
+      "created_at": "2026-11-09T03:07:58Z",
+      "updated_at": "2026-11-09T03:08:43Z",
+      "jobs": [
+        {
+          "id": 128957604257,
+          "name": "qualify / qualify",
+          "status": "completed",
+          "conclusion": "failure",
+          "runner_name": "GitHub Actions 1000003323",
+          "started_at": "2026-11-09T03:08:02Z",
+          "completed_at": "2026-11-09T03:08:16Z",
+          "failed_steps": [
+            "Exercise shared provider and all three policies"
+          ],
+          "proof_notices": [
+            {
+              "title": "shared-filtering-smoke",
+              "proof": {
+                "live_inference": false,
+                "provider": {
+                  "family": "openai_chat",
+                  "model": "alias-laya",
+                  "status": "invalid_or_unavailable",
+                  "attempts": 1,
+                  "tokens": null,
+                  "cost": null,
+                  "error_code": "HTTP_404",
+                  "latency_ms": 1813
+                },
+                "restoration_verified": true,
+                "restored_prior_runner_checkpoint": false,
+                "provider_requests": 3,
+                "cache_hits": 0,
+                "profiles": [
+                  "examples/ai-usability",
+                  "funding/de-eu",
+                  "world/global"
+                ],
+                "configuration": {
+                  "routing": "exact_endpoint",
+                  "chat_url_present": true,
+                  "base_path_style": "prefix_without_v1",
+                  "base_url_present": true,
+                  "model_present": true,
+                  "key_present": true,
+                  "mode_is_openai_chat": true
+                },
+                "all_commands_live_validated": false,
+                "command_cells": [
+                  {
+                    "profile": "examples/ai-usability",
+                    "command": "relevance",
+                    "validated": false,
+                    "status": "circuit_open",
+                    "error_code": null
+                  },
+                  {
+                    "profile": "examples/ai-usability",
+                    "command": "worth-attention",
+                    "validated": false,
+                    "status": "circuit_open",
+                    "error_code": null
+                  },
+                  {
+                    "profile": "examples/ai-usability",
+                    "command": "same-story",
+                    "validated": false,
+                    "status": "circuit_open",
+                    "error_code": null
+                  },
+                  {
+                    "profile": "examples/ai-usability",
+                    "command": "importance",
+                    "validated": false,
+                    "status": "circuit_open",
+                    "error_code": null
+                  },
+                  {
+                    "profile": "examples/ai-usability",
+                    "command": "claim-support",
+                    "validated": false,
+                    "status": "circuit_open",
+                    "error_code": null
+                  },
+                  {
+                    "profile": "examples/ai-usability",
+                    "command": "hfs",
+                    "validated": false,
+                    "status": "circuit_open",
+                    "error_code": null
+                  },
+                  {
+                    "profile": "funding/de-eu",
+                    "command": "relevance",
+                    "validated": false,
+                    "status": "circuit_open",
+                    "error_code": null
+                  },
+                  {
+                    "profile": "funding/de-eu",
+                    "command": "worth-attention",
+                    "validated": false,
+                    "status": "circuit_open",
+                    "error_code": null
+                  },
+                  {
+                    "profile": "funding/de-eu",
+                    "command": "same-story",
+                    "validated": false,
+                    "status": "circuit_open",
+                    "error_code": null
+                  },
+                  {
+                    "profile": "funding/de-eu",
+                    "command": "importance",
+                    "validated": false,
+                    "status": "circuit_open",
+                    "error_code": null
+                  },
+                  {
+                    "profile": "funding/de-eu",
+                    "command": "claim-support",
+                    "validated": false,
+                    "status": "circuit_open",
+                    "error_code": null
+                  },
+                  {
+                    "profile": "funding/de-eu",
+                    "command": "hfs",
+                    "validated": false,
+                    "status": "circuit_open",
+                    "error_code": null
+                  },
+                  {
+                    "profile": "world/global",
+                    "command": "relevance",
+                    "validated": false,
+                    "status": "circuit_open",
+                    "error_code": null
+                  },
+                  {
+                    "profile": "world/global",
+                    "command": "worth-attention",
+                    "validated": false,
+                    "status": "circuit_open",
+                    "error_code": null
+                  },
+                  {
+                    "profile": "world/global",
+                    "command": "same-story",
+                    "validated": false,
+                    "status": "circuit_open",
+                    "error_code": null
+                  },
+                  {
+                    "profile": "world/global",
+                    "command": "importance",
+                    "validated": false,
+                    "status": "circuit_open",
+                    "error_code": null
+                  },
+                  {
+                    "profile": "world/global",
+                    "command": "claim-support",
+                    "validated": false,
+                    "status": "circuit_open",
+                    "error_code": null
+                  },
+                  {
+                    "profile": "world/global",
+                    "command": "hfs",
+                    "validated": false,
+                    "status": "circuit_open",
+                    "error_code": null
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 128957680426,
+          "name": "qualify / restore",
+          "status": "completed",
+          "conclusion": "success",
+          "runner_name": "GitHub Actions 1000003324",
+          "started_at": "2026-11-09T03:08:17Z",
+          "completed_at": "2026-11-09T03:08:28Z",
+          "failed_steps": [],
+          "proof_notices": [
+            {
+              "title": "shared-checkpoint-recovery",
+              "proof": {
+                "scope": "checkpoint_recovery_only",
+                "restoration_verified": true,
+                "restored_prior_runner_checkpoint": true,
+                "source_revision": "0cadf544ba85428f2a617ffb38f78ef3838eb477",
+                "policy_versions": {
+                  "examples/ai-usability": "1.1-provisional",
+                  "funding/de-eu": "1.1-provisional",
+                  "world/global": "1.1-provisional"
+                },
+                "command_cache_verified": true,
+                "provider_requests": 0
+              }
+            }
+          ]
+        },
+        {
+          "id": 128957743591,
+          "name": "diagnose",
+          "status": "completed",
+          "conclusion": "success",
+          "runner_name": "GitHub Actions 1000003325",
+          "started_at": "2026-11-09T03:08:30Z",
+          "completed_at": "2026-11-09T03:08:42Z",
+          "failed_steps": [],
+          "proof_notices": [
+            {
+              "title": "exact-endpoint-error-classification",
+              "proof": {
+                "exact_endpoint": true,
+                "requests": 1,
+                "errors": [
+                  {
+                    "http_status": 404,
+                    "error_hint": "model_not_found_hint",
+                    "media_type": "application/json"
+                  }
+                ],
+                "validated_decision": false,
+                "provider_status": "invalid_or_unavailable"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "implementation_commit": "19d586e5211d0429e66a650ed4e9d52ce2c98af8",
+  "repository_variable_update": {
+    "name": "HORIZON_DECISION_CHAT_URL",
+    "http_status": 403,
+    "saved": false,
+    "reason": "Resource not accessible by integration"
+  },
+  "endpoint_value_omitted": true
+}

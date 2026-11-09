@@ -125,7 +125,8 @@ def test_workflow_and_real_starting_point_contract():
     workflow=(ROOT/'.github/workflows/funding-research.yml').read_text()
     assert 'pull_request_target' not in workflow and 'pull-requests: write' in workflow
     assert "github.ref == 'refs/heads/main'" in workflow
-    assert 'branches: [feature/program-intelligence-implementation]' in workflow
+    assert '\n  push:' not in workflow and 'workflow_dispatch:' in workflow
+    assert '\n  schedule:' not in workflow  # weekly schedule is rendered only after approval
 
 
 def test_queue_markdown_encodes_untrusted_url_markup(tmp_path):

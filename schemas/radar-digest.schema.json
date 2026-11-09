@@ -1,0 +1,500 @@
+{
+  "$defs": {
+    "Components": {
+      "additionalProperties": false,
+      "properties": {
+        "integration_change": {
+          "maximum": 2,
+          "minimum": 0,
+          "title": "Integration Change",
+          "type": "integer"
+        },
+        "learning": {
+          "maximum": 1,
+          "minimum": 0,
+          "title": "Learning",
+          "type": "integer"
+        },
+        "mechanism": {
+          "maximum": 3,
+          "minimum": 0,
+          "title": "Mechanism",
+          "type": "integer"
+        },
+        "primary_evidence": {
+          "maximum": 1,
+          "minimum": 0,
+          "title": "Primary Evidence",
+          "type": "integer"
+        },
+        "reproducibility": {
+          "maximum": 2,
+          "minimum": 0,
+          "title": "Reproducibility",
+          "type": "integer"
+        }
+      },
+      "required": [
+        "mechanism",
+        "integration_change",
+        "reproducibility",
+        "learning",
+        "primary_evidence"
+      ],
+      "title": "Components",
+      "type": "object"
+    },
+    "Concept": {
+      "additionalProperties": false,
+      "properties": {
+        "architectural_significance": {
+          "maximum": 10,
+          "minimum": 1,
+          "title": "Architectural Significance",
+          "type": "integer"
+        },
+        "event_id": {
+          "pattern": "^[a-f0-9]{24}$",
+          "title": "Event Id",
+          "type": "string"
+        },
+        "evidence_references": {
+          "items": {
+            "type": "string"
+          },
+          "maxItems": 20,
+          "minItems": 1,
+          "title": "Evidence References",
+          "type": "array"
+        },
+        "learning_objective": {
+          "maxLength": 500,
+          "minLength": 1,
+          "title": "Learning Objective",
+          "type": "string"
+        },
+        "model": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Model"
+        },
+        "original_source_language": {
+          "enum": [
+            "en",
+            "de",
+            "fr"
+          ],
+          "title": "Original Source Language",
+          "type": "string"
+        },
+        "policy_version": {
+          "title": "Policy Version",
+          "type": "string"
+        },
+        "related_concepts": {
+          "items": {
+            "type": "string"
+          },
+          "maxItems": 20,
+          "title": "Related Concepts",
+          "type": "array"
+        },
+        "score_components": {
+          "$ref": "#/$defs/Components"
+        },
+        "technical_explanation": {
+          "maxLength": 500,
+          "minLength": 1,
+          "title": "Technical Explanation",
+          "type": "string"
+        },
+        "title": {
+          "maxLength": 500,
+          "minLength": 1,
+          "title": "Title",
+          "type": "string"
+        },
+        "uncertainties": {
+          "items": {
+            "type": "string"
+          },
+          "maxItems": 20,
+          "title": "Uncertainties",
+          "type": "array"
+        },
+        "what_is_new": {
+          "maxLength": 500,
+          "title": "What Is New",
+          "type": "string"
+        }
+      },
+      "required": [
+        "event_id",
+        "title",
+        "original_source_language",
+        "technical_explanation",
+        "architectural_significance",
+        "score_components",
+        "what_is_new",
+        "evidence_references",
+        "learning_objective",
+        "uncertainties",
+        "policy_version"
+      ],
+      "title": "Concept",
+      "type": "object"
+    },
+    "Pattern": {
+      "additionalProperties": false,
+      "properties": {
+        "documentation_url": {
+          "title": "Documentation Url",
+          "type": "string"
+        },
+        "evidence_references": {
+          "items": {
+            "type": "string"
+          },
+          "maxItems": 20,
+          "minItems": 1,
+          "title": "Evidence References",
+          "type": "array"
+        },
+        "example": {
+          "maxLength": 1000,
+          "title": "Example",
+          "type": "string"
+        },
+        "example_kind": {
+          "enum": [
+            "original_pseudocode",
+            "attributed_excerpt"
+          ],
+          "title": "Example Kind",
+          "type": "string"
+        },
+        "limitations": {
+          "items": {
+            "type": "string"
+          },
+          "maxItems": 10,
+          "minItems": 1,
+          "title": "Limitations",
+          "type": "array"
+        },
+        "mechanism": {
+          "maxLength": 500,
+          "title": "Mechanism",
+          "type": "string"
+        },
+        "prerequisites": {
+          "items": {
+            "type": "string"
+          },
+          "maxItems": 10,
+          "title": "Prerequisites",
+          "type": "array"
+        },
+        "problem": {
+          "maxLength": 500,
+          "title": "Problem",
+          "type": "string"
+        },
+        "title": {
+          "maxLength": 200,
+          "title": "Title",
+          "type": "string"
+        }
+      },
+      "required": [
+        "title",
+        "problem",
+        "mechanism",
+        "example",
+        "example_kind",
+        "evidence_references",
+        "documentation_url",
+        "prerequisites",
+        "limitations"
+      ],
+      "title": "Pattern",
+      "type": "object"
+    },
+    "Quality": {
+      "additionalProperties": false,
+      "properties": {
+        "candidate_count": {
+          "minimum": 0,
+          "title": "Candidate Count",
+          "type": "integer"
+        },
+        "collection_complete": {
+          "title": "Collection Complete",
+          "type": "boolean"
+        },
+        "confirmed_count": {
+          "minimum": 0,
+          "title": "Confirmed Count",
+          "type": "integer"
+        },
+        "coverage_limitations": {
+          "items": {
+            "type": "string"
+          },
+          "maxItems": 30,
+          "title": "Coverage Limitations",
+          "type": "array"
+        },
+        "evidence_validated": {
+          "title": "Evidence Validated",
+          "type": "boolean"
+        },
+        "metrics": {
+          "additionalProperties": {
+            "anyOf": [
+              {
+                "type": "number"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "title": "Metrics",
+          "type": "object"
+        },
+        "review_count": {
+          "minimum": 0,
+          "title": "Review Count",
+          "type": "integer"
+        }
+      },
+      "required": [
+        "collection_complete",
+        "evidence_validated",
+        "coverage_limitations",
+        "candidate_count",
+        "confirmed_count",
+        "review_count"
+      ],
+      "title": "Quality",
+      "type": "object"
+    },
+    "Reference": {
+      "additionalProperties": false,
+      "properties": {
+        "author": {
+          "anyOf": [
+            {
+              "maxLength": 200,
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Author"
+        },
+        "content_hash": {
+          "pattern": "^[a-f0-9]{64}$",
+          "title": "Content Hash",
+          "type": "string"
+        },
+        "discovery_language": {
+          "default": "unknown",
+          "enum": [
+            "en",
+            "de",
+            "fr",
+            "unknown"
+          ],
+          "title": "Discovery Language",
+          "type": "string"
+        },
+        "excerpt": {
+          "maxLength": 500,
+          "minLength": 1,
+          "title": "Excerpt",
+          "type": "string"
+        },
+        "fetched_at_utc": {
+          "title": "Fetched At Utc",
+          "type": "string"
+        },
+        "id": {
+          "pattern": "^[a-f0-9]{24}$",
+          "title": "Id",
+          "type": "string"
+        },
+        "language": {
+          "enum": [
+            "en",
+            "de",
+            "fr",
+            "unknown"
+          ],
+          "title": "Language",
+          "type": "string"
+        },
+        "language_basis": {
+          "maxLength": 120,
+          "title": "Language Basis",
+          "type": "string"
+        },
+        "primary": {
+          "title": "Primary",
+          "type": "boolean"
+        },
+        "published_at_utc": {
+          "title": "Published At Utc",
+          "type": "string"
+        },
+        "publisher": {
+          "maxLength": 200,
+          "title": "Publisher",
+          "type": "string"
+        },
+        "title": {
+          "maxLength": 500,
+          "minLength": 1,
+          "title": "Title",
+          "type": "string"
+        },
+        "url": {
+          "maxLength": 2048,
+          "title": "Url",
+          "type": "string"
+        }
+      },
+      "required": [
+        "id",
+        "title",
+        "language",
+        "language_basis",
+        "publisher",
+        "published_at_utc",
+        "fetched_at_utc",
+        "url",
+        "excerpt",
+        "content_hash",
+        "primary"
+      ],
+      "title": "Reference",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "code_patterns": {
+      "items": {
+        "$ref": "#/$defs/Pattern"
+      },
+      "maxItems": 10,
+      "title": "Code Patterns",
+      "type": "array"
+    },
+    "generated_at_utc": {
+      "title": "Generated At Utc",
+      "type": "string"
+    },
+    "policy_version": {
+      "title": "Policy Version",
+      "type": "string"
+    },
+    "quality": {
+      "$ref": "#/$defs/Quality"
+    },
+    "radar_id": {
+      "enum": [
+        "agent-control-planes",
+        "distributed-training",
+        "rag-memory"
+      ],
+      "title": "Radar Id",
+      "type": "string"
+    },
+    "schema_version": {
+      "const": "1.0",
+      "default": "1.0",
+      "title": "Schema Version",
+      "type": "string"
+    },
+    "source_languages": {
+      "items": {
+        "enum": [
+          "en",
+          "de",
+          "fr",
+          "unknown"
+        ],
+        "type": "string"
+      },
+      "title": "Source Languages",
+      "type": "array"
+    },
+    "source_references": {
+      "items": {
+        "$ref": "#/$defs/Reference"
+      },
+      "maxItems": 600,
+      "title": "Source References",
+      "type": "array"
+    },
+    "status": {
+      "enum": [
+        "complete",
+        "partial"
+      ],
+      "title": "Status",
+      "type": "string"
+    },
+    "suggested_prerequisites": {
+      "items": {
+        "type": "string"
+      },
+      "maxItems": 30,
+      "title": "Suggested Prerequisites",
+      "type": "array"
+    },
+    "top_concepts": {
+      "items": {
+        "$ref": "#/$defs/Concept"
+      },
+      "maxItems": 5,
+      "title": "Top Concepts",
+      "type": "array"
+    },
+    "week_end_utc": {
+      "title": "Week End Utc",
+      "type": "string"
+    },
+    "week_start_utc": {
+      "title": "Week Start Utc",
+      "type": "string"
+    }
+  },
+  "required": [
+    "radar_id",
+    "week_start_utc",
+    "week_end_utc",
+    "generated_at_utc",
+    "policy_version",
+    "source_languages",
+    "source_references",
+    "top_concepts",
+    "code_patterns",
+    "suggested_prerequisites",
+    "quality",
+    "status"
+  ],
+  "title": "Digest",
+  "type": "object"
+}

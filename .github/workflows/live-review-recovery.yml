@@ -1,0 +1,93 @@
+name: Validate live review artifact and copy reports to draft PR
+on:
+  workflow_call:
+    secrets:
+      HORIZON_DECISION_API_KEY:
+        required: false
+    inputs:
+      collection_run_id:
+        type: string
+        required: true
+      source_sha:
+        type: string
+        required: true
+      publish_review_reports:
+        type: boolean
+        default: false
+permissions:
+  contents: read
+  actions: read
+jobs:
+  validate:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    permissions:
+      contents: read
+      actions: read
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.11'
+      - uses: astral-sh/setup-uv@v7
+        with:
+          enable-cache: true
+          cache-dependency-glob: uv.lock
+      - run: uv sync --frozen
+      - uses: actions/download-artifact@v7
+        with:
+          name: live-review-seven-domains
+          run-id: ${{ inputs.collection_run_id }}
+          github-token: ${{ github.token }}
+          path: data/live-review
+      - name: Validate exact prior source, schema, hashes, unlabelled feedback and public-safe data
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          COLLECTION_RUN_ID: ${{ inputs.collection_run_id }}
+          COLLECTION_SOURCE_SHA: ${{ inputs.source_sha }}
+          HORIZON_DECISION_API_KEY: ${{ secrets.HORIZON_DECISION_API_KEY }}
+          HORIZON_DECISION_BASE_URL: ${{ vars.HORIZON_DECISION_BASE_URL }}
+          HORIZON_DECISION_CHAT_URL: ${{ vars.HORIZON_DECISION_CHAT_URL }}
+        run: uv run python -m scripts.review_bundle seal --run-id "$COLLECTION_RUN_ID" --source-sha "$COLLECTION_SOURCE_SHA"
+      - run: uv run python -m scripts.review_bundle summary --domain agent-control-planes
+      - run: uv run python -m scripts.review_bundle summary --domain distributed-training
+      - run: uv run python -m scripts.review_bundle summary --domain rag-memory
+      - run: uv run python -m scripts.review_bundle summary --domain aux
+      - run: uv run python -m scripts.review_bundle summary --domain funding-de-eu
+      - run: uv run python -m scripts.review_bundle summary --domain world-intelligence
+      - run: uv run python -m scripts.review_bundle summary --domain incubators
+      - uses: actions/upload-artifact@v6
+        with:
+          name: validated-live-review
+          path: data/live-review
+          retention-days: 14
+  review-pr-reports:
+    if: inputs.publish_review_reports == true
+    needs: validate
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    permissions:
+      contents: write
+      actions: read
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.11'
+      - uses: astral-sh/setup-uv@v7
+        with:
+          enable-cache: true
+          cache-dependency-glob: uv.lock
+      - run: uv sync --frozen
+      - uses: actions/download-artifact@v7
+        with:
+          name: validated-live-review
+          path: data/live-review
+      - name: Revalidate handoff and write only public review files to the implementation PR
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: uv run python -m scripts.review_bundle publish

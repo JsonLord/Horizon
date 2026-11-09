@@ -1,0 +1,56 @@
+{
+  "checked_at_utc": "2026-11-08T23:16:48.155129+00:00",
+  "classifications": {
+    "RESEARCH_REQUIRED": 30
+  },
+  "confirmed_concepts": 0,
+  "digest_status": "partial",
+  "discovery_languages": [
+    "de",
+    "en",
+    "fr",
+    "unknown"
+  ],
+  "findings": 30,
+  "hosted": false,
+  "live_inference": false,
+  "radar_id": "rag-memory",
+  "source_checks": [
+    {
+      "error_code": null,
+      "items": 13,
+      "query": "(RAG OR Wissensabruf) (KI OR Gedächtnis OR Evaluierung)",
+      "source": "google_news",
+      "status": "ok"
+    },
+    {
+      "error_code": null,
+      "items": 8,
+      "query": "\"agent memory\" OR \"hybrid retrieval\" OR \"RAG evaluation\"",
+      "source": "google_news",
+      "status": "ok"
+    },
+    {
+      "error_code": null,
+      "items": 8,
+      "query": "(RAG OR \"mémoire agents\") (évaluation OR recherche OR hybride)",
+      "source": "google_news",
+      "status": "ok"
+    },
+    {
+      "items": 10,
+      "source": "github:langchain-ai/langchain",
+      "status": "ok"
+    },
+    {
+      "items": 10,
+      "source": "github:facebookresearch/faiss",
+      "status": "ok"
+    }
+  ],
+  "source_languages": [
+    "de",
+    "en",
+    "unknown"
+  ]
+}

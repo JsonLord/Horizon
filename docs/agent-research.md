@@ -714,3 +714,374 @@ disabled. The secure environment has none of the four HORIZON_DECISION_* setting
 no endpoint/model/key was guessed. Existing draft PR #5 and production refs remain
 unchanged. Model/token config and local recovery are ready for authorized testing,
 with quality metrics intentionally unclaimed pending reviewed labels.
+
+## 2026-11-08 — Technical radar fleet with pull-only amendment
+
+Accepted the operator's architectural correction: Horizon only researches,
+validates, distills and publishes data; external consumers independently pull.
+No external delivery API, webhook, wakeup, issue creation, dispatch queue,
+consumer credential or pull client was introduced.
+
+Milestone 0: audited spec/AGENTS, all workflows, PR #5/#7 stacking, collectors,
+shared provider/cache and intel publisher. Created `feature/technical-radar-fleet`
+from reviewed shared source `05ab6d8`; both prior PRs remain draft/unmerged.
+Architecture reuse report is docs/TECHNICAL_RADAR_ARCHITECTURE.md.
+
+Milestone 1: retried live qualification immediately. Registered horizon-intel
+returned 422 Actions disabled; metadata endpoints 403. After pushing the new
+branch, new workflow names returned 404 lookup failures, no hosted runs. Expanded
+qualification to all 6 commands × 3 existing policies, with source/policy/hash-bound
+checkpoint and command-cache restoration. Local calls remain zero; no provider
+success/model/usage/hosted durability invented. Evidence: DECISION_MODEL_LIVE_ACCEPTANCE.md
+and radar-hosted-blocker.json.
+
+Milestones 2–7: added three approved EN/DE/FR profiles/policies/source registers,
+primary GitHub release collection, independent bounded state/backlog/freshness,
+source-first prefilters, DOI/arXiv/release identity, shared semantic gates,
+evidence-quoted technical-learning rubric, independent distillation support,
+conservative review fallback and original-language reports. All initial targeted
+contract tests passed; later regressions caught and fixed a blank anonymous bearer
+header, true Git-tree base identity, version/PDF normalization and exhausted
+technical budget. Unknown eligibility and existing Laya/CLI/MCP remain unchanged.
+
+Milestones 8–9: implemented fixed UTC Friday windows, immutable ISO-week digests,
+explicit correction versions, idempotent repeated runs, older-week protection,
+catch-up planning, manifest consistency and read-only SHA-pinned GitHub interface.
+Contract is docs/RADAR_PULL_CONTRACT.md. Created only uninitialized data manifests
+on the three approved radar branches and actually read them via GitHub contents
+and token-free pinned tree/blob APIs. No weekly root was fabricated or published.
+Proof commit SHAs are in radar-branch-initialization.json.
+
+Milestones 10–12: prepared disabled-by-default trusted controller and per-radar
+reusable worker, read-only collection/fresh-runner validation, narrowly scoped
+main-only non-force publisher. Existing production cron/publication guards remain;
+only the read-only shared qualification branch allowlist was extended. All three
+local live source sets succeeded, final bounded counts 30 agent / 8 training / 30
+RAG findings, all RESEARCH_REQUIRED. Broader queries recovered real DE/FR discovery;
+unknown language stays explicit. Real 68-case benchmark has no reviewed labels,
+so quality metrics remain null. Source-family expansion, actual multilingual model
+quality, full weekly coverage, live digest/history retrieval and automatic-token
+publication remain explicitly partial/blocked, not mock-certified.
+
+Final measured regression suite: **487 passed in 5.22s**; targeted radar **29 passed
+in 0.36s**. Both MCP smokes pass (24 tools, 15 profiles). Funding deterministic
+check and 43-link acceptance pass; authored seed checksum unchanged; 3 unknown
+eligibility records and 4 pending nominations retained. actionlint and diff checks
+pass. Code source `93596431508915f97dcfdacf01536654c99e1347`; complete acceptance
+gate matrix and remaining operational limits are in
+`docs/TECHNICAL_RADAR_FLEET_ACCEPTANCE.md`. No merge, settings change, production
+publication or schedule activation performed.
+
+## 2026-11-09 — Fork-aware Actions optimization
+
+Implemented the user's six-phase optimization as additive work on draft PR #8;
+no new branch/merge, global Actions change, schedule enablement or production
+publication. Audited exact main/funding/shared/radar commits and seven registered
+workflows; active registration is not execution. The operator reports repository
+permissions enabled/all, while this integration receives 403. A newer actual run
+42548115014 reached a hosted runner and failed pytest before inference. Its logs
+were unavailable; no provider-key, billing or account failure was inferred.
+
+Preserved the built gh-pages site, seven post path entries and both language
+feeds. Legacy multilingual generation stays manual with separate read/write jobs;
+its recurring collection was consolidated into the existing daily intel route.
+Docs deployment remains docs-change-only. Removed obsolete branch push triggers
+and qualification's duplicate full-suite run; relevant PR CI owns regressions.
+All uv jobs explicitly cache by uv.lock, use frozen installs and bounded timeouts.
+
+Removed actual radar/funding cron events while disabled, and removed gate runners.
+Added a reviewed schedule plan/renderer with CI drift checking. World daily stays
+unchanged; pilot is daily, optional second slot configurable, funding weekly only
+after approval, Friday cutoff fixed. Due timestamps stay aligned despite delayed
+starts; a missing Friday window gets a bounded refresh while ordinary not-due
+collections skip source/model calls.
+
+Added normalized source/ETag checkpoints with validated hashes and original
+language evidence, no raw page cache. Model decisions survive documentation-only
+revisions and operational cadence/budget tuning; semantic code/policy/provider
+changes invalidate them. Source config changes reset coverage. Independent
+candidate/source backoff preserves backlog and last-good state. Shared/technical
+calls are metered together with hard reservations and explicit usage anomalies;
+unknown billing is null, configured token-rate costs labeled estimates.
+
+Routine validation moved into the read-only collector; the separate write job
+revalidates the sealed artifact, source SHA and data allowlist. Full fresh-runner
+validation remains explicit durability acceptance. Identical snapshots suppress
+artifact/publish; a due refresh may still persist meaningful operational timestamps.
+
+Final tests: **499 passed in 5.00s**; both MCP smokes (24 tools, 15 profiles),
+funding deterministic check, 43-link/three-unknown eligibility acceptance, starting
+point index check, schema generation, schedule check, actionlint and diff check
+pass. Actual optimized local collection checked 15 source routes, retained
+30/8/30 review findings; immediate repeats all not_due, zero model requests,
+identical sealed snapshots. No hosted qualification or model success claimed.
+
+Implementation `9332c2d717ba9d2ba3c6ab7e3de31a4be2050ccb`. Inventory includes
+before/after counts: 8 workflow files retained, 19→18 definitions; routine radar
+10→at most 6 expanded jobs/event. If merged, disabled-subsystem configuration
+estimates 31→14 scheduled jobs/week; current main separately estimates 15. These
+are estimates, not measured savings. Evidence and exact boundaries:
+WORKFLOW_INVENTORY.md, ACTIONS_OPTIMIZATION_ACCEPTANCE.md and the requested
+FORK_ACTIONS_REACTIVATION.md. PR #8 remains draft.
+
+Delivery concurrency: preserved remote `b95ab06` Python 3.11 compatibility fix,
+rebased only our unpublished commits without force, and updated the implementation
+reference to `9332c2d717ba9d2ba3c6ab7e3de31a4be2050ccb`. The old source demonstrably
+fails compilation on a real Python 3.11 interpreter; the remote fix compiles.
+Post-integration full suite: 499/499 on Python 3.11 (6.66s) and 3.12 (5.00s),
+plus both MCP smokes on 3.11. No new hosted run was needed to verify this locally.
+
+## 2026-11-09 — Actual Actions tests after owner reactivation
+
+Owner explicitly authorized live testing. Registered horizon-intel dispatch now
+executes. Direct new radar workflow lookup still 404 because it is not registered
+on main, so tested the unchanged radar controller through isolated workflow-path
+aliases, preserving all non-main/manual publication guards. No schedule, settings,
+merge or production archive changed.
+
+Initial hosted PR CI exposed a test-only GITHUB_SHA assumption. Reproduced with
+Actions environment variables, fixed the fixture SHA (verification unchanged),
+and ran 500 local Python 3.11 tests under those variables (5.33s). New hosted
+PR run **42552489740 PASS**. Funding read-only run **42552502452 PASS**, proposal
+skipped. Three radar collections + three independent fresh validations all PASS
+in **42552509052**, source alias 81ebc76 from implementation 7d714e7; all publishers
+skipped. Counts 30 agent / 8 training / 30 RAG, 5 checks each; fresh file manifest
+counts 63 / 19 / 63. Earlier alias run 42551970117 also passed.
+
+Provider run **42552497344 FAIL**: settings are present and mode openai_chat;
+configured alias alias-laya; standard request route receives HTTP 404. Zero of
+18 command/profile cells validated; three requests before circuit opened. Do not
+infer a bad key, billing issue or specific 404 origin. Added safe path-shape /
+per-cell notices without endpoint or credentials. Separate shared-state recovery
+PASS on a fresh runner without model credentials/calls despite failed inference.
+
+Executor artifact downloads were denied by outbound policy. No networking change
+or bypass: actual safe GitHub check annotations and artifact metadata provide
+reviewable evidence; hosted runners did download and verify artifacts. Proofs and
+limitations: docs/ACTIONS_LIVE_VALIDATION_2026-11-09.md and .json. Live provider
+readiness and production publication are still unqualified. PR #8 stays draft.
+
+## 2026-11-09 — Operator clarified an exact POST operation
+
+Added optional global HORIZON_DECISION_CHAT_URL with verbatim URL semantics and
+precedence over BASE_URL expansion. Preserved the standard OpenAI JSON contract,
+strict identity/schema/citation checks, public HTTPS/no redirects, and fallback.
+Effective request URL scopes caches; unused base changes do not invalidate an
+exact-URL cache. All shared profiles/radars use the same setting. Qualification
+input is restricted to the currently configured provider origin before any key
+is sent. No endpoint was hardcoded in profiles or application code.
+
+Actual exact-mode run 42554237210 still received HTTP404, 0/18 cells validated;
+fresh checkpoint recovery passed. Follow-up 42554666728 classified one exact
+operation error as application/json + model_not_found_hint without logging its
+body. Current configured alias is alias-laya. Requested the supported model ID
+from the owner; do not infer one from the URL or assume token validity/failure.
+
+Repository-variable write was attempted for the explicitly authorized operation
+but denied403 by integration permissions; nothing was saved. Test used the bounded
+same-origin read-only dispatch override, without production settings/publication.
+Code source19d586e; hosted PR CI42554215566 PASS. Local Python3.11 full suite504
+passed; operation routing, cache, security and parsing tests/lint pass. Evidence:
+docs/EXACT_ENDPOINT_VALIDATION_2026-11-09.md/.json. No merge/schedule/publication.
+
+## 2026-11-09 — Model input and owner correction to alias-laya
+
+Owner initially supplied alias-clef. Added optional bounded read-only model input
+rather than changing repository configuration or hardcoding a model in profiles.
+Source a7de132: 505 local Python3.11 tests pass (5.16s), actionlint/schedule checks
+pass; hosted PR regression42555730120 PASS. Exact-operation alias-clef full
+qualification42555814606 failed HTTP400 after strict-format fallback; recovery
+passed. Follow-up diagnostics42556293403/42556690752 classified400 as unknown;
+no unsupported-field assumption or schema relaxation was made.
+
+Owner then corrected the selection back to alias-laya. All earlier clef jobs
+were already completed, and no more clef calls were sent. Recheck42556922702 sent
+one request with alias-laya to the exact operation. JSON404 model_not_found_hint,
+error references requested alias; no validated decision. Diagnostic capture green
+is not inference success. Provider alias mapping/access still needs verification;
+token validity is unconfirmed. Do not change model or URL speculatively.
+
+The repository MODEL variable was never changed by this task, and the API key,
+production archives, schedules and draft/merge status remain unchanged. Exact
+CHAT_URL variable write had previously been403, so runtime selection remains a
+qualification override until an authorized owner configures global variables.
+Evidence: docs/ALIAS_LAYA_RECHECK_2026-11-09.md/.json.
+
+## 2026-11-09 — Explicit native SystemOne contract; runner comparison
+
+Operator supplied the actual state/questions choice protocol and corrected the
+request alias to alias-laya. Source db68178 adds explicit systemone mode, strict
+answer/identity/citation/usage validation, six semantic classifications and
+uncalibrated metadata. OpenAI default and legacy Laya remain separate; free-text
+technical-learning generation is explicitly unsupported, with deterministic review.
+524 local Python3.11 tests pass (19 native tests); both MCP smokes, funding
+consistency, actionlint and schedule checks pass; hosted CI42558554176 succeeds.
+
+Actual native qualification42558670374 fails HTTP404/0 of18 cells; independent
+restore passes. Exact operator sample42559142256 also returns404. Comparison
+42559911506 sends the same token/payload through HTTPX and literal curl: both404
+with model_not_found_hint, curl HTTP/2 and zero redirects. Diagnostic green is not
+inference success. Operator reports their exact curl succeeds; the effective
+credential/access or runner/server routing difference remains unresolved. Do not
+infer a bad key, bypass restrictions or guess other aliases. No settings changed;
+repository variable writes remain403. PR8 stays draft, no merge, production
+publication or new schedule activation. Full evidence and owner configuration:
+docs/SYSTEMONE_LIVE_ACCEPTANCE_2026-11-09.md/.json.
+
+## Requested retry — 05:01 UTC
+
+[42564928986](https://github.com/JsonLord/Horizon/actions/runs/42564928986)
+replayed the exact operator sample using the repository secret available to the
+new job. Both HTTPX and literal curl again returned HTTP404/model_not_found_hint;
+curl used HTTP/2 with zero redirects. No decision validated. The diagnostic job
+succeeded in recording the failure; full qualification was skipped. The task did
+not read, compare or change the secret value and cannot confirm whether it was
+updated. No code, production data, settings or schedules changed.
+
+## 2026-11-09 — Temporary test host: live native qualification PASS
+
+Operator authorized test-d plus alias-clef. Exact root probe42565188435 returns404,
+but the existing /v1/systemone operation42565240340 returns200 through both curl
+and HTTPX, response identity alias-clef. Full read-only qualification42565325280
+passes all18 command/profile cells; independent fresh-runner source/policy/hash/
+SQLite command-cache restoration passes with zero inference calls. The full
+qualification uses37 provider requests including policy exercises. Cost unknown.
+No persistent provider settings, production data or schedules changed; PR8 draft.
+This supersedes the inference-unqualified status only for these native public
+fixture checks on the temporary host. Original host/laya failure and generative
+technical-learning limitations remain. Evidence and configuration:
+docs/SYSTEMONE_TEST_SERVER_ACCEPTANCE_2026-11-09.md/.json.
+
+## 2026-11-09 — Authorized production provider promotion
+
+Operator authorized the verified test-d native operation and alias-clef for
+production globals. All five Actions-variable PATCH/creation attempts denied403
+Resource not accessible by integration; no value applied and read access denied.
+No auth bypass, secret change, merge, schedule or production publication. Added
+reviewable scripts/configure-production-decisions.sh with read-access preflight,
+mode-last updates and exact readback, plus production configuration/status docs.
+All shared/radar consumers already use the five globals from the native adapter.
+Local full Python3.11 suite524passed in5.17s; both MCP smokes passed24tools/15profiles;
+funding audit/projections, actionlint/schedule/shell syntax passed. Helper --check
+fails closed on403. Earlier live temporary qualification18/18 plus fresh restore
+passed; persistent readback and override-free acceptance await authorized settings.
+Evidence: docs/PRODUCTION_DECISION_CONFIGURATION.md/.json.
+
+Hosted regression for c73505e: [42565881811](https://github.com/JsonLord/Horizon/actions/runs/42565881811)
+**PASS**: full pytest suite, schedule checks, deterministic funding projections,
+funding audit, authored-seed/research policy check and both MCP smokes. This does
+not change the403 production-variable authorization blocker.
+
+## Saved-settings check — 05:15 UTC
+
+Override-free dispatch [42566264433](https://github.com/JsonLord/Horizon/actions/runs/42566264433)
+selected systemone and alias-clef from the repository settings. BASE_URL and key
+were present, CHAT_URL absent (no stale override), but RESPONSE_MODEL was absent.
+Inference correctly stopped locally: zero provider requests and0/18 validated
+cells. Independent checkpoint recovery passed. Owner must add repository variable
+HORIZON_DECISION_RESPONSE_MODEL=alias-clef, then repeat override-free qualification.
+CHAT_URL is optional here because native mode uses the exact BASE_URL. No secret,
+settings, production data, merge or schedule was changed by this check.
+
+## 2026-11-09 — Saved production globals qualified without overrides
+
+Owner added the missing response identity and URL override. Read-only dispatch
+42566477893 on3832608 now PASSES all18 native command/profile cells using only
+repository variables/secret; verified alias-clef response, systemone exact route.
+37requests across probe/policy/matrix; no pricing invented. Independent hosted
+restore PASSES source/policies/checkpoint/command-cache integrity with zero
+provider calls. Hosted full regression42566366763 also PASS. Direct variable API
+access is still403, but runtime configuration is verified and no longer blocked.
+No merge, new schedule or production publication; PR8 draft. Evidence:
+docs/PRODUCTION_DECISION_CONFIGURATION.md/.json. Native generative limitations
+and original host/laya failure remain separate unresolved items.
+
+## 2026-11-09 — Real-findings portfolio milestone, implementation
+
+Read the operator's uploaded Real Findings Across All Research Domains task.
+Implemented isolated seven-domain live-source review path and manual/reusable
+read-only workflow, approved collectors/registries and six shared native choices.
+No technical-learning generation or legacy program inference is selected. Added
+honest per-candidate decision/budget/eligibility/unknown states, attributed original
+language excerpts, separate blank feedback templates, portfolio comparison and
+bounded public-safe artifact fallback. Thirteen targeted tests pass, including
+real funding/program adapter boundaries and unchanged-input zero-call replay.
+Hosted real-source evaluation is next; unit fixtures are not research findings.
+
+Real-source collection42569950068 completed successfully on isolated wrapper
+3c2e79d. Artifacts exist, but GitHub notice messages truncate at4096bytes and
+only10 per step survive; no incomplete chunks were imported as reports. Replaced
+full-data notices with seven bounded summaries. Added artifact recovery/sealing
+and an optional separately privileged publisher restricted to data/live-review
+on the implementation PR branch, as explicitly permitted by the milestone.
+Seventeen focused tests pass, including writer branch/path/force restrictions
+and complete seven-domain bundle validation. No production data writes.
+
+## First real review findings and evidence-driven follow-up
+
+Collection42569950068 produced seven real packs, recovered/validated read-only
+in42570776425 and copied only24 public files to this PR by the separate automatic-
+token job42570952221 (commit17e4ec9). No production branch was touched. Totals:
+354 reviewed candidates from415 retrieved observations,13 model-qualified review
+candidates, one duplicate,194 model requests; all seven six-command replay probes
+hit cache without a model request. Confirmed factual claims remain zero.
+
+Evidence of source/policy gaps: AUX's conjunctive search retrieved0 items, leaving
+17 unrelated/general Simon Willison feed entries and no qualified AUX candidate.
+Distributed Training's German/French searches each returned0; bare FSDP also
+retrieved an IDEX financial filing and a Scottish fiscal-budget story. Added a
+broader accessibility/AI query within AUX's existing two-query limit, constrained
+FSDP with training/GPU context, and broadened the two native-language training
+queries (profile and source registry match). No feed URL or primary repository
+was invented. Prioritize fresh primary evidence and lexical topic matches within
+language buckets, preserving the same inference budget and hard restrictions.
+Avoid treating generic version titles across distinct repositories as duplicates.
+Separate the program-coverage aggregate warning from actual failed source checks.
+A second hosted evaluation will measure these source improvements honestly.
+
+Second collection42571529142 completed with real sources and unchanged budget.
+AUX improved0→2 review-worthy candidates (17→39 observed), but release-first
+sampling crowded out RAG news (3→0 qualified) and the constrained English
+training search reduced8→1 observations. Retained the AUX improvement, restored
+the proven English training query, and changed sampling to alternate primary
+and discovery evidence within each language. Native-language broadened probes
+still returned no training observations; preserve that evidence gap. Source
+experiments and four public repository-metadata checks are recorded in
+docs/LIVE_RESEARCH_SOURCE_PROBES_2026-11-09.json. Third evaluation verifies the
+balanced policy. Historical first-run reports remain pinned in commit17e4ec9.
+
+## 2026-11-09 — Real-findings milestone delivered and independently verified
+
+Final collection42572214484 (source57c4165) succeeded:499 raw observations,
+375 bounded review candidates,29 fully model-evaluated plus5 partially evaluated,
+12 qualified for human review,9 rejected and2 duplicates. Funding/incubator
+eligibility stays unknown/future-round as supported; factual confirmations stay0.
+German/French gaps and weak primary evidence are explicitly documented, not filled.
+All seven replay probes hit six cached decisions with zero additional requests.
+Final inference194requests/134961known tokens; cost unknown.
+
+Separate validated artifact delivery42572616009 used the automatic job token,
+restricted to public PR report files, and committedfdcde80. Fetched without
+force/rebase/overwriting unrelated work. Independent read-only Contents API
+consumer verified14 domain report files at that immutable commit and a first-run
+historical report at17e4ec9. Seven templates remain unlabelled and metricsnull.
+Full final Python3.11 suite544passed in5.25s; hosted regression42572192768 PASS;
+both MCP smokes24tools/15profiles PASS; funding projection/audit/seed,23review
+hashes/schemas and four radar schemas, actionlint/schedule/diff checks PASS.
+Main and three radar data heads match their recorded baseline. No production
+archive, schedule, merge or Paperclip action. Draft PR8 retains all outputs.
+See docs/LIVE_RESEARCH_ACCEPTANCE_2026-11-09.md/.json and data/live-review/INDEX.md.
+
+## 2026-11-09 — Requested fresh test rerun (23:14 CET collection start)
+
+Same uploaded seven-domain milestone, no implementation changes. Local544passed
+in5.95s; both MCP smokes, funding consistency/seed,schemas/hashes, actionlint and
+schedule checks PASS. Hosted full regression42574191998 attempt2 PASS on ef9996e.
+Fresh collection42710013748 PASS:476observations,371review candidates,29fully
+evaluated+5partial,14review-worthy,11rejected,4duplicates;194model requests and
+135240known tokens. All seven six-command probes hit cache without another
+request. Funding/incubators PARTIAL, actual language/full-text gaps remain.
+Validated data-only PR delivery42710566016 committedbeeb72d. Independent14-file
+Contents API consumption/hashes and actual alias-clef response identities checked.
+No production archive, schedule, merge or Paperclip action; PR8 draft. Evidence:
+docs/LIVE_RESEARCH_RETEST_2026-11-09.md/.json. Older reports stay commit-pinned.

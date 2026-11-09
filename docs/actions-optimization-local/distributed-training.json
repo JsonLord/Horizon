@@ -1,0 +1,66 @@
+{
+  "checked_at_utc": "2026-11-09T02:13:53.049123+00:00",
+  "finding_count": 8,
+  "hosted": false,
+  "live_inference": false,
+  "radar_id": "distributed-training",
+  "repeat_model_requests": 0,
+  "repeat_snapshot_identical": true,
+  "repeat_status": "not_due",
+  "source_checks": [
+    {
+      "content_unchanged": false,
+      "error_code": null,
+      "items": 8,
+      "query": "FSDP OR \"distributed training\" OR \"tensor parallelism\"",
+      "source": "google_news",
+      "status": "ok"
+    },
+    {
+      "content_unchanged": false,
+      "error_code": null,
+      "items": 0,
+      "query": "FSDP OR \"verteiltes Training\" OR Tensorparallelität",
+      "source": "google_news",
+      "status": "ok"
+    },
+    {
+      "content_unchanged": false,
+      "error_code": null,
+      "items": 0,
+      "query": "FSDP OR \"entraînement distribué\" OR \"parallélisme tensoriel\"",
+      "source": "google_news",
+      "status": "ok"
+    },
+    {
+      "content_unchanged": false,
+      "http_status": 200,
+      "items": 0,
+      "source": "github:pytorch/pytorch",
+      "status": "ok"
+    },
+    {
+      "content_unchanged": false,
+      "http_status": 200,
+      "items": 0,
+      "source": "github:huggingface/accelerate",
+      "status": "ok"
+    },
+    {
+      "collection_backlog": 0,
+      "cost_usd": 0,
+      "known_total_tokens": 0,
+      "model_requests": 0,
+      "reserved_requests": 0,
+      "reserved_tokens": 0,
+      "runtime_seconds": 6.594,
+      "source": "radar_telemetry",
+      "source_checks": 5,
+      "status": "telemetry",
+      "successful_decisions": 0,
+      "token_usage_complete": true,
+      "unchanged_sources": 0
+    }
+  ],
+  "source_count": 5
+}

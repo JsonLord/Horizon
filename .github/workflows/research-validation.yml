@@ -2,7 +2,7 @@ name: Research archive regression
 on:
   pull_request:
     paths:
-      - 'src/research/**'
+      - 'src/**'
       - 'src/mcp/**'
       - 'scripts/**'
       - 'config/**'
@@ -13,8 +13,6 @@ on:
       - '.github/workflows/**'
       - 'pyproject.toml'
       - 'uv.lock'
-  push:
-    branches: [main, 'feature/**', 'research/**', 'automation/**', fix/archive-provenance-compat]
 permissions:
   contents: read
 jobs:
@@ -27,8 +25,13 @@ jobs:
         with:
           python-version: '3.11'
       - uses: astral-sh/setup-uv@v7
+        with:
+          enable-cache: true
+          cache-dependency-glob: uv.lock
       - run: uv sync --frozen --extra dev
       - run: uv run --extra dev pytest
+      - name: Verify disabled schedule definitions match reviewed policy
+        run: uv run python -m scripts.actions_schedule --check
       - name: Verify deterministic funding projections without network
         run: uv run python -m scripts.research_funding check
       - name: Audit funding folders, history and local navigation

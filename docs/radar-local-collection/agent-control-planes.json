@@ -1,0 +1,54 @@
+{
+  "checked_at_utc": "2026-11-08T23:16:48.811243+00:00",
+  "classifications": {
+    "RESEARCH_REQUIRED": 30
+  },
+  "confirmed_concepts": 0,
+  "digest_status": "partial",
+  "discovery_languages": [
+    "de",
+    "en",
+    "fr"
+  ],
+  "findings": 30,
+  "hosted": false,
+  "live_inference": false,
+  "radar_id": "agent-control-planes",
+  "source_checks": [
+    {
+      "error_code": null,
+      "items": 16,
+      "query": "\"KI-Agenten\" (MCP OR Orchestrierung OR Architektur)",
+      "source": "google_news",
+      "status": "ok"
+    },
+    {
+      "error_code": null,
+      "items": 28,
+      "query": "(MCP OR \"agent orchestration\") (architecture OR durable)",
+      "source": "google_news",
+      "status": "ok"
+    },
+    {
+      "error_code": null,
+      "items": 29,
+      "query": "\"agents IA\" (orchestration OR architecture OR MCP)",
+      "source": "google_news",
+      "status": "ok"
+    },
+    {
+      "items": 10,
+      "source": "github:microsoft/autogen",
+      "status": "ok"
+    },
+    {
+      "items": 10,
+      "source": "github:langchain-ai/langgraph",
+      "status": "ok"
+    }
+  ],
+  "source_languages": [
+    "fr",
+    "unknown"
+  ]
+}

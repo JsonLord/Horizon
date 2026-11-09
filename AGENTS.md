@@ -101,8 +101,8 @@ reviewed main-branch workflow code, validates the source SHA and seed fingerprin
 re-renders structured artifacts, and creates a new data-only draft PR using the
 automatic GITHUB_TOKEN. It never force-updates a ref, edits the authored document,
 merges, or publishes the production intel branch. An owned, marked funding draft PR is updated through a non-force fast-forward after checking its head SHA and data-only diff. Identical content causes zero writes. Unmarked/legacy proposals remain pending manual reconciliation; they are never adopted or duplicated.
-Relevant pushes on the current implementation branch also run read-only research
-for development validation; the privileged proposal job cannot run there.
+Use manual dispatch for branch qualification; obsolete feature-branch push
+collection triggers were removed. The privileged proposal job cannot run there.
 
 Use the existing authorized MCP tools `hz_list_profiles`, `hz_submit_research`,
 `hz_get_job`, `hz_list_reports`, `hz_search_archive`, and `hz_get_report`. Inspect
@@ -175,10 +175,11 @@ is not successful PR publication. No token or repository setting is changed.
 ## Shared decision filtering
 
 Read docs/SHARED_INTELLIGENCE_FILTERING.md before editing the new subsystem.
-Its only inference adapter is OpenAI-compatible chat, using global
+Its default inference adapter is OpenAI-compatible chat, using global
 HORIZON_DECISION_BASE_URL / MODEL / API_MODE repository variables and
-HORIZON_DECISION_API_KEY repository secret. Do not add native Laya, OpenRouter or
-TypeSafe dependencies to this pipeline; old program Laya remains backward-compatible.
+HORIZON_DECISION_API_KEY repository secret. The operator's 2026-11-09 state/questions example authorizes an additional explicit
+`systemone` mode, independent of the old native Laya adapter. Do not auto-detect
+protocols or add OpenRouter/TypeSafe dependencies; old program Laya stays separate.
 Policies inherit config/filtering/defaults.yaml; bind reviewed profile IDs in
 config/filtering/bindings.json. Bump versions for tuning, keep source/eligibility
 hard rules independent, and keep decisions staged until qualification. A model,
@@ -188,3 +189,142 @@ qualification flag only in an authorized read-only Actions execution. Repository
 Actions currently refuses execution; do not enable it without authorization that
 accounts for existing schedules. Never claim live inference from mock/fallback
 results. Benchmark labels are unreviewed, not ground truth.
+
+## Technical radar fleet and source changes
+
+Read `docs/RADAR_PULL_CONTRACT.md` and `docs/TECHNICAL_RADAR_ARCHITECTURE.md`.
+Trusted controller code lives on the reviewed application branch. The three
+`radar/*` branches contain only isolated research data; never execute their code.
+Implementation is stacked on PR #7. Leave PR #5/#7 and all schedules unmerged and
+inactive until explicitly authorized. `config/radar/registry.json` has separate
+false scheduling/publication flags; enabling Actions itself can resume existing
+production cron and is not an innocuous qualification step.
+
+To change monitored subjects, edit the radar's profile in `profiles/radars/` and
+its policy in `config/filtering/policies/radar-*.yaml`, then bump the policy
+version and matching registry version. `config/radar/sources/<radar>.json` is the
+URL/repository register: approved project repository seeds, en/de/fr discovery
+queries and links requiring review. Profile queries drive collection; keep their
+mirrored source-register queries consistent. Do not add guessed feeds, assumed
+source language or private URLs. New source families need explicit bounded
+adapters and official ownership/source review. A query match is only a nomination.
+
+Steering controls: query text/language/country, topics, lookback (max 168h),
+max_items/max_queries live in the profile. The policy controls shared attention
+weights and threshold. Registry controls independent radar IDs/branches, candidate
+cap (30), model request/token budgets (36/200000), and 24-hour pilot eligibility (12 hours with the optional second daily run).
+The runner reserves technical distillation/support budget before shared scoring;
+overflow stays in review. Unknown source language or semantic relevance is not an
+exclusion. Primary evidence, bounded verbatim supporting quotations, separately
+validated distillation support and explicit source language are required for
+HIGH_SIGNAL. Marketing text and a large model score cannot override these gates.
+
+Use `uv run python -m scripts.radar_fleet collect --radar rag-memory --restore`
+for read-only development/qualification (repeat for other registered IDs).
+`digest --radar rag-memory --week-end 2026-11-06T18:00:00Z` demonstrates an explicit
+cutoff recovery; use the intended Friday, never fabricate historical coverage.
+`--correction <review-id>` creates a traceable correction while retaining the
+original snapshot; it requires explicit review, never an automatic rerun.
+Generation is local/artifact-only. The publisher refuses non-main execution and
+disabled publication, validates allowlisted data paths and never touches `intel`.
+
+All model calls use the same four global HORIZON_DECISION_* settings as shared
+filtering. No external delivery credentials, webhook, notification or consumer
+pull client belongs in Horizon. Consumers use read-only GitHub APIs and pin the
+branch head SHA before reading. Do not put a commit's own SHA inside its files.
+
+Run `uv run --extra dev pytest`, `uv run python -m scripts.radar_schemas`, MCP
+smokes and actionlint. Record actual live/hosted results independently of fixtures
+in `docs/TECHNICAL_RADAR_FLEET_ACCEPTANCE.md` and `docs/agent-research.md`.
+A live model remains unqualified until a real authorized Actions job validates it.
+
+
+## Fork Actions optimization and reactivation
+
+Read docs/WORKFLOW_INVENTORY.md and docs/FORK_ACTIONS_REACTIVATION.md before
+changing Actions. Registration state, repository permissions and fork execution
+activation are different observations. Do not diagnose billing, suspension or a
+provider key from a fork-disable banner. Do not enable Actions or merge this work.
+
+config/actions-schedules.json is the reviewed schedule plan. Disabled radar and
+funding controllers have no actual cron event, avoiding scheduled gate-only runs.
+After explicit approval, update the matching registry flags and render YAML with
+`uv run python -m scripts.actions_schedule --render`; review the diff and merge
+through normal authorization. CI runs `--check` to detect drift. Existing world
+intelligence stays daily. Legacy Pages briefing is manual; preserve its historical
+posts/feeds and keep_files behavior. Docs deployment stays docs-change-only.
+
+Routine radar collection validates its sealed artifact in the same read-only
+job. A separate publisher revalidates source revision/hashes/schema with write
+permissions. `durability=true` adds a fresh-runner acceptance check; do not run a
+full regression suite inside model qualification. PR validation owns regression
+tests. All uv jobs cache dependencies by uv.lock; caches are not evidence stores.
+
+Normalized source checkpoints store short attributed references, body hashes and
+ETags, never raw pages. Unchanged content retains original evidence timestamps.
+Changed queries invalidate their source checkpoint, and changed source coverage
+resets coverage qualification. Changed analysis/provider identity invalidates
+model decisions; documentation-only commits can reuse decisions. Retry/backlog
+state is bounded and per radar. Runtime/request/token/cost telemetry is in safe
+collection proof artifacts/logs. Unknown billing remains null; explicit dollar
+caps without prices fail closed. No-change snapshots skip artifact/publication.
+A due refresh may still update checkpoint timestamps even with no new findings.
+
+
+For gateways exposing chat JSON at a custom operation path, the optional global
+repository variable HORIZON_DECISION_CHAT_URL selects the complete POST URL
+verbatim. It overrides base expansion; do not append v1/chat/completions to it.
+BASE_URL compatibility remains the default when the override is absent. All shared
+policies and radars use the same setting, public-HTTPS validation, no redirects,
+strict response/citation checks and deterministic fallback. Never put an endpoint
+in a profile or infer that endpoint HTTP success proves structured inference.
+
+
+## Explicit SystemOne choice contract (operator amendment, 2026-11-09)
+
+The supplied API example uses model/state/questions and answers, not OpenAI chat
+messages/choices. Set HORIZON_DECISION_API_MODE=systemone explicitly; BASE_URL is
+then the complete operation URL (CHAT_URL can still override it). Request alias
+is HORIZON_DECISION_MODEL; pin the actual returned identity separately through
+HORIZON_DECISION_RESPONSE_MODEL. No endpoint or identity belongs in profiles.
+The user's example supersedes the earlier OpenAI-only protocol assumption for
+this endpoint; keep openai_chat as the unchanged default and keep legacy program
+Laya code unselected by shared filtering.
+
+Native responses are schema-validated: exact question and choice IDs, bounded
+probabilities/confidence/action, approved response identity and numeric usage.
+Probabilities/confidence are uncalibrated metadata, never importance/eligibility
+probabilities. The selected class maps to documented ordinal heuristic scores.
+Only supplied citations/event IDs can be selected; missing support or zero action
+abstains. Funding hard eligibility is independent. No free-text finding, benchmark
+or pseudocode may be invented from a choice response. Technical-learning generation
+is explicitly unsupported in this mode and falls back to deterministic review.
+
+## Approved production decision configuration (2026-11-09)
+
+The operator authorized promoting the verified test-d SystemOne operation with
+alias-clef to the global GitHub variables. Use
+`bash scripts/configure-production-decisions.sh --apply` and then `--check` with
+an identity allowed to manage repository Actions variables. Do not change the
+API key or put these values in profiles. The integration denied all five writes
+with403; do not claim production configured until readback and an override-free
+qualification succeed. See docs/PRODUCTION_DECISION_CONFIGURATION.md. Native
+choice classification is qualified; generative technical-learning remains
+unsupported. This authorization does not merge PR8 or enable schedules.
+
+## Real-source review packs
+
+Use scripts/live_review.py and docs/LIVE_RESEARCH_REVIEW.md for seven-domain,
+read-only evaluation. Radar collectors reuse config/radar sources and profiles;
+AUX queries live in profiles/examples/ai-usability.json. Source probe outcomes and
+known false-positive hypotheses are in docs/LIVE_RESEARCH_ACCEPTANCE_2026-11-09.md.
+Do not mistake raw inventory, model-qualified review candidates or publisher-page
+availability for confirmed facts. Preserve unknown language and eligibility states.
+
+Full reports remain in data/live-review/DOMAIN; generated label templates are not
+reviewed ground truth. Copy templates to the ignored data/live-review-feedback
+folder before adding labels/notes, preserving findings_sha256. Do not automatically
+change policies, source verification, eligibility or measured metrics from feedback.
+The dedicated artifact recovery writer may copy only validated public report files
+to this draft implementation PR; it never targets main, intel or radar branches.
+The native model supports six choices, not free-form technical-learning generation.

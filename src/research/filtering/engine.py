@@ -125,7 +125,7 @@ class HorizonFilterPipeline:
                     decision,meta=await {'relevance':SemanticRelevanceGate,'worth-attention':ActionabilityGate,'same-story':SameStoryGate,'importance':ImportanceGate,'claim-support':ClaimSupportGate,'hfs':HFSGate}[command]().run(self.provider,{**public,'topics':self.policy.topics,'research_assumptions_not_eligibility':self.policy.public_context,'deprioritize':self.policy.deprioritize,'curated_examples':self.state.get('examples',self.policy.profile_id) or [],'previous':[{'event_id':p['event_id'],'summary':p['summary'][:500]} for p in candidates]})
                     entry={'decision':decision.model_dump() if decision else None,'provider':meta}
                     if decision:self.state.put('decision',cachekey,entry)
-                if entry is None:entry={'decision':None,'provider':{'family':'openai_chat','status':'budget_limit' if self.provider.configured else 'unavailable','model':getattr(self.provider,'model',None),'attempts':0,'latency_ms':None,'tokens':None,'cost':None}}
+                if entry is None:entry={'decision':None,'provider':{'family':getattr(self.provider,'family','openai_chat'),'status':'budget_limit' if self.provider.configured else 'unavailable','model':getattr(self.provider,'model',None),'attempts':0,'latency_ms':None,'tokens':None,'cost':None}}
                 if entry:
                     gates[command]=entry
                     if not entry['decision']:failures.append(command)
@@ -150,7 +150,7 @@ class HorizonFilterPipeline:
             hard=DeterministicGate().run(item,self.policy) and bool(public['evidence'])
             if hard_statuses is not None:hard=hard and hard_statuses.get(item['event_id'])=='ELIGIBLE_NOW'
             score=max(0,min(1,AttentionRanking().score(values,self.policy)+self.feedback.adjustment(self.policy.profile_id,item['finding_id'])))
-            result={'engine_version':'shared-filtering-1.0','cache_hit':False,'public_summary':item['summary'][:500],'item_id':item['finding_id'],'event_id':target_event,'profile_id':self.policy.profile_id,'policy_version':self.policy.version,'input_hash':digest,'gates':gates,'dimensions':values,'attention':score,'novelty':novelty,'evidence_ids':item['source_ids'],'accepted':hard and score>=self.policy.threshold and novelty not in ('coverage','review') and not(support and support['verdict']=='no'),'hard_gate':hard,'fallback':not gates or bool(failures),'failures':failures,'provider_family':'openai_chat','heuristic_not_probability':True}
+            result={'engine_version':'shared-filtering-1.0','cache_hit':False,'public_summary':item['summary'][:500],'item_id':item['finding_id'],'event_id':target_event,'profile_id':self.policy.profile_id,'policy_version':self.policy.version,'input_hash':digest,'gates':gates,'dimensions':values,'attention':score,'novelty':novelty,'evidence_ids':item['source_ids'],'accepted':hard and score>=self.policy.threshold and novelty not in ('coverage','review') and not(support and support['verdict']=='no'),'hard_gate':hard,'fallback':not gates or bool(failures),'failures':failures,'provider_family':getattr(self.provider,'family','openai_chat'),'heuristic_not_probability':True}
             # Failed inference is retried on a later execution, not cached forever.
             if not result['fallback']:self.state.put('completed',key,result)
             self.state.put('history',self.policy.profile_id+'|'+item['finding_id'],result)

@@ -1,0 +1,52 @@
+{
+  "checked_at_utc": "2026-11-08T23:16:48.304823+00:00",
+  "classifications": {
+    "RESEARCH_REQUIRED": 8
+  },
+  "confirmed_concepts": 0,
+  "digest_status": "partial",
+  "discovery_languages": [
+    "en"
+  ],
+  "findings": 8,
+  "hosted": false,
+  "live_inference": false,
+  "radar_id": "distributed-training",
+  "source_checks": [
+    {
+      "error_code": null,
+      "items": 0,
+      "query": "FSDP OR \"verteiltes Training\" OR Tensorparallelität",
+      "source": "google_news",
+      "status": "ok"
+    },
+    {
+      "error_code": null,
+      "items": 0,
+      "query": "FSDP OR \"entraînement distribué\" OR \"parallélisme tensoriel\"",
+      "source": "google_news",
+      "status": "ok"
+    },
+    {
+      "error_code": null,
+      "items": 8,
+      "query": "FSDP OR \"distributed training\" OR \"tensor parallelism\"",
+      "source": "google_news",
+      "status": "ok"
+    },
+    {
+      "items": 10,
+      "source": "github:pytorch/pytorch",
+      "status": "ok"
+    },
+    {
+      "items": 10,
+      "source": "github:huggingface/accelerate",
+      "status": "ok"
+    }
+  ],
+  "source_languages": [
+    "en",
+    "unknown"
+  ]
+}

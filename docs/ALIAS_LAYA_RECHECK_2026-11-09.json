@@ -1,0 +1,72 @@
+{
+  "inspected_at_utc": "2026-11-09T03:34:01.900835+00:00",
+  "runs": [
+    {
+      "id": 42556922702,
+      "html_url": "https://github.com/JsonLord/Horizon/actions/runs/42556922702",
+      "head_sha": "7d2992043b70ee8bc95fcb2388f63d8fe39a6618",
+      "head_branch": "qualification/laya-exact-a7de132",
+      "status": "completed",
+      "conclusion": "success",
+      "event": "workflow_dispatch",
+      "created_at": "2026-11-09T03:32:02Z",
+      "updated_at": "2026-11-09T03:32:17Z",
+      "jobs": [
+        {
+          "id": 128964623466,
+          "name": "diagnose",
+          "status": "completed",
+          "conclusion": "success",
+          "runner_name": "GitHub Actions 1000003334",
+          "started_at": "2026-11-09T03:32:06Z",
+          "completed_at": "2026-11-09T03:32:17Z",
+          "failed_steps": [],
+          "proof_notices": [
+            {
+              "title": "exact-endpoint-error-classification",
+              "proof": {
+                "exact_endpoint": true,
+                "requests": 1,
+                "errors": [
+                  {
+                    "http_status": 404,
+                    "error_hint": "model_not_found_hint",
+                    "media_type": "application/json",
+                    "bytes_inspected": 87,
+                    "parseable_json": true,
+                    "top_level_error_fields": [
+                      "error"
+                    ],
+                    "requested_model_mentioned": true,
+                    "last_endpoint_segment_mentioned": false,
+                    "parameter_mentions": [
+                      "model"
+                    ]
+                  }
+                ],
+                "validated_decision": false,
+                "provider_status": "invalid_or_unavailable",
+                "requested_model": "alias-laya",
+                "validation_error": null
+              }
+            }
+          ]
+        },
+        {
+          "id": 128964624384,
+          "name": "qualify",
+          "status": "completed",
+          "conclusion": "skipped",
+          "runner_name": null,
+          "started_at": "2026-11-09T03:32:04Z",
+          "completed_at": "2026-11-09T03:32:03Z",
+          "failed_steps": [],
+          "proof_notices": []
+        }
+      ]
+    }
+  ],
+  "operator_selected_model": "alias-laya",
+  "supersedes_model_selection": "alias-clef was a temporary qualification override only; never saved as a repository variable",
+  "scope": "one bounded read-only exact-endpoint probe; no production publication or settings update"
+}

@@ -1,0 +1,236 @@
+{
+  "audited_at_utc": "2026-11-09T06:02:49.343912+00:00",
+  "workflow_files": 10,
+  "job_definitions": 21,
+  "workflows": [
+    {
+      "path": ".github/workflows/daily-summary.yml",
+      "job_definitions": 2,
+      "jobs": [
+        "summary",
+        "publish"
+      ],
+      "sha256": "01a1be3451d768725778a0e112af4562df4c9adf48474fb4b9a804377646e3e2",
+      "crons": [],
+      "runners": [
+        "ubuntu-24.04"
+      ],
+      "timeouts_minutes": [
+        20,
+        5
+      ],
+      "secrets": [
+        "APIFY_TOKEN",
+        "OPENAI_API_KEY"
+      ],
+      "retention_days": [
+        7
+      ]
+    },
+    {
+      "path": ".github/workflows/deploy-docs.yml",
+      "job_definitions": 1,
+      "jobs": [
+        "deploy"
+      ],
+      "sha256": "1e448ab9cca3c3f257c85e45125a5e3fb13b9cccc6d5759250ac5ae3d92c386a",
+      "crons": [],
+      "runners": [
+        "ubuntu-24.04"
+      ],
+      "timeouts_minutes": [
+        5
+      ],
+      "secrets": [],
+      "retention_days": []
+    },
+    {
+      "path": ".github/workflows/funding-research.yml",
+      "job_definitions": 2,
+      "jobs": [
+        "collect",
+        "propose"
+      ],
+      "sha256": "4e56b19ab2d7456b1e49404d50993d0837a6a0d4d58d2c0669b4420c7cde78a9",
+      "crons": [],
+      "runners": [
+        "ubuntu-24.04"
+      ],
+      "timeouts_minutes": [
+        15,
+        10
+      ],
+      "secrets": [],
+      "retention_days": [
+        14
+      ]
+    },
+    {
+      "path": ".github/workflows/horizon-intel.yml",
+      "job_definitions": 6,
+      "jobs": [
+        "collect",
+        "publish",
+        "program-qualify",
+        "funding-qualify",
+        "funding-review-qualify",
+        "shared-filtering-qualify"
+      ],
+      "sha256": "15c0c22143018558d8d19a79c3b9e68aade694186b34d505e1d0750a60f0c964",
+      "crons": [
+        "23 6 * * *"
+      ],
+      "runners": [
+        "ubuntu-24.04"
+      ],
+      "timeouts_minutes": [
+        20,
+        10,
+        15,
+        15,
+        10
+      ],
+      "secrets": [
+        "HORIZON_DECISION_API_KEY"
+      ],
+      "retention_days": [
+        7,
+        14,
+        14,
+        14,
+        14,
+        14,
+        14
+      ]
+    },
+    {
+      "path": ".github/workflows/radar-fleet.yml",
+      "job_definitions": 1,
+      "jobs": [
+        "radars"
+      ],
+      "sha256": "669369c82a36572f3f36f816f4555e9a76506f3f2db8792fe60b3f25285484aa",
+      "crons": [],
+      "runners": [],
+      "timeouts_minutes": [],
+      "secrets": [
+        "HORIZON_DECISION_API_KEY"
+      ],
+      "retention_days": []
+    },
+    {
+      "path": ".github/workflows/radar-worker.yml",
+      "job_definitions": 3,
+      "jobs": [
+        "collect",
+        "validate",
+        "publish"
+      ],
+      "sha256": "826510c4b2c2e7d6fd1c505c3b45846c07fb555c97a6820662c087106f311a4a",
+      "crons": [],
+      "runners": [
+        "ubuntu-24.04"
+      ],
+      "timeouts_minutes": [
+        25,
+        10,
+        10
+      ],
+      "secrets": [
+        "HORIZON_DECISION_API_KEY"
+      ],
+      "retention_days": [
+        14
+      ]
+    },
+    {
+      "path": ".github/workflows/research-validation.yml",
+      "job_definitions": 1,
+      "jobs": [
+        "validate"
+      ],
+      "sha256": "dc2616197491810e599c6ad41db3948bed9c387e3edb93d5bc36d33647ec8f5d",
+      "crons": [],
+      "runners": [
+        "ubuntu-24.04"
+      ],
+      "timeouts_minutes": [
+        10
+      ],
+      "secrets": [],
+      "retention_days": []
+    },
+    {
+      "path": ".github/workflows/shared-filtering.yml",
+      "job_definitions": 2,
+      "jobs": [
+        "qualify",
+        "restore"
+      ],
+      "sha256": "d614f7d181305e359d202ad572b598c8e9742e49ad5a20e17ee50effc5034446",
+      "crons": [],
+      "runners": [
+        "ubuntu-24.04"
+      ],
+      "timeouts_minutes": [
+        15,
+        15
+      ],
+      "secrets": [
+        "HORIZON_DECISION_API_KEY"
+      ],
+      "retention_days": [
+        14,
+        14
+      ]
+    },
+    {
+      "path": ".github/workflows/live-review.yml",
+      "job_definitions": 1,
+      "jobs": [
+        "review"
+      ],
+      "sha256": "657e24a303566de0aa93f3d3db2d0d973c1b9401f25f7679aacf24a233ba79be",
+      "crons": [],
+      "runners": [
+        "ubuntu-24.04"
+      ],
+      "timeouts_minutes": [
+        45
+      ],
+      "secrets": [
+        "HORIZON_DECISION_API_KEY"
+      ],
+      "retention_days": [
+        14
+      ],
+      "recommended_status": "MANUAL_ONLY",
+      "function": "Seven real-source review packs; read-only, no production publication"
+    },
+    {
+      "path": ".github/workflows/live-review-recovery.yml",
+      "job_definitions": 2,
+      "jobs": [
+        "validate",
+        "review-pr-reports"
+      ],
+      "sha256": "eea11bc82194575ad2df84358c0aefd7b8d274e0daac5bfe8b961182831035a1",
+      "crons": [],
+      "runners": [
+        "ubuntu-24.04"
+      ],
+      "timeouts_minutes": [
+        10,
+        10
+      ],
+      "secrets": [
+        "HORIZON_DECISION_API_KEY"
+      ],
+      "retention_days": [
+        14
+      ],
+      "recommended_status": "MANUAL_ONLY",
+      "function": "Validate prior review artifact; optional separately privileged copy of public reports to implementation PR only"
+    }
+  ]
+}

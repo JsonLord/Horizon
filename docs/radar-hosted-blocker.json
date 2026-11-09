@@ -1,0 +1,42 @@
+{
+  "checked_at_utc": "2026-11-08T23:15:55.663640+00:00",
+  "configuration_metadata": {
+    "secrets_http_status": 403,
+    "variables_http_status": 403
+  },
+  "existing_qualification": {
+    "http_status": 422,
+    "reason": "Actions has been disabled for this repository",
+    "ref": "feature/shared-intelligence-filtering",
+    "run_id": null,
+    "workflow": "horizon-intel.yml"
+  },
+  "hosted_recovery_verified": false,
+  "live_inference_verified": false,
+  "local_provider_requests": 0,
+  "new_workflows": [
+    {
+      "http_status": 404,
+      "reason": "Not Found during workflow lookup; no run created",
+      "ref": "feature/technical-radar-fleet",
+      "run_id": null,
+      "workflow": "shared-filtering.yml"
+    },
+    {
+      "http_status": 404,
+      "reason": "Not Found during workflow lookup; no run created",
+      "ref": "feature/technical-radar-fleet",
+      "run_id": null,
+      "workflow": "radar-fleet.yml"
+    }
+  ],
+  "settings_changed": false,
+  "fleet_ref_qualification": {
+    "workflow": "horizon-intel.yml",
+    "ref": "feature/technical-radar-fleet",
+    "source_revision": "d9a1ae9",
+    "http_status": 422,
+    "reason": "Actions has been disabled for this repository",
+    "run_id": null
+  }
+}

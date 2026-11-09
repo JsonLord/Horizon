@@ -1,20 +1,51 @@
 name: Shared filtering staging qualification
 on:
   workflow_call:
+    inputs:
+      api_mode:
+        description: Explicit protocol for qualification, no automatic detection
+        type: string
+        default: ''
+      response_model:
+        description: Expected server-reported model identity
+        type: string
+        default: ''
+      model:
+        description: Optional model identifier for read-only qualification
+        type: string
+        default: ''
+      chat_url:
+        description: Optional exact endpoint on the configured provider origin for read-only qualification
+        type: string
+        default: ''
+      durability:
+        type: boolean
+        default: true
     secrets:
       HORIZON_DECISION_API_KEY:
         required: false
   workflow_dispatch:
-  push:
-    branches: [feature/shared-intelligence-filtering]
-    paths:
-      - 'src/research/filtering/**'
-      - 'src/research/service.py'
-      - 'config/filtering/**'
-      - 'profiles/examples/ai-usability.json'
-      - 'scripts/shared_filtering.py'
-      - 'tests/test_shared_filtering.py'
-      - '.github/workflows/shared-filtering.yml'
+    inputs:
+      api_mode:
+        description: Explicit protocol for qualification, no automatic detection
+        type: string
+        default: ''
+      response_model:
+        description: Expected server-reported model identity
+        type: string
+        default: ''
+      model:
+        description: Optional model identifier for read-only qualification
+        type: string
+        default: ''
+      chat_url:
+        description: Optional exact endpoint on the configured provider origin for read-only qualification
+        type: string
+        default: ''
+      durability:
+        description: Restore the checkpoint on a separate hosted runner
+        type: boolean
+        default: true
 permissions:
   contents: read
   actions: read
@@ -25,6 +56,8 @@ jobs:
   qualify:
     runs-on: ubuntu-24.04
     timeout-minutes: 15
+    outputs:
+      checkpoint_ready: ${{ steps.recovery.outputs.ready }}
     steps:
       - uses: actions/checkout@v5
         with:
@@ -33,15 +66,28 @@ jobs:
         with:
           python-version: '3.11'
       - uses: astral-sh/setup-uv@v7
-      - run: uv sync --frozen --extra dev
-      - run: uv run --extra dev pytest
+        with:
+          enable-cache: true
+          cache-dependency-glob: uv.lock
+      - run: uv sync --frozen
       - name: Exercise shared provider and all three policies
         env:
+          HORIZON_QUALIFICATION_API_MODE: ${{ inputs.api_mode }}
+          HORIZON_QUALIFICATION_RESPONSE_MODEL: ${{ inputs.response_model }}
+          HORIZON_QUALIFICATION_MODEL: ${{ inputs.model }}
+          HORIZON_QUALIFICATION_CHAT_URL: ${{ inputs.chat_url }}
+          HORIZON_DECISION_CHAT_URL: ${{ vars.HORIZON_DECISION_CHAT_URL }}
           HORIZON_DECISION_BASE_URL: ${{ vars.HORIZON_DECISION_BASE_URL }}
+          HORIZON_DECISION_RESPONSE_MODEL: ${{ vars.HORIZON_DECISION_RESPONSE_MODEL }}
           HORIZON_DECISION_MODEL: ${{ vars.HORIZON_DECISION_MODEL }}
           HORIZON_DECISION_API_KEY: ${{ secrets.HORIZON_DECISION_API_KEY }}
           HORIZON_DECISION_API_MODE: ${{ vars.HORIZON_DECISION_API_MODE }}
-        run: uv run python -m scripts.shared_filtering
+        run: uv run python -m scripts.shared_filtering --require-live
+      - id: recovery
+        if: always()
+        env:
+          CHECKPOINT_READY: ${{ hashFiles('data/shared-filtering/manifest.json') != '' }}
+        run: echo "ready=$CHECKPOINT_READY" >> "$GITHUB_OUTPUT"
       - uses: actions/upload-artifact@v6
         if: always()
         with:
@@ -50,6 +96,7 @@ jobs:
           retention-days: 14
           if-no-files-found: warn
   restore:
+    if: always() && !cancelled() && inputs.durability == true && needs.qualify.outputs.checkpoint_ready == 'true'
     needs: qualify
     runs-on: ubuntu-24.04
     timeout-minutes: 15
@@ -61,19 +108,18 @@ jobs:
         with:
           python-version: '3.11'
       - uses: astral-sh/setup-uv@v7
+        with:
+          enable-cache: true
+          cache-dependency-glob: uv.lock
       - run: uv sync --frozen
       - uses: actions/download-artifact@v7
         with:
           name: shared-filtering-state
           path: data/shared-filtering
-      - name: Recover interrupted state on a fresh hosted runner
-        env:
-          HORIZON_DECISION_BASE_URL: ${{ vars.HORIZON_DECISION_BASE_URL }}
-          HORIZON_DECISION_MODEL: ${{ vars.HORIZON_DECISION_MODEL }}
-          HORIZON_DECISION_API_KEY: ${{ secrets.HORIZON_DECISION_API_KEY }}
-          HORIZON_DECISION_API_MODE: ${{ vars.HORIZON_DECISION_API_MODE }}
-        run: uv run python -m scripts.shared_filtering --restore
+      - name: Recover interrupted state on a fresh hosted runner without inference
+        run: uv run python -m scripts.shared_filtering --restore-only
       - uses: actions/upload-artifact@v6
         with:
           name: shared-filtering-restored-proof
-          path: data/shared-filtering/proof.json
+          retention-days: 14
+          path: data/shared-filtering/recovery-proof.json

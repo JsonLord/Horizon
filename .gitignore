@@ -66,3 +66,7 @@ todo.txt
 data/research/
 # Local opportunity projection locks; durable records live inside their folders.
 research/.*.lock
+# Live review caches and private/unpublished human feedback are not report artifacts.
+data/live-review/cache/
+data/live-review/review-handoff.json
+data/live-review-feedback/

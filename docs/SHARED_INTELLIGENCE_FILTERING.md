@@ -1,23 +1,53 @@
 # Shared filtering operations
 
-The new pipeline uses only `DecisionModelProvider` (`openai_chat`). Existing
+The shared pipeline uses `DecisionModelProvider`. With no API mode configured,
+inference stays off and deterministic fallback works. Select `openai_chat` or
+`systemone` explicitly; the approved production selection is now `systemone`.
+The operator-supplied 2026-11-09 native example also enables explicit `systemone`
+mode; protocols are never selected automatically from a model name or HTTP error. Existing
 Laya/native program code is retained for legacy program research and is never
 selected by the shared engine. Bound news profiles bypass legacy model selection;
-all new semantic decisions use the same four global settings:
+all new semantic decisions use the same global settings:
 
 | Actions configuration | Kind |
 | --- | --- |
-| HORIZON_DECISION_BASE_URL | Repository variable: API base URL |
+| HORIZON_DECISION_BASE_URL | Repository variable: API base URL (default routing) |
+| HORIZON_DECISION_CHAT_URL | Optional repository variable: complete POST URL; used verbatim, overrides base |
 | HORIZON_DECISION_MODEL | Repository variable: exact model identifier |
 | HORIZON_DECISION_API_KEY | Repository secret: optional authentication token |
-| HORIZON_DECISION_API_MODE | Repository variable: `openai_chat` |
+| HORIZON_DECISION_API_MODE | Repository variable: `openai_chat` or `systemone`; unset disables inference |
+| HORIZON_DECISION_RESPONSE_MODEL | Expected returned model identity; required for SystemOne aliases |
 
-The client appends `/v1/chat/completions` (or `/chat/completions` to a base already
-ending in `/v1`). It requires public HTTPS, does not follow redirects with the
-key, verifies response model identity, validates JSON/citations/event references,
-and falls back deterministically. Unsupported strict response formats retry with
-ordinary JSON parsing plus the same schema validation. No native API or vendor
-SDK is selected. No OpenRouter/TypeSafe credentials are required.
+When HORIZON_DECISION_CHAT_URL is set, the client POSTs to that exact public HTTPS
+operation URL without appending a path. Without this override, `systemone` uses
+BASE_URL as the complete operation, while `openai_chat` appends `/v1/chat/completions`
+(or `/chat/completions` to a base already ending in `/v1`). Both modes require public
+HTTPS, refuse redirects, validate identity/schema/citations/event references, and
+fall back deterministically. OpenAI strict-format rejection retries ordinary JSON
+parsing with the same schema. No vendor SDK, OpenRouter or TypeSafe key is needed.
+No endpoint belongs in a research profile.
+
+## Approved production provider
+
+The operator approved promotion of the successfully tested test-d SystemOne
+operation with `alias-clef`. Run the reviewed, idempotent configuration helper
+with a GitHub identity allowed to edit repository Actions variables:
+
+```sh
+bash scripts/configure-production-decisions.sh --apply
+bash scripts/configure-production-decisions.sh --check
+```
+
+It sets both URL variables to the exact `/v1/systemone` operation, MODEL and
+RESPONSE_MODEL to `alias-clef`, and API_MODE to `systemone`. The existing API key
+is untouched. See [production configuration status](PRODUCTION_DECISION_CONFIGURATION.md)
+for the complete values and authorization blocker. This is global deployment
+configuration; runtime code and profiles contain no provider URLs or model IDs.
+
+After variables are applied, run the read-only shared qualification with **no
+provider overrides** and require 18/18 cells plus independent recovery. A temporary
+override passing does not prove the repository settings were saved. No merge,
+schedule activation or archive publication is part of this configuration step.
 
 ## Profiles and policies
 
@@ -135,3 +165,52 @@ recall. The corpus includes explicitly marked historical opportunity views, not 
 news findings; optional local reports retain their provenance. Benchmark excerpts are short/attributed; original archive scores provide
 a baseline, not proof of a controlled quality improvement. Live benchmark spend
 requires the explicit flag. Do not claim provider success without a real smoke.
+
+
+2026-11-09 fork optimization: provider qualification is manual/reusable only, no
+feature push or full pytest duplication. PR validation owns the regression suite.
+Select `durability=true` for fresh-runner restoration; a smoke can use one runner.
+The registered horizon-intel entry point exposes `shared_filtering_durability`
+(default false) with the existing shared qualification flag. Hosted qualification
+now requires all live command/profile cells; deterministic fallback retains safe
+artifacts but does not return successful live qualification.
+
+The read-only staging qualification accepts an optional `model` input (or CLI
+`--model`) so an operator can test a specific identifier without modifying global
+repository settings. It is validated and binds the decision cache identity.
+This override applies to all three fixture profiles in that qualification; normal
+collectors continue to use HORIZON_DECISION_MODEL. The latest operator-selected
+identifier is alias-laya; live status is recorded in the dated acceptance reports.
+
+
+## SystemOne choice protocol
+
+The native contract is `{model, state, questions}`; state is a public-evidence
+string, questions are typed choice specifications. Responses are `{model, answers,
+usage}` plus ignored routing metadata. No chat messages, response_format, max_tokens
+or chat-completions suffix is sent in this mode. BASE_URL is a complete operation
+URL; optional CHAT_URL still takes precedence. The existing API key remains a
+Bearer token, redirects remain disabled, and requests/responses/retries are bounded.
+
+Native mode requires an explicit expected server model (RESPONSE_MODEL), because
+a request alias can differ from the returned backend identity. It validates all
+answer IDs, selected criteria, probability distributions, confidence/action fields
+and usage. Citation/event choices are constrained to supplied IDs. Unexpected
+identities, malformed answers, unknown citations or unsupported shapes fail closed.
+Question IDs bind the response to the current request; no server-signed evidence
+attestation is claimed.
+
+Relevance/worth-attention/claim-support choose yes/no/unknown, mapped to ordinal
+heuristics .9/.1/.5. Importance and HFS choose high/medium/low/unknown (.9/.5/.1/.5).
+Same-story chooses same/development/different/contradiction/unknown and can select
+only an actual supplied previous event. These scores are not native probabilities.
+The response probabilities, confidence and action remain uncalibrated metadata;
+zero action or unsupported citation causes abstention. HFS fields for non-HFS
+commands are neutral/unassessed, explicitly recorded as such. Source language is
+never rewritten based on optional service routing language.
+
+Only classification is qualified by this interface. It cannot supply arbitrary
+technical explanation/code generation. Those requests return capability_unavailable
+without a network call and use existing deterministic review. Full technical digest
+quality remains a separate evidence/review gate. Existing funding hard eligibility
+never depends on native probabilities or model choice.

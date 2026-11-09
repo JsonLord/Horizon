@@ -1,0 +1,62 @@
+{
+  "schema_version": "1.0",
+  "radar_id": "distributed-training",
+  "languages": [
+    "en",
+    "de",
+    "fr"
+  ],
+  "discovery_queries": [
+    {
+      "source": "google_news",
+      "text": "FSDP OR \"distributed training\" OR \"tensor parallelism\"",
+      "language": "en",
+      "country": "US",
+      "topic": "distributed-training",
+      "region": "worldwide"
+    },
+    {
+      "source": "google_news",
+      "text": "(\"KI-Training\" OR \"verteiltes Training\" OR Tensorparallelität) (GPU OR Cluster OR Speicher)",
+      "language": "de",
+      "country": "DE",
+      "topic": "distributed-training",
+      "region": "worldwide"
+    },
+    {
+      "source": "google_news",
+      "text": "(\"entraînement distribué\" OR \"entraînement IA\" OR \"entraînement des modèles\") (GPU OR cluster OR mémoire)",
+      "language": "fr",
+      "country": "FR",
+      "topic": "distributed-training",
+      "region": "worldwide"
+    }
+  ],
+  "primary_repositories": [
+    "pytorch/pytorch",
+    "huggingface/accelerate"
+  ],
+  "reviewed_seed_links": [
+    {
+      "url": "https://github.com/pytorch/pytorch",
+      "kind": "official_repository",
+      "language": "unknown",
+      "note": "Public project identity; individual releases and language require retrieval."
+    },
+    {
+      "url": "https://github.com/huggingface/accelerate",
+      "kind": "official_repository",
+      "language": "unknown",
+      "note": "Public project identity; individual releases and language require retrieval."
+    }
+  ],
+  "source_families_pending_review": [
+    "arxiv",
+    "laboratory",
+    "academic",
+    "conference",
+    "benchmark",
+    "technical_blog"
+  ],
+  "policy": "Only registered repository release API endpoints and credential-free discovery; no arbitrary page crawling. Discovery language is not proof of source language."
+}

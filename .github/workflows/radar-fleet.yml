@@ -1,0 +1,25 @@
+name: Technical radar fleet
+on:
+  workflow_dispatch:
+    inputs:
+      durability:
+        description: Separate fresh-runner checkpoint qualification
+        type: boolean
+        default: false
+permissions:
+  contents: read
+jobs:
+  radars:
+    strategy:
+      fail-fast: false
+      matrix:
+        radar: [agent-control-planes, distributed-training, rag-memory]
+    uses: ./.github/workflows/radar-worker.yml
+    permissions:
+      contents: write
+    with:
+      radar: ${{ matrix.radar }}
+      publication: ${{ github.event_name == 'schedule' && github.ref == 'refs/heads/main' }}
+      durability: ${{ inputs.durability == true }}
+    secrets:
+      HORIZON_DECISION_API_KEY: ${{ secrets.HORIZON_DECISION_API_KEY }}

@@ -1,0 +1,673 @@
+{
+  "reported_at_local": "2026-11-09T23:23:39.892391+01:00",
+  "tested_implementation_commit": "ef9996e76e7ce7788011862335c5af2430308d74",
+  "runtime_code_matches_hosted_source": true,
+  "local_tests": {
+    "pytest_passed": 544,
+    "pytest_failed": 0,
+    "duration_seconds": 5.95,
+    "mcp": "PASS: legacy and actual stdio,24tools/15profiles",
+    "funding": "PASS: projection,audit43links,seed/index",
+    "schemas": "PASS: seven review packs/seven unlabelled templates/23hashes/four radar schemas",
+    "workflows": "PASS: actionlint/schedule/diff checks"
+  },
+  "delivered_reports": {
+    "report_commit": "beeb72d80714cc91bf64de050da271e130dbb941",
+    "domains": [
+      {
+        "domain": "agent-control-planes",
+        "statistics": {
+          "cache_hits": 0,
+          "candidates": 72,
+          "confirmed_findings": 0,
+          "cost_usd": null,
+          "discovery_languages": {
+            "de": 17,
+            "en": 25,
+            "fr": 24,
+            "unknown": 6
+          },
+          "duplicates": 0,
+          "fresh_evidence_references": 72,
+          "historical_evidence_references": 0,
+          "invalid_public_urls": 0,
+          "known_tokens": 25195,
+          "model_requests": 34,
+          "not_in_review_inventory": 0,
+          "rejected": 0,
+          "retained_for_review": 72,
+          "retrieved_items": 72,
+          "review_worthy": 4,
+          "runtime_seconds": 23.532,
+          "source_failures": 0,
+          "source_languages": {
+            "en": 3,
+            "fr": 5,
+            "unknown": 64
+          },
+          "token_usage_complete": true
+        },
+        "fully_evaluated": 5,
+        "partially_evaluated": 1,
+        "acceptance": "REVIEW_READY"
+      },
+      {
+        "domain": "aux",
+        "statistics": {
+          "cache_hits": 0,
+          "candidates": 41,
+          "confirmed_findings": 0,
+          "cost_usd": null,
+          "discovery_languages": {
+            "en": 25,
+            "unknown": 16
+          },
+          "duplicates": 1,
+          "fresh_evidence_references": 41,
+          "historical_evidence_references": 0,
+          "invalid_public_urls": 0,
+          "known_tokens": 23709,
+          "model_requests": 34,
+          "not_in_review_inventory": 0,
+          "rejected": 2,
+          "retained_for_review": 38,
+          "retrieved_items": 41,
+          "review_worthy": 3,
+          "runtime_seconds": 17.431,
+          "source_failures": 0,
+          "source_languages": {
+            "en": 12,
+            "unknown": 29
+          },
+          "token_usage_complete": true
+        },
+        "fully_evaluated": 5,
+        "partially_evaluated": 1,
+        "acceptance": "REVIEW_READY"
+      },
+      {
+        "domain": "distributed-training",
+        "statistics": {
+          "cache_hits": 0,
+          "candidates": 11,
+          "confirmed_findings": 0,
+          "cost_usd": null,
+          "discovery_languages": {
+            "de": 2,
+            "en": 8,
+            "fr": 1
+          },
+          "duplicates": 0,
+          "fresh_evidence_references": 11,
+          "historical_evidence_references": 0,
+          "invalid_public_urls": 0,
+          "known_tokens": 24140,
+          "model_requests": 34,
+          "not_in_review_inventory": 0,
+          "rejected": 2,
+          "retained_for_review": 9,
+          "retrieved_items": 11,
+          "review_worthy": 3,
+          "runtime_seconds": 19.529,
+          "source_failures": 0,
+          "source_languages": {
+            "en": 1,
+            "unknown": 10
+          },
+          "token_usage_complete": true
+        },
+        "fully_evaluated": 5,
+        "partially_evaluated": 1,
+        "acceptance": "REVIEW_READY"
+      },
+      {
+        "domain": "funding-de-eu",
+        "statistics": {
+          "cache_hits": 0,
+          "candidates": 3,
+          "confirmed_findings": 0,
+          "cost_usd": null,
+          "discovery_languages": {
+            "unknown": 40
+          },
+          "duplicates": 0,
+          "fresh_evidence_references": 3,
+          "historical_evidence_references": 37,
+          "known_tokens": 10449,
+          "model_requests": 18,
+          "rejected": 0,
+          "retained_for_review": 3,
+          "retrieved_items": 3,
+          "review_worthy": 0,
+          "runtime_seconds": 11.235,
+          "source_failures": 0,
+          "source_languages": {
+            "unknown": 3
+          },
+          "token_usage_complete": true
+        },
+        "fully_evaluated": 3,
+        "partially_evaluated": 0,
+        "acceptance": "PARTIAL"
+      },
+      {
+        "domain": "incubators",
+        "statistics": {
+          "cache_hits": 0,
+          "candidates": 5,
+          "confirmed_findings": 0,
+          "cost_usd": null,
+          "discovery_languages": {
+            "unknown": 10
+          },
+          "duplicates": 0,
+          "fresh_evidence_references": 2,
+          "historical_evidence_references": 8,
+          "known_tokens": 3594,
+          "model_requests": 6,
+          "program_coverage": {
+            "basis": "search query region; event geography unknown",
+            "exhaustive": false,
+            "freshness_days": 14,
+            "known_seed_count": 2,
+            "missing_regions": [
+              "Europe",
+              "global"
+            ],
+            "nomination_count": 3,
+            "primary_pages_attempted": 7,
+            "pruned_prior_records": 0,
+            "public_only": true,
+            "records": 5,
+            "regions": [],
+            "verified_primary_records": 3
+          },
+          "rejected": 0,
+          "retained_for_review": 5,
+          "retrieved_items": 5,
+          "review_worthy": 0,
+          "runtime_seconds": 6.225,
+          "source_failures": 2,
+          "source_languages": {
+            "unknown": 2
+          },
+          "token_usage_complete": true
+        },
+        "fully_evaluated": 1,
+        "partially_evaluated": 0,
+        "acceptance": "PARTIAL"
+      },
+      {
+        "domain": "rag-memory",
+        "statistics": {
+          "cache_hits": 0,
+          "candidates": 39,
+          "confirmed_findings": 0,
+          "cost_usd": null,
+          "discovery_languages": {
+            "de": 13,
+            "en": 8,
+            "fr": 9,
+            "unknown": 9
+          },
+          "duplicates": 0,
+          "fresh_evidence_references": 39,
+          "historical_evidence_references": 0,
+          "invalid_public_urls": 0,
+          "known_tokens": 25258,
+          "model_requests": 34,
+          "not_in_review_inventory": 0,
+          "rejected": 4,
+          "retained_for_review": 35,
+          "retrieved_items": 39,
+          "review_worthy": 2,
+          "runtime_seconds": 18.599,
+          "source_failures": 0,
+          "source_languages": {
+            "de": 1,
+            "unknown": 38
+          },
+          "token_usage_complete": true
+        },
+        "fully_evaluated": 5,
+        "partially_evaluated": 1,
+        "acceptance": "REVIEW_READY"
+      },
+      {
+        "domain": "world-intelligence",
+        "statistics": {
+          "cache_hits": 0,
+          "candidates": 200,
+          "confirmed_findings": 0,
+          "cost_usd": null,
+          "discovery_languages": {
+            "en": 200
+          },
+          "duplicates": 3,
+          "fresh_evidence_references": 200,
+          "historical_evidence_references": 0,
+          "invalid_public_urls": 0,
+          "known_tokens": 22895,
+          "model_requests": 34,
+          "not_in_review_inventory": 105,
+          "rejected": 3,
+          "retained_for_review": 194,
+          "retrieved_items": 305,
+          "review_worthy": 2,
+          "runtime_seconds": 45.723,
+          "source_failures": 0,
+          "source_languages": {
+            "en": 2,
+            "unknown": 198
+          },
+          "token_usage_complete": true
+        },
+        "fully_evaluated": 5,
+        "partially_evaluated": 1,
+        "acceptance": "REVIEW_READY"
+      }
+    ],
+    "hashes": {
+      "INDEX.md": "8742cb082fc577c3b30b6645d95caec6f591bef7bda4426bdcb6bde02e23cf9d",
+      "agent-control-planes/REVIEW.md": "b179dd06dcd8ea105cc010de198cdb3fc1cd80acbfd4cfa48f0cb4385a2f345e",
+      "agent-control-planes/findings.json": "91ebbd2dce8ea3561cd7f1a6e42239b2061e0d835303b8c922d9802577d083da",
+      "agent-control-planes/review-labels.json": "988cbe581bbc70a3e38a37886de7afb1497380650faede16bd0a606755b25003",
+      "aux/REVIEW.md": "58ea0ab161540a507b02763a95e0960300655cd36345c40d2bb3346fbc01ebfa",
+      "aux/findings.json": "78519bc915602e5859549f502031cd4227b375e384b3f91f4f6827f8799cbbff",
+      "aux/review-labels.json": "1e29a5de5d1425dfc667f39d0b7e29590cc8e029090bf51ab51bade6a9441a6f",
+      "distributed-training/REVIEW.md": "75ea09c35819628e7049542297b64c9bbb992f9da2134e4db14f478a4d36bd01",
+      "distributed-training/findings.json": "6ece60e683106e921f84c86680fdc7225c7ef9c1141778f8563cfa0faafa81d9",
+      "distributed-training/review-labels.json": "f339cd198dd95743a8f928325e60c10a9baf227d62db080253b55662b2a15c8f",
+      "funding-de-eu/REVIEW.md": "a077db341995125a472465fa28cc20851b4b0e691fb673a23cf353325a57fd84",
+      "funding-de-eu/findings.json": "c5cb728a0df82e5993dc160aa437469863b8ca95e5c95ae0e9a8481e9c525499",
+      "funding-de-eu/review-labels.json": "658df77ee8d46237ef83d2c584307fa63e54384dac7a7e600418b4783cb33ff0",
+      "incubators/REVIEW.md": "a3aae3da15c12c49b6dd499f5c382f61b4efd3354bceff97f849e0dce3cb72be",
+      "incubators/findings.json": "fe946ab0730da545c5fe41fd9dc3870a79028234689ecfdcc354de215aa142ea",
+      "incubators/review-labels.json": "3633528e5c4d49b5f5b7c8aef544f95591471229035e19d533ba50e2f102e060",
+      "rag-memory/REVIEW.md": "8c8b4fe8d5f1fc1583c58149ec3b5991864394e5411e1d47a2674d99f0f0c742",
+      "rag-memory/findings.json": "5e55c42955a815ff7408b82e161e5ee4c6646a4fd62e48abb1304261f436428d",
+      "rag-memory/review-labels.json": "bfc617d9daacc73a931ab2ff431150280e2180bf958d9c62beaa135372f5ba97",
+      "review.schema.json": "fc39c1608efb5c6bce2d36ec0878525dc073fff5cbeddb3096889d6387fd7353",
+      "world-intelligence/REVIEW.md": "b13a763f87043ffccb35fc07d8c82fce16e9ae3e6ae2d67c350504ee46d08719",
+      "world-intelligence/findings.json": "3bba9e8d68d65f68a61af7e4e75ab70bbb275f020eb386f697aecc03dc3de42c",
+      "world-intelligence/review-labels.json": "464644652d2bce02fe28fd72c1625c5a854164c920347d4ef1a96ff9d12c0f24"
+    },
+    "all_schema_and_identity_checks_passed": true
+  },
+  "consumer_and_hosted_checks": {
+    "report_commit": "beeb72d80714cc91bf64de050da271e130dbb941",
+    "read_only_contents_api_files_verified": [
+      "agent-control-planes/REVIEW.md",
+      "agent-control-planes/findings.json",
+      "aux/REVIEW.md",
+      "aux/findings.json",
+      "distributed-training/REVIEW.md",
+      "distributed-training/findings.json",
+      "funding-de-eu/REVIEW.md",
+      "funding-de-eu/findings.json",
+      "incubators/REVIEW.md",
+      "incubators/findings.json",
+      "rag-memory/REVIEW.md",
+      "rag-memory/findings.json",
+      "world-intelligence/REVIEW.md",
+      "world-intelligence/findings.json"
+    ],
+    "all_hashes_match": true,
+    "run_metadata": {
+      "42710013748": {
+        "id": 42710013748,
+        "run_attempt": 1,
+        "status": "completed",
+        "conclusion": "success",
+        "head_sha": "57c41654fdda261ec2168e2e32ba7f1a76567002",
+        "created_at": "2026-11-09T22:14:11Z",
+        "updated_at": "2026-11-09T22:16:48Z",
+        "html_url": "https://github.com/JsonLord/Horizon/actions/runs/42710013748",
+        "artifacts": [
+          {
+            "id": 13714374806,
+            "name": "live-review-seven-domains",
+            "expired": false,
+            "expires_at": "2026-11-23T22:16:44Z"
+          }
+        ]
+      },
+      "42710566016": {
+        "id": 42710566016,
+        "run_attempt": 1,
+        "status": "completed",
+        "conclusion": "success",
+        "head_sha": "57c41654fdda261ec2168e2e32ba7f1a76567002",
+        "created_at": "2026-11-09T22:17:44Z",
+        "updated_at": "2026-11-09T22:18:35Z",
+        "html_url": "https://github.com/JsonLord/Horizon/actions/runs/42710566016",
+        "artifacts": [
+          {
+            "id": 13716285253,
+            "name": "validated-live-review",
+            "expired": false,
+            "expires_at": "2026-11-23T22:18:03Z"
+          }
+        ]
+      },
+      "42574191998": {
+        "id": 42574191998,
+        "run_attempt": 2,
+        "status": "completed",
+        "conclusion": "success",
+        "head_sha": "ef9996e76e7ce7788011862335c5af2430308d74",
+        "created_at": "2026-11-09T06:37:35Z",
+        "updated_at": "2026-11-09T22:18:21Z",
+        "html_url": "https://github.com/JsonLord/Horizon/actions/runs/42574191998"
+      }
+    }
+  },
+  "collection": {
+    "run": {
+      "id": 42710013748,
+      "html_url": "https://github.com/JsonLord/Horizon/actions/runs/42710013748",
+      "head_sha": "57c41654fdda261ec2168e2e32ba7f1a76567002",
+      "head_branch": "qualification/live-review-final-936d05a",
+      "status": "completed",
+      "conclusion": "success",
+      "created_at": "2026-11-09T22:14:11Z",
+      "updated_at": "2026-11-09T22:16:48Z"
+    },
+    "domains": [
+      {
+        "domain": "incubators",
+        "statistics": {
+          "cache_hits": 0,
+          "candidates": 5,
+          "confirmed_findings": 0,
+          "cost_usd": null,
+          "discovery_languages": {
+            "unknown": 10
+          },
+          "duplicates": 0,
+          "fresh_evidence_references": 2,
+          "historical_evidence_references": 8,
+          "known_tokens": 3594,
+          "model_requests": 6,
+          "program_coverage": {
+            "basis": "search query region; event geography unknown",
+            "exhaustive": false,
+            "freshness_days": 14,
+            "known_seed_count": 2,
+            "missing_regions": [
+              "Europe",
+              "global"
+            ],
+            "nomination_count": 3,
+            "primary_pages_attempted": 7,
+            "pruned_prior_records": 0,
+            "public_only": true,
+            "records": 5,
+            "regions": [],
+            "verified_primary_records": 3
+          },
+          "rejected": 0,
+          "retained_for_review": 5,
+          "retrieved_items": 5,
+          "review_worthy": 0,
+          "runtime_seconds": 6.225,
+          "source_failures": 2,
+          "source_languages": {
+            "unknown": 2
+          },
+          "token_usage_complete": true
+        },
+        "cache_replay": {
+          "cache_hits": 6,
+          "performed": true,
+          "provider_requests": 0,
+          "unchanged_content_avoids_calls": true
+        },
+        "acceptance": "PARTIAL",
+        "source_revision": "57c41654fdda261ec2168e2e32ba7f1a76567002",
+        "run_id": "42710013748"
+      },
+      {
+        "domain": "world-intelligence",
+        "statistics": {
+          "cache_hits": 0,
+          "candidates": 200,
+          "confirmed_findings": 0,
+          "cost_usd": null,
+          "discovery_languages": {
+            "en": 200
+          },
+          "duplicates": 3,
+          "fresh_evidence_references": 200,
+          "historical_evidence_references": 0,
+          "invalid_public_urls": 0,
+          "known_tokens": 22895,
+          "model_requests": 34,
+          "not_in_review_inventory": 105,
+          "rejected": 3,
+          "retained_for_review": 194,
+          "retrieved_items": 305,
+          "review_worthy": 2,
+          "runtime_seconds": 45.723,
+          "source_failures": 0,
+          "source_languages": {
+            "en": 2,
+            "unknown": 198
+          },
+          "token_usage_complete": true
+        },
+        "cache_replay": {
+          "cache_hits": 6,
+          "performed": true,
+          "provider_requests": 0,
+          "unchanged_content_avoids_calls": true
+        },
+        "acceptance": "REVIEW_READY",
+        "source_revision": "57c41654fdda261ec2168e2e32ba7f1a76567002",
+        "run_id": "42710013748"
+      },
+      {
+        "domain": "funding-de-eu",
+        "statistics": {
+          "cache_hits": 0,
+          "candidates": 3,
+          "confirmed_findings": 0,
+          "cost_usd": null,
+          "discovery_languages": {
+            "unknown": 40
+          },
+          "duplicates": 0,
+          "fresh_evidence_references": 3,
+          "historical_evidence_references": 37,
+          "known_tokens": 10449,
+          "model_requests": 18,
+          "rejected": 0,
+          "retained_for_review": 3,
+          "retrieved_items": 3,
+          "review_worthy": 0,
+          "runtime_seconds": 11.235,
+          "source_failures": 0,
+          "source_languages": {
+            "unknown": 3
+          },
+          "token_usage_complete": true
+        },
+        "cache_replay": {
+          "cache_hits": 6,
+          "performed": true,
+          "provider_requests": 0,
+          "unchanged_content_avoids_calls": true
+        },
+        "acceptance": "PARTIAL",
+        "source_revision": "57c41654fdda261ec2168e2e32ba7f1a76567002",
+        "run_id": "42710013748"
+      },
+      {
+        "domain": "aux",
+        "statistics": {
+          "cache_hits": 0,
+          "candidates": 41,
+          "confirmed_findings": 0,
+          "cost_usd": null,
+          "discovery_languages": {
+            "en": 25,
+            "unknown": 16
+          },
+          "duplicates": 1,
+          "fresh_evidence_references": 41,
+          "historical_evidence_references": 0,
+          "invalid_public_urls": 0,
+          "known_tokens": 23709,
+          "model_requests": 34,
+          "not_in_review_inventory": 0,
+          "rejected": 2,
+          "retained_for_review": 38,
+          "retrieved_items": 41,
+          "review_worthy": 3,
+          "runtime_seconds": 17.431,
+          "source_failures": 0,
+          "source_languages": {
+            "en": 12,
+            "unknown": 29
+          },
+          "token_usage_complete": true
+        },
+        "cache_replay": {
+          "cache_hits": 6,
+          "performed": true,
+          "provider_requests": 0,
+          "unchanged_content_avoids_calls": true
+        },
+        "acceptance": "REVIEW_READY",
+        "source_revision": "57c41654fdda261ec2168e2e32ba7f1a76567002",
+        "run_id": "42710013748"
+      },
+      {
+        "domain": "rag-memory",
+        "statistics": {
+          "cache_hits": 0,
+          "candidates": 39,
+          "confirmed_findings": 0,
+          "cost_usd": null,
+          "discovery_languages": {
+            "de": 13,
+            "en": 8,
+            "fr": 9,
+            "unknown": 9
+          },
+          "duplicates": 0,
+          "fresh_evidence_references": 39,
+          "historical_evidence_references": 0,
+          "invalid_public_urls": 0,
+          "known_tokens": 25258,
+          "model_requests": 34,
+          "not_in_review_inventory": 0,
+          "rejected": 4,
+          "retained_for_review": 35,
+          "retrieved_items": 39,
+          "review_worthy": 2,
+          "runtime_seconds": 18.599,
+          "source_failures": 0,
+          "source_languages": {
+            "de": 1,
+            "unknown": 38
+          },
+          "token_usage_complete": true
+        },
+        "cache_replay": {
+          "cache_hits": 6,
+          "performed": true,
+          "provider_requests": 0,
+          "unchanged_content_avoids_calls": true
+        },
+        "acceptance": "REVIEW_READY",
+        "source_revision": "57c41654fdda261ec2168e2e32ba7f1a76567002",
+        "run_id": "42710013748"
+      },
+      {
+        "domain": "distributed-training",
+        "statistics": {
+          "cache_hits": 0,
+          "candidates": 11,
+          "confirmed_findings": 0,
+          "cost_usd": null,
+          "discovery_languages": {
+            "de": 2,
+            "en": 8,
+            "fr": 1
+          },
+          "duplicates": 0,
+          "fresh_evidence_references": 11,
+          "historical_evidence_references": 0,
+          "invalid_public_urls": 0,
+          "known_tokens": 24140,
+          "model_requests": 34,
+          "not_in_review_inventory": 0,
+          "rejected": 2,
+          "retained_for_review": 9,
+          "retrieved_items": 11,
+          "review_worthy": 3,
+          "runtime_seconds": 19.529,
+          "source_failures": 0,
+          "source_languages": {
+            "en": 1,
+            "unknown": 10
+          },
+          "token_usage_complete": true
+        },
+        "cache_replay": {
+          "cache_hits": 6,
+          "performed": true,
+          "provider_requests": 0,
+          "unchanged_content_avoids_calls": true
+        },
+        "acceptance": "REVIEW_READY",
+        "source_revision": "57c41654fdda261ec2168e2e32ba7f1a76567002",
+        "run_id": "42710013748"
+      },
+      {
+        "domain": "agent-control-planes",
+        "statistics": {
+          "cache_hits": 0,
+          "candidates": 72,
+          "confirmed_findings": 0,
+          "cost_usd": null,
+          "discovery_languages": {
+            "de": 17,
+            "en": 25,
+            "fr": 24,
+            "unknown": 6
+          },
+          "duplicates": 0,
+          "fresh_evidence_references": 72,
+          "historical_evidence_references": 0,
+          "invalid_public_urls": 0,
+          "known_tokens": 25195,
+          "model_requests": 34,
+          "not_in_review_inventory": 0,
+          "rejected": 0,
+          "retained_for_review": 72,
+          "retrieved_items": 72,
+          "review_worthy": 4,
+          "runtime_seconds": 23.532,
+          "source_failures": 0,
+          "source_languages": {
+            "en": 3,
+            "fr": 5,
+            "unknown": 64
+          },
+          "token_usage_complete": true
+        },
+        "cache_replay": {
+          "cache_hits": 6,
+          "performed": true,
+          "provider_requests": 0,
+          "unchanged_content_avoids_calls": true
+        },
+        "acceptance": "REVIEW_READY",
+        "source_revision": "57c41654fdda261ec2168e2e32ba7f1a76567002",
+        "run_id": "42710013748"
+      }
+    ]
+  }
+}

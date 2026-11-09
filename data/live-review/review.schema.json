@@ -1,0 +1,412 @@
+{
+  "$defs": {
+    "Candidate": {
+      "additionalProperties": false,
+      "properties": {
+        "application_status": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Application Status"
+        },
+        "attention": {
+          "default": 0,
+          "maximum": 1,
+          "minimum": 0,
+          "title": "Attention",
+          "type": "number"
+        },
+        "classification": {
+          "default": "UNASSESSED",
+          "enum": [
+            "REVIEW",
+            "REJECTED",
+            "DUPLICATE",
+            "UNASSESSED",
+            "VERIFICATION_REQUIRED"
+          ],
+          "title": "Classification",
+          "type": "string"
+        },
+        "confirmed": {
+          "const": false,
+          "default": false,
+          "title": "Confirmed",
+          "type": "boolean"
+        },
+        "deadline": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Deadline"
+        },
+        "decisions": {
+          "additionalProperties": true,
+          "title": "Decisions",
+          "type": "object"
+        },
+        "duplicate_of": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Duplicate Of"
+        },
+        "eligibility": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Eligibility"
+        },
+        "event_id": {
+          "title": "Event Id",
+          "type": "string"
+        },
+        "evidence": {
+          "items": {
+            "$ref": "#/$defs/Evidence"
+          },
+          "maxItems": 20,
+          "title": "Evidence",
+          "type": "array"
+        },
+        "historical_application_status": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Historical Application Status"
+        },
+        "historical_deadline": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Historical Deadline"
+        },
+        "id": {
+          "title": "Id",
+          "type": "string"
+        },
+        "matched_topics": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Matched Topics",
+          "type": "array"
+        },
+        "missing_verification": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Missing Verification",
+          "type": "array"
+        },
+        "reasons": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Reasons",
+          "type": "array"
+        },
+        "technical_significance": {
+          "default": null,
+          "title": "Technical Significance",
+          "type": "null"
+        },
+        "title": {
+          "title": "Title",
+          "type": "string"
+        },
+        "url": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Url"
+        }
+      },
+      "required": [
+        "id",
+        "event_id",
+        "title"
+      ],
+      "title": "Candidate",
+      "type": "object"
+    },
+    "Evidence": {
+      "additionalProperties": false,
+      "properties": {
+        "content_hash": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Content Hash"
+        },
+        "discovery_language": {
+          "default": "unknown",
+          "title": "Discovery Language",
+          "type": "string"
+        },
+        "excerpt": {
+          "maxLength": 500,
+          "title": "Excerpt",
+          "type": "string"
+        },
+        "fresh": {
+          "default": true,
+          "title": "Fresh",
+          "type": "boolean"
+        },
+        "id": {
+          "title": "Id",
+          "type": "string"
+        },
+        "language": {
+          "enum": [
+            "en",
+            "de",
+            "fr",
+            "unknown"
+          ],
+          "title": "Language",
+          "type": "string"
+        },
+        "language_basis": {
+          "title": "Language Basis",
+          "type": "string"
+        },
+        "primary": {
+          "default": false,
+          "title": "Primary",
+          "type": "boolean"
+        },
+        "published_at": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Published At"
+        },
+        "publisher": {
+          "title": "Publisher",
+          "type": "string"
+        },
+        "retrieved_at": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Retrieved At"
+        },
+        "title": {
+          "title": "Title",
+          "type": "string"
+        },
+        "url": {
+          "title": "Url",
+          "type": "string"
+        }
+      },
+      "required": [
+        "id",
+        "url",
+        "publisher",
+        "title",
+        "excerpt",
+        "language",
+        "language_basis",
+        "published_at",
+        "retrieved_at"
+      ],
+      "title": "Evidence",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "acceptance": {
+      "enum": [
+        "REVIEW_READY",
+        "PARTIAL",
+        "EMPTY"
+      ],
+      "title": "Acceptance",
+      "type": "string"
+    },
+    "cache_replay": {
+      "additionalProperties": true,
+      "title": "Cache Replay",
+      "type": "object"
+    },
+    "candidates": {
+      "items": {
+        "$ref": "#/$defs/Candidate"
+      },
+      "maxItems": 200,
+      "title": "Candidates",
+      "type": "array"
+    },
+    "domain": {
+      "title": "Domain",
+      "type": "string"
+    },
+    "generated_at_utc": {
+      "title": "Generated At Utc",
+      "type": "string"
+    },
+    "limitations": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Limitations",
+      "type": "array"
+    },
+    "physical_data_branch": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "title": "Physical Data Branch"
+    },
+    "policy": {
+      "additionalProperties": true,
+      "title": "Policy",
+      "type": "object"
+    },
+    "precision_at_10": {
+      "default": null,
+      "title": "Precision At 10",
+      "type": "null"
+    },
+    "profile_id": {
+      "title": "Profile Id",
+      "type": "string"
+    },
+    "recall": {
+      "default": null,
+      "title": "Recall",
+      "type": "null"
+    },
+    "review_version": {
+      "const": "live-review-1.0",
+      "default": "live-review-1.0",
+      "title": "Review Version",
+      "type": "string"
+    },
+    "schema_version": {
+      "const": "1.0",
+      "default": "1.0",
+      "title": "Schema Version",
+      "type": "string"
+    },
+    "source_revision": {
+      "title": "Source Revision",
+      "type": "string"
+    },
+    "sources": {
+      "items": {
+        "additionalProperties": true,
+        "type": "object"
+      },
+      "title": "Sources",
+      "type": "array"
+    },
+    "statistics": {
+      "additionalProperties": true,
+      "title": "Statistics",
+      "type": "object"
+    },
+    "window_hours": {
+      "maximum": 168,
+      "minimum": 1,
+      "title": "Window Hours",
+      "type": "integer"
+    },
+    "workflow_run_id": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "title": "Workflow Run Id"
+    }
+  },
+  "required": [
+    "domain",
+    "profile_id",
+    "physical_data_branch",
+    "generated_at_utc",
+    "window_hours",
+    "source_revision",
+    "workflow_run_id",
+    "policy",
+    "sources",
+    "candidates",
+    "statistics",
+    "cache_replay",
+    "limitations",
+    "acceptance"
+  ],
+  "title": "ReviewPack",
+  "type": "object"
+}

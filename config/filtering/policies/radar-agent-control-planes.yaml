@@ -1,0 +1,30 @@
+{
+  "version": "radar-1.0-provisional",
+  "topics": [
+    "Multi-agent architectures",
+    "Agent orchestration",
+    "Control planes",
+    "Agent registries",
+    "Agent delegation",
+    "Task scheduling",
+    "Agent communication protocols",
+    "MCP interoperability",
+    "Agent observability",
+    "Agent security",
+    "Agent evaluation",
+    "Durable execution",
+    "Agent memory"
+  ],
+  "public_context": [
+    "Technical learning; preserve original evidence language; unknown relevance requires review."
+  ],
+  "weights": {
+    "relevance": 0.3,
+    "novelty": 0.2,
+    "importance": 0.2,
+    "actionability": 0.1,
+    "evidence": 0.2
+  },
+  "max_requests": 36,
+  "max_tokens": 200000
+}

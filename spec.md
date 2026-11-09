@@ -405,3 +405,27 @@ Use `uv sync --frozen --extra dev && uv run --extra dev pytest`, legacy MCP smok
 Implement in two reviewed workstreams: **A. branch/workflow safety**, then **B. program intelligence**. Deliver each gate with tests and commits, no force pushes. Do not merge, activate production cron, auto-merge generated PRs, change repository secrets/settings, or publish private profiles unless separately authorized. Existing recurring news research continues unchanged.
 
 Non-goals: second always-on Horizon deployment; new server/API; self-hosted runner; local background agent; scraping behind access controls; arbitrary public URLs or unchecked query execution; inferred eligibility or deadlines; mandatory Laya; model-created probabilities without calibrated labels.
+
+## Technical radar extension (2026-11-08 amendment)
+
+The fleet prompt is extended by the operator's **pull-based digest publication**
+amendment. Horizon handles multilingual collection, conservative technical
+filtering/scoring, attributed reports and weekly data publication only. The
+consumer-neutral contract is `docs/RADAR_PULL_CONTRACT.md`; its typed schemas live
+in `schemas/radar-*.schema.json`. No external agent API integration, webhook,
+wakeup, issue dispatch, delivery authentication/queue or consumer client is part
+of this extension.
+
+The approved branches are `radar/agent-control-planes`,
+`radar/distributed-training`, `radar/rag-memory`. They are data branches, separate
+from existing production archives. Fixed Friday 18:00 UTC windows are half-open;
+complete validated digests have a root latest pointer plus immutable ISO-week
+history, explicit versioned corrections, and an evidence-backed root manifest.
+Partial candidates remain artifacts, last-good pointers cannot regress, and
+missing-week catch-up cannot invent historical evidence. Schema-valid empty or
+short digests disclose insufficient technical evidence and language coverage.
+All shared inference uses the existing global configurable OpenAI chat endpoint;
+no provider settings belong in radar profiles. Scheduling/publication start false,
+manual qualification is read-only, and trusted code never executes data-branch
+files. Existing CLI/MCP/funding eligibility contracts are preserved. Live/hosted
+qualification must be reported separately from offline implementation tests.

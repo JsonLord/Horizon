@@ -1,0 +1,394 @@
+{
+  "inspected_at_utc": "2026-11-09T05:02:03.163008+00:00",
+  "runs": [
+    {
+      "id": 42558670374,
+      "html_url": "https://github.com/JsonLord/Horizon/actions/runs/42558670374",
+      "head_sha": "251c4877347e05337bb501a113669d53ecf142d9",
+      "head_branch": "qualification/systemone-db68178",
+      "status": "completed",
+      "conclusion": "failure",
+      "event": "workflow_dispatch",
+      "created_at": "2026-11-09T03:51:51Z",
+      "updated_at": "2026-11-09T03:52:18Z",
+      "jobs": [
+        {
+          "id": 128970010350,
+          "name": "qualify / qualify",
+          "status": "completed",
+          "conclusion": "failure",
+          "runner_name": "GitHub Actions 1000003337",
+          "started_at": "2026-11-09T03:51:54Z",
+          "completed_at": "2026-11-09T03:52:04Z",
+          "failed_steps": [
+            "Exercise shared provider and all three policies"
+          ],
+          "proof_notices": [
+            {
+              "title": "shared-filtering-smoke",
+              "proof": {
+                "live_inference": false,
+                "provider": {
+                  "family": "systemone",
+                  "model": "alias-laya",
+                  "status": "invalid_or_unavailable",
+                  "attempts": 1,
+                  "tokens": null,
+                  "cost": null,
+                  "error_code": "HTTP_404",
+                  "latency_ms": 831
+                },
+                "restoration_verified": true,
+                "restored_prior_runner_checkpoint": false,
+                "provider_requests": 3,
+                "cache_hits": 0,
+                "profiles": [
+                  "examples/ai-usability",
+                  "funding/de-eu",
+                  "world/global"
+                ],
+                "configuration": {
+                  "api_mode": "systemone",
+                  "expected_response_model_present": true,
+                  "routing": "exact_endpoint",
+                  "chat_url_present": true,
+                  "base_path_style": "prefix_without_v1",
+                  "base_url_present": true,
+                  "model_present": true,
+                  "key_present": true,
+                  "mode_is_openai_chat": false
+                },
+                "all_commands_live_validated": false,
+                "command_cells": [
+                  {
+                    "profile": "examples/ai-usability",
+                    "command": "relevance",
+                    "validated": false,
+                    "status": "circuit_open",
+                    "error_code": null
+                  },
+                  {
+                    "profile": "examples/ai-usability",
+                    "command": "worth-attention",
+                    "validated": false,
+                    "status": "circuit_open",
+                    "error_code": null
+                  },
+                  {
+                    "profile": "examples/ai-usability",
+                    "command": "same-story",
+                    "validated": false,
+                    "status": "circuit_open",
+                    "error_code": null
+                  },
+                  {
+                    "profile": "examples/ai-usability",
+                    "command": "importance",
+                    "validated": false,
+                    "status": "circuit_open",
+                    "error_code": null
+                  },
+                  {
+                    "profile": "examples/ai-usability",
+                    "command": "claim-support",
+                    "validated": false,
+                    "status": "circuit_open",
+                    "error_code": null
+                  },
+                  {
+                    "profile": "examples/ai-usability",
+                    "command": "hfs",
+                    "validated": false,
+                    "status": "circuit_open",
+                    "error_code": null
+                  },
+                  {
+                    "profile": "funding/de-eu",
+                    "command": "relevance",
+                    "validated": false,
+                    "status": "circuit_open",
+                    "error_code": null
+                  },
+                  {
+                    "profile": "funding/de-eu",
+                    "command": "worth-attention",
+                    "validated": false,
+                    "status": "circuit_open",
+                    "error_code": null
+                  },
+                  {
+                    "profile": "funding/de-eu",
+                    "command": "same-story",
+                    "validated": false,
+                    "status": "circuit_open",
+                    "error_code": null
+                  },
+                  {
+                    "profile": "funding/de-eu",
+                    "command": "importance",
+                    "validated": false,
+                    "status": "circuit_open",
+                    "error_code": null
+                  },
+                  {
+                    "profile": "funding/de-eu",
+                    "command": "claim-support",
+                    "validated": false,
+                    "status": "circuit_open",
+                    "error_code": null
+                  },
+                  {
+                    "profile": "funding/de-eu",
+                    "command": "hfs",
+                    "validated": false,
+                    "status": "circuit_open",
+                    "error_code": null
+                  },
+                  {
+                    "profile": "world/global",
+                    "command": "relevance",
+                    "validated": false,
+                    "status": "circuit_open",
+                    "error_code": null
+                  },
+                  {
+                    "profile": "world/global",
+                    "command": "worth-attention",
+                    "validated": false,
+                    "status": "circuit_open",
+                    "error_code": null
+                  },
+                  {
+                    "profile": "world/global",
+                    "command": "same-story",
+                    "validated": false,
+                    "status": "circuit_open",
+                    "error_code": null
+                  },
+                  {
+                    "profile": "world/global",
+                    "command": "importance",
+                    "validated": false,
+                    "status": "circuit_open",
+                    "error_code": null
+                  },
+                  {
+                    "profile": "world/global",
+                    "command": "claim-support",
+                    "validated": false,
+                    "status": "circuit_open",
+                    "error_code": null
+                  },
+                  {
+                    "profile": "world/global",
+                    "command": "hfs",
+                    "validated": false,
+                    "status": "circuit_open",
+                    "error_code": null
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 128970061853,
+          "name": "qualify / restore",
+          "status": "completed",
+          "conclusion": "success",
+          "runner_name": "GitHub Actions 1000003338",
+          "started_at": "2026-11-09T03:52:06Z",
+          "completed_at": "2026-11-09T03:52:17Z",
+          "failed_steps": [],
+          "proof_notices": [
+            {
+              "title": "shared-checkpoint-recovery",
+              "proof": {
+                "scope": "checkpoint_recovery_only",
+                "restoration_verified": true,
+                "restored_prior_runner_checkpoint": true,
+                "source_revision": "251c4877347e05337bb501a113669d53ecf142d9",
+                "policy_versions": {
+                  "examples/ai-usability": "1.1-provisional",
+                  "funding/de-eu": "1.1-provisional",
+                  "world/global": "1.1-provisional"
+                },
+                "command_cache_verified": true,
+                "provider_requests": 0
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 42559142256,
+      "html_url": "https://github.com/JsonLord/Horizon/actions/runs/42559142256",
+      "head_sha": "48bd6b03a8fd3c16bb4b75ab30166bed8d833bf0",
+      "head_branch": "qualification/systemone-db68178",
+      "status": "completed",
+      "conclusion": "success",
+      "event": "workflow_dispatch",
+      "created_at": "2026-11-09T03:57:27Z",
+      "updated_at": "2026-11-09T03:57:38Z",
+      "jobs": [
+        {
+          "id": 128971477206,
+          "name": "sample",
+          "status": "completed",
+          "conclusion": "success",
+          "runner_name": "GitHub Actions 1000003339",
+          "started_at": "2026-11-09T03:57:30Z",
+          "completed_at": "2026-11-09T03:57:37Z",
+          "failed_steps": [],
+          "proof_notices": [
+            {
+              "title": "systemone-operator-sample",
+              "proof": {
+                "request_matches_operator_sample": true,
+                "request_model": "alias-laya",
+                "key_present": true,
+                "key_has_bearer_prefix": false,
+                "key_contains_whitespace": false,
+                "validated": false,
+                "http_status": 404,
+                "error_hint": "model_not_found_hint"
+              }
+            }
+          ]
+        },
+        {
+          "id": 128971478167,
+          "name": "qualify",
+          "status": "completed",
+          "conclusion": "skipped",
+          "runner_name": null,
+          "started_at": "2026-11-09T03:57:28Z",
+          "completed_at": "2026-11-09T03:57:28Z",
+          "failed_steps": [],
+          "proof_notices": []
+        }
+      ]
+    },
+    {
+      "id": 42559911506,
+      "html_url": "https://github.com/JsonLord/Horizon/actions/runs/42559911506",
+      "head_sha": "69267eed482cefa8d17539b35490b8940aed6d7e",
+      "head_branch": "qualification/systemone-db68178",
+      "status": "completed",
+      "conclusion": "success",
+      "event": "workflow_dispatch",
+      "created_at": "2026-11-09T04:06:09Z",
+      "updated_at": "2026-11-09T04:06:26Z",
+      "jobs": [
+        {
+          "id": 128973834854,
+          "name": "sample",
+          "status": "completed",
+          "conclusion": "success",
+          "runner_name": "GitHub Actions 1000003340",
+          "started_at": "2026-11-09T04:06:13Z",
+          "completed_at": "2026-11-09T04:06:25Z",
+          "failed_steps": [],
+          "proof_notices": [
+            {
+              "title": "systemone-operator-sample",
+              "proof": {
+                "request_matches_operator_sample": true,
+                "request_model": "alias-laya",
+                "key_present": true,
+                "key_has_bearer_prefix": false,
+                "key_contains_whitespace": false,
+                "validated": false,
+                "http_status": 404,
+                "error_hint": "model_not_found_hint",
+                "literal_curl": {
+                  "process_exit": 0,
+                  "http_status": 404,
+                  "http_version": "2",
+                  "redirects": "0",
+                  "same_token_and_payload": true,
+                  "validated": false,
+                  "error_hint": "model_not_found_hint"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 128973836520,
+          "name": "qualify",
+          "status": "completed",
+          "conclusion": "skipped",
+          "runner_name": null,
+          "started_at": "2026-11-09T04:06:11Z",
+          "completed_at": "2026-11-09T04:06:10Z",
+          "failed_steps": [],
+          "proof_notices": []
+        }
+      ]
+    },
+    {
+      "id": 42564928986,
+      "html_url": "https://github.com/JsonLord/Horizon/actions/runs/42564928986",
+      "head_sha": "69267eed482cefa8d17539b35490b8940aed6d7e",
+      "head_branch": "qualification/systemone-db68178",
+      "status": "completed",
+      "conclusion": "success",
+      "event": "workflow_dispatch",
+      "created_at": "2026-11-09T05:01:36Z",
+      "updated_at": "2026-11-09T05:01:54Z",
+      "jobs": [
+        {
+          "id": 128989270982,
+          "name": "sample",
+          "status": "completed",
+          "conclusion": "success",
+          "runner_name": "GitHub Actions 1000003345",
+          "started_at": "2026-11-09T05:01:39Z",
+          "completed_at": "2026-11-09T05:01:53Z",
+          "failed_steps": [],
+          "proof_notices": [
+            {
+              "title": "systemone-operator-sample",
+              "proof": {
+                "request_matches_operator_sample": true,
+                "request_model": "alias-laya",
+                "key_present": true,
+                "key_has_bearer_prefix": false,
+                "key_contains_whitespace": false,
+                "validated": false,
+                "http_status": 404,
+                "error_hint": "model_not_found_hint",
+                "literal_curl": {
+                  "process_exit": 0,
+                  "http_status": 404,
+                  "http_version": "2",
+                  "redirects": "0",
+                  "same_token_and_payload": true,
+                  "validated": false,
+                  "error_hint": "model_not_found_hint"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 128989272669,
+          "name": "qualify",
+          "status": "completed",
+          "conclusion": "skipped",
+          "runner_name": null,
+          "started_at": "2026-11-09T05:01:38Z",
+          "completed_at": "2026-11-09T05:01:37Z",
+          "failed_steps": [],
+          "proof_notices": []
+        }
+      ]
+    }
+  ],
+  "application_source": "db68178fceffa30005188dd3e676aad3a8c4cd8a",
+  "scope": "Read-only qualification and exact operator sample; no settings, schedules, merges or production publication",
+  "operator_report": "Operator reports the exact curl command succeeds; not independently observed in the operator environment",
+  "provider_readiness": "UNQUALIFIED: runner HTTPX and literal curl both return HTTP 404/model_not_found_hint"
+}

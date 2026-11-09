@@ -1,0 +1,657 @@
+{
+  "inspected_at_utc": "2026-11-09T02:45:50.575640+00:00",
+  "runs": [
+    {
+      "id": 42552489740,
+      "html_url": "https://github.com/JsonLord/Horizon/actions/runs/42552489740",
+      "head_sha": "7d714e70ef8c2665283dd0d8d88c327fb52a20d3",
+      "head_branch": "feature/technical-radar-fleet",
+      "status": "completed",
+      "conclusion": "success",
+      "event": "pull_request",
+      "created_at": "2026-11-09T02:43:31Z",
+      "updated_at": "2026-11-09T02:44:06Z",
+      "jobs": [
+        {
+          "id": 128950929638,
+          "name": "validate",
+          "status": "completed",
+          "conclusion": "success",
+          "runner_name": "GitHub Actions 1000003309",
+          "started_at": "2026-11-09T02:43:34Z",
+          "completed_at": "2026-11-09T02:44:05Z",
+          "failed_steps": [],
+          "proof_notices": []
+        }
+      ],
+      "artifacts": []
+    },
+    {
+      "id": 42552497344,
+      "html_url": "https://github.com/JsonLord/Horizon/actions/runs/42552497344",
+      "head_sha": "7d714e70ef8c2665283dd0d8d88c327fb52a20d3",
+      "head_branch": "feature/technical-radar-fleet",
+      "status": "completed",
+      "conclusion": "failure",
+      "event": "workflow_dispatch",
+      "created_at": "2026-11-09T02:43:36Z",
+      "updated_at": "2026-11-09T02:44:03Z",
+      "jobs": [
+        {
+          "id": 128950958263,
+          "name": "shared-filtering-qualify / qualify",
+          "status": "completed",
+          "conclusion": "failure",
+          "runner_name": "GitHub Actions 1000003310",
+          "started_at": "2026-11-09T02:43:40Z",
+          "completed_at": "2026-11-09T02:43:50Z",
+          "failed_steps": [
+            "Exercise shared provider and all three policies"
+          ],
+          "proof_notices": [
+            {
+              "title": "shared-filtering-smoke",
+              "proof": {
+                "live_inference": false,
+                "provider": {
+                  "family": "openai_chat",
+                  "model": "alias-laya",
+                  "status": "invalid_or_unavailable",
+                  "attempts": 1,
+                  "tokens": null,
+                  "cost": null,
+                  "error_code": "HTTP_404",
+                  "latency_ms": 602
+                },
+                "restoration_verified": true,
+                "restored_prior_runner_checkpoint": false,
+                "provider_requests": 3,
+                "cache_hits": 0,
+                "profiles": [
+                  "examples/ai-usability",
+                  "funding/de-eu",
+                  "world/global"
+                ],
+                "configuration": {
+                  "base_path_style": "prefix_without_v1",
+                  "base_url_present": true,
+                  "model_present": true,
+                  "key_present": true,
+                  "mode_is_openai_chat": true
+                },
+                "all_commands_live_validated": false,
+                "command_cells": [
+                  {
+                    "profile": "examples/ai-usability",
+                    "command": "relevance",
+                    "validated": false,
+                    "status": "circuit_open",
+                    "error_code": null
+                  },
+                  {
+                    "profile": "examples/ai-usability",
+                    "command": "worth-attention",
+                    "validated": false,
+                    "status": "circuit_open",
+                    "error_code": null
+                  },
+                  {
+                    "profile": "examples/ai-usability",
+                    "command": "same-story",
+                    "validated": false,
+                    "status": "circuit_open",
+                    "error_code": null
+                  },
+                  {
+                    "profile": "examples/ai-usability",
+                    "command": "importance",
+                    "validated": false,
+                    "status": "circuit_open",
+                    "error_code": null
+                  },
+                  {
+                    "profile": "examples/ai-usability",
+                    "command": "claim-support",
+                    "validated": false,
+                    "status": "circuit_open",
+                    "error_code": null
+                  },
+                  {
+                    "profile": "examples/ai-usability",
+                    "command": "hfs",
+                    "validated": false,
+                    "status": "circuit_open",
+                    "error_code": null
+                  },
+                  {
+                    "profile": "funding/de-eu",
+                    "command": "relevance",
+                    "validated": false,
+                    "status": "circuit_open",
+                    "error_code": null
+                  },
+                  {
+                    "profile": "funding/de-eu",
+                    "command": "worth-attention",
+                    "validated": false,
+                    "status": "circuit_open",
+                    "error_code": null
+                  },
+                  {
+                    "profile": "funding/de-eu",
+                    "command": "same-story",
+                    "validated": false,
+                    "status": "circuit_open",
+                    "error_code": null
+                  },
+                  {
+                    "profile": "funding/de-eu",
+                    "command": "importance",
+                    "validated": false,
+                    "status": "circuit_open",
+                    "error_code": null
+                  },
+                  {
+                    "profile": "funding/de-eu",
+                    "command": "claim-support",
+                    "validated": false,
+                    "status": "circuit_open",
+                    "error_code": null
+                  },
+                  {
+                    "profile": "funding/de-eu",
+                    "command": "hfs",
+                    "validated": false,
+                    "status": "circuit_open",
+                    "error_code": null
+                  },
+                  {
+                    "profile": "world/global",
+                    "command": "relevance",
+                    "validated": false,
+                    "status": "circuit_open",
+                    "error_code": null
+                  },
+                  {
+                    "profile": "world/global",
+                    "command": "worth-attention",
+                    "validated": false,
+                    "status": "circuit_open",
+                    "error_code": null
+                  },
+                  {
+                    "profile": "world/global",
+                    "command": "same-story",
+                    "validated": false,
+                    "status": "circuit_open",
+                    "error_code": null
+                  },
+                  {
+                    "profile": "world/global",
+                    "command": "importance",
+                    "validated": false,
+                    "status": "circuit_open",
+                    "error_code": null
+                  },
+                  {
+                    "profile": "world/global",
+                    "command": "claim-support",
+                    "validated": false,
+                    "status": "circuit_open",
+                    "error_code": null
+                  },
+                  {
+                    "profile": "world/global",
+                    "command": "hfs",
+                    "validated": false,
+                    "status": "circuit_open",
+                    "error_code": null
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 128950958981,
+          "name": "funding-review-qualify",
+          "status": "completed",
+          "conclusion": "skipped",
+          "runner_name": null,
+          "started_at": "2026-11-09T02:43:38Z",
+          "completed_at": "2026-11-09T02:43:38Z",
+          "failed_steps": [],
+          "proof_notices": []
+        },
+        {
+          "id": 128950959467,
+          "name": "funding-qualify",
+          "status": "completed",
+          "conclusion": "skipped",
+          "runner_name": null,
+          "started_at": "2026-11-09T02:43:38Z",
+          "completed_at": "2026-11-09T02:43:38Z",
+          "failed_steps": [],
+          "proof_notices": []
+        },
+        {
+          "id": 128950959731,
+          "name": "publish",
+          "status": "completed",
+          "conclusion": "skipped",
+          "runner_name": null,
+          "started_at": "2026-11-09T02:43:38Z",
+          "completed_at": "2026-11-09T02:43:38Z",
+          "failed_steps": [],
+          "proof_notices": []
+        },
+        {
+          "id": 128950959959,
+          "name": "collect",
+          "status": "completed",
+          "conclusion": "skipped",
+          "runner_name": null,
+          "started_at": "2026-11-09T02:43:38Z",
+          "completed_at": "2026-11-09T02:43:38Z",
+          "failed_steps": [],
+          "proof_notices": []
+        },
+        {
+          "id": 128951003232,
+          "name": "program-qualify",
+          "status": "completed",
+          "conclusion": "skipped",
+          "runner_name": null,
+          "started_at": "2026-11-09T02:43:48Z",
+          "completed_at": "2026-11-09T02:43:38Z",
+          "failed_steps": [],
+          "proof_notices": []
+        },
+        {
+          "id": 128951014875,
+          "name": "shared-filtering-qualify / restore",
+          "status": "completed",
+          "conclusion": "success",
+          "runner_name": "GitHub Actions 1000003315",
+          "started_at": "2026-11-09T02:43:52Z",
+          "completed_at": "2026-11-09T02:44:02Z",
+          "failed_steps": [],
+          "proof_notices": [
+            {
+              "title": "shared-checkpoint-recovery",
+              "proof": {
+                "scope": "checkpoint_recovery_only",
+                "restoration_verified": true,
+                "restored_prior_runner_checkpoint": true,
+                "source_revision": "7d714e70ef8c2665283dd0d8d88c327fb52a20d3",
+                "policy_versions": {
+                  "examples/ai-usability": "1.1-provisional",
+                  "funding/de-eu": "1.1-provisional",
+                  "world/global": "1.1-provisional"
+                },
+                "command_cache_verified": true,
+                "provider_requests": 0
+              }
+            }
+          ]
+        }
+      ],
+      "artifacts": [
+        {
+          "id": 13646171739,
+          "name": "shared-filtering-restored-proof",
+          "size_in_bytes": 383,
+          "digest": "sha256:07719ad37f560ddb6c234741d4f424f741a19e1e95902f90cc158b23f3d4bf1e",
+          "expired": false
+        },
+        {
+          "id": 13646171703,
+          "name": "shared-filtering-state",
+          "size_in_bytes": 4750,
+          "digest": "sha256:1b04f73698fea9b4ae280f64d51630116dab0057ce35235bdc5723023ea4f7d7",
+          "expired": false
+        }
+      ]
+    },
+    {
+      "id": 42552502452,
+      "html_url": "https://github.com/JsonLord/Horizon/actions/runs/42552502452",
+      "head_sha": "7d714e70ef8c2665283dd0d8d88c327fb52a20d3",
+      "head_branch": "feature/technical-radar-fleet",
+      "status": "completed",
+      "conclusion": "success",
+      "event": "workflow_dispatch",
+      "created_at": "2026-11-09T02:43:40Z",
+      "updated_at": "2026-11-09T02:43:59Z",
+      "jobs": [
+        {
+          "id": 128950972550,
+          "name": "collect",
+          "status": "completed",
+          "conclusion": "success",
+          "runner_name": "GitHub Actions 1000003311",
+          "started_at": "2026-11-09T02:43:43Z",
+          "completed_at": "2026-11-09T02:43:58Z",
+          "failed_steps": [],
+          "proof_notices": []
+        },
+        {
+          "id": 128951054991,
+          "name": "propose",
+          "status": "completed",
+          "conclusion": "skipped",
+          "runner_name": null,
+          "started_at": "2026-11-09T02:43:59Z",
+          "completed_at": "2026-11-09T02:43:59Z",
+          "failed_steps": [],
+          "proof_notices": []
+        }
+      ],
+      "artifacts": [
+        {
+          "id": 13645683483,
+          "name": "funding-update",
+          "size_in_bytes": 16362,
+          "digest": "sha256:b46121be139925c14c414ee28879cbe1185795254b76660604f52d649214b4cd",
+          "expired": false
+        }
+      ]
+    },
+    {
+      "id": 42552509052,
+      "html_url": "https://github.com/JsonLord/Horizon/actions/runs/42552509052",
+      "head_sha": "81ebc76d0d738b768fbde7d6df073f6c565ee827",
+      "head_branch": "qualification/radar-readonly-7d714e7",
+      "status": "completed",
+      "conclusion": "success",
+      "event": "workflow_dispatch",
+      "created_at": "2026-11-09T02:43:44Z",
+      "updated_at": "2026-11-09T02:44:17Z",
+      "jobs": [
+        {
+          "id": 128950994200,
+          "name": "radars (rag-memory) / collect",
+          "status": "completed",
+          "conclusion": "success",
+          "runner_name": "GitHub Actions 1000003312",
+          "started_at": "2026-11-09T02:43:47Z",
+          "completed_at": "2026-11-09T02:44:01Z",
+          "failed_steps": [],
+          "proof_notices": [
+            {
+              "title": "radar-checkpoint-proof",
+              "proof": {
+                "radar_id": "rag-memory",
+                "source_revision": "81ebc76d0d738b768fbde7d6df073f6c565ee827",
+                "files_verified": 63,
+                "checkpoint_verified": true,
+                "provider_requests": 0
+              }
+            },
+            {
+              "title": "radar-collection-proof",
+              "proof": {
+                "radar_id": "rag-memory",
+                "changed": true,
+                "telemetry": {
+                  "source": "radar_telemetry",
+                  "status": "telemetry",
+                  "model_requests": 3,
+                  "successful_decisions": 0,
+                  "known_total_tokens": 0,
+                  "token_usage_complete": false,
+                  "reported_usage_exceeds_token_budget": false,
+                  "cost_usd": null,
+                  "cost_basis": "unknown",
+                  "reserved_requests": 21,
+                  "reserved_tokens": 163500,
+                  "runtime_seconds": 3.304,
+                  "source_checks": 5,
+                  "unchanged_sources": 0,
+                  "collection_backlog": 7
+                },
+                "finding_count": 30,
+                "source_languages": [
+                  "de",
+                  "en",
+                  "unknown"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 128950994529,
+          "name": "radars (agent-control-planes) / collect",
+          "status": "completed",
+          "conclusion": "success",
+          "runner_name": "GitHub Actions 1000003313",
+          "started_at": "2026-11-09T02:43:47Z",
+          "completed_at": "2026-11-09T02:44:02Z",
+          "failed_steps": [],
+          "proof_notices": [
+            {
+              "title": "radar-checkpoint-proof",
+              "proof": {
+                "radar_id": "agent-control-planes",
+                "source_revision": "81ebc76d0d738b768fbde7d6df073f6c565ee827",
+                "files_verified": 63,
+                "checkpoint_verified": true,
+                "provider_requests": 0
+              }
+            },
+            {
+              "title": "radar-collection-proof",
+              "proof": {
+                "radar_id": "agent-control-planes",
+                "changed": true,
+                "telemetry": {
+                  "source": "radar_telemetry",
+                  "status": "telemetry",
+                  "model_requests": 3,
+                  "successful_decisions": 0,
+                  "known_total_tokens": 0,
+                  "token_usage_complete": false,
+                  "reported_usage_exceeds_token_budget": false,
+                  "cost_usd": null,
+                  "cost_basis": "unknown",
+                  "reserved_requests": 21,
+                  "reserved_tokens": 163500,
+                  "runtime_seconds": 3.691,
+                  "source_checks": 5,
+                  "unchanged_sources": 0,
+                  "collection_backlog": 52
+                },
+                "finding_count": 30,
+                "source_languages": [
+                  "en",
+                  "unknown"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 128950994928,
+          "name": "radars (distributed-training) / collect",
+          "status": "completed",
+          "conclusion": "success",
+          "runner_name": "GitHub Actions 1000003314",
+          "started_at": "2026-11-09T02:43:48Z",
+          "completed_at": "2026-11-09T02:44:05Z",
+          "failed_steps": [],
+          "proof_notices": [
+            {
+              "title": "radar-checkpoint-proof",
+              "proof": {
+                "radar_id": "distributed-training",
+                "source_revision": "81ebc76d0d738b768fbde7d6df073f6c565ee827",
+                "files_verified": 19,
+                "checkpoint_verified": true,
+                "provider_requests": 0
+              }
+            },
+            {
+              "title": "radar-collection-proof",
+              "proof": {
+                "radar_id": "distributed-training",
+                "changed": true,
+                "telemetry": {
+                  "source": "radar_telemetry",
+                  "status": "telemetry",
+                  "model_requests": 3,
+                  "successful_decisions": 0,
+                  "known_total_tokens": 0,
+                  "token_usage_complete": false,
+                  "reported_usage_exceeds_token_budget": false,
+                  "cost_usd": null,
+                  "cost_basis": "unknown",
+                  "reserved_requests": 21,
+                  "reserved_tokens": 163500,
+                  "runtime_seconds": 5.007,
+                  "source_checks": 5,
+                  "unchanged_sources": 0,
+                  "collection_backlog": 0
+                },
+                "finding_count": 8,
+                "source_languages": [
+                  "en",
+                  "unknown"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 128951066860,
+          "name": "radars (rag-memory) / validate",
+          "status": "completed",
+          "conclusion": "success",
+          "runner_name": "GitHub Actions 1000003316",
+          "started_at": "2026-11-09T02:44:03Z",
+          "completed_at": "2026-11-09T02:44:13Z",
+          "failed_steps": [],
+          "proof_notices": [
+            {
+              "title": "radar-checkpoint-proof",
+              "proof": {
+                "radar_id": "rag-memory",
+                "source_revision": "81ebc76d0d738b768fbde7d6df073f6c565ee827",
+                "files_verified": 63,
+                "checkpoint_verified": true,
+                "provider_requests": 0
+              }
+            }
+          ]
+        },
+        {
+          "id": 128951069117,
+          "name": "radars (agent-control-planes) / validate",
+          "status": "completed",
+          "conclusion": "success",
+          "runner_name": "GitHub Actions 1000003317",
+          "started_at": "2026-11-09T02:44:04Z",
+          "completed_at": "2026-11-09T02:44:12Z",
+          "failed_steps": [],
+          "proof_notices": [
+            {
+              "title": "radar-checkpoint-proof",
+              "proof": {
+                "radar_id": "agent-control-planes",
+                "source_revision": "81ebc76d0d738b768fbde7d6df073f6c565ee827",
+                "files_verified": 63,
+                "checkpoint_verified": true,
+                "provider_requests": 0
+              }
+            }
+          ]
+        },
+        {
+          "id": 128951083856,
+          "name": "radars (distributed-training) / validate",
+          "status": "completed",
+          "conclusion": "success",
+          "runner_name": "GitHub Actions 1000003318",
+          "started_at": "2026-11-09T02:44:07Z",
+          "completed_at": "2026-11-09T02:44:16Z",
+          "failed_steps": [],
+          "proof_notices": [
+            {
+              "title": "radar-checkpoint-proof",
+              "proof": {
+                "radar_id": "distributed-training",
+                "source_revision": "81ebc76d0d738b768fbde7d6df073f6c565ee827",
+                "files_verified": 19,
+                "checkpoint_verified": true,
+                "provider_requests": 0
+              }
+            }
+          ]
+        },
+        {
+          "id": 128951117343,
+          "name": "radars (agent-control-planes) / publish",
+          "status": "completed",
+          "conclusion": "skipped",
+          "runner_name": null,
+          "started_at": "2026-11-09T02:44:13Z",
+          "completed_at": "2026-11-09T02:44:12Z",
+          "failed_steps": [],
+          "proof_notices": []
+        },
+        {
+          "id": 128951119075,
+          "name": "radars (rag-memory) / publish",
+          "status": "completed",
+          "conclusion": "skipped",
+          "runner_name": null,
+          "started_at": "2026-11-09T02:44:13Z",
+          "completed_at": "2026-11-09T02:44:13Z",
+          "failed_steps": [],
+          "proof_notices": []
+        },
+        {
+          "id": 128951133003,
+          "name": "radars (distributed-training) / publish",
+          "status": "completed",
+          "conclusion": "skipped",
+          "runner_name": null,
+          "started_at": "2026-11-09T02:44:16Z",
+          "completed_at": "2026-11-09T02:44:16Z",
+          "failed_steps": [],
+          "proof_notices": []
+        }
+      ],
+      "artifacts": [
+        {
+          "id": 13646460103,
+          "name": "radar-distributed-training",
+          "size_in_bytes": 31786,
+          "digest": "sha256:59e4b4ce9ea9b8f3ed1a40584c4a8436d7701cdb63f89c24e78bdec78facc1f5",
+          "expired": false
+        },
+        {
+          "id": 13646355309,
+          "name": "radar-agent-control-planes",
+          "size_in_bytes": 128308,
+          "digest": "sha256:1b6bd0909260340167f7c317a9e3581950d38804353f14a6bd8728f235650f25",
+          "expired": false
+        },
+        {
+          "id": 13645589073,
+          "name": "radar-rag-memory",
+          "size_in_bytes": 109108,
+          "digest": "sha256:988ced88d4f418e98e04af22c778d3f60e08372f23064bb72a6f1ebefd48e6e2",
+          "expired": false
+        }
+      ]
+    }
+  ],
+  "artifact_download_in_executor": "denied by execution environment outbound policy; no signed artifact URLs retained",
+  "qualification_alias": {
+    "branch": "qualification/radar-readonly-7d714e7",
+    "commit": "81ebc76d0d738b768fbde7d6df073f6c565ee827",
+    "implementation_commit": "7d714e70ef8c2665283dd0d8d88c327fb52a20d3",
+    "only_difference": ".github/workflows/horizon-intel.yml replaced with the existing radar-fleet controller; production guards prevent publishing"
+  }
+}

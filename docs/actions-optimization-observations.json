@@ -1,0 +1,60 @@
+{
+  "audited_at_utc": "2026-11-09T02:16:58.323599+00:00",
+  "repository": "JsonLord/Horizon",
+  "is_fork": true,
+  "parent": "Thysrael/Horizon",
+  "actions_permissions": {
+    "integration_http_status": 403,
+    "operator_report": {
+      "enabled": true,
+      "allowed_actions": "all"
+    },
+    "execution_restored_inferred": false
+  },
+  "operator_fork_banner": "Workflows on this fork have been disabled.",
+  "pages": {
+    "status": "built",
+    "source_branch": "gh-pages",
+    "tree_entries": 35,
+    "post_path_entries": 7,
+    "feeds": [
+      "feed-en.xml",
+      "feed-zh.xml"
+    ],
+    "traffic_or_consumer_usage_verified": false
+  },
+  "recent_observed_run": {
+    "id": 42548115014,
+    "url": "https://github.com/JsonLord/Horizon/actions/runs/42548115014",
+    "created_at_utc": "2026-11-09T01:55:48Z",
+    "source_revision": "5582bdea8e1bc715816e7e881acde8afb5516624",
+    "runner": "GitHub Actions 1000003292",
+    "failed_step": "uv run --extra dev pytest",
+    "inference_step": "skipped",
+    "restore_job": "skipped",
+    "failure_cause": "unknown; logs unavailable to integration",
+    "new_dispatch_performed_for_this_task": false
+  },
+  "production_data_published": false,
+  "github_settings_changed": false,
+  "preserved_remote_fix": {
+    "commit": "b95ab064c7ec7371f970a7272d4ca3007536ed6a",
+    "change": "Python 3.11 f-string quoting compatibility",
+    "old_provider_compile_python311": "SyntaxError: f-string: unmatched opening parenthesis, line 76",
+    "fixed_provider_compile_python311": "pass",
+    "past_run_log_cause_confirmed": false,
+    "unpublished_optimization_commits_rebased": true,
+    "force_push_used": false
+  },
+  "local_post_integration_tests": {
+    "python_3_11": {
+      "passed": 499,
+      "seconds": 6.66
+    },
+    "python_3_12": {
+      "passed": 499,
+      "seconds": 5.0
+    },
+    "python_3_11_mcp_smokes": "both passed"
+  }
+}

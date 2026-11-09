@@ -1,0 +1,368 @@
+{
+  "collection_run_id": "42572214484",
+  "delivery_run_id": "42572616009",
+  "collection_source": "57c41654fdda261ec2168e2e32ba7f1a76567002",
+  "report_commit": "fdcde80d666e2bbf9afadac143b69c4e7a0fbb57",
+  "domains": [
+    {
+      "domain": "agent-control-planes",
+      "statistics": {
+        "cache_hits": 0,
+        "candidates": 83,
+        "confirmed_findings": 0,
+        "cost_usd": null,
+        "discovery_languages": {
+          "de": 18,
+          "en": 29,
+          "fr": 30,
+          "unknown": 6
+        },
+        "duplicates": 0,
+        "fresh_evidence_references": 83,
+        "historical_evidence_references": 0,
+        "invalid_public_urls": 0,
+        "known_tokens": 25295,
+        "model_requests": 34,
+        "not_in_review_inventory": 0,
+        "rejected": 0,
+        "retained_for_review": 83,
+        "retrieved_items": 83,
+        "review_worthy": 3,
+        "runtime_seconds": 19.75,
+        "source_failures": 0,
+        "source_languages": {
+          "de": 1,
+          "en": 2,
+          "fr": 5,
+          "unknown": 75
+        },
+        "token_usage_complete": true
+      },
+      "acceptance": "REVIEW_READY",
+      "cache_replay": {
+        "cache_hits": 6,
+        "performed": true,
+        "provider_requests": 0,
+        "unchanged_content_avoids_calls": true
+      },
+      "fully_model_evaluated": 5,
+      "partially_model_evaluated": 1
+    },
+    {
+      "domain": "aux",
+      "statistics": {
+        "cache_hits": 0,
+        "candidates": 38,
+        "confirmed_findings": 0,
+        "cost_usd": null,
+        "discovery_languages": {
+          "en": 21,
+          "unknown": 17
+        },
+        "duplicates": 2,
+        "fresh_evidence_references": 38,
+        "historical_evidence_references": 0,
+        "invalid_public_urls": 0,
+        "known_tokens": 23377,
+        "model_requests": 34,
+        "not_in_review_inventory": 0,
+        "rejected": 2,
+        "retained_for_review": 34,
+        "retrieved_items": 38,
+        "review_worthy": 2,
+        "runtime_seconds": 16.353,
+        "source_failures": 0,
+        "source_languages": {
+          "en": 13,
+          "unknown": 25
+        },
+        "token_usage_complete": true
+      },
+      "acceptance": "REVIEW_READY",
+      "cache_replay": {
+        "cache_hits": 6,
+        "performed": true,
+        "provider_requests": 0,
+        "unchanged_content_avoids_calls": true
+      },
+      "fully_model_evaluated": 5,
+      "partially_model_evaluated": 1
+    },
+    {
+      "domain": "distributed-training",
+      "statistics": {
+        "cache_hits": 0,
+        "candidates": 9,
+        "confirmed_findings": 0,
+        "cost_usd": null,
+        "discovery_languages": {
+          "de": 1,
+          "en": 8
+        },
+        "duplicates": 0,
+        "fresh_evidence_references": 9,
+        "historical_evidence_references": 0,
+        "invalid_public_urls": 0,
+        "known_tokens": 24668,
+        "model_requests": 34,
+        "not_in_review_inventory": 0,
+        "rejected": 1,
+        "retained_for_review": 8,
+        "retrieved_items": 9,
+        "review_worthy": 3,
+        "runtime_seconds": 17.993,
+        "source_failures": 0,
+        "source_languages": {
+          "en": 1,
+          "unknown": 8
+        },
+        "token_usage_complete": true
+      },
+      "acceptance": "REVIEW_READY",
+      "cache_replay": {
+        "cache_hits": 6,
+        "performed": true,
+        "provider_requests": 0,
+        "unchanged_content_avoids_calls": true
+      },
+      "fully_model_evaluated": 5,
+      "partially_model_evaluated": 1
+    },
+    {
+      "domain": "funding-de-eu",
+      "statistics": {
+        "cache_hits": 0,
+        "candidates": 3,
+        "confirmed_findings": 0,
+        "cost_usd": null,
+        "discovery_languages": {
+          "unknown": 40
+        },
+        "duplicates": 0,
+        "fresh_evidence_references": 3,
+        "historical_evidence_references": 37,
+        "known_tokens": 10413,
+        "model_requests": 18,
+        "rejected": 0,
+        "retained_for_review": 3,
+        "retrieved_items": 3,
+        "review_worthy": 0,
+        "runtime_seconds": 10.738,
+        "source_failures": 0,
+        "source_languages": {
+          "unknown": 3
+        },
+        "token_usage_complete": true
+      },
+      "acceptance": "PARTIAL",
+      "cache_replay": {
+        "cache_hits": 6,
+        "performed": true,
+        "provider_requests": 0,
+        "unchanged_content_avoids_calls": true
+      },
+      "fully_model_evaluated": 3,
+      "partially_model_evaluated": 0
+    },
+    {
+      "domain": "incubators",
+      "statistics": {
+        "cache_hits": 0,
+        "candidates": 5,
+        "confirmed_findings": 0,
+        "cost_usd": null,
+        "discovery_languages": {
+          "unknown": 10
+        },
+        "duplicates": 0,
+        "fresh_evidence_references": 2,
+        "historical_evidence_references": 8,
+        "known_tokens": 3594,
+        "model_requests": 6,
+        "program_coverage": {
+          "basis": "search query region; event geography unknown",
+          "exhaustive": false,
+          "freshness_days": 14,
+          "known_seed_count": 2,
+          "missing_regions": [
+            "Europe",
+            "global"
+          ],
+          "nomination_count": 3,
+          "primary_pages_attempted": 7,
+          "pruned_prior_records": 0,
+          "public_only": true,
+          "records": 5,
+          "regions": [],
+          "verified_primary_records": 3
+        },
+        "rejected": 0,
+        "retained_for_review": 5,
+        "retrieved_items": 5,
+        "review_worthy": 0,
+        "runtime_seconds": 6.218,
+        "source_failures": 2,
+        "source_languages": {
+          "unknown": 2
+        },
+        "token_usage_complete": true
+      },
+      "acceptance": "PARTIAL",
+      "cache_replay": {
+        "cache_hits": 6,
+        "performed": true,
+        "provider_requests": 0,
+        "unchanged_content_avoids_calls": true
+      },
+      "fully_model_evaluated": 1,
+      "partially_model_evaluated": 0
+    },
+    {
+      "domain": "rag-memory",
+      "statistics": {
+        "cache_hits": 0,
+        "candidates": 37,
+        "confirmed_findings": 0,
+        "cost_usd": null,
+        "discovery_languages": {
+          "de": 13,
+          "en": 7,
+          "fr": 7,
+          "unknown": 10
+        },
+        "duplicates": 0,
+        "fresh_evidence_references": 37,
+        "historical_evidence_references": 0,
+        "invalid_public_urls": 0,
+        "known_tokens": 25166,
+        "model_requests": 34,
+        "not_in_review_inventory": 0,
+        "rejected": 4,
+        "retained_for_review": 33,
+        "retrieved_items": 37,
+        "review_worthy": 2,
+        "runtime_seconds": 17.35,
+        "source_failures": 0,
+        "source_languages": {
+          "en": 1,
+          "unknown": 36
+        },
+        "token_usage_complete": true
+      },
+      "acceptance": "REVIEW_READY",
+      "cache_replay": {
+        "cache_hits": 6,
+        "performed": true,
+        "provider_requests": 0,
+        "unchanged_content_avoids_calls": true
+      },
+      "fully_model_evaluated": 5,
+      "partially_model_evaluated": 1
+    },
+    {
+      "domain": "world-intelligence",
+      "statistics": {
+        "cache_hits": 0,
+        "candidates": 200,
+        "confirmed_findings": 0,
+        "cost_usd": null,
+        "discovery_languages": {
+          "en": 200
+        },
+        "duplicates": 0,
+        "fresh_evidence_references": 200,
+        "historical_evidence_references": 0,
+        "invalid_public_urls": 0,
+        "known_tokens": 22448,
+        "model_requests": 34,
+        "not_in_review_inventory": 124,
+        "rejected": 2,
+        "retained_for_review": 198,
+        "retrieved_items": 324,
+        "review_worthy": 2,
+        "runtime_seconds": 46.566,
+        "source_failures": 0,
+        "source_languages": {
+          "en": 4,
+          "unknown": 196
+        },
+        "token_usage_complete": true
+      },
+      "acceptance": "REVIEW_READY",
+      "cache_replay": {
+        "cache_hits": 6,
+        "performed": true,
+        "provider_requests": 0,
+        "unchanged_content_avoids_calls": true
+      },
+      "fully_model_evaluated": 5,
+      "partially_model_evaluated": 1
+    }
+  ],
+  "consumer_verification": {
+    "report_commit": "fdcde80d666e2bbf9afadac143b69c4e7a0fbb57",
+    "consumer": "separate read-only GitHub Contents API requests pinned to report commit",
+    "files_verified": [
+      "rag-memory/REVIEW.md",
+      "distributed-training/REVIEW.md",
+      "aux/REVIEW.md",
+      "funding-de-eu/REVIEW.md",
+      "agent-control-planes/REVIEW.md",
+      "world-intelligence/REVIEW.md",
+      "incubators/REVIEW.md",
+      "rag-memory/findings.json",
+      "distributed-training/findings.json",
+      "aux/findings.json",
+      "funding-de-eu/findings.json",
+      "agent-control-planes/findings.json",
+      "world-intelligence/findings.json",
+      "incubators/findings.json"
+    ],
+    "historical_report_verified_at": "17e4ec943d7dfc0407539b4adc711d07c3eb9b77",
+    "all_checks_passed": true
+  },
+  "production_refs": {
+    "expected_unchanged": {
+      "main": "c9dcef30a10ffe67b8e399baea5c2a6787c7dfd2",
+      "radar/agent-control-planes": "d9d88dc5bfd82b8fb40cabd6ebc283db01980325",
+      "radar/distributed-training": "0f7a702cd4e8b75acb39cf659b6b24c69c9572c8",
+      "radar/rag-memory": "09efe2f6f4a18213545ba00ef507fd5afa0bf0d4"
+    },
+    "observed": {
+      "main": "c9dcef30a10ffe67b8e399baea5c2a6787c7dfd2",
+      "radar/agent-control-planes": "d9d88dc5bfd82b8fb40cabd6ebc283db01980325",
+      "radar/distributed-training": "0f7a702cd4e8b75acb39cf659b6b24c69c9572c8",
+      "radar/rag-memory": "09efe2f6f4a18213545ba00ef507fd5afa0bf0d4",
+      "intel": "5c28eebb15b1d92fd3f16fcc7c18a331d634b7f8"
+    },
+    "main_and_radars_unchanged": true
+  },
+  "tests": {
+    "python311_pytest_passed": 544,
+    "python311_pytest_seconds": 5.25,
+    "hosted_regression_run_id": "42572192768",
+    "hosted_regression": "success",
+    "mcp_smokes": "PASS: legacy plus actual stdio,24tools/15profiles",
+    "funding_checks": "PASS: deterministic output, audit43links, authored seed/index",
+    "schemas": "PASS: seven review packs, exact schema, seven blank templates,23hashes; four radar schemas match",
+    "workflow_checks": "PASS: actionlint, schedule consistency, diff check"
+  },
+  "artifacts": {
+    "42572214484": [
+      {
+        "id": 13654055653,
+        "name": "live-review-seven-domains",
+        "expired": false,
+        "expires_at": "2026-11-23T06:20:45Z"
+      }
+    ],
+    "42572616009": [
+      {
+        "id": 13653827904,
+        "name": "validated-live-review",
+        "expired": false,
+        "expires_at": "2026-11-23T06:22:30Z"
+      }
+    ]
+  }
+}
