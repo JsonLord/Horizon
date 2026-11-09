@@ -182,8 +182,11 @@ production publishing. On reviewed main with the new workflow registered,
 `gh workflow run shared-filtering.yml --repo JsonLord/Horizon --ref main
 -f durability=false` is also read-only.
 
-The four settings remain `HORIZON_DECISION_BASE_URL`, `HORIZON_DECISION_MODEL`,
-`HORIZON_DECISION_API_MODE=openai_chat`, and secret `HORIZON_DECISION_API_KEY`.
+The approved provider now uses explicit `systemone` mode with the verified
+`alias-clef` request/response identity. Apply/check the five global variables with
+`scripts/configure-production-decisions.sh`; the existing
+`HORIZON_DECISION_API_KEY` secret is unchanged. See
+[production configuration status](PRODUCTION_DECISION_CONFIGURATION.md).
 Do not print their values. Inspect all 18 command/profile cells,
 `all_commands_live_validated`, actual reported model/usage and funding hard-gate
 results. `--require-live` makes an incomplete/fallback-only qualification fail,

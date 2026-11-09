@@ -299,3 +299,15 @@ Only supplied citations/event IDs can be selected; missing support or zero actio
 abstains. Funding hard eligibility is independent. No free-text finding, benchmark
 or pseudocode may be invented from a choice response. Technical-learning generation
 is explicitly unsupported in this mode and falls back to deterministic review.
+
+## Approved production decision configuration (2026-11-09)
+
+The operator authorized promoting the verified test-d SystemOne operation with
+alias-clef to the global GitHub variables. Use
+`bash scripts/configure-production-decisions.sh --apply` and then `--check` with
+an identity allowed to manage repository Actions variables. Do not change the
+API key or put these values in profiles. The integration denied all five writes
+with403; do not claim production configured until readback and an override-free
+qualification succeed. See docs/PRODUCTION_DECISION_CONFIGURATION.md. Native
+choice classification is qualified; generative technical-learning remains
+unsupported. This authorization does not merge PR8 or enable schedules.

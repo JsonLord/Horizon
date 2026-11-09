@@ -1,0 +1,27 @@
+{
+  "attempted_at_utc": "2026-11-09T05:09:41.298016+00:00",
+  "repository": "JsonLord/Horizon",
+  "results": [
+    {
+      "name": "HORIZON_DECISION_BASE_URL",
+      "status": "denied_403"
+    },
+    {
+      "name": "HORIZON_DECISION_CHAT_URL",
+      "status": "denied_403"
+    },
+    {
+      "name": "HORIZON_DECISION_MODEL",
+      "status": "denied_403"
+    },
+    {
+      "name": "HORIZON_DECISION_RESPONSE_MODEL",
+      "status": "denied_403"
+    },
+    {
+      "name": "HORIZON_DECISION_API_MODE",
+      "status": "denied_403"
+    }
+  ],
+  "all_applied": false
+}

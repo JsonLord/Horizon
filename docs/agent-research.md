@@ -951,3 +951,18 @@ This supersedes the inference-unqualified status only for these native public
 fixture checks on the temporary host. Original host/laya failure and generative
 technical-learning limitations remain. Evidence and configuration:
 docs/SYSTEMONE_TEST_SERVER_ACCEPTANCE_2026-11-09.md/.json.
+
+## 2026-11-09 — Authorized production provider promotion
+
+Operator authorized the verified test-d native operation and alias-clef for
+production globals. All five Actions-variable PATCH/creation attempts denied403
+Resource not accessible by integration; no value applied and read access denied.
+No auth bypass, secret change, merge, schedule or production publication. Added
+reviewable scripts/configure-production-decisions.sh with read-access preflight,
+mode-last updates and exact readback, plus production configuration/status docs.
+All shared/radar consumers already use the five globals from the native adapter.
+Local full Python3.11 suite524passed in5.17s; both MCP smokes passed24tools/15profiles;
+funding audit/projections, actionlint/schedule/shell syntax passed. Helper --check
+fails closed on403. Earlier live temporary qualification18/18 plus fresh restore
+passed; persistent readback and override-free acceptance await authorized settings.
+Evidence: docs/PRODUCTION_DECISION_CONFIGURATION.md/.json.

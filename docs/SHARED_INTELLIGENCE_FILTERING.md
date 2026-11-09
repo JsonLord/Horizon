@@ -1,6 +1,8 @@
 # Shared filtering operations
 
-The shared pipeline uses `DecisionModelProvider`, defaulting to `openai_chat`.
+The shared pipeline uses `DecisionModelProvider`. With no API mode configured,
+inference stays off and deterministic fallback works. Select `openai_chat` or
+`systemone` explicitly; the approved production selection is now `systemone`.
 The operator-supplied 2026-11-09 native example also enables explicit `systemone`
 mode; protocols are never selected automatically from a model name or HTTP error. Existing
 Laya/native program code is retained for legacy program research and is never
@@ -13,18 +15,39 @@ all new semantic decisions use the same global settings:
 | HORIZON_DECISION_CHAT_URL | Optional repository variable: complete POST URL; used verbatim, overrides base |
 | HORIZON_DECISION_MODEL | Repository variable: exact model identifier |
 | HORIZON_DECISION_API_KEY | Repository secret: optional authentication token |
-| HORIZON_DECISION_API_MODE | Repository variable: `openai_chat` (default) or explicit `systemone` |
+| HORIZON_DECISION_API_MODE | Repository variable: `openai_chat` or `systemone`; unset disables inference |
 | HORIZON_DECISION_RESPONSE_MODEL | Expected returned model identity; required for SystemOne aliases |
 
 When HORIZON_DECISION_CHAT_URL is set, the client POSTs to that exact public HTTPS
-operation URL without appending a path. The OpenAI chat JSON body, model check,
-schema/citation checks, redirect policy and fallback are unchanged. No endpoint
-belongs in a profile. When the override is absent, the client appends `/v1/chat/completions` (or `/chat/completions` to a base already
-ending in `/v1`). It requires public HTTPS, does not follow redirects with the
-key, verifies response model identity, validates JSON/citations/event references,
-and falls back deterministically. Unsupported strict response formats retry with
-ordinary JSON parsing plus the same schema validation. No native API or vendor
-SDK is selected. No OpenRouter/TypeSafe credentials are required.
+operation URL without appending a path. Without this override, `systemone` uses
+BASE_URL as the complete operation, while `openai_chat` appends `/v1/chat/completions`
+(or `/chat/completions` to a base already ending in `/v1`). Both modes require public
+HTTPS, refuse redirects, validate identity/schema/citations/event references, and
+fall back deterministically. OpenAI strict-format rejection retries ordinary JSON
+parsing with the same schema. No vendor SDK, OpenRouter or TypeSafe key is needed.
+No endpoint belongs in a research profile.
+
+## Approved production provider
+
+The operator approved promotion of the successfully tested test-d SystemOne
+operation with `alias-clef`. Run the reviewed, idempotent configuration helper
+with a GitHub identity allowed to edit repository Actions variables:
+
+```sh
+bash scripts/configure-production-decisions.sh --apply
+bash scripts/configure-production-decisions.sh --check
+```
+
+It sets both URL variables to the exact `/v1/systemone` operation, MODEL and
+RESPONSE_MODEL to `alias-clef`, and API_MODE to `systemone`. The existing API key
+is untouched. See [production configuration status](PRODUCTION_DECISION_CONFIGURATION.md)
+for the complete values and authorization blocker. This is global deployment
+configuration; runtime code and profiles contain no provider URLs or model IDs.
+
+After variables are applied, run the read-only shared qualification with **no
+provider overrides** and require 18/18 cells plus independent recovery. A temporary
+override passing does not prove the repository settings were saved. No merge,
+schedule activation or archive publication is part of this configuration step.
 
 ## Profiles and policies
 
