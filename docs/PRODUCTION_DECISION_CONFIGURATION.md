@@ -74,3 +74,8 @@ Production-variable readback and override-free live qualification remain blocked
 until an authorized GitHub identity applies the settings. Native choices cannot
 produce arbitrary technical explanations/code: that capability retains deterministic
 review fallback. No model scores can override evidence or funding eligibility.
+
+Hosted regression for c73505e: [42565881811](https://github.com/JsonLord/Horizon/actions/runs/42565881811)
+**PASS**: full pytest suite, schedule checks, deterministic funding projections,
+funding audit, authored-seed/research policy check and both MCP smokes. This does
+not change the403 production-variable authorization blocker.

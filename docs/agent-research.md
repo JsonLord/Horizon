@@ -966,3 +966,8 @@ funding audit/projections, actionlint/schedule/shell syntax passed. Helper --che
 fails closed on403. Earlier live temporary qualification18/18 plus fresh restore
 passed; persistent readback and override-free acceptance await authorized settings.
 Evidence: docs/PRODUCTION_DECISION_CONFIGURATION.md/.json.
+
+Hosted regression for c73505e: [42565881811](https://github.com/JsonLord/Horizon/actions/runs/42565881811)
+**PASS**: full pytest suite, schedule checks, deterministic funding projections,
+funding audit, authored-seed/research policy check and both MCP smokes. This does
+not change the403 production-variable authorization blocker.

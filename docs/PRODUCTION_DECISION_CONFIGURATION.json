@@ -23,5 +23,15 @@
       "status": "denied_403"
     }
   ],
-  "all_applied": false
+  "all_applied": false,
+  "hosted_regression": {
+    "id": 42565881811,
+    "html_url": "https://github.com/JsonLord/Horizon/actions/runs/42565881811",
+    "head_sha": "c73505ea343e359c387ee6f4eda372d06491128d",
+    "event": "pull_request",
+    "status": "completed",
+    "conclusion": "success",
+    "created_at": "2026-11-09T05:11:50Z",
+    "updated_at": "2026-11-09T05:12:21Z"
+  }
 }
