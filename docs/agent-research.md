@@ -995,3 +995,15 @@ access is still403, but runtime configuration is verified and no longer blocked.
 No merge, new schedule or production publication; PR8 draft. Evidence:
 docs/PRODUCTION_DECISION_CONFIGURATION.md/.json. Native generative limitations
 and original host/laya failure remain separate unresolved items.
+
+## 2026-11-09 — Real-findings portfolio milestone, implementation
+
+Read the operator's uploaded Real Findings Across All Research Domains task.
+Implemented isolated seven-domain live-source review path and manual/reusable
+read-only workflow, approved collectors/registries and six shared native choices.
+No technical-learning generation or legacy program inference is selected. Added
+honest per-candidate decision/budget/eligibility/unknown states, attributed original
+language excerpts, separate blank feedback templates, portfolio comparison and
+bounded public-safe artifact fallback. Thirteen targeted tests pass, including
+real funding/program adapter boundaries and unchanged-input zero-call replay.
+Hosted real-source evaluation is next; unit fixtures are not research findings.
