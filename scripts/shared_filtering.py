@@ -48,7 +48,7 @@ async def qualify(output,restore=False,restore_only=False,chat_url=None):
         print('::notice title=shared-checkpoint-recovery::'+json.dumps(proof))
         return proof
     provider=DecisionModelProvider()
-    if chat_url:provider.chat_url=qualification_endpoint(provider.base,chat_url)
+    if chat_url:provider.chat_url=qualification_endpoint(provider.request_url,chat_url)
     # A disclosed inference fixture, never a published research finding.
     payload={'summary':'Public fixture: accessibility testing tool adds keyboard-navigation checks.','evidence':[{'id':'smoke-public','snippet':'The fixture release adds keyboard-navigation checks.'}]}
     decision,meta=await provider.decide('relevance',payload)

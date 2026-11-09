@@ -61,3 +61,12 @@ inference requests. The old Actions-disabled blocker is superseded by these
 observations; provider readiness remains FAIL/unqualified. Full safe evidence,
 run links and the unresolved endpoint/model-routing question are in
 ACTIONS_LIVE_VALIDATION_2026-11-09.md. No credentials or private endpoint exposed.
+
+## Exact-operation follow-up
+
+The operator's complete POST URL is now supported through the optional global
+HORIZON_DECISION_CHAT_URL. Live exact-mode tests still return404; a bounded safe
+JSON error classifier reports model_not_found_hint. The currently requested model
+is alias-laya; its supported mapping remains to be confirmed by the owner.
+See EXACT_ENDPOINT_VALIDATION_2026-11-09.md for source/run evidence and the403
+blocker saving the repository variable. Inference remains unqualified.

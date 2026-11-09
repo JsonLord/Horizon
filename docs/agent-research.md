@@ -860,3 +860,26 @@ or bypass: actual safe GitHub check annotations and artifact metadata provide
 reviewable evidence; hosted runners did download and verify artifacts. Proofs and
 limitations: docs/ACTIONS_LIVE_VALIDATION_2026-11-09.md and .json. Live provider
 readiness and production publication are still unqualified. PR #8 stays draft.
+
+## 2026-11-09 — Operator clarified an exact POST operation
+
+Added optional global HORIZON_DECISION_CHAT_URL with verbatim URL semantics and
+precedence over BASE_URL expansion. Preserved the standard OpenAI JSON contract,
+strict identity/schema/citation checks, public HTTPS/no redirects, and fallback.
+Effective request URL scopes caches; unused base changes do not invalidate an
+exact-URL cache. All shared profiles/radars use the same setting. Qualification
+input is restricted to the currently configured provider origin before any key
+is sent. No endpoint was hardcoded in profiles or application code.
+
+Actual exact-mode run 42554237210 still received HTTP404, 0/18 cells validated;
+fresh checkpoint recovery passed. Follow-up 42554666728 classified one exact
+operation error as application/json + model_not_found_hint without logging its
+body. Current configured alias is alias-laya. Requested the supported model ID
+from the owner; do not infer one from the URL or assume token validity/failure.
+
+Repository-variable write was attempted for the explicitly authorized operation
+but denied403 by integration permissions; nothing was saved. Test used the bounded
+same-origin read-only dispatch override, without production settings/publication.
+Code source19d586e; hosted PR CI42554215566 PASS. Local Python3.11 full suite504
+passed; operation routing, cache, security and parsing tests/lint pass. Evidence:
+docs/EXACT_ENDPOINT_VALIDATION_2026-11-09.md/.json. No merge/schedule/publication.
