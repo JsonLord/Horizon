@@ -45,6 +45,7 @@ jobs:
           RADAR_ID: ${{ inputs.radar }}
           RADAR_SCHEDULE: ${{ github.event.schedule }}
           GITHUB_TOKEN: ${{ github.token }}
+          HORIZON_DECISION_CHAT_URL: ${{ vars.HORIZON_DECISION_CHAT_URL }}
           HORIZON_DECISION_BASE_URL: ${{ vars.HORIZON_DECISION_BASE_URL }}
           HORIZON_DECISION_MODEL: ${{ vars.HORIZON_DECISION_MODEL }}
           HORIZON_DECISION_API_MODE: ${{ vars.HORIZON_DECISION_API_MODE }}

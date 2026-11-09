@@ -152,10 +152,15 @@ def test_checkpoint_integrity_and_narrow_paths(tmp_path):
     for name in ('../evil','intel/manifest.json','src/main.py','weekly/../../evil','reports/link.py'):assert not allowed_path(name)
 
 
-def test_model_technical_schema_fallback(monkeypatch):
+@pytest.mark.parametrize('routing',['base','exact'])
+def test_model_technical_schema_fallback(monkeypatch,routing):
     for k,v in {'BASE_URL':'https://inference.example.com','MODEL':'fixture-model','API_MODE':'openai_chat','API_KEY':'fixture-private-token'}.items():monkeypatch.setenv('HORIZON_DECISION_'+k,v)
+    if routing=='exact':
+        monkeypatch.delenv('HORIZON_DECISION_BASE_URL')
+        monkeypatch.setenv('HORIZON_DECISION_CHAT_URL','https://inference.example.com/custom-operation')
     r=ref();response=technical(r).model_dump(mode='json');calls=[]
     def handle(request):
+        assert request.url.path==('/custom-operation' if routing=='exact' else '/v1/chat/completions')
         body=json.loads(request.content);calls.append(body)
         if 'response_format' in body:return httpx.Response(422)
         return httpx.Response(200,json={'model':'fixture-model','choices':[{'message':{'content':json.dumps(response)}}],'usage':{'total_tokens':123}})

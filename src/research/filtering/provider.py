@@ -31,6 +31,7 @@ class DecisionModelProvider:
         if not 1<=concurrency<=4:raise ValueError("Invalid concurrency")
         self.semaphore=asyncio.Semaphore(concurrency)
         self.base=os.getenv('HORIZON_DECISION_BASE_URL','').rstrip('/')
+        self.chat_url=os.getenv('HORIZON_DECISION_CHAT_URL','')
         self.model=os.getenv('HORIZON_DECISION_MODEL','')
         self.key=os.getenv('HORIZON_DECISION_API_KEY','')
         self.mode=os.getenv('HORIZON_DECISION_API_MODE','off')
@@ -39,11 +40,16 @@ class DecisionModelProvider:
         self.failures=0
     @property
     def configured(self):
-        return self.mode=='openai_chat' and bool(self.base and self.model)
+        return self.mode=='openai_chat' and bool((self.chat_url or self.base) and self.model)
+    @property
+    def request_url(self):
+        # Explicit complete operation URL: preserve the operator's path verbatim.
+        if self.chat_url:return self.chat_url
+        return self.base+('/chat/completions' if self.base.endswith('/v1') else '/v1/chat/completions')
     def identity(self):
         # Bind cache to endpoint without publishing its URL or credentials.
         import hashlib
-        return hashlib.sha256((self.base+'|'+self.model+'|'+self.mode).encode()).hexdigest()
+        return hashlib.sha256((self.request_url+'|'+self.model+'|'+self.mode).encode()).hexdigest()
     async def decide(self,command,payload):
         async with self.semaphore:
             return await self._decide(command,payload)
@@ -52,10 +58,10 @@ class DecisionModelProvider:
         meta={'family':self.family,'model':self.model or None,'status':'unavailable','attempts':0,'tokens':None,'cost':None}
         if not self.configured:return None,meta
         if self.failures>=3:return None,{**meta,'status':'circuit_open'}
-        try:safe_url(self.base)
+        try:safe_url(self.request_url)
         except ValueError:return None,{**meta,'status':'invalid_configuration'}
-        # Accept repository base variables with or without the standard /v1 suffix.
-        url=self.base+('/chat/completions' if self.base.endswith('/v1') else '/v1/chat/completions')
+        # Custom gateways can expose the same JSON contract at an exact operation URL.
+        url=self.request_url
         verdicts=['same','development','different','contradiction','unknown'] if command=='same-story' else ['yes','no','unknown']
         response_type=Decision
         if command=='technical-learning':
@@ -105,7 +111,7 @@ class DecisionModelProvider:
                         decision.validate_evidence(payload.get('evidence',[]))
                         # Never allow configured credentials or endpoint echoes into output.
                         serialized=decision.model_dump_json()
-                        if self.key and self.key in serialized or self.base in serialized:raise ValueError('sensitive_echo')
+                        if self.key and self.key in serialized or any(u and u in serialized for u in (self.base,self.chat_url)):raise ValueError('sensitive_echo')
                     related={p['event_id'] for p in payload.get('previous',[])}
                     if command!='technical-learning' and decision.related_event_id is not None and decision.related_event_id not in related:raise ValueError('unknown_event')
                     if command=='same-story' and decision.verdict in ('same','development','contradiction') and decision.related_event_id is None:raise ValueError('missing_event_link')
@@ -131,6 +137,8 @@ class DecisionModelProvider:
             return None,{**meta,'status':'format_unavailable'}
         except Exception as exc:
             self.failures+=1
+            code=str(exc) if type(exc) is ValueError else None
+            if code in {'model_identity_mismatch','unknown_citation','command_verdict_mismatch','unknown_event','missing_event_link','response_limit','sensitive_echo'}:meta['validation_error']=code
             meta.update(status='invalid_or_unavailable',error_code='HTTP_'+str(exc.response.status_code) if isinstance(exc,httpx.HTTPStatusError) else type(exc).__name__,latency_ms=round((time.monotonic()-started)*1000))
             return None,meta
         finally:

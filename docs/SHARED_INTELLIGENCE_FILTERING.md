@@ -3,16 +3,20 @@
 The new pipeline uses only `DecisionModelProvider` (`openai_chat`). Existing
 Laya/native program code is retained for legacy program research and is never
 selected by the shared engine. Bound news profiles bypass legacy model selection;
-all new semantic decisions use the same four global settings:
+all new semantic decisions use the same global settings:
 
 | Actions configuration | Kind |
 | --- | --- |
-| HORIZON_DECISION_BASE_URL | Repository variable: API base URL |
+| HORIZON_DECISION_BASE_URL | Repository variable: API base URL (default routing) |
+| HORIZON_DECISION_CHAT_URL | Optional repository variable: complete POST URL; used verbatim, overrides base |
 | HORIZON_DECISION_MODEL | Repository variable: exact model identifier |
 | HORIZON_DECISION_API_KEY | Repository secret: optional authentication token |
 | HORIZON_DECISION_API_MODE | Repository variable: `openai_chat` |
 
-The client appends `/v1/chat/completions` (or `/chat/completions` to a base already
+When HORIZON_DECISION_CHAT_URL is set, the client POSTs to that exact public HTTPS
+operation URL without appending a path. The OpenAI chat JSON body, model check,
+schema/citation checks, redirect policy and fallback are unchanged. No endpoint
+belongs in a profile. When the override is absent, the client appends `/v1/chat/completions` (or `/chat/completions` to a base already
 ending in `/v1`). It requires public HTTPS, does not follow redirects with the
 key, verifies response model identity, validates JSON/citations/event references,
 and falls back deterministically. Unsupported strict response formats retry with

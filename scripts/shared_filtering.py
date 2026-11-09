@@ -12,7 +12,16 @@ from src.research.filtering.engine import DurableCheckpointStore,FeedbackStore
 from src.research.filtering.provider import DecisionModelProvider,COMMANDS
 from src.research.reporting import atomic,dumps
 
-async def qualify(output,restore=False,restore_only=False):
+def qualification_endpoint(base,value):
+    from urllib.parse import urlsplit
+    from src.research.profiles import safe_url
+    safe_url(base);safe_url(value)
+    origin=lambda u:(u.scheme,u.hostname,u.port or 443)
+    if origin(urlsplit(base))!=origin(urlsplit(value)):raise ValueError('Qualification endpoint must use the configured provider origin')
+    return value
+
+
+async def qualify(output,restore=False,restore_only=False,chat_url=None):
     output.mkdir(parents=True,exist_ok=True)
     restore=restore or restore_only
     if restore:
@@ -39,6 +48,7 @@ async def qualify(output,restore=False,restore_only=False):
         print('::notice title=shared-checkpoint-recovery::'+json.dumps(proof))
         return proof
     provider=DecisionModelProvider()
+    if chat_url:provider.chat_url=qualification_endpoint(provider.base,chat_url)
     # A disclosed inference fixture, never a published research finding.
     payload={'summary':'Public fixture: accessibility testing tool adds keyboard-navigation checks.','evidence':[{'id':'smoke-public','snippet':'The fixture release adds keyboard-navigation checks.'}]}
     decision,meta=await provider.decide('relevance',payload)
@@ -67,7 +77,7 @@ async def qualify(output,restore=False,restore_only=False):
     proof['all_commands_live_validated']=all(e['decision'] is not None for e in proof['command_qualification'])
     from urllib.parse import urlsplit
     path=urlsplit(provider.base).path.rstrip('/')
-    proof['configuration']={'base_path_style':'full_chat_endpoint' if path.endswith('/v1/chat/completions') else 'versioned_base' if path.endswith('/v1') else 'root_base' if not path else 'prefix_without_v1','base_url_present':bool(provider.base),'model_present':bool(provider.model),'key_present':bool(provider.key),'mode_is_openai_chat':provider.mode=='openai_chat'}
+    proof['configuration']={'routing':'exact_endpoint' if provider.chat_url else 'base_url','chat_url_present':bool(provider.chat_url),'base_path_style':'full_chat_endpoint' if path.endswith('/v1/chat/completions') else 'versioned_base' if path.endswith('/v1') else 'root_base' if not path else 'prefix_without_v1','base_url_present':bool(provider.base),'model_present':bool(provider.model),'key_present':bool(provider.key),'mode_is_openai_chat':provider.mode=='openai_chat'}
     proof['provider_requests']=provider.requests
     proof['cache_hits']=sum(r.get('cache_hit',False) for p in proof['policies'] for r in p['fixture_decisions'])
     proof['restored_prior_runner_checkpoint']=restore
@@ -83,10 +93,10 @@ async def qualify(output,restore=False,restore_only=False):
     return proof
 
 if __name__=='__main__':
-    p=argparse.ArgumentParser(description=__doc__);p.add_argument('--restore',action='store_true');p.add_argument('--restore-only',action='store_true');p.add_argument('--require-live',action='store_true');p.add_argument('--feedback',choices=['more_like_this','less_like_this','important_but_not_actionable']);p.add_argument('--profile');p.add_argument('--topics',nargs='*',default=[]);p.add_argument('--sources',nargs='*',default=[]);p.add_argument('--item');p.add_argument('--reason',default='Operator review');p.add_argument('--output',type=Path,default=Path('data/shared-filtering'));args=p.parse_args()
+    p=argparse.ArgumentParser(description=__doc__);p.add_argument('--restore',action='store_true');p.add_argument('--restore-only',action='store_true');p.add_argument('--chat-url',default=os.getenv('HORIZON_QUALIFICATION_CHAT_URL',''));p.add_argument('--require-live',action='store_true');p.add_argument('--feedback',choices=['more_like_this','less_like_this','important_but_not_actionable']);p.add_argument('--profile');p.add_argument('--topics',nargs='*',default=[]);p.add_argument('--sources',nargs='*',default=[]);p.add_argument('--item');p.add_argument('--reason',default='Operator review');p.add_argument('--output',type=Path,default=Path('data/shared-filtering'));args=p.parse_args()
     if args.feedback:
         if not args.profile or not args.item:p.error('Feedback needs --profile and --item')
         state=DurableCheckpointStore(args.output/'state.sqlite');FeedbackStore(state).add(args.profile,args.item,args.feedback,args.reason,topics=args.topics,sources=args.sources);state.close()
     else:
-        proof=asyncio.run(qualify(args.output,args.restore,args.restore_only))
+        proof=asyncio.run(qualify(args.output,args.restore,args.restore_only,args.chat_url))
         if args.require_live and not proof.get('all_commands_live_validated',False):raise SystemExit('Live qualification incomplete; inspect safe proof.json metadata')

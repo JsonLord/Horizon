@@ -153,3 +153,48 @@ def test_string_review_flags_are_not_valid_ground_truth():
     from scripts.benchmark_shared_filtering import metrics
     labels={'i':{'reviewed':'false','relevant':True,'important':True,'new_development':True,'supported':True}}
     assert metrics([{'item_id':'i','accepted':True}],labels)['precision_at_10'] is None
+
+
+def test_exact_chat_operation_url_is_not_rewritten(monkeypatch):
+    from src.research.filtering.provider import DecisionModelProvider
+    import asyncio,httpx,json
+    monkeypatch.setenv('HORIZON_DECISION_CHAT_URL','https://gateway.example.com/v1/custom')
+    monkeypatch.setenv('HORIZON_DECISION_BASE_URL','https://ignored.example.com/v1')
+    monkeypatch.setenv('HORIZON_DECISION_MODEL','test-model')
+    monkeypatch.setenv('HORIZON_DECISION_API_MODE','openai_chat')
+    seen=[]
+    def handle(request):
+        seen.append(str(request.url))
+        assert json.loads(request.content)['model']=='test-model'
+        return httpx.Response(404)
+    async def run():
+        async with httpx.AsyncClient(transport=httpx.MockTransport(handle)) as client:
+            provider=DecisionModelProvider(client)
+            assert provider.configured
+            await provider.decide('relevance',{'evidence':[]})
+            old=provider.identity();provider.base='https://another-unused.example.com'
+            assert provider.identity()==old
+            provider.chat_url='https://gateway.example.com/v1/changed'
+            assert provider.identity()!=old
+    asyncio.run(run())
+    assert seen==['https://gateway.example.com/v1/custom']
+
+
+def test_exact_chat_url_can_replace_base_and_fails_closed(monkeypatch):
+    from src.research.filtering.provider import DecisionModelProvider
+    import asyncio
+    monkeypatch.delenv('HORIZON_DECISION_BASE_URL',raising=False)
+    monkeypatch.setenv('HORIZON_DECISION_MODEL','test-model')
+    monkeypatch.setenv('HORIZON_DECISION_API_MODE','openai_chat')
+    monkeypatch.setenv('HORIZON_DECISION_CHAT_URL','http://localhost/internal')
+    provider=DecisionModelProvider()
+    assert provider.configured
+    value,meta=asyncio.run(provider.decide('relevance',{}))
+    assert value is None and meta['status']=='invalid_configuration' and provider.requests==0
+
+
+def test_qualification_url_cannot_redirect_model_secret_to_another_origin():
+    from scripts.shared_filtering import qualification_endpoint
+    assert qualification_endpoint('https://gateway.example.com/v1','https://gateway.example.com/operation')=='https://gateway.example.com/operation'
+    for bad in ('https://attacker.example.com/operation','http://gateway.example.com/operation','https://gateway.example.com/operation?token=secret'):
+        with pytest.raises(ValueError):qualification_endpoint('https://gateway.example.com/v1',bad)

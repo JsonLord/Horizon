@@ -268,3 +268,12 @@ state is bounded and per radar. Runtime/request/token/cost telemetry is in safe
 collection proof artifacts/logs. Unknown billing remains null; explicit dollar
 caps without prices fail closed. No-change snapshots skip artifact/publication.
 A due refresh may still update checkpoint timestamps even with no new findings.
+
+
+For gateways exposing chat JSON at a custom operation path, the optional global
+repository variable HORIZON_DECISION_CHAT_URL selects the complete POST URL
+verbatim. It overrides base expansion; do not append v1/chat/completions to it.
+BASE_URL compatibility remains the default when the override is absent. All shared
+policies and radars use the same setting, public-HTTPS validation, no redirects,
+strict response/citation checks and deterministic fallback. Never put an endpoint
+in a profile or infer that endpoint HTTP success proves structured inference.
