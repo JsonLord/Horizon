@@ -1,6 +1,14 @@
 # Production decision provider configuration
 
-Status: **implementation ready; GitHub variable application blocked by permissions**.
+Status: **saved GitHub configuration verified by live qualification, without overrides**.
+
+[Run42566477893](https://github.com/JsonLord/Horizon/actions/runs/42566477893) passed
+18/18 native command/profile cells and independent fresh-runner recovery. The
+owner applied the settings. Direct variable administration remains unavailable to
+the integration, but that no longer blocks runtime qualification. This verifies
+the feature-branch implementation; PR8 remains draft and main was not deployed.
+
+Historical configuration attempt:
 The operator approved production use on2026-11-09 after successful live native
 classification and independent recovery. All five repository-variable writes were
 attempted at05:09UTC and rejected403 Resource not accessible by integration. No
@@ -70,8 +78,8 @@ No production schedule is enabled or data published.
   recovery PASS, [run42565325280](https://github.com/JsonLord/Horizon/actions/runs/42565325280).
   See SYSTEMONE_TEST_SERVER_ACCEPTANCE_2026-11-09.md/.json for safe detailed proof.
 
-Production-variable readback and override-free live qualification remain blocked
-until an authorized GitHub identity applies the settings. Native choices cannot
+Direct variable-API readback remains denied to this integration. The owner has
+applied the settings, and override-free live qualification now passes (see below). Native choices cannot
 produce arbitrary technical explanations/code: that capability retains deterministic
 review fallback. No model scores can override evidence or funding eligibility.
 
@@ -90,3 +98,23 @@ cells. Independent checkpoint recovery passed. Owner must add repository variabl
 HORIZON_DECISION_RESPONSE_MODEL=alias-clef, then repeat override-free qualification.
 CHAT_URL is optional here because native mode uses the exact BASE_URL. No secret,
 settings, production data, merge or schedule was changed by this check.
+
+## Saved-settings acceptance PASS — 05:17 UTC
+
+[42566477893](https://github.com/JsonLord/Horizon/actions/runs/42566477893), application
+source3832608795b7a670227c8899121b583b0f2a782e, used only repository variables and
+the existing secret: no mode/model/URL/identity overrides. It reports systemone,
+request and verified response alias-clef, and18/18 schema-valid command/profile
+cells across AUX, Funding DE/EU and World Intelligence. Both URL variables were
+present and the exact-operation route was used. The job made37 provider requests
+including probe/policy exercises; initial decision340input/0output tokens,1178ms;
+whole-run cost unknown. Initial decision usage is not aggregate usage.
+
+Independent fresh-runner restoration verified source revision, policy versions,
+checkpoint and command-cache integrity, using zero provider requests. Hosted full
+regression42566366763 also passed for this source. No application changes required
+a new local suite after the prior524passing tests. Data collection and all
+publishers were skipped. No merge, schedule change or production publication.
+Original host/alias-laya availability remains unexplained, and native technical
+free-text generation remains unsupported; those limitations do not negate the
+verified choice-classification interface.

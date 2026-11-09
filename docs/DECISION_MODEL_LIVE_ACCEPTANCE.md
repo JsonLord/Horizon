@@ -112,3 +112,16 @@ This supersedes the inference-unqualified status only for these native public
 fixture checks on the temporary host. Original host/laya failure and generative
 technical-learning limitations remain. Evidence and configuration:
 docs/SYSTEMONE_TEST_SERVER_ACCEPTANCE_2026-11-09.md/.json.
+
+## 2026-11-09 — Saved production globals qualified without overrides
+
+Owner added the missing response identity and URL override. Read-only dispatch
+42566477893 on3832608 now PASSES all18 native command/profile cells using only
+repository variables/secret; verified alias-clef response, systemone exact route.
+37requests across probe/policy/matrix; no pricing invented. Independent hosted
+restore PASSES source/policies/checkpoint/command-cache integrity with zero
+provider calls. Hosted full regression42566366763 also PASS. Direct variable API
+access is still403, but runtime configuration is verified and no longer blocked.
+No merge, new schedule or production publication; PR8 draft. Evidence:
+docs/PRODUCTION_DECISION_CONFIGURATION.md/.json. Native generative limitations
+and original host/laya failure remain separate unresolved items.
