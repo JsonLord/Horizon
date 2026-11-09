@@ -25,3 +25,69 @@ jobs:
       durability: true
     secrets:
       HORIZON_DECISION_API_KEY: ${{ secrets.HORIZON_DECISION_API_KEY }}
+  diagnose:
+    needs: qualify
+    if: failure() && !cancelled()
+    runs-on: ubuntu-24.04
+    timeout-minutes: 5
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.11'
+      - uses: astral-sh/setup-uv@v7
+        with:
+          enable-cache: true
+          cache-dependency-glob: uv.lock
+      - run: uv sync --frozen
+      - name: Classify one exact-endpoint error without recording its body
+        env:
+          EXACT_CHAT_URL: ${{ inputs.chat_url }}
+          HORIZON_DECISION_BASE_URL: ${{ vars.HORIZON_DECISION_BASE_URL }}
+          HORIZON_DECISION_MODEL: ${{ inputs.model }}
+          HORIZON_DECISION_API_MODE: ${{ vars.HORIZON_DECISION_API_MODE }}
+          HORIZON_DECISION_API_KEY: ${{ secrets.HORIZON_DECISION_API_KEY }}
+        run: |
+          uv run python - <<'PY'
+          import asyncio,json,os
+          import httpx
+          from scripts.shared_filtering import qualification_endpoint
+          from src.research.filtering.provider import DecisionModelProvider
+          async def main():
+              endpoint=qualification_endpoint(os.environ['HORIZON_DECISION_BASE_URL'],os.environ['EXACT_CHAT_URL'])
+              errors=[]
+              async def inspect(response):
+                  if response.status_code<400:return
+                  raw=b''
+                  async for chunk in response.aiter_bytes(chunk_size=1024):
+                      raw+=chunk
+                      if len(raw)>=4096:break
+                  category='unclassified';safe_fields={}
+                  try:
+                      value=json.loads(raw)
+                      error=value.get('error',value.get('detail','')) if isinstance(value,dict) else ''
+                      text=json.dumps(error).lower()
+                      known=('model','messages','prompt','input','max_tokens','max_completion_tokens','max_output_tokens','response_format','temperature','stream','system','json_schema','max_length','stop')
+                      safe_fields['parameter_mentions']=[name for name in known if name in text]
+                      if isinstance(error,dict):
+                          allowed={'invalid_request_error','unsupported_parameter','invalid_parameter','model_not_found','authentication_error','bad_request','unsupported_value'}
+                          safe_fields.update({name:error[name] for name in ('code','type','param') if error.get(name) in allowed or name=='param' and error.get(name) in known})
+                      if 'max_tokens' in text and 'max_completion_tokens' in text:category='completion_token_parameter_hint'
+                      elif 'unsupported' in text:category='unsupported_parameter_hint'
+                      if 'model' in text and any(x in text for x in ('not found','not_found','unknown','does not exist')):category='model_not_found_hint'
+                      elif any(x in text for x in ('invalid api key','invalid_api_key','invalid token','unauthorized','authentication')):category='authentication_hint'
+                      elif any(x in text for x in ('not found','not_found','no route')):category='not_found_unspecified'
+                      elif any(x in text for x in ('method not allowed','method_not_allowed')):category='method_not_allowed'
+                  except (ValueError,TypeError):pass
+                  media=response.headers.get('content-type','').split(';')[0]
+                  errors.append({'http_status':response.status_code,'error_hint':category,'media_type':media if media in ('application/json','text/html','text/plain') else 'other',**safe_fields})
+              async with httpx.AsyncClient(timeout=15,follow_redirects=False,event_hooks={'response':[inspect]}) as client:
+                  provider=DecisionModelProvider(client);provider.chat_url=endpoint
+                  decision,metadata=await provider.decide('relevance',{'summary':'Public inference fixture','evidence':[{'id':'public-fixture','snippet':'Public inference fixture'}]})
+                  print('::notice title=exact-endpoint-error-classification::'+json.dumps({'exact_endpoint':True,'requests':provider.requests,'errors':errors,'validated_decision':bool(decision),'provider_status':metadata['status']}))
+          asyncio.run(main())
+          PY
