@@ -218,3 +218,18 @@ async def test_review_publisher_changes_only_approved_pr_report_paths(tmp_path, 
     assert all(entry['path'].startswith('data/live-review/') and entry['mode'] == '100644' for entry in tree['tree'])
     patch = [(path, kwargs['json']) for method, path, kwargs in api.calls if method == 'PATCH']
     assert patch == [('git/refs/heads/' + TARGET, {'sha': 'new', 'force': False})]
+
+
+def test_generic_release_titles_do_not_collapse_different_repositories():
+    now = datetime.now(UTC)
+    items = [ContentItem(id=str(i), title='v1.0.0', url='https://github.com/org/' + repo + '/releases/tag/v1.0.0',
+        source_type=SourceType.GITHUB, published_at=now, content='A new public release.') for i, repo in enumerate(('first', 'second'))]
+    rows, _ = from_items(items, [])
+    assert all(row.duplicate_of is None for row in rows)
+
+
+def test_budget_selection_prefers_primary_evidence_within_each_language():
+    from src.research.live_review import fair_order
+    secondary = candidate(); secondary.evidence[0].language = 'unknown'
+    primary = candidate(); primary.id = 'primary'; primary.evidence[0].language = 'unknown'; primary.evidence[0].primary = True
+    assert fair_order([secondary, primary])[0].id == 'primary'

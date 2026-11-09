@@ -1016,3 +1016,25 @@ and an optional separately privileged publisher restricted to data/live-review
 on the implementation PR branch, as explicitly permitted by the milestone.
 Seventeen focused tests pass, including writer branch/path/force restrictions
 and complete seven-domain bundle validation. No production data writes.
+
+## First real review findings and evidence-driven follow-up
+
+Collection42569950068 produced seven real packs, recovered/validated read-only
+in42570776425 and copied only24 public files to this PR by the separate automatic-
+token job42570952221 (commit17e4ec9). No production branch was touched. Totals:
+354 reviewed candidates from415 retrieved observations,13 model-qualified review
+candidates, one duplicate,194 model requests; all seven six-command replay probes
+hit cache without a model request. Confirmed factual claims remain zero.
+
+Evidence of source/policy gaps: AUX's conjunctive search retrieved0 items, leaving
+17 unrelated/general Simon Willison feed entries and no qualified AUX candidate.
+Distributed Training's German/French searches each returned0; bare FSDP also
+retrieved an IDEX financial filing and a Scottish fiscal-budget story. Added a
+broader accessibility/AI query within AUX's existing two-query limit, constrained
+FSDP with training/GPU context, and broadened the two native-language training
+queries (profile and source registry match). No feed URL or primary repository
+was invented. Prioritize fresh primary evidence and lexical topic matches within
+language buckets, preserving the same inference budget and hard restrictions.
+Avoid treating generic version titles across distinct repositories as duplicates.
+Separate the program-coverage aggregate warning from actual failed source checks.
+A second hosted evaluation will measure these source improvements honestly.

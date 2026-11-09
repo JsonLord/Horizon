@@ -170,7 +170,8 @@ def from_items(items, topics):
             continue
         key = canonical(ref.url)
         title_key = re.sub(r'\W+', ' ', ref.title.lower()).strip()
-        duplicate = seen.get(key) or seen.get('title:' + title_key)
+        descriptive_title = len(title_key.split()) >= 5
+        duplicate = seen.get(key) or (seen.get('title:' + title_key) if descriptive_title else None)
         cid = ident(key + '|' + str(index))
         if not duplicate:
             seen[key] = cid
@@ -310,6 +311,8 @@ def fair_order(rows):
     for row in rows:
         lang = row.evidence[0].language if row.evidence else 'unknown'
         queues.setdefault(lang, []).append(row)
+    for queue in queues.values():
+        queue.sort(key=lambda r: (any(e.primary and e.fresh for e in r.evidence), len(r.matched_topics)), reverse=True)
     output = []
     while any(queues.values()):
         for lang in ('en', 'de', 'fr', 'unknown'):
@@ -371,13 +374,15 @@ async def evaluate(domain, output, *, provider=None, acquisition=acquire):
             if not langs[lang]: limitations.append(f'No verified {lang} language evidence retrieved. Inspect approved native-language discovery query results; query locale is not source language. Primary research/laboratory/conference families remain pending source review in this radar registry.')
     if extra.get('not_in_review_inventory'):
         limitations.append(f"{extra['not_in_review_inventory']} retrieved items exceed the 200-item review inventory bound; no decisions are claimed for them.")
-    failures = sum(m.get('status') not in ('ok', 'review_required') for m in metrics)
+    failures = sum(m.get('status') not in ('ok', 'review_required') and m.get('source') != 'program_coverage' for m in metrics)
     if failures: limitations.append(f'{failures} source checks failed; inspect the per-source table. No restrictions were bypassed.')
     if any(e['provider']['status'] == 'budget_limit' for r in rows for e in r.decisions.values()): limitations.append('Model budget exhausted; remaining command states are explicitly budget_limit, not inferred decisions.')
     stats = {**extra, 'candidates': len(rows), 'duplicates': sum(r.classification == 'DUPLICATE' for r in rows),
         'rejected': sum(r.classification == 'REJECTED' for r in rows), 'review_worthy': sum(r.classification == 'REVIEW' for r in rows),
         'retained_for_review': sum(r.classification not in ('DUPLICATE', 'REJECTED') for r in rows),
         'confirmed_findings': 0, 'source_failures': failures, 'source_languages': dict(langs),
+        'fresh_evidence_references': sum(e.fresh for r in rows for e in r.evidence),
+        'historical_evidence_references': sum(not e.fresh for r in rows for e in r.evidence),
         'discovery_languages': dict(Counter(e.discovery_language for r in rows for e in r.evidence)),
         'model_requests': budget['requests'], 'known_tokens': budget['known_tokens'],
         'token_usage_complete': budget['unknown_usage_calls'] == 0, 'cost_usd': None,
@@ -420,8 +425,8 @@ def render(pack):
     for source in pack.sources:
         lines.append(f"| {md(source.get('source', 'unknown'))} / {md(source.get('query', source.get('url', '')))} | {md(source.get('status', 'unknown'))} | {source.get('items', 'unknown')} | {md(source.get('error_code') or '')} |")
     lines += ['', '## B. Top candidates (up to 10)', '', 'Ranked within this domain only. Source statements, model judgments and editorial investigation questions are distinct. No independently confirmed technical facts are claimed.']
-    top = ranked(pack)[:10]
-    if not top: lines += ['', 'No candidates retrieved.']
+    top = [r for r in ranked(pack) if r.classification == 'REVIEW' or pack.domain in ('funding-de-eu', 'incubators') and r.classification == 'VERIFICATION_REQUIRED'][:10]
+    if not top: lines += ['', 'No model-qualified review candidates; inspect unassessed candidates and coverage limitations rather than inventing a top ten.']
     for row in top:
         lines += ['', f'### {md(row.title)}', '', f'[Original source](<{row.url}>)' if row.url else 'No verified source URL available.',
             f'Classification: **{row.classification}**. Provisional domain attention: {row.attention}. Technical significance: **unassessed**.',
@@ -438,8 +443,9 @@ def render(pack):
             lines += [f'Hard eligibility: **{md(row.eligibility)}**; application: {md(row.application_status)}; deadline: {md(row.deadline or "unknown")}; historical deadline: {md(row.historical_deadline or "none recorded")}. Historical dates never establish a currently open round.']
     lines += ['', '## C. Rejected, duplicate or deprioritized examples (up to 5)', '']
     suppressed = [r for r in ranked(pack) if r.classification in ('REJECTED', 'DUPLICATE')][:5]
+    suppressed += [r for r in reversed(ranked(pack)) if r.classification == 'UNASSESSED'][:5-len(suppressed)]
     if not suppressed: lines.append('No observed rejected/duplicate examples; do not invent five examples. See low-ranked unassessed candidates in findings.json.')
-    for row in suppressed: lines += [f'- [{md(row.title)}](<{row.url}>) — {row.classification}: {md("; ".join(row.reasons))}; duplicate target: {row.duplicate_of or "model relationship; inspect same-story gate"}.']
+    for row in suppressed: lines += [f'- [{md(row.title)}](<{row.url}>) — {row.classification}: {md("; ".join(row.reasons))}; duplicate target: {row.duplicate_of or "none established; inspect command states"}. Unassessed means deprioritized/uncertain, not a model rejection.']
     lines += ['', '## D. Missing discoveries and coverage limitations', ''] + ['- ' + md(x) for x in pack.limitations]
     lines += ['', '**Source improvements:** Inspect failed approved sources first. Review primary papers, release-note feeds and benchmark/laboratory sources before adding their verified URLs to the source registry. German/French query hits alone do not establish language coverage.',
         '**Policy improvements:** Label low-ranked and ambiguous cases before changing thresholds. Compare the approved topic list against actual false positives; no precision/recall claim is available without reviewed labels.',
@@ -449,16 +455,22 @@ def render(pack):
 
 def portfolio(packs):
     lines = ['# Horizon live research portfolio', '', 'Real public-source collection; read-only review, not production publication.', '',
-        '| Domain | Candidates | Review worthy | Confirmed | Duplicates | Source failures | Languages | Model requests | Runtime s | Status |',
-        '| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |']
+        '| Domain | Candidates | Review worthy | Confirmed | Duplicates | Source failures | Languages | Model requests | Runtime s | Main limitation | Status |',
+        '| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |']
     for p in packs:
         s = p.statistics
-        lines.append(f"| [{p.domain}]({p.domain}/REVIEW.md) | {s['candidates']} | {s['review_worthy']} | 0 | {s['duplicates']} | {s['source_failures']} | {md(json.dumps(s['source_languages']))} | {s['model_requests']} | {s['runtime_seconds']} | {p.acceptance} |")
+        limitation = 'Eligibility/current round unverified' if p.domain in ('funding-de-eu', 'incubators') else 'Short evidence; ' + str(sum(r.classification == 'UNASSESSED' for r in p.candidates)) + ' unassessed candidates'
+        lines.append(f"| [{p.domain}]({p.domain}/REVIEW.md) | {s['candidates']} | {s['review_worthy']} | 0 | {s['duplicates']} | {s['source_failures']} | {md(json.dumps(s['source_languages']))} | {s['model_requests']} | {s['runtime_seconds']} | {limitation} | {p.acceptance} |")
     lines += ['', '## Five discoveries to inspect', '', 'A diverse editorial selection, not a universal ranking: each domain uses its own rubric. Technical significance is unassessed.']
-    chosen = [(p, next((r for r in ranked(p) if r.classification == 'REVIEW'), None)) for p in packs]
-    for p, r in [(p, r) for p, r in chosen if r][:5]: lines += [f'- [{md(r.title)}](<{r.url}>) — {p.domain}; inspect [domain review]({p.domain}/REVIEW.md). Source-attributed candidate, not independently confirmed.']
+    queues = [(p, [r for r in ranked(p) if r.classification == 'REVIEW']) for p in packs]
+    chosen = []
+    while len(chosen) < 5 and any(rows for _, rows in queues):
+        for p, rows in queues:
+            if rows and len(chosen) < 5: chosen.append((p, rows.pop(0)))
+    for p, r in chosen: lines += [f'- [{md(r.title)}](<{r.url}>) — {p.domain}; inspect [domain review]({p.domain}/REVIEW.md). Source-attributed candidate, not independently confirmed.']
     lines += ['', '## Five likely false positives / uncertain selections', '']
-    uncertain = [(p, r) for p in packs for r in ranked(p) if r.classification in ('REJECTED', 'UNASSESSED')]
+    uncertain = [(p, r) for p in packs for r in ranked(p) if r.classification == 'REJECTED']
+    uncertain += [(p, r) for p in packs for r in ranked(p) if r.classification == 'UNASSESSED' and re.search(r'\b(form 4|idex|fiscal|holyrood)\b', r.title, re.I)]
     for p, r in uncertain[:5]: lines += [f'- [{md(r.title)}](<{r.url}>) — {p.domain}: {md("; ".join(r.reasons))}. This is an inspection hypothesis, not a fabricated reviewer label.']
     lines += ['', '## Five important research gaps', '', '- Primary papers, laboratories, conferences and benchmark registries remain incomplete.',
         '- Actual German/French evidence is sparse or language-uncertain; inspect each radar language table.',

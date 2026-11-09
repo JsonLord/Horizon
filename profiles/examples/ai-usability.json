@@ -22,6 +22,14 @@
   "queries": [
     {
       "source": "google_news",
+      "text": "(\"AI\" OR \"artificial intelligence\") (accessibility OR \"usability testing\" OR \"inclusive UX\")",
+      "language": "en",
+      "country": "GB",
+      "topic": "accessibility",
+      "region": "Europe"
+    },
+    {
+      "source": "google_news",
       "text": "AI usability accessibility agent browser testing",
       "language": "en",
       "country": "GB",

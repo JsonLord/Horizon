@@ -9,7 +9,7 @@
   "discovery_queries": [
     {
       "source": "google_news",
-      "text": "FSDP OR \"distributed training\" OR \"tensor parallelism\"",
+      "text": "(FSDP (GPU OR PyTorch OR training)) OR \"distributed training\" OR \"tensor parallelism\"",
       "language": "en",
       "country": "US",
       "topic": "distributed-training",
@@ -17,7 +17,7 @@
     },
     {
       "source": "google_news",
-      "text": "FSDP OR \"verteiltes Training\" OR Tensorparallelität",
+      "text": "(\"KI-Training\" OR \"verteiltes Training\" OR Tensorparallelität) (GPU OR Cluster OR Speicher)",
       "language": "de",
       "country": "DE",
       "topic": "distributed-training",
@@ -25,7 +25,7 @@
     },
     {
       "source": "google_news",
-      "text": "FSDP OR \"entraînement distribué\" OR \"parallélisme tensoriel\"",
+      "text": "(\"entraînement distribué\" OR \"entraînement IA\" OR \"entraînement des modèles\") (GPU OR cluster OR mémoire)",
       "language": "fr",
       "country": "FR",
       "topic": "distributed-training",
