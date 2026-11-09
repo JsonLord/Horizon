@@ -148,3 +148,10 @@ The registered horizon-intel entry point exposes `shared_filtering_durability`
 (default false) with the existing shared qualification flag. Hosted qualification
 now requires all live command/profile cells; deterministic fallback retains safe
 artifacts but does not return successful live qualification.
+
+The read-only staging qualification accepts an optional `model` input (or CLI
+`--model`) so an operator can test a specific identifier without modifying global
+repository settings. It is validated and binds the decision cache identity.
+This override applies to all three fixture profiles in that qualification; normal
+collectors continue to use HORIZON_DECISION_MODEL. The latest operator-selected
+identifier is alias-laya; live status is recorded in the dated acceptance reports.

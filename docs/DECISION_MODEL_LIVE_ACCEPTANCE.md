@@ -70,3 +70,10 @@ JSON error classifier reports model_not_found_hint. The currently requested mode
 is alias-laya; its supported mapping remains to be confirmed by the owner.
 See EXACT_ENDPOINT_VALIDATION_2026-11-09.md for source/run evidence and the403
 blocker saving the repository variable. Inference remains unqualified.
+
+## Latest operator selection: alias-laya
+
+The temporary alias-clef test selection was retracted by the owner. The latest
+bounded exact-URL alias-laya request (42556922702) still returns JSON404 with a
+model-not-found hint referencing that alias. No valid inference was obtained.
+See ALIAS_LAYA_RECHECK_2026-11-09.md; global MODEL was not changed by this task.

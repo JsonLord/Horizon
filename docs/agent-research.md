@@ -883,3 +883,26 @@ same-origin read-only dispatch override, without production settings/publication
 Code source19d586e; hosted PR CI42554215566 PASS. Local Python3.11 full suite504
 passed; operation routing, cache, security and parsing tests/lint pass. Evidence:
 docs/EXACT_ENDPOINT_VALIDATION_2026-11-09.md/.json. No merge/schedule/publication.
+
+## 2026-11-09 — Model input and owner correction to alias-laya
+
+Owner initially supplied alias-clef. Added optional bounded read-only model input
+rather than changing repository configuration or hardcoding a model in profiles.
+Source a7de132: 505 local Python3.11 tests pass (5.16s), actionlint/schedule checks
+pass; hosted PR regression42555730120 PASS. Exact-operation alias-clef full
+qualification42555814606 failed HTTP400 after strict-format fallback; recovery
+passed. Follow-up diagnostics42556293403/42556690752 classified400 as unknown;
+no unsupported-field assumption or schema relaxation was made.
+
+Owner then corrected the selection back to alias-laya. All earlier clef jobs
+were already completed, and no more clef calls were sent. Recheck42556922702 sent
+one request with alias-laya to the exact operation. JSON404 model_not_found_hint,
+error references requested alias; no validated decision. Diagnostic capture green
+is not inference success. Provider alias mapping/access still needs verification;
+token validity is unconfirmed. Do not change model or URL speculatively.
+
+The repository MODEL variable was never changed by this task, and the API key,
+production archives, schedules and draft/merge status remain unchanged. Exact
+CHAT_URL variable write had previously been403, so runtime selection remains a
+qualification override until an authorized owner configures global variables.
+Evidence: docs/ALIAS_LAYA_RECHECK_2026-11-09.md/.json.
