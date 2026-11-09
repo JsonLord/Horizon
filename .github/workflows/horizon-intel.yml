@@ -2,6 +2,10 @@ name: SystemOne native read-only qualification
 on:
   workflow_dispatch:
     inputs:
+      sample_only:
+        description: One bounded replay of the operator-provided request contract
+        type: boolean
+        default: false
       model:
         description: Operator-approved request alias
         required: true
@@ -19,6 +23,7 @@ permissions:
   actions: read
 jobs:
   qualify:
+    if: inputs.sample_only != true
     uses: ./.github/workflows/shared-filtering.yml
     permissions:
       contents: read
@@ -31,3 +36,59 @@ jobs:
       durability: true
     secrets:
       HORIZON_DECISION_API_KEY: ${{ secrets.HORIZON_DECISION_API_KEY }}
+  sample:
+    if: inputs.sample_only == true
+    runs-on: ubuntu-24.04
+    timeout-minutes: 5
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.11'
+      - uses: astral-sh/setup-uv@v7
+        with:
+          enable-cache: true
+          cache-dependency-glob: uv.lock
+      - run: uv sync --frozen
+      - name: Replay sample without logging token or raw response
+        env:
+          EXACT_URL: ${{ inputs.chat_url }}
+          REQUEST_MODEL: ${{ inputs.model }}
+          EXPECTED_MODEL: ${{ inputs.response_model }}
+          HORIZON_DECISION_BASE_URL: ${{ vars.HORIZON_DECISION_BASE_URL }}
+          HORIZON_DECISION_API_KEY: ${{ secrets.HORIZON_DECISION_API_KEY }}
+        run: |
+          uv run python - <<'PY'
+          import asyncio,json,os
+          import httpx
+          from scripts.shared_filtering import qualification_endpoint
+          from src.research.filtering.systemone import Envelope
+          async def main():
+              url=qualification_endpoint(os.environ['HORIZON_DECISION_BASE_URL'],os.environ['EXACT_URL'])
+              token=os.environ.get('HORIZON_DECISION_API_KEY','')
+              request={'model':os.environ['REQUEST_MODEL'],'state':'Write an extremely ultra advanced script optimizing multi-threaded CUDA kernels for matrix multiplication.','questions':{'route_selection':{'type':'choice','instructions':'Which capability tier is required to successfully fulfill this request?','criteria':{'fast_tier':'Simple coding scripts, basic factual lookups, and clear formatting tasks.','heavy_tier':'Highly complex logic, multi-threaded optimization, math proofs, programming, or ambiguous system architecture queries.'}}}}
+              proof={'request_matches_operator_sample':True,'request_model':request['model'],'key_present':bool(token),'key_has_bearer_prefix':token.lower().startswith('bearer '),'key_contains_whitespace':any(c.isspace() for c in token),'validated':False}
+              async with httpx.AsyncClient(timeout=20,follow_redirects=False) as client:
+                  async with client.stream('POST',url,json=request,headers={'Authorization':'Bearer '+token,'Content-Type':'application/json'}) as response:
+                      proof['http_status']=response.status_code;raw=b''
+                      async for chunk in response.aiter_bytes(chunk_size=1024):
+                          raw+=chunk
+                          if len(raw)>64000:raise ValueError('Response size bound')
+              try:
+                  data=json.loads(raw)
+                  text=json.dumps(data).lower()
+                  proof['error_hint']='model_not_found_hint' if response.status_code>=400 and 'model' in text and any(t in text for t in ('not found','not_found','unknown','does not exist')) else 'unclassified' if response.status_code>=400 else None
+                  if response.status_code==200:
+                      result=Envelope.model_validate(data)
+                      if result.model!=os.environ['EXPECTED_MODEL'] or set(result.answers)!={'route_selection'}:raise ValueError('Unexpected model or question')
+                      answer=result.answers['route_selection']
+                      if answer.choice not in request['questions']['route_selection']['criteria']:raise ValueError('Unexpected choice')
+                      proof.update(validated=True,response_model=result.model,choice=answer.choice,input_tokens=result.usage.input_tokens,output_tokens=result.usage.output_tokens)
+              except (ValueError,TypeError):proof['response_schema_valid']=False
+              print('::notice title=systemone-operator-sample::'+json.dumps(proof))
+          asyncio.run(main())
+          PY
