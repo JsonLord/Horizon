@@ -69,7 +69,9 @@ jobs:
           from scripts.shared_filtering import qualification_endpoint
           from src.research.filtering.systemone import Envelope
           async def main():
-              url=qualification_endpoint(os.environ['HORIZON_DECISION_BASE_URL'],os.environ['EXACT_URL'])
+              approved='https://test-d.blablador.fz-juelich.de/'
+              if os.environ['EXACT_URL']!=approved:raise ValueError('Temporary test requires the exact operator-approved URL')
+              url=qualification_endpoint(approved,os.environ['EXACT_URL'])
               token=os.environ.get('HORIZON_DECISION_API_KEY','')
               request={'model':os.environ['REQUEST_MODEL'],'state':'Write an extremely ultra advanced script optimizing multi-threaded CUDA kernels for matrix multiplication.','questions':{'route_selection':{'type':'choice','instructions':'Which capability tier is required to successfully fulfill this request?','criteria':{'fast_tier':'Simple coding scripts, basic factual lookups, and clear formatting tasks.','heavy_tier':'Highly complex logic, multi-threaded optimization, math proofs, programming, or ambiguous system architecture queries.'}}}}
               proof={'request_matches_operator_sample':True,'request_model':request['model'],'key_present':bool(token),'key_has_bearer_prefix':token.lower().startswith('bearer '),'key_contains_whitespace':any(c.isspace() for c in token),'validated':False}
@@ -85,6 +87,7 @@ jobs:
                   proof['error_hint']='model_not_found_hint' if response.status_code>=400 and 'model' in text and any(t in text for t in ('not found','not_found','unknown','does not exist')) else 'unclassified' if response.status_code>=400 else None
                   if response.status_code==200:
                       result=Envelope.model_validate(data)
+                      proof['observed_response_model']=result.model
                       if result.model!=os.environ['EXPECTED_MODEL'] or set(result.answers)!={'route_selection'}:raise ValueError('Unexpected model or question')
                       answer=result.answers['route_selection']
                       if answer.choice not in request['questions']['route_selection']['criteria']:raise ValueError('Unexpected choice')
@@ -94,7 +97,7 @@ jobs:
                   body=Path(folder)/'request.json';result_path=Path(folder)/'response.json'
                   body.write_text(json.dumps(request))
                   config='url = '+json.dumps(url)+'\nheader = '+json.dumps('Authorization: Bearer '+token)+'\n'
-                  result=subprocess.run(['curl','--disable','--silent','--show-error','--max-time','30','--proto','=https','--config','-','--header','Content-Type: application/json','--data-binary','@'+str(body),'--output',str(result_path),'--write-out','%{http_code}|%{http_version}|%{num_redirects}'],input=config,capture_output=True,text=True)
+                  result=subprocess.run(['curl','--disable','--silent','--show-error','--max-time','30','--max-filesize','64000','--proto','=https','--config','-','--header','Content-Type: application/json','--data-binary','@'+str(body),'--output',str(result_path),'--write-out','%{http_code}|%{http_version}|%{num_redirects}'],input=config,capture_output=True,text=True)
                   stats=result.stdout.split('|')
                   curl_proof={'process_exit':result.returncode,'http_status':int(stats[0]) if stats and stats[0].isdigit() else None,'http_version':stats[1] if len(stats)>1 else None,'redirects':stats[2] if len(stats)>2 else None,'same_token_and_payload':True,'validated':False}
                   if result_path.exists() and result_path.stat().st_size<=64000:
@@ -103,6 +106,7 @@ jobs:
                           curl_proof['error_hint']='model_not_found_hint' if curl_proof['http_status'] and curl_proof['http_status']>=400 and 'model' in text and any(t in text for t in ('not found','not_found','unknown','does not exist')) else 'unclassified' if curl_proof['http_status'] and curl_proof['http_status']>=400 else None
                           if curl_proof['http_status']==200:
                               parsed=Envelope.model_validate(data)
+                              curl_proof['observed_response_model']=parsed.model
                               if parsed.model!=os.environ['EXPECTED_MODEL'] or set(parsed.answers)!={'route_selection'}:raise ValueError('Unexpected identity/question')
                               curl_proof.update(validated=True,response_model=parsed.model,choice=parsed.answers['route_selection'].choice,input_tokens=parsed.usage.input_tokens,output_tokens=parsed.usage.output_tokens)
                       except (ValueError,TypeError):curl_proof['response_schema_valid']=False
