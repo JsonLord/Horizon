@@ -1,5 +1,5 @@
 {
-  "inspected_at_utc": "2026-11-09T04:09:34.362363+00:00",
+  "inspected_at_utc": "2026-11-09T05:02:03.163008+00:00",
   "runs": [
     {
       "id": 42558670374,
@@ -323,6 +323,64 @@
           "runner_name": null,
           "started_at": "2026-11-09T04:06:11Z",
           "completed_at": "2026-11-09T04:06:10Z",
+          "failed_steps": [],
+          "proof_notices": []
+        }
+      ]
+    },
+    {
+      "id": 42564928986,
+      "html_url": "https://github.com/JsonLord/Horizon/actions/runs/42564928986",
+      "head_sha": "69267eed482cefa8d17539b35490b8940aed6d7e",
+      "head_branch": "qualification/systemone-db68178",
+      "status": "completed",
+      "conclusion": "success",
+      "event": "workflow_dispatch",
+      "created_at": "2026-11-09T05:01:36Z",
+      "updated_at": "2026-11-09T05:01:54Z",
+      "jobs": [
+        {
+          "id": 128989270982,
+          "name": "sample",
+          "status": "completed",
+          "conclusion": "success",
+          "runner_name": "GitHub Actions 1000003345",
+          "started_at": "2026-11-09T05:01:39Z",
+          "completed_at": "2026-11-09T05:01:53Z",
+          "failed_steps": [],
+          "proof_notices": [
+            {
+              "title": "systemone-operator-sample",
+              "proof": {
+                "request_matches_operator_sample": true,
+                "request_model": "alias-laya",
+                "key_present": true,
+                "key_has_bearer_prefix": false,
+                "key_contains_whitespace": false,
+                "validated": false,
+                "http_status": 404,
+                "error_hint": "model_not_found_hint",
+                "literal_curl": {
+                  "process_exit": 0,
+                  "http_status": 404,
+                  "http_version": "2",
+                  "redirects": "0",
+                  "same_token_and_payload": true,
+                  "validated": false,
+                  "error_hint": "model_not_found_hint"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 128989272669,
+          "name": "qualify",
+          "status": "completed",
+          "conclusion": "skipped",
+          "runner_name": null,
+          "started_at": "2026-11-09T05:01:38Z",
+          "completed_at": "2026-11-09T05:01:37Z",
           "failed_steps": [],
           "proof_notices": []
         }

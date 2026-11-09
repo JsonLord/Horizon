@@ -66,3 +66,13 @@ does not qualify technical explanation/code generation or digest quality.
 Safe job annotations and exact source/run metadata are retained in the adjacent
 JSON file. Isolated qualification branches changed only a registered workflow wrapper.
 No production data, schedules, merge state or Paperclip integration was changed.
+
+## Requested retry — 05:01 UTC
+
+[42564928986](https://github.com/JsonLord/Horizon/actions/runs/42564928986)
+replayed the exact operator sample using the repository secret available to the
+new job. Both HTTPX and literal curl again returned HTTP404/model_not_found_hint;
+curl used HTTP/2 with zero redirects. No decision validated. The diagnostic job
+succeeded in recording the failure; full qualification was skipped. The task did
+not read, compare or change the secret value and cannot confirm whether it was
+updated. No code, production data, settings or schedules changed.
