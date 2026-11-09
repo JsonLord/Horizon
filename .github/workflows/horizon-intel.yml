@@ -59,6 +59,7 @@ jobs:
         run: |
           uv run python - <<'PY'
           import asyncio,json,os
+          from urllib.parse import urlsplit
           import httpx
           from scripts.shared_filtering import qualification_endpoint
           from src.research.filtering.provider import DecisionModelProvider
@@ -78,7 +79,10 @@ jobs:
                       fields=('error','detail','message','reason','description','error_description','msg')
                       error=[value.get(k) for k in fields if k in value] if isinstance(value,dict) else value
                       safe_fields['top_level_error_fields']=[k for k in fields if isinstance(value,dict) and k in value]
-                      text=json.dumps(error).lower()
+                      text=json.dumps(value).lower()
+                      safe_fields['requested_model_mentioned']=provider.model.lower() in text
+                      segment=urlsplit(endpoint).path.rstrip('/').rsplit('/',1)[-1].lower()
+                      safe_fields['last_endpoint_segment_mentioned']=bool(segment and segment in text)
                       known=('model','messages','prompt','input','max_tokens','max_completion_tokens','max_output_tokens','response_format','temperature','stream','system','json_schema','max_length','stop')
                       safe_fields['parameter_mentions']=[name for name in known if name in text]
                       if isinstance(error,dict):
@@ -100,6 +104,6 @@ jobs:
               async with httpx.AsyncClient(timeout=15,follow_redirects=False,event_hooks={'response':[inspect]}) as client:
                   provider=DecisionModelProvider(client);provider.chat_url=endpoint
                   decision,metadata=await provider.decide('relevance',{'summary':'Public inference fixture','evidence':[{'id':'public-fixture','snippet':'Public inference fixture'}]})
-                  print('::notice title=exact-endpoint-error-classification::'+json.dumps({'exact_endpoint':True,'requests':provider.requests,'errors':errors,'validated_decision':bool(decision),'provider_status':metadata['status']}))
+                  print('::notice title=exact-endpoint-error-classification::'+json.dumps({'exact_endpoint':True,'requests':provider.requests,'errors':errors,'validated_decision':bool(decision),'provider_status':metadata['status'],'requested_model':provider.model,'validation_error':metadata.get('validation_error')}))
           asyncio.run(main())
           PY
