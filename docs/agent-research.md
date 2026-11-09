@@ -971,3 +971,14 @@ Hosted regression for c73505e: [42565881811](https://github.com/JsonLord/Horizon
 **PASS**: full pytest suite, schedule checks, deterministic funding projections,
 funding audit, authored-seed/research policy check and both MCP smokes. This does
 not change the403 production-variable authorization blocker.
+
+## Saved-settings check — 05:15 UTC
+
+Override-free dispatch [42566264433](https://github.com/JsonLord/Horizon/actions/runs/42566264433)
+selected systemone and alias-clef from the repository settings. BASE_URL and key
+were present, CHAT_URL absent (no stale override), but RESPONSE_MODEL was absent.
+Inference correctly stopped locally: zero provider requests and0/18 validated
+cells. Independent checkpoint recovery passed. Owner must add repository variable
+HORIZON_DECISION_RESPONSE_MODEL=alias-clef, then repeat override-free qualification.
+CHAT_URL is optional here because native mode uses the exact BASE_URL. No secret,
+settings, production data, merge or schedule was changed by this check.
