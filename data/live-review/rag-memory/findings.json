@@ -1,0 +1,4467 @@
+{
+  "acceptance": "REVIEW_READY",
+  "cache_replay": {
+    "cache_hits": 6,
+    "performed": true,
+    "provider_requests": 0,
+    "unchanged_content_avoids_calls": true
+  },
+  "candidates": [
+    {
+      "application_status": null,
+      "attention": 0.8,
+      "classification": "REVIEW",
+      "confirmed": false,
+      "deadline": null,
+      "decisions": {
+        "claim-support": {
+          "cache_hit": false,
+          "charged_tokens": 585,
+          "decision": {
+            "evidence_ids": [
+              "66932257d35ca7213dcb952f"
+            ],
+            "facts": 0.5,
+            "hype": 0.5,
+            "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
+            "related_event_id": null,
+            "score": 0.9,
+            "signal": 0.5,
+            "verdict": "yes"
+          },
+          "provider": {
+            "abstained": false,
+            "attempts": 1,
+            "cost": null,
+            "family": "systemone",
+            "format": "systemone_choices",
+            "input_tokens": 585,
+            "latency_ms": 529,
+            "model": "alias-clef",
+            "model_identity_verified": true,
+            "output_tokens": 0,
+            "response_model": "alias-clef",
+            "status": "success",
+            "tokens": 585
+          }
+        },
+        "hfs": {
+          "cache_hit": false,
+          "charged_tokens": 827,
+          "decision": {
+            "evidence_ids": [
+              "66932257d35ca7213dcb952f"
+            ],
+            "facts": 0.5,
+            "hype": 0.5,
+            "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
+            "related_event_id": null,
+            "score": 0.5,
+            "signal": 0.5,
+            "verdict": "yes"
+          },
+          "provider": {
+            "abstained": false,
+            "attempts": 1,
+            "cost": null,
+            "family": "systemone",
+            "format": "systemone_choices",
+            "input_tokens": 827,
+            "latency_ms": 937,
+            "model": "alias-clef",
+            "model_identity_verified": true,
+            "output_tokens": 0,
+            "response_model": "alias-clef",
+            "status": "success",
+            "tokens": 827
+          }
+        },
+        "importance": {
+          "cache_hit": false,
+          "charged_tokens": 594,
+          "decision": {
+            "evidence_ids": [
+              "66932257d35ca7213dcb952f"
+            ],
+            "facts": 0.5,
+            "hype": 0.5,
+            "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
+            "related_event_id": null,
+            "score": 0.5,
+            "signal": 0.5,
+            "verdict": "yes"
+          },
+          "provider": {
+            "abstained": false,
+            "attempts": 1,
+            "cost": null,
+            "family": "systemone",
+            "format": "systemone_choices",
+            "input_tokens": 594,
+            "latency_ms": 521,
+            "model": "alias-clef",
+            "model_identity_verified": true,
+            "output_tokens": 0,
+            "response_model": "alias-clef",
+            "status": "success",
+            "tokens": 594
+          }
+        },
+        "relevance": {
+          "cache_hit": false,
+          "charged_tokens": 572,
+          "decision": {
+            "evidence_ids": [
+              "66932257d35ca7213dcb952f"
+            ],
+            "facts": 0.5,
+            "hype": 0.5,
+            "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
+            "related_event_id": null,
+            "score": 0.9,
+            "signal": 0.5,
+            "verdict": "yes"
+          },
+          "provider": {
+            "abstained": false,
+            "attempts": 1,
+            "cost": null,
+            "family": "systemone",
+            "format": "systemone_choices",
+            "input_tokens": 572,
+            "latency_ms": 509,
+            "model": "alias-clef",
+            "model_identity_verified": true,
+            "output_tokens": 0,
+            "response_model": "alias-clef",
+            "status": "success",
+            "tokens": 572
+          }
+        },
+        "same-story": {
+          "cache_hit": false,
+          "charged_tokens": 752,
+          "decision": {
+            "evidence_ids": [
+              "66932257d35ca7213dcb952f"
+            ],
+            "facts": 0.5,
+            "hype": 0.5,
+            "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
+            "related_event_id": null,
+            "score": 0.9,
+            "signal": 0.5,
+            "verdict": "different"
+          },
+          "provider": {
+            "abstained": false,
+            "attempts": 1,
+            "cost": null,
+            "family": "systemone",
+            "format": "systemone_choices",
+            "input_tokens": 752,
+            "latency_ms": 509,
+            "model": "alias-clef",
+            "model_identity_verified": true,
+            "output_tokens": 0,
+            "response_model": "alias-clef",
+            "status": "success",
+            "tokens": 752
+          }
+        },
+        "worth-attention": {
+          "cache_hit": false,
+          "charged_tokens": 576,
+          "decision": {
+            "evidence_ids": [
+              "66932257d35ca7213dcb952f"
+            ],
+            "facts": 0.5,
+            "hype": 0.5,
+            "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
+            "related_event_id": null,
+            "score": 0.5,
+            "signal": 0.5,
+            "verdict": "unknown"
+          },
+          "provider": {
+            "abstained": false,
+            "attempts": 1,
+            "cost": null,
+            "family": "systemone",
+            "format": "systemone_choices",
+            "input_tokens": 576,
+            "latency_ms": 490,
+            "model": "alias-clef",
+            "model_identity_verified": true,
+            "output_tokens": 0,
+            "response_model": "alias-clef",
+            "status": "success",
+            "tokens": 576
+          }
+        }
+      },
+      "duplicate_of": null,
+      "eligibility": null,
+      "event_id": "78899e861b35838498cd6f8d",
+      "evidence": [
+        {
+          "content_hash": "f8a06a46f4beede2ea407cec2b924f0584bd28f6c972e8d5cba7e47f427b7cee",
+          "discovery_language": "en",
+          "excerpt": "PhoenixAI Introduces Contextbase for AI Agent Memory and Knowledge HPCwire",
+          "fresh": true,
+          "id": "66932257d35ca7213dcb952f",
+          "language": "unknown",
+          "language_basis": "insufficient_language_evidence",
+          "primary": false,
+          "published_at": "2026-11-05T18:27:48Z",
+          "publisher": "HPCwire",
+          "retrieved_at": "2026-11-09T05:55:31.225941Z",
+          "title": "PhoenixAI Introduces Contextbase for AI Agent Memory and Knowledge - HPCwire",
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNWXhCV2ZwbXk2bFBGNU0xVVBSWE5GSV90LWRtVXdaX0ZjNmVfU2xHa2RRMXRkYWxpejZ0cDZLUWdURXdqcF9qUGIyVFZYbHRySTRxcWo4ZkI2MGFhQmlPcEtQdng1UjE1VmpZYkJuTVlYT24tZXRXZXRFcktPMld6TUJRbzJrS3BXSEJ1eXR0V2thN0hWUS04SUhhSHNBTzlGb0pKMXNpUTFQN0V2TExDOXNRbGd4RFk?oc=5"
+        }
+      ],
+      "historical_application_status": null,
+      "historical_deadline": null,
+      "id": "ebbf6f61ac07382863c612d0",
+      "matched_topics": [
+        "Agent memory"
+      ],
+      "missing_verification": [],
+      "reasons": [
+        "provisional_domain_rubric_threshold_met_not_verified_truth"
+      ],
+      "technical_significance": null,
+      "title": "PhoenixAI Introduces Contextbase for AI Agent Memory and Knowledge - HPCwire",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNWXhCV2ZwbXk2bFBGNU0xVVBSWE5GSV90LWRtVXdaX0ZjNmVfU2xHa2RRMXRkYWxpejZ0cDZLUWdURXdqcF9qUGIyVFZYbHRySTRxcWo4ZkI2MGFhQmlPcEtQdng1UjE1VmpZYkJuTVlYT24tZXRXZXRFcktPMld6TUJRbzJrS3BXSEJ1eXR0V2thN0hWUS04SUhhSHNBTzlGb0pKMXNpUTFQN0V2TExDOXNRbGd4RFk?oc=5"
+    },
+    {
+      "application_status": null,
+      "attention": 0.8,
+      "classification": "REVIEW",
+      "confirmed": false,
+      "deadline": null,
+      "decisions": {
+        "claim-support": {
+          "cache_hit": false,
+          "charged_tokens": 637,
+          "decision": {
+            "evidence_ids": [
+              "7f6fbccedbc4787c09915299"
+            ],
+            "facts": 0.5,
+            "hype": 0.5,
+            "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
+            "related_event_id": null,
+            "score": 0.9,
+            "signal": 0.5,
+            "verdict": "yes"
+          },
+          "provider": {
+            "abstained": false,
+            "attempts": 1,
+            "cost": null,
+            "family": "systemone",
+            "format": "systemone_choices",
+            "input_tokens": 637,
+            "latency_ms": 541,
+            "model": "alias-clef",
+            "model_identity_verified": true,
+            "output_tokens": 0,
+            "response_model": "alias-clef",
+            "status": "success",
+            "tokens": 637
+          }
+        },
+        "hfs": {
+          "cache_hit": false,
+          "charged_tokens": 879,
+          "decision": {
+            "evidence_ids": [
+              "7f6fbccedbc4787c09915299"
+            ],
+            "facts": 0.1,
+            "hype": 0.1,
+            "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
+            "related_event_id": null,
+            "score": 0.5,
+            "signal": 0.5,
+            "verdict": "yes"
+          },
+          "provider": {
+            "abstained": false,
+            "attempts": 1,
+            "cost": null,
+            "family": "systemone",
+            "format": "systemone_choices",
+            "input_tokens": 879,
+            "latency_ms": 572,
+            "model": "alias-clef",
+            "model_identity_verified": true,
+            "output_tokens": 0,
+            "response_model": "alias-clef",
+            "status": "success",
+            "tokens": 879
+          }
+        },
+        "importance": {
+          "cache_hit": false,
+          "charged_tokens": 646,
+          "decision": {
+            "evidence_ids": [
+              "7f6fbccedbc4787c09915299"
+            ],
+            "facts": 0.5,
+            "hype": 0.5,
+            "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
+            "related_event_id": null,
+            "score": 0.5,
+            "signal": 0.5,
+            "verdict": "yes"
+          },
+          "provider": {
+            "abstained": false,
+            "attempts": 1,
+            "cost": null,
+            "family": "systemone",
+            "format": "systemone_choices",
+            "input_tokens": 646,
+            "latency_ms": 522,
+            "model": "alias-clef",
+            "model_identity_verified": true,
+            "output_tokens": 0,
+            "response_model": "alias-clef",
+            "status": "success",
+            "tokens": 646
+          }
+        },
+        "relevance": {
+          "cache_hit": false,
+          "charged_tokens": 624,
+          "decision": {
+            "evidence_ids": [
+              "7f6fbccedbc4787c09915299"
+            ],
+            "facts": 0.5,
+            "hype": 0.5,
+            "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
+            "related_event_id": null,
+            "score": 0.9,
+            "signal": 0.5,
+            "verdict": "yes"
+          },
+          "provider": {
+            "abstained": false,
+            "attempts": 1,
+            "cost": null,
+            "family": "systemone",
+            "format": "systemone_choices",
+            "input_tokens": 624,
+            "latency_ms": 526,
+            "model": "alias-clef",
+            "model_identity_verified": true,
+            "output_tokens": 0,
+            "response_model": "alias-clef",
+            "status": "success",
+            "tokens": 624
+          }
+        },
+        "same-story": {
+          "cache_hit": false,
+          "charged_tokens": 857,
+          "decision": {
+            "evidence_ids": [
+              "7f6fbccedbc4787c09915299"
+            ],
+            "facts": 0.5,
+            "hype": 0.5,
+            "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
+            "related_event_id": "78899e861b35838498cd6f8d",
+            "score": 0.9,
+            "signal": 0.5,
+            "verdict": "different"
+          },
+          "provider": {
+            "abstained": false,
+            "attempts": 1,
+            "cost": null,
+            "family": "systemone",
+            "format": "systemone_choices",
+            "input_tokens": 857,
+            "latency_ms": 567,
+            "model": "alias-clef",
+            "model_identity_verified": true,
+            "output_tokens": 0,
+            "response_model": "alias-clef",
+            "status": "success",
+            "tokens": 857
+          }
+        },
+        "worth-attention": {
+          "cache_hit": false,
+          "charged_tokens": 628,
+          "decision": {
+            "evidence_ids": [
+              "7f6fbccedbc4787c09915299"
+            ],
+            "facts": 0.5,
+            "hype": 0.5,
+            "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
+            "related_event_id": null,
+            "score": 0.5,
+            "signal": 0.5,
+            "verdict": "unknown"
+          },
+          "provider": {
+            "abstained": false,
+            "attempts": 1,
+            "cost": null,
+            "family": "systemone",
+            "format": "systemone_choices",
+            "input_tokens": 628,
+            "latency_ms": 540,
+            "model": "alias-clef",
+            "model_identity_verified": true,
+            "output_tokens": 0,
+            "response_model": "alias-clef",
+            "status": "success",
+            "tokens": 628
+          }
+        }
+      },
+      "duplicate_of": null,
+      "eligibility": null,
+      "event_id": "3d72a113042f096ebbeccf88",
+      "evidence": [
+        {
+          "content_hash": "13c9ff06f204279dba75f1956459a0dda74d36ad1f622285969179f75fbe6eff",
+          "discovery_language": "en",
+          "excerpt": "Mads Thines calls for a shared format for AI agent memory news.lavx.hu",
+          "fresh": true,
+          "id": "7f6fbccedbc4787c09915299",
+          "language": "unknown",
+          "language_basis": "insufficient_language_evidence",
+          "primary": false,
+          "published_at": "2026-11-08T16:26:03Z",
+          "publisher": "news.lavx.hu",
+          "retrieved_at": "2026-11-09T05:55:31.225965Z",
+          "title": "Mads Thines calls for a shared format for AI agent memory - news.lavx.hu",
+          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOSkE0cFVnY0RMeVExbTJNVjg0bEloTTlrV2doaGNxNUdfamNYSzMySzgzMF9vLTdtbnR0a3JHa21GN0lvX2ZrRTZ0XzItRmtORnVQVXdaYjNsLUMyZnA0TlRZUjlBbHJFYnd2MzBJSW8zUU5vcTd2dzk1ak9IZEJfOUt1Yk40Wk5uLWVCRmN6OA?oc=5"
+        }
+      ],
+      "historical_application_status": null,
+      "historical_deadline": null,
+      "id": "790ea0ff8c7787425792a93b",
+      "matched_topics": [
+        "Agent memory"
+      ],
+      "missing_verification": [],
+      "reasons": [
+        "provisional_domain_rubric_threshold_met_not_verified_truth"
+      ],
+      "technical_significance": null,
+      "title": "Mads Thines calls for a shared format for AI agent memory - news.lavx.hu",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOSkE0cFVnY0RMeVExbTJNVjg0bEloTTlrV2doaGNxNUdfamNYSzMySzgzMF9vLTdtbnR0a3JHa21GN0lvX2ZrRTZ0XzItRmtORnVQVXdaYjNsLUMyZnA0TlRZUjlBbHJFYnd2MzBJSW8zUU5vcTd2dzk1ak9IZEJfOUt1Yk40Wk5uLWVCRmN6OA?oc=5"
+    },
+    {
+      "application_status": null,
+      "attention": 0.68,
+      "classification": "UNASSESSED",
+      "confirmed": false,
+      "deadline": null,
+      "decisions": {
+        "claim-support": {
+          "cache_hit": false,
+          "charged_tokens": 637,
+          "decision": {
+            "evidence_ids": [
+              "43923e80c3aa600c52ffb1b5"
+            ],
+            "facts": 0.5,
+            "hype": 0.5,
+            "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
+            "related_event_id": null,
+            "score": 0.9,
+            "signal": 0.5,
+            "verdict": "yes"
+          },
+          "provider": {
+            "abstained": false,
+            "attempts": 1,
+            "cost": null,
+            "family": "systemone",
+            "format": "systemone_choices",
+            "input_tokens": 637,
+            "latency_ms": 526,
+            "model": "alias-clef",
+            "model_identity_verified": true,
+            "output_tokens": 0,
+            "response_model": "alias-clef",
+            "status": "success",
+            "tokens": 637
+          }
+        },
+        "hfs": {
+          "cache_hit": false,
+          "charged_tokens": 879,
+          "decision": {
+            "evidence_ids": [
+              "43923e80c3aa600c52ffb1b5"
+            ],
+            "facts": 0.5,
+            "hype": 0.1,
+            "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
+            "related_event_id": null,
+            "score": 0.5,
+            "signal": 0.5,
+            "verdict": "yes"
+          },
+          "provider": {
+            "abstained": false,
+            "attempts": 1,
+            "cost": null,
+            "family": "systemone",
+            "format": "systemone_choices",
+            "input_tokens": 879,
+            "latency_ms": 558,
+            "model": "alias-clef",
+            "model_identity_verified": true,
+            "output_tokens": 0,
+            "response_model": "alias-clef",
+            "status": "success",
+            "tokens": 879
+          }
+        },
+        "importance": {
+          "cache_hit": false,
+          "charged_tokens": 646,
+          "decision": {
+            "evidence_ids": [
+              "43923e80c3aa600c52ffb1b5"
+            ],
+            "facts": 0.5,
+            "hype": 0.5,
+            "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
+            "related_event_id": null,
+            "score": 0.5,
+            "signal": 0.5,
+            "verdict": "yes"
+          },
+          "provider": {
+            "abstained": false,
+            "attempts": 1,
+            "cost": null,
+            "family": "systemone",
+            "format": "systemone_choices",
+            "input_tokens": 646,
+            "latency_ms": 498,
+            "model": "alias-clef",
+            "model_identity_verified": true,
+            "output_tokens": 0,
+            "response_model": "alias-clef",
+            "status": "success",
+            "tokens": 646
+          }
+        },
+        "relevance": {
+          "cache_hit": false,
+          "charged_tokens": 624,
+          "decision": {
+            "evidence_ids": [
+              "43923e80c3aa600c52ffb1b5"
+            ],
+            "facts": 0.5,
+            "hype": 0.5,
+            "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
+            "related_event_id": null,
+            "score": 0.5,
+            "signal": 0.5,
+            "verdict": "unknown"
+          },
+          "provider": {
+            "abstained": false,
+            "attempts": 1,
+            "cost": null,
+            "family": "systemone",
+            "format": "systemone_choices",
+            "input_tokens": 624,
+            "latency_ms": 528,
+            "model": "alias-clef",
+            "model_identity_verified": true,
+            "output_tokens": 0,
+            "response_model": "alias-clef",
+            "status": "success",
+            "tokens": 624
+          }
+        },
+        "same-story": {
+          "cache_hit": false,
+          "charged_tokens": 867,
+          "decision": {
+            "evidence_ids": [
+              "43923e80c3aa600c52ffb1b5"
+            ],
+            "facts": 0.5,
+            "hype": 0.5,
+            "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
+            "related_event_id": "78899e861b35838498cd6f8d",
+            "score": 0.9,
+            "signal": 0.5,
+            "verdict": "different"
+          },
+          "provider": {
+            "abstained": false,
+            "attempts": 1,
+            "cost": null,
+            "family": "systemone",
+            "format": "systemone_choices",
+            "input_tokens": 867,
+            "latency_ms": 525,
+            "model": "alias-clef",
+            "model_identity_verified": true,
+            "output_tokens": 0,
+            "response_model": "alias-clef",
+            "status": "success",
+            "tokens": 867
+          }
+        },
+        "worth-attention": {
+          "cache_hit": false,
+          "charged_tokens": 628,
+          "decision": {
+            "evidence_ids": [
+              "43923e80c3aa600c52ffb1b5"
+            ],
+            "facts": 0.5,
+            "hype": 0.5,
+            "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
+            "related_event_id": null,
+            "score": 0.5,
+            "signal": 0.5,
+            "verdict": "unknown"
+          },
+          "provider": {
+            "abstained": false,
+            "attempts": 1,
+            "cost": null,
+            "family": "systemone",
+            "format": "systemone_choices",
+            "input_tokens": 628,
+            "latency_ms": 506,
+            "model": "alias-clef",
+            "model_identity_verified": true,
+            "output_tokens": 0,
+            "response_model": "alias-clef",
+            "status": "success",
+            "tokens": 628
+          }
+        }
+      },
+      "duplicate_of": null,
+      "eligibility": null,
+      "event_id": "93a772e82b79552df3554f26",
+      "evidence": [
+        {
+          "content_hash": "aa1fd4cdd51d02152defe89ad3be6db9ce6f1fc757f63ae8c7241464a0839a24",
+          "discovery_language": "en",
+          "excerpt": "MariaDB enhances agent development for its next-gen database platform Adafruit",
+          "fresh": true,
+          "id": "43923e80c3aa600c52ffb1b5",
+          "language": "unknown",
+          "language_basis": "insufficient_language_evidence",
+          "primary": false,
+          "published_at": "2026-11-05T14:00:41Z",
+          "publisher": "Adafruit",
+          "retrieved_at": "2026-11-09T05:55:31.225979Z",
+          "title": "MariaDB enhances agent development for its next-gen database platform - Adafruit",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPX292amRMWEhpVzQxOEpfVGl1R2RjZlQ1REtXOC1lQTNmZlczdENZV2lCMXhoUUI0S2V2RjhuWXE4XzN5LXVRZlFHQjMxTmgybFVLdG5DNkJzSXRIaG9Da3FEVE5wV2ZWT3hYSWN1azRIempremM3N05qaVQ4OGp0M3FPOTlCeUp0Vlg0Y3VZaTJJd0U1akUwaGRMeHhuZUs0MDJ1UlZmS1A2Y3c?oc=5"
+        }
+      ],
+      "historical_application_status": null,
+      "historical_deadline": null,
+      "id": "ffdbce5064a74eb64b45bc6d",
+      "matched_topics": [],
+      "missing_verification": [],
+      "reasons": [
+        "incomplete_uncertain_or_below_threshold_model_assessment"
+      ],
+      "technical_significance": null,
+      "title": "MariaDB enhances agent development for its next-gen database platform - Adafruit",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPX292amRMWEhpVzQxOEpfVGl1R2RjZlQ1REtXOC1lQTNmZlczdENZV2lCMXhoUUI0S2V2RjhuWXE4XzN5LXVRZlFHQjMxTmgybFVLdG5DNkJzSXRIaG9Da3FEVE5wV2ZWT3hYSWN1azRIempremM3N05qaVQ4OGp0M3FPOTlCeUp0Vlg0Y3VZaTJJd0U1akUwaGRMeHhuZUs0MDJ1UlZmS1A2Y3c?oc=5"
+    },
+    {
+      "application_status": null,
+      "attention": 0.92,
+      "classification": "REVIEW",
+      "confirmed": false,
+      "deadline": null,
+      "decisions": {
+        "claim-support": {
+          "cache_hit": false,
+          "charged_tokens": 700,
+          "decision": {
+            "evidence_ids": [
+              "9c92de28ec476d83d59d685c"
+            ],
+            "facts": 0.5,
+            "hype": 0.5,
+            "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
+            "related_event_id": null,
+            "score": 0.9,
+            "signal": 0.5,
+            "verdict": "yes"
+          },
+          "provider": {
+            "abstained": false,
+            "attempts": 1,
+            "cost": null,
+            "family": "systemone",
+            "format": "systemone_choices",
+            "input_tokens": 700,
+            "latency_ms": 542,
+            "model": "alias-clef",
+            "model_identity_verified": true,
+            "output_tokens": 0,
+            "response_model": "alias-clef",
+            "status": "success",
+            "tokens": 700
+          }
+        },
+        "hfs": {
+          "cache_hit": false,
+          "charged_tokens": 942,
+          "decision": {
+            "evidence_ids": [
+              "9c92de28ec476d83d59d685c"
+            ],
+            "facts": 0.9,
+            "hype": 0.9,
+            "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
+            "related_event_id": null,
+            "score": 0.9,
+            "signal": 0.9,
+            "verdict": "yes"
+          },
+          "provider": {
+            "abstained": false,
+            "attempts": 1,
+            "cost": null,
+            "family": "systemone",
+            "format": "systemone_choices",
+            "input_tokens": 942,
+            "latency_ms": 591,
+            "model": "alias-clef",
+            "model_identity_verified": true,
+            "output_tokens": 0,
+            "response_model": "alias-clef",
+            "status": "success",
+            "tokens": 942
+          }
+        },
+        "importance": {
+          "cache_hit": false,
+          "charged_tokens": 709,
+          "decision": {
+            "evidence_ids": [
+              "9c92de28ec476d83d59d685c"
+            ],
+            "facts": 0.5,
+            "hype": 0.5,
+            "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
+            "related_event_id": null,
+            "score": 0.9,
+            "signal": 0.5,
+            "verdict": "yes"
+          },
+          "provider": {
+            "abstained": false,
+            "attempts": 1,
+            "cost": null,
+            "family": "systemone",
+            "format": "systemone_choices",
+            "input_tokens": 709,
+            "latency_ms": 550,
+            "model": "alias-clef",
+            "model_identity_verified": true,
+            "output_tokens": 0,
+            "response_model": "alias-clef",
+            "status": "success",
+            "tokens": 709
+          }
+        },
+        "relevance": {
+          "cache_hit": false,
+          "charged_tokens": 687,
+          "decision": {
+            "evidence_ids": [
+              "9c92de28ec476d83d59d685c"
+            ],
+            "facts": 0.5,
+            "hype": 0.5,
+            "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
+            "related_event_id": null,
+            "score": 0.9,
+            "signal": 0.5,
+            "verdict": "yes"
+          },
+          "provider": {
+            "abstained": false,
+            "attempts": 1,
+            "cost": null,
+            "family": "systemone",
+            "format": "systemone_choices",
+            "input_tokens": 687,
+            "latency_ms": 546,
+            "model": "alias-clef",
+            "model_identity_verified": true,
+            "output_tokens": 0,
+            "response_model": "alias-clef",
+            "status": "success",
+            "tokens": 687
+          }
+        },
+        "same-story": {
+          "cache_hit": false,
+          "charged_tokens": 928,
+          "decision": {
+            "evidence_ids": [
+              "9c92de28ec476d83d59d685c"
+            ],
+            "facts": 0.5,
+            "hype": 0.5,
+            "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
+            "related_event_id": "3d72a113042f096ebbeccf88",
+            "score": 0.9,
+            "signal": 0.5,
+            "verdict": "different"
+          },
+          "provider": {
+            "abstained": false,
+            "attempts": 1,
+            "cost": null,
+            "family": "systemone",
+            "format": "systemone_choices",
+            "input_tokens": 928,
+            "latency_ms": 565,
+            "model": "alias-clef",
+            "model_identity_verified": true,
+            "output_tokens": 0,
+            "response_model": "alias-clef",
+            "status": "success",
+            "tokens": 928
+          }
+        },
+        "worth-attention": {
+          "cache_hit": false,
+          "charged_tokens": 691,
+          "decision": {
+            "evidence_ids": [
+              "9c92de28ec476d83d59d685c"
+            ],
+            "facts": 0.5,
+            "hype": 0.5,
+            "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
+            "related_event_id": null,
+            "score": 0.9,
+            "signal": 0.5,
+            "verdict": "yes"
+          },
+          "provider": {
+            "abstained": false,
+            "attempts": 1,
+            "cost": null,
+            "family": "systemone",
+            "format": "systemone_choices",
+            "input_tokens": 691,
+            "latency_ms": 528,
+            "model": "alias-clef",
+            "model_identity_verified": true,
+            "output_tokens": 0,
+            "response_model": "alias-clef",
+            "status": "success",
+            "tokens": 691
+          }
+        }
+      },
+      "duplicate_of": null,
+      "eligibility": null,
+      "event_id": "8c6e0aba2aae2c999b29df91",
+      "evidence": [
+        {
+          "content_hash": "209b0e765f118665770a92b3c8c324d86c8c782582fc4ca4dda644d2c4f9c4bd",
+          "discovery_language": "en",
+          "excerpt": "Anthropic's \"Dreaming\" Lets AI Agents Reorganize Memory Offline, Lifting Complex Research Scores from 73% to 87% XenoSpectrum",
+          "fresh": true,
+          "id": "9c92de28ec476d83d59d685c",
+          "language": "unknown",
+          "language_basis": "insufficient_language_evidence",
+          "primary": false,
+          "published_at": "2026-11-08T09:22:48Z",
+          "publisher": "XenoSpectrum",
+          "retrieved_at": "2026-11-09T05:55:31.226003Z",
+          "title": "Anthropic's \"Dreaming\" Lets AI Agents Reorganize Memory Offline, Lifting Complex Research Scores from 73% to 87% - XenoSpectrum",
+          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1PNUxTc0xaOHpTS2xDQld0aGsySmJoaGVId0FObFNnZmlzZWwyZFJRVFFTWnRMRk13OGZrdTM4TXdCT25SU01adFNyaTZONk1fMXpNUEt2YU5wQW9Ka0k3OFVpejhEMWhzY0JjeDZKNWpUZkhyX29Keg?oc=5"
+        }
+      ],
+      "historical_application_status": null,
+      "historical_deadline": null,
+      "id": "bc97f981513ef5664b8c73ec",
+      "matched_topics": [],
+      "missing_verification": [],
+      "reasons": [
+        "provisional_domain_rubric_threshold_met_not_verified_truth"
+      ],
+      "technical_significance": null,
+      "title": "Anthropic's \"Dreaming\" Lets AI Agents Reorganize Memory Offline, Lifting Complex Research Scores from 73% to 87% - XenoSpectrum",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1PNUxTc0xaOHpTS2xDQld0aGsySmJoaGVId0FObFNnZmlzZWwyZFJRVFFTWnRMRk13OGZrdTM4TXdCT25SU01adFNyaTZONk1fMXpNUEt2YU5wQW9Ka0k3OFVpejhEMWhzY0JjeDZKNWpUZkhyX29Keg?oc=5"
+    },
+    {
+      "application_status": null,
+      "attention": 0.38,
+      "classification": "DUPLICATE",
+      "confirmed": false,
+      "deadline": null,
+      "decisions": {
+        "claim-support": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "hfs": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "importance": {
+          "cache_hit": false,
+          "charged_tokens": 673,
+          "decision": {
+            "evidence_ids": [
+              "7ca09299f648f33099c3b1f7"
+            ],
+            "facts": 0.5,
+            "hype": 0.5,
+            "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
+            "related_event_id": null,
+            "score": 0.5,
+            "signal": 0.5,
+            "verdict": "yes"
+          },
+          "provider": {
+            "abstained": false,
+            "attempts": 1,
+            "cost": null,
+            "family": "systemone",
+            "format": "systemone_choices",
+            "input_tokens": 673,
+            "latency_ms": 509,
+            "model": "alias-clef",
+            "model_identity_verified": true,
+            "output_tokens": 0,
+            "response_model": "alias-clef",
+            "status": "success",
+            "tokens": 673
+          }
+        },
+        "relevance": {
+          "cache_hit": false,
+          "charged_tokens": 651,
+          "decision": {
+            "evidence_ids": [
+              "7ca09299f648f33099c3b1f7"
+            ],
+            "facts": 0.5,
+            "hype": 0.5,
+            "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
+            "related_event_id": null,
+            "score": 0.9,
+            "signal": 0.5,
+            "verdict": "yes"
+          },
+          "provider": {
+            "abstained": false,
+            "attempts": 1,
+            "cost": null,
+            "family": "systemone",
+            "format": "systemone_choices",
+            "input_tokens": 651,
+            "latency_ms": 563,
+            "model": "alias-clef",
+            "model_identity_verified": true,
+            "output_tokens": 0,
+            "response_model": "alias-clef",
+            "status": "success",
+            "tokens": 651
+          }
+        },
+        "same-story": {
+          "cache_hit": false,
+          "charged_tokens": 909,
+          "decision": {
+            "evidence_ids": [
+              "7ca09299f648f33099c3b1f7"
+            ],
+            "facts": 0.5,
+            "hype": 0.5,
+            "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
+            "related_event_id": "8c6e0aba2aae2c999b29df91",
+            "score": 0.1,
+            "signal": 0.5,
+            "verdict": "same"
+          },
+          "provider": {
+            "abstained": false,
+            "attempts": 1,
+            "cost": null,
+            "family": "systemone",
+            "format": "systemone_choices",
+            "input_tokens": 909,
+            "latency_ms": 562,
+            "model": "alias-clef",
+            "model_identity_verified": true,
+            "output_tokens": 0,
+            "response_model": "alias-clef",
+            "status": "success",
+            "tokens": 909
+          }
+        },
+        "worth-attention": {
+          "cache_hit": false,
+          "charged_tokens": 655,
+          "decision": {
+            "evidence_ids": [
+              "7ca09299f648f33099c3b1f7"
+            ],
+            "facts": 0.5,
+            "hype": 0.5,
+            "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
+            "related_event_id": null,
+            "score": 0.1,
+            "signal": 0.5,
+            "verdict": "no"
+          },
+          "provider": {
+            "abstained": false,
+            "attempts": 1,
+            "cost": null,
+            "family": "systemone",
+            "format": "systemone_choices",
+            "input_tokens": 655,
+            "latency_ms": 530,
+            "model": "alias-clef",
+            "model_identity_verified": true,
+            "output_tokens": 0,
+            "response_model": "alias-clef",
+            "status": "success",
+            "tokens": 655
+          }
+        }
+      },
+      "duplicate_of": null,
+      "eligibility": null,
+      "event_id": "4e5b4bc1349e30abd48dde54",
+      "evidence": [
+        {
+          "content_hash": "79a4c64244702652a8222e4b2862e96878e115cf5cd953839234b0a92d1b6b53",
+          "discovery_language": "en",
+          "excerpt": "Claude dreaming, Anthropic reveals how it tests agent memory Pasquale Pillitteri",
+          "fresh": true,
+          "id": "7ca09299f648f33099c3b1f7",
+          "language": "unknown",
+          "language_basis": "insufficient_language_evidence",
+          "primary": false,
+          "published_at": "2026-11-08T09:09:53Z",
+          "publisher": "Pasquale Pillitteri",
+          "retrieved_at": "2026-11-09T05:55:31.226017Z",
+          "title": "Claude dreaming, Anthropic reveals how it tests agent memory - Pasquale Pillitteri",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPaGRCY1h2d0JZTklHYUc4QlhkRmN5OHdJeHUzQjhVNC1Rc0ZfYXVET1lqQlNCcGNkUHd4WGE3UnVJTThONFNJNTN6cDAyX1RoXzRLMnc1U1BKOVZ0TlJkNlVSd0o1OVBJUVA4WUhnbzg0eWY1eS1OTGJiUEVrTENjZVFtdjNRaG9kU3d0VUdhaGEwQQ?oc=5"
+        }
+      ],
+      "historical_application_status": null,
+      "historical_deadline": null,
+      "id": "cad0e20147f0653cfd7487bf",
+      "matched_topics": [
+        "Agent memory"
+      ],
+      "missing_verification": [],
+      "reasons": [
+        "model_same_story_judgement"
+      ],
+      "technical_significance": null,
+      "title": "Claude dreaming, Anthropic reveals how it tests agent memory - Pasquale Pillitteri",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPaGRCY1h2d0JZTklHYUc4QlhkRmN5OHdJeHUzQjhVNC1Rc0ZfYXVET1lqQlNCcGNkUHd4WGE3UnVJTThONFNJNTN6cDAyX1RoXzRLMnc1U1BKOVZ0TlJkNlVSd0o1OVBJUVA4WUhnbzg0eWY1eS1OTGJiUEVrTENjZVFtdjNRaG9kU3d0VUdhaGEwQQ?oc=5"
+    },
+    {
+      "application_status": null,
+      "attention": 0.25,
+      "classification": "UNASSESSED",
+      "confirmed": false,
+      "deadline": null,
+      "decisions": {
+        "claim-support": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "hfs": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "importance": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "relevance": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "same-story": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "worth-attention": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        }
+      },
+      "duplicate_of": null,
+      "eligibility": null,
+      "event_id": "1297aceec5212bce11e5fe50",
+      "evidence": [
+        {
+          "content_hash": "8eb07e9b49022e32bd5eef6e6aaa0e512547a23e6bca41f9aa3bb042b57bfe6a",
+          "discovery_language": "en",
+          "excerpt": "Evals All the Way Down: Fault Localization in Compound AI Systems | by Adnan Masood, PhD. | Nov, 2026 Medium",
+          "fresh": true,
+          "id": "1548d7bc750de2b68297a552",
+          "language": "unknown",
+          "language_basis": "insufficient_language_evidence",
+          "primary": false,
+          "published_at": "2026-11-05T21:51:01Z",
+          "publisher": "Medium",
+          "retrieved_at": "2026-11-09T05:55:31.226029Z",
+          "title": "Evals All the Way Down: Fault Localization in Compound AI Systems | by Adnan Masood, PhD. | Nov, 2026 - Medium",
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNekJaV1FxbUdnMUxXQy1NaW96YmJlVWxJTDR2TEFsYTZ3VUJRX0R0QW1aM0hJZEszVlU2bm14MXhEMklQdHROTzIwMUo3NUlJSUlOYVl3RlM2eC10cUQyQWJtV2NsbGM2R0hCUkVTQTZyMUE1bXZBajdIZXE1TWpJSnE2VHNqU2d2NGZjeDV4MjQ1Wm5FcEtvckp2b0oyV3dpU2tfaHhNMEs3ajYzYnc?oc=5"
+        }
+      ],
+      "historical_application_status": null,
+      "historical_deadline": null,
+      "id": "1f2e7736700acf7c6491cb65",
+      "matched_topics": [],
+      "missing_verification": [],
+      "reasons": [
+        "incomplete_uncertain_or_below_threshold_model_assessment"
+      ],
+      "technical_significance": null,
+      "title": "Evals All the Way Down: Fault Localization in Compound AI Systems | by Adnan Masood, PhD. | Nov, 2026 - Medium",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNekJaV1FxbUdnMUxXQy1NaW96YmJlVWxJTDR2TEFsYTZ3VUJRX0R0QW1aM0hJZEszVlU2bm14MXhEMklQdHROTzIwMUo3NUlJSUlOYVl3RlM2eC10cUQyQWJtV2NsbGM2R0hCUkVTQTZyMUE1bXZBajdIZXE1TWpJSnE2VHNqU2d2NGZjeDV4MjQ1Wm5FcEtvckp2b0oyV3dpU2tfaHhNMEs3ajYzYnc?oc=5"
+    },
+    {
+      "application_status": null,
+      "attention": 0.25,
+      "classification": "UNASSESSED",
+      "confirmed": false,
+      "deadline": null,
+      "decisions": {
+        "claim-support": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "hfs": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "importance": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "relevance": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "same-story": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "worth-attention": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        }
+      },
+      "duplicate_of": null,
+      "eligibility": null,
+      "event_id": "4b24664e4a1d2d5ed55a0a32",
+      "evidence": [
+        {
+          "content_hash": "311073b398533042783dc16a138bfb43155fd1295cac510d72c50bc500a91e06",
+          "discovery_language": "en",
+          "excerpt": "Redis Broadens Iris With Agent Routing, Observability and Messaging Unite.AI",
+          "fresh": true,
+          "id": "6bacc4170c080222abac896a",
+          "language": "unknown",
+          "language_basis": "insufficient_language_evidence",
+          "primary": false,
+          "published_at": "2026-11-04T17:25:02Z",
+          "publisher": "Unite.AI",
+          "retrieved_at": "2026-11-09T05:55:31.226040Z",
+          "title": "Redis Broadens Iris With Agent Routing, Observability and Messaging - Unite.AI",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQQmRDcjJDUDYyT2xZd2NibXA5SDMwRG5CU011T0plczhhV0JsbFUwZ1VhaVpwVnI5RTBGUDNVVTRQLTVremhNTXVYaVB4M2gtNFdkeVlnYTRDWmRwYk1QazAxWXpiMGdlWTZ5dkpNbUJNLWRrWHJqN0Z6Qm5kSDlDdEF1a2lJc0RKOEhBcGt2NS1zUQ?oc=5"
+        }
+      ],
+      "historical_application_status": null,
+      "historical_deadline": null,
+      "id": "e8a73e7431f0c2e428021da9",
+      "matched_topics": [],
+      "missing_verification": [],
+      "reasons": [
+        "incomplete_uncertain_or_below_threshold_model_assessment"
+      ],
+      "technical_significance": null,
+      "title": "Redis Broadens Iris With Agent Routing, Observability and Messaging - Unite.AI",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQQmRDcjJDUDYyT2xZd2NibXA5SDMwRG5CU011T0plczhhV0JsbFUwZ1VhaVpwVnI5RTBGUDNVVTRQLTVremhNTXVYaVB4M2gtNFdkeVlnYTRDWmRwYk1QazAxWXpiMGdlWTZ5dkpNbUJNLWRrWHJqN0Z6Qm5kSDlDdEF1a2lJc0RKOEhBcGt2NS1zUQ?oc=5"
+    },
+    {
+      "application_status": null,
+      "attention": 0.25,
+      "classification": "UNASSESSED",
+      "confirmed": false,
+      "deadline": null,
+      "decisions": {
+        "claim-support": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "hfs": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "importance": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "relevance": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "same-story": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "worth-attention": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        }
+      },
+      "duplicate_of": null,
+      "eligibility": null,
+      "event_id": "e7f2cee3a6972f646b436186",
+      "evidence": [
+        {
+          "content_hash": "f3bf1e78537b4a3aaa6e93bd9dd27d0639e48fd8bdfdbbb057b627612e1419a9",
+          "discovery_language": "en",
+          "excerpt": "Redis Expands Redis Iris to Give AI Agents the Memory, Context, and Messaging They Need to get to Production Big News Network.com",
+          "fresh": true,
+          "id": "12dd148dfb07681748c7730f",
+          "language": "unknown",
+          "language_basis": "insufficient_language_evidence",
+          "primary": false,
+          "published_at": "2026-11-05T11:49:00Z",
+          "publisher": "Big News Network.com",
+          "retrieved_at": "2026-11-09T05:55:31.226052Z",
+          "title": "Redis Expands Redis Iris to Give AI Agents the Memory, Context, and Messaging They Need to get to Production - Big News Network.com",
+          "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNZm8zSmcwOFZMRndCYWxDLV9jVDdRRTYya1ZPQjFfcXRpanphUFJTV0tJYkVueExzVlROUzNGMHo4Yzl0OFN1Sk9EZUY2enZVUTFKY3RGcTlDTUhmalRaWjJvUlptNkd6TFU0ZjRHMlRHOVVnclBVa1o0T3FyaEdTY0VLaXF6ZmdrMDdQZEY3NXNqM0xHMjViOFRCaUtYVXJCRUFOU0pMdkhXNWpCd2pjSTJad3laUVVXQ1hIWWxSQTEwaEtmZW41cF9ib3RHbUVUWjVGTmEzeFVfdVhYd3l3ZDRkSUZ0dWc?oc=5"
+        }
+      ],
+      "historical_application_status": null,
+      "historical_deadline": null,
+      "id": "b5d3e871b8b6fa058808b587",
+      "matched_topics": [],
+      "missing_verification": [],
+      "reasons": [
+        "incomplete_uncertain_or_below_threshold_model_assessment"
+      ],
+      "technical_significance": null,
+      "title": "Redis Expands Redis Iris to Give AI Agents the Memory, Context, and Messaging They Need to get to Production - Big News Network.com",
+      "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNZm8zSmcwOFZMRndCYWxDLV9jVDdRRTYya1ZPQjFfcXRpanphUFJTV0tJYkVueExzVlROUzNGMHo4Yzl0OFN1Sk9EZUY2enZVUTFKY3RGcTlDTUhmalRaWjJvUlptNkd6TFU0ZjRHMlRHOVVnclBVa1o0T3FyaEdTY0VLaXF6ZmdrMDdQZEY3NXNqM0xHMjViOFRCaUtYVXJCRUFOU0pMdkhXNWpCd2pjSTJad3laUVVXQ1hIWWxSQTEwaEtmZW41cF9ib3RHbUVUWjVGTmEzeFVfdVhYd3l3ZDRkSUZ0dWc?oc=5"
+    },
+    {
+      "application_status": null,
+      "attention": 0.25,
+      "classification": "UNASSESSED",
+      "confirmed": false,
+      "deadline": null,
+      "decisions": {
+        "claim-support": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "hfs": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "importance": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "relevance": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "same-story": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "worth-attention": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        }
+      },
+      "duplicate_of": null,
+      "eligibility": null,
+      "event_id": "66c86c678acfa59c5a9a331b",
+      "evidence": [
+        {
+          "content_hash": "bf527da7f66031d6a2daf1ac8a3be9fec430d5c93563fc8eb2f390fca48de4e6",
+          "discovery_language": "de",
+          "excerpt": "Chroma im Test: Die beste Open-Source-Vektordatenbank für die KI-Suche quasa.io",
+          "fresh": true,
+          "id": "b0249b30d9ab26d1d6454caa",
+          "language": "unknown",
+          "language_basis": "insufficient_language_evidence",
+          "primary": false,
+          "published_at": "2026-11-07T06:10:59Z",
+          "publisher": "quasa.io",
+          "retrieved_at": "2026-11-09T05:55:31.551977Z",
+          "title": "Chroma im Test: Die beste Open-Source-Vektordatenbank für die KI-Suche - quasa.io",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQTkVZblBNbDdQTWVzS1BxdER0M2pTNzZjVkE3NTRCVGRnQmlqVzZVRVY4WUtDNWJ0VEstQlNadTRFaUZOM0R1STczQW93T1J4SGg1YS14N2lLWFNsYjJhMk0xeWVvX3didGVOVVFRc2tfRl9Pd2JRRDYweXEySUp5cHAwbW1aVTN2MTQ0Qm9uMW5hdmdxLW1HVWpaVy0?oc=5"
+        }
+      ],
+      "historical_application_status": null,
+      "historical_deadline": null,
+      "id": "235ef1058c6fb746385d898e",
+      "matched_topics": [],
+      "missing_verification": [],
+      "reasons": [
+        "incomplete_uncertain_or_below_threshold_model_assessment"
+      ],
+      "technical_significance": null,
+      "title": "Chroma im Test: Die beste Open-Source-Vektordatenbank für die KI-Suche - quasa.io",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQTkVZblBNbDdQTWVzS1BxdER0M2pTNzZjVkE3NTRCVGRnQmlqVzZVRVY4WUtDNWJ0VEstQlNadTRFaUZOM0R1STczQW93T1J4SGg1YS14N2lLWFNsYjJhMk0xeWVvX3didGVOVVFRc2tfRl9Pd2JRRDYweXEySUp5cHAwbW1aVTN2MTQ0Qm9uMW5hdmdxLW1HVWpaVy0?oc=5"
+    },
+    {
+      "application_status": null,
+      "attention": 0.25,
+      "classification": "UNASSESSED",
+      "confirmed": false,
+      "deadline": null,
+      "decisions": {
+        "claim-support": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "hfs": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "importance": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "relevance": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "same-story": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "worth-attention": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        }
+      },
+      "duplicate_of": null,
+      "eligibility": null,
+      "event_id": "211ff2c3b0339d5c87d8ca17",
+      "evidence": [
+        {
+          "content_hash": "02386a056443966168f3e9c6f354972fc5d38081a2130728114b6e47e7afb540",
+          "discovery_language": "de",
+          "excerpt": "Die KI-Kompetenzlücke liegt im Betrieb, nicht im Prompt it-daily.net",
+          "fresh": true,
+          "id": "a15d22eea9d0b4ec0f42c7ea",
+          "language": "unknown",
+          "language_basis": "insufficient_language_evidence",
+          "primary": false,
+          "published_at": "2026-11-06T11:21:00Z",
+          "publisher": "it-daily.net",
+          "retrieved_at": "2026-11-09T05:55:31.552010Z",
+          "title": "Die KI-Kompetenzlücke liegt im Betrieb, nicht im Prompt - it-daily.net",
+          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1kbzZiRVJjbmllSmFVVHl3UTRvZnJKS1RHb0xsOHlQbU0wTzJWNHl5Zmh0NW5Gd2JWN1hIVk11ZExDcHNCZUQwVFdWZVByUzY4YVYybUtBUUg4ZWN1bWlZNFFSLTFOdjFwUTQ0YjlYRUs4dw?oc=5"
+        }
+      ],
+      "historical_application_status": null,
+      "historical_deadline": null,
+      "id": "f42803595564edec90f25803",
+      "matched_topics": [],
+      "missing_verification": [],
+      "reasons": [
+        "incomplete_uncertain_or_below_threshold_model_assessment"
+      ],
+      "technical_significance": null,
+      "title": "Die KI-Kompetenzlücke liegt im Betrieb, nicht im Prompt - it-daily.net",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1kbzZiRVJjbmllSmFVVHl3UTRvZnJKS1RHb0xsOHlQbU0wTzJWNHl5Zmh0NW5Gd2JWN1hIVk11ZExDcHNCZUQwVFdWZVByUzY4YVYybUtBUUg4ZWN1bWlZNFFSLTFOdjFwUTQ0YjlYRUs4dw?oc=5"
+    },
+    {
+      "application_status": null,
+      "attention": 0.25,
+      "classification": "UNASSESSED",
+      "confirmed": false,
+      "deadline": null,
+      "decisions": {
+        "claim-support": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "hfs": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "importance": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "relevance": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "same-story": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "worth-attention": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        }
+      },
+      "duplicate_of": null,
+      "eligibility": null,
+      "event_id": "0b0b9013b9c852c579dc070c",
+      "evidence": [
+        {
+          "content_hash": "d8febadcf15e6b424e01bc0ad041a8248abdd81662c8a11b08f7f9f0b8e49a9d",
+          "discovery_language": "de",
+          "excerpt": "Stanford veröffentlicht Memorilla, ein KI-Gedächtnis für ganze Chatverläufe Pasquale Pillitteri",
+          "fresh": true,
+          "id": "30afb5d59059934f71845f97",
+          "language": "unknown",
+          "language_basis": "insufficient_language_evidence",
+          "primary": false,
+          "published_at": "2026-11-07T09:00:35Z",
+          "publisher": "Pasquale Pillitteri",
+          "retrieved_at": "2026-11-09T05:55:31.552024Z",
+          "title": "Stanford veröffentlicht Memorilla, ein KI-Gedächtnis für ganze Chatverläufe - Pasquale Pillitteri",
+          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNVElkY3puYjliellnMG9naEZMOFlxUS1BTlpVUG94MFVWeXEtWkV6M2NtckVaWW5zekdsRGc0NVpjX0t2WXhiSjhvTDIyNkpIOHo3SG1ZR0V2QTc0cnpuUk05MlNJdF9VdHdkVGZEYzdJSldCOWNYMkZGZW1OV2RvQW82WUc4RHRodnNSUEwtSQ?oc=5"
+        }
+      ],
+      "historical_application_status": null,
+      "historical_deadline": null,
+      "id": "f760c4b1acbe6425b358823f",
+      "matched_topics": [],
+      "missing_verification": [],
+      "reasons": [
+        "incomplete_uncertain_or_below_threshold_model_assessment"
+      ],
+      "technical_significance": null,
+      "title": "Stanford veröffentlicht Memorilla, ein KI-Gedächtnis für ganze Chatverläufe - Pasquale Pillitteri",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNVElkY3puYjliellnMG9naEZMOFlxUS1BTlpVUG94MFVWeXEtWkV6M2NtckVaWW5zekdsRGc0NVpjX0t2WXhiSjhvTDIyNkpIOHo3SG1ZR0V2QTc0cnpuUk05MlNJdF9VdHdkVGZEYzdJSldCOWNYMkZGZW1OV2RvQW82WUc4RHRodnNSUEwtSQ?oc=5"
+    },
+    {
+      "application_status": null,
+      "attention": 0.25,
+      "classification": "UNASSESSED",
+      "confirmed": false,
+      "deadline": null,
+      "decisions": {
+        "claim-support": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "hfs": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "importance": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "relevance": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "same-story": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "worth-attention": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        }
+      },
+      "duplicate_of": null,
+      "eligibility": null,
+      "event_id": "6d758fddd1baaf584e003dfd",
+      "evidence": [
+        {
+          "content_hash": "e4badd6e81997581df6768c45b6cad2a617f240f17e0d10b0eb9be98d81e6ff0",
+          "discovery_language": "de",
+          "excerpt": "CERT-In: Indiens 107-seitiger KI-Leitfaden nimmt autonome Agenten ins Visier BornCity",
+          "fresh": true,
+          "id": "c1aba811fad78aebfde216a5",
+          "language": "unknown",
+          "language_basis": "insufficient_language_evidence",
+          "primary": false,
+          "published_at": "2026-11-05T08:31:05Z",
+          "publisher": "BornCity",
+          "retrieved_at": "2026-11-09T05:55:31.552036Z",
+          "title": "CERT-In: Indiens 107-seitiger KI-Leitfaden nimmt autonome Agenten ins Visier - BornCity",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxObmRYUVJBb1U2Ml9kYlFqX01XMGdsSURHc21vSWpkS2VjUnplbzlwV2xRUUlNTkJVTjhQSUFmTlczVi1nX0NvdF9tYnBCcl9Ra2I2SEdDa3lOMm1FenFSbUxQRGhadjQ4czZXOW92MGdYUDFKbWZHWDAyUXhpUV9MemVIeTlwU2RKZ1I3aDBCc2RiakdWSldJZGU2VkpyaGE1eDEwNg?oc=5"
+        }
+      ],
+      "historical_application_status": null,
+      "historical_deadline": null,
+      "id": "2465062c9e7ad8ef48f5bf8f",
+      "matched_topics": [],
+      "missing_verification": [],
+      "reasons": [
+        "incomplete_uncertain_or_below_threshold_model_assessment"
+      ],
+      "technical_significance": null,
+      "title": "CERT-In: Indiens 107-seitiger KI-Leitfaden nimmt autonome Agenten ins Visier - BornCity",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxObmRYUVJBb1U2Ml9kYlFqX01XMGdsSURHc21vSWpkS2VjUnplbzlwV2xRUUlNTkJVTjhQSUFmTlczVi1nX0NvdF9tYnBCcl9Ra2I2SEdDa3lOMm1FenFSbUxQRGhadjQ4czZXOW92MGdYUDFKbWZHWDAyUXhpUV9MemVIeTlwU2RKZ1I3aDBCc2RiakdWSldJZGU2VkpyaGE1eDEwNg?oc=5"
+    },
+    {
+      "application_status": null,
+      "attention": 0.25,
+      "classification": "UNASSESSED",
+      "confirmed": false,
+      "deadline": null,
+      "decisions": {
+        "claim-support": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "hfs": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "importance": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "relevance": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "same-story": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "worth-attention": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        }
+      },
+      "duplicate_of": null,
+      "eligibility": null,
+      "event_id": "32e6371864d99fabc7216ca3",
+      "evidence": [
+        {
+          "content_hash": "4bc2153154c302b06f0b285cf0f152935e5f7ab4c8deec45d7266f077e682531",
+          "discovery_language": "de",
+          "excerpt": "DigitalGenius: Revolutionierung des autonomen Kundenservice mit KI quasa.io",
+          "fresh": true,
+          "id": "116890bba94da198dc5f4035",
+          "language": "unknown",
+          "language_basis": "insufficient_language_evidence",
+          "primary": false,
+          "published_at": "2026-11-03T23:37:57Z",
+          "publisher": "quasa.io",
+          "retrieved_at": "2026-11-09T05:55:31.552048Z",
+          "title": "DigitalGenius: Revolutionierung des autonomen Kundenservice mit KI - quasa.io",
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQbXRXRzNBeUxvOXVRMkF6TGJBUUVTbGRuU1AtVl9PdWNWYmhXWGZjSkVEaUllYnFsUUN5bld0RkN6b3c1OFNxc2Rvak9hbnV1MXp0VXdZNHpuMnVpNUE3OFpjdjBPUTRyYW82dnR4eWgtbHdhQmVPV3pTSWFfMWU0VHlmSGhiZGM2cndMLWRLR0RBWGRMV2c?oc=5"
+        }
+      ],
+      "historical_application_status": null,
+      "historical_deadline": null,
+      "id": "d217e7d1048e04c4fa36e0e5",
+      "matched_topics": [],
+      "missing_verification": [],
+      "reasons": [
+        "incomplete_uncertain_or_below_threshold_model_assessment"
+      ],
+      "technical_significance": null,
+      "title": "DigitalGenius: Revolutionierung des autonomen Kundenservice mit KI - quasa.io",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQbXRXRzNBeUxvOXVRMkF6TGJBUUVTbGRuU1AtVl9PdWNWYmhXWGZjSkVEaUllYnFsUUN5bld0RkN6b3c1OFNxc2Rvak9hbnV1MXp0VXdZNHpuMnVpNUE3OFpjdjBPUTRyYW82dnR4eWgtbHdhQmVPV3pTSWFfMWU0VHlmSGhiZGM2cndMLWRLR0RBWGRMV2c?oc=5"
+    },
+    {
+      "application_status": null,
+      "attention": 0.25,
+      "classification": "UNASSESSED",
+      "confirmed": false,
+      "deadline": null,
+      "decisions": {
+        "claim-support": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "hfs": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "importance": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "relevance": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "same-story": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "worth-attention": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        }
+      },
+      "duplicate_of": null,
+      "eligibility": null,
+      "event_id": "20e70dbf7b1adf3ba0c34589",
+      "evidence": [
+        {
+          "content_hash": "d337c9c62ab4443253d291f28f5ee5d570734cec182e2d1245ea349c6afcc83a",
+          "discovery_language": "de",
+          "excerpt": "Wanderboat AI – KI-Reiseplaner, lokale Entdeckungen und kartenbasierte Empfehlungen quasa.io",
+          "fresh": true,
+          "id": "8f88b3cb6d4874d8d04103fc",
+          "language": "unknown",
+          "language_basis": "insufficient_language_evidence",
+          "primary": false,
+          "published_at": "2026-11-04T00:12:59Z",
+          "publisher": "quasa.io",
+          "retrieved_at": "2026-11-09T05:55:31.552060Z",
+          "title": "Wanderboat AI – KI-Reiseplaner, lokale Entdeckungen und kartenbasierte Empfehlungen - quasa.io",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNMmNwRXluYUlpVjNueWVIcHNHTHNIaTl0ZEVmUnhhNEM0RmxoSEk0eV9JN1lRUTh2RXdaT0JRMFc5OVBKRzBjcWpXcEY4QVdFMHk2R3dyU2dkSkw3V3F4Y0s4UWt2MWJ5Z19zaEhCczZSQjlYdndIX3VaUHJkSWVRb0ZqVUpVNkR6YkJnLWJlem5udXotd3BCdkpmY2VkMlZaMFgwOTB3eVU4Zw?oc=5"
+        }
+      ],
+      "historical_application_status": null,
+      "historical_deadline": null,
+      "id": "1bea3eecf722aab9b66717c4",
+      "matched_topics": [],
+      "missing_verification": [],
+      "reasons": [
+        "incomplete_uncertain_or_below_threshold_model_assessment"
+      ],
+      "technical_significance": null,
+      "title": "Wanderboat AI – KI-Reiseplaner, lokale Entdeckungen und kartenbasierte Empfehlungen - quasa.io",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNMmNwRXluYUlpVjNueWVIcHNHTHNIaTl0ZEVmUnhhNEM0RmxoSEk0eV9JN1lRUTh2RXdaT0JRMFc5OVBKRzBjcWpXcEY4QVdFMHk2R3dyU2dkSkw3V3F4Y0s4UWt2MWJ5Z19zaEhCczZSQjlYdndIX3VaUHJkSWVRb0ZqVUpVNkR6YkJnLWJlem5udXotd3BCdkpmY2VkMlZaMFgwOTB3eVU4Zw?oc=5"
+    },
+    {
+      "application_status": null,
+      "attention": 0.25,
+      "classification": "UNASSESSED",
+      "confirmed": false,
+      "deadline": null,
+      "decisions": {
+        "claim-support": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "hfs": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "importance": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "relevance": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "same-story": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "worth-attention": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        }
+      },
+      "duplicate_of": null,
+      "eligibility": null,
+      "event_id": "b60f722453db8127ebfe2735",
+      "evidence": [
+        {
+          "content_hash": "436e906d81867c79f83b552c058a199d50a89985e0ca0bdb76d9af03bd36edea",
+          "discovery_language": "de",
+          "excerpt": "Napkin AI: Revolutioniert visuelles Storytelling aus Text mit KI quasa.io",
+          "fresh": true,
+          "id": "60177346166a54abae15b5ba",
+          "language": "unknown",
+          "language_basis": "insufficient_language_evidence",
+          "primary": false,
+          "published_at": "2026-11-03T17:52:19Z",
+          "publisher": "quasa.io",
+          "retrieved_at": "2026-11-09T05:55:31.552071Z",
+          "title": "Napkin AI: Revolutioniert visuelles Storytelling aus Text mit KI - quasa.io",
+          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQLVoxMno1bW53QWw1LW5kbVgwSlg0bkpOaW1jam1QWnRDUEVESVk5VG9jT2FwWnAyOUVlcWotV2NCNmZwWTJHSmU4bHVPRThpV1pSYnlpQ2xrdFJteVBJbHJaWTgtdWR3bm5mNVV4RkhOZlFrQk1HR2oxM0FlV1BpUm5pVDZoYThpNDI2dXVWc1l3UmM?oc=5"
+        }
+      ],
+      "historical_application_status": null,
+      "historical_deadline": null,
+      "id": "c122b9e1e1c5bc379493c53e",
+      "matched_topics": [],
+      "missing_verification": [],
+      "reasons": [
+        "incomplete_uncertain_or_below_threshold_model_assessment"
+      ],
+      "technical_significance": null,
+      "title": "Napkin AI: Revolutioniert visuelles Storytelling aus Text mit KI - quasa.io",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQLVoxMno1bW53QWw1LW5kbVgwSlg0bkpOaW1jam1QWnRDUEVESVk5VG9jT2FwWnAyOUVlcWotV2NCNmZwWTJHSmU4bHVPRThpV1pSYnlpQ2xrdFJteVBJbHJaWTgtdWR3bm5mNVV4RkhOZlFrQk1HR2oxM0FlV1BpUm5pVDZoYThpNDI2dXVWc1l3UmM?oc=5"
+    },
+    {
+      "application_status": null,
+      "attention": 0.25,
+      "classification": "UNASSESSED",
+      "confirmed": false,
+      "deadline": null,
+      "decisions": {
+        "claim-support": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "hfs": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "importance": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "relevance": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "same-story": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "worth-attention": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        }
+      },
+      "duplicate_of": null,
+      "eligibility": null,
+      "event_id": "cebcadcf7b30a5ec2fa86860",
+      "evidence": [
+        {
+          "content_hash": "4996bb6cb8b4e0a735b5b259f2965f7bf622b1320831fe5e669df70469452924",
+          "discovery_language": "de",
+          "excerpt": "ChatHelp: Arbeitsabläufe mit KI-Tools transformieren – Umfassende Bewertung quasa.io",
+          "fresh": true,
+          "id": "be730d6c888397824176bb70",
+          "language": "unknown",
+          "language_basis": "insufficient_language_evidence",
+          "primary": false,
+          "published_at": "2026-11-03T23:09:45Z",
+          "publisher": "quasa.io",
+          "retrieved_at": "2026-11-09T05:55:31.552082Z",
+          "title": "ChatHelp: Arbeitsabläufe mit KI-Tools transformieren – Umfassende Bewertung - quasa.io",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPdjVoUThRVW1IcTU1TXRDMkxEcTFXMjFxdU1oVVRVRkE3Ym9oRUJYTWJGX28zQmsyVHZTazZ1U1RFZ2pGY3d0a0Vtbm9kbEFBYW1DMWNTTTlDVTRTZk5BTm1aTnJDcjk0YnM0Y2MtWnBGTW5pczdKNTZvN0NjUjUtR1RJdC1MRUNzelUwd0V0cXl1TXhtMm00Y2xtR0tpaVRW?oc=5"
+        }
+      ],
+      "historical_application_status": null,
+      "historical_deadline": null,
+      "id": "605e75f6c7c8d5dba255ea45",
+      "matched_topics": [],
+      "missing_verification": [],
+      "reasons": [
+        "incomplete_uncertain_or_below_threshold_model_assessment"
+      ],
+      "technical_significance": null,
+      "title": "ChatHelp: Arbeitsabläufe mit KI-Tools transformieren – Umfassende Bewertung - quasa.io",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPdjVoUThRVW1IcTU1TXRDMkxEcTFXMjFxdU1oVVRVRkE3Ym9oRUJYTWJGX28zQmsyVHZTazZ1U1RFZ2pGY3d0a0Vtbm9kbEFBYW1DMWNTTTlDVTRTZk5BTm1aTnJDcjk0YnM0Y2MtWnBGTW5pczdKNTZvN0NjUjUtR1RJdC1MRUNzelUwd0V0cXl1TXhtMm00Y2xtR0tpaVRW?oc=5"
+    },
+    {
+      "application_status": null,
+      "attention": 0.25,
+      "classification": "UNASSESSED",
+      "confirmed": false,
+      "deadline": null,
+      "decisions": {
+        "claim-support": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "hfs": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "importance": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "relevance": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "same-story": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "worth-attention": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        }
+      },
+      "duplicate_of": null,
+      "eligibility": null,
+      "event_id": "2c4682d18a8fbdb9afb8e12b",
+      "evidence": [
+        {
+          "content_hash": "f40cf608bf50d524957240f9a984aedc4d67688801df36717b3105c81f02c0a5",
+          "discovery_language": "de",
+          "excerpt": "Composite: KI-gestützter Autopilot für jede Website im Jahr 2026 – Expertenratgeber. quasa.io",
+          "fresh": true,
+          "id": "5f5e3cd64213237278192e14",
+          "language": "unknown",
+          "language_basis": "insufficient_language_evidence",
+          "primary": false,
+          "published_at": "2026-11-03T22:05:09Z",
+          "publisher": "quasa.io",
+          "retrieved_at": "2026-11-09T05:55:31.552092Z",
+          "title": "Composite: KI-gestützter Autopilot für jede Website im Jahr 2026 – Expertenratgeber. - quasa.io",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQazJ0bkRIbU5US2s3bUtUcjZYeWxIVDQzcWR0anE5T2E5b2tMUzZBWUZvWjdCOHJKOXZnQ3Utd2kxZUlqdVc0d1M3ejlfZ21BaHNGMFY3MVA5LXBrVVBmZWY5ZzVRMWY5MXBsa2ttYVdvT2dYYlhqQV9ZNkg3UnFueFhDNDBHa29KYkRUYW1BbmZXX0s0QWNpX1pEMDhwMmd2d29zM2paNlU3LS1m?oc=5"
+        }
+      ],
+      "historical_application_status": null,
+      "historical_deadline": null,
+      "id": "8f21e6f5764fe0ec76f4d63c",
+      "matched_topics": [],
+      "missing_verification": [],
+      "reasons": [
+        "incomplete_uncertain_or_below_threshold_model_assessment"
+      ],
+      "technical_significance": null,
+      "title": "Composite: KI-gestützter Autopilot für jede Website im Jahr 2026 – Expertenratgeber. - quasa.io",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQazJ0bkRIbU5US2s3bUtUcjZYeWxIVDQzcWR0anE5T2E5b2tMUzZBWUZvWjdCOHJKOXZnQ3Utd2kxZUlqdVc0d1M3ejlfZ21BaHNGMFY3MVA5LXBrVVBmZWY5ZzVRMWY5MXBsa2ttYVdvT2dYYlhqQV9ZNkg3UnFueFhDNDBHa29KYkRUYW1BbmZXX0s0QWNpX1pEMDhwMmd2d29zM2paNlU3LS1m?oc=5"
+    },
+    {
+      "application_status": null,
+      "attention": 0.25,
+      "classification": "UNASSESSED",
+      "confirmed": false,
+      "deadline": null,
+      "decisions": {
+        "claim-support": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "hfs": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "importance": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "relevance": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "same-story": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "worth-attention": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        }
+      },
+      "duplicate_of": null,
+      "eligibility": null,
+      "event_id": "8973502d5fc4c0eb3dd84954",
+      "evidence": [
+        {
+          "content_hash": "ce498b8cc4f5d3b9ece8f09dd8b835cf926d535c6df1bf6caee3d968ebf8d027",
+          "discovery_language": "de",
+          "excerpt": "Teal: Revolutioniert die Jobsuche durch KI-gestützte Karriereentwicklung quasa.io",
+          "fresh": true,
+          "id": "41b16facc3dc96b76ae86f0f",
+          "language": "unknown",
+          "language_basis": "insufficient_language_evidence",
+          "primary": false,
+          "published_at": "2026-11-03T18:01:07Z",
+          "publisher": "quasa.io",
+          "retrieved_at": "2026-11-09T05:55:31.552103Z",
+          "title": "Teal: Revolutioniert die Jobsuche durch KI-gestützte Karriereentwicklung - quasa.io",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPeEZ3TW5ybUFzTDZCd3Z2WF9XdE9fN1JPUnVHUkpIODZJQ2Z4aUYtemYxRlpzbTJ2UnBZZ0R2T0I0UzNUd2J4R3JTTkh6Mzd6QTdicmNjVWxnSEQ2Y21NcnFuVFFvaU1QMUw1SDNoakIyZGpoWWdlRjJxbnRkTzJPUFRZdGtvZlJLMDd6TE9vbmY4YXRpX1A4Wjdob0dMdjA?oc=5"
+        }
+      ],
+      "historical_application_status": null,
+      "historical_deadline": null,
+      "id": "f231e81d94bae2ac1d782143",
+      "matched_topics": [],
+      "missing_verification": [],
+      "reasons": [
+        "incomplete_uncertain_or_below_threshold_model_assessment"
+      ],
+      "technical_significance": null,
+      "title": "Teal: Revolutioniert die Jobsuche durch KI-gestützte Karriereentwicklung - quasa.io",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPeEZ3TW5ybUFzTDZCd3Z2WF9XdE9fN1JPUnVHUkpIODZJQ2Z4aUYtemYxRlpzbTJ2UnBZZ0R2T0I0UzNUd2J4R3JTTkh6Mzd6QTdicmNjVWxnSEQ2Y21NcnFuVFFvaU1QMUw1SDNoakIyZGpoWWdlRjJxbnRkTzJPUFRZdGtvZlJLMDd6TE9vbmY4YXRpX1A4Wjdob0dMdjA?oc=5"
+    },
+    {
+      "application_status": null,
+      "attention": 0.25,
+      "classification": "UNASSESSED",
+      "confirmed": false,
+      "deadline": null,
+      "decisions": {
+        "claim-support": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "hfs": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "importance": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "relevance": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "same-story": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "worth-attention": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        }
+      },
+      "duplicate_of": null,
+      "eligibility": null,
+      "event_id": "b99d5e1d382384cb37ea5e7c",
+      "evidence": [
+        {
+          "content_hash": "63372aa6fdac6ce4a93c8ea053c316876e575140366dc4c14670e62012773c09",
+          "discovery_language": "de",
+          "excerpt": "Aidbase – KI-Kundensupport-Plattform, wissensbasierter Chat & unterstützte Ticketbearbeitung quasa.io",
+          "fresh": true,
+          "id": "d9f62875a523a58991774779",
+          "language": "unknown",
+          "language_basis": "insufficient_language_evidence",
+          "primary": false,
+          "published_at": "2026-11-03T23:59:50Z",
+          "publisher": "quasa.io",
+          "retrieved_at": "2026-11-09T05:55:31.552114Z",
+          "title": "Aidbase – KI-Kundensupport-Plattform, wissensbasierter Chat & unterstützte Ticketbearbeitung - quasa.io",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPbzM4WmpNTE9qTXNLUFpsSUE0cWo2djAtT0RmSGhxYWxxdS1pNWtDZVdtTWpsaWZVMGRmY3VmaHYwWE40WEhsSm0td0pyTEZXTk1GSnFHQlliemYyeTMzdUlxN0N6UndwRFp5TERpb0RCQkRkdWNZejB0bHJHb0VUYTVuZV9mM1hVT1BiQWpTU1k5VDhOdjRnTEFESnVTQ3lOVFUwUEFvNEwwWFc2Nlh2TGFYTXA?oc=5"
+        }
+      ],
+      "historical_application_status": null,
+      "historical_deadline": null,
+      "id": "4d27c1d4e24c720993b5bd24",
+      "matched_topics": [],
+      "missing_verification": [],
+      "reasons": [
+        "incomplete_uncertain_or_below_threshold_model_assessment"
+      ],
+      "technical_significance": null,
+      "title": "Aidbase – KI-Kundensupport-Plattform, wissensbasierter Chat & unterstützte Ticketbearbeitung - quasa.io",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPbzM4WmpNTE9qTXNLUFpsSUE0cWo2djAtT0RmSGhxYWxxdS1pNWtDZVdtTWpsaWZVMGRmY3VmaHYwWE40WEhsSm0td0pyTEZXTk1GSnFHQlliemYyeTMzdUlxN0N6UndwRFp5TERpb0RCQkRkdWNZejB0bHJHb0VUYTVuZV9mM1hVT1BiQWpTU1k5VDhOdjRnTEFESnVTQ3lOVFUwUEFvNEwwWFc2Nlh2TGFYTXA?oc=5"
+    },
+    {
+      "application_status": null,
+      "attention": 0.25,
+      "classification": "UNASSESSED",
+      "confirmed": false,
+      "deadline": null,
+      "decisions": {
+        "claim-support": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "hfs": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "importance": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "relevance": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "same-story": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "worth-attention": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        }
+      },
+      "duplicate_of": null,
+      "eligibility": null,
+      "event_id": "84d3aa0deb769e60b878b845",
+      "evidence": [
+        {
+          "content_hash": "f34de6ffb356862d2be349c1687a944f5da2df98b7a4d8c37ce83aae0592e9c7",
+          "discovery_language": "de",
+          "excerpt": "DataSquirrel: Revolutioniert die KI-gestützte Datenanalyse für Fachkräfte ohne technischen Hintergrund. Umfassender Testbericht. quasa.io",
+          "fresh": true,
+          "id": "8758306931db80877ccb0ef1",
+          "language": "unknown",
+          "language_basis": "insufficient_language_evidence",
+          "primary": false,
+          "published_at": "2026-11-03T23:00:59Z",
+          "publisher": "quasa.io",
+          "retrieved_at": "2026-11-09T05:55:31.552126Z",
+          "title": "DataSquirrel: Revolutioniert die KI-gestützte Datenanalyse für Fachkräfte ohne technischen Hintergrund. Umfassender Testbericht. - quasa.io",
+          "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOSnlRRklnVzZNM19aaFN4MGpCUDBsa1pqenprV2gwT3owOU0zNWFvbkpkczZXSnNiUHdza2RtTVJVcVZXZk5KZTVfQnViRnVYY0ZOcFJRMVFNbWE5TnoxOWpsbldXZThGZGgzRU5iNzFnOU5IQm4wLXZfT0t2M3dleDdOZUQ0OGRmRElJaW1RUXlTUzhLLUR2c2d4QzlhZlRfWVRycjlJbmxidllQd3RkVnlBWk9uOXFZZkRqcEFwR2hMRnNTQTJ6ZmIwckRsZjR5NUFxNEIyR2dSZm1oWGxOcFFXd0dTUnJFM1E?oc=5"
+        }
+      ],
+      "historical_application_status": null,
+      "historical_deadline": null,
+      "id": "fb37af982d061d216765791d",
+      "matched_topics": [],
+      "missing_verification": [],
+      "reasons": [
+        "incomplete_uncertain_or_below_threshold_model_assessment"
+      ],
+      "technical_significance": null,
+      "title": "DataSquirrel: Revolutioniert die KI-gestützte Datenanalyse für Fachkräfte ohne technischen Hintergrund. Umfassender Testbericht. - quasa.io",
+      "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOSnlRRklnVzZNM19aaFN4MGpCUDBsa1pqenprV2gwT3owOU0zNWFvbkpkczZXSnNiUHdza2RtTVJVcVZXZk5KZTVfQnViRnVYY0ZOcFJRMVFNbWE5TnoxOWpsbldXZThGZGgzRU5iNzFnOU5IQm4wLXZfT0t2M3dleDdOZUQ0OGRmRElJaW1RUXlTUzhLLUR2c2d4QzlhZlRfWVRycjlJbmxidllQd3RkVnlBWk9uOXFZZkRqcEFwR2hMRnNTQTJ6ZmIwckRsZjR5NUFxNEIyR2dSZm1oWGxOcFFXd0dTUnJFM1E?oc=5"
+    },
+    {
+      "application_status": null,
+      "attention": 0.25,
+      "classification": "UNASSESSED",
+      "confirmed": false,
+      "deadline": null,
+      "decisions": {
+        "claim-support": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "hfs": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "importance": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "relevance": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "same-story": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "worth-attention": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        }
+      },
+      "duplicate_of": null,
+      "eligibility": null,
+      "event_id": "d944c5ce1cf166399873d752",
+      "evidence": [
+        {
+          "content_hash": "9013b086d829835aa8bfbccdd03c54683f3b731abe98baeac3c29847e5e05ba5",
+          "discovery_language": "de",
+          "excerpt": "FeedHive – Social-Media-Management, KI-Inhaltserstellung und automatisierte Veröffentlichung quasa.io",
+          "fresh": true,
+          "id": "0d878711a7babbf0eec46a7a",
+          "language": "unknown",
+          "language_basis": "insufficient_language_evidence",
+          "primary": false,
+          "published_at": "2026-11-03T23:53:24Z",
+          "publisher": "quasa.io",
+          "retrieved_at": "2026-11-09T05:55:31.552137Z",
+          "title": "FeedHive – Social-Media-Management, KI-Inhaltserstellung und automatisierte Veröffentlichung - quasa.io",
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPZnJHUWVwalBRN2swMGtUeEQtazFWOHFnbEliTHd2aVl4U2pzOXZJZFJqTG5DY0t1czFjWDBtaUhXTzVKclE1X0JVMTIwV3l2LVlmQzQyS1hOWVVnUENOMzdEM0xIbmlHdWItNGVzaGFCeXlZeEhOY2JueHQ0ZXUxSHI5N3lsbEFMbV9HSlhiNkltWWRuOU9Wc0hmdFBLOVhhU1dod055OURzUzRyY1lZVVVIR2hScG8?oc=5"
+        }
+      ],
+      "historical_application_status": null,
+      "historical_deadline": null,
+      "id": "5096c3550432f838079e08d4",
+      "matched_topics": [],
+      "missing_verification": [],
+      "reasons": [
+        "incomplete_uncertain_or_below_threshold_model_assessment"
+      ],
+      "technical_significance": null,
+      "title": "FeedHive – Social-Media-Management, KI-Inhaltserstellung und automatisierte Veröffentlichung - quasa.io",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPZnJHUWVwalBRN2swMGtUeEQtazFWOHFnbEliTHd2aVl4U2pzOXZJZFJqTG5DY0t1czFjWDBtaUhXTzVKclE1X0JVMTIwV3l2LVlmQzQyS1hOWVVnUENOMzdEM0xIbmlHdWItNGVzaGFCeXlZeEhOY2JueHQ0ZXUxSHI5N3lsbEFMbV9HSlhiNkltWWRuOU9Wc0hmdFBLOVhhU1dod055OURzUzRyY1lZVVVIR2hScG8?oc=5"
+    },
+    {
+      "application_status": null,
+      "attention": 0.25,
+      "classification": "UNASSESSED",
+      "confirmed": false,
+      "deadline": null,
+      "decisions": {
+        "claim-support": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "hfs": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "importance": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "relevance": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "same-story": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "worth-attention": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        }
+      },
+      "duplicate_of": null,
+      "eligibility": null,
+      "event_id": "9ce11890fd46c5ad0125d0cd",
+      "evidence": [
+        {
+          "content_hash": "c3c5585a60ab8df18c26e9b67af9479bf10c95a3e42da5992cdffd6419ee4f5c",
+          "discovery_language": "fr",
+          "excerpt": "La RAG agentique fait de l’IA un détective numérique plus intelligent IBM",
+          "fresh": true,
+          "id": "1e450181e48cf4c149dd2d04",
+          "language": "unknown",
+          "language_basis": "insufficient_language_evidence",
+          "primary": false,
+          "published_at": "2026-11-08T00:48:06Z",
+          "publisher": "IBM",
+          "retrieved_at": "2026-11-09T05:55:31.878532Z",
+          "title": "La RAG agentique fait de l’IA un détective numérique plus intelligent - IBM",
+          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBITEFVZGphT3JPRWZ3SHVWRmZhSkpQX3RhczFpZ0l1SGNtV3hnV3ZYZ3VQWEVDZ0NYT3ZjQWdFQWE4NlliOG0zaWdFTldqOEJnZ2g0XzNPYlp2bDZldUFQZHp1clVjM3dKT04tSzBFRQ?oc=5"
+        }
+      ],
+      "historical_application_status": null,
+      "historical_deadline": null,
+      "id": "c312cb89f2dc62b14515aa24",
+      "matched_topics": [],
+      "missing_verification": [],
+      "reasons": [
+        "incomplete_uncertain_or_below_threshold_model_assessment"
+      ],
+      "technical_significance": null,
+      "title": "La RAG agentique fait de l’IA un détective numérique plus intelligent - IBM",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBITEFVZGphT3JPRWZ3SHVWRmZhSkpQX3RhczFpZ0l1SGNtV3hnV3ZYZ3VQWEVDZ0NYT3ZjQWdFQWE4NlliOG0zaWdFTldqOEJnZ2g0XzNPYlp2bDZldUFQZHp1clVjM3dKT04tSzBFRQ?oc=5"
+    },
+    {
+      "application_status": null,
+      "attention": 0.25,
+      "classification": "UNASSESSED",
+      "confirmed": false,
+      "deadline": null,
+      "decisions": {
+        "claim-support": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "hfs": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "importance": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "relevance": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "same-story": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "worth-attention": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        }
+      },
+      "duplicate_of": null,
+      "eligibility": null,
+      "event_id": "7bd8d247b089971f456769ac",
+      "evidence": [
+        {
+          "content_hash": "bd1691de9c4f2e2fd1aefde0ad3754402721c384ea3ab4efc321e264c73f6959",
+          "discovery_language": "fr",
+          "excerpt": "Chroma : avis sur la meilleure base de données vectorielle open source pour la recherche par IA quasa.io",
+          "fresh": true,
+          "id": "5b7fe2018f0b81af6e48a50b",
+          "language": "unknown",
+          "language_basis": "insufficient_language_evidence",
+          "primary": false,
+          "published_at": "2026-11-07T06:10:11Z",
+          "publisher": "quasa.io",
+          "retrieved_at": "2026-11-09T05:55:31.878553Z",
+          "title": "Chroma : avis sur la meilleure base de données vectorielle open source pour la recherche par IA - quasa.io",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNTko0bVNmaGIyU1czeUdkVUhhOVJrTjF5cExmeWhST2U4dEc0RXVSTTF4VEQ5QUQ0ZmRiTm1BcVdyWV80aWNJek5LeXNMalRZb0Q5ODFwZ3QzWDNhWUdXWEc5UTg3WUczNXF6N2lMVFkzbXdlelFfbW9ZWk5NY2hReDdLXy1RdEx2RUtYR0xMaUh3dG9pZjFSWW1uMTNOWTB6X29CTDJZd3BPeC11eXloaEc2ZlJIZTIxTGg0?oc=5"
+        }
+      ],
+      "historical_application_status": null,
+      "historical_deadline": null,
+      "id": "3f829a479bc21d982ee30881",
+      "matched_topics": [],
+      "missing_verification": [],
+      "reasons": [
+        "incomplete_uncertain_or_below_threshold_model_assessment"
+      ],
+      "technical_significance": null,
+      "title": "Chroma : avis sur la meilleure base de données vectorielle open source pour la recherche par IA - quasa.io",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNTko0bVNmaGIyU1czeUdkVUhhOVJrTjF5cExmeWhST2U4dEc0RXVSTTF4VEQ5QUQ0ZmRiTm1BcVdyWV80aWNJek5LeXNMalRZb0Q5ODFwZ3QzWDNhWUdXWEc5UTg3WUczNXF6N2lMVFkzbXdlelFfbW9ZWk5NY2hReDdLXy1RdEx2RUtYR0xMaUh3dG9pZjFSWW1uMTNOWTB6X29CTDJZd3BPeC11eXloaEc2ZlJIZTIxTGg0?oc=5"
+    },
+    {
+      "application_status": null,
+      "attention": 0.25,
+      "classification": "UNASSESSED",
+      "confirmed": false,
+      "deadline": null,
+      "decisions": {
+        "claim-support": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "hfs": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "importance": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "relevance": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "same-story": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "worth-attention": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        }
+      },
+      "duplicate_of": null,
+      "eligibility": null,
+      "event_id": "a06d7784a28f582050517fe0",
+      "evidence": [
+        {
+          "content_hash": "1217719d081d609d3fe5597096af258629850066a6eb20a2dd51e2c0655b55ce",
+          "discovery_language": "fr",
+          "excerpt": "Cohere rend Embed 5 et Rerank 5 accessibles sur OpenRouter NeoTeo",
+          "fresh": true,
+          "id": "5a4da5429a7c98d8ae999665",
+          "language": "unknown",
+          "language_basis": "insufficient_language_evidence",
+          "primary": false,
+          "published_at": "2026-11-08T05:42:08Z",
+          "publisher": "NeoTeo",
+          "retrieved_at": "2026-11-09T05:55:31.878567Z",
+          "title": "Cohere rend Embed 5 et Rerank 5 accessibles sur OpenRouter - NeoTeo",
+          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPdjVyNnlDSnpoNnFHV3pOeXBMTkxqTDQtM0Y1YXEwRlY5bDlIS3ZIOXM2c011bi0tQ3ZRZzJUWmVKVXRZamI0STZhX2NLV3hkR0hjRGx3bDIxak0teUJVOXFNUUNZb2RweE1ZTzEtSVVoV0NDVmdLMEZORFhueHUxdmtSWDNxWGdzMEt6cg?oc=5"
+        }
+      ],
+      "historical_application_status": null,
+      "historical_deadline": null,
+      "id": "792cc126b859534527417432",
+      "matched_topics": [],
+      "missing_verification": [],
+      "reasons": [
+        "incomplete_uncertain_or_below_threshold_model_assessment"
+      ],
+      "technical_significance": null,
+      "title": "Cohere rend Embed 5 et Rerank 5 accessibles sur OpenRouter - NeoTeo",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPdjVyNnlDSnpoNnFHV3pOeXBMTkxqTDQtM0Y1YXEwRlY5bDlIS3ZIOXM2c011bi0tQ3ZRZzJUWmVKVXRZamI0STZhX2NLV3hkR0hjRGx3bDIxak0teUJVOXFNUUNZb2RweE1ZTzEtSVVoV0NDVmdLMEZORFhueHUxdmtSWDNxWGdzMEt6cg?oc=5"
+    },
+    {
+      "application_status": null,
+      "attention": 0.25,
+      "classification": "UNASSESSED",
+      "confirmed": false,
+      "deadline": null,
+      "decisions": {
+        "claim-support": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "hfs": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "importance": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "relevance": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "same-story": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "worth-attention": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        }
+      },
+      "duplicate_of": null,
+      "eligibility": null,
+      "event_id": "e1963ebfbb2b793c1a585020",
+      "evidence": [
+        {
+          "content_hash": "e4b4115362dbda3dbd3dce822cefb6c60079a08373febd4a9c700ffac6f44b07",
+          "discovery_language": "fr",
+          "excerpt": "IA : l'Inserm met à disposition de ses personnels deux nouveaux agents conversationnels souverains AEF info",
+          "fresh": true,
+          "id": "cd0b13e71e15a2a11af66a6b",
+          "language": "unknown",
+          "language_basis": "insufficient_language_evidence",
+          "primary": false,
+          "published_at": "2026-11-03T14:29:43Z",
+          "publisher": "AEF info",
+          "retrieved_at": "2026-11-09T05:55:31.878578Z",
+          "title": "IA : l'Inserm met à disposition de ses personnels deux nouveaux agents conversationnels souverains - AEF info",
+          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNZWtybmNvNTNLYUpiOWxNb2kxZTJfVDhnMW9rQUVxSVFialYzTHhqQUNjX3Jmb0t3aV9PNnlTN1QtdXNUaXJoMDBxYjB1VDNTQWlIZ01iX3cyQVpVTTh3VFcyUi1iQzB3U0w5TVE3V0lEQ1Y1R0gxUkItNXZRVkJaa0pfaThfR0kzNk5CQUJfdXVxWWlHcDhWcklnZVAtSldkQTdLLVUzZzJJLUpYX0JQaEEzV2FEOU5CeGpoVjQ2ZFRJanlocDIxc3QydUVWQQ?oc=5"
+        }
+      ],
+      "historical_application_status": null,
+      "historical_deadline": null,
+      "id": "f7d389418d58e0abd41327cc",
+      "matched_topics": [],
+      "missing_verification": [],
+      "reasons": [
+        "incomplete_uncertain_or_below_threshold_model_assessment"
+      ],
+      "technical_significance": null,
+      "title": "IA : l'Inserm met à disposition de ses personnels deux nouveaux agents conversationnels souverains - AEF info",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNZWtybmNvNTNLYUpiOWxNb2kxZTJfVDhnMW9rQUVxSVFialYzTHhqQUNjX3Jmb0t3aV9PNnlTN1QtdXNUaXJoMDBxYjB1VDNTQWlIZ01iX3cyQVpVTTh3VFcyUi1iQzB3U0w5TVE3V0lEQ1Y1R0gxUkItNXZRVkJaa0pfaThfR0kzNk5CQUJfdXVxWWlHcDhWcklnZVAtSldkQTdLLVUzZzJJLUpYX0JQaEEzV2FEOU5CeGpoVjQ2ZFRJanlocDIxc3QydUVWQQ?oc=5"
+    },
+    {
+      "application_status": null,
+      "attention": 0.25,
+      "classification": "UNASSESSED",
+      "confirmed": false,
+      "deadline": null,
+      "decisions": {
+        "claim-support": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "hfs": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "importance": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "relevance": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "same-story": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "worth-attention": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        }
+      },
+      "duplicate_of": null,
+      "eligibility": null,
+      "event_id": "81d82355aa0b6c6136c96932",
+      "evidence": [
+        {
+          "content_hash": "fd5f10f26c1b9d4e9cac42b3442d3751b7f007893c27e540c1b20dcf1cdc8092",
+          "discovery_language": "fr",
+          "excerpt": "Comment Infrabel utilise l’IA et ses données pour améliorer la ponctualité Le Rail",
+          "fresh": true,
+          "id": "f615179ec7bb97c842043324",
+          "language": "unknown",
+          "language_basis": "insufficient_language_evidence",
+          "primary": false,
+          "published_at": "2026-11-02T10:15:46Z",
+          "publisher": "Le Rail",
+          "retrieved_at": "2026-11-09T05:55:31.878590Z",
+          "title": "Comment Infrabel utilise l’IA et ses données pour améliorer la ponctualité - Le Rail",
+          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQcFFlVGt1THVfdS1xcXR2QkViX19oYVB1cGlXYkxCc3JBRXc1VG9UUzFmZ3ZsaTJnMXRnVHdHbVY2NXNKeTRxRlBOMk9sYWJ4ODhFZENuLWVzUUxGTDRpQmhCUGVjOFdvc29HaXlmV09JV3pkWTltdUpma1BmZkNoVGhDeUFnOTdxckhYbGdpM3RqVnlPX0t0em9BWWZqX2NrSi1HVTNwMzNmOWRtWFNQRXBRbFFDZW9LREFCVkRtMURpcXBySG1N?oc=5"
+        }
+      ],
+      "historical_application_status": null,
+      "historical_deadline": null,
+      "id": "2fea1d90013cb18e80d86409",
+      "matched_topics": [],
+      "missing_verification": [],
+      "reasons": [
+        "incomplete_uncertain_or_below_threshold_model_assessment"
+      ],
+      "technical_significance": null,
+      "title": "Comment Infrabel utilise l’IA et ses données pour améliorer la ponctualité - Le Rail",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQcFFlVGt1THVfdS1xcXR2QkViX19oYVB1cGlXYkxCc3JBRXc1VG9UUzFmZ3ZsaTJnMXRnVHdHbVY2NXNKeTRxRlBOMk9sYWJ4ODhFZENuLWVzUUxGTDRpQmhCUGVjOFdvc29HaXlmV09JV3pkWTltdUpma1BmZkNoVGhDeUFnOTdxckhYbGdpM3RqVnlPX0t0em9BWWZqX2NrSi1HVTNwMzNmOWRtWFNQRXBRbFFDZW9LREFCVkRtMURpcXBySG1N?oc=5"
+    },
+    {
+      "application_status": null,
+      "attention": 0.25,
+      "classification": "UNASSESSED",
+      "confirmed": false,
+      "deadline": null,
+      "decisions": {
+        "claim-support": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "hfs": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "importance": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "relevance": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "same-story": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "worth-attention": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        }
+      },
+      "duplicate_of": null,
+      "eligibility": null,
+      "event_id": "7df00ae73abfc75eec9cacc8",
+      "evidence": [
+        {
+          "content_hash": "81b91c5358b0e864d4a82149675ebef558ef0053baa03a4e7381d6e4eb4151e0",
+          "discovery_language": "fr",
+          "excerpt": "Twig : révolutionner le support client B2B grâce à l’automatisation RAG pilotée par l’IA quasa.io",
+          "fresh": true,
+          "id": "11ab16f9dc3f8361a30d98a0",
+          "language": "unknown",
+          "language_basis": "insufficient_language_evidence",
+          "primary": false,
+          "published_at": "2026-11-03T23:26:56Z",
+          "publisher": "quasa.io",
+          "retrieved_at": "2026-11-09T05:55:31.878600Z",
+          "title": "Twig : révolutionner le support client B2B grâce à l’automatisation RAG pilotée par l’IA - quasa.io",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPYzZlcy1IZmhmM1p2QndoMS04TDhpY0xHQzVGWUdXWkdvTGJKRWJwNDZRRmoyYUtZTDF0UEhZbk1yb0dURU1TUDFwaEVrd2lCYWFuNTAxbHM5LVRCb3BIeEFGbENCeDBQNV9qbWtkSXJEY2N4WDNxUExUcjNUVXVlWDIwbHo1Wm9ab292N2JVdUM5YWx2dEdMQVl6UXRXZTZNd0tUczdSeDM0MzhmajBwS0Z3?oc=5"
+        }
+      ],
+      "historical_application_status": null,
+      "historical_deadline": null,
+      "id": "0ffd833c50a20852c2927024",
+      "matched_topics": [],
+      "missing_verification": [],
+      "reasons": [
+        "incomplete_uncertain_or_below_threshold_model_assessment"
+      ],
+      "technical_significance": null,
+      "title": "Twig : révolutionner le support client B2B grâce à l’automatisation RAG pilotée par l’IA - quasa.io",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPYzZlcy1IZmhmM1p2QndoMS04TDhpY0xHQzVGWUdXWkdvTGJKRWJwNDZRRmoyYUtZTDF0UEhZbk1yb0dURU1TUDFwaEVrd2lCYWFuNTAxbHM5LVRCb3BIeEFGbENCeDBQNV9qbWtkSXJEY2N4WDNxUExUcjNUVXVlWDIwbHo1Wm9ab292N2JVdUM5YWx2dEdMQVl6UXRXZTZNd0tUczdSeDM0MzhmajBwS0Z3?oc=5"
+    },
+    {
+      "application_status": null,
+      "attention": 0.25,
+      "classification": "UNASSESSED",
+      "confirmed": false,
+      "deadline": null,
+      "decisions": {
+        "claim-support": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "hfs": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "importance": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "relevance": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "same-story": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "worth-attention": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        }
+      },
+      "duplicate_of": null,
+      "eligibility": null,
+      "event_id": "c15ecf1beaa7e9f55d5d1a39",
+      "evidence": [
+        {
+          "content_hash": "a1c8f480060867e0d8613c3dcc92dd3dd957f07b2e2030083dab42d0e87ea5e3",
+          "discovery_language": "fr",
+          "excerpt": "Elastic : avis sur Elasticsearch, la base de données vectorielle ultime pour l’IA quasa.io",
+          "fresh": true,
+          "id": "b3646b8433e9044aa41acd62",
+          "language": "unknown",
+          "language_basis": "insufficient_language_evidence",
+          "primary": false,
+          "published_at": "2026-11-06T08:27:29Z",
+          "publisher": "quasa.io",
+          "retrieved_at": "2026-11-09T05:55:31.878612Z",
+          "title": "Elastic : avis sur Elasticsearch, la base de données vectorielle ultime pour l’IA - quasa.io",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNWnpidHEzeVlwRGJ2YlV1cFhqZ2E2eUN3Sk40bE5uZmJlQkNWcUNucHZnLXVZOGFrU0hhbEdIQ1RiMEZvTjl2N1VjMU5VdWl6bE1YT0JSek41RVFrbFBnSFNhSnVkREpqMFBCTkJVeVRpcjM1TFJUcXBvcXVHcGM3d1VPTFJHZkJ0b0MzdS0tSDNkQkZETGpTMFVwNC15WU1zbnBxREtCOA?oc=5"
+        }
+      ],
+      "historical_application_status": null,
+      "historical_deadline": null,
+      "id": "93e0b277fe4835abc03b6fee",
+      "matched_topics": [],
+      "missing_verification": [],
+      "reasons": [
+        "incomplete_uncertain_or_below_threshold_model_assessment"
+      ],
+      "technical_significance": null,
+      "title": "Elastic : avis sur Elasticsearch, la base de données vectorielle ultime pour l’IA - quasa.io",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNWnpidHEzeVlwRGJ2YlV1cFhqZ2E2eUN3Sk40bE5uZmJlQkNWcUNucHZnLXVZOGFrU0hhbEdIQ1RiMEZvTjl2N1VjMU5VdWl6bE1YT0JSek41RVFrbFBnSFNhSnVkREpqMFBCTkJVeVRpcjM1TFJUcXBvcXVHcGM3d1VPTFJHZkJ0b0MzdS0tSDNkQkZETGpTMFVwNC15WU1zbnBxREtCOA?oc=5"
+    },
+    {
+      "application_status": null,
+      "attention": 0.25,
+      "classification": "UNASSESSED",
+      "confirmed": false,
+      "deadline": null,
+      "decisions": {
+        "claim-support": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "hfs": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "importance": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "relevance": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "same-story": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "worth-attention": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        }
+      },
+      "duplicate_of": null,
+      "eligibility": null,
+      "event_id": "dcc9028e84e8faeb34c01468",
+      "evidence": [
+        {
+          "content_hash": "8989444016a2a24b92fc17d765adf92719e66befb19b3336154d5dd04ef2fc93",
+          "discovery_language": "unknown",
+          "excerpt": "Changes since langchain-typesafe==0.0.1 release(typesafe): 0.0.2 (#41720) feat(typesafe): accept a `classifier` in experimental middleware (#41657)",
+          "fresh": true,
+          "id": "9d279cdb393401d1e971c953",
+          "language": "unknown",
+          "language_basis": "insufficient_language_evidence",
+          "primary": true,
+          "published_at": "2026-11-05T22:56:58Z",
+          "publisher": "langchain-ai/langchain",
+          "retrieved_at": "2026-11-09T05:55:32.141135Z",
+          "title": "langchain-typesafe==0.0.2",
+          "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-typesafe%3D%3D0.0.2"
+        }
+      ],
+      "historical_application_status": null,
+      "historical_deadline": null,
+      "id": "91657b5e1b05c7c9ee392fef",
+      "matched_topics": [],
+      "missing_verification": [],
+      "reasons": [
+        "incomplete_uncertain_or_below_threshold_model_assessment"
+      ],
+      "technical_significance": null,
+      "title": "langchain-typesafe==0.0.2",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-typesafe%3D%3D0.0.2"
+    },
+    {
+      "application_status": null,
+      "attention": 0.25,
+      "classification": "UNASSESSED",
+      "confirmed": false,
+      "deadline": null,
+      "decisions": {
+        "claim-support": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "hfs": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "importance": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "relevance": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "same-story": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "worth-attention": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        }
+      },
+      "duplicate_of": null,
+      "eligibility": null,
+      "event_id": "6c98838815577443eb463f95",
+      "evidence": [
+        {
+          "content_hash": "f902dabb34fbf26f55da7eac5824bc6d1fb949da570ce8e71fd1b3902e932c21",
+          "discovery_language": "unknown",
+          "excerpt": "Changes since langchain-core==1.7.5 release(core): 1.7.6 (#41698) perf(core): merge streamed `AIMessageChunk`s once when accumulating runnable streams (#41697) perf(core): stop `parse_partial_json` from retrying one character at a time (#41467)",
+          "fresh": true,
+          "id": "244db3685d1718e25fedee1a",
+          "language": "unknown",
+          "language_basis": "insufficient_language_evidence",
+          "primary": true,
+          "published_at": "2026-11-05T00:22:12Z",
+          "publisher": "langchain-ai/langchain",
+          "retrieved_at": "2026-11-09T05:55:32.141153Z",
+          "title": "langchain-core==1.7.6",
+          "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.7.6"
+        }
+      ],
+      "historical_application_status": null,
+      "historical_deadline": null,
+      "id": "7c877f6e264d60a244656e83",
+      "matched_topics": [],
+      "missing_verification": [],
+      "reasons": [
+        "incomplete_uncertain_or_below_threshold_model_assessment"
+      ],
+      "technical_significance": null,
+      "title": "langchain-core==1.7.6",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.7.6"
+    },
+    {
+      "application_status": null,
+      "attention": 0.25,
+      "classification": "UNASSESSED",
+      "confirmed": false,
+      "deadline": null,
+      "decisions": {
+        "claim-support": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "hfs": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "importance": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "relevance": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "same-story": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "worth-attention": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        }
+      },
+      "duplicate_of": null,
+      "eligibility": null,
+      "event_id": "ed0410e4df19aef3b017a7cf",
+      "evidence": [
+        {
+          "content_hash": "b16a4474008e2663cdafac95b0be979549856f8d244a232bfd5e955eafe72dc3",
+          "discovery_language": "unknown",
+          "excerpt": "Changes since langchain==1.4.8 release(langchain): 1.4.9 (#41684) chore(deps): require `langchain-core>=1.7.5` for refusal handling (#41682) feat(core): standardize model refusal content blocks (#41582)",
+          "fresh": true,
+          "id": "0819298170ecc53f7ee044a9",
+          "language": "unknown",
+          "language_basis": "insufficient_language_evidence",
+          "primary": true,
+          "published_at": "2026-11-04T17:07:37Z",
+          "publisher": "langchain-ai/langchain",
+          "retrieved_at": "2026-11-09T05:55:32.141159Z",
+          "title": "langchain==1.4.9",
+          "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.4.9"
+        }
+      ],
+      "historical_application_status": null,
+      "historical_deadline": null,
+      "id": "160c468d3caf5b00d7555266",
+      "matched_topics": [],
+      "missing_verification": [],
+      "reasons": [
+        "incomplete_uncertain_or_below_threshold_model_assessment"
+      ],
+      "technical_significance": null,
+      "title": "langchain==1.4.9",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.4.9"
+    },
+    {
+      "application_status": null,
+      "attention": 0.25,
+      "classification": "UNASSESSED",
+      "confirmed": false,
+      "deadline": null,
+      "decisions": {
+        "claim-support": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "hfs": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "importance": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "relevance": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "same-story": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "worth-attention": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        }
+      },
+      "duplicate_of": null,
+      "eligibility": null,
+      "event_id": "882614252e809bfa28613b93",
+      "evidence": [
+        {
+          "content_hash": "3ea71ac771910f8ff0fe5257bd65c01b9ce22c6361cd0c8bc42f3d074dbdd18c",
+          "discovery_language": "unknown",
+          "excerpt": "Initial release release(typesafe): 0.0.1 (#41650) chore(infra): relax third-party dependency upper bounds (#41407) chore(deps): bump certifi from 2026.7.22 to 2026.10.19 in /libs/partners/typesafe (#41375) fix: fix dependencies in some partner packages (#41266) release(typesafe): 0.0.1a3 (#40693) feat(typesafe): make classifier questions invocation-scoped (#40659) release(typesafe): bump to 0.0.1a2 (#40576) feat(typesafe): experimental `AutoModeMiddleware` (#40545) feat(typesafe): experimental `",
+          "fresh": true,
+          "id": "f6b81b187c82c584185147c2",
+          "language": "unknown",
+          "language_basis": "insufficient_language_evidence",
+          "primary": true,
+          "published_at": "2026-11-04T00:11:25Z",
+          "publisher": "langchain-ai/langchain",
+          "retrieved_at": "2026-11-09T05:55:32.141165Z",
+          "title": "langchain-typesafe==0.0.1",
+          "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-typesafe%3D%3D0.0.1"
+        }
+      ],
+      "historical_application_status": null,
+      "historical_deadline": null,
+      "id": "c627fe4742522cfefa6b011c",
+      "matched_topics": [],
+      "missing_verification": [],
+      "reasons": [
+        "incomplete_uncertain_or_below_threshold_model_assessment"
+      ],
+      "technical_significance": null,
+      "title": "langchain-typesafe==0.0.1",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-typesafe%3D%3D0.0.1"
+    },
+    {
+      "application_status": null,
+      "attention": 0.25,
+      "classification": "UNASSESSED",
+      "confirmed": false,
+      "deadline": null,
+      "decisions": {
+        "claim-support": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "hfs": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "importance": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "relevance": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "same-story": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "worth-attention": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        }
+      },
+      "duplicate_of": null,
+      "eligibility": null,
+      "event_id": "7ef0cc3466090054e33279ca",
+      "evidence": [
+        {
+          "content_hash": "ce9ccc0990a3379c7fde6032bc82eee482fa2f72ab6eec60e38b718ff2441b5d",
+          "discovery_language": "unknown",
+          "excerpt": "Changes since langchain-openai==1.7.3 release(openai): 1.7.4 (#41683) chore(deps): require `langchain-core>=1.7.5` for refusal handling (#41682) feat(core): standardize model refusal content blocks (#41582) chore(model-profiles): refresh model profile data (#41556)",
+          "fresh": true,
+          "id": "46a7544f355ff8641f23ab57",
+          "language": "unknown",
+          "language_basis": "insufficient_language_evidence",
+          "primary": true,
+          "published_at": "2026-11-04T16:55:54Z",
+          "publisher": "langchain-ai/langchain",
+          "retrieved_at": "2026-11-09T05:55:32.141171Z",
+          "title": "langchain-openai==1.7.4",
+          "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.7.4"
+        }
+      ],
+      "historical_application_status": null,
+      "historical_deadline": null,
+      "id": "f6c522984dd7ba4853cf6266",
+      "matched_topics": [],
+      "missing_verification": [],
+      "reasons": [
+        "incomplete_uncertain_or_below_threshold_model_assessment"
+      ],
+      "technical_significance": null,
+      "title": "langchain-openai==1.7.4",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.7.4"
+    },
+    {
+      "application_status": null,
+      "attention": 0.4,
+      "classification": "UNASSESSED",
+      "confirmed": false,
+      "deadline": null,
+      "decisions": {
+        "claim-support": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "hfs": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "importance": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "relevance": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "same-story": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "worth-attention": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        }
+      },
+      "duplicate_of": null,
+      "eligibility": null,
+      "event_id": "9c71789b7bdcc8e46c6b6443",
+      "evidence": [
+        {
+          "content_hash": "e4aadbee6564c83d29aebf66faee25aff45b9cf0daff09c777bc1bc0372b2462",
+          "discovery_language": "unknown",
+          "excerpt": "Changes since langchain-fireworks==1.7.1 fix(fireworks): report streamed token usage once (#41693) release(fireworks): 1.7.2 (#41690) fix(fireworks): report the served model in response metadata (#41686) chore(model-profiles): refresh model profile data (#41669) fix(fireworks): promote reranking out of beta (#41551) chore(model-profiles): refresh model profile data (#41432) chore(infra): relax third-party dependency upper bounds (#41407) chore(model-profiles): refresh model profile data (#41354)",
+          "fresh": true,
+          "id": "46245a8b49e3366fcc0b5544",
+          "language": "unknown",
+          "language_basis": "insufficient_language_evidence",
+          "primary": true,
+          "published_at": "2026-11-04T20:47:50Z",
+          "publisher": "langchain-ai/langchain",
+          "retrieved_at": "2026-11-09T05:55:32.141178Z",
+          "title": "langchain-fireworks==1.7.2",
+          "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-fireworks%3D%3D1.7.2"
+        }
+      ],
+      "historical_application_status": null,
+      "historical_deadline": null,
+      "id": "67a5b0fe62f42e097ab76858",
+      "matched_topics": [
+        "Reranking"
+      ],
+      "missing_verification": [],
+      "reasons": [
+        "incomplete_uncertain_or_below_threshold_model_assessment"
+      ],
+      "technical_significance": null,
+      "title": "langchain-fireworks==1.7.2",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-fireworks%3D%3D1.7.2"
+    },
+    {
+      "application_status": null,
+      "attention": 0.25,
+      "classification": "UNASSESSED",
+      "confirmed": false,
+      "deadline": null,
+      "decisions": {
+        "claim-support": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "hfs": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "importance": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "relevance": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "same-story": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "worth-attention": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        }
+      },
+      "duplicate_of": null,
+      "eligibility": null,
+      "event_id": "4a2d84d32c3ea23afcc1ddca",
+      "evidence": [
+        {
+          "content_hash": "7fb40fab18035f19099530f2a3212e870dd4620e083d721b539e7a35ee49abfc",
+          "discovery_language": "unknown",
+          "excerpt": "Changes since langchain-core==1.7.4 release(core): 1.7.5 (#41665) feat(core): translate Gemini safety blocks to refusal content blocks (#41658) fix(core): end tool run on cancellation (#41660) feat(core): standardize model refusal content blocks (#41582) fix(core): load RemoveMessage serialized by LangChain.js (#41642)",
+          "fresh": true,
+          "id": "4cec6d1a0953b4c56ca536f4",
+          "language": "unknown",
+          "language_basis": "insufficient_language_evidence",
+          "primary": true,
+          "published_at": "2026-11-04T15:50:04Z",
+          "publisher": "langchain-ai/langchain",
+          "retrieved_at": "2026-11-09T05:55:32.141200Z",
+          "title": "langchain-core==1.7.5",
+          "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.7.5"
+        }
+      ],
+      "historical_application_status": null,
+      "historical_deadline": null,
+      "id": "a6e5267c84d7e46ba89af33f",
+      "matched_topics": [],
+      "missing_verification": [],
+      "reasons": [
+        "incomplete_uncertain_or_below_threshold_model_assessment"
+      ],
+      "technical_significance": null,
+      "title": "langchain-core==1.7.5",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.7.5"
+    },
+    {
+      "application_status": null,
+      "attention": 0.25,
+      "classification": "UNASSESSED",
+      "confirmed": false,
+      "deadline": null,
+      "decisions": {
+        "claim-support": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "hfs": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "importance": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "relevance": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "same-story": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "worth-attention": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        }
+      },
+      "duplicate_of": null,
+      "eligibility": null,
+      "event_id": "84437d19b97cb6bc1701b676",
+      "evidence": [
+        {
+          "content_hash": "2501350580e62ccf4c7dcf1e1c0244bfc6aede04c486c988f87a83eb0ae3b545",
+          "discovery_language": "unknown",
+          "excerpt": "Changes since langchain-anthropic==1.7.9 release(anthropic): 1.7.10 (#41685) chore(deps): require `langchain-core>=1.7.5` for refusal handling (#41682) feat(core): translate Gemini safety blocks to refusal content blocks (#41658) feat(core): standardize model refusal content blocks (#41582)",
+          "fresh": true,
+          "id": "31cebd78575afc99152211af",
+          "language": "unknown",
+          "language_basis": "insufficient_language_evidence",
+          "primary": true,
+          "published_at": "2026-11-04T16:51:12Z",
+          "publisher": "langchain-ai/langchain",
+          "retrieved_at": "2026-11-09T05:55:32.141206Z",
+          "title": "langchain-anthropic==1.7.10",
+          "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-anthropic%3D%3D1.7.10"
+        }
+      ],
+      "historical_application_status": null,
+      "historical_deadline": null,
+      "id": "8aa7894d30adf6b292450181",
+      "matched_topics": [],
+      "missing_verification": [],
+      "reasons": [
+        "incomplete_uncertain_or_below_threshold_model_assessment"
+      ],
+      "technical_significance": null,
+      "title": "langchain-anthropic==1.7.10",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-anthropic%3D%3D1.7.10"
+    },
+    {
+      "application_status": null,
+      "attention": 0.52,
+      "classification": "REJECTED",
+      "confirmed": false,
+      "deadline": null,
+      "decisions": {
+        "claim-support": {
+          "cache_hit": false,
+          "charged_tokens": 668,
+          "decision": {
+            "evidence_ids": [
+              "c92f172030301f0fb60019dc"
+            ],
+            "facts": 0.5,
+            "hype": 0.5,
+            "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
+            "related_event_id": null,
+            "score": 0.5,
+            "signal": 0.5,
+            "verdict": "unknown"
+          },
+          "provider": {
+            "abstained": false,
+            "attempts": 1,
+            "cost": null,
+            "family": "systemone",
+            "format": "systemone_choices",
+            "input_tokens": 668,
+            "latency_ms": 534,
+            "model": "alias-clef",
+            "model_identity_verified": true,
+            "output_tokens": 0,
+            "response_model": "alias-clef",
+            "status": "success",
+            "tokens": 668
+          }
+        },
+        "hfs": {
+          "cache_hit": false,
+          "charged_tokens": 910,
+          "decision": {
+            "evidence_ids": [
+              "c92f172030301f0fb60019dc"
+            ],
+            "facts": 0.9,
+            "hype": 0.1,
+            "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
+            "related_event_id": null,
+            "score": 0.1,
+            "signal": 0.1,
+            "verdict": "no"
+          },
+          "provider": {
+            "abstained": false,
+            "attempts": 1,
+            "cost": null,
+            "family": "systemone",
+            "format": "systemone_choices",
+            "input_tokens": 910,
+            "latency_ms": 595,
+            "model": "alias-clef",
+            "model_identity_verified": true,
+            "output_tokens": 0,
+            "response_model": "alias-clef",
+            "status": "success",
+            "tokens": 910
+          }
+        },
+        "importance": {
+          "cache_hit": false,
+          "charged_tokens": 677,
+          "decision": {
+            "evidence_ids": [
+              "c92f172030301f0fb60019dc"
+            ],
+            "facts": 0.5,
+            "hype": 0.5,
+            "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
+            "related_event_id": null,
+            "score": 0.5,
+            "signal": 0.5,
+            "verdict": "yes"
+          },
+          "provider": {
+            "abstained": false,
+            "attempts": 1,
+            "cost": null,
+            "family": "systemone",
+            "format": "systemone_choices",
+            "input_tokens": 677,
+            "latency_ms": 562,
+            "model": "alias-clef",
+            "model_identity_verified": true,
+            "output_tokens": 0,
+            "response_model": "alias-clef",
+            "status": "success",
+            "tokens": 677
+          }
+        },
+        "relevance": {
+          "cache_hit": false,
+          "charged_tokens": 655,
+          "decision": {
+            "evidence_ids": [
+              "c92f172030301f0fb60019dc"
+            ],
+            "facts": 0.5,
+            "hype": 0.5,
+            "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
+            "related_event_id": null,
+            "score": 0.1,
+            "signal": 0.5,
+            "verdict": "no"
+          },
+          "provider": {
+            "abstained": false,
+            "attempts": 1,
+            "cost": null,
+            "family": "systemone",
+            "format": "systemone_choices",
+            "input_tokens": 655,
+            "latency_ms": 533,
+            "model": "alias-clef",
+            "model_identity_verified": true,
+            "output_tokens": 0,
+            "response_model": "alias-clef",
+            "status": "success",
+            "tokens": 655
+          }
+        },
+        "same-story": {
+          "cache_hit": false,
+          "charged_tokens": 727,
+          "decision": {
+            "evidence_ids": [
+              "c92f172030301f0fb60019dc"
+            ],
+            "facts": 0.5,
+            "hype": 0.5,
+            "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
+            "related_event_id": null,
+            "score": 0.9,
+            "signal": 0.5,
+            "verdict": "different"
+          },
+          "provider": {
+            "abstained": false,
+            "attempts": 1,
+            "cost": null,
+            "family": "systemone",
+            "format": "systemone_choices",
+            "input_tokens": 727,
+            "latency_ms": 545,
+            "model": "alias-clef",
+            "model_identity_verified": true,
+            "output_tokens": 0,
+            "response_model": "alias-clef",
+            "status": "success",
+            "tokens": 727
+          }
+        },
+        "worth-attention": {
+          "cache_hit": false,
+          "charged_tokens": 659,
+          "decision": {
+            "evidence_ids": [
+              "c92f172030301f0fb60019dc"
+            ],
+            "facts": 0.5,
+            "hype": 0.5,
+            "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
+            "related_event_id": null,
+            "score": 0.9,
+            "signal": 0.5,
+            "verdict": "yes"
+          },
+          "provider": {
+            "abstained": false,
+            "attempts": 1,
+            "cost": null,
+            "family": "systemone",
+            "format": "systemone_choices",
+            "input_tokens": 659,
+            "latency_ms": 553,
+            "model": "alias-clef",
+            "model_identity_verified": true,
+            "output_tokens": 0,
+            "response_model": "alias-clef",
+            "status": "success",
+            "tokens": 659
+          }
+        }
+      },
+      "duplicate_of": null,
+      "eligibility": null,
+      "event_id": "0ce62f77c11c71b3afdc72d0",
+      "evidence": [
+        {
+          "content_hash": "8a260af8b268de5d60bead4e05015971ff26253f4dca85b5cb190f739d815f28",
+          "discovery_language": "unknown",
+          "excerpt": "> [!WARNING] > **Python 3.10 support will be dropped in `langchain-core` 1.8.0 and `langchain` 1.5.0.** The current minor versions are the last to support Python 3.10. Please upgrade to Python 3.11 or later. Changes since langchain==1.4.7 chore(langchain): bump langchain-core (#41640) release(langchain): 1.4.8 (#41636) chore(deps): bump pyasn1 from 0.6.4 to 0.6.5 in /libs/langchain_v1 (#41591) chore(deps): bump",
+          "fresh": true,
+          "id": "c92f172030301f0fb60019dc",
+          "language": "en",
+          "language_basis": "lexical_heuristic_requires_review",
+          "primary": true,
+          "published_at": "2026-11-02T15:45:02Z",
+          "publisher": "langchain-ai/langchain",
+          "retrieved_at": "2026-11-09T05:55:32.141211Z",
+          "title": "langchain==1.4.8",
+          "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.4.8"
+        }
+      ],
+      "historical_application_status": null,
+      "historical_deadline": null,
+      "id": "deaa1c02d5993e108c23d644",
+      "matched_topics": [],
+      "missing_verification": [],
+      "reasons": [
+        "model_relevance_no"
+      ],
+      "technical_significance": null,
+      "title": "langchain==1.4.8",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.4.8"
+    },
+    {
+      "application_status": null,
+      "attention": 0.25,
+      "classification": "UNASSESSED",
+      "confirmed": false,
+      "deadline": null,
+      "decisions": {
+        "claim-support": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "hfs": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "importance": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "relevance": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "same-story": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "worth-attention": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        }
+      },
+      "duplicate_of": null,
+      "eligibility": null,
+      "event_id": "bf0fbce642a49c99be139904",
+      "evidence": [
+        {
+          "content_hash": "09dfdacb9b197f610fce84ba54d8ce6c0caf0b8c4bf4bbb8e29d0971ea358df4",
+          "discovery_language": "unknown",
+          "excerpt": "> [!WARNING] > **Python 3.10 support will be dropped in `langchain-core` 1.8.0 and `langchain` 1.5.0.** The current minor versions are the last to support Python 3.10. Please upgrade to Python 3.11 or later. Changes since langchain-core==1.7.3 release(core): 1.7.4 (#41635) fix(core): avoid mutating message content in Anthropic translator (#40213)",
+          "fresh": true,
+          "id": "8b63705714e46b3dfb35e064",
+          "language": "unknown",
+          "language_basis": "insufficient_language_evidence",
+          "primary": true,
+          "published_at": "2026-11-02T15:31:47Z",
+          "publisher": "langchain-ai/langchain",
+          "retrieved_at": "2026-11-09T05:55:32.141217Z",
+          "title": "langchain-core==1.7.4",
+          "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.7.4"
+        }
+      ],
+      "historical_application_status": null,
+      "historical_deadline": null,
+      "id": "4e837ff42c999ea67789af59",
+      "matched_topics": [],
+      "missing_verification": [],
+      "reasons": [
+        "incomplete_uncertain_or_below_threshold_model_assessment"
+      ],
+      "technical_significance": null,
+      "title": "langchain-core==1.7.4",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.7.4"
+    }
+  ],
+  "domain": "rag-memory",
+  "generated_at_utc": "2026-11-09T05:55:51.777779+00:00",
+  "limitations": [
+    "Model choices are uncalibrated editorial judgments, not verified facts.",
+    "Short source excerpts may omit context; original publication dates can be unknown.",
+    "Novelty compares this run only; no historical corpus was loaded.",
+    "Technical significance is unassessed: native choices cannot generate technical-learning explanations or code.",
+    "No human ground truth: precision@10 and recall remain null.",
+    "No verified de language evidence retrieved. Inspect approved native-language discovery query results; query locale is not source language. Primary research/laboratory/conference families remain pending source review in this radar registry.",
+    "No verified fr language evidence retrieved. Inspect approved native-language discovery query results; query locale is not source language. Primary research/laboratory/conference families remain pending source review in this radar registry.",
+    "Model budget exhausted; remaining command states are explicitly budget_limit, not inferred decisions."
+  ],
+  "physical_data_branch": "radar/rag-memory",
+  "policy": {
+    "concurrency": 1,
+    "deprioritize": [],
+    "exclusions": [],
+    "max_cost_usd": null,
+    "max_requests": 36,
+    "max_tokens": 200000,
+    "profile_id": "examples/radar-rag-memory",
+    "public_context": [
+      "Technical learning; preserve original evidence language; unknown relevance requires review."
+    ],
+    "threshold": 0.35,
+    "topics": [
+      "Retrieval augmented generation",
+      "Hybrid retrieval",
+      "BM25",
+      "Embeddings",
+      "Reranking",
+      "Agent memory",
+      "Episodic memory",
+      "Semantic memory",
+      "Knowledge graphs",
+      "Context compression",
+      "Memory consolidation",
+      "Adaptive retrieval",
+      "Retrieval evaluation",
+      "Long-context reasoning",
+      "Memory benchmarks",
+      "Citation grounding"
+    ],
+    "usd_per_million_tokens": null,
+    "version": "radar-1.0-provisional",
+    "weights": {
+      "actionability": 0.1,
+      "evidence": 0.2,
+      "importance": 0.2,
+      "novelty": 0.2,
+      "relevance": 0.3
+    }
+  },
+  "precision_at_10": null,
+  "profile_id": "examples/radar-rag-memory",
+  "recall": null,
+  "review_version": "live-review-1.0",
+  "schema_version": "1.0",
+  "source_revision": "3c2e79d6645869f6ac3a2178d5d7194bdc73a9ab",
+  "sources": [
+    {
+      "content_unchanged": false,
+      "error_code": null,
+      "items": 8,
+      "query": "\"agent memory\" OR \"hybrid retrieval\" OR \"RAG evaluation\"",
+      "source": "google_news",
+      "status": "ok"
+    },
+    {
+      "content_unchanged": false,
+      "error_code": null,
+      "items": 13,
+      "query": "(RAG OR Wissensabruf) (KI OR Gedächtnis OR Evaluierung)",
+      "source": "google_news",
+      "status": "ok"
+    },
+    {
+      "content_unchanged": false,
+      "error_code": null,
+      "items": 7,
+      "query": "(RAG OR \"mémoire agents\") (évaluation OR recherche OR hybride)",
+      "source": "google_news",
+      "status": "ok"
+    },
+    {
+      "content_unchanged": false,
+      "http_status": 200,
+      "items": 10,
+      "source": "github:langchain-ai/langchain",
+      "status": "ok"
+    },
+    {
+      "content_unchanged": false,
+      "http_status": 200,
+      "items": 0,
+      "source": "github:facebookresearch/faiss",
+      "status": "ok"
+    }
+  ],
+  "statistics": {
+    "cache_hits": 0,
+    "candidates": 38,
+    "confirmed_findings": 0,
+    "cost_usd": null,
+    "discovery_languages": {
+      "de": 13,
+      "en": 8,
+      "fr": 7,
+      "unknown": 10
+    },
+    "duplicates": 1,
+    "invalid_public_urls": 0,
+    "known_tokens": 24299,
+    "model_requests": 34,
+    "rejected": 1,
+    "retained_for_review": 36,
+    "retrieved_items": 38,
+    "review_worthy": 3,
+    "runtime_seconds": 20.948,
+    "source_failures": 0,
+    "source_languages": {
+      "en": 1,
+      "unknown": 37
+    },
+    "token_usage_complete": true
+  },
+  "window_hours": 168,
+  "workflow_run_id": "42569950068"
+}

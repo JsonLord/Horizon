@@ -1,0 +1,851 @@
+{
+  "acceptance": "PARTIAL",
+  "cache_replay": {
+    "cache_hits": 6,
+    "performed": true,
+    "provider_requests": 0,
+    "unchanged_content_avoids_calls": true
+  },
+  "candidates": [
+    {
+      "application_status": "unknown",
+      "attention": 0.3,
+      "classification": "VERIFICATION_REQUIRED",
+      "confirmed": false,
+      "deadline": null,
+      "decisions": {
+        "claim-support": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "no_fresh_evidence"
+          }
+        },
+        "hfs": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "no_fresh_evidence"
+          }
+        },
+        "importance": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "no_fresh_evidence"
+          }
+        },
+        "relevance": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "no_fresh_evidence"
+          }
+        },
+        "same-story": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "no_fresh_evidence"
+          }
+        },
+        "worth-attention": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "no_fresh_evidence"
+          }
+        }
+      },
+      "duplicate_of": null,
+      "eligibility": "review_required",
+      "event_id": "2a9adf55f1d3b402d27fb472",
+      "evidence": [],
+      "historical_application_status": null,
+      "historical_deadline": "2025-02-01",
+      "id": "98f91b2499141a48d58c3499",
+      "matched_topics": [],
+      "missing_verification": [
+        "critical_eligibility_or_primary_evidence_unknown",
+        "redirect_outside_verified_primary_domain"
+      ],
+      "reasons": [
+        "missing_fresh_evidence_or_hard_eligibility"
+      ],
+      "technical_significance": null,
+      "title": "Kilo Health",
+      "url": "https://incubator.kilo.health/"
+    },
+    {
+      "application_status": "unknown",
+      "attention": 0.3,
+      "classification": "VERIFICATION_REQUIRED",
+      "confirmed": false,
+      "deadline": null,
+      "decisions": {
+        "claim-support": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "no_fresh_evidence"
+          }
+        },
+        "hfs": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "no_fresh_evidence"
+          }
+        },
+        "importance": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "no_fresh_evidence"
+          }
+        },
+        "relevance": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "no_fresh_evidence"
+          }
+        },
+        "same-story": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "no_fresh_evidence"
+          }
+        },
+        "worth-attention": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "no_fresh_evidence"
+          }
+        }
+      },
+      "duplicate_of": null,
+      "eligibility": "review_required",
+      "event_id": "39454ed641a36db2f21c2230",
+      "evidence": [],
+      "historical_application_status": null,
+      "historical_deadline": null,
+      "id": "a25c8ce2cf78ea06d9128f79",
+      "matched_topics": [],
+      "missing_verification": [
+        "critical_eligibility_or_primary_evidence_unknown"
+      ],
+      "reasons": [
+        "missing_fresh_evidence_or_hard_eligibility"
+      ],
+      "technical_significance": null,
+      "title": "Kaospilots",
+      "url": null
+    },
+    {
+      "application_status": "unknown",
+      "attention": 0.58,
+      "classification": "VERIFICATION_REQUIRED",
+      "confirmed": false,
+      "deadline": null,
+      "decisions": {
+        "claim-support": {
+          "cache_hit": false,
+          "charged_tokens": 623,
+          "decision": {
+            "evidence_ids": [
+              "afab8667a3f62a743ee7e508"
+            ],
+            "facts": 0.5,
+            "hype": 0.5,
+            "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
+            "related_event_id": null,
+            "score": 0.9,
+            "signal": 0.5,
+            "verdict": "yes"
+          },
+          "provider": {
+            "abstained": false,
+            "attempts": 1,
+            "cost": null,
+            "family": "systemone",
+            "format": "systemone_choices",
+            "input_tokens": 623,
+            "latency_ms": 512,
+            "model": "alias-clef",
+            "model_identity_verified": true,
+            "output_tokens": 0,
+            "response_model": "alias-clef",
+            "status": "success",
+            "tokens": 623
+          }
+        },
+        "hfs": {
+          "cache_hit": false,
+          "charged_tokens": 865,
+          "decision": {
+            "evidence_ids": [
+              "afab8667a3f62a743ee7e508"
+            ],
+            "facts": 0.9,
+            "hype": 0.1,
+            "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
+            "related_event_id": null,
+            "score": 0.1,
+            "signal": 0.1,
+            "verdict": "no"
+          },
+          "provider": {
+            "abstained": false,
+            "attempts": 1,
+            "cost": null,
+            "family": "systemone",
+            "format": "systemone_choices",
+            "input_tokens": 865,
+            "latency_ms": 556,
+            "model": "alias-clef",
+            "model_identity_verified": true,
+            "output_tokens": 0,
+            "response_model": "alias-clef",
+            "status": "success",
+            "tokens": 865
+          }
+        },
+        "importance": {
+          "cache_hit": false,
+          "charged_tokens": 632,
+          "decision": {
+            "evidence_ids": [
+              "afab8667a3f62a743ee7e508"
+            ],
+            "facts": 0.5,
+            "hype": 0.5,
+            "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
+            "related_event_id": null,
+            "score": 0.9,
+            "signal": 0.5,
+            "verdict": "yes"
+          },
+          "provider": {
+            "abstained": false,
+            "attempts": 1,
+            "cost": null,
+            "family": "systemone",
+            "format": "systemone_choices",
+            "input_tokens": 632,
+            "latency_ms": 532,
+            "model": "alias-clef",
+            "model_identity_verified": true,
+            "output_tokens": 0,
+            "response_model": "alias-clef",
+            "status": "success",
+            "tokens": 632
+          }
+        },
+        "relevance": {
+          "cache_hit": false,
+          "charged_tokens": 610,
+          "decision": {
+            "evidence_ids": [
+              "afab8667a3f62a743ee7e508"
+            ],
+            "facts": 0.5,
+            "hype": 0.5,
+            "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
+            "related_event_id": null,
+            "score": 0.9,
+            "signal": 0.5,
+            "verdict": "yes"
+          },
+          "provider": {
+            "abstained": false,
+            "attempts": 1,
+            "cost": null,
+            "family": "systemone",
+            "format": "systemone_choices",
+            "input_tokens": 610,
+            "latency_ms": 534,
+            "model": "alias-clef",
+            "model_identity_verified": true,
+            "output_tokens": 0,
+            "response_model": "alias-clef",
+            "status": "success",
+            "tokens": 610
+          }
+        },
+        "same-story": {
+          "cache_hit": false,
+          "charged_tokens": 825,
+          "decision": {
+            "evidence_ids": [
+              "afab8667a3f62a743ee7e508"
+            ],
+            "facts": 0.5,
+            "hype": 0.5,
+            "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
+            "related_event_id": null,
+            "score": 0.5,
+            "signal": 0.5,
+            "verdict": "unknown"
+          },
+          "provider": {
+            "abstained": false,
+            "attempts": 1,
+            "cost": null,
+            "family": "systemone",
+            "format": "systemone_choices",
+            "input_tokens": 825,
+            "latency_ms": 586,
+            "model": "alias-clef",
+            "model_identity_verified": true,
+            "output_tokens": 0,
+            "response_model": "alias-clef",
+            "status": "success",
+            "tokens": 825
+          }
+        },
+        "worth-attention": {
+          "cache_hit": false,
+          "charged_tokens": 614,
+          "decision": {
+            "evidence_ids": [
+              "afab8667a3f62a743ee7e508"
+            ],
+            "facts": 0.5,
+            "hype": 0.5,
+            "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
+            "related_event_id": null,
+            "score": 0.1,
+            "signal": 0.5,
+            "verdict": "no"
+          },
+          "provider": {
+            "abstained": false,
+            "attempts": 1,
+            "cost": null,
+            "family": "systemone",
+            "format": "systemone_choices",
+            "input_tokens": 614,
+            "latency_ms": 540,
+            "model": "alias-clef",
+            "model_identity_verified": true,
+            "output_tokens": 0,
+            "response_model": "alias-clef",
+            "status": "success",
+            "tokens": 614
+          }
+        }
+      },
+      "duplicate_of": null,
+      "eligibility": "review_required",
+      "event_id": "a81e115b77cb18bde14d83d6",
+      "evidence": [
+        {
+          "content_hash": "668455a27856433b8b84ee0d3be32c4178eb7cb00d54110f02e905a6948e43d4",
+          "discovery_language": "unknown",
+          "excerpt": "GET INVESTMENT FROM ANTLER",
+          "fresh": true,
+          "id": "afab8667a3f62a743ee7e508",
+          "language": "unknown",
+          "language_basis": "insufficient_language_evidence",
+          "primary": true,
+          "published_at": null,
+          "publisher": "GET INVESTMENT FROM ANTLER",
+          "retrieved_at": "2026-11-09T05:57:16.773821+00:00",
+          "title": "GET INVESTMENT FROM ANTLER",
+          "url": "https://www.antler.co/pitch"
+        },
+        {
+          "content_hash": "668455a27856433b8b84ee0d3be32c4178eb7cb00d54110f02e905a6948e43d4",
+          "discovery_language": "unknown",
+          "excerpt": "GET INVESTMENT FROM ANTLER",
+          "fresh": true,
+          "id": "5077a08757bad4e183399b6f",
+          "language": "unknown",
+          "language_basis": "insufficient_language_evidence",
+          "primary": true,
+          "published_at": null,
+          "publisher": "GET INVESTMENT FROM ANTLER",
+          "retrieved_at": "2026-11-09T05:57:16.773821+00:00",
+          "title": "GET INVESTMENT FROM ANTLER",
+          "url": "https://www.antler.co/pitch"
+        }
+      ],
+      "historical_application_status": null,
+      "historical_deadline": null,
+      "id": "2832c371b3247aed53d47aac",
+      "matched_topics": [],
+      "missing_verification": [
+        "critical_eligibility_or_primary_evidence_unknown"
+      ],
+      "reasons": [
+        "missing_fresh_evidence_or_hard_eligibility"
+      ],
+      "technical_significance": null,
+      "title": "GET INVESTMENT FROM ANTLER",
+      "url": "https://www.antler.co/pitch"
+    },
+    {
+      "application_status": "unknown",
+      "attention": 0.3,
+      "classification": "VERIFICATION_REQUIRED",
+      "confirmed": false,
+      "deadline": null,
+      "decisions": {
+        "claim-support": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "no_fresh_evidence"
+          }
+        },
+        "hfs": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "no_fresh_evidence"
+          }
+        },
+        "importance": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "no_fresh_evidence"
+          }
+        },
+        "relevance": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "no_fresh_evidence"
+          }
+        },
+        "same-story": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "no_fresh_evidence"
+          }
+        },
+        "worth-attention": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "no_fresh_evidence"
+          }
+        }
+      },
+      "duplicate_of": null,
+      "eligibility": "review_required",
+      "event_id": "925dba01e0c478a6e9b15d8d",
+      "evidence": [
+        {
+          "content_hash": "0cb85ceaeed10647962d67be13da2a6714f3a53c2c9f4aeaba6ee13fb6309003",
+          "discovery_language": "unknown",
+          "excerpt": "FOUND, DON'T FOLLOW",
+          "fresh": false,
+          "id": "4798beb7586acd23282932de",
+          "language": "unknown",
+          "language_basis": "insufficient_language_evidence",
+          "primary": true,
+          "published_at": null,
+          "publisher": "FOUND, DON'T FOLLOW",
+          "retrieved_at": "2026-11-09T05:57:16.773821+00:00",
+          "title": "FOUND, DON'T FOLLOW",
+          "url": "https://www.joinef.com/"
+        },
+        {
+          "content_hash": "0cb85ceaeed10647962d67be13da2a6714f3a53c2c9f4aeaba6ee13fb6309003",
+          "discovery_language": "unknown",
+          "excerpt": "APPLY HERE",
+          "fresh": false,
+          "id": "1ed1601c62183d99676d9933",
+          "language": "unknown",
+          "language_basis": "insufficient_language_evidence",
+          "primary": true,
+          "published_at": null,
+          "publisher": "FOUND, DON'T FOLLOW",
+          "retrieved_at": "2026-11-09T05:57:16.773821+00:00",
+          "title": "FOUND, DON'T FOLLOW",
+          "url": "https://www.joinef.com/"
+        },
+        {
+          "content_hash": "0cb85ceaeed10647962d67be13da2a6714f3a53c2c9f4aeaba6ee13fb6309003",
+          "discovery_language": "unknown",
+          "excerpt": "Our companies typically raise between $1-7M within a couple of weeks of pitching at our SF Demo Day. Founders Fund, Sequoia, a16z, Index Ventures, Initialized, AI Grant, Emergence, Khosla Ventures, Susa Ventures, SignalFire, NfX, Abstract Ventures, Bessemer, Plural, Pear, Gradient and many more have invested in our companies after Demo Day.",
+          "fresh": false,
+          "id": "180733b20953e51b9ab87ef1",
+          "language": "unknown",
+          "language_basis": "insufficient_language_evidence",
+          "primary": true,
+          "published_at": null,
+          "publisher": "FOUND, DON'T FOLLOW",
+          "retrieved_at": "2026-11-09T05:57:16.773821+00:00",
+          "title": "FOUND, DON'T FOLLOW",
+          "url": "https://www.joinef.com/"
+        },
+        {
+          "content_hash": "0cb85ceaeed10647962d67be13da2a6714f3a53c2c9f4aeaba6ee13fb6309003",
+          "discovery_language": "unknown",
+          "excerpt": "Equity-free grant to support you while you’re still ideating",
+          "fresh": false,
+          "id": "5bd23effd1fe4512774aa127",
+          "language": "unknown",
+          "language_basis": "insufficient_language_evidence",
+          "primary": true,
+          "published_at": null,
+          "publisher": "FOUND, DON'T FOLLOW",
+          "retrieved_at": "2026-11-09T05:57:16.773821+00:00",
+          "title": "FOUND, DON'T FOLLOW",
+          "url": "https://www.joinef.com/"
+        }
+      ],
+      "historical_application_status": null,
+      "historical_deadline": null,
+      "id": "7fdeb297e8ae61afbfd9cb3f",
+      "matched_topics": [],
+      "missing_verification": [
+        "critical_eligibility_or_primary_evidence_unknown",
+        "related_page_unavailable"
+      ],
+      "reasons": [
+        "missing_fresh_evidence_or_hard_eligibility"
+      ],
+      "technical_significance": null,
+      "title": "FOUND, DON'T FOLLOW",
+      "url": "https://www.joinef.com/"
+    },
+    {
+      "application_status": "unknown",
+      "attention": 0.3,
+      "classification": "VERIFICATION_REQUIRED",
+      "confirmed": false,
+      "deadline": null,
+      "decisions": {
+        "claim-support": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "no_fresh_evidence"
+          }
+        },
+        "hfs": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "no_fresh_evidence"
+          }
+        },
+        "importance": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "no_fresh_evidence"
+          }
+        },
+        "relevance": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "no_fresh_evidence"
+          }
+        },
+        "same-story": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "no_fresh_evidence"
+          }
+        },
+        "worth-attention": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "no_fresh_evidence"
+          }
+        }
+      },
+      "duplicate_of": null,
+      "eligibility": "review_required",
+      "event_id": "d8d4e35a2a7ef7364bd8efac",
+      "evidence": [
+        {
+          "content_hash": "473b3348c1d5fd485202c3cc5a5638f3930cdecb173862fadbe0074b1116e3a1",
+          "discovery_language": "unknown",
+          "excerpt": "Apply to Y Combinator",
+          "fresh": false,
+          "id": "553cade8465febab6fd1b630",
+          "language": "unknown",
+          "language_basis": "insufficient_language_evidence",
+          "primary": true,
+          "published_at": null,
+          "publisher": "Apply to Y Combinator",
+          "retrieved_at": "2026-11-09T05:57:16.773821+00:00",
+          "title": "Apply to Y Combinator",
+          "url": "https://www.ycombinator.com/apply"
+        },
+        {
+          "content_hash": "473b3348c1d5fd485202c3cc5a5638f3930cdecb173862fadbe0074b1116e3a1",
+          "discovery_language": "unknown",
+          "excerpt": "Apply",
+          "fresh": false,
+          "id": "0724e1a2d7b48f84c1bb7189",
+          "language": "unknown",
+          "language_basis": "insufficient_language_evidence",
+          "primary": true,
+          "published_at": null,
+          "publisher": "Apply to Y Combinator",
+          "retrieved_at": "2026-11-09T05:57:16.773821+00:00",
+          "title": "Apply to Y Combinator",
+          "url": "https://www.ycombinator.com/apply"
+        },
+        {
+          "content_hash": "473b3348c1d5fd485202c3cc5a5638f3930cdecb173862fadbe0074b1116e3a1",
+          "discovery_language": "unknown",
+          "excerpt": "Y Combinator is accepting applications for the Winter 2027 Batch funding cycle. The batch will take place from January to March in San Francisco.",
+          "fresh": false,
+          "id": "1d90ebd2281f8be450b29f55",
+          "language": "en",
+          "language_basis": "lexical_heuristic_requires_review",
+          "primary": true,
+          "published_at": null,
+          "publisher": "Apply to Y Combinator",
+          "retrieved_at": "2026-11-09T05:57:16.773821+00:00",
+          "title": "Apply to Y Combinator",
+          "url": "https://www.ycombinator.com/apply"
+        },
+        {
+          "content_hash": "473b3348c1d5fd485202c3cc5a5638f3930cdecb173862fadbe0074b1116e3a1",
+          "discovery_language": "unknown",
+          "excerpt": "If you want to apply, please submit your application online .",
+          "fresh": false,
+          "id": "b5892226c4b7521ce9fa9114",
+          "language": "unknown",
+          "language_basis": "insufficient_language_evidence",
+          "primary": true,
+          "published_at": null,
+          "publisher": "Apply to Y Combinator",
+          "retrieved_at": "2026-11-09T05:57:16.773821+00:00",
+          "title": "Apply to Y Combinator",
+          "url": "https://www.ycombinator.com/apply"
+        }
+      ],
+      "historical_application_status": null,
+      "historical_deadline": null,
+      "id": "f3d64f5ba1b8f1d1e0691cd9",
+      "matched_topics": [],
+      "missing_verification": [
+        "critical_eligibility_or_primary_evidence_unknown",
+        "related_page_unavailable"
+      ],
+      "reasons": [
+        "missing_fresh_evidence_or_hard_eligibility"
+      ],
+      "technical_significance": null,
+      "title": "Apply to Y Combinator",
+      "url": "https://www.ycombinator.com/apply"
+    }
+  ],
+  "domain": "incubators",
+  "generated_at_utc": "2026-11-09T05:57:23.822074+00:00",
+  "limitations": [
+    "Model choices are uncalibrated editorial judgments, not verified facts.",
+    "Short source excerpts may omit context; original publication dates can be unknown.",
+    "Novelty compares this run only; no historical corpus was loaded.",
+    "Technical significance is unassessed: native choices cannot generate technical-learning explanations or code.",
+    "No human ground truth: precision@10 and recall remain null.",
+    "3 source checks failed; inspect the per-source table. No restrictions were bypassed."
+  ],
+  "physical_data_branch": null,
+  "policy": {
+    "concurrency": 1,
+    "deprioritize": [],
+    "exclusions": [],
+    "max_cost_usd": null,
+    "max_requests": 36,
+    "max_tokens": 120000,
+    "profile_id": "programs/incubators",
+    "public_context": [
+      "Public founder-program research; eligibility is assessed separately."
+    ],
+    "threshold": 0.35,
+    "topics": [
+      "software",
+      "AI",
+      "innovation",
+      "inclusive UX",
+      "entrepreneurship",
+      "mentoring",
+      "founder networking"
+    ],
+    "usd_per_million_tokens": null,
+    "version": "incubator-review-1.0-provisional",
+    "weights": {
+      "actionability": 0.35,
+      "evidence": 0.2,
+      "importance": 0.15,
+      "novelty": 0.1,
+      "relevance": 0.2
+    }
+  },
+  "precision_at_10": null,
+  "profile_id": "programs/incubators",
+  "recall": null,
+  "review_version": "live-review-1.0",
+  "schema_version": "1.0",
+  "source_revision": "3c2e79d6645869f6ac3a2178d5d7194bdc73a9ab",
+  "sources": [
+    {
+      "error_code": null,
+      "items": 3,
+      "query": "startup accelerator founder fellowship grant applications",
+      "source": "google_news",
+      "status": "ok"
+    },
+    {
+      "error_code": null,
+      "items": 6,
+      "query": "software AI innovation incubator application deadline",
+      "source": "google_news",
+      "status": "ok"
+    },
+    {
+      "error_code": null,
+      "source": "program_primary",
+      "status": "ok",
+      "url": "https://www.antler.co/pitch"
+    },
+    {
+      "error_code": null,
+      "source": "program_primary",
+      "status": "ok",
+      "url": "https://kilo.co/"
+    },
+    {
+      "error_code": null,
+      "source": "program_primary",
+      "status": "ok",
+      "url": "https://kilo.co/"
+    },
+    {
+      "error_code": null,
+      "source": "program_primary",
+      "status": "ok",
+      "url": "https://www.joinef.com/"
+    },
+    {
+      "error_code": null,
+      "source": "program_primary",
+      "status": "ok",
+      "url": "https://www.ycombinator.com/apply"
+    },
+    {
+      "error_code": "HTTP_403",
+      "source": "program_primary",
+      "status": "failed",
+      "url": "https://apply.joinef.com/"
+    },
+    {
+      "error_code": "Query credentials and fragments are not allowed",
+      "source": "program_primary",
+      "status": "failed",
+      "url": "https://apply.ycombinator.com/home"
+    },
+    {
+      "items": 0,
+      "source": "program_coverage",
+      "status": "failed"
+    }
+  ],
+  "statistics": {
+    "cache_hits": 0,
+    "candidates": 5,
+    "confirmed_findings": 0,
+    "cost_usd": null,
+    "discovery_languages": {
+      "unknown": 10
+    },
+    "duplicates": 0,
+    "known_tokens": 4169,
+    "model_requests": 6,
+    "program_coverage": {
+      "basis": "search query region; event geography unknown",
+      "exhaustive": false,
+      "freshness_days": 14,
+      "known_seed_count": 2,
+      "missing_regions": [
+        "Europe",
+        "global"
+      ],
+      "nomination_count": 3,
+      "primary_pages_attempted": 7,
+      "pruned_prior_records": 0,
+      "public_only": true,
+      "records": 5,
+      "regions": [],
+      "verified_primary_records": 3
+    },
+    "rejected": 0,
+    "retained_for_review": 5,
+    "retrieved_items": 5,
+    "review_worthy": 0,
+    "runtime_seconds": 7.099,
+    "source_failures": 3,
+    "source_languages": {
+      "unknown": 2
+    },
+    "token_usage_complete": true
+  },
+  "window_hours": 168,
+  "workflow_run_id": "42569950068"
+}

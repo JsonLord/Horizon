@@ -1,0 +1,1347 @@
+{
+  "acceptance": "PARTIAL",
+  "cache_replay": {
+    "cache_hits": 6,
+    "performed": true,
+    "provider_requests": 0,
+    "unchanged_content_avoids_calls": true
+  },
+  "candidates": [
+    {
+      "application_status": "UNKNOWN",
+      "attention": 0.58,
+      "classification": "VERIFICATION_REQUIRED",
+      "confirmed": false,
+      "deadline": "UNKNOWN",
+      "decisions": {
+        "claim-support": {
+          "cache_hit": false,
+          "charged_tokens": 488,
+          "decision": {
+            "evidence_ids": [
+              "ad948c70faf32003dce835af"
+            ],
+            "facts": 0.5,
+            "hype": 0.5,
+            "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
+            "related_event_id": null,
+            "score": 0.9,
+            "signal": 0.5,
+            "verdict": "yes"
+          },
+          "provider": {
+            "abstained": false,
+            "attempts": 1,
+            "cost": null,
+            "family": "systemone",
+            "format": "systemone_choices",
+            "input_tokens": 488,
+            "latency_ms": 523,
+            "model": "alias-clef",
+            "model_identity_verified": true,
+            "output_tokens": 0,
+            "response_model": "alias-clef",
+            "status": "success",
+            "tokens": 488
+          }
+        },
+        "hfs": {
+          "cache_hit": false,
+          "charged_tokens": 730,
+          "decision": {
+            "evidence_ids": [
+              "ad948c70faf32003dce835af"
+            ],
+            "facts": 0.1,
+            "hype": 0.1,
+            "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
+            "related_event_id": null,
+            "score": 0.5,
+            "signal": 0.5,
+            "verdict": "yes"
+          },
+          "provider": {
+            "abstained": false,
+            "attempts": 1,
+            "cost": null,
+            "family": "systemone",
+            "format": "systemone_choices",
+            "input_tokens": 730,
+            "latency_ms": 524,
+            "model": "alias-clef",
+            "model_identity_verified": true,
+            "output_tokens": 0,
+            "response_model": "alias-clef",
+            "status": "success",
+            "tokens": 730
+          }
+        },
+        "importance": {
+          "cache_hit": false,
+          "charged_tokens": 497,
+          "decision": {
+            "evidence_ids": [
+              "ad948c70faf32003dce835af"
+            ],
+            "facts": 0.5,
+            "hype": 0.5,
+            "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
+            "related_event_id": null,
+            "score": 0.5,
+            "signal": 0.5,
+            "verdict": "yes"
+          },
+          "provider": {
+            "abstained": false,
+            "attempts": 1,
+            "cost": null,
+            "family": "systemone",
+            "format": "systemone_choices",
+            "input_tokens": 497,
+            "latency_ms": 517,
+            "model": "alias-clef",
+            "model_identity_verified": true,
+            "output_tokens": 0,
+            "response_model": "alias-clef",
+            "status": "success",
+            "tokens": 497
+          }
+        },
+        "relevance": {
+          "cache_hit": false,
+          "charged_tokens": 475,
+          "decision": {
+            "evidence_ids": [
+              "ad948c70faf32003dce835af"
+            ],
+            "facts": 0.5,
+            "hype": 0.5,
+            "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
+            "related_event_id": null,
+            "score": 0.5,
+            "signal": 0.5,
+            "verdict": "unknown"
+          },
+          "provider": {
+            "abstained": false,
+            "attempts": 1,
+            "cost": null,
+            "family": "systemone",
+            "format": "systemone_choices",
+            "input_tokens": 475,
+            "latency_ms": 522,
+            "model": "alias-clef",
+            "model_identity_verified": true,
+            "output_tokens": 0,
+            "response_model": "alias-clef",
+            "status": "success",
+            "tokens": 475
+          }
+        },
+        "same-story": {
+          "cache_hit": false,
+          "charged_tokens": 547,
+          "decision": {
+            "evidence_ids": [
+              "ad948c70faf32003dce835af"
+            ],
+            "facts": 0.5,
+            "hype": 0.5,
+            "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
+            "related_event_id": null,
+            "score": 0.5,
+            "signal": 0.5,
+            "verdict": "unknown"
+          },
+          "provider": {
+            "abstained": false,
+            "attempts": 1,
+            "cost": null,
+            "family": "systemone",
+            "format": "systemone_choices",
+            "input_tokens": 547,
+            "latency_ms": 514,
+            "model": "alias-clef",
+            "model_identity_verified": true,
+            "output_tokens": 0,
+            "response_model": "alias-clef",
+            "status": "success",
+            "tokens": 547
+          }
+        },
+        "worth-attention": {
+          "cache_hit": false,
+          "charged_tokens": 479,
+          "decision": {
+            "evidence_ids": [
+              "ad948c70faf32003dce835af"
+            ],
+            "facts": 0.5,
+            "hype": 0.5,
+            "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
+            "related_event_id": null,
+            "score": 0.5,
+            "signal": 0.5,
+            "verdict": "unknown"
+          },
+          "provider": {
+            "abstained": false,
+            "attempts": 1,
+            "cost": null,
+            "family": "systemone",
+            "format": "systemone_choices",
+            "input_tokens": 479,
+            "latency_ms": 506,
+            "model": "alias-clef",
+            "model_identity_verified": true,
+            "output_tokens": 0,
+            "response_model": "alias-clef",
+            "status": "success",
+            "tokens": 479
+          }
+        }
+      },
+      "duplicate_of": null,
+      "eligibility": "ELIGIBILITY_UNKNOWN",
+      "event_id": "ibb-gruendungsbonus-plus",
+      "evidence": [
+        {
+          "content_hash": "98f8176a597c5b77599b02e06103f1cb26f8dbd40ca273ca73e6c9ff796cf251",
+          "discovery_language": "unknown",
+          "excerpt": "GründungsBONUS Plus",
+          "fresh": false,
+          "id": "f1ff5a4e339f870d8eb85a2e",
+          "language": "unknown",
+          "language_basis": "insufficient_language_evidence",
+          "primary": true,
+          "published_at": null,
+          "publisher": "IBB",
+          "retrieved_at": "2026-10-22T02:51:43.153598+00:00",
+          "title": "GruendungsBONUS Plus — program",
+          "url": "https://www.ibb.de/de/foerderprogramme/gruendungsbonus-plus.html"
+        },
+        {
+          "content_hash": "98f8176a597c5b77599b02e06103f1cb26f8dbd40ca273ca73e6c9ff796cf251",
+          "discovery_language": "unknown",
+          "excerpt": "Ab sofort können wieder Anträge für das Förderprogramm GründungsBONUS Plus eingereicht werden. \"GründungsBONUS Plus\" auf einen Blick Existenzgründungszuschuss Unternehmensalter maximal 18 Monate 50% Förderung der Gründungskosten bis maximal 50.000 EUR Finanzierung nahezu sämtlicher Kosten der Startphase mit dem Mikrokredit kombinierbar \"GründungsBONUS Plus\" im Detail Wer wird gefördert? Rechtlich selbstständige, auf Gewinnerzielung ausgerichtete ",
+          "fresh": false,
+          "id": "1764b276e14ec20e3695e326",
+          "language": "de",
+          "language_basis": "lexical_heuristic_requires_review",
+          "primary": true,
+          "published_at": null,
+          "publisher": "IBB",
+          "retrieved_at": "2026-10-22T02:51:43.153598+00:00",
+          "title": "GruendungsBONUS Plus — applications",
+          "url": "https://www.ibb.de/de/foerderprogramme/gruendungsbonus-plus.html"
+        },
+        {
+          "content_hash": "57f3fc2de79cf66c81bf5fce008358d028e24d61a3fee90e563a655c1a486a37",
+          "discovery_language": "unknown",
+          "excerpt": "Die zuwendungsfähigen Gesamtkosten werden mit 50 Prozent, jedoch bis maximal 50 000 Euro bezuschusst. Die zuwendungsfähigen Kosten müssen innerhalb von zwei Jahren anfallen. Der frühestmögliche Zeitpunkt, ab dem diese Kosten anerkannt werden können, ist das Eingangsdatum des rechtsverbindlich unterschriebenen Antrags. Hinsichtlich der zuwendungsfähigen Personalkosten sind nachstehende Punkte zu beachten: Personalkosten für Gründer/-innen und Gesc",
+          "fresh": false,
+          "id": "0a7a31cee16316411094bdfe",
+          "language": "de",
+          "language_basis": "lexical_heuristic_requires_review",
+          "primary": true,
+          "published_at": null,
+          "publisher": "IBB",
+          "retrieved_at": "2026-10-22T02:55:17.614019+00:00",
+          "title": "GruendungsBONUS Plus — funding",
+          "url": "https://www.ibb.de/media/dokumente/foerderprogramme/wirtschaftsfoerderung/gruendungsbonus-plus/richtlinie-gruendungsbonus-plus.pdf"
+        },
+        {
+          "content_hash": "57f3fc2de79cf66c81bf5fce008358d028e24d61a3fee90e563a655c1a486a37",
+          "discovery_language": "unknown",
+          "excerpt": "Die Zuwendungen im Rahmen dieser Richtlinie werden als bedingt rückzahlbare, zweckgebundene Zuschüsse (Projektförderung) als Anteilfinanzierung ausgezahlt. 5.2 - Höhe der Zuwendung Die zuwendungsfähigen Gesamtkosten werden mit 50 Prozent, jedoch bis maximal 50 000 Euro bezuschusst. Die zuwendungsfähigen Kosten müssen innerhalb von zwei Jahren anfallen. Der frühestmögliche Zeitpunkt, ab dem diese Kosten anerkannt werden können, ist das Eingangsdat",
+          "fresh": false,
+          "id": "fe25ec9fcf6679f7b0af6d35",
+          "language": "de",
+          "language_basis": "lexical_heuristic_requires_review",
+          "primary": true,
+          "published_at": null,
+          "publisher": "IBB",
+          "retrieved_at": "2026-10-22T02:55:17.614019+00:00",
+          "title": "GruendungsBONUS Plus — obligations",
+          "url": "https://www.ibb.de/media/dokumente/foerderprogramme/wirtschaftsfoerderung/gruendungsbonus-plus/richtlinie-gruendungsbonus-plus.pdf"
+        },
+        {
+          "content_hash": "57f3fc2de79cf66c81bf5fce008358d028e24d61a3fee90e563a655c1a486a37",
+          "discovery_language": "unknown",
+          "excerpt": "Alle Antragstellenden müssen zum Zeitpunkt der Antragstellung ihren Hauptsitz in Berlin haben und zum Zeitpunkt der Antragstellung die Gründung vollzogen haben. Bei der elektronischen Einreichung des Antrages dürfen die Antragstellenden nicht älter als achtzehn Monate sein. Als Gründungsdatum gilt bei einem im Register eingetragenen Unternehmen das Datum der Unterzeichnung des Gesellschaftsvertrages/des Musterprotokolls. Bei Freiberuflern und Sol",
+          "fresh": false,
+          "id": "ec64d89e71d163dd1b9d7ba9",
+          "language": "de",
+          "language_basis": "lexical_heuristic_requires_review",
+          "primary": true,
+          "published_at": null,
+          "publisher": "IBB",
+          "retrieved_at": "2026-10-22T02:55:17.614019+00:00",
+          "title": "GruendungsBONUS Plus — geography",
+          "url": "https://www.ibb.de/media/dokumente/foerderprogramme/wirtschaftsfoerderung/gruendungsbonus-plus/richtlinie-gruendungsbonus-plus.pdf"
+        },
+        {
+          "content_hash": "98f8176a597c5b77599b02e06103f1cb26f8dbd40ca273ca73e6c9ff796cf251",
+          "discovery_language": "unknown",
+          "excerpt": "Eine Förderung für Ihren Geschäftsaufbau kann bei der IBB Business Team GmbH elektronisch beantragt werden. Das elektronische Antragssystem sowie weitere Hinweise zur Beantragung finden Sie unter ibb-business-team.de/gruendungsbonus-plus . Bitte beachten Sie, dass nur Ausgaben für Investitionen gefördert werden, für die zum Zeitpunkt des Antragseingangs noch keine Lieferungs- bzw. Leistungsverträge geschlossen wurden. Sprechen Sie uns bitte so fr",
+          "fresh": false,
+          "id": "ff98c985544f864a4bd5bcf7",
+          "language": "de",
+          "language_basis": "lexical_heuristic_requires_review",
+          "primary": true,
+          "published_at": null,
+          "publisher": "IBB",
+          "retrieved_at": "2026-10-22T02:51:43.153598+00:00",
+          "title": "GruendungsBONUS Plus — application",
+          "url": "https://www.ibb.de/de/foerderprogramme/gruendungsbonus-plus.html"
+        },
+        {
+          "content_hash": "98f8176a597c5b77599b02e06103f1cb26f8dbd40ca273ca73e6c9ff796cf251",
+          "discovery_language": "unknown",
+          "excerpt": "Es muss sich um ein technologisches, digitales, kreatives oder soziales Geschäftsmodell handeln. Ein erkennbares positives Markt- und Wachstumspotenzial für den Standort soll erkennbar sein. Hauptsitz und ggf. die geförderte Betriebsstätte müssen für mindestens 3 Jahre nach Abschlusszahlung in Berlin verbleiben und betrieben werden. Was wird gefördert? Material- und Investitionskosten laufende Betriebsausgaben Personalkosten (Arbeitnehmerbrutto),",
+          "fresh": false,
+          "id": "ecde452a788a36ea9ec695c9",
+          "language": "de",
+          "language_basis": "lexical_heuristic_requires_review",
+          "primary": true,
+          "published_at": null,
+          "publisher": "IBB",
+          "retrieved_at": "2026-10-22T02:51:43.153598+00:00",
+          "title": "GruendungsBONUS Plus — software",
+          "url": "https://www.ibb.de/de/foerderprogramme/gruendungsbonus-plus.html"
+        },
+        {
+          "content_hash": "52919ae32dfd3feae06714d39327e692ed81e83cfe918f9eb51dc649b365a595",
+          "discovery_language": "unknown",
+          "excerpt": "GründungsBONUS Plus",
+          "fresh": false,
+          "id": "8b0ab3fc1f36bccefaf8f107",
+          "language": "unknown",
+          "language_basis": "insufficient_language_evidence",
+          "primary": true,
+          "published_at": null,
+          "publisher": "IBB",
+          "retrieved_at": "2026-10-23T09:48:15.012153+00:00",
+          "title": "GruendungsBONUS Plus — program",
+          "url": "https://www.ibb.de/de/foerderprogramme/gruendungsbonus-plus.html"
+        },
+        {
+          "content_hash": "52919ae32dfd3feae06714d39327e692ed81e83cfe918f9eb51dc649b365a595",
+          "discovery_language": "unknown",
+          "excerpt": "Ab sofort können wieder Anträge für das Förderprogramm GründungsBONUS Plus eingereicht werden. \"GründungsBONUS Plus\" auf einen Blick Existenzgründungszuschuss Unternehmensalter maximal 18 Monate 50% Förderung der Gründungskosten bis maximal 50.000 EUR Finanzierung nahezu sämtlicher Kosten der Startphase mit dem Mikrokredit kombinierbar \"GründungsBONUS Plus\" im Detail Wer wird gefördert? Rechtlich selbstständige, auf Gewinnerzielung ausgerichtete ",
+          "fresh": false,
+          "id": "29161408095ecd5404d914be",
+          "language": "de",
+          "language_basis": "lexical_heuristic_requires_review",
+          "primary": true,
+          "published_at": null,
+          "publisher": "IBB",
+          "retrieved_at": "2026-10-23T09:48:15.012153+00:00",
+          "title": "GruendungsBONUS Plus — applications",
+          "url": "https://www.ibb.de/de/foerderprogramme/gruendungsbonus-plus.html"
+        },
+        {
+          "content_hash": "52919ae32dfd3feae06714d39327e692ed81e83cfe918f9eb51dc649b365a595",
+          "discovery_language": "unknown",
+          "excerpt": "Eine Förderung für Ihren Geschäftsaufbau kann bei der IBB Business Team GmbH elektronisch beantragt werden. Das elektronische Antragssystem sowie weitere Hinweise zur Beantragung finden Sie unter ibb-business-team.de/gruendungsbonus-plus . Bitte beachten Sie, dass nur Ausgaben für Investitionen gefördert werden, für die zum Zeitpunkt des Antragseingangs noch keine Lieferungs- bzw. Leistungsverträge geschlossen wurden. Sprechen Sie uns bitte so fr",
+          "fresh": false,
+          "id": "af73c2c6911dacee28bbbceb",
+          "language": "de",
+          "language_basis": "lexical_heuristic_requires_review",
+          "primary": true,
+          "published_at": null,
+          "publisher": "IBB",
+          "retrieved_at": "2026-10-23T09:48:15.012153+00:00",
+          "title": "GruendungsBONUS Plus — application",
+          "url": "https://www.ibb.de/de/foerderprogramme/gruendungsbonus-plus.html"
+        },
+        {
+          "content_hash": "52919ae32dfd3feae06714d39327e692ed81e83cfe918f9eb51dc649b365a595",
+          "discovery_language": "unknown",
+          "excerpt": "Es muss sich um ein technologisches, digitales, kreatives oder soziales Geschäftsmodell handeln. Ein erkennbares positives Markt- und Wachstumspotenzial für den Standort soll erkennbar sein. Hauptsitz und ggf. die geförderte Betriebsstätte müssen für mindestens 3 Jahre nach Abschlusszahlung in Berlin verbleiben und betrieben werden. Was wird gefördert? Material- und Investitionskosten laufende Betriebsausgaben Personalkosten (Arbeitnehmerbrutto),",
+          "fresh": false,
+          "id": "65a7dcac376b6a5cddd0cb41",
+          "language": "de",
+          "language_basis": "lexical_heuristic_requires_review",
+          "primary": true,
+          "published_at": null,
+          "publisher": "IBB",
+          "retrieved_at": "2026-10-23T09:48:15.012153+00:00",
+          "title": "GruendungsBONUS Plus — software",
+          "url": "https://www.ibb.de/de/foerderprogramme/gruendungsbonus-plus.html"
+        },
+        {
+          "content_hash": "0aabd1a23290cb5024164c828b085ae52ea6e0a511e35273f67b463c49e79fdd",
+          "discovery_language": "unknown",
+          "excerpt": "GründungsBONUS Plus",
+          "fresh": true,
+          "id": "ad948c70faf32003dce835af",
+          "language": "unknown",
+          "language_basis": "insufficient_language_evidence",
+          "primary": true,
+          "published_at": null,
+          "publisher": "IBB",
+          "retrieved_at": "2026-11-09T05:56:11.665922+00:00",
+          "title": "GruendungsBONUS Plus",
+          "url": "https://www.ibb.de/de/foerderprogramme/gruendungsbonus-plus.html"
+        }
+      ],
+      "historical_application_status": "OPEN",
+      "historical_deadline": null,
+      "id": "26954f4ed31833b8b2dc1724",
+      "matched_topics": [],
+      "missing_verification": [
+        "Official evidence is missing, stale or could not be refreshed",
+        "Establishment completed by application",
+        "Headquarters in Berlin",
+        "No more than 18 months old at application",
+        "official_terms_need_reverification"
+      ],
+      "reasons": [
+        "missing_fresh_evidence_or_hard_eligibility"
+      ],
+      "technical_significance": null,
+      "title": "GruendungsBONUS Plus",
+      "url": "https://www.ibb.de/de/foerderprogramme/gruendungsbonus-plus.html"
+    },
+    {
+      "application_status": "UNKNOWN",
+      "attention": 0.57,
+      "classification": "VERIFICATION_REQUIRED",
+      "confirmed": false,
+      "deadline": "UNKNOWN",
+      "decisions": {
+        "claim-support": {
+          "cache_hit": false,
+          "charged_tokens": 540,
+          "decision": {
+            "evidence_ids": [
+              "ac4a83c53dd418a90aa65c10"
+            ],
+            "facts": 0.5,
+            "hype": 0.5,
+            "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
+            "related_event_id": null,
+            "score": 0.9,
+            "signal": 0.5,
+            "verdict": "yes"
+          },
+          "provider": {
+            "abstained": false,
+            "attempts": 1,
+            "cost": null,
+            "family": "systemone",
+            "format": "systemone_choices",
+            "input_tokens": 540,
+            "latency_ms": 521,
+            "model": "alias-clef",
+            "model_identity_verified": true,
+            "output_tokens": 0,
+            "response_model": "alias-clef",
+            "status": "success",
+            "tokens": 540
+          }
+        },
+        "hfs": {
+          "cache_hit": false,
+          "charged_tokens": 782,
+          "decision": {
+            "evidence_ids": [
+              "ac4a83c53dd418a90aa65c10"
+            ],
+            "facts": 0.9,
+            "hype": 0.1,
+            "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
+            "related_event_id": null,
+            "score": 0.5,
+            "signal": 0.5,
+            "verdict": "yes"
+          },
+          "provider": {
+            "abstained": false,
+            "attempts": 1,
+            "cost": null,
+            "family": "systemone",
+            "format": "systemone_choices",
+            "input_tokens": 782,
+            "latency_ms": 583,
+            "model": "alias-clef",
+            "model_identity_verified": true,
+            "output_tokens": 0,
+            "response_model": "alias-clef",
+            "status": "success",
+            "tokens": 782
+          }
+        },
+        "importance": {
+          "cache_hit": false,
+          "charged_tokens": 549,
+          "decision": {
+            "evidence_ids": [
+              "ac4a83c53dd418a90aa65c10"
+            ],
+            "facts": 0.5,
+            "hype": 0.5,
+            "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
+            "related_event_id": null,
+            "score": 0.5,
+            "signal": 0.5,
+            "verdict": "yes"
+          },
+          "provider": {
+            "abstained": false,
+            "attempts": 1,
+            "cost": null,
+            "family": "systemone",
+            "format": "systemone_choices",
+            "input_tokens": 549,
+            "latency_ms": 529,
+            "model": "alias-clef",
+            "model_identity_verified": true,
+            "output_tokens": 0,
+            "response_model": "alias-clef",
+            "status": "success",
+            "tokens": 549
+          }
+        },
+        "relevance": {
+          "cache_hit": false,
+          "charged_tokens": 527,
+          "decision": {
+            "evidence_ids": [
+              "ac4a83c53dd418a90aa65c10"
+            ],
+            "facts": 0.5,
+            "hype": 0.5,
+            "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
+            "related_event_id": null,
+            "score": 0.9,
+            "signal": 0.5,
+            "verdict": "yes"
+          },
+          "provider": {
+            "abstained": false,
+            "attempts": 1,
+            "cost": null,
+            "family": "systemone",
+            "format": "systemone_choices",
+            "input_tokens": 527,
+            "latency_ms": 520,
+            "model": "alias-clef",
+            "model_identity_verified": true,
+            "output_tokens": 0,
+            "response_model": "alias-clef",
+            "status": "success",
+            "tokens": 527
+          }
+        },
+        "same-story": {
+          "cache_hit": false,
+          "charged_tokens": 693,
+          "decision": {
+            "evidence_ids": [
+              "ac4a83c53dd418a90aa65c10"
+            ],
+            "facts": 0.5,
+            "hype": 0.5,
+            "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
+            "related_event_id": "ibb-gruendungsbonus-plus",
+            "score": 0.9,
+            "signal": 0.5,
+            "verdict": "different"
+          },
+          "provider": {
+            "abstained": false,
+            "attempts": 1,
+            "cost": null,
+            "family": "systemone",
+            "format": "systemone_choices",
+            "input_tokens": 693,
+            "latency_ms": 537,
+            "model": "alias-clef",
+            "model_identity_verified": true,
+            "output_tokens": 0,
+            "response_model": "alias-clef",
+            "status": "success",
+            "tokens": 693
+          }
+        },
+        "worth-attention": {
+          "cache_hit": false,
+          "charged_tokens": 531,
+          "decision": {
+            "evidence_ids": [
+              "ac4a83c53dd418a90aa65c10"
+            ],
+            "facts": 0.5,
+            "hype": 0.5,
+            "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
+            "related_event_id": null,
+            "score": 0.1,
+            "signal": 0.5,
+            "verdict": "no"
+          },
+          "provider": {
+            "abstained": false,
+            "attempts": 1,
+            "cost": null,
+            "family": "systemone",
+            "format": "systemone_choices",
+            "input_tokens": 531,
+            "latency_ms": 517,
+            "model": "alias-clef",
+            "model_identity_verified": true,
+            "output_tokens": 0,
+            "response_model": "alias-clef",
+            "status": "success",
+            "tokens": 531
+          }
+        }
+      },
+      "duplicate_of": null,
+      "eligibility": "ELIGIBILITY_UNKNOWN",
+      "event_id": "kfw-erp-startgeld",
+      "evidence": [
+        {
+          "content_hash": "3d939002f5507d8816413eebf19c998e6105d89f7965f38b0c7ff04ccf0a83ab",
+          "discovery_language": "unknown",
+          "excerpt": "Kredit Nr. 067 ERP-Gründerkredit – StartGeld",
+          "fresh": false,
+          "id": "4250d1fe6ab1024b7caaac03",
+          "language": "unknown",
+          "language_basis": "insufficient_language_evidence",
+          "primary": true,
+          "published_at": null,
+          "publisher": "KfW",
+          "retrieved_at": "2026-10-22T02:51:44.411422+00:00",
+          "title": "ERP-StartGeld — program",
+          "url": "https://www.kfw.de/inlandsfoerderung/Unternehmen/Gr%C3%BCnden-Nachfolgen/F%C3%B6rderprodukte/ERP-Gr%C3%BCnderkredit-Startgeld-(067)/"
+        },
+        {
+          "content_hash": "3e4aa0b2b99f60f9354f8410f490db57fc14a3a431f5dec9cdf13e5453229e6e",
+          "discovery_language": "unknown",
+          "excerpt": "Kreditbetrag  maximal 200.000 Euro pro Vorhaben  maximal 80.000 Euro für Betriebsmittelfinanzierungen Finanziert werden bis zu 100 % des Gesamtfremdfinanzierungsbedarfs. Der Gesamtfremdfinanzierungsbedarf des geförderten Vorhabens (einschließlich Betriebsmittelfinanzierung) darf maximal 200.000 Euro betragen. Der Investitionsbetrag kann über 200.000 Euro liegen, wenn der übersteigende Betrag mit eigenen Mitteln finanziert wird. Kontokorrentkred",
+          "fresh": false,
+          "id": "d48ff4b0e285e89399561fa5",
+          "language": "de",
+          "language_basis": "lexical_heuristic_requires_review",
+          "primary": true,
+          "published_at": null,
+          "publisher": "KfW",
+          "retrieved_at": "2026-10-22T02:55:20.390269+00:00",
+          "title": "ERP-StartGeld — funding",
+          "url": "https://www.kfw.de/PDF/Download-Center/Förderprogramme-(Inlandsförderung)/PDF-Dokumente/6000002258_M_067_StartGeld.pdf"
+        },
+        {
+          "content_hash": "3e4aa0b2b99f60f9354f8410f490db57fc14a3a431f5dec9cdf13e5453229e6e",
+          "discovery_language": "unknown",
+          "excerpt": "Während der tilgungsfreien Anlaufjahre zahlen Sie lediglich die Zinsen auf die ausgezahlten Kreditbeträge. Danach wird der Kredit  monatlich in gleich hohen Raten zurückgezahlt. Die erste Tilgung kann erst nach Vollauszahlung des Kredites geleistet werden. Außerplanmäßige Tilgungen können nur gegen Zahlung einer Vorfälligkeitsentschädigung vorgenommen werden. Antragstellung Die KfW gewährt Kredite aus diesem Programm über Finanzierungspartner. I",
+          "fresh": false,
+          "id": "ecd492c781724c55f74837de",
+          "language": "unknown",
+          "language_basis": "insufficient_language_evidence",
+          "primary": true,
+          "published_at": null,
+          "publisher": "KfW",
+          "retrieved_at": "2026-10-22T02:55:20.390269+00:00",
+          "title": "ERP-StartGeld — repayment",
+          "url": "https://www.kfw.de/PDF/Download-Center/Förderprogramme-(Inlandsförderung)/PDF-Dokumente/6000002258_M_067_StartGeld.pdf"
+        },
+        {
+          "content_hash": "3d939002f5507d8816413eebf19c998e6105d89f7965f38b0c7ff04ccf0a83ab",
+          "discovery_language": "unknown",
+          "excerpt": "Sowohl der Sitz des Unter­nehmens als auch der Ort der Investition muss sich in Deutsch­land befinden. Das Förderprodukt kommt nicht in Frage für: mittlere und große Unternehmen ‍ ‌ Unternehmen, die vor mehr als fünf Jahren ihre Geschäftstätigkeit aufgenommen haben. Diese fördern wir mit anderen Förderprodukten wie dem ERP-Förderkredit KMU (365, 366) . Konditionen Zinssätze und Laufzeiten Mindest­laufzeit zwei Jahre Zinsbindung über die gesamte K",
+          "fresh": false,
+          "id": "7eea4d250950531fbe037faf",
+          "language": "de",
+          "language_basis": "lexical_heuristic_requires_review",
+          "primary": true,
+          "published_at": null,
+          "publisher": "KfW",
+          "retrieved_at": "2026-10-22T02:51:44.411422+00:00",
+          "title": "ERP-StartGeld — geography",
+          "url": "https://www.kfw.de/inlandsfoerderung/Unternehmen/Gr%C3%BCnden-Nachfolgen/F%C3%B6rderprodukte/ERP-Gr%C3%BCnderkredit-Startgeld-(067)/"
+        },
+        {
+          "content_hash": "3e4aa0b2b99f60f9354f8410f490db57fc14a3a431f5dec9cdf13e5453229e6e",
+          "discovery_language": "unknown",
+          "excerpt": "Natürliche Personen, die eine freiberufliche Existenz oder ein gewerbliches Unternehmen einschließlich eines gewerblichen Sozialunternehmens mit Gewinnerzielungsabsicht in Deutschland gründen oder hierfür Festigungsmaßnahmen mit einem Vorhabensbeginn innerhalb von 5 Jahren nach Aufnahme ihrer Geschäftstätigkeit durchführen. Antragsberechtigt sind auch kleine gewerbliche Unternehmen im Sinne der Definition für kleine und mittlere Unternehmen der E",
+          "fresh": false,
+          "id": "b6ea0289908c1ac61c00ade3",
+          "language": "de",
+          "language_basis": "lexical_heuristic_requires_review",
+          "primary": true,
+          "published_at": null,
+          "publisher": "KfW",
+          "retrieved_at": "2026-10-22T02:55:20.390269+00:00",
+          "title": "ERP-StartGeld — applicants",
+          "url": "https://www.kfw.de/PDF/Download-Center/Förderprogramme-(Inlandsförderung)/PDF-Dokumente/6000002258_M_067_StartGeld.pdf"
+        },
+        {
+          "content_hash": "3e4aa0b2b99f60f9354f8410f490db57fc14a3a431f5dec9cdf13e5453229e6e",
+          "discovery_language": "unknown",
+          "excerpt": "Ihren Antrag stellen Sie bei einem Finanzierungspartner Ihrer Wahl vor Beginn des Vorhabens. Wird der Antrag durch eine oder mehrere natürliche Person(en) gestellt, ist ausgeschlossen, dass der Finanzierungspartner den Kredit an das Unternehmen herauslegt. Haftungsfreistellung  Die KfW stellt den Finanzierungspartner zu 80 Prozent von der Haftung frei. Die Kombination einer Finanzierung mit Haftungsfreistellung mit haftungsfreigestellten Förderp",
+          "fresh": false,
+          "id": "74f011be3ea6b85683088ea9",
+          "language": "de",
+          "language_basis": "lexical_heuristic_requires_review",
+          "primary": true,
+          "published_at": null,
+          "publisher": "KfW",
+          "retrieved_at": "2026-10-22T02:55:20.390269+00:00",
+          "title": "ERP-StartGeld — application",
+          "url": "https://www.kfw.de/PDF/Download-Center/Förderprogramme-(Inlandsförderung)/PDF-Dokumente/6000002258_M_067_StartGeld.pdf"
+        },
+        {
+          "content_hash": "3d939002f5507d8816413eebf19c998e6105d89f7965f38b0c7ff04ccf0a83ab",
+          "discovery_language": "unknown",
+          "excerpt": "Benötige ich einen Businessplan um den Antrag zu stellen? Ja, bitte bringen Sie diesen zu Ihrem Gespräch mit dem entsprechenden Finanzierungs­partner mit. Der Business­plan sollte eine Beschreibung Ihrer Geschäfts­idee, also die Idee, mit der Sie sich selbst­ständig machen, umfassen. Sie stellen dar, wie Sie Ihre Geschäfts­idee verwirklichen wollen und dass Ihr Projekt Erfolg verspricht und es sinnvoll ist, in Ihre Idee zu investieren. Sie nennen",
+          "fresh": false,
+          "id": "a3507cd2511af81df2182f2a",
+          "language": "de",
+          "language_basis": "lexical_heuristic_requires_review",
+          "primary": true,
+          "published_at": null,
+          "publisher": "KfW",
+          "retrieved_at": "2026-10-22T02:51:44.411422+00:00",
+          "title": "ERP-StartGeld — businessplan",
+          "url": "https://www.kfw.de/inlandsfoerderung/Unternehmen/Gr%C3%BCnden-Nachfolgen/F%C3%B6rderprodukte/ERP-Gr%C3%BCnderkredit-Startgeld-(067)/"
+        },
+        {
+          "content_hash": "16ff6adaf62d0677c47e922307e69bd24411a38b43e7708c46bc80d0fe61585d",
+          "discovery_language": "unknown",
+          "excerpt": "Kredit Nr. 067 ERP-Gründerkredit – StartGeld",
+          "fresh": false,
+          "id": "df54ea98e035f41e07b795de",
+          "language": "unknown",
+          "language_basis": "insufficient_language_evidence",
+          "primary": true,
+          "published_at": null,
+          "publisher": "KfW",
+          "retrieved_at": "2026-10-23T09:48:16.575391+00:00",
+          "title": "ERP-StartGeld — program",
+          "url": "https://www.kfw.de/inlandsfoerderung/Unternehmen/Gr%C3%BCnden-Nachfolgen/F%C3%B6rderprodukte/ERP-Gr%C3%BCnderkredit-Startgeld-(067)/"
+        },
+        {
+          "content_hash": "16ff6adaf62d0677c47e922307e69bd24411a38b43e7708c46bc80d0fe61585d",
+          "discovery_language": "unknown",
+          "excerpt": "Sowohl der Sitz des Unter­nehmens als auch der Ort der Investition muss sich in Deutsch­land befinden. Das Förderprodukt kommt nicht in Frage für: mittlere und große Unternehmen ‍ ‌ Unternehmen, die vor mehr als fünf Jahren ihre Geschäftstätigkeit aufgenommen haben. Diese fördern wir mit anderen Förderprodukten wie dem ERP-Förderkredit KMU (365, 366) . Konditionen Zinssätze und Laufzeiten Mindest­laufzeit zwei Jahre Zinsbindung über die gesamte K",
+          "fresh": false,
+          "id": "d17df99b7487a5a9fc27f575",
+          "language": "de",
+          "language_basis": "lexical_heuristic_requires_review",
+          "primary": true,
+          "published_at": null,
+          "publisher": "KfW",
+          "retrieved_at": "2026-10-23T09:48:16.575391+00:00",
+          "title": "ERP-StartGeld — geography",
+          "url": "https://www.kfw.de/inlandsfoerderung/Unternehmen/Gr%C3%BCnden-Nachfolgen/F%C3%B6rderprodukte/ERP-Gr%C3%BCnderkredit-Startgeld-(067)/"
+        },
+        {
+          "content_hash": "16ff6adaf62d0677c47e922307e69bd24411a38b43e7708c46bc80d0fe61585d",
+          "discovery_language": "unknown",
+          "excerpt": "Benötige ich einen Businessplan um den Antrag zu stellen? Ja, bitte bringen Sie diesen zu Ihrem Gespräch mit dem entsprechenden Finanzierungs­partner mit. Der Business­plan sollte eine Beschreibung Ihrer Geschäfts­idee, also die Idee, mit der Sie sich selbst­ständig machen, umfassen. Sie stellen dar, wie Sie Ihre Geschäfts­idee verwirklichen wollen und dass Ihr Projekt Erfolg verspricht und es sinnvoll ist, in Ihre Idee zu investieren. Sie nennen",
+          "fresh": false,
+          "id": "936936bb1dabb9b8c345e1f2",
+          "language": "de",
+          "language_basis": "lexical_heuristic_requires_review",
+          "primary": true,
+          "published_at": null,
+          "publisher": "KfW",
+          "retrieved_at": "2026-10-23T09:48:16.575391+00:00",
+          "title": "ERP-StartGeld — businessplan",
+          "url": "https://www.kfw.de/inlandsfoerderung/Unternehmen/Gr%C3%BCnden-Nachfolgen/F%C3%B6rderprodukte/ERP-Gr%C3%BCnderkredit-Startgeld-(067)/"
+        },
+        {
+          "content_hash": "14a50ae29d74d65010f63c00edc1c4316f518a14274aae8f02afb2220201b6a9",
+          "discovery_language": "unknown",
+          "excerpt": "Kredit Nr. 067 ERP-Gründerkredit – StartGeld",
+          "fresh": true,
+          "id": "ac4a83c53dd418a90aa65c10",
+          "language": "unknown",
+          "language_basis": "insufficient_language_evidence",
+          "primary": true,
+          "published_at": null,
+          "publisher": "KfW",
+          "retrieved_at": "2026-11-09T05:56:11.665922+00:00",
+          "title": "ERP-StartGeld",
+          "url": "https://www.kfw.de/inlandsfoerderung/Unternehmen/Gr%C3%BCnden-Nachfolgen/F%C3%B6rderprodukte/ERP-Gr%C3%BCnderkredit-Startgeld-(067)/"
+        }
+      ],
+      "historical_application_status": "UNKNOWN",
+      "historical_deadline": null,
+      "id": "92e8d28f55c8ebf8a202a7b5",
+      "matched_topics": [],
+      "missing_verification": [
+        "Official evidence is missing, stale or could not be refreshed",
+        "Company location in Germany",
+        "Investment located in Germany",
+        "official_terms_need_reverification"
+      ],
+      "reasons": [
+        "missing_fresh_evidence_or_hard_eligibility"
+      ],
+      "technical_significance": null,
+      "title": "ERP-StartGeld",
+      "url": "https://www.kfw.de/inlandsfoerderung/Unternehmen/Gr%C3%BCnden-Nachfolgen/F%C3%B6rderprodukte/ERP-Gr%C3%BCnderkredit-Startgeld-(067)/"
+    },
+    {
+      "application_status": "PAST_ROUND_CURRENT_AVAILABILITY_UNKNOWN",
+      "attention": 0.57,
+      "classification": "VERIFICATION_REQUIRED",
+      "confirmed": false,
+      "deadline": "2026-11-04",
+      "decisions": {
+        "claim-support": {
+          "cache_hit": false,
+          "charged_tokens": 528,
+          "decision": {
+            "evidence_ids": [
+              "bef235ffb4073e5b09f2a034"
+            ],
+            "facts": 0.5,
+            "hype": 0.5,
+            "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
+            "related_event_id": null,
+            "score": 0.9,
+            "signal": 0.5,
+            "verdict": "yes"
+          },
+          "provider": {
+            "abstained": false,
+            "attempts": 1,
+            "cost": null,
+            "family": "systemone",
+            "format": "systemone_choices",
+            "input_tokens": 528,
+            "latency_ms": 509,
+            "model": "alias-clef",
+            "model_identity_verified": true,
+            "output_tokens": 0,
+            "response_model": "alias-clef",
+            "status": "success",
+            "tokens": 528
+          }
+        },
+        "hfs": {
+          "cache_hit": false,
+          "charged_tokens": 770,
+          "decision": {
+            "evidence_ids": [
+              "bef235ffb4073e5b09f2a034"
+            ],
+            "facts": 0.1,
+            "hype": 0.1,
+            "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
+            "related_event_id": null,
+            "score": 0.5,
+            "signal": 0.5,
+            "verdict": "yes"
+          },
+          "provider": {
+            "abstained": false,
+            "attempts": 1,
+            "cost": null,
+            "family": "systemone",
+            "format": "systemone_choices",
+            "input_tokens": 770,
+            "latency_ms": 1198,
+            "model": "alias-clef",
+            "model_identity_verified": true,
+            "output_tokens": 0,
+            "response_model": "alias-clef",
+            "status": "success",
+            "tokens": 770
+          }
+        },
+        "importance": {
+          "cache_hit": false,
+          "charged_tokens": 537,
+          "decision": {
+            "evidence_ids": [
+              "bef235ffb4073e5b09f2a034"
+            ],
+            "facts": 0.5,
+            "hype": 0.5,
+            "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
+            "related_event_id": null,
+            "score": 0.5,
+            "signal": 0.5,
+            "verdict": "yes"
+          },
+          "provider": {
+            "abstained": false,
+            "attempts": 1,
+            "cost": null,
+            "family": "systemone",
+            "format": "systemone_choices",
+            "input_tokens": 537,
+            "latency_ms": 534,
+            "model": "alias-clef",
+            "model_identity_verified": true,
+            "output_tokens": 0,
+            "response_model": "alias-clef",
+            "status": "success",
+            "tokens": 537
+          }
+        },
+        "relevance": {
+          "cache_hit": false,
+          "charged_tokens": 515,
+          "decision": {
+            "evidence_ids": [
+              "bef235ffb4073e5b09f2a034"
+            ],
+            "facts": 0.5,
+            "hype": 0.5,
+            "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
+            "related_event_id": null,
+            "score": 0.9,
+            "signal": 0.5,
+            "verdict": "yes"
+          },
+          "provider": {
+            "abstained": false,
+            "attempts": 1,
+            "cost": null,
+            "family": "systemone",
+            "format": "systemone_choices",
+            "input_tokens": 515,
+            "latency_ms": 536,
+            "model": "alias-clef",
+            "model_identity_verified": true,
+            "output_tokens": 0,
+            "response_model": "alias-clef",
+            "status": "success",
+            "tokens": 515
+          }
+        },
+        "same-story": {
+          "cache_hit": false,
+          "charged_tokens": 706,
+          "decision": {
+            "evidence_ids": [
+              "bef235ffb4073e5b09f2a034"
+            ],
+            "facts": 0.5,
+            "hype": 0.5,
+            "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
+            "related_event_id": null,
+            "score": 0.9,
+            "signal": 0.5,
+            "verdict": "different"
+          },
+          "provider": {
+            "abstained": false,
+            "attempts": 1,
+            "cost": null,
+            "family": "systemone",
+            "format": "systemone_choices",
+            "input_tokens": 706,
+            "latency_ms": 512,
+            "model": "alias-clef",
+            "model_identity_verified": true,
+            "output_tokens": 0,
+            "response_model": "alias-clef",
+            "status": "success",
+            "tokens": 706
+          }
+        },
+        "worth-attention": {
+          "cache_hit": false,
+          "charged_tokens": 519,
+          "decision": {
+            "evidence_ids": [
+              "bef235ffb4073e5b09f2a034"
+            ],
+            "facts": 0.5,
+            "hype": 0.5,
+            "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
+            "related_event_id": null,
+            "score": 0.1,
+            "signal": 0.5,
+            "verdict": "no"
+          },
+          "provider": {
+            "abstained": false,
+            "attempts": 1,
+            "cost": null,
+            "family": "systemone",
+            "format": "systemone_choices",
+            "input_tokens": 519,
+            "latency_ms": 534,
+            "model": "alias-clef",
+            "model_identity_verified": true,
+            "output_tokens": 0,
+            "response_model": "alias-clef",
+            "status": "success",
+            "tokens": 519
+          }
+        }
+      },
+      "duplicate_of": null,
+      "eligibility": "WATCH_FUTURE_ROUND",
+      "event_id": "eu-eic-accelerator",
+      "evidence": [
+        {
+          "content_hash": "8e038a36589fafe3a2d4838e84b6562c1ec1fcf9dcf32117cace192c55300d60",
+          "discovery_language": "unknown",
+          "excerpt": "EIC Accelerator",
+          "fresh": false,
+          "id": "3919a2ef846644ed922b06dd",
+          "language": "unknown",
+          "language_basis": "insufficient_language_evidence",
+          "primary": true,
+          "published_at": null,
+          "publisher": "EU",
+          "retrieved_at": "2026-10-22T02:51:45.864575+00:00",
+          "title": "EIC-Accelerator — program",
+          "url": "https://eic.ec.europa.eu/eic-funding-opportunities/eic-accelerator_en"
+        },
+        {
+          "content_hash": "8e038a36589fafe3a2d4838e84b6562c1ec1fcf9dcf32117cace192c55300d60",
+          "discovery_language": "unknown",
+          "excerpt": "Grant funding Lump sum contribution below € 2.5 million , for innovation activities (TRL 6-8), to be completed within 24 months. Grant only - for start-ups and SMEs with capacity to scale-up. To be provided only once during the implementation period of the Horizon Europe programme (2021-2027) Investment component To fill the gap for high - risk innovation to a stage where they can be fully financed by other investments. €1 - €10 million . Higher ",
+          "fresh": false,
+          "id": "145fc33933892e467a24fd59",
+          "language": "en",
+          "language_basis": "lexical_heuristic_requires_review",
+          "primary": true,
+          "published_at": null,
+          "publisher": "EU",
+          "retrieved_at": "2026-10-22T02:51:45.864575+00:00",
+          "title": "EIC-Accelerator — funding",
+          "url": "https://eic.ec.europa.eu/eic-funding-opportunities/eic-accelerator_en"
+        },
+        {
+          "content_hash": "8e038a36589fafe3a2d4838e84b6562c1ec1fcf9dcf32117cace192c55300d60",
+          "discovery_language": "unknown",
+          "excerpt": "Blended finance: a grant component & direct equity or quasi-equity such as convertible loans. Investment only: for companies looking to scale-up rapidly and don’t need a grant EIC Accelerator Challenges For projects that match any of the pre-defined topics of the EIC Accelerator Challenges. The overall budget in 2026 is €220 million. Accelerator Challenges EIC Accelerator Open For projects that don't match the EIC Accelerator topics, the EIC Acce",
+          "fresh": false,
+          "id": "b082ecb4601ca3e2a31a5922",
+          "language": "en",
+          "language_basis": "lexical_heuristic_requires_review",
+          "primary": true,
+          "published_at": null,
+          "publisher": "EU",
+          "retrieved_at": "2026-10-22T02:51:45.864575+00:00",
+          "title": "EIC-Accelerator — equity",
+          "url": "https://eic.ec.europa.eu/eic-funding-opportunities/eic-accelerator_en"
+        },
+        {
+          "content_hash": "8e038a36589fafe3a2d4838e84b6562c1ec1fcf9dcf32117cace192c55300d60",
+          "discovery_language": "unknown",
+          "excerpt": "Applicants from EU Member States and countries associated to the Horizon Europe programme: Single start-up or SME (including spin-outs) Small mid-caps (up to 499 employees) in need of rapid scale up of the TRL 9 activity. Mid-caps can apply for investment only. Natural persons or legal entities willing to set up an SMEs or a mid-cap. Applicants from third countries: Applicants from third countries may relocate their company in order to become eli",
+          "fresh": false,
+          "id": "684a7143d9247c4c8171c445",
+          "language": "en",
+          "language_basis": "lexical_heuristic_requires_review",
+          "primary": true,
+          "published_at": null,
+          "publisher": "EU",
+          "retrieved_at": "2026-10-22T02:51:45.864575+00:00",
+          "title": "EIC-Accelerator — geography",
+          "url": "https://eic.ec.europa.eu/eic-funding-opportunities/eic-accelerator_en"
+        },
+        {
+          "content_hash": "8e038a36589fafe3a2d4838e84b6562c1ec1fcf9dcf32117cace192c55300d60",
+          "discovery_language": "unknown",
+          "excerpt": "Natural persons or legal entities willing to set up an SMEs or a mid-cap. Applicants from third countries: Applicants from third countries may relocate their company in order to become eligible. This must be done before submitting the full application (Step 2). Applicants from the United Kingdom can only apply for the \"grant only\" scheme Concurrent applications: Applicants may submit only one application to the EIC Accelerator. Additional applica",
+          "fresh": false,
+          "id": "f194d7ae80ba77ea94c11247",
+          "language": "en",
+          "language_basis": "lexical_heuristic_requires_review",
+          "primary": true,
+          "published_at": null,
+          "publisher": "EU",
+          "retrieved_at": "2026-10-22T02:51:45.864575+00:00",
+          "title": "EIC-Accelerator — natural-persons",
+          "url": "https://eic.ec.europa.eu/eic-funding-opportunities/eic-accelerator_en"
+        },
+        {
+          "content_hash": "8e038a36589fafe3a2d4838e84b6562c1ec1fcf9dcf32117cace192c55300d60",
+          "discovery_language": "unknown",
+          "excerpt": "Short proposals may be submitted at any time and will be batched for evaluation every first Tuesday of the month at 5pm Brussels time. The proposal will be evaluated remotely by 4 EIC expert evaluators ; A short 12-page form where you must summarise your proposal and respond to a set of questions on your innovation, your potential market and your team; A pitch-deck of up to ten slides in PDF format; A video pitch of up to three minutes where the ",
+          "fresh": false,
+          "id": "93b6c9687e14be1fbe616c66",
+          "language": "en",
+          "language_basis": "lexical_heuristic_requires_review",
+          "primary": true,
+          "published_at": null,
+          "publisher": "EU",
+          "retrieved_at": "2026-10-22T02:51:45.864575+00:00",
+          "title": "EIC-Accelerator — short-proposal",
+          "url": "https://eic.ec.europa.eu/eic-funding-opportunities/eic-accelerator_en"
+        },
+        {
+          "content_hash": "8e038a36589fafe3a2d4838e84b6562c1ec1fcf9dcf32117cace192c55300d60",
+          "discovery_language": "unknown",
+          "excerpt": "If your short proposal receives a GO, you can submit your full proposal to any of the 2026 batching dates. Prepare your full proposal on Funding and Tenders portal. The full proposal consists of a 20 page form expanding on the short proposal template , pitch deck in PDF, implementation plan, financial information, Letters of Intent, FTO analysis & a 3 minutes video pitch. Proposals will be assessed in parallel by a technology expert and an evalua",
+          "fresh": false,
+          "id": "044fdf263a432dea9ac2db2a",
+          "language": "unknown",
+          "language_basis": "insufficient_language_evidence",
+          "primary": true,
+          "published_at": null,
+          "publisher": "EU",
+          "retrieved_at": "2026-10-22T02:51:45.864575+00:00",
+          "title": "EIC-Accelerator — full-proposal-gate",
+          "url": "https://eic.ec.europa.eu/eic-funding-opportunities/eic-accelerator_en"
+        },
+        {
+          "content_hash": "8e038a36589fafe3a2d4838e84b6562c1ec1fcf9dcf32117cace192c55300d60",
+          "discovery_language": "unknown",
+          "excerpt": "Proposals will be batched for evaluation at 5pm Brussels time on the following dates: 7/01/2026 04/03/2026 06/05/2026 08/07/2026 02/09/2026 04/11/2026 Step 3 Pitch your innovation After each second batch, an interview session will be organised. If you are invited to an interview with an EIC jury, you will receive more detailed information on the timing and format of the interview. You will receive the interview results within 2–3 weeks of the end",
+          "fresh": false,
+          "id": "ceff6d8a2ffae968cf10b1a4",
+          "language": "en",
+          "language_basis": "lexical_heuristic_requires_review",
+          "primary": true,
+          "published_at": null,
+          "publisher": "EU",
+          "retrieved_at": "2026-10-22T02:51:45.864575+00:00",
+          "title": "EIC-Accelerator — full-proposal-dates",
+          "url": "https://eic.ec.europa.eu/eic-funding-opportunities/eic-accelerator_en"
+        },
+        {
+          "content_hash": "3d43c7e8269fa4fa2dd8c36db78ef86ea7816709d8e65f05a324df2bba18118c",
+          "discovery_language": "unknown",
+          "excerpt": "EIC Accelerator",
+          "fresh": false,
+          "id": "ec0a621d8465ed0f99bfc224",
+          "language": "unknown",
+          "language_basis": "insufficient_language_evidence",
+          "primary": true,
+          "published_at": null,
+          "publisher": "EU",
+          "retrieved_at": "2026-10-23T09:48:17.679157+00:00",
+          "title": "EIC-Accelerator — program",
+          "url": "https://eic.ec.europa.eu/eic-funding-opportunities/eic-accelerator_en"
+        },
+        {
+          "content_hash": "3d43c7e8269fa4fa2dd8c36db78ef86ea7816709d8e65f05a324df2bba18118c",
+          "discovery_language": "unknown",
+          "excerpt": "Grant funding Lump sum contribution below € 2.5 million , for innovation activities (TRL 6-8), to be completed within 24 months. Grant only - for start-ups and SMEs with capacity to scale-up. To be provided only once during the implementation period of the Horizon Europe programme (2021-2027) Investment component To fill the gap for high - risk innovation to a stage where they can be fully financed by other investments. €1 - €10 million . Higher ",
+          "fresh": false,
+          "id": "6714e037902d5b3b62fa78c8",
+          "language": "en",
+          "language_basis": "lexical_heuristic_requires_review",
+          "primary": true,
+          "published_at": null,
+          "publisher": "EU",
+          "retrieved_at": "2026-10-23T09:48:17.679157+00:00",
+          "title": "EIC-Accelerator — funding",
+          "url": "https://eic.ec.europa.eu/eic-funding-opportunities/eic-accelerator_en"
+        },
+        {
+          "content_hash": "3d43c7e8269fa4fa2dd8c36db78ef86ea7816709d8e65f05a324df2bba18118c",
+          "discovery_language": "unknown",
+          "excerpt": "Blended finance: a grant component & direct equity or quasi-equity such as convertible loans. Investment only: for companies looking to scale-up rapidly and don’t need a grant EIC Accelerator Challenges For projects that match any of the pre-defined topics of the EIC Accelerator Challenges. The overall budget in 2026 is €220 million. Accelerator Challenges EIC Accelerator Open For projects that don't match the EIC Accelerator topics, the EIC Acce",
+          "fresh": false,
+          "id": "6d655c2ae561dbd6f681fc7c",
+          "language": "en",
+          "language_basis": "lexical_heuristic_requires_review",
+          "primary": true,
+          "published_at": null,
+          "publisher": "EU",
+          "retrieved_at": "2026-10-23T09:48:17.679157+00:00",
+          "title": "EIC-Accelerator — equity",
+          "url": "https://eic.ec.europa.eu/eic-funding-opportunities/eic-accelerator_en"
+        },
+        {
+          "content_hash": "3d43c7e8269fa4fa2dd8c36db78ef86ea7816709d8e65f05a324df2bba18118c",
+          "discovery_language": "unknown",
+          "excerpt": "Applicants from EU Member States and countries associated to the Horizon Europe programme: Single start-up or SME (including spin-outs) Small mid-caps (up to 499 employees) in need of rapid scale up of the TRL 9 activity. Mid-caps can apply for investment only. Natural persons or legal entities willing to set up an SMEs or a mid-cap. Applicants from third countries: Applicants from third countries may relocate their company in order to become eli",
+          "fresh": false,
+          "id": "799135a1e5085b55a54fc73e",
+          "language": "en",
+          "language_basis": "lexical_heuristic_requires_review",
+          "primary": true,
+          "published_at": null,
+          "publisher": "EU",
+          "retrieved_at": "2026-10-23T09:48:17.679157+00:00",
+          "title": "EIC-Accelerator — geography",
+          "url": "https://eic.ec.europa.eu/eic-funding-opportunities/eic-accelerator_en"
+        },
+        {
+          "content_hash": "3d43c7e8269fa4fa2dd8c36db78ef86ea7816709d8e65f05a324df2bba18118c",
+          "discovery_language": "unknown",
+          "excerpt": "Natural persons or legal entities willing to set up an SMEs or a mid-cap. Applicants from third countries: Applicants from third countries may relocate their company in order to become eligible. This must be done before submitting the full application (Step 2). Applicants from the United Kingdom can only apply for the \"grant only\" scheme Concurrent applications: Applicants may submit only one application to the EIC Accelerator. Additional applica",
+          "fresh": false,
+          "id": "cac5fa54faf6b97b35e4ea3b",
+          "language": "en",
+          "language_basis": "lexical_heuristic_requires_review",
+          "primary": true,
+          "published_at": null,
+          "publisher": "EU",
+          "retrieved_at": "2026-10-23T09:48:17.679157+00:00",
+          "title": "EIC-Accelerator — natural-persons",
+          "url": "https://eic.ec.europa.eu/eic-funding-opportunities/eic-accelerator_en"
+        },
+        {
+          "content_hash": "3d43c7e8269fa4fa2dd8c36db78ef86ea7816709d8e65f05a324df2bba18118c",
+          "discovery_language": "unknown",
+          "excerpt": "Short proposals may be submitted at any time and will be batched for evaluation every first Tuesday of the month at 5pm Brussels time. The proposal will be evaluated remotely by 4 EIC expert evaluators ; A short 12-page form where you must summarise your proposal and respond to a set of questions on your innovation, your potential market and your team; A pitch-deck of up to ten slides in PDF format; A video pitch of up to three minutes where the ",
+          "fresh": false,
+          "id": "a401488a534332fe1d3d749d",
+          "language": "en",
+          "language_basis": "lexical_heuristic_requires_review",
+          "primary": true,
+          "published_at": null,
+          "publisher": "EU",
+          "retrieved_at": "2026-10-23T09:48:17.679157+00:00",
+          "title": "EIC-Accelerator — short-proposal",
+          "url": "https://eic.ec.europa.eu/eic-funding-opportunities/eic-accelerator_en"
+        },
+        {
+          "content_hash": "3d43c7e8269fa4fa2dd8c36db78ef86ea7816709d8e65f05a324df2bba18118c",
+          "discovery_language": "unknown",
+          "excerpt": "If your short proposal receives a GO, you can submit your full proposal to any of the 2026 batching dates. Prepare your full proposal on Funding and Tenders portal. The full proposal consists of a 20 page form expanding on the short proposal template , pitch deck in PDF, implementation plan, financial information, Letters of Intent, FTO analysis & a 3 minutes video pitch. Proposals will be assessed in parallel by a technology expert and an evalua",
+          "fresh": false,
+          "id": "2fb98c644aee8f3f5d185f61",
+          "language": "unknown",
+          "language_basis": "insufficient_language_evidence",
+          "primary": true,
+          "published_at": null,
+          "publisher": "EU",
+          "retrieved_at": "2026-10-23T09:48:17.679157+00:00",
+          "title": "EIC-Accelerator — full-proposal-gate",
+          "url": "https://eic.ec.europa.eu/eic-funding-opportunities/eic-accelerator_en"
+        },
+        {
+          "content_hash": "3d43c7e8269fa4fa2dd8c36db78ef86ea7816709d8e65f05a324df2bba18118c",
+          "discovery_language": "unknown",
+          "excerpt": "Proposals will be batched for evaluation at 5pm Brussels time on the following dates: 7/01/2026 04/03/2026 06/05/2026 08/07/2026 02/09/2026 04/11/2026 Step 3 Pitch your innovation After each second batch, an interview session will be organised. If you are invited to an interview with an EIC jury, you will receive more detailed information on the timing and format of the interview. You will receive the interview results within 2–3 weeks of the end",
+          "fresh": false,
+          "id": "67ae4fb0af6f46b0834f60cd",
+          "language": "en",
+          "language_basis": "lexical_heuristic_requires_review",
+          "primary": true,
+          "published_at": null,
+          "publisher": "EU",
+          "retrieved_at": "2026-10-23T09:48:17.679157+00:00",
+          "title": "EIC-Accelerator — full-proposal-dates",
+          "url": "https://eic.ec.europa.eu/eic-funding-opportunities/eic-accelerator_en"
+        },
+        {
+          "content_hash": "12759c3416de59af3ad842c724f0b7eb5035803d68192c425784f23f31e79a87",
+          "discovery_language": "unknown",
+          "excerpt": "EIC Accelerator",
+          "fresh": true,
+          "id": "bef235ffb4073e5b09f2a034",
+          "language": "unknown",
+          "language_basis": "insufficient_language_evidence",
+          "primary": true,
+          "published_at": null,
+          "publisher": "EU",
+          "retrieved_at": "2026-11-09T05:56:11.665922+00:00",
+          "title": "EIC-Accelerator",
+          "url": "https://eic.ec.europa.eu/eic-funding-opportunities/eic-accelerator_en"
+        }
+      ],
+      "historical_application_status": "UNKNOWN",
+      "historical_deadline": "2026-11-04",
+      "id": "22130d10db94334c05273986",
+      "matched_topics": [],
+      "missing_verification": [
+        "Official evidence is missing, stale or could not be refreshed",
+        "official_terms_need_reverification"
+      ],
+      "reasons": [
+        "missing_fresh_evidence_or_hard_eligibility"
+      ],
+      "technical_significance": null,
+      "title": "EIC-Accelerator",
+      "url": "https://eic.ec.europa.eu/eic-funding-opportunities/eic-accelerator_en"
+    }
+  ],
+  "domain": "funding-de-eu",
+  "generated_at_utc": "2026-11-09T05:56:25.671508+00:00",
+  "limitations": [
+    "Model choices are uncalibrated editorial judgments, not verified facts.",
+    "Short source excerpts may omit context; original publication dates can be unknown.",
+    "Novelty compares this run only; no historical corpus was loaded.",
+    "Technical significance is unassessed: native choices cannot generate technical-learning explanations or code.",
+    "No human ground truth: precision@10 and recall remain null."
+  ],
+  "physical_data_branch": null,
+  "policy": {
+    "concurrency": 1,
+    "deprioritize": [],
+    "exclusions": [],
+    "max_cost_usd": null,
+    "max_requests": 36,
+    "max_tokens": 120000,
+    "profile_id": "funding/de-eu",
+    "public_context": [
+      "Research target: Germany/Berlin AI software and AUX research.",
+      "Pre-incorporation founder support is a research assumption, never verified applicant eligibility."
+    ],
+    "threshold": 0.35,
+    "topics": [
+      "non-dilutive grant",
+      "research commercialization",
+      "pre-incorporation",
+      "Berlin",
+      "Germany",
+      "EU",
+      "microloan",
+      "incubator",
+      "AI software infrastructure",
+      "university collaboration"
+    ],
+    "usd_per_million_tokens": null,
+    "version": "1.1-provisional",
+    "weights": {
+      "actionability": 0.35,
+      "evidence": 0.2,
+      "importance": 0.15,
+      "novelty": 0.1,
+      "relevance": 0.2
+    }
+  },
+  "precision_at_10": null,
+  "profile_id": "funding/de-eu",
+  "recall": null,
+  "review_version": "live-review-1.0",
+  "schema_version": "1.0",
+  "source_revision": "3c2e79d6645869f6ac3a2178d5d7194bdc73a9ab",
+  "sources": [
+    {
+      "source": "ibb-gruendungsbonus-plus",
+      "status": "review_required"
+    },
+    {
+      "source": "kfw-erp-startgeld",
+      "status": "review_required"
+    },
+    {
+      "source": "eu-eic-accelerator",
+      "status": "review_required"
+    }
+  ],
+  "statistics": {
+    "cache_hits": 0,
+    "candidates": 3,
+    "confirmed_findings": 0,
+    "cost_usd": null,
+    "discovery_languages": {
+      "unknown": 40
+    },
+    "duplicates": 0,
+    "known_tokens": 10413,
+    "model_requests": 18,
+    "rejected": 0,
+    "retained_for_review": 3,
+    "retrieved_items": 3,
+    "review_worthy": 0,
+    "runtime_seconds": 14.051,
+    "source_failures": 0,
+    "source_languages": {
+      "unknown": 3
+    },
+    "token_usage_complete": true
+  },
+  "window_hours": 168,
+  "workflow_run_id": "42569950068"
+}

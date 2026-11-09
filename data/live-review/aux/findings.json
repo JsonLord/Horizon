@@ -1,0 +1,2452 @@
+{
+  "acceptance": "PARTIAL",
+  "cache_replay": {
+    "cache_hits": 6,
+    "performed": true,
+    "provider_requests": 0,
+    "unchanged_content_avoids_calls": true
+  },
+  "candidates": [
+    {
+      "application_status": null,
+      "attention": 0.52,
+      "classification": "REJECTED",
+      "confirmed": false,
+      "deadline": null,
+      "decisions": {
+        "claim-support": {
+          "cache_hit": false,
+          "charged_tokens": 649,
+          "decision": {
+            "evidence_ids": [
+              "df6cb2c826977a9e9a10f578"
+            ],
+            "facts": 0.5,
+            "hype": 0.5,
+            "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
+            "related_event_id": null,
+            "score": 0.9,
+            "signal": 0.5,
+            "verdict": "yes"
+          },
+          "provider": {
+            "abstained": false,
+            "attempts": 1,
+            "cost": null,
+            "family": "systemone",
+            "format": "systemone_choices",
+            "input_tokens": 649,
+            "latency_ms": 532,
+            "model": "alias-clef",
+            "model_identity_verified": true,
+            "output_tokens": 0,
+            "response_model": "alias-clef",
+            "status": "success",
+            "tokens": 649
+          }
+        },
+        "hfs": {
+          "cache_hit": false,
+          "charged_tokens": 891,
+          "decision": {
+            "evidence_ids": [
+              "df6cb2c826977a9e9a10f578"
+            ],
+            "facts": 0.1,
+            "hype": 0.1,
+            "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
+            "related_event_id": null,
+            "score": 0.1,
+            "signal": 0.1,
+            "verdict": "no"
+          },
+          "provider": {
+            "abstained": false,
+            "attempts": 1,
+            "cost": null,
+            "family": "systemone",
+            "format": "systemone_choices",
+            "input_tokens": 891,
+            "latency_ms": 527,
+            "model": "alias-clef",
+            "model_identity_verified": true,
+            "output_tokens": 0,
+            "response_model": "alias-clef",
+            "status": "success",
+            "tokens": 891
+          }
+        },
+        "importance": {
+          "cache_hit": false,
+          "charged_tokens": 658,
+          "decision": {
+            "evidence_ids": [
+              "df6cb2c826977a9e9a10f578"
+            ],
+            "facts": 0.5,
+            "hype": 0.5,
+            "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
+            "related_event_id": null,
+            "score": 0.9,
+            "signal": 0.5,
+            "verdict": "yes"
+          },
+          "provider": {
+            "abstained": false,
+            "attempts": 1,
+            "cost": null,
+            "family": "systemone",
+            "format": "systemone_choices",
+            "input_tokens": 658,
+            "latency_ms": 523,
+            "model": "alias-clef",
+            "model_identity_verified": true,
+            "output_tokens": 0,
+            "response_model": "alias-clef",
+            "status": "success",
+            "tokens": 658
+          }
+        },
+        "relevance": {
+          "cache_hit": false,
+          "charged_tokens": 636,
+          "decision": {
+            "evidence_ids": [
+              "df6cb2c826977a9e9a10f578"
+            ],
+            "facts": 0.5,
+            "hype": 0.5,
+            "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
+            "related_event_id": null,
+            "score": 0.1,
+            "signal": 0.5,
+            "verdict": "no"
+          },
+          "provider": {
+            "abstained": false,
+            "attempts": 1,
+            "cost": null,
+            "family": "systemone",
+            "format": "systemone_choices",
+            "input_tokens": 636,
+            "latency_ms": 544,
+            "model": "alias-clef",
+            "model_identity_verified": true,
+            "output_tokens": 0,
+            "response_model": "alias-clef",
+            "status": "success",
+            "tokens": 636
+          }
+        },
+        "same-story": {
+          "cache_hit": false,
+          "charged_tokens": 818,
+          "decision": {
+            "evidence_ids": [
+              "df6cb2c826977a9e9a10f578"
+            ],
+            "facts": 0.5,
+            "hype": 0.5,
+            "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
+            "related_event_id": null,
+            "score": 0.9,
+            "signal": 0.5,
+            "verdict": "different"
+          },
+          "provider": {
+            "abstained": false,
+            "attempts": 1,
+            "cost": null,
+            "family": "systemone",
+            "format": "systemone_choices",
+            "input_tokens": 818,
+            "latency_ms": 567,
+            "model": "alias-clef",
+            "model_identity_verified": true,
+            "output_tokens": 0,
+            "response_model": "alias-clef",
+            "status": "success",
+            "tokens": 818
+          }
+        },
+        "worth-attention": {
+          "cache_hit": false,
+          "charged_tokens": 640,
+          "decision": {
+            "evidence_ids": [
+              "df6cb2c826977a9e9a10f578"
+            ],
+            "facts": 0.5,
+            "hype": 0.5,
+            "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
+            "related_event_id": null,
+            "score": 0.1,
+            "signal": 0.5,
+            "verdict": "no"
+          },
+          "provider": {
+            "abstained": false,
+            "attempts": 1,
+            "cost": null,
+            "family": "systemone",
+            "format": "systemone_choices",
+            "input_tokens": 640,
+            "latency_ms": 531,
+            "model": "alias-clef",
+            "model_identity_verified": true,
+            "output_tokens": 0,
+            "response_model": "alias-clef",
+            "status": "success",
+            "tokens": 640
+          }
+        }
+      },
+      "duplicate_of": null,
+      "eligibility": null,
+      "event_id": "45e8de741ea9e45e27af9a99",
+      "evidence": [
+        {
+          "content_hash": "4acc0402f93d5986cb79ca801d462b915a4b13b7e43ad6a2f4a95dc4af36d829",
+          "discovery_language": "unknown",
+          "excerpt": "My comment on The Web Is More Than Enough, by Paul Ford — Hacker News. OK, this comment convinced me to give that a shot. Here's a thing I made in Three.js this morning - a Nudibranch themed Faberge Egg: https://static.simonwillison.net/static/2026/Hidden-Reef-Egg... (77KB) I just asked Claude (Opus 5.5 Medium running in regular Claude Chat) to",
+          "fresh": true,
+          "id": "df6cb2c826977a9e9a10f578",
+          "language": "unknown",
+          "language_basis": "insufficient_language_evidence",
+          "primary": false,
+          "published_at": "2026-11-09T04:32:33Z",
+          "publisher": "unknown",
+          "retrieved_at": "2026-11-09T05:55:52.315730Z",
+          "title": "The Web Is More Than Enough, by Paul Ford",
+          "url": "https://simonwillison.net/2026/Nov/9/hn-50421091"
+        }
+      ],
+      "historical_application_status": null,
+      "historical_deadline": null,
+      "id": "02998671bea41856a0653730",
+      "matched_topics": [],
+      "missing_verification": [],
+      "reasons": [
+        "model_relevance_no"
+      ],
+      "technical_significance": null,
+      "title": "The Web Is More Than Enough, by Paul Ford",
+      "url": "https://simonwillison.net/2026/Nov/9/hn-50421091"
+    },
+    {
+      "application_status": null,
+      "attention": 0.44,
+      "classification": "REJECTED",
+      "confirmed": false,
+      "deadline": null,
+      "decisions": {
+        "claim-support": {
+          "cache_hit": false,
+          "charged_tokens": 589,
+          "decision": {
+            "evidence_ids": [
+              "17f98e0bdcf116827a4c9e00"
+            ],
+            "facts": 0.5,
+            "hype": 0.5,
+            "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
+            "related_event_id": null,
+            "score": 0.1,
+            "signal": 0.5,
+            "verdict": "no"
+          },
+          "provider": {
+            "abstained": false,
+            "attempts": 1,
+            "cost": null,
+            "family": "systemone",
+            "format": "systemone_choices",
+            "input_tokens": 589,
+            "latency_ms": 519,
+            "model": "alias-clef",
+            "model_identity_verified": true,
+            "output_tokens": 0,
+            "response_model": "alias-clef",
+            "status": "success",
+            "tokens": 589
+          }
+        },
+        "hfs": {
+          "cache_hit": false,
+          "charged_tokens": 831,
+          "decision": {
+            "evidence_ids": [
+              "17f98e0bdcf116827a4c9e00"
+            ],
+            "facts": 0.9,
+            "hype": 0.1,
+            "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
+            "related_event_id": null,
+            "score": 0.1,
+            "signal": 0.1,
+            "verdict": "no"
+          },
+          "provider": {
+            "abstained": false,
+            "attempts": 1,
+            "cost": null,
+            "family": "systemone",
+            "format": "systemone_choices",
+            "input_tokens": 831,
+            "latency_ms": 583,
+            "model": "alias-clef",
+            "model_identity_verified": true,
+            "output_tokens": 0,
+            "response_model": "alias-clef",
+            "status": "success",
+            "tokens": 831
+          }
+        },
+        "importance": {
+          "cache_hit": false,
+          "charged_tokens": 598,
+          "decision": {
+            "evidence_ids": [
+              "17f98e0bdcf116827a4c9e00"
+            ],
+            "facts": 0.5,
+            "hype": 0.5,
+            "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
+            "related_event_id": null,
+            "score": 0.9,
+            "signal": 0.5,
+            "verdict": "yes"
+          },
+          "provider": {
+            "abstained": false,
+            "attempts": 1,
+            "cost": null,
+            "family": "systemone",
+            "format": "systemone_choices",
+            "input_tokens": 598,
+            "latency_ms": 535,
+            "model": "alias-clef",
+            "model_identity_verified": true,
+            "output_tokens": 0,
+            "response_model": "alias-clef",
+            "status": "success",
+            "tokens": 598
+          }
+        },
+        "relevance": {
+          "cache_hit": false,
+          "charged_tokens": 576,
+          "decision": {
+            "evidence_ids": [
+              "17f98e0bdcf116827a4c9e00"
+            ],
+            "facts": 0.5,
+            "hype": 0.5,
+            "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
+            "related_event_id": null,
+            "score": 0.1,
+            "signal": 0.5,
+            "verdict": "no"
+          },
+          "provider": {
+            "abstained": false,
+            "attempts": 1,
+            "cost": null,
+            "family": "systemone",
+            "format": "systemone_choices",
+            "input_tokens": 576,
+            "latency_ms": 515,
+            "model": "alias-clef",
+            "model_identity_verified": true,
+            "output_tokens": 0,
+            "response_model": "alias-clef",
+            "status": "success",
+            "tokens": 576
+          }
+        },
+        "same-story": {
+          "cache_hit": false,
+          "charged_tokens": 648,
+          "decision": {
+            "evidence_ids": [
+              "17f98e0bdcf116827a4c9e00"
+            ],
+            "facts": 0.5,
+            "hype": 0.5,
+            "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
+            "related_event_id": null,
+            "score": 0.9,
+            "signal": 0.5,
+            "verdict": "different"
+          },
+          "provider": {
+            "abstained": false,
+            "attempts": 1,
+            "cost": null,
+            "family": "systemone",
+            "format": "systemone_choices",
+            "input_tokens": 648,
+            "latency_ms": 526,
+            "model": "alias-clef",
+            "model_identity_verified": true,
+            "output_tokens": 0,
+            "response_model": "alias-clef",
+            "status": "success",
+            "tokens": 648
+          }
+        },
+        "worth-attention": {
+          "cache_hit": false,
+          "charged_tokens": 580,
+          "decision": {
+            "evidence_ids": [
+              "17f98e0bdcf116827a4c9e00"
+            ],
+            "facts": 0.5,
+            "hype": 0.5,
+            "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
+            "related_event_id": null,
+            "score": 0.1,
+            "signal": 0.5,
+            "verdict": "no"
+          },
+          "provider": {
+            "abstained": false,
+            "attempts": 1,
+            "cost": null,
+            "family": "systemone",
+            "format": "systemone_choices",
+            "input_tokens": 580,
+            "latency_ms": 562,
+            "model": "alias-clef",
+            "model_identity_verified": true,
+            "output_tokens": 0,
+            "response_model": "alias-clef",
+            "status": "success",
+            "tokens": 580
+          }
+        }
+      },
+      "duplicate_of": null,
+      "eligibility": null,
+      "event_id": "7a56e2062f93f8c0e4390f7a",
+      "evidence": [
+        {
+          "content_hash": "2996de29c85bce06234f1b871a9250d825c6e6b3972104f5acb8bfb733119bc9",
+          "discovery_language": "unknown",
+          "excerpt": "Most of the changes I make to my projects these days come in the form of PRs opened for me by Claude Code or Codex. The PR is my unit of work - I use them to bundle commits together, iterating on them until a feature is complete, document decisions and then merge the finished",
+          "fresh": true,
+          "id": "17f98e0bdcf116827a4c9e00",
+          "language": "en",
+          "language_basis": "lexical_heuristic_requires_review",
+          "primary": false,
+          "published_at": "2026-11-09T04:25:05Z",
+          "publisher": "unknown",
+          "retrieved_at": "2026-11-09T05:55:52.315759Z",
+          "title": "Hide your slop PR descriptions behind",
+          "url": "https://simonwillison.net/2026/Nov/9/details-summary"
+        }
+      ],
+      "historical_application_status": null,
+      "historical_deadline": null,
+      "id": "9521648cb470785fd40757bb",
+      "matched_topics": [],
+      "missing_verification": [],
+      "reasons": [
+        "model_relevance_no"
+      ],
+      "technical_significance": null,
+      "title": "Hide your slop PR descriptions behind",
+      "url": "https://simonwillison.net/2026/Nov/9/details-summary"
+    },
+    {
+      "application_status": null,
+      "attention": 0.52,
+      "classification": "REJECTED",
+      "confirmed": false,
+      "deadline": null,
+      "decisions": {
+        "claim-support": {
+          "cache_hit": false,
+          "charged_tokens": 686,
+          "decision": {
+            "evidence_ids": [
+              "3a1bef313302093b51199da5"
+            ],
+            "facts": 0.5,
+            "hype": 0.5,
+            "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
+            "related_event_id": null,
+            "score": 0.9,
+            "signal": 0.5,
+            "verdict": "yes"
+          },
+          "provider": {
+            "abstained": false,
+            "attempts": 1,
+            "cost": null,
+            "family": "systemone",
+            "format": "systemone_choices",
+            "input_tokens": 686,
+            "latency_ms": 522,
+            "model": "alias-clef",
+            "model_identity_verified": true,
+            "output_tokens": 0,
+            "response_model": "alias-clef",
+            "status": "success",
+            "tokens": 686
+          }
+        },
+        "hfs": {
+          "cache_hit": false,
+          "charged_tokens": 928,
+          "decision": {
+            "evidence_ids": [
+              "3a1bef313302093b51199da5"
+            ],
+            "facts": 0.1,
+            "hype": 0.1,
+            "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
+            "related_event_id": null,
+            "score": 0.1,
+            "signal": 0.1,
+            "verdict": "no"
+          },
+          "provider": {
+            "abstained": false,
+            "attempts": 1,
+            "cost": null,
+            "family": "systemone",
+            "format": "systemone_choices",
+            "input_tokens": 928,
+            "latency_ms": 575,
+            "model": "alias-clef",
+            "model_identity_verified": true,
+            "output_tokens": 0,
+            "response_model": "alias-clef",
+            "status": "success",
+            "tokens": 928
+          }
+        },
+        "importance": {
+          "cache_hit": false,
+          "charged_tokens": 695,
+          "decision": {
+            "evidence_ids": [
+              "3a1bef313302093b51199da5"
+            ],
+            "facts": 0.5,
+            "hype": 0.5,
+            "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
+            "related_event_id": null,
+            "score": 0.9,
+            "signal": 0.5,
+            "verdict": "yes"
+          },
+          "provider": {
+            "abstained": false,
+            "attempts": 1,
+            "cost": null,
+            "family": "systemone",
+            "format": "systemone_choices",
+            "input_tokens": 695,
+            "latency_ms": 536,
+            "model": "alias-clef",
+            "model_identity_verified": true,
+            "output_tokens": 0,
+            "response_model": "alias-clef",
+            "status": "success",
+            "tokens": 695
+          }
+        },
+        "relevance": {
+          "cache_hit": false,
+          "charged_tokens": 673,
+          "decision": {
+            "evidence_ids": [
+              "3a1bef313302093b51199da5"
+            ],
+            "facts": 0.5,
+            "hype": 0.5,
+            "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
+            "related_event_id": null,
+            "score": 0.1,
+            "signal": 0.5,
+            "verdict": "no"
+          },
+          "provider": {
+            "abstained": false,
+            "attempts": 1,
+            "cost": null,
+            "family": "systemone",
+            "format": "systemone_choices",
+            "input_tokens": 673,
+            "latency_ms": 506,
+            "model": "alias-clef",
+            "model_identity_verified": true,
+            "output_tokens": 0,
+            "response_model": "alias-clef",
+            "status": "success",
+            "tokens": 673
+          }
+        },
+        "same-story": {
+          "cache_hit": false,
+          "charged_tokens": 900,
+          "decision": {
+            "evidence_ids": [
+              "3a1bef313302093b51199da5"
+            ],
+            "facts": 0.5,
+            "hype": 0.5,
+            "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
+            "related_event_id": null,
+            "score": 0.9,
+            "signal": 0.5,
+            "verdict": "different"
+          },
+          "provider": {
+            "abstained": false,
+            "attempts": 1,
+            "cost": null,
+            "family": "systemone",
+            "format": "systemone_choices",
+            "input_tokens": 900,
+            "latency_ms": 579,
+            "model": "alias-clef",
+            "model_identity_verified": true,
+            "output_tokens": 0,
+            "response_model": "alias-clef",
+            "status": "success",
+            "tokens": 900
+          }
+        },
+        "worth-attention": {
+          "cache_hit": false,
+          "charged_tokens": 677,
+          "decision": {
+            "evidence_ids": [
+              "3a1bef313302093b51199da5"
+            ],
+            "facts": 0.5,
+            "hype": 0.5,
+            "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
+            "related_event_id": null,
+            "score": 0.1,
+            "signal": 0.5,
+            "verdict": "no"
+          },
+          "provider": {
+            "abstained": false,
+            "attempts": 1,
+            "cost": null,
+            "family": "systemone",
+            "format": "systemone_choices",
+            "input_tokens": 677,
+            "latency_ms": 790,
+            "model": "alias-clef",
+            "model_identity_verified": true,
+            "output_tokens": 0,
+            "response_model": "alias-clef",
+            "status": "success",
+            "tokens": 677
+          }
+        }
+      },
+      "duplicate_of": null,
+      "eligibility": null,
+      "event_id": "71c843041955ebc1fdc113b0",
+      "evidence": [
+        {
+          "content_hash": "97a8420ba2f6fec4dd8844a3e25edfd4f218d74e8c6d5b7a8ec98a459e2379b7",
+          "discovery_language": "unknown",
+          "excerpt": "Research: parse_number() as a SQLite extension: C vs Rust I was out walking the dog when I got curious about how easy/difficult it would be to write a SQLite C extension that adds a parse_number() function for turning strings like -$1,234.56 or '12.5%' into numeric values that could be summed and sorted. I fired up",
+          "fresh": true,
+          "id": "3a1bef313302093b51199da5",
+          "language": "en",
+          "language_basis": "lexical_heuristic_requires_review",
+          "primary": false,
+          "published_at": "2026-11-08T22:26:00Z",
+          "publisher": "unknown",
+          "retrieved_at": "2026-11-09T05:55:52.315777Z",
+          "title": "parse_number() as a SQLite extension: C vs Rust",
+          "url": "https://simonwillison.net/2026/Nov/8/sqlite-parse-number-c-vs-rust"
+        }
+      ],
+      "historical_application_status": null,
+      "historical_deadline": null,
+      "id": "65bc46d55d99149b1e820b02",
+      "matched_topics": [],
+      "missing_verification": [],
+      "reasons": [
+        "model_relevance_no"
+      ],
+      "technical_significance": null,
+      "title": "parse_number() as a SQLite extension: C vs Rust",
+      "url": "https://simonwillison.net/2026/Nov/8/sqlite-parse-number-c-vs-rust"
+    },
+    {
+      "application_status": null,
+      "attention": 0.68,
+      "classification": "REJECTED",
+      "confirmed": false,
+      "deadline": null,
+      "decisions": {
+        "claim-support": {
+          "cache_hit": false,
+          "charged_tokens": 683,
+          "decision": {
+            "evidence_ids": [
+              "1c7355b3de07c180d6851a66"
+            ],
+            "facts": 0.5,
+            "hype": 0.5,
+            "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
+            "related_event_id": null,
+            "score": 0.9,
+            "signal": 0.5,
+            "verdict": "yes"
+          },
+          "provider": {
+            "abstained": false,
+            "attempts": 1,
+            "cost": null,
+            "family": "systemone",
+            "format": "systemone_choices",
+            "input_tokens": 683,
+            "latency_ms": 540,
+            "model": "alias-clef",
+            "model_identity_verified": true,
+            "output_tokens": 0,
+            "response_model": "alias-clef",
+            "status": "success",
+            "tokens": 683
+          }
+        },
+        "hfs": {
+          "cache_hit": false,
+          "charged_tokens": 925,
+          "decision": {
+            "evidence_ids": [
+              "1c7355b3de07c180d6851a66"
+            ],
+            "facts": 0.9,
+            "hype": 0.1,
+            "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
+            "related_event_id": null,
+            "score": 0.9,
+            "signal": 0.9,
+            "verdict": "yes"
+          },
+          "provider": {
+            "abstained": false,
+            "attempts": 1,
+            "cost": null,
+            "family": "systemone",
+            "format": "systemone_choices",
+            "input_tokens": 925,
+            "latency_ms": 561,
+            "model": "alias-clef",
+            "model_identity_verified": true,
+            "output_tokens": 0,
+            "response_model": "alias-clef",
+            "status": "success",
+            "tokens": 925
+          }
+        },
+        "importance": {
+          "cache_hit": false,
+          "charged_tokens": 692,
+          "decision": {
+            "evidence_ids": [
+              "1c7355b3de07c180d6851a66"
+            ],
+            "facts": 0.5,
+            "hype": 0.5,
+            "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
+            "related_event_id": null,
+            "score": 0.9,
+            "signal": 0.5,
+            "verdict": "yes"
+          },
+          "provider": {
+            "abstained": false,
+            "attempts": 1,
+            "cost": null,
+            "family": "systemone",
+            "format": "systemone_choices",
+            "input_tokens": 692,
+            "latency_ms": 514,
+            "model": "alias-clef",
+            "model_identity_verified": true,
+            "output_tokens": 0,
+            "response_model": "alias-clef",
+            "status": "success",
+            "tokens": 692
+          }
+        },
+        "relevance": {
+          "cache_hit": false,
+          "charged_tokens": 670,
+          "decision": {
+            "evidence_ids": [
+              "1c7355b3de07c180d6851a66"
+            ],
+            "facts": 0.5,
+            "hype": 0.5,
+            "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
+            "related_event_id": null,
+            "score": 0.1,
+            "signal": 0.5,
+            "verdict": "no"
+          },
+          "provider": {
+            "abstained": false,
+            "attempts": 1,
+            "cost": null,
+            "family": "systemone",
+            "format": "systemone_choices",
+            "input_tokens": 670,
+            "latency_ms": 522,
+            "model": "alias-clef",
+            "model_identity_verified": true,
+            "output_tokens": 0,
+            "response_model": "alias-clef",
+            "status": "success",
+            "tokens": 670
+          }
+        },
+        "same-story": {
+          "cache_hit": false,
+          "charged_tokens": 894,
+          "decision": {
+            "evidence_ids": [
+              "1c7355b3de07c180d6851a66"
+            ],
+            "facts": 0.5,
+            "hype": 0.5,
+            "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
+            "related_event_id": null,
+            "score": 0.9,
+            "signal": 0.5,
+            "verdict": "different"
+          },
+          "provider": {
+            "abstained": false,
+            "attempts": 1,
+            "cost": null,
+            "family": "systemone",
+            "format": "systemone_choices",
+            "input_tokens": 894,
+            "latency_ms": 553,
+            "model": "alias-clef",
+            "model_identity_verified": true,
+            "output_tokens": 0,
+            "response_model": "alias-clef",
+            "status": "success",
+            "tokens": 894
+          }
+        },
+        "worth-attention": {
+          "cache_hit": false,
+          "charged_tokens": 674,
+          "decision": {
+            "evidence_ids": [
+              "1c7355b3de07c180d6851a66"
+            ],
+            "facts": 0.5,
+            "hype": 0.5,
+            "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
+            "related_event_id": null,
+            "score": 0.9,
+            "signal": 0.5,
+            "verdict": "yes"
+          },
+          "provider": {
+            "abstained": false,
+            "attempts": 1,
+            "cost": null,
+            "family": "systemone",
+            "format": "systemone_choices",
+            "input_tokens": 674,
+            "latency_ms": 527,
+            "model": "alias-clef",
+            "model_identity_verified": true,
+            "output_tokens": 0,
+            "response_model": "alias-clef",
+            "status": "success",
+            "tokens": 674
+          }
+        }
+      },
+      "duplicate_of": null,
+      "eligibility": null,
+      "event_id": "5f8103aa8ad8e667fe99f576",
+      "evidence": [
+        {
+          "content_hash": "eaa7a0811ee7d3a461a2cc16a462ea7b8a8ac08148c85435b1c83fd24cb8118f",
+          "discovery_language": "unknown",
+          "excerpt": "datasette #3046: Don't serve link: rel=next HTTP headers to Firefox for HTML pages I was looking at the Firefox network panel today when I noticed that requests to a Datasette table page were triggering an HTTP prefetch to the next page of rows in that table. This was happening because Datasette pages serve an HTTP",
+          "fresh": true,
+          "id": "1c7355b3de07c180d6851a66",
+          "language": "en",
+          "language_basis": "lexical_heuristic_requires_review",
+          "primary": false,
+          "published_at": "2026-11-07T23:57:46Z",
+          "publisher": "unknown",
+          "retrieved_at": "2026-11-09T05:55:52.315792Z",
+          "title": "datasette #3046: Don't serve link: rel=next HTTP headers to Firefox for HTML pages",
+          "url": "https://simonwillison.net/2026/Nov/7/link-rel-next"
+        }
+      ],
+      "historical_application_status": null,
+      "historical_deadline": null,
+      "id": "86536f0e462d91a96700a02d",
+      "matched_topics": [],
+      "missing_verification": [],
+      "reasons": [
+        "model_relevance_no"
+      ],
+      "technical_significance": null,
+      "title": "datasette #3046: Don't serve link: rel=next HTTP headers to Firefox for HTML pages",
+      "url": "https://simonwillison.net/2026/Nov/7/link-rel-next"
+    },
+    {
+      "application_status": null,
+      "attention": 0.36,
+      "classification": "REJECTED",
+      "confirmed": false,
+      "deadline": null,
+      "decisions": {
+        "claim-support": {
+          "cache_hit": false,
+          "charged_tokens": 666,
+          "decision": {
+            "evidence_ids": [
+              "00d9572b93002b02c067db47"
+            ],
+            "facts": 0.5,
+            "hype": 0.5,
+            "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
+            "related_event_id": null,
+            "score": 0.9,
+            "signal": 0.5,
+            "verdict": "yes"
+          },
+          "provider": {
+            "abstained": false,
+            "attempts": 1,
+            "cost": null,
+            "family": "systemone",
+            "format": "systemone_choices",
+            "input_tokens": 666,
+            "latency_ms": 537,
+            "model": "alias-clef",
+            "model_identity_verified": true,
+            "output_tokens": 0,
+            "response_model": "alias-clef",
+            "status": "success",
+            "tokens": 666
+          }
+        },
+        "hfs": {
+          "cache_hit": false,
+          "charged_tokens": 908,
+          "decision": {
+            "evidence_ids": [
+              "00d9572b93002b02c067db47"
+            ],
+            "facts": 0.1,
+            "hype": 0.1,
+            "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
+            "related_event_id": null,
+            "score": 0.1,
+            "signal": 0.1,
+            "verdict": "no"
+          },
+          "provider": {
+            "abstained": false,
+            "attempts": 1,
+            "cost": null,
+            "family": "systemone",
+            "format": "systemone_choices",
+            "input_tokens": 908,
+            "latency_ms": 555,
+            "model": "alias-clef",
+            "model_identity_verified": true,
+            "output_tokens": 0,
+            "response_model": "alias-clef",
+            "status": "success",
+            "tokens": 908
+          }
+        },
+        "importance": {
+          "cache_hit": false,
+          "charged_tokens": 675,
+          "decision": {
+            "evidence_ids": [
+              "00d9572b93002b02c067db47"
+            ],
+            "facts": 0.5,
+            "hype": 0.5,
+            "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
+            "related_event_id": null,
+            "score": 0.1,
+            "signal": 0.5,
+            "verdict": "no"
+          },
+          "provider": {
+            "abstained": false,
+            "attempts": 1,
+            "cost": null,
+            "family": "systemone",
+            "format": "systemone_choices",
+            "input_tokens": 675,
+            "latency_ms": 519,
+            "model": "alias-clef",
+            "model_identity_verified": true,
+            "output_tokens": 0,
+            "response_model": "alias-clef",
+            "status": "success",
+            "tokens": 675
+          }
+        },
+        "relevance": {
+          "cache_hit": false,
+          "charged_tokens": 653,
+          "decision": {
+            "evidence_ids": [
+              "00d9572b93002b02c067db47"
+            ],
+            "facts": 0.5,
+            "hype": 0.5,
+            "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
+            "related_event_id": null,
+            "score": 0.1,
+            "signal": 0.5,
+            "verdict": "no"
+          },
+          "provider": {
+            "abstained": false,
+            "attempts": 1,
+            "cost": null,
+            "family": "systemone",
+            "format": "systemone_choices",
+            "input_tokens": 653,
+            "latency_ms": 542,
+            "model": "alias-clef",
+            "model_identity_verified": true,
+            "output_tokens": 0,
+            "response_model": "alias-clef",
+            "status": "success",
+            "tokens": 653
+          }
+        },
+        "same-story": {
+          "cache_hit": false,
+          "charged_tokens": 881,
+          "decision": {
+            "evidence_ids": [
+              "00d9572b93002b02c067db47"
+            ],
+            "facts": 0.5,
+            "hype": 0.5,
+            "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
+            "related_event_id": null,
+            "score": 0.9,
+            "signal": 0.5,
+            "verdict": "different"
+          },
+          "provider": {
+            "abstained": false,
+            "attempts": 1,
+            "cost": null,
+            "family": "systemone",
+            "format": "systemone_choices",
+            "input_tokens": 881,
+            "latency_ms": 572,
+            "model": "alias-clef",
+            "model_identity_verified": true,
+            "output_tokens": 0,
+            "response_model": "alias-clef",
+            "status": "success",
+            "tokens": 881
+          }
+        },
+        "worth-attention": {
+          "cache_hit": false,
+          "charged_tokens": 657,
+          "decision": {
+            "evidence_ids": [
+              "00d9572b93002b02c067db47"
+            ],
+            "facts": 0.5,
+            "hype": 0.5,
+            "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
+            "related_event_id": null,
+            "score": 0.1,
+            "signal": 0.5,
+            "verdict": "no"
+          },
+          "provider": {
+            "abstained": false,
+            "attempts": 1,
+            "cost": null,
+            "family": "systemone",
+            "format": "systemone_choices",
+            "input_tokens": 657,
+            "latency_ms": 525,
+            "model": "alias-clef",
+            "model_identity_verified": true,
+            "output_tokens": 0,
+            "response_model": "alias-clef",
+            "status": "success",
+            "tokens": 657
+          }
+        }
+      },
+      "duplicate_of": null,
+      "eligibility": null,
+      "event_id": "dfd5aeba955b06505b60e1a3",
+      "evidence": [
+        {
+          "content_hash": "92889790194768708953011100309310e9a956c1457c283039504082f05dc974",
+          "discovery_language": "unknown",
+          "excerpt": "My comment on Terry Pratchett's Study — Hacker News. Terry Pratchett once wrote about the concept of \"horizontal wealth\". Vertical wealth is where you spend money on rich people stuff - yachts and suchlike. Horizontal wealth is where you spend more money on the things you liked before you got rich: https://chibuikeani.blogspot.com/2017/02/the-price-of-happin... But horizontal wealth",
+          "fresh": true,
+          "id": "00d9572b93002b02c067db47",
+          "language": "unknown",
+          "language_basis": "insufficient_language_evidence",
+          "primary": false,
+          "published_at": "2026-11-07T19:34:24Z",
+          "publisher": "unknown",
+          "retrieved_at": "2026-11-09T05:55:52.315805Z",
+          "title": "Terry Pratchett's Study",
+          "url": "https://simonwillison.net/2026/Nov/7/hn-50407316"
+        }
+      ],
+      "historical_application_status": null,
+      "historical_deadline": null,
+      "id": "62a1051ec168bdb5776aec8c",
+      "matched_topics": [],
+      "missing_verification": [],
+      "reasons": [
+        "model_relevance_no"
+      ],
+      "technical_significance": null,
+      "title": "Terry Pratchett's Study",
+      "url": "https://simonwillison.net/2026/Nov/7/hn-50407316"
+    },
+    {
+      "application_status": null,
+      "attention": 0.3,
+      "classification": "UNASSESSED",
+      "confirmed": false,
+      "deadline": null,
+      "decisions": {
+        "claim-support": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "hfs": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "importance": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "relevance": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "same-story": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "worth-attention": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        }
+      },
+      "duplicate_of": null,
+      "eligibility": null,
+      "event_id": "b7aa5d4fa5c79c451bb76b18",
+      "evidence": [
+        {
+          "content_hash": "5017868495eddcb402722c0733eeb2b0bc65511cf8eef1772ed9f88f40507262",
+          "discovery_language": "unknown",
+          "excerpt": "The products aren't good enough to sell people on the costs. You cannot tell people that you have to listen to the whine of a data center in their backyard for AI overviews and some of the most hilarious deep fake slop in history. It's not worth it. It just isn't worth it to anyone.",
+          "fresh": true,
+          "id": "87c722453298a5a03a16f505",
+          "language": "en",
+          "language_basis": "lexical_heuristic_requires_review",
+          "primary": false,
+          "published_at": "2026-11-06T17:13:12Z",
+          "publisher": "unknown",
+          "retrieved_at": "2026-11-09T05:55:52.315819Z",
+          "title": "Quoting Nilay Patel",
+          "url": "https://simonwillison.net/2026/Nov/6/nilay-patel"
+        }
+      ],
+      "historical_application_status": null,
+      "historical_deadline": null,
+      "id": "fcd344bc1bc62db9193df3c8",
+      "matched_topics": [],
+      "missing_verification": [],
+      "reasons": [
+        "incomplete_uncertain_or_below_threshold_model_assessment"
+      ],
+      "technical_significance": null,
+      "title": "Quoting Nilay Patel",
+      "url": "https://simonwillison.net/2026/Nov/6/nilay-patel"
+    },
+    {
+      "application_status": null,
+      "attention": 0.3,
+      "classification": "UNASSESSED",
+      "confirmed": false,
+      "deadline": null,
+      "decisions": {
+        "claim-support": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "hfs": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "importance": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "relevance": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "same-story": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "worth-attention": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        }
+      },
+      "duplicate_of": null,
+      "eligibility": null,
+      "event_id": "f88e63ee2c8108afc7abdb72",
+      "evidence": [
+        {
+          "content_hash": "389a40a86ead23ee634c0754201e2e2129012e23361d00344c05640c58a43d98",
+          "discovery_language": "unknown",
+          "excerpt": "The web browser is very, very, very powerful software for applications, and the cost of accessing that power is going down seemingly every day . — Paul Ford , The Web Is More Than Enough Tags: browsers , paul-ford , web-development",
+          "fresh": true,
+          "id": "cb2a466db50b9c56eaeb5d12",
+          "language": "en",
+          "language_basis": "lexical_heuristic_requires_review",
+          "primary": false,
+          "published_at": "2026-11-05T17:34:03Z",
+          "publisher": "unknown",
+          "retrieved_at": "2026-11-09T05:55:52.315833Z",
+          "title": "Quoting Paul Ford",
+          "url": "https://simonwillison.net/2026/Nov/5/paul-ford"
+        }
+      ],
+      "historical_application_status": null,
+      "historical_deadline": null,
+      "id": "3037f0263f22b8291046c678",
+      "matched_topics": [],
+      "missing_verification": [],
+      "reasons": [
+        "incomplete_uncertain_or_below_threshold_model_assessment"
+      ],
+      "technical_significance": null,
+      "title": "Quoting Paul Ford",
+      "url": "https://simonwillison.net/2026/Nov/5/paul-ford"
+    },
+    {
+      "application_status": null,
+      "attention": 0.27,
+      "classification": "REJECTED",
+      "confirmed": false,
+      "deadline": null,
+      "decisions": {
+        "claim-support": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "hfs": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "importance": {
+          "cache_hit": false,
+          "charged_tokens": 687,
+          "decision": {
+            "evidence_ids": [
+              "1e8460dd2c0b414c849f8f29"
+            ],
+            "facts": 0.5,
+            "hype": 0.5,
+            "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
+            "related_event_id": null,
+            "score": 0.1,
+            "signal": 0.5,
+            "verdict": "no"
+          },
+          "provider": {
+            "abstained": false,
+            "attempts": 1,
+            "cost": null,
+            "family": "systemone",
+            "format": "systemone_choices",
+            "input_tokens": 687,
+            "latency_ms": 542,
+            "model": "alias-clef",
+            "model_identity_verified": true,
+            "output_tokens": 0,
+            "response_model": "alias-clef",
+            "status": "success",
+            "tokens": 687
+          }
+        },
+        "relevance": {
+          "cache_hit": false,
+          "charged_tokens": 665,
+          "decision": {
+            "evidence_ids": [
+              "1e8460dd2c0b414c849f8f29"
+            ],
+            "facts": 0.5,
+            "hype": 0.5,
+            "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
+            "related_event_id": null,
+            "score": 0.1,
+            "signal": 0.5,
+            "verdict": "no"
+          },
+          "provider": {
+            "abstained": false,
+            "attempts": 1,
+            "cost": null,
+            "family": "systemone",
+            "format": "systemone_choices",
+            "input_tokens": 665,
+            "latency_ms": 522,
+            "model": "alias-clef",
+            "model_identity_verified": true,
+            "output_tokens": 0,
+            "response_model": "alias-clef",
+            "status": "success",
+            "tokens": 665
+          }
+        },
+        "same-story": {
+          "cache_hit": false,
+          "charged_tokens": 901,
+          "decision": {
+            "evidence_ids": [
+              "1e8460dd2c0b414c849f8f29"
+            ],
+            "facts": 0.5,
+            "hype": 0.5,
+            "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
+            "related_event_id": "5f8103aa8ad8e667fe99f576",
+            "score": 0.9,
+            "signal": 0.5,
+            "verdict": "different"
+          },
+          "provider": {
+            "abstained": false,
+            "attempts": 1,
+            "cost": null,
+            "family": "systemone",
+            "format": "systemone_choices",
+            "input_tokens": 901,
+            "latency_ms": 559,
+            "model": "alias-clef",
+            "model_identity_verified": true,
+            "output_tokens": 0,
+            "response_model": "alias-clef",
+            "status": "success",
+            "tokens": 901
+          }
+        },
+        "worth-attention": {
+          "cache_hit": false,
+          "charged_tokens": 669,
+          "decision": {
+            "evidence_ids": [
+              "1e8460dd2c0b414c849f8f29"
+            ],
+            "facts": 0.5,
+            "hype": 0.5,
+            "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
+            "related_event_id": null,
+            "score": 0.1,
+            "signal": 0.5,
+            "verdict": "no"
+          },
+          "provider": {
+            "abstained": false,
+            "attempts": 1,
+            "cost": null,
+            "family": "systemone",
+            "format": "systemone_choices",
+            "input_tokens": 669,
+            "latency_ms": 543,
+            "model": "alias-clef",
+            "model_identity_verified": true,
+            "output_tokens": 0,
+            "response_model": "alias-clef",
+            "status": "success",
+            "tokens": 669
+          }
+        }
+      },
+      "duplicate_of": null,
+      "eligibility": null,
+      "event_id": "cd09dc87fba0a54b67f70446",
+      "evidence": [
+        {
+          "content_hash": "72d2340693eeff8038adad3837a6d0287d2be0aa3f62e4334788778ca511b4bd",
+          "discovery_language": "unknown",
+          "excerpt": "Release: datasette-llm 0.1a10 Fixes a bug that affected my agent.datasette.io demo site, where the set of available LLM models was not correctly restricted to just those in the configuration. Tags: datasette , llm",
+          "fresh": true,
+          "id": "1e8460dd2c0b414c849f8f29",
+          "language": "unknown",
+          "language_basis": "insufficient_language_evidence",
+          "primary": false,
+          "published_at": "2026-11-04T15:26:02Z",
+          "publisher": "unknown",
+          "retrieved_at": "2026-11-09T05:55:52.315847Z",
+          "title": "datasette-llm 0.1a10",
+          "url": "https://simonwillison.net/2026/Nov/4/datasette-llm"
+        }
+      ],
+      "historical_application_status": null,
+      "historical_deadline": null,
+      "id": "57c0d3bfb0f021ce853ff2b0",
+      "matched_topics": [],
+      "missing_verification": [],
+      "reasons": [
+        "model_relevance_no"
+      ],
+      "technical_significance": null,
+      "title": "datasette-llm 0.1a10",
+      "url": "https://simonwillison.net/2026/Nov/4/datasette-llm"
+    },
+    {
+      "application_status": null,
+      "attention": 0.3,
+      "classification": "UNASSESSED",
+      "confirmed": false,
+      "deadline": null,
+      "decisions": {
+        "claim-support": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "hfs": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "importance": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "relevance": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "same-story": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "worth-attention": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        }
+      },
+      "duplicate_of": null,
+      "eligibility": null,
+      "event_id": "b3ab12a34ee36e8ab3ff3e5d",
+      "evidence": [
+        {
+          "content_hash": "997ffdc2d20e89ddf680b2cd8e96ea51293dcf688878067e026db80e78733df9",
+          "discovery_language": "unknown",
+          "excerpt": "Release: datasette-apps 0.3a0 Datasette Apps adds support for hosting and editing custom HTML applications inside of Datasette. These can be created by hand, but it's easier to create them using LLMs via Datasette Agent . This release improves that integration: Apps can now be tagged in Datasette Agent chat messages by typing # , which",
+          "fresh": true,
+          "id": "6dd0dc70da054b32d973553f",
+          "language": "en",
+          "language_basis": "lexical_heuristic_requires_review",
+          "primary": false,
+          "published_at": "2026-11-04T00:29:36Z",
+          "publisher": "unknown",
+          "retrieved_at": "2026-11-09T05:55:52.315861Z",
+          "title": "datasette-apps 0.3a0",
+          "url": "https://simonwillison.net/2026/Nov/4/datasette-apps"
+        }
+      ],
+      "historical_application_status": null,
+      "historical_deadline": null,
+      "id": "6b96b2544a1cfd984438f94f",
+      "matched_topics": [],
+      "missing_verification": [],
+      "reasons": [
+        "incomplete_uncertain_or_below_threshold_model_assessment"
+      ],
+      "technical_significance": null,
+      "title": "datasette-apps 0.3a0",
+      "url": "https://simonwillison.net/2026/Nov/4/datasette-apps"
+    },
+    {
+      "application_status": null,
+      "attention": 0.3,
+      "classification": "UNASSESSED",
+      "confirmed": false,
+      "deadline": null,
+      "decisions": {
+        "claim-support": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "hfs": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "importance": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "relevance": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "same-story": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "worth-attention": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        }
+      },
+      "duplicate_of": null,
+      "eligibility": null,
+      "event_id": "b0671b3fa0f50f9188d57435",
+      "evidence": [
+        {
+          "content_hash": "2bb4f14fa24ad02a805ad242be63def6daf34b2ba1a9cf17cee3352a2ce53e04",
+          "discovery_language": "unknown",
+          "excerpt": "Release: datasette-agent 0.5a0 This is a significant release of Datasette Agent . The most notable new feature is called the panel - it lets the agent chat open and then sit next to pages from Datasette, for example a table or query page. When combined with datasette-apps this means you can prompt a database-backed app",
+          "fresh": true,
+          "id": "7233d34a8ab5c558f272f4e8",
+          "language": "en",
+          "language_basis": "lexical_heuristic_requires_review",
+          "primary": false,
+          "published_at": "2026-11-03T23:13:45Z",
+          "publisher": "unknown",
+          "retrieved_at": "2026-11-09T05:55:52.315875Z",
+          "title": "datasette-agent 0.5a0",
+          "url": "https://simonwillison.net/2026/Nov/3/datasette-agent"
+        }
+      ],
+      "historical_application_status": null,
+      "historical_deadline": null,
+      "id": "74891e58f9148501d0096038",
+      "matched_topics": [],
+      "missing_verification": [],
+      "reasons": [
+        "incomplete_uncertain_or_below_threshold_model_assessment"
+      ],
+      "technical_significance": null,
+      "title": "datasette-agent 0.5a0",
+      "url": "https://simonwillison.net/2026/Nov/3/datasette-agent"
+    },
+    {
+      "application_status": null,
+      "attention": 0.3,
+      "classification": "UNASSESSED",
+      "confirmed": false,
+      "deadline": null,
+      "decisions": {
+        "claim-support": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "hfs": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "importance": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "relevance": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "same-story": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "worth-attention": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        }
+      },
+      "duplicate_of": null,
+      "eligibility": null,
+      "event_id": "0eec722f11509f676ce1b740",
+      "evidence": [
+        {
+          "content_hash": "7d692bc2c2f2137abfe4666526d51a2248709f3e46ecbe5cc9f9b3159e7853c9",
+          "discovery_language": "unknown",
+          "excerpt": "Release: llm 0.37.1 A bugfix release for LLM , with contributions from Steven Huang , Tao An , Arjan Mossel , and XQ . Tags: llm",
+          "fresh": true,
+          "id": "93b3f31079d1518f4cee0ad0",
+          "language": "en",
+          "language_basis": "lexical_heuristic_requires_review",
+          "primary": false,
+          "published_at": "2026-11-03T21:41:42Z",
+          "publisher": "unknown",
+          "retrieved_at": "2026-11-09T05:55:52.315887Z",
+          "title": "llm 0.37.1",
+          "url": "https://simonwillison.net/2026/Nov/3/llm"
+        }
+      ],
+      "historical_application_status": null,
+      "historical_deadline": null,
+      "id": "e275403580f9b47c5819c2e3",
+      "matched_topics": [],
+      "missing_verification": [],
+      "reasons": [
+        "incomplete_uncertain_or_below_threshold_model_assessment"
+      ],
+      "technical_significance": null,
+      "title": "llm 0.37.1",
+      "url": "https://simonwillison.net/2026/Nov/3/llm"
+    },
+    {
+      "application_status": null,
+      "attention": 0.3,
+      "classification": "UNASSESSED",
+      "confirmed": false,
+      "deadline": null,
+      "decisions": {
+        "claim-support": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "hfs": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "importance": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "relevance": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "same-story": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "worth-attention": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        }
+      },
+      "duplicate_of": null,
+      "eligibility": null,
+      "event_id": "8674b402a758cea69482855c",
+      "evidence": [
+        {
+          "content_hash": "425c29f5d5b5586abdbb3ef65252faf5660edd6b70173bc4bc4ab45c268f36ed",
+          "discovery_language": "unknown",
+          "excerpt": "My comment on AI is destroying my CS degree — Hacker News. I don't envy educators right now. AI clearly means you need to change how you teach and evaluate students. We are only a few years in though, and it's still extremely unclear what effective teaching with these tools looks like. The worst part",
+          "fresh": true,
+          "id": "5298cdaee06d12b785591cc5",
+          "language": "en",
+          "language_basis": "lexical_heuristic_requires_review",
+          "primary": false,
+          "published_at": "2026-11-03T16:42:02Z",
+          "publisher": "unknown",
+          "retrieved_at": "2026-11-09T05:55:52.315901Z",
+          "title": "AI is destroying my CS degree",
+          "url": "https://simonwillison.net/2026/Nov/3/hn-50354278"
+        }
+      ],
+      "historical_application_status": null,
+      "historical_deadline": null,
+      "id": "85442e478f3aaf487f773191",
+      "matched_topics": [],
+      "missing_verification": [],
+      "reasons": [
+        "incomplete_uncertain_or_below_threshold_model_assessment"
+      ],
+      "technical_significance": null,
+      "title": "AI is destroying my CS degree",
+      "url": "https://simonwillison.net/2026/Nov/3/hn-50354278"
+    },
+    {
+      "application_status": null,
+      "attention": 0.3,
+      "classification": "UNASSESSED",
+      "confirmed": false,
+      "deadline": null,
+      "decisions": {
+        "claim-support": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "hfs": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "importance": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "relevance": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "same-story": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "worth-attention": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        }
+      },
+      "duplicate_of": null,
+      "eligibility": null,
+      "event_id": "b5cba0d011349b3bc5011180",
+      "evidence": [
+        {
+          "content_hash": "8a030c3c1bd6bc24277b314c71d83e1369ae6321f2b651083cc9411968f90a54",
+          "discovery_language": "unknown",
+          "excerpt": "Yesterday's hot paper was Sparks of Weight-Space Programming: LLMs can natively read & write neural network weights by Rikiya Takehi, Jayden Teoh, Alex Zhang, and Omar Khattab. The paper (OK, the authors classify is as a \"blog post\", but it's paper-shaped) found that frontier models, in particular GPT-6 Astra, can both interpret and modify the",
+          "fresh": true,
+          "id": "87be83fa921b73f3bdec0bdc",
+          "language": "unknown",
+          "language_basis": "insufficient_language_evidence",
+          "primary": false,
+          "published_at": "2026-11-03T16:29:48Z",
+          "publisher": "unknown",
+          "retrieved_at": "2026-11-09T05:55:52.315916Z",
+          "title": "Qwen 3.8 27B on my laptop can interpret model weights, too",
+          "url": "https://simonwillison.net/2026/Nov/3/qwen-can-interpret-model-weights"
+        }
+      ],
+      "historical_application_status": null,
+      "historical_deadline": null,
+      "id": "bcf92c8ab248bbffb920c2c2",
+      "matched_topics": [],
+      "missing_verification": [],
+      "reasons": [
+        "incomplete_uncertain_or_below_threshold_model_assessment"
+      ],
+      "technical_significance": null,
+      "title": "Qwen 3.8 27B on my laptop can interpret model weights, too",
+      "url": "https://simonwillison.net/2026/Nov/3/qwen-can-interpret-model-weights"
+    },
+    {
+      "application_status": null,
+      "attention": 0.3,
+      "classification": "UNASSESSED",
+      "confirmed": false,
+      "deadline": null,
+      "decisions": {
+        "claim-support": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "hfs": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "importance": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "relevance": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "same-story": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "worth-attention": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        }
+      },
+      "duplicate_of": null,
+      "eligibility": null,
+      "event_id": "46933a36d2603a0bbc02a4ab",
+      "evidence": [
+        {
+          "content_hash": "2a03a1a5748e76fd8e0d5efe475671874a5d308d54e0495f965c3688ac111a85",
+          "discovery_language": "unknown",
+          "excerpt": "I discovered a sound that leaks your exact location (and it's everywhere) - YouTube Genius piece of OSINT by Colsto, who demonstrates how you can take almost imperceptible background noise of planes from a video soundtrack, figure out their Doppler curves, then cross reference them against ADS-B data to find the exact location of the",
+          "fresh": true,
+          "id": "68f3951fa15752f0987b2ea3",
+          "language": "en",
+          "language_basis": "lexical_heuristic_requires_review",
+          "primary": false,
+          "published_at": "2026-11-03T05:32:25Z",
+          "publisher": "unknown",
+          "retrieved_at": "2026-11-09T05:55:52.315928Z",
+          "title": "I discovered a sound that leaks your exact location (and it's everywhere) - YouTube",
+          "url": "https://simonwillison.net/2026/Nov/3/a-sound-that-leaks-your-exact-location"
+        }
+      ],
+      "historical_application_status": null,
+      "historical_deadline": null,
+      "id": "b6e99e7210304cc7cca0b15d",
+      "matched_topics": [],
+      "missing_verification": [],
+      "reasons": [
+        "incomplete_uncertain_or_below_threshold_model_assessment"
+      ],
+      "technical_significance": null,
+      "title": "I discovered a sound that leaks your exact location (and it's everywhere) - YouTube",
+      "url": "https://simonwillison.net/2026/Nov/3/a-sound-that-leaks-your-exact-location"
+    },
+    {
+      "application_status": null,
+      "attention": 0.3,
+      "classification": "UNASSESSED",
+      "confirmed": false,
+      "deadline": null,
+      "decisions": {
+        "claim-support": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "hfs": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "importance": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "relevance": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "same-story": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "worth-attention": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        }
+      },
+      "duplicate_of": null,
+      "eligibility": null,
+      "event_id": "449ed68b90056fbb63e7f9ab",
+      "evidence": [
+        {
+          "content_hash": "ebf03357e1b19cf7780c91129b0c0622549656139246ec3805f2d7fbad7dd2bf",
+          "discovery_language": "unknown",
+          "excerpt": "I sent out the October edition of my sponsors-only monthly newsletter . If you are a sponsor (or start a sponsorship now) you can access it here . This month: The October inflection point for vibe game development The vulnerability apocalypse gets hot LLM releases API credits for $100+/month subscriptions What I'm using right now",
+          "fresh": true,
+          "id": "010a360c5638a31257a50a05",
+          "language": "en",
+          "language_basis": "lexical_heuristic_requires_review",
+          "primary": false,
+          "published_at": "2026-11-03T05:28:59Z",
+          "publisher": "unknown",
+          "retrieved_at": "2026-11-09T05:55:52.315940Z",
+          "title": "October sponsors-only newsletter",
+          "url": "https://simonwillison.net/2026/Nov/3/october-newsletter"
+        }
+      ],
+      "historical_application_status": null,
+      "historical_deadline": null,
+      "id": "a3d029d98abe021dc5a2a69f",
+      "matched_topics": [],
+      "missing_verification": [],
+      "reasons": [
+        "incomplete_uncertain_or_below_threshold_model_assessment"
+      ],
+      "technical_significance": null,
+      "title": "October sponsors-only newsletter",
+      "url": "https://simonwillison.net/2026/Nov/3/october-newsletter"
+    },
+    {
+      "application_status": null,
+      "attention": 0.3,
+      "classification": "UNASSESSED",
+      "confirmed": false,
+      "deadline": null,
+      "decisions": {
+        "claim-support": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "hfs": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "importance": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "relevance": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "same-story": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "worth-attention": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        }
+      },
+      "duplicate_of": null,
+      "eligibility": null,
+      "event_id": "9d52bf97ae05725130debf62",
+      "evidence": [
+        {
+          "content_hash": "3fdb1c7764766fa8dd54c50503b7321c878cd708e2f582a771af37ff30cac56a",
+          "discovery_language": "unknown",
+          "excerpt": "Release: llm 0.37 There's a lot of stuff in this new release of my LLM CLI tool and Python library, representing around two months of accumulated features and fixes. I added gpt-6.1-sol and gpt-6.1-terra , plus a new llm openai endpoint add command to make it easier to configure additional models that use OpenAI-compatible endpoints.",
+          "fresh": true,
+          "id": "6901a99619232c2996ad49fd",
+          "language": "unknown",
+          "language_basis": "insufficient_language_evidence",
+          "primary": false,
+          "published_at": "2026-11-02T23:49:30Z",
+          "publisher": "unknown",
+          "retrieved_at": "2026-11-09T05:55:52.315955Z",
+          "title": "llm 0.37",
+          "url": "https://simonwillison.net/2026/Nov/2/llm"
+        }
+      ],
+      "historical_application_status": null,
+      "historical_deadline": null,
+      "id": "2a0d96e98b4ee7b0ad144e97",
+      "matched_topics": [],
+      "missing_verification": [],
+      "reasons": [
+        "incomplete_uncertain_or_below_threshold_model_assessment"
+      ],
+      "technical_significance": null,
+      "title": "llm 0.37",
+      "url": "https://simonwillison.net/2026/Nov/2/llm"
+    },
+    {
+      "application_status": null,
+      "attention": 0.3,
+      "classification": "UNASSESSED",
+      "confirmed": false,
+      "deadline": null,
+      "decisions": {
+        "claim-support": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "hfs": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "importance": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "relevance": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "same-story": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        },
+        "worth-attention": {
+          "cache_hit": false,
+          "charged_tokens": 0,
+          "decision": null,
+          "provider": {
+            "model": "alias-clef",
+            "status": "budget_limit"
+          }
+        }
+      },
+      "duplicate_of": null,
+      "eligibility": null,
+      "event_id": "1e75cc35b491a3109e484947",
+      "evidence": [
+        {
+          "content_hash": "b8663344087131aaff1e3382af2d8722a4270b352d60dd49b8919ed8e02757cf",
+          "discovery_language": "unknown",
+          "excerpt": "I was reminded today of AI Adoption Rate Trending Down for Large Companies , a chart produced by Apollo Global Management in September 2025, which appeared to show a slowdown in U.S. corporate AI adoption based on numbers collected by the U.S. Census Bureau. At the time I used that chart to demonstrate GPT-5 data",
+          "fresh": true,
+          "id": "da3852b2c726618ca1a4a614",
+          "language": "en",
+          "language_basis": "lexical_heuristic_requires_review",
+          "primary": false,
+          "published_at": "2026-11-02T13:31:26Z",
+          "publisher": "unknown",
+          "retrieved_at": "2026-11-09T05:55:52.315969Z",
+          "title": "The U.S. Census Bureau and “Super Intelligence”",
+          "url": "https://simonwillison.net/2026/Nov/2/census-bureau-super-intelligence"
+        }
+      ],
+      "historical_application_status": null,
+      "historical_deadline": null,
+      "id": "3b885540f9f032fe0bedfbfa",
+      "matched_topics": [],
+      "missing_verification": [],
+      "reasons": [
+        "incomplete_uncertain_or_below_threshold_model_assessment"
+      ],
+      "technical_significance": null,
+      "title": "The U.S. Census Bureau and “Super Intelligence”",
+      "url": "https://simonwillison.net/2026/Nov/2/census-bureau-super-intelligence"
+    }
+  ],
+  "domain": "aux",
+  "generated_at_utc": "2026-11-09T05:56:11.611495+00:00",
+  "limitations": [
+    "Model choices are uncalibrated editorial judgments, not verified facts.",
+    "Short source excerpts may omit context; original publication dates can be unknown.",
+    "Novelty compares this run only; no historical corpus was loaded.",
+    "Technical significance is unassessed: native choices cannot generate technical-learning explanations or code.",
+    "No human ground truth: precision@10 and recall remain null.",
+    "Model budget exhausted; remaining command states are explicitly budget_limit, not inferred decisions."
+  ],
+  "physical_data_branch": null,
+  "policy": {
+    "concurrency": 1,
+    "deprioritize": [
+      "generic LLM launches without UX or testing implications",
+      "reposts without new information",
+      "commentary without technical or business consequences"
+    ],
+    "exclusions": [],
+    "max_cost_usd": null,
+    "max_requests": 36,
+    "max_tokens": 120000,
+    "profile_id": "examples/ai-usability",
+    "public_context": [],
+    "threshold": 0.35,
+    "topics": [
+      "usability",
+      "accessibility",
+      "agentic browser testing",
+      "inclusive UX",
+      "synthetic users",
+      "user simulation",
+      "AI research",
+      "regulatory compliance",
+      "agent evaluation",
+      "reliability",
+      "market entrants",
+      "enterprise demand"
+    ],
+    "usd_per_million_tokens": null,
+    "version": "1.1-provisional",
+    "weights": {
+      "actionability": 0.2,
+      "evidence": 0.1,
+      "importance": 0.2,
+      "novelty": 0.2,
+      "relevance": 0.3
+    }
+  },
+  "precision_at_10": null,
+  "profile_id": "examples/ai-usability",
+  "recall": null,
+  "review_version": "live-review-1.0",
+  "schema_version": "1.0",
+  "source_revision": "3c2e79d6645869f6ac3a2178d5d7194bdc73a9ab",
+  "sources": [
+    {
+      "error_code": null,
+      "items": 0,
+      "query": "AI usability accessibility agent browser testing",
+      "source": "google_news",
+      "status": "ok"
+    },
+    {
+      "items": 17,
+      "source": "rss",
+      "status": "ok"
+    }
+  ],
+  "statistics": {
+    "cache_hits": 0,
+    "candidates": 17,
+    "confirmed_findings": 0,
+    "cost_usd": null,
+    "discovery_languages": {
+      "unknown": 17
+    },
+    "duplicates": 0,
+    "invalid_public_urls": 0,
+    "known_tokens": 24573,
+    "model_requests": 34,
+    "rejected": 6,
+    "retained_for_review": 11,
+    "retrieved_items": 17,
+    "review_worthy": 0,
+    "runtime_seconds": 19.821,
+    "source_failures": 0,
+    "source_languages": {
+      "en": 12,
+      "unknown": 5
+    },
+    "token_usage_complete": true
+  },
+  "window_hours": 168,
+  "workflow_run_id": "42569950068"
+}
