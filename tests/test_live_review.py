@@ -233,3 +233,11 @@ def test_budget_selection_prefers_primary_evidence_within_each_language():
     secondary = candidate(); secondary.evidence[0].language = 'unknown'
     primary = candidate(); primary.id = 'primary'; primary.evidence[0].language = 'unknown'; primary.evidence[0].primary = True
     assert fair_order([secondary, primary])[0].id == 'primary'
+
+
+def test_sampling_does_not_starve_discovery_when_many_releases_exist():
+    from src.research.live_review import fair_order
+    rows = []
+    for cid, primary in [('p1', True), ('p2', True), ('p3', True), ('s1', False), ('s2', False)]:
+        row = candidate(); row.id = cid; row.evidence[0].language = 'unknown'; row.evidence[0].primary = primary; rows.append(row)
+    assert [row.id for row in fair_order(rows)] == ['p1', 's1', 'p2', 's2', 'p3']

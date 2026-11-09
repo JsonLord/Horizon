@@ -6,6 +6,9 @@ from src.research.live_review import DOMAINS, ReviewPack, evaluate, export_notic
 from src.research.reporting import atomic, dumps
 
 async def main(args):
+    # A new collection must not carry the previous committed run's provenance.
+    for name in ('hosted-proof.json', 'review-handoff.json'):
+        (args.output / name).unlink(missing_ok=True)
     domains = list(DOMAINS) if args.domain == 'all' else [args.domain]
     packs = []
     for domain in domains:

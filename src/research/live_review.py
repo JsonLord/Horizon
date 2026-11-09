@@ -307,16 +307,25 @@ async def decide_cached(provider, state, command, payload, policy, budget):
 
 
 def fair_order(rows):
+    # Balance evidence families as well as languages. A long release queue must
+    # not consume every unknown-language slot ahead of discovered technical news.
     queues = {}
     for row in rows:
         lang = row.evidence[0].language if row.evidence else 'unknown'
-        queues.setdefault(lang, []).append(row)
-    for queue in queues.values():
-        queue.sort(key=lambda r: (any(e.primary and e.fresh for e in r.evidence), len(r.matched_topics)), reverse=True)
+        primary = any(e.primary and e.fresh for e in row.evidence)
+        queues.setdefault(lang, {True: [], False: []})[primary].append(row)
+    for families in queues.values():
+        for queue in families.values(): queue.sort(key=lambda r: len(r.matched_topics), reverse=True)
+    turns = {lang: True for lang in queues}
     output = []
-    while any(queues.values()):
+    while any(queue for families in queues.values() for queue in families.values()):
         for lang in ('en', 'de', 'fr', 'unknown'):
-            if queues.get(lang): output.append(queues[lang].pop(0))
+            if lang not in queues: continue
+            primary = turns[lang]
+            if not queues[lang][primary]: primary = not primary
+            if queues[lang][primary]:
+                output.append(queues[lang][primary].pop(0))
+                turns[lang] = not primary
     return output
 
 

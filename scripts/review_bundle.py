@@ -46,6 +46,7 @@ def seal(root, source, run_id, api):
         'collection_run_url': run['html_url'], 'validation_run_id': os.getenv('GITHUB_RUN_ID'),
         'files': {p: hashlib.sha256(raw).hexdigest() for p, raw in files.items()}}
     atomic(root / 'review-handoff.json', dumps(proof))
+    atomic(root / 'hosted-proof.json', dumps(proof))
     return proof
 
 

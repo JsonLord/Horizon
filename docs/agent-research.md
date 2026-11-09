@@ -1038,3 +1038,14 @@ language buckets, preserving the same inference budget and hard restrictions.
 Avoid treating generic version titles across distinct repositories as duplicates.
 Separate the program-coverage aggregate warning from actual failed source checks.
 A second hosted evaluation will measure these source improvements honestly.
+
+Second collection42571529142 completed with real sources and unchanged budget.
+AUX improved0→2 review-worthy candidates (17→39 observed), but release-first
+sampling crowded out RAG news (3→0 qualified) and the constrained English
+training search reduced8→1 observations. Retained the AUX improvement, restored
+the proven English training query, and changed sampling to alternate primary
+and discovery evidence within each language. Native-language broadened probes
+still returned no training observations; preserve that evidence gap. Source
+experiments and four public repository-metadata checks are recorded in
+docs/LIVE_RESEARCH_SOURCE_PROBES_2026-11-09.json. Third evaluation verifies the
+balanced policy. Historical first-run reports remain pinned in commit17e4ec9.
