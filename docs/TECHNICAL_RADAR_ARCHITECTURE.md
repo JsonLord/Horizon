@@ -39,3 +39,15 @@ Actions availability; source-language heuristics alone cannot qualify a concept;
 conservative fallback retains review entries at score 1; cross-language same-story
 classification needs actual multilingual provider evaluation; complete historical
 coverage and reviewer labels are not established by the local collection smoke.
+
+
+2026-11-09 optimization: the routine worker now validates sealed data in its
+read-only collection job and the separate writer revalidates the artifact. Full
+fresh-runner validation is an explicit durability option. Disabled radar/funding
+controllers contain no cron event, so no gate runner is scheduled. Pilot due
+timestamps align to once-daily slots; Friday can refresh a missing intended weekly
+window. Normalized source checkpoints, conditional release ETags, analysis-scoped
+model cache, independent retry backoff and metered per-radar budgets preserve the
+same evidence and data-only publication boundaries. Source configuration changes
+reset coverage qualification. Review WORKFLOW_INVENTORY.md and
+FORK_ACTIONS_REACTIVATION.md before any activation.

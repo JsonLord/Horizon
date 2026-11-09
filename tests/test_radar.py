@@ -265,6 +265,8 @@ def test_technical_budget_reserved_and_public_model_distillation(tmp_path):
     before=len(provider.commands)
     asyncio.run(run_collection('rag-memory',tmp_path,END+timedelta(hours=1),items=items[:1],metrics=[{'source':'fixture','status':'ok'}],provider=provider,source_revision='test'))
     assert len(provider.commands)==before
+    asyncio.run(run_collection('rag-memory',tmp_path,END+timedelta(hours=2),items=items[:1],metrics=[{'source':'fixture','status':'ok'}],provider=provider,source_revision='docs-only-new-commit'))
+    assert len(provider.commands)==before
 
 
 def test_code_pattern_is_original_attributed_and_citation_validated():

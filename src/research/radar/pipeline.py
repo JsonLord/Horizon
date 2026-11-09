@@ -2,6 +2,7 @@
 import hashlib
 import json
 import re
+import time
 from datetime import UTC, datetime, timedelta
 from pathlib import Path
 from typing import Literal
@@ -14,6 +15,7 @@ from ..filtering.engine import FilterPolicy, HorizonFilterPipeline, DurableCheck
 from ..filtering.provider import DecisionModelProvider
 from .contracts import Components, Concept, Digest, Pattern, Quality, Reference, RADARS, cutoff, stamp, utc
 from .storage import load_manifest, read_json
+from .refresh import SourceSnapshot, MeteredProvider, cached_items, fingerprint, next_collection_due
 
 CATEGORIES=('HIGH_SIGNAL','RESEARCH_REQUIRED','WATCHLIST','REDUNDANT_COVERAGE','LOW_PRIORITY','INSUFFICIENT_EVIDENCE')
 
@@ -89,6 +91,10 @@ class State(Strict):
     policy_version: str
     source_revision: str | None = None
     decision_identity: str | None = None
+    analysis_identity: str | None = None
+    source_configuration_hash: str | None = None
+    source_cache: dict[str,SourceSnapshot] = Field(default_factory=dict,max_length=20)
+    candidate_retries: dict[str,dict] = Field(default_factory=dict,max_length=200)
     coverage_start_utc: str | None = None
     last_attempted_collection_utc: str | None = None
     last_successful_collection_utc: str | None = None
@@ -107,8 +113,11 @@ def registry():
     if {e['radar_id'] for e in entries}!=set(RADARS) or len(entries)!=3:raise ValueError('Invalid radar registry')
     for e in entries:
         if e['branch']!='radar/'+e['radar_id'] or e['source_registry']!='config/radar/sources/'+e['radar_id']+'.json':raise ValueError('Unsafe registry')
+        if any(e.get(k) is not None and (type(e[k]) not in (int,float) or e[k]<0) for k in ('max_cost_usd','usd_per_million_tokens')):raise ValueError('Invalid cost policy')
         if not 1<=e['collection_interval_hours']<=48:raise ValueError('Invalid collection interval')
         if not 1<=e['max_candidates']<=30 or not 0<=e['max_model_requests']<=120 or not 0<=e['max_model_tokens']<=200000:raise ValueError('Unbounded radar')
+    if data.get('second_daily_run_enabled'):
+        for entry in entries:entry['collection_interval_hours']=min(12,entry['collection_interval_hours'])
     return data
 
 
@@ -133,6 +142,10 @@ def event_identity(url):
 
 
 def reference(item):
+    if item.metadata.get('radar_cached_reference'):
+        cached=Reference.model_validate(item.metadata['radar_cached_reference'])
+        if canonical(str(item.url))!=cached.url:raise ValueError('Cached source mismatch')
+        return cached
     title=BeautifulSoup(item.title,'html.parser').get_text(' ',strip=True)[:500]
     text=BeautifulSoup(item.content or item.title,'html.parser').get_text(' ',strip=True)
     # Short attributed quotation only; never store full release/page bodies.
@@ -150,44 +163,109 @@ def prefilter(ref):
     return None
 
 
-async def collect_items(entry, profile, client=None):
+async def collect_items(entry, profile, client=None, state=None, now=None):
     from ..collector import collect,BoundedClient
     from src.models import ContentItem,SourceType
-    items,metrics=await collect(profile,client=client)
+    import httpx
+    now=now or datetime.now(UTC);items=[];metrics=[]
     seeds=json.loads((ROOT/entry['source_registry']).read_text())
+    active={ident(dumps(q.model_dump())+'|'+str(profile.lookback_hours)) for q in profile.queries} | {ident('github:'+repo) for repo in seeds['primary_repositories']}
+    if state:
+        state.source_cache={k:v for k,v in state.source_cache.items() if k in active}
+        names={q.text for q in profile.queries} | {'github:'+repo for repo in seeds['primary_repositories']}
+        state.failed_sources={k:v for k,v in state.failed_sources.items() if k in names}
+        state.source_freshness={k:v for k,v in state.source_freshness.items() if k in names}
+    cache=state.source_cache if state else {}
+
+    def remember(key,batch,etag=None):
+        refs=[reference(item) for item in batch][:30]
+        digest=fingerprint(refs);old=cache.get(key)
+        unchanged=bool(old and old.content_hash==digest)
+        # Keep the original evidence retrieval time when content is unchanged.
+        refs=old.references if unchanged else refs
+        cache[key]=SourceSnapshot(content_hash=digest,etag=etag,last_checked_utc=stamp(now),references=refs)
+        return cached_items(refs),unchanged
+
+    # Existing Google RSS normalization and bounded public-URL client are reused.
+    # Each source is isolated. Only normalized attributed excerpts are cached.
+    for query in profile.queries:
+        key=ident(dumps(query.model_dump())+'|'+str(profile.lookback_hours))
+        failure=state.failed_sources.get(query.text) if state else None
+        if failure and utc(failure['next_retry_utc'])>now:
+            items.extend(cached_items(cache[key].references) if key in cache else [])
+            metrics.append({'source':'google_news','query':query.text,'status':'deferred','items':0});continue
+        single=profile.model_copy(update={'queries':[query],'max_queries':1})
+        batch,checks=await collect(single,client=client)
+        if checks and all(c['status']=='ok' for c in checks):
+            batch,unchanged=remember(key,batch)
+            for check in checks:check['content_unchanged']=unchanged
+            items.extend(batch)
+        metrics.extend(checks)
     own=client is None
     client=client or BoundedClient(timeout=20,headers={'User-Agent':'Horizon technical radar'})
-    # Registered fixed GitHub API source only; no token needed, no arbitrary targets.
     client.trusted_hosts=getattr(client,'trusted_hosts',frozenset()) | {'api.github.com'}
     try:
         for repo in seeds['primary_repositories']:
             if not re.fullmatch(r'[A-Za-z0-9_.-]+/[A-Za-z0-9_.-]+',repo):raise ValueError('Invalid repository seed')
+            key=ident('github:'+repo);old=cache.get(key)
+            failure=state.failed_sources.get('github:'+repo) if state else None
+            if failure and utc(failure['next_retry_utc'])>now:
+                items.extend(cached_items(old.references) if old else [])
+                metrics.append({'source':'github:'+repo,'status':'deferred','items':0});continue
             try:
-                response=await client.get('https://api.github.com/repos/'+repo+'/releases',params={'per_page':10})
-                releases=response.json()
-                if not isinstance(releases,list):raise ValueError('Invalid release payload')
-                for release in releases[:10]:
-                    if release.get('draft') or not release.get('published_at'):continue
-                    published=utc(release['published_at'])
-                    if not datetime.now(UTC)-timedelta(hours=profile.lookback_hours)<=published<=datetime.now(UTC):continue
-                    items.append(ContentItem(id='github:release:'+str(release['id']),source_type=SourceType.GITHUB,title=release.get('name') or release['tag_name'],url=release['html_url'],content=release.get('body') or release['tag_name'],author=(release.get('author') or {}).get('login'),published_at=published,metadata={'registered_primary':True,'repository':repo}))
-                metrics.append({'source':'github:'+repo,'status':'ok','items':len(releases)})
+                headers={'If-None-Match':old.etag} if old and old.etag else {}
+                try:response=await client.get('https://api.github.com/repos/'+repo+'/releases',params={'per_page':10},headers=headers)
+                except httpx.HTTPStatusError as exc:
+                    if exc.response.status_code!=304:raise
+                    response=exc.response
+                if response.status_code==304:
+                    if not old:raise ValueError('304 without validated checkpoint')
+                    batch=cached_items(old.references);unchanged=True
+                    old.last_checked_utc=stamp(now)
+                else:
+                    response.raise_for_status();releases=response.json();batch=[]
+                    if not isinstance(releases,list):raise ValueError('Invalid release payload')
+                    for release in releases[:10]:
+                        if release.get('draft') or not release.get('published_at'):continue
+                        published=utc(release['published_at'])
+                        if not now-timedelta(hours=profile.lookback_hours)<=published<=now:continue
+                        batch.append(ContentItem(id='github:release:'+str(release['id']),source_type=SourceType.GITHUB,title=release.get('name') or release['tag_name'],url=release['html_url'],content=release.get('body') or release['tag_name'],author=(release.get('author') or {}).get('login'),published_at=published,metadata={'registered_primary':True,'repository':repo}))
+                    batch,unchanged=remember(key,batch,response.headers.get('ETag'))
+                items.extend(batch)
+                metrics.append({'source':'github:'+repo,'status':'ok','items':len(batch),'content_unchanged':unchanged,'http_status':response.status_code})
             except Exception:
+                # Retain previous source evidence for review, never count it as a
+                # fresh successful source check or advance coverage on failure.
+                items.extend(cached_items(old.references) if old else [])
                 metrics.append({'source':'github:'+repo,'status':'failed','items':0})
     finally:
         if own:await client.aclose()
     return items,metrics
 
 
-async def run_collection(radar, root, now=None, items=None, metrics=None, provider=None, source_revision=None):
-    now=utc(now or datetime.now(UTC));root=Path(root)
+def analysis_identity(entry,profile):
+    files=[p for folder in ('src/research','src/scrapers') for p in (ROOT/folder).rglob('*.py')]
+    files.append(ROOT/'src/models.py')
+    code=[(str(p.relative_to(ROOT)),hashlib.sha256(p.read_bytes()).hexdigest()) for p in sorted(files)]
+    policy=FilterPolicy.load(profile.profile_id).model_dump(exclude={'max_requests','max_tokens','max_cost_usd','usd_per_million_tokens','concurrency'})
+    semantic_entry={'radar_id':entry['radar_id'],'policy_version':entry['policy_version']}
+    return hashlib.sha256(dumps([code,semantic_entry,profile.canonical(),policy]).encode()).hexdigest()
+
+
+async def run_collection(radar, root, now=None, items=None, metrics=None, provider=None, source_revision=None, force=False):
+    started=time.monotonic();now=utc(now or datetime.now(UTC));root=Path(root)
     entry=next(e for e in registry()['radars'] if e['radar_id']==radar)
     state=State.model_validate(read_json(root/'radar-state.json')) if (root/'radar-state.json').exists() else State(radar_id=radar,policy_version=entry['policy_version'])
     if state.radar_id!=radar:raise ValueError('Cross-radar checkpoint')
     profile=load_profiles()[entry['profile_id']]
     if items is None:
-        if state.next_eligible_collection_utc and now<utc(state.next_eligible_collection_utc):return state,[{'source':'scheduler','status':'not_due'}]
-        items,metrics=await collect_items(entry,profile)
+        if not force and state.next_eligible_collection_utc and now<utc(state.next_eligible_collection_utc):
+            return state,[{'source':'scheduler','status':'not_due'},{'source':'radar_telemetry','status':'telemetry','model_requests':0,'known_total_tokens':0,'token_usage_complete':True,'cost_usd':0,'cost_basis':'no_requests','runtime_seconds':round(time.monotonic()-started,3),'source_checks':0,'unchanged_sources':0,'collection_backlog':state.collection_backlog}]
+        collection_hash=hashlib.sha256((profile.canonical()+(ROOT/entry['source_registry']).read_text()).encode()).hexdigest()
+        if state.source_configuration_hash!=collection_hash:
+            state.coverage_start_utc=None;state.last_successful_collection_utc=None
+            state.source_configuration_hash=collection_hash
+        items,metrics=await collect_items(entry,profile,state=state,now=now)
     metrics=metrics or []
     refs={}
     for item in items:
@@ -206,22 +284,23 @@ async def run_collection(radar, root, now=None, items=None, metrics=None, provid
     # Primary releases precede discovery nominations; language round-robin is
     # retained for the remaining slots, without quotas on published concepts.
     ordered=[r for r in ordered if r.primary]+[r for r in ordered if not r.primary]
-    provider=provider or DecisionModelProvider()
-    if state.decision_identity!=provider.identity() or state.policy_version!=entry['policy_version'] or state.source_revision!=source_revision:
-        state.processed={};state.checkpoint=[]
-    pending=[r for r in ordered if state.processed.get(r.id)!=r.content_hash]
+    provider=MeteredProvider(provider or DecisionModelProvider(),entry)
+    analysis=analysis_identity(entry,profile)
+    if state.decision_identity!=provider.identity() or state.analysis_identity!=analysis:
+        state.processed={};state.checkpoint=[];state.candidate_retries={}
+    pending=[r for r in ordered if state.processed.get(r.id)!=r.content_hash and (r.id not in state.candidate_retries or state.candidate_retries[r.id]['hash']!=r.content_hash or utc(state.candidate_retries[r.id]['next_retry_utc'])<=now)]
     selected=pending[:entry['max_candidates']];state.collection_backlog=max(0,len(pending)-len(selected))
     store=DurableCheckpointStore(root/'.working-filter.sqlite')
     # Portable JSON checkpoint only. Never load or execute branch-supplied Python,
     # pickle or SQLite. Cache rows are bounded and policy/model-keyed by shared engine.
-    if state.source_revision==source_revision and state.policy_version==entry['policy_version']:
+    if state.analysis_identity==analysis and state.decision_identity==provider.identity():
         for row in state.checkpoint:
             if set(row)=={'kind','key','value'} and row['kind'] in ('decision','completed','history'):
                 store.put(row['kind'],row['key'],row['value'])
     policy=FilterPolicy.load(entry['profile_id'])
     # Reserve distillation + independent claim-support capacity before the shared
     # gates spend the entire per-radar budget. Overflow candidates stay in review.
-    policy=policy.model_copy(update={'max_requests':max(0,entry['max_model_requests']-6),'max_tokens':max(0,entry['max_model_tokens']-66000)})
+    policy=policy.model_copy(update={'max_cost_usd':entry.get('max_cost_usd'),'usd_per_million_tokens':entry.get('usd_per_million_tokens'),'max_requests':max(0,entry['max_model_requests']-6),'max_tokens':max(0,entry['max_model_tokens']-66000)})
     eligible=[r for r in selected if not prefilter(r) and not any(f.id!=r.id and any(pr.content_hash==r.content_hash for pr in f.references) for f in state.findings)]
     shared_items=[{'finding_id':r.id,'event_id':event_identity(r.url),'summary':r.title,'source_ids':[r.id],'evidence':[{'source_id':r.id,'snippet':r.excerpt}]} for r in eligible]
     previous=[{'event_id':f.event_id,'summary':f.references[0].title} for f in state.findings[-30:] if f.technical]
@@ -254,12 +333,19 @@ async def run_collection(radar, root, now=None, items=None, metrics=None, provid
             elif technical:category='WATCHLIST'
         if ref.language=='unknown':codes.append('language_requires_review')
         finding=TechnicalFinding(id=ref.id,radar_id=radar,event_id=event,references=[ref],classification=category,reason_codes=codes,technical=technical,significance=technical.components.score if technical else 1,model=meta.get('model') if technical else None,policy_version=entry['policy_version'],shared_decision=d,provider=meta,observed_at_utc=stamp(now))
+        prior=existing.get(ref.id)
+        if prior and prior.model_dump(exclude={'observed_at_utc'})==finding.model_dump(exclude={'observed_at_utc'}):finding=prior
         existing[ref.id]=finding
         # Failed/uncertain inference remains retryable; deterministic exact duplicate
         # screening retains unchanged successful decisions without new model calls.
-        if technical or category in ('REDUNDANT_COVERAGE','LOW_PRIORITY'):state.processed[ref.id]=ref.content_hash
+        if technical or category in ('REDUNDANT_COVERAGE','LOW_PRIORITY'):
+            state.processed[ref.id]=ref.content_hash;state.candidate_retries.pop(ref.id,None)
+        else:
+            count=min(6,state.candidate_retries.get(ref.id,{}).get('attempts',0)+1)
+            state.candidate_retries[ref.id]={'hash':ref.content_hash,'attempts':count,'next_retry_utc':stamp(now+timedelta(hours=min(168,entry['collection_interval_hours']*2**(count-1))))}
     state.findings=sorted(existing.values(),key=lambda f:f.observed_at_utc)[-80:]
     state.processed={k:v for k,v in state.processed.items() if k in {f.id for f in state.findings}}
+    state.candidate_retries={k:v for k,v in state.candidate_retries.items() if k in {f.id for f in state.findings}}
     rows=store.db.execute('SELECT kind,key,value FROM state ORDER BY rowid DESC LIMIT 2000').fetchall()
     state.checkpoint=[];checkpoint_bytes=0
     for k,key,v in rows:
@@ -267,17 +353,19 @@ async def run_collection(radar, root, now=None, items=None, metrics=None, provid
         if checkpoint_bytes>150000:break
         state.checkpoint.append({'kind':k,'key':key,'value':json.loads(v)})
     store.close();(root/'.working-filter.sqlite').unlink(missing_ok=True)
-    state.last_attempted_collection_utc=stamp(now);state.next_eligible_collection_utc=stamp(now+timedelta(hours=entry['collection_interval_hours']))
+    state.last_attempted_collection_utc=stamp(now);state.next_eligible_collection_utc=next_collection_due(now,entry['collection_interval_hours'])
     complete=bool(metrics) and all(m['status']=='ok' for m in metrics)
     for m in metrics:
         key=m.get('query') or m['source']
         if m['status']=='ok':state.source_freshness[key]=stamp(now);state.failed_sources.pop(key,None)
-        else:state.failed_sources[key]={'attempts':min(10,state.failed_sources.get(key,{}).get('attempts',0)+1),'last_attempt_utc':stamp(now),'next_retry_utc':stamp(now+timedelta(hours=entry['collection_interval_hours']))}
+        elif m['status']!='deferred':
+            attempts=min(10,state.failed_sources.get(key,{}).get('attempts',0)+1)
+            state.failed_sources[key]={'attempts':attempts,'last_attempt_utc':stamp(now),'next_retry_utc':stamp(now+timedelta(hours=min(168,entry['collection_interval_hours']*2**min(3,attempts-1))))}
     if complete:
         since=now-timedelta(days=7)
         if not state.coverage_start_utc or not state.last_successful_collection_utc or utc(state.last_successful_collection_utc)<since:state.coverage_start_utc=stamp(since)
         state.last_successful_collection_utc=stamp(now)
-    state.policy_version=entry['policy_version'];state.source_revision=source_revision;state.decision_identity=provider.identity()
+    state.policy_version=entry['policy_version'];state.source_revision=source_revision;state.decision_identity=provider.identity();state.analysis_identity=analysis
     atomic(root/'radar-state.json',dumps(state.model_dump(mode='json')))
     manifest=load_manifest(root,radar);manifest.last_successful_collection_utc=state.last_successful_collection_utc
     atomic(root/'radar-manifest.json',dumps(manifest.model_dump(mode='json')))
@@ -285,6 +373,7 @@ async def run_collection(radar, root, now=None, items=None, metrics=None, provid
         report_id=ident(dumps(f.model_dump(mode='json')))
         atomic(root/'reports'/f'{report_id}.json',dumps(f.model_dump(mode='json')))
         atomic(root/'reports'/f'{report_id}.md',render_finding(f))
+    metrics.append({'source':'radar_telemetry','status':'telemetry',**provider.telemetry(),'runtime_seconds':round(time.monotonic()-started,3),'source_checks':len(metrics),'unchanged_sources':sum(bool(m.get('content_unchanged')) for m in metrics),'collection_backlog':state.collection_backlog})
     return state,metrics
 
 

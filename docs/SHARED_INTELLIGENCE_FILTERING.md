@@ -135,3 +135,12 @@ recall. The corpus includes explicitly marked historical opportunity views, not 
 news findings; optional local reports retain their provenance. Benchmark excerpts are short/attributed; original archive scores provide
 a baseline, not proof of a controlled quality improvement. Live benchmark spend
 requires the explicit flag. Do not claim provider success without a real smoke.
+
+
+2026-11-09 fork optimization: provider qualification is manual/reusable only, no
+feature push or full pytest duplication. PR validation owns the regression suite.
+Select `durability=true` for fresh-runner restoration; a smoke can use one runner.
+The registered horizon-intel entry point exposes `shared_filtering_durability`
+(default false) with the existing shared qualification flag. Hosted qualification
+now requires all live command/profile cells; deterministic fallback retains safe
+artifacts but does not return successful live qualification.

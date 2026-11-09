@@ -4,6 +4,10 @@ on:
     - cron: '23 6 * * *'
   workflow_dispatch:
     inputs:
+      shared_filtering_durability:
+        description: Use a separate runner for shared checkpoint restoration
+        type: boolean
+        default: false
       shared_filtering_qualification:
         description: Read-only shared filtering smoke and checkpoint restoration
         type: boolean
@@ -60,6 +64,9 @@ jobs:
         with:
           python-version: '3.11'
       - uses: astral-sh/setup-uv@v7
+        with:
+          enable-cache: true
+          cache-dependency-glob: uv.lock
       - run: uv sync --frozen
       - name: Restore same-revision filtering cache from a successful prior run
         env:
@@ -118,6 +125,9 @@ jobs:
         with:
           python-version: '3.11'
       - uses: astral-sh/setup-uv@v7
+        with:
+          enable-cache: true
+          cache-dependency-glob: uv.lock
       - run: uv sync --frozen
       - uses: actions/download-artifact@v7
         with:
@@ -158,6 +168,9 @@ jobs:
         with:
           python-version: '3.11'
       - uses: astral-sh/setup-uv@v7
+        with:
+          enable-cache: true
+          cache-dependency-glob: uv.lock
       - run: uv sync --frozen
       - name: Qualify programs without publishing
         env:
@@ -186,6 +199,9 @@ jobs:
         with:
           python-version: '3.11'
       - uses: astral-sh/setup-uv@v7
+        with:
+          enable-cache: true
+          cache-dependency-glob: uv.lock
       - run: uv sync --frozen
       - name: Verify consecutive funding execution without publication
         env:
@@ -235,6 +251,9 @@ jobs:
         with:
           python-version: '3.11'
       - uses: astral-sh/setup-uv@v7
+        with:
+          enable-cache: true
+          cache-dependency-glob: uv.lock
       - run: uv sync --frozen
       - name: Test an isolated draft data PR; production policy remains disabled
         env:
@@ -253,5 +272,7 @@ jobs:
       contents: read
       actions: read
     uses: ./.github/workflows/shared-filtering.yml
+    with:
+      durability: ${{ inputs.shared_filtering_durability == true }}
     secrets:
       HORIZON_DECISION_API_KEY: ${{ secrets.HORIZON_DECISION_API_KEY }}

@@ -127,7 +127,15 @@ none were evidence-supported, not an instruction to invent code.
 ## Publication boundary
 
 Only approved radar branches accept data publication. Existing `intel`, funding,
-AUX and world archives are independent. Collection and fresh-runner validation
-have read-only tokens. Only reviewed main-branch publishing receives write access;
+AUX and world archives are independent. Routine collection validates its sealed checkpoint in the same read-only job.
+Optional fresh-runner durability validation also has a read-only token. Only reviewed main-branch publishing receives write access;
 registry publication/scheduling flags start false. Manual qualification cannot
 publish. Model output cannot select branches, paths or executable files.
+
+
+Fork optimization (2026-11-09): the pilot controller is manual-only until approved
+schedule materialization. Ordinary collection is once daily; a configurable second
+slot remains available. No-change/not-due snapshots skip artifact/publication;
+validated freshness/due-time checkpoint changes may still publish without a new
+weekly identity. Friday cutoff/window and immutable history semantics are unchanged.
+See FORK_ACTIONS_REACTIVATION.md for safe schedule review and budget estimates.

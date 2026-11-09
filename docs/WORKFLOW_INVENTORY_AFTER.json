@@ -1,0 +1,188 @@
+{
+  "audited_at_utc": "2026-11-09T02:16:58.323290+00:00",
+  "workflow_files": 8,
+  "job_definitions": 18,
+  "workflows": [
+    {
+      "path": ".github/workflows/daily-summary.yml",
+      "job_definitions": 2,
+      "jobs": [
+        "summary",
+        "publish"
+      ],
+      "sha256": "01a1be3451d768725778a0e112af4562df4c9adf48474fb4b9a804377646e3e2",
+      "crons": [],
+      "runners": [
+        "ubuntu-24.04"
+      ],
+      "timeouts_minutes": [
+        20,
+        5
+      ],
+      "secrets": [
+        "APIFY_TOKEN",
+        "OPENAI_API_KEY"
+      ],
+      "retention_days": [
+        7
+      ]
+    },
+    {
+      "path": ".github/workflows/deploy-docs.yml",
+      "job_definitions": 1,
+      "jobs": [
+        "deploy"
+      ],
+      "sha256": "1e448ab9cca3c3f257c85e45125a5e3fb13b9cccc6d5759250ac5ae3d92c386a",
+      "crons": [],
+      "runners": [
+        "ubuntu-24.04"
+      ],
+      "timeouts_minutes": [
+        5
+      ],
+      "secrets": [],
+      "retention_days": []
+    },
+    {
+      "path": ".github/workflows/funding-research.yml",
+      "job_definitions": 2,
+      "jobs": [
+        "collect",
+        "propose"
+      ],
+      "sha256": "4e56b19ab2d7456b1e49404d50993d0837a6a0d4d58d2c0669b4420c7cde78a9",
+      "crons": [],
+      "runners": [
+        "ubuntu-24.04"
+      ],
+      "timeouts_minutes": [
+        15,
+        10
+      ],
+      "secrets": [],
+      "retention_days": [
+        14
+      ]
+    },
+    {
+      "path": ".github/workflows/horizon-intel.yml",
+      "job_definitions": 6,
+      "jobs": [
+        "collect",
+        "publish",
+        "program-qualify",
+        "funding-qualify",
+        "funding-review-qualify",
+        "shared-filtering-qualify"
+      ],
+      "sha256": "3eb62795eb1716094e0ae1f6d46555e91001dc6ed0c61259d0e98f68915ac6d8",
+      "crons": [
+        "23 6 * * *"
+      ],
+      "runners": [
+        "ubuntu-24.04"
+      ],
+      "timeouts_minutes": [
+        20,
+        10,
+        15,
+        15,
+        10
+      ],
+      "secrets": [
+        "HORIZON_DECISION_API_KEY"
+      ],
+      "retention_days": [
+        7,
+        14,
+        14,
+        14,
+        14,
+        14,
+        14
+      ]
+    },
+    {
+      "path": ".github/workflows/radar-fleet.yml",
+      "job_definitions": 1,
+      "jobs": [
+        "radars"
+      ],
+      "sha256": "669369c82a36572f3f36f816f4555e9a76506f3f2db8792fe60b3f25285484aa",
+      "crons": [],
+      "runners": [],
+      "timeouts_minutes": [],
+      "secrets": [
+        "HORIZON_DECISION_API_KEY"
+      ],
+      "retention_days": []
+    },
+    {
+      "path": ".github/workflows/radar-worker.yml",
+      "job_definitions": 3,
+      "jobs": [
+        "collect",
+        "validate",
+        "publish"
+      ],
+      "sha256": "6533338211f6282eed6b677af6bfbb31f90bce12e4b8663ef72dbabd910a9f85",
+      "crons": [],
+      "runners": [
+        "ubuntu-24.04"
+      ],
+      "timeouts_minutes": [
+        25,
+        10,
+        10
+      ],
+      "secrets": [
+        "HORIZON_DECISION_API_KEY"
+      ],
+      "retention_days": [
+        14
+      ]
+    },
+    {
+      "path": ".github/workflows/research-validation.yml",
+      "job_definitions": 1,
+      "jobs": [
+        "validate"
+      ],
+      "sha256": "dc2616197491810e599c6ad41db3948bed9c387e3edb93d5bc36d33647ec8f5d",
+      "crons": [],
+      "runners": [
+        "ubuntu-24.04"
+      ],
+      "timeouts_minutes": [
+        10
+      ],
+      "secrets": [],
+      "retention_days": []
+    },
+    {
+      "path": ".github/workflows/shared-filtering.yml",
+      "job_definitions": 2,
+      "jobs": [
+        "qualify",
+        "restore"
+      ],
+      "sha256": "74f781d81ff725a9945d771070b5ede4b100a55b5ca4b50292bf9a5d91e93c92",
+      "crons": [],
+      "runners": [
+        "ubuntu-24.04"
+      ],
+      "timeouts_minutes": [
+        15,
+        15
+      ],
+      "secrets": [
+        "HORIZON_DECISION_API_KEY"
+      ],
+      "retention_days": [
+        14,
+        14
+      ]
+    }
+  ]
+}

@@ -64,10 +64,13 @@ async def qualify(output,restore=False):
     public={k:proof[k] for k in ('live_inference','provider','restoration_verified','restored_prior_runner_checkpoint','provider_requests','cache_hits')}
     public['profiles']=[p['profile'] for p in proof['policies']]
     print('::notice title=shared-filtering-smoke::'+json.dumps(public).replace('%','%25').replace('\n','%0A'))
+    return proof
 
 if __name__=='__main__':
-    p=argparse.ArgumentParser(description=__doc__);p.add_argument('--restore',action='store_true');p.add_argument('--feedback',choices=['more_like_this','less_like_this','important_but_not_actionable']);p.add_argument('--profile');p.add_argument('--topics',nargs='*',default=[]);p.add_argument('--sources',nargs='*',default=[]);p.add_argument('--item');p.add_argument('--reason',default='Operator review');p.add_argument('--output',type=Path,default=Path('data/shared-filtering'));args=p.parse_args()
+    p=argparse.ArgumentParser(description=__doc__);p.add_argument('--restore',action='store_true');p.add_argument('--require-live',action='store_true');p.add_argument('--feedback',choices=['more_like_this','less_like_this','important_but_not_actionable']);p.add_argument('--profile');p.add_argument('--topics',nargs='*',default=[]);p.add_argument('--sources',nargs='*',default=[]);p.add_argument('--item');p.add_argument('--reason',default='Operator review');p.add_argument('--output',type=Path,default=Path('data/shared-filtering'));args=p.parse_args()
     if args.feedback:
         if not args.profile or not args.item:p.error('Feedback needs --profile and --item')
         state=DurableCheckpointStore(args.output/'state.sqlite');FeedbackStore(state).add(args.profile,args.item,args.feedback,args.reason,topics=args.topics,sources=args.sources);state.close()
-    else:asyncio.run(qualify(args.output,args.restore))
+    else:
+        proof=asyncio.run(qualify(args.output,args.restore))
+        if args.require_live and not proof['all_commands_live_validated']:raise SystemExit('Live qualification incomplete; inspect safe proof.json metadata')

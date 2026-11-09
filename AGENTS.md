@@ -101,8 +101,8 @@ reviewed main-branch workflow code, validates the source SHA and seed fingerprin
 re-renders structured artifacts, and creates a new data-only draft PR using the
 automatic GITHUB_TOKEN. It never force-updates a ref, edits the authored document,
 merges, or publishes the production intel branch. An owned, marked funding draft PR is updated through a non-force fast-forward after checking its head SHA and data-only diff. Identical content causes zero writes. Unmarked/legacy proposals remain pending manual reconciliation; they are never adopted or duplicated.
-Relevant pushes on the current implementation branch also run read-only research
-for development validation; the privileged proposal job cannot run there.
+Use manual dispatch for branch qualification; obsolete feature-branch push
+collection triggers were removed. The privileged proposal job cannot run there.
 
 Use the existing authorized MCP tools `hz_list_profiles`, `hz_submit_research`,
 `hz_get_job`, `hz_list_reports`, `hz_search_archive`, and `hz_get_report`. Inspect
@@ -211,7 +211,7 @@ adapters and official ownership/source review. A query match is only a nominatio
 Steering controls: query text/language/country, topics, lookback (max 168h),
 max_items/max_queries live in the profile. The policy controls shared attention
 weights and threshold. Registry controls independent radar IDs/branches, candidate
-cap (30), model request/token budgets (36/200000), and 12-hour eligibility.
+cap (30), model request/token budgets (36/200000), and 24-hour pilot eligibility (12 hours with the optional second daily run).
 The runner reserves technical distillation/support budget before shared scoring;
 overflow stays in review. Unknown source language or semantic relevance is not an
 exclusion. Primary evidence, bounded verbatim supporting quotations, separately
@@ -236,3 +236,35 @@ Run `uv run --extra dev pytest`, `uv run python -m scripts.radar_schemas`, MCP
 smokes and actionlint. Record actual live/hosted results independently of fixtures
 in `docs/TECHNICAL_RADAR_FLEET_ACCEPTANCE.md` and `docs/agent-research.md`.
 A live model remains unqualified until a real authorized Actions job validates it.
+
+
+## Fork Actions optimization and reactivation
+
+Read docs/WORKFLOW_INVENTORY.md and docs/FORK_ACTIONS_REACTIVATION.md before
+changing Actions. Registration state, repository permissions and fork execution
+activation are different observations. Do not diagnose billing, suspension or a
+provider key from a fork-disable banner. Do not enable Actions or merge this work.
+
+config/actions-schedules.json is the reviewed schedule plan. Disabled radar and
+funding controllers have no actual cron event, avoiding scheduled gate-only runs.
+After explicit approval, update the matching registry flags and render YAML with
+`uv run python -m scripts.actions_schedule --render`; review the diff and merge
+through normal authorization. CI runs `--check` to detect drift. Existing world
+intelligence stays daily. Legacy Pages briefing is manual; preserve its historical
+posts/feeds and keep_files behavior. Docs deployment stays docs-change-only.
+
+Routine radar collection validates its sealed artifact in the same read-only
+job. A separate publisher revalidates source revision/hashes/schema with write
+permissions. `durability=true` adds a fresh-runner acceptance check; do not run a
+full regression suite inside model qualification. PR validation owns regression
+tests. All uv jobs cache dependencies by uv.lock; caches are not evidence stores.
+
+Normalized source checkpoints store short attributed references, body hashes and
+ETags, never raw pages. Unchanged content retains original evidence timestamps.
+Changed queries invalidate their source checkpoint, and changed source coverage
+resets coverage qualification. Changed analysis/provider identity invalidates
+model decisions; documentation-only commits can reuse decisions. Retry/backlog
+state is bounded and per radar. Runtime/request/token/cost telemetry is in safe
+collection proof artifacts/logs. Unknown billing remains null; explicit dollar
+caps without prices fail closed. No-change snapshots skip artifact/publication.
+A due refresh may still update checkpoint timestamps even with no new findings.

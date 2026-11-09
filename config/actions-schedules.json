@@ -1,0 +1,12 @@
+{
+  "schema_version": "1.0",
+  "world": {"enabled": true, "cron": "23 6 * * *"},
+  "radar": {
+    "enabled": false,
+    "daily_cron": "13 2 * * *",
+    "second_daily_run_enabled": false,
+    "second_daily_cron": "13 14 * * *",
+    "digest_cron": "0 18 * * 5"
+  },
+  "funding": {"enabled": false, "cron": "17 7 * * 1"}
+}

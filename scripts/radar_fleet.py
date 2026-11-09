@@ -8,7 +8,7 @@ import shutil
 from datetime import UTC,datetime
 from pathlib import Path
 from src.research.reporting import atomic,dumps
-from src.research.radar.contracts import RADARS,Digest,RadarManifest,cutoff,utc,stamp
+from src.research.radar.contracts import RADARS,Digest,RadarManifest,cutoff,utc,stamp,week_key
 from src.research.radar.pipeline import registry,run_collection,make_digest,State
 from src.research.radar.storage import validate_tree,stage_digest,missing_weeks,read_json
 from src.research.radar.publisher import GitHubData
@@ -28,6 +28,7 @@ def verify(root,proof,radar,revision):
 async def main(args):
     root=args.output/args.radar
     revision=os.getenv('GITHUB_SHA') or 'local-development'
+    changed=False
     if args.command=='initialize':
         root.mkdir(parents=True,exist_ok=True)
         if any(root.iterdir()):raise ValueError('Initialization requires empty directory')
@@ -36,19 +37,25 @@ async def main(args):
     elif args.command=='collect':
         if args.restore:
             GitHubData().read(args.radar,root)
-        state,metrics=await run_collection(args.radar,root,source_revision=revision)
+        before=seal(root,args.radar,revision) if root.exists() else None
+        if os.getenv('GITHUB_EVENT_NAME')=='schedule' and not registry()['schedule_enabled']:raise ValueError('Radar schedule is not authorized')
+        friday_refresh=os.getenv('GITHUB_EVENT_NAME')=='schedule' and os.getenv('RADAR_SCHEDULE')=='0 18 * * 5' and bool(missing_weeks(root,args.radar,datetime.now(UTC)))
+        state,metrics=await run_collection(args.radar,root,source_revision=revision,force=friday_refresh)
         for end in missing_weeks(root,args.radar,datetime.now(UTC)):
             digest=make_digest(state,end,root=root)
             # Partial digests remain outside the publishable tree.
-            atomic(args.output/(args.radar+'-candidate-digest.json'),dumps(digest.model_dump(mode='json')))
+            atomic(args.output/'candidates'/args.radar/week_key(end)/'weekly-digest.json',dumps(digest.model_dump(mode='json')))
             stage_digest(root,digest)
+        changed=before!=seal(root,args.radar,revision)
+        telemetry=next((m for m in metrics if m['source']=='radar_telemetry'),{})
+        print(json.dumps({'radar_id':args.radar,'changed':changed,'telemetry':telemetry}))
         atomic(args.output/(args.radar+'-collection-proof.json'),dumps({'radar_id':args.radar,'source_revision':revision,'metrics':metrics,'finding_count':len(state.findings),'failed_sources':len(state.failed_sources),'hosted':os.getenv('GITHUB_ACTIONS')=='true','run_id':os.getenv('GITHUB_RUN_ID')}))
     elif args.command=='digest':
         state=State.model_validate(read_json(root/'radar-state.json'))
         ends=[utc(args.week_end)] if args.week_end else missing_weeks(root,args.radar,datetime.now(UTC))
         for end in ends:
             digest=make_digest(state,end,root=root)
-            atomic(args.output/(args.radar+'-candidate-digest.json'),dumps(digest.model_dump(mode='json')))
+            atomic(args.output/'candidates'/args.radar/week_key(end)/'weekly-digest.json',dumps(digest.model_dump(mode='json')))
             stage_digest(root,digest,correction=args.correction)
     elif args.command=='validate':
         proof=read_json(args.output/(args.radar+'-checkpoint.json'))
@@ -59,6 +66,9 @@ async def main(args):
         print(json.dumps(result)) # Actual commit obtained after commit creation.
     if args.command not in ('validate','publish'):
         atomic(args.output/(args.radar+'-checkpoint.json'),dumps(seal(root,args.radar,revision)))
+        verify(root,read_json(args.output/(args.radar+'-checkpoint.json')),args.radar,revision)
+    if args.command=='collect' and os.getenv('GITHUB_OUTPUT'):
+        with open(os.environ['GITHUB_OUTPUT'],'a') as out:out.write('changed='+str(changed).lower()+'\n')
 
 if __name__=='__main__':
     p=argparse.ArgumentParser(description=__doc__)

@@ -1,20 +1,19 @@
 name: Shared filtering staging qualification
 on:
   workflow_call:
+    inputs:
+      durability:
+        type: boolean
+        default: true
     secrets:
       HORIZON_DECISION_API_KEY:
         required: false
   workflow_dispatch:
-  push:
-    branches: [feature/shared-intelligence-filtering]
-    paths:
-      - 'src/research/filtering/**'
-      - 'src/research/service.py'
-      - 'config/filtering/**'
-      - 'profiles/examples/ai-usability.json'
-      - 'scripts/shared_filtering.py'
-      - 'tests/test_shared_filtering.py'
-      - '.github/workflows/shared-filtering.yml'
+    inputs:
+      durability:
+        description: Restore the checkpoint on a separate hosted runner
+        type: boolean
+        default: true
 permissions:
   contents: read
   actions: read
@@ -33,15 +32,17 @@ jobs:
         with:
           python-version: '3.11'
       - uses: astral-sh/setup-uv@v7
-      - run: uv sync --frozen --extra dev
-      - run: uv run --extra dev pytest
+        with:
+          enable-cache: true
+          cache-dependency-glob: uv.lock
+      - run: uv sync --frozen
       - name: Exercise shared provider and all three policies
         env:
           HORIZON_DECISION_BASE_URL: ${{ vars.HORIZON_DECISION_BASE_URL }}
           HORIZON_DECISION_MODEL: ${{ vars.HORIZON_DECISION_MODEL }}
           HORIZON_DECISION_API_KEY: ${{ secrets.HORIZON_DECISION_API_KEY }}
           HORIZON_DECISION_API_MODE: ${{ vars.HORIZON_DECISION_API_MODE }}
-        run: uv run python -m scripts.shared_filtering
+        run: uv run python -m scripts.shared_filtering --require-live
       - uses: actions/upload-artifact@v6
         if: always()
         with:
@@ -50,6 +51,7 @@ jobs:
           retention-days: 14
           if-no-files-found: warn
   restore:
+    if: inputs.durability == true
     needs: qualify
     runs-on: ubuntu-24.04
     timeout-minutes: 15
@@ -61,6 +63,9 @@ jobs:
         with:
           python-version: '3.11'
       - uses: astral-sh/setup-uv@v7
+        with:
+          enable-cache: true
+          cache-dependency-glob: uv.lock
       - run: uv sync --frozen
       - uses: actions/download-artifact@v7
         with:
@@ -72,8 +77,9 @@ jobs:
           HORIZON_DECISION_MODEL: ${{ vars.HORIZON_DECISION_MODEL }}
           HORIZON_DECISION_API_KEY: ${{ secrets.HORIZON_DECISION_API_KEY }}
           HORIZON_DECISION_API_MODE: ${{ vars.HORIZON_DECISION_API_MODE }}
-        run: uv run python -m scripts.shared_filtering --restore
+        run: uv run python -m scripts.shared_filtering --restore --require-live
       - uses: actions/upload-artifact@v6
         with:
           name: shared-filtering-restored-proof
+          retention-days: 14
           path: data/shared-filtering/proof.json

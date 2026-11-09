@@ -8,6 +8,9 @@ on:
       publication:
         required: true
         type: boolean
+      durability:
+        type: boolean
+        default: false
     secrets:
       HORIZON_DECISION_API_KEY:
         required: false
@@ -22,6 +25,8 @@ jobs:
       cancel-in-progress: false
     runs-on: ubuntu-24.04
     timeout-minutes: 25
+    outputs:
+      changed: ${{ steps.research.outputs.changed }}
     steps:
       - uses: actions/checkout@v5
         with:
@@ -30,23 +35,34 @@ jobs:
         with:
           python-version: '3.11'
       - uses: astral-sh/setup-uv@v7
+        with:
+          enable-cache: true
+          cache-dependency-glob: uv.lock
       - run: uv sync --frozen
-      - name: Restore pinned data and collect with trusted workflow code
+      - id: research
+        name: Restore pinned data and collect with trusted workflow code
         env:
           RADAR_ID: ${{ inputs.radar }}
+          RADAR_SCHEDULE: ${{ github.event.schedule }}
           GITHUB_TOKEN: ${{ github.token }}
           HORIZON_DECISION_BASE_URL: ${{ vars.HORIZON_DECISION_BASE_URL }}
           HORIZON_DECISION_MODEL: ${{ vars.HORIZON_DECISION_MODEL }}
           HORIZON_DECISION_API_MODE: ${{ vars.HORIZON_DECISION_API_MODE }}
           HORIZON_DECISION_API_KEY: ${{ secrets.HORIZON_DECISION_API_KEY }}
         run: uv run python -m scripts.radar_fleet collect --radar "$RADAR_ID" --restore
+      - name: Validate the sealed checkpoint before artifact handoff
+        env:
+          RADAR_ID: ${{ inputs.radar }}
+        run: uv run python -m scripts.radar_fleet validate --radar "$RADAR_ID"
       - uses: actions/upload-artifact@v6
+        if: steps.research.outputs.changed == 'true' || inputs.durability == true
         with:
           name: radar-${{ inputs.radar }}
           path: data/radar
           retention-days: 14
           if-no-files-found: error
   validate:
+    if: inputs.durability == true
     permissions:
       contents: read
     needs: collect
@@ -60,6 +76,9 @@ jobs:
         with:
           python-version: '3.11'
       - uses: astral-sh/setup-uv@v7
+        with:
+          enable-cache: true
+          cache-dependency-glob: uv.lock
       - run: uv sync --frozen
       - uses: actions/download-artifact@v7
         with:
@@ -70,8 +89,8 @@ jobs:
           RADAR_ID: ${{ inputs.radar }}
         run: uv run python -m scripts.radar_fleet validate --radar "$RADAR_ID"
   publish:
-    needs: validate
-    if: github.ref == 'refs/heads/main' && github.event_name == 'schedule' && inputs.publication == true
+    needs: [collect, validate]
+    if: always() && !cancelled() && needs.collect.result == 'success' && (needs.validate.result == 'success' || needs.validate.result == 'skipped') && needs.collect.outputs.changed == 'true' && github.ref == 'refs/heads/main' && github.event_name == 'schedule' && inputs.publication == true
     permissions:
       contents: write
     concurrency:
@@ -88,6 +107,9 @@ jobs:
         with:
           python-version: '3.11'
       - uses: astral-sh/setup-uv@v7
+        with:
+          enable-cache: true
+          cache-dependency-glob: uv.lock
       - run: uv sync --frozen
       - uses: actions/download-artifact@v7
         with:

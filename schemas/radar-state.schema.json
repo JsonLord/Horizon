@@ -223,6 +223,49 @@
       "title": "Reference",
       "type": "object"
     },
+    "SourceSnapshot": {
+      "additionalProperties": false,
+      "properties": {
+        "content_hash": {
+          "pattern": "^[a-f0-9]{64}$",
+          "title": "Content Hash",
+          "type": "string"
+        },
+        "etag": {
+          "anyOf": [
+            {
+              "maxLength": 256,
+              "pattern": "^[^\\r\\n]*$",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Etag"
+        },
+        "last_checked_utc": {
+          "title": "Last Checked Utc",
+          "type": "string"
+        },
+        "references": {
+          "items": {
+            "$ref": "#/$defs/Reference"
+          },
+          "maxItems": 30,
+          "title": "References",
+          "type": "array"
+        }
+      },
+      "required": [
+        "content_hash",
+        "last_checked_utc",
+        "references"
+      ],
+      "title": "SourceSnapshot",
+      "type": "object"
+    },
     "Support": {
       "additionalProperties": false,
       "properties": {
@@ -467,6 +510,27 @@
   },
   "additionalProperties": false,
   "properties": {
+    "analysis_identity": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Analysis Identity"
+    },
+    "candidate_retries": {
+      "additionalProperties": {
+        "additionalProperties": true,
+        "type": "object"
+      },
+      "maxProperties": 200,
+      "title": "Candidate Retries",
+      "type": "object"
+    },
     "checkpoint": {
       "items": {
         "additionalProperties": true,
@@ -583,6 +647,26 @@
       "default": "1.0",
       "title": "Schema Version",
       "type": "string"
+    },
+    "source_cache": {
+      "additionalProperties": {
+        "$ref": "#/$defs/SourceSnapshot"
+      },
+      "maxProperties": 20,
+      "title": "Source Cache",
+      "type": "object"
+    },
+    "source_configuration_hash": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Source Configuration Hash"
     },
     "source_freshness": {
       "additionalProperties": {
