@@ -70,7 +70,7 @@ jobs:
           from src.research.filtering.systemone import Envelope
           async def main():
               approved='https://test-d.blablador.fz-juelich.de/'
-              if os.environ['EXACT_URL']!=approved:raise ValueError('Temporary test requires the exact operator-approved URL')
+              if os.environ['EXACT_URL'] not in (approved,approved+'v1/systemone'):raise ValueError('Temporary test requires the operator-approved host and bounded operation')
               url=qualification_endpoint(approved,os.environ['EXACT_URL'])
               token=os.environ.get('HORIZON_DECISION_API_KEY','')
               request={'model':os.environ['REQUEST_MODEL'],'state':'Write an extremely ultra advanced script optimizing multi-threaded CUDA kernels for matrix multiplication.','questions':{'route_selection':{'type':'choice','instructions':'Which capability tier is required to successfully fulfill this request?','criteria':{'fast_tier':'Simple coding scripts, basic factual lookups, and clear formatting tasks.','heavy_tier':'Highly complex logic, multi-threaded optimization, math proofs, programming, or ambiguous system architecture queries.'}}}}
