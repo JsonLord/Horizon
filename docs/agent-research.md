@@ -809,17 +809,24 @@ revalidates the sealed artifact, source SHA and data allowlist. Full fresh-runne
 validation remains explicit durability acceptance. Identical snapshots suppress
 artifact/publish; a due refresh may still persist meaningful operational timestamps.
 
-Final tests: **499 passed in 5.04s**; both MCP smokes (24 tools, 15 profiles),
+Final tests: **499 passed in 5.00s**; both MCP smokes (24 tools, 15 profiles),
 funding deterministic check, 43-link/three-unknown eligibility acceptance, starting
 point index check, schema generation, schedule check, actionlint and diff check
 pass. Actual optimized local collection checked 15 source routes, retained
 30/8/30 review findings; immediate repeats all not_due, zero model requests,
 identical sealed snapshots. No hosted qualification or model success claimed.
 
-Implementation `16c7ca594bc496b1eac7f6294317a7dcaec951d1`. Inventory includes
+Implementation `9332c2d717ba9d2ba3c6ab7e3de31a4be2050ccb`. Inventory includes
 before/after counts: 8 workflow files retained, 19→18 definitions; routine radar
 10→at most 6 expanded jobs/event. If merged, disabled-subsystem configuration
 estimates 31→14 scheduled jobs/week; current main separately estimates 15. These
 are estimates, not measured savings. Evidence and exact boundaries:
 WORKFLOW_INVENTORY.md, ACTIONS_OPTIMIZATION_ACCEPTANCE.md and the requested
 FORK_ACTIONS_REACTIVATION.md. PR #8 remains draft.
+
+Delivery concurrency: preserved remote `b95ab06` Python 3.11 compatibility fix,
+rebased only our unpublished commits without force, and updated the implementation
+reference to `9332c2d717ba9d2ba3c6ab7e3de31a4be2050ccb`. The old source demonstrably
+fails compilation on a real Python 3.11 interpreter; the remote fix compiles.
+Post-integration full suite: 499/499 on Python 3.11 (6.66s) and 3.12 (5.00s),
+plus both MCP smokes on 3.11. No new hosted run was needed to verify this locally.

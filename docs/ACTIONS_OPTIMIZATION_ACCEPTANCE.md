@@ -1,6 +1,6 @@
 # Fork Actions optimization acceptance — 2026-11-09
 
-Implementation commit: `16c7ca594bc496b1eac7f6294317a7dcaec951d1` on
+Implementation commit: `9332c2d717ba9d2ba3c6ab7e3de31a4be2050ccb` on
 `feature/technical-radar-fleet`, additive to draft PR #8. No main/parent branch,
 Actions setting, production archive or remote radar data was changed.
 
@@ -15,7 +15,7 @@ Actions setting, production archive or remote radar data was changed.
 
 ## Verification
 
-- `uv run --extra dev pytest`: **499 passed in 5.04s**.
+- `uv run --extra dev pytest`: **499 passed in 5.00s**.
 - Twelve new optimization tests cover disabled/approved cron transitions,
   optional fresh runner, separate publisher permissions, conditional 304 reuse,
   failed-source isolation, hash corruption rejection, zero calls when not due,
@@ -78,3 +78,20 @@ sources keep last-good evidence without advancing successful coverage; source
 configuration changes reset coverage qualification. Unknown cost remains null;
 configured token-rate costs are explicitly labeled estimates. Retention/file
 bounds remain fail-closed rather than silently deleting history.
+
+## Preserved concurrent compatibility fix
+
+The remote PR #8 branch advanced to `b95ab064c7ec7371f970a7272d4ca3007536ed6a`
+while delivery was in progress. Its Python 3.11 f-string quoting fix was preserved;
+the two unpublished optimization commits were replayed onto that commit. Code
+commit above is the resulting `9332c2d717ba9d2ba3c6ab7e3de31a4be2050ccb`.
+No remote history was rewritten.
+
+An isolated real CPython 3.11.16 interpreter reproduces the old `5582bde` provider
+SyntaxError (`f-string: unmatched '('`, line 76). The preserved fix compiles.
+This is a demonstrated compatibility defect consistent with the earlier pytest
+import failure; the actual hosted error log remains unavailable. It is not a
+provider-key or billing diagnosis. Full post-integration regressions pass on both
+Python **3.11: 499 passed in 6.66s** and **3.12: 499 passed in 5.00s**. Both MCP
+smokes additionally pass under 3.11. The temporary interpreter/environment were
+installed under /tmp; the repository's original environment was preserved.

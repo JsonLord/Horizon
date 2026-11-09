@@ -218,3 +218,9 @@ push research refs, delete historical digests or clear last-good pointers. Data
 branches are independent from `intel` and retain readable pinned history. Revert
 code separately through normal review if required. This task performed no
 reactivation, merge, schedule enablement, production publish or rollback action.
+
+Compatibility verification during delivery: an independent remote Python 3.11
+quoting fix was retained in PR #8. The pre-fix provider fails local compilation
+under a real 3.11 interpreter; full optimized regressions now pass under 3.11
+and 3.12. Keep this fix when reviewing/merging. Hosted provider readiness still
+requires the separate authorized smoke; local tests do not prove it.

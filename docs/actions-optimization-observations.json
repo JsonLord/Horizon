@@ -36,5 +36,25 @@
     "new_dispatch_performed_for_this_task": false
   },
   "production_data_published": false,
-  "github_settings_changed": false
+  "github_settings_changed": false,
+  "preserved_remote_fix": {
+    "commit": "b95ab064c7ec7371f970a7272d4ca3007536ed6a",
+    "change": "Python 3.11 f-string quoting compatibility",
+    "old_provider_compile_python311": "SyntaxError: f-string: unmatched opening parenthesis, line 76",
+    "fixed_provider_compile_python311": "pass",
+    "past_run_log_cause_confirmed": false,
+    "unpublished_optimization_commits_rebased": true,
+    "force_push_used": false
+  },
+  "local_post_integration_tests": {
+    "python_3_11": {
+      "passed": 499,
+      "seconds": 6.66
+    },
+    "python_3_12": {
+      "passed": 499,
+      "seconds": 5.0
+    },
+    "python_3_11_mcp_smokes": "both passed"
+  }
 }

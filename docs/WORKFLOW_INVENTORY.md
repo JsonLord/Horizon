@@ -117,3 +117,8 @@ No-change/not-due snapshots suppress both artifact upload and the writer. A due
 source refresh can legitimately change its checkpoint timestamps even if no new
 technical finding exists; that operational state must persist to avoid duplicate
 collection and false freshness claims. It does not create new digest snapshots.
+
+Delivery concurrency note: PR #8 advanced remotely to b95ab064c7ec7371f970a7272d4ca3007536ed6a
+with a Python 3.11 f-string compatibility fix during this task. It was preserved;
+only the two unpublished optimization commits were replayed onto it. The before
+snapshot remains the exact original 5582bde audit. No force push was used.
