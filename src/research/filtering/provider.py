@@ -40,6 +40,9 @@ class DecisionModelProvider:
         self.client=client
         self.requests=0
         self.failures=0
+        # Optional per-instance cap for bounded experiments. Production callers
+        # leave this unset; requests counts actual HTTP attempts, including retries.
+        self.request_limit=None
     @property
     def configured(self):
         return self.mode in ('openai_chat','systemone') and bool((self.chat_url or self.base) and self.model) and (self.mode!='systemone' or bool(self.response_model))
@@ -96,6 +99,9 @@ class DecisionModelProvider:
         started=time.monotonic()
         try:
             for attempt in range(3):
+                if self.request_limit is not None and self.requests >= self.request_limit:
+                    meta['status']='request_budget'
+                    return None,meta
                 meta['attempts']=attempt+1
                 try:
                     self.requests+=1
