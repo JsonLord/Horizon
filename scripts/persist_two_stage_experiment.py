@@ -65,8 +65,10 @@ def validate_runtime_context(env: dict[str, str], event: dict, run_id: str, run_
     if env.get('GITHUB_REF') != REF or event.get('ref') != REF:
         raise PersistenceError('Refusing persistence outside the exact experiment branch')
     repo = _event_repository(event)
-    if repo.get('full_name') != REPOSITORY or repo.get('fork') is not False:
-        raise PersistenceError('Refusing persistence from a fork or unexpected repository')
+    owner = repo.get('owner')
+    owner_name = owner.get('login') if isinstance(owner, dict) else None
+    if repo.get('full_name') != REPOSITORY or owner_name != 'JsonLord':
+        raise PersistenceError('Refusing persistence outside the owner-controlled JsonLord/Horizon repository')
     if str(env.get('GITHUB_RUN_ID', '')) != str(run_id):
         raise PersistenceError('Output run ID does not match the current workflow run')
     try:

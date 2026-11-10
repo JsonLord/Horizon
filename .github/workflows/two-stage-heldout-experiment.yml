@@ -16,7 +16,7 @@ concurrency:
 
 jobs:
   experiment:
-    if: github.repository == 'JsonLord/Horizon' && github.ref == 'refs/heads/experiment/two-stage-heldout-2026-11-10' && github.event_name == 'push' && github.event.repository.fork == false
+    if: github.repository == 'JsonLord/Horizon' && github.event.repository.full_name == 'JsonLord/Horizon' && github.event.repository.owner.login == 'JsonLord' && github.ref == 'refs/heads/experiment/two-stage-heldout-2026-11-10' && github.event_name == 'push'
     runs-on: ubuntu-24.04
     timeout-minutes: 100
     permissions:
@@ -60,7 +60,7 @@ jobs:
           if-no-files-found: error
   persist:
     needs: experiment
-    if: needs.experiment.result == 'success' && github.repository == 'JsonLord/Horizon' && github.ref == 'refs/heads/experiment/two-stage-heldout-2026-11-10' && github.event_name == 'push' && github.event.repository.fork == false
+    if: needs.experiment.result == 'success' && github.repository == 'JsonLord/Horizon' && github.event.repository.full_name == 'JsonLord/Horizon' && github.event.repository.owner.login == 'JsonLord' && github.ref == 'refs/heads/experiment/two-stage-heldout-2026-11-10' && github.event_name == 'push'
     runs-on: ubuntu-24.04
     timeout-minutes: 10
     permissions:

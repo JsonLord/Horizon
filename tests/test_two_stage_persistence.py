@@ -30,11 +30,12 @@ def write_outputs(root: Path, run_id='123', attempt=1):
 
 
 def runtime(run_id='123', attempt='1', *, repository='JsonLord/Horizon', ref=None, event_name='push',
-            event_ref=None, fork=False):
+            event_ref=None, fork=True, owner='JsonLord'):
     ref = ref or f'refs/heads/{BRANCH}'
     return ({'GITHUB_REPOSITORY': repository, 'GITHUB_EVENT_NAME': event_name,
              'GITHUB_REF': ref, 'GITHUB_RUN_ID': run_id, 'GITHUB_RUN_ATTEMPT': attempt},
-            {'ref': event_ref or ref, 'repository': {'full_name': repository, 'fork': fork}})
+            {'ref': event_ref or ref, 'repository': {'full_name': repository, 'fork': fork,
+             'owner': {'login': owner}}})
 
 
 def git(root, *args):
@@ -100,15 +101,17 @@ def test_runtime_context_allows_only_exact_repo_push_branch_and_attempt():
     validate_runtime_context(env, event, '123', 1)
     bad_contexts = [
         runtime(repository='attacker/Horizon'),
+        runtime(owner='attacker'),
         runtime(ref='refs/heads/main'),
         runtime(event_name='pull_request'),
-        runtime(fork=True),
         runtime(event_ref='refs/heads/main'),
         runtime(attempt='2'),
     ]
     for env, event in bad_contexts:
         with pytest.raises(PersistenceError):
             validate_runtime_context(env, event, '123', 1)
+    trusted_fork = runtime(fork=True)
+    validate_runtime_context(trusted_fork[0], trusted_fork[1], '123', 1)
 
 
 def test_only_canonical_repository_origin_is_allowed():
@@ -195,6 +198,7 @@ def test_workflow_ignores_output_commits_and_has_narrow_write_job():
     assert 'cancel-in-progress: false' in workflow
     assert "github.event_name == 'push'" in workflow
     assert "github.repository == 'JsonLord/Horizon'" in workflow
+    assert "github.event.repository.full_name == 'JsonLord/Horizon'" in workflow
     assert 'pull_request_target' not in workflow
     assert 'actions/download-artifact@v6' in workflow
     assert '${{ github.token }}' in workflow
