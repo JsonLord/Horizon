@@ -4,6 +4,8 @@ on:
   push:
     branches:
       - experiment/two-stage-heldout-2026-11-10
+    paths-ignore:
+      - 'data/two-stage-experiment/**'
 
 permissions:
   contents: read
@@ -14,7 +16,7 @@ concurrency:
 
 jobs:
   experiment:
-    if: github.ref == 'refs/heads/experiment/two-stage-heldout-2026-11-10'
+    if: github.repository == 'JsonLord/Horizon' && github.ref == 'refs/heads/experiment/two-stage-heldout-2026-11-10' && github.event_name == 'push' && github.event.repository.fork == false
     runs-on: ubuntu-24.04
     timeout-minutes: 100
     permissions:
@@ -40,12 +42,43 @@ jobs:
           HORIZON_DECISION_MODEL: ${{ vars.HORIZON_DECISION_MODEL }}
           HORIZON_DECISION_RESPONSE_MODEL: ${{ vars.HORIZON_DECISION_RESPONSE_MODEL }}
           HORIZON_DECISION_API_KEY: ${{ secrets.HORIZON_DECISION_API_KEY }}
-        run: uv run python -m scripts.two_stage_experiment --run-id "${GITHUB_RUN_ID}"
+        run: uv run python -m scripts.two_stage_experiment --run-id "${GITHUB_RUN_ID}" --run-attempt "${GITHUB_RUN_ATTEMPT}"
+      - name: Validate outputs and scan configured secrets before upload
+        if: always()
+        env:
+          HORIZON_DECISION_BASE_URL: ${{ vars.HORIZON_DECISION_BASE_URL }}
+          HORIZON_DECISION_CHAT_URL: ${{ vars.HORIZON_DECISION_CHAT_URL }}
+          HORIZON_DECISION_API_KEY: ${{ secrets.HORIZON_DECISION_API_KEY }}
+        run: python scripts/persist_two_stage_experiment.py validate --run-id "${GITHUB_RUN_ID}" --run-attempt "${GITHUB_RUN_ATTEMPT}"
       - name: Upload experiment evidence
         if: always()
         uses: actions/upload-artifact@v6
         with:
-          name: two-stage-heldout-${{ github.run_id }}
-          path: data/two-stage-experiment/${{ github.run_id }}
+          name: two-stage-heldout-${{ github.run_id }}-attempt-${{ github.run_attempt }}
+          path: data/two-stage-experiment/${{ github.run_id }}-attempt-${{ github.run_attempt }}
           retention-days: 30
           if-no-files-found: error
+  persist:
+    needs: experiment
+    if: needs.experiment.result == 'success' && github.repository == 'JsonLord/Horizon' && github.ref == 'refs/heads/experiment/two-stage-heldout-2026-11-10' && github.event_name == 'push' && github.event.repository.fork == false
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          ref: experiment/two-stage-heldout-2026-11-10
+          fetch-depth: 0
+          persist-credentials: false
+      - name: Verify exact repository, branch and unused attempt path
+        run: python3 scripts/persist_two_stage_experiment.py preflight --run-id "${GITHUB_RUN_ID}" --run-attempt "${GITHUB_RUN_ATTEMPT}"
+      - name: Download this run attempt's validated artifact
+        uses: actions/download-artifact@v6
+        with:
+          name: two-stage-heldout-${{ github.run_id }}-attempt-${{ github.run_attempt }}
+          path: data/two-stage-experiment/${{ github.run_id }}-attempt-${{ github.run_attempt }}
+      - name: Validate, commit, push and verify the experiment outputs
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python3 scripts/persist_two_stage_experiment.py persist --run-id "${GITHUB_RUN_ID}" --run-attempt "${GITHUB_RUN_ATTEMPT}"

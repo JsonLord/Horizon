@@ -261,7 +261,7 @@ def _review_label(row, domain, arm, status):
             'reviewed_at_utc': None}}
 
 
-async def run_experiment(output: Path, *, run_id: str, acquisition=acquire, provider_factory=DecisionModelProvider,
+async def run_experiment(output: Path, *, run_id: str, run_attempt: int = 1, acquisition=acquire, provider_factory=DecisionModelProvider,
                          excluded_event_ids: set[str] | None = None):
     output.mkdir(parents=True, exist_ok=True)
     excluded_event_ids = load_nov9_event_ids() if excluded_event_ids is None else excluded_event_ids
@@ -380,6 +380,7 @@ async def run_experiment(output: Path, *, run_id: str, acquisition=acquire, prov
         domain_results[domain] = domain_out
     report = {
         'schema_version': '1.0', 'experiment_version': VERSION, 'run_id': run_id,
+        'run_attempt': run_attempt,
         'created_at_utc': datetime.now(UTC).isoformat(), 'source_revision': os.getenv('GITHUB_SHA', 'local-development'),
         'workflow_run_id': os.getenv('GITHUB_RUN_ID'), 'domains': domain_results,
         'human_labels_available': False, 'precision': None, 'recall': None,
@@ -389,8 +390,10 @@ async def run_experiment(output: Path, *, run_id: str, acquisition=acquire, prov
                         'An incomplete domain is reported without reusing prior candidates.'],
     }
     atomic(output / 'experiment.json', dumps(report))
-    atomic(output / 'candidate-evidence.json', dumps({'schema_version': '1.0', 'run_id': run_id, 'candidates': all_evidence}))
+    atomic(output / 'candidate-evidence.json', dumps({'schema_version': '1.0', 'run_id': run_id,
+        'run_attempt': run_attempt, 'candidates': all_evidence}))
     atomic(output / 'review-labels.json', dumps({'schema_version': '1.0', 'run_id': run_id,
+        'run_attempt': run_attempt,
         'human_labels_available': False, 'precision': None, 'recall': None, 'labels': all_labels}))
     atomic(output / 'REPORT.md', render_report(report))
     # Cache databases are private execution state and never part of uploaded results.
@@ -404,7 +407,7 @@ async def run_experiment(output: Path, *, run_id: str, acquisition=acquire, prov
 
 def render_report(report):
     lines = ['# Two-stage held-out filtering experiment', '',
-             f"Run ID: `{report['run_id']}`. Created: `{report['created_at_utc']}`.",
+             f"Run ID: `{report['run_id']}`. Attempt: `{report['run_attempt']}`. Created: `{report['created_at_utc']}`.",
              '', 'All human labels remain blank. Precision and recall are not calculated.', '',
              '| Domain | Status | Fresh unseen candidates | Control requests / decisions | Treatment requests / decisions | Screened out |',
              '|---|---|---:|---:|---:|---:|']

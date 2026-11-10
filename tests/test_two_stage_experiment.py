@@ -138,6 +138,7 @@ async def test_experiment_isolates_arms_and_never_calls_for_screenouts(tmp_path)
     assert (tmp_path / '42/REPORT.md').exists()
     assert (tmp_path / '42/experiment.json').exists()
     assert (tmp_path / '42/candidate-evidence.json').exists()
+    assert json.loads((tmp_path / '42/experiment.json').read_text())['run_attempt'] == 1
 
 
 @pytest.mark.anyio
