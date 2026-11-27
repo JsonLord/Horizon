@@ -1,0 +1,70 @@
+{
+  "schema_version": "1.0",
+  "profile_id": "programs/exist-bpw",
+  "mode": "program_watch",
+  "name": "EXIST and BPW Founder Programs",
+  "enabled": true,
+  "topics": [
+    "EXIST",
+    "BPW",
+    "Gruendung",
+    "Wettbewerb",
+    "Preistraeger",
+    "Businessplan"
+  ],
+  "regions": [
+    "Germany",
+    "Berlin",
+    "Brandenburg"
+  ],
+  "languages": [
+    "de",
+    "en"
+  ],
+  "queries": [
+    {
+      "source": "google_news",
+      "text": "EXIST Gruenderstipendium Preistraeger Gewinner neuer Call",
+      "language": "de",
+      "country": "DE",
+      "topic": "EXIST",
+      "region": "Germany"
+    },
+    {
+      "source": "google_news",
+      "text": "Businessplan-Wettbewerb Berlin-Brandenburg BPW Praemierung Gewinner",
+      "language": "de",
+      "country": "DE",
+      "topic": "BPW",
+      "region": "Berlin"
+    },
+    {
+      "source": "google_news",
+      "text": "EXIST Forschungstransfer Einreichungsfrist Bewerbungsphase",
+      "language": "de",
+      "country": "DE",
+      "topic": "EXIST",
+      "region": "Germany"
+    }
+  ],
+  "sources": [
+    "google_news"
+  ],
+  "schedule_hint": "weekly",
+  "lookback_hours": 168,
+  "max_items": 30,
+  "max_queries": 3,
+  "ranking": {
+    "mode": "keyword",
+    "minimum_score": 0
+  },
+  "output": {
+    "languages": [
+      "de",
+      "en"
+    ],
+    "markdown": true,
+    "json": true,
+    "changes": true
+  }
+}
