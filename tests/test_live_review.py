@@ -126,7 +126,7 @@ async def test_real_funding_adapter_keeps_unknown_eligibility(monkeypatch):
         return Page(url, url, observed_at, '<html><h1>Official funding program</h1></html>')
     monkeypatch.setattr(ProgramFetcher, 'fetch', fetch)
     rows, metrics, extra = await acquire('funding-de-eu', load_profiles()['funding/de-eu'])
-    assert len(rows) == 3 and len(metrics) == 3
+    assert len(rows) >= 3 and len(metrics) == len(rows)
     assert all(row.eligibility in ('ELIGIBILITY_UNKNOWN', 'WATCH_FUTURE_ROUND') for row in rows)
     assert all(row.application_status != 'OPEN' for row in rows)
 

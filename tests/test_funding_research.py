@@ -192,7 +192,7 @@ def test_pipeline_collects_and_discovers_without_exporting_source_prose(tmp_path
     monkeypatch.setattr(pipeline,'collect_opportunities',collect)
     result=asyncio.run(run(tmp_path/'proposal',discovery=discovery))
     assert result['report_status']=='failed'
-    assert len(result['funding']['opportunities'])==3
+    assert len(result['funding']['opportunities']) == len(json.loads((ROOT / "config/funding-sources.json").read_text())["sources"])
     assert verify_bundle(result,result['source_sha'])
     public=json.dumps(result)
     assert 'during our internship' not in public

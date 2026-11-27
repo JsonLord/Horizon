@@ -2,13 +2,23 @@
   "schema_version": "1.0",
   "sources": [
     {
-      "opportunity_id": "bii-venture-lab",
-      "provider": "BioInnovation Institute",
-      "program": "BII Venture Lab",
+      "opportunity_id": "ibb-gruendungsbonus-plus",
+      "provider": "IBB",
+      "program": "GruendungsBONUS Plus",
       "official_domains": [
-        "bii.dk"
+        "ibb.de",
+        "ibb-business-team.de"
       ],
-      "url": "https://bii.dk/programs/venturelab/"
+      "url": "https://www.ibb.de/de/foerderprogramme/gruendungsbonus-plus.html"
+    },
+    {
+      "opportunity_id": "kfw-erp-startgeld",
+      "provider": "KfW",
+      "program": "ERP-StartGeld",
+      "official_domains": [
+        "kfw.de"
+      ],
+      "url": "https://www.kfw.de/inlandsfoerderung/Unternehmen/Gr%C3%BCnden-Nachfolgen/F%C3%B6rderprodukte/ERP-Gr%C3%BCnderkredit-Startgeld-(067)/"
     },
     {
       "opportunity_id": "eu-eic-accelerator",
@@ -21,6 +31,15 @@
       "url": "https://eic.ec.europa.eu/eic-funding-opportunities/eic-accelerator_en"
     },
     {
+      "opportunity_id": "bii-venture-lab",
+      "provider": "BioInnovation Institute",
+      "program": "BII Venture Lab",
+      "official_domains": [
+        "bii.dk"
+      ],
+      "url": "https://bii.dk/programs/venturelab/"
+    },
+    {
       "opportunity_id": "eureka-network-program",
       "provider": "Eureka Network",
       "program": "Eureka R&D Software & Tech",
@@ -31,8 +50,8 @@
     },
     {
       "opportunity_id": "f-rderung-innovativer-gr-ndungen-berline",
-      "provider": "Förderung",
-      "program": "Förderung innovativer Gründungen – Berliner Startup Stipendium / Promotion of innovative start-ups \\- Berlin Start-up Scholarship https://reaktor.berlin/accelerator/",
+      "provider": "F\u00f6rderung",
+      "program": "F\u00f6rderung innovativer Gr\u00fcndungen \u2013 Berliner Startup Stipendium / Promotion of innovative start-ups \\- Berlin Start-up Scholarship https://reaktor.berlin/accelerator/",
       "official_domains": [
         "reaktor.berlin"
       ],
@@ -148,16 +167,6 @@
       "url": "https://www\\.weiberwirtschaft.de/home/"
     },
     {
-      "opportunity_id": "ibb-gruendungsbonus-plus",
-      "provider": "IBB",
-      "program": "GruendungsBONUS Plus",
-      "official_domains": [
-        "ibb.de",
-        "ibb-business-team.de"
-      ],
-      "url": "https://www.ibb.de/de/foerderprogramme/gruendungsbonus-plus.html"
-    },
-    {
       "opportunity_id": "ibb-investitionsbonus",
       "provider": "IBB Business Team",
       "program": "Berliner InvestitionsBONUS",
@@ -203,15 +212,6 @@
       "url": "https://www\\.ibb.de/en/foerderprogramme/berlin-start.html"
     },
     {
-      "opportunity_id": "kfw-erp-startgeld",
-      "provider": "KfW",
-      "program": "ERP-StartGeld",
-      "official_domains": [
-        "kfw.de"
-      ],
-      "url": "https://www.kfw.de/inlandsfoerderung/Unternehmen/Gr%C3%BCnden-Nachfolgen/F%C3%B6rderprodukte/ERP-Gr%C3%BCnderkredit-Startgeld-(067)/"
-    },
-    {
       "opportunity_id": "kmu-innovativ-bmbf",
       "provider": "BMBF",
       "program": "KMU-innovativ",
@@ -228,7 +228,7 @@
       "official_domains": [
         "mikromezzaninfonds-deutschland.de"
       ],
-      "url": "https://www.mikromezzaninfonds-deutschland.de/start.html#programm"
+      "url": "https://www.mikromezzaninfonds-deutschland.de/start.html"
     },
     {
       "opportunity_id": "qualifizierung-kulturwirtschaft",
