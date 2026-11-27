@@ -1,10 +1,9 @@
 """Regression tests for the offline benchmark evaluation runner.
 
-These tests pin the *behaviour of the harness*, not a desired pass/fail outcome
-for the underlying Stage 1 signals. Where the current signal implementation does
-not yet meet a benchmark gate, the gap is asserted explicitly (see
-``test_known_stage1_recall_gaps``) so that it is visible, deterministic, and
-flips as soon as the signals module is fixed.
+These tests pin the *behaviour of the harness* as well as the current Stage 1
+outcome. The signals now meet every benchmark gate, so the expected state is
+asserted explicitly (see ``test_stage1_recall_gaps_are_closed``): a regression
+that screens out a relevant case fails here as loudly as it fails the gate.
 """
 from __future__ import annotations
 
@@ -259,27 +258,47 @@ def test_missing_benchmark_file_raises(tmp_path):
 
 
 # --------------------------------------------------------------------------- #
-# 7. Known Stage 1 gaps (explicit, so they cannot silently drift)
+# 7. Stage 1 recall is complete (explicit, so it cannot silently drift)
 # --------------------------------------------------------------------------- #
-def test_known_stage1_recall_gaps(report):
-    """Pin the current Stage 1 recall gap on this branch.
+def test_stage1_recall_gaps_are_closed(report):
+    """Pin full Stage 1 recall across every retention category.
 
-    The runner reports these as FAILED gates. This test records the exact set of
-    cases the deterministic signals currently drop, so that a regression that
-    drops *more* cases fails here, and fixing the signals fails here loudly,
-    prompting an update to the expected set (the gate itself will report PASS).
+    The deterministic signals previously dropped technical-domain releases
+    (``rel-01``/``rel-03``), a critical-raw-materials accord (``rel-05``) and
+    German/French long-tail stories (``multi-02``, ``multi-03``, ``multi-06``).
+    Those gaps are now closed; this test records the fixed state so that any
+    regression re-introducing a screen-out fails here as well as in the gates.
     """
     relevant = next(m for m in report["categories"] if m["category"] == "relevant_findings")
-    assert relevant["screen_out_ids"] == ["rel-01", "rel-03", "rel-05"]
+    assert relevant["screen_out_ids"] == []
+    assert relevant["retained"] == 5
+    assert relevant["recall_pct"] == 100.0
+
+    missed = next(m for m in report["categories"] if m["category"] == "keyword_missed_stories")
+    assert missed["screen_out_ids"] == []
+    assert missed["recall_pct"] == 100.0
 
     multilingual = {
         language: entry["screen_out_ids"] for language, entry in report["multilingual"].items()
     }
-    assert multilingual == {"en": [], "de": ["multi-02", "multi-03"], "fr": ["multi-06"]}
+    assert multilingual == {"en": [], "de": [], "fr": []}
+    assert report["multilingual"]["de"]["retained"] == 3
+    assert report["multilingual"]["de"]["accuracy_pct"] == 100.0
+    assert report["multilingual"]["fr"]["retained"] == 3
+    assert report["multilingual"]["fr"]["accuracy_pct"] == 100.0
 
-    failed = {g["name"] for g in report["gates"] if not g["passed"]}
-    assert failed == {
-        "relevant_findings_recall",
-        "multilingual_recall_de",
-        "multilingual_recall_fr",
+    irrelevant = next(m for m in report["categories"] if m["category"] == "irrelevant_findings")
+    assert irrelevant["rejection_pct"] == 100.0
+
+    assert report["aggregate"]["gates_passed"] == 6
+    assert report["aggregate"]["gates_failed"] == 0
+
+    gates = {g["name"]: g["passed"] for g in report["gates"]}
+    assert gates == {
+        "relevant_findings_recall": True,
+        "keyword_missed_stories_recall": True,
+        "multilingual_recall_de": True,
+        "multilingual_recall_fr": True,
+        "irrelevant_findings_rejection": True,
+        "insufficient_evidence_abstention": True,
     }
