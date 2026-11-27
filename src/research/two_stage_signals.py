@@ -125,6 +125,43 @@ TECH_DOMAIN_TERMS = {
     },
 }
 
+#: Domain terms that are too generic to establish technical specificity on their
+#: own. A candidate whose *only* matches are these words must not be protected:
+#: a corporate marathon "training" programme run by "distributed" branch offices
+#: shares the vocabulary of distributed training without being about it.
+TECH_GENERIC_TERMS = frozenset({
+    'agent', 'agents', 'training', 'distributed', 'memory', 'search', 'workflow',
+    'parallel', 'control', 'vector', 'vektor', 'vecteur', 'orchestration',
+    'orchestrierung', 'steuerung', 'ablauf', 'auswertung', 'flux', 'évaluation',
+    'suche', 'recherche', 'speicher', 'mémoire', 'citation', 'zitat', 'beleg',
+    'preuve', 'récupération',
+})
+
+#: Markers of a European (EU / DE / FR) policy context. Supply-chain and raw
+#: material stories only belong to the strategic remit when they are framed as
+#: European trade, industrial or security policy.
+EUROPE_CONTEXT_TERMS = (
+    'eu', 'europe', 'european union', 'europa', 'europäische', 'europäischen',
+    'europäische union', 'européenne', 'européennes', 'européen', 'bruxelles',
+    'brüssel', 'auswärtiges amt', 'bundesregierung', 'bundesverband',
+    'deutschland', 'deutsche', 'deutschen', 'deutscher', 'germany',
+    'frankreich', 'france', 'paris', 'berlin', 'kommission', 'commission',
+)
+
+#: Critical raw materials, supply-chain resilience and trade-defence vocabulary
+#: (EN / DE / FR), including German compound nouns and French
+#: de-industrialisation framing.
+CRITICAL_SUPPLY_TERMS = (
+    'critical raw materials', 'raw materials', 'rohstoffsicherheit',
+    'rohstoffe', 'rohstoff', 'matières premières',
+    'supply shock', 'supply chain resilience', 'supply chain dependency',
+    'chinesische staatskonzerne', 'chinesischen staatskonzerne',
+    'lieferkettensorgfaltspflichtengesetz', 'lieferkettensicherheit',
+    'lieferkette', 'lieferketten',
+    'anti-subvention', 'antisubvention',
+    'désindustrialisation', 'desindustrialisation', 'deindustrialisierung',
+)
+
 
 def tokenize(text: str) -> List[str]:
     """Tokenize text into lowercase words while preserving hyphens and periods in acronyms."""
@@ -181,12 +218,24 @@ def is_world_intelligence_long_tail(text: str) -> bool:
     - COP31 climate negotiations
     - EU-China industrial competitiveness & trade policy
     - Sanctions, international treaties & supply chain dependencies
+
+    German and French inflection variants are matched explicitly (``Irans``,
+    ``chinesischen``, ``européenne``, ``Friedensverhandlungen``, ...) so that
+    long-tail stories are recognised in every supported discovery language
+    rather than only in English surface forms.
     """
     text_lower = text.casefold()
 
     # 1. Iran - US / Middle East Peace talks
-    has_iran = has_token_boundary('iran', text_lower)
-    has_peace = any(has_token_boundary(w, text_lower) for w in ('peace', 'talks', 'ceasefire', 'friedensgespräche', 'pourparlers', 'waffenstillstand'))
+    #    'iran' matches "l'Iran" (the apostrophe is a token boundary) and
+    #    'irans' the German genitive ("Beteiligung der USA, Irans").
+    has_iran = any(has_token_boundary(w, text_lower) for w in ('iran', 'irans'))
+    has_peace = any(has_token_boundary(w, text_lower) for w in (
+        'peace', 'talks', 'ceasefire',
+        'friedensgespräche', 'friedensverhandlungen', 'friedenssicherung',
+        'waffenstillstand',
+        'pourparlers', 'négociations', 'accord préliminaire',
+    ))
     if has_iran and has_peace:
         return True
     if any(has_token_boundary(term, text_lower) for term in ('iran-us', 'iran–us', 'iran us', 'iran-usa')):
@@ -195,18 +244,34 @@ def is_world_intelligence_long_tail(text: str) -> bool:
     # 2. COP31 climate summit
     if any(has_token_boundary(term, text_lower) for term in ('cop31', 'cop-31', 'cop 31')):
         return True
-    if has_token_boundary('climate summit', text_lower) or has_token_boundary('klimagipfel', text_lower):
+    if any(has_token_boundary(term, text_lower) for term in ('climate summit', 'klimagipfel', 'sommet climatique')):
         return True
 
     # 3. EU-China Industrial Competitiveness / Manufacturing (e.g. Guardian Jens Eskelund article)
-    has_eu = any(has_token_boundary(w, text_lower) for w in ('eu', 'european union', 'europa', 'europäische union', 'europe'))
-    has_china = any(has_token_boundary(w, text_lower) for w in ('china', 'chinois', 'chinesisch', 'beijing', 'peking'))
+    has_eu = any(has_token_boundary(w, text_lower) for w in (
+        'eu', 'europe', 'european union', 'europa', 'europäische union',
+        'europäische', 'europäischen', 'européenne', 'européennes', 'européen',
+        'bruxelles',
+    ))
+    has_china = any(has_token_boundary(w, text_lower) for w in (
+        'china', 'chine', 'chinois', 'chinesisch', 'chinesische', 'chinesischen',
+        'chinesischer', 'beijing', 'peking', 'pékin',
+    ))
     has_industry = any(has_token_boundary(w, text_lower) for w in (
         'manufacturers', 'manufacturing', 'competitiveness', 'industrial policy',
         'industriepolitik', 'wettbewerbsfähigkeit', 'compétitivité', 'supply chain',
-        'industrie', 'export controls', 'tariffs'
+        'industrie', 'industrielle', 'industriellen', 'export controls', 'tariffs'
     ))
     if has_eu and has_china and has_industry:
+        return True
+
+    # 4. Critical raw materials & supply security in an EU / DE / FR context.
+    #    Supply-chain resilience and raw-material security are strategic only
+    #    when framed as European trade, industrial or security policy, so both a
+    #    supply term and a European context marker are required.
+    has_supply_risk = any(has_token_boundary(t, text_lower) for t in CRITICAL_SUPPLY_TERMS)
+    has_europe_context = any(has_token_boundary(t, text_lower) for t in EUROPE_CONTEXT_TERMS)
+    if has_supply_risk and has_europe_context:
         return True
 
     return False
@@ -237,28 +302,65 @@ def is_aux_in_scope(text: str) -> bool:
     return False
 
 
-def is_protected_candidate(row, domain: str) -> bool:
-    """Evaluates whether a candidate qualifies for Stage 1 priority protection."""
-    # Build unified text from title and evidence
-    full_text = ' '.join([getattr(row, 'title', '')] + [
+def _candidate_text(row: Any) -> str:
+    """Unified title + evidence text used by the Stage 1 signals."""
+    return ' '.join([getattr(row, 'title', '')] + [
         (getattr(e, 'title', '') + ' ' + getattr(e, 'excerpt', ''))
         for e in getattr(row, 'evidence', [])
     ])
 
+
+def _matched_tech_terms(row: Any, domain: str) -> Set[str]:
+    """Distinct :data:`TECH_DOMAIN_TERMS` terms present in the candidate text."""
+    full_text = _candidate_text(row)
+    terms = {t for lang_terms in TECH_DOMAIN_TERMS[domain].values() for t in lang_terms}
+    return {t for t in terms if has_token_boundary(t, full_text)}
+
+
+def is_protected_candidate(row, domain: str) -> bool:
+    """Evaluates whether a candidate qualifies for Stage 1 priority protection.
+
+    ``world-intelligence`` and ``aux`` keep their long-tail / accessibility
+    rules. Technical domains are protected when the candidate carries at least
+    two distinct domain terms *and* either an upstream primary source
+    (GitHub / ArXiv / official release) or article-level supported evidence,
+    *and* at least one of those terms is domain-specific. The specificity guard
+    keeps generic vocabulary ("distributed", "training") from protecting
+    off-topic articles such as a corporate marathon programme run by
+    distributed branch offices.
+    """
+    full_text = _candidate_text(row)
+
     if domain == 'world-intelligence':
         return is_world_intelligence_long_tail(full_text)
-    elif domain == 'aux':
+    if domain == 'aux':
         return is_aux_in_scope(full_text)
+
+    if domain in TECH_DOMAIN_TERMS:
+        matched = _matched_tech_terms(row, domain)
+        if len(matched) < 2:
+            return False
+        evidence = getattr(row, 'evidence', [])
+        if any(getattr(e, 'primary', False) for e in evidence):
+            return True
+        specific = matched - TECH_GENERIC_TERMS
+        supported = evidence_quality(row)['quality'] == 'SUPPORTED'
+        return bool(specific) and supported
 
     return False
 
 
 def calculate_priority_score(row, domain: str) -> int:
-    """Calculates deterministic, token-aware priority score (0-40)."""
-    full_text = ' '.join([getattr(row, 'title', '')] + [
-        (getattr(e, 'title', '') + ' ' + getattr(e, 'excerpt', ''))
-        for e in getattr(row, 'evidence', [])
-    ])
+    """Calculates deterministic, token-aware priority score (0-40).
+
+    Technical domains weight specificity more heavily than the shared
+    categories: every distinct matching domain term is worth 8 points, an
+    upstream primary source (GitHub / ArXiv / official release) another 8, and
+    article-level supported evidence another 4. A genuine release or technical
+    paper therefore clears the 25-point screen-out threshold on evidence
+    quality alone.
+    """
+    full_text = _candidate_text(row)
 
     score = 0
 
@@ -277,11 +379,12 @@ def calculate_priority_score(row, domain: str) -> int:
             if any(has_token_boundary(t, full_text) for t in terms):
                 score += 4
     elif domain in TECH_DOMAIN_TERMS:
-        terms = TECH_DOMAIN_TERMS[domain]
-        all_terms = [t for lang_terms in terms.values() for t in lang_terms]
-        for term in all_terms:
-            if has_token_boundary(term, full_text):
-                score += 4
+        # Distinct terms only: a repeated word is one signal, not two.
+        score += 8 * len(_matched_tech_terms(row, domain))
+        if any(getattr(e, 'primary', False) for e in getattr(row, 'evidence', [])):
+            score += 8
+        if evidence_quality(row)['quality'] == 'SUPPORTED':
+            score += 4
 
     # Reward primary sources (GitHub/official releases)
     evidence = getattr(row, 'evidence', [])
