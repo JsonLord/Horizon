@@ -17,11 +17,18 @@ from .filtering.provider import COMMANDS, DecisionModelProvider
 from .live_review import DOMAINS, acquire, payload_for, policy_for
 from .profiles import ROOT, load_profiles
 from .reporting import atomic, dumps
+from .two_stage_signals import (
+    calculate_priority_score,
+    evaluate_domain_completeness,
+    evidence_quality,
+    get_comparison_context,
+    is_protected_candidate,
+)
 
 EXPERIMENT_DOMAINS = (
     'agent-control-planes', 'distributed-training', 'rag-memory', 'aux', 'world-intelligence'
 )
-VERSION = 'two-stage-heldout-1.0'
+VERSION = 'two-stage-heldout-1.1'
 ARM_REQUEST_CAP = 27
 EXPECTED_CANDIDATES = 8
 
@@ -104,29 +111,21 @@ def source_language(row) -> str:
 
 
 def protected(row, domain: str) -> bool:
-    text = _text(row)
-    if domain == 'world-intelligence':
-        return any(term in text for term in LONG_TAIL[domain]) or ('iran' in text and any(t in text for t in ('peace', 'talk', 'ceasefire', 'friedens', 'pourparlers')))
-    return domain == 'aux' and any(term in text for term in AUX_TERMS)
+    return is_protected_candidate(row, domain)
 
 
 def priority_score(row, domain: str) -> int:
-    """Stable lexical priority; no model call or fabricated evidence."""
-    text = _text(row)
-    terms = DOMAIN_TERMS[domain]
-    # The candidate's established source language is respected; other language
-    # cues are also checked so mixed-language titles retain priority.
-    matches = sum(2 for words in terms.values() for term in words if term in text)
-    score = min(40, matches)
-    if any(e.primary and e.fresh for e in row.evidence):
-        score += 4
+    """Stable, token-aware multilingual priority score with long-tail protection."""
+    base = calculate_priority_score(row, domain)
+    if any(getattr(e, 'primary', False) and getattr(e, 'fresh', False) for e in getattr(row, 'evidence', [])):
+        base += 4
     if source_language(row) in ('en', 'de', 'fr'):
-        score += 2
-    if any(e.excerpt and len(e.excerpt) >= 100 for e in row.evidence):
-        score += 1
+        base += 2
+    if any(getattr(e, 'excerpt', '') and len(getattr(e, 'excerpt', '')) >= 100 for e in getattr(row, 'evidence', [])):
+        base += 1
     if protected(row, domain):
-        score += 100
-    return score
+        base += 100
+    return base
 
 
 def _balance_cost(rows, left, right):
@@ -245,13 +244,39 @@ async def decide_experiment(provider, state, command, payload, policy, budget):
     return result
 
 
-def _decision_payload(row, policy):
-    return payload_for(row, policy, [])
+def validate_provider_contract() -> None:
+    expected = os.environ.get('HORIZON_EXPERIMENT_EXPECTED_API_MODE')
+    if expected:
+        effective = os.environ.get('HORIZON_DECISION_API_MODE')
+        if not effective or effective == 'off' or effective != expected:
+            raise RuntimeError(
+                f"Provider contract violation: effective mode '{effective}' does not match expected '{expected}'"
+            )
+
+
+def provider_contract() -> dict[str, Any]:
+    mode = os.environ.get('HORIZON_DECISION_API_MODE', 'off')
+    model = os.environ.get('HORIZON_DECISION_MODEL', 'none')
+    resp_model = os.environ.get('HORIZON_DECISION_RESPONSE_MODEL', 'none')
+    base_url = os.environ.get('HORIZON_DECISION_BASE_URL', '')
+    url_hash = stable_hash(base_url)[:16] if base_url else 'none'
+    return {
+        'api_mode': mode,
+        'model': model,
+        'response_model': resp_model,
+        'endpoint_hash': url_hash,
+    }
+
+
+def _decision_payload(row, policy, domain: str | None = None):
+    prev = get_comparison_context(domain, row) if domain else []
+    return payload_for(row, policy, prev)
 
 
 def _candidate_evidence(row):
     return {'candidate_id': row.id, 'event_id': row.event_id, 'title': row.title, 'url': row.url,
-            'evidence': [e.model_dump(mode='json') for e in row.evidence]}
+            'evidence': [e.model_dump(mode='json') for e in row.evidence],
+            'evidence_quality': evidence_quality(row)}
 
 
 def _review_label(row, domain, arm, status):
@@ -263,6 +288,7 @@ def _review_label(row, domain, arm, status):
 
 async def run_experiment(output: Path, *, run_id: str, run_attempt: int = 1, acquisition=acquire, provider_factory=DecisionModelProvider,
                          excluded_event_ids: set[str] | None = None):
+    validate_provider_contract()
     output.mkdir(parents=True, exist_ok=True)
     excluded_event_ids = load_nov9_event_ids() if excluded_event_ids is None else excluded_event_ids
     profiles = load_profiles()
@@ -289,17 +315,19 @@ async def run_experiment(output: Path, *, run_id: str, run_attempt: int = 1, acq
         for row in sample:
             all_evidence.append({'domain': domain, **_candidate_evidence(row)})
         duration = round(time.monotonic() - collection_started, 3)
+        completeness_status, completeness_reason = evaluate_domain_completeness(sample, domain)
         domain_out = {'domain': domain, 'profile_id': profile_id,
                       'collection': {'retrieved_candidates': collected_n, 'fresh_candidates': len(fresh),
                           'excluded_nov9_events': len(fresh) - len(unseen), 'unique_unseen_candidates': len(unseen),
                           'selected_candidates': len(sample), 'collection_seconds': duration,
                           'source_metrics': source_metrics, 'additional_metrics': extra, 'error': collection_error},
-                      'complete': len(sample) == EXPECTED_CANDIDATES,
+                      'complete': completeness_status == 'COMPLETE',
+                      'status': completeness_status,
+                      'status_reason': completeness_reason,
                       'excluded_event_ids_sha256': stable_hash('\n'.join(sorted(excluded_event_ids))),
                       'policy_token_budget_per_arm': policy.max_tokens,
                       'request_cap_per_arm': min(ARM_REQUEST_CAP, policy.max_requests)}
         if not domain_out['complete']:
-            domain_out['status'] = 'INCOMPLETE_INSUFFICIENT_FRESH_UNSEEN_CANDIDATES'
             domain_out['unassigned_candidates'] = [_candidate_evidence(r) for r in sample]
             for row in sample:
                 all_labels.append(_review_label(row, domain, 'unassigned', 'DOMAIN_INCOMPLETE'))
@@ -332,7 +360,7 @@ async def run_experiment(output: Path, *, run_id: str, run_attempt: int = 1, acq
             try:
                 async with asyncio.timeout(900):
                     for row in arm_rows:
-                        payload = _decision_payload(row, policy)
+                        payload = _decision_payload(row, policy, domain)
                         command_results = {}
                         for command in COMMANDS:
                             command_results[command] = await decide_experiment(provider, state, command, payload, policy, budget)
@@ -383,6 +411,7 @@ async def run_experiment(output: Path, *, run_id: str, run_attempt: int = 1, acq
         'run_attempt': run_attempt,
         'created_at_utc': datetime.now(UTC).isoformat(), 'source_revision': os.getenv('GITHUB_SHA', 'local-development'),
         'workflow_run_id': os.getenv('GITHUB_RUN_ID'), 'domains': domain_results,
+        'provider_contract': provider_contract(),
         'human_labels_available': False, 'precision': None, 'recall': None,
         'limitations': ['Human review labels are blank; precision and recall are not computed.',
                         'Model decisions are uncalibrated editorial judgments, not verified facts.',

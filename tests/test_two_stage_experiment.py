@@ -102,8 +102,13 @@ async def test_experiment_isolates_arms_and_never_calls_for_screenouts(tmp_path)
         instances.append(instance)
         return instance
     async def acquisition(domain, profile):
-        titles = [f'Agent orchestration workflow update {i} with concrete release details' for i in range(8)]
-        return [row(i, title=titles[i]) for i in range(8)], [{'source': 'approved', 'status': 'ok'}], {}
+        if domain == 'aux':
+            titles = [f'Accessibility WCAG inclusive design and usability testing {i}' for i in range(8)]
+        elif domain == 'world-intelligence':
+            titles = [f'International diplomatic summit and trade policy negotiation {i}' for i in range(8)]
+        else:
+            titles = [f'Agent orchestration workflow update {i} with concrete release details' for i in range(8)]
+        return [row(i, domain=domain, title=titles[i]) for i in range(8)], [{'source': 'approved', 'status': 'ok'}], {}
     profiles = load_profiles()
     from src.research import two_stage_experiment as experiment
     original = experiment.policy_for

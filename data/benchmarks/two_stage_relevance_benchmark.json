@@ -1,0 +1,403 @@
+{
+  "version": "1.0.0",
+  "name": "horizon-two-stage-relevance-benchmark",
+  "description": "Permanent evaluation benchmark for the Horizon two-stage intelligence filtering pipeline across 5 research domains.",
+  "metadata": {
+    "created_at_utc": "2026-11-25T22:00:00Z",
+    "domains": [
+      "agent-control-planes",
+      "distributed-training",
+      "rag-memory",
+      "aux",
+      "world-intelligence"
+    ],
+    "category_counts": {
+      "relevant_findings": 5,
+      "borderline_findings": 5,
+      "irrelevant_findings": 5,
+      "difficult_multilingual_examples": 6,
+      "keyword_missed_stories": 4,
+      "duplicate_and_evolving_stories": 4,
+      "insufficient_evidence_examples": 4
+    }
+  },
+  "categories": {
+    "relevant_findings": [
+      {
+        "id": "rel-01",
+        "domain": "agent-control-planes",
+        "expected_label": "RELEVANT",
+        "title": "LangGraph v0.2 Release: Durable Execution, Resumable Human-in-the-Loop, and Distributed Worker State",
+        "url": "https://github.com/langchain-ai/langgraph/releases/tag/v0.2.0",
+        "language": "en",
+        "excerpt": "LangGraph v0.2 introduces native state persistence with checkpointing backends, enabling workflows to pause, resume, and fork across independent worker processes. Includes built-in multi-agent tool governance and transactional memory.",
+        "source_type": "github",
+        "notes": "Core agent infrastructure with durable execution and multi-agent coordination."
+      },
+      {
+        "id": "rel-02",
+        "domain": "distributed-training",
+        "expected_label": "RELEVANT",
+        "title": "Megatron-LM Core 0.8: Optimized 3D Parallelism with Pipeline Bubble Reduction and FP8 Kernel Fusion",
+        "url": "https://github.com/NVIDIA/Megatron-LM/releases/tag/v0.8.0",
+        "language": "en",
+        "excerpt": "NVIDIA Megatron-LM v0.8 adds interleaved 1F1B scheduling for pipeline parallelism, reducing idle execution bubbles by 42% on H100 GPU clusters. Features fused CUDA kernels for FP8 attention layers.",
+        "source_type": "github",
+        "notes": "High-signal distributed training infrastructure advance with quantified throughput improvements."
+      },
+      {
+        "id": "rel-03",
+        "domain": "rag-memory",
+        "expected_label": "RELEVANT",
+        "title": "Hybrid Search at Scale: Reciprocal Rank Fusion Combining BM25 Lexical Inverted Indexes and HNSW Embeddings",
+        "url": "https://arxiv.org/abs/2611.04210",
+        "language": "en",
+        "excerpt": "This paper presents a scalable reciprocal rank fusion architecture that reconciles exact-match keyword retrieval with semantic vector search in low-latency production indexing, demonstrating a 19% recall boost on technical documentation benchmarks.",
+        "source_type": "arxiv",
+        "notes": "Direct technical advance in hybrid retrieval and vector grounding."
+      },
+      {
+        "id": "rel-04",
+        "domain": "aux",
+        "expected_label": "RELEVANT",
+        "title": "WCAG 2.2 Cognitive Accessibility Automated Audit: Measuring Working Memory Load in AI Interaction Flows",
+        "url": "https://w3c.github.io/coga/issue-papers/automated-audit-2026.html",
+        "language": "en",
+        "excerpt": "A standardized framework for testing cognitive accessibility and cognitive load in interactive AI assistant dialogues, integrating WCAG Success Criterion 3.3.7 (Redundant Entry) and automated user-testing heuristics.",
+        "source_type": "official",
+        "notes": "Directly in-scope cognitive accessibility and AI-assisted usability testing framework."
+      },
+      {
+        "id": "rel-05",
+        "domain": "world-intelligence",
+        "expected_label": "RELEVANT",
+        "title": "European Union Enacts Critical Raw Materials Bilateral Accord with Global Partners to Mitigate Supply Shock Risks",
+        "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_8912",
+        "language": "en",
+        "excerpt": "The European Commission finalized strategic bilateral trade accords securing lithium, cobalt, and rare earths supply chains, establishing joint stockpiling mechanisms and export quota guarantees through 2035.",
+        "source_type": "official",
+        "notes": "Geopolitical economic security, trade policy, and supply-chain dependency."
+      }
+    ],
+    "borderline_findings": [
+      {
+        "id": "bor-01",
+        "domain": "agent-control-planes",
+        "expected_label": "BORDERLINE",
+        "title": "Apache Airflow 3.1: Task Execution Engine Enhancements and Dynamic Task Mapping Updates",
+        "url": "https://airflow.apache.org/blog/airflow-3-1-release/",
+        "language": "en",
+        "excerpt": "Apache Airflow 3.1 improves batch pipeline scheduling, task-level retry policies, and Postgres metadata performance for standard data engineering workflows.",
+        "source_type": "official",
+        "notes": "Data orchestration pipeline, but lacks agentic decision loop or tool autonomy."
+      },
+      {
+        "id": "bor-02",
+        "domain": "distributed-training",
+        "expected_label": "BORDERLINE",
+        "title": "Single-Node PyTorch DataLoader Multi-threading Benchmark on High-Performance NVMe Storage",
+        "url": "https://example.org/pytorch-dataloader-perf",
+        "language": "en",
+        "excerpt": "Benchmarking Python worker concurrency and memory mapping bottlenecks for image datasets residing on local PCIe Gen5 solid-state drives.",
+        "source_type": "blog",
+        "notes": "Performance optimization for training, but confined to single-node data loading."
+      },
+      {
+        "id": "bor-03",
+        "domain": "rag-memory",
+        "expected_label": "BORDERLINE",
+        "title": "sqlite-vec: An Exploration of Local SQLite Extensions for Vector Similarity Scoring",
+        "url": "https://example.org/sqlite-vec-explorations",
+        "language": "en",
+        "excerpt": "A short walkthrough on building an embedded desktop notes search app using SQLite C extensions for cosine similarity.",
+        "source_type": "blog",
+        "notes": "Desktop tutorial without distributed scaling or formal grounding evaluation."
+      },
+      {
+        "id": "bor-04",
+        "domain": "aux",
+        "expected_label": "BORDERLINE",
+        "title": "Redesigning SaaS Application Dropdown Menus for Improved Desktop Visual Polish",
+        "url": "https://example.org/saas-dropdown-design",
+        "language": "en",
+        "excerpt": "Visual design considerations for modern Figma UI components, spacing variables, and border-radius aesthetics.",
+        "source_type": "blog",
+        "notes": "Generic UI visual design; lacks assistive, cognitive, or accessibility testing evaluation."
+      },
+      {
+        "id": "bor-05",
+        "domain": "world-intelligence",
+        "expected_label": "BORDERLINE",
+        "title": "City Council of Munich Approves Municipal District Zoning Reclassifications for Mixed-Use Development",
+        "url": "https://example.org/munich-zoning-2026",
+        "language": "de",
+        "excerpt": "Der Stadtrat von München hat neue Richtlinien für die Umwidmung von Gewerbeflächen beschlossen, um Wohnraum im Norden der Stadt zu schaffen.",
+        "source_type": "news",
+        "notes": "Local municipal governance without macroeconomic, international, or strategic geopolitical consequence."
+      }
+    ],
+    "irrelevant_findings": [
+      {
+        "id": "irr-01",
+        "domain": "world-intelligence",
+        "expected_label": "IRRELEVANT",
+        "title": "US Men's National Soccer Team Defeats Costa Rica 2-1 in International Friendly Match",
+        "url": "https://example.org/sports-us-soccer-friendly",
+        "language": "en",
+        "excerpt": "In a competitive friendly match ahead of the regional tournament, the US team secured victory in extra time following a decisive set-piece goal.",
+        "source_type": "news",
+        "notes": "Sports news containing 'US' acronym; must be screened out without false positive."
+      },
+      {
+        "id": "irr-02",
+        "domain": "aux",
+        "expected_label": "IRRELEVANT",
+        "title": "TechGizmo Announces RGB Mechanical Gaming Keyboard with Hot-Swappable Switches",
+        "url": "https://example.org/gaming-keyboard-launch",
+        "language": "en",
+        "excerpt": "The new peripheral features customizable backlighting, tactile mechanical switches, and macro recording for competitive esports players.",
+        "source_type": "news",
+        "notes": "Consumer gaming peripheral; zero accessibility or usability research relevance."
+      },
+      {
+        "id": "irr-03",
+        "domain": "agent-control-planes",
+        "expected_label": "IRRELEVANT",
+        "title": "Hollywood Talent Agency Signs Award-Winning Screenwriter for Upcoming Period Drama",
+        "url": "https://example.org/entertainment-agency-signing",
+        "language": "en",
+        "excerpt": "Leading talent agency negotiates multi-picture agreement for upcoming cinematic release scheduled for winter production.",
+        "source_type": "news",
+        "notes": "Entertainment 'talent agency'; homonym of AI agent."
+      },
+      {
+        "id": "irr-04",
+        "domain": "distributed-training",
+        "expected_label": "IRRELEVANT",
+        "title": "Corporate Marathon Runners Complete Spring Half-Marathon Training Program",
+        "url": "https://example.org/corporate-fitness-marathon",
+        "language": "en",
+        "excerpt": "Employees across distributed regional branch offices finished their 12-week athletic endurance training schedule.",
+        "source_type": "news",
+        "notes": "Athletic fitness 'training'; homonym of machine learning training."
+      },
+      {
+        "id": "irr-05",
+        "domain": "rag-memory",
+        "expected_label": "IRRELEVANT",
+        "title": "Vintage Textile Manufacturer Revives Traditional Rag Rug Weaving Techniques",
+        "url": "https://example.org/textile-rag-rugs",
+        "language": "en",
+        "excerpt": "Artisans in rural workshop restore century-old wooden looms to produce sustainable recycled rag textiles.",
+        "source_type": "news",
+        "notes": "Textile fabric 'rag'; homonym of Retrieval-Augmented Generation."
+      }
+    ],
+    "difficult_multilingual_examples": [
+      {
+        "id": "multi-01",
+        "domain": "aux",
+        "expected_label": "RELEVANT",
+        "title": "Barrierefreiheit im öffentlichen Sektor: BITV 2.0 Prüfbericht zur Usability digitaler Verwaltungsausweise",
+        "url": "https://example.org/bitv-pruefbericht-2026",
+        "language": "de",
+        "excerpt": "Die Bundesfachstelle für Barrierefreiheit veröffentlicht eine umfassende empirische Untersuchung zur barrierefreien Nutzbarkeit der Online-Ausweisfunktion für Menschen mit kognitiven und motorischen Einschränkungen gemäß BITV 2.0.",
+        "source_type": "official",
+        "notes": "Complex German administrative accessibility (BITV 2.0 / Barrierefreiheit)."
+      },
+      {
+        "id": "multi-02",
+        "domain": "world-intelligence",
+        "expected_label": "RELEVANT",
+        "title": "Friedensverhandlungen im Nahen Osten: Bundesregierung begrüßt Initiative für Waffenstillstand und humanitäre Korridore",
+        "url": "https://example.org/auswaertiges-amt-nahost-2026",
+        "language": "de",
+        "excerpt": "Das Auswärtige Amt nimmt Stellung zu den multilateralen diplomatischen Gesprächen unter Beteiligung der USA, Irans und regionaler Akteure zur Deeskalation und langfristigen Friedenssicherung.",
+        "source_type": "official",
+        "notes": "German diplomatic statement on Iran-US regional peace talks."
+      },
+      {
+        "id": "multi-03",
+        "domain": "world-intelligence",
+        "expected_label": "RELEVANT",
+        "title": "Lieferkettensorgfaltspflichtengesetz: Deutsche Industrie warnt vor Wettbewerbsnachteilen gegenüber chinesischen Konkurrenten",
+        "url": "https://example.org/deutsche-industrie-lieferkette",
+        "language": "de",
+        "excerpt": "Der Bundesverband der Deutschen Industrie (BDI) fordert Nachbesserungen bei den bürokratischen Berichtspflichten zur Lieferkettensicherheit und verweist auf zunehmenden Preisdruck durch chinesische Staatskonzerne auf den Weltmärkten.",
+        "source_type": "news",
+        "notes": "German industrial competitiveness, supply chain legislation, and China competition."
+      },
+      {
+        "id": "multi-04",
+        "domain": "aux",
+        "expected_label": "RELEVANT",
+        "title": "Accessibilité numérique des services publics: Rapport d'évaluation RGAA 4.1 et tests d'utilisabilité pour personnes malvoyantes",
+        "url": "https://example.org/rgaa-rapport-accessibilite-2026",
+        "language": "fr",
+        "excerpt": "La Direction interministérielle du numérique (DINUM) publie les résultats des audits d'accessibilité numérique sur les démarches administratives en ligne, soulignant les lacunes de compatibilité avec les lecteurs d'écran NVDA et VoiceOver.",
+        "source_type": "official",
+        "notes": "French official accessibility audit (RGAA 4.1 / screen reader usability)."
+      },
+      {
+        "id": "multi-05",
+        "domain": "world-intelligence",
+        "expected_label": "RELEVANT",
+        "title": "Pourparlers diplomatiques à Genève: Les États-Unis et l'Iran s'accordent sur un cadre préliminaire de non-prolifération",
+        "url": "https://example.org/geneve-pourparlers-iran-usa",
+        "language": "fr",
+        "excerpt": "À l'issue de sessions de négociation sous l'égide de la Suisse, les délégations américaine et iranienne ont formulé un protocole d'accord visant la suspension réciproque des sanctions secondaires et la reprise des inspections de l'AIEA.",
+        "source_type": "news",
+        "notes": "French report on Geneva US-Iran diplomatic negotiations and sanctions."
+      },
+      {
+        "id": "multi-06",
+        "domain": "world-intelligence",
+        "expected_label": "RELEVANT",
+        "title": "Politique industrielle européenne: Bruxelles et Paris proposent des mécanismes d'anti-subvention face aux surcapacités industrielles de Pékin",
+        "url": "https://example.org/politique-industrielle-ue-chine",
+        "language": "fr",
+        "excerpt": "Face au risque de désindustrialisation dans le secteur des technologies propres, la France et la Commission européenne préparent de nouveaux instruments commerciaux pour protéger les fabricants européens.",
+        "source_type": "news",
+        "notes": "French industrial policy, EU-China trade defense, and manufacturing protection."
+      }
+    ],
+    "keyword_missed_stories": [
+      {
+        "id": "miss-01",
+        "domain": "world-intelligence",
+        "expected_label": "RELEVANT",
+        "title": "EU manufacturers face existential challenge against China by 2030, warns Chamber of Commerce president",
+        "url": "https://www.theguardian.com/business/2026/nov/10/eu-manufacturers-china-jens-eskelund",
+        "language": "en",
+        "excerpt": "Jens Eskelund, head of the European Union Chamber of Commerce in China, warned that European manufacturing companies face a systemic loss of competitiveness against state-backed Chinese production capacity by 2030, threatening hundreds of thousands of high-wage jobs in Germany and across the continent.",
+        "source_type": "news",
+        "notes": "Material false negative identified in earlier experiment; must be protected by Stage 1 priority routing."
+      },
+      {
+        "id": "miss-02",
+        "domain": "world-intelligence",
+        "expected_label": "RELEVANT",
+        "title": "Iran and US resume diplomatic peace negotiations in Muscat amid regional ceasefire verification",
+        "url": "https://example.org/iran-us-muscat-peace-talks",
+        "language": "en",
+        "excerpt": "Envoys from Washington and Tehran commenced direct consultations in Oman focusing on regional maritime security, hostage release protocols, and mutual sanctions waivers.",
+        "source_type": "news",
+        "notes": "Strategic diplomatic talks previously vulnerable to acronym collision or keyword omissions."
+      },
+      {
+        "id": "miss-03",
+        "domain": "world-intelligence",
+        "expected_label": "RELEVANT",
+        "title": "COP31 climate summit opens with critical clash over global carbon pricing and adaptation finance targets",
+        "url": "https://example.org/cop31-climate-summit-finance",
+        "language": "en",
+        "excerpt": "Delegates from 195 nations convened at COP31 to negotiate binding schedules for emissions reduction and capitalization of the Loss and Damage Fund amidst geopolitical friction between developed and emerging economies.",
+        "source_type": "news",
+        "notes": "Global climate multilateral summit; essential international governance event."
+      },
+      {
+        "id": "miss-04",
+        "domain": "aux",
+        "expected_label": "RELEVANT",
+        "title": "Empirical Usability Study of Voice-Assisted Screen Readers in Complex E-Commerce Checkout Flows",
+        "url": "https://example.org/voice-screen-reader-study",
+        "language": "en",
+        "excerpt": "In a formal user research trial with 48 legally blind participants, researchers quantified task completion rates and error recovery friction across mainstream consumer web applications.",
+        "source_type": "academic",
+        "notes": "Rigorous accessibility user testing; previously missed when queries required generic AI keywords."
+      }
+    ],
+    "duplicate_and_evolving_stories": [
+      {
+        "id": "dup-01a",
+        "domain": "world-intelligence",
+        "expected_label": "RELEVANT_INITIAL",
+        "title": "Initial Report: Explosions Reported Near Strategic Red Sea Shipping Corridor",
+        "url": "https://example.org/red-sea-incident-initial",
+        "language": "en",
+        "excerpt": "Maritime security agency UKMTO reports an uncrewed aerial drone detonated near a commercial container vessel in the southern Red Sea. No casualties reported immediately.",
+        "source_type": "news",
+        "notes": "Initial breaking event."
+      },
+      {
+        "id": "dup-01b",
+        "domain": "world-intelligence",
+        "expected_label": "SAME_STORY_UPDATE",
+        "title": "Follow-Up: Shipping Line Diverts Fleet from Red Sea Following Drone Attack Near Bab el-Mandeb",
+        "url": "https://example.org/red-sea-incident-followup",
+        "language": "en",
+        "excerpt": "Global maritime shipping conglomerate confirms yesterday's incident involved a commercial vessel and orders all container traffic rerouted around the Cape of Good Hope, adding 12 days to transit times.",
+        "source_type": "news",
+        "notes": "Evolving story 24 hours later; should be linked via 'same-story' comparison context."
+      },
+      {
+        "id": "dup-02a",
+        "domain": "agent-control-planes",
+        "expected_label": "RELEVANT_INITIAL",
+        "title": "Anthropic Proposes Model Context Protocol (MCP) as Open Standard for Agent Tool Integration",
+        "url": "https://example.org/mcp-proposal-initial",
+        "language": "en",
+        "excerpt": "Anthropic introduced the Model Context Protocol (MCP), an open standard designed to enable AI assistants to securely connect with local datasets, business systems, and development environments.",
+        "source_type": "blog",
+        "notes": "Initial protocol proposal."
+      },
+      {
+        "id": "dup-02b",
+        "domain": "agent-control-planes",
+        "expected_label": "SAME_STORY_UPDATE",
+        "title": "Open Source Community Ships 50+ MCP Adapters Across PostgreSQL, Git, and Cloud Infrastructure",
+        "url": "https://example.org/mcp-ecosystem-adoption",
+        "language": "en",
+        "excerpt": "Following the Model Context Protocol announcement, developer ecosystem publishes pre-built server adapters allowing agents to interact with relational databases and Kubernetes clusters.",
+        "source_type": "news",
+        "notes": "Ecosystem continuation of the same protocol story."
+      }
+    ],
+    "insufficient_evidence_examples": [
+      {
+        "id": "ev-01",
+        "domain": "world-intelligence",
+        "expected_label": "ABSTAIN_INSUFFICIENT_EVIDENCE",
+        "title": "Diplomatic sources indicate ongoing talks in Vienna regarding bilateral treaties",
+        "url": "https://example.org/vienna-talks-stub",
+        "language": "en",
+        "excerpt": "Diplomatic sources indicate ongoing talks in Vienna regarding bilateral treaties",
+        "source_type": "news",
+        "notes": "Excerpt is exact duplicate of title; headline-only evidence requiring abstention."
+      },
+      {
+        "id": "ev-02",
+        "domain": "distributed-training",
+        "expected_label": "ABSTAIN_INSUFFICIENT_EVIDENCE",
+        "title": "Breakthrough in 10,000 GPU Cluster Synchronization Achieved by Research Lab",
+        "url": "https://example.org/cluster-sync-stub",
+        "language": "en",
+        "excerpt": "Read more...",
+        "source_type": "news",
+        "notes": "Stub excerpt with zero evidentiary support."
+      },
+      {
+        "id": "ev-03",
+        "domain": "aux",
+        "expected_label": "ABSTAIN_INSUFFICIENT_EVIDENCE",
+        "title": "New Accessibility Features Released Today",
+        "url": "https://example.org/accessibility-features-stub",
+        "language": "en",
+        "excerpt": "Click here for details.",
+        "source_type": "news",
+        "notes": "Non-substantive link stub; claim-support must flag as missing."
+      },
+      {
+        "id": "ev-04",
+        "domain": "rag-memory",
+        "expected_label": "ABSTAIN_INSUFFICIENT_EVIDENCE",
+        "title": "Novel Grounding Benchmark Outperforms Previous Baselines in Retrieval Precision",
+        "url": "https://example.org/grounding-stub",
+        "language": "en",
+        "excerpt": "Novel Grounding Benchmark Outperforms Previous Baselines",
+        "source_type": "news",
+        "notes": "Truncated duplicate of headline; insufficient evidence."
+      }
+    ]
+  }
+}
