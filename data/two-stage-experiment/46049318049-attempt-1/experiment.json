@@ -1,0 +1,3036 @@
+{
+  "created_at_utc": "2026-11-27T18:27:01.864037+00:00",
+  "domains": {
+    "agent-control-planes": {
+      "arms": {
+        "control": {
+          "actual_provider_requests": 9,
+          "actual_tokens_reported": 0,
+          "cache_hits": 0,
+          "cache_identity_sha256": "8b0039c1cfe4aa29ed58308b84698945e42483fe2e11eb772a550ab946f7c745",
+          "charged_token_estimate": 9216,
+          "decision_coverage_fraction": 0.0,
+          "decision_status_counts": {
+            "circuit_open": 21,
+            "invalid_or_unavailable": 3
+          },
+          "decisions": {
+            "78ec7e0944c9d32dd9c5cc8b": {
+              "claim-support": {
+                "actual_requests": 0,
+                "cache_hit": false,
+                "charged_tokens": 0,
+                "decision": null,
+                "estimated_tokens": 1023,
+                "provider": {
+                  "attempts": 0,
+                  "model": "alias-clef",
+                  "status": "circuit_open",
+                  "tokens": null
+                }
+              },
+              "hfs": {
+                "actual_requests": 0,
+                "cache_hit": false,
+                "charged_tokens": 0,
+                "decision": null,
+                "estimated_tokens": 1023,
+                "provider": {
+                  "attempts": 0,
+                  "model": "alias-clef",
+                  "status": "circuit_open",
+                  "tokens": null
+                }
+              },
+              "importance": {
+                "actual_requests": 0,
+                "cache_hit": false,
+                "charged_tokens": 0,
+                "decision": null,
+                "estimated_tokens": 1023,
+                "provider": {
+                  "attempts": 0,
+                  "model": "alias-clef",
+                  "status": "circuit_open",
+                  "tokens": null
+                }
+              },
+              "relevance": {
+                "actual_requests": 0,
+                "cache_hit": false,
+                "charged_tokens": 0,
+                "decision": null,
+                "estimated_tokens": 1023,
+                "provider": {
+                  "attempts": 0,
+                  "model": "alias-clef",
+                  "status": "circuit_open",
+                  "tokens": null
+                }
+              },
+              "same-story": {
+                "actual_requests": 0,
+                "cache_hit": false,
+                "charged_tokens": 0,
+                "decision": null,
+                "estimated_tokens": 1023,
+                "provider": {
+                  "attempts": 0,
+                  "model": "alias-clef",
+                  "status": "circuit_open",
+                  "tokens": null
+                }
+              },
+              "worth-attention": {
+                "actual_requests": 0,
+                "cache_hit": false,
+                "charged_tokens": 0,
+                "decision": null,
+                "estimated_tokens": 1023,
+                "provider": {
+                  "attempts": 0,
+                  "model": "alias-clef",
+                  "status": "circuit_open",
+                  "tokens": null
+                }
+              }
+            },
+            "a658d1fe7748cecbf7fa7e54": {
+              "claim-support": {
+                "actual_requests": 0,
+                "cache_hit": false,
+                "charged_tokens": 0,
+                "decision": null,
+                "estimated_tokens": 1003,
+                "provider": {
+                  "attempts": 0,
+                  "model": "alias-clef",
+                  "status": "circuit_open",
+                  "tokens": null
+                }
+              },
+              "hfs": {
+                "actual_requests": 0,
+                "cache_hit": false,
+                "charged_tokens": 0,
+                "decision": null,
+                "estimated_tokens": 1003,
+                "provider": {
+                  "attempts": 0,
+                  "model": "alias-clef",
+                  "status": "circuit_open",
+                  "tokens": null
+                }
+              },
+              "importance": {
+                "actual_requests": 0,
+                "cache_hit": false,
+                "charged_tokens": 0,
+                "decision": null,
+                "estimated_tokens": 1003,
+                "provider": {
+                  "attempts": 0,
+                  "model": "alias-clef",
+                  "status": "circuit_open",
+                  "tokens": null
+                }
+              },
+              "relevance": {
+                "actual_requests": 0,
+                "cache_hit": false,
+                "charged_tokens": 0,
+                "decision": null,
+                "estimated_tokens": 1003,
+                "provider": {
+                  "attempts": 0,
+                  "model": "alias-clef",
+                  "status": "circuit_open",
+                  "tokens": null
+                }
+              },
+              "same-story": {
+                "actual_requests": 0,
+                "cache_hit": false,
+                "charged_tokens": 0,
+                "decision": null,
+                "estimated_tokens": 1003,
+                "provider": {
+                  "attempts": 0,
+                  "model": "alias-clef",
+                  "status": "circuit_open",
+                  "tokens": null
+                }
+              },
+              "worth-attention": {
+                "actual_requests": 0,
+                "cache_hit": false,
+                "charged_tokens": 0,
+                "decision": null,
+                "estimated_tokens": 1003,
+                "provider": {
+                  "attempts": 0,
+                  "model": "alias-clef",
+                  "status": "circuit_open",
+                  "tokens": null
+                }
+              }
+            },
+            "ad10424adef96a6cca9762db": {
+              "claim-support": {
+                "actual_requests": 0,
+                "cache_hit": false,
+                "charged_tokens": 0,
+                "decision": null,
+                "estimated_tokens": 1021,
+                "provider": {
+                  "attempts": 0,
+                  "model": "alias-clef",
+                  "status": "circuit_open",
+                  "tokens": null
+                }
+              },
+              "hfs": {
+                "actual_requests": 0,
+                "cache_hit": false,
+                "charged_tokens": 0,
+                "decision": null,
+                "estimated_tokens": 1021,
+                "provider": {
+                  "attempts": 0,
+                  "model": "alias-clef",
+                  "status": "circuit_open",
+                  "tokens": null
+                }
+              },
+              "importance": {
+                "actual_requests": 0,
+                "cache_hit": false,
+                "charged_tokens": 0,
+                "decision": null,
+                "estimated_tokens": 1021,
+                "provider": {
+                  "attempts": 0,
+                  "model": "alias-clef",
+                  "status": "circuit_open",
+                  "tokens": null
+                }
+              },
+              "relevance": {
+                "actual_requests": 0,
+                "cache_hit": false,
+                "charged_tokens": 0,
+                "decision": null,
+                "estimated_tokens": 1021,
+                "provider": {
+                  "attempts": 0,
+                  "model": "alias-clef",
+                  "status": "circuit_open",
+                  "tokens": null
+                }
+              },
+              "same-story": {
+                "actual_requests": 0,
+                "cache_hit": false,
+                "charged_tokens": 0,
+                "decision": null,
+                "estimated_tokens": 1021,
+                "provider": {
+                  "attempts": 0,
+                  "model": "alias-clef",
+                  "status": "circuit_open",
+                  "tokens": null
+                }
+              },
+              "worth-attention": {
+                "actual_requests": 0,
+                "cache_hit": false,
+                "charged_tokens": 0,
+                "decision": null,
+                "estimated_tokens": 1021,
+                "provider": {
+                  "attempts": 0,
+                  "model": "alias-clef",
+                  "status": "circuit_open",
+                  "tokens": null
+                }
+              }
+            },
+            "d6ac02384dae1029b5271b54": {
+              "claim-support": {
+                "actual_requests": 0,
+                "cache_hit": false,
+                "charged_tokens": 0,
+                "decision": null,
+                "estimated_tokens": 1024,
+                "provider": {
+                  "attempts": 0,
+                  "model": "alias-clef",
+                  "status": "circuit_open",
+                  "tokens": null
+                }
+              },
+              "hfs": {
+                "actual_requests": 0,
+                "cache_hit": false,
+                "charged_tokens": 0,
+                "decision": null,
+                "estimated_tokens": 1024,
+                "provider": {
+                  "attempts": 0,
+                  "model": "alias-clef",
+                  "status": "circuit_open",
+                  "tokens": null
+                }
+              },
+              "importance": {
+                "actual_requests": 0,
+                "cache_hit": false,
+                "charged_tokens": 0,
+                "decision": null,
+                "estimated_tokens": 1024,
+                "provider": {
+                  "attempts": 0,
+                  "model": "alias-clef",
+                  "status": "circuit_open",
+                  "tokens": null
+                }
+              },
+              "relevance": {
+                "actual_requests": 3,
+                "cache_hit": false,
+                "charged_tokens": 3072,
+                "decision": null,
+                "estimated_tokens": 1024,
+                "provider": {
+                  "attempts": 3,
+                  "error_code": "HTTP_503",
+                  "latency_ms": 2824,
+                  "model": "alias-clef",
+                  "status": "invalid_or_unavailable",
+                  "tokens": null
+                }
+              },
+              "same-story": {
+                "actual_requests": 3,
+                "cache_hit": false,
+                "charged_tokens": 3072,
+                "decision": null,
+                "estimated_tokens": 1024,
+                "provider": {
+                  "attempts": 3,
+                  "error_code": "HTTP_503",
+                  "latency_ms": 2429,
+                  "model": "alias-clef",
+                  "status": "invalid_or_unavailable",
+                  "tokens": null
+                }
+              },
+              "worth-attention": {
+                "actual_requests": 3,
+                "cache_hit": false,
+                "charged_tokens": 3072,
+                "decision": null,
+                "estimated_tokens": 1024,
+                "provider": {
+                  "attempts": 3,
+                  "error_code": "HTTP_503",
+                  "latency_ms": 2438,
+                  "model": "alias-clef",
+                  "status": "invalid_or_unavailable",
+                  "tokens": null
+                }
+              }
+            }
+          },
+          "decisions_with_model_output": 0,
+          "expected_decisions": 24,
+          "latency_ms": {
+            "count": 3,
+            "max": 2824,
+            "mean": 2563.67,
+            "total": 7691
+          },
+          "request_cap": 27,
+          "requests_remaining": 18,
+          "routed_candidates": 4,
+          "token_budget_limit": 200000,
+          "token_budget_reserved": 30570,
+          "token_budget_used_fraction": 0.15285,
+          "token_usage_complete": false
+        },
+        "treatment": {
+          "actual_provider_requests": 9,
+          "actual_tokens_reported": 0,
+          "cache_hits": 0,
+          "cache_identity_sha256": "8b0039c1cfe4aa29ed58308b84698945e42483fe2e11eb772a550ab946f7c745",
+          "charged_token_estimate": 9414,
+          "decision_coverage_fraction": 0.0,
+          "decision_status_counts": {
+            "circuit_open": 9,
+            "invalid_or_unavailable": 3
+          },
+          "decisions": {
+            "80d91af702e9666269990ca9": {
+              "claim-support": {
+                "actual_requests": 0,
+                "cache_hit": false,
+                "charged_tokens": 0,
+                "decision": null,
+                "estimated_tokens": 1026,
+                "provider": {
+                  "attempts": 0,
+                  "model": "alias-clef",
+                  "status": "circuit_open",
+                  "tokens": null
+                }
+              },
+              "hfs": {
+                "actual_requests": 0,
+                "cache_hit": false,
+                "charged_tokens": 0,
+                "decision": null,
+                "estimated_tokens": 1026,
+                "provider": {
+                  "attempts": 0,
+                  "model": "alias-clef",
+                  "status": "circuit_open",
+                  "tokens": null
+                }
+              },
+              "importance": {
+                "actual_requests": 0,
+                "cache_hit": false,
+                "charged_tokens": 0,
+                "decision": null,
+                "estimated_tokens": 1026,
+                "provider": {
+                  "attempts": 0,
+                  "model": "alias-clef",
+                  "status": "circuit_open",
+                  "tokens": null
+                }
+              },
+              "relevance": {
+                "actual_requests": 0,
+                "cache_hit": false,
+                "charged_tokens": 0,
+                "decision": null,
+                "estimated_tokens": 1026,
+                "provider": {
+                  "attempts": 0,
+                  "model": "alias-clef",
+                  "status": "circuit_open",
+                  "tokens": null
+                }
+              },
+              "same-story": {
+                "actual_requests": 0,
+                "cache_hit": false,
+                "charged_tokens": 0,
+                "decision": null,
+                "estimated_tokens": 1026,
+                "provider": {
+                  "attempts": 0,
+                  "model": "alias-clef",
+                  "status": "circuit_open",
+                  "tokens": null
+                }
+              },
+              "worth-attention": {
+                "actual_requests": 0,
+                "cache_hit": false,
+                "charged_tokens": 0,
+                "decision": null,
+                "estimated_tokens": 1026,
+                "provider": {
+                  "attempts": 0,
+                  "model": "alias-clef",
+                  "status": "circuit_open",
+                  "tokens": null
+                }
+              }
+            },
+            "c69656d28a84dca626e01cf0": {
+              "claim-support": {
+                "actual_requests": 0,
+                "cache_hit": false,
+                "charged_tokens": 0,
+                "decision": null,
+                "estimated_tokens": 1046,
+                "provider": {
+                  "attempts": 0,
+                  "model": "alias-clef",
+                  "status": "circuit_open",
+                  "tokens": null
+                }
+              },
+              "hfs": {
+                "actual_requests": 0,
+                "cache_hit": false,
+                "charged_tokens": 0,
+                "decision": null,
+                "estimated_tokens": 1046,
+                "provider": {
+                  "attempts": 0,
+                  "model": "alias-clef",
+                  "status": "circuit_open",
+                  "tokens": null
+                }
+              },
+              "importance": {
+                "actual_requests": 0,
+                "cache_hit": false,
+                "charged_tokens": 0,
+                "decision": null,
+                "estimated_tokens": 1046,
+                "provider": {
+                  "attempts": 0,
+                  "model": "alias-clef",
+                  "status": "circuit_open",
+                  "tokens": null
+                }
+              },
+              "relevance": {
+                "actual_requests": 3,
+                "cache_hit": false,
+                "charged_tokens": 3138,
+                "decision": null,
+                "estimated_tokens": 1046,
+                "provider": {
+                  "attempts": 3,
+                  "error_code": "HTTP_503",
+                  "latency_ms": 2470,
+                  "model": "alias-clef",
+                  "status": "invalid_or_unavailable",
+                  "tokens": null
+                }
+              },
+              "same-story": {
+                "actual_requests": 3,
+                "cache_hit": false,
+                "charged_tokens": 3138,
+                "decision": null,
+                "estimated_tokens": 1046,
+                "provider": {
+                  "attempts": 3,
+                  "error_code": "HTTP_503",
+                  "latency_ms": 2425,
+                  "model": "alias-clef",
+                  "status": "invalid_or_unavailable",
+                  "tokens": null
+                }
+              },
+              "worth-attention": {
+                "actual_requests": 3,
+                "cache_hit": false,
+                "charged_tokens": 3138,
+                "decision": null,
+                "estimated_tokens": 1046,
+                "provider": {
+                  "attempts": 3,
+                  "error_code": "HTTP_503",
+                  "latency_ms": 2456,
+                  "model": "alias-clef",
+                  "status": "invalid_or_unavailable",
+                  "tokens": null
+                }
+              }
+            }
+          },
+          "decisions_with_model_output": 0,
+          "expected_decisions": 12,
+          "latency_ms": {
+            "count": 3,
+            "max": 2470,
+            "mean": 2450.33,
+            "total": 7351
+          },
+          "request_cap": 27,
+          "requests_remaining": 18,
+          "routed_candidates": 2,
+          "screened_out": [
+            {
+              "event_id": "ed1b865b79800fde7cc1d422",
+              "priority_score": 8,
+              "provider_calls": 0,
+              "status": "SCREENED_OUT_FOR_BUDGET"
+            },
+            {
+              "event_id": "4a9f981285c6d7981c9f99cc",
+              "priority_score": 0,
+              "provider_calls": 0,
+              "status": "SCREENED_OUT_FOR_BUDGET"
+            }
+          ],
+          "token_budget_limit": 200000,
+          "token_budget_reserved": 18708,
+          "token_budget_used_fraction": 0.09354,
+          "token_usage_complete": false
+        }
+      },
+      "collection": {
+        "additional_metrics": {
+          "invalid_public_urls": 0,
+          "not_in_review_inventory": 0,
+          "retrieved_items": 79
+        },
+        "collection_seconds": 1.773,
+        "error": null,
+        "excluded_nov9_events": 0,
+        "fresh_candidates": 79,
+        "retrieved_candidates": 79,
+        "selected_candidates": 8,
+        "source_metrics": [
+          {
+            "content_unchanged": false,
+            "error_code": null,
+            "items": 28,
+            "query": "(MCP OR \"agent orchestration\") (architecture OR durable)",
+            "source": "google_news",
+            "status": "ok"
+          },
+          {
+            "content_unchanged": false,
+            "error_code": null,
+            "items": 25,
+            "query": "\"KI-Agenten\" (MCP OR Orchestrierung OR Architektur)",
+            "source": "google_news",
+            "status": "ok"
+          },
+          {
+            "content_unchanged": false,
+            "error_code": null,
+            "items": 25,
+            "query": "\"agents IA\" (orchestration OR architecture OR MCP)",
+            "source": "google_news",
+            "status": "ok"
+          },
+          {
+            "content_unchanged": false,
+            "http_status": 200,
+            "items": 0,
+            "source": "github:microsoft/autogen",
+            "status": "ok"
+          },
+          {
+            "content_unchanged": false,
+            "http_status": 200,
+            "items": 1,
+            "source": "github:langchain-ai/langgraph",
+            "status": "ok"
+          }
+        ],
+        "unique_unseen_candidates": 79
+      },
+      "complete": true,
+      "domain": "agent-control-planes",
+      "excluded_event_ids_sha256": "a2bc56b893b836ff94e6d34944ca4463ef08d8e152c1d9a44fcf0ef90a5db953",
+      "policy_token_budget_per_arm": 200000,
+      "priority_scores": {
+        "4a9f981285c6d7981c9f99cc": 0,
+        "80d91af702e9666269990ca9": 0,
+        "c69656d28a84dca626e01cf0": 11,
+        "ed1b865b79800fde7cc1d422": 8
+      },
+      "profile_id": "examples/radar-agent-control-planes",
+      "protected_event_ids": [],
+      "request_cap_per_arm": 27,
+      "routed_treatment_event_ids": [
+        "c69656d28a84dca626e01cf0",
+        "80d91af702e9666269990ca9"
+      ],
+      "screened_out_event_ids": [
+        "ed1b865b79800fde7cc1d422",
+        "4a9f981285c6d7981c9f99cc"
+      ],
+      "split": {
+        "control_event_ids": [
+          "d6ac02384dae1029b5271b54",
+          "ad10424adef96a6cca9762db",
+          "78ec7e0944c9d32dd9c5cc8b",
+          "a658d1fe7748cecbf7fa7e54"
+        ],
+        "language_balance": {
+          "control": {
+            "unknown": 4
+          },
+          "treatment": {
+            "en": 1,
+            "unknown": 3
+          }
+        },
+        "source_type_balance": {
+          "control": {
+            "rss": 4
+          },
+          "treatment": {
+            "rss": 4
+          }
+        },
+        "treatment_event_ids": [
+          "ed1b865b79800fde7cc1d422",
+          "c69656d28a84dca626e01cf0",
+          "4a9f981285c6d7981c9f99cc",
+          "80d91af702e9666269990ca9"
+        ]
+      },
+      "status": "COMPLETE",
+      "status_reason": "Sufficient fresh candidates (8/8) and verified in-scope topical coverage."
+    },
+    "aux": {
+      "arms": {
+        "control": {
+          "actual_provider_requests": 9,
+          "actual_tokens_reported": 0,
+          "cache_hits": 0,
+          "cache_identity_sha256": "8b0039c1cfe4aa29ed58308b84698945e42483fe2e11eb772a550ab946f7c745",
+          "charged_token_estimate": 8226,
+          "decision_coverage_fraction": 0.0,
+          "decision_status_counts": {
+            "circuit_open": 21,
+            "invalid_or_unavailable": 3
+          },
+          "decisions": {
+            "190ae6379456463288864888": {
+              "claim-support": {
+                "actual_requests": 0,
+                "cache_hit": false,
+                "charged_tokens": 0,
+                "decision": null,
+                "estimated_tokens": 908,
+                "provider": {
+                  "attempts": 0,
+                  "model": "alias-clef",
+                  "status": "circuit_open",
+                  "tokens": null
+                }
+              },
+              "hfs": {
+                "actual_requests": 0,
+                "cache_hit": false,
+                "charged_tokens": 0,
+                "decision": null,
+                "estimated_tokens": 908,
+                "provider": {
+                  "attempts": 0,
+                  "model": "alias-clef",
+                  "status": "circuit_open",
+                  "tokens": null
+                }
+              },
+              "importance": {
+                "actual_requests": 0,
+                "cache_hit": false,
+                "charged_tokens": 0,
+                "decision": null,
+                "estimated_tokens": 908,
+                "provider": {
+                  "attempts": 0,
+                  "model": "alias-clef",
+                  "status": "circuit_open",
+                  "tokens": null
+                }
+              },
+              "relevance": {
+                "actual_requests": 0,
+                "cache_hit": false,
+                "charged_tokens": 0,
+                "decision": null,
+                "estimated_tokens": 908,
+                "provider": {
+                  "attempts": 0,
+                  "model": "alias-clef",
+                  "status": "circuit_open",
+                  "tokens": null
+                }
+              },
+              "same-story": {
+                "actual_requests": 0,
+                "cache_hit": false,
+                "charged_tokens": 0,
+                "decision": null,
+                "estimated_tokens": 908,
+                "provider": {
+                  "attempts": 0,
+                  "model": "alias-clef",
+                  "status": "circuit_open",
+                  "tokens": null
+                }
+              },
+              "worth-attention": {
+                "actual_requests": 0,
+                "cache_hit": false,
+                "charged_tokens": 0,
+                "decision": null,
+                "estimated_tokens": 908,
+                "provider": {
+                  "attempts": 0,
+                  "model": "alias-clef",
+                  "status": "circuit_open",
+                  "tokens": null
+                }
+              }
+            },
+            "5747ddc2cb4d70d6351e3fa2": {
+              "claim-support": {
+                "actual_requests": 0,
+                "cache_hit": false,
+                "charged_tokens": 0,
+                "decision": null,
+                "estimated_tokens": 914,
+                "provider": {
+                  "attempts": 0,
+                  "model": "alias-clef",
+                  "status": "circuit_open",
+                  "tokens": null
+                }
+              },
+              "hfs": {
+                "actual_requests": 0,
+                "cache_hit": false,
+                "charged_tokens": 0,
+                "decision": null,
+                "estimated_tokens": 914,
+                "provider": {
+                  "attempts": 0,
+                  "model": "alias-clef",
+                  "status": "circuit_open",
+                  "tokens": null
+                }
+              },
+              "importance": {
+                "actual_requests": 0,
+                "cache_hit": false,
+                "charged_tokens": 0,
+                "decision": null,
+                "estimated_tokens": 914,
+                "provider": {
+                  "attempts": 0,
+                  "model": "alias-clef",
+                  "status": "circuit_open",
+                  "tokens": null
+                }
+              },
+              "relevance": {
+                "actual_requests": 3,
+                "cache_hit": false,
+                "charged_tokens": 2742,
+                "decision": null,
+                "estimated_tokens": 914,
+                "provider": {
+                  "attempts": 3,
+                  "error_code": "HTTP_503",
+                  "latency_ms": 2451,
+                  "model": "alias-clef",
+                  "status": "invalid_or_unavailable",
+                  "tokens": null
+                }
+              },
+              "same-story": {
+                "actual_requests": 3,
+                "cache_hit": false,
+                "charged_tokens": 2742,
+                "decision": null,
+                "estimated_tokens": 914,
+                "provider": {
+                  "attempts": 3,
+                  "error_code": "HTTP_503",
+                  "latency_ms": 2574,
+                  "model": "alias-clef",
+                  "status": "invalid_or_unavailable",
+                  "tokens": null
+                }
+              },
+              "worth-attention": {
+                "actual_requests": 3,
+                "cache_hit": false,
+                "charged_tokens": 2742,
+                "decision": null,
+                "estimated_tokens": 914,
+                "provider": {
+                  "attempts": 3,
+                  "error_code": "HTTP_503",
+                  "latency_ms": 2430,
+                  "model": "alias-clef",
+                  "status": "invalid_or_unavailable",
+                  "tokens": null
+                }
+              }
+            },
+            "797b0d6f956f79cc1029dd89": {
+              "claim-support": {
+                "actual_requests": 0,
+                "cache_hit": false,
+                "charged_tokens": 0,
+                "decision": null,
+                "estimated_tokens": 919,
+                "provider": {
+                  "attempts": 0,
+                  "model": "alias-clef",
+                  "status": "circuit_open",
+                  "tokens": null
+                }
+              },
+              "hfs": {
+                "actual_requests": 0,
+                "cache_hit": false,
+                "charged_tokens": 0,
+                "decision": null,
+                "estimated_tokens": 919,
+                "provider": {
+                  "attempts": 0,
+                  "model": "alias-clef",
+                  "status": "circuit_open",
+                  "tokens": null
+                }
+              },
+              "importance": {
+                "actual_requests": 0,
+                "cache_hit": false,
+                "charged_tokens": 0,
+                "decision": null,
+                "estimated_tokens": 919,
+                "provider": {
+                  "attempts": 0,
+                  "model": "alias-clef",
+                  "status": "circuit_open",
+                  "tokens": null
+                }
+              },
+              "relevance": {
+                "actual_requests": 0,
+                "cache_hit": false,
+                "charged_tokens": 0,
+                "decision": null,
+                "estimated_tokens": 919,
+                "provider": {
+                  "attempts": 0,
+                  "model": "alias-clef",
+                  "status": "circuit_open",
+                  "tokens": null
+                }
+              },
+              "same-story": {
+                "actual_requests": 0,
+                "cache_hit": false,
+                "charged_tokens": 0,
+                "decision": null,
+                "estimated_tokens": 919,
+                "provider": {
+                  "attempts": 0,
+                  "model": "alias-clef",
+                  "status": "circuit_open",
+                  "tokens": null
+                }
+              },
+              "worth-attention": {
+                "actual_requests": 0,
+                "cache_hit": false,
+                "charged_tokens": 0,
+                "decision": null,
+                "estimated_tokens": 919,
+                "provider": {
+                  "attempts": 0,
+                  "model": "alias-clef",
+                  "status": "circuit_open",
+                  "tokens": null
+                }
+              }
+            },
+            "c9807a40fed8e13255351d98": {
+              "claim-support": {
+                "actual_requests": 0,
+                "cache_hit": false,
+                "charged_tokens": 0,
+                "decision": null,
+                "estimated_tokens": 896,
+                "provider": {
+                  "attempts": 0,
+                  "model": "alias-clef",
+                  "status": "circuit_open",
+                  "tokens": null
+                }
+              },
+              "hfs": {
+                "actual_requests": 0,
+                "cache_hit": false,
+                "charged_tokens": 0,
+                "decision": null,
+                "estimated_tokens": 896,
+                "provider": {
+                  "attempts": 0,
+                  "model": "alias-clef",
+                  "status": "circuit_open",
+                  "tokens": null
+                }
+              },
+              "importance": {
+                "actual_requests": 0,
+                "cache_hit": false,
+                "charged_tokens": 0,
+                "decision": null,
+                "estimated_tokens": 896,
+                "provider": {
+                  "attempts": 0,
+                  "model": "alias-clef",
+                  "status": "circuit_open",
+                  "tokens": null
+                }
+              },
+              "relevance": {
+                "actual_requests": 0,
+                "cache_hit": false,
+                "charged_tokens": 0,
+                "decision": null,
+                "estimated_tokens": 896,
+                "provider": {
+                  "attempts": 0,
+                  "model": "alias-clef",
+                  "status": "circuit_open",
+                  "tokens": null
+                }
+              },
+              "same-story": {
+                "actual_requests": 0,
+                "cache_hit": false,
+                "charged_tokens": 0,
+                "decision": null,
+                "estimated_tokens": 896,
+                "provider": {
+                  "attempts": 0,
+                  "model": "alias-clef",
+                  "status": "circuit_open",
+                  "tokens": null
+                }
+              },
+              "worth-attention": {
+                "actual_requests": 0,
+                "cache_hit": false,
+                "charged_tokens": 0,
+                "decision": null,
+                "estimated_tokens": 896,
+                "provider": {
+                  "attempts": 0,
+                  "model": "alias-clef",
+                  "status": "circuit_open",
+                  "tokens": null
+                }
+              }
+            }
+          },
+          "decisions_with_model_output": 0,
+          "expected_decisions": 24,
+          "latency_ms": {
+            "count": 3,
+            "max": 2574,
+            "mean": 2485.0,
+            "total": 7455
+          },
+          "request_cap": 27,
+          "requests_remaining": 18,
+          "routed_candidates": 4,
+          "token_budget_limit": 120000,
+          "token_budget_reserved": 27306,
+          "token_budget_used_fraction": 0.22755,
+          "token_usage_complete": false
+        },
+        "treatment": {
+          "actual_provider_requests": 9,
+          "actual_tokens_reported": 0,
+          "cache_hits": 0,
+          "cache_identity_sha256": "8b0039c1cfe4aa29ed58308b84698945e42483fe2e11eb772a550ab946f7c745",
+          "charged_token_estimate": 8406,
+          "decision_coverage_fraction": 0.0,
+          "decision_status_counts": {
+            "circuit_open": 9,
+            "invalid_or_unavailable": 3
+          },
+          "decisions": {
+            "12eab80bdeceaf0986c1417f": {
+              "claim-support": {
+                "actual_requests": 0,
+                "cache_hit": false,
+                "charged_tokens": 0,
+                "decision": null,
+                "estimated_tokens": 903,
+                "provider": {
+                  "attempts": 0,
+                  "model": "alias-clef",
+                  "status": "circuit_open",
+                  "tokens": null
+                }
+              },
+              "hfs": {
+                "actual_requests": 0,
+                "cache_hit": false,
+                "charged_tokens": 0,
+                "decision": null,
+                "estimated_tokens": 903,
+                "provider": {
+                  "attempts": 0,
+                  "model": "alias-clef",
+                  "status": "circuit_open",
+                  "tokens": null
+                }
+              },
+              "importance": {
+                "actual_requests": 0,
+                "cache_hit": false,
+                "charged_tokens": 0,
+                "decision": null,
+                "estimated_tokens": 903,
+                "provider": {
+                  "attempts": 0,
+                  "model": "alias-clef",
+                  "status": "circuit_open",
+                  "tokens": null
+                }
+              },
+              "relevance": {
+                "actual_requests": 0,
+                "cache_hit": false,
+                "charged_tokens": 0,
+                "decision": null,
+                "estimated_tokens": 903,
+                "provider": {
+                  "attempts": 0,
+                  "model": "alias-clef",
+                  "status": "circuit_open",
+                  "tokens": null
+                }
+              },
+              "same-story": {
+                "actual_requests": 0,
+                "cache_hit": false,
+                "charged_tokens": 0,
+                "decision": null,
+                "estimated_tokens": 903,
+                "provider": {
+                  "attempts": 0,
+                  "model": "alias-clef",
+                  "status": "circuit_open",
+                  "tokens": null
+                }
+              },
+              "worth-attention": {
+                "actual_requests": 0,
+                "cache_hit": false,
+                "charged_tokens": 0,
+                "decision": null,
+                "estimated_tokens": 903,
+                "provider": {
+                  "attempts": 0,
+                  "model": "alias-clef",
+                  "status": "circuit_open",
+                  "tokens": null
+                }
+              }
+            },
+            "f9468d52bed1580088e5d40e": {
+              "claim-support": {
+                "actual_requests": 0,
+                "cache_hit": false,
+                "charged_tokens": 0,
+                "decision": null,
+                "estimated_tokens": 934,
+                "provider": {
+                  "attempts": 0,
+                  "model": "alias-clef",
+                  "status": "circuit_open",
+                  "tokens": null
+                }
+              },
+              "hfs": {
+                "actual_requests": 0,
+                "cache_hit": false,
+                "charged_tokens": 0,
+                "decision": null,
+                "estimated_tokens": 934,
+                "provider": {
+                  "attempts": 0,
+                  "model": "alias-clef",
+                  "status": "circuit_open",
+                  "tokens": null
+                }
+              },
+              "importance": {
+                "actual_requests": 0,
+                "cache_hit": false,
+                "charged_tokens": 0,
+                "decision": null,
+                "estimated_tokens": 934,
+                "provider": {
+                  "attempts": 0,
+                  "model": "alias-clef",
+                  "status": "circuit_open",
+                  "tokens": null
+                }
+              },
+              "relevance": {
+                "actual_requests": 3,
+                "cache_hit": false,
+                "charged_tokens": 2802,
+                "decision": null,
+                "estimated_tokens": 934,
+                "provider": {
+                  "attempts": 3,
+                  "error_code": "HTTP_503",
+                  "latency_ms": 2429,
+                  "model": "alias-clef",
+                  "status": "invalid_or_unavailable",
+                  "tokens": null
+                }
+              },
+              "same-story": {
+                "actual_requests": 3,
+                "cache_hit": false,
+                "charged_tokens": 2802,
+                "decision": null,
+                "estimated_tokens": 934,
+                "provider": {
+                  "attempts": 3,
+                  "error_code": "HTTP_503",
+                  "latency_ms": 2458,
+                  "model": "alias-clef",
+                  "status": "invalid_or_unavailable",
+                  "tokens": null
+                }
+              },
+              "worth-attention": {
+                "actual_requests": 3,
+                "cache_hit": false,
+                "charged_tokens": 2802,
+                "decision": null,
+                "estimated_tokens": 934,
+                "provider": {
+                  "attempts": 3,
+                  "error_code": "HTTP_503",
+                  "latency_ms": 2421,
+                  "model": "alias-clef",
+                  "status": "invalid_or_unavailable",
+                  "tokens": null
+                }
+              }
+            }
+          },
+          "decisions_with_model_output": 0,
+          "expected_decisions": 12,
+          "latency_ms": {
+            "count": 3,
+            "max": 2458,
+            "mean": 2436.0,
+            "total": 7308
+          },
+          "request_cap": 27,
+          "requests_remaining": 18,
+          "routed_candidates": 2,
+          "screened_out": [
+            {
+              "event_id": "ef01c5b40c9d905d71e86ce1",
+              "priority_score": 129,
+              "provider_calls": 0,
+              "status": "SCREENED_OUT_FOR_BUDGET"
+            },
+            {
+              "event_id": "de76d8963fa596f4a7bd77f6",
+              "priority_score": 129,
+              "provider_calls": 0,
+              "status": "SCREENED_OUT_FOR_BUDGET"
+            }
+          ],
+          "token_budget_limit": 120000,
+          "token_budget_reserved": 16626,
+          "token_budget_used_fraction": 0.13855,
+          "token_usage_complete": false
+        }
+      },
+      "collection": {
+        "additional_metrics": {
+          "invalid_public_urls": 0,
+          "not_in_review_inventory": 0,
+          "retrieved_items": 31
+        },
+        "collection_seconds": 0.543,
+        "error": null,
+        "excluded_nov9_events": 0,
+        "fresh_candidates": 31,
+        "retrieved_candidates": 31,
+        "selected_candidates": 8,
+        "source_metrics": [
+          {
+            "error_code": null,
+            "items": 0,
+            "query": "AI usability accessibility agent browser testing",
+            "source": "google_news",
+            "status": "ok"
+          },
+          {
+            "error_code": null,
+            "items": 27,
+            "query": "(\"AI\" OR \"artificial intelligence\") (accessibility OR \"usability testing\" OR \"inclusive UX\")",
+            "source": "google_news",
+            "status": "ok"
+          },
+          {
+            "items": 4,
+            "source": "rss",
+            "status": "ok"
+          }
+        ],
+        "unique_unseen_candidates": 31
+      },
+      "complete": true,
+      "domain": "aux",
+      "excluded_event_ids_sha256": "a2bc56b893b836ff94e6d34944ca4463ef08d8e152c1d9a44fcf0ef90a5db953",
+      "policy_token_budget_per_arm": 120000,
+      "priority_scores": {
+        "12eab80bdeceaf0986c1417f": 129,
+        "de76d8963fa596f4a7bd77f6": 129,
+        "ef01c5b40c9d905d71e86ce1": 129,
+        "f9468d52bed1580088e5d40e": 130
+      },
+      "profile_id": "examples/ai-usability",
+      "protected_event_ids": [
+        "f9468d52bed1580088e5d40e",
+        "12eab80bdeceaf0986c1417f",
+        "5747ddc2cb4d70d6351e3fa2",
+        "190ae6379456463288864888",
+        "c9807a40fed8e13255351d98",
+        "797b0d6f956f79cc1029dd89",
+        "de76d8963fa596f4a7bd77f6",
+        "ef01c5b40c9d905d71e86ce1"
+      ],
+      "request_cap_per_arm": 27,
+      "routed_treatment_event_ids": [
+        "f9468d52bed1580088e5d40e",
+        "12eab80bdeceaf0986c1417f"
+      ],
+      "screened_out_event_ids": [
+        "ef01c5b40c9d905d71e86ce1",
+        "de76d8963fa596f4a7bd77f6"
+      ],
+      "split": {
+        "control_event_ids": [
+          "5747ddc2cb4d70d6351e3fa2",
+          "190ae6379456463288864888",
+          "c9807a40fed8e13255351d98",
+          "797b0d6f956f79cc1029dd89"
+        ],
+        "language_balance": {
+          "control": {
+            "unknown": 4
+          },
+          "treatment": {
+            "unknown": 4
+          }
+        },
+        "source_type_balance": {
+          "control": {
+            "google_news": 4
+          },
+          "treatment": {
+            "google_news": 4
+          }
+        },
+        "treatment_event_ids": [
+          "ef01c5b40c9d905d71e86ce1",
+          "f9468d52bed1580088e5d40e",
+          "12eab80bdeceaf0986c1417f",
+          "de76d8963fa596f4a7bd77f6"
+        ]
+      },
+      "status": "COMPLETE",
+      "status_reason": "Sufficient fresh candidates (8/8) and verified in-scope topical coverage."
+    },
+    "distributed-training": {
+      "arms": {
+        "control": {
+          "actual_provider_requests": 9,
+          "actual_tokens_reported": 0,
+          "cache_hits": 0,
+          "cache_identity_sha256": "8b0039c1cfe4aa29ed58308b84698945e42483fe2e11eb772a550ab946f7c745",
+          "charged_token_estimate": 9657,
+          "decision_coverage_fraction": 0.0,
+          "decision_status_counts": {
+            "circuit_open": 21,
+            "invalid_or_unavailable": 3
+          },
+          "decisions": {
+            "3300a94ea738d4726c47da7c": {
+              "claim-support": {
+                "actual_requests": 0,
+                "cache_hit": false,
+                "charged_tokens": 0,
+                "decision": null,
+                "estimated_tokens": 1073,
+                "provider": {
+                  "attempts": 0,
+                  "model": "alias-clef",
+                  "status": "circuit_open",
+                  "tokens": null
+                }
+              },
+              "hfs": {
+                "actual_requests": 0,
+                "cache_hit": false,
+                "charged_tokens": 0,
+                "decision": null,
+                "estimated_tokens": 1073,
+                "provider": {
+                  "attempts": 0,
+                  "model": "alias-clef",
+                  "status": "circuit_open",
+                  "tokens": null
+                }
+              },
+              "importance": {
+                "actual_requests": 0,
+                "cache_hit": false,
+                "charged_tokens": 0,
+                "decision": null,
+                "estimated_tokens": 1073,
+                "provider": {
+                  "attempts": 0,
+                  "model": "alias-clef",
+                  "status": "circuit_open",
+                  "tokens": null
+                }
+              },
+              "relevance": {
+                "actual_requests": 3,
+                "cache_hit": false,
+                "charged_tokens": 3219,
+                "decision": null,
+                "estimated_tokens": 1073,
+                "provider": {
+                  "attempts": 3,
+                  "error_code": "HTTP_503",
+                  "latency_ms": 2410,
+                  "model": "alias-clef",
+                  "status": "invalid_or_unavailable",
+                  "tokens": null
+                }
+              },
+              "same-story": {
+                "actual_requests": 3,
+                "cache_hit": false,
+                "charged_tokens": 3219,
+                "decision": null,
+                "estimated_tokens": 1073,
+                "provider": {
+                  "attempts": 3,
+                  "error_code": "HTTP_503",
+                  "latency_ms": 2414,
+                  "model": "alias-clef",
+                  "status": "invalid_or_unavailable",
+                  "tokens": null
+                }
+              },
+              "worth-attention": {
+                "actual_requests": 3,
+                "cache_hit": false,
+                "charged_tokens": 3219,
+                "decision": null,
+                "estimated_tokens": 1073,
+                "provider": {
+                  "attempts": 3,
+                  "error_code": "HTTP_503",
+                  "latency_ms": 2418,
+                  "model": "alias-clef",
+                  "status": "invalid_or_unavailable",
+                  "tokens": null
+                }
+              }
+            },
+            "5a98e90865a8dcf7aac73817": {
+              "claim-support": {
+                "actual_requests": 0,
+                "cache_hit": false,
+                "charged_tokens": 0,
+                "decision": null,
+                "estimated_tokens": 1035,
+                "provider": {
+                  "attempts": 0,
+                  "model": "alias-clef",
+                  "status": "circuit_open",
+                  "tokens": null
+                }
+              },
+              "hfs": {
+                "actual_requests": 0,
+                "cache_hit": false,
+                "charged_tokens": 0,
+                "decision": null,
+                "estimated_tokens": 1035,
+                "provider": {
+                  "attempts": 0,
+                  "model": "alias-clef",
+                  "status": "circuit_open",
+                  "tokens": null
+                }
+              },
+              "importance": {
+                "actual_requests": 0,
+                "cache_hit": false,
+                "charged_tokens": 0,
+                "decision": null,
+                "estimated_tokens": 1035,
+                "provider": {
+                  "attempts": 0,
+                  "model": "alias-clef",
+                  "status": "circuit_open",
+                  "tokens": null
+                }
+              },
+              "relevance": {
+                "actual_requests": 0,
+                "cache_hit": false,
+                "charged_tokens": 0,
+                "decision": null,
+                "estimated_tokens": 1035,
+                "provider": {
+                  "attempts": 0,
+                  "model": "alias-clef",
+                  "status": "circuit_open",
+                  "tokens": null
+                }
+              },
+              "same-story": {
+                "actual_requests": 0,
+                "cache_hit": false,
+                "charged_tokens": 0,
+                "decision": null,
+                "estimated_tokens": 1035,
+                "provider": {
+                  "attempts": 0,
+                  "model": "alias-clef",
+                  "status": "circuit_open",
+                  "tokens": null
+                }
+              },
+              "worth-attention": {
+                "actual_requests": 0,
+                "cache_hit": false,
+                "charged_tokens": 0,
+                "decision": null,
+                "estimated_tokens": 1035,
+                "provider": {
+                  "attempts": 0,
+                  "model": "alias-clef",
+                  "status": "circuit_open",
+                  "tokens": null
+                }
+              }
+            },
+            "a08384334a1498e07f6a72b7": {
+              "claim-support": {
+                "actual_requests": 0,
+                "cache_hit": false,
+                "charged_tokens": 0,
+                "decision": null,
+                "estimated_tokens": 1019,
+                "provider": {
+                  "attempts": 0,
+                  "model": "alias-clef",
+                  "status": "circuit_open",
+                  "tokens": null
+                }
+              },
+              "hfs": {
+                "actual_requests": 0,
+                "cache_hit": false,
+                "charged_tokens": 0,
+                "decision": null,
+                "estimated_tokens": 1019,
+                "provider": {
+                  "attempts": 0,
+                  "model": "alias-clef",
+                  "status": "circuit_open",
+                  "tokens": null
+                }
+              },
+              "importance": {
+                "actual_requests": 0,
+                "cache_hit": false,
+                "charged_tokens": 0,
+                "decision": null,
+                "estimated_tokens": 1019,
+                "provider": {
+                  "attempts": 0,
+                  "model": "alias-clef",
+                  "status": "circuit_open",
+                  "tokens": null
+                }
+              },
+              "relevance": {
+                "actual_requests": 0,
+                "cache_hit": false,
+                "charged_tokens": 0,
+                "decision": null,
+                "estimated_tokens": 1019,
+                "provider": {
+                  "attempts": 0,
+                  "model": "alias-clef",
+                  "status": "circuit_open",
+                  "tokens": null
+                }
+              },
+              "same-story": {
+                "actual_requests": 0,
+                "cache_hit": false,
+                "charged_tokens": 0,
+                "decision": null,
+                "estimated_tokens": 1019,
+                "provider": {
+                  "attempts": 0,
+                  "model": "alias-clef",
+                  "status": "circuit_open",
+                  "tokens": null
+                }
+              },
+              "worth-attention": {
+                "actual_requests": 0,
+                "cache_hit": false,
+                "charged_tokens": 0,
+                "decision": null,
+                "estimated_tokens": 1019,
+                "provider": {
+                  "attempts": 0,
+                  "model": "alias-clef",
+                  "status": "circuit_open",
+                  "tokens": null
+                }
+              }
+            },
+            "aa0954ffa7a5ade1ce8e43de": {
+              "claim-support": {
+                "actual_requests": 0,
+                "cache_hit": false,
+                "charged_tokens": 0,
+                "decision": null,
+                "estimated_tokens": 1042,
+                "provider": {
+                  "attempts": 0,
+                  "model": "alias-clef",
+                  "status": "circuit_open",
+                  "tokens": null
+                }
+              },
+              "hfs": {
+                "actual_requests": 0,
+                "cache_hit": false,
+                "charged_tokens": 0,
+                "decision": null,
+                "estimated_tokens": 1042,
+                "provider": {
+                  "attempts": 0,
+                  "model": "alias-clef",
+                  "status": "circuit_open",
+                  "tokens": null
+                }
+              },
+              "importance": {
+                "actual_requests": 0,
+                "cache_hit": false,
+                "charged_tokens": 0,
+                "decision": null,
+                "estimated_tokens": 1042,
+                "provider": {
+                  "attempts": 0,
+                  "model": "alias-clef",
+                  "status": "circuit_open",
+                  "tokens": null
+                }
+              },
+              "relevance": {
+                "actual_requests": 0,
+                "cache_hit": false,
+                "charged_tokens": 0,
+                "decision": null,
+                "estimated_tokens": 1042,
+                "provider": {
+                  "attempts": 0,
+                  "model": "alias-clef",
+                  "status": "circuit_open",
+                  "tokens": null
+                }
+              },
+              "same-story": {
+                "actual_requests": 0,
+                "cache_hit": false,
+                "charged_tokens": 0,
+                "decision": null,
+                "estimated_tokens": 1042,
+                "provider": {
+                  "attempts": 0,
+                  "model": "alias-clef",
+                  "status": "circuit_open",
+                  "tokens": null
+                }
+              },
+              "worth-attention": {
+                "actual_requests": 0,
+                "cache_hit": false,
+                "charged_tokens": 0,
+                "decision": null,
+                "estimated_tokens": 1042,
+                "provider": {
+                  "attempts": 0,
+                  "model": "alias-clef",
+                  "status": "circuit_open",
+                  "tokens": null
+                }
+              }
+            }
+          },
+          "decisions_with_model_output": 0,
+          "expected_decisions": 24,
+          "latency_ms": {
+            "count": 3,
+            "max": 2418,
+            "mean": 2414.0,
+            "total": 7242
+          },
+          "request_cap": 27,
+          "requests_remaining": 18,
+          "routed_candidates": 4,
+          "token_budget_limit": 200000,
+          "token_budget_reserved": 31452,
+          "token_budget_used_fraction": 0.15726,
+          "token_usage_complete": false
+        },
+        "treatment": {
+          "actual_provider_requests": 9,
+          "actual_tokens_reported": 0,
+          "cache_hits": 0,
+          "cache_identity_sha256": "8b0039c1cfe4aa29ed58308b84698945e42483fe2e11eb772a550ab946f7c745",
+          "charged_token_estimate": 9423,
+          "decision_coverage_fraction": 0.0,
+          "decision_status_counts": {
+            "circuit_open": 9,
+            "invalid_or_unavailable": 3
+          },
+          "decisions": {
+            "2a2b497161c9f92baa949387": {
+              "claim-support": {
+                "actual_requests": 0,
+                "cache_hit": false,
+                "charged_tokens": 0,
+                "decision": null,
+                "estimated_tokens": 1057,
+                "provider": {
+                  "attempts": 0,
+                  "model": "alias-clef",
+                  "status": "circuit_open",
+                  "tokens": null
+                }
+              },
+              "hfs": {
+                "actual_requests": 0,
+                "cache_hit": false,
+                "charged_tokens": 0,
+                "decision": null,
+                "estimated_tokens": 1057,
+                "provider": {
+                  "attempts": 0,
+                  "model": "alias-clef",
+                  "status": "circuit_open",
+                  "tokens": null
+                }
+              },
+              "importance": {
+                "actual_requests": 0,
+                "cache_hit": false,
+                "charged_tokens": 0,
+                "decision": null,
+                "estimated_tokens": 1057,
+                "provider": {
+                  "attempts": 0,
+                  "model": "alias-clef",
+                  "status": "circuit_open",
+                  "tokens": null
+                }
+              },
+              "relevance": {
+                "actual_requests": 0,
+                "cache_hit": false,
+                "charged_tokens": 0,
+                "decision": null,
+                "estimated_tokens": 1057,
+                "provider": {
+                  "attempts": 0,
+                  "model": "alias-clef",
+                  "status": "circuit_open",
+                  "tokens": null
+                }
+              },
+              "same-story": {
+                "actual_requests": 0,
+                "cache_hit": false,
+                "charged_tokens": 0,
+                "decision": null,
+                "estimated_tokens": 1057,
+                "provider": {
+                  "attempts": 0,
+                  "model": "alias-clef",
+                  "status": "circuit_open",
+                  "tokens": null
+                }
+              },
+              "worth-attention": {
+                "actual_requests": 0,
+                "cache_hit": false,
+                "charged_tokens": 0,
+                "decision": null,
+                "estimated_tokens": 1057,
+                "provider": {
+                  "attempts": 0,
+                  "model": "alias-clef",
+                  "status": "circuit_open",
+                  "tokens": null
+                }
+              }
+            },
+            "530bb27a23b22ba59bc798bf": {
+              "claim-support": {
+                "actual_requests": 0,
+                "cache_hit": false,
+                "charged_tokens": 0,
+                "decision": null,
+                "estimated_tokens": 1047,
+                "provider": {
+                  "attempts": 0,
+                  "model": "alias-clef",
+                  "status": "circuit_open",
+                  "tokens": null
+                }
+              },
+              "hfs": {
+                "actual_requests": 0,
+                "cache_hit": false,
+                "charged_tokens": 0,
+                "decision": null,
+                "estimated_tokens": 1047,
+                "provider": {
+                  "attempts": 0,
+                  "model": "alias-clef",
+                  "status": "circuit_open",
+                  "tokens": null
+                }
+              },
+              "importance": {
+                "actual_requests": 0,
+                "cache_hit": false,
+                "charged_tokens": 0,
+                "decision": null,
+                "estimated_tokens": 1047,
+                "provider": {
+                  "attempts": 0,
+                  "model": "alias-clef",
+                  "status": "circuit_open",
+                  "tokens": null
+                }
+              },
+              "relevance": {
+                "actual_requests": 3,
+                "cache_hit": false,
+                "charged_tokens": 3141,
+                "decision": null,
+                "estimated_tokens": 1047,
+                "provider": {
+                  "attempts": 3,
+                  "error_code": "HTTP_503",
+                  "latency_ms": 2427,
+                  "model": "alias-clef",
+                  "status": "invalid_or_unavailable",
+                  "tokens": null
+                }
+              },
+              "same-story": {
+                "actual_requests": 3,
+                "cache_hit": false,
+                "charged_tokens": 3141,
+                "decision": null,
+                "estimated_tokens": 1047,
+                "provider": {
+                  "attempts": 3,
+                  "error_code": "HTTP_503",
+                  "latency_ms": 2429,
+                  "model": "alias-clef",
+                  "status": "invalid_or_unavailable",
+                  "tokens": null
+                }
+              },
+              "worth-attention": {
+                "actual_requests": 3,
+                "cache_hit": false,
+                "charged_tokens": 3141,
+                "decision": null,
+                "estimated_tokens": 1047,
+                "provider": {
+                  "attempts": 3,
+                  "error_code": "HTTP_503",
+                  "latency_ms": 2428,
+                  "model": "alias-clef",
+                  "status": "invalid_or_unavailable",
+                  "tokens": null
+                }
+              }
+            }
+          },
+          "decisions_with_model_output": 0,
+          "expected_decisions": 12,
+          "latency_ms": {
+            "count": 3,
+            "max": 2429,
+            "mean": 2428.0,
+            "total": 7284
+          },
+          "request_cap": 27,
+          "requests_remaining": 18,
+          "routed_candidates": 2,
+          "screened_out": [
+            {
+              "event_id": "f54df40bcfcbcf9207ec7fa3",
+              "priority_score": 0,
+              "provider_calls": 0,
+              "status": "SCREENED_OUT_FOR_BUDGET"
+            },
+            {
+              "event_id": "7e4d03dbb206da7360cc637b",
+              "priority_score": 2,
+              "provider_calls": 0,
+              "status": "SCREENED_OUT_FOR_BUDGET"
+            }
+          ],
+          "token_budget_limit": 200000,
+          "token_budget_reserved": 18906,
+          "token_budget_used_fraction": 0.09453,
+          "token_usage_complete": false
+        }
+      },
+      "collection": {
+        "additional_metrics": {
+          "invalid_public_urls": 0,
+          "not_in_review_inventory": 0,
+          "retrieved_items": 8
+        },
+        "collection_seconds": 1.455,
+        "error": null,
+        "excluded_nov9_events": 0,
+        "fresh_candidates": 8,
+        "retrieved_candidates": 8,
+        "selected_candidates": 8,
+        "source_metrics": [
+          {
+            "content_unchanged": false,
+            "error_code": null,
+            "items": 4,
+            "query": "FSDP OR \"distributed training\" OR \"tensor parallelism\"",
+            "source": "google_news",
+            "status": "ok"
+          },
+          {
+            "content_unchanged": false,
+            "error_code": null,
+            "items": 2,
+            "query": "(\"KI-Training\" OR \"verteiltes Training\" OR Tensorparallelität) (GPU OR Cluster OR Speicher)",
+            "source": "google_news",
+            "status": "ok"
+          },
+          {
+            "content_unchanged": false,
+            "error_code": null,
+            "items": 2,
+            "query": "(\"entraînement distribué\" OR \"entraînement IA\" OR \"entraînement des modèles\") (GPU OR cluster OR mémoire)",
+            "source": "google_news",
+            "status": "ok"
+          },
+          {
+            "content_unchanged": false,
+            "http_status": 200,
+            "items": 0,
+            "source": "github:pytorch/pytorch",
+            "status": "ok"
+          },
+          {
+            "content_unchanged": false,
+            "http_status": 200,
+            "items": 0,
+            "source": "github:huggingface/accelerate",
+            "status": "ok"
+          }
+        ],
+        "unique_unseen_candidates": 8
+      },
+      "complete": true,
+      "domain": "distributed-training",
+      "excluded_event_ids_sha256": "a2bc56b893b836ff94e6d34944ca4463ef08d8e152c1d9a44fcf0ef90a5db953",
+      "policy_token_budget_per_arm": 200000,
+      "priority_scores": {
+        "2a2b497161c9f92baa949387": 8,
+        "530bb27a23b22ba59bc798bf": 8,
+        "7e4d03dbb206da7360cc637b": 2,
+        "f54df40bcfcbcf9207ec7fa3": 0
+      },
+      "profile_id": "examples/radar-distributed-training",
+      "protected_event_ids": [],
+      "request_cap_per_arm": 27,
+      "routed_treatment_event_ids": [
+        "530bb27a23b22ba59bc798bf",
+        "2a2b497161c9f92baa949387"
+      ],
+      "screened_out_event_ids": [
+        "f54df40bcfcbcf9207ec7fa3",
+        "7e4d03dbb206da7360cc637b"
+      ],
+      "split": {
+        "control_event_ids": [
+          "3300a94ea738d4726c47da7c",
+          "5a98e90865a8dcf7aac73817",
+          "a08384334a1498e07f6a72b7",
+          "aa0954ffa7a5ade1ce8e43de"
+        ],
+        "language_balance": {
+          "control": {
+            "unknown": 4
+          },
+          "treatment": {
+            "de": 1,
+            "unknown": 3
+          }
+        },
+        "source_type_balance": {
+          "control": {
+            "rss": 4
+          },
+          "treatment": {
+            "rss": 4
+          }
+        },
+        "treatment_event_ids": [
+          "f54df40bcfcbcf9207ec7fa3",
+          "7e4d03dbb206da7360cc637b",
+          "2a2b497161c9f92baa949387",
+          "530bb27a23b22ba59bc798bf"
+        ]
+      },
+      "status": "COMPLETE",
+      "status_reason": "Sufficient fresh candidates (8/8) and verified in-scope topical coverage."
+    },
+    "rag-memory": {
+      "arms": {
+        "control": {
+          "actual_provider_requests": 9,
+          "actual_tokens_reported": 0,
+          "cache_hits": 0,
+          "cache_identity_sha256": "8b0039c1cfe4aa29ed58308b84698945e42483fe2e11eb772a550ab946f7c745",
+          "charged_token_estimate": 9234,
+          "decision_coverage_fraction": 0.0,
+          "decision_status_counts": {
+            "circuit_open": 21,
+            "invalid_or_unavailable": 3
+          },
+          "decisions": {
+            "748bf81d3d0d6fa9a31ad7a1": {
+              "claim-support": {
+                "actual_requests": 0,
+                "cache_hit": false,
+                "charged_tokens": 0,
+                "decision": null,
+                "estimated_tokens": 1026,
+                "provider": {
+                  "attempts": 0,
+                  "model": "alias-clef",
+                  "status": "circuit_open",
+                  "tokens": null
+                }
+              },
+              "hfs": {
+                "actual_requests": 0,
+                "cache_hit": false,
+                "charged_tokens": 0,
+                "decision": null,
+                "estimated_tokens": 1026,
+                "provider": {
+                  "attempts": 0,
+                  "model": "alias-clef",
+                  "status": "circuit_open",
+                  "tokens": null
+                }
+              },
+              "importance": {
+                "actual_requests": 0,
+                "cache_hit": false,
+                "charged_tokens": 0,
+                "decision": null,
+                "estimated_tokens": 1026,
+                "provider": {
+                  "attempts": 0,
+                  "model": "alias-clef",
+                  "status": "circuit_open",
+                  "tokens": null
+                }
+              },
+              "relevance": {
+                "actual_requests": 3,
+                "cache_hit": false,
+                "charged_tokens": 3078,
+                "decision": null,
+                "estimated_tokens": 1026,
+                "provider": {
+                  "attempts": 3,
+                  "error_code": "HTTP_503",
+                  "latency_ms": 2465,
+                  "model": "alias-clef",
+                  "status": "invalid_or_unavailable",
+                  "tokens": null
+                }
+              },
+              "same-story": {
+                "actual_requests": 3,
+                "cache_hit": false,
+                "charged_tokens": 3078,
+                "decision": null,
+                "estimated_tokens": 1026,
+                "provider": {
+                  "attempts": 3,
+                  "error_code": "HTTP_503",
+                  "latency_ms": 2442,
+                  "model": "alias-clef",
+                  "status": "invalid_or_unavailable",
+                  "tokens": null
+                }
+              },
+              "worth-attention": {
+                "actual_requests": 3,
+                "cache_hit": false,
+                "charged_tokens": 3078,
+                "decision": null,
+                "estimated_tokens": 1026,
+                "provider": {
+                  "attempts": 3,
+                  "error_code": "HTTP_503",
+                  "latency_ms": 2435,
+                  "model": "alias-clef",
+                  "status": "invalid_or_unavailable",
+                  "tokens": null
+                }
+              }
+            },
+            "9cf1ea8eacb8cd7776b39e33": {
+              "claim-support": {
+                "actual_requests": 0,
+                "cache_hit": false,
+                "charged_tokens": 0,
+                "decision": null,
+                "estimated_tokens": 1052,
+                "provider": {
+                  "attempts": 0,
+                  "model": "alias-clef",
+                  "status": "circuit_open",
+                  "tokens": null
+                }
+              },
+              "hfs": {
+                "actual_requests": 0,
+                "cache_hit": false,
+                "charged_tokens": 0,
+                "decision": null,
+                "estimated_tokens": 1052,
+                "provider": {
+                  "attempts": 0,
+                  "model": "alias-clef",
+                  "status": "circuit_open",
+                  "tokens": null
+                }
+              },
+              "importance": {
+                "actual_requests": 0,
+                "cache_hit": false,
+                "charged_tokens": 0,
+                "decision": null,
+                "estimated_tokens": 1052,
+                "provider": {
+                  "attempts": 0,
+                  "model": "alias-clef",
+                  "status": "circuit_open",
+                  "tokens": null
+                }
+              },
+              "relevance": {
+                "actual_requests": 0,
+                "cache_hit": false,
+                "charged_tokens": 0,
+                "decision": null,
+                "estimated_tokens": 1052,
+                "provider": {
+                  "attempts": 0,
+                  "model": "alias-clef",
+                  "status": "circuit_open",
+                  "tokens": null
+                }
+              },
+              "same-story": {
+                "actual_requests": 0,
+                "cache_hit": false,
+                "charged_tokens": 0,
+                "decision": null,
+                "estimated_tokens": 1052,
+                "provider": {
+                  "attempts": 0,
+                  "model": "alias-clef",
+                  "status": "circuit_open",
+                  "tokens": null
+                }
+              },
+              "worth-attention": {
+                "actual_requests": 0,
+                "cache_hit": false,
+                "charged_tokens": 0,
+                "decision": null,
+                "estimated_tokens": 1052,
+                "provider": {
+                  "attempts": 0,
+                  "model": "alias-clef",
+                  "status": "circuit_open",
+                  "tokens": null
+                }
+              }
+            },
+            "c36030c5dc637b1c4cf312aa": {
+              "claim-support": {
+                "actual_requests": 0,
+                "cache_hit": false,
+                "charged_tokens": 0,
+                "decision": null,
+                "estimated_tokens": 1056,
+                "provider": {
+                  "attempts": 0,
+                  "model": "alias-clef",
+                  "status": "circuit_open",
+                  "tokens": null
+                }
+              },
+              "hfs": {
+                "actual_requests": 0,
+                "cache_hit": false,
+                "charged_tokens": 0,
+                "decision": null,
+                "estimated_tokens": 1056,
+                "provider": {
+                  "attempts": 0,
+                  "model": "alias-clef",
+                  "status": "circuit_open",
+                  "tokens": null
+                }
+              },
+              "importance": {
+                "actual_requests": 0,
+                "cache_hit": false,
+                "charged_tokens": 0,
+                "decision": null,
+                "estimated_tokens": 1056,
+                "provider": {
+                  "attempts": 0,
+                  "model": "alias-clef",
+                  "status": "circuit_open",
+                  "tokens": null
+                }
+              },
+              "relevance": {
+                "actual_requests": 0,
+                "cache_hit": false,
+                "charged_tokens": 0,
+                "decision": null,
+                "estimated_tokens": 1056,
+                "provider": {
+                  "attempts": 0,
+                  "model": "alias-clef",
+                  "status": "circuit_open",
+                  "tokens": null
+                }
+              },
+              "same-story": {
+                "actual_requests": 0,
+                "cache_hit": false,
+                "charged_tokens": 0,
+                "decision": null,
+                "estimated_tokens": 1056,
+                "provider": {
+                  "attempts": 0,
+                  "model": "alias-clef",
+                  "status": "circuit_open",
+                  "tokens": null
+                }
+              },
+              "worth-attention": {
+                "actual_requests": 0,
+                "cache_hit": false,
+                "charged_tokens": 0,
+                "decision": null,
+                "estimated_tokens": 1056,
+                "provider": {
+                  "attempts": 0,
+                  "model": "alias-clef",
+                  "status": "circuit_open",
+                  "tokens": null
+                }
+              }
+            },
+            "f9bd82dcc84144a976df35dd": {
+              "claim-support": {
+                "actual_requests": 0,
+                "cache_hit": false,
+                "charged_tokens": 0,
+                "decision": null,
+                "estimated_tokens": 1054,
+                "provider": {
+                  "attempts": 0,
+                  "model": "alias-clef",
+                  "status": "circuit_open",
+                  "tokens": null
+                }
+              },
+              "hfs": {
+                "actual_requests": 0,
+                "cache_hit": false,
+                "charged_tokens": 0,
+                "decision": null,
+                "estimated_tokens": 1054,
+                "provider": {
+                  "attempts": 0,
+                  "model": "alias-clef",
+                  "status": "circuit_open",
+                  "tokens": null
+                }
+              },
+              "importance": {
+                "actual_requests": 0,
+                "cache_hit": false,
+                "charged_tokens": 0,
+                "decision": null,
+                "estimated_tokens": 1054,
+                "provider": {
+                  "attempts": 0,
+                  "model": "alias-clef",
+                  "status": "circuit_open",
+                  "tokens": null
+                }
+              },
+              "relevance": {
+                "actual_requests": 0,
+                "cache_hit": false,
+                "charged_tokens": 0,
+                "decision": null,
+                "estimated_tokens": 1054,
+                "provider": {
+                  "attempts": 0,
+                  "model": "alias-clef",
+                  "status": "circuit_open",
+                  "tokens": null
+                }
+              },
+              "same-story": {
+                "actual_requests": 0,
+                "cache_hit": false,
+                "charged_tokens": 0,
+                "decision": null,
+                "estimated_tokens": 1054,
+                "provider": {
+                  "attempts": 0,
+                  "model": "alias-clef",
+                  "status": "circuit_open",
+                  "tokens": null
+                }
+              },
+              "worth-attention": {
+                "actual_requests": 0,
+                "cache_hit": false,
+                "charged_tokens": 0,
+                "decision": null,
+                "estimated_tokens": 1054,
+                "provider": {
+                  "attempts": 0,
+                  "model": "alias-clef",
+                  "status": "circuit_open",
+                  "tokens": null
+                }
+              }
+            }
+          },
+          "decisions_with_model_output": 0,
+          "expected_decisions": 24,
+          "latency_ms": {
+            "count": 3,
+            "max": 2465,
+            "mean": 2447.33,
+            "total": 7342
+          },
+          "request_cap": 27,
+          "requests_remaining": 18,
+          "routed_candidates": 4,
+          "token_budget_limit": 200000,
+          "token_budget_reserved": 31284,
+          "token_budget_used_fraction": 0.15642,
+          "token_usage_complete": false
+        },
+        "treatment": {
+          "actual_provider_requests": 9,
+          "actual_tokens_reported": 0,
+          "cache_hits": 0,
+          "cache_identity_sha256": "8b0039c1cfe4aa29ed58308b84698945e42483fe2e11eb772a550ab946f7c745",
+          "charged_token_estimate": 9261,
+          "decision_coverage_fraction": 0.0,
+          "decision_status_counts": {
+            "circuit_open": 9,
+            "invalid_or_unavailable": 3
+          },
+          "decisions": {
+            "1a805c2fbee36e373fda9074": {
+              "claim-support": {
+                "actual_requests": 0,
+                "cache_hit": false,
+                "charged_tokens": 0,
+                "decision": null,
+                "estimated_tokens": 999,
+                "provider": {
+                  "attempts": 0,
+                  "model": "alias-clef",
+                  "status": "circuit_open",
+                  "tokens": null
+                }
+              },
+              "hfs": {
+                "actual_requests": 0,
+                "cache_hit": false,
+                "charged_tokens": 0,
+                "decision": null,
+                "estimated_tokens": 999,
+                "provider": {
+                  "attempts": 0,
+                  "model": "alias-clef",
+                  "status": "circuit_open",
+                  "tokens": null
+                }
+              },
+              "importance": {
+                "actual_requests": 0,
+                "cache_hit": false,
+                "charged_tokens": 0,
+                "decision": null,
+                "estimated_tokens": 999,
+                "provider": {
+                  "attempts": 0,
+                  "model": "alias-clef",
+                  "status": "circuit_open",
+                  "tokens": null
+                }
+              },
+              "relevance": {
+                "actual_requests": 0,
+                "cache_hit": false,
+                "charged_tokens": 0,
+                "decision": null,
+                "estimated_tokens": 999,
+                "provider": {
+                  "attempts": 0,
+                  "model": "alias-clef",
+                  "status": "circuit_open",
+                  "tokens": null
+                }
+              },
+              "same-story": {
+                "actual_requests": 0,
+                "cache_hit": false,
+                "charged_tokens": 0,
+                "decision": null,
+                "estimated_tokens": 999,
+                "provider": {
+                  "attempts": 0,
+                  "model": "alias-clef",
+                  "status": "circuit_open",
+                  "tokens": null
+                }
+              },
+              "worth-attention": {
+                "actual_requests": 0,
+                "cache_hit": false,
+                "charged_tokens": 0,
+                "decision": null,
+                "estimated_tokens": 999,
+                "provider": {
+                  "attempts": 0,
+                  "model": "alias-clef",
+                  "status": "circuit_open",
+                  "tokens": null
+                }
+              }
+            },
+            "c45bcea84f987572a8585ae7": {
+              "claim-support": {
+                "actual_requests": 0,
+                "cache_hit": false,
+                "charged_tokens": 0,
+                "decision": null,
+                "estimated_tokens": 1029,
+                "provider": {
+                  "attempts": 0,
+                  "model": "alias-clef",
+                  "status": "circuit_open",
+                  "tokens": null
+                }
+              },
+              "hfs": {
+                "actual_requests": 0,
+                "cache_hit": false,
+                "charged_tokens": 0,
+                "decision": null,
+                "estimated_tokens": 1029,
+                "provider": {
+                  "attempts": 0,
+                  "model": "alias-clef",
+                  "status": "circuit_open",
+                  "tokens": null
+                }
+              },
+              "importance": {
+                "actual_requests": 0,
+                "cache_hit": false,
+                "charged_tokens": 0,
+                "decision": null,
+                "estimated_tokens": 1029,
+                "provider": {
+                  "attempts": 0,
+                  "model": "alias-clef",
+                  "status": "circuit_open",
+                  "tokens": null
+                }
+              },
+              "relevance": {
+                "actual_requests": 3,
+                "cache_hit": false,
+                "charged_tokens": 3087,
+                "decision": null,
+                "estimated_tokens": 1029,
+                "provider": {
+                  "attempts": 3,
+                  "error_code": "HTTP_503",
+                  "latency_ms": 2440,
+                  "model": "alias-clef",
+                  "status": "invalid_or_unavailable",
+                  "tokens": null
+                }
+              },
+              "same-story": {
+                "actual_requests": 3,
+                "cache_hit": false,
+                "charged_tokens": 3087,
+                "decision": null,
+                "estimated_tokens": 1029,
+                "provider": {
+                  "attempts": 3,
+                  "error_code": "HTTP_503",
+                  "latency_ms": 2437,
+                  "model": "alias-clef",
+                  "status": "invalid_or_unavailable",
+                  "tokens": null
+                }
+              },
+              "worth-attention": {
+                "actual_requests": 3,
+                "cache_hit": false,
+                "charged_tokens": 3087,
+                "decision": null,
+                "estimated_tokens": 1029,
+                "provider": {
+                  "attempts": 3,
+                  "error_code": "HTTP_503",
+                  "latency_ms": 2711,
+                  "model": "alias-clef",
+                  "status": "invalid_or_unavailable",
+                  "tokens": null
+                }
+              }
+            }
+          },
+          "decisions_with_model_output": 0,
+          "expected_decisions": 12,
+          "latency_ms": {
+            "count": 3,
+            "max": 2711,
+            "mean": 2529.33,
+            "total": 7588
+          },
+          "request_cap": 27,
+          "requests_remaining": 18,
+          "routed_candidates": 2,
+          "screened_out": [
+            {
+              "event_id": "2e387efca1df3bc6e829bb6e",
+              "priority_score": 0,
+              "provider_calls": 0,
+              "status": "SCREENED_OUT_FOR_BUDGET"
+            },
+            {
+              "event_id": "4de7f3113e3a7aa8e317b53d",
+              "priority_score": 3,
+              "provider_calls": 0,
+              "status": "SCREENED_OUT_FOR_BUDGET"
+            }
+          ],
+          "token_budget_limit": 200000,
+          "token_budget_reserved": 18342,
+          "token_budget_used_fraction": 0.09171,
+          "token_usage_complete": false
+        }
+      },
+      "collection": {
+        "additional_metrics": {
+          "invalid_public_urls": 0,
+          "not_in_review_inventory": 0,
+          "retrieved_items": 43
+        },
+        "collection_seconds": 1.431,
+        "error": null,
+        "excluded_nov9_events": 0,
+        "fresh_candidates": 43,
+        "retrieved_candidates": 43,
+        "selected_candidates": 8,
+        "source_metrics": [
+          {
+            "content_unchanged": false,
+            "error_code": null,
+            "items": 9,
+            "query": "\"agent memory\" OR \"hybrid retrieval\" OR \"RAG evaluation\"",
+            "source": "google_news",
+            "status": "ok"
+          },
+          {
+            "content_unchanged": false,
+            "error_code": null,
+            "items": 17,
+            "query": "(RAG OR Wissensabruf) (KI OR Gedächtnis OR Evaluierung)",
+            "source": "google_news",
+            "status": "ok"
+          },
+          {
+            "content_unchanged": false,
+            "error_code": null,
+            "items": 7,
+            "query": "(RAG OR \"mémoire agents\") (évaluation OR recherche OR hybride)",
+            "source": "google_news",
+            "status": "ok"
+          },
+          {
+            "content_unchanged": false,
+            "http_status": 200,
+            "items": 10,
+            "source": "github:langchain-ai/langchain",
+            "status": "ok"
+          },
+          {
+            "content_unchanged": false,
+            "http_status": 200,
+            "items": 0,
+            "source": "github:facebookresearch/faiss",
+            "status": "ok"
+          }
+        ],
+        "unique_unseen_candidates": 43
+      },
+      "complete": true,
+      "domain": "rag-memory",
+      "excluded_event_ids_sha256": "a2bc56b893b836ff94e6d34944ca4463ef08d8e152c1d9a44fcf0ef90a5db953",
+      "policy_token_budget_per_arm": 200000,
+      "priority_scores": {
+        "1a805c2fbee36e373fda9074": 0,
+        "2e387efca1df3bc6e829bb6e": 0,
+        "4de7f3113e3a7aa8e317b53d": 3,
+        "c45bcea84f987572a8585ae7": 3
+      },
+      "profile_id": "examples/radar-rag-memory",
+      "protected_event_ids": [],
+      "request_cap_per_arm": 27,
+      "routed_treatment_event_ids": [
+        "c45bcea84f987572a8585ae7",
+        "1a805c2fbee36e373fda9074"
+      ],
+      "screened_out_event_ids": [
+        "2e387efca1df3bc6e829bb6e",
+        "4de7f3113e3a7aa8e317b53d"
+      ],
+      "split": {
+        "control_event_ids": [
+          "748bf81d3d0d6fa9a31ad7a1",
+          "f9bd82dcc84144a976df35dd",
+          "9cf1ea8eacb8cd7776b39e33",
+          "c36030c5dc637b1c4cf312aa"
+        ],
+        "language_balance": {
+          "control": {
+            "en": 1,
+            "unknown": 3
+          },
+          "treatment": {
+            "de": 1,
+            "en": 1,
+            "unknown": 2
+          }
+        },
+        "source_type_balance": {
+          "control": {
+            "rss": 4
+          },
+          "treatment": {
+            "rss": 4
+          }
+        },
+        "treatment_event_ids": [
+          "2e387efca1df3bc6e829bb6e",
+          "1a805c2fbee36e373fda9074",
+          "4de7f3113e3a7aa8e317b53d",
+          "c45bcea84f987572a8585ae7"
+        ]
+      },
+      "status": "COMPLETE",
+      "status_reason": "Sufficient fresh candidates (8/8) and verified in-scope topical coverage."
+    },
+    "world-intelligence": {
+      "collection": {
+        "additional_metrics": {
+          "invalid_public_urls": 0,
+          "not_in_review_inventory": 132,
+          "retrieved_items": 332
+        },
+        "collection_seconds": 29.438,
+        "error": null,
+        "excluded_nov9_events": 0,
+        "fresh_candidates": 200,
+        "retrieved_candidates": 200,
+        "selected_candidates": 8,
+        "source_metrics": [
+          {
+            "error_code": null,
+            "items": 59,
+            "query": "world news Europe",
+            "source": "google_news",
+            "status": "ok"
+          },
+          {
+            "error_code": null,
+            "items": 60,
+            "query": "world news Americas",
+            "source": "google_news",
+            "status": "ok"
+          },
+          {
+            "error_code": null,
+            "items": 60,
+            "query": "world news Africa",
+            "source": "google_news",
+            "status": "ok"
+          },
+          {
+            "error_code": null,
+            "items": 60,
+            "query": "world news Asia",
+            "source": "google_news",
+            "status": "ok"
+          },
+          {
+            "error_code": null,
+            "items": 29,
+            "query": "world news Oceania",
+            "source": "google_news",
+            "status": "ok"
+          },
+          {
+            "error_code": null,
+            "items": 60,
+            "query": "world news",
+            "source": "gdelt",
+            "status": "ok"
+          },
+          {
+            "items": 4,
+            "source": "rss",
+            "status": "ok"
+          }
+        ],
+        "unique_unseen_candidates": 200
+      },
+      "complete": false,
+      "domain": "world-intelligence",
+      "excluded_event_ids_sha256": "a2bc56b893b836ff94e6d34944ca4463ef08d8e152c1d9a44fcf0ef90a5db953",
+      "policy_token_budget_per_arm": 120000,
+      "profile_id": "world/global",
+      "request_cap_per_arm": 27,
+      "status": "INSUFFICIENT_RELEVANT_COVERAGE",
+      "status_reason": "Only 0/8 candidates meet strategic World Intelligence scope criteria.",
+      "unassigned_candidates": [
+        {
+          "candidate_id": "15c5adfa72399ab7b40d7271",
+          "event_id": "bfc24da3f44ce210d7f3e047",
+          "evidence": [
+            {
+              "content_hash": "7ff7efb65b0045bf61e1dec01c613cfcbc7cc27956ddff495b1778e450ef29b7",
+              "discovery_language": "en",
+              "excerpt": "Live: FIBA World Cup Qualification, Americas Live : Finland vs Slovenia Live updates TimminsToday.com",
+              "fresh": true,
+              "id": "114b50f3997913e253466665",
+              "language": "unknown",
+              "language_basis": "insufficient_language_evidence",
+              "primary": false,
+              "published_at": "2026-11-27T17:41:53Z",
+              "publisher": "TimminsToday.com",
+              "retrieved_at": "2026-11-27T18:26:32.845845Z",
+              "source_type": "google_news",
+              "title": "Live: FIBA World Cup Qualification, Americas Live : Finland vs Slovenia Live updates - TimminsToday.com",
+              "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1DWVRBdzlCRFp0bnRNbGozbHdlNmM3NC04YUFwcEdiX1JEdjYtWHBQWEZLUExkb3NZem1NNU1CTXJDWnNmelZFMndCWXpjMmVtZnQxbld3MWN4V2hhci1ITVBjQ3NBby1KSVMzZnB3RHcyVFlQLUNxQkFUUVk?oc=5"
+            }
+          ],
+          "evidence_quality": {
+            "has_article_excerpt": false,
+            "is_headline_only": true,
+            "quality": "HEADLINE_ONLY",
+            "reason": "Evidence excerpts merely repeat the headline."
+          },
+          "title": "Live: FIBA World Cup Qualification, Americas Live : Finland vs Slovenia Live updates - TimminsToday.com",
+          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1DWVRBdzlCRFp0bnRNbGozbHdlNmM3NC04YUFwcEdiX1JEdjYtWHBQWEZLUExkb3NZem1NNU1CTXJDWnNmelZFMndCWXpjMmVtZnQxbld3MWN4V2hhci1ITVBjQ3NBby1KSVMzZnB3RHcyVFlQLUNxQkFUUVk?oc=5"
+        },
+        {
+          "candidate_id": "4142bf4851fd828077778cca",
+          "event_id": "8131db10ffab6c7f30be5946",
+          "evidence": [
+            {
+              "content_hash": "d54104a94f68645446d5d8a74ac97ff8979d58ef6899d103b83f4d7d94d65629",
+              "discovery_language": "en",
+              "excerpt": "China and the United States Are Running Different AI Races in Africa Carnegie Endowment for International Peace",
+              "fresh": true,
+              "id": "6b2bf053cdd4d3715cece6e2",
+              "language": "en",
+              "language_basis": "lexical_heuristic_requires_review",
+              "primary": false,
+              "published_at": "2026-11-25T22:40:21Z",
+              "publisher": "Carnegie Endowment for International Peace",
+              "retrieved_at": "2026-11-27T18:26:33.393803Z",
+              "source_type": "google_news",
+              "title": "China and the United States Are Running Different AI Races in Africa - Carnegie Endowment for International Peace",
+              "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNel9SdW9QSFhOaHF1WmJUajJSaDlmSDFtUDNoNnNlLWNsNjF4SGdaU3g2OU1NdVVRS3hMcmUzM2x0ME9PS3hpa292N1RLYmxKaXQ3TlQySC1EbmNZRVVjaElpbF9UZmpucmJoem94UnE0VGlYMWtTYW1lcUU3YzJGNnlrVWN1aFhGUUF1S1BsTC0zWWhoN2FMc3ZUeWZVSzZ3WENMdDFsQjhPYkxvSTZqSnRZczNDQQ?oc=5"
+            }
+          ],
+          "evidence_quality": {
+            "has_article_excerpt": false,
+            "is_headline_only": true,
+            "quality": "HEADLINE_ONLY",
+            "reason": "Evidence excerpts merely repeat the headline."
+          },
+          "title": "China and the United States Are Running Different AI Races in Africa - Carnegie Endowment for International Peace",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNel9SdW9QSFhOaHF1WmJUajJSaDlmSDFtUDNoNnNlLWNsNjF4SGdaU3g2OU1NdVVRS3hMcmUzM2x0ME9PS3hpa292N1RLYmxKaXQ3TlQySC1EbmNZRVVjaElpbF9UZmpucmJoem94UnE0VGlYMWtTYW1lcUU3YzJGNnlrVWN1aFhGUUF1S1BsTC0zWWhoN2FMc3ZUeWZVSzZ3WENMdDFsQjhPYkxvSTZqSnRZczNDQQ?oc=5"
+        },
+        {
+          "candidate_id": "979ff90d4b37728988884809",
+          "event_id": "2c2d04fcb0d4d55c44e7509d",
+          "evidence": [
+            {
+              "content_hash": "0ff472abb536c1485c801de1abcf6fbb79cecf13a58f4506ef7bee28c55521f0",
+              "discovery_language": "en",
+              "excerpt": "Global anti-doping community, including the Council of Europe, gathers in Astana Council of Europe",
+              "fresh": true,
+              "id": "8800dd7d25717299ac5bae0e",
+              "language": "unknown",
+              "language_basis": "insufficient_language_evidence",
+              "primary": false,
+              "published_at": "2026-11-26T13:17:33Z",
+              "publisher": "Council of Europe",
+              "retrieved_at": "2026-11-27T18:26:32.797919Z",
+              "source_type": "google_news",
+              "title": "Global anti-doping community, including the Council of Europe, gathers in Astana - Council of Europe",
+              "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPNXhKdjl6eGtZWXMxSFZ2VUNUOHo0aElWRFMzajFLa1A0elJ4Q3VQZDREeDR5Z01zRkoyV3gxYW1jV0RFNTIzdEFLTlNaYm1oeEpWdzA1SldXYVQ5OWhxcWQ2RHlaZ2lNXzE0MC10d2dpMXBjLWFUTW1NUGNZVEF0OGFtWHQzV2VqTjhGc3NISWtlQ2JXek1CQWVGRlNjMWRESlpkNG9QelIzZ21qQlhPcFBsMFI?oc=5"
+            }
+          ],
+          "evidence_quality": {
+            "has_article_excerpt": false,
+            "is_headline_only": true,
+            "quality": "HEADLINE_ONLY",
+            "reason": "Evidence excerpts merely repeat the headline."
+          },
+          "title": "Global anti-doping community, including the Council of Europe, gathers in Astana - Council of Europe",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPNXhKdjl6eGtZWXMxSFZ2VUNUOHo0aElWRFMzajFLa1A0elJ4Q3VQZDREeDR5Z01zRkoyV3gxYW1jV0RFNTIzdEFLTlNaYm1oeEpWdzA1SldXYVQ5OWhxcWQ2RHlaZ2lNXzE0MC10d2dpMXBjLWFUTW1NUGNZVEF0OGFtWHQzV2VqTjhGc3NISWtlQ2JXek1CQWVGRlNjMWRESlpkNG9QelIzZ21qQlhPcFBsMFI?oc=5"
+        },
+        {
+          "candidate_id": "40c58b79fe9b1c07e2f59e1f",
+          "event_id": "dccff9559aa96cba97faccb0",
+          "evidence": [
+            {
+              "content_hash": "58498563c59109c42b3401e2daaa3494c89d25752ee6d4e788b198da9dd437cc",
+              "discovery_language": "en",
+              "excerpt": "Race hate exploded in this Spanish town last year. Now its residents are bracing for more The Guardian",
+              "fresh": true,
+              "id": "aa220075ae9d1773bcb4c361",
+              "language": "en",
+              "language_basis": "lexical_heuristic_requires_review",
+              "primary": false,
+              "published_at": "2026-11-27T05:00:00Z",
+              "publisher": "The Guardian",
+              "retrieved_at": "2026-11-27T18:26:32.797842Z",
+              "source_type": "google_news",
+              "title": "Race hate exploded in this Spanish town last year. Now its residents are bracing for more - The Guardian",
+              "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPZ1lZbU02Y3NDWmIwS1NnVC02dFd6NnJ1Y1Y3cWE0VU5oSmlES3JiQkJrdHU4Umw3cWRHbVU4MVVKTzg4M3RPWVI0WFVRNm1OUkdUZklXZGM0dTRpOEJrR05OSE0yWXp1Q2JKXzVFcWk4bkpEdVQ1SjVON2R5TF9TTi1iZzQwUEhOYVpZYVpaS2pJRlY5?oc=5"
+            }
+          ],
+          "evidence_quality": {
+            "has_article_excerpt": false,
+            "is_headline_only": true,
+            "quality": "HEADLINE_ONLY",
+            "reason": "Evidence excerpts merely repeat the headline."
+          },
+          "title": "Race hate exploded in this Spanish town last year. Now its residents are bracing for more - The Guardian",
+          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPZ1lZbU02Y3NDWmIwS1NnVC02dFd6NnJ1Y1Y3cWE0VU5oSmlES3JiQkJrdHU4Umw3cWRHbVU4MVVKTzg4M3RPWVI0WFVRNm1OUkdUZklXZGM0dTRpOEJrR05OSE0yWXp1Q2JKXzVFcWk4bkpEdVQ1SjVON2R5TF9TTi1iZzQwUEhOYVpZYVpaS2pJRlY5?oc=5"
+        },
+        {
+          "candidate_id": "388a10a93bad16cdc7c9024b",
+          "event_id": "effb60dadc6ec67d2bc2a653",
+          "evidence": [
+            {
+              "content_hash": "9b42d36c87125688092d21836cecec9a5cfa39cd448f1fe5c771a0e1bbc62d46",
+              "discovery_language": "en",
+              "excerpt": "Explainer-Has Organised Crime Penetrated South Africa's Police and Justice System? U.S. News & World Report",
+              "fresh": true,
+              "id": "92205dcead26a99f91210d70",
+              "language": "unknown",
+              "language_basis": "insufficient_language_evidence",
+              "primary": false,
+              "published_at": "2026-11-27T09:51:00Z",
+              "publisher": "U.S. News & World Report",
+              "retrieved_at": "2026-11-27T18:26:33.393746Z",
+              "source_type": "google_news",
+              "title": "Explainer-Has Organised Crime Penetrated South Africa's Police and Justice System? - U.S. News & World Report",
+              "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOdkJSWHZyZnBVeVhjamluejJhbUpfYUM4anBHOFpDTk0wdjk2ZV9hX2JYMjN6cFpzUXp0a3hPeG1WUGh3cjJoVTQxNmVHcDdwbnV5OFU5WHNuNUdCSE94Qi1Yc051enBRbzN4TlR2N3poMVZZNlJMNUJWRUNYSERmODJGelF2dGdQZ3N3bTFnUlpSWkRBVWRVbXNzYjhnTkpJM2U1Zi1NbWNDaUM0akVTSkRjR3pUeVZfZlRSR25YTUVPdGJxbEhmLW5IQnVYZjA?oc=5"
+            }
+          ],
+          "evidence_quality": {
+            "has_article_excerpt": false,
+            "is_headline_only": true,
+            "quality": "HEADLINE_ONLY",
+            "reason": "Evidence excerpts merely repeat the headline."
+          },
+          "title": "Explainer-Has Organised Crime Penetrated South Africa's Police and Justice System? - U.S. News & World Report",
+          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOdkJSWHZyZnBVeVhjamluejJhbUpfYUM4anBHOFpDTk0wdjk2ZV9hX2JYMjN6cFpzUXp0a3hPeG1WUGh3cjJoVTQxNmVHcDdwbnV5OFU5WHNuNUdCSE94Qi1Yc051enBRbzN4TlR2N3poMVZZNlJMNUJWRUNYSERmODJGelF2dGdQZ3N3bTFnUlpSWkRBVWRVbXNzYjhnTkpJM2U1Zi1NbWNDaUM0akVTSkRjR3pUeVZfZlRSR25YTUVPdGJxbEhmLW5IQnVYZjA?oc=5"
+        },
+        {
+          "candidate_id": "8f92c6bd8444346237ee7cf5",
+          "event_id": "7faac4eb74cbdcf5db7ca81f",
+          "evidence": [
+            {
+              "content_hash": "9e5900a5182f352e16500b3545f339d658efb9d7f77617ef38141d19f6c98106",
+              "discovery_language": "en",
+              "excerpt": "South Africa finalise U19 Women's T20WC camp in Tshwane ICC",
+              "fresh": true,
+              "id": "16bb0ceec28c7c2f60744924",
+              "language": "unknown",
+              "language_basis": "insufficient_language_evidence",
+              "primary": false,
+              "published_at": "2026-11-27T12:15:04Z",
+              "publisher": "ICC",
+              "retrieved_at": "2026-11-27T18:26:33.393204Z",
+              "source_type": "google_news",
+              "title": "South Africa finalise U19 Women's T20WC camp in Tshwane - ICC",
+              "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNNVk4QTBuMUE2T1lhMjh6SzBKbVJHX2JOaC0yOWRTT2lYRnZSN1JubXc3SVpuMW84TDV5Q1l3X1VnZHF0SEJnejFRbXNhc3pzSlNGcWhzSVZSTnl4R1NzTU5yclNYZ0Y1enBYVjBBNVV5SzVTTFBLR21JbmF2Zk12N0FFR3JybEdxOEk3MnkyUG9LZHgteXBBQzlJQ3lRM1JtdjgwRXJwMTN6VkJqVWRMUWdzU18teGtRNWFMakdpbXo1RlJnVGJpMW9OalpYR1B6NEhOUDRaVQ?oc=5"
+            }
+          ],
+          "evidence_quality": {
+            "has_article_excerpt": false,
+            "is_headline_only": true,
+            "quality": "HEADLINE_ONLY",
+            "reason": "Evidence excerpts merely repeat the headline."
+          },
+          "title": "South Africa finalise U19 Women's T20WC camp in Tshwane - ICC",
+          "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNNVk4QTBuMUE2T1lhMjh6SzBKbVJHX2JOaC0yOWRTT2lYRnZSN1JubXc3SVpuMW84TDV5Q1l3X1VnZHF0SEJnejFRbXNhc3pzSlNGcWhzSVZSTnl4R1NzTU5yclNYZ0Y1enBYVjBBNVV5SzVTTFBLR21JbmF2Zk12N0FFR3JybEdxOEk3MnkyUG9LZHgteXBBQzlJQ3lRM1JtdjgwRXJwMTN6VkJqVWRMUWdzU18teGtRNWFMakdpbXo1RlJnVGJpMW9OalpYR1B6NEhOUDRaVQ?oc=5"
+        },
+        {
+          "candidate_id": "53047c8753d95ab56a06917d",
+          "event_id": "587d1d235e31a5c9b7eda7f9",
+          "evidence": [
+            {
+              "content_hash": "838d32b7d3d2c4061c9ecce872b90cb5039790d58425310070c9da61f23624c5",
+              "discovery_language": "en",
+              "excerpt": "Tech transfer offices: How to protect IP rights from day one University World News",
+              "fresh": true,
+              "id": "49eec3a985009ede851331fe",
+              "language": "unknown",
+              "language_basis": "insufficient_language_evidence",
+              "primary": false,
+              "published_at": "2026-11-26T12:09:40Z",
+              "publisher": "University World News",
+              "retrieved_at": "2026-11-27T18:26:33.393381Z",
+              "source_type": "google_news",
+              "title": "Tech transfer offices: How to protect IP rights from day one - University World News",
+              "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5rcW9sZ0VUa0xZaEtHQUFQRjFjdmlnamtuQXNoRnhuSkdEcElRQ0NJaVJDSkFIUDM1VTVXeXVia1AtNF9lSWRNSW1XcXpoTTNVNURvMUtRa1ZHM0JsZGxEbHdHdTdCVFNzV181VlZkVHVnTXdmTnNN?oc=5"
+            }
+          ],
+          "evidence_quality": {
+            "has_article_excerpt": false,
+            "is_headline_only": true,
+            "quality": "HEADLINE_ONLY",
+            "reason": "Evidence excerpts merely repeat the headline."
+          },
+          "title": "Tech transfer offices: How to protect IP rights from day one - University World News",
+          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5rcW9sZ0VUa0xZaEtHQUFQRjFjdmlnamtuQXNoRnhuSkdEcElRQ0NJaVJDSkFIUDM1VTVXeXVia1AtNF9lSWRNSW1XcXpoTTNVNURvMUtRa1ZHM0JsZGxEbHdHdTdCVFNzV181VlZkVHVnTXdmTnNN?oc=5"
+        },
+        {
+          "candidate_id": "2b3371ae51ac8119d4d2c946",
+          "event_id": "904f3b7ec7d1d8af9a471917",
+          "evidence": [
+            {
+              "content_hash": "2d62aa8b620b7da2017794b3118af095301e21cf38728d8c0640ed464ca346cc",
+              "discovery_language": "en",
+              "excerpt": "Live: FIBA World Cup Qualification, Americas Live : Hungary vs Sweden Live updates FlamboroughToday.com",
+              "fresh": true,
+              "id": "0e905781c23863a32fbaa2be",
+              "language": "unknown",
+              "language_basis": "insufficient_language_evidence",
+              "primary": false,
+              "published_at": "2026-11-27T17:40:56Z",
+              "publisher": "FlamboroughToday.com",
+              "retrieved_at": "2026-11-27T18:26:32.845716Z",
+              "source_type": "google_news",
+              "title": "Live: FIBA World Cup Qualification, Americas Live : Hungary vs Sweden Live updates - FlamboroughToday.com",
+              "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNV3U3X1dlajlZZXFxOXpyLS1VX1dncXQ4eDNwSlZueXpBNG5aaUk2d2YxZVZNaWVHWHFINERFWnQyS1JQeUduRGtUY0tZQTdlUFUzRDQtNXJtbGhDVlBBbHM2SnlDdHFNRjlYeTh1Zi1PcFRUQ1RDcWlwaVJjNHFWR19B?oc=5"
+            }
+          ],
+          "evidence_quality": {
+            "has_article_excerpt": false,
+            "is_headline_only": true,
+            "quality": "HEADLINE_ONLY",
+            "reason": "Evidence excerpts merely repeat the headline."
+          },
+          "title": "Live: FIBA World Cup Qualification, Americas Live : Hungary vs Sweden Live updates - FlamboroughToday.com",
+          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNV3U3X1dlajlZZXFxOXpyLS1VX1dncXQ4eDNwSlZueXpBNG5aaUk2d2YxZVZNaWVHWHFINERFWnQyS1JQeUduRGtUY0tZQTdlUFUzRDQtNXJtbGhDVlBBbHM2SnlDdHFNRjlYeTh1Zi1PcFRUQ1RDcWlwaVJjNHFWR19B?oc=5"
+        }
+      ]
+    }
+  },
+  "experiment_version": "two-stage-heldout-1.1",
+  "human_labels_available": false,
+  "limitations": [
+    "Human review labels are blank; precision and recall are not computed.",
+    "Model decisions are uncalibrated editorial judgments, not verified facts.",
+    "Source language comes from evidence metadata or the existing lexical heuristic; discovery locale is not treated as source language.",
+    "An incomplete domain is reported without reusing prior candidates."
+  ],
+  "precision": null,
+  "provider_contract": {
+    "api_mode": "systemone",
+    "endpoint_hash": "e106f181ea67ccb9",
+    "model": "alias-clef",
+    "response_model": "alias-clef"
+  },
+  "recall": null,
+  "run_attempt": 1,
+  "run_id": "46049318049",
+  "schema_version": "1.0",
+  "source_revision": "6f3b5306b7164df127ad17f113a4becf678d12a6",
+  "workflow_run_id": "46049318049"
+}

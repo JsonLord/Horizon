@@ -1,0 +1,4262 @@
+{
+  "created_at_utc": "2026-11-10T15:20:11.249695+00:00",
+  "domains": {
+    "agent-control-planes": {
+      "arms": {
+        "control": {
+          "actual_provider_requests": 24,
+          "actual_tokens_reported": 14454,
+          "cache_hits": 0,
+          "cache_identity_sha256": "8b0039c1cfe4aa29ed58308b84698945e42483fe2e11eb772a550ab946f7c745",
+          "charged_token_estimate": 14454,
+          "decision_coverage_fraction": 1.0,
+          "decision_status_counts": {
+            "success": 24
+          },
+          "decisions": {
+            "2188cad3e7cb676f78234d0a": {
+              "claim-support": {
+                "actual_requests": 1,
+                "cache_hit": false,
+                "charged_tokens": 574,
+                "decision": {
+                  "evidence_ids": [
+                    "5f46b7063a6c9230b8433e18"
+                  ],
+                  "facts": 0.5,
+                  "hype": 0.5,
+                  "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
+                  "related_event_id": null,
+                  "score": 0.9,
+                  "signal": 0.5,
+                  "verdict": "yes"
+                },
+                "estimated_tokens": 895,
+                "provider": {
+                  "abstained": false,
+                  "attempts": 1,
+                  "format": "systemone_choices",
+                  "input_tokens": 574,
+                  "latency_ms": 519,
+                  "model": "alias-clef",
+                  "model_identity_verified": true,
+                  "output_tokens": 0,
+                  "response_model": "alias-clef",
+                  "status": "success",
+                  "tokens": 574
+                }
+              },
+              "hfs": {
+                "actual_requests": 1,
+                "cache_hit": false,
+                "charged_tokens": 816,
+                "decision": {
+                  "evidence_ids": [
+                    "5f46b7063a6c9230b8433e18"
+                  ],
+                  "facts": 0.9,
+                  "hype": 0.5,
+                  "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
+                  "related_event_id": null,
+                  "score": 0.5,
+                  "signal": 0.5,
+                  "verdict": "yes"
+                },
+                "estimated_tokens": 895,
+                "provider": {
+                  "abstained": false,
+                  "attempts": 1,
+                  "format": "systemone_choices",
+                  "input_tokens": 816,
+                  "latency_ms": 481,
+                  "model": "alias-clef",
+                  "model_identity_verified": true,
+                  "output_tokens": 0,
+                  "response_model": "alias-clef",
+                  "status": "success",
+                  "tokens": 816
+                }
+              },
+              "importance": {
+                "actual_requests": 1,
+                "cache_hit": false,
+                "charged_tokens": 583,
+                "decision": {
+                  "evidence_ids": [
+                    "5f46b7063a6c9230b8433e18"
+                  ],
+                  "facts": 0.5,
+                  "hype": 0.5,
+                  "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
+                  "related_event_id": null,
+                  "score": 0.9,
+                  "signal": 0.5,
+                  "verdict": "yes"
+                },
+                "estimated_tokens": 895,
+                "provider": {
+                  "abstained": false,
+                  "attempts": 1,
+                  "format": "systemone_choices",
+                  "input_tokens": 583,
+                  "latency_ms": 617,
+                  "model": "alias-clef",
+                  "model_identity_verified": true,
+                  "output_tokens": 0,
+                  "response_model": "alias-clef",
+                  "status": "success",
+                  "tokens": 583
+                }
+              },
+              "relevance": {
+                "actual_requests": 1,
+                "cache_hit": false,
+                "charged_tokens": 561,
+                "decision": {
+                  "evidence_ids": [
+                    "5f46b7063a6c9230b8433e18"
+                  ],
+                  "facts": 0.5,
+                  "hype": 0.5,
+                  "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
+                  "related_event_id": null,
+                  "score": 0.5,
+                  "signal": 0.5,
+                  "verdict": "unknown"
+                },
+                "estimated_tokens": 895,
+                "provider": {
+                  "abstained": false,
+                  "attempts": 1,
+                  "format": "systemone_choices",
+                  "input_tokens": 561,
+                  "latency_ms": 533,
+                  "model": "alias-clef",
+                  "model_identity_verified": true,
+                  "output_tokens": 0,
+                  "response_model": "alias-clef",
+                  "status": "success",
+                  "tokens": 561
+                }
+              },
+              "same-story": {
+                "actual_requests": 1,
+                "cache_hit": false,
+                "charged_tokens": 633,
+                "decision": {
+                  "evidence_ids": [
+                    "5f46b7063a6c9230b8433e18"
+                  ],
+                  "facts": 0.5,
+                  "hype": 0.5,
+                  "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
+                  "related_event_id": null,
+                  "score": 0.5,
+                  "signal": 0.5,
+                  "verdict": "unknown"
+                },
+                "estimated_tokens": 895,
+                "provider": {
+                  "abstained": false,
+                  "attempts": 1,
+                  "format": "systemone_choices",
+                  "input_tokens": 633,
+                  "latency_ms": 641,
+                  "model": "alias-clef",
+                  "model_identity_verified": true,
+                  "output_tokens": 0,
+                  "response_model": "alias-clef",
+                  "status": "success",
+                  "tokens": 633
+                }
+              },
+              "worth-attention": {
+                "actual_requests": 1,
+                "cache_hit": false,
+                "charged_tokens": 565,
+                "decision": {
+                  "evidence_ids": [
+                    "5f46b7063a6c9230b8433e18"
+                  ],
+                  "facts": 0.5,
+                  "hype": 0.5,
+                  "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
+                  "related_event_id": null,
+                  "score": 0.5,
+                  "signal": 0.5,
+                  "verdict": "unknown"
+                },
+                "estimated_tokens": 895,
+                "provider": {
+                  "abstained": false,
+                  "attempts": 1,
+                  "format": "systemone_choices",
+                  "input_tokens": 565,
+                  "latency_ms": 533,
+                  "model": "alias-clef",
+                  "model_identity_verified": true,
+                  "output_tokens": 0,
+                  "response_model": "alias-clef",
+                  "status": "success",
+                  "tokens": 565
+                }
+              }
+            },
+            "26de48dab8ec1a54e28eae5c": {
+              "claim-support": {
+                "actual_requests": 1,
+                "cache_hit": false,
+                "charged_tokens": 567,
+                "decision": {
+                  "evidence_ids": [
+                    "aced93796f84d7e880715a28"
+                  ],
+                  "facts": 0.5,
+                  "hype": 0.5,
+                  "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
+                  "related_event_id": null,
+                  "score": 0.9,
+                  "signal": 0.5,
+                  "verdict": "yes"
+                },
+                "estimated_tokens": 865,
+                "provider": {
+                  "abstained": false,
+                  "attempts": 1,
+                  "format": "systemone_choices",
+                  "input_tokens": 567,
+                  "latency_ms": 416,
+                  "model": "alias-clef",
+                  "model_identity_verified": true,
+                  "output_tokens": 0,
+                  "response_model": "alias-clef",
+                  "status": "success",
+                  "tokens": 567
+                }
+              },
+              "hfs": {
+                "actual_requests": 1,
+                "cache_hit": false,
+                "charged_tokens": 809,
+                "decision": {
+                  "evidence_ids": [
+                    "aced93796f84d7e880715a28"
+                  ],
+                  "facts": 0.5,
+                  "hype": 0.1,
+                  "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
+                  "related_event_id": null,
+                  "score": 0.1,
+                  "signal": 0.1,
+                  "verdict": "no"
+                },
+                "estimated_tokens": 865,
+                "provider": {
+                  "abstained": false,
+                  "attempts": 1,
+                  "format": "systemone_choices",
+                  "input_tokens": 809,
+                  "latency_ms": 487,
+                  "model": "alias-clef",
+                  "model_identity_verified": true,
+                  "output_tokens": 0,
+                  "response_model": "alias-clef",
+                  "status": "success",
+                  "tokens": 809
+                }
+              },
+              "importance": {
+                "actual_requests": 1,
+                "cache_hit": false,
+                "charged_tokens": 576,
+                "decision": {
+                  "evidence_ids": [
+                    "aced93796f84d7e880715a28"
+                  ],
+                  "facts": 0.5,
+                  "hype": 0.5,
+                  "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
+                  "related_event_id": null,
+                  "score": 0.1,
+                  "signal": 0.5,
+                  "verdict": "no"
+                },
+                "estimated_tokens": 865,
+                "provider": {
+                  "abstained": false,
+                  "attempts": 1,
+                  "format": "systemone_choices",
+                  "input_tokens": 576,
+                  "latency_ms": 426,
+                  "model": "alias-clef",
+                  "model_identity_verified": true,
+                  "output_tokens": 0,
+                  "response_model": "alias-clef",
+                  "status": "success",
+                  "tokens": 576
+                }
+              },
+              "relevance": {
+                "actual_requests": 1,
+                "cache_hit": false,
+                "charged_tokens": 554,
+                "decision": {
+                  "evidence_ids": [
+                    "aced93796f84d7e880715a28"
+                  ],
+                  "facts": 0.5,
+                  "hype": 0.5,
+                  "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
+                  "related_event_id": null,
+                  "score": 0.1,
+                  "signal": 0.5,
+                  "verdict": "no"
+                },
+                "estimated_tokens": 865,
+                "provider": {
+                  "abstained": false,
+                  "attempts": 1,
+                  "format": "systemone_choices",
+                  "input_tokens": 554,
+                  "latency_ms": 427,
+                  "model": "alias-clef",
+                  "model_identity_verified": true,
+                  "output_tokens": 0,
+                  "response_model": "alias-clef",
+                  "status": "success",
+                  "tokens": 554
+                }
+              },
+              "same-story": {
+                "actual_requests": 1,
+                "cache_hit": false,
+                "charged_tokens": 626,
+                "decision": {
+                  "evidence_ids": [
+                    "aced93796f84d7e880715a28"
+                  ],
+                  "facts": 0.5,
+                  "hype": 0.5,
+                  "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
+                  "related_event_id": null,
+                  "score": 0.5,
+                  "signal": 0.5,
+                  "verdict": "unknown"
+                },
+                "estimated_tokens": 865,
+                "provider": {
+                  "abstained": false,
+                  "attempts": 1,
+                  "format": "systemone_choices",
+                  "input_tokens": 626,
+                  "latency_ms": 427,
+                  "model": "alias-clef",
+                  "model_identity_verified": true,
+                  "output_tokens": 0,
+                  "response_model": "alias-clef",
+                  "status": "success",
+                  "tokens": 626
+                }
+              },
+              "worth-attention": {
+                "actual_requests": 1,
+                "cache_hit": false,
+                "charged_tokens": 558,
+                "decision": {
+                  "evidence_ids": [
+                    "aced93796f84d7e880715a28"
+                  ],
+                  "facts": 0.5,
+                  "hype": 0.5,
+                  "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
+                  "related_event_id": null,
+                  "score": 0.5,
+                  "signal": 0.5,
+                  "verdict": "unknown"
+                },
+                "estimated_tokens": 865,
+                "provider": {
+                  "abstained": false,
+                  "attempts": 1,
+                  "format": "systemone_choices",
+                  "input_tokens": 558,
+                  "latency_ms": 417,
+                  "model": "alias-clef",
+                  "model_identity_verified": true,
+                  "output_tokens": 0,
+                  "response_model": "alias-clef",
+                  "status": "success",
+                  "tokens": 558
+                }
+              }
+            },
+            "abbae0fc7371db39499c43b6": {
+              "claim-support": {
+                "actual_requests": 1,
+                "cache_hit": false,
+                "charged_tokens": 553,
+                "decision": {
+                  "evidence_ids": [
+                    "75595e029207347ef23e3836"
+                  ],
+                  "facts": 0.5,
+                  "hype": 0.5,
+                  "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
+                  "related_event_id": null,
+                  "score": 0.9,
+                  "signal": 0.5,
+                  "verdict": "yes"
+                },
+                "estimated_tokens": 880,
+                "provider": {
+                  "abstained": false,
+                  "attempts": 1,
+                  "format": "systemone_choices",
+                  "input_tokens": 553,
+                  "latency_ms": 719,
+                  "model": "alias-clef",
+                  "model_identity_verified": true,
+                  "output_tokens": 0,
+                  "response_model": "alias-clef",
+                  "status": "success",
+                  "tokens": 553
+                }
+              },
+              "hfs": {
+                "actual_requests": 1,
+                "cache_hit": false,
+                "charged_tokens": 795,
+                "decision": {
+                  "evidence_ids": [
+                    "75595e029207347ef23e3836"
+                  ],
+                  "facts": 0.1,
+                  "hype": 0.5,
+                  "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
+                  "related_event_id": null,
+                  "score": 0.5,
+                  "signal": 0.5,
+                  "verdict": "unknown"
+                },
+                "estimated_tokens": 880,
+                "provider": {
+                  "abstained": false,
+                  "attempts": 1,
+                  "format": "systemone_choices",
+                  "input_tokens": 795,
+                  "latency_ms": 620,
+                  "model": "alias-clef",
+                  "model_identity_verified": true,
+                  "output_tokens": 0,
+                  "response_model": "alias-clef",
+                  "status": "success",
+                  "tokens": 795
+                }
+              },
+              "importance": {
+                "actual_requests": 1,
+                "cache_hit": false,
+                "charged_tokens": 562,
+                "decision": {
+                  "evidence_ids": [
+                    "75595e029207347ef23e3836"
+                  ],
+                  "facts": 0.5,
+                  "hype": 0.5,
+                  "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
+                  "related_event_id": null,
+                  "score": 0.5,
+                  "signal": 0.5,
+                  "verdict": "yes"
+                },
+                "estimated_tokens": 880,
+                "provider": {
+                  "abstained": false,
+                  "attempts": 1,
+                  "format": "systemone_choices",
+                  "input_tokens": 562,
+                  "latency_ms": 633,
+                  "model": "alias-clef",
+                  "model_identity_verified": true,
+                  "output_tokens": 0,
+                  "response_model": "alias-clef",
+                  "status": "success",
+                  "tokens": 562
+                }
+              },
+              "relevance": {
+                "actual_requests": 1,
+                "cache_hit": false,
+                "charged_tokens": 540,
+                "decision": {
+                  "evidence_ids": [
+                    "75595e029207347ef23e3836"
+                  ],
+                  "facts": 0.5,
+                  "hype": 0.5,
+                  "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
+                  "related_event_id": null,
+                  "score": 0.9,
+                  "signal": 0.5,
+                  "verdict": "yes"
+                },
+                "estimated_tokens": 880,
+                "provider": {
+                  "abstained": false,
+                  "attempts": 1,
+                  "format": "systemone_choices",
+                  "input_tokens": 540,
+                  "latency_ms": 1091,
+                  "model": "alias-clef",
+                  "model_identity_verified": true,
+                  "output_tokens": 0,
+                  "response_model": "alias-clef",
+                  "status": "success",
+                  "tokens": 540
+                }
+              },
+              "same-story": {
+                "actual_requests": 1,
+                "cache_hit": false,
+                "charged_tokens": 612,
+                "decision": {
+                  "evidence_ids": [
+                    "75595e029207347ef23e3836"
+                  ],
+                  "facts": 0.5,
+                  "hype": 0.5,
+                  "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
+                  "related_event_id": null,
+                  "score": 0.5,
+                  "signal": 0.5,
+                  "verdict": "unknown"
+                },
+                "estimated_tokens": 880,
+                "provider": {
+                  "abstained": false,
+                  "attempts": 1,
+                  "format": "systemone_choices",
+                  "input_tokens": 612,
+                  "latency_ms": 599,
+                  "model": "alias-clef",
+                  "model_identity_verified": true,
+                  "output_tokens": 0,
+                  "response_model": "alias-clef",
+                  "status": "success",
+                  "tokens": 612
+                }
+              },
+              "worth-attention": {
+                "actual_requests": 1,
+                "cache_hit": false,
+                "charged_tokens": 544,
+                "decision": {
+                  "evidence_ids": [
+                    "75595e029207347ef23e3836"
+                  ],
+                  "facts": 0.5,
+                  "hype": 0.5,
+                  "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
+                  "related_event_id": null,
+                  "score": 0.5,
+                  "signal": 0.5,
+                  "verdict": "unknown"
+                },
+                "estimated_tokens": 880,
+                "provider": {
+                  "abstained": false,
+                  "attempts": 1,
+                  "format": "systemone_choices",
+                  "input_tokens": 544,
+                  "latency_ms": 636,
+                  "model": "alias-clef",
+                  "model_identity_verified": true,
+                  "output_tokens": 0,
+                  "response_model": "alias-clef",
+                  "status": "success",
+                  "tokens": 544
+                }
+              }
+            },
+            "b265a447339d5bc9297b84c6": {
+              "claim-support": {
+                "actual_requests": 1,
+                "cache_hit": false,
+                "charged_tokens": 523,
+                "decision": {
+                  "evidence_ids": [
+                    "8e5891dc345bccdbcaba7001"
+                  ],
+                  "facts": 0.5,
+                  "hype": 0.5,
+                  "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
+                  "related_event_id": null,
+                  "score": 0.9,
+                  "signal": 0.5,
+                  "verdict": "yes"
+                },
+                "estimated_tokens": 872,
+                "provider": {
+                  "abstained": false,
+                  "attempts": 1,
+                  "format": "systemone_choices",
+                  "input_tokens": 523,
+                  "latency_ms": 571,
+                  "model": "alias-clef",
+                  "model_identity_verified": true,
+                  "output_tokens": 0,
+                  "response_model": "alias-clef",
+                  "status": "success",
+                  "tokens": 523
+                }
+              },
+              "hfs": {
+                "actual_requests": 1,
+                "cache_hit": false,
+                "charged_tokens": 765,
+                "decision": {
+                  "evidence_ids": [
+                    "8e5891dc345bccdbcaba7001"
+                  ],
+                  "facts": 0.5,
+                  "hype": 0.5,
+                  "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
+                  "related_event_id": null,
+                  "score": 0.1,
+                  "signal": 0.1,
+                  "verdict": "unknown"
+                },
+                "estimated_tokens": 872,
+                "provider": {
+                  "abstained": false,
+                  "attempts": 1,
+                  "format": "systemone_choices",
+                  "input_tokens": 765,
+                  "latency_ms": 437,
+                  "model": "alias-clef",
+                  "model_identity_verified": true,
+                  "output_tokens": 0,
+                  "response_model": "alias-clef",
+                  "status": "success",
+                  "tokens": 765
+                }
+              },
+              "importance": {
+                "actual_requests": 1,
+                "cache_hit": false,
+                "charged_tokens": 532,
+                "decision": {
+                  "evidence_ids": [
+                    "8e5891dc345bccdbcaba7001"
+                  ],
+                  "facts": 0.5,
+                  "hype": 0.5,
+                  "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
+                  "related_event_id": null,
+                  "score": 0.5,
+                  "signal": 0.5,
+                  "verdict": "unknown"
+                },
+                "estimated_tokens": 872,
+                "provider": {
+                  "abstained": false,
+                  "attempts": 1,
+                  "format": "systemone_choices",
+                  "input_tokens": 532,
+                  "latency_ms": 427,
+                  "model": "alias-clef",
+                  "model_identity_verified": true,
+                  "output_tokens": 0,
+                  "response_model": "alias-clef",
+                  "status": "success",
+                  "tokens": 532
+                }
+              },
+              "relevance": {
+                "actual_requests": 1,
+                "cache_hit": false,
+                "charged_tokens": 510,
+                "decision": {
+                  "evidence_ids": [
+                    "8e5891dc345bccdbcaba7001"
+                  ],
+                  "facts": 0.5,
+                  "hype": 0.5,
+                  "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
+                  "related_event_id": null,
+                  "score": 0.1,
+                  "signal": 0.5,
+                  "verdict": "no"
+                },
+                "estimated_tokens": 872,
+                "provider": {
+                  "abstained": false,
+                  "attempts": 1,
+                  "format": "systemone_choices",
+                  "input_tokens": 510,
+                  "latency_ms": 642,
+                  "model": "alias-clef",
+                  "model_identity_verified": true,
+                  "output_tokens": 0,
+                  "response_model": "alias-clef",
+                  "status": "success",
+                  "tokens": 510
+                }
+              },
+              "same-story": {
+                "actual_requests": 1,
+                "cache_hit": false,
+                "charged_tokens": 582,
+                "decision": {
+                  "evidence_ids": [
+                    "8e5891dc345bccdbcaba7001"
+                  ],
+                  "facts": 0.5,
+                  "hype": 0.5,
+                  "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
+                  "related_event_id": null,
+                  "score": 0.9,
+                  "signal": 0.5,
+                  "verdict": "different"
+                },
+                "estimated_tokens": 872,
+                "provider": {
+                  "abstained": false,
+                  "attempts": 1,
+                  "format": "systemone_choices",
+                  "input_tokens": 582,
+                  "latency_ms": 435,
+                  "model": "alias-clef",
+                  "model_identity_verified": true,
+                  "output_tokens": 0,
+                  "response_model": "alias-clef",
+                  "status": "success",
+                  "tokens": 582
+                }
+              },
+              "worth-attention": {
+                "actual_requests": 1,
+                "cache_hit": false,
+                "charged_tokens": 514,
+                "decision": {
+                  "evidence_ids": [
+                    "8e5891dc345bccdbcaba7001"
+                  ],
+                  "facts": 0.5,
+                  "hype": 0.5,
+                  "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
+                  "related_event_id": null,
+                  "score": 0.1,
+                  "signal": 0.5,
+                  "verdict": "no"
+                },
+                "estimated_tokens": 872,
+                "provider": {
+                  "abstained": false,
+                  "attempts": 1,
+                  "format": "systemone_choices",
+                  "input_tokens": 514,
+                  "latency_ms": 1002,
+                  "model": "alias-clef",
+                  "model_identity_verified": true,
+                  "output_tokens": 0,
+                  "response_model": "alias-clef",
+                  "status": "success",
+                  "tokens": 514
+                }
+              }
+            }
+          },
+          "decisions_with_model_output": 24,
+          "expected_decisions": 24,
+          "latency_ms": {
+            "count": 24,
+            "max": 1091,
+            "mean": 572.33,
+            "total": 13736
+          },
+          "request_cap": 27,
+          "requests_remaining": 3,
+          "routed_candidates": 4,
+          "token_budget_limit": 200000,
+          "token_budget_reserved": 21072,
+          "token_budget_used_fraction": 0.10536,
+          "token_usage_complete": true
+        },
+        "treatment": {
+          "actual_provider_requests": 12,
+          "actual_tokens_reported": 7140,
+          "cache_hits": 0,
+          "cache_identity_sha256": "8b0039c1cfe4aa29ed58308b84698945e42483fe2e11eb772a550ab946f7c745",
+          "charged_token_estimate": 7140,
+          "decision_coverage_fraction": 1.0,
+          "decision_status_counts": {
+            "success": 12
+          },
+          "decisions": {
+            "4914a0b85ae5ed5582919b13": {
+              "claim-support": {
+                "actual_requests": 1,
+                "cache_hit": false,
+                "charged_tokens": 550,
+                "decision": {
+                  "evidence_ids": [
+                    "8180bda62ffebb88d011ea5a"
+                  ],
+                  "facts": 0.5,
+                  "hype": 0.5,
+                  "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
+                  "related_event_id": null,
+                  "score": 0.9,
+                  "signal": 0.5,
+                  "verdict": "yes"
+                },
+                "estimated_tokens": 872,
+                "provider": {
+                  "abstained": false,
+                  "attempts": 1,
+                  "format": "systemone_choices",
+                  "input_tokens": 550,
+                  "latency_ms": 426,
+                  "model": "alias-clef",
+                  "model_identity_verified": true,
+                  "output_tokens": 0,
+                  "response_model": "alias-clef",
+                  "status": "success",
+                  "tokens": 550
+                }
+              },
+              "hfs": {
+                "actual_requests": 1,
+                "cache_hit": false,
+                "charged_tokens": 792,
+                "decision": {
+                  "evidence_ids": [
+                    "8180bda62ffebb88d011ea5a"
+                  ],
+                  "facts": 0.1,
+                  "hype": 0.1,
+                  "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
+                  "related_event_id": null,
+                  "score": 0.5,
+                  "signal": 0.5,
+                  "verdict": "yes"
+                },
+                "estimated_tokens": 872,
+                "provider": {
+                  "abstained": false,
+                  "attempts": 1,
+                  "format": "systemone_choices",
+                  "input_tokens": 792,
+                  "latency_ms": 568,
+                  "model": "alias-clef",
+                  "model_identity_verified": true,
+                  "output_tokens": 0,
+                  "response_model": "alias-clef",
+                  "status": "success",
+                  "tokens": 792
+                }
+              },
+              "importance": {
+                "actual_requests": 1,
+                "cache_hit": false,
+                "charged_tokens": 559,
+                "decision": {
+                  "evidence_ids": [
+                    "8180bda62ffebb88d011ea5a"
+                  ],
+                  "facts": 0.5,
+                  "hype": 0.5,
+                  "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
+                  "related_event_id": null,
+                  "score": 0.5,
+                  "signal": 0.5,
+                  "verdict": "yes"
+                },
+                "estimated_tokens": 872,
+                "provider": {
+                  "abstained": false,
+                  "attempts": 1,
+                  "format": "systemone_choices",
+                  "input_tokens": 559,
+                  "latency_ms": 437,
+                  "model": "alias-clef",
+                  "model_identity_verified": true,
+                  "output_tokens": 0,
+                  "response_model": "alias-clef",
+                  "status": "success",
+                  "tokens": 559
+                }
+              },
+              "relevance": {
+                "actual_requests": 1,
+                "cache_hit": false,
+                "charged_tokens": 537,
+                "decision": {
+                  "evidence_ids": [
+                    "8180bda62ffebb88d011ea5a"
+                  ],
+                  "facts": 0.5,
+                  "hype": 0.5,
+                  "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
+                  "related_event_id": null,
+                  "score": 0.9,
+                  "signal": 0.5,
+                  "verdict": "yes"
+                },
+                "estimated_tokens": 872,
+                "provider": {
+                  "abstained": false,
+                  "attempts": 1,
+                  "format": "systemone_choices",
+                  "input_tokens": 537,
+                  "latency_ms": 634,
+                  "model": "alias-clef",
+                  "model_identity_verified": true,
+                  "output_tokens": 0,
+                  "response_model": "alias-clef",
+                  "status": "success",
+                  "tokens": 537
+                }
+              },
+              "same-story": {
+                "actual_requests": 1,
+                "cache_hit": false,
+                "charged_tokens": 609,
+                "decision": {
+                  "evidence_ids": [
+                    "8180bda62ffebb88d011ea5a"
+                  ],
+                  "facts": 0.5,
+                  "hype": 0.5,
+                  "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
+                  "related_event_id": null,
+                  "score": 0.9,
+                  "signal": 0.5,
+                  "verdict": "different"
+                },
+                "estimated_tokens": 872,
+                "provider": {
+                  "abstained": false,
+                  "attempts": 1,
+                  "format": "systemone_choices",
+                  "input_tokens": 609,
+                  "latency_ms": 717,
+                  "model": "alias-clef",
+                  "model_identity_verified": true,
+                  "output_tokens": 0,
+                  "response_model": "alias-clef",
+                  "status": "success",
+                  "tokens": 609
+                }
+              },
+              "worth-attention": {
+                "actual_requests": 1,
+                "cache_hit": false,
+                "charged_tokens": 541,
+                "decision": {
+                  "evidence_ids": [
+                    "8180bda62ffebb88d011ea5a"
+                  ],
+                  "facts": 0.5,
+                  "hype": 0.5,
+                  "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
+                  "related_event_id": null,
+                  "score": 0.9,
+                  "signal": 0.5,
+                  "verdict": "yes"
+                },
+                "estimated_tokens": 872,
+                "provider": {
+                  "abstained": false,
+                  "attempts": 1,
+                  "format": "systemone_choices",
+                  "input_tokens": 541,
+                  "latency_ms": 421,
+                  "model": "alias-clef",
+                  "model_identity_verified": true,
+                  "output_tokens": 0,
+                  "response_model": "alias-clef",
+                  "status": "success",
+                  "tokens": 541
+                }
+              }
+            },
+            "f308600a2110b710808979dc": {
+              "claim-support": {
+                "actual_requests": 1,
+                "cache_hit": false,
+                "charged_tokens": 544,
+                "decision": {
+                  "evidence_ids": [
+                    "0cae423ec8497e1cf7881726"
+                  ],
+                  "facts": 0.5,
+                  "hype": 0.5,
+                  "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
+                  "related_event_id": null,
+                  "score": 0.9,
+                  "signal": 0.5,
+                  "verdict": "yes"
+                },
+                "estimated_tokens": 879,
+                "provider": {
+                  "abstained": false,
+                  "attempts": 1,
+                  "format": "systemone_choices",
+                  "input_tokens": 544,
+                  "latency_ms": 418,
+                  "model": "alias-clef",
+                  "model_identity_verified": true,
+                  "output_tokens": 0,
+                  "response_model": "alias-clef",
+                  "status": "success",
+                  "tokens": 544
+                }
+              },
+              "hfs": {
+                "actual_requests": 1,
+                "cache_hit": false,
+                "charged_tokens": 786,
+                "decision": {
+                  "evidence_ids": [
+                    "0cae423ec8497e1cf7881726"
+                  ],
+                  "facts": 0.9,
+                  "hype": 0.1,
+                  "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
+                  "related_event_id": null,
+                  "score": 0.5,
+                  "signal": 0.5,
+                  "verdict": "yes"
+                },
+                "estimated_tokens": 879,
+                "provider": {
+                  "abstained": false,
+                  "attempts": 1,
+                  "format": "systemone_choices",
+                  "input_tokens": 786,
+                  "latency_ms": 438,
+                  "model": "alias-clef",
+                  "model_identity_verified": true,
+                  "output_tokens": 0,
+                  "response_model": "alias-clef",
+                  "status": "success",
+                  "tokens": 786
+                }
+              },
+              "importance": {
+                "actual_requests": 1,
+                "cache_hit": false,
+                "charged_tokens": 553,
+                "decision": {
+                  "evidence_ids": [
+                    "0cae423ec8497e1cf7881726"
+                  ],
+                  "facts": 0.5,
+                  "hype": 0.5,
+                  "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
+                  "related_event_id": null,
+                  "score": 0.5,
+                  "signal": 0.5,
+                  "verdict": "yes"
+                },
+                "estimated_tokens": 879,
+                "provider": {
+                  "abstained": false,
+                  "attempts": 1,
+                  "format": "systemone_choices",
+                  "input_tokens": 553,
+                  "latency_ms": 422,
+                  "model": "alias-clef",
+                  "model_identity_verified": true,
+                  "output_tokens": 0,
+                  "response_model": "alias-clef",
+                  "status": "success",
+                  "tokens": 553
+                }
+              },
+              "relevance": {
+                "actual_requests": 1,
+                "cache_hit": false,
+                "charged_tokens": 531,
+                "decision": {
+                  "evidence_ids": [
+                    "0cae423ec8497e1cf7881726"
+                  ],
+                  "facts": 0.5,
+                  "hype": 0.5,
+                  "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
+                  "related_event_id": null,
+                  "score": 0.5,
+                  "signal": 0.5,
+                  "verdict": "unknown"
+                },
+                "estimated_tokens": 879,
+                "provider": {
+                  "abstained": false,
+                  "attempts": 1,
+                  "format": "systemone_choices",
+                  "input_tokens": 531,
+                  "latency_ms": 408,
+                  "model": "alias-clef",
+                  "model_identity_verified": true,
+                  "output_tokens": 0,
+                  "response_model": "alias-clef",
+                  "status": "success",
+                  "tokens": 531
+                }
+              },
+              "same-story": {
+                "actual_requests": 1,
+                "cache_hit": false,
+                "charged_tokens": 603,
+                "decision": {
+                  "evidence_ids": [
+                    "0cae423ec8497e1cf7881726"
+                  ],
+                  "facts": 0.5,
+                  "hype": 0.5,
+                  "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
+                  "related_event_id": null,
+                  "score": 0.5,
+                  "signal": 0.5,
+                  "verdict": "unknown"
+                },
+                "estimated_tokens": 879,
+                "provider": {
+                  "abstained": false,
+                  "attempts": 1,
+                  "format": "systemone_choices",
+                  "input_tokens": 603,
+                  "latency_ms": 483,
+                  "model": "alias-clef",
+                  "model_identity_verified": true,
+                  "output_tokens": 0,
+                  "response_model": "alias-clef",
+                  "status": "success",
+                  "tokens": 603
+                }
+              },
+              "worth-attention": {
+                "actual_requests": 1,
+                "cache_hit": false,
+                "charged_tokens": 535,
+                "decision": {
+                  "evidence_ids": [
+                    "0cae423ec8497e1cf7881726"
+                  ],
+                  "facts": 0.5,
+                  "hype": 0.5,
+                  "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
+                  "related_event_id": null,
+                  "score": 0.5,
+                  "signal": 0.5,
+                  "verdict": "unknown"
+                },
+                "estimated_tokens": 879,
+                "provider": {
+                  "abstained": false,
+                  "attempts": 1,
+                  "format": "systemone_choices",
+                  "input_tokens": 535,
+                  "latency_ms": 403,
+                  "model": "alias-clef",
+                  "model_identity_verified": true,
+                  "output_tokens": 0,
+                  "response_model": "alias-clef",
+                  "status": "success",
+                  "tokens": 535
+                }
+              }
+            }
+          },
+          "decisions_with_model_output": 12,
+          "expected_decisions": 12,
+          "latency_ms": {
+            "count": 12,
+            "max": 717,
+            "mean": 481.25,
+            "total": 5775
+          },
+          "request_cap": 27,
+          "requests_remaining": 15,
+          "routed_candidates": 2,
+          "screened_out": [
+            {
+              "event_id": "66ae614893980ca101493598",
+              "priority_score": 0,
+              "provider_calls": 0,
+              "status": "SCREENED_OUT_FOR_BUDGET"
+            },
+            {
+              "event_id": "3645555764e25755a5c40cb8",
+              "priority_score": 2,
+              "provider_calls": 0,
+              "status": "SCREENED_OUT_FOR_BUDGET"
+            }
+          ],
+          "token_budget_limit": 200000,
+          "token_budget_reserved": 10506,
+          "token_budget_used_fraction": 0.05253,
+          "token_usage_complete": true
+        }
+      },
+      "collection": {
+        "additional_metrics": {
+          "invalid_public_urls": 0,
+          "not_in_review_inventory": 0,
+          "retrieved_items": 75
+        },
+        "collection_seconds": 1.973,
+        "error": null,
+        "excluded_nov9_events": 55,
+        "fresh_candidates": 75,
+        "retrieved_candidates": 75,
+        "selected_candidates": 8,
+        "source_metrics": [
+          {
+            "content_unchanged": false,
+            "error_code": null,
+            "items": 21,
+            "query": "(MCP OR \"agent orchestration\") (architecture OR durable)",
+            "source": "google_news",
+            "status": "ok"
+          },
+          {
+            "content_unchanged": false,
+            "error_code": null,
+            "items": 20,
+            "query": "\"KI-Agenten\" (MCP OR Orchestrierung OR Architektur)",
+            "source": "google_news",
+            "status": "ok"
+          },
+          {
+            "content_unchanged": false,
+            "error_code": null,
+            "items": 28,
+            "query": "\"agents IA\" (orchestration OR architecture OR MCP)",
+            "source": "google_news",
+            "status": "ok"
+          },
+          {
+            "content_unchanged": false,
+            "http_status": 200,
+            "items": 0,
+            "source": "github:microsoft/autogen",
+            "status": "ok"
+          },
+          {
+            "content_unchanged": false,
+            "http_status": 200,
+            "items": 6,
+            "source": "github:langchain-ai/langgraph",
+            "status": "ok"
+          }
+        ],
+        "unique_unseen_candidates": 20
+      },
+      "complete": true,
+      "domain": "agent-control-planes",
+      "excluded_event_ids_sha256": "a2bc56b893b836ff94e6d34944ca4463ef08d8e152c1d9a44fcf0ef90a5db953",
+      "policy_token_budget_per_arm": 200000,
+      "priority_scores": {
+        "3645555764e25755a5c40cb8": 2,
+        "4914a0b85ae5ed5582919b13": 8,
+        "66ae614893980ca101493598": 0,
+        "f308600a2110b710808979dc": 6
+      },
+      "profile_id": "examples/radar-agent-control-planes",
+      "protected_event_ids": [],
+      "request_cap_per_arm": 27,
+      "routed_treatment_event_ids": [
+        "4914a0b85ae5ed5582919b13",
+        "f308600a2110b710808979dc"
+      ],
+      "screened_out_event_ids": [
+        "66ae614893980ca101493598",
+        "3645555764e25755a5c40cb8"
+      ],
+      "split": {
+        "control_event_ids": [
+          "abbae0fc7371db39499c43b6",
+          "2188cad3e7cb676f78234d0a",
+          "b265a447339d5bc9297b84c6",
+          "26de48dab8ec1a54e28eae5c"
+        ],
+        "language_balance": {
+          "control": {
+            "fr": 1,
+            "unknown": 3
+          },
+          "treatment": {
+            "fr": 1,
+            "unknown": 3
+          }
+        },
+        "source_type_balance": {
+          "control": {
+            "rss": 4
+          },
+          "treatment": {
+            "rss": 4
+          }
+        },
+        "treatment_event_ids": [
+          "f308600a2110b710808979dc",
+          "4914a0b85ae5ed5582919b13",
+          "66ae614893980ca101493598",
+          "3645555764e25755a5c40cb8"
+        ]
+      }
+    },
+    "aux": {
+      "arms": {
+        "control": {
+          "actual_provider_requests": 24,
+          "actual_tokens_reported": 14598,
+          "cache_hits": 0,
+          "cache_identity_sha256": "8b0039c1cfe4aa29ed58308b84698945e42483fe2e11eb772a550ab946f7c745",
+          "charged_token_estimate": 14598,
+          "decision_coverage_fraction": 1.0,
+          "decision_status_counts": {
+            "success": 24
+          },
+          "decisions": {
+            "1cd01b15863e291ad4ce315f": {
+              "claim-support": {
+                "actual_requests": 1,
+                "cache_hit": false,
+                "charged_tokens": 579,
+                "decision": {
+                  "evidence_ids": [
+                    "ffdc53c43d6f134c85c35efc"
+                  ],
+                  "facts": 0.5,
+                  "hype": 0.5,
+                  "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
+                  "related_event_id": null,
+                  "score": 0.9,
+                  "signal": 0.5,
+                  "verdict": "yes"
+                },
+                "estimated_tokens": 860,
+                "provider": {
+                  "abstained": false,
+                  "attempts": 1,
+                  "format": "systemone_choices",
+                  "input_tokens": 579,
+                  "latency_ms": 428,
+                  "model": "alias-clef",
+                  "model_identity_verified": true,
+                  "output_tokens": 0,
+                  "response_model": "alias-clef",
+                  "status": "success",
+                  "tokens": 579
+                }
+              },
+              "hfs": {
+                "actual_requests": 1,
+                "cache_hit": false,
+                "charged_tokens": 821,
+                "decision": {
+                  "evidence_ids": [
+                    "ffdc53c43d6f134c85c35efc"
+                  ],
+                  "facts": 0.1,
+                  "hype": 0.1,
+                  "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
+                  "related_event_id": null,
+                  "score": 0.1,
+                  "signal": 0.1,
+                  "verdict": "no"
+                },
+                "estimated_tokens": 860,
+                "provider": {
+                  "abstained": false,
+                  "attempts": 1,
+                  "format": "systemone_choices",
+                  "input_tokens": 821,
+                  "latency_ms": 590,
+                  "model": "alias-clef",
+                  "model_identity_verified": true,
+                  "output_tokens": 0,
+                  "response_model": "alias-clef",
+                  "status": "success",
+                  "tokens": 821
+                }
+              },
+              "importance": {
+                "actual_requests": 1,
+                "cache_hit": false,
+                "charged_tokens": 588,
+                "decision": {
+                  "evidence_ids": [
+                    "ffdc53c43d6f134c85c35efc"
+                  ],
+                  "facts": 0.5,
+                  "hype": 0.5,
+                  "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
+                  "related_event_id": null,
+                  "score": 0.9,
+                  "signal": 0.5,
+                  "verdict": "yes"
+                },
+                "estimated_tokens": 860,
+                "provider": {
+                  "abstained": false,
+                  "attempts": 1,
+                  "format": "systemone_choices",
+                  "input_tokens": 588,
+                  "latency_ms": 409,
+                  "model": "alias-clef",
+                  "model_identity_verified": true,
+                  "output_tokens": 0,
+                  "response_model": "alias-clef",
+                  "status": "success",
+                  "tokens": 588
+                }
+              },
+              "relevance": {
+                "actual_requests": 1,
+                "cache_hit": false,
+                "charged_tokens": 566,
+                "decision": {
+                  "evidence_ids": [
+                    "ffdc53c43d6f134c85c35efc"
+                  ],
+                  "facts": 0.5,
+                  "hype": 0.5,
+                  "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
+                  "related_event_id": null,
+                  "score": 0.1,
+                  "signal": 0.5,
+                  "verdict": "no"
+                },
+                "estimated_tokens": 860,
+                "provider": {
+                  "abstained": false,
+                  "attempts": 1,
+                  "format": "systemone_choices",
+                  "input_tokens": 566,
+                  "latency_ms": 421,
+                  "model": "alias-clef",
+                  "model_identity_verified": true,
+                  "output_tokens": 0,
+                  "response_model": "alias-clef",
+                  "status": "success",
+                  "tokens": 566
+                }
+              },
+              "same-story": {
+                "actual_requests": 1,
+                "cache_hit": false,
+                "charged_tokens": 638,
+                "decision": {
+                  "evidence_ids": [
+                    "ffdc53c43d6f134c85c35efc"
+                  ],
+                  "facts": 0.5,
+                  "hype": 0.5,
+                  "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
+                  "related_event_id": null,
+                  "score": 0.5,
+                  "signal": 0.5,
+                  "verdict": "unknown"
+                },
+                "estimated_tokens": 860,
+                "provider": {
+                  "abstained": false,
+                  "attempts": 1,
+                  "format": "systemone_choices",
+                  "input_tokens": 638,
+                  "latency_ms": 423,
+                  "model": "alias-clef",
+                  "model_identity_verified": true,
+                  "output_tokens": 0,
+                  "response_model": "alias-clef",
+                  "status": "success",
+                  "tokens": 638
+                }
+              },
+              "worth-attention": {
+                "actual_requests": 1,
+                "cache_hit": false,
+                "charged_tokens": 570,
+                "decision": {
+                  "evidence_ids": [
+                    "ffdc53c43d6f134c85c35efc"
+                  ],
+                  "facts": 0.5,
+                  "hype": 0.5,
+                  "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
+                  "related_event_id": null,
+                  "score": 0.1,
+                  "signal": 0.5,
+                  "verdict": "no"
+                },
+                "estimated_tokens": 860,
+                "provider": {
+                  "abstained": false,
+                  "attempts": 1,
+                  "format": "systemone_choices",
+                  "input_tokens": 570,
+                  "latency_ms": 438,
+                  "model": "alias-clef",
+                  "model_identity_verified": true,
+                  "output_tokens": 0,
+                  "response_model": "alias-clef",
+                  "status": "success",
+                  "tokens": 570
+                }
+              }
+            },
+            "45ef223b8f422a64ca30efae": {
+              "claim-support": {
+                "actual_requests": 1,
+                "cache_hit": false,
+                "charged_tokens": 511,
+                "decision": {
+                  "evidence_ids": [
+                    "39e418822a9141c636052293"
+                  ],
+                  "facts": 0.5,
+                  "hype": 0.5,
+                  "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
+                  "related_event_id": null,
+                  "score": 0.9,
+                  "signal": 0.5,
+                  "verdict": "yes"
+                },
+                "estimated_tokens": 780,
+                "provider": {
+                  "abstained": false,
+                  "attempts": 1,
+                  "format": "systemone_choices",
+                  "input_tokens": 511,
+                  "latency_ms": 505,
+                  "model": "alias-clef",
+                  "model_identity_verified": true,
+                  "output_tokens": 0,
+                  "response_model": "alias-clef",
+                  "status": "success",
+                  "tokens": 511
+                }
+              },
+              "hfs": {
+                "actual_requests": 1,
+                "cache_hit": false,
+                "charged_tokens": 753,
+                "decision": {
+                  "evidence_ids": [
+                    "39e418822a9141c636052293"
+                  ],
+                  "facts": 0.1,
+                  "hype": 0.1,
+                  "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
+                  "related_event_id": null,
+                  "score": 0.1,
+                  "signal": 0.1,
+                  "verdict": "no"
+                },
+                "estimated_tokens": 780,
+                "provider": {
+                  "abstained": false,
+                  "attempts": 1,
+                  "format": "systemone_choices",
+                  "input_tokens": 753,
+                  "latency_ms": 471,
+                  "model": "alias-clef",
+                  "model_identity_verified": true,
+                  "output_tokens": 0,
+                  "response_model": "alias-clef",
+                  "status": "success",
+                  "tokens": 753
+                }
+              },
+              "importance": {
+                "actual_requests": 1,
+                "cache_hit": false,
+                "charged_tokens": 520,
+                "decision": {
+                  "evidence_ids": [
+                    "39e418822a9141c636052293"
+                  ],
+                  "facts": 0.5,
+                  "hype": 0.5,
+                  "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
+                  "related_event_id": null,
+                  "score": 0.5,
+                  "signal": 0.5,
+                  "verdict": "unknown"
+                },
+                "estimated_tokens": 780,
+                "provider": {
+                  "abstained": false,
+                  "attempts": 1,
+                  "format": "systemone_choices",
+                  "input_tokens": 520,
+                  "latency_ms": 421,
+                  "model": "alias-clef",
+                  "model_identity_verified": true,
+                  "output_tokens": 0,
+                  "response_model": "alias-clef",
+                  "status": "success",
+                  "tokens": 520
+                }
+              },
+              "relevance": {
+                "actual_requests": 1,
+                "cache_hit": false,
+                "charged_tokens": 498,
+                "decision": {
+                  "evidence_ids": [
+                    "39e418822a9141c636052293"
+                  ],
+                  "facts": 0.5,
+                  "hype": 0.5,
+                  "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
+                  "related_event_id": null,
+                  "score": 0.1,
+                  "signal": 0.5,
+                  "verdict": "no"
+                },
+                "estimated_tokens": 780,
+                "provider": {
+                  "abstained": false,
+                  "attempts": 1,
+                  "format": "systemone_choices",
+                  "input_tokens": 498,
+                  "latency_ms": 410,
+                  "model": "alias-clef",
+                  "model_identity_verified": true,
+                  "output_tokens": 0,
+                  "response_model": "alias-clef",
+                  "status": "success",
+                  "tokens": 498
+                }
+              },
+              "same-story": {
+                "actual_requests": 1,
+                "cache_hit": false,
+                "charged_tokens": 570,
+                "decision": {
+                  "evidence_ids": [
+                    "39e418822a9141c636052293"
+                  ],
+                  "facts": 0.5,
+                  "hype": 0.5,
+                  "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
+                  "related_event_id": null,
+                  "score": 0.5,
+                  "signal": 0.5,
+                  "verdict": "unknown"
+                },
+                "estimated_tokens": 780,
+                "provider": {
+                  "abstained": false,
+                  "attempts": 1,
+                  "format": "systemone_choices",
+                  "input_tokens": 570,
+                  "latency_ms": 435,
+                  "model": "alias-clef",
+                  "model_identity_verified": true,
+                  "output_tokens": 0,
+                  "response_model": "alias-clef",
+                  "status": "success",
+                  "tokens": 570
+                }
+              },
+              "worth-attention": {
+                "actual_requests": 1,
+                "cache_hit": false,
+                "charged_tokens": 502,
+                "decision": {
+                  "evidence_ids": [
+                    "39e418822a9141c636052293"
+                  ],
+                  "facts": 0.5,
+                  "hype": 0.5,
+                  "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
+                  "related_event_id": null,
+                  "score": 0.5,
+                  "signal": 0.5,
+                  "verdict": "unknown"
+                },
+                "estimated_tokens": 780,
+                "provider": {
+                  "abstained": false,
+                  "attempts": 1,
+                  "format": "systemone_choices",
+                  "input_tokens": 502,
+                  "latency_ms": 519,
+                  "model": "alias-clef",
+                  "model_identity_verified": true,
+                  "output_tokens": 0,
+                  "response_model": "alias-clef",
+                  "status": "success",
+                  "tokens": 502
+                }
+              }
+            },
+            "5e5a84662a260fee9c9b3bd5": {
+              "claim-support": {
+                "actual_requests": 1,
+                "cache_hit": false,
+                "charged_tokens": 546,
+                "decision": {
+                  "evidence_ids": [
+                    "80f524130ef34c529f3e53e6"
+                  ],
+                  "facts": 0.5,
+                  "hype": 0.5,
+                  "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
+                  "related_event_id": null,
+                  "score": 0.9,
+                  "signal": 0.5,
+                  "verdict": "yes"
+                },
+                "estimated_tokens": 799,
+                "provider": {
+                  "abstained": false,
+                  "attempts": 1,
+                  "format": "systemone_choices",
+                  "input_tokens": 546,
+                  "latency_ms": 416,
+                  "model": "alias-clef",
+                  "model_identity_verified": true,
+                  "output_tokens": 0,
+                  "response_model": "alias-clef",
+                  "status": "success",
+                  "tokens": 546
+                }
+              },
+              "hfs": {
+                "actual_requests": 1,
+                "cache_hit": false,
+                "charged_tokens": 788,
+                "decision": {
+                  "evidence_ids": [
+                    "80f524130ef34c529f3e53e6"
+                  ],
+                  "facts": 0.1,
+                  "hype": 0.1,
+                  "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
+                  "related_event_id": null,
+                  "score": 0.1,
+                  "signal": 0.1,
+                  "verdict": "no"
+                },
+                "estimated_tokens": 799,
+                "provider": {
+                  "abstained": false,
+                  "attempts": 1,
+                  "format": "systemone_choices",
+                  "input_tokens": 788,
+                  "latency_ms": 477,
+                  "model": "alias-clef",
+                  "model_identity_verified": true,
+                  "output_tokens": 0,
+                  "response_model": "alias-clef",
+                  "status": "success",
+                  "tokens": 788
+                }
+              },
+              "importance": {
+                "actual_requests": 1,
+                "cache_hit": false,
+                "charged_tokens": 555,
+                "decision": {
+                  "evidence_ids": [
+                    "80f524130ef34c529f3e53e6"
+                  ],
+                  "facts": 0.5,
+                  "hype": 0.5,
+                  "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
+                  "related_event_id": null,
+                  "score": 0.1,
+                  "signal": 0.5,
+                  "verdict": "no"
+                },
+                "estimated_tokens": 799,
+                "provider": {
+                  "abstained": false,
+                  "attempts": 1,
+                  "format": "systemone_choices",
+                  "input_tokens": 555,
+                  "latency_ms": 494,
+                  "model": "alias-clef",
+                  "model_identity_verified": true,
+                  "output_tokens": 0,
+                  "response_model": "alias-clef",
+                  "status": "success",
+                  "tokens": 555
+                }
+              },
+              "relevance": {
+                "actual_requests": 1,
+                "cache_hit": false,
+                "charged_tokens": 533,
+                "decision": {
+                  "evidence_ids": [
+                    "80f524130ef34c529f3e53e6"
+                  ],
+                  "facts": 0.5,
+                  "hype": 0.5,
+                  "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
+                  "related_event_id": null,
+                  "score": 0.1,
+                  "signal": 0.5,
+                  "verdict": "no"
+                },
+                "estimated_tokens": 799,
+                "provider": {
+                  "abstained": false,
+                  "attempts": 1,
+                  "format": "systemone_choices",
+                  "input_tokens": 533,
+                  "latency_ms": 447,
+                  "model": "alias-clef",
+                  "model_identity_verified": true,
+                  "output_tokens": 0,
+                  "response_model": "alias-clef",
+                  "status": "success",
+                  "tokens": 533
+                }
+              },
+              "same-story": {
+                "actual_requests": 1,
+                "cache_hit": false,
+                "charged_tokens": 605,
+                "decision": {
+                  "evidence_ids": [
+                    "80f524130ef34c529f3e53e6"
+                  ],
+                  "facts": 0.5,
+                  "hype": 0.5,
+                  "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
+                  "related_event_id": null,
+                  "score": 0.9,
+                  "signal": 0.5,
+                  "verdict": "different"
+                },
+                "estimated_tokens": 799,
+                "provider": {
+                  "abstained": false,
+                  "attempts": 1,
+                  "format": "systemone_choices",
+                  "input_tokens": 605,
+                  "latency_ms": 538,
+                  "model": "alias-clef",
+                  "model_identity_verified": true,
+                  "output_tokens": 0,
+                  "response_model": "alias-clef",
+                  "status": "success",
+                  "tokens": 605
+                }
+              },
+              "worth-attention": {
+                "actual_requests": 1,
+                "cache_hit": false,
+                "charged_tokens": 537,
+                "decision": {
+                  "evidence_ids": [
+                    "80f524130ef34c529f3e53e6"
+                  ],
+                  "facts": 0.5,
+                  "hype": 0.5,
+                  "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
+                  "related_event_id": null,
+                  "score": 0.1,
+                  "signal": 0.5,
+                  "verdict": "no"
+                },
+                "estimated_tokens": 799,
+                "provider": {
+                  "abstained": false,
+                  "attempts": 1,
+                  "format": "systemone_choices",
+                  "input_tokens": 537,
+                  "latency_ms": 418,
+                  "model": "alias-clef",
+                  "model_identity_verified": true,
+                  "output_tokens": 0,
+                  "response_model": "alias-clef",
+                  "status": "success",
+                  "tokens": 537
+                }
+              }
+            },
+            "9a8fde6cfa9ab68cee22829c": {
+              "claim-support": {
+                "actual_requests": 1,
+                "cache_hit": false,
+                "charged_tokens": 605,
+                "decision": {
+                  "evidence_ids": [
+                    "8fee3b9d22c48e08d195e9b9"
+                  ],
+                  "facts": 0.5,
+                  "hype": 0.5,
+                  "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
+                  "related_event_id": null,
+                  "score": 0.9,
+                  "signal": 0.5,
+                  "verdict": "yes"
+                },
+                "estimated_tokens": 844,
+                "provider": {
+                  "abstained": false,
+                  "attempts": 1,
+                  "format": "systemone_choices",
+                  "input_tokens": 605,
+                  "latency_ms": 658,
+                  "model": "alias-clef",
+                  "model_identity_verified": true,
+                  "output_tokens": 0,
+                  "response_model": "alias-clef",
+                  "status": "success",
+                  "tokens": 605
+                }
+              },
+              "hfs": {
+                "actual_requests": 1,
+                "cache_hit": false,
+                "charged_tokens": 847,
+                "decision": {
+                  "evidence_ids": [
+                    "8fee3b9d22c48e08d195e9b9"
+                  ],
+                  "facts": 0.9,
+                  "hype": 0.5,
+                  "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
+                  "related_event_id": null,
+                  "score": 0.5,
+                  "signal": 0.5,
+                  "verdict": "yes"
+                },
+                "estimated_tokens": 844,
+                "provider": {
+                  "abstained": false,
+                  "attempts": 1,
+                  "format": "systemone_choices",
+                  "input_tokens": 847,
+                  "latency_ms": 636,
+                  "model": "alias-clef",
+                  "model_identity_verified": true,
+                  "output_tokens": 0,
+                  "response_model": "alias-clef",
+                  "status": "success",
+                  "tokens": 847
+                }
+              },
+              "importance": {
+                "actual_requests": 1,
+                "cache_hit": false,
+                "charged_tokens": 614,
+                "decision": {
+                  "evidence_ids": [
+                    "8fee3b9d22c48e08d195e9b9"
+                  ],
+                  "facts": 0.5,
+                  "hype": 0.5,
+                  "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
+                  "related_event_id": null,
+                  "score": 0.9,
+                  "signal": 0.5,
+                  "verdict": "yes"
+                },
+                "estimated_tokens": 844,
+                "provider": {
+                  "abstained": false,
+                  "attempts": 1,
+                  "format": "systemone_choices",
+                  "input_tokens": 614,
+                  "latency_ms": 425,
+                  "model": "alias-clef",
+                  "model_identity_verified": true,
+                  "output_tokens": 0,
+                  "response_model": "alias-clef",
+                  "status": "success",
+                  "tokens": 614
+                }
+              },
+              "relevance": {
+                "actual_requests": 1,
+                "cache_hit": false,
+                "charged_tokens": 592,
+                "decision": {
+                  "evidence_ids": [
+                    "8fee3b9d22c48e08d195e9b9"
+                  ],
+                  "facts": 0.5,
+                  "hype": 0.5,
+                  "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
+                  "related_event_id": null,
+                  "score": 0.1,
+                  "signal": 0.5,
+                  "verdict": "no"
+                },
+                "estimated_tokens": 844,
+                "provider": {
+                  "abstained": false,
+                  "attempts": 1,
+                  "format": "systemone_choices",
+                  "input_tokens": 592,
+                  "latency_ms": 407,
+                  "model": "alias-clef",
+                  "model_identity_verified": true,
+                  "output_tokens": 0,
+                  "response_model": "alias-clef",
+                  "status": "success",
+                  "tokens": 592
+                }
+              },
+              "same-story": {
+                "actual_requests": 1,
+                "cache_hit": false,
+                "charged_tokens": 664,
+                "decision": {
+                  "evidence_ids": [
+                    "8fee3b9d22c48e08d195e9b9"
+                  ],
+                  "facts": 0.5,
+                  "hype": 0.5,
+                  "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
+                  "related_event_id": null,
+                  "score": 0.9,
+                  "signal": 0.5,
+                  "verdict": "different"
+                },
+                "estimated_tokens": 844,
+                "provider": {
+                  "abstained": false,
+                  "attempts": 1,
+                  "format": "systemone_choices",
+                  "input_tokens": 664,
+                  "latency_ms": 446,
+                  "model": "alias-clef",
+                  "model_identity_verified": true,
+                  "output_tokens": 0,
+                  "response_model": "alias-clef",
+                  "status": "success",
+                  "tokens": 664
+                }
+              },
+              "worth-attention": {
+                "actual_requests": 1,
+                "cache_hit": false,
+                "charged_tokens": 596,
+                "decision": {
+                  "evidence_ids": [
+                    "8fee3b9d22c48e08d195e9b9"
+                  ],
+                  "facts": 0.5,
+                  "hype": 0.5,
+                  "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
+                  "related_event_id": null,
+                  "score": 0.5,
+                  "signal": 0.5,
+                  "verdict": "unknown"
+                },
+                "estimated_tokens": 844,
+                "provider": {
+                  "abstained": false,
+                  "attempts": 1,
+                  "format": "systemone_choices",
+                  "input_tokens": 596,
+                  "latency_ms": 520,
+                  "model": "alias-clef",
+                  "model_identity_verified": true,
+                  "output_tokens": 0,
+                  "response_model": "alias-clef",
+                  "status": "success",
+                  "tokens": 596
+                }
+              }
+            }
+          },
+          "decisions_with_model_output": 24,
+          "expected_decisions": 24,
+          "latency_ms": {
+            "count": 24,
+            "max": 658,
+            "mean": 473.0,
+            "total": 11352
+          },
+          "request_cap": 27,
+          "requests_remaining": 3,
+          "routed_candidates": 4,
+          "token_budget_limit": 120000,
+          "token_budget_reserved": 19701,
+          "token_budget_used_fraction": 0.164175,
+          "token_usage_complete": true
+        },
+        "treatment": {
+          "actual_provider_requests": 12,
+          "actual_tokens_reported": 7638,
+          "cache_hits": 0,
+          "cache_identity_sha256": "8b0039c1cfe4aa29ed58308b84698945e42483fe2e11eb772a550ab946f7c745",
+          "charged_token_estimate": 7638,
+          "decision_coverage_fraction": 1.0,
+          "decision_status_counts": {
+            "success": 12
+          },
+          "decisions": {
+            "7a8b85431c54289a512e05a5": {
+              "claim-support": {
+                "actual_requests": 1,
+                "cache_hit": false,
+                "charged_tokens": 611,
+                "decision": {
+                  "evidence_ids": [
+                    "408db778a3e4425a04afb431"
+                  ],
+                  "facts": 0.5,
+                  "hype": 0.5,
+                  "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
+                  "related_event_id": null,
+                  "score": 0.9,
+                  "signal": 0.5,
+                  "verdict": "yes"
+                },
+                "estimated_tokens": 841,
+                "provider": {
+                  "abstained": false,
+                  "attempts": 1,
+                  "format": "systemone_choices",
+                  "input_tokens": 611,
+                  "latency_ms": 435,
+                  "model": "alias-clef",
+                  "model_identity_verified": true,
+                  "output_tokens": 0,
+                  "response_model": "alias-clef",
+                  "status": "success",
+                  "tokens": 611
+                }
+              },
+              "hfs": {
+                "actual_requests": 1,
+                "cache_hit": false,
+                "charged_tokens": 853,
+                "decision": {
+                  "evidence_ids": [
+                    "408db778a3e4425a04afb431"
+                  ],
+                  "facts": 0.1,
+                  "hype": 0.1,
+                  "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
+                  "related_event_id": null,
+                  "score": 0.5,
+                  "signal": 0.5,
+                  "verdict": "yes"
+                },
+                "estimated_tokens": 841,
+                "provider": {
+                  "abstained": false,
+                  "attempts": 1,
+                  "format": "systemone_choices",
+                  "input_tokens": 853,
+                  "latency_ms": 465,
+                  "model": "alias-clef",
+                  "model_identity_verified": true,
+                  "output_tokens": 0,
+                  "response_model": "alias-clef",
+                  "status": "success",
+                  "tokens": 853
+                }
+              },
+              "importance": {
+                "actual_requests": 1,
+                "cache_hit": false,
+                "charged_tokens": 620,
+                "decision": {
+                  "evidence_ids": [
+                    "408db778a3e4425a04afb431"
+                  ],
+                  "facts": 0.5,
+                  "hype": 0.5,
+                  "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
+                  "related_event_id": null,
+                  "score": 0.5,
+                  "signal": 0.5,
+                  "verdict": "yes"
+                },
+                "estimated_tokens": 841,
+                "provider": {
+                  "abstained": false,
+                  "attempts": 1,
+                  "format": "systemone_choices",
+                  "input_tokens": 620,
+                  "latency_ms": 408,
+                  "model": "alias-clef",
+                  "model_identity_verified": true,
+                  "output_tokens": 0,
+                  "response_model": "alias-clef",
+                  "status": "success",
+                  "tokens": 620
+                }
+              },
+              "relevance": {
+                "actual_requests": 1,
+                "cache_hit": false,
+                "charged_tokens": 598,
+                "decision": {
+                  "evidence_ids": [
+                    "408db778a3e4425a04afb431"
+                  ],
+                  "facts": 0.5,
+                  "hype": 0.5,
+                  "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
+                  "related_event_id": null,
+                  "score": 0.9,
+                  "signal": 0.5,
+                  "verdict": "yes"
+                },
+                "estimated_tokens": 841,
+                "provider": {
+                  "abstained": false,
+                  "attempts": 1,
+                  "format": "systemone_choices",
+                  "input_tokens": 598,
+                  "latency_ms": 419,
+                  "model": "alias-clef",
+                  "model_identity_verified": true,
+                  "output_tokens": 0,
+                  "response_model": "alias-clef",
+                  "status": "success",
+                  "tokens": 598
+                }
+              },
+              "same-story": {
+                "actual_requests": 1,
+                "cache_hit": false,
+                "charged_tokens": 670,
+                "decision": {
+                  "evidence_ids": [
+                    "408db778a3e4425a04afb431"
+                  ],
+                  "facts": 0.5,
+                  "hype": 0.5,
+                  "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
+                  "related_event_id": null,
+                  "score": 0.9,
+                  "signal": 0.5,
+                  "verdict": "different"
+                },
+                "estimated_tokens": 841,
+                "provider": {
+                  "abstained": false,
+                  "attempts": 1,
+                  "format": "systemone_choices",
+                  "input_tokens": 670,
+                  "latency_ms": 606,
+                  "model": "alias-clef",
+                  "model_identity_verified": true,
+                  "output_tokens": 0,
+                  "response_model": "alias-clef",
+                  "status": "success",
+                  "tokens": 670
+                }
+              },
+              "worth-attention": {
+                "actual_requests": 1,
+                "cache_hit": false,
+                "charged_tokens": 602,
+                "decision": {
+                  "evidence_ids": [
+                    "408db778a3e4425a04afb431"
+                  ],
+                  "facts": 0.5,
+                  "hype": 0.5,
+                  "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
+                  "related_event_id": null,
+                  "score": 0.1,
+                  "signal": 0.5,
+                  "verdict": "no"
+                },
+                "estimated_tokens": 841,
+                "provider": {
+                  "abstained": false,
+                  "attempts": 1,
+                  "format": "systemone_choices",
+                  "input_tokens": 602,
+                  "latency_ms": 413,
+                  "model": "alias-clef",
+                  "model_identity_verified": true,
+                  "output_tokens": 0,
+                  "response_model": "alias-clef",
+                  "status": "success",
+                  "tokens": 602
+                }
+              }
+            },
+            "cba41f0395d50b9e1105caa6": {
+              "claim-support": {
+                "actual_requests": 1,
+                "cache_hit": false,
+                "charged_tokens": 566,
+                "decision": {
+                  "evidence_ids": [
+                    "cc5fda0401ee73b084fbdfdd"
+                  ],
+                  "facts": 0.5,
+                  "hype": 0.5,
+                  "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
+                  "related_event_id": null,
+                  "score": 0.9,
+                  "signal": 0.5,
+                  "verdict": "yes"
+                },
+                "estimated_tokens": 863,
+                "provider": {
+                  "abstained": false,
+                  "attempts": 1,
+                  "format": "systemone_choices",
+                  "input_tokens": 566,
+                  "latency_ms": 441,
+                  "model": "alias-clef",
+                  "model_identity_verified": true,
+                  "output_tokens": 0,
+                  "response_model": "alias-clef",
+                  "status": "success",
+                  "tokens": 566
+                }
+              },
+              "hfs": {
+                "actual_requests": 1,
+                "cache_hit": false,
+                "charged_tokens": 808,
+                "decision": {
+                  "evidence_ids": [
+                    "cc5fda0401ee73b084fbdfdd"
+                  ],
+                  "facts": 0.9,
+                  "hype": 0.5,
+                  "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
+                  "related_event_id": null,
+                  "score": 0.5,
+                  "signal": 0.5,
+                  "verdict": "yes"
+                },
+                "estimated_tokens": 863,
+                "provider": {
+                  "abstained": false,
+                  "attempts": 1,
+                  "format": "systemone_choices",
+                  "input_tokens": 808,
+                  "latency_ms": 472,
+                  "model": "alias-clef",
+                  "model_identity_verified": true,
+                  "output_tokens": 0,
+                  "response_model": "alias-clef",
+                  "status": "success",
+                  "tokens": 808
+                }
+              },
+              "importance": {
+                "actual_requests": 1,
+                "cache_hit": false,
+                "charged_tokens": 575,
+                "decision": {
+                  "evidence_ids": [
+                    "cc5fda0401ee73b084fbdfdd"
+                  ],
+                  "facts": 0.5,
+                  "hype": 0.5,
+                  "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
+                  "related_event_id": null,
+                  "score": 0.9,
+                  "signal": 0.5,
+                  "verdict": "yes"
+                },
+                "estimated_tokens": 863,
+                "provider": {
+                  "abstained": false,
+                  "attempts": 1,
+                  "format": "systemone_choices",
+                  "input_tokens": 575,
+                  "latency_ms": 434,
+                  "model": "alias-clef",
+                  "model_identity_verified": true,
+                  "output_tokens": 0,
+                  "response_model": "alias-clef",
+                  "status": "success",
+                  "tokens": 575
+                }
+              },
+              "relevance": {
+                "actual_requests": 1,
+                "cache_hit": false,
+                "charged_tokens": 553,
+                "decision": {
+                  "evidence_ids": [
+                    "cc5fda0401ee73b084fbdfdd"
+                  ],
+                  "facts": 0.5,
+                  "hype": 0.5,
+                  "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
+                  "related_event_id": null,
+                  "score": 0.1,
+                  "signal": 0.5,
+                  "verdict": "no"
+                },
+                "estimated_tokens": 863,
+                "provider": {
+                  "abstained": false,
+                  "attempts": 1,
+                  "format": "systemone_choices",
+                  "input_tokens": 553,
+                  "latency_ms": 436,
+                  "model": "alias-clef",
+                  "model_identity_verified": true,
+                  "output_tokens": 0,
+                  "response_model": "alias-clef",
+                  "status": "success",
+                  "tokens": 553
+                }
+              },
+              "same-story": {
+                "actual_requests": 1,
+                "cache_hit": false,
+                "charged_tokens": 625,
+                "decision": {
+                  "evidence_ids": [
+                    "cc5fda0401ee73b084fbdfdd"
+                  ],
+                  "facts": 0.5,
+                  "hype": 0.5,
+                  "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
+                  "related_event_id": null,
+                  "score": 0.9,
+                  "signal": 0.5,
+                  "verdict": "different"
+                },
+                "estimated_tokens": 863,
+                "provider": {
+                  "abstained": false,
+                  "attempts": 1,
+                  "format": "systemone_choices",
+                  "input_tokens": 625,
+                  "latency_ms": 443,
+                  "model": "alias-clef",
+                  "model_identity_verified": true,
+                  "output_tokens": 0,
+                  "response_model": "alias-clef",
+                  "status": "success",
+                  "tokens": 625
+                }
+              },
+              "worth-attention": {
+                "actual_requests": 1,
+                "cache_hit": false,
+                "charged_tokens": 557,
+                "decision": {
+                  "evidence_ids": [
+                    "cc5fda0401ee73b084fbdfdd"
+                  ],
+                  "facts": 0.5,
+                  "hype": 0.5,
+                  "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
+                  "related_event_id": null,
+                  "score": 0.1,
+                  "signal": 0.5,
+                  "verdict": "no"
+                },
+                "estimated_tokens": 863,
+                "provider": {
+                  "abstained": false,
+                  "attempts": 1,
+                  "format": "systemone_choices",
+                  "input_tokens": 557,
+                  "latency_ms": 411,
+                  "model": "alias-clef",
+                  "model_identity_verified": true,
+                  "output_tokens": 0,
+                  "response_model": "alias-clef",
+                  "status": "success",
+                  "tokens": 557
+                }
+              }
+            }
+          },
+          "decisions_with_model_output": 12,
+          "expected_decisions": 12,
+          "latency_ms": {
+            "count": 12,
+            "max": 606,
+            "mean": 448.58,
+            "total": 5383
+          },
+          "request_cap": 27,
+          "requests_remaining": 15,
+          "routed_candidates": 2,
+          "screened_out": [
+            {
+              "event_id": "1f44494482baae16111a6892",
+              "priority_score": 0,
+              "provider_calls": 0,
+              "status": "SCREENED_OUT_FOR_BUDGET"
+            },
+            {
+              "event_id": "78933b32b9606b48c3c86a44",
+              "priority_score": 0,
+              "provider_calls": 0,
+              "status": "SCREENED_OUT_FOR_BUDGET"
+            }
+          ],
+          "token_budget_limit": 120000,
+          "token_budget_reserved": 10236,
+          "token_budget_used_fraction": 0.0853,
+          "token_usage_complete": true
+        }
+      },
+      "collection": {
+        "additional_metrics": {
+          "invalid_public_urls": 0,
+          "not_in_review_inventory": 0,
+          "retrieved_items": 22
+        },
+        "collection_seconds": 0.723,
+        "error": null,
+        "excluded_nov9_events": 5,
+        "fresh_candidates": 22,
+        "retrieved_candidates": 22,
+        "selected_candidates": 8,
+        "source_metrics": [
+          {
+            "error_code": null,
+            "items": 0,
+            "query": "AI usability accessibility agent browser testing",
+            "source": "google_news",
+            "status": "ok"
+          },
+          {
+            "error_code": null,
+            "items": 14,
+            "query": "(\"AI\" OR \"artificial intelligence\") (accessibility OR \"usability testing\" OR \"inclusive UX\")",
+            "source": "google_news",
+            "status": "ok"
+          },
+          {
+            "items": 8,
+            "source": "rss",
+            "status": "ok"
+          }
+        ],
+        "unique_unseen_candidates": 17
+      },
+      "complete": true,
+      "domain": "aux",
+      "excluded_event_ids_sha256": "a2bc56b893b836ff94e6d34944ca4463ef08d8e152c1d9a44fcf0ef90a5db953",
+      "policy_token_budget_per_arm": 120000,
+      "priority_scores": {
+        "1f44494482baae16111a6892": 0,
+        "78933b32b9606b48c3c86a44": 0,
+        "7a8b85431c54289a512e05a5": 1,
+        "cba41f0395d50b9e1105caa6": 3
+      },
+      "profile_id": "examples/ai-usability",
+      "protected_event_ids": [],
+      "request_cap_per_arm": 27,
+      "routed_treatment_event_ids": [
+        "cba41f0395d50b9e1105caa6",
+        "7a8b85431c54289a512e05a5"
+      ],
+      "screened_out_event_ids": [
+        "1f44494482baae16111a6892",
+        "78933b32b9606b48c3c86a44"
+      ],
+      "split": {
+        "control_event_ids": [
+          "1cd01b15863e291ad4ce315f",
+          "9a8fde6cfa9ab68cee22829c",
+          "5e5a84662a260fee9c9b3bd5",
+          "45ef223b8f422a64ca30efae"
+        ],
+        "language_balance": {
+          "control": {
+            "en": 1,
+            "unknown": 3
+          },
+          "treatment": {
+            "en": 1,
+            "unknown": 3
+          }
+        },
+        "source_type_balance": {
+          "control": {
+            "google_news": 2,
+            "rss": 2
+          },
+          "treatment": {
+            "google_news": 2,
+            "rss": 2
+          }
+        },
+        "treatment_event_ids": [
+          "1f44494482baae16111a6892",
+          "78933b32b9606b48c3c86a44",
+          "cba41f0395d50b9e1105caa6",
+          "7a8b85431c54289a512e05a5"
+        ]
+      }
+    },
+    "distributed-training": {
+      "collection": {
+        "additional_metrics": {
+          "invalid_public_urls": 0,
+          "not_in_review_inventory": 0,
+          "retrieved_items": 10
+        },
+        "collection_seconds": 2.112,
+        "error": null,
+        "excluded_nov9_events": 8,
+        "fresh_candidates": 10,
+        "retrieved_candidates": 10,
+        "selected_candidates": 2,
+        "source_metrics": [
+          {
+            "content_unchanged": false,
+            "error_code": null,
+            "items": 7,
+            "query": "FSDP OR \"distributed training\" OR \"tensor parallelism\"",
+            "source": "google_news",
+            "status": "ok"
+          },
+          {
+            "content_unchanged": false,
+            "error_code": null,
+            "items": 2,
+            "query": "(\"KI-Training\" OR \"verteiltes Training\" OR Tensorparallelität) (GPU OR Cluster OR Speicher)",
+            "source": "google_news",
+            "status": "ok"
+          },
+          {
+            "content_unchanged": false,
+            "error_code": null,
+            "items": 1,
+            "query": "(\"entraînement distribué\" OR \"entraînement IA\" OR \"entraînement des modèles\") (GPU OR cluster OR mémoire)",
+            "source": "google_news",
+            "status": "ok"
+          },
+          {
+            "content_unchanged": false,
+            "http_status": 200,
+            "items": 0,
+            "source": "github:pytorch/pytorch",
+            "status": "ok"
+          },
+          {
+            "content_unchanged": false,
+            "http_status": 200,
+            "items": 0,
+            "source": "github:huggingface/accelerate",
+            "status": "ok"
+          }
+        ],
+        "unique_unseen_candidates": 2
+      },
+      "complete": false,
+      "domain": "distributed-training",
+      "excluded_event_ids_sha256": "a2bc56b893b836ff94e6d34944ca4463ef08d8e152c1d9a44fcf0ef90a5db953",
+      "policy_token_budget_per_arm": 200000,
+      "profile_id": "examples/radar-distributed-training",
+      "request_cap_per_arm": 27,
+      "status": "INCOMPLETE_INSUFFICIENT_FRESH_UNSEEN_CANDIDATES",
+      "unassigned_candidates": [
+        {
+          "candidate_id": "e8df6a4fe25fa6ab8a7db28a",
+          "event_id": "51120b0e78b12bebe4807a00",
+          "evidence": [
+            {
+              "content_hash": "fa2badd52a723bb0ba08feabb5d5a20c4e794bb5c759330b049221f48f646a35",
+              "discovery_language": "en",
+              "excerpt": "AWS launches TorchNeuron for PyTorch models on Trainium chips TechGig",
+              "fresh": true,
+              "id": "779c6fd7c78c09ce776f42f6",
+              "language": "unknown",
+              "language_basis": "insufficient_language_evidence",
+              "primary": false,
+              "published_at": "2026-11-10T00:06:44Z",
+              "publisher": "TechGig",
+              "retrieved_at": "2026-11-10T15:18:52.173865Z",
+              "source_type": "rss",
+              "title": "AWS launches TorchNeuron for PyTorch models on Trainium chips - TechGig",
+              "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPLTMtam1Kakl3MHlNWEdiRXBRdVF1b3hVWEVibUEtaFlCd2RNZmVUMGtpaFl0VUkxY3RYX19WTWlDdUJyYVdVdG1pdXJka3NNS2JTNTQ5RmU4NDhRZ3VQdTkzWGxwX0NFVDNCbzNUSDRCNTdLbm1vQm14dnBWamx3akJxaU9TaFZpc1h6RFlEUmRKQ1FQem9VZFRPeFRNY3V50gGmAUFVX3lxTFAwYmg5cW9sa3FMNVhQV2NKcmlDcXhvMXpSZWpPenhxaDlFYzFUQ0pXQmdmWEpKOW95eEMyVGY0YVVRTzJldUlLMkM2YXdEX09iRXBRcWhzLURHVktka2dNX3dIU3lWUWhvZlhKbjY3NlZYSUJ1QUlBNW9LUEtFVlY1SDZyYzk5RmdsZWt3R2JnUTNpQnBDc1l2VklBeDVPS2NkTnlRY3c?oc=5"
+            }
+          ],
+          "title": "AWS launches TorchNeuron for PyTorch models on Trainium chips - TechGig",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPLTMtam1Kakl3MHlNWEdiRXBRdVF1b3hVWEVibUEtaFlCd2RNZmVUMGtpaFl0VUkxY3RYX19WTWlDdUJyYVdVdG1pdXJka3NNS2JTNTQ5RmU4NDhRZ3VQdTkzWGxwX0NFVDNCbzNUSDRCNTdLbm1vQm14dnBWamx3akJxaU9TaFZpc1h6RFlEUmRKQ1FQem9VZFRPeFRNY3V50gGmAUFVX3lxTFAwYmg5cW9sa3FMNVhQV2NKcmlDcXhvMXpSZWpPenhxaDlFYzFUQ0pXQmdmWEpKOW95eEMyVGY0YVVRTzJldUlLMkM2YXdEX09iRXBRcWhzLURHVktka2dNX3dIU3lWUWhvZlhKbjY3NlZYSUJ1QUlBNW9LUEtFVlY1SDZyYzk5RmdsZWt3R2JnUTNpQnBDc1l2VklBeDVPS2NkTnlRY3c?oc=5"
+        },
+        {
+          "candidate_id": "bed1678f8399eef8c7ff2ad4",
+          "event_id": "f89bf02d0ab59496ce0722f6",
+          "evidence": [
+            {
+              "content_hash": "bf33de347f2e70b19de6e8d8fd558c0e85f1ba086001d2b1550a1293739c36be",
+              "discovery_language": "en",
+              "excerpt": "Moonshot AI's Kimi K3.1 Pro Deployed on AMD Instinct MI355X GPUs Blockchain News",
+              "fresh": true,
+              "id": "8010426485c9e38efed0e50d",
+              "language": "unknown",
+              "language_basis": "insufficient_language_evidence",
+              "primary": false,
+              "published_at": "2026-11-04T17:09:00Z",
+              "publisher": "Blockchain News",
+              "retrieved_at": "2026-11-10T15:18:52.174023Z",
+              "source_type": "rss",
+              "title": "Moonshot AI's Kimi K3.1 Pro Deployed on AMD Instinct MI355X GPUs - Blockchain News",
+              "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE42bkxXM3JiUGQzNHR0eFVTdHVXMlFqUWNGVnRlQ01rZzY5bXhmMTRETFBUZV9KRzF1Q0JjR0NNcTBBMWVIOTVfYlFaNVR1R2dIdFRKbXNtOG5FR3ZjNkhCYU5XN1V6SklKUGdGWg?oc=5"
+            }
+          ],
+          "title": "Moonshot AI's Kimi K3.1 Pro Deployed on AMD Instinct MI355X GPUs - Blockchain News",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE42bkxXM3JiUGQzNHR0eFVTdHVXMlFqUWNGVnRlQ01rZzY5bXhmMTRETFBUZV9KRzF1Q0JjR0NNcTBBMWVIOTVfYlFaNVR1R2dIdFRKbXNtOG5FR3ZjNkhCYU5XN1V6SklKUGdGWg?oc=5"
+        }
+      ]
+    },
+    "rag-memory": {
+      "collection": {
+        "additional_metrics": {
+          "invalid_public_urls": 0,
+          "not_in_review_inventory": 0,
+          "retrieved_items": 41
+        },
+        "collection_seconds": 1.625,
+        "error": null,
+        "excluded_nov9_events": 35,
+        "fresh_candidates": 41,
+        "retrieved_candidates": 41,
+        "selected_candidates": 6,
+        "source_metrics": [
+          {
+            "content_unchanged": false,
+            "error_code": null,
+            "items": 8,
+            "query": "\"agent memory\" OR \"hybrid retrieval\" OR \"RAG evaluation\"",
+            "source": "google_news",
+            "status": "ok"
+          },
+          {
+            "content_unchanged": false,
+            "error_code": null,
+            "items": 14,
+            "query": "(RAG OR Wissensabruf) (KI OR Gedächtnis OR Evaluierung)",
+            "source": "google_news",
+            "status": "ok"
+          },
+          {
+            "content_unchanged": false,
+            "error_code": null,
+            "items": 9,
+            "query": "(RAG OR \"mémoire agents\") (évaluation OR recherche OR hybride)",
+            "source": "google_news",
+            "status": "ok"
+          },
+          {
+            "content_unchanged": false,
+            "http_status": 200,
+            "items": 10,
+            "source": "github:langchain-ai/langchain",
+            "status": "ok"
+          },
+          {
+            "content_unchanged": false,
+            "http_status": 200,
+            "items": 0,
+            "source": "github:facebookresearch/faiss",
+            "status": "ok"
+          }
+        ],
+        "unique_unseen_candidates": 6
+      },
+      "complete": false,
+      "domain": "rag-memory",
+      "excluded_event_ids_sha256": "a2bc56b893b836ff94e6d34944ca4463ef08d8e152c1d9a44fcf0ef90a5db953",
+      "policy_token_budget_per_arm": 200000,
+      "profile_id": "examples/radar-rag-memory",
+      "request_cap_per_arm": 27,
+      "status": "INCOMPLETE_INSUFFICIENT_FRESH_UNSEEN_CANDIDATES",
+      "unassigned_candidates": [
+        {
+          "candidate_id": "6df15db53554f3703671898e",
+          "event_id": "f96863aaf167282a8abf8138",
+          "evidence": [
+            {
+              "content_hash": "5394f1f325fcff269a0f87fbc4145246e38086ab75519fde7610a2d3f8f34b5d",
+              "discovery_language": "fr",
+              "excerpt": "Récupération simple et agentique avec Amazon Bedrock Managed Knowledge Base lefilia.fr",
+              "fresh": true,
+              "id": "7d9ad6ce6d9b1d949fbbea74",
+              "language": "unknown",
+              "language_basis": "insufficient_language_evidence",
+              "primary": false,
+              "published_at": "2026-11-09T20:13:18Z",
+              "publisher": "lefilia.fr",
+              "retrieved_at": "2026-11-10T15:18:55.042357Z",
+              "source_type": "rss",
+              "title": "Récupération simple et agentique avec Amazon Bedrock Managed Knowledge Base - lefilia.fr",
+              "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPNjJsMy1ueDFfR0lid1FvN1pnaXpMdnplN0I5UTVwTGNCbTZuTlVISXp2T0tlOFBoU20zb09tUVU3WjVNY0lvUURpY0VGUnBveUdKUWZFMUF1TlY0dFZ0QjgydDhMSlI4UjYtTy05MkpzSWZVZ0hKbExLeVp4ODFVVXQ0N1VOSFdvZFRvaVpCazFDRF9CdXlvMU5zWGgtUzhHQXRHRHBxeE9jQjZ2RW1RZXhtb0E?oc=5"
+            }
+          ],
+          "title": "Récupération simple et agentique avec Amazon Bedrock Managed Knowledge Base - lefilia.fr",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPNjJsMy1ueDFfR0lid1FvN1pnaXpMdnplN0I5UTVwTGNCbTZuTlVISXp2T0tlOFBoU20zb09tUVU3WjVNY0lvUURpY0VGUnBveUdKUWZFMUF1TlY0dFZ0QjgydDhMSlI4UjYtTy05MkpzSWZVZ0hKbExLeVp4ODFVVXQ0N1VOSFdvZFRvaVpCazFDRF9CdXlvMU5zWGgtUzhHQXRHRHBxeE9jQjZ2RW1RZXhtb0E?oc=5"
+        },
+        {
+          "candidate_id": "be272bc6d57229117bed0b2a",
+          "event_id": "1e552b53bc78af83b6a7ab05",
+          "evidence": [
+            {
+              "content_hash": "265a0f22381bb04c7cd89fbd3b29b69c168ba1cc41b5254ca6d0323a10d6bb6d",
+              "discovery_language": "fr",
+              "excerpt": "LlamaIndex : à quoi sert cet outil pour connecter vos données à l’IA ? lebigdata.fr",
+              "fresh": true,
+              "id": "5d4d8991c2aa05c3bad18016",
+              "language": "unknown",
+              "language_basis": "insufficient_language_evidence",
+              "primary": false,
+              "published_at": "2026-11-10T15:00:00Z",
+              "publisher": "lebigdata.fr",
+              "retrieved_at": "2026-11-10T15:18:55.042283Z",
+              "source_type": "rss",
+              "title": "LlamaIndex : à quoi sert cet outil pour connecter vos données à l’IA ? - lebigdata.fr",
+              "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNbjNaeGl5VXE0N1QzWUdOWVR0VUROanpoRE84QVQ0Q3hlMmltV1R4N2o0YkxWVHRKSXNGXzlHNUhRWEs1Rzh4TVNqSTZKYkMybjRmVWUtMTFZeTNzWW43UkF0eVktTk4yalpscnhsYjM5Rjg3UFQ1LXprMjRxRFVheDItbG95UGpGWEJKRGRwMnR5dmpX?oc=5"
+            }
+          ],
+          "title": "LlamaIndex : à quoi sert cet outil pour connecter vos données à l’IA ? - lebigdata.fr",
+          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNbjNaeGl5VXE0N1QzWUdOWVR0VUROanpoRE84QVQ0Q3hlMmltV1R4N2o0YkxWVHRKSXNGXzlHNUhRWEs1Rzh4TVNqSTZKYkMybjRmVWUtMTFZeTNzWW43UkF0eVktTk4yalpscnhsYjM5Rjg3UFQ1LXprMjRxRFVheDItbG95UGpGWEJKRGRwMnR5dmpX?oc=5"
+        },
+        {
+          "candidate_id": "766169daef700b3f3bc584f1",
+          "event_id": "2d59e987c0219adcdcc6bc9b",
+          "evidence": [
+            {
+              "content_hash": "bb019d55695400ac04cc26b147d4e7a502fea68363adc553f067207d362674d8",
+              "discovery_language": "de",
+              "excerpt": "Hochverfügbarkeit ist das fehlende Puzzleteil der Unternehmens-KI Unite.AI",
+              "fresh": true,
+              "id": "a0bf788b48654971c02414e5",
+              "language": "unknown",
+              "language_basis": "insufficient_language_evidence",
+              "primary": false,
+              "published_at": "2026-11-10T13:27:53Z",
+              "publisher": "Unite.AI",
+              "retrieved_at": "2026-11-10T15:18:54.716172Z",
+              "source_type": "rss",
+              "title": "Hochverfügbarkeit ist das fehlende Puzzleteil der Unternehmens-KI - Unite.AI",
+              "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9FQ0syN2VLTndtZW9rMDRuc3g3XzY1MWlYSjQwamxqN3lkUlVPUlV0NGpDeG95Y1cwVHBFN1BQLTgtNGFEZmloUkc0XzJPVU83T3ZxWWg4TkZLRldCUlpWQXZ2OWNSSmNDRFlfbmt4VDI4dFdVc2QxMkFLaw?oc=5"
+            }
+          ],
+          "title": "Hochverfügbarkeit ist das fehlende Puzzleteil der Unternehmens-KI - Unite.AI",
+          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9FQ0syN2VLTndtZW9rMDRuc3g3XzY1MWlYSjQwamxqN3lkUlVPUlV0NGpDeG95Y1cwVHBFN1BQLTgtNGFEZmloUkc0XzJPVU83T3ZxWWg4TkZLRldCUlpWQXZ2OWNSSmNDRFlfbmt4VDI4dFdVc2QxMkFLaw?oc=5"
+        },
+        {
+          "candidate_id": "f660e18a3f0cb607dc3f409c",
+          "event_id": "52348e66fd21d3487b7d7569",
+          "evidence": [
+            {
+              "content_hash": "fa5c1ce315a91c29d0d2d9e9fa85734cb5153931c60a08619f4af172139b7393",
+              "discovery_language": "de",
+              "excerpt": "Railtracks Swift RAG: Railtown öffnet KI-Bibliothek unter MIT-Lizenz BornCity",
+              "fresh": true,
+              "id": "1cb10840053da722c65c9043",
+              "language": "unknown",
+              "language_basis": "insufficient_language_evidence",
+              "primary": false,
+              "published_at": "2026-11-10T09:01:05Z",
+              "publisher": "BornCity",
+              "retrieved_at": "2026-11-10T15:18:54.716140Z",
+              "source_type": "rss",
+              "title": "Railtracks Swift RAG: Railtown öffnet KI-Bibliothek unter MIT-Lizenz - BornCity",
+              "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOS1FFSDVHZE9GMDhkR1RObml3dUJhN3g5blJVbTkzLUdsbnNxS05MRUdGQkV6d3BZb1ZxOEFsUEZqQnY0ZHlTdllfUE5zQzlNc1hFTjdmWWF4ejhOM21CX0NTUHo0aEVfRGxPdHN2cjlTakhPNXpSbzFaZnZIMHFfLXBuR1BqZWg0Tjl6eGJmOFpGWjV4Mm9EUGxqaw?oc=5"
+            }
+          ],
+          "title": "Railtracks Swift RAG: Railtown öffnet KI-Bibliothek unter MIT-Lizenz - BornCity",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOS1FFSDVHZE9GMDhkR1RObml3dUJhN3g5blJVbTkzLUdsbnNxS05MRUdGQkV6d3BZb1ZxOEFsUEZqQnY0ZHlTdllfUE5zQzlNc1hFTjdmWWF4ejhOM21CX0NTUHo0aEVfRGxPdHN2cjlTakhPNXpSbzFaZnZIMHFfLXBuR1BqZWg0Tjl6eGJmOFpGWjV4Mm9EUGxqaw?oc=5"
+        },
+        {
+          "candidate_id": "8014c3c081d42f4a60c569f5",
+          "event_id": "6e8a06229c5b50c1450ede1e",
+          "evidence": [
+            {
+              "content_hash": "57505e3118ab086f8cc502606eb74013fc36ed5c41687182941a5711b6e57662",
+              "discovery_language": "unknown",
+              "excerpt": "Changes since langchain-core==1.7.6 release(core): 1.7.7 (#41776) fix(core): cap nesting depth in `load()` (#41742) chore(deps): patch newer-python security lock resolutions (#41585)",
+              "fresh": true,
+              "id": "1557853ef2e67c1b8cad28fa",
+              "language": "unknown",
+              "language_basis": "insufficient_language_evidence",
+              "primary": true,
+              "published_at": "2026-11-10T04:08:27Z",
+              "publisher": "langchain-ai/langchain",
+              "retrieved_at": "2026-11-10T15:18:55.286613Z",
+              "source_type": "rss",
+              "title": "langchain-core==1.7.7",
+              "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.7.7"
+            }
+          ],
+          "title": "langchain-core==1.7.7",
+          "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.7.7"
+        },
+        {
+          "candidate_id": "01017280513bf127531113c3",
+          "event_id": "d03fc73fd9c054fd5523a6b4",
+          "evidence": [
+            {
+              "content_hash": "d721ac3eda77e201d678fa9b2bac5e7ee4d13a442048f6dd37a848abac9bb586",
+              "discovery_language": "en",
+              "excerpt": "Persistent memory for conversational agents with PostgreSQL and pgvector Foro3D",
+              "fresh": true,
+              "id": "5270a14be1a4c96fbdd9c5e5",
+              "language": "en",
+              "language_basis": "lexical_heuristic_requires_review",
+              "primary": false,
+              "published_at": "2026-11-10T10:47:22Z",
+              "publisher": "Foro3D",
+              "retrieved_at": "2026-11-10T15:18:54.315561Z",
+              "source_type": "rss",
+              "title": "Persistent memory for conversational agents with PostgreSQL and pgvector - Foro3D",
+              "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOemRsSGRzbUpobVcyQ1FxUVBlT2djaTZKelRLcjMxRVY4WExSUW1JSUllNzJ6c1BuZGNvTEZGMmQ0Sk1LTVNjWXVDWHF3Vjk0SkNiMlRSWkVzRGZYY0NQQWRycjJiNERRcWkzMGFLQk5IcTEzZ3lDaWpncHdEVld3ZUQzeWYzUGZWX21HOXJpRlU3SDJJc25BeExmaUlJdzdra3FlbVBGSWxoTlRzc19PYkFR?oc=5"
+            }
+          ],
+          "title": "Persistent memory for conversational agents with PostgreSQL and pgvector - Foro3D",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOemRsSGRzbUpobVcyQ1FxUVBlT2djaTZKelRLcjMxRVY4WExSUW1JSUllNzJ6c1BuZGNvTEZGMmQ0Sk1LTVNjWXVDWHF3Vjk0SkNiMlRSWkVzRGZYY0NQQWRycjJiNERRcWkzMGFLQk5IcTEzZ3lDaWpncHdEVld3ZUQzeWYzUGZWX21HOXJpRlU3SDJJc25BeExmaUlJdzdra3FlbVBGSWxoTlRzc19PYkFR?oc=5"
+        }
+      ]
+    },
+    "world-intelligence": {
+      "arms": {
+        "control": {
+          "actual_provider_requests": 24,
+          "actual_tokens_reported": 14352,
+          "cache_hits": 0,
+          "cache_identity_sha256": "8b0039c1cfe4aa29ed58308b84698945e42483fe2e11eb772a550ab946f7c745",
+          "charged_token_estimate": 14352,
+          "decision_coverage_fraction": 1.0,
+          "decision_status_counts": {
+            "success": 24
+          },
+          "decisions": {
+            "13d65e88c5554dd62f3571a5": {
+              "claim-support": {
+                "actual_requests": 1,
+                "cache_hit": false,
+                "charged_tokens": 540,
+                "decision": {
+                  "evidence_ids": [
+                    "29825bd5ad7c30d92c8cc51f"
+                  ],
+                  "facts": 0.5,
+                  "hype": 0.5,
+                  "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
+                  "related_event_id": null,
+                  "score": 0.9,
+                  "signal": 0.5,
+                  "verdict": "yes"
+                },
+                "estimated_tokens": 822,
+                "provider": {
+                  "abstained": false,
+                  "attempts": 1,
+                  "format": "systemone_choices",
+                  "input_tokens": 540,
+                  "latency_ms": 1107,
+                  "model": "alias-clef",
+                  "model_identity_verified": true,
+                  "output_tokens": 0,
+                  "response_model": "alias-clef",
+                  "status": "success",
+                  "tokens": 540
+                }
+              },
+              "hfs": {
+                "actual_requests": 1,
+                "cache_hit": false,
+                "charged_tokens": 782,
+                "decision": {
+                  "evidence_ids": [
+                    "29825bd5ad7c30d92c8cc51f"
+                  ],
+                  "facts": 0.1,
+                  "hype": 0.1,
+                  "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
+                  "related_event_id": null,
+                  "score": 0.1,
+                  "signal": 0.1,
+                  "verdict": "no"
+                },
+                "estimated_tokens": 822,
+                "provider": {
+                  "abstained": false,
+                  "attempts": 1,
+                  "format": "systemone_choices",
+                  "input_tokens": 782,
+                  "latency_ms": 649,
+                  "model": "alias-clef",
+                  "model_identity_verified": true,
+                  "output_tokens": 0,
+                  "response_model": "alias-clef",
+                  "status": "success",
+                  "tokens": 782
+                }
+              },
+              "importance": {
+                "actual_requests": 1,
+                "cache_hit": false,
+                "charged_tokens": 549,
+                "decision": {
+                  "evidence_ids": [
+                    "29825bd5ad7c30d92c8cc51f"
+                  ],
+                  "facts": 0.5,
+                  "hype": 0.5,
+                  "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
+                  "related_event_id": null,
+                  "score": 0.1,
+                  "signal": 0.5,
+                  "verdict": "no"
+                },
+                "estimated_tokens": 822,
+                "provider": {
+                  "abstained": false,
+                  "attempts": 1,
+                  "format": "systemone_choices",
+                  "input_tokens": 549,
+                  "latency_ms": 421,
+                  "model": "alias-clef",
+                  "model_identity_verified": true,
+                  "output_tokens": 0,
+                  "response_model": "alias-clef",
+                  "status": "success",
+                  "tokens": 549
+                }
+              },
+              "relevance": {
+                "actual_requests": 1,
+                "cache_hit": false,
+                "charged_tokens": 527,
+                "decision": {
+                  "evidence_ids": [
+                    "29825bd5ad7c30d92c8cc51f"
+                  ],
+                  "facts": 0.5,
+                  "hype": 0.5,
+                  "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
+                  "related_event_id": null,
+                  "score": 0.1,
+                  "signal": 0.5,
+                  "verdict": "no"
+                },
+                "estimated_tokens": 822,
+                "provider": {
+                  "abstained": false,
+                  "attempts": 1,
+                  "format": "systemone_choices",
+                  "input_tokens": 527,
+                  "latency_ms": 435,
+                  "model": "alias-clef",
+                  "model_identity_verified": true,
+                  "output_tokens": 0,
+                  "response_model": "alias-clef",
+                  "status": "success",
+                  "tokens": 527
+                }
+              },
+              "same-story": {
+                "actual_requests": 1,
+                "cache_hit": false,
+                "charged_tokens": 599,
+                "decision": {
+                  "evidence_ids": [
+                    "29825bd5ad7c30d92c8cc51f"
+                  ],
+                  "facts": 0.5,
+                  "hype": 0.5,
+                  "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
+                  "related_event_id": null,
+                  "score": 0.5,
+                  "signal": 0.5,
+                  "verdict": "unknown"
+                },
+                "estimated_tokens": 822,
+                "provider": {
+                  "abstained": false,
+                  "attempts": 1,
+                  "format": "systemone_choices",
+                  "input_tokens": 599,
+                  "latency_ms": 425,
+                  "model": "alias-clef",
+                  "model_identity_verified": true,
+                  "output_tokens": 0,
+                  "response_model": "alias-clef",
+                  "status": "success",
+                  "tokens": 599
+                }
+              },
+              "worth-attention": {
+                "actual_requests": 1,
+                "cache_hit": false,
+                "charged_tokens": 531,
+                "decision": {
+                  "evidence_ids": [
+                    "29825bd5ad7c30d92c8cc51f"
+                  ],
+                  "facts": 0.5,
+                  "hype": 0.5,
+                  "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
+                  "related_event_id": null,
+                  "score": 0.1,
+                  "signal": 0.5,
+                  "verdict": "no"
+                },
+                "estimated_tokens": 822,
+                "provider": {
+                  "abstained": false,
+                  "attempts": 1,
+                  "format": "systemone_choices",
+                  "input_tokens": 531,
+                  "latency_ms": 420,
+                  "model": "alias-clef",
+                  "model_identity_verified": true,
+                  "output_tokens": 0,
+                  "response_model": "alias-clef",
+                  "status": "success",
+                  "tokens": 531
+                }
+              }
+            },
+            "87c3e1b529d496ffd62a90db": {
+              "claim-support": {
+                "actual_requests": 1,
+                "cache_hit": false,
+                "charged_tokens": 646,
+                "decision": {
+                  "evidence_ids": [
+                    "62b9256364dc97b1fb49cef1"
+                  ],
+                  "facts": 0.5,
+                  "hype": 0.5,
+                  "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
+                  "related_event_id": null,
+                  "score": 0.9,
+                  "signal": 0.5,
+                  "verdict": "yes"
+                },
+                "estimated_tokens": 949,
+                "provider": {
+                  "abstained": false,
+                  "attempts": 1,
+                  "format": "systemone_choices",
+                  "input_tokens": 646,
+                  "latency_ms": 517,
+                  "model": "alias-clef",
+                  "model_identity_verified": true,
+                  "output_tokens": 0,
+                  "response_model": "alias-clef",
+                  "status": "success",
+                  "tokens": 646
+                }
+              },
+              "hfs": {
+                "actual_requests": 1,
+                "cache_hit": false,
+                "charged_tokens": 888,
+                "decision": {
+                  "evidence_ids": [
+                    "62b9256364dc97b1fb49cef1"
+                  ],
+                  "facts": 0.1,
+                  "hype": 0.1,
+                  "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
+                  "related_event_id": null,
+                  "score": 0.1,
+                  "signal": 0.1,
+                  "verdict": "no"
+                },
+                "estimated_tokens": 949,
+                "provider": {
+                  "abstained": false,
+                  "attempts": 1,
+                  "format": "systemone_choices",
+                  "input_tokens": 888,
+                  "latency_ms": 770,
+                  "model": "alias-clef",
+                  "model_identity_verified": true,
+                  "output_tokens": 0,
+                  "response_model": "alias-clef",
+                  "status": "success",
+                  "tokens": 888
+                }
+              },
+              "importance": {
+                "actual_requests": 1,
+                "cache_hit": false,
+                "charged_tokens": 655,
+                "decision": {
+                  "evidence_ids": [
+                    "62b9256364dc97b1fb49cef1"
+                  ],
+                  "facts": 0.5,
+                  "hype": 0.5,
+                  "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
+                  "related_event_id": null,
+                  "score": 0.1,
+                  "signal": 0.5,
+                  "verdict": "no"
+                },
+                "estimated_tokens": 949,
+                "provider": {
+                  "abstained": false,
+                  "attempts": 1,
+                  "format": "systemone_choices",
+                  "input_tokens": 655,
+                  "latency_ms": 725,
+                  "model": "alias-clef",
+                  "model_identity_verified": true,
+                  "output_tokens": 0,
+                  "response_model": "alias-clef",
+                  "status": "success",
+                  "tokens": 655
+                }
+              },
+              "relevance": {
+                "actual_requests": 1,
+                "cache_hit": false,
+                "charged_tokens": 633,
+                "decision": {
+                  "evidence_ids": [
+                    "62b9256364dc97b1fb49cef1"
+                  ],
+                  "facts": 0.5,
+                  "hype": 0.5,
+                  "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
+                  "related_event_id": null,
+                  "score": 0.1,
+                  "signal": 0.5,
+                  "verdict": "no"
+                },
+                "estimated_tokens": 949,
+                "provider": {
+                  "abstained": false,
+                  "attempts": 1,
+                  "format": "systemone_choices",
+                  "input_tokens": 633,
+                  "latency_ms": 543,
+                  "model": "alias-clef",
+                  "model_identity_verified": true,
+                  "output_tokens": 0,
+                  "response_model": "alias-clef",
+                  "status": "success",
+                  "tokens": 633
+                }
+              },
+              "same-story": {
+                "actual_requests": 1,
+                "cache_hit": false,
+                "charged_tokens": 705,
+                "decision": {
+                  "evidence_ids": [
+                    "62b9256364dc97b1fb49cef1"
+                  ],
+                  "facts": 0.5,
+                  "hype": 0.5,
+                  "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
+                  "related_event_id": null,
+                  "score": 0.5,
+                  "signal": 0.5,
+                  "verdict": "unknown"
+                },
+                "estimated_tokens": 949,
+                "provider": {
+                  "abstained": false,
+                  "attempts": 1,
+                  "format": "systemone_choices",
+                  "input_tokens": 705,
+                  "latency_ms": 429,
+                  "model": "alias-clef",
+                  "model_identity_verified": true,
+                  "output_tokens": 0,
+                  "response_model": "alias-clef",
+                  "status": "success",
+                  "tokens": 705
+                }
+              },
+              "worth-attention": {
+                "actual_requests": 1,
+                "cache_hit": false,
+                "charged_tokens": 637,
+                "decision": {
+                  "evidence_ids": [
+                    "62b9256364dc97b1fb49cef1"
+                  ],
+                  "facts": 0.5,
+                  "hype": 0.5,
+                  "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
+                  "related_event_id": null,
+                  "score": 0.1,
+                  "signal": 0.5,
+                  "verdict": "no"
+                },
+                "estimated_tokens": 949,
+                "provider": {
+                  "abstained": false,
+                  "attempts": 1,
+                  "format": "systemone_choices",
+                  "input_tokens": 637,
+                  "latency_ms": 627,
+                  "model": "alias-clef",
+                  "model_identity_verified": true,
+                  "output_tokens": 0,
+                  "response_model": "alias-clef",
+                  "status": "success",
+                  "tokens": 637
+                }
+              }
+            },
+            "c341fd357ceac8103955ac5f": {
+              "claim-support": {
+                "actual_requests": 1,
+                "cache_hit": false,
+                "charged_tokens": 492,
+                "decision": {
+                  "evidence_ids": [
+                    "4c0a1fd56afcaca7907de083"
+                  ],
+                  "facts": 0.5,
+                  "hype": 0.5,
+                  "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
+                  "related_event_id": null,
+                  "score": 0.9,
+                  "signal": 0.5,
+                  "verdict": "yes"
+                },
+                "estimated_tokens": 784,
+                "provider": {
+                  "abstained": false,
+                  "attempts": 1,
+                  "format": "systemone_choices",
+                  "input_tokens": 492,
+                  "latency_ms": 420,
+                  "model": "alias-clef",
+                  "model_identity_verified": true,
+                  "output_tokens": 0,
+                  "response_model": "alias-clef",
+                  "status": "success",
+                  "tokens": 492
+                }
+              },
+              "hfs": {
+                "actual_requests": 1,
+                "cache_hit": false,
+                "charged_tokens": 734,
+                "decision": {
+                  "evidence_ids": [
+                    "4c0a1fd56afcaca7907de083"
+                  ],
+                  "facts": 0.9,
+                  "hype": 0.5,
+                  "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
+                  "related_event_id": null,
+                  "score": 0.9,
+                  "signal": 0.9,
+                  "verdict": "yes"
+                },
+                "estimated_tokens": 784,
+                "provider": {
+                  "abstained": false,
+                  "attempts": 1,
+                  "format": "systemone_choices",
+                  "input_tokens": 734,
+                  "latency_ms": 766,
+                  "model": "alias-clef",
+                  "model_identity_verified": true,
+                  "output_tokens": 0,
+                  "response_model": "alias-clef",
+                  "status": "success",
+                  "tokens": 734
+                }
+              },
+              "importance": {
+                "actual_requests": 1,
+                "cache_hit": false,
+                "charged_tokens": 501,
+                "decision": {
+                  "evidence_ids": [
+                    "4c0a1fd56afcaca7907de083"
+                  ],
+                  "facts": 0.5,
+                  "hype": 0.5,
+                  "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
+                  "related_event_id": null,
+                  "score": 0.9,
+                  "signal": 0.5,
+                  "verdict": "yes"
+                },
+                "estimated_tokens": 784,
+                "provider": {
+                  "abstained": false,
+                  "attempts": 1,
+                  "format": "systemone_choices",
+                  "input_tokens": 501,
+                  "latency_ms": 505,
+                  "model": "alias-clef",
+                  "model_identity_verified": true,
+                  "output_tokens": 0,
+                  "response_model": "alias-clef",
+                  "status": "success",
+                  "tokens": 501
+                }
+              },
+              "relevance": {
+                "actual_requests": 1,
+                "cache_hit": false,
+                "charged_tokens": 479,
+                "decision": {
+                  "evidence_ids": [
+                    "4c0a1fd56afcaca7907de083"
+                  ],
+                  "facts": 0.5,
+                  "hype": 0.5,
+                  "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
+                  "related_event_id": null,
+                  "score": 0.9,
+                  "signal": 0.5,
+                  "verdict": "yes"
+                },
+                "estimated_tokens": 784,
+                "provider": {
+                  "abstained": false,
+                  "attempts": 1,
+                  "format": "systemone_choices",
+                  "input_tokens": 479,
+                  "latency_ms": 406,
+                  "model": "alias-clef",
+                  "model_identity_verified": true,
+                  "output_tokens": 0,
+                  "response_model": "alias-clef",
+                  "status": "success",
+                  "tokens": 479
+                }
+              },
+              "same-story": {
+                "actual_requests": 1,
+                "cache_hit": false,
+                "charged_tokens": 551,
+                "decision": {
+                  "evidence_ids": [
+                    "4c0a1fd56afcaca7907de083"
+                  ],
+                  "facts": 0.5,
+                  "hype": 0.5,
+                  "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
+                  "related_event_id": null,
+                  "score": 0.5,
+                  "signal": 0.5,
+                  "verdict": "unknown"
+                },
+                "estimated_tokens": 784,
+                "provider": {
+                  "abstained": false,
+                  "attempts": 1,
+                  "format": "systemone_choices",
+                  "input_tokens": 551,
+                  "latency_ms": 522,
+                  "model": "alias-clef",
+                  "model_identity_verified": true,
+                  "output_tokens": 0,
+                  "response_model": "alias-clef",
+                  "status": "success",
+                  "tokens": 551
+                }
+              },
+              "worth-attention": {
+                "actual_requests": 1,
+                "cache_hit": false,
+                "charged_tokens": 483,
+                "decision": {
+                  "evidence_ids": [
+                    "4c0a1fd56afcaca7907de083"
+                  ],
+                  "facts": 0.5,
+                  "hype": 0.5,
+                  "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
+                  "related_event_id": null,
+                  "score": 0.1,
+                  "signal": 0.5,
+                  "verdict": "no"
+                },
+                "estimated_tokens": 784,
+                "provider": {
+                  "abstained": false,
+                  "attempts": 1,
+                  "format": "systemone_choices",
+                  "input_tokens": 483,
+                  "latency_ms": 607,
+                  "model": "alias-clef",
+                  "model_identity_verified": true,
+                  "output_tokens": 0,
+                  "response_model": "alias-clef",
+                  "status": "success",
+                  "tokens": 483
+                }
+              }
+            },
+            "fb1376119946ad0d21eab568": {
+              "claim-support": {
+                "actual_requests": 1,
+                "cache_hit": false,
+                "charged_tokens": 522,
+                "decision": {
+                  "evidence_ids": [
+                    "3ad2b72c05607dd15d718c7d"
+                  ],
+                  "facts": 0.5,
+                  "hype": 0.5,
+                  "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
+                  "related_event_id": null,
+                  "score": 0.9,
+                  "signal": 0.5,
+                  "verdict": "yes"
+                },
+                "estimated_tokens": 787,
+                "provider": {
+                  "abstained": false,
+                  "attempts": 1,
+                  "format": "systemone_choices",
+                  "input_tokens": 522,
+                  "latency_ms": 548,
+                  "model": "alias-clef",
+                  "model_identity_verified": true,
+                  "output_tokens": 0,
+                  "response_model": "alias-clef",
+                  "status": "success",
+                  "tokens": 522
+                }
+              },
+              "hfs": {
+                "actual_requests": 1,
+                "cache_hit": false,
+                "charged_tokens": 764,
+                "decision": {
+                  "evidence_ids": [
+                    "3ad2b72c05607dd15d718c7d"
+                  ],
+                  "facts": 0.5,
+                  "hype": 0.5,
+                  "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
+                  "related_event_id": null,
+                  "score": 0.5,
+                  "signal": 0.5,
+                  "verdict": "yes"
+                },
+                "estimated_tokens": 787,
+                "provider": {
+                  "abstained": false,
+                  "attempts": 1,
+                  "format": "systemone_choices",
+                  "input_tokens": 764,
+                  "latency_ms": 589,
+                  "model": "alias-clef",
+                  "model_identity_verified": true,
+                  "output_tokens": 0,
+                  "response_model": "alias-clef",
+                  "status": "success",
+                  "tokens": 764
+                }
+              },
+              "importance": {
+                "actual_requests": 1,
+                "cache_hit": false,
+                "charged_tokens": 531,
+                "decision": {
+                  "evidence_ids": [
+                    "3ad2b72c05607dd15d718c7d"
+                  ],
+                  "facts": 0.5,
+                  "hype": 0.5,
+                  "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
+                  "related_event_id": null,
+                  "score": 0.5,
+                  "signal": 0.5,
+                  "verdict": "yes"
+                },
+                "estimated_tokens": 787,
+                "provider": {
+                  "abstained": false,
+                  "attempts": 1,
+                  "format": "systemone_choices",
+                  "input_tokens": 531,
+                  "latency_ms": 399,
+                  "model": "alias-clef",
+                  "model_identity_verified": true,
+                  "output_tokens": 0,
+                  "response_model": "alias-clef",
+                  "status": "success",
+                  "tokens": 531
+                }
+              },
+              "relevance": {
+                "actual_requests": 1,
+                "cache_hit": false,
+                "charged_tokens": 509,
+                "decision": {
+                  "evidence_ids": [
+                    "3ad2b72c05607dd15d718c7d"
+                  ],
+                  "facts": 0.5,
+                  "hype": 0.5,
+                  "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
+                  "related_event_id": null,
+                  "score": 0.9,
+                  "signal": 0.5,
+                  "verdict": "yes"
+                },
+                "estimated_tokens": 787,
+                "provider": {
+                  "abstained": false,
+                  "attempts": 1,
+                  "format": "systemone_choices",
+                  "input_tokens": 509,
+                  "latency_ms": 510,
+                  "model": "alias-clef",
+                  "model_identity_verified": true,
+                  "output_tokens": 0,
+                  "response_model": "alias-clef",
+                  "status": "success",
+                  "tokens": 509
+                }
+              },
+              "same-story": {
+                "actual_requests": 1,
+                "cache_hit": false,
+                "charged_tokens": 581,
+                "decision": {
+                  "evidence_ids": [
+                    "3ad2b72c05607dd15d718c7d"
+                  ],
+                  "facts": 0.5,
+                  "hype": 0.5,
+                  "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
+                  "related_event_id": null,
+                  "score": 0.5,
+                  "signal": 0.5,
+                  "verdict": "unknown"
+                },
+                "estimated_tokens": 787,
+                "provider": {
+                  "abstained": false,
+                  "attempts": 1,
+                  "format": "systemone_choices",
+                  "input_tokens": 581,
+                  "latency_ms": 614,
+                  "model": "alias-clef",
+                  "model_identity_verified": true,
+                  "output_tokens": 0,
+                  "response_model": "alias-clef",
+                  "status": "success",
+                  "tokens": 581
+                }
+              },
+              "worth-attention": {
+                "actual_requests": 1,
+                "cache_hit": false,
+                "charged_tokens": 513,
+                "decision": {
+                  "evidence_ids": [
+                    "3ad2b72c05607dd15d718c7d"
+                  ],
+                  "facts": 0.5,
+                  "hype": 0.5,
+                  "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
+                  "related_event_id": null,
+                  "score": 0.1,
+                  "signal": 0.5,
+                  "verdict": "no"
+                },
+                "estimated_tokens": 787,
+                "provider": {
+                  "abstained": false,
+                  "attempts": 1,
+                  "format": "systemone_choices",
+                  "input_tokens": 513,
+                  "latency_ms": 565,
+                  "model": "alias-clef",
+                  "model_identity_verified": true,
+                  "output_tokens": 0,
+                  "response_model": "alias-clef",
+                  "status": "success",
+                  "tokens": 513
+                }
+              }
+            }
+          },
+          "decisions_with_model_output": 24,
+          "expected_decisions": 24,
+          "latency_ms": {
+            "count": 24,
+            "max": 1107,
+            "mean": 563.29,
+            "total": 13519
+          },
+          "request_cap": 27,
+          "requests_remaining": 3,
+          "routed_candidates": 4,
+          "token_budget_limit": 120000,
+          "token_budget_reserved": 20052,
+          "token_budget_used_fraction": 0.1671,
+          "token_usage_complete": true
+        },
+        "treatment": {
+          "actual_provider_requests": 12,
+          "actual_tokens_reported": 6798,
+          "cache_hits": 0,
+          "cache_identity_sha256": "8b0039c1cfe4aa29ed58308b84698945e42483fe2e11eb772a550ab946f7c745",
+          "charged_token_estimate": 6798,
+          "decision_coverage_fraction": 1.0,
+          "decision_status_counts": {
+            "success": 12
+          },
+          "decisions": {
+            "db900d0832e7a069db2850fc": {
+              "claim-support": {
+                "actual_requests": 1,
+                "cache_hit": false,
+                "charged_tokens": 526,
+                "decision": {
+                  "evidence_ids": [
+                    "d854d5378ebf4dd109cd96e1"
+                  ],
+                  "facts": 0.5,
+                  "hype": 0.5,
+                  "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
+                  "related_event_id": null,
+                  "score": 0.9,
+                  "signal": 0.5,
+                  "verdict": "yes"
+                },
+                "estimated_tokens": 806,
+                "provider": {
+                  "abstained": false,
+                  "attempts": 1,
+                  "format": "systemone_choices",
+                  "input_tokens": 526,
+                  "latency_ms": 708,
+                  "model": "alias-clef",
+                  "model_identity_verified": true,
+                  "output_tokens": 0,
+                  "response_model": "alias-clef",
+                  "status": "success",
+                  "tokens": 526
+                }
+              },
+              "hfs": {
+                "actual_requests": 1,
+                "cache_hit": false,
+                "charged_tokens": 768,
+                "decision": {
+                  "evidence_ids": [
+                    "d854d5378ebf4dd109cd96e1"
+                  ],
+                  "facts": 0.9,
+                  "hype": 0.5,
+                  "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
+                  "related_event_id": null,
+                  "score": 0.9,
+                  "signal": 0.9,
+                  "verdict": "yes"
+                },
+                "estimated_tokens": 806,
+                "provider": {
+                  "abstained": false,
+                  "attempts": 1,
+                  "format": "systemone_choices",
+                  "input_tokens": 768,
+                  "latency_ms": 542,
+                  "model": "alias-clef",
+                  "model_identity_verified": true,
+                  "output_tokens": 0,
+                  "response_model": "alias-clef",
+                  "status": "success",
+                  "tokens": 768
+                }
+              },
+              "importance": {
+                "actual_requests": 1,
+                "cache_hit": false,
+                "charged_tokens": 535,
+                "decision": {
+                  "evidence_ids": [
+                    "d854d5378ebf4dd109cd96e1"
+                  ],
+                  "facts": 0.5,
+                  "hype": 0.5,
+                  "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
+                  "related_event_id": null,
+                  "score": 0.9,
+                  "signal": 0.5,
+                  "verdict": "yes"
+                },
+                "estimated_tokens": 806,
+                "provider": {
+                  "abstained": false,
+                  "attempts": 1,
+                  "format": "systemone_choices",
+                  "input_tokens": 535,
+                  "latency_ms": 432,
+                  "model": "alias-clef",
+                  "model_identity_verified": true,
+                  "output_tokens": 0,
+                  "response_model": "alias-clef",
+                  "status": "success",
+                  "tokens": 535
+                }
+              },
+              "relevance": {
+                "actual_requests": 1,
+                "cache_hit": false,
+                "charged_tokens": 513,
+                "decision": {
+                  "evidence_ids": [
+                    "d854d5378ebf4dd109cd96e1"
+                  ],
+                  "facts": 0.5,
+                  "hype": 0.5,
+                  "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
+                  "related_event_id": null,
+                  "score": 0.9,
+                  "signal": 0.5,
+                  "verdict": "yes"
+                },
+                "estimated_tokens": 806,
+                "provider": {
+                  "abstained": false,
+                  "attempts": 1,
+                  "format": "systemone_choices",
+                  "input_tokens": 513,
+                  "latency_ms": 424,
+                  "model": "alias-clef",
+                  "model_identity_verified": true,
+                  "output_tokens": 0,
+                  "response_model": "alias-clef",
+                  "status": "success",
+                  "tokens": 513
+                }
+              },
+              "same-story": {
+                "actual_requests": 1,
+                "cache_hit": false,
+                "charged_tokens": 585,
+                "decision": {
+                  "evidence_ids": [
+                    "d854d5378ebf4dd109cd96e1"
+                  ],
+                  "facts": 0.5,
+                  "hype": 0.5,
+                  "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
+                  "related_event_id": null,
+                  "score": 0.5,
+                  "signal": 0.5,
+                  "verdict": "unknown"
+                },
+                "estimated_tokens": 806,
+                "provider": {
+                  "abstained": false,
+                  "attempts": 1,
+                  "format": "systemone_choices",
+                  "input_tokens": 585,
+                  "latency_ms": 620,
+                  "model": "alias-clef",
+                  "model_identity_verified": true,
+                  "output_tokens": 0,
+                  "response_model": "alias-clef",
+                  "status": "success",
+                  "tokens": 585
+                }
+              },
+              "worth-attention": {
+                "actual_requests": 1,
+                "cache_hit": false,
+                "charged_tokens": 517,
+                "decision": {
+                  "evidence_ids": [
+                    "d854d5378ebf4dd109cd96e1"
+                  ],
+                  "facts": 0.5,
+                  "hype": 0.5,
+                  "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
+                  "related_event_id": null,
+                  "score": 0.5,
+                  "signal": 0.5,
+                  "verdict": "unknown"
+                },
+                "estimated_tokens": 806,
+                "provider": {
+                  "abstained": false,
+                  "attempts": 1,
+                  "format": "systemone_choices",
+                  "input_tokens": 517,
+                  "latency_ms": 645,
+                  "model": "alias-clef",
+                  "model_identity_verified": true,
+                  "output_tokens": 0,
+                  "response_model": "alias-clef",
+                  "status": "success",
+                  "tokens": 517
+                }
+              }
+            },
+            "f8619cdae7852aeb3d2fac48": {
+              "claim-support": {
+                "actual_requests": 1,
+                "cache_hit": false,
+                "charged_tokens": 511,
+                "decision": {
+                  "evidence_ids": [
+                    "a2edf715a4f9d9694a641cf2"
+                  ],
+                  "facts": 0.5,
+                  "hype": 0.5,
+                  "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
+                  "related_event_id": null,
+                  "score": 0.9,
+                  "signal": 0.5,
+                  "verdict": "yes"
+                },
+                "estimated_tokens": 788,
+                "provider": {
+                  "abstained": false,
+                  "attempts": 1,
+                  "format": "systemone_choices",
+                  "input_tokens": 511,
+                  "latency_ms": 402,
+                  "model": "alias-clef",
+                  "model_identity_verified": true,
+                  "output_tokens": 0,
+                  "response_model": "alias-clef",
+                  "status": "success",
+                  "tokens": 511
+                }
+              },
+              "hfs": {
+                "actual_requests": 1,
+                "cache_hit": false,
+                "charged_tokens": 753,
+                "decision": {
+                  "evidence_ids": [
+                    "a2edf715a4f9d9694a641cf2"
+                  ],
+                  "facts": 0.9,
+                  "hype": 0.1,
+                  "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
+                  "related_event_id": null,
+                  "score": 0.5,
+                  "signal": 0.5,
+                  "verdict": "yes"
+                },
+                "estimated_tokens": 788,
+                "provider": {
+                  "abstained": false,
+                  "attempts": 1,
+                  "format": "systemone_choices",
+                  "input_tokens": 753,
+                  "latency_ms": 453,
+                  "model": "alias-clef",
+                  "model_identity_verified": true,
+                  "output_tokens": 0,
+                  "response_model": "alias-clef",
+                  "status": "success",
+                  "tokens": 753
+                }
+              },
+              "importance": {
+                "actual_requests": 1,
+                "cache_hit": false,
+                "charged_tokens": 520,
+                "decision": {
+                  "evidence_ids": [
+                    "a2edf715a4f9d9694a641cf2"
+                  ],
+                  "facts": 0.5,
+                  "hype": 0.5,
+                  "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
+                  "related_event_id": null,
+                  "score": 0.5,
+                  "signal": 0.5,
+                  "verdict": "yes"
+                },
+                "estimated_tokens": 788,
+                "provider": {
+                  "abstained": false,
+                  "attempts": 1,
+                  "format": "systemone_choices",
+                  "input_tokens": 520,
+                  "latency_ms": 409,
+                  "model": "alias-clef",
+                  "model_identity_verified": true,
+                  "output_tokens": 0,
+                  "response_model": "alias-clef",
+                  "status": "success",
+                  "tokens": 520
+                }
+              },
+              "relevance": {
+                "actual_requests": 1,
+                "cache_hit": false,
+                "charged_tokens": 498,
+                "decision": {
+                  "evidence_ids": [
+                    "a2edf715a4f9d9694a641cf2"
+                  ],
+                  "facts": 0.5,
+                  "hype": 0.5,
+                  "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
+                  "related_event_id": null,
+                  "score": 0.9,
+                  "signal": 0.5,
+                  "verdict": "yes"
+                },
+                "estimated_tokens": 788,
+                "provider": {
+                  "abstained": false,
+                  "attempts": 1,
+                  "format": "systemone_choices",
+                  "input_tokens": 498,
+                  "latency_ms": 414,
+                  "model": "alias-clef",
+                  "model_identity_verified": true,
+                  "output_tokens": 0,
+                  "response_model": "alias-clef",
+                  "status": "success",
+                  "tokens": 498
+                }
+              },
+              "same-story": {
+                "actual_requests": 1,
+                "cache_hit": false,
+                "charged_tokens": 570,
+                "decision": {
+                  "evidence_ids": [
+                    "a2edf715a4f9d9694a641cf2"
+                  ],
+                  "facts": 0.5,
+                  "hype": 0.5,
+                  "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
+                  "related_event_id": null,
+                  "score": 0.5,
+                  "signal": 0.5,
+                  "verdict": "unknown"
+                },
+                "estimated_tokens": 788,
+                "provider": {
+                  "abstained": false,
+                  "attempts": 1,
+                  "format": "systemone_choices",
+                  "input_tokens": 570,
+                  "latency_ms": 424,
+                  "model": "alias-clef",
+                  "model_identity_verified": true,
+                  "output_tokens": 0,
+                  "response_model": "alias-clef",
+                  "status": "success",
+                  "tokens": 570
+                }
+              },
+              "worth-attention": {
+                "actual_requests": 1,
+                "cache_hit": false,
+                "charged_tokens": 502,
+                "decision": {
+                  "evidence_ids": [
+                    "a2edf715a4f9d9694a641cf2"
+                  ],
+                  "facts": 0.5,
+                  "hype": 0.5,
+                  "reason": "SystemOne choice classification against supplied excerpts; not independent verification.",
+                  "related_event_id": null,
+                  "score": 0.1,
+                  "signal": 0.5,
+                  "verdict": "no"
+                },
+                "estimated_tokens": 788,
+                "provider": {
+                  "abstained": false,
+                  "attempts": 1,
+                  "format": "systemone_choices",
+                  "input_tokens": 502,
+                  "latency_ms": 424,
+                  "model": "alias-clef",
+                  "model_identity_verified": true,
+                  "output_tokens": 0,
+                  "response_model": "alias-clef",
+                  "status": "success",
+                  "tokens": 502
+                }
+              }
+            }
+          },
+          "decisions_with_model_output": 12,
+          "expected_decisions": 12,
+          "latency_ms": {
+            "count": 12,
+            "max": 708,
+            "mean": 491.42,
+            "total": 5897
+          },
+          "request_cap": 27,
+          "requests_remaining": 15,
+          "routed_candidates": 2,
+          "screened_out": [
+            {
+              "event_id": "c21f56fdbca53bc23e9c065e",
+              "priority_score": 0,
+              "provider_calls": 0,
+              "status": "SCREENED_OUT_FOR_BUDGET"
+            },
+            {
+              "event_id": "f23a2a6f5170bf81c76f7c14",
+              "priority_score": 0,
+              "provider_calls": 0,
+              "status": "SCREENED_OUT_FOR_BUDGET"
+            }
+          ],
+          "token_budget_limit": 120000,
+          "token_budget_reserved": 9564,
+          "token_budget_used_fraction": 0.0797,
+          "token_usage_complete": true
+        }
+      },
+      "collection": {
+        "additional_metrics": {
+          "invalid_public_urls": 0,
+          "not_in_review_inventory": 0,
+          "retrieved_items": 188
+        },
+        "collection_seconds": 37.141,
+        "error": null,
+        "excluded_nov9_events": 45,
+        "fresh_candidates": 188,
+        "retrieved_candidates": 188,
+        "selected_candidates": 8,
+        "source_metrics": [
+          {
+            "error_code": null,
+            "items": 26,
+            "query": "world news Americas",
+            "source": "google_news",
+            "status": "ok"
+          },
+          {
+            "error_code": null,
+            "items": 59,
+            "query": "world news Europe",
+            "source": "google_news",
+            "status": "ok"
+          },
+          {
+            "error_code": null,
+            "items": 41,
+            "query": "world news Africa",
+            "source": "google_news",
+            "status": "ok"
+          },
+          {
+            "error_code": null,
+            "items": 27,
+            "query": "world news Asia",
+            "source": "google_news",
+            "status": "ok"
+          },
+          {
+            "error_code": null,
+            "items": 27,
+            "query": "world news Oceania",
+            "source": "google_news",
+            "status": "ok"
+          },
+          {
+            "error_code": "HTTP_429",
+            "items": 0,
+            "query": "world news",
+            "source": "gdelt",
+            "status": "failed"
+          },
+          {
+            "items": 8,
+            "source": "rss",
+            "status": "ok"
+          }
+        ],
+        "unique_unseen_candidates": 143
+      },
+      "complete": true,
+      "domain": "world-intelligence",
+      "excluded_event_ids_sha256": "a2bc56b893b836ff94e6d34944ca4463ef08d8e152c1d9a44fcf0ef90a5db953",
+      "policy_token_budget_per_arm": 120000,
+      "priority_scores": {
+        "c21f56fdbca53bc23e9c065e": 0,
+        "db900d0832e7a069db2850fc": 107,
+        "f23a2a6f5170bf81c76f7c14": 0,
+        "f8619cdae7852aeb3d2fac48": 2
+      },
+      "profile_id": "world/global",
+      "protected_event_ids": [
+        "fb1376119946ad0d21eab568",
+        "db900d0832e7a069db2850fc"
+      ],
+      "request_cap_per_arm": 27,
+      "routed_treatment_event_ids": [
+        "db900d0832e7a069db2850fc",
+        "f8619cdae7852aeb3d2fac48"
+      ],
+      "screened_out_event_ids": [
+        "c21f56fdbca53bc23e9c065e",
+        "f23a2a6f5170bf81c76f7c14"
+      ],
+      "split": {
+        "control_event_ids": [
+          "fb1376119946ad0d21eab568",
+          "c341fd357ceac8103955ac5f",
+          "13d65e88c5554dd62f3571a5",
+          "87c3e1b529d496ffd62a90db"
+        ],
+        "language_balance": {
+          "control": {
+            "unknown": 4
+          },
+          "treatment": {
+            "unknown": 4
+          }
+        },
+        "source_type_balance": {
+          "control": {
+            "google_news": 4
+          },
+          "treatment": {
+            "google_news": 4
+          }
+        },
+        "treatment_event_ids": [
+          "f8619cdae7852aeb3d2fac48",
+          "c21f56fdbca53bc23e9c065e",
+          "f23a2a6f5170bf81c76f7c14",
+          "db900d0832e7a069db2850fc"
+        ]
+      }
+    }
+  },
+  "experiment_version": "two-stage-heldout-1.0",
+  "human_labels_available": false,
+  "limitations": [
+    "Human review labels are blank; precision and recall are not computed.",
+    "Model decisions are uncalibrated editorial judgments, not verified facts.",
+    "Source language comes from evidence metadata or the existing lexical heuristic; discovery locale is not treated as source language.",
+    "An incomplete domain is reported without reusing prior candidates."
+  ],
+  "precision": null,
+  "recall": null,
+  "run_attempt": 1,
+  "run_id": "42842942386",
+  "schema_version": "1.0",
+  "source_revision": "d603dbd5a831cc198e76fdb9c7e173055c7e595b",
+  "workflow_run_id": "42842942386"
+}

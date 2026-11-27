@@ -1,0 +1,490 @@
+{
+  "human_labels_available": false,
+  "labels": [
+    {
+      "arm": "control",
+      "candidate_id": "dee6ffc163d2a02419d4d7e6",
+      "domain": "agent-control-planes",
+      "event_id": "abbae0fc7371db39499c43b6",
+      "human_labels": {
+        "evidence_supported": null,
+        "important": null,
+        "preferred_over_control": null,
+        "relevant": null,
+        "reviewed_at_utc": null,
+        "reviewer_notes": null
+      },
+      "route_status": "ROUTED_ALL_SIX_COMMANDS"
+    },
+    {
+      "arm": "control",
+      "candidate_id": "741504b4d9685353877972a3",
+      "domain": "agent-control-planes",
+      "event_id": "2188cad3e7cb676f78234d0a",
+      "human_labels": {
+        "evidence_supported": null,
+        "important": null,
+        "preferred_over_control": null,
+        "relevant": null,
+        "reviewed_at_utc": null,
+        "reviewer_notes": null
+      },
+      "route_status": "ROUTED_ALL_SIX_COMMANDS"
+    },
+    {
+      "arm": "control",
+      "candidate_id": "6121add4ccd715fb48c8d737",
+      "domain": "agent-control-planes",
+      "event_id": "b265a447339d5bc9297b84c6",
+      "human_labels": {
+        "evidence_supported": null,
+        "important": null,
+        "preferred_over_control": null,
+        "relevant": null,
+        "reviewed_at_utc": null,
+        "reviewer_notes": null
+      },
+      "route_status": "ROUTED_ALL_SIX_COMMANDS"
+    },
+    {
+      "arm": "control",
+      "candidate_id": "f0fcb0b880f879b32cf5a7c3",
+      "domain": "agent-control-planes",
+      "event_id": "26de48dab8ec1a54e28eae5c",
+      "human_labels": {
+        "evidence_supported": null,
+        "important": null,
+        "preferred_over_control": null,
+        "relevant": null,
+        "reviewed_at_utc": null,
+        "reviewer_notes": null
+      },
+      "route_status": "ROUTED_ALL_SIX_COMMANDS"
+    },
+    {
+      "arm": "treatment",
+      "candidate_id": "7fcebf9522ade1e1f3d0b624",
+      "domain": "agent-control-planes",
+      "event_id": "f308600a2110b710808979dc",
+      "human_labels": {
+        "evidence_supported": null,
+        "important": null,
+        "preferred_over_control": null,
+        "relevant": null,
+        "reviewed_at_utc": null,
+        "reviewer_notes": null
+      },
+      "route_status": "ROUTED_ALL_SIX_COMMANDS"
+    },
+    {
+      "arm": "treatment",
+      "candidate_id": "58b4576ef676691ce728a843",
+      "domain": "agent-control-planes",
+      "event_id": "4914a0b85ae5ed5582919b13",
+      "human_labels": {
+        "evidence_supported": null,
+        "important": null,
+        "preferred_over_control": null,
+        "relevant": null,
+        "reviewed_at_utc": null,
+        "reviewer_notes": null
+      },
+      "route_status": "ROUTED_ALL_SIX_COMMANDS"
+    },
+    {
+      "arm": "treatment",
+      "candidate_id": "2752457b110351841d646102",
+      "domain": "agent-control-planes",
+      "event_id": "66ae614893980ca101493598",
+      "human_labels": {
+        "evidence_supported": null,
+        "important": null,
+        "preferred_over_control": null,
+        "relevant": null,
+        "reviewed_at_utc": null,
+        "reviewer_notes": null
+      },
+      "route_status": "SCREENED_OUT_FOR_BUDGET"
+    },
+    {
+      "arm": "treatment",
+      "candidate_id": "7122150191523124fe77a4e2",
+      "domain": "agent-control-planes",
+      "event_id": "3645555764e25755a5c40cb8",
+      "human_labels": {
+        "evidence_supported": null,
+        "important": null,
+        "preferred_over_control": null,
+        "relevant": null,
+        "reviewed_at_utc": null,
+        "reviewer_notes": null
+      },
+      "route_status": "SCREENED_OUT_FOR_BUDGET"
+    },
+    {
+      "arm": "unassigned",
+      "candidate_id": "e8df6a4fe25fa6ab8a7db28a",
+      "domain": "distributed-training",
+      "event_id": "51120b0e78b12bebe4807a00",
+      "human_labels": {
+        "evidence_supported": null,
+        "important": null,
+        "preferred_over_control": null,
+        "relevant": null,
+        "reviewed_at_utc": null,
+        "reviewer_notes": null
+      },
+      "route_status": "DOMAIN_INCOMPLETE"
+    },
+    {
+      "arm": "unassigned",
+      "candidate_id": "bed1678f8399eef8c7ff2ad4",
+      "domain": "distributed-training",
+      "event_id": "f89bf02d0ab59496ce0722f6",
+      "human_labels": {
+        "evidence_supported": null,
+        "important": null,
+        "preferred_over_control": null,
+        "relevant": null,
+        "reviewed_at_utc": null,
+        "reviewer_notes": null
+      },
+      "route_status": "DOMAIN_INCOMPLETE"
+    },
+    {
+      "arm": "unassigned",
+      "candidate_id": "6df15db53554f3703671898e",
+      "domain": "rag-memory",
+      "event_id": "f96863aaf167282a8abf8138",
+      "human_labels": {
+        "evidence_supported": null,
+        "important": null,
+        "preferred_over_control": null,
+        "relevant": null,
+        "reviewed_at_utc": null,
+        "reviewer_notes": null
+      },
+      "route_status": "DOMAIN_INCOMPLETE"
+    },
+    {
+      "arm": "unassigned",
+      "candidate_id": "be272bc6d57229117bed0b2a",
+      "domain": "rag-memory",
+      "event_id": "1e552b53bc78af83b6a7ab05",
+      "human_labels": {
+        "evidence_supported": null,
+        "important": null,
+        "preferred_over_control": null,
+        "relevant": null,
+        "reviewed_at_utc": null,
+        "reviewer_notes": null
+      },
+      "route_status": "DOMAIN_INCOMPLETE"
+    },
+    {
+      "arm": "unassigned",
+      "candidate_id": "766169daef700b3f3bc584f1",
+      "domain": "rag-memory",
+      "event_id": "2d59e987c0219adcdcc6bc9b",
+      "human_labels": {
+        "evidence_supported": null,
+        "important": null,
+        "preferred_over_control": null,
+        "relevant": null,
+        "reviewed_at_utc": null,
+        "reviewer_notes": null
+      },
+      "route_status": "DOMAIN_INCOMPLETE"
+    },
+    {
+      "arm": "unassigned",
+      "candidate_id": "f660e18a3f0cb607dc3f409c",
+      "domain": "rag-memory",
+      "event_id": "52348e66fd21d3487b7d7569",
+      "human_labels": {
+        "evidence_supported": null,
+        "important": null,
+        "preferred_over_control": null,
+        "relevant": null,
+        "reviewed_at_utc": null,
+        "reviewer_notes": null
+      },
+      "route_status": "DOMAIN_INCOMPLETE"
+    },
+    {
+      "arm": "unassigned",
+      "candidate_id": "8014c3c081d42f4a60c569f5",
+      "domain": "rag-memory",
+      "event_id": "6e8a06229c5b50c1450ede1e",
+      "human_labels": {
+        "evidence_supported": null,
+        "important": null,
+        "preferred_over_control": null,
+        "relevant": null,
+        "reviewed_at_utc": null,
+        "reviewer_notes": null
+      },
+      "route_status": "DOMAIN_INCOMPLETE"
+    },
+    {
+      "arm": "unassigned",
+      "candidate_id": "01017280513bf127531113c3",
+      "domain": "rag-memory",
+      "event_id": "d03fc73fd9c054fd5523a6b4",
+      "human_labels": {
+        "evidence_supported": null,
+        "important": null,
+        "preferred_over_control": null,
+        "relevant": null,
+        "reviewed_at_utc": null,
+        "reviewer_notes": null
+      },
+      "route_status": "DOMAIN_INCOMPLETE"
+    },
+    {
+      "arm": "control",
+      "candidate_id": "11f841e48b2573c34accc616",
+      "domain": "aux",
+      "event_id": "1cd01b15863e291ad4ce315f",
+      "human_labels": {
+        "evidence_supported": null,
+        "important": null,
+        "preferred_over_control": null,
+        "relevant": null,
+        "reviewed_at_utc": null,
+        "reviewer_notes": null
+      },
+      "route_status": "ROUTED_ALL_SIX_COMMANDS"
+    },
+    {
+      "arm": "control",
+      "candidate_id": "9f94ad4e29062d99f4009b90",
+      "domain": "aux",
+      "event_id": "9a8fde6cfa9ab68cee22829c",
+      "human_labels": {
+        "evidence_supported": null,
+        "important": null,
+        "preferred_over_control": null,
+        "relevant": null,
+        "reviewed_at_utc": null,
+        "reviewer_notes": null
+      },
+      "route_status": "ROUTED_ALL_SIX_COMMANDS"
+    },
+    {
+      "arm": "control",
+      "candidate_id": "c55859795b26bcb17156d20e",
+      "domain": "aux",
+      "event_id": "5e5a84662a260fee9c9b3bd5",
+      "human_labels": {
+        "evidence_supported": null,
+        "important": null,
+        "preferred_over_control": null,
+        "relevant": null,
+        "reviewed_at_utc": null,
+        "reviewer_notes": null
+      },
+      "route_status": "ROUTED_ALL_SIX_COMMANDS"
+    },
+    {
+      "arm": "control",
+      "candidate_id": "da028e70912ae21518a8ad10",
+      "domain": "aux",
+      "event_id": "45ef223b8f422a64ca30efae",
+      "human_labels": {
+        "evidence_supported": null,
+        "important": null,
+        "preferred_over_control": null,
+        "relevant": null,
+        "reviewed_at_utc": null,
+        "reviewer_notes": null
+      },
+      "route_status": "ROUTED_ALL_SIX_COMMANDS"
+    },
+    {
+      "arm": "treatment",
+      "candidate_id": "6a2b4f718b634f7e9168f01c",
+      "domain": "aux",
+      "event_id": "1f44494482baae16111a6892",
+      "human_labels": {
+        "evidence_supported": null,
+        "important": null,
+        "preferred_over_control": null,
+        "relevant": null,
+        "reviewed_at_utc": null,
+        "reviewer_notes": null
+      },
+      "route_status": "SCREENED_OUT_FOR_BUDGET"
+    },
+    {
+      "arm": "treatment",
+      "candidate_id": "198414fc9635c478642cc1fe",
+      "domain": "aux",
+      "event_id": "78933b32b9606b48c3c86a44",
+      "human_labels": {
+        "evidence_supported": null,
+        "important": null,
+        "preferred_over_control": null,
+        "relevant": null,
+        "reviewed_at_utc": null,
+        "reviewer_notes": null
+      },
+      "route_status": "SCREENED_OUT_FOR_BUDGET"
+    },
+    {
+      "arm": "treatment",
+      "candidate_id": "631d237a239bdde28f4a21eb",
+      "domain": "aux",
+      "event_id": "cba41f0395d50b9e1105caa6",
+      "human_labels": {
+        "evidence_supported": null,
+        "important": null,
+        "preferred_over_control": null,
+        "relevant": null,
+        "reviewed_at_utc": null,
+        "reviewer_notes": null
+      },
+      "route_status": "ROUTED_ALL_SIX_COMMANDS"
+    },
+    {
+      "arm": "treatment",
+      "candidate_id": "78fa06807c685cdd49c30395",
+      "domain": "aux",
+      "event_id": "7a8b85431c54289a512e05a5",
+      "human_labels": {
+        "evidence_supported": null,
+        "important": null,
+        "preferred_over_control": null,
+        "relevant": null,
+        "reviewed_at_utc": null,
+        "reviewer_notes": null
+      },
+      "route_status": "ROUTED_ALL_SIX_COMMANDS"
+    },
+    {
+      "arm": "control",
+      "candidate_id": "73e98afbca7cdac6f1fc617e",
+      "domain": "world-intelligence",
+      "event_id": "fb1376119946ad0d21eab568",
+      "human_labels": {
+        "evidence_supported": null,
+        "important": null,
+        "preferred_over_control": null,
+        "relevant": null,
+        "reviewed_at_utc": null,
+        "reviewer_notes": null
+      },
+      "route_status": "ROUTED_ALL_SIX_COMMANDS"
+    },
+    {
+      "arm": "control",
+      "candidate_id": "a5a288560dd62331b2259047",
+      "domain": "world-intelligence",
+      "event_id": "c341fd357ceac8103955ac5f",
+      "human_labels": {
+        "evidence_supported": null,
+        "important": null,
+        "preferred_over_control": null,
+        "relevant": null,
+        "reviewed_at_utc": null,
+        "reviewer_notes": null
+      },
+      "route_status": "ROUTED_ALL_SIX_COMMANDS"
+    },
+    {
+      "arm": "control",
+      "candidate_id": "d1200262580d33b6e04fcb19",
+      "domain": "world-intelligence",
+      "event_id": "13d65e88c5554dd62f3571a5",
+      "human_labels": {
+        "evidence_supported": null,
+        "important": null,
+        "preferred_over_control": null,
+        "relevant": null,
+        "reviewed_at_utc": null,
+        "reviewer_notes": null
+      },
+      "route_status": "ROUTED_ALL_SIX_COMMANDS"
+    },
+    {
+      "arm": "control",
+      "candidate_id": "8997484b019784efd825f53b",
+      "domain": "world-intelligence",
+      "event_id": "87c3e1b529d496ffd62a90db",
+      "human_labels": {
+        "evidence_supported": null,
+        "important": null,
+        "preferred_over_control": null,
+        "relevant": null,
+        "reviewed_at_utc": null,
+        "reviewer_notes": null
+      },
+      "route_status": "ROUTED_ALL_SIX_COMMANDS"
+    },
+    {
+      "arm": "treatment",
+      "candidate_id": "c7b2e1273423279011e41f8b",
+      "domain": "world-intelligence",
+      "event_id": "f8619cdae7852aeb3d2fac48",
+      "human_labels": {
+        "evidence_supported": null,
+        "important": null,
+        "preferred_over_control": null,
+        "relevant": null,
+        "reviewed_at_utc": null,
+        "reviewer_notes": null
+      },
+      "route_status": "ROUTED_ALL_SIX_COMMANDS"
+    },
+    {
+      "arm": "treatment",
+      "candidate_id": "e7a1351876d305f658e96b42",
+      "domain": "world-intelligence",
+      "event_id": "c21f56fdbca53bc23e9c065e",
+      "human_labels": {
+        "evidence_supported": null,
+        "important": null,
+        "preferred_over_control": null,
+        "relevant": null,
+        "reviewed_at_utc": null,
+        "reviewer_notes": null
+      },
+      "route_status": "SCREENED_OUT_FOR_BUDGET"
+    },
+    {
+      "arm": "treatment",
+      "candidate_id": "38812e2cd1317b275e7977de",
+      "domain": "world-intelligence",
+      "event_id": "f23a2a6f5170bf81c76f7c14",
+      "human_labels": {
+        "evidence_supported": null,
+        "important": null,
+        "preferred_over_control": null,
+        "relevant": null,
+        "reviewed_at_utc": null,
+        "reviewer_notes": null
+      },
+      "route_status": "SCREENED_OUT_FOR_BUDGET"
+    },
+    {
+      "arm": "treatment",
+      "candidate_id": "bb349818a9bf1d370bdc8bb1",
+      "domain": "world-intelligence",
+      "event_id": "db900d0832e7a069db2850fc",
+      "human_labels": {
+        "evidence_supported": null,
+        "important": null,
+        "preferred_over_control": null,
+        "relevant": null,
+        "reviewed_at_utc": null,
+        "reviewer_notes": null
+      },
+      "route_status": "ROUTED_ALL_SIX_COMMANDS"
+    }
+  ],
+  "precision": null,
+  "recall": null,
+  "run_attempt": 1,
+  "run_id": "42842942386",
+  "schema_version": "1.0"
+}

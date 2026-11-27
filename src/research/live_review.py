@@ -67,6 +67,7 @@ class Evidence(Strict):
     primary: bool = False
     fresh: bool = True
     content_hash: str | None = None
+    source_type: str = 'unknown'
     @model_validator(mode='after')
     def valid(self):
         canonical(self.url)
@@ -179,7 +180,8 @@ def from_items(items, topics):
         ev = Evidence(id=ref.id, url=ref.url, title=ref.title, publisher=ref.publisher,
                       excerpt=ref.excerpt, language=ref.language, language_basis=ref.language_basis,
                       discovery_language=ref.discovery_language, published_at=None if item.source_type.value == 'gdelt' else ref.published_at_utc,
-                      retrieved_at=ref.fetched_at_utc, primary=ref.primary, content_hash=ref.content_hash)
+                      retrieved_at=ref.fetched_at_utc, primary=ref.primary, content_hash=ref.content_hash,
+                      source_type=item.source_type.value)
         result.append(Candidate(id=cid, event_id=event_identity(key), title=ref.title, url=key,
                                 evidence=[ev], duplicate_of=duplicate,
                                 matched_topics=[t for t in topics if t.lower() in (ref.title + ' ' + ref.excerpt).lower()]))
