@@ -9,22 +9,14 @@
       "name": "EXIST",
       "url": "https://www.exist.de/",
       "official_domains": ["exist.de"],
-      "related_urls": ["https://www.exist.de/DE/Programm/Uebersicht/uebersicht.html"],
-      "legacy": {
-        "verbatim_fragments": ["EXIST Startup Grant", "https://exist.de/"],
-        "deadline_status": "continuous_or_call_based"
-      }
+      "related_urls": ["https://www.exist.de/DE/Programm/Uebersicht/uebersicht.html"]
     },
     {
       "key": "bpw-berlin-brandenburg",
       "name": "BPW Berlin-Brandenburg",
       "url": "https://www.b-p-w.de/",
       "official_domains": ["b-p-w.de"],
-      "related_urls": ["https://www.b-p-w.de/termine-wettbewerb"],
-      "legacy": {
-        "verbatim_fragments": ["Der Businessplan-Wettbewerb Berlin-Brandenburg (BPW)", "https://www.b-p-w.de/"],
-        "deadline_status": "phased_competition"
-      }
+      "related_urls": ["https://www.b-p-w.de/termine-wettbewerb"]
     }
   ]
 }

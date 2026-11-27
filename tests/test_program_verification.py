@@ -19,7 +19,7 @@ def check(html, record=None, url=None):
 
 
 def test_preserve_both_exact_legacy_fragments():
-    seeds = json.loads((ROOT / "config/program-sources.json").read_text())["sources"]
+    seeds = [s for s in json.loads((ROOT / "config/program-sources.json").read_text())["sources"] if "legacy" in s]
     assert seeds[0]["legacy"]["verbatim_fragments"] == ["Kilo Health", "https://incubator.kilo.health/", "https://ventures.kilo.health/", "2025-02-01"]
     kilo, kaos = [seed_record(s, NOW.isoformat()) for s in seeds]
     assert kilo.deadline is None and kilo.application_status == "unknown"
