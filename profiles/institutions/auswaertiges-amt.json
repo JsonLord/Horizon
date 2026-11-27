@@ -1,0 +1,80 @@
+{
+  "schema_version": "1.0",
+  "profile_id": "institutions/auswaertiges-amt",
+  "mode": "institution_watch",
+  "name": "Auswaertiges Amt",
+  "enabled": true,
+  "topics": [
+    "Aussen- und Europapolitik",
+    "Europapolitik",
+    "Sicherheitspolitik"
+  ],
+  "regions": [
+    "Europe",
+    "Germany"
+  ],
+  "languages": [
+    "de",
+    "en"
+  ],
+  "queries": [
+    {
+      "source": "google_news",
+      "text": "site:auswaertiges-amt.de/de/aussenpolitik",
+      "language": "de",
+      "country": "DE",
+      "topic": "Aussen- und Europapolitik",
+      "region": "Germany"
+    },
+    {
+      "source": "google_news",
+      "text": "\"Auswaertiges Amt\" Europapolitik Aussenpolitik",
+      "language": "de",
+      "country": "DE",
+      "topic": "Europapolitik",
+      "region": "Europe"
+    },
+    {
+      "source": "gdelt",
+      "text": "\"Auswaertiges Amt\" foreign policy Europe",
+      "language": "english",
+      "topic": "Aussen- und Europapolitik",
+      "region": "Europe"
+    }
+  ],
+  "sources": [
+    "gdelt",
+    "google_news"
+  ],
+  "schedule_hint": "daily",
+  "lookback_hours": 48,
+  "max_items": 40,
+  "max_queries": 4,
+  "ranking": {
+    "mode": "institution_relevance",
+    "minimum_score": 0
+  },
+  "output": {
+    "languages": [
+      "de",
+      "en"
+    ],
+    "markdown": true,
+    "json": true,
+    "changes": true
+  },
+  "institution": {
+    "id": "auswaertiges-amt",
+    "names": [
+      "Auswaertiges Amt",
+      "Federal Foreign Office"
+    ],
+    "aliases": [
+      "AA"
+    ],
+    "official_domains": [
+      "auswaertiges-amt.de"
+    ],
+    "official_feeds": []
+  }
+}
