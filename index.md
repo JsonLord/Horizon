@@ -19,28 +19,28 @@ Welcome to [Horizon](https://github.com/JsonLord/Horizon), an AI-driven multi-st
     <h3 style="margin-top: 0;">🇪🇺 European Conflicts & AA</h3>
     <p style="font-size: 0.9em; color: #586069;"><strong>Branch:</strong> <code>feature/news-european-conflicts-auswaertiges-amt</code></p>
     <p>Monitoring European state-level geopolitical tensions, Baltic/North Sea critical undersea infrastructure alerts, Eastern European border deterrence, and official <strong>Auswärtiges Amt</strong> statements.</p>
-    <p><a href="{{ '/2026/11/27/european-conflicts-and-auswaertiges-amt.html' | relative_url }}" style="font-weight: bold;">Read Foreign Policy Briefing &rarr;</a></p>
+    <p><a href="{{ '/news/2026/11/27/european-conflicts-and-auswaertiges-amt.html' | relative_url }}" style="font-weight: bold;">Read Foreign Policy Briefing &rarr;</a></p>
   </div>
 
   <div style="border: 1px solid #e1e4e8; border-radius: 8px; padding: 16px; background: #fafbfc;">
     <h3 style="margin-top: 0;">🚀 EXIST & BPW Berlin</h3>
     <p style="font-size: 0.9em; color: #586069;"><strong>Branch:</strong> <code>feature/programs-exist-bpw</code></p>
     <p>Founder intelligence tracking <strong>EXIST-Gründerstipendium</strong> (€1k–€3k/mo + €30k material), EXIST-Forschungstransfer Phase I/II, and <strong>BPW Berlin-Brandenburg</strong> 3-phase competition milestones and winning cases.</p>
-    <p><a href="{{ '/2026/11/27/exist-and-bpw-founder-intelligence.html' | relative_url }}" style="font-weight: bold;">Read Founder Intelligence &rarr;</a></p>
+    <p><a href="{{ '/programs/2026/11/27/exist-and-bpw-founder-intelligence.html' | relative_url }}" style="font-weight: bold;">Read Founder Intelligence &rarr;</a></p>
   </div>
 
   <div style="border: 1px solid #e1e4e8; border-radius: 8px; padding: 16px; background: #fafbfc;">
     <h3 style="margin-top: 0;">💰 Denmark / Germany / EU Funding</h3>
     <p style="font-size: 0.9em; color: #586069;"><strong>Branch:</strong> <code>feature/funding-dk-de-opportunities</code></p>
     <p>Structured funding catalog of <strong>83 discrete initiatives</strong> and 27 registered official HTTPS sources across Denmark (Innofounder, BII), Germany (IBB GründungsBONUS, KfW StartGeld), and EU (EIC Accelerator).</p>
-    <p><a href="{{ '/2026/11/27/funding-opportunities-dk-de-eu.html' | relative_url }}" style="font-weight: bold;">Read Funding Directory &rarr;</a></p>
+    <p><a href="{{ '/funding/2026/11/27/funding-opportunities-dk-de-eu.html' | relative_url }}" style="font-weight: bold;">Read Funding Directory &rarr;</a></p>
   </div>
 
   <div style="border: 1px solid #e1e4e8; border-radius: 8px; padding: 16px; background: #fafbfc;">
     <h3 style="margin-top: 0;">🧠 Two-Stage Benchmark & Gates</h3>
     <p style="font-size: 0.9em; color: #586069;"><strong>Branch:</strong> <code>feat/anti-headline-gate</code></p>
     <p>Evaluation of Horizon's two-stage relevance filtering on 33 held-out benchmark cases: <strong>6/6 gates passed</strong> (100% recall, 100% noise rejection) with Phase 3 anti-headline evidentiary depth enforcement.</p>
-    <p><a href="{{ '/2026/11/27/two-stage-benchmark-and-anti-headline.html' | relative_url }}" style="font-weight: bold;">Read Benchmark Evaluation &rarr;</a></p>
+    <p><a href="{{ '/research/2026/11/27/two-stage-benchmark-and-anti-headline.html' | relative_url }}" style="font-weight: bold;">Read Benchmark Evaluation &rarr;</a></p>
   </div>
 
 </div>
