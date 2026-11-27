@@ -1,0 +1,89 @@
+{
+  "schema_version": "1.0",
+  "profile_id": "world/european-conflicts",
+  "mode": "world_radar",
+  "name": "European State Conflicts",
+  "enabled": true,
+  "topics": [
+    "state conflict",
+    "security policy",
+    "defense alliances",
+    "territorial disputes",
+    "sanctions",
+    "peace negotiations"
+  ],
+  "regions": [
+    "Europe",
+    "Eastern Europe",
+    "Baltics",
+    "Balkans"
+  ],
+  "languages": [
+    "en",
+    "de",
+    "fr"
+  ],
+  "queries": [
+    {
+      "source": "google_news",
+      "text": "European state conflict security policy diplomacy",
+      "language": "en",
+      "country": "GB",
+      "topic": "state conflict",
+      "region": "Europe"
+    },
+    {
+      "source": "google_news",
+      "text": "Europäische Sicherheitspolitik Konflikt Diplomatie Verhandlungen",
+      "language": "de",
+      "country": "DE",
+      "topic": "security policy",
+      "region": "Europe"
+    },
+    {
+      "source": "google_news",
+      "text": "politique de sécurité européenne conflit négociations paix",
+      "language": "fr",
+      "country": "FR",
+      "topic": "state conflict",
+      "region": "Europe"
+    },
+    {
+      "source": "google_news",
+      "text": "EU sanctions defense sovereignty Eastern Europe",
+      "language": "en",
+      "country": "US",
+      "topic": "sanctions",
+      "region": "Eastern Europe"
+    },
+    {
+      "source": "gdelt",
+      "text": "European defense security conflict diplomacy",
+      "language": "english",
+      "topic": "state conflict",
+      "region": "Europe"
+    }
+  ],
+  "sources": [
+    "gdelt",
+    "google_news"
+  ],
+  "schedule_hint": "daily",
+  "lookback_hours": 48,
+  "max_items": 40,
+  "max_queries": 5,
+  "ranking": {
+    "mode": "keyword",
+    "minimum_score": 0
+  },
+  "output": {
+    "languages": [
+      "en",
+      "de",
+      "fr"
+    ],
+    "markdown": true,
+    "json": true,
+    "changes": true
+  }
+}
