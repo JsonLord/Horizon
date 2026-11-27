@@ -270,7 +270,16 @@ def provider_contract() -> dict[str, Any]:
 
 def _decision_payload(row, policy, domain: str | None = None):
     prev = get_comparison_context(domain, row) if domain else []
-    return payload_for(row, policy, prev)
+    payload = payload_for(row, policy, prev)
+    eq = evidence_quality(row)
+    payload['evidence_quality'] = eq['quality']
+    if eq.get('is_headline_only'):
+        context = list(payload.get('research_assumptions_not_eligibility', []))
+        context.append(
+            'Under-evidenced: evidence excerpts merely repeat headline without body text; abstain on unverified factual claims.'
+        )
+        payload['research_assumptions_not_eligibility'] = context
+    return payload
 
 
 def _candidate_evidence(row):

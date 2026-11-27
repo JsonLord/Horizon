@@ -129,8 +129,12 @@ def test_every_case_has_a_score_and_evidence_verdict(results):
 
 def test_evidence_quality_breakdown_covers_every_case(report):
     assert sum(report["evidence_quality"].values()) == 33
-    # Every insufficient-evidence case must be flagged as under-evidenced.
-    assert report["evidence_quality"].get("HEADLINE_ONLY", 0) >= 4
+    # Every insufficient-evidence case must be flagged as under-evidenced (HEADLINE_ONLY or WEAK).
+    eq = report["evidence_quality"]
+    under_evidenced = eq.get("HEADLINE_ONLY", 0) + eq.get("WEAK", 0) + eq.get("MISSING", 0)
+    assert under_evidenced >= 4
+    assert eq.get("HEADLINE_ONLY", 0) >= 2
+    assert eq.get("WEAK", 0) >= 2
 
 
 # --------------------------------------------------------------------------- #

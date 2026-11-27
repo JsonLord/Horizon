@@ -428,6 +428,21 @@ def evaluate_domain_completeness(candidates: List[Any], domain: str) -> Tuple[st
     return ('COMPLETE', f'Sufficient fresh candidates (8/8) and verified in-scope topical coverage.')
 
 
+def is_headline_repetition(excerpt: str, title: str) -> bool:
+    """Returns True if the excerpt is identical to, a substring of, or merely wraps the title."""
+    if not excerpt or not title:
+        return False
+    e = excerpt.casefold().strip()
+    t = title.casefold().strip()
+    if e == t:
+        return True
+    if len(e) >= 20 and e in t:
+        return True
+    if len(t) >= 20 and t in e and len(e) <= len(t) + 30:
+        return True
+    return False
+
+
 def evidence_quality(row: Any) -> Dict[str, Any]:
     """
     Evaluates evidence quality for a candidate to prevent headline-only claim support.
@@ -444,16 +459,24 @@ def evidence_quality(row: Any) -> Dict[str, Any]:
         }
 
     total_excerpt_len = 0
-    all_headline_only = True
+    has_substantive = False
+    headline_repeated = False
 
     for ev in evidence_list:
         excerpt = getattr(ev, 'excerpt', '').strip()
+        # Exclude anti-bot / challenge markers from being counted as valid evidence
+        if any(marker in excerpt.lower() for marker in (
+            'cf-chl-', 'verify you are human', 'checking your browser',
+            'enable javascript and cookies', 'just a moment...'
+        )):
+            continue
         total_excerpt_len += len(excerpt)
-        # Check if excerpt is just a repetition of the headline
-        if excerpt and excerpt.casefold() != title.casefold() and len(excerpt) > len(title) + 30:
-            all_headline_only = False
+        if is_headline_repetition(excerpt, title):
+            headline_repeated = True
+        elif len(excerpt) >= 40:
+            has_substantive = True
 
-    if all_headline_only:
+    if headline_repeated and not has_substantive:
         return {
             'quality': 'HEADLINE_ONLY',
             'has_article_excerpt': False,
@@ -461,7 +484,7 @@ def evidence_quality(row: Any) -> Dict[str, Any]:
             'reason': 'Evidence excerpts merely repeat the headline.'
         }
 
-    if total_excerpt_len < 100:
+    if total_excerpt_len < 100 or not has_substantive:
         return {
             'quality': 'WEAK',
             'has_article_excerpt': False,
@@ -475,6 +498,11 @@ def evidence_quality(row: Any) -> Dict[str, Any]:
         'is_headline_only': False,
         'reason': f'Verified article-level excerpt support ({total_excerpt_len} chars).'
     }
+
+
+def needs_primary_evidence(row: Any) -> bool:
+    """Returns True if the candidate lacks verified article-level evidence."""
+    return evidence_quality(row)['quality'] in ('HEADLINE_ONLY', 'WEAK', 'MISSING')
 
 
 class ComparisonContextItem(dict):
