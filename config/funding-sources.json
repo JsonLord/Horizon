@@ -1,8 +1,252 @@
 {
   "schema_version": "1.0",
   "sources": [
-    {"opportunity_id": "ibb-gruendungsbonus-plus", "provider": "IBB", "program": "GruendungsBONUS Plus", "official_domains": ["ibb.de", "ibb-business-team.de"], "url": "https://www.ibb.de/de/foerderprogramme/gruendungsbonus-plus.html"},
-    {"opportunity_id": "kfw-erp-startgeld", "provider": "KfW", "program": "ERP-StartGeld", "official_domains": ["kfw.de"], "url": "https://www.kfw.de/inlandsfoerderung/Unternehmen/Gr%C3%BCnden-Nachfolgen/F%C3%B6rderprodukte/ERP-Gr%C3%BCnderkredit-Startgeld-(067)/"},
-    {"opportunity_id": "eu-eic-accelerator", "provider": "EU", "program": "EIC-Accelerator", "official_domains": ["eic.ec.europa.eu", "ec.europa.eu"], "url": "https://eic.ec.europa.eu/eic-funding-opportunities/eic-accelerator_en"}
+    {
+      "opportunity_id": "bii-venture-lab",
+      "provider": "BioInnovation Institute",
+      "program": "BII Venture Lab",
+      "official_domains": [
+        "bii.dk"
+      ],
+      "url": "https://bii.dk/programs/venturelab/"
+    },
+    {
+      "opportunity_id": "eu-eic-accelerator",
+      "provider": "EU",
+      "program": "EIC-Accelerator",
+      "official_domains": [
+        "eic.ec.europa.eu",
+        "ec.europa.eu"
+      ],
+      "url": "https://eic.ec.europa.eu/eic-funding-opportunities/eic-accelerator_en"
+    },
+    {
+      "opportunity_id": "eureka-network-program",
+      "provider": "Eureka Network",
+      "program": "Eureka R&D Software & Tech",
+      "official_domains": [
+        "eurekanetwork.org"
+      ],
+      "url": "https://www.eurekanetwork.org/"
+    },
+    {
+      "opportunity_id": "f-rderung-innovativer-gr-ndungen-berline",
+      "provider": "Förderung",
+      "program": "Förderung innovativer Gründungen – Berliner Startup Stipendium / Promotion of innovative start-ups \\- Berlin Start-up Scholarship https://reaktor.berlin/accelerator/",
+      "official_domains": [
+        "reaktor.berlin"
+      ],
+      "url": "https://reaktor.berlin/accelerator/"
+    },
+    {
+      "opportunity_id": "ffe-mikrolegat",
+      "provider": "Fonden for Entreprenoerskab",
+      "program": "Mikrolegat",
+      "official_domains": [
+        "mikrolegat.dk",
+        "ffe-ye.dk"
+      ],
+      "url": "https://mikrolegat.dk/"
+    },
+    {
+      "opportunity_id": "founder-institute",
+      "provider": "Founder",
+      "program": "Founder Institute",
+      "official_domains": [
+        "fi.co"
+      ],
+      "url": "https://fi.co/"
+    },
+    {
+      "opportunity_id": "gruendungsdarlehen",
+      "provider": "Gruendungsdarlehen",
+      "program": "Gruendungsdarlehen",
+      "official_domains": [
+        "www\\.ibb.de"
+      ],
+      "url": "https://www\\.ibb.de/de/foerderprogramme/kmu-fonds-gruendung-wachstum.html"
+    },
+    {
+      "opportunity_id": "heyfunding-grant",
+      "provider": "Heyfunding",
+      "program": "Heyfunding Grant",
+      "official_domains": [
+        "heyfunding.dk"
+      ],
+      "url": "https://heyfunding.dk/grant"
+    },
+    {
+      "opportunity_id": "https-future4care-com",
+      "provider": "https://future4care.com/",
+      "program": "https://future4care.com/",
+      "official_domains": [
+        "future4care.com"
+      ],
+      "url": "https://future4care.com/"
+    },
+    {
+      "opportunity_id": "https-reaktor-berlin-private-program",
+      "provider": "https://reaktor.berlin/private-program/",
+      "program": "https://reaktor.berlin/private-program/",
+      "official_domains": [
+        "reaktor.berlin"
+      ],
+      "url": "https://reaktor.berlin/private-program/"
+    },
+    {
+      "opportunity_id": "https-www-dbu-de-foerderung-green-start-",
+      "provider": "https://www\\.dbu.de/foerderung/green-start-up/",
+      "program": "https://www\\.dbu.de/foerderung/green-start-up/",
+      "official_domains": [
+        "www\\.dbu.de"
+      ],
+      "url": "https://www\\.dbu.de/foerderung/green-start-up/"
+    },
+    {
+      "opportunity_id": "https-www-g4a-health",
+      "provider": "https://www\\.g4a.health/",
+      "program": "https://www\\.g4a.health/",
+      "official_domains": [
+        "www\\.g4a.health"
+      ],
+      "url": "https://www\\.g4a.health/"
+    },
+    {
+      "opportunity_id": "https-www-spinlab-co",
+      "provider": "https://www\\.spinlab.co/",
+      "program": "https://www\\.spinlab.co/",
+      "official_domains": [
+        "www\\.spinlab.co"
+      ],
+      "url": "https://www\\.spinlab.co/"
+    },
+    {
+      "opportunity_id": "https-www-startupbootcamp-org",
+      "provider": "https://www\\.startupbootcamp.org/",
+      "program": "https://www\\.startupbootcamp.org/",
+      "official_domains": [
+        "www\\.startupbootcamp.org"
+      ],
+      "url": "https://www\\.startupbootcamp.org/"
+    },
+    {
+      "opportunity_id": "https-www-unternehmertum-de-en",
+      "provider": "https://www\\.unternehmertum.de/en",
+      "program": "https://www\\.unternehmertum.de/en",
+      "official_domains": [
+        "www\\.unternehmertum.de"
+      ],
+      "url": "https://www\\.unternehmertum.de/en"
+    },
+    {
+      "opportunity_id": "https-www-weiberwirtschaft-de-home-mama",
+      "provider": "https://www\\.weiberwirtschaft.de/home/:",
+      "program": "https://www\\.weiberwirtschaft.de/home/: Mama",
+      "official_domains": [
+        "www\\.weiberwirtschaft.de"
+      ],
+      "url": "https://www\\.weiberwirtschaft.de/home/"
+    },
+    {
+      "opportunity_id": "ibb-gruendungsbonus-plus",
+      "provider": "IBB",
+      "program": "GruendungsBONUS Plus",
+      "official_domains": [
+        "ibb.de",
+        "ibb-business-team.de"
+      ],
+      "url": "https://www.ibb.de/de/foerderprogramme/gruendungsbonus-plus.html"
+    },
+    {
+      "opportunity_id": "ibb-investitionsbonus",
+      "provider": "IBB Business Team",
+      "program": "Berliner InvestitionsBONUS",
+      "official_domains": [
+        "ibb-business-team.de"
+      ],
+      "url": "https://www.ibb-business-team.de/en/berliner-investitionsbonus/"
+    },
+    {
+      "opportunity_id": "ilb-gruendung-innovativ",
+      "provider": "ILB",
+      "program": "Gruendung Innovativ",
+      "official_domains": [
+        "ilb.de"
+      ],
+      "url": "https://www.ilb.de/de/wirtschaft/zuschuesse/gruendung-innovativ-2022/"
+    },
+    {
+      "opportunity_id": "innovationsfonden-innobooster",
+      "provider": "Innovation Fund Denmark",
+      "program": "Innobooster",
+      "official_domains": [
+        "innovationsfonden.dk"
+      ],
+      "url": "https://innovationsfonden.dk/en/p/innobooster"
+    },
+    {
+      "opportunity_id": "innovationsfonden-innofounder",
+      "provider": "Innovation Fund Denmark",
+      "program": "Innofounder",
+      "official_domains": [
+        "innovationsfonden.dk"
+      ],
+      "url": "https://innovationsfonden.dk/en/p/innofounder"
+    },
+    {
+      "opportunity_id": "investitionsbank-berlin-social-club-berl",
+      "provider": "Investitionsbank",
+      "program": "Investitionsbank Berlin: Social Club Berlin Start",
+      "official_domains": [
+        "www\\.ibb.de"
+      ],
+      "url": "https://www\\.ibb.de/en/foerderprogramme/berlin-start.html"
+    },
+    {
+      "opportunity_id": "kfw-erp-startgeld",
+      "provider": "KfW",
+      "program": "ERP-StartGeld",
+      "official_domains": [
+        "kfw.de"
+      ],
+      "url": "https://www.kfw.de/inlandsfoerderung/Unternehmen/Gr%C3%BCnden-Nachfolgen/F%C3%B6rderprodukte/ERP-Gr%C3%BCnderkredit-Startgeld-(067)/"
+    },
+    {
+      "opportunity_id": "kmu-innovativ-bmbf",
+      "provider": "BMBF",
+      "program": "KMU-innovativ",
+      "official_domains": [
+        "kmu-innovativ.de",
+        "bmbf.de"
+      ],
+      "url": "https://www.kmu-innovativ.de/"
+    },
+    {
+      "opportunity_id": "mikromezzanin-deutschland",
+      "provider": "Mikromezzaninfonds Deutschland",
+      "program": "Mikromezzaninfonds",
+      "official_domains": [
+        "mikromezzaninfonds-deutschland.de"
+      ],
+      "url": "https://www.mikromezzaninfonds-deutschland.de/start.html#programm"
+    },
+    {
+      "opportunity_id": "qualifizierung-kulturwirtschaft",
+      "provider": "Qualifizierung",
+      "program": "Qualifizierung Kulturwirtschaft",
+      "official_domains": [
+        "ibb.de"
+      ],
+      "url": "https://www.ibb.de/de/foerderprogramme/qualifizierung-kulturwirtschaft.html"
+    },
+    {
+      "opportunity_id": "ufm-euopstart",
+      "provider": "UFM",
+      "program": "EUopSTART",
+      "official_domains": [
+        "ufm.dk"
+      ],
+      "url": "https://ufm.dk/forskning-og-innovation/tilskud-til-forskning-og-innovation/find-danske-tilskudsprogrammer/euopstart"
+    }
   ]
 }

@@ -1156,20 +1156,7 @@
     "Only config/funding-sources.json authorizes official source collection."
   ],
   "schema_version": "1.0",
-  "search_metrics": [
-    {
-      "source": "google_news",
-      "status": "ok"
-    },
-    {
-      "source": "google_news",
-      "status": "ok"
-    },
-    {
-      "source": "google_news",
-      "status": "ok"
-    }
-  ],
+  "search_metrics": [],
   "seed_document": "research/funding-de-eu/Funding DK (DE missing).md",
   "seed_sha256": "5a509f585d1e05eb996ab13bdff83064ea708f08db03ea4bfd79c22fe0d5ee65"
 }
